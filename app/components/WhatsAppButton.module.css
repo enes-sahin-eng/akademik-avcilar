@@ -1,0 +1,103 @@
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsappFloating {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, var(--accent-green), #128c7e);
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  animation: pulseRing 2.5s infinite ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.whatsappFloating:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 16px 35px rgba(37, 211, 102, 0.6);
+  background: linear-gradient(135deg, #26e66f, #159e8e);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-surface);
+  color: var(--accent-green);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #e8fdf0;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.onlineBadge {
+  position: absolute;
+  top: -4px;
+  right: 12px;
+  background-color: #00e676;
+  color: #0b4724;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .whatsappFloating {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .iconWrapper {
+    width: 32px;
+    height: 32px;
+  }
+}

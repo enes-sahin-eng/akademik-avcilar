@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "title": "مدرسة أكاديميك للغات - دورات اللغات في أفلار",
+    "description": "تعليم لغات بضمان المحادثة ببرامج معتمدة وخبرة 34 عاماً مع مدربين محليين وأجانب."
+  },
+  "navbar": {
+    "topAnnouncement": "بدأ خصم التسجيل المبكر بنسبة 30٪!",
+    "brandName": "AKADEMİK",
+    "brandSub": "INTERNATIONAL LANGUAGE SCHOOL",
+    "navGeneralEnglish": "اللغة الإنجليزية العامة",
+    "navExamCourses": "دورات الامتحانات الأكاديمية",
+    "navOtherLanguages": "لغات أخرى",
+    "navBranches": "فروعنا",
+    "navAbout": "معلومات عنا",
+    "navContact": "اتصال",
+    "selectLanguage": "اختر اللغة",
+    "weeklyProgram": "برنامج النشاط الأسبوعي",
+    "marquee1": "تصميمات إبداعية بعجينة السيراميك - المدرسة الصيفية 2026",
+    "marquee2": "المدرسة الصيفية 2026: ورشة عمل إطار الصور المزيّن بالخرز",
+    "marquee3": "فن الإيبرو بالمشط في المدرسة الصيفية 2026: لقاء مع الفن التقليدي",
+    "freePlacementTest": "اختبار تحديد المستوى مجاني"
+  },
+  "megaMenuGenelIngilizce": {
+    "col1": [
+      {
+        "title": "دورة اللغة الإنجليزية العامة",
+        "subtitle": "للمبتدئين",
+        "items": [
+          "التحضيري (Prep)",
+          "التحضيري بلس (Prep Plus)",
+          "أكاديميك إكسبريس (Academic Express)"
+        ]
+      },
+      {
+        "title": "دورة اللغة الإنجليزية الأكاديمية",
+        "subtitle": "للمتعلمين المتقدمين",
+        "items": [
+          "أكاديمي (Academic)",
+          "أكاديمي بلس (Academic Plus)",
+          "أكاديميك إكسبريس (Academic Express)"
+        ]
+      }
+    ],
+    "col2": [
+      {
+        "title": "دورة اللغة الإنجليزية للمدارس الابتدائية",
+        "subtitle": "لطلاب المدارس الابتدائية"
+      },
+      {
+        "title": "دورة اللغة الإنجليزية للمدارس المتوسطة",
+        "subtitle": "لطلاب المدارس المتوسطة"
+      },
+      {
+        "title": "دورة اللغة الإنجليزية للمدارس الثانوية",
+        "subtitle": "لطلاب المدارس الثانوية"
+      }
+    ],
+    "bottomLinks": [
+      {
+        "title": "دروس خاصة"
+      },
+      {
+        "title": "تدريب الشركات"
+      },
+      {
+        "title": "خدمات الترجمة"
+      }
+    ],
+    "promo": {
+      "title": "معروض للبيع الآن",
+      "button": "اشتري الآن"
+    }
+  },
+  "megaMenuSinav": {
+    "col1": [
+      {
+        "title": "YDS",
+        "subtitle": "للمهنة الأكاديمية",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "IELTS",
+        "subtitle": "تحديد مستوى اللغة الإنجليزية",
+        "icon": "Book"
+      },
+      {
+        "title": "YKS DİL (YDT)",
+        "subtitle": "لدراسة اللغة في الجامعة",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "iTEP",
+        "subtitle": "قياس كفاءتك اللغوية",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "GRE",
+        "subtitle": "للمهنة الأكاديمية بالخارج",
+        "icon": "GraduationCap"
+      }
+    ],
+    "col2": [
+      {
+        "title": "TESDAF",
+        "subtitle": "للتعليم العالي في ألمانيا",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "PROFICIENCY",
+        "subtitle": "لمن يريد تخطي المرحلة التحضيرية",
+        "icon": "Award"
+      },
+      {
+        "title": "YÖKDİL",
+        "subtitle": "للمهنة الأكاديمية",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "TOEFL",
+        "subtitle": "للراغبين في دراسة الماجستير",
+        "icon": "Trophy"
+      },
+      {
+        "title": "TOEIC",
+        "subtitle": "لامتحان الكفاءة",
+        "icon": "PenTool"
+      }
+    ],
+    "col3": [
+      {
+        "title": "GMAT",
+        "subtitle": "للمهنة الأكاديمية بالخارج",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "امتحان GOETHE",
+        "subtitle": "اعرف مستواك في اللغة الألمانية",
+        "icon": "Award"
+      },
+      {
+        "title": "ÖSD",
+        "subtitle": "للعمل والمهنة في ألمانيا",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "E-TEP",
+        "subtitle": "اختبار كفاءة اللغة الإنجليزية ذو الأربع مهارات",
+        "icon": "FileBadge"
+      }
+    ]
+  },
+  "megaMenuDigerDiller": {
+    "col1": [
+      {
+        "title": "دورة اللغة الإسبانية",
+        "subtitle": "للمبتدئين",
+        "icon": "Castle"
+      },
+      {
+        "title": "دورة اللغة الفرنسية",
+        "subtitle": "للمبتدئين",
+        "icon": "Building"
+      },
+      {
+        "title": "دورة اللغة الألمانية",
+        "subtitle": "للمبتدئين",
+        "icon": "Landmark"
+      },
+      {
+        "title": "دورة اللغة الإيطالية",
+        "subtitle": "للمبتدئين",
+        "icon": "Building2"
+      },
+      {
+        "title": "دورة اللغة الروسية",
+        "subtitle": "للمبتدئين",
+        "icon": "Snowflake"
+      }
+    ],
+    "col2": [
+      {
+        "title": "دورة اللغة العربية",
+        "subtitle": "للمبتدئين",
+        "icon": "Moon"
+      },
+      {
+        "title": "دورة اللغة الصينية",
+        "subtitle": "للمبتدئين",
+        "icon": "Globe2"
+      },
+      {
+        "title": "دورة اللغة الكورية",
+        "subtitle": "للمبتدئين",
+        "icon": "Monitor"
+      },
+      {
+        "title": "دورة اللغة اليابانية",
+        "subtitle": "للمبتدئين",
+        "icon": "MountainSnow"
+      },
+      {
+        "title": "دورة اللغة البرتغالية",
+        "subtitle": "للمبتدئين",
+        "icon": "Ship"
+      }
+    ],
+    "col3": [
+      {
+        "title": "دورة اللغة الهولندية",
+        "subtitle": "للمبتدئين",
+        "icon": "Wind"
+      },
+      {
+        "title": "دورة اللغة اللاتينية",
+        "subtitle": "للمبتدئين",
+        "icon": "Library"
+      },
+      {
+        "title": "دورة اللغة الفارسية",
+        "subtitle": "للمبتدئين",
+        "icon": "Sun"
+      },
+      {
+        "title": "دورة اللغة التركية",
+        "subtitle": "للمبتدئين",
+        "icon": "Coffee"
+      }
+    ],
+    "news": {
+      "verticalText": "أ ح د ث  ا ل أ خ ب ا ر",
+      "date": "23 يونيو 2023",
+      "title": "BAU X BOUN TRAIN'23",
+      "button": "اقرأ الخبر ←"
+    }
+  },
+  "megaMenuSubeler": {
+    "activeCampusesTitle": "الحرم الجامعي النشط",
+    "activeCampusesCol1": [
+      {
+        "name": "دورة اللغة الإنجليزية في كاديكوي"
+      },
+      {
+        "name": "دورة بورصة للغة الإنجليزية",
+        "badge": "مكان اختبار IELTS"
+      },
+      {
+        "name": "دورة أفجيلار للغة الإنجليزية"
+      },
+      {
+        "name": "دورة اسطنبول للغة الإنجليزية"
+      },
+      {
+        "name": "اسطنبول تشيكميكوي"
+      },
+      {
+        "name": "بورصة جوروكلي"
+      },
+      {
+        "name": "أنقرة",
+        "badge": "مكان اختبار IELTS"
+      }
+    ],
+    "activeCampusesCol2": [
+      {
+        "name": "دورة إزمير للغة الإنجليزية",
+        "badge": "مكان اختبار IELTS"
+      },
+      {
+        "name": "كوجالي إزميت"
+      },
+      {
+        "name": "تيكيرداغ تشورلو"
+      },
+      {
+        "name": "بورصة إنيغول"
+      },
+      {
+        "name": "بورصة يلدريم"
+      }
+    ],
+    "expandingTitle": "نحن بصدد توسيع شبكة مدارس اللغات الأكثر تأهيلاً في تركيا!",
+    "expandingCol1": [
+      {
+        "name": "بورصة عثمان غازي فومارا"
+      },
+      {
+        "name": "الحرم الجامعي الأمريكي"
+      },
+      {
+        "name": "كوتاهيا"
+      }
+    ],
+    "expandingCol2": [
+      {
+        "name": "دورة اسكيشهر للغة الإنجليزية"
+      },
+      {
+        "name": "بورصة كاراجابي"
+      }
+    ],
+    "promo": {
+      "verticalText": "ق ر ي ب ا",
+      "badge": "اسطنبول تشيكميكوي",
+      "title": "اسطنبول تشيكميكوي",
+      "phone": "0501 369 56 40",
+      "button1": "فحص الفرع ←",
+      "button2": "نموذج طلب معلومات الامتياز ←"
+    }
+  },
+  "megaMenuHakkimizda": [
+    {
+      "title": "منشوراتنا",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "تاريخنا",
+      "icon": "ScrollText"
+    },
+    {
+      "title": "لماذا نحن؟",
+      "icon": "BadgeCheck"
+    },
+    {
+      "title": "فرص العمل",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "المراجع",
+      "icon": "Star"
+    },
+    {
+      "title": "اتفاقيات الشركات",
+      "icon": "Handshake"
+    }
+  ],
+  "iletisim": {
+    "hero": {
+      "title": "اتصال",
+      "phoneLabel": "تعليم لغة محادثة مضمون",
+      "phone": "0850 305 05 16",
+      "whatsappBtn": "خط معلومات الواتساب",
+      "examBtn": "امتحان تحديد المستوى"
+    },
+    "formSection": {
+      "title": "نموذج الاتصال",
+      "desc": "إذا كنت ترغب في تلقي التعليم لدورة اللغة الإنجليزية أو دورة امتحان اللغة الإنجليزية من حرم أكاديميك للغات في اسطنبول، أنقرة، بورصة، إزمير، كوجالي، واسكيشهير، املأ نموذج الاتصال وسنتصل بك!"
+    },
+    "mapSection": {
+      "title": "المقر الرئيسي",
+      "address": "شارع ريهتيم. شارع رجائيزاده. رقم: 2/3 كاديكوي / اسطنبول"
+    },
+    "campuses": {
+      "title": "حرم أكاديمية اللغات الدولية",
+      "items": [
+        {
+          "name": "كاديكوي",
+          "label": "اللغة الإنجليزية",
+          "phone": "0216 330 1 909"
+        },
+        {
+          "name": "بورصة",
+          "label": "دورة اللغة الإنجليزية",
+          "phone": "0224 480 00 15"
+        },
+        {
+          "name": "أفجيلار",
+          "label": "اللغة الإنجليزية",
+          "phone": "0212 650 90 90"
+        },
+        {
+          "name": "اسطنبول",
+          "label": "اللغة الإنجليزية",
+          "phone": "0216 330 19 09"
+        },
+        {
+          "name": "اسطنبول",
+          "label": "تشيكميكوي",
+          "phone": "0501 369 56 40"
+        },
+        {
+          "name": "بورصة",
+          "label": "جوروكلي",
+          "phone": "0224 480 00 14"
+        },
+        {
+          "name": "أنقرة",
+          "label": "أنقرة",
+          "phone": "0312 433 99 99"
+        },
+        {
+          "name": "إزمير",
+          "label": "اللغة الإنجليزية",
+          "phone": "0850 305 05 16"
+        },
+        {
+          "name": "كوجالي",
+          "label": "إزميت",
+          "phone": "0545 116 4141"
+        },
+        {
+          "name": "تيكيرداغ",
+          "label": "تشورلو",
+          "phone": "0541 236 01 59"
+        },
+        {
+          "name": "بورصة",
+          "label": "إنيغول",
+          "phone": "0224 777 07 74"
+        },
+        {
+          "name": "بورصة",
+          "label": "يلدريم",
+          "phone": "0 224 342 01 23"
+        }
+      ],
+      "button": "تطبيق الحرم الجامعي"
+    },
+    "corporate": {
+      "title1": "العنوان التجاري:",
+      "value1": "ACADEMIC YABANCI DİL KURSLARI SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+      "title2": "عنوان العمل:",
+      "value2": "İHSANİYE MAH. CAN (110) SK. DÜNYA İŞ MERKEZİ NO: 2 /1 İÇ KAPI NO: 24 NİLÜFER / BURSA"
+    }
+  },
+  "footer": {
+    "campusesTitle": "الحرم الجامعي",
+    "programsTitle": "برامجنا التعليمية",
+    "languagesTitle": "لغات أخرى",
+    "newsletterTitle": "كن على اطلاع",
+    "newsletterDesc": "انضم إلى قائمتنا البريدية حتى لا تفوت أحدث الأخبار، فرص الخصم، والحملات من أكاديميك انترناشيونال",
+    "emailPlaceholder": "عنوان بريدك الإلكتروني",
+    "sendBtn": "إرسال",
+    "checkbox1": "أرغب في الاتصال بي عبر البريد الإلكتروني والرسائل النصية القصيرة بخصوص الإشعارات الخاصة والتحديثات والأخبار.",
+    "checkbox2": "لقد قرأت ووافقت على نص مبادئ قانون خصوصية الويب وحماية البيانات الشخصية",
+    "socialTitle": "تابعنا",
+    "socialDesc": "دع تجارب وأنشطة أكاديميك انترناشيونال تقع في تغذيتك!",
+    "customerServiceTitle": "خدمة العملاء",
+    "callNowBtn": "اتصل الان!",
+    "abroadCallText": "هل تتصل من الخارج؟",
+    "bottomLinks": [
+      "سياسة الخصوصية والأمان",
+      "اتفاقية المبيعات عن بعد",
+      "سياسة البيانات الشخصية",
+      "البنود والشروط"
+    ],
+    "copyright": "© 1992 - 2024 دورة أكاديميك الدولية للغات الأجنبية جميع الحقوق محفوظة.",
+    "partnersTitle": "الشركاء الذين يجعلوننا أقوياء",
+    "groupTitle": "مجموعة أكاديمية الدولية",
+    "designBy": "تصميم وتطوير بواسطة"
+  },
+
+  "homeContentSection": {
+    "happyHours": {
+      "title": "وقت خصم فلاش \"ساعات سعيدة\" المفيد",
+      "subtitle": "لا تفوت وقت الخصم!",
+      "days": "أيام",
+      "hours": "ساعات",
+      "minutes": "دقائق",
+      "btnText": "انقر للحصول على التفاصيل"
+    },
+    "article": {
+      "p1": "تحتل دورة أفجيلار أكاديميك إنترناشونال للغات المرتبة الأولى بين توصيات دورات اللغة الإنجليزية في أفجيلار، وتقدم فرصة للنجاح في الامتحانات مع برامج خاصة لجميع الأعمار. في حين أن تحسين المهارات اللغوية للطلاب من خلال أساليب التدريس الفعالة التي تركز على درجات الإنجاز العالية، فإن دورة اللغة المرموقة هذه تبرز كأفضل خيار لأولئك الذين يبحثون عن تعليم لغة إنجليزية عالي الجودة بين دورات اللغة الإنجليزية في أفجيلار.",
+      "h2": "دورة اللغة الإنجليزية أفجيلار: لماذا يجب أن تتعلم اللغة الإنجليزية؟",
+      "p2": "يدرك الأفراد والآباء الذين يبحثون عن دورة لغة إنجليزية في أفجيلار أن معرفة اللغة الإنجليزية أصبحت تقريبًا ضرورة في عالم اليوم. لا يمكننا الانتهاء من سرد مزايا معرفة اللغة الإنجليزية في كل من الحياة الشخصية والمهنية. إذا كنت ترغب أيضًا في تعلم اللغة الإنجليزية، فإن دورة أكاديميك إنترناشونال للغات، حيث يمكنك الحصول على تعليم جيد بين دورات اللغة الإنجليزية في أفجيلار، قد تكون بالضبط المكان الذي تبحث عنه. إذن، ما الذي يمكن أن يكون سبب تعلمك للغة الإنجليزية؟ فيما يلي بعض النقاط المهمة لجعلك تفكر وتحفزك في هذا الموضوع:",
+      "promoImgAlt": "هدية 1 جرام من الذهب - ابدأ العام الجديد مثل الذهب!",
+      "readMore": "انقر لمواصلة قراءة محتوى حرم دورة اللغة الإنجليزية في أفجيلار",
+      "readLess": "إخفاء المحتوى",
+      "expandedContent": [
+        {
+          "type": "p",
+          "text": "Her şeyden önce, İngilizce dünyanın en yaygın konuşulan dillerinden biridir. Küresel bir dil olmasının yanı sıra, İngilizce aynı zamanda iş dünyasının da ortak dilidir. Şirketler artık çalışanlarında İngilizce dil becerilerini bir gereklilik olarak görmektedir. Uluslararası firmalarda çalışmayı hedefliyorsanız, ya da kendi işinizi büyütüp yurt dışına açılmayı düşünüyorsanız, İngilizce bilmek sizin için çok önemli bir avantaj olacaktır. İngilizce bilginiz, sizi iş görüşmelerinde birkaç adım öne çıkarabilir."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursu sıralamasında listenin üst sırasında bulunan Akademik International Dil Kursu bu alandaki ihtiyaçlarınızı karşılamak için çeşitli kurs programları sunmaktadır. Akademik International Yabancı Dil Kursu, alanında deneyimli eğitmenleri ve son teknoloji kaynaklarıyla size etkili bir öğrenme deneyimi vaat etmektedir. Dil öğrenim sürecinizi hızlandırmak ve pratik yapmak için ideal bir ortam sağlayan okulumuz, size dört dil becerisinde (dinleme, okuma, yazma ve konuşma) yetkinlik kazandırmayı hedefler."
+        },
+        {
+          "type": "p",
+          "text": "Bunun yanı sıra, İngilizce bilmek akademik kariyerinizde de büyük bir rol oynayabilir. Yüksek lisans veya doktora gibi ileri eğitim fırsatları için genellikle İngilizce yeterlilik şartı aranmaktadır. Ayrıca, birçok uluslararası bilimsel makale İngilizce yazılmakta olduğundan, İngilizce bilginizle bu araştırmalara kolaylıkla ulaşabilir ve akademik çalışmalarınızı daha geniş bir perspektifle sürdürebilirsiniz. Avcılar İngilizce Kursları, bu alandaki becerilerinizi de geliştirmede size yardımcı olabilir."
+        },
+        {
+          "type": "p",
+          "text": "Eğitim ve iş haricinde, İngilizce bilmek seyahat ederken de büyük bir kolaylık sağlar. Yurtdışında bir destinasyonu ziyaret ederken yerel halkla iletişim kurabilmek ve daha derin bir kültürel deneyime sahip olmak için İngilizce bilmek çok işinize yarayacaktır. Turistik yerlerde en yaygın iletişim dili olan İngilizce, yurt dışı seyahatlerinizi rahat ve keyifli hale getirebilir. Avcılar İngilizce Kursu, bu tür pratik yaşam senaryolarına yönelik ders içerikleriyle, gerçek yaşamda ihtiyaç duyabileceğiniz dil becerilerini geliştirmenize imkan tanır."
+        },
+        {
+          "type": "p",
+          "text": "İngilizce öğrenmek pek çok açıdan değerlidir ve hayatınızı birçok alanda olumlu şekilde etkileyebilir. Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu olan Akademik International Yabancı Dil Kursu, bu yolculukta en iyi çözüm ortağınız olabilir. Kendinize yapacağınız bu kalıcı yatırımla, hem kariyerinizi hem de kişisel yaşamınızı zenginleştirebilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar İngilizce Kursu Fiyatları"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar ingilizce dil kurslarının fiyatları genel olarak 9500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu geniş fiyat aralığı, birçok faktörün bir araya gelmesiyle oluşmaktadır ve öğrencilerin ihtiyaçlarına göre en uygun seçeneği bulabilmelerine olanak tanımaktadır."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da İngilizce Kursu Fiyatlarını belirleyen çeşitli faktörler mevcuttur. Bunların başında kurs süresi gelir. Kısa süreli yoğun programlar genellikle daha ekonomikken, uzun vadeli ve kapsamlı eğitimler daha yüksek maliyetli olabilir. Eğitmen kalitesi de fiyatlandırmada önemli rol oynar. Deneyimli, ana dili İngilizce olan veya uluslararası sertifikalara sahip eğitmenlerin dersleri genellikle daha yüksek fiyatlıdır. Ayrıca, kurs materyalleri, kullanılan teknolojik altyapı ve öğrenme kaynaklarının çeşitliliği de fiyatları etkiler. Daha uygun fiyatlı seçenekler arayanlar için grup dersleri ve online eğitim alternatifleri bulunabilir. Ancak, en düşük fiyatlı kursun her zaman en iyi seçenek olmadığını unutmamak önemlidir. Avcılar'da İngilizce öğrenmek isteyenler, kendi bütçelerine, zamanlarına ve hedeflerine uygun birçok seçenek bulabilirler. Kalite, eğitmen deneyimi, kurs içeriği ve ek hizmetler gibi faktörleri göz önünde bulundurarak karar vermek uzun vadede daha faydalı olacaktır. Akademik International Yabancı Dil Kursu, uygun fiyatlarıyla dikkat çekerken, öğrencilerine ihtiyaçlarına göre özelleştirilmiş programlar sunarak uluslararası standartlarda dil öğrenme fırsatı da sağlıyor."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar Dil Kursu: Hangi Özelliklere Dikkat Etmelisiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da dil kursu seçerken bazı özelliklere dikkat etmek büyük önem taşımaktadır. Kursun resmi olarak tanınıp tanınmadığı ve eğitmenlerin gerekli yeterliliklere sahip olup olmadığı ilk kontrol edilmesi gerekenler arasındadır. Kaliteli bir dil kursu, genellikle deneyimli ve yetkin eğitmenler ile çalışır. Ayrıca, öğrenci geri bildirimleri ve başarı oranları da dikkate alınmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Dil öğrenme hedefleriniz ile seçeceğiniz kurs programının örtüşme durumunu da göz önünde bulundurmanız gereken önemli bir noktadır. Örneğin, TOEFL, IELTS gibi sınavlara hazırlık mı yapmak istiyorsunuz yoksa Genel İngilizce bilginizi mi geliştirmek istiyorsunuz? Ya da belki de akademik kariyeriniz için YKS-DİL (YDT) Hazırlık Kursu'na mı ihtiyacınız var? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olabilecek, özelleştirilmiş programlar sunan bir dil kursu arayışına girebilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Bu noktada, Akademik International Yabancı Dil Kursu modern eğitim teknikleri ve materyalleri ile ön plana çıkmaktadır. Eğitim programları, hangi seviyede olursanız olun, öğrenme sürecinizi etkili bir şekilde desteklemektedir. Özellikle, konuşma becerilerini geliştirme konusunda sunulan interaktif yöntemler, dil öğreniminde hızlı bir ilerleme kaydetmenizde büyük önem taşır. Unutmayın, dil öğrenimi uzun soluklu bir maratondur ve doğru rehberlik ile bu maratonu başarıyla tamamlayabilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar'da En İyi Dil Kursunu Nasıl Seçersiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursları arasından seçim yapmak, birçok seçenek olması sebebiyle zorlayıcı olabilir. Ancak, doğru kararı vermek için göz önünde bulundurmanız gereken bazı önemli faktörler var. Öncelikle, dil öğrenme hedeflerinizi net bir şekilde belirlemeniz gerekiyor. Sınav hazırlık kursu mu arıyorsunuz, yoksa genel dil bilginizi mi geliştirmek istiyorsunuz? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olacak programlar sunan kursları araştırabilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Kursun sunduğu eğitim programının içeriği, sınıf mevcutları, eğitim materyalleri ve sosyal etkinlikler gibi unsurlar, Avcılar'da En İyi İngilizce Kursu seçerken kararınızı etkileyecek önemli faktörlerdir. Dengeli bir müfredat, deneyimli eğitmenler, düşük sınıf mevcutları ve interaktif öğrenme materyalleri, dil öğrenme sürecinizi daha verimli ve keyifli hale getirecektir. Ayrıca, kursun sunduğu sosyal etkinlikler, dil pratiği yapma ve yeni insanlarla tanışma fırsatı sunarak öğrenme deneyiminizi zenginleştirecektir. Seçeneklerinizi değerlendirirken, daha önce kursa giden öğrencilerin yorumlarını okuyarak ve kurs yetkilileriyle iletişime geçerek daha detaylı bilgi edinmeyi unutmayın. Bu kriterleri göz önünde bulundurduğunuzda, Avcılar En İyi İngilizce Kursu ve Avcılar'ın En Çok Tavsiye Edilen Dil Kursu Akademik International Yabancı Dil Kursu gibi kapsamlı ve kaliteli eğitim sunan bir kursu tercih etmek sizin için doğru bir seçim olabilir."
+        }
+      ]
+    },
+    "faq": {
+      "title": "الأسئلة الأكثر شيوعًا حول دورة اللغة الإنجليزية في أفجيلار",
+      "desc": "إذا كنت تبحث عن دورة لغة إنجليزية في أفجيلار ولديك أسئلة في ذهنك، فأنت في المكان المناسب. لقد أجبنا على أكثر الأسئلة فضولًا حول دورة أكاديميك إنترناشونال للغات، وهي دورة اللغة الإنجليزية في أفجيلار، وإجاباتها التفصيلية لك.",
+      "items": [
+        {
+          "q": "هل تقدم دورة أكاديميك إنترناشونال للغات، أفضل دورة لغة إنجليزية في أفجيلار، برامج عطلة نهاية الأسبوع؟",
+          "a": "بصفتنا دورات اللغات الأجنبية الأكاديمية الدولية الأكثر توصية في أفجيلار، نواصل تعليمنا للغة الإنجليزية في عطلات نهاية الأسبوع، مع الأخذ في الاعتبار الجداول الزمنية المزدحمة لطلابنا في أيام الأسبوع. تمكن برامجنا التي تقام يومي السبت والأحد كلاً من المحترفين العاملين والطلاب من تحقيق أهدافهم في تعلم اللغة الإنجليزية. تم تشكيل هذه البرامج المرنة وفقًا لتفضيلات طلابنا مع فصول صباحية أو مسائية. تم تصميم دورات عطلة نهاية الأسبوع لدينا بمنهج مكثف وفعال، بهدف تحقيق تقدم كبير في وقت قصير."
+        },
+        {
+          "q": "هل يتم إجراء اختبار تحديد مستوى قبل الدورة؟",
+          "a": "بصفتنا دورات اللغات الأجنبية الأكاديمية الدولية، التي تقع في أعلى القائمة في تصنيفات أفضل دورات اللغات الأجنبية في أفجيلار، فإننا نجري اختبار تحديد مستوى قبل الدورة في فرعنا في أفجيلار. تم تصميم هذا الاختبار لتحديد مستويات اللغة الإنجليزية الحالية لطلابنا ووضعهم في الفصول الأكثر ملاءمة. يوفر امتحاننا تقييمًا شاملاً لقياس مهارات القراءة والكتابة والاستماع والتحدث. وبالتالي، يمكننا إنشاء البرنامج التعليمي الأكثر فعالية وفقًا لاحتياجات ومستوى اللغة الحالي لكل طالب. اختبار تحديد المستوى لدينا مجاني ويمكن إجراؤه عن طريق تحديد موعد قبل التسجيل في الدورة."
+        },
+        {
+          "q": "هل توجد دروس تجريبية في فرع دورة اللغة الإنجليزية في أفجيلار الخاص بكم؟",
+          "a": "تتوفر دروس تجريبية مجانية في فرع دورة اللغة الإنجليزية في أفجيلار الخاص بنا، ويمكنك المشاركة عن طريق تحديد موعد لجميع المستويات. في درسنا التجريبي، يمكنك تجربة بيئة الفصل الدراسي الحقيقية، ومقابلة معلمينا، وإلقاء نظرة فاحصة على منهجية دورتنا."
+        }
+      ]
+    },
+    "programsTitle": "البرامج التي تفتح في حرم دورة اللغة الإنجليزية في أفجيلار",
+    "leaderboard": {
+      "title": "لوحة فخرنا",
+      "subtitle": "نحن فخورون بطلابنا الذين حققوا النجاح",
+      "tabs": [
+        "IELTS",
+        "YDS",
+        "TOEFL",
+        "GOETHE",
+        "TESTDAF"
+      ],
+      "headers": {
+        "name": "الاسم واللقب",
+        "program": "برنامج",
+        "score": "أحرز هدفا"
+      },
+      "btnAll": "عرض اللوحة بأكملها"
+    },
+    "upcomingProgramsTable": {
+      "headers": [
+        "رمز المجموعة",
+        "تاريخ البدء",
+        "تاريخ الانتهاء",
+        "الحصة",
+        "تفاصيل"
+      ],
+      "statusAvailable": "متاح",
+      "statusFull": "ممتلئ",
+      "detailBtn": "عرض التفاصيل",
+      "programs": [
+        {
+          "code": "الدورة الشتوية التحضيرية 2026 (A1-A2)",
+          "start": "2026-01-19",
+          "end": "2026-03-16",
+          "status": "available"
+        },
+        {
+          "code": "أكاديميك إكسبريس الدورة الشتوية 2026 (B2)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "available"
+        },
+        {
+          "code": "أكاديميك للأطفال الفصل الدراسي (أطفال)",
+          "start": "2026-01-19",
+          "end": "2026-05-31",
+          "status": "available"
+        },
+        {
+          "code": "الدورة الشتوية التحضيرية 2026 (A1-A2)",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "الدورة الشتوية الألمانية A2 2026",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "الدورة الشتوية الألمانية A1 2026",
+          "start": "2026-01-24",
+          "end": "2026-04-12",
+          "status": "available"
+        },
+        {
+          "code": "الدورة الشتوية التحضيرية 2025 (A1-A2)",
+          "start": "2026-01-17",
+          "end": "2026-03-14",
+          "status": "available"
+        },
+        {
+          "code": "التحضيري بلس الدورة الشتوية 2026 (B1)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "full"
+        },
+        {
+          "code": "الدورة الشتوية الإسبانية A1 2026",
+          "start": "2026-01-24",
+          "end": "2026-04-19",
+          "status": "available"
+        }
+      ]
+    }
+  },
+  "heroSlider": {
+    "slides": [
+      { "id": 1, "image": "/slider1.webp" },
+      { "id": 2, "image": "/slider2.webp" },
+      { "id": 3, "image": "/slider3.webp" },
+      { "id": 4, "image": "/slider4.webp" },
+      { "id": 5, "image": "/slider5.webp" }
+    ]
+  },
+  "heroSliderForm": {
+    "title": "تعليم مجاني!",
+    "subtitle": "احصل على معلومات أولية للتعليم الآن!",
+    "namePlaceholder": "أدخل الاسم واللقب.",
+    "phonePlaceholder": "أدخل رقم هاتفك المحمول.",
+    "branchPlaceholder": "اختر الفرع.",
+    "submitBtn": "احصل على معلومات أولية الآن!",
+    "legal": "بملء نموذج المعلومات، أوافق على إخلاء المسؤولية القانونية / شروط الاستخدام."
+  },
+  "whatsapp": {
+    "onlineText": "متصل الآن",
+    "subtitle": "دعم مباشر 24/7",
+    "title": "خط معلومات الواتساب",
+    "message": "مرحباً، أود الحصول على معلومات حول دورات اللغة."
+  },
+  "leadForm": {
+    "title": "نموذج المعلومات الأولية",
+    "subtitle": "املأ النموذج الآن للحصول على معلومات مفصلة حول تدريبنا اللغوي المؤهل.",
+    "nameLabel": "الاسم واللقب",
+    "namePlaceholder": "أدخل اسمك ولقبك.",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "أدخل رقم هاتفك المحمول.",
+    "branchLabel": "الفرع الذي تهتم به",
+    "branchPlaceholder": "اختر أقرب فرع لك.",
+    "branchOptions": [
+      "دورة اللغة الإنجليزية كاديكوي",
+      "دورة اللغة الإنجليزية بورصة",
+      "دورة اللغة الإنجليزية أفجيلار",
+      "دورة اللغة الإنجليزية اسطنبول",
+      "اسطنبول جكمه كوي",
+      "بورصة غوروكل",
+      "أنقرة",
+      "دورة اللغة الإنجليزية إزمير",
+      "كوجالي إزميت",
+      "تيكيرداغ تشورلو",
+      "بورصة إنيغول",
+      "بورصة يلدريم"
+    ],
+    "submitButton": "احصل على المعلومات الآن",
+    "submitButtonSub": "تعليم اللغة بضمان التحدث",
+    "checkboxText": "عن طريق ملء نموذج المعلومات، أوافق على إخلاء المسؤولية القانونية / شروط الاستخدام.",
+    "countdownTitle": "حتى تنتهي فرص التسجيل المبكر",
+    "countdownDays": "أيام",
+    "countdownHours": "ساعات",
+    "countdownMins": "دقائق",
+    "floatingButton": "احصل على المعلومات",
+    "successMessage": "تم استلام طلبك، شكرًا لك."
+  },
+  "contactInfoBar": {
+    "phoneLabel": "تعليم لغة بضمان التحدث",
+    "phoneNumber": "0212 650 90 90",
+    "addressTitle": "عنواننا",
+    "addressText": "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+    "directionsButton": "احصل على الاتجاهات",
+    "directionsUrl": "https://maps.google.com/?q=Merkez,+Namık+Kemal+Cd.+Umut+İş+Merkezi+No:23+Kat:5,+34310+Avcılar/İstanbul"
+  },
+  "studentReviewsAndAwards": {
+    "reviewsTitle": "آراء طلابنا",
+    "reviewsSubtitle": "مع سنوات من الخبرة في تعليم اللغات الأجنبية، نحن فخورون وسعداء بأن نكون جزءًا من قصة تعليم اللغات الأجنبية لأكثر من 75,200 طالب بنسبة رضا طلاب تبلغ 97%...",
+    "videosTitle": "ماذا قال طلابنا؟",
+    "watchNow": "WATCH NOW!",
+    "awardsTitle": "The Best Language School Of Europe",
+    "reviews": [
+      {
+        "id": 1,
+        "text": "قبل التعرف على هذه الدورة، ذهبت إلى دورة أخرى، أدركت كم أضعت من الوقت. لم يكن هناك شيء قلته أتمنى من البداية إلى النهاية. شكرًا لمعلمتنا أوزنور على شرحها الواضح وصبرها في النقاط التي لم نفهمها.",
+        "author": "ميراي بورصالي",
+        "role": "أكاديمية / أكاديمي 2"
+      },
+      {
+        "id": 2,
+        "text": "أعتقد أن جودة المؤسسة أفضل بكثير مما تم ذكره. قضى المعلمون فترة معينة في الخارج ويتم تدريس الفصول بدون تعلم عن ظهر قلب، كما أنهم ودودون للغاية. شكرًا للجميع.",
+        "author": "سيفيل توبوز",
+        "role": "مصممة / أكاديمي 2"
+      },
+      {
+        "id": 3,
+        "text": "كانت المعلمة حُميراء حنونة ونشطة وصبورة للغاية، لم أشعر بأنني غريبة في فصولها. كان فصل المعلمة أوزنور سلسًا وواضحًا. أعتقد أنه كان مفيدًا جدًا لي لتحسين لغتي الإنجليزية.",
+        "author": "رابيا كوز",
+        "role": "طبيبة نفسية / تحضيري بلس"
+      },
+      {
+        "id": 4,
+        "text": "لقد ذهبت إلى العديد من الدورات حتى الآن، لكن هذه كانت الدورة التي استفدت منها أكثر. زادت ثقتي بنفسي في وقت قصير جدًا، فيما يتعلق باللغة الإنجليزية. بفضل المعلم أوتكو، حصلت على درجة YDS التي كنت أحتاجها لفترة طويلة. شكرًا لك.",
+        "author": "تولجا أراس",
+        "role": "طالب ماجستير"
+      }
+    ],
+    "videos": [
+      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
+      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
+      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
+      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
+      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+    ],
+    "awards": [
+      { "id": 1, "image": "/reward1.webp" },
+      { "id": 2, "image": "/reward2.webp" },
+      { "id": 3, "image": "/reward3.webp" },
+      { "id": 4, "image": "/reward4.webp" }
+    ]
+  }
+}

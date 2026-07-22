@@ -1,0 +1,14 @@
+.mapContainer {
+  width: 100%;
+  height: 250px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin-bottom: 24px;
+}
+
+.mapIframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

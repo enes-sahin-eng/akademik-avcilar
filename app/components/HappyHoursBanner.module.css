@@ -1,0 +1,131 @@
+.banner {
+  background: linear-gradient(135deg, var(--hover-red) 0%, var(--accent-red) 100%);
+  border-radius: 16px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(220, 38, 38, 0.2);
+  margin-bottom: 30px;
+}
+
+/* Background watermark style effect */
+.banner::before {
+  content: "HAPPY HOURS";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  font-size: 100px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 26px;
+  font-weight: 900;
+  margin: 0 0 24px 0;
+  background: #fff;
+  color: var(--accent-red);
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 8px;
+  transform: rotate(-2deg);
+  max-width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.timerGrid {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.timerBlock {
+  background: white;
+  color: var(--dropdown-bg);
+  padding: 12px 20px;
+  border-radius: 12px;
+  min-width: 80px;
+  flex: 1 1 auto;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.timerValue {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--accent-red);
+  line-height: 1;
+}
+
+.timerLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.btn {
+  background: white;
+  color: var(--accent-red);
+  border: none;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+  .banner {
+    padding: 20px 16px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .timerGrid {
+    gap: 8px;
+  }
+  .timerBlock {
+    min-width: 60px;
+    padding: 10px 8px;
+  }
+  .timerValue {
+    font-size: 24px;
+  }
+  .btn {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+  .banner::before {
+    font-size: 60px;
+  }
+}

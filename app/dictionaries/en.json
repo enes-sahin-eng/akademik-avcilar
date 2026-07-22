@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "title": "Akademik Language School - Avcılar Language Course",
+    "description": "Guaranteed speaking language education with native and qualified teachers backed by 34 years of experience."
+  },
+  "navbar": {
+    "topAnnouncement": "30% Early Bird Discount Has Started!",
+    "brandName": "AKADEMİK",
+    "brandSub": "INTERNATIONAL LANGUAGE SCHOOL",
+    "navGeneralEnglish": "General English",
+    "navExamCourses": "Academic Exam Courses",
+    "navOtherLanguages": "Other Languages",
+    "navBranches": "Our Branches",
+    "navAbout": "About Us",
+    "navContact": "Contact",
+    "selectLanguage": "Select Language",
+    "weeklyProgram": "Weekly Activity Program",
+    "marquee1": "Creative Designs with Ceramic Clay - Summer School 2026",
+    "marquee2": "Summer School 2026: Beaded Photo Frame Workshop",
+    "marquee3": "Comb Marbling at Summer School 2026: Meeting Traditional Art",
+    "freePlacementTest": "Free Placement Test"
+  },
+  "megaMenuGenelIngilizce": {
+    "col1": [
+      {
+        "title": "GENERAL ENGLISH COURSE",
+        "subtitle": "For Beginners",
+        "items": [
+          "Prep",
+          "Prep Plus",
+          "Academic Express"
+        ]
+      },
+      {
+        "title": "ACADEMIC ENGLISH COURSE",
+        "subtitle": "For Advanced Learners",
+        "items": [
+          "Academic",
+          "Academic Plus",
+          "Academic Express"
+        ]
+      }
+    ],
+    "col2": [
+      {
+        "title": "PRIMARY SCHOOL ENGLISH COURSE",
+        "subtitle": "For Primary Students"
+      },
+      {
+        "title": "MIDDLE SCHOOL ENGLISH COURSE",
+        "subtitle": "For Middle School Students"
+      },
+      {
+        "title": "HIGH SCHOOL ENGLISH COURSE",
+        "subtitle": "For High School Students"
+      }
+    ],
+    "bottomLinks": [
+      {
+        "title": "PRIVATE LESSONS"
+      },
+      {
+        "title": "CORPORATE TRAINING"
+      },
+      {
+        "title": "TRANSLATION SERVICES"
+      }
+    ],
+    "promo": {
+      "title": "NOW ON SALE",
+      "button": "Buy Now"
+    }
+  },
+  "megaMenuSinav": {
+    "col1": [
+      {
+        "title": "YDS",
+        "subtitle": "For Academic Career",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "IELTS",
+        "subtitle": "English Language Level Determination",
+        "icon": "Book"
+      },
+      {
+        "title": "YKS DİL (YDT)",
+        "subtitle": "To Study Language at University",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "iTEP",
+        "subtitle": "Measure Your Language Proficiency",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "GRE",
+        "subtitle": "For Academic Career Abroad",
+        "icon": "GraduationCap"
+      }
+    ],
+    "col2": [
+      {
+        "title": "TESDAF",
+        "subtitle": "For Higher Education in Germany",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "PROFICIENCY COURSE",
+        "subtitle": "For Those Who Want to Skip Prep",
+        "icon": "Award"
+      },
+      {
+        "title": "YÖKDİL",
+        "subtitle": "For Academic Career",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "TOEFL",
+        "subtitle": "For Those Seeking Master's Degree",
+        "icon": "Trophy"
+      },
+      {
+        "title": "TOEIC",
+        "subtitle": "For Proficiency Exam",
+        "icon": "PenTool"
+      }
+    ],
+    "col3": [
+      {
+        "title": "GMAT",
+        "subtitle": "For Academic Career Abroad",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "GOETHE EXAM",
+        "subtitle": "See Your German Level",
+        "icon": "Award"
+      },
+      {
+        "title": "ÖSD",
+        "subtitle": "For Job and Career in Germany",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "E-TEP",
+        "subtitle": "ÖSYM's Four-Skill English Proficiency Test",
+        "icon": "FileBadge"
+      }
+    ]
+  },
+  "megaMenuDigerDiller": {
+    "col1": [
+      {
+        "title": "SPANISH COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Castle"
+      },
+      {
+        "title": "FRENCH COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Building"
+      },
+      {
+        "title": "GERMAN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Landmark"
+      },
+      {
+        "title": "ITALIAN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Building2"
+      },
+      {
+        "title": "RUSSIAN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Snowflake"
+      }
+    ],
+    "col2": [
+      {
+        "title": "ARABIC COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Moon"
+      },
+      {
+        "title": "CHINESE COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Globe2"
+      },
+      {
+        "title": "KOREAN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Monitor"
+      },
+      {
+        "title": "JAPANESE COURSE",
+        "subtitle": "For Beginners",
+        "icon": "MountainSnow"
+      },
+      {
+        "title": "PORTUGUESE COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Ship"
+      }
+    ],
+    "col3": [
+      {
+        "title": "DUTCH COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Wind"
+      },
+      {
+        "title": "LATIN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Library"
+      },
+      {
+        "title": "PERSIAN COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Sun"
+      },
+      {
+        "title": "TURKISH COURSE",
+        "subtitle": "For Beginners",
+        "icon": "Coffee"
+      }
+    ],
+    "news": {
+      "verticalText": "L A T E S T  N E W S",
+      "date": "June 23, 2023",
+      "title": "BAU X BOUN TRAIN'23",
+      "button": "READ NEWS →"
+    }
+  },
+  "megaMenuSubeler": {
+    "activeCampusesTitle": "Active Campuses",
+    "activeCampusesCol1": [
+      {
+        "name": "Kadıköy English Language Course"
+      },
+      {
+        "name": "Bursa English Course",
+        "badge": "IELTS Test Venue"
+      },
+      {
+        "name": "Avcılar English Language Course"
+      },
+      {
+        "name": "Istanbul English Language Course"
+      },
+      {
+        "name": "Istanbul Çekmeköy"
+      },
+      {
+        "name": "Bursa Görükle"
+      },
+      {
+        "name": "Ankara",
+        "badge": "IELTS Test Venue"
+      }
+    ],
+    "activeCampusesCol2": [
+      {
+        "name": "Izmir English Language Course",
+        "badge": "IELTS Test Venue"
+      },
+      {
+        "name": "Kocaeli Izmit"
+      },
+      {
+        "name": "Tekirdağ Çorlu"
+      },
+      {
+        "name": "Bursa İnegöl"
+      },
+      {
+        "name": "Bursa Yıldırım"
+      }
+    ],
+    "expandingTitle": "We Are Expanding Turkey's Most Qualified Language School Network!",
+    "expandingCol1": [
+      {
+        "name": "Bursa Osmangazi Fomara"
+      },
+      {
+        "name": "America Campus"
+      },
+      {
+        "name": "Kütahya"
+      }
+    ],
+    "expandingCol2": [
+      {
+        "name": "Eskişehir English Course"
+      },
+      {
+        "name": "Bursa Karacabey"
+      }
+    ],
+    "promo": {
+      "verticalText": "C O M I N G  S O O N",
+      "badge": "Istanbul Çekmeköy",
+      "title": "Istanbul Çekmeköy",
+      "phone": "0501 369 56 40",
+      "button1": "EXAMINE BRANCH →",
+      "button2": "FRANCHISE INFO REQUEST FORM →"
+    }
+  },
+  "megaMenuHakkimizda": [
+    {
+      "title": "OUR PUBLICATIONS",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "HISTORY",
+      "icon": "ScrollText"
+    },
+    {
+      "title": "WHY US?",
+      "icon": "BadgeCheck"
+    },
+    {
+      "title": "CAREER OPPORTUNITIES",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "REFERENCES",
+      "icon": "Star"
+    },
+    {
+      "title": "CORPORATE AGREEMENTS",
+      "icon": "Handshake"
+    }
+  ],
+  "iletisim": {
+    "hero": {
+      "title": "Contact",
+      "phoneLabel": "GUARANTEED SPEAKING LANGUAGE EDUCATION",
+      "phone": "0850 305 05 16",
+      "whatsappBtn": "Whatsapp Info Line",
+      "examBtn": "Placement Test"
+    },
+    "formSection": {
+      "title": "Contact Form",
+      "desc": "If you want to receive education for English Course or Exam English Course from Academic Language Course Campuses in Istanbul, Ankara, Bursa, Izmir, Kocaeli, Eskişehir, fill out the Contact Form and let us call you!"
+    },
+    "mapSection": {
+      "title": "Headquarters",
+      "address": "Rıhtım Cad. Recaizade Sk. No:2/3 Kadıköy / ISTANBUL"
+    },
+    "campuses": {
+      "title": "Akademik International Language Schools Campuses",
+      "items": [
+        {
+          "name": "Kadıköy",
+          "label": "English Language",
+          "phone": "0216 330 1 909"
+        },
+        {
+          "name": "Bursa",
+          "label": "English Course",
+          "phone": "0224 480 00 15"
+        },
+        {
+          "name": "Avcılar",
+          "label": "English Language",
+          "phone": "0212 650 90 90"
+        },
+        {
+          "name": "Istanbul",
+          "label": "English Language",
+          "phone": "0216 330 19 09"
+        },
+        {
+          "name": "Istanbul",
+          "label": "Çekmeköy",
+          "phone": "0501 369 56 40"
+        },
+        {
+          "name": "Bursa",
+          "label": "Görükle",
+          "phone": "0224 480 00 14"
+        },
+        {
+          "name": "Ankara",
+          "label": "Ankara",
+          "phone": "0312 433 99 99"
+        },
+        {
+          "name": "Izmir",
+          "label": "English Language",
+          "phone": "0850 305 05 16"
+        },
+        {
+          "name": "Kocaeli",
+          "label": "Izmit",
+          "phone": "0545 116 4141"
+        },
+        {
+          "name": "Tekirdağ",
+          "label": "Çorlu",
+          "phone": "0541 236 01 59"
+        },
+        {
+          "name": "Bursa",
+          "label": "İnegöl",
+          "phone": "0224 777 07 74"
+        },
+        {
+          "name": "Bursa",
+          "label": "Yıldırım",
+          "phone": "0 224 342 01 23"
+        }
+      ],
+      "button": "CAMPUS APPLICATION"
+    },
+    "corporate": {
+      "title1": "COMMERCIAL TITLE:",
+      "value1": "ACADEMIC YABANCI DİL KURSLARI SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+      "title2": "BUSINESS ADDRESS:",
+      "value2": "İHSANİYE MAH. CAN (110) SK. DÜNYA İŞ MERKEZİ NO: 2 /1 İÇ KAPI NO: 24 NİLÜFER / BURSA"
+    }
+  },
+  "footer": {
+    "campusesTitle": "Campuses",
+    "programsTitle": "Our Education Programs",
+    "languagesTitle": "Other Languages",
+    "newsletterTitle": "Stay Informed",
+    "newsletterDesc": "Join our email list to not miss the latest news, discount opportunities, and campaigns from Akademik International",
+    "emailPlaceholder": "Your Email Address",
+    "sendBtn": "Send",
+    "checkbox1": "I would like to be contacted via email and SMS about special notifications, updates, and news.",
+    "checkbox2": "I have read and approve the Web Privacy and Personal Data Protection Law Principles text",
+    "socialTitle": "Follow Us",
+    "socialDesc": "Let Akademik International Experiences and Activities fall into your feed!",
+    "customerServiceTitle": "Customer Service",
+    "callNowBtn": "Call Now!",
+    "abroadCallText": "Calling from abroad?",
+    "bottomLinks": [
+      "Privacy and Security Policy",
+      "Distance Sales Agreement",
+      "Personal Data Policy",
+      "Terms and Conditions"
+    ],
+    "copyright": "© 1992 - 2024 Akademik International Foreign Language Course All Rights Reserved.",
+    "partnersTitle": "Partners That Make Us Strong",
+    "groupTitle": "Akademik International Group",
+    "designBy": "Design & Development By"
+  },
+
+  "homeContentSection": {
+    "happyHours": {
+      "title": "ADVANTAGEOUS \"HAPPY HOURS\" FLASH DISCOUNT TIME",
+      "subtitle": "DON't MISS THE DISCOUNT TIME!",
+      "days": "DAYS",
+      "hours": "HOURS",
+      "minutes": "MINS",
+      "btnText": "CLICK FOR DETAILS"
+    },
+    "article": {
+      "p1": "Ranking first among Avcılar English Course recommendations, Avcılar Akademik International Language Course offers an opportunity for success in exams with special programs for all ages. While improving students' language skills with effective teaching methods focused on high achievement scores, this prestigious language course stands out as the best choice for those seeking quality English education among Avcılar English Courses.",
+      "h2": "Avcılar English Course: Why Should You Learn English?",
+      "p2": "Individuals and parents searching for an English Course in Avcılar are aware that knowing English has almost become a necessity in today's world. We cannot finish counting the advantages of knowing English in both personal and professional life. If you also want to learn English, Akademik International Language Course, where you can get a quality education among Avcılar English Courses, might be exactly the place you are looking for. So, what could be your reason for learning English? Here are some important points to make you think and motivate you on this subject:",
+      "promoImgAlt": "1 Gram Gold Gift - Start the New Year Like Gold!",
+      "readMore": "Click to Continue Reading Avcılar English Language Course Campus Content",
+      "readLess": "Hide Content",
+      "expandedContent": [
+        {
+          "type": "p",
+          "text": "Her şeyden önce, İngilizce dünyanın en yaygın konuşulan dillerinden biridir. Küresel bir dil olmasının yanı sıra, İngilizce aynı zamanda iş dünyasının da ortak dilidir. Şirketler artık çalışanlarında İngilizce dil becerilerini bir gereklilik olarak görmektedir. Uluslararası firmalarda çalışmayı hedefliyorsanız, ya da kendi işinizi büyütüp yurt dışına açılmayı düşünüyorsanız, İngilizce bilmek sizin için çok önemli bir avantaj olacaktır. İngilizce bilginiz, sizi iş görüşmelerinde birkaç adım öne çıkarabilir."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursu sıralamasında listenin üst sırasında bulunan Akademik International Dil Kursu bu alandaki ihtiyaçlarınızı karşılamak için çeşitli kurs programları sunmaktadır. Akademik International Yabancı Dil Kursu, alanında deneyimli eğitmenleri ve son teknoloji kaynaklarıyla size etkili bir öğrenme deneyimi vaat etmektedir. Dil öğrenim sürecinizi hızlandırmak ve pratik yapmak için ideal bir ortam sağlayan okulumuz, size dört dil becerisinde (dinleme, okuma, yazma ve konuşma) yetkinlik kazandırmayı hedefler."
+        },
+        {
+          "type": "p",
+          "text": "Bunun yanı sıra, İngilizce bilmek akademik kariyerinizde de büyük bir rol oynayabilir. Yüksek lisans veya doktora gibi ileri eğitim fırsatları için genellikle İngilizce yeterlilik şartı aranmaktadır. Ayrıca, birçok uluslararası bilimsel makale İngilizce yazılmakta olduğundan, İngilizce bilginizle bu araştırmalara kolaylıkla ulaşabilir ve akademik çalışmalarınızı daha geniş bir perspektifle sürdürebilirsiniz. Avcılar İngilizce Kursları, bu alandaki becerilerinizi de geliştirmede size yardımcı olabilir."
+        },
+        {
+          "type": "p",
+          "text": "Eğitim ve iş haricinde, İngilizce bilmek seyahat ederken de büyük bir kolaylık sağlar. Yurtdışında bir destinasyonu ziyaret ederken yerel halkla iletişim kurabilmek ve daha derin bir kültürel deneyime sahip olmak için İngilizce bilmek çok işinize yarayacaktır. Turistik yerlerde en yaygın iletişim dili olan İngilizce, yurt dışı seyahatlerinizi rahat ve keyifli hale getirebilir. Avcılar İngilizce Kursu, bu tür pratik yaşam senaryolarına yönelik ders içerikleriyle, gerçek yaşamda ihtiyaç duyabileceğiniz dil becerilerini geliştirmenize imkan tanır."
+        },
+        {
+          "type": "p",
+          "text": "İngilizce öğrenmek pek çok açıdan değerlidir ve hayatınızı birçok alanda olumlu şekilde etkileyebilir. Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu olan Akademik International Yabancı Dil Kursu, bu yolculukta en iyi çözüm ortağınız olabilir. Kendinize yapacağınız bu kalıcı yatırımla, hem kariyerinizi hem de kişisel yaşamınızı zenginleştirebilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar İngilizce Kursu Fiyatları"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar ingilizce dil kurslarının fiyatları genel olarak 9500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu geniş fiyat aralığı, birçok faktörün bir araya gelmesiyle oluşmaktadır ve öğrencilerin ihtiyaçlarına göre en uygun seçeneği bulabilmelerine olanak tanımaktadır."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da İngilizce Kursu Fiyatlarını belirleyen çeşitli faktörler mevcuttur. Bunların başında kurs süresi gelir. Kısa süreli yoğun programlar genellikle daha ekonomikken, uzun vadeli ve kapsamlı eğitimler daha yüksek maliyetli olabilir. Eğitmen kalitesi de fiyatlandırmada önemli rol oynar. Deneyimli, ana dili İngilizce olan veya uluslararası sertifikalara sahip eğitmenlerin dersleri genellikle daha yüksek fiyatlıdır. Ayrıca, kurs materyalleri, kullanılan teknolojik altyapı ve öğrenme kaynaklarının çeşitliliği de fiyatları etkiler. Daha uygun fiyatlı seçenekler arayanlar için grup dersleri ve online eğitim alternatifleri bulunabilir. Ancak, en düşük fiyatlı kursun her zaman en iyi seçenek olmadığını unutmamak önemlidir. Avcılar'da İngilizce öğrenmek isteyenler, kendi bütçelerine, zamanlarına ve hedeflerine uygun birçok seçenek bulabilirler. Kalite, eğitmen deneyimi, kurs içeriği ve ek hizmetler gibi faktörleri göz önünde bulundurarak karar vermek uzun vadede daha faydalı olacaktır. Akademik International Yabancı Dil Kursu, uygun fiyatlarıyla dikkat çekerken, öğrencilerine ihtiyaçlarına göre özelleştirilmiş programlar sunarak uluslararası standartlarda dil öğrenme fırsatı da sağlıyor."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar Dil Kursu: Hangi Özelliklere Dikkat Etmelisiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da dil kursu seçerken bazı özelliklere dikkat etmek büyük önem taşımaktadır. Kursun resmi olarak tanınıp tanınmadığı ve eğitmenlerin gerekli yeterliliklere sahip olup olmadığı ilk kontrol edilmesi gerekenler arasındadır. Kaliteli bir dil kursu, genellikle deneyimli ve yetkin eğitmenler ile çalışır. Ayrıca, öğrenci geri bildirimleri ve başarı oranları da dikkate alınmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Dil öğrenme hedefleriniz ile seçeceğiniz kurs programının örtüşme durumunu da göz önünde bulundurmanız gereken önemli bir noktadır. Örneğin, TOEFL, IELTS gibi sınavlara hazırlık mı yapmak istiyorsunuz yoksa Genel İngilizce bilginizi mi geliştirmek istiyorsunuz? Ya da belki de akademik kariyeriniz için YKS-DİL (YDT) Hazırlık Kursu'na mı ihtiyacınız var? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olabilecek, özelleştirilmiş programlar sunan bir dil kursu arayışına girebilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Bu noktada, Akademik International Yabancı Dil Kursu modern eğitim teknikleri ve materyalleri ile ön plana çıkmaktadır. Eğitim programları, hangi seviyede olursanız olun, öğrenme sürecinizi etkili bir şekilde desteklemektedir. Özellikle, konuşma becerilerini geliştirme konusunda sunulan interaktif yöntemler, dil öğreniminde hızlı bir ilerleme kaydetmenizde büyük önem taşır. Unutmayın, dil öğrenimi uzun soluklu bir maratondur ve doğru rehberlik ile bu maratonu başarıyla tamamlayabilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar'da En İyi Dil Kursunu Nasıl Seçersiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursları arasından seçim yapmak, birçok seçenek olması sebebiyle zorlayıcı olabilir. Ancak, doğru kararı vermek için göz önünde bulundurmanız gereken bazı önemli faktörler var. Öncelikle, dil öğrenme hedeflerinizi net bir şekilde belirlemeniz gerekiyor. Sınav hazırlık kursu mu arıyorsunuz, yoksa genel dil bilginizi mi geliştirmek istiyorsunuz? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olacak programlar sunan kursları araştırabilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Kursun sunduğu eğitim programının içeriği, sınıf mevcutları, eğitim materyalleri ve sosyal etkinlikler gibi unsurlar, Avcılar'da En İyi İngilizce Kursu seçerken kararınızı etkileyecek önemli faktörlerdir. Dengeli bir müfredat, deneyimli eğitmenler, düşük sınıf mevcutları ve interaktif öğrenme materyalleri, dil öğrenme sürecinizi daha verimli ve keyifli hale getirecektir. Ayrıca, kursun sunduğu sosyal etkinlikler, dil pratiği yapma ve yeni insanlarla tanışma fırsatı sunarak öğrenme deneyiminizi zenginleştirecektir. Seçeneklerinizi değerlendirirken, daha önce kursa giden öğrencilerin yorumlarını okuyarak ve kurs yetkilileriyle iletişime geçerek daha detaylı bilgi edinmeyi unutmayın. Bu kriterleri göz önünde bulundurduğunuzda, Avcılar En İyi İngilizce Kursu ve Avcılar'ın En Çok Tavsiye Edilen Dil Kursu Akademik International Yabancı Dil Kursu gibi kapsamlı ve kaliteli eğitim sunan bir kursu tercih etmek sizin için doğru bir seçim olabilir."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Most Frequently Asked Questions About Avcılar English Course",
+      "desc": "If you are looking for an English course in Avcılar and have questions in your mind, you are in the right place. We have answered the most curious questions about Akademik International Language Course, which is the Avcılar English Language Course, and their detailed answers for you.",
+      "items": [
+        {
+          "q": "Does Akademik International Language Course, the Best English Course in Avcılar, offer weekend programs?",
+          "a": "As the Most Recommended Academic International Foreign Language Courses in Avcılar, we continue our English education on weekends, taking into account the busy weekday schedules of our students in Avcılar. Our programs held on Saturdays and Sundays enable both working professionals and students with busy school terms to achieve their English learning goals. These flexible programs are shaped according to our students' preferences with morning or afternoon classes. Our weekend courses are designed with an intensive and effective curriculum, aiming for students to make significant progress in a short time."
+        },
+        {
+          "q": "Is a placement test conducted before the course?",
+          "a": "As Akademik International Foreign Language Courses, which is at the top of the list in Avcılar's Best Foreign Language Course rankings, we conduct a pre-course placement test at our Avcılar branch. This test is designed to determine our students' current English levels and place them in the most appropriate classes. Our exam provides a comprehensive evaluation measuring reading, writing, listening, and speaking skills. Thus, we can create the most effective education program according to the needs and current language level of each student. Our placement test is free of charge and can be taken by appointment before course registration."
+        },
+        {
+          "q": "Are there trial lessons at your Avcılar English Course branch?",
+          "a": "Free trial lessons are available at our Avcılar English Course branch, and you can participate by making an appointment for all levels. In our trial lesson, you can experience the real classroom environment, meet our teachers, and get a closer look at our course methodology."
+        }
+      ]
+    },
+    "programsTitle": "Programs Opening at Our Avcılar English Language Course Campus",
+    "leaderboard": {
+      "title": "Our Pride Board",
+      "subtitle": "We Are Proud of Our Students Who Achieved Success",
+      "tabs": [
+        "IELTS",
+        "YDS",
+        "TOEFL",
+        "GOETHE",
+        "TESTDAF"
+      ],
+      "headers": {
+        "name": "Name Surname",
+        "program": "Program",
+        "score": "Score"
+      },
+      "btnAll": "View the Entire Board"
+    },
+    "upcomingProgramsTable": {
+      "headers": [
+        "Group Code",
+        "Start Date",
+        "End Date",
+        "Quota",
+        "Detail"
+      ],
+      "statusAvailable": "Available",
+      "statusFull": "Full",
+      "detailBtn": "View Details",
+      "programs": [
+        {
+          "code": "PREP 2026 WINTER SESSION (A1-A2)",
+          "start": "2026-01-19",
+          "end": "2026-03-16",
+          "status": "available"
+        },
+        {
+          "code": "ACADEMIC EXPRESS 2026 WINTER SESSION (B2)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "available"
+        },
+        {
+          "code": "AKADEMIK KIDS SCHOOL TERM (CHILDREN)",
+          "start": "2026-01-19",
+          "end": "2026-05-31",
+          "status": "available"
+        },
+        {
+          "code": "PREP 2026 WINTER SESSION (A1-A2)",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "GERMAN A2 2026 WINTER SESSION",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "GERMAN A1 2026 WINTER SESSION",
+          "start": "2026-01-24",
+          "end": "2026-04-12",
+          "status": "available"
+        },
+        {
+          "code": "PREP 2025 WINTER SESSION (A1-A2)",
+          "start": "2026-01-17",
+          "end": "2026-03-14",
+          "status": "available"
+        },
+        {
+          "code": "PREP PLUS 2026 WINTER SESSION (B1)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "full"
+        },
+        {
+          "code": "SPANISH A1 2026 WINTER SESSION",
+          "start": "2026-01-24",
+          "end": "2026-04-19",
+          "status": "available"
+        }
+      ]
+    }
+  },
+  "heroSlider": {
+    "slides": [
+      { "id": 1, "image": "/slider1.webp" },
+      { "id": 2, "image": "/slider2.webp" },
+      { "id": 3, "image": "/slider3.webp" },
+      { "id": 4, "image": "/slider4.webp" },
+      { "id": 5, "image": "/slider5.webp" }
+    ]
+  },
+  "heroSliderForm": {
+    "title": "FREE EDUCATION!",
+    "subtitle": "Get Preliminary Info for Education Now!",
+    "namePlaceholder": "Enter Name and Surname.",
+    "phonePlaceholder": "Enter your GSM Number.",
+    "branchPlaceholder": "Select Branch.",
+    "submitBtn": "GET PRELIMINARY INFO NOW!",
+    "legal": "By filling out the information form, I accept the Legal Disclaimer / Terms of Use."
+  },
+  "whatsapp": {
+    "onlineText": "Online",
+    "subtitle": "24/7 Live Support",
+    "title": "WhatsApp Info Line",
+    "message": "Hello, I would like to get information about language courses."
+  },
+  "leadForm": {
+    "title": "Preliminary Information Form",
+    "subtitle": "Fill out the form now for detailed information about our qualified language training.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your name and surname.",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your mobile phone number.",
+    "branchLabel": "Branch of Interest",
+    "branchPlaceholder": "Choose your nearest branch.",
+    "branchOptions": [
+      "Kadikoy English Language Course",
+      "Bursa English Course",
+      "Avcilar English Language Course",
+      "Istanbul English Language Course",
+      "Istanbul Cekmekoy",
+      "Bursa Gorukle",
+      "Ankara",
+      "Izmir English Language Course",
+      "Kocaeli Izmit",
+      "Tekirdag Corlu",
+      "Bursa Inegol",
+      "Bursa Yildirim"
+    ],
+    "submitButton": "Get Info Now",
+    "submitButtonSub": "SPEAKING GUARANTEED LANGUAGE EDUCATION",
+    "checkboxText": "By filling out the Information Form, I accept the Legal Disclaimer / Terms of Use.",
+    "countdownTitle": "UNTIL EARLY REGISTRATION OPPORTUNITIES END",
+    "countdownDays": "DAYS",
+    "countdownHours": "HOURS",
+    "countdownMins": "MINS",
+    "floatingButton": "Get Info",
+    "successMessage": "Your request has been received, thank you."
+  },
+  "contactInfoBar": {
+    "phoneLabel": "SPEAKING GUARANTEED LANGUAGE EDUCATION",
+    "phoneNumber": "0212 650 90 90",
+    "addressTitle": "Our Address",
+    "addressText": "Merkez, Namik Kemal St. Umut Business Center No:23 Floor:5, 34310 Avcilar/Istanbul",
+    "directionsButton": "GET DIRECTIONS",
+    "directionsUrl": "https://maps.google.com/?q=Merkez,+Namık+Kemal+Cd.+Umut+İş+Merkezi+No:23+Kat:5,+34310+Avcılar/İstanbul"
+  },
+  "studentReviewsAndAwards": {
+    "reviewsTitle": "Our Students' Opinions",
+    "reviewsSubtitle": "With years of foreign language education experience, we are proud and happy to be part of the foreign language education story of our 75,200+ students with a 97% student satisfaction rate...",
+    "videosTitle": "What Did Our Students Say?",
+    "watchNow": "WATCH NOW!",
+    "awardsTitle": "The Best Language School Of Europe",
+    "reviews": [
+      {
+        "id": 1,
+        "text": "Before meeting this course, I went to a different course, I realized how much time I wasted. There was nothing I said I wish from beginning to end. Thanks to our teacher Öznur for her explanatory expression and patience in the points we did not understand.",
+        "author": "Miray BURSALI",
+        "role": "Academician / Academic 2"
+      },
+      {
+        "id": 2,
+        "text": "I think the quality of the institution is much better than what was mentioned. Teachers spent a certain period abroad and classes are taught without rote learning, they are also very friendly. Thank you to everyone.",
+        "author": "Sevil TOPUZ",
+        "role": "Designer / Academic 2"
+      },
+      {
+        "id": 3,
+        "text": "Teacher Hümeyra was very affectionate, energetic and patient, I didn't feel like a stranger in her classes. Teacher Öznur's class was fluent and clear. I think it was very useful for me to improve my English.",
+        "author": "Rabia KOZ",
+        "role": "Psychologist / Prep Plus"
+      },
+      {
+        "id": 4,
+        "text": "I have been to many courses so far, but this was the course I benefited the most from. My self-belief increased in a very short time, regarding English. Thanks to teacher Utku, I got the YDS score I needed for a long time. Thank you.",
+        "author": "Tolga ARAS",
+        "role": "Master's Student"
+      }
+    ],
+    "videos": [
+      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
+      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
+      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
+      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
+      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+    ],
+    "awards": [
+      { "id": 1, "image": "/reward1.webp" },
+      { "id": 2, "image": "/reward2.webp" },
+      { "id": 3, "image": "/reward3.webp" },
+      { "id": 4, "image": "/reward4.webp" }
+    ]
+  }
+}

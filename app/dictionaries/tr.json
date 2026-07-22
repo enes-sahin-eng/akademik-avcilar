@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "title": "Akademik Language School - Avcılar Dil Kursu",
+    "description": "34 yıllık tecrübe ile yerli ve yabancı eğitmenler eşliğinde konuşma garantili dil eğitimi."
+  },
+  "navbar": {
+    "topAnnouncement": "Erken Kayıtta %30 İndirim Fırsatı Başladı!",
+    "brandName": "AKADEMİK",
+    "brandSub": "INTERNATIONAL LANGUAGE SCHOOL",
+    "navGeneralEnglish": "Genel İngilizce",
+    "navExamCourses": "Akademi Sınav Kursları",
+    "navOtherLanguages": "Diğer Diller",
+    "navBranches": "Şubelerimiz",
+    "navAbout": "Hakkımızda",
+    "navContact": "İletişim",
+    "selectLanguage": "Dil Seçin",
+    "weeklyProgram": "Haftalık Aktivite Programı",
+    "marquee1": "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026",
+    "marquee2": "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi",
+    "marquee3": "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma",
+    "freePlacementTest": "Ücretsiz Seviye Belirleme Sınavı"
+  },
+  "megaMenuGenelIngilizce": {
+    "col1": [
+      {
+        "title": "GENEL İNGİLİZCE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "items": [
+          "Prep (Hazırlık)",
+          "Prep Plus (Hazırlık Plus)",
+          "Akademik Express"
+        ]
+      },
+      {
+        "title": "AKADEMİK İNGİLİZCE KURSU",
+        "subtitle": "İleri Düzey İngilizce İsteyenler İçin",
+        "items": [
+          "Akademik",
+          "Akademik Plus (Hazırlık Plus)",
+          "Akademik Express"
+        ]
+      }
+    ],
+    "col2": [
+      {
+        "title": "İLKÖĞRETİM İNGİLİZCE KURSU",
+        "subtitle": "İlkokul Öğrencileri İçin"
+      },
+      {
+        "title": "ORTAOKUL İNGİLİZCE KURSU",
+        "subtitle": "Ortaöğretim Öğrencileri İçin"
+      },
+      {
+        "title": "LİSE İNGİLİZCE KURSU",
+        "subtitle": "Lise Öğrencileri İçin"
+      }
+    ],
+    "bottomLinks": [
+      {
+        "title": "ÖZEL DERS"
+      },
+      {
+        "title": "KURUMLARA ÖZEL"
+      },
+      {
+        "title": "TERCÜME HİZMETİ"
+      }
+    ],
+    "promo": {
+      "title": "SATIŞA ÇIKTI",
+      "button": "Hemen Satın Al"
+    }
+  },
+  "megaMenuSinav": {
+    "col1": [
+      {
+        "title": "YDS",
+        "subtitle": "Akademik Kariyer İçin",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "IELTS",
+        "subtitle": "İngilizce Dil Seviyesi Belirleme",
+        "icon": "Book"
+      },
+      {
+        "title": "YKS DİL (YDT)",
+        "subtitle": "Üniversitede Dil Okumak İçin",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "iTEP",
+        "subtitle": "Dil Yeterliliğinizi Ölçün",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "GRE",
+        "subtitle": "Yurt Dışı Akademi Kariyer İçin",
+        "icon": "GraduationCap"
+      }
+    ],
+    "col2": [
+      {
+        "title": "TESDAF",
+        "subtitle": "Almanya'da Yüksek Öğrenim İçin",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "PROFICIENCY KURSU",
+        "subtitle": "Hazırlık Atlamak İsteyenler İçin",
+        "icon": "Award"
+      },
+      {
+        "title": "YÖKDİL",
+        "subtitle": "Akademik Kariyer İçin",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "TOEFL",
+        "subtitle": "Yüksek Lisans İsteyenler İçin",
+        "icon": "Trophy"
+      },
+      {
+        "title": "TOEIC",
+        "subtitle": "Yeterlilik Sınavı İçin",
+        "icon": "PenTool"
+      }
+    ],
+    "col3": [
+      {
+        "title": "GMAT",
+        "subtitle": "Yurt Dışı Akademik Kariyer İçin",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "GOETHE SINAVI",
+        "subtitle": "Almanca Seviyenizi Görün",
+        "icon": "Award"
+      },
+      {
+        "title": "ÖSD",
+        "subtitle": "Almanya'da İş Ve Kariyer İçin",
+        "icon": "FileBadge"
+      },
+      {
+        "title": "E-TEP",
+        "subtitle": "ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi",
+        "icon": "FileBadge"
+      }
+    ]
+  },
+  "megaMenuDigerDiller": {
+    "col1": [
+      {
+        "title": "İSPANYOLCA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Castle"
+      },
+      {
+        "title": "FRANSIZCA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Building"
+      },
+      {
+        "title": "ALMANCA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Landmark"
+      },
+      {
+        "title": "İTALYANCA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Building2"
+      },
+      {
+        "title": "RUSÇA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Snowflake"
+      }
+    ],
+    "col2": [
+      {
+        "title": "ARAPÇA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Moon"
+      },
+      {
+        "title": "ÇİNCE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Globe2"
+      },
+      {
+        "title": "KORECE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Monitor"
+      },
+      {
+        "title": "JAPONCA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "MountainSnow"
+      },
+      {
+        "title": "PORTEKİZCE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Ship"
+      }
+    ],
+    "col3": [
+      {
+        "title": "FLEMENKÇE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Wind"
+      },
+      {
+        "title": "LATİNCE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Library"
+      },
+      {
+        "title": "FARSÇA KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Sun"
+      },
+      {
+        "title": "TÜRKÇE KURSU",
+        "subtitle": "Yeni Başlayanlar İçin",
+        "icon": "Coffee"
+      }
+    ],
+    "news": {
+      "verticalText": "E N  S O N  H A B E R",
+      "date": "Haziran 23, 2023",
+      "title": "BAU X BOUN TRAIN'23",
+      "button": "HABERİ OKU →"
+    }
+  },
+  "megaMenuSubeler": {
+    "activeCampusesTitle": "Aktif Kampüsler",
+    "activeCampusesCol1": [
+      {
+        "name": "Kadıköy İngilizce Dil Kursu"
+      },
+      {
+        "name": "Bursa İngilizce Kursu",
+        "badge": "IELTS Test Venue"
+      },
+      {
+        "name": "Avcılar İngilizce Dil Kursu"
+      },
+      {
+        "name": "İstanbul İngilizce Dil Kursu"
+      },
+      {
+        "name": "İstanbul Çekmeköy"
+      },
+      {
+        "name": "Bursa Görükle"
+      },
+      {
+        "name": "Ankara",
+        "badge": "IELTS Test Venue"
+      }
+    ],
+    "activeCampusesCol2": [
+      {
+        "name": "İzmir İngilizce Dil Kursu",
+        "badge": "IELTS Test Venue"
+      },
+      {
+        "name": "Kocaeli İzmit"
+      },
+      {
+        "name": "Tekirdağ Çorlu"
+      },
+      {
+        "name": "Bursa İnegöl"
+      },
+      {
+        "name": "Bursa Yıldırım"
+      }
+    ],
+    "expandingTitle": "Türkiye'nin En Nitelikli Dil Okulu Ağını Genişletiyoruz!",
+    "expandingCol1": [
+      {
+        "name": "Bursa Osmangazi Fomara"
+      },
+      {
+        "name": "Amerika Kampüsü"
+      },
+      {
+        "name": "Kütahya"
+      }
+    ],
+    "expandingCol2": [
+      {
+        "name": "Eskişehir İngilizce Kursu"
+      },
+      {
+        "name": "Bursa Karacabey"
+      }
+    ],
+    "promo": {
+      "verticalText": "C O M I N G  S O O N",
+      "badge": "İstanbul Çekmeköy",
+      "title": "İstanbul Çekmeköy",
+      "phone": "0501 369 56 40",
+      "button1": "ŞUBEYİ İNCELE →",
+      "button2": "FRANCHISE BİLGİ TALEP FORMU →"
+    }
+  },
+  "megaMenuHakkimizda": [
+    {
+      "title": "YAYINLARIMIZ",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "TARİHÇE",
+      "icon": "ScrollText"
+    },
+    {
+      "title": "NEDEN BİZ ?",
+      "icon": "BadgeCheck"
+    },
+    {
+      "title": "KARİYER FIRSATLARI",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "REFERANSLAR",
+      "icon": "Star"
+    },
+    {
+      "title": "KURUMSAL ANLAŞMALAR",
+      "icon": "Handshake"
+    }
+  ],
+  "iletisim": {
+    "hero": {
+      "title": "İletişim",
+      "phoneLabel": "KONUŞMA GARANTİLİ DİL EĞİTİMİ",
+      "phone": "0850 305 05 16",
+      "whatsappBtn": "Whatsapp Bilgi Hattı",
+      "examBtn": "Seviye Belirleme Sınavı"
+    },
+    "formSection": {
+      "title": "İletişim Formu",
+      "desc": "İstanbul, Ankara, Bursa, İzmir, Kocaeli, Eskişehir'de bulunan Akademik Dil Kursu Kampüslerinden İngilizce Kursu veya Sınav İngilizcesi Kursu için Eğitim Almak İstiyorsanız, İletişim Formunu Doldurun Biz Sizi Arayalım!"
+    },
+    "mapSection": {
+      "title": "Genel Merkez",
+      "address": "Rıhtım Cad. Recaizade Sk. No:2/3 Kadıköy / İSTANBUL"
+    },
+    "campuses": {
+      "title": "Akademik International Dil Okulları Kampüsleri",
+      "items": [
+        {
+          "name": "Kadıköy",
+          "label": "İngilizce Dil",
+          "phone": "0216 330 1 909"
+        },
+        {
+          "name": "Bursa",
+          "label": "İngilizce Kursu",
+          "phone": "0224 480 00 15"
+        },
+        {
+          "name": "Avcılar",
+          "label": "İngilizce Dil",
+          "phone": "0212 650 90 90"
+        },
+        {
+          "name": "İstanbul",
+          "label": "İngilizce Dil",
+          "phone": "0216 330 19 09"
+        },
+        {
+          "name": "İstanbul",
+          "label": "Çekmeköy",
+          "phone": "0501 369 56 40"
+        },
+        {
+          "name": "Bursa",
+          "label": "Görükle",
+          "phone": "0224 480 00 14"
+        },
+        {
+          "name": "Ankara",
+          "label": "Ankara",
+          "phone": "0312 433 99 99"
+        },
+        {
+          "name": "İzmir",
+          "label": "İngilizce Dil",
+          "phone": "0850 305 05 16"
+        },
+        {
+          "name": "Kocaeli",
+          "label": "İzmit",
+          "phone": "0545 116 4141"
+        },
+        {
+          "name": "Tekirdağ",
+          "label": "Çorlu",
+          "phone": "0541 236 01 59"
+        },
+        {
+          "name": "Bursa",
+          "label": "İnegöl",
+          "phone": "0224 777 07 74"
+        },
+        {
+          "name": "Bursa",
+          "label": "Yıldırım",
+          "phone": "0 224 342 01 23"
+        }
+      ],
+      "button": "KAMPÜS BAŞVURUSU"
+    },
+    "corporate": {
+      "title1": "TİCARET ÜNVANI:",
+      "value1": "ACADEMIC YABANCI DİL KURSLARI SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+      "title2": "İŞ YERİ ADRESİ:",
+      "value2": "İHSANİYE MAH. CAN (110) SK. DÜNYA İŞ MERKEZİ NO: 2 /1 İÇ KAPI NO: 24 NİLÜFER / BURSA"
+    }
+  },
+  "footer": {
+    "campusesTitle": "Kampüsler",
+    "programsTitle": "Eğitim Programlarımız",
+    "languagesTitle": "Diğer Diller",
+    "newsletterTitle": "Bizden Haberiniz Olsun",
+    "newsletterDesc": "E-Posta Listemize Katılarak Akademik International'dan Gelecek Güncel Haberleri, İndirim Fırsatlarını Ve Kampanyalarını Kaçırma",
+    "emailPlaceholder": "E-Posta Adresiniz",
+    "sendBtn": "Gönder",
+    "checkbox1": "Özel bildirim, güncelleme ve haberler hakkında tarafıma e-posta ve SMS ile iletişime geçilmesini istiyorum.",
+    "checkbox2": "Web Gizlilik ve Kişisel Verileri Koruma Kanunu İlkeleri metnini okudum, onaylıyorum",
+    "socialTitle": "Bizi Takip Edin",
+    "socialDesc": "Akademik International Deneyimleri Ve Aktiviteleri Feedinize Düşsün!",
+    "customerServiceTitle": "Müşteri Hizmetleri",
+    "callNowBtn": "Hemen Ara!",
+    "abroadCallText": "Yurtdışından mı arıyorsunuz?",
+    "bottomLinks": [
+      "Gizlilik ve Güvenlik Politikası",
+      "Mesafeli Satış Sözleşmesi",
+      "Kişisel Veriler Politikası",
+      "Şartlar ve Koşullar"
+    ],
+    "copyright": "© 1992 - 2024 Akademik International Yabancı Dil Kursu Tüm Haklar Saklıdır.",
+    "partnersTitle": "Bizi Güçlü Kılan Partnerlerimiz",
+    "groupTitle": "Akademik International Group",
+    "designBy": "Design & Development By"
+  },
+
+  "homeContentSection": {
+    "happyHours": {
+      "title": "AVANTAJLI \"HAPPY HOURS\" FLAŞ İNDİRİM SAATİ",
+      "subtitle": "İNDİRİM SAATİNİ KAÇIRMA!",
+      "days": "GÜN",
+      "hours": "SAAT",
+      "minutes": "DAKİKA",
+      "btnText": "DETAYLI BİLGİ İÇİN TIKLA"
+    },
+    "article": {
+      "p1": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır. Bu prestijli yabancı dil kursu, yüksek başarı puanına odaklanan etkili öğretim yöntemleriyle öğrencilerin dil becerilerini geliştirirken, Avcılar İngilizce Kursları arasında kaliteli İngilizce eğitimi arayanlar için en iyi seçenek olarak öne çıkmaktadır.",
+      "h2": "Avcılar İngilizce Kursu: Neden İngilizce Öğrenmelisiniz?",
+      "p2": "Avcılar'da İngilizce Kursu arayışına giren bireyler ve ebeveynler, günümüz dünyasında İngilizce bilmenin adeta bir zorunluluk haline geldiği bilincindeler. Hem kişisel hem de profesyonel yaşamda İngilizce bilmenin avantajlarını saymakla bitiremeyiz. Eğer siz de İngilizce öğrenmek istiyorsanız, Avcılar İngilizce Kursları arasında kaliteli bir eğitim alabileceğiniz Akademik International Yabancı Dil Kursu tam da aradığınız yer olabilir. Peki, İngilizce öğrenmenizin nedeni ne olabilir? İşte bu konuda sizi düşündürüp motive edecek bazı önemli noktalar:",
+      "promoImgAlt": "1 Gram Altın Hediye - Yeni Yıla Altın Gibi Başla!",
+      "readMore": "Avcılar İngilizce Dil Kursu Kampüsü İçeriğinin Devamı İçin Tıkla",
+      "readLess": "Daha Az Göster",
+      "expandedContent": [
+        {
+          "type": "p",
+          "text": "Her şeyden önce, İngilizce dünyanın en yaygın konuşulan dillerinden biridir. Küresel bir dil olmasının yanı sıra, İngilizce aynı zamanda iş dünyasının da ortak dilidir. Şirketler artık çalışanlarında İngilizce dil becerilerini bir gereklilik olarak görmektedir. Uluslararası firmalarda çalışmayı hedefliyorsanız, ya da kendi işinizi büyütüp yurt dışına açılmayı düşünüyorsanız, İngilizce bilmek sizin için çok önemli bir avantaj olacaktır. İngilizce bilginiz, sizi iş görüşmelerinde birkaç adım öne çıkarabilir."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursu sıralamasında listenin üst sırasında bulunan Akademik International Dil Kursu bu alandaki ihtiyaçlarınızı karşılamak için çeşitli kurs programları sunmaktadır. Akademik International Yabancı Dil Kursu, alanında deneyimli eğitmenleri ve son teknoloji kaynaklarıyla size etkili bir öğrenme deneyimi vaat etmektedir. Dil öğrenim sürecinizi hızlandırmak ve pratik yapmak için ideal bir ortam sağlayan okulumuz, size dört dil becerisinde (dinleme, okuma, yazma ve konuşma) yetkinlik kazandırmayı hedefler."
+        },
+        {
+          "type": "p",
+          "text": "Bunun yanı sıra, İngilizce bilmek akademik kariyerinizde de büyük bir rol oynayabilir. Yüksek lisans veya doktora gibi ileri eğitim fırsatları için genellikle İngilizce yeterlilik şartı aranmaktadır. Ayrıca, birçok uluslararası bilimsel makale İngilizce yazılmakta olduğundan, İngilizce bilginizle bu araştırmalara kolaylıkla ulaşabilir ve akademik çalışmalarınızı daha geniş bir perspektifle sürdürebilirsiniz. Avcılar İngilizce Kursları, bu alandaki becerilerinizi de geliştirmede size yardımcı olabilir."
+        },
+        {
+          "type": "p",
+          "text": "Eğitim ve iş haricinde, İngilizce bilmek seyahat ederken de büyük bir kolaylık sağlar. Yurtdışında bir destinasyonu ziyaret ederken yerel halkla iletişim kurabilmek ve daha derin bir kültürel deneyime sahip olmak için İngilizce bilmek çok işinize yarayacaktır. Turistik yerlerde en yaygın iletişim dili olan İngilizce, yurt dışı seyahatlerinizi rahat ve keyifli hale getirebilir. Avcılar İngilizce Kursu, bu tür pratik yaşam senaryolarına yönelik ders içerikleriyle, gerçek yaşamda ihtiyaç duyabileceğiniz dil becerilerini geliştirmenize imkan tanır."
+        },
+        {
+          "type": "p",
+          "text": "İngilizce öğrenmek pek çok açıdan değerlidir ve hayatınızı birçok alanda olumlu şekilde etkileyebilir. Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu olan Akademik International Yabancı Dil Kursu, bu yolculukta en iyi çözüm ortağınız olabilir. Kendinize yapacağınız bu kalıcı yatırımla, hem kariyerinizi hem de kişisel yaşamınızı zenginleştirebilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar İngilizce Kursu Fiyatları"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar ingilizce dil kurslarının fiyatları genel olarak 9500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu geniş fiyat aralığı, birçok faktörün bir araya gelmesiyle oluşmaktadır ve öğrencilerin ihtiyaçlarına göre en uygun seçeneği bulabilmelerine olanak tanımaktadır."
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da İngilizce Kursu Fiyatlarını belirleyen çeşitli faktörler mevcuttur. Bunların başında kurs süresi gelir. Kısa süreli yoğun programlar genellikle daha ekonomikken, uzun vadeli ve kapsamlı eğitimler daha yüksek maliyetli olabilir. Eğitmen kalitesi de fiyatlandırmada önemli rol oynar. Deneyimli, ana dili İngilizce olan veya uluslararası sertifikalara sahip eğitmenlerin dersleri genellikle daha yüksek fiyatlıdır. Ayrıca, kurs materyalleri, kullanılan teknolojik altyapı ve öğrenme kaynaklarının çeşitliliği de fiyatları etkiler. Daha uygun fiyatlı seçenekler arayanlar için grup dersleri ve online eğitim alternatifleri bulunabilir. Ancak, en düşük fiyatlı kursun her zaman en iyi seçenek olmadığını unutmamak önemlidir. Avcılar'da İngilizce öğrenmek isteyenler, kendi bütçelerine, zamanlarına ve hedeflerine uygun birçok seçenek bulabilirler. Kalite, eğitmen deneyimi, kurs içeriği ve ek hizmetler gibi faktörleri göz önünde bulundurarak karar vermek uzun vadede daha faydalı olacaktır. Akademik International Yabancı Dil Kursu, uygun fiyatlarıyla dikkat çekerken, öğrencilerine ihtiyaçlarına göre özelleştirilmiş programlar sunarak uluslararası standartlarda dil öğrenme fırsatı da sağlıyor."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar Dil Kursu: Hangi Özelliklere Dikkat Etmelisiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da dil kursu seçerken bazı özelliklere dikkat etmek büyük önem taşımaktadır. Kursun resmi olarak tanınıp tanınmadığı ve eğitmenlerin gerekli yeterliliklere sahip olup olmadığı ilk kontrol edilmesi gerekenler arasındadır. Kaliteli bir dil kursu, genellikle deneyimli ve yetkin eğitmenler ile çalışır. Ayrıca, öğrenci geri bildirimleri ve başarı oranları da dikkate alınmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Dil öğrenme hedefleriniz ile seçeceğiniz kurs programının örtüşme durumunu da göz önünde bulundurmanız gereken önemli bir noktadır. Örneğin, TOEFL, IELTS gibi sınavlara hazırlık mı yapmak istiyorsunuz yoksa Genel İngilizce bilginizi mi geliştirmek istiyorsunuz? Ya da belki de akademik kariyeriniz için YKS-DİL (YDT) Hazırlık Kursu'na mı ihtiyacınız var? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olabilecek, özelleştirilmiş programlar sunan bir dil kursu arayışına girebilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Bu noktada, Akademik International Yabancı Dil Kursu modern eğitim teknikleri ve materyalleri ile ön plana çıkmaktadır. Eğitim programları, hangi seviyede olursanız olun, öğrenme sürecinizi etkili bir şekilde desteklemektedir. Özellikle, konuşma becerilerini geliştirme konusunda sunulan interaktif yöntemler, dil öğreniminde hızlı bir ilerleme kaydetmenizde büyük önem taşır. Unutmayın, dil öğrenimi uzun soluklu bir maratondur ve doğru rehberlik ile bu maratonu başarıyla tamamlayabilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar'da En İyi Dil Kursunu Nasıl Seçersiniz?"
+        },
+        {
+          "type": "p",
+          "text": "Avcılar'da En İyi İngilizce Kursları arasından seçim yapmak, birçok seçenek olması sebebiyle zorlayıcı olabilir. Ancak, doğru kararı vermek için göz önünde bulundurmanız gereken bazı önemli faktörler var. Öncelikle, dil öğrenme hedeflerinizi net bir şekilde belirlemeniz gerekiyor. Sınav hazırlık kursu mu arıyorsunuz, yoksa genel dil bilginizi mi geliştirmek istiyorsunuz? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olacak programlar sunan kursları araştırabilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Kursun sunduğu eğitim programının içeriği, sınıf mevcutları, eğitim materyalleri ve sosyal etkinlikler gibi unsurlar, Avcılar'da En İyi İngilizce Kursu seçerken kararınızı etkileyecek önemli faktörlerdir. Dengeli bir müfredat, deneyimli eğitmenler, düşük sınıf mevcutları ve interaktif öğrenme materyalleri, dil öğrenme sürecinizi daha verimli ve keyifli hale getirecektir. Ayrıca, kursun sunduğu sosyal etkinlikler, dil pratiği yapma ve yeni insanlarla tanışma fırsatı sunarak öğrenme deneyiminizi zenginleştirecektir. Seçeneklerinizi değerlendirirken, daha önce kursa giden öğrencilerin yorumlarını okuyarak ve kurs yetkilileriyle iletişime geçerek daha detaylı bilgi edinmeyi unutmayın. Bu kriterleri göz önünde bulundurduğunuzda, Avcılar En İyi İngilizce Kursu ve Avcılar'ın En Çok Tavsiye Edilen Dil Kursu Akademik International Yabancı Dil Kursu gibi kapsamlı ve kaliteli eğitim sunan bir kursu tercih etmek sizin için doğru bir seçim olabilir."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Avcılar İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+      "desc": "Avcılar'da İngilizce kursu arayışındaysanız ve kafanızda sorular varsa, doğru yerdesiniz. Avcılar İngilizce Dil Kursu olan Akademik International Dil Kursu hakkında en çok merak edilen soruları ve bu soruların detaylı cevaplarını sizin için yanıtladık.",
+      "items": [
+        {
+          "q": "Avcılar En İyi İngilizce Kursu Akademik International Dil Kursu hafta sonu programları sunuyor mu?",
+          "a": "Avcılar'da En Çok Tavsiye Edilen Akademik International Yabancı Dil Kursları olarak, Avcılar'daki öğrencilerimizin yoğun hafta içi programlarını dikkate alarak, hafta sonları da İngilizce eğitimine devam etmekteyiz. Cumartesi ve Pazar günleri düzenlenen programlarımız, hem çalışan profesyonellerin hem de okul döneminde yoğun olan öğrencilerin İngilizce öğrenme hedeflerine ulaşmalarını sağlamaktadır. Bu esnek programlar, sabah veya öğleden sonra dersleriyle ile öğrencilerimizin tercihlerine göre şekillendirilmiştir. Hafta sonu kurslarımız, yoğun ve etkili bir müfredat ile tasarlanmış olup, öğrencilerin kısa sürede önemli ilerleme kaydetmelerini hedeflemektedir."
+        },
+        {
+          "q": "Kurs öncesi seviye tespit sınavı yapılıyor mu?",
+          "a": "Avcılar'ın En İyi Yabancı Dil Kursu sıralamasında listenin en üstünde bulunan Akademik International Yabancı Dil Kursları olarak, Avcılar şubemizde kurs öncesi seviye tespit sınavı yapmaktayız. Bu sınav, öğrencilerimizin mevcut İngilizce seviyelerini belirlemek ve onları en uygun sınıflara yerleştirmek için tasarlanmıştır. Sınavımız, okuma, yazma, dinleme ve konuşma becerilerini ölçen kapsamlı bir değerlendirme sunmaktadır. Böylece, her öğrencinin ihtiyaçlarına ve mevcut dil seviyesine göre en etkili eğitim programını oluşturabiliyoruz. Seviye tespit sınavımız ücretsizdir ve kurs kaydı öncesinde randevu alınarak gerçekleştirilebilir."
+        },
+        {
+          "q": "Avcılar İngilizce Kursu şubenizde deneme dersleri var mı?",
+          "a": "Avcılar İngilizce Kursu şubemizde ücretsiz deneme dersleri mevcuttur ve tüm seviyeler için randevu alarak katılabilirsiniz. Deneme dersimizde gerçek sınıf ortamını deneyimleyebilir, öğretmenlerimizle tanışabilir ve kurs metodumuzu yakından görebilirsiniz."
+        }
+      ]
+    },
+    "programsTitle": "Avcılar İngilizce Dil Kursu Kampüsümüzde Açılacak Programlar",
+    "leaderboard": {
+      "title": "Gurur Tablomuz",
+      "subtitle": "Başarıya Ulaşan Öğrencilerimizle Gurur Duyuyoruz",
+      "tabs": [
+        "IELTS",
+        "YDS",
+        "TOEFL",
+        "GOETHE",
+        "TESTDAF"
+      ],
+      "headers": {
+        "name": "Ad Soyad",
+        "program": "Program",
+        "score": "Puan"
+      },
+      "btnAll": "Tüm Tabloyu Görüntüle"
+    },
+    "upcomingProgramsTable": {
+      "headers": [
+        "Grup Kodu",
+        "Başlama Tarihi",
+        "Bitiş Tarihi",
+        "Kontenjan",
+        "Detay"
+      ],
+      "statusAvailable": "Kontenjan Var",
+      "statusFull": "Yer Kalmadı",
+      "detailBtn": "Detaylı İncele",
+      "programs": [
+        {
+          "code": "PREP 2026 KIŞ DÖNEMİ (A1-A2)",
+          "start": "2026-01-19",
+          "end": "2026-03-16",
+          "status": "available"
+        },
+        {
+          "code": "ACADEMİC EXPRESS 2026 KIŞ DÖNEMİ (B2)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "available"
+        },
+        {
+          "code": "AKADEMİK KİDS OKUL DÖNEMİ (ÇOCUK GRUBU)",
+          "start": "2026-01-19",
+          "end": "2026-05-31",
+          "status": "available"
+        },
+        {
+          "code": "PREP 2026 KIŞ DÖNEMİ (A1-A2)",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "ALMANCA A2 2026 KIŞ DÖNEMİ",
+          "start": "2026-01-31",
+          "end": "2026-04-26",
+          "status": "available"
+        },
+        {
+          "code": "ALMANCA A1 2026 KIŞ DÖNEMİ",
+          "start": "2026-01-24",
+          "end": "2026-04-12",
+          "status": "available"
+        },
+        {
+          "code": "PREP 2025 KIŞ DÖNEMİ (A1-A2)",
+          "start": "2026-01-17",
+          "end": "2026-03-14",
+          "status": "available"
+        },
+        {
+          "code": "PREP PLUS 2026 KIŞ DÖNEMİ (B1)",
+          "start": "2026-01-26",
+          "end": "2026-04-20",
+          "status": "full"
+        },
+        {
+          "code": "İSPANYOLCA A1 2026 KIŞ DÖNEMİ",
+          "start": "2026-01-24",
+          "end": "2026-04-19",
+          "status": "available"
+        }
+      ]
+    }
+  },
+  "heroSlider": {
+    "slides": [
+      { "id": 1, "image": "/slider1.webp" },
+      { "id": 2, "image": "/slider2.webp" },
+      { "id": 3, "image": "/slider3.webp" },
+      { "id": 4, "image": "/slider4.webp" },
+      { "id": 5, "image": "/slider5.webp" }
+    ]
+  },
+  "heroSliderForm": {
+    "title": "ÜCRETSİZ EĞİTİM!",
+    "subtitle": "Eğitim İçin Hemen Ön Bilgi Alın!",
+    "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+    "phonePlaceholder": "GSM Numaranızı Giriniz.",
+    "branchPlaceholder": "Şube Seçiniz.",
+    "submitBtn": "HEMEN ÖN BİLGİ AL!",
+    "legal": "Bilgi formunu doldurarak Yasal Uyarı / Kullanım Şartlarını kabul ediyorum."
+  },
+  "whatsapp": {
+    "onlineText": "Çevrimiçi",
+    "subtitle": "7/24 Canlı Destek",
+    "title": "WhatsApp Bilgi Hattı",
+    "message": "Merhaba, dil kursları hakkında bilgi almak istiyorum."
+  },
+  "leadForm": {
+    "title": "Ön Bilgi Formu",
+    "subtitle": "Nitelikli dil eğitimlerimiz hakkında detaylı bilgi için hemen formu doldurunuz.",
+    "nameLabel": "Ad Soyad",
+    "namePlaceholder": "İsim ve soyisim giriniz.",
+    "phoneLabel": "Telefon Numarası",
+    "phonePlaceholder": "Cep telefonu numaranızı giriniz.",
+    "branchLabel": "İlgilendiğiniz Şubemiz",
+    "branchPlaceholder": "En yakın şubenizi seçiniz.",
+    "branchOptions": [
+      "Kadıköy İngilizce Dil Kursu",
+      "Bursa İngilizce Kursu",
+      "Avcılar İngilizce Dil Kursu",
+      "İstanbul İngilizce Dil Kursu",
+      "İstanbul Çekmeköy",
+      "Bursa Görükle",
+      "Ankara",
+      "İzmir İngilizce Dil Kursu",
+      "Kocaeli İzmit",
+      "Tekirdağ Çorlu",
+      "Bursa İnegöl",
+      "Bursa Yıldırım"
+    ],
+    "submitButton": "Hemen Bilgi Al",
+    "submitButtonSub": "KONUŞMA GARANTİLİ DİL EĞİTİMİ",
+    "checkboxText": "Bilgi Formunu Doldurarak, Yasal Uyarı/Kullanım Şartlarını Kabul Ediyorum.",
+    "countdownTitle": "ERKEN KAYIT FIRSATLARININ BİTMESİNE",
+    "countdownDays": "GÜN",
+    "countdownHours": "SAAT",
+    "countdownMins": "DAKİKA",
+    "floatingButton": "Bilgi Al",
+    "successMessage": "Talebiniz alınmıştır, teşekkürler."
+  },
+  "contactInfoBar": {
+    "phoneLabel": "KONUŞMA GARANTİLİ DİL EĞİTİMİ",
+    "phoneNumber": "0212 650 90 90",
+    "addressTitle": "Adresimiz",
+    "addressText": "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+    "directionsButton": "YOL TARİFİ AL",
+    "directionsUrl": "https://maps.google.com/?q=Merkez,+Namık+Kemal+Cd.+Umut+İş+Merkezi+No:23+Kat:5,+34310+Avcılar/İstanbul"
+  },
+  "studentReviewsAndAwards": {
+    "reviewsTitle": "Öğrencilerimizin Görüşleri",
+    "reviewsSubtitle": "Yıllardır deneyimlenen yabancı dil eğitim tecrübesiyle 75.200+ öğrencimizin %97 öğrenci memnuniyeti oranı ile yabancı dil eğitimi hikayesinde yer edinmenin gurur ve mutluluğunu yaşıyoruz...",
+    "videosTitle": "Öğrencilerimiz Ne Dedi ?",
+    "watchNow": "WATCH NOW!",
+    "awardsTitle": "The Best Language School Of Europe",
+    "reviews": [
+      {
+        "id": 1,
+        "text": "Bu kursla tanışmadan öne farklı bir kursa gitmiştim, ne kadar boşa zaman geçirdiğimi anladım. Baştan sona kadar keşke dediğim hiçbir şey olmadı. Öznur hocanın açıklayıcı anlatımı ve anlamadığımız noktalardaki sabrı için teşekkürler.",
+        "author": "Miray BURSALI",
+        "role": "Akademisyen / Akademik 2"
+      },
+      {
+        "id": 2,
+        "text": "Kurumun gayet kalitesi bahsedildiğinden çok daha iyi olduğunu düşünüyorum. Öğretmenler belli bir dönemin yurt dışında geçirmiş ve ezberci öğrenim dışında ders işleniyor ayrıca çok cana yakınlar.herkese teşekkür ediyorum",
+        "author": "Sevil TOPUZ",
+        "role": "Tasarımcı / Akademik 2"
+      },
+      {
+        "id": 3,
+        "text": "Hümeyra hoca çok sevecan, enerjik ve sabırlıydı onun derslerinde hiç yabancılık çekmedim. Öznur hocanın dersi ise akıcı, anlaşıldı. İngilizcemi ilerletmem de çok faydası olduğunu düşünüyorum.",
+        "author": "Rabia KOZ",
+        "role": "Psikolog / Hazırlık Plus"
+      },
+      {
+        "id": 4,
+        "text": "Bugüne kadar birçok kursa gittim ancak bana en çok fayda gördüğüm bu kurs oldu. Çok kısa bir sürede kendime olan inancım arttı, ingilizce noktasında. Utku hoca sayesinde uzun süredir ihtiyacım olan YDS puanını aldım. Teşekkürler.",
+        "author": "Tolga ARAS",
+        "role": "Yüksek Lisans Öğrencisi"
+      }
+    ],
+    "videos": [
+      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
+      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
+      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
+      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
+      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+    ],
+    "awards": [
+      { "id": 1, "image": "/reward1.webp" },
+      { "id": 2, "image": "/reward2.webp" },
+      { "id": 3, "image": "/reward3.webp" },
+      { "id": 4, "image": "/reward4.webp" }
+    ]
+  }
+}

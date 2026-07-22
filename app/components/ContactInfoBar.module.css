@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto 60px;
+  position: relative;
+  z-index: 10;
+  padding: 0 20px;
+}
+
+/* Üst Kırmızı Telefon Kartı */
+.phoneCard {
+  background: #cc0000;
+  border-radius: 12px;
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex: 1; /* Yan yana eşit dağılım */
+  box-shadow: 0 15px 35px -5px rgba(204, 0, 0, 0.4);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.phoneCard:hover {
+  transform: translateY(-3px);
+}
+
+.phoneIconWrapper {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.phoneTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 20px;
+}
+
+.phoneLabel {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.phoneNumber {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+/* Alt Adres Kartı */
+.addressCard {
+  background: rgba(30, 15, 20, 0.6); /* Koyu bordo-siyahımsı cam efekti */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 2; /* Adres daha uzun olduğu için daha fazla alan verilebilir */
+  gap: 20px;
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.3);
+}
+
+.addressContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.mapIconWrapper {
+  color: white;
+}
+
+.addressTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.addressTitle {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.addressText {
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 450px;
+}
+
+.directionsBtn {
+  border: 1px solid white;
+  border-radius: 8px;
+  background: transparent;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  min-width: 110px;
+}
+
+.directionsBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.directionsBtnText {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    margin-top: -30px;
+    padding: 0 15px;
+  }
+  .phoneCard, .addressCard {
+    width: 100%;
+    flex: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .phoneCard {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    padding: 20px;
+  }
+  .phoneTextWrapper {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 0;
+    padding-top: 12px;
+    align-items: center;
+  }
+  .phoneNumber {
+    font-size: 28px;
+  }
+  .addressCard {
+    flex-direction: column;
+    text-align: center;
+  }
+  .addressContent {
+    flex-direction: column;
+  }
+  .directionsBtn {
+    width: 100%;
+  }
+}
