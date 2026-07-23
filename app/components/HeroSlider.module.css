@@ -95,16 +95,6 @@
   .sliderContainer {
     height: 340px;
   }
-  .overlay {
-    padding: 20px;
-  }
-  .title {
-    font-size: 22px;
-  }
-  .description {
-    font-size: 13px;
-    margin-bottom: 12px;
-  }
   .arrowBtn {
     width: 36px;
     height: 36px;

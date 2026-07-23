@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { PhoneCall, HeadphonesIcon } from "lucide-react";
+import { HeadphonesIcon } from "lucide-react";
 import styles from "./Footer.module.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
 import Image from "next/image";
@@ -195,10 +195,8 @@ export const Footer: React.FC = () => {
             </div>
           </div>
           
-          <hr className={styles.sectionDivider} />
-
           <div className={styles.groupSection}>
-            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={35} width={400} className={styles.groupTitleImg} />
+            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={50} width={550} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
                 <Image src="/logo.png" alt="Akademik International Language School" height={45} width={180} className={styles.logoImg} />

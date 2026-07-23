@@ -31,20 +31,6 @@
   overflow-wrap: break-word;
 }
 
-.promoImgWrapper {
-  width: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  margin-top: 10px;
-}
-
-.promoImg {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .toggleContainer {
   display: flex;
   justify-content: center;
@@ -67,6 +53,6 @@
 }
 
 .toggleBtn:hover {
-  background: var(--border-primary);
+  background: var(--border-strong);
   color: var(--text-primary);
 }

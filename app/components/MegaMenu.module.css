@@ -519,7 +519,7 @@
 }
 
 .subelerBtnBlue {
-  background-color: var(--border-primary);
+  background-color: var(--border-strong);
   color: var(--text-primary);
   border: none;
   width: 220px;
@@ -550,7 +550,7 @@
 }
 
 .subelerBtnGray:hover {
-  background-color: var(--border-primary);
+  background-color: var(--border-strong);
   transform: translateY(-2px);
 }
 

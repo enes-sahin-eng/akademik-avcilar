@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Building2, Phone, ArrowRight } from "lucide-react";
+import { Building2, Phone } from "lucide-react";
 import styles from "./MegaMenu.module.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
 
