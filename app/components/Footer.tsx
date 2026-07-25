@@ -220,7 +220,10 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className={styles.devCredit}>
-            <div>{footerData.designBy} <strong>The Fabrika</strong></div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
+              {footerData.designBy} <strong>ideaZone</strong>
+              <Image src="/designer-logo.jpg" alt="ideaZone Logo" width={100} height={45} style={{ width: "auto", height: "45px", objectFit: "contain", borderRadius: "4px" }} />
+            </div>
           </div>
         </div>
         

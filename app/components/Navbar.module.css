@@ -186,7 +186,7 @@
 .navLinks {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   flex: 1;
   justify-content: center;
 }
@@ -206,7 +206,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 8px 12px;
+  padding: 6px 8px;
   border-radius: 8px;
   transition: all 0.2s ease;
   font-family: inherit;
@@ -222,20 +222,25 @@
 .rightActions {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .ctaBtn {
   background: var(--accent-red);
   color: #fff;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border-radius: 8px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   text-decoration: none;
   transition: all 0.2s ease;
   white-space: nowrap;
   box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.loginBtnWrapper {
+  display: flex;
+  gap: 6px;
 }
 
 .ctaBtn:hover {
@@ -247,6 +252,9 @@
 .mobileCtaWrapper {
   padding: 16px 20px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .ctaBtnMobile {

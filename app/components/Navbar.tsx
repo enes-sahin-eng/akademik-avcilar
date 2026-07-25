@@ -446,15 +446,21 @@ export const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            {/* SEVİYE BELİRLEME BUTONU */}
-            <a
-              href="https://atc.akademik.com.tr/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.ctaBtn}
-            >
-              {navDict?.freePlacementTest || "Ücretsiz Seviye Belirleme Sınavı"}
-            </a>
+            {/* GİRİŞ BUTONLARI */}
+            <div className={styles.loginBtnWrapper}>
+              <a
+                href="#"
+                className={styles.ctaBtn}
+              >
+                {navDict?.parentLogin || "Veli Girişi"}
+              </a>
+              <a
+                href="#"
+                className={styles.ctaBtn}
+              >
+                {navDict?.studentLogin || "Öğrenci Girişi"}
+              </a>
+            </div>
           </div>
 
           {/* MOBİL MENÜ BUTONU */}
@@ -509,12 +515,16 @@ export const Navbar = () => {
 
             <div className={styles.mobileCtaWrapper}>
               <a
-                href="https://atc.akademik.com.tr/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className={styles.ctaBtnMobile}
               >
-                {navDict?.freePlacementTest || "Ücretsiz Seviye Belirleme Sınavı"}
+                {navDict?.parentLogin || "Veli Girişi"}
+              </a>
+              <a
+                href="#"
+                className={styles.ctaBtnMobile}
+              >
+                {navDict?.studentLogin || "Öğrenci Girişi"}
               </a>
             </div>
 

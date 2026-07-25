@@ -6,7 +6,6 @@ import { HomeContentSection } from "../components/HomeContentSection";
 import { StudentReviewsAndAwards } from "../components/StudentReviewsAndAwards";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { LeadFormModal } from "../components/LeadFormModal";
-import { ContactInfoBar } from "../components/ContactInfoBar";
 
 interface PageProps {
   params: Promise<{
@@ -21,7 +20,6 @@ export default async function Home({ params }: PageProps) {
     <div>
       <Navbar />
       <HeroSlider />
-      <ContactInfoBar />
       <MiniGallery />
       <CampusCarousel />
       <HomeContentSection />
