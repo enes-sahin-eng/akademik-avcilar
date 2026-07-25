@@ -78,7 +78,7 @@
   position: fixed;
   top: 28%;
   right: 0;
-  z-index: 9999;
+  z-index: 900;
   display: flex;
   align-items: stretch;
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
@@ -269,6 +269,6 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(2px);
-  z-index: 9998;
+  z-index: 899;
   transition: opacity 0.3s ease;
 }

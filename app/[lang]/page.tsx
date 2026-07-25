@@ -19,6 +19,7 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <div>
+      <h1 className="sr-only">Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu</h1>
       <Navbar />
       <HeroSlider />
       <MiniGallery />

@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "./MiniGallery.module.css";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 
 const images = [
   "https://picsum.photos/seed/mini1/400/300",
@@ -76,7 +77,14 @@ export const MiniGallery = () => {
               variants={itemVariants}
               whileHover={{ y: -10, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.3)" }}
             >
-              <img src={img} alt={`Gallery ${idx}`} className={styles.galleryImg} />
+              <Image 
+                src={img} 
+                alt={`Avcılar Akademik International Etkinlik ve Kampüs Görseli ${idx + 1}`} 
+                title="Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
+                width={400}
+                height={300}
+                className={styles.galleryImg} 
+              />
             </motion.div>
           ))}
         </motion.div>

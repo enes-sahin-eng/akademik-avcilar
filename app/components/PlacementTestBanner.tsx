@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import "./PlacementTestBanner.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
+import Image from "next/image";
 
 export default function PlacementTestBanner() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,33 +46,9 @@ export default function PlacementTestBanner() {
         dir="ltr"
       >
         <div style={{ position: "relative", display: "flex", alignItems: "stretch" }}>
-          {isFullyClosed && (
-            <div 
-              className="mascot-breathe"
-              style={{
-                right: isArabic ? 'calc(100% - 28px)' : 'calc(100% - 20px)',
-                top: '-15px',
-                bottom: '-15px',
-                width: '140px',
-                overflow: 'visible',
-              }}
-            >
-              <img
-                src="/mascot-peek.png"
-                alt={testDict?.avatarAlt || "Danışman"}
-                className="mascot-img-absolute"
-              />
-            </div>
-          )}
 
-          {isFullyClosed && showNudge && (
-            <div className="nudge-bubble" style={{ right: '40px', top: '-40px' }}>
-              <div className="nudge-inner" dir={isArabic ? "rtl" : "ltr"}>
-                {testDict?.nudgeText || "Seviyeni öğrenmek ister misin?"}
-                <div className="nudge-arrow" />
-              </div>
-            </div>
-          )}
+
+
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -95,15 +72,19 @@ export default function PlacementTestBanner() {
           <div className="banner-inner-content">
             <div className="banner-header">
               <div className="banner-avatar">
-                <img
+                <Image
                   src="/mascot-peek.png"
-                  alt={testDict?.avatarAlt || "Danışman"}
+                  alt={testDict?.avatarAlt || "Avcılar İngilizce Kursu Eğitim Danışmanı"}
+                  title={testDict?.avatarTitle || "Avcılar Dil Okulu Seviye Sınavı"}
+                  width={48}
+                  height={48}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'left top' }}
                 />
               </div>
               <div>
-                <h3 className="banner-title">
+                <div className="banner-title">
                   {testDict?.title || "Seviyeni Öğren!"}
-                </h3>
+                </div>
                 <p className="banner-subtitle">
                   {testDict?.subtitle || "2 dakikada sonucunu al"}
                 </p>

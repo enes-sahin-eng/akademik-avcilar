@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState } from "react";
 import { useDictionary } from "../../src/context/DictionaryContext";
 import styles from "./StudentReviewsAndAwards.module.css";
 import { Star, PlayCircle, Quote } from "lucide-react";
@@ -8,6 +9,8 @@ import Image from "next/image";
 export const StudentReviewsAndAwards = () => {
   const dictionary: any = useDictionary();
   const dict = dictionary?.studentReviewsAndAwards;
+  
+  const [activeModalVideo, setActiveModalVideo] = useState<string | null>(null);
 
   if (!dict) return null;
 
@@ -64,13 +67,19 @@ export const StudentReviewsAndAwards = () => {
             {dict.videos.map((video: any) => (
               <div key={video.id} className={styles.videoSquare}>
                 <Image
-                  src={video.thumbnail}
-                  alt={`Video ${video.id}`}
+                  src={video.thumbnail || `https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
+                  alt={dict.videosAlt || `Öğrenci Yorumu - Avcılar Yabancı Dil Kursu ${video.id}`}
+                  title="Avcılar Yabancı Dil Kursu Öğrenci Tavsiyeleri"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className={styles.videoImg}
+                  style={{ objectFit: 'cover' }}
                 />
-                <div className={styles.videoOverlay}>
+                <div 
+                  className={styles.videoOverlay}
+                  onClick={() => setActiveModalVideo(video.youtubeId)}
+                  style={{ cursor: 'pointer' }}
+                >
                   <PlayCircle size={28} className={styles.playIcon} />
                   <span className={styles.watchNowText}>{dict.watchNow}</span>
                 </div>
@@ -88,7 +97,8 @@ export const StudentReviewsAndAwards = () => {
                 <div key={`${award.id}-${index}`} className={styles.awardItem}>
                   <Image
                     src={award.image}
-                    alt={`Award ${award.id}`}
+                    alt={dict.awardsAlt || `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`}
+                    title="Avcılar Akademik International Başarı ve Kalite Ödülleri"
                     width={180}
                     height={180}
                     className={styles.awardImg}
@@ -99,6 +109,28 @@ export const StudentReviewsAndAwards = () => {
           </div>
         </div>
       </div>
+
+      {/* VIDEO MODAL */}
+      {activeModalVideo && (
+        <div 
+          className={styles.videoModalBackdrop}
+          onClick={() => setActiveModalVideo(null)}
+        >
+          <div className={styles.videoModalContent} onClick={e => e.stopPropagation()}>
+            <button className={styles.closeModalBtn} onClick={() => setActiveModalVideo(null)}>✕</button>
+            <iframe
+              width="100%"
+              height="100%"
+              src={`https://www.youtube.com/embed/${activeModalVideo}?autoplay=1`}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0 }}
+            ></iframe>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

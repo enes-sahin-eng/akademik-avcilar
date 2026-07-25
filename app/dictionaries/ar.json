@@ -14,7 +14,8 @@
     "list3": "نتائج تفصيلية فورية",
     "btnText": "ابدأ الاختبار ←",
     "footerText": "مجاني · لا يتطلب التسجيل",
-    "avatarAlt": "مستشار"
+    "avatarAlt": "مستشار التعليم لاختبار تحديد مستوى دورة اللغات الأجنبية في أفجيلار",
+    "avatarTitle": "اختبار تحديد المستوى المجاني في أكاديميك إنترناشيونال أفجيلار"
   },
   "navbar": {
     "topAnnouncement": "بدأ خصم التسجيل المبكر بنسبة 30٪!",
@@ -647,13 +648,22 @@
       ]
     }
   },
+  "programTabsSection": {
+    "title": "البرامج المقدمة في حرم دورة اللغات الأجنبية في أفجيلار",
+    "subtitle": "دورة اللغات الأجنبية في أفجيلار - أفضل مركز تعليم لغات موصى به في أفجيلار",
+    "tabs": {
+      "tum": "جميع البرامج",
+      "nitelikli": "دورات اللغات المؤهلة",
+      "sinav": "دورات الامتحانات الأكاديمية"
+    }
+  },
   "heroSlider": {
     "slides": [
-      { "id": 1, "image": "/slider1.webp" },
-      { "id": 2, "image": "/slider2.webp" },
-      { "id": 3, "image": "/slider3.webp" },
-      { "id": 4, "image": "/slider4.webp" },
-      { "id": 5, "image": "/slider5.webp" }
+      { "id": 1, "image": "/slider1.webp", "alt": "دورة اللغات الأجنبية في أفجيلار - تعليم أكاديميك إنترناشيونال", "title": "دورة اللغات الأجنبية في أفجيلار بجميع اللغات" },
+      { "id": 2, "image": "/slider2.webp", "alt": "مدرسة أفجيلار للغات الإنجليزية والألمانية والإسبانية - للأطفال والكبار", "title": "دروس لغات أجنبية ممتعة لجميع الأعمار في أفجيلار" },
+      { "id": 3, "image": "/slider3.webp", "alt": "دورات التحضير لاختبارات آيلتس وتوفل وجوته في أفجيلار - أكاديميك إنترناشيونال", "title": "تحضير مضمون للامتحانات الدولية وتعليم اللغات" },
+      { "id": 4, "image": "/slider4.webp", "alt": "دورة لغات العالم في أفجيلار - فرص الدراسة والعمل في الخارج", "title": "الفرنسية والروسية والعربية والمزيد في أفجيلار" },
+      { "id": 5, "image": "/slider5.webp", "alt": "أفضل مدرسة لغات أجنبية في أفجيلار - الحرم الجامعي الحديث لأكاديميك إنترناشيونال", "title": "تعلم اللغات الأجنبية في أفجيلار بتعليم عالي الجودة بجميع اللغات" }
     ]
   },
   "heroSliderForm": {
@@ -737,11 +747,11 @@
       }
     ],
     "videos": [
-      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
-      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
-      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
-      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
-      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+      { "id": 1, "youtubeId": "o3IB9AeRkg4", "thumbnail": "" },
+      { "id": 2, "youtubeId": "3OUOsPUbrfs", "thumbnail": "" },
+      { "id": 3, "youtubeId": "KgregjiLwzQ", "thumbnail": "" },
+      { "id": 4, "youtubeId": "BuQ831y6c_g", "thumbnail": "" },
+      { "id": 5, "youtubeId": "dFQERaILR68", "thumbnail": "" }
     ],
     "awards": [
       { "id": 1, "image": "/reward1.webp" },

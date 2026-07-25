@@ -34,7 +34,7 @@ export const Leaderboard = () => {
       <div className={styles.header}>
         <div className={styles.iconWrapper}>
           <BarChart3 size={28} />
-          <h3 className={styles.title}>{content.title}</h3>
+          <h2 className={styles.title}>{content.title}</h2>
         </div>
         <p className={styles.subtitle}>{content.subtitle}</p>
       </div>
