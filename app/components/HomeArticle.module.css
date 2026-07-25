@@ -56,3 +56,14 @@
   background: var(--border-strong);
   color: var(--text-primary);
 }
+
+.contentWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.highlightText {
+  color: #fff;
+}

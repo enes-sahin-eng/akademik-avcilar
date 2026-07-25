@@ -39,10 +39,28 @@
   padding: 40px;
 }
 
+.megaMenuLeftPadded {
+  padding: 30px 40px;
+}
+
+.megaMenuColumnsThree {
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  gap: 24px;
+}
+
 .col {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.colDense {
+  gap: 20px;
+}
+
+.colMedium {
+  gap: 24px;
 }
 
 .section {

@@ -273,10 +273,10 @@
   z-index: 1;
 }
 
-.videoCircle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+.videoSquare {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -285,7 +285,7 @@
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.videoCircle:hover {
+.videoSquare:hover {
   transform: scale(1.1);
   border-color: #f87171;
   box-shadow: 0 0 0 8px rgba(239, 68, 68, 0.1), 0 15px 35px rgba(0,0,0,0.6);

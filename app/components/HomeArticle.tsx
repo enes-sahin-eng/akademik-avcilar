@@ -40,7 +40,7 @@ export const HomeArticle = () => {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.4 }}
-            style={{ overflow: "hidden", display: "flex", flexDirection: "column", gap: "24px" }}
+            className={styles.contentWrapper}
           >
             <p className={styles.paragraph}>{content.p2}</p>
             
@@ -52,7 +52,7 @@ export const HomeArticle = () => {
                 return (
                   <p key={index} className={styles.paragraph}>
                     {item.text.split(/ (Avcılar'da En İyi İngilizce Kursu|Avcılar İngilizce Kursları|Avcılar İngilizce Kursu|Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu|Akademik International Yabancı Dil Kursu|Genel İngilizce|YKS-DİL \(YDT\) Hazırlık Kursu|TOEFL|IELTS) /g).map((part: string, i: number) => 
-                      ["Avcılar'da En İyi İngilizce Kursu", "Avcılar İngilizce Kursları", "Avcılar İngilizce Kursu", "Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu", "Akademik International Yabancı Dil Kursu", "Genel İngilizce", "YKS-DİL (YDT) Hazırlık Kursu", "TOEFL", "IELTS"].includes(part) ? <strong key={i} style={{color: '#fff'}}>{part}</strong> : part
+                      ["Avcılar'da En İyi İngilizce Kursu", "Avcılar İngilizce Kursları", "Avcılar İngilizce Kursu", "Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu", "Akademik International Yabancı Dil Kursu", "Genel İngilizce", "YKS-DİL (YDT) Hazırlık Kursu", "TOEFL", "IELTS"].includes(part) ? <strong key={i} className={styles.highlightText}>{part}</strong> : part
                     )}
                   </p>
                 );

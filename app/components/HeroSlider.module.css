@@ -21,6 +21,12 @@
   background-color: var(--bg-surface);
 }
 
+.slideInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .slideImage {
   position: absolute;
   inset: 0;
@@ -89,9 +95,6 @@
 }
 
 @media (max-width: 768px) {
-  .sliderSection {
-    margin-top: 100px;
-  }
   .sliderContainer {
     height: 340px;
   }

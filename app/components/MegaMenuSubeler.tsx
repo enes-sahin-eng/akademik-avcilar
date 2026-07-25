@@ -20,7 +20,7 @@ export const MegaMenuSubeler: React.FC = () => {
       exit={{ opacity: 0, y: 10 }}
       transition={{ duration: 0.2 }}
     >
-      <div className={styles.megaMenuLeft} style={{ padding: "30px 40px" }}>
+      <div className={`${styles.megaMenuLeft} ${styles.megaMenuLeftPadded}`}>
         {/* Aktif Kampüsler */}
         <div className={styles.subelerGroup}>
           <div className={styles.subelerHeader}>
@@ -48,7 +48,7 @@ export const MegaMenuSubeler: React.FC = () => {
         </div>
 
         {/* Genişleyen Ağ */}
-        <div className={styles.subelerGroup} style={{ marginTop: "30px" }}>
+        <div className={styles.subelerGroup}>
           <div className={styles.subelerHeader}>
             <Building2 size={20} className={styles.subelerIcon} />
             <h4 className={styles.subelerTitle}>{megaMenu.expandingTitle}</h4>

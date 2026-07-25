@@ -390,6 +390,25 @@
   margin-top: 30px;
 }
 
+.flagImg {
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.creditContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.designerLogo {
+  width: auto;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
 @media (max-width: 768px) {
   .logosRow {
     gap: 20px;

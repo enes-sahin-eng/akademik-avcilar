@@ -3,6 +3,19 @@
     "title": "Akademik Language School - Avcılar Language Course",
     "description": "Guaranteed speaking language education with native and qualified teachers backed by 34 years of experience."
   },
+  "placementTest": {
+    "nudgeText": "Want to know your level?",
+    "tabText": "✦ Free Placement Test",
+    "title": "Find Your Level!",
+    "subtitle": "Get results in 2 minutes",
+    "desc": "Determine your English level with a quick test and start your personalized program immediately.",
+    "list1": "Takes only 2 minutes",
+    "list2": "All levels from A1 to C2",
+    "list3": "Instant detailed results",
+    "btnText": "Start Test →",
+    "footerText": "Free · No registration required",
+    "avatarAlt": "Advisor"
+  },
   "navbar": {
     "topAnnouncement": "30% Early Bird Discount Has Started!",
     "brandName": "AKADEMİK",
@@ -354,6 +367,11 @@
       "title": "Akademik International Language Schools Campuses",
       "items": [
         {
+          "name": "Avcılar",
+          "label": "English Language",
+          "phone": "0212 650 90 90"
+        },
+        {
           "name": "Kadıköy",
           "label": "English Language",
           "phone": "0216 330 1 909"
@@ -362,11 +380,6 @@
           "name": "Bursa",
           "label": "English Course",
           "phone": "0224 480 00 15"
-        },
-        {
-          "name": "Avcılar",
-          "label": "English Language",
-          "phone": "0212 650 90 90"
         },
         {
           "name": "Istanbul",

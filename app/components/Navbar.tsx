@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Menu,
@@ -11,7 +11,7 @@ import {
   Moon,
   Sun,
   Monitor,
-  Calendar
+  Calendar,
 } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
@@ -66,20 +66,32 @@ export const Navbar = () => {
   };
 
   return (
-    <header className={styles.header}>
+    <>
+      <header className={styles.header}>
       {/* ÜST İNCE DUYURU BANDI */}
       <div className={styles.topBar}>
         <div className={styles.topBarLeft}>
-          <div 
+          <div
             className={styles.topLangSelector}
             onMouseEnter={() => setTopLangDropdownOpen(true)}
             onMouseLeave={() => setTopLangDropdownOpen(false)}
           >
-            <button className={styles.topBarLink} style={{ border: 'none', background: 'transparent', cursor: 'pointer', padding: 0, fontFamily: 'inherit' }}>
-              <span style={{ fontSize: 16 }}>
-                {currentLocale === 'tr' ? '🇹🇷' : currentLocale === 'en' ? '🇬🇧' : currentLocale === 'ar' ? '🇸🇦' : '🌐'}
+            <button
+              className={`${styles.topBarLink} ${styles.langButton}`}
+            >
+              <span className={styles.langIcon}>
+                {currentLocale === "tr"
+                  ? "🇹🇷"
+                  : currentLocale === "en"
+                    ? "🇬🇧"
+                    : currentLocale === "ar"
+                      ? "🇸🇦"
+                      : "🌐"}
               </span>
-              <span>{availableLocales.find(l => l.code === currentLocale)?.name || "Turkish"}</span>
+              <span>
+                {availableLocales.find((l) => l.code === currentLocale)?.name ||
+                  "Turkish"}
+              </span>
               <ChevronDown size={14} />
             </button>
             <AnimatePresence>
@@ -97,8 +109,14 @@ export const Navbar = () => {
                       onClick={() => switchLanguage(loc.code)}
                       className={`${styles.langDropdownItem} ${currentLocale === loc.code ? styles.langActive : ""}`}
                     >
-                      <span style={{ marginRight: 6 }}>
-                        {loc.code === 'tr' ? '🇹🇷' : loc.code === 'en' ? '🇬🇧' : loc.code === 'ar' ? '🇸🇦' : '🌐'}
+                      <span className={styles.loginIcon}>
+                        {loc.code === "tr"
+                          ? "🇹🇷"
+                          : loc.code === "en"
+                            ? "🇬🇧"
+                            : loc.code === "ar"
+                              ? "🇸🇦"
+                              : "🌐"}
                       </span>
                       {loc.name}
                     </button>
@@ -107,64 +125,184 @@ export const Navbar = () => {
               )}
             </AnimatePresence>
           </div>
-          
+
           <div className={styles.topBarDivider}></div>
 
-          <a href={`/${currentLocale}/haftalik-program`} className={styles.topBarLink}>
+          <a
+            href={`/${currentLocale}/haftalik-program`}
+            className={styles.topBarLink}
+          >
             <Calendar size={16} />
-            <span>{(navDict as any)?.weeklyProgram || "Haftalık Aktivite Programı"}</span>
+            <span>
+              {(navDict as any)?.weeklyProgram || "Haftalık Aktivite Programı"}
+            </span>
           </a>
         </div>
-        
+
         <div className={styles.topBarCenter}>
           <div className={styles.marquee}>
             <div className={styles.marqueeContent}>
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee1 || "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee1 ||
+                  "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
               </span>
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee2 || "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee2 ||
+                  "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
               </span>
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee3 || "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee3 ||
+                  "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
               </span>
             </div>
             {/* Duplicate for seamless looping */}
             <div className={styles.marqueeContent} aria-hidden="true">
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee1 || "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee1 ||
+                  "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
               </span>
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee2 || "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee2 ||
+                  "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
               </span>
               <span className={styles.marqueeItem}>
-                <Sparkles size={14} style={{ display: 'inline', marginRight: 6 }} /> 
-                {navDict?.marquee3 || "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
+                <Sparkles
+                  size={14}
+                  className={styles.sparkleIcon}
+                />
+                {navDict?.marquee3 ||
+                  "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
               </span>
             </div>
           </div>
         </div>
 
         <div className={styles.topBarRight}>
-          <a href="https://www.instagram.com/akademikinternational" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Instagram">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <a
+            href="https://www.instagram.com/akademikinternational"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            aria-label="Instagram"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
           </a>
-          <a href="https://tr-tr.facebook.com/akademikbatidilleri/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Facebook">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          <a
+            href="https://tr-tr.facebook.com/akademikbatidilleri/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            aria-label="Facebook"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
           </a>
-          <a href="https://x.com/akademikdilokul" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Twitter">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+          <a
+            href="https://x.com/akademikdilokul"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            aria-label="Twitter"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+            </svg>
           </a>
-          <a href="https://www.youtube.com/channel/UC1VMsQPzasFIRhPYfo16O_Q" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Youtube">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          <a
+            href="https://www.youtube.com/channel/UC1VMsQPzasFIRhPYfo16O_Q"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            aria-label="Youtube"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+            </svg>
           </a>
-          <a href="https://tr.linkedin.com/company/akademik-dil-kursu" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Linkedin">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <a
+            href="https://tr.linkedin.com/company/akademik-dil-kursu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            aria-label="Linkedin"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
           </a>
         </div>
       </div>
@@ -174,14 +312,13 @@ export const Navbar = () => {
         <div className={styles.container}>
           {/* LOGO */}
           <a href={`/${currentLocale}`} className={styles.logo}>
-            <Image 
-              src="/logo.png" 
-              alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL" 
-              width={200} 
-              height={50} 
+            <Image
+              src="/logo.png"
+              alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
+              width={200}
+              height={50}
               className={styles.mainLogo}
               priority
-              style={{ width: "auto", height: "auto" }}
             />
           </a>
 
@@ -197,14 +334,11 @@ export const Navbar = () => {
                 <span>{navDict?.navGeneralEnglish || "Genel İngilizce"}</span>
                 <ChevronDown
                   size={14}
-                  className={styles.chevron}
-                  style={{
-                    transform:
-                      activeDropdown === "genelIngilizce"
-                        ? "rotate(180deg)"
-                        : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "genelIngilizce"
+                      ? styles.chevronOpen
+                      : ""
+                  }`}
                 />
               </button>
 
@@ -227,14 +361,11 @@ export const Navbar = () => {
                 </span>
                 <ChevronDown
                   size={14}
-                  className={styles.chevron}
-                  style={{
-                    transform:
-                      activeDropdown === "sinav"
-                        ? "rotate(180deg)"
-                        : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "sinav"
+                      ? styles.chevronOpen
+                      : ""
+                  }`}
                 />
               </button>
 
@@ -253,14 +384,11 @@ export const Navbar = () => {
                 <span>{navDict?.navOtherLanguages || "Diğer Diller"}</span>
                 <ChevronDown
                   size={14}
-                  className={styles.chevron}
-                  style={{
-                    transform:
-                      activeDropdown === "digerDiller"
-                        ? "rotate(180deg)"
-                        : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "digerDiller"
+                      ? styles.chevronOpen
+                      : ""
+                  }`}
                 />
               </button>
 
@@ -279,14 +407,11 @@ export const Navbar = () => {
                 <span>{navDict?.navBranches || "Şubelerimiz"}</span>
                 <ChevronDown
                   size={14}
-                  className={styles.chevron}
-                  style={{
-                    transform:
-                      activeDropdown === "subeler"
-                        ? "rotate(180deg)"
-                        : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "subeler"
+                      ? styles.chevronOpen
+                      : ""
+                  }`}
                 />
               </button>
 
@@ -305,14 +430,11 @@ export const Navbar = () => {
                 <span>{navDict?.navAbout || "Hakkımızda"}</span>
                 <ChevronDown
                   size={14}
-                  className={styles.chevron}
-                  style={{
-                    transform:
-                      activeDropdown === "hakkimizda"
-                        ? "rotate(180deg)"
-                        : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "hakkimizda"
+                      ? styles.chevronOpen
+                      : ""
+                  }`}
                 />
               </button>
 
@@ -327,149 +449,137 @@ export const Navbar = () => {
             </a>
           </div>
 
-          {/* DİL SEÇİCİ & TELEFON BUTONU */}
-          <div className={styles.rightActions}>
-            {/* DİL SEÇİCİ DROPDOWN */}
-            <div
-              className={styles.langSelectorContainer}
-              onMouseEnter={() => setLangDropdownOpen(true)}
-              onMouseLeave={() => setLangDropdownOpen(false)}
-            >
-              <button className={styles.langBtn} aria-label="Dil Seçimi">
-                <Globe size={16} />
-                <span>{currentLocale.toUpperCase()}</span>
-                <ChevronDown
-                  size={14}
-                  style={{
-                    transform: langDropdownOpen
-                      ? "rotate(180deg)"
-                      : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
-                />
-              </button>
+          {/* SAĞ GRUP (Girişler ve Mobil Buton) */}
+          <div className={styles.rightGroup}>
+            <div className={styles.rightActions}>
+              <div
+                className={styles.langSelectorContainer}
+                onMouseEnter={() => setLangDropdownOpen(true)}
+                onMouseLeave={() => setLangDropdownOpen(false)}
+              >
+                <button className={styles.langBtn} aria-label="Dil Seçimi">
+                  <Globe size={16} />
+                  <span>{currentLocale.toUpperCase()}</span>
+                  <ChevronDown
+                    size={14}
+                    className={`${styles.chevron} ${
+                      langDropdownOpen ? styles.chevronOpen : ""
+                    }`}
+                  />
+                </button>
 
-              <AnimatePresence>
-                {langDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 5 }}
-                    transition={{ duration: 0.15 }}
-                    className={styles.langDropdownMenu}
-                  >
-                    {availableLocales.map((loc) => (
+                <AnimatePresence>
+                  {langDropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 5 }}
+                      transition={{ duration: 0.15 }}
+                      className={styles.langDropdownMenu}
+                    >
+                      {availableLocales.map((loc) => (
+                        <button
+                          key={loc.code}
+                          onClick={() => switchLanguage(loc.code)}
+                          className={`${styles.langDropdownItem} ${
+                            currentLocale === loc.code ? styles.langActive : ""
+                          }`}
+                        >
+                          {loc.name}
+                        </button>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <div
+                className={styles.langSelectorContainer}
+                onMouseEnter={() => setThemeDropdownOpen(true)}
+                onMouseLeave={() => setThemeDropdownOpen(false)}
+              >
+                <button className={styles.langBtn} aria-label="Tema Seçimi">
+                  {theme === "dark" ? (
+                    <Moon size={16} />
+                  ) : theme === "light" ? (
+                    <Sun size={16} />
+                  ) : (
+                    <Monitor size={16} />
+                  )}
+                  <ChevronDown
+                    size={14}
+                    className={`${styles.chevron} ${
+                      themeDropdownOpen ? styles.chevronOpen : ""
+                    }`}
+                  />
+                </button>
+
+                <AnimatePresence>
+                  {themeDropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 5 }}
+                      transition={{ duration: 0.15 }}
+                      className={styles.langDropdownMenu}
+                    >
                       <button
-                        key={loc.code}
-                        onClick={() => switchLanguage(loc.code)}
+                        onClick={() => {
+                          setTheme("dark");
+                          setThemeDropdownOpen(false);
+                        }}
                         className={`${styles.langDropdownItem} ${
-                          currentLocale === loc.code ? styles.langActive : ""
+                          theme === "dark" ? styles.langActive : ""
                         }`}
                       >
-                        {loc.name} ({loc.code.toUpperCase()})
+                        <Moon size={14} className={styles.loginIcon} /> Koyu
                       </button>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                      <button
+                        onClick={() => {
+                          setTheme("light");
+                          setThemeDropdownOpen(false);
+                        }}
+                        className={`${styles.langDropdownItem} ${
+                          theme === "light" ? styles.langActive : ""
+                        }`}
+                      >
+                        <Sun size={14} className={styles.loginIcon} /> Beyaz
+                      </button>
+                      <button
+                        onClick={() => {
+                          setTheme("system");
+                          setThemeDropdownOpen(false);
+                        }}
+                        className={`${styles.langDropdownItem} ${
+                          theme === "system" ? styles.langActive : ""
+                        }`}
+                      >
+                        <Monitor size={14} className={styles.loginIcon} /> Sistem
+                      </button>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* GİRİŞ BUTONLARI */}
+              <div className={styles.loginBtnWrapper}>
+                <a href="#" className={styles.ctaBtn}>
+                  {navDict?.parentLogin || "Veli Girişi"}
+                </a>
+                <a href="#" className={styles.ctaBtn}>
+                  {navDict?.studentLogin || "Öğrenci Girişi"}
+                </a>
+              </div>
             </div>
 
-            {/* TEMA SEÇİCİ DROPDOWN */}
-            <div
-              className={styles.langSelectorContainer}
-              onMouseEnter={() => setThemeDropdownOpen(true)}
-              onMouseLeave={() => setThemeDropdownOpen(false)}
+            {/* MOBİL MENÜ BUTONU */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className={styles.mobileBtn}
             >
-              <button className={styles.langBtn} aria-label="Tema Seçimi">
-                {theme === "dark" ? (
-                  <Moon size={16} />
-                ) : theme === "light" ? (
-                  <Sun size={16} />
-                ) : (
-                  <Monitor size={16} />
-                )}
-                <ChevronDown
-                  size={14}
-                  style={{
-                    transform: themeDropdownOpen
-                      ? "rotate(180deg)"
-                      : "rotate(0deg)",
-                    transition: "transform 0.2s ease",
-                  }}
-                />
-              </button>
-
-              <AnimatePresence>
-                {themeDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 5 }}
-                    transition={{ duration: 0.15 }}
-                    className={styles.langDropdownMenu}
-                  >
-                    <button
-                      onClick={() => {
-                        setTheme("dark");
-                        setThemeDropdownOpen(false);
-                      }}
-                      className={`${styles.langDropdownItem} ${
-                        theme === "dark" ? styles.langActive : ""
-                      }`}
-                    >
-                      <Moon size={14} style={{ marginRight: 6 }} /> Koyu
-                    </button>
-                    <button
-                      onClick={() => {
-                        setTheme("light");
-                        setThemeDropdownOpen(false);
-                      }}
-                      className={`${styles.langDropdownItem} ${
-                        theme === "light" ? styles.langActive : ""
-                      }`}
-                    >
-                      <Sun size={14} style={{ marginRight: 6 }} /> Beyaz
-                    </button>
-                    <button
-                      onClick={() => {
-                        setTheme("system");
-                        setThemeDropdownOpen(false);
-                      }}
-                      className={`${styles.langDropdownItem} ${
-                        theme === "system" ? styles.langActive : ""
-                      }`}
-                    >
-                      <Monitor size={14} style={{ marginRight: 6 }} /> Sistem
-                    </button>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-
-            {/* GİRİŞ BUTONLARI */}
-            <div className={styles.loginBtnWrapper}>
-              <a
-                href="#"
-                className={styles.ctaBtn}
-              >
-                {navDict?.parentLogin || "Veli Girişi"}
-              </a>
-              <a
-                href="#"
-                className={styles.ctaBtn}
-              >
-                {navDict?.studentLogin || "Öğrenci Girişi"}
-              </a>
-            </div>
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
-
-          {/* MOBİL MENÜ BUTONU */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={styles.mobileBtn}
-          >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
         </div>
       </nav>
 
@@ -514,16 +624,10 @@ export const Navbar = () => {
             </a>
 
             <div className={styles.mobileCtaWrapper}>
-              <a
-                href="#"
-                className={styles.ctaBtnMobile}
-              >
+              <a href="#" className={styles.ctaBtnMobile}>
                 {navDict?.parentLogin || "Veli Girişi"}
               </a>
-              <a
-                href="#"
-                className={styles.ctaBtnMobile}
-              >
+              <a href="#" className={styles.ctaBtnMobile}>
                 {navDict?.studentLogin || "Öğrenci Girişi"}
               </a>
             </div>
@@ -594,5 +698,6 @@ export const Navbar = () => {
         )}
       </AnimatePresence>
     </header>
+    </>
   );
 };

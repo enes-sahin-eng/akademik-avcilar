@@ -37,8 +37,7 @@ export const FAQSection = () => {
             >
               <ArrowDownCircle 
                 size={20} 
-                className={styles.arrowIcon} 
-                style={{ transform: openIndex === idx ? "rotate(180deg)" : "rotate(0deg)" }}
+                className={`${styles.arrowIcon} ${openIndex === idx ? styles.arrowIconOpen : ""}`}
               />
               {item.q}
             </button>
@@ -49,7 +48,7 @@ export const FAQSection = () => {
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  style={{ overflow: "hidden" }}
+                  className={styles.accordionContent}
                 >
                   <div className={styles.accordionBody}>
                     {item.a}
