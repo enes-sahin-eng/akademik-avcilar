@@ -30,7 +30,7 @@ export const MegaMenuSinav: React.FC = () => {
           <Icon size={24} strokeWidth={1.5} />
         </div>
         <div>
-          <h4 className={styles.sectionTitle}>{section.title}</h4>
+          <div className={styles.sectionTitle}>{section.title}</div>
           <p className={styles.sectionSubtitle}>{section.subtitle}</p>
         </div>
       </a>

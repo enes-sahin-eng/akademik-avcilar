@@ -14,7 +14,8 @@
     "list3": "Anında detaylı sonuç",
     "btnText": "Sınava Başla →",
     "footerText": "Ücretsiz · Kayıt gerektirmez",
-    "avatarAlt": "Danışman"
+    "avatarAlt": "Avcılar Yabancı Dil Kursu Seviye Tespit Sınavı Eğitim Danışmanı",
+    "avatarTitle": "Avcılar Akademik International Ücretsiz Seviye Belirleme Sınavı"
   },
   "navbar": {
     "topAnnouncement": "Erken Kayıtta %30 İndirim Fırsatı Başladı!",
@@ -647,13 +648,22 @@
       ]
     }
   },
+  "programTabsSection": {
+    "title": "Avcılar Yabancı Dil Kursu Kampüsümüzde Verilen Programlar",
+    "subtitle": "Avcılar Yabancı Dil Kursu - En İyi Yabancı Dil Eğitim Merkezi Tavsiye Avcılar",
+    "tabs": {
+      "tum": "TÜM PROGRAMLAR",
+      "nitelikli": "NİTELİKLİ DİL KURSLARI",
+      "sinav": "AKADEMİK SINAV KURSLARI"
+    }
+  },
   "heroSlider": {
     "slides": [
-      { "id": 1, "image": "/slider1.webp" },
-      { "id": 2, "image": "/slider2.webp" },
-      { "id": 3, "image": "/slider3.webp" },
-      { "id": 4, "image": "/slider4.webp" },
-      { "id": 5, "image": "/slider5.webp" }
+      { "id": 1, "image": "/slider1.webp", "alt": "Avcılar Yabancı Dil Kursu - Akademik International Eğitimleri", "title": "Avcılar Tüm Dillerde Yabancı Dil Kursu" },
+      { "id": 2, "image": "/slider2.webp", "alt": "Avcılar İngilizce, Almanca, İspanyolca Dil Okulu - Çocuklar ve Yetişkinler İçin", "title": "Avcılar'da Her Yaş İçin Eğlenceli Yabancı Dil Dersleri" },
+      { "id": 3, "image": "/slider3.webp", "alt": "Avcılar IELTS, TOEFL, Goethe Hazırlık Kursları - Akademik International", "title": "Garantili Uluslararası Sınavlara Hazırlık ve Dil Eğitimi" },
+      { "id": 4, "image": "/slider4.webp", "alt": "Avcılar'da Dünya Dilleri Kursu - Yurt Dışı Eğitim ve Kariyer Fırsatları", "title": "Avcılar'da Fransızca, Rusça, Arapça ve Daha Fazlası" },
+      { "id": 5, "image": "/slider5.webp", "alt": "Avcılar'ın En İyi Yabancı Dil Okulu - Akademik International Modern Kampüsü", "title": "Tüm Dillerde Kaliteli Eğitimle Avcılar'da Yabancı Dil Öğrenin" }
     ]
   },
   "heroSliderForm": {
@@ -737,11 +747,11 @@
       }
     ],
     "videos": [
-      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
-      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
-      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
-      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
-      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+      { "id": 1, "youtubeId": "o3IB9AeRkg4", "thumbnail": "" },
+      { "id": 2, "youtubeId": "3OUOsPUbrfs", "thumbnail": "" },
+      { "id": 3, "youtubeId": "KgregjiLwzQ", "thumbnail": "" },
+      { "id": 4, "youtubeId": "BuQ831y6c_g", "thumbnail": "" },
+      { "id": 5, "youtubeId": "dFQERaILR68", "thumbnail": "" }
     ],
     "awards": [
       { "id": 1, "image": "/reward1.webp" },

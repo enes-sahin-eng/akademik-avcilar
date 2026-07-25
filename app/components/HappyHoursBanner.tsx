@@ -36,7 +36,7 @@ export const HappyHoursBanner = () => {
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5 }}
     >
-      <h3 className={styles.title}>{content.title}</h3>
+      <h2 className={styles.title}>{content.title}</h2>
       <motion.div 
         className={styles.subtitle}
         animate={{ scale: [1, 1.05, 1] }}

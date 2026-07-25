@@ -31,7 +31,7 @@ export const MegaMenuGenelIngilizce: React.FC = () => {
                     {idx === 0 ? <Telescope size={24} /> : <GraduationCap size={24} />}
                   </div>
                   <div>
-                    <h4 className={styles.sectionTitle}>{section.title}</h4>
+                    <div className={styles.sectionTitle}>{section.title}</div>
                     <p className={styles.sectionSubtitle}>{section.subtitle}</p>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ export const MegaMenuGenelIngilizce: React.FC = () => {
                     <Users size={24} />
                   </div>
                   <div>
-                    <h4 className={styles.sectionTitle}>{section.title}</h4>
+                    <div className={styles.sectionTitle}>{section.title}</div>
                     <p className={styles.sectionSubtitle}>{section.subtitle}</p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ export const MegaMenuGenelIngilizce: React.FC = () => {
 
       {/* Sağ Taraf - Promosyon */}
       <div className={styles.megaMenuRight}>
-        <h3 className={styles.promoTitle}>{megaMenu.promo.title}</h3>
+        <div className={styles.promoTitle}>{megaMenu.promo.title}</div>
         {/* Placeholder görsel (Gerçek görsel yerine css tasarımı ya da placehoder image) */}
         <div className={styles.promoImageWrapper}>
            <img 

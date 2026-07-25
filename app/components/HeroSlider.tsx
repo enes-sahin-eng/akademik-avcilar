@@ -5,10 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "./HeroSlider.module.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
+import Image from "next/image";
 
 interface Slide {
   id: number;
   image: string;
+  alt?: string;
+  title?: string;
 }
 
 export const HeroSlider = () => {
@@ -60,9 +63,13 @@ export const HeroSlider = () => {
               className={styles.slideInner}
             >
               {/* Picsum Kapak Görseli */}
-              <img
+              <Image
                 src={currentSlide.image}
-                alt={`Slide ${currentSlide.id}`}
+                alt={currentSlide.alt || `Slide ${currentSlide.id}`}
+                title={currentSlide.title || ""}
+                fill
+                priority={true}
+                sizes="(max-width: 768px) 100vw, 100vw"
                 className={styles.slideImage}
               />
 
@@ -103,7 +110,7 @@ export const HeroSlider = () => {
         <div className={styles.formCardOverlay}>
             <div className={styles.formHeader}>
               <div>
-                <h3 className={styles.formTitle}>{dict?.heroSliderForm?.title || "ÜCRETSİZ EĞİTİM!"}</h3>
+                <h2 className={styles.formTitle}>{dict?.heroSliderForm?.title || "ÜCRETSİZ EĞİTİM!"}</h2>
                 <p className={styles.formSubtitle}>{dict?.heroSliderForm?.subtitle || "Eğitim İçin Hemen Ön Bilgi Alın!"}</p>
               </div>
             </div>

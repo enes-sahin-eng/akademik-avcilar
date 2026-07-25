@@ -5,6 +5,7 @@ import { Phone } from "lucide-react";
 import styles from "./CampusCarousel.module.css";
 import { motion, useInView } from "framer-motion";
 import { useDictionary } from "../../src/context/DictionaryContext";
+import Image from "next/image";
 
 export const CampusCarousel = () => {
   const dict = useDictionary();
@@ -103,15 +104,18 @@ export const CampusCarousel = () => {
                 whileHover={{ rotate: 10, scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <img
+                <Image
                   src={`https://picsum.photos/seed/cam${idx}/200/200`}
-                  alt={campus.name}
+                  alt={`${campus.name} Şubesi - Akademik International Dil Kursu`}
+                  title={`${campus.name} Yabancı Dil Eğitim Merkezi`}
+                  width={200}
+                  height={200}
                   className={styles.campusImg}
                 />
               </motion.div>
               <div className={styles.campusInfo}>
                 <p className={styles.campusCity}>{campus.name}</p>
-                <h4 className={styles.campusLabel}>{campus.label}</h4>
+                <div className={styles.campusLabel}>{campus.label}</div>
                 <a
                   href={`tel:${campus.phone.replace(/\s/g, "")}`}
                   className={styles.campusPhone}

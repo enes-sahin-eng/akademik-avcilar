@@ -14,7 +14,8 @@
     "list3": "Instant detailed results",
     "btnText": "Start Test →",
     "footerText": "Free · No registration required",
-    "avatarAlt": "Advisor"
+    "avatarAlt": "Avcilar Foreign Language Course Placement Test Education Advisor",
+    "avatarTitle": "Avcilar Akademik International Free Placement Test"
   },
   "navbar": {
     "topAnnouncement": "30% Early Bird Discount Has Started!",
@@ -647,13 +648,22 @@
       ]
     }
   },
+  "programTabsSection": {
+    "title": "Programs Offered at Our Avcilar Foreign Language Campus",
+    "subtitle": "Avcilar Foreign Language Course - Best Recommended Language Education Center in Avcilar",
+    "tabs": {
+      "tum": "ALL PROGRAMS",
+      "nitelikli": "QUALIFIED LANGUAGE COURSES",
+      "sinav": "ACADEMIC EXAM COURSES"
+    }
+  },
   "heroSlider": {
     "slides": [
-      { "id": 1, "image": "/slider1.webp" },
-      { "id": 2, "image": "/slider2.webp" },
-      { "id": 3, "image": "/slider3.webp" },
-      { "id": 4, "image": "/slider4.webp" },
-      { "id": 5, "image": "/slider5.webp" }
+      { "id": 1, "image": "/slider1.webp", "alt": "Avcilar Foreign Language Course - Akademik International Educations", "title": "Avcilar Foreign Language Course in All Languages" },
+      { "id": 2, "image": "/slider2.webp", "alt": "Avcilar English, German, Spanish Language School - For Kids and Adults", "title": "Fun Foreign Language Classes for All Ages in Avcilar" },
+      { "id": 3, "image": "/slider3.webp", "alt": "Avcilar IELTS, TOEFL, Goethe Preparation Courses - Akademik International", "title": "Guaranteed International Exam Preparation and Language Education" },
+      { "id": 4, "image": "/slider4.webp", "alt": "World Languages Course in Avcilar - Study Abroad and Career Opportunities", "title": "French, Russian, Arabic and More in Avcilar" },
+      { "id": 5, "image": "/slider5.webp", "alt": "Best Foreign Language School in Avcilar - Akademik International Modern Campus", "title": "Learn Foreign Languages in Avcilar with Quality Education in All Languages" }
     ]
   },
   "heroSliderForm": {
@@ -737,11 +747,11 @@
       }
     ],
     "videos": [
-      { "id": 1, "thumbnail": "/slider1.webp", "url": "#" },
-      { "id": 2, "thumbnail": "/slider2.webp", "url": "#" },
-      { "id": 3, "thumbnail": "/slider3.webp", "url": "#" },
-      { "id": 4, "thumbnail": "/slider4.webp", "url": "#" },
-      { "id": 5, "thumbnail": "/slider5.webp", "url": "#" }
+      { "id": 1, "youtubeId": "o3IB9AeRkg4", "thumbnail": "" },
+      { "id": 2, "youtubeId": "3OUOsPUbrfs", "thumbnail": "" },
+      { "id": 3, "youtubeId": "KgregjiLwzQ", "thumbnail": "" },
+      { "id": 4, "youtubeId": "BuQ831y6c_g", "thumbnail": "" },
+      { "id": 5, "youtubeId": "dFQERaILR68", "thumbnail": "" }
     ],
     "awards": [
       { "id": 1, "image": "/reward1.webp" },

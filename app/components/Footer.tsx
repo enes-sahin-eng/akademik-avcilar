@@ -70,7 +70,7 @@ export const Footer: React.FC = () => {
         {/* TOP SECTION */}
         <div className={styles.topSection}>
           <div>
-            <h3 className={styles.columnTitle}>{footerData.campusesTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.campusesTitle}</div>
             <ul className={styles.linkList}>
               {campuses.map((c, i) => (
                 <li key={i} className={styles.linkItem}>
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className={styles.columnTitle}>{footerData.programsTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.programsTitle}</div>
             <div className={styles.twoCols}>
               <ul className={styles.linkList}>
                 {programs.slice(0, Math.ceil(programs.length / 2)).map((p, i) => (
@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className={styles.columnTitle}>{footerData.languagesTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.languagesTitle}</div>
             <ul className={styles.linkList}>
               {languages.map((l, i) => (
                 <li key={i} className={styles.linkItem}>
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
         {/* MIDDLE SECTION */}
         <div className={styles.middleSection}>
           <div>
-            <h3 className={styles.columnTitle}>{footerData.newsletterTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.newsletterTitle}</div>
             <p className={styles.middleDesc}>{footerData.newsletterDesc}</p>
             <div className={styles.newsletterForm}>
               <div className={styles.inputWrapper}>
@@ -132,7 +132,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className={styles.columnTitle}>{footerData.socialTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.socialTitle}</div>
             <p className={styles.middleDesc}>{footerData.socialDesc}</p>
             <div className={styles.socialIcons}>
               <a href="https://tr-tr.facebook.com/akademikbatidilleri/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Facebook">
@@ -154,7 +154,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className={styles.columnTitle}>{footerData.customerServiceTitle}</h3>
+            <div className={styles.columnTitle}>{footerData.customerServiceTitle}</div>
             <div className={styles.customerService}>
               <div className={styles.phoneGroup}>
                 <HeadphonesIcon size={32} />
@@ -181,7 +181,7 @@ export const Footer: React.FC = () => {
           <div className={styles.copyright}>{footerData.copyright}</div>
           
           <div className={styles.partnersSection}>
-            <h4 className={styles.sectionHeading}>{footerData.partnersTitle}</h4>
+            <div className={styles.sectionHeading}>{footerData.partnersTitle}</div>
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
                 <Image src="/british.webp" alt="British Council & IELTS" height={60} width={250} className={styles.logoImg} />

@@ -23,7 +23,7 @@ export const FAQSection = () => {
       <div className={styles.faqHeader}>
         <Info size={28} className={styles.infoIcon} />
         <div className={styles.headerText}>
-          <h3 className={styles.title}>{content.title}</h3>
+          <h2 className={styles.title}>{content.title}</h2>
           <p className={styles.desc}>{content.desc}</p>
         </div>
       </div>

@@ -25,7 +25,7 @@ export const MegaMenuSubeler: React.FC = () => {
         <div className={styles.subelerGroup}>
           <div className={styles.subelerHeader}>
             <Building2 size={20} className={styles.subelerIcon} />
-            <h4 className={styles.subelerTitle}>{megaMenu.activeCampusesTitle}</h4>
+            <div className={styles.subelerTitle}>{megaMenu.activeCampusesTitle}</div>
           </div>
           <div className={styles.subelerColumns}>
             <ul className={styles.subelerList}>
@@ -51,7 +51,7 @@ export const MegaMenuSubeler: React.FC = () => {
         <div className={styles.subelerGroup}>
           <div className={styles.subelerHeader}>
             <Building2 size={20} className={styles.subelerIcon} />
-            <h4 className={styles.subelerTitle}>{megaMenu.expandingTitle}</h4>
+            <div className={styles.subelerTitle}>{megaMenu.expandingTitle}</div>
           </div>
           <div className={styles.subelerColumns}>
             <ul className={styles.subelerList}>

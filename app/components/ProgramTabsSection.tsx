@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './ProgramTabsSection.module.css';
+import { useDictionary } from '../../src/context/DictionaryContext';
 
 export const ProgramTabsSection = () => {
+  const dict = useDictionary();
+  const t = dict?.programTabsSection;
   const [activeTab, setActiveTab] = useState('tum');
 
   const programCards = [
@@ -34,10 +37,10 @@ export const ProgramTabsSection = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.title}>
-          Avcılar İngilizce Dil Kursu'nda Verilen Programlar
+          {t?.title || "Avcılar Yabancı Dil Kursu Kampüsümüzde Verilen Programlar"}
         </h2>
         <p className={styles.subtitle}>
-          Avcılar İngilizce Kursu - En İyi Yabancı Dil Kursu Tavsiye Avcılar
+          {t?.subtitle || "Avcılar Yabancı Dil Kursu - En İyi Yabancı Dil Eğitim Merkezi Tavsiye Avcılar"}
         </p>
 
         <div className={styles.tabsContainer}>
@@ -45,19 +48,19 @@ export const ProgramTabsSection = () => {
             className={`${styles.tabBtn} ${activeTab === 'tum' ? styles.active : ''}`}
             onClick={() => setActiveTab('tum')}
           >
-            TÜM PROGRAMLAR
+            {t?.tabs?.tum || "TÜM PROGRAMLAR"}
           </button>
           <button 
             className={`${styles.tabBtn} ${activeTab === 'nitelikli' ? styles.active : ''}`}
             onClick={() => setActiveTab('nitelikli')}
           >
-            NİTELİKLİ İNGİLİZCE KURSLARI
+            {t?.tabs?.nitelikli || "NİTELİKLİ DİL KURSLARI"}
           </button>
           <button 
             className={`${styles.tabBtn} ${activeTab === 'sinav' ? styles.active : ''}`}
             onClick={() => setActiveTab('sinav')}
           >
-            AKADEMİK SINAV KURSLARI
+            {t?.tabs?.sinav || "AKADEMİK SINAV KURSLARI"}
           </button>
         </div>
 
@@ -75,7 +78,8 @@ export const ProgramTabsSection = () => {
               >
                 <Image 
                   src={card.img} 
-                  alt={card.title.replace(/\n/g, ' ')} 
+                  alt={`${card.title.replace(/\n/g, ' ')} - Avcılar Akademik International Yabancı Dil Kursu`} 
+                  title={`${card.title.replace(/\n/g, ' ')} Eğitimi`}
                   fill 
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className={styles.cardImg} 

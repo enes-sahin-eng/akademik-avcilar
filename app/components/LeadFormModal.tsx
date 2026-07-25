@@ -66,10 +66,10 @@ export const LeadFormModal: React.FC = () => {
                 {!isSubmitted ? (
                   <>
                     <div className={styles.header}>
-                      <h3 className={styles.title}>
+                      <h2 className={styles.title}>
                         <PenSquare size={24} />
                         {formDict.title}
-                      </h3>
+                      </h2>
                       <p className={styles.subtitle}>{formDict.subtitle}</p>
                     </div>
 
@@ -146,9 +146,9 @@ export const LeadFormModal: React.FC = () => {
                         <Send size={32} />
                       </div>
                     </motion.div>
-                    <h3 className={`${styles.title} ${styles.successTitle}`}>
+                    <h2 className={`${styles.title} ${styles.successTitle}`}>
                       {formDict.successMessage}
-                    </h3>
+                    </h2>
                   </div>
                 )}
               </div>
