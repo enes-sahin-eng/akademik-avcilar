@@ -136,29 +136,17 @@ export const LeadFormModal: React.FC = () => {
                     </form>
                   </>
                 ) : (
-                  <div style={{ textAlign: "center", padding: "40px 0" }}>
+                  <div className={styles.successContainer}>
                     <motion.div
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ type: "spring", damping: 15 }}
                     >
-                      <div
-                        style={{
-                          width: "64px",
-                          height: "64px",
-                          background: "rgba(34, 197, 94, 0.1)",
-                          color: "#22c55e",
-                          borderRadius: "50%",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          margin: "0 auto 20px",
-                        }}
-                      >
+                      <div className={styles.successIcon}>
                         <Send size={32} />
                       </div>
                     </motion.div>
-                    <h3 className={styles.title} style={{ padding: 0 }}>
+                    <h3 className={`${styles.title} ${styles.successTitle}`}>
                       {formDict.successMessage}
                     </h3>
                   </div>

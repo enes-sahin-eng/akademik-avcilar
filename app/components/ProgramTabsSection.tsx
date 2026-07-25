@@ -2,30 +2,28 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './ProgramTabsSection.module.css';
-import { useDictionary } from '../../src/context/DictionaryContext';
 
 export const ProgramTabsSection = () => {
   const [activeTab, setActiveTab] = useState('tum');
-  const dict = useDictionary();
 
   const programCards = [
-    { id: 1, category: 'nitelikli', title: 'Prep Temel\nİngilizce Kursu', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 2, category: 'nitelikli', title: 'Prep Plus İngilizce\nKursu', img: '/hero-2.webp', flags: ['🇬🇧'] },
-    { id: 3, category: 'nitelikli', title: 'Academic\nİngilizce Kursu', img: '/hero-3.webp', flags: ['🇬🇧'] },
-    { id: 4, category: 'nitelikli', title: 'Academic Plus\nKursu', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 5, category: 'nitelikli', title: 'Genel İngilizce\nKursu', img: '/hero-2.webp', flags: ['🇬🇧'] },
-    { id: 6, category: 'nitelikli', title: 'İngilizce Özel Ders', img: '/hero-3.webp', flags: ['🇬🇧'] },
-    { id: 7, category: 'nitelikli', title: 'Kurumlara Özel /\nKurumsal İngilizce\nKursu', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 8, category: 'sinav', title: 'YDS Hazırlık Kursu', img: '/hero-2.webp', flags: ['🇬🇧'] },
-    { id: 9, category: 'sinav', title: 'YKS-DİL (YDT)\nHazırlık Kursu', img: '/hero-3.webp', flags: ['🇬🇧'] },
-    { id: 10, category: 'sinav', title: 'TOEFL Hazırlık\nKursu', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 11, category: 'sinav', title: 'IELTS Hazırlık\nKursu', img: '/hero-2.webp', flags: ['🇬🇧'] },
-    { id: 12, category: 'sinav', title: 'Hazırlık Atlama\nKursu -\nProficiency', img: '/hero-3.webp', flags: ['🇬🇧'] },
-    { id: 13, category: 'sinav', title: 'GMAT', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 14, category: 'sinav', title: 'Almanca Goethe\nSınavı Hazırlık\nKursu', img: '/hero-2.webp', flags: ['🇩🇪'] },
-    { id: 15, category: 'sinav', title: 'SAT Kursu', img: '/hero-3.webp', flags: ['🇬🇧'] },
-    { id: 16, category: 'sinav', title: 'PTE Kursu', img: '/hero-1.webp', flags: ['🇬🇧'] },
-    { id: 17, category: 'sinav', title: 'TELC Kursu', img: '/hero-2.webp', flags: ['🇩🇪', '🇬🇧'] },
+    { id: 1, category: 'nitelikli', title: 'Prep Temel\nİngilizce Kursu', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 2, category: 'nitelikli', title: 'Prep Plus İngilizce\nKursu', img: '/slider2.webp', flags: ['🇬🇧'] },
+    { id: 3, category: 'nitelikli', title: 'Academic\nİngilizce Kursu', img: '/slider3.webp', flags: ['🇬🇧'] },
+    { id: 4, category: 'nitelikli', title: 'Academic Plus\nKursu', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 5, category: 'nitelikli', title: 'Genel İngilizce\nKursu', img: '/slider2.webp', flags: ['🇬🇧'] },
+    { id: 6, category: 'nitelikli', title: 'İngilizce Özel Ders', img: '/slider3.webp', flags: ['🇬🇧'] },
+    { id: 7, category: 'nitelikli', title: 'Kurumlara Özel /\nKurumsal İngilizce\nKursu', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 8, category: 'sinav', title: 'YDS Hazırlık Kursu', img: '/slider2.webp', flags: ['🇬🇧'] },
+    { id: 9, category: 'sinav', title: 'YKS-DİL (YDT)\nHazırlık Kursu', img: '/slider3.webp', flags: ['🇬🇧'] },
+    { id: 10, category: 'sinav', title: 'TOEFL Hazırlık\nKursu', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 11, category: 'sinav', title: 'IELTS Hazırlık\nKursu', img: '/slider2.webp', flags: ['🇬🇧'] },
+    { id: 12, category: 'sinav', title: 'Hazırlık Atlama\nKursu -\nProficiency', img: '/slider3.webp', flags: ['🇬🇧'] },
+    { id: 13, category: 'sinav', title: 'GMAT', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 14, category: 'sinav', title: 'Almanca Goethe\nSınavı Hazırlık\nKursu', img: '/slider2.webp', flags: ['🇩🇪'] },
+    { id: 15, category: 'sinav', title: 'SAT Kursu', img: '/slider3.webp', flags: ['🇬🇧'] },
+    { id: 16, category: 'sinav', title: 'PTE Kursu', img: '/slider1.webp', flags: ['🇬🇧'] },
+    { id: 17, category: 'sinav', title: 'TELC Kursu', img: '/slider2.webp', flags: ['🇩🇪', '🇬🇧'] },
   ];
 
   const filteredCards = activeTab === 'tum' 
@@ -75,7 +73,13 @@ export const ProgramTabsSection = () => {
                 transition={{ duration: 0.3 }}
                 className={styles.card}
               >
-                <Image src={card.img} alt={card.title.replace(/\n/g, ' ')} fill className={styles.cardImg} />
+                <Image 
+                  src={card.img} 
+                  alt={card.title.replace(/\n/g, ' ')} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className={styles.cardImg} 
+                />
                 <div className={styles.gradientOverlay}></div>
                 
                 {/* Top Right Icons (UK/GER flag + vertical icons) */}

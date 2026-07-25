@@ -62,11 +62,12 @@ export const StudentReviewsAndAwards = () => {
           </h3>
           <div className={styles.videosWrapper}>
             {dict.videos.map((video: any) => (
-              <div key={video.id} className={styles.videoCircle}>
+              <div key={video.id} className={styles.videoSquare}>
                 <Image
                   src={video.thumbnail}
                   alt={`Video ${video.id}`}
                   fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className={styles.videoImg}
                 />
                 <div className={styles.videoOverlay}>

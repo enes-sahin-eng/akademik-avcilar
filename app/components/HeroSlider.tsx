@@ -57,7 +57,7 @@ export const HeroSlider = () => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.96 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
-              style={{ position: "relative", width: "100%", height: "100%" }}
+              className={styles.slideInner}
             >
               {/* Picsum Kapak Görseli */}
               <img

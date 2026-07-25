@@ -1,6 +1,6 @@
 .section {
   padding: 60px 24px;
-  background-color: var(--bg-main);
+  background-color: var(--bg-base);
 }
 
 .container {

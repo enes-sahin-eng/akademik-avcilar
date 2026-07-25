@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { PhoneCall, HeadphonesIcon } from "lucide-react";
+import { HeadphonesIcon } from "lucide-react";
 import styles from "./Footer.module.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
 import Image from "next/image";
@@ -102,7 +102,7 @@ export const Footer: React.FC = () => {
             <ul className={styles.linkList}>
               {languages.map((l, i) => (
                 <li key={i} className={styles.linkItem}>
-                  <img src={l.img} alt={l.name} width={20} height={20} style={{ objectFit: 'contain', borderRadius: '4px' }} />
+                  <img src={l.img} alt={l.name} width={20} height={20} className={styles.flagImg} />
                   <a href="#">{l.name}</a>
                 </li>
               ))}
@@ -195,10 +195,8 @@ export const Footer: React.FC = () => {
             </div>
           </div>
           
-          <hr className={styles.sectionDivider} />
-
           <div className={styles.groupSection}>
-            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={35} width={400} className={styles.groupTitleImg} />
+            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
                 <Image src="/logo.png" alt="Akademik International Language School" height={45} width={180} className={styles.logoImg} />
@@ -222,7 +220,10 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className={styles.devCredit}>
-            <div>{footerData.designBy} <strong>The Fabrika</strong></div>
+            <div className={styles.creditContainer}>
+              {footerData.designBy} <strong>ideaZone</strong>
+              <Image src="/designer-logo.jpg" alt="ideaZone Logo" width={100} height={45} className={styles.designerLogo} />
+            </div>
           </div>
         </div>
         

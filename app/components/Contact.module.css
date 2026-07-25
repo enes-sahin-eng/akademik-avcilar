@@ -96,7 +96,6 @@
 }
 
 .whatsappBtn:hover {
-  background-color: var(--accent-green);
   transform: translateY(-2px);
 }
 
@@ -357,7 +356,7 @@
 .campusLabel {
   font-size: 14px;
   font-weight: 700;
-  color: var(--border-primary);
+  color: var(--border-strong);
   margin-bottom: 6px;
 }
 

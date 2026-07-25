@@ -3,6 +3,19 @@
     "title": "Akademik Language School - Avcılar Language Course",
     "description": "Guaranteed speaking language education with native and qualified teachers backed by 34 years of experience."
   },
+  "placementTest": {
+    "nudgeText": "Want to know your level?",
+    "tabText": "✦ Free Placement Test",
+    "title": "Find Your Level!",
+    "subtitle": "Get results in 2 minutes",
+    "desc": "Determine your English level with a quick test and start your personalized program immediately.",
+    "list1": "Takes only 2 minutes",
+    "list2": "All levels from A1 to C2",
+    "list3": "Instant detailed results",
+    "btnText": "Start Test →",
+    "footerText": "Free · No registration required",
+    "avatarAlt": "Advisor"
+  },
   "navbar": {
     "topAnnouncement": "30% Early Bird Discount Has Started!",
     "brandName": "AKADEMİK",
@@ -18,7 +31,8 @@
     "marquee1": "Creative Designs with Ceramic Clay - Summer School 2026",
     "marquee2": "Summer School 2026: Beaded Photo Frame Workshop",
     "marquee3": "Comb Marbling at Summer School 2026: Meeting Traditional Art",
-    "freePlacementTest": "Free Placement Test"
+    "parentLogin": "Parent Login",
+    "studentLogin": "Student Login"
   },
   "megaMenuGenelIngilizce": {
     "col1": [
@@ -353,6 +367,11 @@
       "title": "Akademik International Language Schools Campuses",
       "items": [
         {
+          "name": "Avcılar",
+          "label": "English Language",
+          "phone": "0212 650 90 90"
+        },
+        {
           "name": "Kadıköy",
           "label": "English Language",
           "phone": "0216 330 1 909"
@@ -361,11 +380,6 @@
           "name": "Bursa",
           "label": "English Course",
           "phone": "0224 480 00 15"
-        },
-        {
-          "name": "Avcılar",
-          "label": "English Language",
-          "phone": "0212 650 90 90"
         },
         {
           "name": "Istanbul",
@@ -689,14 +703,6 @@
     "countdownMins": "MINS",
     "floatingButton": "Get Info",
     "successMessage": "Your request has been received, thank you."
-  },
-  "contactInfoBar": {
-    "phoneLabel": "SPEAKING GUARANTEED LANGUAGE EDUCATION",
-    "phoneNumber": "0212 650 90 90",
-    "addressTitle": "Our Address",
-    "addressText": "Merkez, Namik Kemal St. Umut Business Center No:23 Floor:5, 34310 Avcilar/Istanbul",
-    "directionsButton": "GET DIRECTIONS",
-    "directionsUrl": "https://maps.google.com/?q=Merkez,+Namık+Kemal+Cd.+Umut+İş+Merkezi+No:23+Kat:5,+34310+Avcılar/İstanbul"
   },
   "studentReviewsAndAwards": {
     "reviewsTitle": "Our Students' Opinions",

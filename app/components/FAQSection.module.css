@@ -78,6 +78,14 @@
   transition: transform 0.3s ease;
 }
 
+.arrowIconOpen {
+  transform: rotate(180deg);
+}
+
+.accordionContent {
+  overflow: hidden;
+}
+
 .accordionBody {
   padding: 0 20px 16px 20px;
   color: #bfdbfe;

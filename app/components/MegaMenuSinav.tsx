@@ -45,15 +45,15 @@ export const MegaMenuSinav: React.FC = () => {
       exit={{ opacity: 0, y: 10 }}
       transition={{ duration: 0.2 }}
     >
-      <div className={styles.megaMenuLeft} style={{ padding: "30px 40px" }}>
-        <div className={styles.megaMenuColumns} style={{ gridTemplateColumns: "repeat(3, 1fr)", padding: 0, gap: "24px" }}>
-          <div className={styles.col} style={{ gap: "24px" }}>
+      <div className={`${styles.megaMenuLeft} ${styles.megaMenuLeftPadded}`}>
+        <div className={`${styles.megaMenuColumns} ${styles.megaMenuColumnsThree}`}>
+          <div className={`${styles.col} ${styles.colMedium}`}>
             {megaMenu.col1.map(renderSection)}
           </div>
-          <div className={styles.col} style={{ gap: "24px" }}>
+          <div className={`${styles.col} ${styles.colMedium}`}>
             {megaMenu.col2.map(renderSection)}
           </div>
-          <div className={styles.col} style={{ gap: "24px" }}>
+          <div className={`${styles.col} ${styles.colMedium}`}>
             {megaMenu.col3.map(renderSection)}
           </div>
         </div>
