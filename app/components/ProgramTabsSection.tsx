@@ -73,7 +73,13 @@ export const ProgramTabsSection = () => {
                 transition={{ duration: 0.3 }}
                 className={styles.card}
               >
-                <Image src={card.img} alt={card.title.replace(/\n/g, ' ')} fill className={styles.cardImg} />
+                <Image 
+                  src={card.img} 
+                  alt={card.title.replace(/\n/g, ' ')} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className={styles.cardImg} 
+                />
                 <div className={styles.gradientOverlay}></div>
                 
                 {/* Top Right Icons (UK/GER flag + vertical icons) */}

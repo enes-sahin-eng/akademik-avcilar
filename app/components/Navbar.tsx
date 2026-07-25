@@ -174,7 +174,15 @@ export const Navbar = () => {
         <div className={styles.container}>
           {/* LOGO */}
           <a href={`/${currentLocale}`} className={styles.logo}>
-            <Image src="/logo.png" alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL" width={200} height={50} className={styles.mainLogo} />
+            <Image 
+              src="/logo.png" 
+              alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL" 
+              width={200} 
+              height={50} 
+              className={styles.mainLogo}
+              priority
+              style={{ width: "auto", height: "auto" }}
+            />
           </a>
 
           {/* MASAÜSTÜ LİNKLERİ */}

@@ -184,37 +184,37 @@ export const Footer: React.FC = () => {
             <h4 className={styles.sectionHeading}>{footerData.partnersTitle}</h4>
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/british.webp" alt="British Council & IELTS" height={60} width={250} className={styles.logoImg} />
+                <Image src="/british.webp" alt="British Council & IELTS" height={60} width={250} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/pearson.webp" alt="Pearson PTE" height={60} width={180} className={styles.logoImg} />
+                <Image src="/pearson.webp" alt="Pearson PTE" height={60} width={180} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/language.webp" alt="LanguageCert" height={60} width={220} className={styles.logoImg} />
+                <Image src="/language.webp" alt="LanguageCert" height={60} width={220} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
             </div>
           </div>
           
           <div className={styles.groupSection}>
-            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={50} width={550} className={styles.groupTitleImg} />
+            <Image src="/group-companies.svg" alt="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/logo.png" alt="Akademik International Language School" height={45} width={180} className={styles.logoImg} />
+                <Image src="/logo.png" alt="Akademik International Language School" height={45} width={180} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/akademikAbroad.webp" alt="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImg} />
+                <Image src="/akademikAbroad.webp" alt="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/akademikPublishing.webp" alt="The Academic Publishing" height={45} width={120} className={styles.logoImg} />
+                <Image src="/akademikPublishing.webp" alt="The Academic Publishing" height={45} width={120} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/akademikKoleji.svg" alt="AKADEMİK Koleji International School" height={45} width={160} className={styles.logoImg} />
+                <Image src="/akademikKoleji.svg" alt="AKADEMİK Koleji International School" height={45} width={160} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/akademikKids.svg" alt="AKADEMİK Kids" height={45} width={160} className={styles.logoImg} />
+                <Image src="/akademikKids.svg" alt="AKADEMİK Kids" height={45} width={160} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/akademikAdult.webp" alt="AKADEMİK adult" height={45} width={150} className={styles.logoImg} />
+                <Image src="/akademikAdult.webp" alt="AKADEMİK adult" height={45} width={150} className={styles.logoImg} style={{ width: "auto" }} />
               </div>
             </div>
           </div>

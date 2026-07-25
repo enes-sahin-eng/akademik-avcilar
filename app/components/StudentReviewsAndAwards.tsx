@@ -67,6 +67,7 @@ export const StudentReviewsAndAwards = () => {
                   src={video.thumbnail}
                   alt={`Video ${video.id}`}
                   fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className={styles.videoImg}
                 />
                 <div className={styles.videoOverlay}>
