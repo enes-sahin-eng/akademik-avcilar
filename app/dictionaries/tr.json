@@ -377,73 +377,73 @@
           "name": "Avcılar",
           "label": "İngilizce Dil",
           "phone": "0212 650 90 90",
-          "image": "/sube-avcilar.webp"
+          "image": "/campuses/sube-avcilar.jpg"
         },
         {
           "name": "Kadıköy",
           "label": "İngilizce Dil",
           "phone": "0216 330 1 909",
-          "image": "/sube-kadikoy.webp"
+          "image": "/campuses/sube-kadikoy.webp"
         },
         {
           "name": "Bursa",
           "label": "İngilizce Kursu",
           "phone": "0224 480 00 15",
-          "image": "/sube-bursa.webp"
+          "image": "/campuses/sube-bursa.webp"
         },
         {
           "name": "İstanbul",
           "label": "İngilizce Dil",
           "phone": "0216 330 19 09",
-          "image": "/sube-ingilizcedil.webp"
+          "image": "/campuses/sube-ingilizcedil.webp"
         },
         {
           "name": "İstanbul",
           "label": "Çekmeköy",
           "phone": "0501 369 56 40",
-          "image": "/sube-cekmekoy.webp"
+          "image": "/campuses/sube-cekmekoy.webp"
         },
         {
           "name": "Bursa",
           "label": "Görükle",
           "phone": "0224 480 00 14",
-          "image": "/sube-gorukle.webp"
+          "image": "/campuses/sube-gorukle.webp"
         },
         {
           "name": "Ankara",
           "label": "Ankara",
           "phone": "0312 433 99 99",
-          "image": "/sube-ankara.webp"
+          "image": "/campuses/sube-ankara.webp"
         },
         {
           "name": "İzmir",
           "label": "İngilizce Dil",
           "phone": "0850 305 05 16",
-          "image": "/sube-izmir.webp"
+          "image": "/campuses/sube-izmir.webp"
         },
         {
           "name": "Kocaeli",
           "label": "İzmit",
           "phone": "0545 116 4141",
-          "image": "/sube-kocaeli.webp"
+          "image": "/campuses/sube-kocaeli.webp"
         },
         {
           "name": "Tekirdağ",
           "label": "Çorlu",
           "phone": "0541 236 01 59",
-          "image": "/sube-tekirdag.webp"
+          "image": "/campuses/sube-tekirdag.webp"
         },
         {
           "name": "Bursa",
           "label": "İnegöl",
           "phone": "0224 777 07 74",
-          "image": "/sube-inegol.webp"
+          "image": "/campuses/sube-inegol.webp"
         },
         {
           "name": "Bursa",
           "label": "Yıldırım",
           "phone": "0 224 342 01 23",
-          "image": "/sube-yildirim.webp"
+          "image": "/campuses/sube-yildirim.webp"
         }
       ],
       "button": "KAMPÜS BAŞVURUSU"
@@ -481,7 +481,6 @@
     "groupTitle": "Akademik International Group",
     "designBy": "Design & Development By"
   },
-
   "homeContentSection": {
     "happyHours": {
       "title": "AVANTAJLI \"HAPPY HOURS\" FLAŞ İNDİRİM SAATİ",
@@ -677,11 +676,36 @@
   },
   "heroSlider": {
     "slides": [
-      { "id": 1, "image": "/slider1.webp", "alt": "Avcılar Yabancı Dil Kursu - Akademik International Eğitimleri", "title": "Avcılar Tüm Dillerde Yabancı Dil Kursu" },
-      { "id": 2, "image": "/slider2.webp", "alt": "Avcılar İngilizce, Almanca, İspanyolca Dil Okulu - Çocuklar ve Yetişkinler İçin", "title": "Avcılar'da Her Yaş İçin Eğlenceli Yabancı Dil Dersleri" },
-      { "id": 3, "image": "/slider3.webp", "alt": "Avcılar IELTS, TOEFL, Goethe Hazırlık Kursları - Akademik International", "title": "Garantili Uluslararası Sınavlara Hazırlık ve Dil Eğitimi" },
-      { "id": 4, "image": "/slider4.webp", "alt": "Avcılar'da Dünya Dilleri Kursu - Yurt Dışı Eğitim ve Kariyer Fırsatları", "title": "Avcılar'da Fransızca, Rusça, Arapça ve Daha Fazlası" },
-      { "id": 5, "image": "/slider5.webp", "alt": "Avcılar'ın En İyi Yabancı Dil Okulu - Akademik International Modern Kampüsü", "title": "Tüm Dillerde Kaliteli Eğitimle Avcılar'da Yabancı Dil Öğrenin" }
+      {
+        "id": 1,
+        "image": "/sliders/slider1.webp",
+        "alt": "Avcılar Yabancı Dil Kursu - Akademik International Eğitimleri",
+        "title": "Avcılar Tüm Dillerde Yabancı Dil Kursu"
+      },
+      {
+        "id": 2,
+        "image": "/sliders/slider2.webp",
+        "alt": "Avcılar İngilizce, Almanca, İspanyolca Dil Okulu - Çocuklar ve Yetişkinler İçin",
+        "title": "Avcılar'da Her Yaş İçin Eğlenceli Yabancı Dil Dersleri"
+      },
+      {
+        "id": 3,
+        "image": "/sliders/slider3.webp",
+        "alt": "Avcılar IELTS, TOEFL, Goethe Hazırlık Kursları - Akademik International",
+        "title": "Garantili Uluslararası Sınavlara Hazırlık ve Dil Eğitimi"
+      },
+      {
+        "id": 4,
+        "image": "/sliders/slider4.webp",
+        "alt": "Avcılar'da Dünya Dilleri Kursu - Yurt Dışı Eğitim ve Kariyer Fırsatları",
+        "title": "Avcılar'da Fransızca, Rusça, Arapça ve Daha Fazlası"
+      },
+      {
+        "id": 5,
+        "image": "/sliders/slider5.webp",
+        "alt": "Avcılar'ın En İyi Yabancı Dil Okulu - Akademik International Modern Kampüsü",
+        "title": "Tüm Dillerde Kaliteli Eğitimle Avcılar'da Yabancı Dil Öğrenin"
+      }
     ]
   },
   "heroSliderForm": {
@@ -765,17 +789,1111 @@
       }
     ],
     "videos": [
-      { "id": 1, "youtubeId": "o3IB9AeRkg4", "thumbnail": "" },
-      { "id": 2, "youtubeId": "3OUOsPUbrfs", "thumbnail": "" },
-      { "id": 3, "youtubeId": "KgregjiLwzQ", "thumbnail": "" },
-      { "id": 4, "youtubeId": "BuQ831y6c_g", "thumbnail": "" },
-      { "id": 5, "youtubeId": "dFQERaILR68", "thumbnail": "" }
+      {
+        "id": 1,
+        "youtubeId": "o3IB9AeRkg4",
+        "thumbnail": ""
+      },
+      {
+        "id": 2,
+        "youtubeId": "3OUOsPUbrfs",
+        "thumbnail": ""
+      },
+      {
+        "id": 3,
+        "youtubeId": "KgregjiLwzQ",
+        "thumbnail": ""
+      },
+      {
+        "id": 4,
+        "youtubeId": "BuQ831y6c_g",
+        "thumbnail": ""
+      },
+      {
+        "id": 5,
+        "youtubeId": "dFQERaILR68",
+        "thumbnail": ""
+      }
     ],
     "awards": [
-      { "id": 1, "image": "/reward1.webp" },
-      { "id": 2, "image": "/reward2.webp" },
-      { "id": 3, "image": "/reward3.webp" },
-      { "id": 4, "image": "/reward4.webp" }
+      {
+        "id": 1,
+        "image": "/rewards/reward1.webp"
+      },
+      {
+        "id": 2,
+        "image": "/rewards/reward2.webp"
+      },
+      {
+        "id": 3,
+        "image": "/rewards/reward3.webp"
+      },
+      {
+        "id": 4,
+        "image": "/rewards/reward4.webp"
+      }
     ]
+  },
+  "prepPage": {
+    "about": {
+      "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
+      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Prep (Hazırlık) A1-A2 Seviyesi",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+    }
+  },
+  "prepPlusPage": {
+    "about": {
+      "title": "Daha Karmaşık Yapılarla Kendinizi İfade Edin: Prep Plus",
+      "desc": "\n<p>Bu seviyede öğrencilerimiz <strong>daha ayrıntılı</strong> ve <strong>daha üst düzey grammer</strong> eğitimi ile birlikte kompleks cümle yapıları kurup kendisini konuşma ve yazma becerisinde daha iyi ifade eder.</p>\n<p>Prep seviyesinden Prep Plus İngilizce Kursu seviyesine geçen öğrenciler veya kurumumuza yeni kayıt olan öğrencilere yapılan seviye tespit sınavında temel Grammar konularında yeterli bilgisi olan fakat daha <strong>karmaşık Tense ve Grammar</strong> yapılarında eksikleri olan ve Reading parçalarında basit düzey parçalarını anlamlandırabilen fakat daha kompleks parçalarda anlam bütünlüğünü yakalayamayan öğrencileri Hazırlık seviyesinin bir üstü olan <strong>Prep Plus</strong> sınıflarına yerleştirmekteyiz.</p>\n<p><strong>Prep Plus</strong> sınıflarındaki öğrencilerimiz basit tense'lerden ziyade Türkçe'de karşılığı bulunmayan daha karmaşık Tense'lerin ve üst düzey cümle yapılarının öğretildiği <strong>Grammar</strong> dersi ve Prep sınıfından biraz daha <strong>üst seviyedeki Listening ve Reading</strong> parçalarının incelenip, okuduğunu anlama, dinleme ve yazma çalışmalarının yapıldığı Reading ve Listening dersi seviyesine uygun şekilde konuşulan <strong>Speaking</strong> dersini almaktadır.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Daha ayrıntılı ve <strong>daha üst düzey gramer</strong> eğitimi ile <strong>kompleks cümle yapıları</strong> ve <strong>karmaşık Tenseler</strong> detaylıca işlenerek kendinizi daha iyi ifade etmeniz sağlanır.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Hazırlık sınıfından <strong>daha üst seviyedeki Reading parçaları</strong> incelenerek; ileri düzey vocabulary (kelime) bilgisi geliştirilir ve kompleks metinlerde <strong>anlam bütünlüğünü</strong> yakalama çalışmaları yapılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen karmaşık gramer yapılarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile daha <strong>akıcı, anlamlı ve bütünlüklü paragraflar</strong> kurma becerileriniz akademik standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Seviyenize uygun <strong>daha üst seviye Listening (Dinleme)</strong> pratikleri ve bu metinler üzerinden ilerleyen <strong>Speaking (Konuşma)</strong> dersleri sayesinde karmaşık konularda akıcı iletişim kurmanız sağlanır.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A2 PRE-INTERMEDIATE / ÖN ORTA SEVİYE"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Prep Plus A2 Seviyesi",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+    }
+  },
+  "academicExpressPage": {
+    "about": {
+      "title": "Gramer ve Çeviri ile Dili Derinlemesine Anlayın: Academic Express",
+      "desc": "\n<p>Academic Express İngilizce Kursunda öğrencilerimiz Prep ve Prep Plus dönemlerinde öğrenmiş oldukları gramer ve kelimeleri <strong>TR-ENG, ENG-TR gramer translation</strong> dersleri ile okuma, yazma, konuşma ve dinleme becerilerinde bağlam kurmayı öğrenirler.</p>\n<p>Öğrencilerimiz Prep ve Prep Plus dönemlerinde öğrendikleri gramer ve kelime yapılarını cümle içerisinde bağlam kurarak günlük hayatta ve iş hayatlarında akıcı bir şekilde kullanımına yönelik <strong>gramer translation metoduyla</strong> cümleleri bileşenlerine ayırarak ve gramer kurallarını analiz ederek, öğrencilerin dilin nasıl çalıştığını derinlemesine anlayabilmesini sağlayan bir dönem eğitimidir.</p>\n<p>Academic Express sınıflarındaki öğrencilerimiz metinleri TR-ENG, ENG-TR çevirerek, her iki dilde de farklı bir şekilde düşünmeyi ve her iki dilde de ayırt edici nüansları görmeyi sağlayan <strong>Grammar-translation</strong> dersi ve üst seviyedeki Listening ve Reading parçalarında metin analizleri gerçekleştirerek günlük hayatta ve iş hayatında kullanılabilir kelime yetkinliğini artırarak okuduğunu anlama, dinleme ve yazma çalışmalarının yapıldığı <strong>Reading ve Listening</strong> ve öğrenilen dil bilgisi kurallarının ve kelimelerin pratiğe dönüştüğü <strong>Speaking</strong> dersleri almaktadır.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Prep ve Prep Plus dönemlerinde öğrenilen gramer kurallarını analiz ederek, <strong>TR-ENG ve ENG-TR gramer translation</strong> metoduyla cümlenin bileşenlerine ayrıldığı ve dilin çalışma mekanizmasının derinlemesine incelendiği derslerdir.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Üst seviyedeki Reading parçalarında <strong>metin analizleri</strong> gerçekleştirerek günlük hayatta ve iş hayatında kullanılabilir kelime (vocabulary) yetkinliğini artıran okuma çalışmaları yapılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Cümle içerisinde bağlam kurarak, her iki dilde de farklı bir şekilde düşünmeyi ve <strong>ayırt edici nüansları</strong> görmeyi sağlayan çeviri odaklı yazma egzersizleri yapılır.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Okuduğunu anlama ve dinleme çalışmalarının yapıldığı Listening ile öğrenilen dil bilgisi kurallarının ve kelimelerin pratiğe döküldüğü, <strong>akıcı iletişimi</strong> hedefleyen Speaking dersleridir.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "B1 INTERMEDIATE / ORTA SEVİYE"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Academic Express Seviyesi",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+    }
+  },
+  "academicPage": {
+    "about": {
+      "title": "Kariyerinizi Zirveye Taşıyacak Akademik Eğitim",
+      "desc": "\n<p>Temel İngilizce eğitimini almış fakat daha <strong>üst seviyede İngilizce bilgisine</strong> ihtiyaç duyan pek çok üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler yetiştirmiştir. Kurumumuz akademik kariyerinizde sizi bir üst seviyeye taşıyacak olan kaliteli bir eğitim sunmaktadır.</p>\n<p>35 yılı aşkın tecrübemiz ve kıdemli öğretmenlerimizle akademik derslerimizde kapsamlı, kurumumuza özgü yayınlarımız ve Translation 1 kitabımız ile <strong>teknik, hukuki, tıbbi, ticari ve akademik terminolojiyi içeren cümle analizleri</strong> yapılır.</p>\n<p>Akademik Reading 1 kitabımız da <strong>phrasal verb, phrase, idiom ve collocation</strong> kullanımlarını detaylı olarak vermekte olup terminolojik ve güncel konuları kapsayan okuma parçaları ile <strong>Listening dersleri</strong> yapılır.</p>\n<p><strong>Academic Sömestresinde</strong> öğrencilerimiz word formation, idioms, collocations, phrasal verbs temelinde kapsamlı bir kelime dağarcığı ile kendilerini <strong>üst seviyede ifade</strong> edebilecek duruma erişirler.</p>\n<p>Nasıl günlük konuştuğumuz Türkçe ile iş hayatında ve akademik camiada kullanılan Türkçe arasında farklılıklar varsa aynı durum İngilizce için de geçerlidir. <strong>Türkiye'nin ilk akademik İngilizce eğitimi</strong> veren kuruluşu olan <strong>Akademik Yabancı Dil Kursu</strong> Eğitim Kurumları üst düzey İngilizce öğrenebileceğiniz bir dil akademisidir.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Translation & Analysis",
+          "desc": "Translation 1 kitabımız eşliğinde; <strong>teknik, hukuki, tıbbi, ticari ve akademik terminolojiyi</strong> içeren ileri seviye cümle analizleri ve çeviri odaklı gramer çalışmaları yapılır.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Academic Reading",
+          "desc": "Akademik Reading 1 kitabımızla <strong>phrasal verb, phrase, idiom ve collocation</strong> kullanımlarını detaylandıran, terminolojik ve güncel konuları kapsayan derinlemesine okuma analizleri.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Vocabulary & Writing",
+          "desc": "Word formation, idioms, collocations, phrasal verbs temelinde kapsamlı bir kelime dağarcığı (vocabulary) oluşturarak kendinizi <strong>akademik düzeyde</strong> ifade etmeniz sağlanır.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Listening & Speaking",
+          "desc": "Terminolojik ve güncel makaleler üzerinden gerçekleştirilen <strong>Listening (Dinleme)</strong> dersleri ile akademik camiada kullanılan İngilizce pratikleri (Speaking) bir araya getirilir.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Academic İngilizce Kursu",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+    }
+  },
+  "academicPlusPage": {
+    "about": {
+      "title": "Simultane Çeviri ve Yüksek İngilizce Hakimiyeti: Academic Plus",
+      "desc": "\n<p><strong>Academic Plus</strong> sömestresinde öğrencilerimiz ileri düzey <strong>konuşma, okuma, dinleme ve yazma</strong> etkinlikleriyle öğrenim becerilerini üst seviyeye çıkarırlar. Düzgün bir aksanla yapılan konuşmaları anlar ve kendisini çok iyi ifade eder.</p>\n<p>Bugüne kadar pek çok <strong>üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler</strong> yetiştirmiş olan Akademik Yabancı Dil Kursu Akademik İngilizce 1 derslerinde cümle analizi becerisini geliştiren ve üst düzey cümleleri anlayabilecek düzeye gelen öğrencilerine <strong>Academic Plus</strong> derslerinde ticari, teknik, sosyal bilimler, tıbbi, hukuki ve ileri düzey metinler üzerinden <strong>akademik phrase</strong> örneklerini göstererek <strong>simultane paragraf çevirisi</strong> sunup, reading(okuma) parçaları, listening(dinleme) ve speaking(konuşma) becerinizi üst noktalara taşır.</p>\n<p>Akademik phrase'lerin yanı sıra öğrencilerimiz aldığı derslerde pek çok <strong>collocation, idiom ve phrasal verb</strong> öğrenerek üst düzey metinlerin <strong>introduction, summary ve conclusion</strong> gibi temel bölümlerini kolaylıkla anlar, nitelikli yabancı dil bilgileri ile ayrıcalıklı olduklarını hissederler.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Translation & Phrase",
+          "desc": "Ticari, teknik, tıbbi ve hukuki ileri düzey metinler üzerinden <strong>akademik phrase</strong> örnekleri gösterilerek <strong>simultane paragraf çevirisi</strong> becerileri kazandırılır.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Advanced Reading",
+          "desc": "Öğrenilen akademik kalıplar sayesinde, üst düzey bilimsel ve makale tarzı metinlerin <strong>introduction, summary ve conclusion</strong> bölümleri kusursuz şekilde analiz edilir.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Vocabulary Mastery",
+          "desc": "Akademik phrase'lerin yanı sıra pek çok <strong>collocation, idiom ve phrasal verb</strong> derinlemesine öğrenilerek kelime dağarcığınız profesyonel düzeye çıkarılır.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Fluent Speaking",
+          "desc": "Düzgün aksanlı konuşmaları zorlanmadan anlayabileceğiniz <strong>ileri düzey Listening</strong> ve kendinizi her ortamda çok iyi ifade edebileceğiniz <strong>Speaking</strong> etkinlikleri.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "C1/C2 ADVANCED & PROFICIENCY"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Academic Plus İngilizce Kursu",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+    }
+  },
+  "genelIngilizceLandingPage": {
+    "about": {
+      "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
+      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Genel İngilizce Kursları",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: İNGİLİZCE"
+    },
+    "faq": {
+      "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+      "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
+      "items": [
+        {
+          "q": "İyi bir İngilizce kursu nasıl seçilir?",
+          "a": "İyi bir İngilizce kursu seçerken akreditasyon durumuna, öğretmenlerin tecrübeleri ve anlatım tarzlarına, program içeriğine, gerçek öğrenci yorumlarına ve kursun fiyatına dikkat etmek önemlidir. Tüm bu faktörleri göz önünde bulundurarak ve geniş bir araştırma yaparak kendinize en uygun İngilizce kursunu seçebilirsiniz."
+        },
+        {
+          "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
+          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+        },
+        {
+          "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
+          "a": "İngilizce kurslarındaki öğretmenler genellikle yüksek lisans veya doktora derecesine sahip, dil öğretimi konusunda uzmanlaşmış ve geniş deneyime sahip eğitimcilerdir. Genel olarak İngilizce kursundaki öğretmenler uluslararası sertifikasyon programlarına katılarak kendilerini sürekli olarak geliştirmekte ve güncel dil öğretim yöntemlerini takip etmektedirler. Bu sayede öğrencilere daha etkili, özgün ve motive edici bir öğrenme deneyimi sunabilmektedirler."
+        },
+        {
+          "q": "İngilizce kursunda hangi sertifikaları alabilirim?",
+          "a": "İngilizce kursları genellikle farklı dil seviyelerine yönelik sertifika programları sunar. Örneğin, TOEFL (Test of English as a Foreign Language), IELTS (International English Language Testing System), Cambridge English sertifikaları gibi uluslararası geçerliliği olan dil sınavlarına hazırlık programlarına katılarak bu sınavlardan belirli bir puan alabilir ve ilgili sertifikayı elde edebilirsiniz. Ayrıca, kursun sunduğu içeriğe bağlı olarak özel amaçlı İngilizce sertifikaları da alabilirsiniz, örneğin iş İngilizcesi, akademik İngilizce veya konuşma becerileri gibi alanlarda sertifikasyonlar elde edebilirsiniz. Bu sertifikalar, dil yeteneklerinizi belgeleyerek kariyerinizde veya eğitim hayatınızda faydalı olabilir."
+        },
+        {
+          "q": "İngilizce kurslarına nasıl kayıt olabilirim?",
+          "a": "İngilizce kurslarına kayıt olmak oldukça kolaydır ve genellikle çevrimiçi başvuru yaparak veya kurs merkezine giderek kayıt işlemlerini tamamlayabilirsiniz. İlk adım olarak, tercih ettiğiniz İngilizce kursu hakkında bilgi almak ve kayıt şartlarını öğrenmek için kursun resmi web sitesini ziyaret edebilir veya yetkililerle iletişime geçebilirsiniz. Kayıt için genellikle kimlik belgesi, önceki eğitim düzeyine dair belgeler ve varsa dil yeterlilik sertifikaları gibi belgelerin verilmesi sizin öğrenim sürecindeki program oluşumunuzun sağlanması açısından daha etkili olur. Kayıt sürecinde ödeme planı ve kurs programı gibi detaylar da belirlenir ve kayıt işlemi tamamlandıktan sonra kursa katılımınız için gerekli bilgiler tarafınıza iletilir."
+        }
+      ]
+    }
+  },
+  "akademikIngilizceLandingPage": {
+    "about": {
+      "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
+      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
+    },
+    "whyUs": {
+      "title": "Neden Akademik International?",
+      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nitelikli Dil Eğitimi",
+          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
+        },
+        {
+          "q": "4 Dil Becerisi Tam Öğrenme",
+          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
+        },
+        {
+          "q": "Aktüel Konular ve Zengin İçerik",
+          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "title": "Akademik İngilizce Kursları",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "Konuşma Garantili İNGİLİZCE Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: AKADEMİK"
+    },
+    "faq": {
+      "title": "Akademik İngilizce Hakkında En Çok Sorulan Sorular",
+      "desc": "Akademik İngilizce ve sınav hazırlık süreçleriyle ilgili merak edilenleri yanıtlıyoruz.",
+      "items": [
+        {
+          "q": "İyi bir İngilizce kursu nasıl seçilir?",
+          "a": "İyi bir İngilizce kursu seçerken akreditasyon durumuna, öğretmenlerin tecrübeleri ve anlatım tarzlarına, program içeriğine, gerçek öğrenci yorumlarına ve kursun fiyatına dikkat etmek önemlidir. Tüm bu faktörleri göz önünde bulundurarak ve geniş bir araştırma yaparak kendinize en uygun İngilizce kursunu seçebilirsiniz."
+        },
+        {
+          "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
+          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+        },
+        {
+          "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
+          "a": "İngilizce kurslarındaki öğretmenler genellikle yüksek lisans veya doktora derecesine sahip, dil öğretimi konusunda uzmanlaşmış ve geniş deneyime sahip eğitimcilerdir. Genel olarak İngilizce kursundaki öğretmenler uluslararası sertifikasyon programlarına katılarak kendilerini sürekli olarak geliştirmekte ve güncel dil öğretim yöntemlerini takip etmektedirler. Bu sayede öğrencilere daha etkili, özgün ve motive edici bir öğrenme deneyimi sunabilmektedirler."
+        },
+        {
+          "q": "İngilizce kursunda hangi sertifikaları alabilirim?",
+          "a": "İngilizce kursları genellikle farklı dil seviyelerine yönelik sertifika programları sunar. Örneğin, TOEFL (Test of English as a Foreign Language), IELTS (International English Language Testing System), Cambridge English sertifikaları gibi uluslararası geçerliliği olan dil sınavlarına hazırlık programlarına katılarak bu sınavlardan belirli bir puan alabilir ve ilgili sertifikayı elde edebilirsiniz. Ayrıca, kursun sunduğu içeriğe bağlı olarak özel amaçlı İngilizce sertifikaları da alabilirsiniz, örneğin iş İngilizcesi, akademik İngilizce veya konuşma becerileri gibi alanlarda sertifikasyonlar elde edebilirsiniz. Bu sertifikalar, dil yeteneklerinizi belgeleyerek kariyerinizde veya eğitim hayatınızda faydalı olabilir."
+        },
+        {
+          "q": "İngilizce kurslarına nasıl kayıt olabilirim?",
+          "a": "İngilizce kurslarına kayıt olmak oldukça kolaydır ve genellikle çevrimiçi başvuru yaparak veya kurs merkezine giderek kayıt işlemlerini tamamlayabilirsiniz. İlk adım olarak, tercih ettiğiniz İngilizce kursu hakkında bilgi almak ve kayıt şartlarını öğrenmek için kursun resmi web sitesini ziyaret edebilir veya yetkililerle iletişime geçebilirsiniz. Kayıt için genellikle kimlik belgesi, önceki eğitim düzeyine dair belgeler ve varsa dil yeterlilik sertifikaları gibi belgelerin verilmesi sizin öğrenim sürecindeki program oluşumunuzun sağlanması açısından daha etkili olur. Kayıt sürecinde ödeme planı ve kurs programı gibi detaylar da belirlenir ve kayıt işlemi tamamlandıktan sonra kursa katılımınız için gerekli bilgiler tarafınıza iletilir."
+        }
+      ]
+    }
   }
 }

@@ -4,7 +4,7 @@ Bu dosya, bu repoda kod yazan yapay zeka ajanları (Cursor, Claude Code vb.) ve 
 
 ## Proje Özeti
 
-Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an yalnızca anasayfa (`/`) ve iletişim (`/iletisim`) route'ları kodlanmıştır; program ve şube sayfaları aşamalı eklenecektir.
+Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam 9 ana sayfa yayındadır: anasayfa (`/`), iletişim (`/iletisim`), kategori sayfaları (`/ingilizce-kursu`, `/akademik-ingilizce-kursu`) ve 5 adet detaylı kurs seviye sayfası (`/temel-ingilizce-kursu-hazirlik`, `...-hazirlik-plus`, `/academic-express-...`, vb.). Şube ve diğer dil sayfaları aşamalı eklenecektir.
 
 ## Teknoloji Yığını
 

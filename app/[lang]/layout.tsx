@@ -10,7 +10,8 @@ import {
 } from "../dictionaries/getDictionary";
 import { DictionaryProvider } from "../../src/context/DictionaryContext";
 import { ThemeProvider } from "../../src/context/ThemeContext";
-import { Footer } from "../components/Footer";
+import { Footer } from "../components/layout/Footer";
+import { getOrganizationSchema } from "../../src/utils/seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -121,6 +122,13 @@ export default async function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProvider>
           <DictionaryProvider dictionary={dictionary}>
+            <script
+              id="organization-schema"
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify(getOrganizationSchema(siteUrl))
+              }}
+            />
             {children}
             <Footer />
           </DictionaryProvider>

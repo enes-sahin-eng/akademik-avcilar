@@ -1,8 +1,8 @@
-import { Navbar } from "../../components/Navbar";
-import { ContactHero } from "../../components/ContactHero";
-import { ContactFormSection } from "../../components/ContactFormSection";
-import { ContactCampuses } from "../../components/ContactCampuses";
-import { ContactCorporate } from "../../components/ContactCorporate";
+import { Navbar } from "../../components/layout/Navbar";
+import { ContactHero } from "../../components/contact/ContactHero";
+import { ContactFormSection } from "../../components/contact/ContactFormSection";
+import { ContactCampuses } from "../../components/contact/ContactCampuses";
+import { ContactCorporate } from "../../components/contact/ContactCorporate";
 
 interface PageProps {
   params: Promise<{

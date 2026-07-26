@@ -1,12 +1,13 @@
-import { Navbar } from "../components/Navbar";
-import { HeroSlider } from "../components/HeroSlider";
-import { MiniGallery } from "../components/MiniGallery";
-import { CampusCarousel } from "../components/CampusCarousel";
-import { HomeContentSection } from "../components/HomeContentSection";
-import { StudentReviewsAndAwards } from "../components/StudentReviewsAndAwards";
-import { WhatsAppButton } from "../components/WhatsAppButton";
-import { LeadFormModal } from "../components/LeadFormModal";
-import PlacementTestBanner from "../components/PlacementTestBanner";
+import { Navbar } from "../components/layout/Navbar";
+import { HeroSlider } from "../components/home/HeroSlider";
+import { MiniGallery } from "../components/home/MiniGallery";
+import { CampusCarousel } from "../components/ui/CampusCarousel";
+import { HomeContentSection } from "../components/home/HomeContentSection";
+import { StudentReviewsAndAwards } from "../components/home/StudentReviewsAndAwards";
+import { WhatsAppButton } from "../components/ui/WhatsAppButton";
+import { LeadFormModal } from "../components/ui/LeadFormModal";
+import PlacementTestBanner from "../components/course/PlacementTestBanner";
+import InstagramFeed from "../components/social/InstagramFeed";
 
 interface PageProps {
   params: Promise<{
@@ -26,6 +27,7 @@ export default async function Home({ params }: PageProps) {
       <CampusCarousel />
       <HomeContentSection />
       <StudentReviewsAndAwards />
+      <InstagramFeed />
       <WhatsAppButton phoneNumber="905323609256" />
       <LeadFormModal />
       <PlacementTestBanner />

@@ -377,73 +377,73 @@
           "name": "Avcılar",
           "label": "English Language",
           "phone": "0212 650 90 90",
-          "image": "/sube-avcilar.webp"
+          "image": "/campuses/sube-avcilar.jpg"
         },
         {
           "name": "Kadıköy",
           "label": "English Language",
           "phone": "0216 330 1 909",
-          "image": "/sube-kadikoy.webp"
+          "image": "/campuses/sube-kadikoy.webp"
         },
         {
           "name": "Bursa",
           "label": "English Course",
           "phone": "0224 480 00 15",
-          "image": "/sube-bursa.webp"
+          "image": "/campuses/sube-bursa.webp"
         },
         {
           "name": "Istanbul",
           "label": "English Language",
           "phone": "0216 330 19 09",
-          "image": "/sube-ingilizcedil.webp"
+          "image": "/campuses/sube-ingilizcedil.webp"
         },
         {
           "name": "Istanbul",
           "label": "Çekmeköy",
           "phone": "0501 369 56 40",
-          "image": "/sube-cekmekoy.webp"
+          "image": "/campuses/sube-cekmekoy.webp"
         },
         {
           "name": "Bursa",
           "label": "Görükle",
           "phone": "0224 480 00 14",
-          "image": "/sube-gorukle.webp"
+          "image": "/campuses/sube-gorukle.webp"
         },
         {
           "name": "Ankara",
           "label": "Ankara",
           "phone": "0312 433 99 99",
-          "image": "/sube-ankara.webp"
+          "image": "/campuses/sube-ankara.webp"
         },
         {
           "name": "Izmir",
           "label": "English Language",
           "phone": "0850 305 05 16",
-          "image": "/sube-izmir.webp"
+          "image": "/campuses/sube-izmir.webp"
         },
         {
           "name": "Kocaeli",
           "label": "Izmit",
           "phone": "0545 116 4141",
-          "image": "/sube-kocaeli.webp"
+          "image": "/campuses/sube-kocaeli.webp"
         },
         {
           "name": "Tekirdağ",
           "label": "Çorlu",
           "phone": "0541 236 01 59",
-          "image": "/sube-tekirdag.webp"
+          "image": "/campuses/sube-tekirdag.webp"
         },
         {
           "name": "Bursa",
           "label": "İnegöl",
           "phone": "0224 777 07 74",
-          "image": "/sube-inegol.webp"
+          "image": "/campuses/sube-inegol.webp"
         },
         {
           "name": "Bursa",
           "label": "Yıldırım",
           "phone": "0 224 342 01 23",
-          "image": "/sube-yildirim.webp"
+          "image": "/campuses/sube-yildirim.webp"
         }
       ],
       "button": "CAMPUS APPLICATION"
@@ -481,7 +481,6 @@
     "groupTitle": "Akademik International Group",
     "designBy": "Design & Development By"
   },
-
   "homeContentSection": {
     "happyHours": {
       "title": "ADVANTAGEOUS \"HAPPY HOURS\" FLASH DISCOUNT TIME",
@@ -677,11 +676,36 @@
   },
   "heroSlider": {
     "slides": [
-      { "id": 1, "image": "/slider1.webp", "alt": "Avcilar Foreign Language Course - Akademik International Educations", "title": "Avcilar Foreign Language Course in All Languages" },
-      { "id": 2, "image": "/slider2.webp", "alt": "Avcilar English, German, Spanish Language School - For Kids and Adults", "title": "Fun Foreign Language Classes for All Ages in Avcilar" },
-      { "id": 3, "image": "/slider3.webp", "alt": "Avcilar IELTS, TOEFL, Goethe Preparation Courses - Akademik International", "title": "Guaranteed International Exam Preparation and Language Education" },
-      { "id": 4, "image": "/slider4.webp", "alt": "World Languages Course in Avcilar - Study Abroad and Career Opportunities", "title": "French, Russian, Arabic and More in Avcilar" },
-      { "id": 5, "image": "/slider5.webp", "alt": "Best Foreign Language School in Avcilar - Akademik International Modern Campus", "title": "Learn Foreign Languages in Avcilar with Quality Education in All Languages" }
+      {
+        "id": 1,
+        "image": "/sliders/slider1.webp",
+        "alt": "Avcilar Foreign Language Course - Akademik International Educations",
+        "title": "Avcilar Foreign Language Course in All Languages"
+      },
+      {
+        "id": 2,
+        "image": "/sliders/slider2.webp",
+        "alt": "Avcilar English, German, Spanish Language School - For Kids and Adults",
+        "title": "Fun Foreign Language Classes for All Ages in Avcilar"
+      },
+      {
+        "id": 3,
+        "image": "/sliders/slider3.webp",
+        "alt": "Avcilar IELTS, TOEFL, Goethe Preparation Courses - Akademik International",
+        "title": "Guaranteed International Exam Preparation and Language Education"
+      },
+      {
+        "id": 4,
+        "image": "/sliders/slider4.webp",
+        "alt": "World Languages Course in Avcilar - Study Abroad and Career Opportunities",
+        "title": "French, Russian, Arabic and More in Avcilar"
+      },
+      {
+        "id": 5,
+        "image": "/sliders/slider5.webp",
+        "alt": "Best Foreign Language School in Avcilar - Akademik International Modern Campus",
+        "title": "Learn Foreign Languages in Avcilar with Quality Education in All Languages"
+      }
     ]
   },
   "heroSliderForm": {
@@ -765,17 +789,1111 @@
       }
     ],
     "videos": [
-      { "id": 1, "youtubeId": "o3IB9AeRkg4", "thumbnail": "" },
-      { "id": 2, "youtubeId": "3OUOsPUbrfs", "thumbnail": "" },
-      { "id": 3, "youtubeId": "KgregjiLwzQ", "thumbnail": "" },
-      { "id": 4, "youtubeId": "BuQ831y6c_g", "thumbnail": "" },
-      { "id": 5, "youtubeId": "dFQERaILR68", "thumbnail": "" }
+      {
+        "id": 1,
+        "youtubeId": "o3IB9AeRkg4",
+        "thumbnail": ""
+      },
+      {
+        "id": 2,
+        "youtubeId": "3OUOsPUbrfs",
+        "thumbnail": ""
+      },
+      {
+        "id": 3,
+        "youtubeId": "KgregjiLwzQ",
+        "thumbnail": ""
+      },
+      {
+        "id": 4,
+        "youtubeId": "BuQ831y6c_g",
+        "thumbnail": ""
+      },
+      {
+        "id": 5,
+        "youtubeId": "dFQERaILR68",
+        "thumbnail": ""
+      }
     ],
     "awards": [
-      { "id": 1, "image": "/reward1.webp" },
-      { "id": 2, "image": "/reward2.webp" },
-      { "id": 3, "image": "/reward3.webp" },
-      { "id": 4, "image": "/reward4.webp" }
+      {
+        "id": 1,
+        "image": "/rewards/reward1.webp"
+      },
+      {
+        "id": 2,
+        "image": "/rewards/reward2.webp"
+      },
+      {
+        "id": 3,
+        "image": "/rewards/reward3.webp"
+      },
+      {
+        "id": 4,
+        "image": "/rewards/reward4.webp"
+      }
     ]
+  },
+  "prepPage": {
+    "about": {
+      "title": "Build a Solid Foundation with PREP Basic English Course",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / STARTER LEVEL"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Prep A1-A2 Level",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!"
+    }
+  },
+  "prepPlusPage": {
+    "about": {
+      "title": "Express Yourself with More Complex Structures: Prep Plus",
+      "desc": "\n<p>At this level, our students express themselves better in speaking and writing skills by constructing complex sentence structures along with <strong>more detailed</strong> and <strong>higher-level grammar</strong> education.</p>\n<p>Based on the placement test given to students transitioning from the Prep level to the Prep Plus English Course or newly registered students, we place those who have sufficient knowledge in basic Grammar but lack in more <strong>complex Tense and Grammar</strong> structures, and who can make sense of basic reading passages but cannot grasp the integrity of meaning in more complex passages, into the <strong>Prep Plus</strong> classes, which are one level above the Prep level.</p>\n<p>Students in our <strong>Prep Plus</strong> classes take a <strong>Grammar</strong> lesson where more complex Tenses and high-level sentence structures that have no equivalent in Turkish are taught, rather than simple tenses. They also take <strong>Listening and Reading</strong> lessons where passages slightly <strong>higher than the Prep class level</strong> are examined with reading comprehension, listening, and writing exercises, and a <strong>Speaking</strong> lesson spoken appropriately for their level.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "With a more detailed and <strong>higher-level grammar</strong> education, <strong>complex sentence structures</strong> and <strong>advanced Tenses</strong> are studied in detail, enabling you to express yourself better.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "By examining <strong>higher-level Reading passages</strong> than the Prep class; advanced vocabulary knowledge is developed and exercises are done to capture <strong>semantic integrity</strong> in complex texts.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned complex grammar structures are put into practice, your skills in building more <strong>fluent, meaningful and coherent paragraphs</strong> are developed at academic standards.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Through <strong>higher-level Listening</strong> practices suited to your level and <strong>Speaking</strong> lessons progressing through these texts, you are enabled to communicate fluently on complex topics.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A2 PRE-INTERMEDIATE"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Prep Plus A2 Level",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!"
+    }
+  },
+  "academicExpressPage": {
+    "about": {
+      "title": "Understand the Language Deeply with Grammar and Translation: Academic Express",
+      "desc": "\n<p>In the Academic Express English Course, our students learn to contextualize the grammar and vocabulary they learned in the Prep and Prep Plus periods in reading, writing, speaking, and listening skills through <strong>TR-ENG, ENG-TR grammar translation</strong> lessons.</p>\n<p>It is a term education that enables students to deeply understand how the language works by analyzing grammar rules and breaking sentences down into their components with the <strong>grammar translation method</strong>, aimed at using the grammar and vocabulary structures learned in the Prep and Prep Plus periods fluently in daily and business life by contextualizing them in sentences.</p>\n<p>Our students in Academic Express classes take a <strong>Grammar-translation</strong> lesson that allows them to think differently in both languages and see the distinctive nuances in both languages by translating texts TR-ENG, ENG-TR, and <strong>Reading and Listening</strong> lessons where reading comprehension, listening, and writing exercises are done by performing text analyses in high-level Listening and Reading passages, increasing vocabulary competence usable in daily and business life, and <strong>Speaking</strong> lessons where learned grammar rules and vocabulary are put into practice.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "These are lessons where grammar rules learned in Prep and Prep Plus periods are analyzed, sentences are broken down into their components using the <strong>TR-ENG and ENG-TR grammar translation</strong> method, and the working mechanism of the language is examined in depth.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Reading exercises are done to increase usable vocabulary competence in daily and business life by performing <strong>text analyses</strong> in high-level Reading passages.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "Translation-oriented writing exercises are done that allow thinking differently in both languages and seeing the <strong>distinctive nuances</strong> by contextualizing within sentences.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "These are Speaking lessons aiming at <strong>fluent communication</strong> where learned grammar rules and vocabulary are put into practice, alongside Listening lessons involving reading comprehension and listening exercises.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "B1 INTERMEDIATE"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Academic Express Level",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!"
+    }
+  },
+  "academicPage": {
+    "about": {
+      "title": "Academic Education to Take Your Career to the Top",
+      "desc": "\n<p>We have trained many top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors who have received basic English education but need <strong>higher-level English knowledge</strong>. Our institution offers a quality education that will take you to the next level in your academic career.</p>\n<p>With over 35 years of experience and our senior teachers, we conduct comprehensive <strong>sentence analyses covering technical, legal, medical, commercial, and academic terminology</strong> in our academic classes with our institution-specific publications and our Translation 1 book.</p>\n<p>Our Academic Reading 1 book also provides the detailed uses of <strong>phrasal verbs, phrases, idioms, and collocations</strong>, and <strong>Listening lessons</strong> are held with reading passages covering terminological and current topics.</p>\n<p>In the <strong>Academic Semester</strong>, our students reach a state where they can <strong>express themselves at a high level</strong> with a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs.</p>\n<p>Just as there are differences between the Turkish we speak daily and the Turkish used in business life and the academic community, the same is true for English. <strong>Akademik Yabancı Dil Kursu</strong> Educational Institutions, the first institution to provide <strong>academic English education in Turkey</strong>, is a language academy where you can learn high-level English.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Translation & Analysis",
+          "desc": "With our Translation 1 book, advanced sentence analyses and translation-oriented grammar studies covering <strong>technical, legal, medical, commercial, and academic terminology</strong> are conducted.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Academic Reading",
+          "desc": "In-depth reading analyses covering terminological and current topics detailing the use of <strong>phrasal verbs, phrases, idioms, and collocations</strong> with our Academic Reading 1 book.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Vocabulary & Writing",
+          "desc": "By creating a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs, you are enabled to express yourself at an <strong>academic level</strong>.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Listening & Speaking",
+          "desc": "<strong>Listening</strong> lessons conducted over terminological and current articles are brought together with English speaking practices used in the academic community.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Academic English Course",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!"
+    }
+  },
+  "academicPlusPage": {
+    "about": {
+      "title": "Simultaneous Translation and High English Proficiency: Academic Plus",
+      "desc": "\n<p>In the <strong>Academic Plus</strong> semester, our students take their learning skills to the next level with advanced <strong>speaking, reading, listening, and writing</strong> activities. They can understand conversations held with a proper accent and express themselves very well.</p>\n<p>Having trained many <strong>top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors</strong> to date, Akademik Yabancı Dil Kursu presents <strong>simultaneous paragraph translation</strong> by showing examples of <strong>academic phrases</strong> over commercial, technical, social sciences, medical, legal, and advanced texts in <strong>Academic Plus</strong> lessons to its students who have developed their sentence analysis skills and reached the level of understanding high-level sentences in Academic English 1 lessons, thus taking your reading, listening, and speaking skills to the highest points.</p>\n<p>In addition to academic phrases, our students learn many <strong>collocations, idioms, and phrasal verbs</strong> in the lessons they take, easily understand basic sections such as <strong>introduction, summary, and conclusion</strong> of high-level texts, and feel privileged with their qualified foreign language knowledge.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Translation & Phrase",
+          "desc": "<strong>Simultaneous paragraph translation</strong> skills are gained by demonstrating examples of <strong>academic phrases</strong> through advanced commercial, technical, medical, and legal texts.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Advanced Reading",
+          "desc": "Thanks to the learned academic patterns, the <strong>introduction, summary, and conclusion</strong> sections of high-level scientific and article-style texts are flawlessly analyzed.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Vocabulary Mastery",
+          "desc": "In addition to academic phrases, many <strong>collocations, idioms, and phrasal verbs</strong> are learned in-depth, raising your vocabulary to a professional level.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Fluent Speaking",
+          "desc": "<strong>Advanced Listening</strong> where you can effortlessly understand conversations with proper accents, and <strong>Speaking</strong> activities where you can express yourself very well in any setting.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "C1/C2 ADVANCED & PROFICIENCY"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Academic Plus English Course",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!"
+    }
+  },
+  "genelIngilizceLandingPage": {
+    "about": {
+      "title": "Build a Solid Foundation with PREP Basic English Course",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / STARTER LEVEL"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "General English Courses",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: ENGLISH"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About English Courses",
+      "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
+      "items": [
+        {
+          "q": "How to choose a good English course?",
+          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
+        },
+        {
+          "q": "What teaching methods are applied in English courses?",
+          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+        },
+        {
+          "q": "What education and experience do teachers in English courses generally have?",
+          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
+        },
+        {
+          "q": "What certificates can I get from an English course?",
+          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
+        },
+        {
+          "q": "How can I enroll in English courses?",
+          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
+        }
+      ]
+    }
+  },
+  "akademikIngilizceLandingPage": {
+    "about": {
+      "title": "Build a Solid Foundation with PREP Basic English Course",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "A1 BEGINNER / STARTER LEVEL"
+    },
+    "whyUs": {
+      "title": "Why Akademik International?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qualified Language Education",
+          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
+        },
+        {
+          "q": "Language Programs Suitable for Your Level",
+          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
+        },
+        {
+          "q": "4 Language Skills Mastery",
+          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
+        },
+        {
+          "q": "Current Topics and Rich Content",
+          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "GENERAL ENGLISH COURSES",
+      "title": "Academic English Courses",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Guaranteed Speaking ENGLISH Education!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: ACADEMIC"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Academic English",
+      "desc": "We answer your questions about Academic English and exam preparation processes.",
+      "items": [
+        {
+          "q": "How to choose a good English course?",
+          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
+        },
+        {
+          "q": "What teaching methods are applied in English courses?",
+          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+        },
+        {
+          "q": "What education and experience do teachers in English courses generally have?",
+          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
+        },
+        {
+          "q": "What certificates can I get from an English course?",
+          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
+        },
+        {
+          "q": "How can I enroll in English courses?",
+          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
+        }
+      ]
+    }
   }
 }
