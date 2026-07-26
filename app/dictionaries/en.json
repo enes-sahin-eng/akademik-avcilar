@@ -358,11 +358,17 @@
     },
     "formSection": {
       "title": "Contact Form",
-      "desc": "If you want to receive education for English Course or Exam English Course from Academic Language Course Campuses in Istanbul, Ankara, Bursa, Izmir, Kocaeli, Eskişehir, fill out the Contact Form and let us call you!"
+      "desc": "If you want to receive training for an English Course or Exam English Course from Academic Language Course Campuses located in Istanbul, Ankara, Bursa, Izmir, Kocaeli, Eskisehir, fill out the contact form and we will call you!",
+      "formTitle": "Pre-Information Form",
+      "formDesc": "Fill out the form now for detailed information about our qualified language training.",
+      "namePlaceholder": "Enter name and surname...",
+      "phonePlaceholder": "Phone Number",
+      "branchPlaceholder": "Select Branch...",
+      "submitBtn": "Send"
     },
     "mapSection": {
       "title": "Headquarters",
-      "address": "Rıhtım Cad. Recaizade Sk. No:2/3 Kadıköy / ISTANBUL"
+      "address": "Avcılar Academic Foreign Language Courses - Avcılar English Course, Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
     },
     "campuses": {
       "title": "Akademik International Language Schools Campuses",
@@ -370,62 +376,74 @@
         {
           "name": "Avcılar",
           "label": "English Language",
-          "phone": "0212 650 90 90"
+          "phone": "0212 650 90 90",
+          "image": "/sube-avcilar.webp"
         },
         {
           "name": "Kadıköy",
           "label": "English Language",
-          "phone": "0216 330 1 909"
+          "phone": "0216 330 1 909",
+          "image": "/sube-kadikoy.webp"
         },
         {
           "name": "Bursa",
           "label": "English Course",
-          "phone": "0224 480 00 15"
+          "phone": "0224 480 00 15",
+          "image": "/sube-bursa.webp"
         },
         {
           "name": "Istanbul",
           "label": "English Language",
-          "phone": "0216 330 19 09"
+          "phone": "0216 330 19 09",
+          "image": "/sube-ingilizcedil.webp"
         },
         {
           "name": "Istanbul",
           "label": "Çekmeköy",
-          "phone": "0501 369 56 40"
+          "phone": "0501 369 56 40",
+          "image": "/sube-cekmekoy.webp"
         },
         {
           "name": "Bursa",
           "label": "Görükle",
-          "phone": "0224 480 00 14"
+          "phone": "0224 480 00 14",
+          "image": "/sube-gorukle.webp"
         },
         {
           "name": "Ankara",
           "label": "Ankara",
-          "phone": "0312 433 99 99"
+          "phone": "0312 433 99 99",
+          "image": "/sube-ankara.webp"
         },
         {
           "name": "Izmir",
           "label": "English Language",
-          "phone": "0850 305 05 16"
+          "phone": "0850 305 05 16",
+          "image": "/sube-izmir.webp"
         },
         {
           "name": "Kocaeli",
           "label": "Izmit",
-          "phone": "0545 116 4141"
+          "phone": "0545 116 4141",
+          "image": "/sube-kocaeli.webp"
         },
         {
           "name": "Tekirdağ",
           "label": "Çorlu",
-          "phone": "0541 236 01 59"
+          "phone": "0541 236 01 59",
+          "image": "/sube-tekirdag.webp"
         },
         {
           "name": "Bursa",
           "label": "İnegöl",
-          "phone": "0224 777 07 74"
+          "phone": "0224 777 07 74",
+          "image": "/sube-inegol.webp"
         },
         {
           "name": "Bursa",
           "label": "Yıldırım",
-          "phone": "0 224 342 01 23"
+          "phone": "0 224 342 01 23",
+          "image": "/sube-yildirim.webp"
         }
       ],
       "button": "CAMPUS APPLICATION"

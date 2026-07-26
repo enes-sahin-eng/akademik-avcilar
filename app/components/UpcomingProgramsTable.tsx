@@ -16,33 +16,43 @@ export const UpcomingProgramsTable = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <div className={styles.tableResponsive}>
-        <table className={styles.table}>
-          <thead>
-            <tr>
-              {tableData.headers.map((header: string, i: number) => (
-                <th key={i}>{header}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {tableData.programs.map((prog: any, i: number) => (
-              <tr key={i} className={prog.status === "full" ? styles.rowFull : (i % 2 === 0 ? styles.rowEven : styles.rowOdd)}>
-                <td className={styles.colCode}>{prog.code}</td>
-                <td>{prog.start}</td>
-                <td>{prog.end}</td>
-                <td>
-                  <span className={`${styles.badge} ${prog.status === "full" ? styles.badgeFull : styles.badgeAvailable}`}>
-                    {prog.status === "full" ? tableData.statusFull : tableData.statusAvailable}
-                  </span>
-                </td>
-                <td>
-                  <a href="#" className={styles.detailBtn}>{tableData.detailBtn}</a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className={styles.gridContainer}>
+        {tableData.programs.map((prog: any, i: number) => (
+          <motion.div 
+            key={i} 
+            className={`${styles.programCard} ${prog.status === 'full' ? styles.cardFull : styles.cardAvailable}`}
+            whileHover={{ y: -5 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <div className={styles.cardHeader}>
+              <h3 className={styles.programName}>{prog.code}</h3>
+              <span className={`${styles.statusBadge} ${prog.status === 'full' ? styles.badgeFull : styles.badgeAvailable}`}>
+                {prog.status === "full" ? tableData.statusFull : tableData.statusAvailable}
+              </span>
+            </div>
+            
+            <div className={styles.cardBody}>
+              <div className={styles.dateInfo}>
+                <div className={styles.dateItem}>
+                  <span className={styles.dateLabel}>{tableData.headers[1]}</span>
+                  <span className={styles.dateValue}>{prog.start}</span>
+                </div>
+                <div className={styles.dateDivider}></div>
+                <div className={styles.dateItem}>
+                  <span className={styles.dateLabel}>{tableData.headers[2]}</span>
+                  <span className={styles.dateValue}>{prog.end}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.cardFooter}>
+              <a href="#" className={styles.detailBtn}>
+                {tableData.detailBtn}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </motion.div>
   );

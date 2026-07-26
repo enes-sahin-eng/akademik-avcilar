@@ -1,0 +1,35 @@
+# Akademik International Yabancı Dil Okulları
+
+> Akademik International, Türkiye genelinde 12 şubesi bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik İngilizce, Almanca, İspanyolca, Fransızca, Rusça ve Arapça eğitimleri ile uluslararası sınav hazırlık programları sunar.
+
+Bu dosya, dil ve cevap motorlarının siteyi doğru anlaması için hazırlanmıştır. Site şu an aktif olarak iki sayfadan oluşur; program ve şube sayfaları aşamalı olarak yayınlanmaktadır. Aşağıdaki bağlantılar yalnızca yayında olan sayfaları içerir.
+
+## Site Dilleri
+Site Türkçe (varsayılan), İngilizce ve Arapça içerik sunar. Çeviriler `/app/dictionaries/` altındaki sözlüklerden yönetilir; tüm diller aynı URL yapısını paylaşır. Varsayılan içerik dili Türkçe'dir.
+
+## Kurum Bilgileri
+- Kurum adı: Akademik International Yabancı Dil Okulları
+- Genel merkez: Avcılar, İstanbul
+- Adres: Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul
+- Telefon: 0850 305 05 16
+- Şube sayısı: 12 (Avcılar merkez; ayrıca Kadıköy, Bursa, İzmir, Ankara, Çekmeköy, İzmit ve diğer iller/ilçeler)
+
+## Yayında Olan Sayfalar
+- [Anasayfa](https://avcilarakademik.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri, öğrenci yorumları ve kayıt/iletişim formları.
+- [İletişim](https://avcilarakademik.com.tr/iletisim): Avcılar merkez konumu ve haritası, 12 şubenin listesi ve iletişim/başvuru formu.
+
+## Sunulan Eğitim Programları
+Aşağıdaki programlar kurum tarafından sunulmaktadır. (Her programın ayrı sayfası aşamalı olarak yayınlanacaktır.)
+
+- Genel İngilizce: Yetişkinlere yönelik konuşma odaklı, seviye bazlı İngilizce eğitimi (konuşma garantili / VIP formatlar dahil).
+- Sınav Hazırlık: YDS, YÖKDİL, IELTS, TOEFL, PTE, E-TEP, Goethe, ÖSD sınavlarına yönelik hazırlık programları (yetişkin ve akademik kariyer hedefli).
+- Çocuk ve Genç Grupları: Kids & Teens İngilizce eğitimi.
+- Diğer Yabancı Diller: Almanca, İspanyolca, Fransızca, Rusça, Arapça.
+- Kurumsal Eğitim: Şirketlere ve kurumlara yönelik özel dil eğitimi çözümleri.
+
+## Kime Yönelik
+Yetişkin bireysel öğrenciler, sınav (akademik/yurt dışı) hazırlığı yapanlar, çocuk ve gençler, ve çalışanlarına dil eğitimi almak isteyen kurumlar.
+
+## Notlar
+- Kayıt ve bilgi talebi iletişim formu üzerinden alınır; başvurular ilgili şubeye yönlendirilir.
+- Şube listesi ve program kapsamı zaman zaman güncellenir; en güncel bilgi için iletişim sayfasına bakınız.

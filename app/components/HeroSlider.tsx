@@ -118,11 +118,13 @@ export const HeroSlider = () => {
             <form className={styles.minimalForm}>
               <input type="text" placeholder={dict?.heroSliderForm?.namePlaceholder || "İsim Ve Soyisim Giriniz."} className={styles.minimalInput} />
               <input type="tel" placeholder={dict?.heroSliderForm?.phonePlaceholder || "GSM Numaranızı Giriniz."} className={styles.minimalInput} />
-              <select className={styles.minimalInput}>
-                <option value="">{dict?.heroSliderForm?.branchPlaceholder || "Şube Seçiniz."}</option>
-                <option value="kadikoy">Kadıköy</option>
-                <option value="bursa">Bursa</option>
-                <option value="avcilar">Avcılar</option>
+              <select className={styles.minimalInput} defaultValue="">
+                <option value="" disabled hidden>{dict?.heroSliderForm?.branchPlaceholder || "Şube Seçiniz."}</option>
+                {dict?.iletisim?.campuses?.items?.map((campus: any, index: number) => (
+                  <option key={index} value={campus.name}>
+                    {campus.name}
+                  </option>
+                ))}
               </select>
               <button type="button" className={styles.minimalSubmitBtn}>
                 {dict?.heroSliderForm?.submitBtn || "HEMEN ÖN BİLGİ AL!"}

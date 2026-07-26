@@ -1,111 +1,194 @@
 .tableWrapper {
   width: 100%;
-  margin-top: 20px;
-  background-color: var(--bg-surface);
-  border-radius: 12px;
-  padding: 4px; /* Slight padding to allow inner rounded corners */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+.programCard {
+  background: var(--bg-surface);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-subtle);
+  position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-.tableResponsive {
+:global([data-theme="dark"]) .programCard {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Card Top Border Indicator */
+.programCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  overflow-x: auto;
-  border-radius: 8px;
+  height: 4px;
 }
 
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: system-ui, -apple-system, sans-serif;
-  text-align: center;
-  font-size: 13px;
-  white-space: nowrap;
+.cardAvailable::before {
+  background: linear-gradient(90deg, #10b981, #34d399);
 }
 
-.table th {
-  background-color: var(--bg-surface-alt);
-  color: var(--text-primary);
+.cardAvailable:hover {
+  border-color: #10b981;
+  box-shadow: 0 15px 35px -10px rgba(16, 185, 129, 0.2);
+}
+
+.cardFull::before {
+  background: linear-gradient(90deg, #ef4444, #f87171);
+}
+
+.cardFull:hover {
+  border-color: #ef4444;
+  box-shadow: 0 15px 35px -10px rgba(239, 68, 68, 0.2);
+}
+
+/* Card Header */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.programName {
+  font-size: 18px;
   font-weight: 700;
-  padding: 14px 16px;
-  border-bottom: 2px solid var(--border-subtle);
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin: 0;
 }
 
-.table td {
-  padding: 12px 16px;
-  color: var(--text-secondary);
-  font-weight: 600;
-}
-
-.colCode {
-  text-align: left;
-}
-
-/* Row Backgrounds */
-.rowEven {
-  background-color: var(--bg-surface);
-}
-
-.rowOdd {
-  background-color: var(--bg-surface-hover);
-}
-
-/* Full row styling */
-.rowFull {
-  background-color: #2b7bc4;
-}
-.rowFull td {
-  color: #ffffff;
+:global([data-theme="dark"]) .programName {
+  color: white;
 }
 
 /* Badges */
-.badge {
+.statusBadge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 14px;
+  padding: 6px 12px;
   border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-  min-width: 120px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .badgeAvailable {
-  background-color: #3f7b7b;
-  color: #ffffff;
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
 }
 
 .badgeFull {
-  background-color: #ff0000;
-  color: #ffffff;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
 }
 
-/* Buttons */
-.detailBtn {
-  background-color: #0d1e3d;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 6px 20px;
-  border-radius: 20px;
-  font-size: 12px;
+/* Card Body (Dates) */
+.cardBody {
+  background: var(--bg-surface-alt);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: auto;
+}
+
+:global([data-theme="dark"]) .cardBody {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.dateInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dateLabel {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   font-weight: 600;
-  display: inline-block;
-  transition: transform 0.2s;
+}
+
+.dateValue {
+  font-size: 14px;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+:global([data-theme="dark"]) .dateValue {
+  color: #e2e8f0;
+}
+
+.dateDivider {
+  width: 1px;
+  height: 30px;
+  background: var(--border-subtle);
+}
+
+/* Card Footer */
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
+
+.detailBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent-blue);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 .detailBtn:hover {
-  transform: scale(1.05);
+  background: #2563eb;
+  gap: 12px; /* Moves arrow slightly */
 }
 
-@media (max-width: 768px) {
-  .table {
-    font-size: 12px;
-  }
-  .table th, .table td {
-    padding: 10px;
-  }
-  .badge {
-    min-width: 90px;
-    padding: 5px 10px;
+.cardFull .detailBtn {
+  background: var(--bg-surface-alt);
+  color: var(--text-secondary);
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+:global([data-theme="dark"]) .cardFull .detailBtn {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 640px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
   }
 }

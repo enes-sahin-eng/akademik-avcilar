@@ -2,15 +2,18 @@
 .heroContainer {
   position: relative;
   width: 100%;
-  min-height: 50vh;
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* Semi-transparent gradient to let the glowing letters show through */
-  background: linear-gradient(135deg, rgba(127, 29, 29, 0.85) 0%, rgba(30, 58, 138, 0.85) 100%);
+  /* Modern Mesh Gradient */
+  background: radial-gradient(circle at 0% 0%, rgba(220, 38, 38, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 100% 100%, rgba(37, 99, 235, 0.15) 0%, transparent 50%),
+              var(--bg-surface);
   padding: 80px 20px;
   overflow: hidden;
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .heroContent {
@@ -20,35 +23,52 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 30px;
+  gap: 32px;
   max-width: 800px;
 }
 
 .heroTitle {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 900;
   color: var(--text-primary);
   margin: 0;
-  text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  letter-spacing: -1px;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:global([data-theme="dark"]) .heroTitle {
+  background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .phoneBlock {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 12px 24px;
+  background-color: var(--bg-surface-alt);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 16px 32px;
   gap: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 40px -15px rgba(0,0,0,0.1);
+}
+
+:global([data-theme="dark"]) .phoneBlock {
+  background-color: rgba(255,255,255,0.03);
+  box-shadow: 0 20px 40px -15px rgba(0,0,0,0.5);
 }
 
 .phoneIconBox {
-  color: var(--text-primary);
+  color: var(--accent-red);
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(239, 68, 68, 0.1);
+  padding: 12px;
+  border-radius: 50%;
 }
 
 .phoneTexts {
@@ -60,64 +80,78 @@
 .phoneLabel {
   font-size: 11px;
   font-weight: 700;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .phoneNumber {
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 28px;
+  font-weight: 900;
   color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+:global([data-theme="dark"]) .phoneNumber {
+  color: white;
 }
 
 .heroButtons {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .whatsappBtn, .examBtn {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 14px;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 15px;
   font-weight: 700;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
 }
 
 .whatsappBtn {
-  background-color: var(--accent-green);
-  color: var(--text-primary);
-  box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4);
+  background-color: #25D366;
+  color: white;
+  box-shadow: 0 10px 20px -10px rgba(37, 211, 102, 0.5);
 }
 
 .whatsappBtn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 15px 30px -10px rgba(37, 211, 102, 0.6);
 }
 
 .examBtn {
-  background-color: transparent;
+  background-color: var(--bg-surface);
   color: var(--text-primary);
-  border: 2px solid var(--hover-red);
+  border-color: var(--border-subtle);
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.05);
+}
+
+:global([data-theme="dark"]) .examBtn {
+  background-color: rgba(255,255,255,0.05);
+  color: white;
 }
 
 .examBtn:hover {
-  background-color: var(--hover-red);
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.02);
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+  box-shadow: 0 15px 30px -10px rgba(37, 99, 235, 0.2);
 }
 
-.heroCurve {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-color: transparent;
-  clip-path: ellipse(60% 100px at 50% 100%);
+@media (max-width: 768px) {
+  .heroTitle { font-size: 2.5rem; }
+  .phoneNumber { font-size: 22px; }
+  .heroButtons { flex-direction: column; width: 100%; padding: 0 20px; }
+  .whatsappBtn, .examBtn { justify-content: center; width: 100%; }
 }
 
 /* FORM AND MAP SECTION */
@@ -138,138 +172,176 @@
   border-radius: 24px;
   padding: 40px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  align-items: stretch;
 }
 
-@media (max-width: 900px) {
-  .formMapWrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
+/* Form Styling */
 .formCard {
-  display: flex;
-  flex-direction: column;
+  background: var(--bg-surface);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.05);
+  border: 1px solid var(--border-subtle);
+}
+
+:global([data-theme="dark"]) .formCard {
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
 }
 
 .sectionTitle {
-  font-size: 28px;
+  font-size: 2.2rem;
   font-weight: 800;
-  color: var(--dropdown-bg);
-  margin-bottom: 16px;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
 }
 
 .sectionDesc {
   font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .formBox {
-  border: 2px solid #fecdd3; /* Pinkish border like in image */
-  border-radius: 16px;
-  padding: 30px;
-  background: var(--bg-surface);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .boxTitle {
   font-size: 18px;
-  font-weight: 800;
-  color: var(--dropdown-bg);
+  font-weight: 700;
+  color: var(--text-primary);
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 4px;
 }
 
 .boxDesc {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-muted);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .inputGroup {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid var(--text-secondary);
-  padding-bottom: 12px;
-  margin-bottom: 24px;
+  position: relative;
+  width: 100%;
+  background: var(--bg-main);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.inputGroup:focus-within {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
 
 .inputIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--text-muted);
-  margin-right: 12px;
+  transition: color 0.3s ease;
+}
+
+.inputGroup:focus-within .inputIcon {
+  color: var(--accent-blue);
 }
 
 .formInput {
+  width: 100%;
+  padding: 18px 16px 18px 48px;
   border: none;
-  outline: none;
-  flex: 1;
-  font-size: 15px;
-  color: var(--dropdown-bg);
   background: transparent;
+  color: var(--text-primary);
+  font-size: 15px;
+  outline: none;
+}
+
+.formInput::placeholder {
+  color: var(--text-muted);
 }
 
 .submitBtn {
-  background-color: var(--hover-red);
-  color: #ffffff;
+  margin-top: 10px;
+  background: var(--accent-blue);
+  color: white;
   border: none;
-  width: 100%;
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 16px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
   cursor: pointer;
-  transition: all 0.2s;
-  margin-top: 10px;
+  transition: all 0.3s ease;
 }
 
 .submitBtn:hover {
-  background-color: var(--accent-red);
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
 }
 
-/* MAP SECTION */
+/* Map Styling */
 .mapCard {
+  background: var(--bg-surface);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.05);
+  border: 1px solid var(--border-subtle);
   display: flex;
   flex-direction: column;
-  height: 100%;
+  gap: 20px;
+}
+
+:global([data-theme="dark"]) .mapCard {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .mapHeader {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  margin-bottom: 20px;
 }
 
 .mapIcon {
-  color: var(--text-secondary);
+  color: var(--accent-red);
+  margin-top: 4px;
 }
 
 .mapTitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 800;
-  color: var(--dropdown-bg);
-  margin: 0 0 8px 0;
+  color: var(--text-primary);
+  margin-bottom: 4px;
 }
 
 .mapDesc {
   font-size: 14px;
   color: var(--text-secondary);
-  margin: 0;
+  line-height: 1.5;
 }
 
 .mapContainer {
-  flex: 1;
+  flex-grow: 1;
   min-height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .formMapWrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* CAMPUSES SECTION */
@@ -285,142 +357,180 @@
 }
 
 .campusesTitle {
-  font-size: 32px;
+  font-size: 2.5rem;
   font-weight: 800;
-  color: var(--dropdown-bg);
-  margin-bottom: 60px;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: -0.5px;
 }
 
 .campusesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 40px 20px;
-  margin-bottom: 60px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
 }
 
 .campusCard {
+  background: var(--bg-surface);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px -10px rgba(0,0,0,0.05);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s;
+}
+
+:global([data-theme="dark"]) .campusCard {
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 15px 35px -10px rgba(0,0,0,0.5);
 }
 
 .campusCard:hover {
-  transform: translateY(-10px);
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.1);
+  border-color: var(--accent-red);
 }
 
 .campusImageWrapper {
   position: relative;
-  width: 140px;
-  height: 140px;
-  margin-bottom: 16px;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.campusTopBadge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(5px);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  z-index: 2;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .campusImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  border: 3px solid #ffffff;
+  transition: transform 0.5s ease;
 }
 
-.campusTopBadge {
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--hover-red);
-  color: var(--text-primary);
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 11px;
-  font-weight: 800;
-  white-space: nowrap;
-  z-index: 2;
-  box-shadow: 0 4px 10px rgba(239, 68, 68, 0.4);
+.campusCard:hover .campusImage {
+  transform: scale(1.1);
 }
 
 .campusInfoBox {
-  background: var(--bg-surface);
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  width: 180px;
-  margin-top: -20px;
-  position: relative;
-  z-index: 3;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1;
 }
 
 .campusLabel {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  color: var(--border-strong);
-  margin-bottom: 6px;
+  color: var(--text-primary);
+  text-align: center;
 }
 
 .campusPhone {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
-  color: var(--hover-red);
-  font-size: 14px;
-  font-weight: 800;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
+  background: var(--bg-main);
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  width: 100%;
+  justify-content: center;
+}
+
+.campusPhone:hover {
+  background: var(--accent-red);
+  color: white;
 }
 
 .campusApplyBtn {
-  background: transparent;
-  color: var(--dropdown-bg);
-  border: 2px solid var(--text-secondary);
-  padding: 14px 40px;
-  border-radius: 30px;
-  font-size: 14px;
+  display: flex;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--accent-red) 0%, #dc2626 100%);
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 16px;
+  font-size: 16px;
   font-weight: 800;
   cursor: pointer;
-  transition: all 0.3s;
+  box-shadow: 0 10px 25px -5px rgba(239, 68, 68, 0.4);
+  transition: all 0.3s ease;
 }
 
 .campusApplyBtn:hover {
-  background: var(--dropdown-bg);
-  color: var(--text-primary);
-  border-color: var(--dropdown-bg);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 15px 30px -5px rgba(239, 68, 68, 0.5);
 }
 
 /* CORPORATE SECTION */
 .corporateSection {
-  max-width: 1200px;
-  margin: 0 auto 80px auto;
-  padding: 0 20px;
+  width: 100%;
+  background: var(--bg-main);
+  padding: 40px 20px 80px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .corporateCard {
-  background: var(--bg-surface);
-  border-left: 4px solid var(--accent-blue); /* Blue left border */
+  background: var(--bg-surface-alt);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
   padding: 30px 40px;
-  border-radius: 0 16px 16px 0;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+:global([data-theme="dark"]) .corporateCard {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .corporateItem {
-  margin-bottom: 24px;
-}
-
-.corporateItem:last-child {
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .corporateTitle {
-  font-size: 13px;
-  font-weight: 800;
+  font-size: 12px;
+  font-weight: 700;
   color: var(--text-secondary);
-  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .corporateValue {
   font-size: 14px;
-  color: var(--text-muted);
-  line-height: 1.6;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+:global([data-theme="dark"]) .corporateValue {
+  color: #e2e8f0;
 }

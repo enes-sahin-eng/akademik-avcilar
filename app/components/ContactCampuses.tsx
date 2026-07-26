@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
+import Image from "next/image";
 import styles from "./Contact.module.css";
 import { useDictionary } from "../../src/context/DictionaryContext";
 
@@ -35,10 +36,14 @@ export const ContactCampuses: React.FC = () => {
           >
             <div className={styles.campusImageWrapper}>
               <div className={styles.campusTopBadge}>{campus.name}</div>
-              <img 
-                src={`https://picsum.photos/seed/campus-${index}/200/200`} 
+              <Image 
+                src={campus.image || `https://picsum.photos/seed/campus-${index}/400/400`} 
                 alt={campus.name} 
+                fill
+                quality={100}
+                style={{ objectFit: "cover" }}
                 className={styles.campusImage} 
+                unoptimized={campus.image?.startsWith('http')}
               />
             </div>
             <div className={styles.campusInfoBox}>

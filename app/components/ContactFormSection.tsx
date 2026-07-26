@@ -30,20 +30,33 @@ export const ContactFormSection: React.FC = () => {
           <form className={styles.contactForm}>
             <div className={styles.formBox}>
               <div className={styles.boxTitle}>
-                <span className={styles.boxIcon}>📝</span> Ön Bilgi Formu
+                <span className={styles.boxIcon}>📝</span> {formData.formTitle || "Ön Bilgi Formu"}
               </div>
-              <p className={styles.boxDesc}>Nitelikli dil eğitimlerimiz hakkında detaylı bilgi için hemen formu doldurunuz.</p>
+              <p className={styles.boxDesc}>{formData.formDesc || "Nitelikli dil eğitimlerimiz hakkında detaylı bilgi için hemen formu doldurunuz."}</p>
               
               <div className={styles.inputGroup}>
                 <User size={18} className={styles.inputIcon} />
-                <input type="text" placeholder="İsim ve soyisim giriniz..." className={styles.formInput} />
+                <input type="text" placeholder={formData.namePlaceholder || "İsim ve soyisim giriniz..."} className={styles.formInput} />
               </div>
               <div className={styles.inputGroup}>
                 <PhoneIcon size={18} className={styles.inputIcon} />
-                <input type="tel" placeholder="Telefon Numarası" className={styles.formInput} />
+                <input type="tel" placeholder={formData.phonePlaceholder || "Telefon Numarası"} className={styles.formInput} />
+              </div>
+              <div className={styles.inputGroup}>
+                <MapPin size={18} className={styles.inputIcon} />
+                <select className={styles.formInput} defaultValue="">
+                  <option value="" disabled hidden>
+                    {formData.branchPlaceholder || "Şube Seçiniz..."}
+                  </option>
+                  {dict?.iletisim?.campuses?.items?.map((campus: any, index: number) => (
+                    <option key={index} value={campus.name}>
+                      {campus.name}
+                    </option>
+                  ))}
+                </select>
               </div>
               <button type="button" className={styles.submitBtn}>
-                <Send size={16} /> Gönder
+                <Send size={16} /> {formData.submitBtn || "Gönder"}
               </button>
             </div>
           </form>
@@ -66,7 +79,7 @@ export const ContactFormSection: React.FC = () => {
           </div>
           <div className={styles.mapContainer}>
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.65089334468!2d29.02324931566879!3d40.98910407930268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab863e46c4f75%3A0x8e833486c99c36!2zS2FkxLFrw7Z5LCDEsHN0YW5idWw!5e0!3m2!1str!2str!4v1687500000000!5m2!1str!2str" 
+              src={`https://maps.google.com/maps?q=${encodeURIComponent("Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu, Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul")}&t=&z=16&ie=UTF8&iwloc=&output=embed`} 
               width="100%" 
               height="100%" 
               style={{ border: 0, borderRadius: "12px" }} 
