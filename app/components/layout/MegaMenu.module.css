@@ -625,3 +625,76 @@
 .hakkimizdaItem:hover .hakkimizdaIconWrapper {
   color: var(--hover-red);
 }
+
+/* ==========================================================================
+   MOBİL / TABLET AKORDİYON GÖRÜNÜMÜ
+   Navbar.module.css'teki ".navLinks { display: none }" kuralıyla aynı
+   kırılım noktasında (1418px), mega menüler artık masaüstündeki gibi
+   "hover ile açılan, absolute konumlanan, sabit genişlikli" kutular değil,
+   mobil akordiyonun içinde normal doküman akışında (static) render ediliyor.
+   Bu yüzden absolute/fixed-width/caret gibi masaüstüne özel kuralları
+   burada sıfırlıyoruz.
+   ========================================================================== */
+@media (max-width: 1418px) {
+  .megaMenuContainer {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    flex-direction: column;
+    background: var(--bg-surface-alt, var(--bg-surface));
+  }
+
+  /* Masaüstündeki ok (caret) mobilde anlamsız, kaldırıyoruz */
+  .megaMenuContainer::before {
+    display: none;
+  }
+
+  /* Sınav / Diğer Diller / Şubeler / Hakkımızda özel genişlik-override'ları da sıfırlanmalı */
+  .sinavContainer,
+  .dillerContainer,
+  .subelerContainer,
+  .hakkimizdaContainer {
+    width: 100%;
+    left: auto;
+    padding: 0;
+  }
+
+  /* Çok sütunlu grid'ler mobilde tek sütuna düşsün */
+  .megaMenuColumns,
+  .megaMenuColumnsThree,
+  .subelerColumns {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .megaMenuLeftPadded {
+    padding: 20px;
+  }
+
+  /* Sağdaki tanıtım/görsel panelleri mobilde tam genişlik alıp alta düşsün */
+  .megaMenuRight,
+  .megaMenuRightImage,
+  .dillerRight,
+  .subelerRight {
+    width: 100%;
+  }
+
+  .subelerBottomBox {
+    position: static;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .subelerCircleGroup {
+    margin-bottom: 12px;
+  }
+
+  .itemList {
+    margin-left: 0;
+  }
+}
