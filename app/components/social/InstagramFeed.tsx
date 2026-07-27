@@ -70,7 +70,13 @@ async function getInstagramPosts(): Promise<InstagramPost[]> {
   ];
 }
 
-export default async function InstagramFeed() {
+import { getDictionary, Locale, defaultLocale } from "../../dictionaries/getDictionary";
+
+export default async function InstagramFeed({ lang }: { lang?: string }) {
+  const currentLang = (lang as Locale) || defaultLocale;
+  const dict = await getDictionary(currentLang);
+  const t = dict.instagram;
+
   const posts = await getInstagramPosts();
 
   return (
@@ -82,19 +88,19 @@ export default async function InstagramFeed() {
               <InstagramIcon size={24} />
             </div>
             <div>
-              <h2 className={styles.title}>Instagram'da Bizi Takip Edin</h2>
+              <h2 className={styles.title}>{t?.title || "Instagram'da Bizi Takip Edin"}</h2>
               <a href="https://instagram.com/akademikinternational" target="_blank" rel="noopener noreferrer" className={styles.handle}>
                 @akademikinternational
               </a>
             </div>
           </div>
           <a href="https://instagram.com/akademikinternational" target="_blank" rel="noopener noreferrer" className={styles.followBtn}>
-            Takip Et
+            {t?.followBtn || "Takip Et"}
           </a>
         </div>
 
         <div className={styles.grid}>
-          {posts.map((post) => (
+          {posts.map((post, index) => (
             <a 
               key={post.id} 
               href={post.permalink} 
@@ -104,14 +110,14 @@ export default async function InstagramFeed() {
             >
               <Image 
                 src={post.media_url} 
-                alt={post.caption || "Instagram Post"} title={post.caption || "Instagram Post"} 
+                alt={t?.posts?.[index] || post.caption || "Instagram Post"} title={t?.posts?.[index] || post.caption || "Instagram Post"} 
                 fill 
                 className={styles.image} 
                 unoptimized // for external unsplash URLs without Next config
               />
               <div className={styles.overlay}>
                 <InstagramIcon size={32} className={styles.overlayIcon} />
-                {post.caption && <p className={styles.caption}>{post.caption.substring(0, 40)}...</p>}
+                {(t?.posts?.[index] || post.caption) && <p className={styles.caption}>{(t?.posts?.[index] || post.caption).substring(0, 40)}...</p>}
               </div>
             </a>
           ))}

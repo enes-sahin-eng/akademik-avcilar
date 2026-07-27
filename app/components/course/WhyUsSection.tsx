@@ -62,7 +62,7 @@ export const WhyUsSection = ({ courseKey }: Props) => {
         <div className={styles.contentWrapper}>
           {/* Left: Animated Card Stack for Advantages */}
           <div className={styles.advantagesGrid}>
-            <AnimatedAdvantageStack advantages={pageData.advantages} />
+            <AnimatedAdvantageStack advantages={pageData.advantages} btnNext={pageData.btnNext} />
           </div>
 
           {/* Right: Accordion FAQs */}

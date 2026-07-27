@@ -46,7 +46,7 @@ export async function generateMetadata({
 }
 
 export default async function ingilizcekursuPage({ params }: PageProps) {
-  await params;
+  const { lang } = await params;
 
   return (
     <main>
@@ -96,7 +96,7 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
 
       
       {/* INSTAGRAM FEED (Mock API) */}
-      <InstagramFeed />
+      <InstagramFeed lang={lang} />
 
       <WhatsAppButton phoneNumber="905323609256" />
 

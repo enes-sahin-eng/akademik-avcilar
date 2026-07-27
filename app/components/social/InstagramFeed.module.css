@@ -58,7 +58,7 @@
 .followBtn {
   padding: 12px 28px;
   background-color: var(--text-primary);
-  color: white;
+  color: var(--bg-base);
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;

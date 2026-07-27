@@ -18,7 +18,6 @@ interface PageProps {
   }>;
 }
 
-
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
@@ -30,22 +29,21 @@ export async function generateMetadata({
   const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
   const dict = await getDictionary(lang);
 
-  // You can extend the dictionary later to include this metadata
-  const meta = (dict as any)?.akademikIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "Akademik İngilizce Course | Akademik International" : (lang === 'ar' ? "Akademik İngilizce Kursu | Akademik International" : "Akademik İngilizce Kursu | Akademik International"),
-    description: "Yurt dışı eğitim ve uluslararası akademik kariyeriniz için Academic İngilizce eğitimleriyle hedeflerinize ulaşın."
+  const meta = (dict as any)?.ilkogretimIngilizceLandingPage?.meta || {
+    title: lang === 'en' ? "Primary School English Course | Akademik International" : (lang === 'ar' ? "دورة اللغة الإنجليزية للمرحلة الابتدائية | Akademik International" : "İlköğretim İngilizce Kursu | Akademik International"),
+    description: lang === 'en' ? "English course tailored for primary school students." : (lang === 'ar' ? "دورة اللغة الإنجليزية مخصصة لطلاب المرحلة الابتدائية." : "İlköğretim öğrencileri için özel olarak hazırlanmış İngilizce eğitim programı.")
   };
 
   return {
     title: meta.title,
     description: meta.description,
     alternates: {
-      canonical: `/${lang}/akademik-ingilizce-kursu`,
+      canonical: `/${lang}/ilkogretim-ingilizce-kursu`,
     }
   };
 }
 
-export default async function akademikingilizcekursuPage({ params }: PageProps) {
+export default async function IlkogretimIngilizceKursuPage({ params }: PageProps) {
   const { lang } = await params;
 
   return (
@@ -57,8 +55,8 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Course",
-            "name": "Akademik İngilizce Kursu",
-            "description": "Yurt dışı eğitim ve uluslararası akademik kariyeriniz için Academic İngilizce eğitimleriyle hedeflerinize ulaşın.",
+            "name": "İlköğretim İngilizce Kursu",
+            "description": "İlköğretim öğrencileri için özel olarak hazırlanmış İngilizce eğitim programı.",
             "provider": {
               "@type": "Organization",
               "name": "Akademik International Yabancı Dil Okulları",
@@ -67,39 +65,35 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
           })
         }}
       />
-
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="akademikIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="ilkogretimIngilizceLandingPage" />
 
       {/* PROGRAM ÖZETİ */}
-      <CourseInfoSection courseKey="akademikIngilizceLandingPage" />
+      <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" />
 
       {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="akademikIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="akademikIngilizceLandingPage" />
-
+      <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" />
       
       {/* SSS (FAQ) */}
-      <CourseFAQ courseKey="akademikIngilizceLandingPage" />
+      <CourseFAQ courseKey="ilkogretimIngilizceLandingPage" />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="akademikIngilizceLandingPage" />
-
+      <EducationModels courseKey="ilkogretimIngilizceLandingPage" />
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
       <StudentReviewsAndAwards />
-{/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
 
+      {/* DİL SEVİYE BELİRLEME SINAVI */}
+      <PlacementTestBanner />
       
       {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
 
       <WhatsAppButton phoneNumber="905323609256" />
-
-          </main>
+    </main>
   );
 }

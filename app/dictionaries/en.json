@@ -15,7 +15,8 @@
     "btnText": "Start Test →",
     "footerText": "Free · No registration required",
     "avatarAlt": "Avcilar Foreign Language Course Placement Test Education Advisor",
-    "avatarTitle": "Avcilar Akademik International Free Placement Test"
+    "avatarTitle": "Avcilar Akademik International Free Placement Test",
+    "formTitle": "FREE ENGLISH!"
   },
   "navbar": {
     "topAnnouncement": "30% Early Bird Discount Has Started!",
@@ -908,7 +909,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -975,7 +977,8 @@
       "namePlaceholder": "Enter Name and Surname.",
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFO NOW!"
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     }
   },
   "prepPlusPage": {
@@ -1052,7 +1055,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1119,7 +1123,8 @@
       "namePlaceholder": "Enter Name and Surname.",
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFO NOW!"
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     }
   },
   "academicExpressPage": {
@@ -1196,7 +1201,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1263,7 +1269,8 @@
       "namePlaceholder": "Enter Name and Surname.",
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFO NOW!"
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     }
   },
   "academicPage": {
@@ -1340,7 +1347,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1407,7 +1415,8 @@
       "namePlaceholder": "Enter Name and Surname.",
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFO NOW!"
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     }
   },
   "academicPlusPage": {
@@ -1484,7 +1493,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1551,7 +1561,8 @@
       "namePlaceholder": "Enter Name and Surname.",
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFO NOW!"
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     }
   },
   "genelIngilizceLandingPage": {
@@ -1628,7 +1639,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1696,7 +1708,8 @@
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: ENGLISH"
+      "badge": "CATEGORY: ENGLISH",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     },
     "faq": {
       "title": "Frequently Asked Questions About English Courses",
@@ -1799,7 +1812,8 @@
           "q": "Current Topics and Rich Content",
           "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
         }
-      ]
+      ],
+      "btnNext": "Next Privilege →"
     },
     "publications": {
       "title": "Special Publications for Adults",
@@ -1867,7 +1881,8 @@
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: ACADEMIC"
+      "badge": "CATEGORY: ACADEMIC",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     },
     "faq": {
       "title": "Frequently Asked Questions About Academic English",
@@ -1895,5 +1910,1551 @@
         }
       ]
     }
-  }
+  },
+  "ilkogretimIngilizceLandingPage": {
+    "about": {
+      "badge": "PRIMARY SCHOOL / KIDS ENGLISH",
+      "title": "Primary School English Courses - English for Kids",
+      "desc": "\n    <p>We plan the teaching of primary school English courses considering the age and English levels of the children. With a <strong>theatrical and interactive education model</strong> and expert trainers in the child domain, we teach primary school English with a <strong>speaking, reading, and writing focused</strong> education model rather than rote learning. Thanks to our customized curriculum that also supports school subjects, we aim for our students to be successful in their school courses while raising <strong>highly self-confident students</strong> who love English.</p>\n    <p>While preparing our children for the future, our children elevate their English learning to higher levels with our practice-oriented (speaking-based) expert trainers, utilizing our rich curriculum and publications that go far beyond the classical education model. We teach primary school English with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Making a difference with its <strong>education system and unique methods</strong>, Akademik Yabancı Dil Kursu (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Akademik Yabancı Dil Kursu to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.</p>\n    <p>In our course where we also observe <strong>your reading, listening, and writing skills</strong>, our aim is to reinforce the use of English in every field and turn it into a reflex. With a theatrical and interactive education model and our expert trainers in the field, we teach <strong>primary school English education</strong> with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Akademik Yabancı Dil Kursu is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Akademik Yabancı Dil Kursu will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy.</p>\n  ",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "For primary school children, <strong>English sentence structure</strong> is analyzed with fun and understandable materials. Basic tenses and <strong>grammar rules</strong> suitable for their age group are gamified to create a solid grammar foundation."
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Accompanied by carefully selected, fun <strong>reading passages</strong> and stories for kids; <strong>English vocabulary learning</strong> is supported to increase reading comprehension speed."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, basic story creation and sentence building skills are developed at academic standards."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Thanks to interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suitable for children's level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life."
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Advantages and Benefits",
+      "advantages": [
+        {
+          "title": "Early Start Opportunity",
+          "desc": "Children who start learning English at a young age develop language skills faster and more naturally.",
+          "icon": "Star"
+        },
+        {
+          "title": "Personalized Programs",
+          "desc": "Discover your child's potential with special education programs designed according to their age and language levels.",
+          "icon": "User"
+        },
+        {
+          "title": "Self-Confidence Development",
+          "desc": "Children who can use English effectively increase their self-confidence and strengthen their communication skills.",
+          "icon": "Heart"
+        },
+        {
+          "title": "Fun and Interactive Learning",
+          "desc": "Learn through games, not boring lessons! Your children will enjoy learning the language with interactive activities.",
+          "icon": "Smile"
+        },
+        {
+          "title": "International Communication Ability",
+          "desc": "Get one step closer to their future success! English develops your children's ability to communicate internationally.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Social Skills",
+          "desc": "Learning English allows your children to expand their social circles and discover different cultures.",
+          "icon": "Users"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is Primary School English?",
+          "a": "Our Primary School English Course, organized according to our students' levels, aims to improve their language skills. Prior to starting, students are placed into Below Elementary and Elementary classes according to their level assessment exams."
+        },
+        {
+          "q": "English is a Door to the Future!",
+          "a": "Learning English at an early age provides a great advantage for children's future academic and career success. Choose us to ensure they build a strong foundation on this path."
+        }
+      ],
+      "btnNext": "Next Privilege →"
+    },
+    "publications": {
+      "title": "Special Publications for Adults",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Rich Interior Design",
+        "Adult-Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model that Suits You Best",
+      "faceToFace": {
+        "title": "Face-to-Face Education",
+        "badge": "POPULAR",
+        "desc": "Take advantage of our face-to-face education opportunity by choosing one of our 12 branches in Turkey! Interactive lessons with our native expert instructors.",
+        "features": [
+          "Highest Class Hours",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Take advantage of our online education opportunities offering 24/7 access! Virtual interaction with our native expert instructors.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Guaranteed Speaking Program",
+          "Best Expert Native-Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "PRIMARY SCHOOL ENGLISH COURSE",
+      "title": "English Courses for Kids: Learning by Having Fun!",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Preliminary Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Preliminary Information Form",
+      "formTitle": "ENGLISH FOR KIDS!",
+      "formSubtitle": "Guaranteed Learning with Fun!",
+      "namePlaceholder": "Enter Parent Name and Surname.",
+      "phonePlaceholder": "Enter Your GSM Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET PRELIMINARY INFO NOW!",
+      "badge": "CATEGORY: PRIMARY SCHOOL",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About English Courses",
+      "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
+      "items": [
+        {
+          "q": "How to choose a good English course?",
+          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
+        },
+        {
+          "q": "What teaching methods are applied in English courses?",
+          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+        },
+        {
+          "q": "What education and experience do teachers in English courses generally have?",
+          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
+        },
+        {
+          "q": "What certificates can I get from an English course?",
+          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
+        },
+        {
+          "q": "How can I enroll in English courses?",
+          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
+        }
+      ]
+    },
+    "info": {
+      "title": "Primary School English Courses - English for Kids",
+      "description": [
+        "We plan the teaching of primary school English courses considering the age and English levels of the children. With a <strong>theatrical and interactive education model</strong> and expert trainers in the child domain, we teach primary school English with a <strong>speaking, reading, and writing focused</strong> education model rather than rote learning. Thanks to our customized curriculum that also supports school subjects, we aim for our students to be successful in their school courses while raising <strong>highly self-confident students</strong> who love English.",
+        "While preparing our children for the future, our children elevate their English learning to higher levels with our practice-oriented (speaking-based) expert trainers, utilizing our rich curriculum and publications that go far beyond the classical education model. We teach primary school English with a speaking, reading, and writing focused education model rather than rote learning.",
+        "Making a difference with its <strong>education system and unique methods</strong>, Akademik Yabancı Dil Kursu (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Akademik Yabancı Dil Kursu to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.",
+        "In our course where we also observe <strong>your reading, listening, and writing skills</strong>, our aim is to reinforce the use of English in every field and turn it into a reflex. With a theatrical and interactive education model and our expert trainers in the field, we teach <strong>primary school English education</strong> with a speaking, reading, and writing focused education model rather than rote learning.",
+        "Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Akademik Yabancı Dil Kursu is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Akademik Yabancı Dil Kursu will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy."
+      ]
+    }
+  },
+  "instagram": {
+    "title": "Follow Us on Instagram",
+    "followBtn": "Follow",
+    "posts": [
+      "An enjoyable lesson with our students...",
+      "About study abroad opportunities...",
+      "Another one of our success stories...",
+      "Colorful moments from our speaking club.",
+      "First day excitement at our new campus."
+    ]
+  },
+  "ortaokulIngilizceLandingPage": {
+    "about": {
+      "badge": "MIDDLE SCHOOL / LGS PREPARATION",
+      "title": "Special Education for 5th, 6th, 7th and 8th Grades with Middle School English Course",
+      "desc": "\n    <p>The Middle School English course is an educational program specially designed to improve the language skills of 5th, 6th, 7th and 8th grade students. The middle school age range (10-14 years) is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-oriented and interactive English education model for middle school students.</p>\n    <p>Nowadays, getting a good English education provides a great advantage for children both in their academic lives and future careers. Language skills acquired during middle school form a solid foundation for students in their future educational lives.</p>\n  ",
+      "skills": [
+        {
+          "id": "5th",
+          "title": "5th Grade English",
+          "desc": "Transition from beginner to intermediate level. Solid foundation with visual activities and dialogues."
+        },
+        {
+          "id": "6th",
+          "title": "6th Grade English",
+          "desc": "Active language use and communication. Practical applications, fluent speaking exercises and reading comprehension skills."
+        },
+        {
+          "id": "7th",
+          "title": "7th Grade English",
+          "desc": "Daily speaking and exam success. Comprehensive grammar, exam preparation and practice with authentic content."
+        },
+        {
+          "id": "8th",
+          "title": "8th Grade English",
+          "desc": "High School Prep and Communication. Question solving techniques, time management and fully equipped preparation for high school."
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Akademik Middle School English Course?",
+      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
+      "cardTitle": "Level-Appropriate Education",
+      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
+      "btnNext": "Next Privilege →",
+      "faqs": [
+        {
+          "q": "What does the course content include?",
+          "a": "It includes enriching vocabulary, grammar, exam test techniques, listening and speaking skills through practice."
+        },
+        {
+          "q": "What are the benefits of the course?",
+          "a": "It provides high success in school exams, ability to solve English test questions flawlessly, and practicing English with self-confidence."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The institution that created a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification for the first time in Turkey.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Clubs where our students develop their speaking skills with activities and events suitable for their age group.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Middle School Students",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Age-Appropriate Design",
+        "Middle School Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Student Book"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Student Book"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Prep Book"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Vocabulary Practice Book"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Best Education Model for You",
+      "faceToFace": {
+        "badge": "POPULAR",
+        "title": "Face-to-Face Education",
+        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
+        "features": [
+          "Maximum Lesson Hours",
+          "Speaking Guaranteed Program",
+          "Special Exam Prep",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Live and interactive middle school English education from the comfort of your home.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Speaking Guaranteed Program",
+          "Expert Native and Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "MIDDLE SCHOOL ENGLISH COURSES",
+      "title": "Middle School English Course",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Pre-Info Now!",
+      "whatsappBtn": "Whatsapp Support",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Speaking Focused English Education!",
+      "namePlaceholder": "Enter Name and Surname",
+      "phonePlaceholder": "Enter GSM Number",
+      "branchPlaceholder": "Select Branch",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: MIDDLE SCHOOL",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "formNamePlaceholder": "Enter Name and Surname",
+      "formPhonePlaceholder": "Enter GSM Number",
+      "formBranchPlaceholder": "Select Branch",
+      "formSubmit": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How many levels does the middle school English course consist of?",
+          "a": "Our program consists of special levels according to 5th, 6th, 7th and 8th grade levels."
+        },
+        {
+          "q": "Is there a special preparation for high school entrance exams?",
+          "a": "Yes, we provide special studies focusing on question solving and strategies, especially for 7th and 8th grade students."
+        },
+        {
+          "q": "Are course materials included in the fee?",
+          "a": "Yes, all textbooks, digital platform memberships, and extra materials our students need are included in our course fee."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Specialized Education Program for Middle School Levels",
+      "grades": [
+        {
+          "tabTitle": "5th Grade",
+          "title": "5th Grade English Course Program and Content",
+          "desc": "Our 5th grade English course program is designed to help students transition from beginner to intermediate level. At this level:",
+          "bullets": [
+            "Visual activities for basic vocabulary development",
+            "Dialogue exercises featuring simple daily conversations",
+            "Fun learning environment with English songs and games",
+            "Content supporting school lessons aligned with the curriculum",
+            "Small group activities for speaking practice"
+          ],
+          "summary": "Our 5th grade middle school students permanently learn vocabulary and sentence structures using theatrical techniques. Students who start speaking English with confidence develop a positive attitude towards language learning."
+        },
+        {
+          "tabTitle": "6th Grade",
+          "title": "Developing Communication Skills with 6th Grade English Course",
+          "desc": "Our 6th grade English course program offers a comprehensive educational model that supports students' active language use and aims for the ability to communicate in English in real-life situations. At this level, students learn more complex language structures by developing their ability to communicate in English in daily life. Activities included in our program:",
+          "bullets": [
+            "Themed speaking activities on daily life topics",
+            "Reinforcement of grammar structures with practical applications",
+            "Pronunciation exercises and fluent speaking practice",
+            "Special activities to develop reading comprehension skills",
+            "Development of simple composition and writing skills"
+          ],
+          "summary": "At this level, our students gain increasing confidence in expressing themselves in English. In-class projects and group work enable them to actively use the knowledge they have learned."
+        },
+        {
+          "tabTitle": "7th Grade",
+          "title": "7th Grade English Course and Contribution to Academic Success",
+          "desc": "The 7th grade English course addresses daily speaking proficiency and the language skills necessary for exam success with an integrated approach:",
+          "bullets": [
+            "Comprehensive teaching of more complex grammar structures",
+            "Extended vocabulary exercises",
+            "Preparation for school exams and subject reinforcement",
+            "Analysis and interpretation of authentic texts",
+            "Creative writing projects and presentation skills"
+          ],
+          "summary": "Our 7th grade program ensures that students feel comfortable in their daily use of English while increasing their success at school. At this level, our students experience the real-life use of English with authentic content such as short films and interviews."
+        },
+        {
+          "tabTitle": "8th Grade / LGS",
+          "title": "8th Grade English Course and LGS Preparation Support",
+          "desc": "Our 8th grade English course program supports the LGS exam preparation process while also focusing on the development of practical language skills:",
+          "bullets": [
+            "Question solving techniques and strategies in LGS format",
+            "Comprehensive grammar reviews and reinforcement studies",
+            "Time management in reading comprehension questions",
+            "Motivation techniques to reduce test anxiety",
+            "Advanced speaking and discussion skills"
+          ],
+          "summary": "Our 8th grade students acquire both the academic English necessary for exam success and practical communication skills. In this way, our students are one step ahead with their English proficiency when starting high school education."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Speaking-Focused English Course: Rote-Free Language Education",
+        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "bullets": [
+          "At least 20 minutes of English speaking practice in each lesson",
+          "Natural learning process similar to native language education",
+          "Culture of learning by making mistakes without fear",
+          "Dialogues from daily life and real communication scenarios",
+          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
+        ],
+        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
+      },
+      {
+        "title": "Middle School English Course Prices and Education Options",
+        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
+        "bullets": [
+          "Regular weekday programs (2-3 days a week)",
+          "Intensive weekend programs",
+          "One-on-one private lesson opportunities",
+          "Online middle school English course option",
+          "Accelerated summer programs"
+        ],
+        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
+      },
+      {
+        "title": "Things to Consider When Choosing the Best Middle School English Course",
+        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
+        "bullets": [
+          "Qualifications and experience of the teachers",
+          "Class sizes and personalized attention opportunities",
+          "Education methodology and materials used",
+          "Measurement-evaluation system and regular feedback",
+          "Success of graduated students and parent satisfaction",
+          "Physical environment and technological infrastructure",
+          "Ease of transportation and security"
+        ],
+        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+      },
+      {
+        "title": "Advantages of Online Middle School English Course",
+        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
+        "bullets": [
+          "Saving time and travel",
+          "High-quality education in the comfort of home",
+          "Content enriched with interactive digital materials",
+          "Opportunity to watch again with recorded lessons",
+          "Interactive learning with various digital tools",
+          "Hybrid education option (online + face-to-face)"
+        ],
+        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
+      },
+      {
+        "title": "English Summer Course: Language Development During School Holidays",
+        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
+        "bullets": [
+          "Intensive and fun education program",
+          "English camps and activities in nature",
+          "Thematic weekly programs (music, sports, technology, art)",
+          "Cultural exchange with foreign instructors",
+          "Project-based learning and group work"
+        ],
+        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
+      }
+    ]
+  },
+  "liseIngilizceLandingPage": {
+    "about": {
+      "badge": "MIDDLE SCHOOL / LGS PREPARATION",
+      "title": "Become a Global Citizen with High School English Course",
+      "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Akademik International Foreign Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Akademik International Foreign Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Akademik International Foreign Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
+          "icon": "Mic"
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Akademik High School English Course?",
+      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
+      "cardTitle": "Level-Appropriate Education",
+      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
+      "btnNext": "Next Privilege →",
+      "faqs": [
+        {
+          "q": "What Does the High School Course Content Include?",
+          "a": "It offers comprehensive language education focusing on enriching vocabulary, advanced grammar, supporting school subjects, preparation for university exams, and speaking practice."
+        },
+        {
+          "q": "What Are the Benefits of This Course?",
+          "a": "It provides high grades in school exams, academic reading comprehension, a solid foundation for international exams like TOEFL/IELTS, and the self-confidence to speak English fluently."
+        }
+      ],
+      "advantages": [
+        {
+          "icon": "Globe",
+          "title": "Education at International Standards",
+          "desc": "English education completed at Akademik International is fully compliant with EU standards and the US education system."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Intensive Practice Opportunities",
+          "desc": "Beyond the hours determined for each level, we strengthen the language skills of our high school students by offering 20 to 64 hours of additional practice opportunities."
+        },
+        {
+          "icon": "Users",
+          "title": "Age-Specific Classes",
+          "desc": "We classify our high school and college students according to their age groups and enable them to learn English by living it with an education system specific to them."
+        },
+        {
+          "icon": "Target",
+          "title": "Global Communication at an Early Age",
+          "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with Akademik assurance."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Special Publications for Middle School Students",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Age-Appropriate Design",
+        "Middle School Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Student Book"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Student Book"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Prep Book"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Vocabulary Practice Book"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Best Education Model for You",
+      "faceToFace": {
+        "badge": "POPULAR",
+        "title": "Face-to-Face Education",
+        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
+        "features": [
+          "Maximum Lesson Hours",
+          "Speaking Guaranteed Program",
+          "Special Exam Prep",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Live and interactive middle school English education from the comfort of your home.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Speaking Guaranteed Program",
+          "Expert Native and Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "HIGH SCHOOL ENGLISH COURSES",
+      "title": "Shape Your Future with High School English Course",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Pre-Info Now!",
+      "whatsappBtn": "Whatsapp Support",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Speaking Focused English Education!",
+      "namePlaceholder": "Enter Name and Surname",
+      "phonePlaceholder": "Enter GSM Number",
+      "branchPlaceholder": "Select Branch",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: HIGH SCHOOL",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "formNamePlaceholder": "Enter Name and Surname",
+      "formPhonePlaceholder": "Enter GSM Number",
+      "formBranchPlaceholder": "Select Branch",
+      "formSubmit": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How many levels does the high school English course consist of?",
+          "a": "Our program consists of specialized levels tailored to the academic and language proficiencies of 9th, 10th, 11th, and 12th-grade students."
+        },
+        {
+          "q": "Is there specific preparation for the university entrance exam (YDT/YKS-DIL)?",
+          "a": "Yes, especially for our 11th and 12th-grade students, we provide intensive studies focused on question-solving and test strategies tailored to the university entrance exam format."
+        },
+        {
+          "q": "Are course materials included in the course fee?",
+          "a": "Yes, all textbooks, digital practice exams, vocabulary notebooks, and supplementary materials our students will need are included in our course fee."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Specialized Education Program for Middle School Levels",
+      "grades": [
+        {
+          "tabTitle": "5th Grade",
+          "title": "5th Grade English Course Program and Content",
+          "desc": "Our 5th grade English course program is designed to help students transition from beginner to intermediate level. At this level:",
+          "bullets": [
+            "Visual activities for basic vocabulary development",
+            "Dialogue exercises featuring simple daily conversations",
+            "Fun learning environment with English songs and games",
+            "Content supporting school lessons aligned with the curriculum",
+            "Small group activities for speaking practice"
+          ],
+          "summary": "Our 5th grade middle school students permanently learn vocabulary and sentence structures using theatrical techniques. Students who start speaking English with confidence develop a positive attitude towards language learning."
+        },
+        {
+          "tabTitle": "6th Grade",
+          "title": "Developing Communication Skills with 6th Grade English Course",
+          "desc": "Our 6th grade English course program offers a comprehensive educational model that supports students' active language use and aims for the ability to communicate in English in real-life situations. At this level, students learn more complex language structures by developing their ability to communicate in English in daily life. Activities included in our program:",
+          "bullets": [
+            "Themed speaking activities on daily life topics",
+            "Reinforcement of grammar structures with practical applications",
+            "Pronunciation exercises and fluent speaking practice",
+            "Special activities to develop reading comprehension skills",
+            "Development of simple composition and writing skills"
+          ],
+          "summary": "At this level, our students gain increasing confidence in expressing themselves in English. In-class projects and group work enable them to actively use the knowledge they have learned."
+        },
+        {
+          "tabTitle": "7th Grade",
+          "title": "7th Grade English Course and Contribution to Academic Success",
+          "desc": "The 7th grade English course addresses daily speaking proficiency and the language skills necessary for exam success with an integrated approach:",
+          "bullets": [
+            "Comprehensive teaching of more complex grammar structures",
+            "Extended vocabulary exercises",
+            "Preparation for school exams and subject reinforcement",
+            "Analysis and interpretation of authentic texts",
+            "Creative writing projects and presentation skills"
+          ],
+          "summary": "Our 7th grade program ensures that students feel comfortable in their daily use of English while increasing their success at school. At this level, our students experience the real-life use of English with authentic content such as short films and interviews."
+        },
+        {
+          "tabTitle": "8th Grade / LGS",
+          "title": "8th Grade English Course and LGS Preparation Support",
+          "desc": "Our 8th grade English course program supports the LGS exam preparation process while also focusing on the development of practical language skills:",
+          "bullets": [
+            "Question solving techniques and strategies in LGS format",
+            "Comprehensive grammar reviews and reinforcement studies",
+            "Time management in reading comprehension questions",
+            "Motivation techniques to reduce test anxiety",
+            "Advanced speaking and discussion skills"
+          ],
+          "summary": "Our 8th grade students acquire both the academic English necessary for exam success and practical communication skills. In this way, our students are one step ahead with their English proficiency when starting high school education."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Speaking-Focused English Course: Rote-Free Language Education",
+        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "bullets": [
+          "At least 20 minutes of English speaking practice in each lesson",
+          "Natural learning process similar to native language education",
+          "Culture of learning by making mistakes without fear",
+          "Dialogues from daily life and real communication scenarios",
+          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
+        ],
+        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
+      },
+      {
+        "title": "Middle School English Course Prices and Education Options",
+        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
+        "bullets": [
+          "Regular weekday programs (2-3 days a week)",
+          "Intensive weekend programs",
+          "One-on-one private lesson opportunities",
+          "Online middle school English course option",
+          "Accelerated summer programs"
+        ],
+        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
+      },
+      {
+        "title": "Things to Consider When Choosing the Best Middle School English Course",
+        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
+        "bullets": [
+          "Qualifications and experience of the teachers",
+          "Class sizes and personalized attention opportunities",
+          "Education methodology and materials used",
+          "Measurement-evaluation system and regular feedback",
+          "Success of graduated students and parent satisfaction",
+          "Physical environment and technological infrastructure",
+          "Ease of transportation and security"
+        ],
+        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+      },
+      {
+        "title": "Advantages of Online Middle School English Course",
+        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
+        "bullets": [
+          "Saving time and travel",
+          "High-quality education in the comfort of home",
+          "Content enriched with interactive digital materials",
+          "Opportunity to watch again with recorded lessons",
+          "Interactive learning with various digital tools",
+          "Hybrid education option (online + face-to-face)"
+        ],
+        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
+      },
+      {
+        "title": "English Summer Course: Language Development During School Holidays",
+        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
+        "bullets": [
+          "Intensive and fun education program",
+          "English camps and activities in nature",
+          "Thematic weekly programs (music, sports, technology, art)",
+          "Cultural exchange with foreign instructors",
+          "Project-based learning and group work"
+        ],
+        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
+      }
+    ]
+  },
+  "ozelDersLandingPage": {
+    "about": {
+      "badge": "ONE ON ONE",
+      "title": "One-on-One Private Lessons",
+      "desc": "<b>Take your English to the highest level</b> with our training program focusing on (Speaking, Reading, Listening, and Writing) skills based on <b>Qualified English</b> Teaching with Current Topics by our <b>Academic Career Instructors.</b><br/><br/>As Akademik International Language Schools, we provide a solution in every situation and offer our students an education tailored to their needs. The services we allocate to <b>private English lessons</b> are tailored to your time planning and the content of the education you desire. The foreign language learning process can differ for many people in terms of working hours, school days, and learning styles; education must be provided by adapting to these differences. We produce solutions tailored to your specific needs, whether for personal preference or mandatory situations.<br/><br/>Our one-on-one private lessons continue with our foreign or Turkish teachers depending on the level of our student. We prepare a special education plan for you together with those among our educators who have acquired an area of expertise suitable for your goal and ensure that you benefit from our teacher's expertise. In our private lessons, our students are given an education that will take them to the top level in language mastery elements such as reading, writing, understanding, translation, and speaking skills in the foreign language they desire. Foreign language mastery is achieved in the shortest time but with solid foundations. You can also attend speaking classes free of charge during your private lesson education.<br/><br/>You will start learning English with a new perspective. The expert teaching staff working within Akademik International provides education tailored to student needs, along with publications suitable for the unique education system they have prepared.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Practice building correct sentence structures with basic and advanced grammar training planned according to your level."
+        },
+        {
+          "id": "reading",
+          "title": "Reading & Comprehension",
+          "desc": "Fast comprehension techniques with up-to-date articles, academic texts, or daily reading passages tailored to your goal."
+        },
+        {
+          "id": "writing",
+          "title": "Writing Skills",
+          "desc": "Effective vocabulary selection and composition creation ability for business correspondence, academic articles, or daily dialogues."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking Practice",
+          "desc": "Communicating in English confidently and fluently with fully speaking-oriented, dialogue-heavy private lessons."
+        }
+      ],
+      "description": "Taking one-on-one private lessons for English academic exams provides a great advantage to students. These lessons guide students in areas such as exam strategies, reading and writing skills, and vocabulary development. The one-on-one format allows students to focus specifically on their needs and helps them achieve successful results. Private lessons given by our experienced teachers progress with a curriculum specially designed for the needs of the students.",
+      "features": [
+        "Reach your goals while saving time and budget with Akademik International.",
+        "Up-to-date language training program that makes you speak English, with the difference of Akademik International.",
+        "Speaking English is now much easier with our local and foreign expert teaching staff.",
+        "You will be able to speak English fluently by pushing your limits with one-on-one speaking and support lessons."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Private English Lessons?",
+      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
+      "cardTitle": "Level-Appropriate Education",
+      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
+      "btnNext": "Next Privilege →",
+      "faqs": [
+        {
+          "q": "Why Private English Lessons?",
+          "a": "In private English lessons, the education is completely shaped according to the student's needs and goals. The teacher evaluates the student's current language level and creates a learning plan accordingly. This allows focusing on areas such as grammar, vocabulary, reading, writing, listening and speaking skills."
+        },
+        {
+          "q": "Who is Suitable for Private English Lessons?",
+          "a": "It is suitable for students who want to get support in school subjects or prepare for academic exams, professionals who want to improve their English language skills in business life, travelers, and anyone who sees language learning as a hobby."
+        },
+        {
+          "q": "How are the Lessons Conducted?",
+          "a": "Private English lessons are shaped according to the student's level and goals. A comprehensive learning experience is offered by focusing on grammar, vocabulary, reading, writing, listening, and speaking skills."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "97% Student Satisfaction",
+          "desc": "The institution that created a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification for the first time in Turkey.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Speaking Clubs",
+          "desc": "Clubs where our students develop their speaking skills with activities and events suitable for their age group.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Lessons (Letslingo)",
+          "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Akademik International Institutional Publications",
+      "subtitle": "Free for Our Registered Students",
+      "features": [
+        "Age-Appropriate Design",
+        "Middle School Specific Content",
+        "Innovative Approach"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Student Book"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Student Book"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Prep Book"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Vocabulary Practice Book"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Best Education Model for You",
+      "faceToFace": {
+        "badge": "POPULAR",
+        "title": "Face-to-Face Education",
+        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
+        "features": [
+          "Maximum Lesson Hours",
+          "Speaking Guaranteed Program",
+          "Special Exam Prep",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Live and interactive middle school English education from the comfort of your home.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Speaking Guaranteed Program",
+          "Expert Native and Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "hero": {
+      "tag": "PRIVATE ENGLISH LESSONS",
+      "title": "Private English Lessons",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Pre-Info Now!",
+      "whatsappBtn": "Whatsapp Support",
+      "formRibbon": "Pre-Info Form",
+      "formTitle": "FREE ENGLISH!",
+      "formSubtitle": "Tailor-made One-on-One English Training!",
+      "namePlaceholder": "Enter Name and Surname",
+      "phonePlaceholder": "Enter GSM Number",
+      "branchPlaceholder": "Select Branch",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: PRIVATE LESSON",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "formNamePlaceholder": "Enter Name and Surname",
+      "formPhonePlaceholder": "Enter GSM Number",
+      "formBranchPlaceholder": "Select Branch",
+      "formSubmit": "GET INFO NOW!",
+      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use.",
+      "subtitle": "One-on-one English training tailored to your needs."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Are Private Lessons Suitable for Academic Exam Preparation?",
+          "a": "Yes, one-on-one private lessons are highly effective for academic exam preparation. Students can become familiar with exam formats, learn exam techniques, and develop the language skills required for the exam."
+        },
+        {
+          "q": "Which Level of Students Can Take Private Lessons?",
+          "a": "Regardless of their English level, students at any level can take private lessons. Course programs are available for all students from beginner to advanced levels."
+        },
+        {
+          "q": "How are Course Materials Provided?",
+          "a": "Course materials are provided by our expert teaching staff according to the student's level and goals. These materials may include books, online resources, articles, and sample exams."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Our Private English Lesson Program",
+      "grades": [
+        {
+          "tabTitle": "Students",
+          "title": "Private English Lessons for Students",
+          "desc": "Designed for students who want to get support in their school lessons or prepare for academic exams (LGS, YKS-DIL, TOEFL, IELTS).",
+          "bullets": [
+            "Exam strategies and time management",
+            "Reading, writing, and listening skills",
+            "Full compliance with the school curriculum",
+            "Quick recovery of missing topics"
+          ],
+          "summary": "Our students achieve the highest success in academic exams and take their school grades to the top with programs tailored for them."
+        },
+        {
+          "tabTitle": "Professionals",
+          "title": "Private English Lessons for Business",
+          "desc": "For professionals who want to seize globalizing opportunities in the business world and take a step forward in their careers.",
+          "bullets": [
+            "Sectoral and professional English",
+            "Effective presentation techniques",
+            "Email correspondence and meeting simulations",
+            "Language of negotiation and persuasion"
+          ],
+          "summary": "Communicate with confidence in the international business world with one-on-one training tailored to your career goals."
+        },
+        {
+          "tabTitle": "Travelers",
+          "title": "Practical and Daily English",
+          "desc": "A program prepared for those who plan to travel abroad and want to use English fluently in daily communication.",
+          "bullets": [
+            "Daily dialogues and street language",
+            "Airport, hotel, and restaurant conversations",
+            "Introduction to cultural differences",
+            "Practice answering instantly"
+          ],
+          "summary": "Experience the freedom of expressing yourself comfortably no matter where you go in the world."
+        },
+        {
+          "tabTitle": "Hobbyists",
+          "title": "English for Personal Development",
+          "desc": "For those who see language learning as a hobby, want to watch English series without subtitles and read global resources.",
+          "bullets": [
+            "Current patterns taken from movies and series",
+            "Book and article reading techniques",
+            "Foreign cultures and lifestyles",
+            "Fun and stress-free learning environment"
+          ],
+          "summary": "Don't just learn a language, open the door to brand new cultures with pleasure."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Speaking-Focused English Course: Rote-Free Language Education",
+        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "bullets": [
+          "At least 20 minutes of English speaking practice in each lesson",
+          "Natural learning process similar to native language education",
+          "Culture of learning by making mistakes without fear",
+          "Dialogues from daily life and real communication scenarios",
+          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
+        ],
+        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
+      },
+      {
+        "title": "Middle School English Course Prices and Education Options",
+        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
+        "bullets": [
+          "Regular weekday programs (2-3 days a week)",
+          "Intensive weekend programs",
+          "One-on-one private lesson opportunities",
+          "Online middle school English course option",
+          "Accelerated summer programs"
+        ],
+        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
+      },
+      {
+        "title": "Things to Consider When Choosing the Best Middle School English Course",
+        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
+        "bullets": [
+          "Qualifications and experience of the teachers",
+          "Class sizes and personalized attention opportunities",
+          "Education methodology and materials used",
+          "Measurement-evaluation system and regular feedback",
+          "Success of graduated students and parent satisfaction",
+          "Physical environment and technological infrastructure",
+          "Ease of transportation and security"
+        ],
+        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+      },
+      {
+        "title": "Advantages of Online Middle School English Course",
+        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
+        "bullets": [
+          "Saving time and travel",
+          "High-quality education in the comfort of home",
+          "Content enriched with interactive digital materials",
+          "Opportunity to watch again with recorded lessons",
+          "Interactive learning with various digital tools",
+          "Hybrid education option (online + face-to-face)"
+        ],
+        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
+      },
+      {
+        "title": "English Summer Course: Language Development During School Holidays",
+        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
+        "bullets": [
+          "Intensive and fun education program",
+          "English camps and activities in nature",
+          "Thematic weekly programs (music, sports, technology, art)",
+          "Cultural exchange with foreign instructors",
+          "Project-based learning and group work"
+        ],
+        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
+      }
+    ],
+    "meta": {
+      "title": "Private English Lessons | Akademik International"
+    }
+  },
+  "kurumsalIngilizceLandingPage": {
+    "hero": {
+      "tag": "CORPORATE ENGLISH COURSE",
+      "title": "Corporate English Course",
+      "customerServiceBtn": "Contact Customer Service Now!",
+      "infoBtn": "Get Preliminary Info Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Information Form",
+      "formTitle": "FREE ENGLISH TRIAL!",
+      "formSubtitle": "One-on-One English Training Tailored for You!",
+      "namePlaceholder": "Enter Full Name.",
+      "phonePlaceholder": "Enter Mobile Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: CORPORATE ENGLISH",
+      "description": "Corporate English is an indispensable skill for those who want to build a successful career in the business world and compete in the international arena.",
+      "formDisclaimer": "By submitting this form, I accept the Legal Notice/Terms of Use.",
+      "subtitle": "Global Standard Lessons and Corporate Publications!"
+    },
+    "about": {
+      "badge": "FOR COMPANIES",
+      "title": "What is Corporate English?",
+      "desc": "Corporate English is a specific language skill used to communicate effectively and develop professional relationships in the business world. With the international growth of the business world, using English effectively has become increasingly important when communicating between companies and competing in global markets.<br/><br/>Corporate English training helps employees communicate more effectively with both foreign clients and international business partners. This type of training allows them to understand the specific terms and expressions required by the business world, express themselves correctly, and write professional documents properly.",
+      "skills": [
+        {
+          "id": "specialTopics",
+          "title": "Specialized Subject Areas",
+          "desc": "Corporate English courses can be designed to improve communication skills in sector-specific subject areas. Focused on specific needs, these courses help participants understand terms related to their sectors."
+        },
+        {
+          "id": "presentation",
+          "title": "Presentation and Meeting Skills",
+          "desc": "Corporate English courses provide the opportunity to practice and increase the ability to make effective presentations and take an active role in business meetings."
+        },
+        {
+          "id": "writing",
+          "title": "Written Communication Skills",
+          "desc": "Written communication is critically important in the business world. These courses can help participants in writing professional e-mails, preparing reports, and properly drafting other documents."
+        },
+        {
+          "id": "cultural",
+          "title": "Cultural Awareness",
+          "desc": "Cultural awareness is important in international business relations. Corporate English courses can guide participants on how to communicate across different cultures."
+        }
+      ],
+      "description": "You can receive English training within the Language Department or directly in your company to make a difference for your institution. In our department, the training content, tailored separately for every level from senior executives to employees, is carried out in integration with companies' training directorates or Human Resources.",
+      "features": [
+        "Participants' English knowledge is measured and reported through pre-tests and analyses conducted in the Corporate English Course.",
+        "Based on this information, the people who will receive training are categorized and training plans are created.",
+        "Before the training, our teachers meet with company officials to determine working style expectations and goals.",
+        "Good English communication can help employees gain more confidence and reflect a professional image for the company."
+      ]
+    },
+    "whyUs": {
+      "title": "Advantages of Corporate English Courses",
+      "subtitle": "Private lessons tailored to the needs of the business world",
+      "cardTitle": "Customized Planning",
+      "cardDesc": "Corporate English courses can be designed and implemented in accordance with the goals set by the businesses.",
+      "btnNext": "Next Privilege →",
+      "faqs": [
+        {
+          "q": "Where are the trainings held?",
+          "a": "You can receive training at our Language Department branches or directly within your company."
+        },
+        {
+          "q": "How is the level assessment done?",
+          "a": "Participants' English knowledge is measured and expectations are determined through pre-tests and analyses."
+        },
+        {
+          "q": "Are company managers involved in the process?",
+          "a": "Yes, our training content is carried out in integration with the training directorates or Human Resources of the companies."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Free for Corporate Students",
+          "desc": "Corporate publications are provided completely free of charge for company personnel participating in the training.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Pre-Test and Analysis",
+          "desc": "Participants' English knowledge is measured, needs are determined, and training plans are created.",
+          "icon": "BarChart"
+        },
+        {
+          "title": "Human Resources Integration",
+          "desc": "Our training content is carried out in integration with the training directorates or HR departments of the companies.",
+          "icon": "Users"
+        },
+        {
+          "title": "Confidence and Business Image",
+          "desc": "Good English communication can help reflect a professional image of the company.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Akademik International Corporate Publications",
+      "subtitle": "Free for Corporate Students!",
+      "features": [
+        "Corporate Specific Content",
+        "Global Standard Publications",
+        "Sectoral Terms"
+      ],
+      "books": [
+        {
+          "name": "Academic Reading",
+          "type": "Reading and Comprehension"
+        },
+        {
+          "name": "Plus Listening",
+          "type": "Listening Practice"
+        },
+        {
+          "name": "Prep Workbook",
+          "type": "Workbook"
+        },
+        {
+          "name": "Corporate Vocabulary",
+          "type": "Professional Vocabulary Set"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Best Education Model for You",
+      "faceToFace": {
+        "badge": "POPULAR",
+        "title": "Face-to-Face Education",
+        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
+        "features": [
+          "Maximum Lesson Hours",
+          "Speaking Guaranteed Program",
+          "Special Exam Prep",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Live and interactive middle school English education from the comfort of your home.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Speaking Guaranteed Program",
+          "Expert Native and Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is the Importance of Corporate English Training?",
+          "a": "Corporate English training helps employees communicate more effectively with both foreign clients and international business partners."
+        },
+        {
+          "q": "What are the Advantages of Corporate English Courses?",
+          "a": "It enhances the professional image of the company by providing development in areas such as special topics, presentation and meeting skills, written communication, and cultural awareness."
+        },
+        {
+          "q": "How do trainers prepare for classes?",
+          "a": "Before the training, our teachers meet with company officials and trainees to determine working style expectations and goals."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Sector-Specific Professional English Training Programs",
+      "grades": [
+        {
+          "tabTitle": "Energy & Engineering",
+          "title": "Energy, Engineering and Technology Sector",
+          "desc": "Designed for you to correctly use specific terms and expressions required by technical sectors.",
+          "bullets": [
+            "Energy, Natural Gas and Petroleum Sector",
+            "Engineering English",
+            "Telecommunications Sector"
+          ],
+          "summary": "Helps participants in preparing technical reports and understanding terms related to their sectors."
+        },
+        {
+          "tabTitle": "Law & Finance",
+          "title": "Law, Finance and Human Resources",
+          "desc": "Ensures your administrative and financial units communicate effectively internationally.",
+          "bullets": [
+            "Legal English",
+            "Finance & Banking",
+            "Human Resources English"
+          ],
+          "summary": "Provides the skill of writing professional emails and properly creating other written documents."
+        },
+        {
+          "tabTitle": "Logistics & Trade",
+          "title": "Logistics, Foreign Trade and Sales Marketing",
+          "desc": "Allows you to use English effectively while competing in global markets.",
+          "bullets": [
+            "Logistics / Maritime Transport",
+            "Foreign Trade Sector",
+            "Sales, Marketing and Communication Sector"
+          ],
+          "summary": "Helps employees communicate more effectively with both foreign clients and international business partners."
+        },
+        {
+          "tabTitle": "Service Sector",
+          "title": "Medical, Tourism and Textile English",
+          "desc": "Trainings that create cultural awareness in international business relations in the service sector.",
+          "bullets": [
+            "Textile English",
+            "Medical English",
+            "Tourism & Hospitality"
+          ],
+          "summary": "Can guide participants on how to communicate in different cultures."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Maximize Your Skills with Corporate English Courses",
+        "desc": "Corporate English is an indispensable skill for those who want to build a successful career in the business world and compete in the international arena. Corporate English courses offer a special and effective education to employees who want to develop this skill.",
+        "bullets": [
+          "Achieving language development by working with professional trainers",
+          "Receiving goal-oriented training with customized courses",
+          "Maximizing corporate English skills",
+          "Taking a step into the communication journey with our company's programs"
+        ],
+        "summary": "At this point, working with professional trainers and taking customized courses will be an important step you will take to maximize your corporate English skills."
+      }
+    ],
+    "meta": {
+      "title": "Corporate English Course | Akademik International",
+      "description": "Corporate English is a specific language skill used to communicate effectively and develop professional relationships in the business world."
+    }
+},
+"tercumeHizmetiLandingPage": {
+    "hero": {
+      "tag": "SWORN TRANSLATION SERVICES",
+      "title": "Professional Translation Services",
+      "customerServiceBtn": "Create a Translation Request Now!",
+      "infoBtn": "Get a Quote Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Translation Request Form",
+      "formTitle": "FAST AND RELIABLE!",
+      "formSubtitle": "Get Price and Time Information for Your Texts Instantly!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Mobile Number.",
+      "branchPlaceholder": "Select Translation Field (Legal, Medical, etc.)",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: TRANSLATION SERVICES",
+      "description": "With our professional and specialized sworn translators, we provide qualified translation services in Turkish-English and English-Turkish for your corporate and individual needs.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice/Terms of Use.",
+      "subtitle": "Translation with Proof-Reading Guarantee!"
+    },
+    "about": {
+      "badge": "EXPERT TRANSLATOR TEAM",
+      "title": "What is Qualified and Effective Translation?",
+      "desc": "Our expert translators provide qualified and effective sworn translation services in Turkish-English and English-Turkish for your technical, commercial, legal, medical, academic, and corporate texts in accordance with their content.<br/><br/><b>Professional and Specialized Team:</b> Our institution translates your texts appropriately. The translation of your texts is carried out accurately and with high quality within the given time by our competent, qualified, and expert translators working under our corporate structure.<br/><br/><b>Proof-Reading Guarantee:</b> All translation works are delivered to you strictly after passing the proof-reading (editing/control) stage. Thanks to these studies conducted by an expert translation team, many of your corporate and individual needs will be resolved in the most reliable way.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Terminological Expertise",
+          "desc": "Thanks to our experienced translators having expertise in many fields, they provide the most reliable service in translations requiring terminological knowledge."
+        },
+        {
+          "id": "reading",
+          "title": "Proof-Reading (Control)",
+          "desc": "Your translated documents are strictly put through a correction and control (proof-reading) process by our editors."
+        },
+        {
+          "id": "writing",
+          "title": "Sworn Translation",
+          "desc": "Sworn translator approved translation support for your technical, commercial, legal, or academic documents to be submitted to official authorities."
+        },
+        {
+          "id": "speaking",
+          "title": "Promptness and Accuracy",
+          "desc": "We provide service by translating your documents not only accurately but also promptly within the time given to you."
+        }
+      ],
+      "description": "We provide service by translating your documents and files accurately and promptly. Our competent staff working under our corporate structure observes quality standards at every stage of the translation process.",
+      "features": [
+        "Flawless translation in Turkish-English and English-Turkish directions.",
+        "Full mastery of terminology suitable for your sector.",
+        "No interruption in your workflow with on-time delivery guarantee.",
+        "Working on the principle of confidentiality for all your corporate and individual projects."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Should You Choose Us?",
+      "subtitle": "Hand Over Your Documents to Experts",
+      "cardTitle": "Specialized Staff",
+      "cardDesc": "We work with translators who not only know the language but are educated in the sector (medical, legal, etc.) and have mastered its terminology.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "In which languages do you provide translation services?",
+          "a": "With our expert translator team, we provide bi-directional, qualified, and effective sworn translation services in Turkish-English and English-Turkish languages."
+        },
+        {
+          "q": "Do you do proof-reading (editing/control)?",
+          "a": "Yes. The translation of your texts is definitely delivered to you after going through the proof-reading (correction and final check) stage."
+        },
+        {
+          "q": "Can you translate difficult texts requiring terminology?",
+          "a": "Absolutely. Since our experienced translators have expertise in many fields, we provide the most reliable service in translations requiring heavy terminological knowledge such as medical, legal, technical, and commercial."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Sworn Translation",
+          "desc": "Reliable document translation stamped by a sworn translator for your official and corporate transactions.",
+          "icon": "Award"
+        },
+        {
+          "title": "Prompt Delivery",
+          "desc": "Your documents are delivered to you within the time committed from the very beginning, without delay.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Proof-Reading",
+          "desc": "Translations are not delivered directly; they are checked and made error-free by a second expert.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Multi-Sector Mastery",
+          "desc": "Accurate language use appropriate to the sector in technical, commercial, legal, medical, academic, and corporate texts.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Document Types We Translate",
+      "subtitle": "Uninterrupted Support in Every Field",
+      "features": [
+        "Corporate Solutions",
+        "Academic Translations",
+        "Official Documents"
+      ],
+      "books": [
+        {
+          "name": "Contracts & Tenders",
+          "type": "Legal & Commercial Texts"
+        },
+        {
+          "name": "Medical Reports & Articles",
+          "type": "Medical Texts"
+        },
+        {
+          "name": "User Manuals",
+          "type": "Technical Texts"
+        },
+        {
+          "name": "Theses and Presentations",
+          "type": "Academic Texts"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Best Education Model for You",
+      "faceToFace": {
+        "badge": "POPULAR",
+        "title": "Face-to-Face Education",
+        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
+        "features": [
+          "Maximum Lesson Hours",
+          "Speaking Guaranteed Program",
+          "Special Exam Prep",
+          "Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online Education",
+        "desc": "Live and interactive middle school English education from the comfort of your home.",
+        "features": [
+          "Learn English Freely Anywhere",
+          "Speaking Guaranteed Program",
+          "Expert Native and Local Staff",
+          "Online Speaking Classes",
+          "1-on-1 Support Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Support",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the Translation Process",
+      "items": [
+        {
+          "q": "How is the translation time determined?",
+          "a": "It is determined by our experts according to the word count of your text, its terminological difficulty, and sector. An exact delivery time is given to you before the process begins, and your translation is delivered promptly within this period."
+        },
+        {
+          "q": "How can I be sure of the accuracy of the translations?",
+          "a": "Your texts, translated by our experienced translators, strictly go through a 'proof-reading' (editing and checking) stage by editors in our corporate body before being sent directly to you."
+        },
+        {
+          "q": "Do you translate individual documents?",
+          "a": "Yes, thanks to the work done by our expert translation team, not only corporate but also many of your individual needs (visas, academic applications, health reports, etc.) are resolved."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Our Sectoral Translation Expertise Areas",
+      "grades": [
+        {
+          "tabTitle": "Legal",
+          "title": "Legal Translation Services",
+          "desc": "Our service area where your legal texts, which do not accept errors, are translated by sworn translators who fully master legal terminology.",
+          "bullets": [
+            "Contracts and powers of attorney",
+            "Court decisions and expert reports",
+            "Commercial agreements",
+            "Official documents approved by a sworn translator"
+          ],
+          "summary": "Secure your international legal processes with reliable translations."
+        },
+        {
+          "tabTitle": "Medical",
+          "title": "Medical Translation",
+          "desc": "The process of translating texts that concern human health and require heavy medical terminology by expert medical translators.",
+          "bullets": [
+            "Doctor reports and epicrises",
+            "Medical device user manuals",
+            "Medical and pharmaceutical articles",
+            "Drug prospectuses"
+          ],
+          "summary": "We translate your health data at international standards and with zero errors."
+        },
+        {
+          "tabTitle": "Technical",
+          "title": "Technical Translation Services",
+          "desc": "The transfer of specific documents in engineering, industry, technology, and production sectors to the target language with the correct terminology.",
+          "bullets": [
+            "Engineering and tender specifications",
+            "Product technical documents and catalogs",
+            "Software and IT texts",
+            "Factory production manuals"
+          ],
+          "summary": "Capture the language specific to your sector without losing any technical details."
+        },
+        {
+          "tabTitle": "Academic",
+          "title": "Academic and Corporate Translation",
+          "desc": "The translation of international publications, university applications, and texts that are the corporate face of your company opening to the outside world.",
+          "bullets": [
+            "Master's and doctoral theses",
+            "Scientific articles and publications",
+            "Company presentations and website translations",
+            "Annual activity reports"
+          ],
+          "summary": "Professional and proof-reading guaranteed texts that will reflect your academic and corporate reputation."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Expert Sworn Translation Services in the Field",
+        "desc": "In today's world where international communication is increasingly gaining importance, the accurate translation of your documents is of vital importance. Our institution provides the highest quality sworn translation service by translating your technical, commercial, legal, medical, academic, and corporate texts fully in accordance with their content.",
+        "bullets": [
+          "Not just language knowledge, but mastery of sectoral terminology",
+          "Flawless transfer in Turkish-English and English-Turkish directions",
+          "Competent and qualified translator staff working under the corporate body",
+          "Prompt delivery within the committed time without delay"
+        ],
+        "summary": "Our experienced translators guarantee the most reliable translation service thanks to their expertise in many fields."
+      },
+      {
+        "title": "Proof-Reading (Editing/Control) Guarantee",
+        "desc": "The translation process does not end with just translating the text into another language. The most important step of a quality service is final reading. The translation of your texts definitely goes through the proof-reading stage after being carried out by our expert translators.",
+        "bullets": [
+          "Elimination of grammar and spelling errors by a second eye",
+          "Checking the accuracy and consistency of sectoral terms",
+          "Compliance audit with the culture of the target language and corporate style",
+          "Document delivery ready for publication or official institution with the zero error principle"
+        ],
+        "summary": "Thanks to these meticulous studies, many of your corporate and individual needs will be resolved smoothly."
+      }
+    ]
+}
 }

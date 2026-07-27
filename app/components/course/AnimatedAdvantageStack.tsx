@@ -17,6 +17,7 @@ interface AdvantageWithId extends Advantage {
 
 interface Props {
   advantages: Advantage[];
+  btnNext?: string;
 }
 
 const getAdvantageIcon = (iconName: string, size = 32) => {
@@ -100,7 +101,7 @@ function AnimatedCard({
   );
 }
 
-export const AnimatedAdvantageStack = ({ advantages }: Props) => {
+export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
   // Add a unique ID to each advantage initially so Framer Motion can track them perfectly
   const [items, setItems] = useState<AdvantageWithId[]>(
     advantages.map((adv, i) => ({ ...adv, uniqueId: i }))
@@ -152,7 +153,7 @@ export const AnimatedAdvantageStack = ({ advantages }: Props) => {
           className={styles.animateButton}
           disabled={isAnimating}
         >
-          Sonraki Ayrıcalık
+          {btnNext || "Sonraki Ayrıcalık"}
           <ArrowRight size={18} />
         </button>
       </div>

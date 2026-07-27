@@ -112,7 +112,7 @@ export const CourseHeroSlider = ({ courseKey }: Props) => {
               {heroData.submitBtn}
             </button>
             <div className={styles.formFooter}>
-              Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.
+              {heroData.formDisclaimer || "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."}
             </div>
           </form>
         </motion.div>

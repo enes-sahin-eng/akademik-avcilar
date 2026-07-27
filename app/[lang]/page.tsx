@@ -16,7 +16,7 @@ interface PageProps {
 }
 
 export default async function Home({ params }: PageProps) {
-  await params;
+  const { lang } = await params;
 
   return (
     <div>
@@ -27,7 +27,7 @@ export default async function Home({ params }: PageProps) {
       <CampusCarousel />
       <HomeContentSection />
       <StudentReviewsAndAwards />
-      <InstagramFeed />
+      <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" />
       <LeadFormModal />
       <PlacementTestBanner />

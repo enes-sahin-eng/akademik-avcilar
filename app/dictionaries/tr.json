@@ -908,7 +908,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -975,7 +976,8 @@
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     }
   },
   "prepPlusPage": {
@@ -1052,7 +1054,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1119,7 +1122,8 @@
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     }
   },
   "academicExpressPage": {
@@ -1196,7 +1200,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1263,7 +1268,8 @@
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     }
   },
   "academicPage": {
@@ -1340,7 +1346,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1407,7 +1414,8 @@
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     }
   },
   "academicPlusPage": {
@@ -1484,7 +1492,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1551,7 +1560,8 @@
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!"
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     }
   },
   "genelIngilizceLandingPage": {
@@ -1628,7 +1638,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1696,7 +1707,8 @@
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
-      "badge": "KATEGORİ: İNGİLİZCE"
+      "badge": "KATEGORİ: İNGİLİZCE",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
       "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
@@ -1799,7 +1811,8 @@
           "q": "Aktüel Konular ve Zengin İçerik",
           "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
         }
-      ]
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
     },
     "publications": {
       "title": "Yetişkinlere Özgü Özel Yayınlarımız",
@@ -1867,7 +1880,8 @@
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
-      "badge": "KATEGORİ: AKADEMİK"
+      "badge": "KATEGORİ: AKADEMİK",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
       "title": "Akademik İngilizce Hakkında En Çok Sorulan Sorular",
@@ -1895,5 +1909,1539 @@
         }
       ]
     }
-  }
+  },
+  "ilkogretimIngilizceLandingPage": {
+    "about": {
+      "badge": "İLKÖĞRETİM / ÇOCUK İNGİLİZCESİ",
+      "title": "İlköğretim İngilizce Kursları - Çocuk İngilizce Kursu",
+      "desc": "\n    <p>İlkokul Çocuk İngilizce kursu öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktayız. <strong>Tiyatral ve interaktif eğitim modeli</strong> ile çocuk alanında uzman eğitmenlerimiz ile ilkokul İngilizce eğitimini ezbere dayalı değil <strong>konuşma, okuma ve yazma odaklı</strong> bir eğitim modeliyle öğretiyoruz. Okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin hem okuldaki derslerinde başarılı olması hedeflenmekte hem de İngilizceyi seven ve <strong>özgüveni yüksek öğrenciler</strong> yetiştirmeyi hedeflemekteyiz.</p>\n    <p>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. İlköğretim İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p><strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Akademik Yabancı Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n    <p><strong>Okuma, dinleme, yazma becerilerinizi</strong> de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Tiyatral ve interaktif eğitim modeli ile alanında uzman eğitmenlerimiz ile <strong>ilkokul İngilizce eğitimini</strong> ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p>Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Akademik Yabancı Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Akademik Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n  ",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "İlköğretim seviyesindeki çocuklar için <strong>İngilizce cümle yapısı</strong> eğlenceli ve anlaşılır materyallerle analiz edilir. Çocukların yaş grubuna uygun temel zamanlar ve <strong>dil bilgisi kuralları</strong> oyunlaştırılarak sağlam bir gramer altyapısı oluşturulur."
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Özenle seçilmiş, çocuklara yönelik eğlenceli <strong>okuma parçaları</strong> ve hikayeler eşliğinde; <strong>İngilizce kelime öğrenimi</strong> desteklenerek okuduğunu anlama hızı artırılır."
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde hikaye oluşturma ve cümle kurma becerileriniz akademik standartlarda geliştirilir."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Çocukların seviyesine uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız."
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Avantajlar ve Kazanımlar",
+      "faqs": [
+        {
+          "q": "İlköğretim İngilizcesi Nedir?",
+          "a": "Öğrencilerimizin seviyelerine uygun olarak düzenlediğimiz İlköğretim İngilizce Kursu, onların dil becerilerini geliştirmeyi hedefler. Başlangıç öncesi değerlendirme sınavları ile öğrencilerimizin seviyeleri belirlenir ve onlara en uygun eğitim programı sunulur. Öğrencilerimiz başarı durumlarına göre Below Elementary ve Elementary seviyelerindeki sınıflara yerleştirilirler."
+        },
+        {
+          "q": "İngilizce, Geleceğe Açılan Bir Kapıdır!",
+          "a": "Erken yaşta İngilizce öğrenmek, çocukların gelecekteki akademik ve kariyer başarısı için büyük bir avantaj sağlar. Onların bu yolda güçlü bir temel atmalarını sağlamak için siz de bizi tercih edin."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Erken Başlama Fırsatı",
+          "desc": "İngilizce öğrenmeye küçük yaşta başlayan çocuklar, dil becerilerini daha hızlı ve doğal bir şekilde geliştirirler.",
+          "icon": "Star"
+        },
+        {
+          "title": "Kişiye Özel Programlar",
+          "desc": "Yaşlarına ve dil seviyelerine uygun olarak tasarlanmış özel eğitim programları ile çocuklarınızın potansiyelini keşfedin.",
+          "icon": "User"
+        },
+        {
+          "title": "Özgüven Gelişimi",
+          "desc": "İngilizceyi etkin bir şekilde kullanabilen çocuklar, özgüvenlerini artırır ve iletişim becerilerini güçlendirirler.",
+          "icon": "Heart"
+        },
+        {
+          "title": "Eğlenceli ve İnteraktif Öğrenme",
+          "desc": "Sıkıcı derslerle değil, oyunlarla öğrenin! Çocuklarınız, interaktif aktivitelerle dil öğrenmenin keyfini çıkaracaklar.",
+          "icon": "Smile"
+        },
+        {
+          "title": "Uluslararası İletişim Yeteneği",
+          "desc": "Gelecekteki başarılarına bir adım daha yaklaşın! İngilizce, çocuklarınızın uluslararası düzeyde iletişim kurma becerilerini geliştirir.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Sosyal Beceriler",
+          "desc": "İngilizce öğrenmek, çocuklarınızın sosyal çevrelerini genişletmelerini ve farklı kültürleri keşfetmelerini sağlar.",
+          "icon": "Users"
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
+    "publications": {
+      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Zengin İç Dizayn",
+        "Yetişkinlere Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "İLKÖĞRETİM İNGİLİZCE KURSU",
+      "title": "Çocuklar İçin İngilizce Kursları: Eğlenerek Öğreniyoruz!",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÇOCUKLAR İÇİN İNGİLİZCE!",
+      "formSubtitle": "Eğlenerek Öğrenme Garantili Eğitim!",
+      "namePlaceholder": "Veli İsim ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: İLKÖĞRETİM",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "faq": {
+      "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+      "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
+      "items": [
+        {
+          "q": "İyi bir İngilizce kursu nasıl seçilir?",
+          "a": "İyi bir İngilizce kursu seçerken akreditasyon durumuna, öğretmenlerin tecrübeleri ve anlatım tarzlarına, program içeriğine, gerçek öğrenci yorumlarına ve kursun fiyatına dikkat etmek önemlidir. Tüm bu faktörleri göz önünde bulundurarak ve geniş bir araştırma yaparak kendinize en uygun İngilizce kursunu seçebilirsiniz."
+        },
+        {
+          "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
+          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+        },
+        {
+          "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
+          "a": "İngilizce kurslarındaki öğretmenler genellikle yüksek lisans veya doktora derecesine sahip, dil öğretimi konusunda uzmanlaşmış ve geniş deneyime sahip eğitimcilerdir. Genel olarak İngilizce kursundaki öğretmenler uluslararası sertifikasyon programlarına katılarak kendilerini sürekli olarak geliştirmekte ve güncel dil öğretim yöntemlerini takip etmektedirler. Bu sayede öğrencilere daha etkili, özgün ve motive edici bir öğrenme deneyimi sunabilmektedirler."
+        },
+        {
+          "q": "İngilizce kursunda hangi sertifikaları alabilirim?",
+          "a": "İngilizce kursları genellikle farklı dil seviyelerine yönelik sertifika programları sunar. Örneğin, TOEFL (Test of English as a Foreign Language), IELTS (International English Language Testing System), Cambridge English sertifikaları gibi uluslararası geçerliliği olan dil sınavlarına hazırlık programlarına katılarak bu sınavlardan belirli bir puan alabilir ve ilgili sertifikayı elde edebilirsiniz. Ayrıca, kursun sunduğu içeriğe bağlı olarak özel amaçlı İngilizce sertifikaları da alabilirsiniz, örneğin iş İngilizcesi, akademik İngilizce veya konuşma becerileri gibi alanlarda sertifikasyonlar elde edebilirsiniz. Bu sertifikalar, dil yeteneklerinizi belgeleyerek kariyerinizde veya eğitim hayatınızda faydalı olabilir."
+        },
+        {
+          "q": "İngilizce kurslarına nasıl kayıt olabilirim?",
+          "a": "İngilizce kurslarına kayıt olmak oldukça kolaydır ve genellikle çevrimiçi başvuru yaparak veya kurs merkezine giderek kayıt işlemlerini tamamlayabilirsiniz. İlk adım olarak, tercih ettiğiniz İngilizce kursu hakkında bilgi almak ve kayıt şartlarını öğrenmek için kursun resmi web sitesini ziyaret edebilir veya yetkililerle iletişime geçebilirsiniz. Kayıt için genellikle kimlik belgesi, önceki eğitim düzeyine dair belgeler ve varsa dil yeterlilik sertifikaları gibi belgelerin verilmesi sizin öğrenim sürecindeki program oluşumunuzun sağlanması açısından daha etkili olur. Kayıt sürecinde ödeme planı ve kurs programı gibi detaylar da belirlenir ve kayıt işlemi tamamlandıktan sonra kursa katılımınız için gerekli bilgiler tarafınıza iletilir."
+        }
+      ]
+    },
+    "info": {
+      "title": "İlköğretim İngilizce Kursları - Çocuk İngilizce Kursu",
+      "description": [
+        "İlkokul Çocuk İngilizce kursu öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktayız. <strong>Tiyatral ve interaktif eğitim modeli</strong> ile çocuk alanında uzman eğitmenlerimiz ile ilkokul İngilizce eğitimini ezbere dayalı değil <strong>konuşma, okuma ve yazma odaklı</strong> bir eğitim modeliyle öğretiyoruz. Okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin hem okuldaki derslerinde başarılı olması hedeflenmekte hem de İngilizceyi seven ve <strong>özgüveni yüksek öğrenciler</strong> yetiştirmeyi hedeflemekteyiz.",
+        "Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. İlköğretim İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.",
+        "<strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Akademik Yabancı Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.",
+        "<strong>Okuma, dinleme, yazma becerilerinizi</strong> de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Tiyatral ve interaktif eğitim modeli ile alanında uzman eğitmenlerimiz ile <strong>ilkokul İngilizce eğitimini</strong> ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.",
+        "Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Akademik Yabancı Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Akademik Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır."
+      ]
+    }
+  },
+  "instagram": {
+    "title": "Instagram'da Bizi Takip Edin",
+    "followBtn": "Takip Et",
+    "posts": [
+      "Öğrencilerimizle keyifli bir ders...",
+      "Yurtdışı eğitim fırsatları hakkında...",
+      "Başarı hikayelerimizden bir diğeri...",
+      "Konuşma kulübümüzden renkli kareler.",
+      "Yeni kampüsümüzde ilk gün heyecanı."
+    ]
+  },
+  "ortaokulIngilizceLandingPage": {
+    "about": {
+      "badge": "ORTAOKUL / LGS HAZIRLIK",
+      "title": "Ortaokul İngilizce Kursu ile 5, 6, 7 ve 8. Sınıflar İçin Özel Eğitim",
+      "desc": "\n    <p>Ortaokul İngilizce kursu, 5, 6, 7 ve 8. sınıf öğrencilerinin dil becerilerini geliştirmek için özel olarak tasarlanmış eğitim programıdır. Ortaokul yaş aralığı (10-14 yaş), beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.</p>\n    <p>Günümüzde iyi bir İngilizce eğitimi almak, çocukların hem akademik hayatlarında hem de gelecekteki kariyerlerinde büyük avantaj sağlar. Ortaokul döneminde kazanılan dil becerileri, öğrencilerin ilerleyen eğitim hayatlarında sağlam bir temel oluşturur.</p>\n  ",
+      "skills": [
+        {
+          "id": "5th",
+          "title": "5. Sınıf İngilizce",
+          "desc": "Dile başlangıç seviyesinden orta seviyeye geçiş. Görselli aktiviteler ve diyalog çalışmalarıyla sağlam temel."
+        },
+        {
+          "id": "6th",
+          "title": "6. Sınıf İngilizce",
+          "desc": "Aktif dil kullanımı ve iletişim. Pratik uygulamalar, akıcı konuşma egzersizleri ve okuma anlama becerileri."
+        },
+        {
+          "id": "7th",
+          "title": "7. Sınıf İngilizce",
+          "desc": "Gündelik konuşma ve sınav başarısı. Kapsamlı dil bilgisi, sınav hazırlığı ve otantik içeriklerle pratik."
+        },
+        {
+          "id": "8th",
+          "title": "8. Sınıf İngilizce",
+          "desc": "LGS Hazırlık ve İletişim. Soru çözüm teknikleri, zaman yönetimi ve lise eğitimine tam donanımlı hazırlık."
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik Ortaokul İngilizce Kursu?",
+      "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
+      "cardTitle": "Seviyeye Uygun Eğitim",
+      "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Kurs İçeriği Neleri Kapsar?",
+          "a": "Kelime dağarcığını zenginleştirme, gramer, LGS hazırlık test teknikleri, dinleme ve pratik yaparak konuşma yeteneklerini artırmayı kapsar."
+        },
+        {
+          "q": "Kursun Faydaları Nelerdir?",
+          "a": "Okul sınavlarında yüksek başarı, LGS İngilizce sorularını eksiksiz çözme becerisi ve özgüvenle İngilizce konuşabilme pratiği kazandırır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Ortaokul öğrencilerimize özel, Native yazarlarca hazırlanan özgün İngilizce eğitim yayınları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Öğrencilerimizin yaş grubuna uygun aktiviteler ve etkinliklerle konuşma becerilerini geliştirdikleri kulüpler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Ortaokul Öğrencilerine Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Yaş Grubuna Uygun Dizayn",
+        "Ortaokula Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Hazırlık Kitabı"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Kelime Çalışma Kitabı"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "badge": "POPÜLER",
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, ortaokul yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "LGS'ye Özel Hazırlık",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif ortaokul İngilizce eğitimi.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "Uzman Yabancı ve Yerli Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "ORTAOKUL İNGİLİZCE KURSLARI",
+      "title": "Ortaokul İngilizce Kursu",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: ORTAOKUL",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Ortaokul İngilizce kursu kaç kurdan oluşur?",
+          "a": "Programımız 5, 6, 7 ve 8. sınıf düzeylerine göre özel kurlardan oluşmaktadır."
+        },
+        {
+          "q": "LGS için özel bir hazırlık yapılıyor mu?",
+          "a": "Evet, özellikle 7. ve 8. sınıf öğrencilerimiz için LGS sınav formatına uygun, soru çözümü ve strateji odaklı özel çalışmalar yapılmaktadır."
+        },
+        {
+          "q": "Ders materyalleri kurs ücretine dahil mi?",
+          "a": "Evet, öğrencilerimizin ihtiyaç duyacağı tüm ders kitapları, dijital platform üyelikleri ve ek materyaller kurs ücretimize dahildir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Ortaokul Kademelerine Özel Eğitim Programımız",
+      "grades": [
+        {
+          "tabTitle": "5. Sınıf",
+          "title": "5. Sınıf İngilizce Kursu Programı ve İçeriği",
+          "desc": "5. sınıf İngilizce kursu programımız, öğrencilerin dile başlangıç seviyesinden orta seviyeye geçiş yapabilmeleri için tasarlanmıştır. Bu seviyede:",
+          "bullets": [
+            "Temel kelime bilgisi gelişimi için görselli aktiviteler",
+            "Basit günlük konuşmaları içeren diyalog çalışmaları",
+            "İngilizce şarkı ve oyunlarla eğlenceli öğrenme ortamı",
+            "MEB müfredatıyla uyumlu okul derslerini destekleyici içerik",
+            "Konuşma pratiği için küçük grup etkinlikleri"
+          ],
+          "summary": "Ortaokul 5. sınıf öğrencilerimiz, tiyatral tekniklerle kelime ve cümle yapılarını kalıcı şekilde öğrenir. Özgüvenle İngilizce konuşmaya başlayan öğrencilerimiz, dil öğrenimine karşı olumlu tutum geliştirir."
+        },
+        {
+          "tabTitle": "6. Sınıf",
+          "title": "6. Sınıf İngilizce Kursu ile İletişim Becerilerini Geliştirme",
+          "desc": "Ortaokul 6. sınıf İngilizce kursu programımız, öğrencilerin aktif dil kullanımını destekleyen, gerçek hayat durumlarında İngilizce iletişim kurabilme becerisini hedefleyen kapsamlı bir eğitim modeli sunar. Bu seviyede öğrenciler, günlük hayatta İngilizce iletişim kurabilme yeteneklerini geliştirerek daha karmaşık dil yapılarını öğrenirler. Programımızda yer alan etkinlikler:",
+          "bullets": [
+            "Günlük hayat konularında temalı konuşma etkinlikleri",
+            "Dil bilgisi yapılarının pratik uygulamalarla pekiştirilmesi",
+            "Telaffuz çalışmaları ve akıcı konuşma egzersizleri",
+            "Okuma anlama becerilerini geliştiren özel etkinlikler",
+            "Basit kompozisyon ve yazma becerilerinin geliştirilmesi"
+          ],
+          "summary": "Bu seviyede öğrencilerimiz, kendilerini İngilizce ifade etme konusunda artan bir özgüven kazanır. Sınıf içi projeler ve grup çalışmaları, öğrendikleri bilgileri aktif olarak kullanmalarını sağlar."
+        },
+        {
+          "tabTitle": "7. Sınıf",
+          "title": "7. Sınıf İngilizce Kursu ve Akademik Başarıya Katkısı",
+          "desc": "Ortaokul 7. sınıf İngilizce kursu, gündelik konuşma yetkinliği ile sınav başarısı için gerekli dil becerilerini bütünleşik bir yaklaşımla ele alır:",
+          "bullets": [
+            "Daha karmaşık dil bilgisi yapılarının kapsamlı öğretimi",
+            "Genişletilmiş kelime hazinesi çalışmaları",
+            "Okul sınavlarına hazırlık ve konu pekiştirme",
+            "Özgün metinlerin analizi ve anlamlandırılması",
+            "Yaratıcı yazma projeleri ve sunum becerileri"
+          ],
+          "summary": "Ortaokul 7. sınıf programımız, öğrencilerin okuldaki başarısını artırırken, günlük İngilizce kullanımında da kendilerini rahat hissetmelerini sağlar. Bu seviyede öğrencilerimiz, kısa filmler, röportajlar gibi otantik içeriklerle İngilizce'nin gerçek hayattaki kullanımını deneyimler."
+        },
+        {
+          "tabTitle": "8. Sınıf / LGS",
+          "title": "8. Sınıf İngilizce Kursu ve LGS Hazırlık Desteği",
+          "desc": "Ortaokul 8. sınıf İngilizce kursu programımız, LGS sınavına hazırlık sürecini desteklerken, pratik dil becerilerinin de gelişimini gözetir:",
+          "bullets": [
+            "LGS formatında soru çözüm teknikleri ve stratejileri",
+            "Kapsamlı dil bilgisi tekrarları ve pekiştirme çalışmaları",
+            "Okuma anlama sorularında zaman yönetimi",
+            "Sınav kaygısını azaltan motivasyon teknikleri",
+            "İleri seviye konuşma ve tartışma becerileri"
+          ],
+          "summary": "8. sınıf öğrencilerimiz, hem sınav başarısı için gerekli akademik İngilizce'yi hem de pratik iletişim becerilerini edinir. Bu sayede öğrencilerimiz, lise eğitimine başlarken İngilizce yetkinlikleriyle bir adım önde olurlar."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
+        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "bullets": [
+          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
+          "Ana dil eğitimine benzer doğal öğrenme süreci",
+          "Hataları korkusuzca yaparak öğrenme kültürü",
+          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
+          "Dört dil yetkinliklerinin (dinleme, konuşma, okuma, yazma) bütünsel ve eşzamanlı ilerlemesi"
+        ],
+        "summary": "İletişim temelli eğitim sistemimizle öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, günlük hayatlarında aktif kullanabilecekleri gerçek bir iletişim aracına dönüştürürler."
+      },
+      {
+        "title": "Ortaokul İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
+        "desc": "Ortaokul İngilizce kursu fiyatları genel olarak 7500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi, ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
+        "bullets": [
+          "Hafta içi düzenli programlar (haftada 2-3 gün)",
+          "Hafta sonu yoğunlaştırılmış programlar",
+          "Birebir özel ders imkanı",
+          "Online ortaokul İngilizce kursu seçeneği",
+          "Yaz dönemi hızlandırılmış programlar"
+        ],
+        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
+      },
+      {
+        "title": "En İyi Ortaokul İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
+        "desc": "Çocuğunuz için en iyi ortaokul İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
+        "bullets": [
+          "Öğretmenlerin nitelikleri ve tecrübesi",
+          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
+          "Eğitim metodolojisi ve kullanılan materyaller",
+          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
+          "Mezun öğrencilerin başarıları ve veli memnuniyeti",
+          "Fiziksel ortam ve teknolojik altyapı",
+          "Ulaşım kolaylığı ve güvenlik"
+        ],
+        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+      },
+      {
+        "title": "Online Ortaokul İngilizce Kursu Avantajları",
+        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online ortaokul İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
+        "bullets": [
+          "Zamandan ve yoldan tasarruf",
+          "Ev konforunda yüksek kaliteli eğitim",
+          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+          "Kayıt altına alınan derslerle tekrar izleme imkanı",
+          "Çeşitli dijital araçlarla etkileşimli öğrenme",
+          "Hibrit eğitim seçeneği (online + yüz yüze)"
+        ],
+        "summary": "Online derslerimizde de tiyatral ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+      },
+      {
+        "title": "İngilizce Yaz Kursu: Okul Tatilinde Dil Gelişimi",
+        "desc": "Ortaokul öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
+        "bullets": [
+          "Yoğunlaştırılmış ve eğlenceli eğitim programı",
+          "Doğada İngilizce kampları ve aktiviteler",
+          "Tematik haftalık programlar (müzik, spor, teknoloji, sanat)",
+          "Yabancı eğitmenlerle kültür alışverişi",
+          "Proje tabanlı öğrenme ve grup çalışmaları"
+        ],
+        "summary": "Yaz kurslarımız, eğlenceli aktivitelerle İngilizce öğrenmeyi harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla dil becerileri güçlenmiş olarak başlamalarını sağlar."
+      }
+    ]
+  },
+  "liseIngilizceLandingPage": {
+    "about": {
+      "badge": "ORTAOKUL / LGS HAZIRLIK",
+      "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
+      "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Akademik International Yabancı Dil Kursları, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik International Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Akademik International Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
+          "icon": "Mic"
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik Lise İngilizce Kursu?",
+      "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
+      "cardTitle": "Seviyeye Uygun Eğitim",
+      "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Lise Kurs İçeriği Neleri Kapsar?",
+          "a": "Kelime dağarcığını zenginleştirme, ileri seviye gramer, okul derslerine destek, üniversite sınavlarına (YKS-DİL/YDT vb.) hazırlık ve konuşma pratiğini merkeze alan kapsamlı bir dil eğitimi sunar."
+        },
+        {
+          "q": "Bu Kursun Öğrencilere Faydaları Nelerdir?",
+          "a": "Okul sınavlarında yüksek not alma, akademik makale okuma-anlama, YDT ve TOEFL/IELTS gibi uluslararası standartlardaki sınavlara sağlam bir altyapı oluşturma ve akıcı İngilizce konuşma özgüveni kazandırır."
+        }
+      ],
+      "advantages": [
+        {
+          "icon": "Globe",
+          "title": "Uluslararası Standartlarda Eğitim",
+          "desc": "Akademik International'da tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Yoğun Pratik İmkânları",
+          "desc": "Her bir seviye için belirlenen saatlerin ötesinde, 20 ile 64 saat arası ek pratik imkânları sunarak lise öğrencilerimizin dil becerilerini güçlendiriyoruz."
+        },
+        {
+          "icon": "Users",
+          "title": "Yaş Grubuna Özel Sınıflar",
+          "desc": "Lise ve kolej öğrencilerimizi kendi yaş gruplarına uygun olarak sınıflandırıyor, onlara özgü eğitim sistemi ile İngilizceyi yaşayarak öğrenmelerini sağlıyoruz."
+        },
+        {
+          "icon": "Target",
+          "title": "Erken Yaşta Küresel İletişim",
+          "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini Akademik güvencesiyle tamamlayın."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Ortaokul Öğrencilerine Özgü Özel Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Yaş Grubuna Uygun Dizayn",
+        "Ortaokula Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Hazırlık Kitabı"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Kelime Çalışma Kitabı"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "badge": "POPÜLER",
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, ortaokul yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "LGS'ye Özel Hazırlık",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif ortaokul İngilizce eğitimi.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "Uzman Yabancı ve Yerli Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "LİSE İNGİLİZCE KURSLARI",
+      "title": "Lise İngilizce Kursu ile Geleceğinize Yön Verin",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: LİSE",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Lise İngilizce kursu kaç kurdan oluşur?",
+          "a": "Programımız 9, 10, 11 ve 12. sınıf düzeylerinin akademik ve dil seviyelerine göre özel kurlardan oluşmaktadır."
+        },
+        {
+          "q": "Üniversite sınavı (YKS-DİL/YDT) için özel bir hazırlık yapılıyor mu?",
+          "a": "Evet, özellikle 11. ve 12. sınıf öğrencilerimiz için üniversite giriş sınavı formatına uygun, soru çözümü ve test stratejisi odaklı yoğun çalışmalar yapılmaktadır."
+        },
+        {
+          "q": "Ders materyalleri kurs ücretine dahil mi?",
+          "a": "Evet, öğrencilerimizin ihtiyaç duyacağı tüm ders kitapları, dijital deneme sınavları, kelime defterleri ve ek materyaller kurs ücretimize dahildir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Ortaokul Kademelerine Özel Eğitim Programımız",
+      "grades": [
+        {
+          "tabTitle": "5. Sınıf",
+          "title": "5. Sınıf İngilizce Kursu Programı ve İçeriği",
+          "desc": "5. sınıf İngilizce kursu programımız, öğrencilerin dile başlangıç seviyesinden orta seviyeye geçiş yapabilmeleri için tasarlanmıştır. Bu seviyede:",
+          "bullets": [
+            "Temel kelime bilgisi gelişimi için görselli aktiviteler",
+            "Basit günlük konuşmaları içeren diyalog çalışmaları",
+            "İngilizce şarkı ve oyunlarla eğlenceli öğrenme ortamı",
+            "MEB müfredatıyla uyumlu okul derslerini destekleyici içerik",
+            "Konuşma pratiği için küçük grup etkinlikleri"
+          ],
+          "summary": "Ortaokul 5. sınıf öğrencilerimiz, tiyatral tekniklerle kelime ve cümle yapılarını kalıcı şekilde öğrenir. Özgüvenle İngilizce konuşmaya başlayan öğrencilerimiz, dil öğrenimine karşı olumlu tutum geliştirir."
+        },
+        {
+          "tabTitle": "6. Sınıf",
+          "title": "6. Sınıf İngilizce Kursu ile İletişim Becerilerini Geliştirme",
+          "desc": "Ortaokul 6. sınıf İngilizce kursu programımız, öğrencilerin aktif dil kullanımını destekleyen, gerçek hayat durumlarında İngilizce iletişim kurabilme becerisini hedefleyen kapsamlı bir eğitim modeli sunar. Bu seviyede öğrenciler, günlük hayatta İngilizce iletişim kurabilme yeteneklerini geliştirerek daha karmaşık dil yapılarını öğrenirler. Programımızda yer alan etkinlikler:",
+          "bullets": [
+            "Günlük hayat konularında temalı konuşma etkinlikleri",
+            "Dil bilgisi yapılarının pratik uygulamalarla pekiştirilmesi",
+            "Telaffuz çalışmaları ve akıcı konuşma egzersizleri",
+            "Okuma anlama becerilerini geliştiren özel etkinlikler",
+            "Basit kompozisyon ve yazma becerilerinin geliştirilmesi"
+          ],
+          "summary": "Bu seviyede öğrencilerimiz, kendilerini İngilizce ifade etme konusunda artan bir özgüven kazanır. Sınıf içi projeler ve grup çalışmaları, öğrendikleri bilgileri aktif olarak kullanmalarını sağlar."
+        },
+        {
+          "tabTitle": "7. Sınıf",
+          "title": "7. Sınıf İngilizce Kursu ve Akademik Başarıya Katkısı",
+          "desc": "Ortaokul 7. sınıf İngilizce kursu, gündelik konuşma yetkinliği ile sınav başarısı için gerekli dil becerilerini bütünleşik bir yaklaşımla ele alır:",
+          "bullets": [
+            "Daha karmaşık dil bilgisi yapılarının kapsamlı öğretimi",
+            "Genişletilmiş kelime hazinesi çalışmaları",
+            "Okul sınavlarına hazırlık ve konu pekiştirme",
+            "Özgün metinlerin analizi ve anlamlandırılması",
+            "Yaratıcı yazma projeleri ve sunum becerileri"
+          ],
+          "summary": "Ortaokul 7. sınıf programımız, öğrencilerin okuldaki başarısını artırırken, günlük İngilizce kullanımında da kendilerini rahat hissetmelerini sağlar. Bu seviyede öğrencilerimiz, kısa filmler, röportajlar gibi otantik içeriklerle İngilizce'nin gerçek hayattaki kullanımını deneyimler."
+        },
+        {
+          "tabTitle": "8. Sınıf / LGS",
+          "title": "8. Sınıf İngilizce Kursu ve LGS Hazırlık Desteği",
+          "desc": "Ortaokul 8. sınıf İngilizce kursu programımız, LGS sınavına hazırlık sürecini desteklerken, pratik dil becerilerinin de gelişimini gözetir:",
+          "bullets": [
+            "LGS formatında soru çözüm teknikleri ve stratejileri",
+            "Kapsamlı dil bilgisi tekrarları ve pekiştirme çalışmaları",
+            "Okuma anlama sorularında zaman yönetimi",
+            "Sınav kaygısını azaltan motivasyon teknikleri",
+            "İleri seviye konuşma ve tartışma becerileri"
+          ],
+          "summary": "8. sınıf öğrencilerimiz, hem sınav başarısı için gerekli akademik İngilizce'yi hem de pratik iletişim becerilerini edinir. Bu sayede öğrencilerimiz, lise eğitimine başlarken İngilizce yetkinlikleriyle bir adım önde olurlar."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
+        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "bullets": [
+          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
+          "Ana dil eğitimine benzer doğal öğrenme süreci",
+          "Hataları korkusuzca yaparak öğrenme kültürü",
+          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
+          "Dört dil yetkinliklerinin (dinleme, konuşma, okuma, yazma) bütünsel ve eşzamanlı ilerlemesi"
+        ],
+        "summary": "İletişim temelli eğitim sistemimizle öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, günlük hayatlarında aktif kullanabilecekleri gerçek bir iletişim aracına dönüştürürler."
+      },
+      {
+        "title": "Ortaokul İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
+        "desc": "Ortaokul İngilizce kursu fiyatları genel olarak 7500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi, ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
+        "bullets": [
+          "Hafta içi düzenli programlar (haftada 2-3 gün)",
+          "Hafta sonu yoğunlaştırılmış programlar",
+          "Birebir özel ders imkanı",
+          "Online ortaokul İngilizce kursu seçeneği",
+          "Yaz dönemi hızlandırılmış programlar"
+        ],
+        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
+      },
+      {
+        "title": "En İyi Ortaokul İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
+        "desc": "Çocuğunuz için en iyi ortaokul İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
+        "bullets": [
+          "Öğretmenlerin nitelikleri ve tecrübesi",
+          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
+          "Eğitim metodolojisi ve kullanılan materyaller",
+          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
+          "Mezun öğrencilerin başarıları ve veli memnuniyeti",
+          "Fiziksel ortam ve teknolojik altyapı",
+          "Ulaşım kolaylığı ve güvenlik"
+        ],
+        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+      },
+      {
+        "title": "Online Ortaokul İngilizce Kursu Avantajları",
+        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online ortaokul İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
+        "bullets": [
+          "Zamandan ve yoldan tasarruf",
+          "Ev konforunda yüksek kaliteli eğitim",
+          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+          "Kayıt altına alınan derslerle tekrar izleme imkanı",
+          "Çeşitli dijital araçlarla etkileşimli öğrenme",
+          "Hibrit eğitim seçeneği (online + yüz yüze)"
+        ],
+        "summary": "Online derslerimizde de tiyatral ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+      },
+      {
+        "title": "İngilizce Yaz Kursu: Okul Tatilinde Dil Gelişimi",
+        "desc": "Ortaokul öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
+        "bullets": [
+          "Yoğunlaştırılmış ve eğlenceli eğitim programı",
+          "Doğada İngilizce kampları ve aktiviteler",
+          "Tematik haftalık programlar (müzik, spor, teknoloji, sanat)",
+          "Yabancı eğitmenlerle kültür alışverişi",
+          "Proje tabanlı öğrenme ve grup çalışmaları"
+        ],
+        "summary": "Yaz kurslarımız, eğlenceli aktivitelerle İngilizce öğrenmeyi harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla dil becerileri güçlenmiş olarak başlamalarını sağlar."
+      }
+    ]
+  },
+  "ozelDersLandingPage": {
+    "about": {
+      "badge": "BİREBİR EĞİTİM",
+      "title": "Birebir Özel Ders",
+      "desc": "<b>Akademik Kariyere Sahip Eğitmenlerimiz</b> Tarafından Aktüel Konular İçerikli <b>Nitelikli İngilizce</b> Öğretimini Esas Alan (Konuşma, Okuma, Dinleme ve Yazma) Becerileri üzerinde yoğunlaşılan eğitim programımız ile <b>İngilizcenizi üst seviyelere çıkartın.</b><br/><br/>Akademik International Yabancı Dil Okulları olarak her durumda çözüm üreterek öğrencilerimize ihtiyaçlarına yönelik bir eğitim sunmaktayız. <b>İngilizce özel derslere</b> ayırdığımız hizmetler zaman planlamanız ve istediğiniz eğitimin içeriğine yöneliktir. Çalışma saatleriniz, okul günleriniz ve öğrenme şekilleri bakımından yabancı dil öğrenim süreci birçok kişi için farklılıklar gösterebilir, farklılıklara uyum sağlayarak eğitim verilmelidir. İster kişisel tercih, ister mecburi durumlar için size özel ihtiyacınıza yönelik çözümler üretiriz.<br/><br/>Birebir özel derslerimiz öğrencimizin seviyesine göre yabancı ya da Türk öğretmenlerimizle devam eder. Eğitimcilerimiz arasından hedefinize uygun uzmanlık alanı edinmiş olanlar ile birlikte size özel bir eğitim planı hazırlar ve yine öğretmenimizin uzmanlık alanından faydalanmanızı sağlarız. Özel derslerimizde öğrencimize istediği yabancı dilde okuma, yazma, anlama, çeviri ve konuşma becerisi gibi dilde hakimiyet unsuru alanlarda sizi üst seviyeye çıkaracak eğitim verilir. En kısa sürede ancak sağlam temellerle yabancı dil hakimiyeti sağlanır. Aynı zamanda özel ders eğitiminiz boyunca gerçekleşen speaking derslerine de ücretsiz katılabilirsiniz.<br/><br/>Yeni bir bakış açısıyla İngilizce öğrenmeye başlarsınız. Akademik International bünyesinde çalışan alanında uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte öğrenci ihtiyacına yönelik eğitim vermektedir.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Dil Bilgisi (Grammar)",
+          "desc": "Seviyenize uygun olarak planlanan temel ve ileri düzey dil bilgisi eğitimi ile doğru cümle yapıları kurma pratiği."
+        },
+        {
+          "id": "reading",
+          "title": "Okuma & Anlama (Reading)",
+          "desc": "Hedefinize yönelik güncel makaleler, akademik metinler veya günlük okuma parçaları ile hızlı anlama teknikleri."
+        },
+        {
+          "id": "writing",
+          "title": "Yazma Becerisi (Writing)",
+          "desc": "İş yazışmaları, akademik makale veya günlük diyaloglar için etkili kelime seçimi ve kompozisyon oluşturma yeteneği."
+        },
+        {
+          "id": "speaking",
+          "title": "Konuşma Pratiği (Speaking)",
+          "desc": "Tamamen konuşma odaklı, bol diyaloglu özel dersler ile özgüvenli ve akıcı İngilizce iletişim kurabilme."
+        }
+      ],
+      "description": "İngilizce akademik sınavlara hazırlık konusunda birebir özel ders almak, öğrencilere büyük avantaj sağlar. Bu dersler, sınav stratejileri, okuma ve yazma becerileri, kelime dağarcığı geliştirme gibi konularda öğrencilere rehberlik eder. Özel dersin birebir formatı, öğrencilerin ihtiyaçlarına özel olarak odaklanmalarına olanak tanır ve başarılı sonuçlar elde etmelerine yardımcı olur. Deneyimli öğretmenlerimiz tarafından verilen birebir dersler, öğrencilerin ihtiyaçlarına özel olarak tasarlanmış müfredatla ilerler. Bu sayede, öğrenciler hedeflerine en kısa sürede ulaşabilirler.",
+      "features": [
+        "Akademik International ile zaman ve bütçenizi koruyarak hedeflerinize ulaşın.",
+        "İngilizce konuşturan güncel içerikli dil eğitim programı Akademik International farkıyla sizinle.",
+        "Yerli ve yabancı uzman eğitim kadromuz ile İngilizce konuşmanız artık çok daha kolay.",
+        "Birebir konuşma ve destek dersleri ile sınırlarınızı zorlayarak akıcı İngilizce konuşabileceksiniz."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden İngilizce Özel Ders?",
+      "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
+      "cardTitle": "Seviyeye Uygun Eğitim",
+      "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Neden İngilizce Özel Ders?",
+          "a": "İngilizce özel derslerde, eğitim tamamen öğrencinin ihtiyaçlarına ve hedeflerine göre şekillendirilir. Öğretmen, öğrencinin mevcut dil seviyesini değerlendirir ve buna göre bir öğrenme planı oluşturur. Bu, dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri gibi alanlarda odaklanmayı sağlar."
+        },
+        {
+          "q": "İngilizce Özel Ders İçin Kimler Uygundur?",
+          "a": "Okul derslerinde destek almak isteyen ya da akademik sınavlara hazırlanan öğrenciler, iş hayatında İngilizce dil becerilerini geliştirmek isteyen profesyoneller, yurtdışına seyahat etmeyi planlayanlar ve dil öğrenmeyi hobi olarak gören herkes için uygundur."
+        },
+        {
+          "q": "Dersler Nasıl İşlenir?",
+          "a": "İngilizce özel dersler, öğrencinin seviyesine ve hedeflerine göre şekillendirilir. Dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri üzerinde durularak kapsamlı bir öğrenme deneyimi sunulur."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "%97 Öğrenci Memnuniyeti",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
+          "icon": "Award"
+        },
+        {
+          "title": "The Academic Publishing",
+          "desc": "Ortaokul öğrencilerimize özel, Native yazarlarca hazırlanan özgün İngilizce eğitim yayınları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Öğrencilerimizin yaş grubuna uygun aktiviteler ve etkinliklerle konuşma becerilerini geliştirdikleri kulüpler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Akademik International Kurum Yayınlarımız",
+      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "features": [
+        "Yaş Grubuna Uygun Dizayn",
+        "Ortaokula Özgü İçerikler",
+        "Yenilikçi Yaklaşım"
+      ],
+      "books": [
+        {
+          "name": "Academic Junior A1",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "Academic Junior A2",
+          "type": "Öğrenci Kitabı"
+        },
+        {
+          "name": "LGS Prep Kit",
+          "type": "LGS Hazırlık Kitabı"
+        },
+        {
+          "name": "Vocabulary Builder",
+          "type": "Kelime Çalışma Kitabı"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "badge": "POPÜLER",
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, ortaokul yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "LGS'ye Özel Hazırlık",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif ortaokul İngilizce eğitimi.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "Uzman Yabancı ve Yerli Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "hero": {
+      "tag": "İNGİLİZCE ÖZEL DERS",
+      "title": "İngilizce Özel Ders",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: ÖZEL DERS",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Akademik Sınavlara Hazırlık için Birebir Ders Uygun Mu?",
+          "a": "Evet, akademik sınavlara hazırlık için birebir özel dersler oldukça etkilidir. Öğrenciler, sınav formatlarına aşina olabilir, sınav tekniklerini öğrenebilir ve sınav için gerekli olan dil becerilerini geliştirebilirler."
+        },
+        {
+          "q": "Hangi Seviyedeki Öğrenciler Birebir Özel Ders Alabilir?",
+          "a": "İngilizce seviyesinden bağımsız olarak her seviyedeki öğrenci birebir özel ders alabilir. Başlangıç seviyesinden ileri seviyeye kadar tüm öğrencilere uygun ders programları mevcuttur."
+        },
+        {
+          "q": "Ders Materyalleri Nasıl Sağlanır?",
+          "a": "Ders materyalleri, öğrencinin seviyesine ve hedeflerine göre uzman eğitim kadromuz tarafından sağlanır. Bu materyaller; kitaplar, online kaynaklar, makaleler ve örnek sınavlar gibi çeşitli kaynakları içerebilir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "İngilizce Özel Ders Programımız",
+      "grades": [
+        {
+          "tabTitle": "Öğrenciler",
+          "title": "Öğrenciler İçin İngilizce Özel Ders",
+          "desc": "Okul derslerinde destek almak isteyen ya da akademik sınavlara (LGS, YKS-DİL, TOEFL, IELTS) hazırlanan öğrenciler için tasarlanmıştır.",
+          "bullets": [
+            "Sınav stratejileri ve zaman yönetimi",
+            "Okuma, yazma ve dinleme becerileri",
+            "Okul müfredatına tam uyum",
+            "Eksik konuların hızlı telafisi"
+          ],
+          "summary": "Öğrencilerimiz, kendilerine özel hazırlanan programlarla akademik sınavlarda en yüksek başarıyı elde eder ve okul notlarını zirveye taşır."
+        },
+        {
+          "tabTitle": "Profesyoneller",
+          "title": "İş Hayatı İçin İngilizce Özel Ders",
+          "desc": "İş dünyasında globalleşen fırsatları yakalamak ve kariyerinde bir adım öne çıkmak isteyen profesyoneller içindir.",
+          "bullets": [
+            "Sektörel ve mesleki İngilizce",
+            "Etkili sunum teknikleri",
+            "Mail yazışmaları ve toplantı simülasyonları",
+            "Müzakere ve ikna dili"
+          ],
+          "summary": "Kariyer hedeflerinize uygun birebir eğitim ile uluslararası iş dünyasında özgüvenle iletişim kurun."
+        },
+        {
+          "tabTitle": "Seyahatseverler",
+          "title": "Pratik ve Günlük İngilizce",
+          "desc": "Yurtdışına seyahat etmeyi planlayan ve günlük iletişimde İngilizceyi akıcı kullanmak isteyenler için hazırlanan programdır.",
+          "bullets": [
+            "Günlük diyaloglar ve sokak dili",
+            "Havalimanı, otel ve restoran konuşmaları",
+            "Kültürel farklılıklara giriş",
+            "Anında cevap verme pratiği"
+          ],
+          "summary": "Dünyanın neresine giderseniz gidin, kendinizi rahatça ifade edebilmenin özgürlüğünü yaşayın."
+        },
+        {
+          "tabTitle": "Hobiseverler",
+          "title": "Kişisel Gelişim İçin İngilizce",
+          "desc": "Dil öğrenmeyi hobi olarak gören, İngilizce dizileri altyazısız izlemek ve global kaynakları okumak isteyenler için.",
+          "bullets": [
+            "Film ve dizilerden alınan güncel kalıplar",
+            "Kitap ve makale okuma teknikleri",
+            "Yabancı kültürler ve yaşam tarzları",
+            "Eğlenceli ve stressiz öğrenme ortamı"
+          ],
+          "summary": "Sadece bir dil öğrenmekle kalmayın, yepyeni kültürlerin kapısını keyifle aralayın."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
+        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "bullets": [
+          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
+          "Ana dil eğitimine benzer doğal öğrenme süreci",
+          "Hataları korkusuzca yaparak öğrenme kültürü",
+          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
+          "Dört dil yetkinliklerinin (dinleme, konuşma, okuma, yazma) bütünsel ve eşzamanlı ilerlemesi"
+        ],
+        "summary": "İletişim temelli eğitim sistemimizle öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, günlük hayatlarında aktif kullanabilecekleri gerçek bir iletişim aracına dönüştürürler."
+      },
+      {
+        "title": "Ortaokul İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
+        "desc": "Ortaokul İngilizce kursu fiyatları genel olarak 7500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi, ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
+        "bullets": [
+          "Hafta içi düzenli programlar (haftada 2-3 gün)",
+          "Hafta sonu yoğunlaştırılmış programlar",
+          "Birebir özel ders imkanı",
+          "Online ortaokul İngilizce kursu seçeneği",
+          "Yaz dönemi hızlandırılmış programlar"
+        ],
+        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
+      },
+      {
+        "title": "En İyi Ortaokul İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
+        "desc": "Çocuğunuz için en iyi ortaokul İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
+        "bullets": [
+          "Öğretmenlerin nitelikleri ve tecrübesi",
+          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
+          "Eğitim metodolojisi ve kullanılan materyaller",
+          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
+          "Mezun öğrencilerin başarıları ve veli memnuniyeti",
+          "Fiziksel ortam ve teknolojik altyapı",
+          "Ulaşım kolaylığı ve güvenlik"
+        ],
+        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+      },
+      {
+        "title": "Online Ortaokul İngilizce Kursu Avantajları",
+        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online ortaokul İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
+        "bullets": [
+          "Zamandan ve yoldan tasarruf",
+          "Ev konforunda yüksek kaliteli eğitim",
+          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+          "Kayıt altına alınan derslerle tekrar izleme imkanı",
+          "Çeşitli dijital araçlarla etkileşimli öğrenme",
+          "Hibrit eğitim seçeneği (online + yüz yüze)"
+        ],
+        "summary": "Online derslerimizde de tiyatral ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+      },
+      {
+        "title": "İngilizce Yaz Kursu: Okul Tatilinde Dil Gelişimi",
+        "desc": "Ortaokul öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
+        "bullets": [
+          "Yoğunlaştırılmış ve eğlenceli eğitim programı",
+          "Doğada İngilizce kampları ve aktiviteler",
+          "Tematik haftalık programlar (müzik, spor, teknoloji, sanat)",
+          "Yabancı eğitmenlerle kültür alışverişi",
+          "Proje tabanlı öğrenme ve grup çalışmaları"
+        ],
+        "summary": "Yaz kurslarımız, eğlenceli aktivitelerle İngilizce öğrenmeyi harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla dil becerileri güçlenmiş olarak başlamalarını sağlar."
+      }
+    ],
+    "meta": {
+      "title": "İngilizce Özel Ders | Akademik International"
+    }
+  },
+  "kurumsalIngilizceLandingPage": {
+    "hero": {
+      "tag": "KURUMSAL İNGİLİZCE KURS",
+      "title": "Kurumsal İngilizce Kursu",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: KURUMSAL İNGİLİZCE",
+      "description": "Kurumsal İngilizce, iş dünyasında başarılı bir kariyer yapmak ve uluslararası arenada rekabet etmek isteyenler için vazgeçilmez bir beceridir.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Global Yeterlilikte Dersler ve Kurumsal Yayınlar!"
+    },
+    "about": {
+      "badge": "KURUMLARA ÖZEL",
+      "title": "Kurumsal İngilizce Nedir?",
+      "desc": "Kurumsal İngilizce, iş dünyasında etkili iletişim kurabilmek ve profesyonel ilişkileri geliştirebilmek için kullanılan özel bir dil becerisidir. İş dünyasının uluslararası boyutta büyümesiyle birlikte, şirketler arası iletişimde ve global pazarlarda rekabet ederken, etkili bir şekilde İngilizce kullanmak giderek daha önemli hale gelmektedir.<br/><br/>Kurumsal İngilizce eğitimi, çalışanların hem yabancı müşterilerle hem de uluslararası iş ortaklarıyla daha etkili iletişim kurmalarına yardımcı olur. Bu tür bir eğitim, iş dünyasının gerektirdiği özel terimleri ve ifadeleri anlamalarına, doğru bir şekilde ifade etmelerine ve profesyonel belgeleri düzgün bir biçimde yazmalarına olanak tanır.",
+      "skills": [
+        {
+          "id": "specialTopics",
+          "title": "Özel Konu Alanları",
+          "desc": "Kurumsal İngilizce kursları, sektöre özgü konu alanlarında iletişim kurma becerisini geliştirmek için tasarlanabilir. İşletmelerin spesifik ihtiyaçlarına odaklanan bu kurslar, katılımcıların sektörleriyle ilgili terimleri ve ifadeleri anlamalarını sağlar."
+        },
+        {
+          "id": "presentation",
+          "title": "Sunum ve Toplantı Becerileri",
+          "desc": "Kurumsal İngilizce kursları, etkili sunum yapma ve iş toplantılarında aktif rol alma yeteneklerini artırmak için pratik yapma fırsatı sunar."
+        },
+        {
+          "id": "writing",
+          "title": "Yazılı İletişim Becerileri",
+          "desc": "İş dünyasında yazılı iletişim kritik bir öneme sahiptir. Kurumsal İngilizce kursları, profesyonel e-posta yazma, rapor hazırlama ve diğer yazılı belgeleri düzgün bir şekilde oluşturma konusunda yardımcı olabilir."
+        },
+        {
+          "id": "cultural",
+          "title": "Kültürel Farkındalık",
+          "desc": "Uluslararası iş ilişkilerinde kültürel farkındalık önemlidir. Kurumsal İngilizce kursları, katılımcılara farklı kültürlerde nasıl iletişim kurulacağı konusunda rehberlik edebilir."
+        }
+      ],
+      "description": "Language Department İngilizce eğitimi veya şirketiniz içerisinde eğitim alabilir, şirketiniz ve kurumunuz için fark yaratabilirsiniz. Departmanımızda, üst düzey yöneticilerden şirket çalışanlarınakadar her düzeye uygun ayrı ayrı düzenlenen eğitim içeriğimiz şirketlerin eğitim müdürlükleri veya İnsan Kaynakları ile entegre olarak yürütülmektedir.",
+      "features": [
+        "Kurumsal İngilizce Kursu'nda yapılan ön test ve analizlerle katılımcıların İngilizce bilgileri ölçülür ve rapor edilir.",
+        "Bu bilgiler ışığında eğitim alacak kişilerin kategorize edilerek programları ve eğitim planları oluşturulur.",
+        "Eğitim öncesinde kurum yetkilileriyle çalışma tarzı beklentiler, hedefler belirlenir ve eğitim uygulamaya geçirilir.",
+        "İyi bir İngilizce iletişim, çalışanların daha fazla güven kazanmasına ve şirketin profesyonel bir imajını yansıtmasına yardımcı olabilir."
+      ]
+    },
+    "whyUs": {
+      "title": "Kurumsal İngilizce Kurslarının Avantajları",
+      "subtitle": "İş dünyasının ihtiyaçlarına yönelik özel dersler",
+      "cardTitle": "Özelleştirilmiş Planlama",
+      "cardDesc": "Kurumsal İngilizce kursları, işletmelerin belirlediği hedeflere uygun olarak tasarlanabilir ve uygulanabilir.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Eğitimler nerede yapılıyor?",
+          "a": "Language Department İngilizce eğitimi şubelerimizde veya doğrudan şirketiniz içerisinde eğitim alabilirsiniz."
+        },
+        {
+          "q": "Seviye tespiti nasıl yapılıyor?",
+          "a": "Kurumsal İngilizce Kursu'nda yapılan ön test ve analizlerle katılımcıların İngilizce bilgileri ölçülerek, ihtiyaç ve beklentileri tespit edilir ve bu durum rapor edilir."
+        },
+        {
+          "q": "Kurum yöneticileri sürece dahil oluyor mu?",
+          "a": "Evet, departmanımızda düzenlenen eğitim içeriğimiz şirketlerin eğitim müdürlükleri veya İnsan Kaynakları ile entegre olarak yürütülmektedir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Kurum Öğrencilerine Ücretsiz",
+          "desc": "Eğitime katılan şirket personelleri için kurumsal yayınlar tamamen ücretsiz sağlanmaktadır.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Ön Test ve Analiz",
+          "desc": "Katılımcıların İngilizce bilgileri ölçülerek ihtiyaçlar tespit edilir ve eğitim planları oluşturulur.",
+          "icon": "BarChart"
+        },
+        {
+          "title": "İnsan Kaynakları Entegrasyonu",
+          "desc": "Eğitim içeriğimiz şirketlerin eğitim müdürlükleri veya İK departmanları ile entegre yürütülmektedir.",
+          "icon": "Users"
+        },
+        {
+          "title": "Güven ve İş İmajı",
+          "desc": "İyi bir İngilizce iletişim, şirketin profesyonel bir imajını yansıtmasına yardımcı olabilir.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Akademik International Kurum Yayınlarımız",
+      "subtitle": "Kurum Öğrencilerine Ücretsiz!",
+      "features": [
+        "Kurumlara Özel İçerik",
+        "Global Yeterlilikte Yayınlar",
+        "Sektörel Terimler"
+      ],
+      "books": [
+        {
+          "name": "Academic Reading",
+          "type": "Okuma ve Anlama"
+        },
+        {
+          "name": "Plus Listening",
+          "type": "Dinleme Pratiği"
+        },
+        {
+          "name": "Prep Workbook",
+          "type": "Çalışma Kitabı"
+        },
+        {
+          "name": "Corporate Vocabulary",
+          "type": "Mesleki Kelime Seti"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Kurumsal İngilizce Eğitiminin Önemi Nedir?",
+          "a": "Kurumsal İngilizce eğitimi, çalışanların hem yabancı müşterilerle hem de uluslararası iş ortaklarıyla daha etkili iletişim kurmalarına yardımcı olur."
+        },
+        {
+          "q": "Kurumsal İngilizce Kurslarının Avantajları Nelerdir?",
+          "a": "Özel konu alanları, sunum ve toplantı becerileri, yazılı iletişim becerileri ve kültürel farkındalık gibi konularda gelişimi sağlayarak şirketin profesyonel imajını artırır."
+        },
+        {
+          "q": "Eğitmenler derslere nasıl hazırlanıyor?",
+          "a": "Eğitim öncesinde o kurumda eğitim verecek öğretmenlerimiz kurum yetkilileri ve eğitim alacak kişilerle tanıştırılarak, çalışma tarzı beklentiler, hedefler belirlenir ve eğitim uygulamaya geçirilir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Sektörlere Özel Tasarlanan Mesleki İngilizce Eğitim Programlarımız",
+      "grades": [
+        {
+          "tabTitle": "Enerji & Mühendislik",
+          "title": "Enerji, Mühendislik ve Teknoloji Sektörü",
+          "desc": "Teknik sektörlerin gerektirdiği özel terimleri ve ifadeleri doğru kullanabilmeniz için tasarlanmıştır.",
+          "bullets": [
+            "Enerji, Doğal Gaz ve Petrol Sektörü",
+            "Mühendislik İngilizcesi",
+            "Telekomünikasyon Sektörü"
+          ],
+          "summary": "Teknik rapor hazırlama ve sektörleriyle ilgili terimleri anlama konusunda katılımcılara yardımcı olur."
+        },
+        {
+          "tabTitle": "Hukuk & Finans",
+          "title": "Hukuk, Finans ve İnsan Kaynakları",
+          "desc": "İdari ve finansal birimlerinizin uluslararası alanda etkin iletişim kurmasını sağlar.",
+          "bullets": [
+            "Hukuk İngilizcesi",
+            "Finans & Bankacılık",
+            "İnsan Kaynakları İngilizcesi"
+          ],
+          "summary": "Profesyonel e-posta yazma ve diğer yazılı belgeleri düzgün bir şekilde oluşturma becerisi kazandırır."
+        },
+        {
+          "tabTitle": "Lojistik & Ticaret",
+          "title": "Lojistik, Dış Ticaret ve Satış Pazarlama",
+          "desc": "Global pazarlarda rekabet ederken etkili bir şekilde İngilizce kullanmanızı sağlar.",
+          "bullets": [
+            "Lojistik / Deniz Nakliyat",
+            "Dış Ticaret Sektörü",
+            "Satış, Pazarlama ve İletişim Sektörü"
+          ],
+          "summary": "Çalışanların hem yabancı müşterilerle hem de uluslararası iş ortaklarıyla daha etkili iletişim kurmalarına yardımcı olur."
+        },
+        {
+          "tabTitle": "Hizmet Sektörü",
+          "title": "Tıp, Turizm ve Tekstil İngilizcesi",
+          "desc": "Hizmet sektöründe uluslararası iş ilişkilerinde kültürel farkındalık yaratan eğitimler.",
+          "bullets": [
+            "Tekstil İngilizcesi",
+            "Tıp İngilizcesi",
+            "Turizm & Otelcilik"
+          ],
+          "summary": "Katılımcılara farklı kültürlerde nasıl iletişim kurulacağı konusunda rehberlik edebilir."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Kurumsal İngilizce Kursları ile Becerilerinizi En Üst Seviyeye Çıkarın",
+        "desc": "Kurumsal İngilizce, iş dünyasında başarılı bir kariyer yapmak ve uluslararası arenada rekabet etmek isteyenler için vazgeçilmez bir beceridir. Kurumsal İngilizce kursları, bu beceriyi geliştirmek isteyen çalışanlara özel ve etkili bir eğitim sunar.",
+        "bullets": [
+          "Profesyonel eğitmenlerle çalışarak dil gelişimi sağlama",
+          "Özelleştirilmiş kurslarla hedeflere yönelik eğitim alma",
+          "Kurumsal İngilizce becerilerini en üst seviyeye çıkarma",
+          "Şirketimizin düzenlediği programlarla iletişim yolculuğuna adım atma"
+        ],
+        "summary": "İşte bu noktada, profesyonel eğitmenlerle çalışmak ve özelleştirilmiş kurslar almak, kurumsal İngilizce becerilerinizi en üst seviyeye çıkarmak için atacağınız önemli bir adım olacaktır."
+      }
+    ],
+    "meta": {
+      "title": "Kurumsal İngilizce Kursu | Akademik International",
+      "description": "Kurumsal İngilizce, iş dünyasında etkili iletişim kurabilmek ve profesyonel ilişkileri geliştirebilmek için kullanılan özel bir dil becerisidir."
+    }
+},
+"tercumeHizmetiLandingPage": {
+    "hero": {
+      "tag": "YEMİNLİ TERCÜME HİZMETİ",
+      "title": "Profesyonel Tercüme Hizmetleri",
+      "customerServiceBtn": "Hemen Tercüme Talebi Oluşturun!",
+      "infoBtn": "Hemen Teklif Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Tercüme Talep Formu",
+      "formTitle": "HIZLI VE GÜVENİLİR!",
+      "formSubtitle": "Metinleriniz İçin Hemen Fiyat ve Süre Bilgisi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Tercüme Alanı Seçiniz (Hukuki, Tıbbi vs.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: ÇEVİRİ HİZMETLERİ",
+      "description": "Profesyonel ve alanında uzmanlaşmış yeminli tercümanlarımızla, kurumsal ve bireysel ihtiyaçlarınız için Türkçe-İngilizce ve İngilizce-Türkçe dillerinde nitelikli tercüme hizmeti vermekteyiz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Proof-Reading (Düzeltme/Kontrol) Garantili Çeviri!"
+    },
+    "about": {
+      "badge": "UZMAN TERCÜMAN KADROSU",
+      "title": "Nitelikli ve Etkili Tercüme Nedir?",
+      "desc": "Alanında uzman tercümanlarımız teknik, ticari, hukuki, tıbbi, akademik ve kurumsal metinlerinizi içeriğine uygun bir şekilde Türkçe-İngilizce ve İngilizce-Türkçe dillerinde nitelikli ve etkili yeminli tercüme hizmeti vermektedirler.<br/><br/><b>Profesyonel ve Alanında Uzmanlaşmış Ekip:</b> Kurumumuz metinlerinizi içeriğine uygun bir şekilde çevirmektedir. Metinlerinizin tercümesi verilen süre içerisinde doğru ve kaliteli bir şekilde kurumsal bünyemiz altında çalışan yetkin, nitelikli ve uzman tercümanlarımız tarafından gerçekleştirilir.<br/><br/><b>Proof-Reading Garantisi:</b> Yapılan tüm çeviri çalışmaları mutlaka proof-reading (düzeltme/kontrol) aşamasından geçtikten sonra tarafınıza teslim edilmektedir. Uzman bir tercüme ekibi tarafından yapılan bu çalışmalar sayesinde, pek çok kurumsal ve bireysel ihtiyaçlarınız en güvenilir şekilde çözüme ulaşmış olacaktır.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Terminolojik Uzmanlık",
+          "desc": "Deneyimli tercümanlarımız, birçok alanda uzmanlık sahibi olması sayesinde terminolojik bilgi gerektiren çevirilerde en güvenilir hizmeti verir."
+        },
+        {
+          "id": "reading",
+          "title": "Proof-Reading (Kontrol)",
+          "desc": "Tercümesi tamamlanan belgeleriniz, mutlaka editörlerimiz tarafından düzeltme ve kontrol (proof-reading) sürecinden geçirilir."
+        },
+        {
+          "id": "writing",
+          "title": "Yeminli Tercüme",
+          "desc": "Resmi makamlara sunulacak teknik, ticari, hukuki veya akademik belgeleriniz için yeminli tercüman onaylı çeviri desteği."
+        },
+        {
+          "id": "speaking",
+          "title": "İvedilik ve Doğruluk",
+          "desc": "Çevirisi gerçekleştirilecek dokümanlarınızı ve belgelerinizi sadece doğru değil, aynı zamanda size verilen süre içerisinde ivedilikle teslim ederiz."
+        }
+      ],
+      "description": "Çevirisi gerçekleştirilecek dokümanlarınızı ve belgelerinizi doğru ve ivedilikle tercüme ederek hizmet vermekteyiz. Kurumsal bünyemiz altında çalışan yetkin kadromuz, tercüme sürecinin her aşamasında kalite standartlarını gözetir.",
+      "features": [
+        "Türkçe-İngilizce ve İngilizce-Türkçe yönlerinde kusursuz çeviri.",
+        "Sektörünüze uygun terminolojiye tam hakimiyet.",
+        "Zamanında teslimat garantisi ile iş akışınızda kesinti yaşanmaz.",
+        "Kurumsal ve bireysel tüm projeleriniz için gizlilik esasıyla çalışma."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Bizi Tercih Etmelisiniz?",
+      "subtitle": "Belgelerinizi Uzmanlarına Teslim Edin",
+      "cardTitle": "Alanında Uzmanlaşmış Kadro",
+      "cardDesc": "Sadece dil bilen değil, çeviri yapılacak sektörün (tıbbi, hukuki vb.) eğitimini almış ve terminolojisine hakim tercümanlarla çalışıyoruz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Hangi dillerde tercüme hizmeti veriyorsunuz?",
+          "a": "Uzman tercüman kadromuzla Türkçe-İngilizce ve İngilizce-Türkçe dillerinde çift yönlü, nitelikli ve etkili yeminli tercüme hizmeti vermekteyiz."
+        },
+        {
+          "q": "Proof-reading (düzeltme/kontrol) yapıyor musunuz?",
+          "a": "Evet. Metinlerinizin tercümesi mutlaka proof-reading (düzeltme ve son kontrol) aşamasından geçtikten sonra size teslim edilmektedir."
+        },
+        {
+          "q": "Terminoloji gerektiren zor metinleri çevirebiliyor musunuz?",
+          "a": "Kesinlikle. Deneyimli tercümanlarımız birçok alanda uzmanlık sahibi olduğu için tıbbi, hukuki, teknik ve ticari gibi ağır terminolojik bilgi gerektiren çevirilerde en güvenilir hizmeti vermektedir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Yeminli Tercüme",
+          "desc": "Resmi ve kurumsal işlemleriniz için yeminli tercüman kaşeli, güvenilir belge çevirisi.",
+          "icon": "Award"
+        },
+        {
+          "title": "İvedilikle Teslimat",
+          "desc": "Belgeleriniz size en baştan taahhüt edilen süre içerisinde, gecikme yaşanmadan teslim edilir.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Proof-Reading",
+          "desc": "Çeviriler doğrudan teslim edilmez; ikinci bir uzman tarafından kontrol edilerek hatasızlaştırılır.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Çoklu Sektör Hakimiyeti",
+          "desc": "Teknik, ticari, hukuki, tıbbi, akademik ve kurumsal metinlerde sektöre uygun doğru dil kullanımı.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Tercüme Ettiğimiz Belge Türleri",
+      "subtitle": "Her Alanda Kesintisiz Destek",
+      "features": [
+        "Kurumsal Çözümler",
+        "Akademik Çeviriler",
+        "Resmi Evraklar"
+      ],
+      "books": [
+        {
+          "name": "Sözleşmeler & İhaleler",
+          "type": "Hukuki & Ticari Metinler"
+        },
+        {
+          "name": "Tıbbi Raporlar & Makaleler",
+          "type": "Tıbbi Metinler"
+        },
+        {
+          "name": "Kullanım Kılavuzları",
+          "type": "Teknik Metinler"
+        },
+        {
+          "name": "Tez ve Sunumlar",
+          "type": "Akademik Metinler"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, yüz yüze eğitim imkanımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "7/24 erişim imkanı sunan online eğitim fırsatlarımızdan yararlanın! Ana dili İngilizce olan uzman eğitmenlerimizle sanal ortamda etkileşim.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "En İyi Uzman Yerli-Yabancı Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Tercüme Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Tercüme süresi neye göre belirlenir?",
+          "a": "Metninizin kelime sayısına, içerdiği terminolojik zorluğa ve sektörüne göre uzmanlarımız tarafından belirlenir. İşlem başlamadan önce size kesin bir teslim süresi verilir ve çeviriniz ivedilikle bu süre içinde teslim edilir."
+        },
+        {
+          "q": "Çevirilerin doğruluğundan nasıl emin olabilirim?",
+          "a": "Deneyimli tercümanlarımız tarafından çevrilen metinleriniz, doğrudan size iletilmeden önce mutlaka kurumsal bünyemizdeki editörler tarafından 'proof-reading' (düzeltme ve kontrol) aşamasından geçer."
+        },
+        {
+          "q": "Bireysel evraklar için tercüme yapıyor musunuz?",
+          "a": "Evet, uzman bir tercüme ekibi tarafından yapılan çalışmalarımız sayesinde sadece kurumsal değil, pek çok bireysel ihtiyacınız (vize, akademik başvuru, sağlık raporları vb.) çözüme ulaşmaktadır."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Sektörel Tercüme Uzmanlık Alanlarımız",
+      "grades": [
+        {
+          "tabTitle": "Hukuki",
+          "title": "Hukuki Tercüme Hizmetleri",
+          "desc": "Hata kabul etmeyen hukuki metinlerinizin, yasal terminolojiye tam hakim yeminli tercümanlar tarafından çevrildiği hizmet alanımızdır.",
+          "bullets": [
+            "Sözleşmeler ve vekaletnameler",
+            "Mahkeme kararları ve bilirkişi raporları",
+            "Ticari anlaşmalar",
+            "Yeminli tercüman onaylı resmi evraklar"
+          ],
+          "summary": "Uluslararası hukuki süreçlerinizi güvenilir çevirilerle güvence altına alın."
+        },
+        {
+          "tabTitle": "Tıbbi",
+          "title": "Tıbbi ve Medikal Tercüme",
+          "desc": "İnsan sağlığını ilgilendiren ve ağır tıp terminolojisi gerektiren metinlerin uzman tıbbi tercümanlarca çevrilmesi sürecidir.",
+          "bullets": [
+            "Doktor raporları ve epikrizler",
+            "Tıbbi cihaz kullanım kılavuzları",
+            "Tıp ve eczacılık makaleleri",
+            "İlaç prospektüsleri"
+          ],
+          "summary": "Sağlık verilerinizi uluslararası standartlarda ve sıfır hata ile çeviriyoruz."
+        },
+        {
+          "tabTitle": "Teknik",
+          "title": "Teknik Tercüme Hizmetleri",
+          "desc": "Mühendislik, sanayi, teknoloji ve üretim sektörlerindeki spesifik dokümanların doğru terminoloji ile hedef dile aktarılmasıdır.",
+          "bullets": [
+            "Mühendislik ve ihale şartnameleri",
+            "Ürün teknik belgeleri ve kataloglar",
+            "Yazılım ve bilişim metinleri",
+            "Fabrika üretim kılavuzları"
+          ],
+          "summary": "Teknik detayların hiçbirini kaybetmeden, sektörünüze özel dili yakalayın."
+        },
+        {
+          "tabTitle": "Akademik",
+          "title": "Akademik ve Kurumsal Tercüme",
+          "desc": "Uluslararası yayınlar, üniversite başvuruları ve şirketinizin dış dünyaya açılan kurumsal yüzü olan metinlerin çevirisidir.",
+          "bullets": [
+            "Yüksek lisans ve doktora tezleri",
+            "Bilimsel makale ve yayınlar",
+            "Şirket sunumları ve web site çevirileri",
+            "Yıllık faaliyet raporları"
+          ],
+          "summary": "Akademik ve kurumsal itibarınızı yansıtacak profesyonel ve proof-reading garantili metinler."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Alanında Uzman Yeminli Tercüme Hizmetleri",
+        "desc": "Uluslararası iletişimin giderek önem kazandığı günümüzde, belgelerinizin doğru bir şekilde çevrilmesi hayati bir öneme sahiptir. Kurumumuz, teknik, ticari, hukuki, tıbbi, akademik ve kurumsal metinlerinizi içeriğine tam uygun bir şekilde çevirerek en kaliteli yeminli tercüme hizmetini sunmaktadır.",
+        "bullets": [
+          "Sadece dil bilgisi değil, sektörel terminoloji hakimiyeti",
+          "Türkçe-İngilizce ve İngilizce-Türkçe yönlerinde kusursuz aktarım",
+          "Kurumsal bünye altında çalışan yetkin ve nitelikli tercüman kadrosu",
+          "Gecikme yaşanmadan, taahhüt edilen sürede ivedilikle teslimat"
+        ],
+        "summary": "Deneyimli tercümanlarımız, birçok alanda uzmanlık sahibi olması sayesinde en güvenilir çeviri hizmetini garanti etmektedir."
+      },
+      {
+        "title": "Proof-Reading (Düzeltme/Kontrol) Garantisi",
+        "desc": "Tercüme süreci sadece metni başka bir dile çevirmekle bitmez. Kaliteli bir hizmetin en önemli adımı son okumadır. Metinlerinizin tercümesi, uzman tercümanlarımız tarafından gerçekleştirildikten sonra mutlaka proof-reading aşamasından geçer.",
+        "bullets": [
+          "Gramer ve yazım hatalarının ikinci bir göz tarafından elenmesi",
+          "Sektörel terimlerin doğruluğunun ve tutarlılığının kontrolü",
+          "Hedef dilin kültürüne ve kurumsal üsluba uygunluk denetimi",
+          "Sıfır hata prensibiyle yayına veya resmi kuruma hazır belge teslimi"
+        ],
+        "summary": "Yapılan bu titiz çalışmalar sayesinde, pek çok kurumsal ve bireysel ihtiyaçlarınız sorunsuz bir şekilde çözüme ulaşmış olacaktır."
+      }
+    ]
+}
 }

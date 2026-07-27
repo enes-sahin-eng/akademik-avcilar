@@ -38,3 +38,4 @@ Yetişkin bireysel öğrenciler, sınav (akademik/yurt dışı) hazırlığı ya
 ## Notlar
 - Kayıt ve bilgi talebi iletişim formu üzerinden alınır; başvurular ilgili şubeye yönlendirilir.
 - Şube listesi ve program kapsamı zaman zaman güncellenir; en güncel bilgi için iletişim sayfasına bakınız.
+- [Lise İngilizce Kursu](/tr/lise-ingilizce-kursu): Lise ve kolej öğrencileri için konuşma odaklı İngilizce kursu.
