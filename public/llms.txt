@@ -1,41 +1,33 @@
 # Akademik International Yabancı Dil Okulları
 
-> Akademik International, Türkiye genelinde 12 şubesi bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik İngilizce, Almanca, İspanyolca, Fransızca, Rusça ve Arapça eğitimleri ile uluslararası sınav hazırlık programları sunar.
+> Akademik International, Türkiye genelinde 12 şubesi bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik dil eğitimleri ve uluslararası sınav hazırlık programları sunar.
 
-Bu dosya, dil ve cevap motorlarının siteyi doğru anlaması için hazırlanmıştır. Site şu an aktif olarak iki sayfadan oluşur; program ve şube sayfaları aşamalı olarak yayınlanmaktadır. Aşağıdaki bağlantılar yalnızca yayında olan sayfaları içerir.
+Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve indekslemesi için hazırlanmıştır.
 
-## Site Dilleri
-Site Türkçe (varsayılan), İngilizce ve Arapça içerik sunar. Çeviriler `/app/dictionaries/` altındaki sözlüklerden yönetilir; tüm diller aynı URL yapısını paylaşır. Varsayılan içerik dili Türkçe'dir.
-
-## Kurum Bilgileri
-- Kurum adı: Akademik International Yabancı Dil Okulları
-- Genel merkez: Avcılar, İstanbul
-- Adres: Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul
-- Telefon: 0850 305 05 16
-- Şube sayısı: 12 (Avcılar merkez; ayrıca Kadıköy, Bursa, İzmir, Ankara, Çekmeköy, İzmit ve diğer iller/ilçeler)
+## Kurumsal Bağlam ve URL Mimarisi
+- **Hedef Kitle:** Yetişkinler, çocuklar, akademik sınav hazırlığı yapanlar ve profesyonel/kurumsal dil desteği arayan şirketler.
+- **İletişim & Merkez:** Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul (Tel: 0850 305 05 16). Kayıt ve bilgi talepleri formlar aracılığıyla alınıp şubelere yönlendirilir.
+- **Çok Dilli Yapı (i18n):** Site Türkçe (varsayılan), İngilizce ve Arapça dillerini destekler. Dil yapısı dinamik olarak `/{dil-kodu}/{sayfa-slug}` formatında çalışır (örn: `/en/ingilizce-kursu`). Aşağıdaki bağlantılar varsayılan Türkçe (TR) rotaları gösterir; botlar harici bir parametre girmediği sürece varsayılan olarak Türkçe içeriği tarayacaktır.
 
 ## Yayında Olan Sayfalar
-- [Anasayfa](https://avcilarakademik.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri, öğrenci yorumları ve kayıt/iletişim formları.
-- [İletişim](https://avcilarakademik.com.tr/iletisim): Avcılar merkez konumu ve haritası, 12 şubenin listesi ve iletişim/başvuru formu.
-- [Genel İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu): Genel İngilizce programlarının listelendiği ana kategori sayfası.
-- [Akademik İngilizce Kursu](https://avcilarakademik.com.tr/akademik-ingilizce-kursu): Akademik kariyer ve sınav hazırlığına yönelik İngilizce programlarının listelendiği ana kategori sayfası.
+- [Anasayfa](https://avcilarakademik.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri ve formlar.
+- [İletişim](https://avcilarakademik.com.tr/iletisim): Avcılar merkez konumu ve 12 şubenin iletişim listesi.
+- [Genel İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu): Genel İngilizce programlarının listelendiği ana kategori.
+- [Akademik İngilizce Kursu](https://avcilarakademik.com.tr/akademik-ingilizce-kursu): Sınav hazırlığı ve akademik program kategorisi.
 - [Prep - Temel İngilizce Kursu](https://avcilarakademik.com.tr/temel-ingilizce-kursu-hazirlik): Sıfırdan başlayanlar (A1) için konuşma odaklı hazırlık programı.
 - [Prep Plus - Temel İngilizce Kursu Plus](https://avcilarakademik.com.tr/temel-ingilizce-kursu-hazirlik-plus): Alt-Orta seviye (A2) genel İngilizce programı.
-- [Academic Express İngilizce Kursu](https://avcilarakademik.com.tr/academic-express-ingilizce-kursu): Orta seviye (B1) akademik ve pratik İngilizce programı.
+- [Academic Express İngilizce Kursu](https://avcilarakademik.com.tr/academic-express-ingilizce-kursu): Orta seviye (B1) akademik İngilizce programı.
 - [Academic İngilizce Kursu](https://avcilarakademik.com.tr/academic-ingilizce-kursu): İleri seviye (B2-C1) akademik yetkinlik programı.
 - [Academic Plus İngilizce Kursu](https://avcilarakademik.com.tr/academic-plus-ingilizce-kursu): Yetkinlik seviyesi (C1-C2) kusursuz İngilizce ve simultane çeviri programı.
-Aşağıdaki programlar kurum tarafından sunulmaktadır. (Her programın ayrı sayfası aşamalı olarak yayınlanacaktır.)
+- [İlköğretim İngilizce Kursu](https://avcilarakademik.com.tr/ilkogretim-ingilizce-kursu): İlkokul öğrencileri için tasarlanmış eğlenceli ve konuşma odaklı İngilizce kursu.
+- [Ortaokul İngilizce Kursu](https://avcilarakademik.com.tr/ortaokul-ingilizce-kursu): Ortaokul öğrencileri için LGS hazırlık altyapısı sunan İngilizce kursu.
+- [Lise İngilizce Kursu](https://avcilarakademik.com.tr/lise-ingilizce-kursu): Lise öğrencileri için YKS-DİL, TOEFL ve IELTS destekli İngilizce kursu.
+- [İngilizce Özel Ders](https://avcilarakademik.com.tr/ingilizce-ozel-ders): Yabancı eğitmenlerle birebir, ihtiyaca özel İngilizce eğitim programı.
+- [Kurumsal İngilizce Kursu](https://avcilarakademik.com.tr/kurumsal-ingilizce): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
+- [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel metinler için proof-reading garantili yeminli tercüme hizmeti.
 
-- Genel İngilizce: Yetişkinlere yönelik konuşma odaklı, seviye bazlı İngilizce eğitimi (konuşma garantili / VIP formatlar dahil).
-- Sınav Hazırlık: YDS, YÖKDİL, IELTS, TOEFL, PTE, E-TEP, Goethe, ÖSD sınavlarına yönelik hazırlık programları (yetişkin ve akademik kariyer hedefli).
-- Çocuk ve Genç Grupları: Kids & Teens İngilizce eğitimi.
-- Diğer Yabancı Diller: Almanca, İspanyolca, Fransızca, Rusça, Arapça.
-- Kurumsal Eğitim: Şirketlere ve kurumlara yönelik özel dil eğitimi çözümleri.
+## Şubeler ve Ek Hizmetler
+*(Aktif 12 şubeye ait özel lokasyon sayfaları ile Almanca, İspanyolca, Fransızca gibi diğer dil eğitim sayfaları yayına alındıkça bu bölüme eklenecektir.)*
 
-## Kime Yönelik
-Yetişkin bireysel öğrenciler, sınav (akademik/yurt dışı) hazırlığı yapanlar, çocuk ve gençler, ve çalışanlarına dil eğitimi almak isteyen kurumlar.
-
-## Notlar
-- Kayıt ve bilgi talebi iletişim formu üzerinden alınır; başvurular ilgili şubeye yönlendirilir.
-- Şube listesi ve program kapsamı zaman zaman güncellenir; en güncel bilgi için iletişim sayfasına bakınız.
-- [Lise İngilizce Kursu](/tr/lise-ingilizce-kursu): Lise ve kolej öğrencileri için konuşma odaklı İngilizce kursu.
+---
+*Son Güncelleme: 27 Temmuz 2026*

@@ -4,10 +4,19 @@ Bu dosya, bu repoda kod yazan yapay zeka ajanları (Cursor, Claude Code vb.) ve 
 
 ## Proje Özeti
 
-Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam 9 ana sayfa yayındadır: anasayfa (`/`), iletişim (`/iletisim`), kategori sayfaları (`/ingilizce-kursu`, `/akademik-ingilizce-kursu`) ve 5 adet detaylı kurs seviye sayfası (`/temel-ingilizce-kursu-hazirlik`, `...-hazirlik-plus`, `/academic-express-...`, vb.). Şube ve diğer dil sayfaları aşamalı eklenecektir.
+Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **15 ana sayfa** yayındadır:
 
-## Teknoloji Yığını
+- **Temel Sayfalar:** Anasayfa (`/`), İletişim (`/iletisim`)
+- **Genel & Akademik Programlar:** (`/ingilizce-kursu`, `/akademik-ingilizce-kursu`)
+- **Seviye ve Sınav Odaklı Sayfalar:** (`/temel-ingilizce-kursu-hazirlik`, `/temel-ingilizce-kursu-hazirlik-plus`, `/academic-express-ingilizce-kursu`, `/academic-ingilizce-kursu`, `/academic-plus-ingilizce-kursu`)
+- **Yaş Grubu ve Özel Programlar:** İlköğretim (`/ilkogretim-ingilizce-kursu`), Ortaokul (`/ortaokul-ingilizce-kursu`), Lise (`/lise-ingilizce-kursu`), Özel Ders (`/ingilizce-ozel-ders`)
+- **Kurumsal & Profesyonel Hizmetler:** Kurumsal İngilizce (`/kurumsal-ingilizce`), Tercüme Hizmetleri (`/tercume-hizmeti`)
 
+## Teknoloji Yığını & Ortam
+
+- **Çalışma Ortamı:** Node.js >= 18.x
+- **Paket Yöneticisi:** `npm` (Tüm kurulum ve scriptler `npm` üzerinden yürütülecektir).
+- **Doğrulama Komutları:** Geliştirme için `npm run dev`, hataları yakalamak için `npm run lint`, derleme testi için `npm run build`.
 - **Framework:** Next.js (App Router). İnteraktif yaprak bileşenlerde `"use client"`; içerik/layout bileşenleri mümkün olduğunca Server Component kalmalı.
 - **Stil:** Vanilla CSS Modules (`*.module.css`). **TailwindCSS kullanılmaz.**
 - **Animasyon:** `framer-motion` — yalnızca UX'i gerçekten iyileştirdiğinde.
@@ -17,36 +26,49 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 ## Dizin Yapısı
 
 - `/app` — Sayfa route'ları ve sözlükler (`/app/dictionaries`).
-- `/app/components` — Yeniden kullanılabilir React bileşenleri ve ilgili CSS modülleri.
+- `/app/components` — Yeniden kullanılabilir React bileşenleri (örn: `SeoContentBlock`) ve ilgili CSS modülleri.
 - `/public` — Görseller, logo, ikon, statik varlıklar ve `llms.txt`.
 
 ## Ajanlar İçin Kesin Kurallar
 
 ### 1. Statik Metin Yasağı (i18n)
 
-Bileşen koduna (`.tsx`) doğrudan Türkçe/İngilizce/Arapça metin yazma. Tüm kullanıcıya görünen metinler `tr.json`, `en.json` ve `ar.json` dosyalarına eklenir ve `useDictionary()` ile çağrılır. Üç sözlük de eş zamanlı güncellenmeli; eksik anahtar bırakma.
+Bileşen koduna (`.tsx`) doğrudan Türkçe/İngilizce/Arapça metin yazma. Tüm kullanıcıya görünen metinler `tr.json`, `en.json` ve `ar.json` dosyalarına eklenir ve `useDictionary()` ile çağrılır. Üç sözlük de eş zamanlı güncellenmeli; eksik anahtar bırakma. Fallback (yedek) metinler yazarken mutlaka hedeflenen SEO anahtar kelimelerini (örn: LGS, YKS-DİL, Native Speaker) kullan.
 
-### 2. Görsel Optimizasyonu
+### 2. Görsel Optimizasyonu & A11y (Erişilebilirlik)
 
-Ham `<img>` kullanma; daima `next/image` (`<Image />`). Her görselde açıklayıcı `alt`, doğru `width`/`height` (CLS önlemi) ve above-the-fold görsellerde `priority`. Bulanıklık sorununda önce `sizes` ve kaynak çözünürlüğünü kontrol et; `quality={100}` / `unoptimized` yalnızca son çare.
+- Ham `<img>` kullanma; daima `next/image` (`<Image />`).
+- **A11y Zorunluluğu:** Her görselde açıklayıcı `alt` etiketi bulunmak zorundadır. Sadece ikon işlevi gören interaktif butonlarda (kapatma, menü vb.) mutlaka `aria-label` kullanılmalıdır (Örn: `LeadFormModal.tsx` içindeki `<button aria-label="Kapat">`).
+- Klavye navigasyonu (focus state) CSS'te unutulmamalıdır.
 
 ### 3. Tasarım Dili (Premium & Modern)
 
-Düz kutu ve yalın arka planlardan kaçın. Mesh gradient, glassmorphism, yumuşak box-shadow ve akıcı framer-motion geçişleri hedeflenir. Yeni bir tasarım dili icat etme; mevcut token ve component paternlerine sadık kal.
+Düz kutu ve yalın arka planlardan kaçın. Yeni bir tasarım dili icat etme; mevcut token ve component paternlerine sadık kal.
 
-### 4. SEO & GEO Disiplini (zorunlu)
+- **Referanslar:** Glassmorphism ve Mesh Gradient etkileri için `CourseHeroSlider.module.css` ve `Contact.module.css` dosyalarındaki `.formWrapper` ve `.heroContainer` yapılarını incele.
+- Alternatifli arka planlar için `:nth-child(even)` gibi CSS kurallarını kullan (Örn: `SeoContentBlock.module.css`).
 
-- Semantik HTML: sayfa başına tek `<h1>`, atlamayan başlık hiyerarşisi (`<h2>` → `<h3>`), `<section>`/`<nav>`/`<address>`.
-- DOM kaynak sırası anlamlı olsun; CSS ile görsel sırayı bozarken ana içeriği DOM'da geri itme.
-- Her bölüm kendi kendine anlaşılır olmalı (chunk'lanabilirlik): başlık + özneyi içeren net metin. Reuse edilen bileşenlerde özne/bağlam prop olarak metne girsin.
-- Yeni sayfalar için: self-referencing canonical, sayfaya özel `metadata` (title/description), ve uygun JSON-LD (`EducationalOrganization`, `Course`, `FAQPage`, `BreadcrumbList`). Aynı sayfada bir entity için tek JSON-LD bloğu.
-- Gizli/açılır içerik (accordion, tab) koşullu render değil, DOM'da mevcut olup CSS ile gizlensin.
+### 4. SEO & GEO Disiplini
 
-### 5. Kurumsal Bilgiler (tek doğruluk kaynağı)
+- **Semantik HTML:** Sayfa başına tek `<h1>`, atlamayan başlık hiyerarşisi (`<h2>` → `<h3>`), `<section>`/`<nav>`/`<article>` etiketlerini kullan.
+- **Meta Veriler:** `generateMetadata` fonksiyonunda daima `openGraph` (type: "website") ve `twitter` (card: "summary_large_image") kartları zorunlu olarak tanımlanmalıdır. Hiçbir sayfanın `description` alanı bir diğeriyle kopya olamaz.
+- **JSON-LD Şemaları:** Sayfanın amacına göre `EducationalOrganization`, `Course` (Eğitimler için), `Service` (Tercüme vb. hizmetler için) ve `FAQPage` şemalarını doğru ata. Aynı sayfada aynı entity için tek JSON-LD bloğu kullan.
+
+### 5. Kurumsal Bilgiler (Tek Doğruluk Kaynağı)
 
 - Genel merkez: Avcılar. Adres: Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul. Tel: 0850 305 05 16.
-- Harita iframe'i, adres ve şube verileri güncellenirken bu bilgiyi esas al. Şube listesi JSON/sözlük olarak tutulur (12 şube).
+- Formlarda ve banner'larda (örn: ÜCRETSİZ İNGİLİZCE) bulunan sabit dönüşüm metinlerini asla değiştirme.
 
-## Yeni Route Eklerken
+---
 
-Program veya şube sayfası oluştururken: URL yapısını netleştir, üç dilde metadata + sözlük anahtarları ekle, ilgili JSON-LD'yi ekle ve **yeni yayınlanan sayfayı `public/llms.txt`'ye linkle**. llms.txt'de yalnızca gerçekten erişilebilir URL'ler linklenir.
+## 🛑 Otonom Ajan Kapanış Kontrol Listesi (Pre-flight Checklist)
+
+Bir ajan (Cursor, Claude vb.) görevi tamamladığını kullanıcıya bildirmeden önce **kendi terminalinde ve sanal ortamında** şu kontrolleri yapmak zorundadır:
+
+- [ ] `tr.json`, `en.json`, `ar.json` dosyalarının üçüne de yeni eklenen metinlerin anahtarları (keys) eklendi mi?
+- [ ] Kodun içinde "hardcoded" (statik) metin unutuldu mu?
+- [ ] Yeni bir sayfa/route oluşturulduysa `public/llms.txt` dosyasına URL eklendi mi?
+- [ ] `generateMetadata` içerisinde OpenGraph ve Twitter kartları eksiksiz girildi mi?
+- [ ] Sayfada birden fazla, çakışan JSON-LD (Schema) bloğu var mı? (Sadece 1 Course/Service ve 1 FAQPage olmalı).
+- [ ] Terminalde `npm run lint` komutu çalıştırıldı ve sıfır hata/uyarı verdi mi?
+- [ ] Terminalde `npm run build` komutu çalıştırıldı ve build işlemi hatasız tamamlandı mı?

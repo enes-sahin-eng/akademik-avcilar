@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { getDictionary, locales, type Locale } from "../../dictionaries/getDictionary";
+import {
+  getDictionary,
+  locales,
+  type Locale,
+} from "../../dictionaries/getDictionary";
 import { Navbar } from "../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../components/course/CourseInfoSection";
@@ -31,8 +35,18 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.ortaokulIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "Middle School English Course | Akademik International" : (lang === 'ar' ? "دورة اللغة الإنجليزية للمرحلة المتوسطة | Akademik International" : "Ortaokul İngilizce Kursu | Akademik International"),
-    description: "Ortaokul öğrencileri için konuşma ve dinleme odaklı, okul başarısını destekleyen İngilizce kursu. Dil becerilerinizi güçlendirin."
+    title:
+      lang === "en"
+        ? "Middle School English Course & Tutoring | Akademik International"
+        : lang === "ar"
+          ? "دورة اللغة الإنجليزية للمرحلة المتوسطة | Akademik International"
+          : "Ortaokul İngilizce Kursu | LGS Hazırlık ve Konuşma Odaklı | Akademik International",
+    description:
+      lang === "en"
+        ? "Conversation-focused English course for middle school students, supporting school grades and high school transition exams. Speak English fluently."
+        : lang === "ar"
+          ? "دورة لغة إنجليزية تركز على المحادثة لطلاب المرحلة المتوسطة، وتدعم الدرجات المدرسية والإعداد للامتحانات. تحدث الإنجليزية بطلاقة."
+          : "Ortaokul (5, 6, 7 ve 8. sınıf) öğrencilerine özel, LGS hazırlık altyapısı sunan ve okul başarısını destekleyen, konuşma odaklı İngilizce kursu.",
   };
 
   return {
@@ -40,63 +54,120 @@ export async function generateMetadata({
     description: meta.description,
     alternates: {
       canonical: `/${lang}/ortaokul-ingilizce-kursu`,
-    }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      locale: lang,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
   };
 }
 
 export default async function OrtaokulIngilizcePage({ params }: PageProps) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
+  const dict = await getDictionary(lang);
+
+  // Dinamik SSS Verisi
+  const faqItems =
+    (dict as any)?.ortaokulIngilizceLandingPage?.faq?.items || [];
 
   return (
     <main>
       <Navbar />
+
+      {/* 1. BREADCRUMBLIST SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Anasayfa",
+                item: "https://www.akademik.com.tr",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Ortaokul İngilizce Kursu",
+                item: `https://www.akademik.com.tr/${lang}/ortaokul-ingilizce-kursu`,
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* 2. COURSE SCHEMA */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Course",
-            "name": "Ortaokul İngilizce Kursu",
-            "description": "Ortaokul öğrencileri için konuşma ve dinleme odaklı, okul başarısını destekleyen İngilizce kursu. Dil becerilerinizi güçlendirin.",
-            "provider": {
+            name: "Ortaokul İngilizce Kursu",
+            description:
+              "Ortaokul (5, 6, 7 ve 8. sınıf) öğrencilerine özel, LGS hazırlık altyapısı sunan ve okul başarısını destekleyen, konuşma odaklı İngilizce kursu.",
+            provider: {
               "@type": "EducationalOrganization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://www.akademik.com.tr"
-            }
-          })
+              name: "Akademik International Yabancı Dil Okulları",
+              sameAs: "https://www.akademik.com.tr",
+            },
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "Blended",
+              location: {
+                "@type": "Place",
+                name: "Akademik International Avcılar",
+                address:
+                  "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+              },
+            },
+          }),
         }}
       />
-      
-      {/* 1. HERO SLIDER */}
+
+      {/* 3. FAQ SCHEMA */}
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqItems.map((item: any) => ({
+                "@type": "Question",
+                name: item.q,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: item.a,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
+
+      {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* 2. COURSE INFO (Badge, Title, Desc, Skills) */}
       <CourseInfoSection courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* NEW: GRADE LEVEL TABS (5,6,7,8) */}
       <GradeLevelTabs courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* 3. PUBLICATIONS SHOWCASE */}
       <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* 4. PLACEMENT TEST BANNER */}
       <PlacementTestBanner />
-
-      {/* 5. WHY US / ADVANTAGES & ACCORDION FAQS */}
       <WhyUsSection courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* NEW: SEO CONTENT BLOCKS (Prices, Online, Yaz Kursu vb) */}
       <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* 6. EDUCATION MODELS */}
       <EducationModels courseKey="ortaokulIngilizceLandingPage" />
-
-      {/* 7. DETAILED FAQ */}
       <CourseFAQ courseKey="ortaokulIngilizceLandingPage" />
-      
-      {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" />
     </main>
   );

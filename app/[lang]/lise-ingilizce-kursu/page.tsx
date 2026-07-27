@@ -10,6 +10,8 @@ import { CourseFAQ } from "../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../components/social/InstagramFeed";
+import { GradeLevelTabs } from "../../components/course/GradeLevelTabs";
+import { SeoContentBlock } from "../../components/course/SeoContentBlock";
 
 interface PageProps {
   params: Promise<{
@@ -29,8 +31,14 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.liseIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "High School English Course | Akademik International" : (lang === 'ar' ? "دورة اللغة الإنجليزية للمدرسة الثانوية | Akademik International" : "Lise İngilizce Kursu | Akademik International"),
-    description: "Lise öğrencileri için konuşma ve dinleme odaklı, okul başarısını destekleyen İngilizce kursu. Dil becerilerinizi güçlendirin."
+    title: 
+      lang === 'en' ? "High School English Course | TOEFL & IELTS Prep | Akademik International" : 
+      (lang === 'ar' ? "دورة اللغة الإنجليزية للمرحلة الثانوية | Akademik International" : 
+      "Lise İngilizce Kursu | YKS-DİL, TOEFL, IELTS Hazırlık | Akademik International"),
+    description: 
+      lang === 'en' ? "High school English course focusing on fluent speaking, school curriculum alignment, and academic exam prep (TOEFL, IELTS, SAT)." : 
+      (lang === 'ar' ? "دورة لغة إنجليزية للمرحلة الثانوية تركز على التحدث بطلاقة، ومواءمة المناهج المدرسية، والإعداد للاختبارات الأكاديمية (TOEFL، IELTS)." : 
+      "Lise öğrencileri için uluslararası standartlarda, okul müfredatına tam uyumlu; YKS-DİL (YDT), TOEFL ve IELTS gibi akademik sınavlara hazırlık destekli konuşma odaklı İngilizce kursu."),
   };
 
   return {
@@ -38,16 +46,59 @@ export async function generateMetadata({
     description: meta.description,
     alternates: {
       canonical: `/${lang}/lise-ingilizce-kursu`,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      locale: lang,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
     }
   };
 }
 
 export default async function LiseIngilizcePage({ params }: PageProps) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
+  const dict = await getDictionary(lang);
+
+  // Dinamik SSS Verisi
+  const faqItems = (dict as any)?.liseIngilizceLandingPage?.faq?.items || [];
 
   return (
     <main>
       <Navbar />
+
+      {/* 1. BREADCRUMBLIST SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Anasayfa",
+                "item": "https://www.akademik.com.tr"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lise İngilizce Kursu",
+                "item": `https://www.akademik.com.tr/${lang}/lise-ingilizce-kursu`
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* 2. COURSE SCHEMA */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -55,40 +106,57 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Lise İngilizce Kursu",
-            "description": "Lise öğrencileri için konuşma ve dinleme odaklı, okul başarısını destekleyen İngilizce kursu. Dil becerilerinizi güçlendirin.",
+            "description": "Lise öğrencileri için uluslararası standartlarda, okul müfredatına tam uyumlu; YKS-DİL (YDT), TOEFL ve IELTS gibi akademik sınavlara hazırlık destekli konuşma odaklı İngilizce kursu.",
             "provider": {
               "@type": "EducationalOrganization",
               "name": "Akademik International Yabancı Dil Okulları",
               "sameAs": "https://www.akademik.com.tr"
+            },
+            "hasCourseInstance": {
+              "@type": "CourseInstance",
+              "courseMode": "Blended",
+              "location": {
+                "@type": "Place",
+                "name": "Akademik International Avcılar",
+                "address": "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
+              }
             }
           })
         }}
       />
+
+      {/* 3. FAQ SCHEMA */}
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqItems.map((item: any) => ({
+                "@type": "Question",
+                name: item.q,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: item.a,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
       
-      {/* 1. HERO SLIDER */}
+      {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="liseIngilizceLandingPage" />
-
-      {/* 2. COURSE INFO (Badge, Title, Desc, Skills) */}
       <CourseInfoSection courseKey="liseIngilizceLandingPage" />
-
-      {/* 3. PUBLICATIONS SHOWCASE */}
+      <GradeLevelTabs courseKey="liseIngilizceLandingPage" />
       <PublicationsShowcase courseKey="liseIngilizceLandingPage" />
-
-      {/* 4. PLACEMENT TEST BANNER */}
       <PlacementTestBanner />
-
-      {/* 5. WHY US / ADVANTAGES & ACCORDION FAQS */}
       <WhyUsSection courseKey="liseIngilizceLandingPage" />
-
-      {/* 6. EDUCATION MODELS */}
+      <SeoContentBlock courseKey="liseIngilizceLandingPage" />
       <EducationModels courseKey="liseIngilizceLandingPage" />
-
-      {/* 7. DETAILED FAQ */}
       <CourseFAQ courseKey="liseIngilizceLandingPage" />
-      
-      {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" />
     </main>
   );
