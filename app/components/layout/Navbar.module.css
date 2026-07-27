@@ -88,8 +88,18 @@
   margin-right: 6px;
 }
 
+.chevron {
+  transition: transform 0.2s ease;
+}
+
 .chevronOpen {
   transform: rotate(180deg);
+}
+
+/* Mobil/tablet akordiyon menülerinde açılan mega menü içeriğinin sarmalayıcısı */
+.mobileDropdownContent {
+  overflow: hidden;
+  width: 100%;
 }
 
 .topBarLink:hover {
@@ -493,6 +503,15 @@
   .mobileCtaWrapper,
   .mobileLangList {
     display: none !important;
+  }
+
+  /* Mobil/tablet akordiyon menüsündeki başlık butonları */
+  .mobileMenu .dropdownContainer {
+    width: 100%;
+  }
+  .mobileMenu .dropdownBtn {
+    width: 100%;
+    justify-content: space-between;
   }
 }
 
