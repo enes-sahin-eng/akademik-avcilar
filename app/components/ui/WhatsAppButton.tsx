@@ -1,20 +1,20 @@
-"use client";
-
 import React from "react";
 import styles from "./WhatsAppButton.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
 interface WhatsAppButtonProps {
   phoneNumber?: string; // Tel numaranız (Örn: 905300000000)
   message?: string; // Tıklandığında hazır gönderilecek mesaj
+  lang: Locale;
 }
 
-export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
+export const WhatsAppButton = async ({
   phoneNumber = "905300000000",
   message,
-}) => {
-  const dict = useDictionary();
-  const whatsappDict = dict?.whatsapp;
+  lang,
+}: WhatsAppButtonProps) => {
+  const dict = await getDictionary(lang);
+  const whatsappDict = (dict as any)?.whatsapp;
 
   const defaultMessage =
     whatsappDict?.message ||

@@ -1,23 +1,20 @@
-"use client";
-
 import React from "react";
-import { motion } from "framer-motion";
 import styles from "./Contact.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import anim from "../motion/animations.module.css";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
-export const ContactCorporate: React.FC = () => {
-  const dict = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const ContactCorporate = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
   const corporateData = dict?.iletisim?.corporate;
 
   if (!corporateData) return null;
 
   return (
-    <motion.div 
-      className={styles.corporateSection}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-    >
+    <div className={`${styles.corporateSection} ${anim.fadeUp}`}>
       <div className={styles.corporateCard}>
         <div className={styles.corporateItem}>
           <div className={styles.corporateTitle}>{corporateData.title1}</div>
@@ -28,6 +25,6 @@ export const ContactCorporate: React.FC = () => {
           <div className={styles.corporateValue}>{corporateData.value2}</div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };

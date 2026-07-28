@@ -1,69 +1,54 @@
-"use client";
-
 import React from "react";
-import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
 import Image from "next/image";
 import styles from "./Contact.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import anim from "../motion/animations.module.css";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
-export const ContactCampuses: React.FC = () => {
-  const dict = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const ContactCampuses = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
   const campusesData = dict?.iletisim?.campuses;
 
   if (!campusesData) return null;
 
   return (
-    <div className={styles.campusesSection}>
-      <motion.h2 
-        className={styles.campusesTitle}
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        {campusesData.title}
-      </motion.h2>
+    <div className={`${styles.campusesSection} ${anim.fadeUp}`}>
+      <h2 className={styles.campusesTitle}>{campusesData.title}</h2>
 
       <div className={styles.campusesGrid}>
         {campusesData.items.map((campus: any, index: number) => (
-          <motion.div 
-            key={index} 
-            className={styles.campusCard}
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.05 }}
-          >
+          <div key={index} className={styles.campusCard}>
             <div className={styles.campusImageWrapper}>
               <div className={styles.campusTopBadge}>{campus.name}</div>
-              <Image 
-                src={campus.image || `https://picsum.photos/seed/campus-${index}/400/400`} 
-                alt={campus.name} title={campus.name} 
+              <Image
+                src={campus.image || `https://picsum.photos/seed/campus-${index}/400/400`}
+                alt={campus.name}
+                title={campus.name}
                 fill
                 quality={100}
                 style={{ objectFit: "cover" }}
-                className={styles.campusImage} 
-                unoptimized={campus.image?.startsWith('http')}
+                className={styles.campusImage}
+                unoptimized={campus.image?.startsWith("http")}
               />
             </div>
             <div className={styles.campusInfoBox}>
               <div className={styles.campusLabel}>{campus.label}</div>
-              <a href={`tel:${campus.phone.replace(/\s/g, '')}`} className={styles.campusPhone}>
+              <a
+                href={`tel:${campus.phone.replace(/\s/g, "")}`}
+                className={styles.campusPhone}
+              >
                 <Phone size={14} /> {campus.phone}
               </a>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
 
-      <motion.button 
-        className={styles.campusApplyBtn}
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        {campusesData.button}
-      </motion.button>
+      <button className={styles.campusApplyBtn}>{campusesData.button}</button>
     </div>
   );
 };

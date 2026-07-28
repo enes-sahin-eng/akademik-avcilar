@@ -6,22 +6,22 @@ import { ContactCorporate } from "../../components/contact/ContactCorporate";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
 export default async function IletisimPage({ params }: PageProps) {
-  await params;
+  const { lang } = await params;
   
   return (
     <div style={{ position: "relative", zIndex: 10, minHeight: "100vh" }}>
       <Navbar />
       
       <div style={{ paddingTop: "70px" }}>
-        <ContactHero />
+        <ContactHero lang={lang} />
         <ContactFormSection />
-        <ContactCampuses />
-        <ContactCorporate />
+        <ContactCampuses lang={lang} />
+        <ContactCorporate lang={lang} />
       </div>
     </div>
   );

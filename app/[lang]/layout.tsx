@@ -130,7 +130,7 @@ export default async function RootLayout({
               }}
             />
             {children}
-            <Footer />
+            <Footer lang={lang} />
           </DictionaryProvider>
         </ThemeProvider>
       </body>

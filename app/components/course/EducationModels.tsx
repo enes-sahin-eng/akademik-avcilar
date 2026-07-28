@@ -1,21 +1,17 @@
-"use client";
-
 import React from "react";
 import styles from "./EducationModels.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { CheckCircle2, Phone, FileText } from "lucide-react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 
 interface Props {
   courseKey: string;
+  lang: Locale;
 }
 
-export const EducationModels = ({ courseKey }: Props) => {
-  const dictionary = useDictionary();
+export const EducationModels = async ({ courseKey, lang }: Props) => {
+  const dictionary = await getDictionary(lang);
   const pageData = (dictionary as any)[courseKey]?.models;
-  const params = useParams();
-  const lang = params?.lang || "tr";
 
   if (!pageData) return null;
 
@@ -36,16 +32,18 @@ export const EducationModels = ({ courseKey }: Props) => {
             </div>
             <div className={styles.cardBody}>
               <ul className={styles.featureList}>
-                {pageData.faceToFace.features?.map((feat: string, index: number) => (
-                  <li key={index} className={styles.featureItem}>
-                    <CheckCircle2 size={18} className={styles.checkIcon} />
-                    <span>{feat}</span>
-                  </li>
-                ))}
+                {pageData.faceToFace.features?.map(
+                  (feat: string, index: number) => (
+                    <li key={index} className={styles.featureItem}>
+                      <CheckCircle2 size={18} className={styles.checkIcon} />
+                      <span>{feat}</span>
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
             <div className={styles.cardFooter}>
-              <a 
+              <a
                 href="https://wa.me/905323609256?text=Merhaba%2C%20y%C3%BCz%20y%C3%BCze%20e%C4%9Fitim%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,16 +67,18 @@ export const EducationModels = ({ courseKey }: Props) => {
             </div>
             <div className={styles.cardBody}>
               <ul className={styles.featureList}>
-                {pageData.online.features?.map((feat: string, index: number) => (
-                  <li key={index} className={styles.featureItem}>
-                    <CheckCircle2 size={18} className={styles.checkIcon} />
-                    <span>{feat}</span>
-                  </li>
-                ))}
+                {pageData.online.features?.map(
+                  (feat: string, index: number) => (
+                    <li key={index} className={styles.featureItem}>
+                      <CheckCircle2 size={18} className={styles.checkIcon} />
+                      <span>{feat}</span>
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
             <div className={styles.cardFooter}>
-              <a 
+              <a
                 href="https://wa.me/905323609256?text=Merhaba%2C%20online%20e%C4%9Fitim%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"

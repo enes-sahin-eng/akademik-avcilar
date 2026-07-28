@@ -15,7 +15,7 @@ import { SeoContentBlock } from "../../components/course/SeoContentBlock";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -148,16 +148,16 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
       
       {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="liseIngilizceLandingPage" />
-      <CourseInfoSection courseKey="liseIngilizceLandingPage" />
+      <CourseInfoSection courseKey="liseIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="liseIngilizceLandingPage" />
-      <PublicationsShowcase courseKey="liseIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="liseIngilizceLandingPage" lang={lang} />
       <PlacementTestBanner />
       <WhyUsSection courseKey="liseIngilizceLandingPage" />
-      <SeoContentBlock courseKey="liseIngilizceLandingPage" />
-      <EducationModels courseKey="liseIngilizceLandingPage" />
-      <CourseFAQ courseKey="liseIngilizceLandingPage" />
+      <SeoContentBlock courseKey="liseIngilizceLandingPage" lang={lang} />
+      <EducationModels courseKey="liseIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="liseIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

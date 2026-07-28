@@ -11,7 +11,7 @@ import InstagramFeed from "../components/social/InstagramFeed";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -25,10 +25,10 @@ export default async function Home({ params }: PageProps) {
       <HeroSlider />
       <MiniGallery />
       <CampusCarousel />
-      <HomeContentSection />
+      <HomeContentSection lang={lang} />
       <StudentReviewsAndAwards />
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
       <LeadFormModal />
       <PlacementTestBanner />
     </div>

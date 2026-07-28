@@ -1,32 +1,26 @@
-"use client";
-
-import React, { useState } from "react";
-import { HelpCircle, Plus } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
+import { HelpCircle } from "lucide-react";
 import styles from "./CourseFAQ.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import anim from "../motion/animations.module.css";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { Accordion } from "../ui/Accordion";
 
 interface CourseFAQProps {
   courseKey: string;
+  lang: Locale;
 }
 
-export const CourseFAQ: React.FC<CourseFAQProps> = ({ courseKey }) => {
-  const dict = useDictionary();
+export const CourseFAQ = async ({ courseKey, lang }: CourseFAQProps) => {
+  const dict = await getDictionary(lang);
   const content = (dict as any)?.[courseKey]?.faq;
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   if (!content) return null;
 
   return (
-    <motion.section 
-      className={styles.faqSectionWrapper}
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-    >
+    <section className={`${styles.faqSectionWrapper} ${anim.fadeUp}`}>
       <div className={styles.container}>
         <div className={styles.faqContainer}>
-          {/* Left Column: Title & Desc (Sticky) */}
+          {/* Left: Title & Desc */}
           <div className={styles.faqHeader}>
             <div className={styles.iconWrapper}>
               <HelpCircle size={28} />
@@ -37,44 +31,10 @@ export const CourseFAQ: React.FC<CourseFAQProps> = ({ courseKey }) => {
             </div>
           </div>
 
-          {/* Right Column: Accordion Items */}
-          <div className={styles.accordion}>
-            {content.items.map((item: any, idx: number) => {
-              const isOpen = openIndex === idx;
-              
-              return (
-                <div key={idx} className={`${styles.accordionItem} ${isOpen ? styles.accordionItemOpen : ""}`}>
-                  <button 
-                    className={`${styles.accordionHeader} ${isOpen ? styles.accordionHeaderOpen : ""}`}
-                    onClick={() => setOpenIndex(isOpen ? null : idx)}
-                  >
-                    {item.q}
-                    <Plus 
-                      size={20} 
-                      className={`${styles.arrowIcon} ${isOpen ? styles.arrowIconOpen : ""}`}
-                    />
-                  </button>
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className={styles.accordionContent}
-                      >
-                        <div className={styles.accordionBody}>
-                          {item.a}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              );
-            })}
-          </div>
+          {/* Right: Accordion */}
+          <Accordion items={content.items} type="course" styles={styles} />
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };

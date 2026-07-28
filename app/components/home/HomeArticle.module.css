@@ -58,12 +58,33 @@
 }
 
 .contentWrapper {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-top: 8px;
+}
+
+/* Kapalı: görsel olarak gizli ama DOM'da mevcut (SEO için) */
+.expandedClosed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.4s ease;
+}
+
+/* Açık: tam görünür */
+.expandedOpen {
+  max-height: 4000px;   /* içerik ne kadar uzun olursa */
+  overflow: visible;
+  opacity: 1;
+  transition: max-height 0.5s ease, opacity 0.4s ease;
+}
+
+.expandableWrapper {
+  overflow: hidden;
 }
 
 .highlightText {
-  color: #fff;
+  color: var(--accent-blue, #3b82f6);
+  font-weight: 700;
 }

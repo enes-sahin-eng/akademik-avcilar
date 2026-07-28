@@ -1,11 +1,9 @@
-"use client";
-
-import React, { useState } from "react";
-import { HeadphonesIcon, Check } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
+import { HeadphonesIcon } from "lucide-react";
 import styles from "./Footer.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 import Image from "next/image";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { NewsletterForm } from "./NewsletterForm";
 
 const campuses = [
   { name: "Kadıköy İngilizce Dil Kursu", badge: false },
@@ -56,30 +54,15 @@ const languages = [
   { img: "/flags/flemenkçe.webp", name: "Felemenkçe Dil Kursu" }
 ];
 
-export const Footer: React.FC = () => {
-  const dict = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const Footer = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
   const footerData = dict?.footer;
 
-  const [email, setEmail] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
-
   if (!footerData) return null;
-
-  const handleSubscribe = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-
-    setIsSubmitting(true);
-    
-    // TODO: Gerçek e-posta gönderimi için buraya API entegrasyonu gelecek (Örn: fetch('/api/subscribe'))
-    // Şu anlık sadece frontend simülasyonu yapıyoruz.
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setEmail("");
-  };
 
   return (
     <footer className={styles.footerContainer}>
@@ -132,33 +115,7 @@ export const Footer: React.FC = () => {
         
         {/* MIDDLE SECTION */}
         <div className={styles.middleSection}>
-          <div>
-            <div className={styles.columnTitle}>{footerData.newsletterTitle}</div>
-            <p className={styles.middleDesc}>{footerData.newsletterDesc}</p>
-            <form className={styles.newsletterForm} onSubmit={handleSubscribe}>
-              <div className={styles.inputWrapper}>
-                <input 
-                  type="email" 
-                  placeholder={footerData.emailPlaceholder} 
-                  className={styles.emailInput} 
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-                <button type="submit" className={styles.sendBtn} disabled={isSubmitting}>
-                  {isSubmitting ? "..." : footerData.sendBtn}
-                </button>
-              </div>
-              <label className={styles.checkboxLabel}>
-                <input type="checkbox" required />
-                <span>{footerData.checkbox1}</span>
-              </label>
-              <label className={styles.checkboxLabel}>
-                <input type="checkbox" required />
-                <span>{footerData.checkbox2}</span>
-              </label>
-            </form>
-          </div>
+          <NewsletterForm footerData={footerData} />
           
           <div>
             <div className={styles.columnTitle}>{footerData.socialTitle}</div>
@@ -257,32 +214,6 @@ export const Footer: React.FC = () => {
         </div>
         
       </div>
-
-      {/* SUCCESS MODAL */}
-      <AnimatePresence>
-        {showSuccess && (
-          <div className={styles.modalOverlay}>
-            <motion.div 
-              className={styles.successModal}
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.8 }}
-            >
-              <div className={styles.checkCircle}>
-                <Check size={40} className={styles.checkIcon} />
-              </div>
-              <h3 className={styles.modalTitle}>Başarılı</h3>
-              <p className={styles.modalDesc}>Abonelik Talebiniz Alınmıştır</p>
-              <button 
-                onClick={() => setShowSuccess(false)}
-                className={styles.modalCloseBtn}
-              >
-                Tamam
-              </button>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
     </footer>
   );
 };

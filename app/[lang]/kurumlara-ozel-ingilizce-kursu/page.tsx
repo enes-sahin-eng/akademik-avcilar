@@ -19,7 +19,7 @@ import { SeoContentBlock } from "@/app/components/course/SeoContentBlock";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -121,19 +121,19 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
 
       {/* BİLEŞENLER (Tüm courseKey değerleri kurumsalIngilizceLandingPage olarak değiştirildi) */}
       <CourseHeroSlider courseKey="kurumsalIngilizceLandingPage" />
-      <CourseInfoSection courseKey="kurumsalIngilizceLandingPage" />
+      <CourseInfoSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="kurumsalIngilizceLandingPage" />
-      <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <PlacementTestBanner />
       <WhyUsSection courseKey="kurumsalIngilizceLandingPage" />
-      <EducationModels courseKey="kurumsalIngilizceLandingPage" />
-      <CourseFAQ courseKey="kurumsalIngilizceLandingPage" />
+      <EducationModels courseKey="kurumsalIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="kurumsalIngilizceLandingPage" lang={lang} />
 
       {/* YENİ: SEMANTİK SEO İÇERİK ALANI */}
-      <SeoContentBlock courseKey="kurumsalIngilizceLandingPage" />
+      <SeoContentBlock courseKey="kurumsalIngilizceLandingPage" lang={lang} />
 
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

@@ -8,6 +8,10 @@ const localeCookieName = "NEXT_LOCALE";
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
+  // Statik dosyaları (favicon, resimler, fontlar, vs.) middleware'den geç — locale mantığını atla
+  const isStaticFile = /\.(?:ico|png|jpg|jpeg|gif|webp|svg|css|js|woff2?|ttf|eot|map|txt|xml|json)$/i.test(pathname);
+  if (isStaticFile) return NextResponse.next();
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
@@ -50,6 +54,6 @@ export const config = {
      * - favicon.ico, robots.txt, sitemap.xml, manifest.json (SEO için kritik, redirect edilmemeli)
      * - Uzantılı tüm statik dosyalar (.png, .jpg, .svg, .css, .js vs)
      */
-    "/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|manifest.json|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot)$).*)",
+    "/((?!api|_next/static|_next/image|_next/webpack-hmr|favicon.ico|robots.txt|sitemap.xml|manifest.json|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot|map)$).*)",
   ],
 };

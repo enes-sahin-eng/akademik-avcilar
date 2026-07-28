@@ -2746,8 +2746,8 @@
       ]
     },
     "publications": {
-      "title": "Akademik International Kurum Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "title": "Özel Ders Öğrencilerine Özgü Yayınlarımız",
+      "subtitle": "Seviyeye Uygun Dizayn, Kişiselleştirilmiş İçerikler, Yenilikçi Yaklaşım",
       "features": [
         "Yaş Grubuna Uygun Dizayn",
         "Ortaokula Özgü İçerikler",
@@ -3195,8 +3195,8 @@
       "title": "Kurumsal İngilizce Kursu | Akademik International",
       "description": "Kurumsal İngilizce, iş dünyasında etkili iletişim kurabilmek ve profesyonel ilişkileri geliştirebilmek için kullanılan özel bir dil becerisidir."
     }
-},
-"tercumeHizmetiLandingPage": {
+  },
+  "tercumeHizmetiLandingPage": {
     "hero": {
       "tag": "YEMİNLİ TERCÜME HİZMETİ",
       "title": "Profesyonel Tercüme Hizmetleri",
@@ -3443,5 +3443,5 @@
         "summary": "Yapılan bu titiz çalışmalar sayesinde, pek çok kurumsal ve bireysel ihtiyaçlarınız sorunsuz bir şekilde çözüme ulaşmış olacaktır."
       }
     ]
-}
+  }
 }

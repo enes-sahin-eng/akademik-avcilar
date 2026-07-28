@@ -1,0 +1,22 @@
+/* Tüm text içerik bileşenleri için ortak fade-up CSS animasyonu.
+   Framer-motion kullanılmaz — böylece SSR HTML'de opacity:0 olmaz. */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeUp {
+  animation: fadeUp 0.55s ease forwards;
+}
+
+.fadeUp1 { animation: fadeUp 0.55s 0.05s ease both; }
+.fadeUp2 { animation: fadeUp 0.55s 0.15s ease both; }
+.fadeUp3 { animation: fadeUp 0.55s 0.25s ease both; }
+.fadeUp4 { animation: fadeUp 0.55s 0.35s ease both; }
