@@ -4,38 +4,37 @@ import React, { useState } from "react";
 import styles from "./WhyUsSection.module.css";
 import { useDictionary } from "../../../src/context/DictionaryContext";
 import { ChevronDown } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 import { AnimatedAdvantageStack } from "./AnimatedAdvantageStack";
 
-const AccordionItem = ({ q, a, isOpen, onClick }: { q: string, a: string, isOpen: boolean, onClick: () => void }) => {
+const AccordionItem = ({
+  q,
+  a,
+  isOpen,
+  onClick,
+}: {
+  q: string;
+  a: string;
+  isOpen: boolean;
+  onClick: () => void;
+}) => {
   return (
     <div className={styles.accordionItem}>
-      <button 
-        className={styles.accordionHeader} 
+      <button
+        className={styles.accordionHeader}
         onClick={onClick}
         aria-expanded={isOpen}
       >
         <span>{q}</span>
-        <ChevronDown 
-          size={20} 
-          className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ""}`} 
+        <ChevronDown
+          size={20}
+          className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ""}`}
         />
       </button>
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
-            style={{ overflow: "hidden" }}
-          >
-            <div className={styles.accordionContent}>
-              {a}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+
+      {/* Framer Motion silindi. HTML DOM'da hep var, sadece CSS ile gizleniyor */}
+      <div className={isOpen ? styles.contentOpen : styles.contentClosed}>
+        <div className={styles.accordionContent}>{a}</div>
+      </div>
     </div>
   );
 };
@@ -62,13 +61,16 @@ export const WhyUsSection = ({ courseKey }: Props) => {
         <div className={styles.contentWrapper}>
           {/* Left: Animated Card Stack for Advantages */}
           <div className={styles.advantagesGrid}>
-            <AnimatedAdvantageStack advantages={pageData.advantages} btnNext={pageData.btnNext} />
+            <AnimatedAdvantageStack
+              advantages={pageData.advantages}
+              btnNext={pageData.btnNext}
+            />
           </div>
 
           {/* Right: Accordion FAQs */}
           <div className={styles.accordionContainer}>
             {pageData.faqs?.map((faq: any, index: number) => (
-              <AccordionItem 
+              <AccordionItem
                 key={index}
                 q={faq.q}
                 a={faq.a}
