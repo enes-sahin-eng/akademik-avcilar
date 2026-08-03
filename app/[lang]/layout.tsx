@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {
@@ -41,9 +42,10 @@ export async function generateMetadata({
   params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   const { lang: rawLang } = await params;
-  const lang = (
-    locales.includes(rawLang as Locale) ? rawLang : defaultLocale
-  ) as Locale;
+  if (!locales.includes(rawLang as Locale)) {
+    notFound();
+  }
+  const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
   const title: string = dict?.meta?.title ?? "Avcılar Frontend";
@@ -110,9 +112,10 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang: rawLang } = await params;
-  const lang = (
-    locales.includes(rawLang as Locale) ? rawLang : defaultLocale
-  ) as Locale;
+  if (!locales.includes(rawLang as Locale)) {
+    notFound();
+  }
+  const lang = rawLang as Locale;
   const dictionary = await getDictionary(lang);
 
   const direction = lang === "ar" ? "rtl" : "ltr";

@@ -9,8 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/iletisim",
+    // Genel İngilizce
     "/ingilizce-kursu",
-    "/akademik-ingilizce-kursu",
     "/temel-ingilizce-kursu-hazirlik",
     "/temel-ingilizce-kursu-hazirlik-plus",
     "/academic-express-ingilizce-kursu",
@@ -20,7 +20,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/ortaokul-ingilizce-kursu",
     "/lise-ingilizce-kursu",
     "/ingilizce-ozel-ders",
-    "/kurumsal-ingilizce",
+    "/kurumlara-ozel-ingilizce-kursu",
+    // Akademik Sınav Hazırlık (İngilizce)
+    "/akademik-ingilizce-kursu",
+    "/yds-hazirlik-kursu",
+    "/yokdil-hazirlik-kursu",
+    "/yks-dil-ydt-hazirlik-kursu",
+    "/ielts-hazirlik-kursu",
+    "/toefl-hazirlik-kursu",
+    "/toeic-hazirlik-kursu",
+    "/gre-sinavi-hazirlik-kursu",
+    "/gmat-hazirlik-kursu",
+    "/itep-hazirlik-kursu",
+    "/ingilizce-hazirlik-atlama",
+    "/e-tep-sinavi-nedir",
+    // Almanca Sınav Hazırlık
+    "/testdaf-almanca-kursu",
+    "/almanca-goethe-sinavi-hazirlik-kursu",
+    "/osd-almanca-dil-sertifikasi-kursu",
+    // Diğer
     "/tercume-hizmeti",
   ];
 
@@ -40,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: "2026-07-27", // Her build'de değişmemesi için sabit yayın tarihi
+        lastModified: "2026-08-03",
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,

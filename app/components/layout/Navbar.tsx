@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./Navbar.module.css";
 import { useDictionary } from "../../../src/context/DictionaryContext";
 import { MegaMenuGenelIngilizce } from "./MegaMenuGenelIngilizce";
@@ -297,7 +298,7 @@ export const Navbar = () => {
         >
           <div className={styles.container}>
             {/* LOGO */}
-            <a href={`/${currentLocale}`} className={styles.logo}>
+            <Link href={`/${currentLocale}`} className={styles.logo}>
               <Image
                 src="/brand/logo.png"
                 alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
@@ -307,7 +308,7 @@ export const Navbar = () => {
                 className={styles.mainLogo}
                 priority
               />
-            </a>
+            </Link>
 
             {/* MASAÜSTÜ LİNKLERİ */}
             <div className={styles.navLinks}>
@@ -423,9 +424,9 @@ export const Navbar = () => {
               </div>
 
               {/* İletişim */}
-              <a href={`/${currentLocale}/iletisim`} className={styles.link}>
+              <Link href={`/${currentLocale}/iletisim`} className={styles.link}>
                 {navDict?.navContact || "İletişim"}
-              </a>
+              </Link>
             </div>
 
             {/* SAĞ GRUP (Girişler ve Mobil Buton) */}
@@ -747,9 +748,9 @@ export const Navbar = () => {
                   )}
                 </AnimatePresence>
               </div>
-              <a href={`/${currentLocale}/iletisim`} className={styles.link}>
+              <Link href={`/${currentLocale}/iletisim`} className={styles.link}>
                 {navDict?.navContact || "İletişim"}
-              </a>
+              </Link>
 
               <div className={styles.mobileCtaWrapper}>
                 <a href="#" className={styles.ctaBtnMobile}>

@@ -54,7 +54,7 @@ export async function generateMetadata({
     title: meta.title,
     description: meta.description,
     alternates: {
-      canonical: `/${lang}/kurumsal-ingilizce`,
+      canonical: `/${lang}/kurumlara-ozel-ingilizce-kursu`,
     },
     // Open Graph ve Twitter kartları için ekstra SEO gücü eklenebilir
     openGraph: {

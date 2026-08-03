@@ -30,7 +30,6 @@ export const HomeContentSection = async ({ lang }: Props) => {
 
         {/* Sağ kolon */}
         <div className={styles.rightColumn}>
-          <UpcomingProgramsTable lang={lang} />
           <Leaderboard />
           <MapsEmbed />
         </div>
@@ -41,6 +40,8 @@ export const HomeContentSection = async ({ lang }: Props) => {
       {programsTitle && (
         <h2 className={styles.programsTitle}>{programsTitle}</h2>
       )}
+      
+      <UpcomingProgramsTable lang={lang} />
     </section>
   );
 };

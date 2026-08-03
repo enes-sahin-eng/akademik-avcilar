@@ -172,12 +172,12 @@ export const MegaMenuGenelIngilizce: React.FC = () => {
             else if (idx === 2) href = `/${currentLocale}/tercume-hizmeti`;
 
             return (
-              <a href={href} key={idx} className={styles.bottomLink}>
+              <Link href={href} key={idx} className={styles.bottomLink}>
                 {idx === 0 && <UserSquare size={20} />}
                 {idx === 1 && <Building size={20} />}
                 {idx === 2 && <Languages size={20} />}
                 <span>{link.title}</span>
-              </a>
+              </Link>
             );
           })}
         </div>
