@@ -22,10 +22,10 @@ const campuses = [
 ];
 
 const programs = [
-  { name: "Kadıköy Almanca Kursu", href: "#" },
-  { name: "Almanca Aile Birleşimi Kursu", href: "#" },
-  { name: "İzmir Almanca Aile Birleşimi Kursu", href: "#" },
-  { name: "Beşiktaş Fransızca Kursu", href: "#" },
+  { name: "Kadıköy Almanca Kursu", href: "/kadikoy-almanca-kursu" },
+  { name: "Almanca Aile Birleşimi Kursu", href: "/almanca-aile-birlesimi-kursu" },
+  { name: "İzmir Almanca Aile Birleşimi Kursu", href: "/izmir-almanca-aile-birlesimi-kursu" },
+  { name: "Beşiktaş Fransızca Kursu", href: "/fransizca-kursu-besiktas" },
   { name: "Prep Temel İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik" },
   { name: "Prep Plus İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik-plus" },
   { name: "Academic Express Kursu", href: "/academic-express-ingilizce-kursu" },
@@ -42,26 +42,25 @@ const programs = [
   { name: "IELTS Hazırlık Kursu", href: "/ielts-hazirlik-kursu" },
   { name: "TOEIC Hazırlık Kursu", href: "/toeic-hazirlik-kursu" },
   { name: "Hazırlık Atlama Kursu - Proficiency", href: "/ingilizce-hazirlik-atlama" },
-  { name: "İş İngilizcesi", href: "#" },
+  { name: "İş İngilizcesi", href: "/is-ingilizcesi" },
   { name: "İlköğretim İngilizce Kursu", href: "/ilkogretim-ingilizce-kursu" },
   { name: "Ortaokul İngilizce Kursu | 5-8. Sınıflar İçin Konuşma Odaklı Eğitim", href: "/ortaokul-ingilizce-kursu" },
   { name: "Lise İngilizce (Teens)", href: "/lise-ingilizce-kursu" },
   { name: "GMAT", href: "/gmat-hazirlik-kursu" },
-  { name: "Havacılık İngilizce Kursu", href: "#" },
+  { name: "Havacılık ve Pilotluk İngilizcesi Kursu", href: "/havacilik-pilotluk-ingilizcesi-kursu" },
   { name: "ITEP Hazırlık Kursu", href: "/itep-hazirlik-kursu" },
   { name: "GRE Sınavı Hazırlık Kursu", href: "/gre-sinavi-hazirlik-kursu" },
   { name: "ÖSD Almanca Dil Sertifikası Kursu", href: "/osd-almanca-dil-sertifikasi-kursu" },
   { name: "Almanca Goethe Sınavı Hazırlık Kursu", href: "/almanca-goethe-sinavi-hazirlik-kursu" },
-  { name: "TestDAF Almanca Kursu", href: "/tesdaf-almanca-kursu" },
-  { name: "SAT Kursu", href: "#" },
-  { name: "PTE Kursu", href: "#" },
-  { name: "CAE Kursu", href: "#" },
-  { name: "TOEFL Kursu", href: "/toefl-hazirlik-kursu" },
-  { name: "CILS Kursu", href: "#" },
-  { name: "TEF Kursu", href: "#" },
-  { name: "TELC Kursu", href: "#" },
-  { name: "E-TEP Sınavı Nedir?", href: "/e-tep-sinavi-nedir" },
-  { name: "ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi", href: "/e-tep-sinavi-nedir" }
+  { name: "TestDaF Almanca Kursu", href: "/testdaf-almanca-kursu" },
+  { name: "SAT Kursu", href: "/sat-kursu" },
+  { name: "PTE Kursu", href: "/pte-kursu" },
+  { name: "CAE Kursu", href: "/cae-kursu" },
+  { name: "TORFL Kursu", href: "/torfl-kursu" },
+  { name: "CILS Kursu", href: "/cils-kursu" },
+  { name: "TEF Kursu", href: "/tef-kursu" },
+  { name: "TELC Kursu", href: "/telc-kursu" },
+  { name: "E-TEP Sınavı Nedir? - ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi", href: "/e-tep-sinavi-nedir" }
 ];
 
 const languages = [

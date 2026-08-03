@@ -24,6 +24,8 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Lise İngilizce Kursu](https://avcilarakademik.com.tr/lise-ingilizce-kursu): Lise öğrencileri için YKS-DİL, TOEFL ve IELTS destekli İngilizce kursu.
 - [İngilizce Özel Ders](https://avcilarakademik.com.tr/ingilizce-ozel-ders): Yabancı eğitmenlerle birebir, ihtiyaca özel İngilizce eğitim programı.
 - [Kurumsal İngilizce Kursu](https://avcilarakademik.com.tr/kurumlara-ozel-ingilizce-kursu): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
+- [İş İngilizcesi Kursu (Business English)](https://avcilarakademik.com.tr/is-ingilizcesi): İş görüşmelerinden sunumlara, e-posta yazışmalarından toplantılara kadar her alanda profesyonel iletişim becerileri kazandıran iş ingilizcesi eğitimi.
+- [Havacılık ve Pilotluk İngilizcesi Kursu](https://avcilarakademik.com.tr/havacilik-pilotluk-ingilizcesi-kursu): Pilot, kabin memuru ve havacılık sektörü çalışanları için ICAO Level 4-6 standartlarında havacılık terminolojisi, mülakat ve 4 becerili hazırlık programı.
 
 ## Akademik Sınav Hazırlık Kursları (İngilizce)
 - [YDS Hazırlık Kursu](https://avcilarakademik.com.tr/yds-hazirlik-kursu): Akademik kariyer ve dil tazminatı hedefleri için YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) hazırlık programı.
@@ -37,11 +39,28 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [iTEP Hazırlık Kursu](https://avcilarakademik.com.tr/itep-hazirlik-kursu): Yurt dışında eğitim veya çalışmak isteyenler için iTEP sınav formatına tam uyumlu hazırlık programı.
 - [Üniversite Hazırlık Atlama (Proficiency)](https://avcilarakademik.com.tr/ingilizce-hazirlik-atlama): 78 üniversitenin müfredatını takip eden yoğun Proficiency hazırlık programı; hazırlık sınıfını atla, kariyerine 1 yıl erken başla.
 - [E-TEP Sınavı Nedir?](https://avcilarakademik.com.tr/e-tep-sinavi-nedir): ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP hakkında detaylı bilgi ve hazırlık kursu.
+- [SAT Hazırlık Kursu](https://avcilarakademik.com.tr/sat-kursu): Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak isteyen adaylar için SAT hazırlık kursu.
+- [PTE Hazırlık Kursu](https://avcilarakademik.com.tr/pte-kursu): Pearson Test of English (PTE) sınavına uzman eğitmen kadromuzla hazırlanarak hedeflediğiniz skora kısa sürede ulaşın.
+- [CAE Hazırlık Kursu](https://avcilarakademik.com.tr/cae-kursu): Cambridge English Advanced (CAE) sınavına uzman eğitmen kadromuzla hazırlanın, İngilizce yetkinliğinizi uluslararası arenada belgeleyin.
 
 ## Almanca Sınav Hazırlık Kursları
 - [TestDaF Almanca Kursu](https://avcilarakademik.com.tr/testdaf-almanca-kursu): Almanya'daki üniversitelerde eğitim için uluslararası düzeyde Almanca dil yeterliliğini kanıtlamak isteyen adaylar için TestDaF hazırlık programı.
-- [Goethe Sınavı Hazırlık Kursu](https://avcilarakademik.com.tr/almanca-goethe-sinavi-hazirlik-kursu): Aile birleşimi, iş başvuruları ve eğitim kurumları için A1-C2 seviyelerinde Goethe sınavı hazırlık programı.
-- [ÖSD Almanca Dil Sertifikası Kursu](https://avcilarakademik.com.tr/osd-almanca-dil-sertifikasi-kursu): Tüm dünyada geçerli, üniversite kayıtları ve oturma/çalışma izni başvuruları için iletişim odaklı ÖSD hazırlık programı.
+- [Goethe Sınavı Hazırlık Kursu](https://avcilarakademik.com.tr/almanca-goethe-sinavi-hazirlik-kursu): Goethe-Institut sertifikası alarak Almanya'da eğitim veya çalışma hayatına adım atmak isteyenler için hazırlık kursu.
+- [ÖSD Almanca Dil Sertifikası Kursu](https://avcilarakademik.com.tr/osd-almanca-dil-sertifikasi-kursu): Avusturya ve Almanya başta olmak üzere Almanca konuşulan ülkelerde geçerli ÖSD sertifikası hazırlık programı.
+
+## Diğer Sınav Hazırlık Kursları
+- [TORFL Hazırlık Kursu (Rusça)](https://avcilarakademik.com.tr/torfl-kursu): Rusya Eğitim Bakanlığı onaylı, CEFR uyumlu Test of Russian as a Foreign Language (TORFL) sınavına uzman eğitmenlerle hazırlanın.
+- [CILS Hazırlık Kursu (İtalyanca)](https://avcilarakademik.com.tr/cils-kursu): İtalya'da eğitim ve vatandaşlık için gerekli CILS sınavına uzman eğitmen kadromuzla hazırlanın.
+- [TEF Hazırlık Kursu (Fransızca)](https://avcilarakademik.com.tr/tef-kursu): Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın.
+- [TELC Hazırlık Kursu](https://avcilarakademik.com.tr/telc-kursu): Avrupa genelinde süresiz geçerli TELC dil sertifikası sınavlarına (Almanca ve diğer diller) hazırlık kursumuzla hedeflerinize ulaşın.
+
+## Amaca Yönelik Almanca Programları
+- [Almanca Aile Birleşimi Kursu](https://avcilarakademik.com.tr/almanca-aile-birlesimi-kursu): Almanya'ya aile birleşimi vizesi başvurusu yapacak adaylar için A1 seviyesinde konuşma ve dinleme odaklı, resmi vize sınavına yönelik hazırlık programı.
+- [İzmir Almanca Aile Birleşimi Kursu](https://avcilarakademik.com.tr/izmir-almanca-aile-birlesimi-kursu): İzmir ve çevresinden Almanya aile birleşimi vizesine başvuracak adaylar için Ege bölgesine özel A1 seviyesi konuşma odaklı hazırlık programı.
+
+## Lokasyon Bazlı Dil Kursları
+- [Kadıköy Almanca Kursu](https://avcilarakademik.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlığı ve esnek programlarla Almanca eğitim.
+- [Beşiktaş Fransızca Kursu](https://avcilarakademik.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlığı ve konuşma odaklı Fransızca eğitim.
 
 ## Diğer Hizmetler
 - [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.

@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.tableSection {
+  background: var(--surface-default);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.desc {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.dataTable th {
+  background-color: var(--surface-hover);
+  color: var(--text-primary);
+  font-weight: 700;
+  padding: 16px;
+  border-bottom: 2px solid var(--border-subtle);
+  white-space: nowrap;
+}
+
+.dataTable td {
+  padding: 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+
+.dataTable tr:last-child td {
+  border-bottom: none;
+}
+
+.dataTable tbody tr:hover {
+  background-color: var(--surface-hover);
+  transition: background-color 0.2s ease;
+}
+
+.termCell {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.contentCell {
+  white-space: pre-line;
+  line-height: 1.5;
+}
+
+.footerText {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .tableSection {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 22px;
+  }
+  
+  .dataTable th, .dataTable td {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

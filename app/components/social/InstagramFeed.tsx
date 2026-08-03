@@ -70,7 +70,7 @@ async function getInstagramPosts(): Promise<InstagramPost[]> {
   ];
 }
 
-import { getDictionary, Locale, defaultLocale } from "../../dictionaries/getDictionary";
+import { getDictionary, defaultLocale, type Locale } from "../../dictionaries/getDictionary";
 
 export default async function InstagramFeed({ lang }: { lang?: string }) {
   const currentLang = (lang as Locale) || defaultLocale;

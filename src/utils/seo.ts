@@ -33,35 +33,3 @@ export const getOrganizationSchema = (siteUrl: string) => {
     }
   };
 };
-
-export const getCourseSchema = (siteUrl: string, courseName: string, courseDesc: string, urlPath: string) => {
-  const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
-  
-  return {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": courseName,
-    "description": courseDesc,
-    "provider": {
-      "@type": "Organization",
-      "name": "Akademik International Yabancı Dil Okulları",
-      "sameAs": baseUrl
-    },
-    "url": `${baseUrl}${urlPath}`
-  };
-};
-
-export const getBreadcrumbSchema = (siteUrl: string, items: {name: string, path: string}[]) => {
-  const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
-  
-  return {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": items.map((item, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": item.name,
-      "item": `${baseUrl}${item.path}`
-    }))
-  };
-};
