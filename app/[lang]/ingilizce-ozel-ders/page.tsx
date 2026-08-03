@@ -18,7 +18,7 @@ import { GradeLevelTabs } from "../../components/course/GradeLevelTabs";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -96,13 +96,13 @@ export default async function OzelDersPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="ozelDersLandingPage" />
 
       {/* 2. COURSE INFO (Badge, Title, Desc, Skills) */}
-      <CourseInfoSection courseKey="ozelDersLandingPage" />
+      <CourseInfoSection courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* NEW: GRADE LEVEL TABS (5,6,7,8) */}
       <GradeLevelTabs courseKey="ozelDersLandingPage" />
 
       {/* 3. PUBLICATIONS SHOWCASE */}
-      <PublicationsShowcase courseKey="ozelDersLandingPage" />
+      <PublicationsShowcase courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 4. PLACEMENT TEST BANNER */}
       <PlacementTestBanner />
@@ -111,15 +111,15 @@ export default async function OzelDersPage({ params }: PageProps) {
       <WhyUsSection courseKey="ozelDersLandingPage" />
 
       {/* 6. EDUCATION MODELS */}
-      <EducationModels courseKey="ozelDersLandingPage" />
+      <EducationModels courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 7. DETAILED FAQ */}
-      <CourseFAQ courseKey="ozelDersLandingPage" />
+      <CourseFAQ courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
 
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

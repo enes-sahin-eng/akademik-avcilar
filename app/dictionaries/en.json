@@ -92,76 +92,90 @@
       {
         "title": "YDS",
         "subtitle": "For Academic Career",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/yds-hazirlik-kursu"
       },
       {
         "title": "IELTS",
         "subtitle": "English Language Level Determination",
-        "icon": "Book"
+        "icon": "Book",
+        "href": "/ielts-hazirlik-kursu"
       },
       {
         "title": "YKS DİL (YDT)",
         "subtitle": "To Study Language at University",
-        "icon": "BookOpen"
+        "icon": "BookOpen",
+        "href": "/yks-dil-ydt-hazirlik-kursu"
       },
       {
         "title": "iTEP",
         "subtitle": "Measure Your Language Proficiency",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/itep-hazirlik-kursu"
       },
       {
         "title": "GRE",
         "subtitle": "For Academic Career Abroad",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/gre-sinavi-hazirlik-kursu"
       }
     ],
     "col2": [
       {
-        "title": "TESDAF",
+        "title": "TestDaF",
         "subtitle": "For Higher Education in Germany",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/testdaf-almanca-kursu"
       },
       {
         "title": "PROFICIENCY COURSE",
         "subtitle": "For Those Who Want to Skip Prep",
-        "icon": "Award"
+        "icon": "Award",
+        "href": "/ingilizce-hazirlik-atlama"
       },
       {
         "title": "YÖKDİL",
         "subtitle": "For Academic Career",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/yokdil-hazirlik-kursu"
       },
       {
         "title": "TOEFL",
         "subtitle": "For Those Seeking Master's Degree",
-        "icon": "Trophy"
+        "icon": "Trophy",
+        "href": "/toefl-hazirlik-kursu"
       },
       {
         "title": "TOEIC",
         "subtitle": "For Proficiency Exam",
-        "icon": "PenTool"
+        "icon": "PenTool",
+        "href": "/toeic-hazirlik-kursu"
       }
     ],
     "col3": [
       {
         "title": "GMAT",
         "subtitle": "For Academic Career Abroad",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/gmat-hazirlik-kursu"
       },
       {
         "title": "GOETHE EXAM",
         "subtitle": "See Your German Level",
-        "icon": "Award"
+        "icon": "Award",
+        "href": "/almanca-goethe-sinavi-hazirlik-kursu"
       },
       {
         "title": "ÖSD",
         "subtitle": "For Job and Career in Germany",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/osd-almanca-dil-sertifikasi-kursu"
       },
       {
         "title": "E-TEP",
         "subtitle": "ÖSYM's Four-Skill English Proficiency Test",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/e-tep-sinavi-nedir"
       }
     ]
   },
@@ -500,64 +514,44 @@
       "readLess": "Hide Content",
       "expandedContent": [
         {
-          "type": "p",
-          "text": "Her şeyden önce, İngilizce dünyanın en yaygın konuşulan dillerinden biridir. Küresel bir dil olmasının yanı sıra, İngilizce aynı zamanda iş dünyasının da ortak dilidir. Şirketler artık çalışanlarında İngilizce dil becerilerini bir gereklilik olarak görmektedir. Uluslararası firmalarda çalışmayı hedefliyorsanız, ya da kendi işinizi büyütüp yurt dışına açılmayı düşünüyorsanız, İngilizce bilmek sizin için çok önemli bir avantaj olacaktır. İngilizce bilginiz, sizi iş görüşmelerinde birkaç adım öne çıkarabilir."
+          "type": "h3",
+          "text": "Why is Learning English Important?"
         },
         {
           "type": "p",
-          "text": "Avcılar'da En İyi İngilizce Kursu sıralamasında listenin üst sırasında bulunan Akademik International Dil Kursu bu alandaki ihtiyaçlarınızı karşılamak için çeşitli kurs programları sunmaktadır. Akademik International Yabancı Dil Kursu, alanında deneyimli eğitmenleri ve son teknoloji kaynaklarıyla size etkili bir öğrenme deneyimi vaat etmektedir. Dil öğrenim sürecinizi hızlandırmak ve pratik yapmak için ideal bir ortam sağlayan okulumuz, size dört dil becerisinde (dinleme, okuma, yazma ve konuşma) yetkinlik kazandırmayı hedefler."
-        },
-        {
-          "type": "p",
-          "text": "Bunun yanı sıra, İngilizce bilmek akademik kariyerinizde de büyük bir rol oynayabilir. Yüksek lisans veya doktora gibi ileri eğitim fırsatları için genellikle İngilizce yeterlilik şartı aranmaktadır. Ayrıca, birçok uluslararası bilimsel makale İngilizce yazılmakta olduğundan, İngilizce bilginizle bu araştırmalara kolaylıkla ulaşabilir ve akademik çalışmalarınızı daha geniş bir perspektifle sürdürebilirsiniz. Avcılar İngilizce Kursları, bu alandaki becerilerinizi de geliştirmede size yardımcı olabilir."
-        },
-        {
-          "type": "p",
-          "text": "Eğitim ve iş haricinde, İngilizce bilmek seyahat ederken de büyük bir kolaylık sağlar. Yurtdışında bir destinasyonu ziyaret ederken yerel halkla iletişim kurabilmek ve daha derin bir kültürel deneyime sahip olmak için İngilizce bilmek çok işinize yarayacaktır. Turistik yerlerde en yaygın iletişim dili olan İngilizce, yurt dışı seyahatlerinizi rahat ve keyifli hale getirebilir. Avcılar İngilizce Kursu, bu tür pratik yaşam senaryolarına yönelik ders içerikleriyle, gerçek yaşamda ihtiyaç duyabileceğiniz dil becerilerini geliştirmenize imkan tanır."
-        },
-        {
-          "type": "p",
-          "text": "İngilizce öğrenmek pek çok açıdan değerlidir ve hayatınızı birçok alanda olumlu şekilde etkileyebilir. Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu olan Akademik International Yabancı Dil Kursu, bu yolculukta en iyi çözüm ortağınız olabilir. Kendinize yapacağınız bu kalıcı yatırımla, hem kariyerinizi hem de kişisel yaşamınızı zenginleştirebilirsiniz."
+          "text": "First of all, English is one of the most widely spoken languages in the world. Besides being a global language, English is also the common language of the business world. Companies now consider English language skills as a requirement for their employees. If you aim to work in international firms, or if you plan to expand your own business abroad, knowing English will be a very important advantage for you. Your knowledge of English can put you a few steps ahead in job interviews."
         },
         {
           "type": "h3",
-          "text": "Avcılar İngilizce Kursu Fiyatları"
+          "text": "Cultural and Academic Benefits"
         },
         {
           "type": "p",
-          "text": "Avcılar ingilizce dil kurslarının fiyatları genel olarak 9500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu geniş fiyat aralığı, birçok faktörün bir araya gelmesiyle oluşmaktadır ve öğrencilerin ihtiyaçlarına göre en uygun seçeneği bulabilmelerine olanak tanımaktadır."
-        },
-        {
-          "type": "p",
-          "text": "Avcılar'da İngilizce Kursu Fiyatlarını belirleyen çeşitli faktörler mevcuttur. Bunların başında kurs süresi gelir. Kısa süreli yoğun programlar genellikle daha ekonomikken, uzun vadeli ve kapsamlı eğitimler daha yüksek maliyetli olabilir. Eğitmen kalitesi de fiyatlandırmada önemli rol oynar. Deneyimli, ana dili İngilizce olan veya uluslararası sertifikalara sahip eğitmenlerin dersleri genellikle daha yüksek fiyatlıdır. Ayrıca, kurs materyalleri, kullanılan teknolojik altyapı ve öğrenme kaynaklarının çeşitliliği de fiyatları etkiler. Daha uygun fiyatlı seçenekler arayanlar için grup dersleri ve online eğitim alternatifleri bulunabilir. Ancak, en düşük fiyatlı kursun her zaman en iyi seçenek olmadığını unutmamak önemlidir. Avcılar'da İngilizce öğrenmek isteyenler, kendi bütçelerine, zamanlarına ve hedeflerine uygun birçok seçenek bulabilirler. Kalite, eğitmen deneyimi, kurs içeriği ve ek hizmetler gibi faktörleri göz önünde bulundurarak karar vermek uzun vadede daha faydalı olacaktır. Akademik International Yabancı Dil Kursu, uygun fiyatlarıyla dikkat çekerken, öğrencilerine ihtiyaçlarına göre özelleştirilmiş programlar sunarak uluslararası standartlarda dil öğrenme fırsatı da sağlıyor."
+          "text": "Learning English does not only provide professional advantages, but it is also a great opportunity for cultural and academic development. In order to follow academic publications around the world and access the best educational materials, you must have a good command of English. Whether you want to study at a university abroad or follow academic resources in your own country, English will open the doors of knowledge for you."
         },
         {
           "type": "h3",
-          "text": "Avcılar Dil Kursu: Hangi Özelliklere Dikkat Etmelisiniz?"
+          "text": "Why Akademik International Yabancı Dil Kursu?"
         },
         {
           "type": "p",
-          "text": "Avcılar'da dil kursu seçerken bazı özelliklere dikkat etmek büyük önem taşımaktadır. Kursun resmi olarak tanınıp tanınmadığı ve eğitmenlerin gerekli yeterliliklere sahip olup olmadığı ilk kontrol edilmesi gerekenler arasındadır. Kaliteli bir dil kursu, genellikle deneyimli ve yetkin eğitmenler ile çalışır. Ayrıca, öğrenci geri bildirimleri ve başarı oranları da dikkate alınmalıdır."
-        },
-        {
-          "type": "p",
-          "text": "Dil öğrenme hedefleriniz ile seçeceğiniz kurs programının örtüşme durumunu da göz önünde bulundurmanız gereken önemli bir noktadır. Örneğin, TOEFL, IELTS gibi sınavlara hazırlık mı yapmak istiyorsunuz yoksa Genel İngilizce bilginizi mi geliştirmek istiyorsunuz? Ya da belki de akademik kariyeriniz için YKS-DİL (YDT) Hazırlık Kursu'na mı ihtiyacınız var? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olabilecek, özelleştirilmiş programlar sunan bir dil kursu arayışına girebilirsiniz."
-        },
-        {
-          "type": "p",
-          "text": "Bu noktada, Akademik International Yabancı Dil Kursu modern eğitim teknikleri ve materyalleri ile ön plana çıkmaktadır. Eğitim programları, hangi seviyede olursanız olun, öğrenme sürecinizi etkili bir şekilde desteklemektedir. Özellikle, konuşma becerilerini geliştirme konusunda sunulan interaktif yöntemler, dil öğreniminde hızlı bir ilerleme kaydetmenizde büyük önem taşır. Unutmayın, dil öğrenimi uzun soluklu bir maratondur ve doğru rehberlik ile bu maratonu başarıyla tamamlayabilirsiniz."
+          "text": "Avcılar İngilizce Kursları, we offer customized programs for all ages and levels. You can achieve your goals with our General İngilizce, TOEFL, IELTS, and YKS-DİL (YDT) Hazırlık Kursu options. With our expert trainers, modern educational materials, and student-centered approach, we are always by your side in your language learning journey. Learning English has never been easier and more enjoyable."
         },
         {
           "type": "h3",
-          "text": "Avcılar'da En İyi Dil Kursunu Nasıl Seçersiniz?"
+          "text": "Our Educational Philosophy"
         },
         {
           "type": "p",
-          "text": "Avcılar'da En İyi İngilizce Kursları arasından seçim yapmak, birçok seçenek olması sebebiyle zorlayıcı olabilir. Ancak, doğru kararı vermek için göz önünde bulundurmanız gereken bazı önemli faktörler var. Öncelikle, dil öğrenme hedeflerinizi net bir şekilde belirlemeniz gerekiyor. Sınav hazırlık kursu mu arıyorsunuz, yoksa genel dil bilginizi mi geliştirmek istiyorsunuz? Hedeflerinizi belirledikten sonra, bu hedeflere ulaşmanıza yardımcı olacak programlar sunan kursları araştırabilirsiniz."
+          "text": "In our institution, which stands out when it comes to Avcılar İngilizce Kursu, we not only teach grammar rules but also equip you with the ability to communicate fluently in English. With our speaking-oriented approach, you will easily use what you learn in real life. By taking advantage of our modern classrooms and technological infrastructure, you will step into a fast and effective learning process."
+        },
+        {
+          "type": "h3",
+          "text": "Join Our Community"
         },
         {
           "type": "p",
-          "text": "Kursun sunduğu eğitim programının içeriği, sınıf mevcutları, eğitim materyalleri ve sosyal etkinlikler gibi unsurlar, Avcılar'da En İyi İngilizce Kursu seçerken kararınızı etkileyecek önemli faktörlerdir. Dengeli bir müfredat, deneyimli eğitmenler, düşük sınıf mevcutları ve interaktif öğrenme materyalleri, dil öğrenme sürecinizi daha verimli ve keyifli hale getirecektir. Ayrıca, kursun sunduğu sosyal etkinlikler, dil pratiği yapma ve yeni insanlarla tanışma fırsatı sunarak öğrenme deneyiminizi zenginleştirecektir. Seçeneklerinizi değerlendirirken, daha önce kursa giden öğrencilerin yorumlarını okuyarak ve kurs yetkilileriyle iletişime geçerek daha detaylı bilgi edinmeyi unutmayın. Bu kriterleri göz önünde bulundurduğunuzda, Avcılar En İyi İngilizce Kursu ve Avcılar'ın En Çok Tavsiye Edilen Dil Kursu Akademik International Yabancı Dil Kursu gibi kapsamlı ve kaliteli eğitim sunan bir kursu tercih etmek sizin için doğru bir seçim olabilir."
+          "text": "By choosing Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu, you don't just learn a language, you also join a global community. Experience the privilege of learning English with our students from different cultures and professions. Take a step now to shape your future and reach the whole world with English!"
         }
       ]
     },
@@ -2755,8 +2749,8 @@
       ]
     },
     "publications": {
-      "title": "Akademik International Institutional Publications",
-      "subtitle": "Free for Our Registered Students",
+      "title": "Exclusive Publications for Private Lesson Students",
+      "subtitle": "Level-Appropriate Design, Personalized Content, Innovative Approach",
       "features": [
         "Age-Appropriate Design",
         "Middle School Specific Content",
@@ -3208,8 +3202,8 @@
       "title": "Corporate English Course | Akademik International",
       "description": "Corporate English is a specific language skill used to communicate effectively and develop professional relationships in the business world."
     }
-},
-"tercumeHizmetiLandingPage": {
+  },
+  "tercumeHizmetiLandingPage": {
     "hero": {
       "tag": "SWORN TRANSLATION SERVICES",
       "title": "Professional Translation Services",
@@ -3217,11 +3211,11 @@
       "infoBtn": "Get a Quote Now!",
       "whatsappBtn": "WhatsApp Info",
       "formRibbon": "Translation Request Form",
-      "formTitle": "FAST AND RELIABLE!",
+      "formTitle": "FREE EDUCATION!",
       "formSubtitle": "Get Price and Time Information for Your Texts Instantly!",
       "namePlaceholder": "Enter First and Last Name.",
       "phonePlaceholder": "Enter Mobile Number.",
-      "branchPlaceholder": "Select Translation Field (Legal, Medical, etc.)",
+      "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: TRANSLATION SERVICES",
       "description": "With our professional and specialized sworn translators, we provide qualified translation services in Turkish-English and English-Turkish for your corporate and individual needs.",
@@ -3456,5 +3450,3088 @@
         "summary": "Thanks to these meticulous studies, many of your corporate and individual needs will be resolved smoothly."
       }
     ]
-}
+  },
+  "ydsLandingPage": {
+    "hero": {
+      "tag": "YDS PREPARATION COURSE",
+      "title": "Reach Your Target Score in YDS",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FREE EDUCATION!",
+      "formSubtitle": "Get Pricing and Detailed Info for Our YDS Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION COURSES",
+      "description": "We ensure you reach your academic career and language compensation goals with our expert trainers, YDS-specific question-solving techniques, and rich publication support.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice/Terms of Use.",
+      "subtitle": "High Score and Success Guaranteed Training Program!"
+    },
+    "about": {
+      "badge": "EXPERT INSTRUCTOR STAFF",
+      "title": "What is an Effective YDS Preparation Process?",
+      "desc": "YDS (Foreign Language Proficiency Exam) is an academic exam requiring advanced vocabulary, reading comprehension, and grammar proficiency. In our course, we help you reach your goal by strengthening these three main pillars.<br/><br/><b>Strategic Question Solving:</b> YDS requires not only knowing English but also managing exam time well and knowing tactics specific to question types. Our expert staff teaches you techniques that will save you time in paragraph, vocabulary, and translation questions.<br/><br/><b>Rich Publications and Practice Exams:</b> Throughout the process, we instantly identify your shortcomings with original publications suitable for your level and regular nationwide practice exams, guiding you on your path to your goal.",
+      "skills": [
+        {
+          "id": "vocabulary",
+          "title": "Academic Vocabulary",
+          "desc": "Special vocabulary exercises that allow you to learn the most common academic words in YDS permanently within context, without rote memorization."
+        },
+        {
+          "id": "reading",
+          "title": "Reading Comprehension",
+          "desc": "Techniques for quickly analyzing long and complex paragraphs, finding the main idea, and eliminating distractor options."
+        },
+        {
+          "id": "grammar",
+          "title": "Grammar and Structure",
+          "desc": "Presenting the grammar rules directly tested in the exam as bite-sized information, cleared of unnecessary details."
+        },
+        {
+          "id": "strategy",
+          "title": "Exam Strategies",
+          "desc": "Practical solution tactics for specific question types such as sentence completion, translation, and finding the irrelevant sentence."
+        }
+      ],
+      "description": "Whether your goal is an academic career or language compensation, we plan your YDS preparation process in the most efficient way and carry you to success step by step.",
+      "features": [
+        "Up-to-date, original, and comprehensive course materials specific to YDS.",
+        "A strategic education model aimed at understanding the logic of the questions.",
+        "Progress tracking with regular practice exams.",
+        "A system that simultaneously develops reading, vocabulary, and grammar skills."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Should You Choose Our YDS Course?",
+      "subtitle": "Don't Leave Your Success to Chance, Leave It to Experts",
+      "cardTitle": "Experienced YDS Staff",
+      "cardDesc": "We work with expert trainers with years of experience who analyze the logic of the exam, question types, and ÖSYM's language very well.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Which level does the course program start from?",
+          "a": "We apply a free placement test before starting the course. For our students lacking fundamentals, we first build a foundation with our 'Pre-YDS' group, then move on to exam strategies."
+        },
+        {
+          "q": "Are the course materials provided by the course?",
+          "a": "Yes, all the subject explanation books, vocabulary banks, test sheets, and practice exams you will need throughout the process are provided free of charge by our institution."
+        },
+        {
+          "q": "Do you only teach by making students memorize tactics?",
+          "a": "No, it is not possible to get a high score in YDS with tactics alone. We teach tactics by blending them with a solid grammar foundation, intensive vocabulary knowledge, and advanced reading skills."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Original Practice Exams",
+          "desc": "Periodic YDS practice exams at real exam difficulty, featuring up-to-date question types.",
+          "icon": "Award"
+        },
+        {
+          "title": "One-on-One Study Support",
+          "desc": "One-on-One support from trainers for topics not understood in classes or unsolved questions.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Vocabulary-Focused Education",
+          "desc": "Regular phrasal verb and academic vocabulary exercises in every lesson for vocabulary, which is the heart of YDS.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Time Management",
+          "desc": "Special time management tactics so you can solve 80 questions in 180 minutes most efficiently.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for YDS",
+      "subtitle": "Up-to-Date Contents Leading to Success",
+      "features": [
+        "Subject Explanation Books",
+        "Vocabulary and Reading Books",
+        "Comprehensive Practice Exams"
+      ],
+      "books": [
+        {
+          "name": "YDS Grammar and Structure Bank",
+          "type": "Subject Explanation & Test"
+        },
+        {
+          "name": "Academic Vocabulary and Phrasal Verbs",
+          "type": "Vocabulary Study"
+        },
+        {
+          "name": "YDS Reading Paragraph Solutions",
+          "type": "Reading & Comprehension"
+        },
+        {
+          "name": "10 Original YDS Practice Exam Set",
+          "type": "Exam Practice"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model That Suits You Best",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Prepare for YDS in a classroom environment, communicating one-on-one with our trainers and keeping your motivation high.",
+        "features": [
+          "Interactive Classroom Environment",
+          "Instant Question Asking Opportunity",
+          "Face-to-Face One-on-One Studies",
+          "Physical Practice Exams",
+          "Group Motivation"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Remove time and space limits! Access high-quality YDS education from anywhere in Turkey with our live online classes.",
+        "features": [
+          "Education Wherever You Want",
+          "Live and Interactive Classes",
+          "Replay of Missed Classes (Video Recording)",
+          "Online Practice Exams",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Info Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the YDS Preparation Process",
+      "items": [
+        {
+          "q": "How long does the YDS course take?",
+          "a": "Although our education duration varies depending on the student's current level and target score, it consists of an intensive program lasting an average of 3 to 5 months."
+        },
+        {
+          "q": "What should my level be to get 70 and above in YDS?",
+          "a": "For scores of 70 and above, it is recommended to have at least a B1-B2 level general English foundation. If your level is lower, you can first join our general foundation program and then switch to the YDS group."
+        },
+        {
+          "q": "Are the practice exams suitable for the ÖSYM format?",
+          "a": "Absolutely. All practice exams applied in our course are specially prepared by our expert commission based on the question difficulty level, topic distribution, and distractor structure of ÖSYM in previous years."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Our YDS Preparation Programs",
+      "grades": [
+        {
+          "tabTitle": "Pre-YDS Group",
+          "title": "Pre-YDS Preparation (Foundation Building)",
+          "desc": "A program specially designed for candidates with insufficient English foundation, developing grammar and basic reading skills.",
+          "bullets": [
+            "Elimination of basic and intermediate grammar deficiencies.",
+            "Building a basic vocabulary for YDS.",
+            "Reading comprehension practice with short reading passages.",
+            "Solid infrastructure for a flawless transition to the standard YDS program."
+          ],
+          "summary": "Goal: To ensure the candidate reaches the B1/B2 level and can understand YDS strategies."
+        },
+        {
+          "tabTitle": "YDS Standard",
+          "title": "YDS Standard Preparation Group",
+          "desc": "A comprehensive YDS preparation program for candidates with intermediate and advanced English knowledge whose goal is 70 and above.",
+          "bullets": [
+            "Tactical approach and solution techniques specific to YDS question types.",
+            "Intensive academic vocabulary and phrasal verb memorization studies.",
+            "Analyzing long paragraphs and fast reading skills.",
+            "Level and time management tracking with authentic practice exams."
+          ],
+          "summary": "Goal: Full mastery of the ÖSYM exam format and assurance of reaching the target score."
+        },
+        {
+          "tabTitle": "Question Solving Camp",
+          "title": "YDS Question Solving and Accelerated Camp",
+          "desc": "An intensive question solving group focusing only on practicing and increasing net scores shortly before the exam.",
+          "bullets": [
+            "Progressing only through past exam questions and difficult authentic trials.",
+            "Time management strategies and question elimination techniques.",
+            "Direct exam-oriented analysis without grammar explanation.",
+            "Exam stress management and final review camps."
+          ],
+          "summary": "Goal: To enter the exam fully prepared and maximize the current net potential."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Don't Leave Your Success to Chance in YDS with an Expert Staff",
+        "desc": "YDS is not an exam that can be overcome solely with general English knowledge. It requires academic language skills, high concentration, and solid exam strategies. Our institution provides you with professional guidance on your path to your goals with expert trainers who have years of experience in the YDS field.",
+        "bullets": [
+          "Goal-oriented intensive vocabulary and translation studies",
+          "Practice exams that improve time management skills",
+          "Up-to-date material support fully compatible with the ÖSYM question style",
+          "A study system where individual shortcomings are identified and quickly resolved"
+        ],
+        "summary": "Secure that critical score you need for your academic career or language compensation goal with our experienced staff."
+      },
+      {
+        "title": "YDS Strategies from Scratch to Advanced Level",
+        "desc": "Whether you are at a basic level or want to go above a certain score, we maximize the efficiency of your YDS preparation process with our personalized education model. We build your reading, grammar, and vocabulary skills simultaneously with the right guidance and techniques.",
+        "bullets": [
+          "Placement in the right group with a placement test",
+          "Opportunity to build a solid foundation with the Pre-YDS program",
+          "Techniques that provide a clear increase in paragraph and coherence questions",
+          "Guidance to manage exam anxiety and increase motivation"
+        ],
+        "summary": "YDS is not an obstacle; it is a step you can easily overcome with the right method, strong resources, and expert trainers."
+      }
+    ]
+  },
+  "ieltsLandingPage": {
+    "hero": {
+      "tag": "IELTS PREPARATION COURSE",
+      "title": "Achieve Your Target Score in the IELTS Exam",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE PATH TO YOUR GOAL!",
+      "formSubtitle": "Get Price and Detailed Information for Our IELTS Course Now!",
+      "namePlaceholder": "Enter Your First and Last Name.",
+      "phonePlaceholder": "Enter Your Phone Number.",
+      "branchPlaceholder": "Select Your Current English Level (Beginner, Intermediate, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION COURSES",
+      "description": "Develop your Listening, Reading, Speaking, and Writing skills at global standards with our expert instructors who have years of IELTS experience and top scores.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "High Success Rate and Comprehensive Publication Support!"
+    },
+    "about": {
+      "badge": "4 CORE SKILLS",
+      "title": "What is an Effective IELTS Preparation Process?",
+      "desc": "IELTS (International English Language Testing System) is one of the most trusted global exams measuring the abilities of candidates who wish to study or work in English-speaking countries. As Akademik International, we help you reach your goals through our adult-tailored language training system.<br/><br/><b>Equal Focus on Four Skills:</b> The IELTS exam measures proficiency in 4 core skills: reading, writing, speaking, and listening. Our course focuses on developing these four skills in parallel within boutique classes of 7-10 students.<br/><br/><b>Personalized Planning:</b> We offer customized programs—either standard group or 1-on-1 training—tailored to your Academic or General IELTS goals, current level, and available schedule.",
+      "skills": [
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "Improve your listening comprehension and note-taking skills by practicing with different accents."
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Solid reading exercises designed to build your ability to interpret what you read and quickly locate the correct answer."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "Elevate your vocabulary and grammar proficiency during data analysis and essay writing processes."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking",
+          "desc": "Practice fluent, natural, and confident English speaking through interactive practice with different people."
+        }
+      ],
+      "description": "Reach your undergraduate, postgraduate, or career goals abroad without losing time, with Turkey's highest success rate IELTS course.",
+      "features": [
+        "Classes tailored to your specific goals, including IELTS Academic and IELTS General.",
+        "Training opportunities in boutique classes of 7–10 students or in a 1-on-1 format.",
+        "An instructor team holding top scores and fully mastering exam strategies.",
+        "Identifying weaknesses and managing stress through regular mock exams."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Akademik International IELTS Course?",
+      "subtitle": "Achieve Your Desired Score Without Wasting Time",
+      "cardTitle": "High Success Rate Branches",
+      "cardDesc": "The most recommended course experience, bringing thousands of students to their target scores across our branches in Bursa, Istanbul, Izmir, Ankara, Tekirdag, and Eskisehir.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "What is the difference between IELTS Academic and IELTS General?",
+          "a": "IELTS Academic is for those wishing to pursue undergraduate/postgraduate education abroad. IELTS General is preferred for immigration, work, or institutional applications. Customized plans are made for both in our course."
+        },
+        {
+          "q": "Do you provide the training materials?",
+          "a": "Yes, we use up-to-date resources prepared according to exam strategies by our institution's publisher, The Academic Publishing."
+        },
+        {
+          "q": "How can I overcome exam stress?",
+          "a": "Thanks to the frequent mock exams we conduct before the actual exam, you both discover your weaknesses and gain comfort and practice in managing exam stress."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Expert Instructor Team",
+          "desc": "Expert instructors with exam experience, top scores, and full mastery over exam strategies.",
+          "icon": "Award"
+        },
+        {
+          "title": "Frequent Mock Exams",
+          "desc": "Opportunity for practice and time management through mock exams conducted in real exam format.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Budget and Time Savings",
+          "desc": "Enables you to use your time and budget efficiently with tactics that lead you directly to your goal.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Personalized Reinforcement",
+          "desc": "Quickly close your knowledge gaps with professional support and periodic personalized reinforcement sessions.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for IELTS",
+      "subtitle": "The Academic Publishing Difference",
+      "features": [
+        "Up-to-Date Exam Strategies",
+        "Four Core Skills (4 Skills)",
+        "Institution-Specific Materials"
+      ],
+      "books": [
+        {
+          "name": "IELTS Listening & Speaking",
+          "type": "Listening & Speaking Practice"
+        },
+        {
+          "name": "IELTS Reading Strategies",
+          "type": "Reading Analysis"
+        },
+        {
+          "name": "IELTS Writing Task 1 & 2",
+          "type": "Writing Strategies"
+        },
+        {
+          "name": "IELTS Mock Exams",
+          "type": "Mock Exam Set"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Training Model That Suits You Best",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Interactive IELTS preparation in boutique classes of 7–10 students at our branches in Bursa, Istanbul, Izmir, Ankara, Tekirdag, and Eskisehir.",
+        "features": [
+          "Boutique Groups of 7–10 Students",
+          "Opportunity for Instant Q&A",
+          "Face-to-Face 1-on-1 Tutoring",
+          "In-Person Mock Exams",
+          "Group Motivation"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The advantage of studying from anywhere with İngilizce UZEM, an interactive language platform broadcast live from studios for the first time in Turkey.",
+        "features": [
+          "Learn Anywhere You Want",
+          "İngilizce UZEM Infrastructure",
+          "Live and Interactive Classes",
+          "Online Mock Exams",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the IELTS Preparation Process",
+      "items": [
+        {
+          "q": "Who accepts the IELTS exam?",
+          "a": "It is accepted as a reliable English proficiency exam by universities and institutions in many English-speaking countries, primarily Ireland, the UK, the US, Canada, and Australia."
+        },
+        {
+          "q": "How are IELTS course fees determined?",
+          "a": "Fees are customized based on your current level, target IELTS score, and the amount of time (lesson hours) you dedicate to your training."
+        },
+        {
+          "q": "How can I improve my Reading skill?",
+          "a": "You need a solid foundation in reading comprehension and interpretation, not just grammar. Our instructors will teach you tactics to find the correct answer in the text as quickly as possible."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "4 Core Skills Assessed in the IELTS Exam",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening",
+          "desc": "We help you develop the ability to answer questions by listening to conversations recorded in various accents.",
+          "bullets": [
+            "Familiarity with various English accents",
+            "Note-taking tactics while listening",
+            "Catching clues based on question types",
+            "Method for eliminating distractors"
+          ],
+          "summary": "Maximize your listening score through practice in comprehending audio while focusing on questions simultaneously."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading",
+          "desc": "We offer effective reading strategies to complete long academic or general texts on time.",
+          "bullets": [
+            "Skimming and Scanning",
+            "Quickly identifying the main idea of a text",
+            "Understanding the author's tone and purpose",
+            "Mastering True/False/Not Given questions"
+          ],
+          "summary": "Gain the ability to interpret what you read and locate the correct answer quickly."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing",
+          "desc": "We teach the academic language and grammatical structures required for data analysis (Task 1) and essay writing (Task 2).",
+          "bullets": [
+            "Reporting graphs, tables, and processes (Academic)",
+            "Writing formal or semi-formal letters (General)",
+            "Organizing ideas with logical coherence",
+            "Rich vocabulary and accurate grammar usage"
+          ],
+          "summary": "Learn the formula to express your ideas clearly, concisely, and academically on paper."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking",
+          "desc": "We provide fluent, natural, and confident English speaking practice as if sitting before a real exam examiner.",
+          "bullets": [
+            "Speaking spontaneously on everyday topics",
+            "Developing uninterrupted ideas on a specific topic",
+            "Engaging in discussion and defending viewpoints",
+            "Managing exam stress and building fluency"
+          ],
+          "summary": "Develop your speaking skills through interaction with different people and achieve a high score."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Do Not Waste Time with the Best IELTS Preparation Course",
+        "desc": "The IELTS exam serves as a bridge leading people to their dreams and target goals. While climbing the career ladder, the most critical resource to save is time. We organize the best-fit IELTS Preparation Course plan to help you reach your target score without losing time.",
+        "bullets": [
+          "Instructors with top scores and years of exam experience",
+          "Up-to-date exam strategy resources exclusive to our institution by The Academic Publishing",
+          "Online interactive learning option via the İngilizce UZEM platform",
+          "Training focused on 4 core skills in boutique classes of 7–10 students"
+        ],
+        "summary": "You can achieve definitive success in IELTS with an expert institution and instructors, leaving nothing to chance."
+      },
+      {
+        "title": "IELTS Academic and General Programs Tailored to Your Goal",
+        "desc": "The IELTS exam is a global test jointly developed by Cambridge University (ESOL), IDP, and the British Council. It is a reliable test rating the competencies of students wishing to pursue undergraduate and postgraduate education in countries such as Ireland, the UK, the US, Canada, and Australia.",
+        "bullets": [
+          "Planning according to your current English level and target score",
+          "Options for 1-on-1 private lessons or group preparation courses",
+          "Identifying weaknesses with frequently conducted mock exams",
+          "Face-to-face education at our branches in Bursa, Istanbul, Izmir, Ankara, Tekirdag, and Eskisehir"
+        ],
+        "summary": "Meet our IELTS Preparation Course to stand out from your competitors in academic life and the private sector."
+      }
+    ]
+  },
+  "ydtLandingPage": {
+    "hero": {
+      "tag": "YKS-DİL YDT PREPARATION COURSE",
+      "title": "Reach Your Target Score in the YKS-Dil YDT Exam",
+      "customerServiceBtn": "Speak with Our Education Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE PATH TO YOUR GOAL!",
+      "formSubtitle": "Get Pricing and Detailed Information for Our YKS-Dil YDT Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current Foreign Language Level (Beginner, Intermediate, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION COURSES",
+      "description": "You can achieve your target score without losing time, thanks to our expert instructor team experienced in past exam questions at the YKS-Dil YDT Preparation Course.",
+      "formDisclaimer": "By filling out the information form, I agree to the Legal Notice/Terms of Use.",
+      "subtitle": "High Success Rate and Comprehensive Publication Support!"
+    },
+    "about": {
+      "badge": "YDT PREPARATION",
+      "title": "What is an Effective YKS-Dil YDT Preparation Process?",
+      "desc": "YKS-DİL YDT (Foreign Language Test) is a national exam administered by ÖSYM for students wishing to apply to university foreign language departments. High school seniors and all high school graduates are eligible to take this exam.Exam Format: The YKS Dil exam lasts 120 minutes and consists of 80 questions. As Academic Foreign Language Courses, we offer a comprehensive education model featuring expert instructors, exam-specific publications, and our İngilizce Uzem online platform.Personalized Planning: First, a free placement exam is administered to all our students. Results are carefully evaluated to place candidates into the group most suitable for their level.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Build a solid grammar foundation by learning all potential exam grammar topics in a detailed and effective manner."
+        },
+        {
+          "id": "vocabulary",
+          "title": "Vocabulary",
+          "desc": "Achieve high success in vocabulary questions by building your word power through targeted exercises."
+        },
+        {
+          "id": "reading",
+          "title": "Reading Passages",
+          "desc": "Gain the skill to quickly pinpoint correct answers for main idea and vocabulary questions in reading passages."
+        },
+        {
+          "id": "practice",
+          "title": "Question Solving Techniques",
+          "desc": "Master exam techniques and key strategies through intensive mock exams, topic tests, and past exam questions."
+        }
+      ],
+      "description": "Reach the university and foreign language department of your dreams without losing time, with Turkey's established and experienced YKS-Dil YDT Preparation Course.",
+      "features": [
+        "Over 15 years of exam preparation experience as an established institution in Turkey.",
+        "Placement in the most suitable group through a free level assessment exam.",
+        "Exam-specific, up-to-date lecture sets, question banks, and leaf tests.",
+        "Schedule planning across 2 separate options: weekdays and weekends."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic Foreign Language Courses YKS-Dil YDT Preparation Course?",
+      "subtitle": "Achieve Your Target Score Without Wasting Time",
+      "cardTitle": "High Success Rate Branches",
+      "cardDesc": "Our experience has led thousands of students to their target scores and top rankings across Turkey in our branches: Istanbul Beşiktaş, Istanbul Kadıköy, Bursa, Izmir, Ankara, and Eskişehir.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Who can take the YKS-DİL YDT exam?",
+          "a": "All students who are in their final year of high school or have already graduated from high school can take the YKS-DİL YDT exam."
+        },
+        {
+          "q": "How are YKS-Dil YDT Preparation Course prices determined?",
+          "a": "Prices vary based on the quality of education provided, class size, materials included, and additional amenities. The best payment conditions are offered through campaigns to suit your budget."
+        },
+        {
+          "q": "What materials do you use while preparing for the exam?",
+          "a": "We use up-to-date resources prepared by our institution aligned with exam strategies, including lecture book sets, question banks, leaf tests, and past/original questions."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Expert Instructor Staff",
+          "desc": "A team of native and non-native instructors fully versed in exam strategies, producing top national rankers every year.",
+          "icon": "Award"
+        },
+        {
+          "title": "Frequent Mock Exams",
+          "desc": "Opportunity for practice and time management through nationwide mock exams.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Budget and Time Savings",
+          "desc": "Enables you to save time and budget with education models designed to bring you straight to success.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Free Level Placement Exam",
+          "desc": "Placement into the right group through a free placement test given to all enrolled students beforehand.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for YKS-Dil YDT",
+      "subtitle": "The Academic Foreign Language Courses Difference",
+      "features": [
+        "Up-to-Date Exam Strategies",
+        "Lecture Explanations and Question Bank",
+        "Proprietary Institution Materials"
+      ],
+      "books": [
+        {
+          "name": "YDT Lecture Set",
+          "type": "Lecture Notes"
+        },
+        {
+          "name": "YDT Question Bank",
+          "type": "Question Solving"
+        },
+        {
+          "name": "YDT Leaf Tests",
+          "type": "Past & Original Questions"
+        },
+        {
+          "name": "YDT Mock Exams",
+          "type": "Mock Exam Set"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Face-to-face YKS-Dil YDT preparation with our expert staff at our branches in Istanbul Beşiktaş, Istanbul Kadıköy, Bursa, Izmir, Ankara, and Eskişehir.",
+        "features": [
+          "Free Level Placement Exam",
+          "Weekday / Weekend Program Options",
+          "Face-to-Face Reinforcement Classes",
+          "In-Person Mock Exams",
+          "Expert Native and Non-Native Instructor Staff"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The advantage of receiving YKS-Dil YDT training from anywhere via İngilizce UZEM, an interactive language platform broadcast live from studios for the first time in Turkey.",
+        "features": [
+          "Learn From Anywhere",
+          "İngilizce UZEM Infrastructure",
+          "Video-Supported Comprehensive Curriculum",
+          "Online Mock Exams",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the YKS-Dil YDT Preparation Process",
+      "items": [
+        {
+          "q": "Why is the YKS-DİL YDT exam required?",
+          "a": "It is a national foreign language exam administered by the Assessment, Selection and Placement Center (ÖSYM), required to enroll in any university foreign language department."
+        },
+        {
+          "q": "How much do YKS-Dil YDT Preparation Courses cost?",
+          "a": "Course fees vary depending on the facilities provided by the training center, class size, and materials. Budget-friendly payment terms are offered with special campaigns."
+        },
+        {
+          "q": "How long is the YDT exam and how many questions are there?",
+          "a": "The YKS Dil exam lasts 120 minutes and consists of 80 questions."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Core Skills Evaluated in the YKS-Dil YDT Exam",
+      "grades": [
+        {
+          "tabTitle": "Grammar",
+          "title": "Grammar",
+          "desc": "We teach all potential exam grammar topics in a detailed and effective manner.",
+          "bullets": [
+            "Detailed topic-based grammar explanations",
+            "Focus on high-frequency grammar structures",
+            "Regular grammar test sessions",
+            "Reinforcement and correction of common mistakes"
+          ],
+          "summary": "Achieve high success in the exam's grammar questions with a solid grammatical foundation."
+        },
+        {
+          "tabTitle": "Vocabulary",
+          "title": "Vocabulary",
+          "desc": "We prepare you for vocabulary questions using techniques to build your word bank.",
+          "bullets": [
+            "High-frequency academic vocabulary sets",
+            "In-context vocabulary learning techniques",
+            "Regular vocabulary review sessions",
+            "Synonym and antonym practice"
+          ],
+          "summary": "Interpret texts faster and more accurately with a broad vocabulary."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading Passages",
+          "desc": "We help you reach your target score through precise strategies for main idea and vocabulary questions in reading passages.",
+          "bullets": [
+            "Quickly identifying the main idea in a text",
+            "Mastering paragraph comprehension techniques",
+            "Tactics to reach the correct answer as fast as possible",
+            "Eliminating mistakes caused by carelessness"
+          ],
+          "summary": "Reach the correct answer without losing time by mastering question types in reading passages."
+        },
+        {
+          "tabTitle": "Question Solving",
+          "title": "Question Solving Techniques",
+          "desc": "We teach exam techniques and key strategies through intensive mock exams, topic tests, past exam questions, and original questions.",
+          "bullets": [
+            "Exam-specific leaf tests",
+            "Workshops on past and original questions",
+            "Nationwide mock exams",
+            "Time management and exam strategies"
+          ],
+          "summary": "Achieve your target score without losing time through practice exams in authentic test formats."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Don't Lose Time with the Best YKS-Dil YDT Preparation Course",
+        "desc": "YKS-DİL YDT is a bridging exam that leads candidates who want to choose foreign language departments in universities to their targets. Serving as an established institution in Turkey for over 15 years, Academic Foreign Language Courses continues to bring you directly to success in a single attempt, guided by expert instructors and original publications.",
+        "bullets": [
+          "Placement in the most suitable group through a free level placement exam",
+          "Proprietary, up-to-date lecture sets, question banks, and leaf tests",
+          "Online interactive education option via the İngilizce UZEM platform",
+          "Course planning across 2 separate options: weekdays and weekends"
+        ],
+        "summary": "Achieve clear and definitive success in YKS-Dil YDT alongside an expert institution and instructors, without leaving your success to chance."
+      },
+      {
+        "title": "YKS-Dil YDT Preparation Programs Tailored to Your Goals",
+        "desc": "YKS-DİL YDT is a national foreign language exam administered by the Assessment, Selection and Placement Center (ÖSYM), lasting 120 minutes and consisting of 80 questions. High school seniors and all high school graduates are eligible to take this exam.",
+        "bullets": [
+          "Planning based on your current foreign language level and target score",
+          "In-person training at our Istanbul Beşiktaş, Istanbul Kadıköy, Bursa, Izmir, Ankara, and Eskişehir branches",
+          "Identifying weak areas through frequently administered mock exams",
+          "An effective YDT preparation process in an exclusive environment within VIP classrooms"
+        ],
+        "summary": "Discover our YKS-Dil YDT Preparation Course to connect with the university of your dreams."
+      }
+    ]
+  },
+  "itepLandingPage": {
+    "hero": {
+      "tag": "ITEP PREPARATION COURSE",
+      "title": "Reach Your Target Score in the ITEP Exam",
+      "customerServiceBtn": "Speak with Our Education Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE PATH TO YOUR GOAL!",
+      "formSubtitle": "Get Pricing and Detailed Information for Our ITEP Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current English Level (Beginner, Intermediate, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION COURSES",
+      "description": "Turkey's best ITEP course, Akademik International Foreign Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
+      "formDisclaimer": "By filling out the information form, I agree to the Legal Notice/Terms of Use.",
+      "subtitle": "High Success Rate and Comprehensive Publication Support!"
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is an Effective ITEP Preparation Process?",
+      "desc": "iTEP is an internationally recognized internet-based exam service designed to measure the language proficiency of individuals learning English as a foreign language.Where It Is Used: It is used in domestic/international new recruitment processes, in determining recorded language progress, in domestic/international secondary school, high school, and university admissions, in determining the return on investment at the end of employees' English training/development programs, and in general-purpose proficiency measurement and evaluation.Evaluation Process: Evaluating reading, listening, grammar, writing, and speaking skills, the ITEP exam is conducted in a single session for security reasons, and the test content is recorded during the exam. Upon exam completion, evaluation reports aligned with CEFR (Common European Framework of Reference for Languages) level definitions are generated.",
+      "skills": [
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "Improve your listening comprehension skills by practicing with various contents and topics."
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Increase your comprehension speed with reading exercises tailored to the required literature and content."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "Eliminate shortfalls in your writing skills through guided exam strategies and techniques."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking",
+          "desc": "Gain fluent speaking practice through speaking activities held every day of the week."
+        }
+      ],
+      "description": "Prepare without wasting time for your domestic or international career, education, and academic goals with Turkey's best ITEP course.",
+      "features": [
+        "Tailored exam content including iTEP Academic, Business, Slate, Hospitality, Core, and Plus based on your needs.",
+        "Comprehensive publication support to overcome deficiencies in speaking, writing, reading, and listening skills.",
+        "Guided score improvement practices using exam strategy techniques based on past questions.",
+        "Flexible starting options with regularly updated preparation program start dates at our campuses."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International ITEP Course?",
+      "subtitle": "Achieve Your Target Score Without Wasting Time",
+      "cardTitle": "High Success Rate Branches",
+      "cardDesc": "Turkey's best course experience, enabling thousands of students to achieve their target ITEP scores through expert teaching staff and an original curriculum at our campuses.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "For what purposes is the ITEP exam used?",
+          "a": "It is used in domestic/international recruitment processes, determining language progress, secondary school/high school and university admissions, job assignments requiring employee language proficiency, and general-purpose proficiency measurement and evaluation."
+        },
+        {
+          "q": "What are the different types of ITEP?",
+          "a": "There are types that can be adapted to your needs with different exam contents for different purposes, including iTEP Academic, Business, Slate, Hospitality, Core, and Plus."
+        },
+        {
+          "q": "In what format is the ITEP exam administered?",
+          "a": "Evaluating reading, listening, grammar, writing, and speaking skills, the ITEP exam is conducted in a single session for security reasons, and the test content is recorded during the exam."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Expert Teaching Staff",
+          "desc": "Turkey's best ITEP course, offering an original training curriculum with expert instructors in their fields.",
+          "icon": "Award"
+        },
+        {
+          "title": "Strategy with Past Questions",
+          "desc": "Score-oriented studies with guidance through exam strategies based on past questions.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Daily Speaking Activities",
+          "desc": "Students enrolled in the ITEP Preparation program can participate in speaking activities every day of the week.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Comprehensive Publication Support",
+          "desc": "Comprehensive publication support that addresses weaknesses in speaking, writing, reading, and listening skills.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for ITEP",
+      "subtitle": "The Academic Foreign Language Courses Difference",
+      "features": [
+        "Up-to-Date Exam Strategies",
+        "Content Focused on Five Core Skills",
+        "Proprietary Institution Materials"
+      ],
+      "books": [
+        {
+          "name": "ITEP Listening & Speaking",
+          "type": "Listening & Speaking Practice"
+        },
+        {
+          "name": "ITEP Reading Strategies",
+          "type": "Reading Analysis"
+        },
+        {
+          "name": "ITEP Writing & Grammar",
+          "type": "Writing & Grammar"
+        },
+        {
+          "name": "ITEP Past Questions Set",
+          "type": "Practice & Strategy"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "In-person ITEP preparation accompanied by an original curriculum with expert teaching staff at our campuses, plus speaking activities every day of the week.",
+        "features": [
+          "Expert Teaching Staff in Their Fields",
+          "Speaking Activities Every Day of the Week",
+          "Strategy Sessions with Past Questions",
+          "Comprehensive Publication Support",
+          "Regularly Updated Program Start Dates"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The advantage of receiving ITEP training from anywhere via İngilizce UZEM, an interactive language platform broadcast live from studios for the first time in Turkey.",
+        "features": [
+          "Learn From Anywhere",
+          "İngilizce UZEM Infrastructure",
+          "Live and Interactive Lessons",
+          "Online Speaking Activities",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the ITEP Preparation Process",
+      "items": [
+        {
+          "q": "What is ITEP?",
+          "a": "iTEP is an internationally recognized internet-based exam service designed to measure the language proficiency of individuals learning English as a foreign language."
+        },
+        {
+          "q": "What is the difference between ITEP Academic and ITEP Business?",
+          "a": "While iTEP Academic encompasses all the features of literature, content, and topics required in academic environments, iTEP Business includes scenarios specific to the business world and appropriate business terminology."
+        },
+        {
+          "q": "What kind of evaluation report do I receive upon exam completion?",
+          "a": "Upon completion of the exam, evaluation reports aligned with CEFR (Common European Framework of Reference for Languages) level definitions—the most reliable and widely accepted standards—are generated, enabling institutions to interpret various measurement products worldwide."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Core Skills Evaluated in the ITEP Exam",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening",
+          "desc": "We improve your listening comprehension skills through listening practice across diverse contents and topics.",
+          "bullets": [
+            "Gaining familiarity with various content types",
+            "Note-taking and focus tactics while listening",
+            "Catching clues according to question types",
+            "Elimination method for distractors"
+          ],
+          "summary": "Maximize your listening score with listening comprehension practice."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading",
+          "desc": "We teach you to interpret texts quickly and accurately through reading exercises tailored to required literature and content.",
+          "bullets": [
+            "Skimming and scanning techniques",
+            "Quickly extracting the main idea from texts",
+            "Exam-content-specific vocabulary practice",
+            "Tactics for reaching the correct answer quickly"
+          ],
+          "summary": "Gain the ability to interpret what you read and find the correct answer rapidly."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing",
+          "desc": "We address shortfalls in your writing skills through guided practices based on exam strategy techniques.",
+          "bullets": [
+            "Grammar and vocabulary usage appropriate to the topic",
+            "Organizing ideas with logical coherence",
+            "Writing strategies aligned with the exam format",
+            "Practical writing sessions based on past exam questions"
+          ],
+          "summary": "Learn strategies to express your ideas in clear and structured language."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking",
+          "desc": "We provide fluent and confident speaking practice through daily speaking activities held every day of the week.",
+          "bullets": [
+            "Impromptu speaking on everyday topics",
+            "Sustaining continuous ideas on a given topic",
+            "Speaking practices specific to the exam format",
+            "Fluency and pronunciation development studies"
+          ],
+          "summary": "Develop your speaking skills through daily speaking activities."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Don't Lose Time with the Best ITEP Preparation Course",
+        "desc": "iTEP is an internationally recognized internet-based exam service designed to measure the language proficiency of individuals learning English as a foreign language. Turkey's best ITEP course, Akademik International Foreign Language Course, is here for qualified language training with its original curriculum and expert teaching staff.",
+        "bullets": [
+          "Tailored content for iTEP Academic, Business, Slate, Hospitality, Core, and Plus types",
+          "Guided score increase through exam strategy techniques based on past questions",
+          "Comprehensive publication support across speaking, writing, reading, and listening skills",
+          "Practice opportunities through daily speaking activities held every day of the week"
+        ],
+        "summary": "Achieve clear and definitive success in ITEP with an expert institution and instructors, without leaving your success to chance."
+      },
+      {
+        "title": "ITEP Exam Types and Programs Suitable for Your Goals",
+        "desc": "iTEP is a reliable exam used in domestic/international recruitment processes, determining language progress, secondary school/high school and university admissions, employee task assignments requiring language proficiency, and general-purpose proficiency measurement and evaluation.",
+        "bullets": [
+          "Adaptable ITEP types with different exam contents tailored to diverse needs",
+          "Single-session exam covering reading, listening, grammar, writing, and speaking skills",
+          "Evaluation reports aligned with CEFR (Common European Framework of Reference for Languages) level definitions",
+          "Flexible start dates with regularly updated preparation program announcements at our campuses"
+        ],
+        "summary": "Discover our ITEP Preparation Course to stand out from your competitors in academic and professional life."
+      }
+    ]
+  },
+  "greLandingPage": {
+    "hero": {
+      "tag": "GRE PREPARATION COURSE",
+      "title": "Achieve Your Target Score on the GRE Exam",
+      "customerServiceBtn": "Speak with Our Education Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE PATH TO YOUR GOAL!",
+      "formSubtitle": "Get Pricing and Detailed Information for Our GRE Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current English Level (Beginner, Intermediate, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION COURSES",
+      "description": "Turkey's best GRE course, Akademik International Foreign Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
+      "formDisclaimer": "By filling out the information form, I agree to the Legal Notice/Terms of Use.",
+      "subtitle": "High Success Rate and Comprehensive Publication Support!"
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is an Effective GRE Preparation Process?",
+      "desc": "GRE (Graduate Record Examination) is one of the most popular globally recognized exams required for students aiming for master's and doctoral degrees abroad. Required by many universities, especially in the United States, this exam was first administered in 1949 by Educational Testing Service (ETS).<br/><br/><b>Exam Content and Breakdown:</b> It measures students' verbal, quantitative, writing, and analytical thinking skills. The GRE General Test takes 3 hours and is computer-based. It consists of three sections: quantitative, verbal, and analytical. After completing these sections, there are two additional parts where you will write essays.<br/><br/><b>Who Can Take It:</b> The GRE Subject Test section is conducted to measure the qualification of students who want to pursue graduate studies in eight disciplines, including Biochemistry, Cell and Molecular Biology, Biology, Chemistry, English Literature, Mathematics, Computer Science, Psychology, and Physics.",
+      "skills": [
+        {
+          "id": "quantitative",
+          "title": "Quantitative",
+          "desc": "Achieve high success in the quantitative section by developing your math, problem-solving, and logical reasoning skills."
+        },
+        {
+          "id": "verbal",
+          "title": "Verbal",
+          "desc": "Enhance your English vocabulary, reading comprehension, and grasp of fundamental grammar rules."
+        },
+        {
+          "id": "analytical",
+          "title": "Analytical Writing",
+          "desc": "Develop your ability to focus and effectively write the required essays within a specified timeframe."
+        },
+        {
+          "id": "subject",
+          "title": "Subject Test",
+          "desc": "Get specialized preparation tailored to your field of expertise to achieve your graduate goals across eight different disciplines."
+        }
+      ],
+      "description": "Prepare without wasting time for your master's and doctoral goals abroad with Turkey's best GRE course.",
+      "features": [
+        "Strategies tailored to the world-standard GRE exam structure administered since 1949.",
+        "Comprehensive guidance studies addressing deficiencies in quantitative, verbal, and writing skills.",
+        "Practices focused on time management and focus tailored for the computer-based exam.",
+        "Flexible start options with regularly updated preparation program start dates announced at our campuses."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International GRE Course?",
+      "subtitle": "Achieve Your Target Score Without Wasting Time",
+      "cardTitle": "High Success Rate Branches",
+      "cardDesc": "Turkey's best course experience, helping thousands of students reach their target GRE score through our expert teaching staff and original curriculum at our campuses.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "For what purposes is the GRE exam used and who can take it?",
+          "a": "It is an exam required for candidates aiming to pursue master's and doctoral education internationally, especially at universities in the United States."
+        },
+        {
+          "q": "What are the differences between the GRE General Test and the Subject Test?",
+          "a": "The General Test is a computer-supported core exam testing general verbal, quantitative, and analytical skills. The Subject Test measures subject knowledge for candidates looking to pursue graduate studies in eight specific areas such as psychology, chemistry, literature, and biology."
+        },
+        {
+          "q": "What competencies does the exam expect from us?",
+          "a": "Candidates are expected to demonstrate qualities such as problem-solving in a limited time frame, applying basic grammar rules, logical reasoning, and high focus."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Expert Teaching Staff",
+          "desc": "Turkey's best GRE course offering an original training curriculum with expert instructors in their fields.",
+          "icon": "Award"
+        },
+        {
+          "title": "Time Management and Strategy",
+          "desc": "Strategic studies aimed at enhancing effective reasoning and problem-solving skills within a set timeframe.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Computer-Based Experience",
+          "desc": "Digital mock exam practices suited for the exam, which is generally computer-based in Turkey.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Comprehensive Publication Support",
+          "desc": "Materials addressing deficiencies in mathematics, logic, verbal comprehension, and essay skills.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for GRE",
+      "subtitle": "The Academic Foreign Language Courses Difference",
+      "features": [
+        "Up-to-Date Exam Strategies",
+        "Content Focused on Quantitative, Verbal, and Analytical Skills",
+        "Proprietary Institution Materials"
+      ],
+      "books": [
+        {
+          "name": "GRE Quantitative Reasoning",
+          "type": "Quantitative & Problem Solving Practice"
+        },
+        {
+          "name": "GRE Verbal Reasoning",
+          "type": "Verbal Analysis & Reading"
+        },
+        {
+          "name": "GRE Analytical Writing",
+          "type": "Essay & Writing"
+        },
+        {
+          "name": "GRE Practice Tests & Strategy Set",
+          "type": "Mock Exams & Time Management"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "In-person GRE preparation with an original curriculum and expert teaching staff at our campuses, alongside computer-based mock exam support.",
+        "features": [
+          "Expert Teaching Staff in Their Fields",
+          "Quantitative and Verbal Focused Activities",
+          "Strategy Sessions with Past Questions",
+          "Comprehensive Publication Support",
+          "Regularly Updated Program Start Dates"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The advantage of receiving GRE training from anywhere via İngilizce UZEM, an interactive language platform broadcast live from studios for the first time in Turkey.",
+        "features": [
+          "Learn From Anywhere",
+          "İngilizce UZEM Infrastructure",
+          "Live and Interactive Lessons",
+          "Online Mock Exams",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the GRE Preparation Process",
+      "items": [
+        {
+          "q": "What is GRE?",
+          "a": "It is a globally recognized assessment taken by candidates aiming to attend master's and doctoral programs abroad, frequently required particularly by universities in the United States."
+        },
+        {
+          "q": "How long does the GRE Exam take and where is it held?",
+          "a": "The General Test is organized at ETS-authorized centers, takes approximately 3 hours, and in Turkey is mostly conducted on computers."
+        },
+        {
+          "q": "What question types are in the exam?",
+          "a": "The computer-based General Test stage features multiple-choice sections covering quantitative, verbal, and analytical areas; following these, candidates are asked to write essays."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Core Skills Evaluated in the GRE Exam",
+      "grades": [
+        {
+          "tabTitle": "Quantitative",
+          "title": "Quantitative Reasoning",
+          "desc": "We strengthen your analytical foundation with studies that will develop your math, logical reasoning, and problem-solving skills.",
+          "bullets": [
+            "Mathematical problem-solving techniques",
+            "Data analysis and logical comprehension",
+            "Shortcuts according to question types",
+            "Making right decisions under time pressure"
+          ],
+          "summary": "Maximize your quantitative score with your logic and mathematical comprehension skills."
+        },
+        {
+          "tabTitle": "Verbal",
+          "title": "Verbal Reasoning",
+          "desc": "We enhance your mastery of core grammar and enable you to analyze advanced texts quickly and accurately.",
+          "bullets": [
+            "Building advanced academic vocabulary",
+            "Quickly extracting complex ideas from text",
+            "Sentence completion and reading comprehension practices",
+            "Tactics to reach the correct answer through elimination"
+          ],
+          "summary": "Gain the skill to interpret texts within a logical framework."
+        },
+        {
+          "tabTitle": "Analytical Writing",
+          "title": "Analytical Writing",
+          "desc": "Following the multiple-choice questions, we teach you to organize your ideas with effective coherence for the required essay sections.",
+          "bullets": [
+            "Argument construction and critical analysis",
+            "Structuring ideas with logical unity",
+            "Essay practices in line with the exam format",
+            "Increasing vocabulary variety and fluency"
+          ],
+          "summary": "Prove your writing skills by presenting academic-level arguments."
+        },
+        {
+          "tabTitle": "Subject Test",
+          "title": "Subject Test",
+          "desc": "We prepare you to test your field knowledge in specific disciplines such as biology, physics, chemistry, psychology, or computer science towards your graduate goals.",
+          "bullets": [
+            "Subject studies specific to 8 different scientific disciplines",
+            "Mastery of field terms and literature",
+            "Specialized practice aligned with target university requirements",
+            "Strategies suited for specific question types"
+          ],
+          "summary": "Prove your academic depth in the area you wish to specialize in."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Don't Lose Time with the Best GRE Preparation Course",
+        "desc": "Taken by candidates aiming to attend master's and doctoral programs abroad, the Graduate Record Examination (GRE) is a worldwide exam requested especially by US universities. Turkey's best GRE course, Akademik International Foreign Language Course, is here for qualified exam training with its original curriculum and expert teaching staff.",
+        "bullets": [
+          "Content tailored to the test structure evaluating candidates' quantitative, verbal, analytical thinking, and written expression abilities",
+          "Studies to develop math, logic, problem-solving, and comprehension skills under time pressure as required in the exam",
+          "Comprehensive support in analytical writing skills for essay sections",
+          "Digital mock exam opportunities suitable for the computer-supported General Test system commonly administered in Turkey"
+        ],
+        "summary": "Achieve clear and definitive success in the GRE with an expert institution and instructors, without leaving your success to chance."
+      },
+      {
+        "title": "GRE Exam Types and Programs Suitable for Your Goals",
+        "desc": "Administered by ETS, GRE structurally consists of two main categories: the General Test and the Subject Test, which evaluates graduate education qualification in eight core disciplines.",
+        "bullets": [
+          "Special training for the computer-based 3-hour General Test format consisting of verbal, quantitative, and analytical sections",
+          "Subject knowledge (Subject Test) support studies for candidates in specific scientific fields such as physics, psychology, biochemistry, and English literature",
+          "Tactics to maximize focus against time constraints",
+          "Flexible start with regularly updated preparation program dates announced at our campuses"
+        ],
+        "summary": "Discover our GRE Preparation Course to differentiate yourself from competitors in your international academic career and gain admission to prestigious universities abroad."
+      }
+    ]
+  },
+  "testdafLandingPage": {
+    "hero": {
+      "tag": "TESTDAF GERMAN COURSE",
+      "title": "Achieve Your Target Score on the TestDaF Exam",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "FOR YOUR GERMANY DREAM!",
+      "formSubtitle": "Get Pricing and Information for Our TestDaF Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current German Level",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: ABROAD EXAM PREPARATION",
+      "description": "Prepare for the TestDaF exam, which certifies the language level of candidates wishing to pursue higher education in the Federal Republic of Germany, with our experienced teaching staff.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Personalized Exam Program and Question-Solving Techniques for You!"
+    },
+    "about": {
+      "badge": "EDUCATION IN GERMANY",
+      "title": "What is the TestDaF Exam?",
+      "desc": "TestDaF is the official language proficiency exam for candidates wishing to pursue higher education in the Federal Republic of Germany. Centrally developed by the TestDaF Institute in Hagen, it is administered by licensed test centers in 80 countries.<br/><br/><b>Exam Evaluation:</b> Exams are evaluated by trained exam assessors. Exam results are classified into one of three levels: <b>TestDaF Level 5 (TDN 5)</b>, <b>TestDaF Level 4 (TDN 4)</b>, and <b>TestDaF Level 3 (TDN 3)</b>.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading Comprehension",
+          "desc": "The ability to draw accurate conclusions by analyzing academic and everyday texts."
+        },
+        {
+          "id": "writing",
+          "title": "Written Expression",
+          "desc": "The ability to express opinions on a specific topic and generate written arguments."
+        },
+        {
+          "id": "listening",
+          "title": "Listening Comprehension",
+          "desc": "The ability to grasp the main idea and details by listening to various speeches and presentations."
+        },
+        {
+          "id": "speaking",
+          "title": "Oral Expression",
+          "desc": "The ability to express oneself orally in a fluent and clear manner according to given scenarios."
+        }
+      ],
+      "description": "Academic Foreign Language Course enables you to certify your German language proficiency success with its experienced teaching staff, personalized exam program, and question-solving techniques.",
+      "features": [
+        "Working principles compliant with the Hagen TestDaF Institute standards.",
+        "Training across four core skills (Reading, Writing, Listening, Speaking).",
+        "Goal-oriented practice aimed at TDN 3, TDN 4, and TDN 5 levels.",
+        "Preparation in line with the criteria of trained exam assessors."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International TestDaF Course?",
+      "subtitle": "Entrust Your Germany Dream to Experience",
+      "cardTitle": "Experienced Teaching Staff",
+      "cardDesc": "Reach your goal directly with instructors who fully master the exam format and are experts in question-solving techniques.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Where is TestDaF valid?",
+          "a": "It is an official language proficiency certificate accepted by universities for candidates wishing to pursue higher education in the Federal Republic of Germany."
+        },
+        {
+          "q": "What sections does the exam consist of?",
+          "a": "The exam consists of 4 core sections: reading comprehension, written expression, listening comprehension, and oral expression."
+        },
+        {
+          "q": "How is the exam evaluated?",
+          "a": "Exams are evaluated by trained exam assessors, and results are classified as TestDaF Level 5 (TDN 5), TestDaF Level 4 (TDN 4), or TestDaF Level 3 (TDN 3)."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Personalized Program",
+          "desc": "Study plans tailored to your individual language level and needs.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Question-Solving Techniques",
+          "desc": "Time-saving analytical tactics specific to the four core skills of the exam.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Global Standard",
+          "desc": "A preparation process 100% compliant with the official criteria of the exam administered in 80 countries.",
+          "icon": "Award"
+        },
+        {
+          "title": "Comprehensive Practice",
+          "desc": "Interactive sessions and activities to improve your speaking and writing skills.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for TestDaF",
+      "subtitle": "Goal-Oriented Exam Materials",
+      "features": [
+        "Content Aligned with TDN Levels",
+        "Practice Focused on the Four Skills",
+        "TestDaF Practice Exams"
+      ],
+      "books": [
+        {
+          "name": "TestDaF Leseverstehen & Hörverstehen",
+          "type": "Reading and Listening Practice"
+        },
+        {
+          "name": "TestDaF Schriftlicher Ausdruck",
+          "type": "Written Expression and Composition"
+        },
+        {
+          "name": "TestDaF Mündlicher Ausdruck",
+          "type": "Oral Expression Studies"
+        },
+        {
+          "name": "TestDaF Musterprüfungen",
+          "type": "Practice Exam Set"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "High-motivation and disciplined TestDaF preparation face-to-face with our experienced instructors at our branches.",
+        "features": [
+          "Face-to-Face Education with Expert Staff",
+          "Instant Feedback and Error Analysis",
+          "In-Class Speaking (Oral Expression) Practice",
+          "Exam Anxiety and Time Management"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Prepare for TestDaF from the comfort of your home without losing time through our interactive live lessons.",
+        "features": [
+          "Live and Interactive Lessons",
+          "Online Practice Exams and Question Solving",
+          "Unlimited Resources and Video Replays",
+          "Digital Material Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the TestDaF Preparation Process",
+      "items": [
+        {
+          "q": "Who should take the TestDaF exam?",
+          "a": "Candidates who wish to pursue higher education (bachelor's, master's) in the Federal Republic of Germany and are required to officially prove their language level should take it."
+        },
+        {
+          "q": "How long are TestDaF results valid?",
+          "a": "The validity period of the TestDaF certificate is unlimited. The score you obtain once is considered valid for life."
+        },
+        {
+          "q": "What score level do I need for university admission?",
+          "a": "Most universities in Germany require at least TDN 4 level across all sections (Reading, Writing, Listening, Speaking) for admission. While TDN 3 may be sufficient for some departments, language-heavy departments may require TDN 5."
+        }
+      ]
+    }
+  },
+  "proficiencyLandingPage": {
+    "hero": {
+      "tag": "PROFICIENCY COURSE",
+      "title": "Skip the Preparatory Class, Gain +1 Year in Your Career!",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "START YOUR CAREER FAST!",
+      "formSubtitle": "Get Information for Our Prep Exemption Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Write the University You Were Admitted To.",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: UNIVERSITY PREPARATION",
+      "description": "Start your undergraduate education directly with our intensive curriculum prepared by expert instructors following the prep programs of 78 universities.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Personalized and University-Specific Exam Strategies!"
+    },
+    "about": {
+      "badge": "ACCELERATED TRAINING",
+      "title": "What is the Proficiency (Prep Exemption) Exam?",
+      "desc": "The preparatory exemption exam encompasses all exams that measure students' English proficiency, allowing those with passing scores to skip the prep year and directly begin their undergraduate education.<br/><br/><b>Exam Content:</b> It consists of different exam strategies for each university. It basically includes writing (essay), vocabulary, reading, grammar, and listening sections. Some universities also add speaking to these sections.<br/><br/><b>Impact on Your Career:</b> Students who succeed in this exam step into their careers 1 year early by starting their undergraduate education directly. Students who are not successful start both their undergraduate education and professional life 1 year late by studying prep.",
+      "skills": [
+        {
+          "id": "writing",
+          "title": "Writing (Essay)",
+          "desc": "Practice writing effective compositions with logical unity in an academic format."
+        },
+        {
+          "id": "reading_vocab",
+          "title": "Reading & Vocabulary",
+          "desc": "Fast reading and analyzing complex texts with a rich academic vocabulary."
+        },
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Detailed and exam-oriented grammar training suitable for challenging question types of universities."
+        },
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "The skill of taking notes and making correct inferences while listening to academic presentations and dialogues."
+        }
+      ],
+      "description": "Reach your goal with our teachers who specialize in university prep exemption and support courses, along with our extensive archive of past exam questions.",
+      "features": [
+        "Expert teaching staff closely following the prep curriculum of 78 universities.",
+        "Special preparation tailored to the formats (number of questions, duration) set by each university.",
+        "Opportunity to start undergraduate education directly without losing time.",
+        "In-person education opportunity at Bursa, Istanbul, Izmir, Ankara, and Eskişehir campuses."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International Proficiency Course?",
+      "subtitle": "Prep Experience Specific to Your University",
+      "cardTitle": "Extensive Exam Archive",
+      "cardDesc": "We have a unique archive and study system consisting of Proficiency questions asked by different universities in past years.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Is the Proficiency exam content the same at every university?",
+          "a": "No. The exam content, number of questions, and duration are determined individually by each university. Therefore, we plan our training programs specifically for the student's university."
+        },
+        {
+          "q": "When should I take the training?",
+          "a": "This exam is valid for the academic year in which it is conducted. After gaining admission to university, you should join our intensive programs right before the academic calendar begins."
+        },
+        {
+          "q": "In which cities do you have branches?",
+          "a": "We provide training in our Bursa, Istanbul (Kadıköy, Beşiktaş), Izmir, Ankara, and Eskişehir campuses."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Goal-Specific Curriculum",
+          "desc": "Point-blank study programs suitable for the unique exam format of 78 different universities.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Time Savings",
+          "desc": "By helping you achieve your target score, we save 1 year for your life and career.",
+          "icon": "Award"
+        },
+        {
+          "title": "Expert Staff",
+          "desc": "Teachers specialized exclusively in university prep exemption (Proficiency).",
+          "icon": "Users"
+        },
+        {
+          "title": "Flexible Training",
+          "desc": "In-person or online training programs scheduled specifically for you on suitable days and hours.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for Prep Exemption",
+      "subtitle": "Comprehensive Materials Aligned with University Formats",
+      "features": [
+        "Past Year Exam Archive",
+        "Academic Vocabulary Studies",
+        "Intensive Grammar Sets"
+      ],
+      "books": [
+        {
+          "name": "Proficiency Essay Writing",
+          "type": "Writing and Composition Practice"
+        },
+        {
+          "name": "Academic Vocabulary Builder",
+          "type": "Vocabulary Building"
+        },
+        {
+          "name": "Advanced Grammar Focus",
+          "type": "Grammar Studies"
+        },
+        {
+          "name": "University Mock Exams",
+          "type": "Institution-Specific Mock Exams"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Intensive prep face-to-face with expert instructors at our campuses located in Bursa, Istanbul, Izmir, Ankara, and Eskişehir.",
+        "features": [
+          "Face-to-Face Interaction with Expert Staff",
+          "In-Class Practice with Past Questions",
+          "Instant Error Correction and Feedback",
+          "Classroom Environment Enhancing Focus"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Online Proficiency training applied specifically for you on suitable days and hours wherever you are, without losing time.",
+        "features": [
+          "Comfort of Learning Without Leaving Home",
+          "Live and Interactive Lessons",
+          "Digital Exam and Practice Solving",
+          "Flexible Schedule Planning"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    }
+  },
+  "yokdilLandingPage": {
+    "hero": {
+      "tag": "YÖKDİL PREPARATION COURSE",
+      "title": "Field-Specific Preparation for YÖKDİL, Guaranteed Success",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE FIRST STEP TO YOUR ACADEMIC CAREER!",
+      "formSubtitle": "Get Prices and Detailed Information for Our YÖKDİL Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Field (Science, Social, Health Sciences)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: ACADEMIC EXAM COURSES",
+      "description": "Prepare at a macro level specifically for Social, Science, and Health Sciences with our professional teachers who scored full marks on the YÖKDİL exam.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Reach Your Goal with Over 37 Years of Experience!"
+    },
+    "about": {
+      "badge": "ACADEMIC EXPERTISE",
+      "title": "What is the YÖKDİL Exam and Who Should Take It?",
+      "desc": "Candidates taking the YÖKDİL exam are asked questions in their own field of expertise, such as Social Sciences, Science, and Health Sciences. YÖKDİL is an exam that features question types and question content geared toward three different fields.<br/><br/><b>Who Takes the Exam?</b> Mostly candidates for research assistant selection and appointment processes, associate professorship, doctorate, and proficiency in art candidates, undergraduate graduates entering master's programs, and candidates who want to certify their foreign language level for language allowance or overseas duty.<br/><br/><b>Our Educational Approach:</b> YÖKDİL course training in our institution is provided by expert instructors who closely follow the current exam system, personally take the YÖKDİL exam in every exam period, and achieve full scores.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar",
+          "desc": "Strategic and goal-oriented presentation of grammar rules, stripped of unnecessary details, forming the foundation of the exam."
+        },
+        {
+          "id": "vocabulary",
+          "title": "Vocabulary",
+          "desc": "Academic terminology and accurate vocabulary memorization studies specific to your expertise in Health, Social, or Science."
+        },
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Tactics to quickly grasp the main topic in reading passages and filter out critical details within the text."
+        },
+        {
+          "id": "strategy",
+          "title": "Question Solving Techniques",
+          "desc": "Rapidly increasing your net scores with time management and practical question-solving strategies under the guidance of our expert instructors."
+        }
+      ],
+      "description": "As Academic Foreign Language Course, we prepare you in the most equipped manner for the YÖKDİL marathon with over 37 years of educational experience.",
+      "features": [
+        "Classes specialized specifically for the candidate's field of expertise (Science, Social, Health).",
+        "Expert and experienced teaching staff who have achieved full scores on the YÖKDİL exam.",
+        "Up-to-date sets covering subject explanations, question banks, and nationwide mock exams across Turkey.",
+        "Practical question-solving techniques and accurate reading passage presentations."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International YÖKDİL Course?",
+      "subtitle": "37 Years of Experience and High Success Rate",
+      "cardTitle": "Instructors with Full Scores",
+      "cardDesc": "We work with a professional team that takes YÖKDİL in every exam period, analyzes current question types, and achieves full scores.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Are YÖKDİL trainings separated by fields?",
+          "a": "Yes, because the YÖKDİL exam is held in 3 separate fields—Science, Health Sciences, and Social Sciences—our trainings, mock exams, and vocabulary studies are also planned specifically for these fields."
+        },
+        {
+          "q": "Do you provide the course materials?",
+          "a": "Absolutely. Our up-to-date sets with subject explanations, field-specific question banks, and nationwide mock exams across Turkey are provided to our trainees by our institution."
+        },
+        {
+          "q": "Is only grammar taught?",
+          "a": "No, in addition to grammar training; we focus heavily on field-specific vocabulary, main topic analysis in reading passages, and practical question-solving techniques that save you time and directly increase your scores."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Deep-Rooted Experience",
+          "desc": "An educational vision that immediately adapts to changing exam systems with over 37 years of educational experience.",
+          "icon": "Award"
+        },
+        {
+          "title": "Wide Branch Network",
+          "desc": "Face-to-face education with Turkey's leading experts at our centers in Bursa, Izmir, Istanbul, Eskişehir, and Ankara.",
+          "icon": "Users"
+        },
+        {
+          "title": "İngilizce UZEM",
+          "desc": "Turkey's most comprehensive online language platform support featuring video modules where you are in control.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Accurate Presentations",
+          "desc": "Specific tactics and privileged guidance that enable you to solve questions in reading passages quickly.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for YÖKDİL",
+      "subtitle": "Up-to-Date Publication Sets Specific to Your Field",
+      "features": [
+        "Books with Subject Explanations",
+        "Field-Specific Question Banks",
+        "Nationwide Mock Exams Across Turkey"
+      ],
+      "books": [
+        {
+          "name": "YÖKDİL Grammar & Structure",
+          "type": "Goal-Oriented Grammar"
+        },
+        {
+          "name": "YÖKDİL Health / Science / Social",
+          "type": "Field-Specific Vocabulary"
+        },
+        {
+          "name": "YÖKDİL Reading Analysis",
+          "type": "Reading Passage Analysis"
+        },
+        {
+          "name": "YÖKDİL Original Mock Exam Set",
+          "type": "Practice and Exam Simulation"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Classroom Education",
+        "badge": "POPULAR",
+        "desc": "Classroom face-to-face education with expert teachers in our field at our branches in Bursa, Izmir, Istanbul, Eskişehir, and Ankara.",
+        "features": [
+          "Dynamic Classroom Environment",
+          "Field-Specific Classes (Science, Social, Health)",
+          "One-on-One Question Asking and Tutoring Opportunities",
+          "Physical Mock Exam Applications",
+          "High Discipline and Motivation"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Flexible program containing video modules where control is entirely yours via Turkey's most comprehensive online language platform, İngilizce UZEM.",
+        "features": [
+          "İngilizce UZEM Infrastructure",
+          "Live and Interactive Lesson Experience",
+          "Unlimited Review with Video Modules",
+          "Digital Question Solving and Feedback",
+          "Freedom of Time and Space"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the YÖKDİL Preparation Process",
+      "items": [
+        {
+          "q": "Where is the YÖKDİL score valid?",
+          "a": "It is valid for research assistant selection and appointments, associate professorship, doctorate, proficiency in art applications, and master's admissions. In addition, institution employees who want to receive language allowance also apply for this exam."
+        },
+        {
+          "q": "How do you conduct vocabulary studies for the exam?",
+          "a": "We filter the most common academic words according to your chosen field (Health, Science, Social), and teach them not through rote memorization, but by building context and reinforcing them with practical question-solving techniques."
+        },
+        {
+          "q": "Is distance (online) education as effective as face-to-face?",
+          "a": "Definitely. Thanks to live broadcasts, video modules, and PDF documents we offer through Turkey's most comprehensive platform, İngilizce UZEM, you receive a focused education independent of location."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Skills We Will Develop in the YÖKDİL Exam",
+      "grades": [
+        {
+          "tabTitle": "Grammar",
+          "title": "Basic and Advanced Level Grammar",
+          "desc": "We progress with a zero-error principle in grammar structures that form the basis of YÖKDİL question types.",
+          "bullets": [
+            "Tense, Preposition, and Conjunction tactics",
+            "Analyzing sentences to find the correct answer in seconds",
+            "Practical information stripped of unnecessary grammar rules",
+            "Contextual grammar harmony in cloze test questions"
+          ],
+          "summary": "Learn grammar through test techniques, not by getting bogged down in rules."
+        },
+        {
+          "tabTitle": "Vocabulary",
+          "title": "Field-Specific Vocabulary",
+          "desc": "We memorize indispensable words for your field in Social Sciences, Science, or Health Sciences.",
+          "bullets": [
+            "Synonym and Antonym word tactics",
+            "Phrasal verb memorization and recognition techniques in sentences",
+            "Filtered list of the most frequently repeated words in field articles",
+            "Easily eliminating distractors in vocabulary questions"
+          ],
+          "summary": "Easily fill in the blanks in texts with a rich academic vocabulary."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading Passage Analysis (Reading Comprehension)",
+          "desc": "Master techniques for quickly scanning long academic articles to find the main idea and eliminate distractors.",
+          "bullets": [
+            "Skimming and Scanning tactics",
+            "Understanding the author's attitude and main idea within the text",
+            "Finding the specific detail requested in the question stem within the text",
+            "Correctly linking reference words (it, they, such, etc.)"
+          ],
+          "summary": "Make a difference with accurate presentations by our instructors in identifying the main topic in reading passages."
+        },
+        {
+          "tabTitle": "Test Strategies",
+          "title": "Question Solving Tactics and Test Strategy",
+          "desc": "Time-saving methods developed for every question type from translation questions to paragraph completion.",
+          "bullets": [
+            "Subject/verb agreement in English-Turkish and Turkish-English translations",
+            "Sentence Completion tips",
+            "Spotting sentences that disrupt coherence (Irrelevant Sentence)",
+            "Optical answer sheet marking and exam duration (time) management"
+          ],
+          "summary": "Prepare at a macro level for all strategies and get ahead of your competitors in the YÖKDİL marathon."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "37 Years of Experience for YÖKDİL Success",
+        "desc": "Success in the YÖKDİL exam, which is of great importance for associate professorship, doctorate, master's programs, and research assistant selection procedures, comes not only with general English knowledge, but with mastery over exam mathematics. With over 37 years of educational experience and our expert staff following changing exam systems closely, we prepare you completely for this critical marathon.",
+        "bullets": [
+          "Professional instructors who personally take the exam and achieve full scores",
+          "Subject explanations specialized for Social, Science, and Health Sciences fields",
+          "Nationwide mock exams across Turkey that accurately reflect the exam difficulty level",
+          "Accurate solution presentations that save time in reading passages"
+        ],
+        "summary": "Reach your academic goals without losing time by working with Turkey's leading instructor staff."
+      },
+      {
+        "title": "İngilizce UZEM or Face-to-Face Education Options",
+        "desc": "We offer the privilege of face-to-face education (in-classroom education) through our campuses located in various provinces of Turkey (Bursa, Izmir, Istanbul, Eskişehir, and Ankara). For our candidates facing time and location constraints, we provide uninterrupted education with video modules and live support options where control is entirely in the student's hands via Turkey's most comprehensive online language platform, İngilizce UZEM.",
+        "bullets": [
+          "Immediate face-to-face interaction with expert instructors in classroom education",
+          "Review of missed lessons from video modules with İngilizce UZEM",
+          "Up-to-date sets where grammar, vocabulary, and question-solving applications are integrated",
+          "Strategic guidance targeted toward goals (Master's, Doctorate, Language Allowance, etc.)"
+        ],
+        "summary": "Whichever educational model you choose, you will feel privileged with the difference of Academic Foreign Language Course."
+      }
+    ]
+  },
+  "toeflLandingPage": {
+    "hero": {
+      "tag": "TOEFL PREPARATION COURSE",
+      "title": "Reach Your Target Score on the TOEFL Exam",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE PATH TO YOUR GOAL!",
+      "formSubtitle": "Get Prices and Detailed Information for Our TOEFL Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: ABROAD EXAM PREPARATION",
+      "description": "Master your 4 core skills in an electronic environment accompanied by our instructors who have experienced the TOEFL exam for years and hold top scores.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Comprehensive Publication Support and Strategic Question Solving!"
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is TOEFL and Who Should Take It?",
+      "desc": "TOEFL (Test of English as a Foreign Language) is an internationally recognized academic test conducted in an electronic environment that measures academic English usage. It is an academic test measuring the English proficiency of non-native speakers, administered in 4,500 authorized test centers across 170 countries.<br/><br/><b>Who Takes the Exam?</b> Students who want to study at a higher education institution, scholarship and certificate candidates, students and workers applying for visas, and those who want to track their language progress.<br/><br/><b>Our Educational Approach:</b> We start by identifying the deficiencies of our students in the four skills tested on the TOEFL exam; we introduce them to the exam format and question types, ensuring they evaluate the process in the most effective way.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Techniques for analyzing academic reading passages, finding the main idea, and eliminating distractors."
+        },
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "Electronic listening practice, note-taking, and listening comprehension skills."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking",
+          "desc": "Fluent speaking practice on the microphone through speaking activities held every day of the week."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "Practice writing coherent essays in academic format under time constraints."
+        }
+      ],
+      "description": "Prepare for the TOEFL exam, taken by over 35 million people worldwide, without losing time alongside our expert teaching staff.",
+      "features": [
+        "4 core skills training: Reading, Listening, Speaking, and Writing.",
+        "Exam strategy techniques based on the TOEFL exam format and past questions.",
+        "Speaking activities you can participate in every day of the week.",
+        "Opportunity to complete the training pace 50% faster through private lesson programs."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International TOEFL Course?",
+      "subtitle": "Secure Your Time and Score",
+      "cardTitle": "Instructors with Top Scores",
+      "cardDesc": "We work with a professional staff that has personally experienced the exam, achieved high scores, and fully mastered the TOEFL algorithm.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "How long does the TOEFL exam take and how many times a year is it held?",
+          "a": "The exam takes 4.5 hours in total. It is held approximately 50 times a year based on a predetermined schedule."
+        },
+        {
+          "q": "What kind of method do you follow in the TOEFL course?",
+          "a": "We start the training by testing our students' deficiencies in reading, listening, speaking, and writing skills. We focus on exam strategies and score-boosting techniques using past questions."
+        },
+        {
+          "q": "Do you have special practice for Speaking?",
+          "a": "Yes, our students enrolled in the TOEFL program can participate in speaking activities held every day of the week to improve their speaking skills and fluency."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Electronic Exam Practice",
+          "desc": "Computer-based (CBT/iBT) TOEFL mock exams simulating the real exam environment.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Rapid Development",
+          "desc": "With private lessons, we shorten the training time a person would take in a class environment by 50%.",
+          "icon": "Award"
+        },
+        {
+          "title": "Comprehensive Publication Support",
+          "desc": "Publication and document support specially prepared to eliminate deficiencies in all four skills.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Strategic Question Solving",
+          "desc": "Exam strategy techniques applied to solve questions quickly and accurately.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for TOEFL",
+      "subtitle": "Comprehensive and Up-to-Date Exam Materials",
+      "features": [
+        "Past TOEFL Questions",
+        "4-Skill Focused Study Books",
+        "Electronic Mock Exam Sets"
+      ],
+      "books": [
+        {
+          "name": "TOEFL iBT Reading & Listening",
+          "type": "Reading and Listening Practice"
+        },
+        {
+          "name": "TOEFL iBT Speaking & Writing",
+          "type": "Productive Skills and Templates"
+        },
+        {
+          "name": "Academic Vocabulary for TOEFL",
+          "type": "Exam Vocabulary"
+        },
+        {
+          "name": "TOEFL Strategy and Mock Exam Set",
+          "type": "Past Questions and Tactics"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Classroom Education",
+        "badge": "POPULAR",
+        "desc": "Dynamic and disciplined TOEFL preparation face-to-face with expert instructors holding top scores at our campuses.",
+        "features": [
+          "Face-to-Face Interaction with Expert Staff",
+          "Speaking Activities Every Day of the Week",
+          "In-House Electronic Mock Exams",
+          "Instant Error Analysis and Feedback"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The most suitable model for TOEFL's digital structure! Prepare in an electronic environment with flexible hours through our interactive platform.",
+        "features": [
+          "Live Lesson Opportunity Without Leaving Home",
+          "Online Exam Simulations",
+          "Digital Publication and Document Support",
+          "50% Faster Training with Private Lessons"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the TOEFL Preparation Process",
+      "items": [
+        {
+          "q": "How long is the TOEFL exam validity period?",
+          "a": "The validity period of your exam result for academic or institutional applications is generally 2 years from the exam date."
+        },
+        {
+          "q": "What should my English level be to start a TOEFL course?",
+          "a": "TOEFL is a demanding academic exam measuring language skills between intermediate and advanced (Intermediate - Advanced). Before starting training, it is recommended to have completed your basic and intermediate English deficiencies."
+        },
+        {
+          "q": "When do exam preparation programs start?",
+          "a": "The starting dates and campus locations for our exam preparation programs at Academic Foreign Language Courses are announced regularly. You can also start immediately in a private lesson format depending on your needs."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Skills You Will Master in the TOEFL Exam",
+      "grades": [
+        {
+          "tabTitle": "Reading",
+          "title": "Reading Strategies",
+          "desc": "Methods we apply to manage time and quickly access accurate information while reading academic texts.",
+          "bullets": [
+            "Inferring meaning from paragraphs and finding author's intent",
+            "Identifying references within the text",
+            "Logical flow in Insert a Sentence questions",
+            "Deducing vocabulary from context"
+          ],
+          "summary": "Focus directly on the question and answer without getting lost in long, complex texts."
+        },
+        {
+          "tabTitle": "Listening",
+          "title": "Listening Tactics",
+          "desc": "Key points to consider while listening to university campus conversations and long academic lectures.",
+          "bullets": [
+            "Effective note-taking symbols and abbreviations",
+            "Making inferences from speaker's tone and emphasis (attitude)",
+            "Separating main ideas from supporting details",
+            "Focusing on correct notes when questions appear on screen"
+          ],
+          "summary": "Increase your listening score by taking notes with the right strategy instead of trying to memorize auditory data."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking Skills",
+          "desc": "Practices to manage stress and maintain fluency while speaking into a microphone at a computer.",
+          "bullets": [
+            "Generating ideas in 15 seconds and speaking for 45 seconds on independent questions",
+            "Synthesizing information in integrated Reading-Listening-Speaking tasks",
+            "Improving pronunciation, intonation, and reducing pauses",
+            "Controlling the timer to wrap up sentences"
+          ],
+          "summary": "Maximize your speaking confidence with our speaking activities held every day of the week."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing Format",
+          "desc": "Fast keyboard typing practice and academic essay structures expected by raters.",
+          "bullets": [
+            "Summarizing reading and listening texts in integrated tasks",
+            "Defending ideas and providing examples in independent tasks",
+            "Connecting paragraphs with transition words",
+            "Reserving time for proofreading to check grammar errors"
+          ],
+          "summary": "Elevate your writing to academic standards using templates applied through past exam questions."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Prepare for the TOEFL Exam with Experts Holding Top Scores",
+        "desc": "The internationally recognized TOEFL exam, administered in 4,500 test centers across 170 countries, is one of the most important steps for studying abroad, scholarship applications, and academic careers. As Academic Foreign Language Course, we offer preparation for this challenging electronic exam with our teaching staff who have personally achieved high scores and know the exam's algorithm and nuances.",
+        "bullets": [
+          "Curriculum developing Reading, Listening, Speaking, and Writing skills equally",
+          "Strategic tactics that reduce exam anxiety and boost net scores",
+          "Exam simulations based on past questions",
+          "Weekly accessible speaking activities"
+        ],
+        "summary": "Do not leave success to chance; grasp the logic of the exam and reach your target critical score in the shortest time possible."
+      },
+      {
+        "title": "Use Your Time 50% More Efficiently",
+        "desc": "Time is one of the most crucial factors in the TOEFL marathon. We start our TOEFL preparation program by clearly identifying our students' deficiencies across all four skills. In addition to group lessons, with our private lesson studies focused on individual needs, we complete the training pace that can be taken in a class environment 50% faster, giving you a major advantage.",
+        "bullets": [
+          "Pinpoint deficiency detection and personalized educational planning",
+          "Mock exams in an electronic environment matching the real exam duration (4.5 hours)",
+          "One-on-one analysis and feedback from instructors in Speaking and Writing sections",
+          "Comprehensive document and up-to-date publication support"
+        ],
+        "summary": "Whether in group training or private lessons, move confidently toward your goal with the difference of Academic Foreign Language Course."
+      }
+    ]
+  },
+  "toeicLandingPage": {
+    "hero": {
+      "tag": "TOEIC PREPARATION COURSE",
+      "title": "Take Your Career to the Top with a 990 Score on the TOEIC Exam",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "STAND OUT IN THE BUSINESS WORLD!",
+      "formSubtitle": "Get Prices and Detailed Information for Our TOEIC Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Current English Level (At least Upper-Intermediate)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: BUSINESS ENGLISH EXAMS",
+      "description": "Reach your goal through a personalized program with our instructors who master exam strategies with a full 990 score in Reading and Listening skills and identify your weaknesses.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Comprehensive Document Support and Strategic Question Solving!"
+    },
+    "about": {
+      "badge": "CORPORATE VALIDITY",
+      "title": "What is TOEIC and Who Should Take It?",
+      "desc": "TOEIC (Test Of English for International Communication) is a foreign language exam conducted by the US-based ETS (Educational Testing Service), specifically aimed at the business field. It does not have any validity period limit.<br/><br/><b>Where is it required?</b> TOEIC exam scores are requested during the recruitment process to evaluate candidates' foreign language proficiency, especially by TOFAŞ, RENAULT, and large-scale companies prominent in the global market.<br/><br/><b>Our Educational Approach:</b> To achieve a successful score on this exam, candidates must have completed at least the upper-intermediate level. Rather than general English training, our educational programs focus specifically on the TOEIC exam.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Skills for analyzing business correspondence, reports, and corporate texts, alongside speed reading."
+        },
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "Gaining clear listening comprehension in job interviews and global communication processes."
+        },
+        {
+          "id": "business_vocab",
+          "title": "Business English (Vocabulary)",
+          "desc": "Making written communication successful with the vocabulary and equipped English infrastructure gained during training."
+        },
+        {
+          "id": "strategy",
+          "title": "Exam Strategy",
+          "desc": "Exam-specific tactics tailored for this communication-heavy exam, applied by expert instructors with a 990 score."
+        }
+      ],
+      "description": "The highest-quality preparation process for those who want to get ahead of their competitors, students, or applicants to institutions requesting TOEIC scores.",
+      "features": [
+        "A communication-heavy curriculum testing 2 core skills: Reading and Listening.",
+        "An expert teaching staff with a full score of 990, mastering exam strategies.",
+        "Personalized deficiency detection and programming tailored exclusively for the TOEIC exam.",
+        "Free participation rights in speaking programs for students taking TOEIC training at our campuses."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International TOEIC Course?",
+      "subtitle": "Master Global Communication Standards",
+      "cardTitle": "Instructors with a Full 990 Score",
+      "cardDesc": "Work with a teaching staff that has achieved a full score of 990 on the TOEIC exam, fully mastering the exam algorithm and corporate business English.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "What is the difference between TOEFL and TOEIC?",
+          "a": "Although both are administered by ETS, TOEFL is primarily for academic education (university) purposes, whereas TOEIC is an exam directly targeted at the business world and corporate communication."
+        },
+        {
+          "q": "What level should I be at to join the TOEIC course?",
+          "a": "To achieve a successful score on this exam, candidates must have completed at least the upper-intermediate level."
+        },
+        {
+          "q": "How can I apply for the exam?",
+          "a": "Applications can be made by scheduling an appointment via phone through authorized exam application centers in your province."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Personalized Program",
+          "desc": "A one-on-one tracking system that identifies student weaknesses and directly reinforces them.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Free Speaking",
+          "desc": "Free speaking clubs offered specially to TOEIC students at our campuses.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Ingilizce UZEM",
+          "desc": "Training through Turkey's most qualified online language platform for professionals with busy work schedules.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Corporate Validity",
+          "desc": "Business-focused content directly preparing for job interviews at giant brands like TOFAŞ and RENAULT.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for TOEIC",
+      "subtitle": "Comprehensive Document and Material Support",
+      "features": [
+        "Business English Focused Reading",
+        "Corporate Listening Practices",
+        "TOEIC Exam Strategies"
+      ],
+      "books": [
+        {
+          "name": "TOEIC Reading Strategies",
+          "type": "Business Texts and Report Analysis"
+        },
+        {
+          "name": "TOEIC Listening for Business",
+          "type": "Meeting and Interview Listening Practices"
+        },
+        {
+          "name": "Business Vocabulary Builder",
+          "type": "Corporate Vocabulary"
+        },
+        {
+          "name": "TOEIC Full Practice Exams",
+          "type": "Full-Length Mock Exams"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Dynamic, communication-heavy TOEIC preparation face-to-face with 990-scored instructors at our campuses, suited to business world dynamics.",
+        "features": [
+          "Face-to-Face Interaction with Expert Instructors",
+          "Participation in Free Speaking Programs",
+          "Deficiency Detection and Personalized Program",
+          "Comprehensive Document Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Education via Turkey's most qualified online language platform, Ingilizce UZEM, for students with busy working lives.",
+        "features": [
+          "Ability to Connect from Home or Office",
+          "Content Prepared by Instructors with a 990 Score",
+          "Live and Interactive Lesson Experience",
+          "Career Preparation Without Losing Time"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About TOEIC Preparation Process",
+      "items": [
+        {
+          "q": "Which areas does the TOEIC exam test?",
+          "a": "The exam mainly tests 2 skills, Reading and Listening; in short, it is a communication-heavy exam."
+        },
+        {
+          "q": "Do you only solve exam questions during the training process?",
+          "a": "No. In addition to exam strategies, our students master global communication processes at the end of training; they gain clear listening comprehension in job interviews and rich vocabulary in written communication."
+        },
+        {
+          "q": "Does the TOEIC exam have a validity period?",
+          "a": "Unlike TOEFL, the TOEIC exam does not have any validity period limit. The score obtained is permanently added to your career."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "Skills Evaluated in the TOEIC Exam",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening Skill",
+          "desc": "Practices enabling you to gain clear listening comprehension in job interviews, meetings, and phone calls.",
+          "bullets": [
+            "Analyzing photo/visual description questions",
+            "Eliminating distractors in the Question-Response section",
+            "Understanding short conversations and corporate announcements",
+            "Familiarity with different English accents (British, American, Australian)"
+          ],
+          "summary": "Adapt to the global communication standards of the business world through listening."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading Skill",
+          "desc": "Ability to understand and interpret corporate correspondence such as emails, official reports, and business letters.",
+          "bullets": [
+            "Grammar tactics for Incomplete Sentences",
+            "Context analysis in Text Completion sections",
+            "Speed scanning single and multiple (Multiple Passages) reading passages",
+            "Catching synonyms within business jargon"
+          ],
+          "summary": "Finish the TOEIC reading section on time by gaining speed in business world texts."
+        },
+        {
+          "tabTitle": "Business Vocab",
+          "title": "Business English and Vocabulary",
+          "desc": "Vocabulary studies aligned entirely with corporate life and the TOEIC curriculum rather than general English.",
+          "bullets": [
+            "Human resources, finance, marketing, and production terminology",
+            "Official templates and phrases used in business letters and emails",
+            "Strengthening written communication with rich vocabulary and a solid foundation",
+            "Deducing meanings of unfamiliar words using contextual clues"
+          ],
+          "summary": "Make a difference both in the exam and in office life with a rich corporate vocabulary."
+        },
+        {
+          "tabTitle": "Strategy",
+          "title": "990 Score Strategy",
+          "desc": "Time management and option elimination techniques applied by our instructors who scored a full 990 on the TOEIC exam.",
+          "bullets": [
+            "Techniques to finish all questions by managing time effectively",
+            "Being prepared by reading questions in advance in the Listening section",
+            "Quickly eliminating wrong options by decoding the exam algorithm",
+            "Targeted study plan with personalized deficiency detection"
+          ],
+          "summary": "Get ahead of your competitors not only with your English knowledge, but also with your exam strategy."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Open the Doors to Your Corporate Career with TOEIC",
+        "desc": "TOEIC (Test Of English for International Communication) is the most prestigious Business English exam preferred by giant brands like TOFAŞ and RENAULT for recruitment and promotion processes in the global market. As Academic Foreign Language Courses, we move away from general English training and offer specialized programs focusing entirely on the business world and the TOEIC exam curriculum.",
+        "bullets": [
+          "Teaching staff composed of strategy experts with a full 990 score on the exam",
+          "Intense, communication-heavy curriculum focused on Reading and Listening",
+          "Free Speaking clubs in addition to campus training",
+          "Personalized deficiency detection and rich document support"
+        ],
+        "summary": "You are in the right place to climb career ladders quickly and catch up with global communication standards."
+      },
+      {
+        "title": "Solutions Suitable for Your Workload: Ingilizce UZEM",
+        "desc": "We know how challenging it is to prepare for exams amidst a busy work schedule. For this reason, we offer TOEIC preparation via Turkey's most qualified online language platform, Ingilizce UZEM, for professionals who want to get ahead of their competitors. Independent of time and location, you can continue your education uninterrupted with online content prepared by our expert teachers with a 990 score.",
+        "bullets": [
+          "Online TOEIC preparation programs flexible to your working hours",
+          "Practices providing clear listening comprehension (Listening) in job interviews",
+          "Solid infrastructure strengthening written communication (Reading & Vocabulary)",
+          "Rapid development specialized for candidates at least at the Upper-Intermediate level"
+        ],
+        "summary": "Use your time most efficiently while investing in your future, and reach your target TOEIC score."
+      }
+    ]
+  },
+  "gmatLandingPage": {
+    "hero": {
+      "tag": "GMAT PREPARATION COURSE",
+      "title": "Achieve Your MBA Dreams with Turkey's Best GMAT Course",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "REACH THE ACADEMIC PEAK!",
+      "formSubtitle": "Get Prices and Detailed Information for Our GMAT Course Now!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Your Target Program (MBA, PhD, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: INTERNATIONAL EXAM PREPARATION",
+      "description": "Turkey's best GMAT preparation course, Academic Foreign Language Course, is here for qualified language education with its unique curriculum and expert teaching staff.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Strategic Preparation with Instructors Who Have Achieved High Scores!"
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is GMAT and What is the Exam Content Like?",
+      "desc": "GMAT (Graduate Management Admission Test) is an exam accepted by over 8,000 schools with business master's (MBA) programs in Turkey and abroad, taken by students who wish to pursue master's and PhD degrees in this field. The validity period of the exam is 5 years.<br/><br/><b>Structure of the Exam:</b> Prepared by the Graduate Management Admission Council (GMAC) and administered by Pearson VUE, the GMAT exam is conducted entirely on computer. You cannot return to questions you have passed; therefore, strategy is much more vital compared to other exams.",
+      "skills": [
+        {
+          "id": "quantitative",
+          "title": "Quantitative",
+          "desc": "Your skills in reaching correct conclusions are measured through questions related to data interpretation and problem solving."
+        },
+        {
+          "id": "verbal",
+          "title": "Verbal",
+          "desc": "Reading comprehension, critical reasoning, and sentence correction skills are tested."
+        },
+        {
+          "id": "integrated",
+          "title": "Integrated Reasoning",
+          "desc": "Ability to evaluate information gathered from different sources through table analysis and chart interpretation."
+        },
+        {
+          "id": "analytical",
+          "title": "Analytical Writing",
+          "desc": "Your ability to analyze an argument, think critically, and express your ideas is measured."
+        }
+      ],
+      "description": "Reach your goal without losing time with our expert teaching staff who know the importance of strategy in the GMAT exam and have achieved high scores.",
+      "features": [
+        "4 core sections: Analytical Writing, Integrated Reasoning, Verbal, and Quantitative.",
+        "High-scoring instructors with full mastery of exam strategies and GMAT question types.",
+        "No-return question simulations fully aligned with the computer-based test (CBT).",
+        "Free speaking activities every day of the week for our students registered in the GMAT program."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International GMAT Course?",
+      "subtitle": "Turkey's Most Qualified GMAT Preparation",
+      "cardTitle": "High-Scoring Experts",
+      "cardDesc": "An exclusive team of instructors who have personally taken the GMAT exam, cracked the system's algorithm, and achieved high scores.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "How long does the GMAT exam take?",
+          "a": "The GMAT exam consists of 4 sections: Analytical Writing, Integrated Reasoning, Verbal, and Quantitative, with a total time allocation of 3 hours and 30 minutes."
+        },
+        {
+          "q": "Can I return to previous questions and change my answers during the exam?",
+          "a": "No. The GMAT exam is conducted on computer, and due to its algorithm, you cannot return to questions you have passed. Therefore, intensive training focused on time management and decisive strategy is provided in our course."
+        },
+        {
+          "q": "How many years is the GMAT score valid?",
+          "a": "The international validity period of the GMAT exam score is 5 years."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Original Curriculum",
+          "desc": "Turkey's best preparation course curriculum, fully compatible with the GMAT format and question types.",
+          "icon": "Award"
+        },
+        {
+          "title": "Algorithm Strategy",
+          "desc": "Specific tactics tailored for no-return questions and Computer Adaptive Test (CAT) logic.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Free Speaking",
+          "desc": "Free speaking clubs organized every day of the week for our students registered in the GMAT program.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Comprehensive Analysis",
+          "desc": "Detailed mock reports that instantly identify students' verbal and quantitative weaknesses.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for GMAT",
+      "subtitle": "Educational Materials at International Standards",
+      "features": [
+        "Original GMAT Past Questions",
+        "Quantitative and Verbal Focused Practices",
+        "Computer-Based Mock Sets"
+      ],
+      "books": [
+        {
+          "name": "GMAT Quantitative Focus",
+          "type": "Quantitative Data Interpretation and Problem Solving"
+        },
+        {
+          "name": "GMAT Verbal & Critical Reasoning",
+          "type": "Critical Reasoning"
+        },
+        {
+          "name": "Integrated Reasoning & AWA",
+          "type": "Graphics Interpretation and Analytical Writing"
+        },
+        {
+          "name": "GMAT Official Computer Mocks",
+          "type": "Computer-Based Mocks"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Strategic GMAT preparation face-to-face with our high-scoring instructors at our campuses.",
+        "features": [
+          "In-Class Interaction with Expert Instructors",
+          "Participation in Free Speaking Clubs",
+          "Computerized Mocks in GMAT Format",
+          "Question Solving Strategies and Study Sessions"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "A highly efficient online GMAT course conducted through our interactive platforms for students with time constraints.",
+        "features": [
+          "Participation in Live Classes from Anywhere",
+          "Online Mock and Time Management Practice",
+          "Digital Support from High-Scoring Instructors",
+          "On-Screen Practices Aligned with the GMAT Algorithm"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About GMAT Preparation Process",
+      "items": [
+        {
+          "q": "Who should join your GMAT course?",
+          "a": "All candidates who wish to pursue a master's or PhD in fields such as business (MBA), finance, accounting, and plan to apply to prestigious schools worldwide should join."
+        },
+        {
+          "q": "Why is exam strategy so important?",
+          "a": "Since the exam is taken on a computer and you only see the remaining time and question count on screen without the ability to return to previous questions (Computer Adaptive Test logic), knowing how much time to allocate to each question is vital."
+        },
+        {
+          "q": "What does the Integrated Reasoning section contain?",
+          "a": "This section, which includes table analysis and chart interpretation, measures your ability to synthesize information gathered from different sources to make logical assessments."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "4 Core Sections Evaluated in the GMAT Exam",
+      "grades": [
+        {
+          "tabTitle": "Quantitative",
+          "title": "Quantitative",
+          "desc": "It is the quantitative reasoning section containing questions related to data interpretation and problem solving.",
+          "bullets": [
+            "Applying mathematical concepts quickly",
+            "Analyzing complex data to reach the correct result",
+            "Problem Solving tactics",
+            "Grasping the logic of Data Sufficiency"
+          ],
+          "summary": "Learn to use your mathematical logic in the most efficient way under time pressure."
+        },
+        {
+          "tabTitle": "Verbal",
+          "title": "Verbal",
+          "desc": "Measures your reading comprehension, critical reasoning, and English sentence correction (Sentence Correction) abilities.",
+          "bullets": [
+            "Reading Comprehension: Understanding complex texts",
+            "Critical Reasoning: Finding weak/strong points of an argument",
+            "Sentence Correction: Correcting grammar and semantic errors",
+            "Interpreting vocabulary appropriately in context"
+          ],
+          "summary": "Detect logical fallacies and correct grammatical structures hidden within texts in seconds."
+        },
+        {
+          "tabTitle": "Integrated R.",
+          "title": "Integrated Reasoning",
+          "desc": "A critical area where your ability to generate information by blending data from various formats (tables, graphs) is tested.",
+          "bullets": [
+            "Multi-Source Reasoning",
+            "Graphics Interpretation / Table Analysis",
+            "Two-Part Analysis",
+            "Ability to switch quickly between complex data sets"
+          ],
+          "summary": "Gain the ability to accurately interpret data similar to real-world business problems."
+        },
+        {
+          "tabTitle": "Analytical W.",
+          "title": "Analytical Writing Assessment",
+          "desc": "In this section where you will be asked to analyze an argument, your critical thinking ability and speed in structuring your ideas are measured.",
+          "bullets": [
+            "Finding the logical weaknesses of an argument",
+            "Writing thoughts clearly, concisely, and in academic English",
+            "Structuring introduction, body, and conclusion paragraphs on time",
+            "Supporting the discussion with convincing examples"
+          ],
+          "summary": "Put your critiques into writing using templates that raters reward with high scores."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Turkey's Best GMAT Course for Your MBA Dreams",
+        "desc": "GMAT (Graduate Management Admission Test), which opens doors to MBA (Master of Business Administration) and PhD programs worldwide, especially in the US, is accepted by over 8,000 schools. With our original curriculum and expert teacher staff who have achieved high scores, we, as Academic Foreign Language Course, are here for qualified language and exam training.",
+        "bullets": [
+          "Teaching staff familiar with GMAT question logic and algorithms",
+          "Specialized curriculum for Analytical Writing, Verbal, Quantitative, and Integrated Reasoning sections",
+          "Digital practices fully compatible with the Computer Adaptive Test (CAT) system",
+          "Tactics for managing exam anxiety and saving time"
+        ],
+        "summary": "Take the strongest step toward your academic future with our international standard education."
+      },
+      {
+        "title": "The Power of Strategy in GMAT and Computerized Exam Practice",
+        "desc": "GMAT is an exam lasting 3 hours and 30 minutes in total, conducted entirely on computer. The most distinct feature of the exam is that you cannot return to questions you have passed. This makes strategy far more vital in the GMAT exam compared to other exams. In our course, we develop reflexes for managing on-screen time and making decisions without hesitation when faced with questions.",
+        "bullets": [
+          "Time management exercises prepared according to the No-Return rule",
+          "Adaptive question-solving techniques suited to varying difficulty levels",
+          "Weekly free speaking activities exclusive to GMAT program students",
+          "Practical analysis methods in data interpretation and critical reasoning"
+        ],
+        "summary": "Knowing English alone is not enough for GMAT without the right strategy; turn the rules of the exam to your advantage with our course."
+      }
+    ]
+  },
+  "goetheLandingPage": {
+    "hero": {
+      "tag": "GOETHE GERMAN COURSE",
+      "title": "Achieve Your Germany Dream with the GOETHE Certificate",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE FIRST STEP FOR GERMANY!",
+      "formSubtitle": "Get Price and Detailed Information for Our Goethe Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Your Target Level (A1, B1, B2, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: INTERNATIONAL EXAM PREPARATION",
+      "description": "Prepare for the GOETHE exam—which proves your German language proficiency for family reunification, education, or employment—with our team of instructors who have at least 5 years of experience.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Personalized Program and Question Solving Techniques!"
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is the GOETHE German Exam?",
+      "desc": "The GOETHE exam, conducted to determine German language proficiency levels, is recognized worldwide. Its certificates are viewed by employers and educational institutions as official proof of language competence.<br/><br/><b>Scope of the Exam:</b> The Goethe Institute exams comply fully with the language levels of the Common European Framework of Reference for Languages (CEFR). In this system, candidates' German knowledge is evaluated from level <b>A1 to C2</b>.<br/><br/><b>What is it for?</b> By taking this exam, you can prove that you can communicate at a basic level or use the language at an academic level. You can use the Goethe Institute certificate in your job applications, educational institutions, and especially in family reunification visa processes.",
+      "skills": [
+        {
+          "id": "a1_a2",
+          "title": "Basic Use (A1 - A2)",
+          "desc": "Ability to understand and use everyday German expressions required for family reunification and basic communication."
+        },
+        {
+          "id": "b1_b2",
+          "title": "Independent Use (B1 - B2)",
+          "desc": "The level required to obtain professional recognition in Germany, work, and communicate fluently in daily life."
+        },
+        {
+          "id": "c1_c2",
+          "title": "Proficient Use (C1 - C2)",
+          "desc": "Ability to study at German universities and analyze complex academic/professional texts."
+        },
+        {
+          "id": "exam_strategy",
+          "title": "Exam Strategy",
+          "desc": "Techniques to successfully complete reading, listening, writing, and speaking modules within the allotted time."
+        }
+      ],
+      "description": "Officially certify your German language proficiency success by joining the GOETHE exam preparation program with Academic Foreign Language Course.",
+      "features": [
+        "Expert teaching staff with at least 5 years of experience in the field who have mastered the exam system.",
+        "Customized class planning tailored to targets like family reunification, academic education, or professional recognition.",
+        "Question-solving techniques specifically developed for Goethe Zertifikat (A1-C2) modules.",
+        "An intensive curriculum ensuring you reach your target level (from A1 to C2) in the shortest time possible."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International Goethe Course?",
+      "subtitle": "Entrust Your German Goals to Experts",
+      "cardTitle": "Experienced Teaching Staff",
+      "cardDesc": "Work with instructors who have at least 5 years of experience—teachers who don't just teach the language, but thoroughly know the Goethe exam evaluation criteria.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Which exam should I take for a family reunification visa?",
+          "a": "For German family reunification visa applications, the German Consulate usually requests the Goethe-Zertifikat A1: Start Deutsch 1 certificate."
+        },
+        {
+          "q": "Is there a validity period for the Goethe certificate?",
+          "a": "Certificates issued by the Goethe Institute (from A1 to C2) are valid for life. However, some institutions or employers may require the certificate to have been obtained within the last 2 years."
+        },
+        {
+          "q": "Which levels do you prepare for in your courses?",
+          "a": "In accordance with CEFR (Common European Framework of Reference for Languages) standards, we provide training for all Goethe exam modules from the A1 beginner level up to the C2 advanced academic level."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Question Solving Techniques",
+          "desc": "Practical tactics to avoid falling for distractors in the reading and listening modules of the Goethe exam.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Speaking Practice",
+          "desc": "One-on-one study sessions to overcome nervousness and communicate fluently in the oral (Sprechen) section of the exam.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Official Standards",
+          "desc": "100% compliance with A1-C2 Common European criteria requested by educational institutions and employers.",
+          "icon": "Award"
+        },
+        {
+          "title": "Modular Preparation",
+          "desc": "Focus on the module where you are weak (e.g., Writing/Schreiben only) to quickly address shortcomings.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for Goethe",
+      "subtitle": "Exam Materials Suitable for Your Level",
+      "features": [
+        "A1 - C2 Level Books",
+        "Modular Question Banks",
+        "Goethe Practice Exams"
+      ],
+      "books": [
+        {
+          "name": "Prüfungstraining Goethe-Zertifikat",
+          "type": "Exam Training Set"
+        },
+        {
+          "name": "Fit fürs Goethe-Zertifikat",
+          "type": "Four Skills Preparation Book"
+        },
+        {
+          "name": "Wortschatz & Grammatik",
+          "type": "Vocabulary and Grammar Work"
+        },
+        {
+          "name": "Goethe Modelltests",
+          "type": "Real Exam Simulations"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Disciplined and highly motivating Goethe preparation face-to-face with our instructors who have at least 5 years of experience at our campuses.",
+        "features": [
+          "Face-to-Face Interaction with Expert Staff",
+          "In-Class Speaking (Sprechen) Practices",
+          "Physical Practice Exams and Feedback",
+          "Exam Anxiety and Time Management"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Reach your German target without losing time through our interactive online platform, whether from your workplace or home.",
+        "features": [
+          "Live and Interactive Classes",
+          "Online Exam Simulations",
+          "Digital Publication and Document Support",
+          "Flexible Class Hours"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Goethe Exam Preparation",
+      "items": [
+        {
+          "q": "Is there an age limit to take the Goethe exam?",
+          "a": "Although it varies depending on the exam modules, candidates aged 16 and older are generally recommended to take the Goethe-Zertifikat exams for adults. For younger age groups, there are specialized modules such as 'Fit in Deutsch'."
+        },
+        {
+          "q": "What happens if I fail only one section (module) of the exam?",
+          "a": "At levels like B1, B2, C1, and C2, the exam is conducted modularly (Reading, Listening, Writing, Speaking). If you fail only one module, instead of retaking the entire exam, you can complete your certificate by taking only the exam for the failed module on future dates."
+        },
+        {
+          "q": "How long does it take on average to get the family reunification (A1) certificate?",
+          "a": "Assuming a student starts from scratch, reaching the A1 certificate level usually takes between 1.5 to 2.5 months with our intensive programs and regular student effort."
+        }
+      ]
+    }
+  },
+  "osdLandingPage": {
+    "hero": {
+      "tag": "ÖSD GERMAN COURSE",
+      "title": "Cross Borders with the ÖSD Certificate Valid All Over the World",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "ACHIEVE YOUR GOALS!",
+      "formSubtitle": "Get Price and Detailed Information for Our ÖSD Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select the Level You Will Take (A1-C2)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: INTERNATIONAL EXAM PREPARATION",
+      "description": "Prepare for the communication-oriented ÖSD exam, valid worldwide, with our expert instructors who have at least 5 years of experience in the field and up-to-date exam experience.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Personalized Training Program and Strategic Preparation!"
+    },
+    "about": {
+      "badge": "GLOBAL VALIDITY",
+      "title": "What is the ÖSD Exam?",
+      "desc": "ÖSD (Österreichisches Sprachdiplom Deutsch) is an internationally recognized German language certificate valid all over the world. It is possible to define ÖSD as a communication-oriented exam system. The ÖSD exam is tied to a centralized exam system and measures candidates' German proficiency between A1-C2 levels.<br/><br/><b>What are the Advantages of the Certificate?</b> Having an ÖSD certificate provides you with a great advantage in proving your language skills to obtain residence permits, university pre-admissions, work permit processes, citizenship procedures, family reunification applications at consulates, and valid fields for student and work visas.",
+      "skills": [
+        {
+          "id": "communication",
+          "title": "Communication Focus",
+          "desc": "Development of practical German communication skills you will need in daily and professional life."
+        },
+        {
+          "id": "strategy",
+          "title": "Exam Strategies",
+          "desc": "Specific strategies that teach the logic of the centralized exam system and question-solving techniques."
+        },
+        {
+          "id": "custom",
+          "title": "Personalized Training",
+          "desc": "A pinpoint study program prepared according to student shortcomings by measuring their area of competence."
+        },
+        {
+          "id": "levels",
+          "title": "A1 - C2 Scope",
+          "desc": "Customized curriculum content for every level, from family reunification (A1) to an academic career (C2)."
+        }
+      ],
+      "description": "Meet the personalized training program that will measure your competence with the Academic Foreign Language Course ÖSD exam preparation program.",
+      "features": [
+        "Expert teaching staff with at least 5 years of experience in the field.",
+        "Instructors with up-to-date exam experience who have mastered changing question formats.",
+        "Custom programming tailored to family reunification, university admission, and work visas.",
+        "Full compliance with the rules and scoring criteria of the centralized exam system."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Academic International ÖSD Course?",
+      "subtitle": "Get Your Official Document Without Losing Time",
+      "cardTitle": "Experienced Teaching Staff",
+      "cardDesc": "Undergo a practice-heavy preparation period accompanied by instructors with at least 5 years of experience who know the communication-oriented structure of the exam very well.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Where can the ÖSD certificate be used?",
+          "a": "It is valid for obtaining residence permits, university pre-registrations, work permits, citizenship applications, and family reunification visa procedures at consulates."
+        },
+        {
+          "q": "What is the difference between the ÖSD exam and other exams?",
+          "a": "The ÖSD exam is based on a 'communication-oriented' exam system rather than grammar memorization. It measures how effectively the candidate can use the language in daily life and academic/work environments."
+        },
+        {
+          "q": "Which levels do your courses cover?",
+          "a": "ÖSD exams are offered at A1-C2 levels, and our institution provides specialized training for all modules from basic beginner (A1) to top level (C2)."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "University & Career",
+          "desc": "Documenting language proficiency required for university pre-registrations and work permits.",
+          "icon": "Award"
+        },
+        {
+          "title": "Family Reunification & Visa",
+          "desc": "Hassle-free acceptance in family reunification and residence permit processes at consulates.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Exam Center Alignment",
+          "desc": "Practice and mock exams 100% aligned with ÖSD's communication-oriented central exam format.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Personalized Pace",
+          "desc": "The opportunity to quickly address your weak points with a training program tailored to you.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for ÖSD",
+      "subtitle": "Communication-Oriented Exam Materials",
+      "features": [
+        "A1 - C2 Level Workbooks",
+        "Communication and Speaking Practice",
+        "ÖSD Practice Exam Sets"
+      ],
+      "books": [
+        {
+          "name": "ÖSD Zertifikat Übungsmaterialien",
+          "type": "Exam Preparation and Practice"
+        },
+        {
+          "name": "Mit Erfolg zum ÖSD",
+          "type": "Strategy and Question Solving"
+        },
+        {
+          "name": "Kommunikation im Alltag",
+          "type": "Communication and Speaking Focused Practice"
+        },
+        {
+          "name": "ÖSD Modellprüfungen",
+          "type": "Full-Scope Practice Exams"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "The opportunity to practice through face-to-face interaction at our campuses with our instructors who have at least 5 years of experience.",
+        "features": [
+          "One-on-One Interaction with Expert Instructors",
+          "Communication-Oriented Classroom Practice",
+          "Physical Practice Exam in ÖSD Format",
+          "Error Detection and Instant Correction"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "An uninterrupted and interactive ÖSD preparation experience within our custom program from anywhere you wish.",
+        "features": [
+          "Live and Interactive Training",
+          "Freedom of Time and Location",
+          "Digital Mock Exams and Question Solving",
+          "Personalized Tracking System"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the ÖSD Preparation Process",
+      "items": [
+        {
+          "q": "What strategy should I follow to succeed in the ÖSD exam?",
+          "a": "Since ÖSD is a communication-heavy exam, studying grammar alone is not enough. In our training, we apply up-to-date tactics that simultaneously develop your speaking, comprehension, and written expression abilities."
+        },
+        {
+          "q": "What is the experience level of your instructors?",
+          "a": "Our exam preparation program is conducted by instructors who have at least 5 years of experience in their field and are well-versed in ÖSD's current exam algorithm."
+        },
+        {
+          "q": "How long does your training take for family reunification?",
+          "a": "Depending on the student's background, the goal is to obtain the A1 certificate up to consulate standards in the shortest time possible through a study program customized for you."
+        }
+      ]
+    }
+  },
+  "etepLandingPage": {
+    "meta": {
+      "title": "What is E-TEP Exam? Exam Format and Preparation Course | Akademik International",
+      "description": "The E-TEP (Electronic Test of English Proficiency) exam is a new generation four-skill English proficiency test organized by ÖSYM. Get detailed information about the E-TEP format, question types, and our preparation course."
+    },
+    "hero": {
+      "tag": "E-TEP PREPARATION COURSE",
+      "title": "Prepare for the E-TEP Exam with",
+      "highlight": "Akademik International",
+      "subtitle": "Achieve your target score in ÖSYM's new generation four-skill English proficiency test E-TEP with our expert instructors.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "THE PATH TO SUCCESS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our E-TEP Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your Mobile Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: EXAM PREPARATION",
+      "description": "Master all four skills electronically with our expert instructors who have achieved top scores."
+    },
+    "about": {
+      "badge": "NEW GENERATION EXAM",
+      "title": "What is E-TEP and Who Should Take It?",
+      "desc": "The E-tep (Electronic Test of English Proficiency) exam aims to measure English language proficiency and is organized by Turkey's Student Selection and Placement Center (ÖSYM). It evaluates participants' reading, listening, writing, and speaking skills in English.<br/><br/><b>Who Takes the Exam?</b> Candidates who have at least B2 level General English skills or have scored 70 and above in exams like YDS, E-YDS can apply. It is used for academic staff proficiency in higher education institutions and for study/career opportunities abroad.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading",
+          "desc": "Analysis, reading comprehension, and note-taking skills on academic texts similar to the TOEFL format."
+        },
+        {
+          "id": "listening",
+          "title": "Listening",
+          "desc": "Listening skills from sources like TRT World with multiple-choice questions similar to IELTS."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "desc": "Writing academic reports/essays in Blog/Email format and with multimedia content."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking",
+          "desc": "Oral expression skills in academic and current topics under time constraints, in TOEFL/PTE style."
+        }
+      ]
+    },
+    "info": {
+      "title": "What is E-TEP Exam?",
+      "desc": "The E-tep exam aims to measure English language proficiency and is organized by Turkey's Student Selection and Placement Center (ÖSYM). It evaluates participants' reading, listening, writing, and speaking skills."
+    },
+    "seoContent": [
+      {
+        "title": "What is the E-TEP Exam?",
+        "desc": "The E-tep (Electronic Test of English Proficiency) exam aims to measure English language proficiency and is organized by ÖSYM. Following a long preparation period, a pilot application was held on July 22-23, 2023, at the Ankara Esenboğa Exam Center.\n\nThe exam evaluates candidates' reading, listening, writing, and speaking skills. These four skills combined are expected to reflect individuals' overall English proficiency."
+      },
+      {
+        "title": "What is the Purpose of the E-TEP Exam?",
+        "desc": "The purpose of the E-TEP exam is to objectively measure language skills by comprehensively evaluating candidates' abilities in reading, listening, writing, and speaking. Additionally, the exam aims to approach the standards of internationally recognized and highly respected exams like TOEFL, IELTS, and PTE.\n\nThe future goal of the E-TEP exam is to reach a respected position internationally and become a reliable reference point measuring English proficiency worldwide."
+      },
+      {
+        "title": "Part One: Reading and Listening Skills",
+        "summary": "This section measures your reading and listening skills, testing your capacity to understand English."
+      },
+      {
+        "title": "Reading Section",
+        "desc": "The Reading section in the E-TEP Exam has similar characteristics to IELTS, TOEFL, and PTE exams. In this section:",
+        "bullets": [
+          "There are a total of 16 questions.",
+          "60 minutes are given for the questions.",
+          "Question types include multiple-choice, paragraph ordering, and paragraph questions.",
+          "Texts have academic content and a different format from YDS and YÖKDİL.",
+          "Important parts can be highlighted and notes can be taken during reading.",
+          "It shows the most similarity to the TOEFL reading section."
+        ]
+      },
+      {
+        "title": "Listening Section",
+        "desc": "The Listening section in the E-TEP Exam includes listening formats of international exams in a mixed format:",
+        "bullets": [
+          "There are a total of 27 questions.",
+          "36 minutes are given for the questions.",
+          "The first two audio files have a slower tempo compared to other academic exams.",
+          "It mostly consists of short, three-option questions.",
+          "It shows similarity to the early multiple-choice sections of IELTS.",
+          "Audio files and videos are voiced by Turkish speakers.",
+          "There are also integrated skill questions with video content."
+        ]
+      },
+      {
+        "title": "Part Two: Writing and Speaking Skills",
+        "desc": "This section tests language production and expression skills. It highlights candidates' abilities to express their thoughts creatively and logically in written and spoken forms."
+      },
+      {
+        "title": "Writing Section",
+        "desc": "The E-TEP Exam Writing section includes writing formats of international exams in a mixed format:",
+        "bullets": [
+          "There are a total of 2 tasks.",
+          "50 minutes are given for the entire section.",
+          "Task 1: It is in the format of blog/email writing, requiring an informal text about a specific situation or topic. This task is similar to the letter/email format in the IELTS General Training writing section.",
+          "Task 2: It requires you to write a report by analyzing information from a visual material (graph, table, etc.) and a listened podcast content. This task measures your ability to synthesize information from multiple sources, similar to the integrated writing section of the TOEFL exam.",
+          "Word limits vary between 130-300 words depending on the task type."
+        ]
+      },
+      {
+        "title": "Speaking Section",
+        "desc": "The E-TEP Exam Speaking section is prepared in a mixed format inspired by the speaking sections of international exams:",
+        "bullets": [
+          "There are a total of 4 tasks.",
+          "11 minutes are given for the entire section.",
+          "The first task is a \"warm-up\" and is not evaluated. (introducing yourself)",
+          "It has similar characteristics to PTE and TOEFL Speaking structures.",
+          "There are opinion questions regarding video content taken from TRT World.",
+          "Since all candidates speak at the same time during the exam, there can be sound interference."
+        ]
+      },
+      {
+        "title": "Who Can Take the E-TEP Exam?",
+        "desc": "Candidates applying for the E-TEP exam are expected to have at least B2 level General English skills or have scored 70 and above in national and international English exams like YDS, E-YDS. Candidates should prepare for the specific skills required by the exam and study for the different sections of the exam.\n\nTo get more information about the E-TEP Exam and detailed explanations, you can consult our experts at our Istanbul, Bursa, Izmir, and Ankara branches and find answers to all your questions about the exam."
+      },
+      {
+        "title": "How Long is the E-TEP Exam Duration?",
+        "desc": "The duration of the E-TEP exam has been set to 160 minutes. However, the exam is currently in the pilot application phase, and it is thought that the duration might be shortened in the future.\n\nThe E-TEP exam consists of two main sections:"
+      },
+      {
+        "title": "E-TEP Exam Part One Duration: Reading and Listening",
+        "bullets": [
+          "There are a total of 16 questions in the Reading section, and candidates are given 60 minutes to answer these questions.",
+          "There are a total of 27 questions in the Listening section, and candidates are given 36 minutes to answer these questions.",
+          "There is a 5-minute break after the first section is completed."
+        ]
+      },
+      {
+        "title": "E-TEP Exam Part Two Duration: Speaking and Writing",
+        "bullets": [
+          "The Speaking section includes 4 different tasks, and candidates are given a total of 11 minutes for this section.",
+          "The Writing section includes 2 different tasks, and candidates are given a total of 50 minutes for this writing section."
+        ]
+      },
+      {
+        "title": "E-TEP's Comparison with International Exams",
+        "desc": "According to expert evaluation, the E-TEP exam is a hybrid version of internationally recognized exams:",
+        "bullets": [
+          "Reading: Contains a format closer to TOEFL Reading, with similar academic texts and question types.",
+          "Listening: Similar structure to IELTS Listening's multiple-choice questions, but also includes video content.",
+          "Speaking: Designed as a mix of the introductory section (warm-up) in the PTE exam and TOEFL integrated speaking sections.",
+          "Writing: Includes email/blog writing in the IELTS General Training Task 1 format and essay writing based on multimedia content like in the TOEFL integrated writing section."
+        ]
+      }
+    ],
+    "prosConsTable": {
+      "title": "Pros and Areas for Improvement of the E-TEP Exam",
+      "headers": [
+        "Pros of the Exam",
+        "Areas for Improvement"
+      ],
+      "rows": [
+        {
+          "pro": "A national exam comprehensively measuring all four skills (reading, listening, writing, speaking)",
+          "con": "Sound interference occurs in the Speaking section because all candidates speak simultaneously"
+        },
+        {
+          "pro": "Offers more generous time limits compared to international exams",
+          "con": "Instructions can be complex in some sections"
+        },
+        {
+          "pro": "Allows note-taking, marking, and underlining in the reading section",
+          "con": "Limited number of sample questions as it is a new exam"
+        },
+        {
+          "pro": "Increased security level thanks to a double login process",
+          "con": "International equivalency processes have not yet been completed"
+        },
+        {
+          "pro": "Its hybrid structure includes multiple exam formats together",
+          "con": "The validity period and acceptability of exam results are not yet clear"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about the E-TEP Exam",
+      "desc": "You can find answers to all frequently asked questions about the E-TEP exam on this page.",
+      "items": [
+        {
+          "q": "Does the E-TEP exam have international validity?",
+          "a": "The E-TEP exam does not currently have full international validity, but ÖSYM is actively working towards this. Developed as Turkey's first four-skill English proficiency test, E-TEP is designed to align with global standards using a hybrid format of internationally recognized exams. Since the exam is still in the pilot and development phase, equivalency and recognition processes are ongoing."
+        },
+        {
+          "q": "What English level is required for the E-TEP exam?",
+          "a": "The required English level for the E-TEP exam should be at least B2 according to the criteria set by ÖSYM. Candidates are expected to have B2 level General English proficiency in CEFR standards or have scored 70 and above in exams like YDS, E-YDS to apply."
+        },
+        {
+          "q": "What are the recommendations for success in the E-TEP exam?",
+          "a": "Get to know the format of this four-skill English test well and prepare at least at the B2 level. Practice academic texts for reading, TRT World content for listening, email/blog and report writing for writing, and video interpretation for speaking."
+        },
+        {
+          "q": "How effective is the E-TEP exam in measuring academic English?",
+          "a": "This new generation English proficiency test stands out as a highly effective tool in measuring academic English. The exam comprehensively evaluates four basic language skills; it tests all skills required in a university environment such as understanding and analyzing academic texts, writing academic reports by interpreting visual materials, and expressing opinions on video content. It is recognized by YÖK."
+        },
+        {
+          "q": "Which resources are recommended for the E-TEP exam?",
+          "a": "Sample questions published by ÖSYM should be the main source. Akademik International Language School's special E-TEP preparation sets and online platforms also offer targeted study opportunities. Additionally, TOEFL iBT, IELTS Academic, and PTE Academic preparation books and resources like TRT World and BBC Academic are recommended."
+        }
+      ]
+    }
+  }
 }

@@ -108,3 +108,17 @@
     padding: 0 16px 16px 16px;
   }
 }
+/* SEO Uyumlu Saf CSS Accordion Geçişi */
+.contentClosed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.contentOpen {
+  max-height: 1000px;
+  overflow: visible;
+  opacity: 1;
+  transition: max-height 0.6s ease, opacity 0.4s ease;
+}

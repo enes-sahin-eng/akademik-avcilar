@@ -1,77 +1,87 @@
-"use client";
-
-import React, { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
 import styles from "./HomeArticle.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import anim from "../motion/animations.module.css";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { ExpandableArticle } from "./ExpandableArticle";
 
-export const HomeArticle = () => {
-  const dict = useDictionary();
-  const content = dict?.homeContentSection?.article;
-  const [isExpanded, setIsExpanded] = useState(false);
+interface Props {
+  lang: Locale;
+}
+
+const highlightKeywords = [
+  "Avcılar'da En İyi İngilizce Kursu",
+  "Avcılar İngilizce Kursları",
+  "Avcılar İngilizce Kursu",
+  "Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu",
+  "Akademik International Yabancı Dil Kursu",
+  "Genel İngilizce",
+  "YKS-DİL (YDT) Hazırlık Kursu",
+  "TOEFL",
+  "IELTS",
+];
+
+function highlightText(text: string) {
+  const regex = new RegExp(
+    `(${highlightKeywords.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`,
+    "g"
+  );
+  const parts = text.split(regex);
+  return parts.map((part, i) =>
+    highlightKeywords.includes(part) ? (
+      <strong key={i} className={styles.highlightText}>{part}</strong>
+    ) : (
+      part
+    )
+  );
+}
+
+export const HomeArticle = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
+  const content = (dict as any)?.homeContentSection?.article;
 
   if (!content) return null;
 
   return (
-    <div className={styles.articleContainer}>
-      <motion.p 
-        className={styles.paragraph}
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
+    <article className={styles.articleContainer}>
+      {/* p1 — her zaman görünür, CSS animasyonu */}
+      <p className={`${styles.paragraph} ${anim.fadeUp1}`}>
         {content.p1}
-      </motion.p>
+      </p>
 
-      <motion.h2 
-        className={styles.heading}
-        initial={{ opacity: 0, x: -20 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true }}
-      >
+      {/* h2 — her zaman görünür */}
+      <h2 className={`${styles.heading} ${anim.fadeUp2}`}>
         {content.h2}
-      </motion.h2>
+      </h2>
 
-      <AnimatePresence>
-        {isExpanded && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.4 }}
-            className={styles.contentWrapper}
-          >
-            <p className={styles.paragraph}>{content.p2}</p>
-            
-            {content.expandedContent && content.expandedContent.map((item: any, index: number) => {
-              if (item.type === "h3") {
-                return <h3 key={index} className={styles.subHeading}>{item.text}</h3>;
-              }
-              if (item.type === "p") {
-                return (
-                  <p key={index} className={styles.paragraph}>
-                    {item.text.split(/ (Avcılar'da En İyi İngilizce Kursu|Avcılar İngilizce Kursları|Avcılar İngilizce Kursu|Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu|Akademik International Yabancı Dil Kursu|Genel İngilizce|YKS-DİL \(YDT\) Hazırlık Kursu|TOEFL|IELTS) /g).map((part: string, i: number) => 
-                      ["Avcılar'da En İyi İngilizce Kursu", "Avcılar İngilizce Kursları", "Avcılar İngilizce Kursu", "Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu", "Akademik International Yabancı Dil Kursu", "Genel İngilizce", "YKS-DİL (YDT) Hazırlık Kursu", "TOEFL", "IELTS"].includes(part) ? <strong key={i} className={styles.highlightText}>{part}</strong> : part
-                    )}
-                  </p>
-                );
-              }
-              return null;
-            })}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* p2 — her zaman görünür */}
+      <p className={`${styles.paragraph} ${anim.fadeUp3}`}>
+        {content.p2}
+      </p>
 
-      <div className={styles.toggleContainer}>
-        <button 
-          className={styles.toggleBtn} 
-          onClick={() => setIsExpanded(!isExpanded)}
-        >
-          {isExpanded ? content.readLess : content.readMore}
-          {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-        </button>
-      </div>
-    </div>
+      {/* Genişleyen içerik — tıklanınca açılır (SEO açısından da HTML'de mevcut) */}
+      <ExpandableArticle
+        readMoreText={content.readMore}
+        readLessText={content.readLess}
+      >
+        {content.expandedContent &&
+          content.expandedContent.map((item: any, index: number) => {
+            if (item.type === "h3") {
+              return (
+                <h3 key={index} className={styles.subHeading}>
+                  {item.text}
+                </h3>
+              );
+            }
+            if (item.type === "p") {
+              return (
+                <p key={index} className={styles.paragraph}>
+                  {highlightText(item.text)}
+                </p>
+              );
+            }
+            return null;
+          })}
+      </ExpandableArticle>
+    </article>
   );
 };

@@ -2,7 +2,9 @@
 import Image from 'next/image';
 
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 import { GraduationCap, Book, BookOpen, FileBadge, Award, Trophy, PenTool } from "lucide-react";
 import styles from "./MegaMenu.module.css";
 import { useDictionary } from "../../../src/context/DictionaryContext";
@@ -19,14 +21,18 @@ const iconMap: Record<string, React.ElementType> = {
 
 export const MegaMenuSinav: React.FC = () => {
   const dict = useDictionary();
+  const pathname = usePathname();
+  const lang = pathname?.split('/')[1] || 'tr';
   const megaMenu = dict?.megaMenuSinav;
 
   if (!megaMenu) return null;
 
   const renderSection = (section: any, idx: number) => {
     const Icon = iconMap[section.icon] || GraduationCap;
+    const href = section.href ? `/${lang}${section.href}` : `#${section.title}`;
+    
     return (
-      <a href={`#${section.title}`} key={idx} className={styles.sinavSection}>
+      <Link href={href} key={idx} className={styles.sinavSection}>
         <div className={styles.sinavIconWrapper}>
           <Icon size={24} strokeWidth={1.5} />
         </div>
@@ -34,7 +40,7 @@ export const MegaMenuSinav: React.FC = () => {
           <div className={styles.sectionTitle}>{section.title}</div>
           <p className={styles.sectionSubtitle}>{section.subtitle}</p>
         </div>
-      </a>
+      </Link>
     );
   };
 

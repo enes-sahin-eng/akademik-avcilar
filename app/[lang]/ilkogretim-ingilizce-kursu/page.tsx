@@ -20,7 +20,7 @@ import { GradeLevelTabs } from "../../components/course/GradeLevelTabs";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -162,17 +162,17 @@ export default async function IlkogretimIngilizceKursuPage({
 
       {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="ilkogretimIngilizceLandingPage" />
-      <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" />
+      <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ilkogretimIngilizceLandingPage" />
-      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <PlacementTestBanner />
       <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" />
-      <SeoContentBlock courseKey="ilkogretimIngilizceLandingPage" />
-      <EducationModels courseKey="ilkogretimIngilizceLandingPage" />
-      <CourseFAQ courseKey="ilkogretimIngilizceLandingPage" />
+      <SeoContentBlock courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
+      <EducationModels courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards />
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
-import styles from './ProgramTabsSection.module.css';
-import { useDictionary } from '../../../src/context/DictionaryContext';
-function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
+"use client";
+
+import React, { useState } from "react";
+import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
+import styles from "./ProgramTabsSection.module.css";
+import { useDictionary } from "../../../src/context/DictionaryContext";
+function AnimatedProgramCard({ card, styles }: { card: any; styles: any }) {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [hovered, setHovered] = useState(false);
 
@@ -27,8 +29,8 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
     <motion.div
       layout
       initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ 
-        opacity: 1, 
+      animate={{
+        opacity: 1,
         scale: 1,
         rotateX: mousePos.y,
         rotateY: mousePos.x,
@@ -43,22 +45,22 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
       style={{ transformStyle: "preserve-3d", perspective: "1200px" }}
     >
       {/* Background Image Layer (pushed back for parallax) */}
-      <motion.div 
+      <motion.div
         className="absolute inset-0 w-full h-full"
         animate={{ scale: hovered ? 1.05 : 1 }}
         transition={{ duration: 0.4 }}
         style={{ transform: "translateZ(-10px)" }}
       >
-        <Image 
-          src={card.img} 
-          alt={`${card.title.replace(/\n/g, ' ')}`} 
-          fill 
+        <Image
+          src={card.img}
+          alt={`${card.title.replace(/\n/g, " ")}`}
+          fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className={styles.cardImg} 
+          className={styles.cardImg}
         />
         <div className={styles.gradientOverlay}></div>
       </motion.div>
-      
+
       {/* Glare/Shine Effect Layer */}
       <motion.div
         className="absolute inset-0 rounded-2xl overflow-hidden pointer-events-none"
@@ -76,7 +78,7 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
       </motion.div>
 
       {/* Foreground Content Layer (pulled forward for parallax) */}
-      <motion.div 
+      <motion.div
         style={{ transform: "translateZ(20px)" }}
         className="relative z-20 w-full h-full flex flex-col pointer-events-none"
       >
@@ -84,7 +86,9 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
         <div className={styles.iconStack}>
           <div className={styles.flagsWrapper}>
             {card.flags.map((flag: string, i: number) => (
-              <div key={i} className={styles.flagIcon}>{flag}</div>
+              <div key={i} className={styles.flagIcon}>
+                {flag}
+              </div>
             ))}
           </div>
           <div className={styles.smallIcons}>
@@ -96,11 +100,11 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
         </div>
 
         <div className={styles.cardContent}>
-          <motion.h3 
+          <motion.h3
             style={{ textShadow: "0 4px 8px rgba(0,0,0,0.5)" }}
             animate={{ scale: hovered ? 1.02 : 1 }}
           >
-            {card.title.split('\n').map((line: string, i: number) => (
+            {card.title.split("\n").map((line: string, i: number) => (
               <React.Fragment key={i}>
                 {line}
                 <br />
@@ -118,59 +122,164 @@ function AnimatedProgramCard({ card, styles }: { card: any, styles: any }) {
 export const ProgramTabsSection = () => {
   const dict = useDictionary();
   const t = dict?.programTabsSection;
-  const [activeTab, setActiveTab] = useState('tum');
+  const [activeTab, setActiveTab] = useState("tum");
 
   // ... (unchanged programCards definition) ...
   const programCards = [
-    { id: 1, category: 'nitelikli', title: 'Prep Temel\nİngilizce Kursu', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 2, category: 'nitelikli', title: 'Prep Plus İngilizce\nKursu', img: '/sliders/slider2.webp', flags: ['🇬🇧'] },
-    { id: 3, category: 'nitelikli', title: 'Academic\nİngilizce Kursu', img: '/sliders/slider3.webp', flags: ['🇬🇧'] },
-    { id: 4, category: 'nitelikli', title: 'Academic Plus\nKursu', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 5, category: 'nitelikli', title: 'Genel İngilizce\nKursu', img: '/sliders/slider2.webp', flags: ['🇬🇧'] },
-    { id: 6, category: 'nitelikli', title: 'İngilizce Özel Ders', img: '/sliders/slider3.webp', flags: ['🇬🇧'] },
-    { id: 7, category: 'nitelikli', title: 'Kurumlara Özel /\nKurumsal İngilizce\nKursu', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 8, category: 'sinav', title: 'YDS Hazırlık Kursu', img: '/sliders/slider2.webp', flags: ['🇬🇧'] },
-    { id: 9, category: 'sinav', title: 'YKS-DİL (YDT)\nHazırlık Kursu', img: '/sliders/slider3.webp', flags: ['🇬🇧'] },
-    { id: 10, category: 'sinav', title: 'TOEFL Hazırlık\nKursu', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 11, category: 'sinav', title: 'IELTS Hazırlık\nKursu', img: '/sliders/slider2.webp', flags: ['🇬🇧'] },
-    { id: 12, category: 'sinav', title: 'Hazırlık Atlama\nKursu -\nProficiency', img: '/sliders/slider3.webp', flags: ['🇬🇧'] },
-    { id: 13, category: 'sinav', title: 'GMAT', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 14, category: 'sinav', title: 'Almanca Goethe\nSınavı Hazırlık\nKursu', img: '/sliders/slider2.webp', flags: ['🇩🇪'] },
-    { id: 15, category: 'sinav', title: 'SAT Kursu', img: '/sliders/slider3.webp', flags: ['🇬🇧'] },
-    { id: 16, category: 'sinav', title: 'PTE Kursu', img: '/sliders/slider1.webp', flags: ['🇬🇧'] },
-    { id: 17, category: 'sinav', title: 'TELC Kursu', img: '/sliders/slider2.webp', flags: ['🇩🇪', '🇬🇧'] },
+    {
+      id: 1,
+      category: "nitelikli",
+      title: "Prep Temel\nİngilizce Kursu",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 2,
+      category: "nitelikli",
+      title: "Prep Plus İngilizce\nKursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 3,
+      category: "nitelikli",
+      title: "Academic\nİngilizce Kursu",
+      img: "/sliders/slider3.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 4,
+      category: "nitelikli",
+      title: "Academic Plus\nKursu",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 5,
+      category: "nitelikli",
+      title: "Genel İngilizce\nKursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 6,
+      category: "nitelikli",
+      title: "İngilizce Özel Ders",
+      img: "/sliders/slider3.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 7,
+      category: "nitelikli",
+      title: "Kurumlara Özel /\nKurumsal İngilizce\nKursu",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 8,
+      category: "sinav",
+      title: "YDS Hazırlık Kursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 9,
+      category: "sinav",
+      title: "YKS-DİL (YDT)\nHazırlık Kursu",
+      img: "/sliders/slider3.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 10,
+      category: "sinav",
+      title: "TOEFL Hazırlık\nKursu",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 11,
+      category: "sinav",
+      title: "IELTS Hazırlık\nKursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 12,
+      category: "sinav",
+      title: "Hazırlık Atlama\nKursu -\nProficiency",
+      img: "/sliders/slider3.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 13,
+      category: "sinav",
+      title: "GMAT",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 14,
+      category: "sinav",
+      title: "Almanca Goethe\nSınavı Hazırlık\nKursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇩🇪"],
+    },
+    {
+      id: 15,
+      category: "sinav",
+      title: "SAT Kursu",
+      img: "/sliders/slider3.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 16,
+      category: "sinav",
+      title: "PTE Kursu",
+      img: "/sliders/slider1.webp",
+      flags: ["🇬🇧"],
+    },
+    {
+      id: 17,
+      category: "sinav",
+      title: "TELC Kursu",
+      img: "/sliders/slider2.webp",
+      flags: ["🇩🇪", "🇬🇧"],
+    },
   ];
 
-  const filteredCards = activeTab === 'tum' 
-    ? programCards 
-    : programCards.filter(c => c.category === activeTab);
+  const filteredCards =
+    activeTab === "tum"
+      ? programCards
+      : programCards.filter((c) => c.category === activeTab);
 
   return (
     <section className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.title}>
-          {t?.title || "Avcılar Yabancı Dil Kursu Kampüsümüzde Verilen Programlar"}
+          {t?.title ||
+            "Avcılar Yabancı Dil Kursu Kampüsümüzde Verilen Programlar"}
         </h2>
         <p className={styles.subtitle}>
-          {t?.subtitle || "Avcılar Yabancı Dil Kursu - En İyi Yabancı Dil Eğitim Merkezi Tavsiye Avcılar"}
+          {t?.subtitle ||
+            "Avcılar Yabancı Dil Kursu - En İyi Yabancı Dil Eğitim Merkezi Tavsiye Avcılar"}
         </p>
 
         <div className={styles.tabsContainer}>
-          <button 
-            className={`${styles.tabBtn} ${activeTab === 'tum' ? styles.active : ''}`}
-            onClick={() => setActiveTab('tum')}
+          <button
+            className={`${styles.tabBtn} ${activeTab === "tum" ? styles.active : ""}`}
+            onClick={() => setActiveTab("tum")}
           >
             {t?.tabs?.tum || "TÜM PROGRAMLAR"}
           </button>
-          <button 
-            className={`${styles.tabBtn} ${activeTab === 'nitelikli' ? styles.active : ''}`}
-            onClick={() => setActiveTab('nitelikli')}
+          <button
+            className={`${styles.tabBtn} ${activeTab === "nitelikli" ? styles.active : ""}`}
+            onClick={() => setActiveTab("nitelikli")}
           >
             {t?.tabs?.nitelikli || "NİTELİKLİ DİL KURSLARI"}
           </button>
-          <button 
-            className={`${styles.tabBtn} ${activeTab === 'sinav' ? styles.active : ''}`}
-            onClick={() => setActiveTab('sinav')}
+          <button
+            className={`${styles.tabBtn} ${activeTab === "sinav" ? styles.active : ""}`}
+            onClick={() => setActiveTab("sinav")}
           >
             {t?.tabs?.sinav || "AKADEMİK SINAV KURSLARI"}
           </button>
@@ -178,7 +287,7 @@ export const ProgramTabsSection = () => {
 
         <div className={styles.cardsGrid}>
           <AnimatePresence mode="popLayout">
-            {filteredCards.map(card => (
+            {filteredCards.map((card) => (
               <AnimatedProgramCard key={card.id} card={card} styles={styles} />
             ))}
           </AnimatePresence>

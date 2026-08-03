@@ -13,7 +13,7 @@ import { StudentReviewsAndAwards } from "../../components/home/StudentReviewsAnd
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -71,16 +71,16 @@ export default async function AcademicPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="academicPage" />
 
       {/* PROGRAM ÖZETİ */}
-      <CourseInfoSection courseKey="academicPage" />
+      <CourseInfoSection courseKey="academicPage" lang={lang} />
 
       {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="academicPage" />
+      <PublicationsShowcase courseKey="academicPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
       <WhyUsSection courseKey="academicPage" />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="academicPage" />
+      <EducationModels courseKey="academicPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
@@ -93,7 +93,7 @@ export default async function AcademicPage({ params }: PageProps) {
       {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
 
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
 
           </main>
   );

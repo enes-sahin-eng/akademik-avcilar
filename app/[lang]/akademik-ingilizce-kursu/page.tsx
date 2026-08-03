@@ -14,7 +14,7 @@ import { StudentReviewsAndAwards } from "../../components/home/StudentReviewsAnd
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -73,20 +73,20 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
       <CourseHeroSlider courseKey="akademikIngilizceLandingPage" />
 
       {/* PROGRAM ÖZETİ */}
-      <CourseInfoSection courseKey="akademikIngilizceLandingPage" />
+      <CourseInfoSection courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="akademikIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
       <WhyUsSection courseKey="akademikIngilizceLandingPage" />
 
       
       {/* SSS (FAQ) */}
-      <CourseFAQ courseKey="akademikIngilizceLandingPage" />
+      <CourseFAQ courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="akademikIngilizceLandingPage" />
+      <EducationModels courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
@@ -98,7 +98,7 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
       {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
 
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
 
           </main>
   );

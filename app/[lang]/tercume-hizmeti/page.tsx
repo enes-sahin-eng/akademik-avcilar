@@ -19,7 +19,7 @@ import { SeoContentBlock } from "@/app/components/course/SeoContentBlock";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -121,19 +121,19 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
 
       {/* BİLEŞENLER (Tüm courseKey değerleri tercumeHizmetiLandingPage olarak değiştirildi) */}
       <CourseHeroSlider courseKey="tercumeHizmetiLandingPage" />
-      <CourseInfoSection courseKey="tercumeHizmetiLandingPage" />
+      <CourseInfoSection courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="tercumeHizmetiLandingPage" />
-      <PublicationsShowcase courseKey="tercumeHizmetiLandingPage" />
+      <PublicationsShowcase courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <PlacementTestBanner />
       <WhyUsSection courseKey="tercumeHizmetiLandingPage" />
-      <EducationModels courseKey="tercumeHizmetiLandingPage" />
-      <CourseFAQ courseKey="tercumeHizmetiLandingPage" />
+      <EducationModels courseKey="tercumeHizmetiLandingPage" lang={lang} />
+      <CourseFAQ courseKey="tercumeHizmetiLandingPage" lang={lang} />
 
       {/* YENİ: SEMANTİK SEO İÇERİK ALANI */}
-      <SeoContentBlock courseKey="tercumeHizmetiLandingPage" />
+      <SeoContentBlock courseKey="tercumeHizmetiLandingPage" lang={lang} />
 
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

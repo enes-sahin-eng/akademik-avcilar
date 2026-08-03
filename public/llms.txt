@@ -9,7 +9,7 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - **İletişim & Merkez:** Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul (Tel: 0850 305 05 16). Kayıt ve bilgi talepleri formlar aracılığıyla alınıp şubelere yönlendirilir.
 - **Çok Dilli Yapı (i18n):** Site Türkçe (varsayılan), İngilizce ve Arapça dillerini destekler. Dil yapısı dinamik olarak `/{dil-kodu}/{sayfa-slug}` formatında çalışır (örn: `/en/ingilizce-kursu`). Aşağıdaki bağlantılar varsayılan Türkçe (TR) rotaları gösterir; botlar harici bir parametre girmediği sürece varsayılan olarak Türkçe içeriği tarayacaktır.
 
-## Yayında Olan Sayfalar
+## Genel İngilizce Kursları
 - [Anasayfa](https://avcilarakademik.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri ve formlar.
 - [İletişim](https://avcilarakademik.com.tr/iletisim): Avcılar merkez konumu ve 12 şubenin iletişim listesi.
 - [Genel İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu): Genel İngilizce programlarının listelendiği ana kategori.
@@ -23,11 +23,31 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Ortaokul İngilizce Kursu](https://avcilarakademik.com.tr/ortaokul-ingilizce-kursu): Ortaokul öğrencileri için LGS hazırlık altyapısı sunan İngilizce kursu.
 - [Lise İngilizce Kursu](https://avcilarakademik.com.tr/lise-ingilizce-kursu): Lise öğrencileri için YKS-DİL, TOEFL ve IELTS destekli İngilizce kursu.
 - [İngilizce Özel Ders](https://avcilarakademik.com.tr/ingilizce-ozel-ders): Yabancı eğitmenlerle birebir, ihtiyaca özel İngilizce eğitim programı.
-- [Kurumsal İngilizce Kursu](https://avcilarakademik.com.tr/kurumsal-ingilizce): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
-- [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel metinler için proof-reading garantili yeminli tercüme hizmeti.
+- [Kurumsal İngilizce Kursu](https://avcilarakademik.com.tr/kurumlara-ozel-ingilizce-kursu): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
+
+## Akademik Sınav Hazırlık Kursları (İngilizce)
+- [YDS Hazırlık Kursu](https://avcilarakademik.com.tr/yds-hazirlik-kursu): Akademik kariyer ve dil tazminatı hedefleri için YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) hazırlık programı.
+- [YÖKDİL Hazırlık Kursu](https://avcilarakademik.com.tr/yokdil-hazirlik-kursu): Sosyal, Fen ve Sağlık Bilimleri alanlarına özel YÖKDİL hazırlık programı; yüksek lisans, doktora ve doçentlik hedeflerine yönelik.
+- [YKS-DİL (YDT) Hazırlık Kursu](https://avcilarakademik.com.tr/yks-dil-ydt-hazirlik-kursu): Üniversitelerin dil bölümlerini hedefleyen öğrenciler için ÖSYM müfredatına tam uyumlu YKS-DİL eğitim programı.
+- [IELTS Hazırlık Kursu](https://avcilarakademik.com.tr/ielts-hazirlik-kursu): Yurt dışı eğitim, göçmenlik ve kariyer hedefleri için uluslararası geçerliliğe sahip IELTS hazırlık programı.
+- [TOEFL Hazırlık Kursu](https://avcilarakademik.com.tr/toefl-hazirlik-kursu): Yurt dışında eğitim almak, burs başvurusu ve vize için 4 temel beceriyi geliştirmeye yönelik TOEFL hazırlık programı.
+- [TOEIC Hazırlık Kursu](https://avcilarakademik.com.tr/toeic-hazirlik-kursu): Kurumsal firmaların işe alım süreçleri ve iş dünyası için TOEIC (Test of English for International Communication) hazırlık programı.
+- [GRE Hazırlık Kursu](https://avcilarakademik.com.tr/gre-sinavi-hazirlik-kursu): Amerika ve dünya üniversitelerinde yüksek lisans/doktora için analitik odaklı GRE (Graduate Record Examinations) hazırlık programı.
+- [GMAT Hazırlık Kursu](https://avcilarakademik.com.tr/gmat-hazirlik-kursu): MBA ve işletme doktora programları için analitik ve mantıksal akıl yürütme odaklı GMAT hazırlık programı.
+- [iTEP Hazırlık Kursu](https://avcilarakademik.com.tr/itep-hazirlik-kursu): Yurt dışında eğitim veya çalışmak isteyenler için iTEP sınav formatına tam uyumlu hazırlık programı.
+- [Üniversite Hazırlık Atlama (Proficiency)](https://avcilarakademik.com.tr/ingilizce-hazirlik-atlama): 78 üniversitenin müfredatını takip eden yoğun Proficiency hazırlık programı; hazırlık sınıfını atla, kariyerine 1 yıl erken başla.
+- [E-TEP Sınavı Nedir?](https://avcilarakademik.com.tr/e-tep-sinavi-nedir): ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP hakkında detaylı bilgi ve hazırlık kursu.
+
+## Almanca Sınav Hazırlık Kursları
+- [TestDaF Almanca Kursu](https://avcilarakademik.com.tr/testdaf-almanca-kursu): Almanya'daki üniversitelerde eğitim için uluslararası düzeyde Almanca dil yeterliliğini kanıtlamak isteyen adaylar için TestDaF hazırlık programı.
+- [Goethe Sınavı Hazırlık Kursu](https://avcilarakademik.com.tr/almanca-goethe-sinavi-hazirlik-kursu): Aile birleşimi, iş başvuruları ve eğitim kurumları için A1-C2 seviyelerinde Goethe sınavı hazırlık programı.
+- [ÖSD Almanca Dil Sertifikası Kursu](https://avcilarakademik.com.tr/osd-almanca-dil-sertifikasi-kursu): Tüm dünyada geçerli, üniversite kayıtları ve oturma/çalışma izni başvuruları için iletişim odaklı ÖSD hazırlık programı.
+
+## Diğer Hizmetler
+- [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
 
 ## Şubeler ve Ek Hizmetler
-*(Aktif 12 şubeye ait özel lokasyon sayfaları ile Almanca, İspanyolca, Fransızca gibi diğer dil eğitim sayfaları yayına alındıkça bu bölüme eklenecektir.)*
+*(Aktif 12 şubeye ait özel lokasyon sayfaları ile İspanyolca, Fransızca gibi diğer dil eğitim sayfaları yayına alındıkça bu bölüme eklenecektir.)*
 
 ---
-*Son Güncelleme: 27 Temmuz 2026*
+*Son Güncelleme: 3 Ağustos 2026*

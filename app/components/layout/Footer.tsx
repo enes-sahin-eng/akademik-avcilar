@@ -1,11 +1,10 @@
-"use client";
-
-import React, { useState } from "react";
-import { HeadphonesIcon, Check } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
+import { HeadphonesIcon } from "lucide-react";
 import styles from "./Footer.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 import Image from "next/image";
+import Link from "next/link";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { NewsletterForm } from "./NewsletterForm";
 
 const campuses = [
   { name: "Kadıköy İngilizce Dil Kursu", badge: false },
@@ -23,18 +22,46 @@ const campuses = [
 ];
 
 const programs = [
-  "Kadıköy Almanca Kursu", "Almanca Aile Birleşimi Kursu", "İzmir Almanca Aile Birleşimi Kursu",
-  "Beşiktaş Fransızca Kursu", "Prep Temel İngilizce Kursu", "Prep Plus İngilizce Kursu",
-  "Academic Express Kursu", "Academic İngilizce Kursu", "Academic Plus Kursu",
-  "İngilizce Özel Ders", "Genel İngilizce Kursu", "Kurumlara Özel / Kurumsal İngilizce Kursu",
-  "YDS Hazırlık Kursu", "Akademik İngilizce", "YÖKDİL Sınavı Hazırlık Kursu",
-  "YKS-DİL (YDT) Hazırlık Kursu", "TOEFL Hazırlık Kursu", "IELTS Hazırlık Kursu",
-  "TOEIC Hazırlık Kursu", "Hazırlık Atlama Kursu - Proficiency", "İş İngilizcesi",
-  "İlköğretim İngilizce Kursu", "Ortaokul İngilizce Kursu | 5-8. Sınıflar İçin Konuşma Odaklı Eğitim",
-  "Lise İngilizce (Teens)", "GMAT", "Havacılık İngilizce Kursu", "ITEP Hazırlık Kursu",
-  "GRE Sınavı Hazırlık Kursu", "ÖSD Almanca Dil Sertifikası Kursu", "Almanca Goethe Sınavı Hazırlık Kursu",
-  "TestDAF Almanca Kursu", "SAT Kursu", "PTE Kursu", "CAE Kursu", "TOEFL Kursu", "CILS Kursu",
-  "TEF Kursu", "TELC Kursu", "E-TEP Sınavı Nedir?", "ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi"
+  { name: "Kadıköy Almanca Kursu", href: "#" },
+  { name: "Almanca Aile Birleşimi Kursu", href: "#" },
+  { name: "İzmir Almanca Aile Birleşimi Kursu", href: "#" },
+  { name: "Beşiktaş Fransızca Kursu", href: "#" },
+  { name: "Prep Temel İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik" },
+  { name: "Prep Plus İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik-plus" },
+  { name: "Academic Express Kursu", href: "/academic-express-ingilizce-kursu" },
+  { name: "Academic İngilizce Kursu", href: "/academic-ingilizce-kursu" },
+  { name: "Academic Plus Kursu", href: "/academic-plus-ingilizce-kursu" },
+  { name: "İngilizce Özel Ders", href: "/ingilizce-ozel-ders" },
+  { name: "Genel İngilizce Kursu", href: "/ingilizce-kursu" },
+  { name: "Kurumlara Özel / Kurumsal İngilizce Kursu", href: "/kurumlara-ozel-ingilizce-kursu" },
+  { name: "YDS Hazırlık Kursu", href: "/yds-hazirlik-kursu" },
+  { name: "Akademik İngilizce", href: "/akademik-ingilizce-kursu" },
+  { name: "YÖKDİL Sınavı Hazırlık Kursu", href: "/yokdil-hazirlik-kursu" },
+  { name: "YKS-DİL (YDT) Hazırlık Kursu", href: "/yks-dil-ydt-hazirlik-kursu" },
+  { name: "TOEFL Hazırlık Kursu", href: "/toefl-hazirlik-kursu" },
+  { name: "IELTS Hazırlık Kursu", href: "/ielts-hazirlik-kursu" },
+  { name: "TOEIC Hazırlık Kursu", href: "/toeic-hazirlik-kursu" },
+  { name: "Hazırlık Atlama Kursu - Proficiency", href: "/ingilizce-hazirlik-atlama" },
+  { name: "İş İngilizcesi", href: "#" },
+  { name: "İlköğretim İngilizce Kursu", href: "/ilkogretim-ingilizce-kursu" },
+  { name: "Ortaokul İngilizce Kursu | 5-8. Sınıflar İçin Konuşma Odaklı Eğitim", href: "/ortaokul-ingilizce-kursu" },
+  { name: "Lise İngilizce (Teens)", href: "/lise-ingilizce-kursu" },
+  { name: "GMAT", href: "/gmat-hazirlik-kursu" },
+  { name: "Havacılık İngilizce Kursu", href: "#" },
+  { name: "ITEP Hazırlık Kursu", href: "/itep-hazirlik-kursu" },
+  { name: "GRE Sınavı Hazırlık Kursu", href: "/gre-sinavi-hazirlik-kursu" },
+  { name: "ÖSD Almanca Dil Sertifikası Kursu", href: "/osd-almanca-dil-sertifikasi-kursu" },
+  { name: "Almanca Goethe Sınavı Hazırlık Kursu", href: "/almanca-goethe-sinavi-hazirlik-kursu" },
+  { name: "TestDAF Almanca Kursu", href: "/tesdaf-almanca-kursu" },
+  { name: "SAT Kursu", href: "#" },
+  { name: "PTE Kursu", href: "#" },
+  { name: "CAE Kursu", href: "#" },
+  { name: "TOEFL Kursu", href: "/toefl-hazirlik-kursu" },
+  { name: "CILS Kursu", href: "#" },
+  { name: "TEF Kursu", href: "#" },
+  { name: "TELC Kursu", href: "#" },
+  { name: "E-TEP Sınavı Nedir?", href: "/e-tep-sinavi-nedir" },
+  { name: "ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi", href: "/e-tep-sinavi-nedir" }
 ];
 
 const languages = [
@@ -56,30 +83,15 @@ const languages = [
   { img: "/flags/flemenkçe.webp", name: "Felemenkçe Dil Kursu" }
 ];
 
-export const Footer: React.FC = () => {
-  const dict = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const Footer = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
   const footerData = dict?.footer;
 
-  const [email, setEmail] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
-
   if (!footerData) return null;
-
-  const handleSubscribe = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-
-    setIsSubmitting(true);
-    
-    // TODO: Gerçek e-posta gönderimi için buraya API entegrasyonu gelecek (Örn: fetch('/api/subscribe'))
-    // Şu anlık sadece frontend simülasyonu yapıyoruz.
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setEmail("");
-  };
 
   return (
     <footer className={styles.footerContainer}>
@@ -106,12 +118,24 @@ export const Footer: React.FC = () => {
             <div className={styles.twoCols}>
               <ul className={styles.linkList}>
                 {programs.slice(0, Math.ceil(programs.length / 2)).map((p, i) => (
-                  <li key={i} className={styles.linkItem}><a href="#">{p}</a></li>
+                  <li key={i} className={styles.linkItem}>
+                    {p.href === "#" ? (
+                      <a href="#">{p.name}</a>
+                    ) : (
+                      <Link href={`/${lang}${p.href}`}>{p.name}</Link>
+                    )}
+                  </li>
                 ))}
               </ul>
               <ul className={styles.linkList}>
                 {programs.slice(Math.ceil(programs.length / 2)).map((p, i) => (
-                  <li key={i} className={styles.linkItem}><a href="#">{p}</a></li>
+                  <li key={i} className={styles.linkItem}>
+                    {p.href === "#" ? (
+                      <a href="#">{p.name}</a>
+                    ) : (
+                      <Link href={`/${lang}${p.href}`}>{p.name}</Link>
+                    )}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -132,33 +156,7 @@ export const Footer: React.FC = () => {
         
         {/* MIDDLE SECTION */}
         <div className={styles.middleSection}>
-          <div>
-            <div className={styles.columnTitle}>{footerData.newsletterTitle}</div>
-            <p className={styles.middleDesc}>{footerData.newsletterDesc}</p>
-            <form className={styles.newsletterForm} onSubmit={handleSubscribe}>
-              <div className={styles.inputWrapper}>
-                <input 
-                  type="email" 
-                  placeholder={footerData.emailPlaceholder} 
-                  className={styles.emailInput} 
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-                <button type="submit" className={styles.sendBtn} disabled={isSubmitting}>
-                  {isSubmitting ? "..." : footerData.sendBtn}
-                </button>
-              </div>
-              <label className={styles.checkboxLabel}>
-                <input type="checkbox" required />
-                <span>{footerData.checkbox1}</span>
-              </label>
-              <label className={styles.checkboxLabel}>
-                <input type="checkbox" required />
-                <span>{footerData.checkbox2}</span>
-              </label>
-            </form>
-          </div>
+          <NewsletterForm footerData={footerData} />
           
           <div>
             <div className={styles.columnTitle}>{footerData.socialTitle}</div>
@@ -257,32 +255,6 @@ export const Footer: React.FC = () => {
         </div>
         
       </div>
-
-      {/* SUCCESS MODAL */}
-      <AnimatePresence>
-        {showSuccess && (
-          <div className={styles.modalOverlay}>
-            <motion.div 
-              className={styles.successModal}
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.8 }}
-            >
-              <div className={styles.checkCircle}>
-                <Check size={40} className={styles.checkIcon} />
-              </div>
-              <h3 className={styles.modalTitle}>Başarılı</h3>
-              <p className={styles.modalDesc}>Abonelik Talebiniz Alınmıştır</p>
-              <button 
-                onClick={() => setShowSuccess(false)}
-                className={styles.modalCloseBtn}
-              >
-                Tamam
-              </button>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
     </footer>
   );
 };

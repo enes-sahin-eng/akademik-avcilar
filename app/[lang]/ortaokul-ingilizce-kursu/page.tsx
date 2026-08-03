@@ -19,7 +19,7 @@ import { SeoContentBlock } from "../../components/course/SeoContentBlock";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
@@ -159,16 +159,16 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
 
       {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="ortaokulIngilizceLandingPage" />
-      <CourseInfoSection courseKey="ortaokulIngilizceLandingPage" />
+      <CourseInfoSection courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ortaokulIngilizceLandingPage" />
-      <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" />
+      <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <PlacementTestBanner />
       <WhyUsSection courseKey="ortaokulIngilizceLandingPage" />
-      <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" />
-      <EducationModels courseKey="ortaokulIngilizceLandingPage" />
-      <CourseFAQ courseKey="ortaokulIngilizceLandingPage" />
+      <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" lang={lang} />
+      <EducationModels courseKey="ortaokulIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
-      <WhatsAppButton phoneNumber="905323609256" />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );
 }

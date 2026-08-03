@@ -91,76 +91,90 @@
       {
         "title": "YDS",
         "subtitle": "Akademik Kariyer İçin",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/yds-hazirlik-kursu"
       },
       {
         "title": "IELTS",
         "subtitle": "İngilizce Dil Seviyesi Belirleme",
-        "icon": "Book"
+        "icon": "Book",
+        "href": "/ielts-hazirlik-kursu"
       },
       {
         "title": "YKS DİL (YDT)",
         "subtitle": "Üniversitede Dil Okumak İçin",
-        "icon": "BookOpen"
+        "icon": "BookOpen",
+        "href": "/yks-dil-ydt-hazirlik-kursu"
       },
       {
         "title": "iTEP",
         "subtitle": "Dil Yeterliliğinizi Ölçün",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/itep-hazirlik-kursu"
       },
       {
         "title": "GRE",
         "subtitle": "Yurt Dışı Akademi Kariyer İçin",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/gre-sinavi-hazirlik-kursu"
       }
     ],
     "col2": [
       {
-        "title": "TESDAF",
+        "title": "TestDaF",
         "subtitle": "Almanya'da Yüksek Öğrenim İçin",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/testdaf-almanca-kursu"
       },
       {
         "title": "PROFICIENCY KURSU",
         "subtitle": "Hazırlık Atlamak İsteyenler İçin",
-        "icon": "Award"
+        "icon": "Award",
+        "href": "/ingilizce-hazirlik-atlama"
       },
       {
         "title": "YÖKDİL",
         "subtitle": "Akademik Kariyer İçin",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/yokdil-hazirlik-kursu"
       },
       {
         "title": "TOEFL",
         "subtitle": "Yüksek Lisans İsteyenler İçin",
-        "icon": "Trophy"
+        "icon": "Trophy",
+        "href": "/toefl-hazirlik-kursu"
       },
       {
         "title": "TOEIC",
         "subtitle": "Yeterlilik Sınavı İçin",
-        "icon": "PenTool"
+        "icon": "PenTool",
+        "href": "/toeic-hazirlik-kursu"
       }
     ],
     "col3": [
       {
         "title": "GMAT",
         "subtitle": "Yurt Dışı Akademik Kariyer İçin",
-        "icon": "GraduationCap"
+        "icon": "GraduationCap",
+        "href": "/gmat-hazirlik-kursu"
       },
       {
         "title": "GOETHE SINAVI",
         "subtitle": "Almanca Seviyenizi Görün",
-        "icon": "Award"
+        "icon": "Award",
+        "href": "/almanca-goethe-sinavi-hazirlik-kursu"
       },
       {
         "title": "ÖSD",
         "subtitle": "Almanya'da İş Ve Kariyer İçin",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/osd-almanca-dil-sertifikasi-kursu"
       },
       {
         "title": "E-TEP",
         "subtitle": "ÖSYM'nin Dört Becerili İngilizce Yeterlilik Testi",
-        "icon": "FileBadge"
+        "icon": "FileBadge",
+        "href": "/e-tep-sinavi-nedir"
       }
     ]
   },
@@ -2746,8 +2760,8 @@
       ]
     },
     "publications": {
-      "title": "Akademik International Kurum Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
+      "title": "Özel Ders Öğrencilerine Özgü Yayınlarımız",
+      "subtitle": "Seviyeye Uygun Dizayn, Kişiselleştirilmiş İçerikler, Yenilikçi Yaklaşım",
       "features": [
         "Yaş Grubuna Uygun Dizayn",
         "Ortaokula Özgü İçerikler",
@@ -3195,8 +3209,8 @@
       "title": "Kurumsal İngilizce Kursu | Akademik International",
       "description": "Kurumsal İngilizce, iş dünyasında etkili iletişim kurabilmek ve profesyonel ilişkileri geliştirebilmek için kullanılan özel bir dil becerisidir."
     }
-},
-"tercumeHizmetiLandingPage": {
+  },
+  "tercumeHizmetiLandingPage": {
     "hero": {
       "tag": "YEMİNLİ TERCÜME HİZMETİ",
       "title": "Profesyonel Tercüme Hizmetleri",
@@ -3204,11 +3218,11 @@
       "infoBtn": "Hemen Teklif Alın!",
       "whatsappBtn": "Whatsapp Bilgi",
       "formRibbon": "Tercüme Talep Formu",
-      "formTitle": "HIZLI VE GÜVENİLİR!",
+      "formTitle": "ÜCRETSİZ EĞİTİM!",
       "formSubtitle": "Metinleriniz İçin Hemen Fiyat ve Süre Bilgisi Alın!",
       "namePlaceholder": "İsim Ve Soyisim Giriniz.",
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
-      "branchPlaceholder": "Tercüme Alanı Seçiniz (Hukuki, Tıbbi vs.)",
+      "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: ÇEVİRİ HİZMETLERİ",
       "description": "Profesyonel ve alanında uzmanlaşmış yeminli tercümanlarımızla, kurumsal ve bireysel ihtiyaçlarınız için Türkçe-İngilizce ve İngilizce-Türkçe dillerinde nitelikli tercüme hizmeti vermekteyiz.",
@@ -3443,5 +3457,3118 @@
         "summary": "Yapılan bu titiz çalışmalar sayesinde, pek çok kurumsal ve bireysel ihtiyaçlarınız sorunsuz bir şekilde çözüme ulaşmış olacaktır."
       }
     ]
-}
+  },
+  "ydsLandingPage": {
+    "hero": {
+      "tag": "YDS HAZIRLIK KURSU",
+      "title": "YDS'de Hedeflediğiniz Puana Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ÜCRETSİZ EĞİTİM!",
+      "formSubtitle": "YDS Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
+      "description": "Alanında uzman eğitmenlerimiz, YDS'ye özel soru çözüm tekniklerimiz ve zengin yayın desteğimizle akademik kariyer ve dil tazminatı hedeflerinize ulaşmanızı sağlıyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Puan ve Başarı Garantili Eğitim Programı!"
+    },
+    "about": {
+      "badge": "UZMAN EĞİTMEN KADROSU",
+      "title": "Etkili YDS Hazırlık Süreci Nedir?",
+      "desc": "YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı), ileri düzeyde kelime bilgisi, okuduğunu anlama ve gramer yetkinliği gerektiren akademik bir sınavdır. Kursumuzda bu üç temel ayağı sağlamlaştırarak hedefinize ulaşmanızı sağlıyoruz.<br/><br/><b>Stratejik Soru Çözümü:</b> YDS sadece İngilizce bilmeyi değil, sınav süresini iyi yönetmeyi ve soru tiplerine özel taktikleri bilmeyi gerektirir. Uzman kadromuz size paragraf, kelime ve çeviri sorularında zaman kazandıracak teknikleri öğretir.<br/><br/><b>Zengin Yayın ve Deneme Sınavları:</b> Süreç boyunca seviyenize uygun özgün yayınlar ve düzenli Türkiye geneli deneme sınavları ile eksiklerinizi anında tespit ediyor ve hedefinize giden yolda size rehberlik ediyoruz.",
+      "skills": [
+        {
+          "id": "vocabulary",
+          "title": "Akademik Kelime Bilgisi",
+          "desc": "YDS'de en çok karşılaşılan akademik kelimeleri ezberlemeden, bağlam içinde kalıcı olarak öğrenmenizi sağlayan özel kelime çalışmaları."
+        },
+        {
+          "id": "reading",
+          "title": "Okuma ve Anlama (Reading)",
+          "desc": "Uzun ve karmaşık paragrafları hızlı analiz etme, ana fikri bulma ve çeldirici şıkları eleme teknikleri."
+        },
+        {
+          "id": "grammar",
+          "title": "Gramer ve Yapı Bilgisi",
+          "desc": "Sınavda doğrudan test edilen gramer kurallarının, gereksiz teferruatlardan arındırılarak hap bilgiler halinde sunulması."
+        },
+        {
+          "id": "strategy",
+          "title": "Sınav Stratejileri",
+          "desc": "Cümle tamamlama, çeviri ve anlam bütünlüğünü bozan cümleyi bulma gibi spesifik soru tipleri için pratik çözüm taktikleri."
+        }
+      ],
+      "description": "Hedefiniz ister akademik kariyer, ister dil tazminatı olsun; YDS hazırlık sürecinizi en verimli şekilde planlıyor ve adım adım başarıya taşıyoruz.",
+      "features": [
+        "YDS'ye özel güncel, özgün ve kapsamlı ders materyalleri.",
+        "Soruların mantığını kavramaya yönelik stratejik eğitim modeli.",
+        "Düzenli deneme sınavları ile gelişim takibi.",
+        "Okuma, kelime ve gramer becerilerini eşzamanlı geliştiren sistem."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden YDS Kursumuzu Tercih Etmelisiniz?",
+      "subtitle": "Başarınızı Şansa Değil, Uzmanlara Bırakın",
+      "cardTitle": "Deneyimli YDS Kadrosu",
+      "cardDesc": "Sınavın mantığını, soru tiplerini ve ÖSYM'nin dilini çok iyi analiz eden, yılların tecrübesine sahip uzman eğitmenlerle çalışıyoruz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Kurs programı hangi seviyeden başlıyor?",
+          "a": "Kursa başlamadan önce ücretsiz seviye tespit sınavı uyguluyoruz. Temeli eksik olan öğrencilerimiz için öncelikle 'Ön YDS' grubumuzla altyapı oluşturuyor, ardından sınav stratejilerine geçiyoruz."
+        },
+        {
+          "q": "Ders materyalleri kurs tarafından mı veriliyor?",
+          "a": "Evet, süreç boyunca ihtiyaç duyacağınız tüm konu anlatımlı kitaplar, kelime bankaları, yaprak testler ve deneme sınavları kurumumuz tarafından ücretsiz sağlanmaktadır."
+        },
+        {
+          "q": "Sadece taktik ezberleterek mi eğitim veriyorsunuz?",
+          "a": "Hayır, sadece taktikle YDS'de yüksek puan almak mümkün değildir. Taktikleri, sağlam bir gramer altyapısı, yoğun kelime bilgisi ve ileri düzey okuma (reading) becerileriyle harmanlayarak öğretiyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Özgün Deneme Sınavları",
+          "desc": "Gerçek sınav zorluğunda, güncel soru tiplerini barındıran periyodik YDS denemeleri.",
+          "icon": "Award"
+        },
+        {
+          "title": "Birebir Etüt Desteği",
+          "desc": "Derslerde anlaşılamayan konular veya çözülemeyen sorular için eğitmenlerden birebir destek.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Kelime Odaklı Eğitim",
+          "desc": "YDS'nin kalbi olan kelime bilgisi için her derste düzenli phrasal verb ve akademik kelime çalışmaları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Zaman Yönetimi",
+          "desc": "80 soruyu 180 dakikada en verimli şekilde çözebilmeniz için özel zaman yönetimi taktikleri.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "YDS İçin Kullandığımız Kaynaklar",
+      "subtitle": "Başarıya Götüren Güncel İçerikler",
+      "features": [
+        "Konu Anlatımlı Kitaplar",
+        "Kelime ve Okuma Kitapları",
+        "Tam Kapsamlı Denemeler"
+      ],
+      "books": [
+        {
+          "name": "YDS Gramer ve Yapı Bankası",
+          "type": "Konu Anlatımı & Test"
+        },
+        {
+          "name": "Akademik Kelime ve Phrasal Verbs",
+          "type": "Kelime Çalışması"
+        },
+        {
+          "name": "YDS Reading Paragraf Çözümleri",
+          "type": "Okuma & Anlama"
+        },
+        {
+          "name": "10'lu Özgün YDS Deneme Seti",
+          "type": "Sınav Pratiği"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Sınıf ortamında, eğitmenlerimizle birebir iletişim kurarak ve motivasyonunuzu yüksek tutarak YDS'ye hazırlanın.",
+        "features": [
+          "İnteraktif Sınıf Ortamı",
+          "Anında Soru Sorma İmkanı",
+          "Yüz Yüze Birebir Etütler",
+          "Fiziksel Deneme Sınavları",
+          "Grup Motivasyonu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Zaman ve mekan sınırlarını kaldırın! Canlı online derslerimizle Türkiye'nin her yerinden kaliteli YDS eğitimine ulaşın.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "Canlı ve Etkileşimli Dersler",
+          "Kaçırılan Derslerin Tekrarı (Video Kaydı)",
+          "Online Deneme Sınavları",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "YDS Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "YDS kursu ne kadar sürüyor?",
+          "a": "Eğitim süremiz, öğrencinin mevcut seviyesine ve hedeflediği puana göre değişiklik göstermekle birlikte ortalama 3 ile 5 ay arasında süren yoğun bir programdan oluşmaktadır."
+        },
+        {
+          "q": "YDS'den 70 ve üzeri almak için seviyem ne olmalı?",
+          "a": "70 ve üzeri puanlar için en az B1-B2 düzeyinde genel İngilizce altyapısına sahip olmanız önerilir. Eğer seviyeniz daha düşükse, önce genel altyapı programımıza dahil olup sonrasında YDS grubuna geçiş yapabilirsiniz."
+        },
+        {
+          "q": "Deneme sınavları ÖSYM formatına uygun mu?",
+          "a": "Kesinlikle. Kursumuzda uygulanan tüm deneme sınavları, ÖSYM'nin geçmiş yıllardaki soru zorluk derecesi, konu dağılımı ve çeldirici yapısı baz alınarak uzman komisyonumuzca özel olarak hazırlanmaktadır."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "YDS Eğitim Programlarımız",
+      "grades": [
+        {
+          "tabTitle": "Ön YDS Grubu",
+          "title": "Ön YDS Hazırlık (Temel Oluşturma)",
+          "desc": "İngilizce temeli yeterli olmayan adaylar için özel olarak hazırlanmış, gramer ve temel okuma becerilerini geliştiren program.",
+          "bullets": [
+            "Temel ve orta düzey gramer eksiklerinin giderilmesi.",
+            "YDS'ye yönelik temel kelime dağarcığının oluşturulması.",
+            "Kısa okuma parçaları ile okuduğunu anlama pratiği.",
+            "YDS standart programına kusursuz geçiş için sağlam altyapı."
+          ],
+          "summary": "Hedef: Adayın B1/B2 seviyesine ulaşarak YDS stratejilerini anlayabilecek düzeye gelmesini sağlamak."
+        },
+        {
+          "tabTitle": "YDS Standart",
+          "title": "YDS Standart Hazırlık Grubu",
+          "desc": "Hedefi 70 ve üzeri puan olan, orta ve ileri düzeyde İngilizce bilgisine sahip adaylar için tam kapsamlı YDS hazırlık programı.",
+          "bullets": [
+            "YDS soru tiplerine özel taktiksel yaklaşım ve çözüm teknikleri.",
+            "Yoğun akademik kelime ve phrasal verb ezber çalışmaları.",
+            "Uzun paragrafları analiz etme ve hızlı okuma becerileri.",
+            "Özgün deneme sınavları ile seviye ve zaman yönetimi takibi."
+          ],
+          "summary": "Hedef: ÖSYM sınav formatına tam hakimiyet ve hedef puana ulaşma güvencesi."
+        },
+        {
+          "tabTitle": "Soru Çözüm Kampı",
+          "title": "YDS Soru Çözüm ve Hızlandırılmış Kamp",
+          "desc": "Sınava kısa bir süre kala sadece pratik yapmaya ve net artırmaya odaklanan yoğunlaştırılmış soru çözüm grubu.",
+          "bullets": [
+            "Sadece çıkmış sınav soruları ve özgün zor denemeler üzerinden ilerleme.",
+            "Zaman yönetimi stratejileri ve soru eleme teknikleri.",
+            "Gramer anlatımı olmadan doğrudan sınav odaklı çözümleme.",
+            "Sınav stresi yönetimi ve son tekrar kampları."
+          ],
+          "summary": "Hedef: Sınava tam hazırlıklı girmek ve mevcut net potansiyelini maksimize etmek."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Uzman Kadro ile YDS'de Başarıyı Şansa Bırakmayın",
+        "desc": "YDS, yalnızca genel İngilizce bilgisi ile aşılabilecek bir sınav değildir. Akademik dil becerisi, yüksek konsantrasyon ve sağlam sınav stratejileri gerektirir. Kurumumuz, YDS alanında yılların tecrübesine sahip uzman eğitmenleriyle hedeflerinize giden yolda size profesyonel bir rehberlik sunar.",
+        "bullets": [
+          "Hedefe yönelik yoğun kelime ve çeviri çalışmaları",
+          "Zaman yönetimi becerisini geliştiren deneme sınavları",
+          "ÖSYM soru tarzına tam uyumlu, güncel materyal desteği",
+          "Bireysel eksiklerin tespit edilip hızla giderildiği etüt sistemi"
+        ],
+        "summary": "Akademik kariyeriniz veya dil tazminatı hedefiniz için gereken o kritik puanı, deneyimli kadromuzla güvence altına alın."
+      },
+      {
+        "title": "Sıfırdan İleri Seviyeye YDS Stratejileri",
+        "desc": "İster temel seviyede olun, ister belirli bir puanın üzerine çıkmak isteyin; kişiselleştirilmiş eğitim modelimizle YDS hazırlık sürecinizi en verimli hale getiriyoruz. Doğru yönlendirme ve tekniklerle okuma, gramer ve kelime becerilerinizi eşzamanlı olarak inşa ediyoruz.",
+        "bullets": [
+          "Seviye tespit sınavı ile doğru gruba yerleştirme",
+          "Ön YDS programıyla sağlam bir temel oluşturma imkanı",
+          "Paragraf ve anlam bütünlüğü sorularında net artış sağlayan teknikler",
+          "Sınav kaygısını yönetme ve motivasyon artırıcı rehberlik"
+        ],
+        "summary": "YDS bir engel değil; doğru yöntem, güçlü kaynaklar ve uzman eğitmenlerle rahatlıkla aşabileceğiniz bir basamaktır."
+      }
+    ]
+  },
+  "ieltsLandingPage": {
+    "hero": {
+      "tag": "IELTS HAZIRLIK KURSU",
+      "title": "IELTS Sınavında Hedeflediğiniz Skora Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "IELTS Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz (Başlangıç, Orta vs.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
+      "description": "IELTS sınavını yıllardır deneyimlemiş, derece skorlara sahip uzman eğitmenlerimiz eşliğinde Listening, Reading, Speaking ve Writing becerilerinizi global standartlarda geliştirin.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
+    },
+    "about": {
+      "badge": "4 TEMEL BECERİ",
+      "title": "Etkili IELTS Hazırlık Süreci Nedir?",
+      "desc": "IELTS (International English Language Testing System), İngilizce konuşulan ülkelerde eğitim almak veya çalışmak isteyen adayların yeteneklerini ölçen en güvenilir küresel sınavlardan biridir. Akademik International olarak, yetişkinlere özgü dil eğitim sistemimizle hedeflerinize ulaşmanızı sağlıyoruz.<br/><br/><b>Dört Beceriye Eşit Odak:</b> IELTS sınavı okuma, yazma, konuşma ve dinleme olmak üzere 4 temel becerinin yetkinliğini ölçer. Kursumuz, 7-10 kişilik butik sınıflarda bu dört beceriyi paralel olarak geliştirmenize odaklanır.<br/><br/><b>Kişiye Özel Planlama:</b> Akademik ve Genel IELTS hedeflerinize, mevcut seviyenize ve ayırabileceğiniz zamana göre birebir veya grup eğitimi şeklinde kişiselleştirilmiş programlar sunuyoruz.",
+      "skills": [
+        {
+          "id": "listening",
+          "title": "Listening (Dinleme)",
+          "desc": "Farklı aksanlarla pratik yaparak, duyduğunu anlama ve not alma becerilerinizi geliştirin."
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Okuduğunuzu yorumlayabilme ve doğru cevabı hızla bulabilme becerisini kazandıran sağlam okuma çalışmaları."
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Verileri analiz etme ve makale yazma süreçlerinde kelime ve gramer yetkinliğinizi üst düzeye çıkarın."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Farklı insanlarla etkileşim kurarak akıcı, doğal ve özgüvenli İngilizce konuşma pratikleri gerçekleştirin."
+        }
+      ],
+      "description": "Yurt dışında lisans, yüksek lisans veya kariyer hedeflerinize, Türkiye'nin başarı oranı en yüksek IELTS kursu ile zaman kaybetmeden ulaşın.",
+      "features": [
+        "IELTS Akademik ve IELTS Genel olmak üzere hedefinize özel sınıflar.",
+        "7-10 kişilik butik sınıflarda ya da birebir formatta eğitim imkanı.",
+        "Derece skora sahip ve sınav stratejilerine tam hakim eğitmen kadrosu.",
+        "Düzenli deneme sınavlarıyla zayıf yönleri keşfetme ve stres yönetimi."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International IELTS Kursu?",
+      "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
+      "cardTitle": "Yüksek Başarı Oranlı Şubeler",
+      "cardDesc": "Bursa, İstanbul, İzmir, Ankara, Tekirdağ ve Eskişehir şubelerimizde binlerce öğrenciyi hedeflediği skora ulaştıran, en çok tavsiye edilen kurs tecrübesi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "IELTS Akademik ve IELTS Genel arasındaki fark nedir?",
+          "a": "IELTS Akademik, yurt dışında lisans/yüksek lisans eğitimi almak isteyenler içindir. IELTS Genel ise göçmenlik, çalışma veya kurum başvurularında tercih edilir. Kursumuzda her ikisi için ayrı planlama yapılmaktadır."
+        },
+        {
+          "q": "Eğitim materyallerini siz mi karşılıyorsunuz?",
+          "a": "Evet, kurumumuza ait The Academic Publishing yayınevi tarafından sınav stratejilerine uygun olarak hazırlanan güncel kaynakları kullanıyoruz."
+        },
+        {
+          "q": "Sınav stresini nasıl yenebilirim?",
+          "a": "Sınava girmeden önce sık sık yaptığımız deneme sınavları sayesinde hem zayıf yönlerinizi keşfeder hem de sınav stresi yönetimi konusunda rahatlık ve pratik kazanırsınız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uzman Eğitmen Kadrosu",
+          "desc": "Sınav deneyimi olan ve yüksek puan elde etmiş, sınav stratejilerine tamamen hakim uzman hocalar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Sık Deneme Sınavları",
+          "desc": "Gerçek sınav formatında uygulanan denemelerle zaman yönetimi ve pratik imkanı.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Bütçe ve Zaman Tasarrufu",
+          "desc": "Sizi doğrudan hedefinize ulaştıran taktiklerle zamanınızı ve bütçenizi tasarruflu kullanmanızı sağlar.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Kişisel Pekiştirme",
+          "desc": "Profesyonel destek ve periyodik kişisel pekiştirme eğitimleri ile eksiklerinizi hızla kapatın.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "IELTS İçin Kullandığımız Kaynaklar",
+      "subtitle": "The Academic Publishing Farkı",
+      "features": [
+        "Güncel Sınav Stratejileri",
+        "Dört Temel Beceri (4 Skills)",
+        "Kuruma Özgü Materyaller"
+      ],
+      "books": [
+        {
+          "name": "IELTS Listening & Speaking",
+          "type": "Dinleme & Konuşma Pratiği"
+        },
+        {
+          "name": "IELTS Reading Strategies",
+          "type": "Okuma Analizi"
+        },
+        {
+          "name": "IELTS Writing Task 1 & 2",
+          "type": "Yazma Stratejileri"
+        },
+        {
+          "name": "IELTS Mock Exams",
+          "type": "Deneme Seti"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Bursa, İstanbul, İzmir, Ankara, Tekirdağ ve Eskişehir'deki şubelerimizde 7-10 kişilik butik sınıflarda etkileşimli IELTS hazırlığı.",
+        "features": [
+          "7-10 Kişilik Butik Gruplar",
+          "Anında Soru Sorma İmkanı",
+          "Yüz Yüze Birebir Etütler",
+          "Fiziksel Deneme Sınavları",
+          "Grup Motivasyonu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu İngilizce UZEM ile dilediğiniz yerden eğitim alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "İngilizce UZEM Altyapısı",
+          "Canlı ve Etkileşimli Dersler",
+          "Online Deneme Sınavları",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "IELTS Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "IELTS sınavı kimler tarafından kabul ediliyor?",
+          "a": "İrlanda, İngiltere, Amerika, Kanada ve Avustralya başta olmak üzere İngilizce konuşulan birçok ülkede üniversiteler ve kurumlar tarafından güvenilir bir İngilizce yeterlilik sınavı olarak kabul edilir."
+        },
+        {
+          "q": "IELTS kursu fiyatları neye göre belirleniyor?",
+          "a": "Fiyatlar; mevcut seviyeniz, hedeflediğiniz IELTS puanı ve eğitim için ayıracağınız zamana (alacağınız ders saatine) göre size özel olarak planlanır."
+        },
+        {
+          "q": "Reading (Okuma) becerimi nasıl geliştirebilirim?",
+          "a": "Sadece gramer değil, okuduğunuzu anlama ve yorumlama üzerine sağlam bir çalışma yapmanız gerekir. Eğitmenlerimiz size metin içinden doğru cevabı en hızlı şekilde bulma taktiklerini gösterir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "IELTS Sınavında Değerlendirilen 4 Temel Beceri",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening (Dinleme)",
+          "desc": "Çeşitli aksanlarda kaydedilmiş konuşmaları dinleyerek soruları cevaplama yeteneğinizi geliştiriyoruz.",
+          "bullets": [
+            "Farklı İngilizce aksanlarına aşinalık",
+            "Dinlerken not alma (note-taking) taktikleri",
+            "Soru tiplerine göre ipuçlarını yakalama",
+            "Dikkat dağıtıcıları eleme yöntemi"
+          ],
+          "summary": "Duyduğunuzu anlama ve aynı anda sorulara odaklanma pratiği ile listening skorunuzu maksimize edin."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading (Okuma)",
+          "desc": "Akademik veya genel uzun metinleri zamanında bitirebilmek için etkili okuma stratejileri sunuyoruz.",
+          "bullets": [
+            "Skimming (Göz gezdirme) ve Scanning (Tarama)",
+            "Metindeki ana fikri hızla çıkarma",
+            "Yazarın tutumunu ve amacını anlama",
+            "True/False/Not Given sorularında ustalaşma"
+          ],
+          "summary": "Okuduğunuzu yorumlayabilme ve doğru cevabı hızla bulabilme becerisi kazanın."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing (Yazma)",
+          "desc": "Veri analizi (Task 1) ve kompozisyon (Task 2) yazımında gerekli olan akademik dil ve gramer yapılarını öğretiyoruz.",
+          "bullets": [
+            "Grafik, tablo ve süreçleri raporlama (Academic)",
+            "Resmi veya yarı resmi mektup yazma (General)",
+            "Fikirleri mantıklı bir bütünlükle organize etme",
+            "Zengin kelime ve doğru gramer kullanımı"
+          ],
+          "summary": "Fikirlerinizi açık, anlaşılır ve akademik bir dille kağıda dökmenin formülünü öğrenin."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Gerçek bir sınav gözetmeni karşısında akıcı, doğal ve özgüvenli İngilizce konuşma pratikleri yaptırıyoruz.",
+          "bullets": [
+            "Günlük konularda hazırlıksız konuşabilme",
+            "Belirli bir konuda kesintisiz fikir yürütme",
+            "Karşılıklı tartışma ve fikir savunma",
+            "Sınav stresini yönetme ve akıcılık (fluency)"
+          ],
+          "summary": "Farklı insanlarla etkileşim kurarak konuşma becerilerinizi geliştirin ve yüksek skor elde edin."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "En İyi IELTS Hazırlık Kursu ile Zaman Kaybetmeyin",
+        "desc": "IELTS Sınavı insanları kurdukları hayallere ve ulaşmak istediği hedeflere ulaştıran köprü niteliğinde bir sınavdır. Kariyer basamaklarını tırmanırken tasarruf edilmesi gereken en önemli kavram zamandır. Zaman kaybettirmeden hedeflediğiniz puanı elde etmeniz için size en uygun IELTS Hazırlık Kursu planlamasını gerçekleştiriyoruz.",
+        "bullets": [
+          "Derece skorlara sahip, sınavı yıllarca deneyimlemiş eğitmenler",
+          "Kuruma özgü, güncel The Academic Publishing sınav stratejisi kaynakları",
+          "İngilizce UZEM platformu ile online interaktif eğitim seçeneği",
+          "7-10 kişilik butik sınıflarda dört temel beceri (4 skills) odaklı eğitim"
+        ],
+        "summary": "Başarıyı şansa bırakmadan, uzman bir kurum ve eğitmenler eşliğinde IELTS'te net ve kesin başarı elde edebilirsiniz."
+      },
+      {
+        "title": "Hedefinize Uygun IELTS Akademik ve Genel Programları",
+        "desc": "IELTS sınavı, University of Cambridge (ESOL), IDP ve British Council tarafından ortak geliştirilen küresel bir sınavdır. İrlanda, İngiltere, Amerika, Kanada ve Avustralya gibi ülkelerde lisans ve yüksek lisans eğitimi almak isteyen öğrencilerin yetkinliklerini derecelendiren güvenilir bir testtir.",
+        "bullets": [
+          "Mevcut İngilizce seviyenize ve hedeflenen puana göre planlama",
+          "Birebir özel ders veya grup hazırlık kursu seçenekleri",
+          "Sık sık uygulanan deneme sınavları ile zayıf yönleri keşfetme",
+          "Bursa, İstanbul, İzmir, Ankara, Tekirdağ ve Eskişehir şubelerinde yüz yüze eğitim"
+        ],
+        "summary": "Akademik hayatta ve özel sektörde rakiplerinizden ayırt edici olmak için IELTS Hazırlık Kursu'muzla tanışın."
+      }
+    ]
+  },
+  "ydtLandingPage": {
+    "hero": {
+      "tag": "YKS-DİL YDT HAZIRLIK KURSU",
+      "title": "YKS-Dil YDT Sınavında Hedeflediğiniz Puana Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "YKS-Dil YDT Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut Yabancı Dil Seviyenizi Seçiniz (Başlangıç, Orta vs.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
+      "description": "YKS-Dil YDT Hazırlık Kursu alanında uzman, çıkmış soru sistemine hakim eğitmen kadrosu ile zaman kaybetmeden hedefindeki puanı alabilirsin.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
+    },
+    "about": {
+      "badge": "YDT HAZIRLIK",
+      "title": "Etkili YKS-Dil YDT Hazırlık Süreci Nedir?",
+      "desc": "YKS-DİL YDT (Yabancı Dil Testi), üniversitelerin yabancı dil bölümlerini tercih edebilmek amacıyla girilen ve ÖSYM tarafından düzenlenen ulusal bir sınavdır. Liseden mezuniyet durumunda olanlar veya liseden mezun olmuş tüm öğrenciler bu sınava girme hakkına sahiptir.<br/><br/><b>Sınav Formatı:</b> YKS Dil sınavı 120 dakika süren ve 80 sorudan oluşan bir sınavdır. Akademik Yabancı Dil Kursları olarak, alanında uzman eğitmenler, sınava özgü sorular içeren yayınlar ve İngilizce Uzem online platformu ile kapsamlı bir eğitim modeli sunuyoruz.<br/><br/><b>Kişiye Özel Planlama:</b> Öncelikle tüm öğrencilerimize ücretsiz seviye tespit sınavı uygulanır, sonuçlar özenle değerlendirilerek adaylar seviyelerine en uygun gruba yerleştirilir.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Gramer (Dilbilgisi)",
+          "desc": "Sınavda karşınıza çıkabilecek tüm gramer konularını detaylı ve etkili bir biçimde öğrenerek sağlam bir dilbilgisi temeli oluşturun."
+        },
+        {
+          "id": "vocabulary",
+          "title": "Kelime Bilgisi (Vocabulary)",
+          "desc": "Sözcük dağarcığınızı geliştirme çalışmalarıyla sınavda karşınıza çıkacak kelime sorularında yüksek başarı elde edin."
+        },
+        {
+          "id": "reading",
+          "title": "Okuma Parçaları (Reading)",
+          "desc": "Okuma parçalarındaki ana konu ve kelime sorularına isabetli yaklaşımlarla doğru cevabı hızla bulma becerisi kazanın."
+        },
+        {
+          "id": "practice",
+          "title": "Soru Çözüm Teknikleri",
+          "desc": "Yoğun denemeler, yaprak testler ve çıkmış sorularla sınav tekniklerini ve kilit noktaları benimseyin."
+        }
+      ],
+      "description": "Hayalini kurduğunuz üniversite ve yabancı dil bölümüne, Türkiye'nin köklü ve deneyimli YKS-Dil YDT Hazırlık Kursu ile zaman kaybetmeden ulaşın.",
+      "features": [
+        "15 yılı aşkın süredir Türkiye'de köklü bir kurum olarak sınav hazırlık deneyimi.",
+        "Ücretsiz seviye tespit sınavı ile size en uygun gruba yerleştirme.",
+        "Sınava özgü, güncel konu anlatımlı setler, soru bankası ve yaprak testler.",
+        "Hafta içi ve hafta sonu olmak üzere 2 ayrı zaman diliminde eğitim planlaması."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik Yabancı Dil Kursları YKS-Dil YDT Hazırlık Kursu?",
+      "subtitle": "Zaman Kaybetmeden Hedeflediğiniz Puanı Elde Edin",
+      "cardTitle": "Yüksek Başarı Oranlı Şubeler",
+      "cardDesc": "İstanbul Beşiktaş, İstanbul Kadıköy, Bursa, İzmir, Ankara ve Eskişehir şubelerimizde binlerce öğrenciyi hedeflediği puana ulaştıran, Türkiye derecesi çıkartan kurs tecrübesi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "YKS-DİL YDT sınavına kimler girebilir?",
+          "a": "Liseden mezuniyet durumunda olanlar veya daha önceki yıllarda liseden mezun olmuş tüm öğrenciler YKS-DİL YDT sınavına katılabilir."
+        },
+        {
+          "q": "YKS-Dil YDT Hazırlık Kursu fiyatları neye göre belirleniyor?",
+          "a": "Fiyatlar; ilgili kurumun sağladığı nitelikli eğitim, sınıf mevcudu, sunduğu materyaller ve diğer ek imkanlara göre değişkenlik göstermektedir. Bütçenizi zorlamadan kampanyalar eşliğinde en uygun ödeme koşulları sunulmaktadır."
+        },
+        {
+          "q": "Sınava hazırlanırken hangi materyalleri kullanıyorsunuz?",
+          "a": "Kurumumuza ait, sınav stratejilerine uygun olarak hazırlanmış konu anlatımlı setler, soru bankaları, yaprak testler ve çıkmış/özgün sorulardan oluşan güncel kaynakları kullanıyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uzman Eğitmen Kadrosu",
+          "desc": "Her yıl Türkiye derecesi çıkartan, sınav stratejilerine tamamen hakim yerli ve yabancı hocalardan oluşan kadro.",
+          "icon": "Award"
+        },
+        {
+          "title": "Sık Deneme Sınavları",
+          "desc": "Türkiye geneli gerçekleştirilen deneme sınavlarıyla zaman yönetimi ve pratik imkanı.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Bütçe ve Zaman Tasarrufu",
+          "desc": "Sizi direkt başarıya ulaştıracak eğitim modelleriyle zamanınızı ve bütçenizi tasarruflu kullanmanızı sağlar.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Ücretsiz Seviye Tespit Sınavı",
+          "desc": "Eğitim programına dahil olan tüm öğrencilere öncelikle uygulanan ücretsiz seviye tespit sınavıyla doğru gruba yerleşim.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "YKS-Dil YDT İçin Kullandığımız Kaynaklar",
+      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "features": [
+        "Güncel Sınav Stratejileri",
+        "Konu Anlatımı ve Soru Bankası",
+        "Kuruma Özgü Materyaller"
+      ],
+      "books": [
+        {
+          "name": "YDT Konu Anlatım Seti",
+          "type": "Konu Anlatımı"
+        },
+        {
+          "name": "YDT Soru Bankası",
+          "type": "Soru Çözümü"
+        },
+        {
+          "name": "YDT Yaprak Testler",
+          "type": "Çıkmış ve Özgün Sorular"
+        },
+        {
+          "name": "YDT Deneme Sınavları",
+          "type": "Deneme Seti"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "İstanbul Beşiktaş, İstanbul Kadıköy, Bursa, İzmir, Ankara ve Eskişehir'deki şubelerimizde uzman kadromuzla yüz yüze YKS-Dil YDT hazırlığı.",
+        "features": [
+          "Ücretsiz Seviye Tespit Sınavı",
+          "Hafta İçi / Hafta Sonu Program Seçeneği",
+          "Yüz Yüze Ek Pekiştirme Dersleri",
+          "Fiziksel Deneme Sınavları",
+          "Uzman Yerli ve Yabancı Eğitmen Kadrosu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu İngilizce UZEM ile dilediğiniz yerden YKS-Dil YDT eğitimi alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "İngilizce UZEM Altyapısı",
+          "Video Destekli Kapsamlı Müfredat",
+          "Online Deneme Sınavları",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "YKS-Dil YDT Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "YKS-DİL YDT sınavı ne için gereklidir?",
+          "a": "Üniversitelerin yabancı dil bölümlerinden herhangi birinde eğitim almak için girilmesi gereken, Ölçme Seçme ve Yerleştirme Merkezi (ÖSYM) tarafından yapılan ulusal yabancı dil sınavıdır."
+        },
+        {
+          "q": "YKS-Dil YDT Hazırlık Kursu fiyatları ne kadar?",
+          "a": "Kurs fiyatları ilgili eğitim merkezinin sağladığı imkanlar, sınıf mevcudu ve materyallere göre değişkenlik göstermektedir. Bütçe dostu kampanyalarla en uygun ödeme koşulları sunulmaktadır."
+        },
+        {
+          "q": "YDT sınavı kaç dakika sürüyor ve kaç sorudan oluşuyor?",
+          "a": "YKS Dil sınavı 120 dakika süren ve 80 sorudan oluşan bir sınavdır."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "YKS-Dil YDT Sınavında Değerlendirilen Temel Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Gramer",
+          "title": "Gramer (Dilbilgisi)",
+          "desc": "Sınavda karşınıza çıkabilecek tüm gramer konularını detaylı ve etkili bir biçimde öğretiyoruz.",
+          "bullets": [
+            "Konu bazlı detaylı gramer anlatımı",
+            "Sık çıkan gramer yapılarına yoğunlaşma",
+            "Düzenli gramer test çözümleri",
+            "Hatalı kullanımların pekiştirilmesi"
+          ],
+          "summary": "Sağlam bir dilbilgisi temeliyle sınavın gramer sorularında yüksek başarı elde edin."
+        },
+        {
+          "tabTitle": "Kelime",
+          "title": "Kelime Bilgisi (Vocabulary)",
+          "desc": "Sözcük dağarcığınızı geliştirme yollarıyla sınavda karşınıza çıkacak kelime sorularına hazırlanıyoruz.",
+          "bullets": [
+            "Sık kullanılan akademik kelime setleri",
+            "Bağlam içinde kelime öğrenme teknikleri",
+            "Düzenli kelime tekrar çalışmaları",
+            "Eş ve zıt anlamlı kelime pratiği"
+          ],
+          "summary": "Geniş bir kelime dağarcığı ile metinleri daha hızlı ve doğru yorumlayın."
+        },
+        {
+          "tabTitle": "Okuma",
+          "title": "Okuma Parçaları (Reading)",
+          "desc": "Okuma parçalarındaki ana konu ve kelime sorularındaki isabetli sunumlarla hedefinizdeki puanı kazanmanızı sağlıyoruz.",
+          "bullets": [
+            "Metinde ana fikri hızla yakalama",
+            "Paragraf tekniklerine hakimiyet",
+            "Doğru cevaba en hızlı ulaşma taktikleri",
+            "Dikkatsizlikten kaynaklı hataları giderme"
+          ],
+          "summary": "Okuma parçalarındaki soru tiplerine hakim olarak zaman kaybetmeden doğru cevaba ulaşın."
+        },
+        {
+          "tabTitle": "Soru Çözümü",
+          "title": "Soru Çözüm Teknikleri",
+          "desc": "Yoğun denemeler, yaprak testler, çıkmış ve özgün sorularla sınav tekniklerini ve kilit noktaları öğretiyoruz.",
+          "bullets": [
+            "Sınava özgü yaprak testler",
+            "Çıkmış ve özgün soru çalışmaları",
+            "Türkiye geneli deneme sınavları",
+            "Zaman yönetimi ve sınav stratejileri"
+          ],
+          "summary": "Gerçek sınav formatındaki uygulamalarla hedefinizdeki puana zaman kaybetmeden ulaşın."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "En İyi YKS-Dil YDT Hazırlık Kursu ile Zaman Kaybetmeyin",
+        "desc": "YKS-DİL YDT, üniversitelerin yabancı dil bölümlerini tercih etmek isteyen adayları hedeflerine ulaştıran köprü niteliğinde bir sınavdır. Kuruluşundan günümüze 15 yılı aşkın süredir Türkiye'de köklü bir kurum olarak hizmet veren Akademik Yabancı Dil Kursları, alanında uzman eğitmenler eşliğinde ve özgün yayınları sayesinde sizi tek seferde doğrudan başarıya ulaştırmaya devam ediyor.",
+        "bullets": [
+          "Ücretsiz seviye tespit sınavı ile size en uygun gruba yerleştirme",
+          "Kuruma özgü, güncel konu anlatımlı setler, soru bankası ve yaprak testler",
+          "İngilizce UZEM platformu ile online interaktif eğitim seçeneği",
+          "Hafta içi ve hafta sonu olmak üzere 2 ayrı zaman diliminde eğitim planlaması"
+        ],
+        "summary": "Başarıyı şansa bırakmadan, uzman bir kurum ve eğitmenler eşliğinde YKS-Dil YDT'de net ve kesin başarı elde edebilirsiniz."
+      },
+      {
+        "title": "Hedefinize Uygun YKS-Dil YDT Hazırlık Programları",
+        "desc": "YKS-DİL YDT, Ölçme Seçme ve Yerleştirme Merkezi (ÖSYM) tarafından düzenlenen ve 120 dakika süren, 80 sorudan oluşan ulusal bir yabancı dil sınavıdır. Liseden mezuniyet durumunda olanlar veya liseden mezun olmuş tüm öğrenciler bu sınava girme hakkına sahiptir.",
+        "bullets": [
+          "Mevcut yabancı dil seviyenize ve hedeflenen puana göre planlama",
+          "İstanbul Beşiktaş, İstanbul Kadıköy, Bursa, İzmir, Ankara ve Eskişehir şubelerinde yüz yüze eğitim",
+          "Sık sık uygulanan deneme sınavları ile zayıf yönleri keşfetme",
+          "VIP sınıflarda nezih bir ortamda etkili YDT hazırlık süreci"
+        ],
+        "summary": "Hayallerinizi kurduğunuz üniversite ile buluşmak için YKS-Dil YDT Hazırlık Kursu'muzla tanışın."
+      }
+    ]
+  },
+  "itepLandingPage": {
+    "hero": {
+      "tag": "ITEP HAZIRLIK KURSU",
+      "title": "ITEP Sınavında Hedeflediğiniz Skora Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "ITEP Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz (Başlangıç, Orta vs.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Akademik International Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "Etkili ITEP Hazırlık Süreci Nedir?",
+      "desc": "İTEP, yabancı dil olarak İngilizce öğrenen bireylerin dil yeterliliğini ölçmek üzere tasarlanmış, uluslararası geçerliliği bulunan internet tabanlı bir sınav hizmetidir.<br/><br/><b>Nerelerde Kullanılır:</b> Yurtiçi/yurtdışı yeni iş alım süreçlerinde, kaydedilen dil gelişiminin belirlenmesinde, yurtiçi/yurtdışı orta öğretim, lise ve üniversite kabullerinde, çalışanların İngilizce eğitim/gelişim programlarının sonunda yatırım getirilerinin tespit edilmesinde ve genel amaçlı yeterlilik ölçme ve değerlendirmede kullanılır.<br/><br/><b>Değerlendirme Süreci:</b> Okuma, dinleme, dil bilgisi, yazma ve konuşma becerilerini değerlendiren ITEP sınavı güvenlik açısından tek oturumda yapılmakta ve test içeriği sınav sırasında kayıt altına alınmaktadır. Sınav sonucunda, CEFR (Avrupa Konseyi Ortak Dil Kriterleri) seviye tanımlarına uygun değerlendirme raporları oluşturulur.",
+      "skills": [
+        {
+          "id": "listening",
+          "title": "Listening (Dinleme)",
+          "desc": "Farklı içerik ve konularda dinleme pratiği yaparak duyduğunu anlama becerinizi geliştirin."
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "İhtiyaç duyulan literatür ve içeriklere uygun okuma çalışmalarıyla anlama hızınızı artırın."
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Sınav stratejileri teknikleriyle yönlendirmelerle yazma becerinizdeki eksiklikleri giderin."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Haftanın her günü gerçekleştirilen speaking aktiviteleriyle akıcı konuşma pratiği kazanın."
+        }
+      ],
+      "description": "Yurt içi veya yurt dışında iş, eğitim ve akademik hedefleriniz için Türkiye'nin en iyi ITEP kursu ile zaman kaybetmeden hazırlanın.",
+      "features": [
+        "İTEP Academic, Business, Slate, Hospitality, Core ve Plus olmak üzere ihtiyaca özel sınav içerikleri.",
+        "Kapsamlı yayın desteği ile konuşma, yazma, okuma ve dinleme becerilerinde eksik giderme.",
+        "Çıkmış sorular üzerinden sınav stratejileri tekniğiyle yönlendirmeli skor artırma çalışmaları.",
+        "Kampüslerimizde güncel olarak duyurulan hazırlık programı tarihleriyle esnek başlangıç imkanı."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International ITEP Kursu?",
+      "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
+      "cardTitle": "Yüksek Başarı Oranlı Şubeler",
+      "cardDesc": "Kampüslerimizde uzman öğretmen kadrosu ve özgün eğitim müfredatıyla binlerce öğrenciyi hedeflediği ITEP skoruna ulaştıran, Türkiye'nin en iyi kurs tecrübesi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "ITEP sınavı hangi amaçlarla kullanılır?",
+          "a": "Yurtiçi/yurtdışı yeni iş alım süreçlerinde, dil gelişiminin belirlenmesinde, orta öğretim/lise ve üniversite kabullerinde, çalışanların dil yeterliliği gerektiren görev atamalarında ve genel amaçlı yeterlilik ölçme ve değerlendirmede kullanılır."
+        },
+        {
+          "q": "ITEP'in farklı türleri nelerdir?",
+          "a": "İTEP Academic, Business, Slate, Hospitality, Core ve Plus olmak üzere farklı amaçlar için farklı sınav içerikleriyle ihtiyaca göre uyarlanabilen türleri bulunmaktadır."
+        },
+        {
+          "q": "ITEP sınavı nasıl bir formatta uygulanır?",
+          "a": "Okuma, dinleme, dil bilgisi, yazma ve konuşma becerilerini değerlendiren ITEP sınavı güvenlik açısından tek oturumda yapılmakta ve test içeriği sınav sırasında kayıt altına alınmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uzman Öğretmen Kadrosu",
+          "desc": "Alanında uzman öğretmen kadrosuyla özgün eğitim müfredatı sunan Türkiye'nin en iyi ITEP kursu.",
+          "icon": "Award"
+        },
+        {
+          "title": "Çıkmış Sorularla Strateji",
+          "desc": "Çıkmış sorular üzerinden sınav stratejileri tekniğiyle yönlendirmelerle skor artırma odaklı çalışmalar.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Haftalık Speaking Aktiviteleri",
+          "desc": "Itep Hazırlık programına kayıtlı öğrenciler haftanın her günü speaking aktivitelerine katılım sağlayabilir.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Kapsamlı Yayın Desteği",
+          "desc": "Konuşma, yazma, okuma ve dinleme becerilerindeki eksiklikleri gideren kapsamlı yayın desteği.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "ITEP İçin Kullandığımız Kaynaklar",
+      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "features": [
+        "Güncel Sınav Stratejileri",
+        "Beş Temel Beceri Odaklı İçerik",
+        "Kuruma Özgü Materyaller"
+      ],
+      "books": [
+        {
+          "name": "ITEP Listening & Speaking",
+          "type": "Dinleme & Konuşma Pratiği"
+        },
+        {
+          "name": "ITEP Reading Strategies",
+          "type": "Okuma Analizi"
+        },
+        {
+          "name": "ITEP Writing & Grammar",
+          "type": "Yazma & Dil Bilgisi"
+        },
+        {
+          "name": "ITEP Çıkmış Sorular Seti",
+          "type": "Deneme ve Strateji"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde uzman öğretmen kadrosuyla, özgün müfredat eşliğinde yüz yüze ITEP hazırlığı ve haftanın her günü speaking aktiviteleri.",
+        "features": [
+          "Alanında Uzman Öğretmen Kadrosu",
+          "Haftanın Her Günü Speaking Aktiviteleri",
+          "Çıkmış Sorularla Strateji Çalışmaları",
+          "Kapsamlı Yayın Desteği",
+          "Güncel Duyurulan Program Tarihleri"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu İngilizce UZEM ile dilediğiniz yerden ITEP eğitimi alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "İngilizce UZEM Altyapısı",
+          "Canlı ve Etkileşimli Dersler",
+          "Online Speaking Aktiviteleri",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "ITEP Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "ITEP nedir?",
+          "a": "İTEP, yabancı dil olarak İngilizce öğrenen bireylerin dil yeterliliğini ölçmek üzere tasarlanmış, uluslararası geçerliliği bulunan internet tabanlı bir sınav hizmetidir."
+        },
+        {
+          "q": "ITEP Academic ile ITEP Business arasındaki fark nedir?",
+          "a": "İtep academic, eğitim çevrelerinde ihtiyaç duyulan literatür, içerik ve konuların tüm özelliklerini içinde barındırırken, İtep business iş dünyasına özel durumlar ve buna uygun iş terminolojisini içermektedir."
+        },
+        {
+          "q": "Sınav sonucunda nasıl bir değerlendirme raporu alıyorum?",
+          "a": "Sınav sonucunda kurumların dünya çapındaki farklı ölçme ürünlerini anlamlandırabilmesini sağlayan, en sağlıklı ve en geniş kabul görmüş CEFR (Avrupa Konseyi Ortak Dil Kriterleri) seviye tanımlarına uygun değerlendirme raporları oluşturulur."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "ITEP Sınavında Değerlendirilen Temel Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening (Dinleme)",
+          "desc": "Farklı içerik ve konularda dinleme pratiği yaparak duyduğunu anlama becerinizi geliştiriyoruz.",
+          "bullets": [
+            "Farklı içerik türlerine aşinalık kazanma",
+            "Dinlerken not alma ve odaklanma taktikleri",
+            "Soru tiplerine göre ipuçlarını yakalama",
+            "Dikkat dağıtıcıları eleme yöntemi"
+          ],
+          "summary": "Duyduğunuzu anlama pratiğiyle listening skorunuzu maksimize edin."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading (Okuma)",
+          "desc": "İhtiyaç duyulan literatür ve içeriklere uygun okuma çalışmalarıyla metinleri hızlı ve doğru yorumlamayı öğretiyoruz.",
+          "bullets": [
+            "Skimming ve scanning teknikleri",
+            "Metindeki ana fikri hızla çıkarma",
+            "Sınav içeriğine özgü kelime çalışmaları",
+            "Doğru cevaba hızlı ulaşma taktikleri"
+          ],
+          "summary": "Okuduğunuzu yorumlayabilme ve doğru cevabı hızla bulabilme becerisi kazanın."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing (Yazma)",
+          "desc": "Sınav stratejileri tekniğiyle yönlendirmelerle yazma becerinizdeki eksiklikleri gideriyoruz.",
+          "bullets": [
+            "Konuya uygun dil bilgisi ve kelime kullanımı",
+            "Fikirleri mantıklı bir bütünlükle organize etme",
+            "Sınav formatına uygun yazım stratejileri",
+            "Çıkmış sorular üzerinden pratik yazma çalışmaları"
+          ],
+          "summary": "Fikirlerinizi açık ve düzenli bir dille ifade etmenin stratejilerini öğrenin."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Haftanın her günü gerçekleştirilen speaking aktiviteleriyle akıcı ve özgüvenli konuşma pratiği yaptırıyoruz.",
+          "bullets": [
+            "Günlük konularda hazırlıksız konuşabilme",
+            "Belirli bir konuda kesintisiz fikir yürütme",
+            "Sınav formatına özgü konuşma pratikleri",
+            "Akıcılık ve telaffuz geliştirme çalışmaları"
+          ],
+          "summary": "Haftanın her günü yapılan speaking aktiviteleriyle konuşma becerinizi geliştirin."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "En İyi ITEP Hazırlık Kursu ile Zaman Kaybetmeyin",
+        "desc": "İTEP, yabancı dil olarak İngilizce öğrenen bireylerin dil yeterliliğini ölçmek üzere tasarlanmış, uluslararası geçerliliği bulunan internet tabanlı bir sınav hizmetidir. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Akademik International Yabancı Dil Kursu, nitelikli dil eğitimi için burada.",
+        "bullets": [
+          "İTEP Academic, Business, Slate, Hospitality, Core ve Plus türlerine özel içerikler",
+          "Çıkmış sorular üzerinden sınav stratejileri tekniğiyle yönlendirmeli skor artırma",
+          "Konuşma, yazma, okuma ve dinleme becerilerinde kapsamlı yayın desteği",
+          "Haftanın her günü gerçekleştirilen speaking aktiviteleriyle pratik imkanı"
+        ],
+        "summary": "Başarıyı şansa bırakmadan, uzman bir kurum ve eğitmenler eşliğinde ITEP'te net ve kesin başarı elde edebilirsiniz."
+      },
+      {
+        "title": "Hedefinize Uygun ITEP Sınav Türleri ve Programları",
+        "desc": "İTEP, yurtiçi/yurtdışı yeni iş alım süreçlerinde, dil gelişiminin belirlenmesinde, orta öğretim/lise ve üniversite kabullerinde, çalışanların dil yeterliliği gerektiren görev atamalarında ve genel amaçlı yeterlilik ölçme ve değerlendirmede kullanılan güvenilir bir sınavdır.",
+        "bullets": [
+          "Farklı amaçlar için farklı sınav içeriğiyle ihtiyaca göre uyarlanabilen ITEP türleri",
+          "Okuma, dinleme, dil bilgisi, yazma ve konuşma becerilerini kapsayan tek oturumluk sınav",
+          "CEFR (Avrupa Konseyi Ortak Dil Kriterleri) seviye tanımlarına uygun değerlendirme raporları",
+          "Kampüslerimizde güncel olarak duyurulan hazırlık programı tarihleriyle esnek başlangıç"
+        ],
+        "summary": "Akademik ve profesyonel hayatta rakiplerinizden ayırt edici olmak için ITEP Hazırlık Kursu'muzla tanışın."
+      }
+    ]
+  },
+  "greLandingPage": {
+    "hero": {
+      "tag": "GRE HAZIRLIK KURSU",
+      "title": "GRE Sınavında Hedeflediğiniz Skora Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "GRE Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz (Başlangıç, Orta vs.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Akademik International Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "Etkili GRE Hazırlık Süreci Nedir?",
+      "desc": "GRE (Graduate Record Examination), yurtdışında yüksek lisans ve doktora hedefi olan öğrencilerin girmesi gereken, tüm dünyada kabul gören popüler sınavlardan biridir. Özellikle Amerika Birleşik Devletleri'nde pek çok üniversitenin istediği bu sınav, ilk kez 1949 yılında Educational Testing Service (ETS) tarafından uygulanmıştır.<br/><br/><b>Sınav İçeriği ve Dağılımı:</b> Öğrencilerin sözel, sayısal, yazma ve düşünme becerilerini ölçmektedir. GRE General Test Sınavı 3 saat sürmektedir ve bilgisayar tabanlıdır. Sayısal, sözel ve analitik olarak üç bölümden oluşur. Bu bölümleri tamamladıktan sonra ek olarak kompozisyon ve makale yazacağınız iki bölüm daha bulunmaktadır.<br/><br/><b>Kimler Alabilir:</b> GRE Subject Test kısmı, Biyokimya, Hücre ve Moleküler Biyoloji, Biyoloji, Kimya, İngiliz Edebiyatı, Matematik, Bilgisayar Bilimleri, Psikoloji, Fizik gibi sekiz bilim dalı üzerinde lisansüstü yapmak isteyen öğrencilerin yeterliliğini ölçmek için yapılmaktadır.",
+      "skills": [
+        {
+          "id": "quantitative",
+          "title": "Sayısal (Quantitative)",
+          "desc": "Matematik, problem çözme ve mantıksal akıl yürütme becerilerinizi geliştirerek sayısal bölümde yüksek başarı elde edin."
+        },
+        {
+          "id": "verbal",
+          "title": "Sözel (Verbal)",
+          "desc": "İngilizce kelime bilginizi, okuduğunu anlama ve temel dil bilgisi kurallarını kavrama yeteneğinizi artırın."
+        },
+        {
+          "id": "analytical",
+          "title": "Analitik (Analytical Writing)",
+          "desc": "Odaklanma yeteneğinizi geliştirerek, istenen kompozisyon ve makaleleri belirli bir zaman diliminde etkin bir şekilde yazın."
+        },
+        {
+          "id": "subject",
+          "title": "Alan Sınavı (Subject Test)",
+          "desc": "Sekiz farklı bilim dalında lisansüstü hedeflerinize ulaşmak için uzmanlık alanınıza yönelik özel hazırlık yapın."
+        }
+      ],
+      "description": "Yurt dışında yüksek lisans ve doktora hedefleriniz için Türkiye'nin en iyi GRE kursu ile zaman kaybetmeden hazırlanın.",
+      "features": [
+        "1949'dan beri uygulanan dünya standartlarındaki GRE sınav yapısına özel stratejiler.",
+        "Sayısal, sözel ve yazma becerilerindeki eksiklikleri gideren kapsamlı yönlendirme çalışmaları.",
+        "Bilgisayar tabanlı sınava uygun, süre yönetimi ve odaklanma yeteneği odaklı pratikler.",
+        "Kampüslerimizde güncel olarak duyurulan hazırlık programı tarihleriyle esnek başlangıç imkanı."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International GRE Kursu?",
+      "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
+      "cardTitle": "Yüksek Başarı Oranlı Şubeler",
+      "cardDesc": "Kampüslerimizde uzman öğretmen kadrosu ve özgün eğitim müfredatıyla binlerce öğrenciyi hedeflediği GRE skoruna ulaştıran, Türkiye'nin en iyi kurs tecrübesi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "GRE sınavı hangi amaçlarla kullanılır ve kimler girebilir?",
+          "a": "Özellikle Amerika Birleşik Devletleri'ndeki üniversiteler başta olmak üzere, uluslararası alanda yüksek lisans ve doktora eğitimi almayı hedefleyen adayların girmesi gereken bir sınavdır."
+        },
+        {
+          "q": "GRE General Test ile Subject Test arasındaki farklar nelerdir?",
+          "a": "General Test; genel sözel, sayısal ve analitik becerileri test eden bilgisayar destekli temel bir sınavdır. Subject Test ise psikoloji, kimya, edebiyat ve biyoloji gibi sekiz spesifik alanda lisansüstü çalışma yapmak isteyenlerin alan bilgisini ölçmektedir."
+        },
+        {
+          "q": "Sınav bizden hangi yetkinlikleri bekliyor?",
+          "a": "Adayların kısıtlı zaman diliminde problem çözme, temel dil bilgisi kurallarını uygulama, mantıksal akıl yürütme ve yüksek odaklanma gibi nitelikleri sergilemesi beklenmektedir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uzman Öğretmen Kadrosu",
+          "desc": "Alanında uzman öğretmen kadrosuyla özgün eğitim müfredatı sunan Türkiye'nin en iyi GRE kursu.",
+          "icon": "Award"
+        },
+        {
+          "title": "Zaman Yönetimi ve Strateji",
+          "desc": "Belirli bir zaman diliminde etkin akıl yürütme ve problem çözme becerisini artırmaya yönelik stratejik çalışmalar.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Bilgisayar Tabanlı Deneyim",
+          "desc": "Türkiye'de genellikle bilgisayar ortamında uygulanan sınava uygun dijital deneme pratikleri.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kapsamlı Yayın Desteği",
+          "desc": "Matematik, mantık, sözel kavrama ve kompozisyon becerilerindeki eksiklikleri gideren materyaller.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "GRE İçin Kullandığımız Kaynaklar",
+      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "features": [
+        "Güncel Sınav Stratejileri",
+        "Sayısal, Sözel ve Analitik Beceri Odaklı İçerik",
+        "Kuruma Özgü Materyaller"
+      ],
+      "books": [
+        {
+          "name": "GRE Quantitative Reasoning",
+          "type": "Sayısal ve Problem Çözme Pratiği"
+        },
+        {
+          "name": "GRE Verbal Reasoning",
+          "type": "Sözel Analiz ve Okuma"
+        },
+        {
+          "name": "GRE Analytical Writing",
+          "type": "Kompozisyon & Makale"
+        },
+        {
+          "name": "GRE Denemeleri ve Strateji Seti",
+          "type": "Deneme ve Zaman Yönetimi"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde uzman öğretmen kadrosuyla, özgün müfredat eşliğinde yüz yüze GRE hazırlığı ve bilgisayar tabanlı deneme destekleri.",
+        "features": [
+          "Alanında Uzman Öğretmen Kadrosu",
+          "Sayısal ve Sözel Odaklı Aktiviteler",
+          "Çıkmış Sorularla Strateji Çalışmaları",
+          "Kapsamlı Yayın Desteği",
+          "Güncel Duyurulan Program Tarihleri"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu İngilizce UZEM ile dilediğiniz yerden GRE eğitimi alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "İngilizce UZEM Altyapısı",
+          "Canlı ve Etkileşimli Dersler",
+          "Online Deneme Sınavları",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "GRE Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "GRE nedir?",
+          "a": "Yurt dışında yüksek lisans ve doktora programlarına katılmayı amaçlayan adayların girdiği, özellikle Amerika Birleşik Devletleri'ndeki üniversiteler tarafından sıkça talep edilen küresel çapta tanınmış bir değerlendirmedir."
+        },
+        {
+          "q": "GRE Sınavı ne kadar sürer ve nerede yapılır?",
+          "a": "General Test ETS'nin yetkilendirdiği merkezlerde organize edilmekte olup yaklaşık 3 saat sürer ve Türkiye'de çoğunlukla bilgisayar üzerinden gerçekleştirilir."
+        },
+        {
+          "q": "Sınavda hangi soru tipleri bulunmaktadır?",
+          "a": "Bilgisayar destekli General Test aşamasında sayısal, sözel ve analitik alanları kapsayan çoktan seçmeli bölümler yer almakta; bunların ardındansa adaylardan makale ve kompozisyon yazmaları istenmektedir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "GRE Sınavında Değerlendirilen Temel Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Quantitative",
+          "title": "Sayısal Bölüm (Quantitative)",
+          "desc": "Matematik, mantık yürütme ve problem çözme becerilerinizi geliştirecek çalışmalarla analitik altyapınızı güçlendiriyoruz.",
+          "bullets": [
+            "Matematiksel problem çözme teknikleri",
+            "Veri analizi ve mantıksal kavrama",
+            "Soru tiplerine göre kısa yollar",
+            "Zaman baskısı altında doğru kararlar alma"
+          ],
+          "summary": "Mantık ve matematiksel kavrama becerilerinizle sayısal skorunuzu maksimize edin."
+        },
+        {
+          "tabTitle": "Verbal",
+          "title": "Sözel Bölüm (Verbal)",
+          "desc": "Temel dil bilgisine hakimiyeti artırıp ileri düzey metinleri hızlı ve doğru bir biçimde çözümlemenizi sağlıyoruz.",
+          "bullets": [
+            "Gelişmiş akademik kelime dağarcığı oluşturma",
+            "Metindeki karmaşık fikirleri hızla çıkarma",
+            "Cümle tamamlama ve okuduğunu anlama pratikleri",
+            "Doğru cevaba eleme yöntemiyle ulaşma taktikleri"
+          ],
+          "summary": "Metinleri mantıksal çerçevede yorumlayabilme becerisi kazanın."
+        },
+        {
+          "tabTitle": "Analytical Writing",
+          "title": "Analitik Yazma (Analytical Writing)",
+          "desc": "Çoktan seçmeli soruları takiben istenen kompozisyon ve makale bölümleri için fikirlerinizi etkili bir bütünlükle organize etmeyi öğretiyoruz.",
+          "bullets": [
+            "Argüman oluşturma ve eleştirel analiz",
+            "Fikirleri mantıklı bir bütünlükle kurgulama",
+            "Sınav formatına uygun makale ve kompozisyon pratikleri",
+            "Kelime çeşitliliği ve akıcılık artırma"
+          ],
+          "summary": "Akademik seviyede tartışmalar sunarak yazma becerinizi kanıtlayın."
+        },
+        {
+          "tabTitle": "Subject Test",
+          "title": "Alan Sınavı (Subject Test)",
+          "desc": "Lisansüstü hedefinize yönelik biyoloji, fizik, kimya, psikoloji veya bilgisayar bilimleri gibi özel disiplinlerdeki alan bilginizi test etmeye hazırlıyoruz.",
+          "bullets": [
+            "8 farklı bilim dalına özgü konu çalışmaları",
+            "Alan terimlerine ve literatürüne hakimiyet",
+            "Hedef üniversitenin taleplerine uygun uzmanlık pratiği",
+            "Spesifik soru tiplerine uygun stratejiler"
+          ],
+          "summary": "Uzmanlaşmak istediğiniz alandaki akademik derinliğinizi kanıtlayın."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "En İyi GRE Hazırlık Kursu ile Zaman Kaybetmeyin",
+        "desc": "Yurt dışında yüksek lisans ve doktora programlarına katılmayı amaçlayan adayların girdiği Graduate Record Examination (GRE), bilhassa ABD üniversiteleri tarafından talep edilen dünya çapında bir sınavdır. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Akademik International Yabancı Dil Kursu, nitelikli sınav eğitimi için burada.",
+        "bullets": [
+          "Adayların sayısal, sözel, analitik düşünme ve yazılı ifade yeteneklerini değerlendiren test yapısına uygun içerikler",
+          "Sınavda istenen matematik, mantık, problem çözme ve kavrama yetkinliklerini zaman baskısı altında geliştirme çalışmaları",
+          "Makale ve kompozisyon kısımlarına yönelik analitik yazma becerilerinde kapsamlı destek",
+          "Türkiye'de sıklıkla uygulanan bilgisayar destekli General Test sistemine uygun dijital deneme imkanları"
+        ],
+        "summary": "Başarıyı şansa bırakmadan, uzman bir kurum ve eğitmenler eşliğinde GRE'de net ve kesin başarı elde edebilirsiniz."
+      },
+      {
+        "title": "Hedefinize Uygun GRE Sınav Türleri ve Programları",
+        "desc": "ETS kurumu tarafından yürütülen GRE; yapısal olarak General Test ve sekiz temel disiplinde lisansüstü eğitim yeterliliğini değerlendiren Subject Test isimli iki ana kategoriden meydana gelmektedir.",
+        "bullets": [
+          "Sözel, sayısal ve analitik alanlardan oluşan bilgisayar destekli 3 saatlik General Test formatına özel eğitimler",
+          "Fizik, psikoloji, biyokimya ve İngiliz edebiyatı gibi spesifik bilim alanlarındaki adaylara yönelik alan bilgisi (Subject Test) destek çalışmaları",
+          "Zaman kısıtlamasına karşı odaklanma yeteneğini maksimize eden taktikler",
+          "Kampüslerimizde güncel olarak duyurulan hazırlık programı tarihleriyle esnek başlangıç"
+        ],
+        "summary": "Uluslararası akademik kariyerinizde rakiplerinizden ayrışmak ve yurt dışındaki seçkin üniversitelere kabul almak için GRE Hazırlık Kursu'muzla tanışın."
+      }
+    ]
+  },
+  "testdafLandingPage": {
+    "hero": {
+      "tag": "TESTDAF ALMANCA KURSU",
+      "title": "TestDaF Sınavında Hedeflediğiniz Skora Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ALMANYA HAYALİNİZ İÇİN!",
+      "formSubtitle": "TestDaF Kursumuz İçin Hemen Fiyat ve Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut Almanca Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
+      "description": "Almanya Cumhuriyeti'nde yüksek öğrenim görmek isteyen adayların dil düzeyini belgelediği TestDaF sınavına tecrübeli eğitim kadromuzla hazırlanın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Size Özel Sınav Programı ve Soru Çözüm Teknikleri!"
+    },
+    "about": {
+      "badge": "ALMANYA'DA EĞİTİM",
+      "title": "TestDaF Sınavı Nedir?",
+      "desc": "TestDaF, Almanya Cumhuriyeti'nde yüksek öğrenim görmek isteyen adayların resmi olarak dil düzeyini belgeleyeceği sınavdır. Hagen'deki TestDaF-Enstitüsü tarafından merkezi şekilde geliştirilip 80 ülkede lisanslı test merkezleri tarafından uygulanmaktadır.<br/><br/><b>Sınavın Değerlendirilmesi:</b> Sınavlar eğitilmiş sınav kontrol uzmanları tarafından değerlendirilmektedir. Sınav sonucu 3 seviyeden birine tasnif edilir: <b>TestDaF Seviye 5 (TDN 5)</b>, <b>TestDaF Seviye 4 (TDN 4)</b> ve <b>TestDaF Seviye 3 (TDN 3)</b>.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Okuduğunu Anlama",
+          "desc": "Akademik ve günlük metinleri analiz ederek doğru çıkarımlar yapma becerisi."
+        },
+        {
+          "id": "writing",
+          "title": "Yazılı İfade",
+          "desc": "Belirli bir konuda fikir beyan etme ve argüman üreterek yazılı ifade yeteneği."
+        },
+        {
+          "id": "listening",
+          "title": "Dinlediğini Anlama",
+          "desc": "Farklı konuşma ve sunumları dinleyerek ana fikri ve detayları kavrama becerisi."
+        },
+        {
+          "id": "speaking",
+          "title": "Sözlü İfade",
+          "desc": "Verilen senaryolara uygun olarak akıcı ve anlaşılır bir şekilde sözlü ifade yeteneği."
+        }
+      ],
+      "description": "Akademik Yabancı Dil Kursu, tecrübeli eğitim kadrosu, size özel sınav programı ve soru çözüm teknikleri ile Almanca dil yeterlilik başarınızı belgelemenizi sağlar.",
+      "features": [
+        "Hagen TestDaF-Enstitüsü standartlarına uygun çalışma prensibi.",
+        "Dört temel beceri (Okuma, Yazma, Dinleme, Konuşma) üzerinden eğitim.",
+        "TDN 3, TDN 4 ve TDN 5 seviyelerine yönelik hedefe odaklı pratikler.",
+        "Eğitilmiş sınav kontrol uzmanlarının kriterlerine uygun hazırlık."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International TestDaF Kursu?",
+      "subtitle": "Almanya Hayalinizi Tecrübeye Emanet Edin",
+      "cardTitle": "Tecrübeli Eğitim Kadrosu",
+      "cardDesc": "Sınav formatına tam hakim ve soru çözüm tekniklerinde uzman eğitmenlerle hedefinize doğrudan ulaşın.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "TestDaF nerede geçerlidir?",
+          "a": "Almanya Cumhuriyeti'nde yüksek öğrenim görmek isteyen adaylar için üniversiteler tarafından kabul edilen resmi bir dil yeterlilik belgesidir."
+        },
+        {
+          "q": "Sınav hangi bölümlerden oluşur?",
+          "a": "Sınav; okuduğunu anlama, yazılı ifade, dinlediğini anlama ve sözlü ifade olmak üzere 4 temel bölümden oluşmaktadır."
+        },
+        {
+          "q": "Sınav değerlendirmesi nasıl yapılır?",
+          "a": "Sınavlar eğitilmiş sınav kontrol uzmanları tarafından değerlendirilir ve sonuçlar TestDaF Seviye 5 (TDN 5), TestDaF Seviye 4 (TDN 4) veya TestDaF Seviye 3 (TDN 3) olarak tasnif edilir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Size Özel Program",
+          "desc": "Bireysel dil seviyenize ve eksiklerinize yönelik hazırlanan çalışma planları.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Soru Çözüm Teknikleri",
+          "desc": "Sınavın dört temel becerisine özgü, zaman kazandıran analitik taktikler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Global Standart",
+          "desc": "80 ülkede uygulanan sınavın resmi kriterlerine %100 uygun hazırlık süreci.",
+          "icon": "Award"
+        },
+        {
+          "title": "Kapsamlı Pratik",
+          "desc": "Konuşma ve yazma becerilerinizi geliştirecek interaktif etüt ve aktiviteler.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "TestDaF İçin Kullandığımız Kaynaklar",
+      "subtitle": "Hedefe Yönelik Sınav Materyalleri",
+      "features": [
+        "TDN Seviyelerine Uygun İçerik",
+        "Dört Beceri Odaklı Pratikler",
+        "TestDaF Deneme Sınavları"
+      ],
+      "books": [
+        {
+          "name": "TestDaF Leseverstehen & Hörverstehen",
+          "type": "Okuma ve Dinleme Pratiği"
+        },
+        {
+          "name": "TestDaF Schriftlicher Ausdruck",
+          "type": "Yazılı İfade ve Kompozisyon"
+        },
+        {
+          "name": "TestDaF Mündlicher Ausdruck",
+          "type": "Sözlü İfade Çalışmaları"
+        },
+        {
+          "name": "TestDaF Musterprüfungen",
+          "type": "Deneme Sınavları Seti"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Şubelerimizde tecrübeli eğitmenlerimizle yüz yüze, motivasyonu yüksek ve disiplinli TestDaF hazırlığı.",
+        "features": [
+          "Uzman Kadro ile Yüz Yüze Eğitim",
+          "Anında Geri Bildirim ve Hata Analizi",
+          "Sınıf İçi Konuşma (Sözlü İfade) Pratikleri",
+          "Sınav Kaygısı ve Zaman Yönetimi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "İnteraktif canlı derslerimizle TestDaF'a evinizin konforundan, zaman kaybetmeden hazırlanın.",
+        "features": [
+          "Canlı ve Etkileşimli Dersler",
+          "Online Deneme ve Soru Çözümleri",
+          "Sınırsız Kaynak ve Video Tekrarı",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "TestDaF Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "TestDaF sınavına kimler girmelidir?",
+          "a": "Almanya Cumhuriyeti'nde yüksek öğrenim (lisans, yüksek lisans) görmek isteyen ve dil düzeyini resmi olarak belgelemek zorunda olan adaylar girmelidir."
+        },
+        {
+          "q": "TestDaF sonuçları ne kadar süre geçerlidir?",
+          "a": "TestDaF sertifikasının geçerlilik süresi sınırsızdır. Bir kez aldığınız puan ömür boyu geçerli kabul edilir."
+        },
+        {
+          "q": "Üniversitelere kabul için hangi seviyede puan almalıyım?",
+          "a": "Almanya'daki çoğu üniversite kabul için tüm bölümlerden (Okuma, Yazma, Dinleme, Konuşma) en az TDN 4 seviyesini talep etmektedir. Bazı bölümler için TDN 3 yeterli olabilirken, dil ağırlıklı bölümler TDN 5 isteyebilir."
+        }
+      ]
+    }
+  },
+  "proficiencyLandingPage": {
+    "hero": {
+      "tag": "PROFICIENCY KURSU",
+      "title": "Hazırlık Sınıfını Atlayın, Kariyerinize +1 Yıl Kazandırın!",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "KARİYERİNE HIZLI BAŞLA!",
+      "formSubtitle": "Hazırlık Atlama Kursumuz İçin Hemen Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Kazandığınız Üniversiteyi Yazınız.",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: ÜNİVERSİTE HAZIRLIK",
+      "description": "78 Üniversitenin hazırlık programını takip eden uzman eğitmenlerimiz tarafından hazırlanan yoğunlaştırılmış ders müfredatımız ile lisans eğitiminize doğrudan başlayın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kişiye ve Üniversiteye Özel Sınav Stratejileri!"
+    },
+    "about": {
+      "badge": "HIZLANDIRILMIŞ EĞİTİM",
+      "title": "Proficiency (Hazırlık Atlama) Sınavı Nedir?",
+      "desc": "Hazırlık atlama sınavı, öğrencilerin İngilizce yeterliliklerini ölçerek, geçer puan alan öğrencilerin hazırlık sınıfı okumadan doğrudan üniversite lisans eğitimlerine başlamalarını sağlayan sınavların tümüdür.<br/><br/><b>Sınav İçeriği:</b> Her üniversite için farklı sınav stratejilerinden oluşmaktadır. Temelde yazma (essay), kelime (vocabulary), okuma (reading), dil bilgisi (grammar) ve dinleme (listening) bölümlerinden oluşur. Bazı üniversiteler bu bölümlerin arasına konuşma (speaking) içeriğini de eklemektedir.<br/><br/><b>Kariyerinize Etkisi:</b> Bu sınavda başarı elde eden öğrenciler lisans eğitimlerine doğrudan başlayarak kariyerlerine +1 yıl erken adım atarlar. Başarılı olamayan öğrenciler ise hazırlık okuyarak hem lisans eğitimlerine hem de iş hayatına 1 yıl geç başlarlar.",
+      "skills": [
+        {
+          "id": "writing",
+          "title": "Yazma (Essay)",
+          "desc": "Akademik formatta, mantıksal bütünlüğü olan etkili kompozisyonlar yazma pratikleri."
+        },
+        {
+          "id": "reading_vocab",
+          "title": "Okuma & Kelime",
+          "desc": "Zengin akademik kelime dağarcığı ile karmaşık metinleri hızlı okuma ve analiz etme."
+        },
+        {
+          "id": "grammar",
+          "title": "Dil Bilgisi (Grammar)",
+          "desc": "Üniversitelerin zorlu soru tiplerine uygun, detaylı ve sınav odaklı gramer eğitimi."
+        },
+        {
+          "id": "listening",
+          "title": "Dinleme (Listening)",
+          "desc": "Akademik sunumları ve diyalogları dinlerken not alma ve doğru çıkarım yapma becerisi."
+        }
+      ],
+      "description": "Üniversite hazırlık atlama ve destek kursları üzerine uzmanlaşmış öğretmenlerimiz ve çıkmış sınav sorularından oluşan dev arşivimizle hedefinize ulaşın.",
+      "features": [
+        "78 Üniversitenin hazırlık müfredatını yakından takip eden uzman eğitmen kadrosu.",
+        "Sınavı yapan üniversitelerin kendi belirlediği formatlara (soru sayısı, süre) özel hazırlık.",
+        "Zaman kaybetmeden, lisans eğitime doğrudan başlama imkanı.",
+        "Bursa, İstanbul, İzmir, Ankara ve Eskişehir kampüslerinde yüz yüze eğitim fırsatı."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International Proficiency Kursu?",
+      "subtitle": "Üniversitenize Özel Hazırlık Deneyimi",
+      "cardTitle": "Geniş Sınav Arşivi",
+      "cardDesc": "Farklı üniversitelerin geçmiş yıllarda sorduğu Proficiency sorularından oluşan eşsiz bir arşive ve çalışma sistemine sahibiz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Proficiency sınav içeriği her üniversitede aynı mıdır?",
+          "a": "Hayır. Sınavın içeriği, soru sayısı ve sınav süresi her üniversite tarafından kendi içinde belirlenmektedir. Bu yüzden eğitim programlarımızı öğrencinin üniversitesine özel olarak planlıyoruz."
+        },
+        {
+          "q": "Eğitimleri ne zaman almalıyım?",
+          "a": "Bu sınav, yapıldığı eğitim-öğretim yılı için geçerli olan bir sınavdır. Üniversiteyi kazandıktan sonra, akademik takvim başlamadan hemen önce yoğunlaştırılmış programlarımıza katılmalısınız."
+        },
+        {
+          "q": "Hangi şehirlerde şubeleriniz bulunuyor?",
+          "a": "Bursa, İstanbul (Kadıköy, Beşiktaş), İzmir, Ankara ve Eskişehir kampüslerimizde eğitim vermekteyiz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Hedefe Özel Müfredat",
+          "desc": "78 farklı üniversitenin kendi sınav formatına uygun, nokta atışı çalışma programları.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Zaman Tasarrufu",
+          "desc": "Hedeflenen puanı almanıza yardımcı olarak hayatınıza ve kariyerinize 1 yıl kazandırırız.",
+          "icon": "Award"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Sadece üniversite hazırlık atlama (Proficiency) alanında uzmanlaşmış öğretmenler.",
+          "icon": "Users"
+        },
+        {
+          "title": "Esnek Eğitim",
+          "desc": "Uygun gün ve saat aralığında size özel uygulanacak yüz yüze veya online eğitim programı.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Hazırlık Atlama İçin Kullandığımız Kaynaklar",
+      "subtitle": "Kapsamlı ve Üniversite Formatına Uygun Materyaller",
+      "features": [
+        "Geçmiş Yıl Sınav Arşivi",
+        "Akademik Kelime Çalışmaları",
+        "Yoğunlaştırılmış Gramer Setleri"
+      ],
+      "books": [
+        {
+          "name": "Proficiency Essay Writing",
+          "type": "Yazma ve Kompozisyon Pratiği"
+        },
+        {
+          "name": "Academic Vocabulary Builder",
+          "type": "Kelime Dağarcığı"
+        },
+        {
+          "name": "Advanced Grammar Focus",
+          "type": "Dil Bilgisi Çalışmaları"
+        },
+        {
+          "name": "University Mock Exams",
+          "type": "Kuruma Özel Denemeler"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Bursa, İstanbul, İzmir, Ankara ve Eskişehir'de bulunan kampüslerimizde uzman eğitmenlerle yüz yüze yoğunlaştırılmış hazırlık.",
+        "features": [
+          "Uzman Kadro ile Yüz Yüze Etkileşim",
+          "Çıkmış Sorularla Sınıf Pratikleri",
+          "Anında Hata Düzeltme ve Geri Bildirim",
+          "Odaklanmayı Artıran Sınıf Ortamı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Zaman kaybetmeden, nerede olursanız olun uygun gün ve saat aralığında size özel uygulanacak online Proficiency eğitimi.",
+        "features": [
+          "Evden Çıkmadan Eğitim Konforu",
+          "Canlı ve Etkileşimli Dersler",
+          "Dijital Sınav ve Deneme Çözümleri",
+          "Esnek Saat Planlaması"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    }
+  },
+  "yokdilLandingPage": {
+    "hero": {
+      "tag": "YÖKDİL HAZIRLIK KURSU",
+      "title": "YÖKDİL'de Alanınıza Özel Hazırlık, Kesin Başarı",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "AKADEMİK KARİYERİNİZE İLK ADIM!",
+      "formSubtitle": "YÖKDİL Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Alanınızı Seçiniz (Fen, Sosyal, Sağlık Bilimleri)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: AKADEMİK SINAV KURSLARI",
+      "description": "Alanında profesyonel, YÖKDİL sınavından tam skor almış öğretmenlerimizle Sosyal, Fen ve Sağlık Bilimleri alanlarına özel makro düzeyde hazırlanın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "37 Yılı Aşkın Tecrübe ile Hedefinize Ulaşın!"
+    },
+    "about": {
+      "badge": "AKADEMİK UZMANLIK",
+      "title": "YÖKDİL Sınavı Nedir ve Kimler Girmelidir?",
+      "desc": "YÖKDİL sınavına katılacak adayların Sosyal Bilimler, Fen Bilimleri ve Sağlık Bilimleri gibi kendi uzmanlık alanlarında sorular sorulur. YÖKDİL üç farklı alana yönelik soru tiplerinin, farklı soru içeriklerinin yer aldığı sınavdır.<br/><br/><b>Sınava Kimler Katılır?</b> Çoğunlukla araştırma görevlisi seçme ve atama işlemleri, doçent, doktora ve sanatta yeterlilik adayları, yüksek lisans programlarına girecek lisans mezunları ile dil tazminatı veya yurt dışı görevi nedeniyle yabancı dil düzeyini belgelemek isteyen adaylar girmektedir.<br/><br/><b>Eğitim Yaklaşımımız:</b> Kurumumuzda YÖKDİL kursu eğitimi; güncel sınav sistemini yakından takip eden, her sınav sürecinde YÖKDİL sınavına bizzat giren ve tam skor elde eden uzman eğitmenler tarafından verilmektedir.",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Dil Bilgisi (Grammar)",
+          "desc": "Sınavın temelini oluşturan gramer kurallarının gereksiz detaylardan arındırılarak hedef odaklı ve stratejik olarak sunulması."
+        },
+        {
+          "id": "vocabulary",
+          "title": "Kelime Bilgisi (Vocabulary)",
+          "desc": "Sağlık, Sosyal veya Fen bilimleri uzmanlık alanınıza özgü akademik terminoloji ve isabetli kelime ezber çalışmaları."
+        },
+        {
+          "id": "reading",
+          "title": "Okuma (Reading)",
+          "desc": "Okuma parçalarındaki ana konuyu hızla yakalama ve metin içerisindeki kritik detayları filtreleme taktikleri."
+        },
+        {
+          "id": "strategy",
+          "title": "Soru Çözüm Teknikleri",
+          "desc": "Uzman eğitmenlerimiz eşliğinde, zaman yönetimi ve pratik soru çözüm stratejileriyle netlerinizi hızla artırma."
+        }
+      ],
+      "description": "Akademik Yabancı Dil Kursu olarak 37 yılı aşkın eğitim tecrübemizle YÖKDİL maratonunda sizleri en donanımlı şekilde hazır hale getiriyoruz.",
+      "features": [
+        "Adayın uzmanlık alanına (Fen, Sosyal, Sağlık) özel olarak ayrılmış sınıflar.",
+        "YÖKDİL sınavından tam skor almış uzman ve deneyimli eğitmen kadrosu.",
+        "Konu anlatımı, soru bankası ve Türkiye geneli deneme sınavlarını kapsayan güncel setler.",
+        "Pratik soru çözüm teknikleri ve isabetli okuma parçası sunumları."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International YÖKDİL Kursu?",
+      "subtitle": "37 Yıllık Tecrübe ve Yüksek Başarı Oranı",
+      "cardTitle": "Tam Skor Almış Eğitmenler",
+      "cardDesc": "Her sınav döneminde YÖKDİL'e giren, güncel soru tiplerini analiz eden ve tam skor elde eden profesyonel bir kadro ile çalışıyoruz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "YÖKDİL eğitimleri alanlara göre ayrılıyor mu?",
+          "a": "Evet, YÖKDİL sınavı Fen Bilimleri, Sağlık Bilimleri ve Sosyal Bilimler olarak 3 ayrı alanda yapıldığı için eğitimlerimiz, denemelerimiz ve kelime çalışmalarımız da bu alanlara özel olarak planlanmaktadır."
+        },
+        {
+          "q": "Ders materyallerini siz mi temin ediyorsunuz?",
+          "a": "Kesinlikle. Konu anlatımlı güncel içeriğe sahip setlerimiz, alana özgü soru bankalarımız ve Türkiye geneli deneme sınavlarımız kurumumuz tarafından kursiyerlerimize sağlanmaktadır."
+        },
+        {
+          "q": "Sadece gramer mi anlatılıyor?",
+          "a": "Hayır, dil bilgisi eğitiminin yanı sıra; alana özgü kelime bilgisi, okuma parçalarındaki ana konu analizi ve size zaman kazandıran, netleri doğrudan artıran pratik soru çözüm teknikleri üzerinde yoğun olarak durulur."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Köklü Tecrübe",
+          "desc": "37 yılı aşkın eğitim tecrübesiyle değişen sınav sistemlerine anında adaptasyon sağlayan eğitim vizyonu.",
+          "icon": "Award"
+        },
+        {
+          "title": "Geniş Şube Ağı",
+          "desc": "Bursa, İzmir, İstanbul, Eskişehir ve Ankara merkezlerimizde Türkiye'nin önde gelen uzmanlarıyla yüz yüze eğitim.",
+          "icon": "Users"
+        },
+        {
+          "title": "İngilizce UZEM",
+          "desc": "Kontrolün sizde olduğu video modülleri ile Türkiye'nin en kapsamlı online dil platformu desteği.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "İsabetli Sunumlar",
+          "desc": "Okuma parçalarındaki soruları hızla çözmenizi sağlayan spesifik taktikler ve ayrıcalıklı yönlendirmeler.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "YÖKDİL İçin Kullandığımız Kaynaklar",
+      "subtitle": "Alanınıza Özel Güncel Yayın Setleri",
+      "features": [
+        "Konu Anlatımlı Kitaplar",
+        "Alana Özgü Soru Bankaları",
+        "Türkiye Geneli Denemeler"
+      ],
+      "books": [
+        {
+          "name": "YÖKDİL Grammar & Structure",
+          "type": "Hedef Odaklı Dil Bilgisi"
+        },
+        {
+          "name": "YÖKDİL Health / Science / Social",
+          "type": "Alana Özgü Kelime (Vocabulary)"
+        },
+        {
+          "name": "YÖKDİL Reading Analysis",
+          "type": "Okuma Parçası Analizi"
+        },
+        {
+          "name": "YÖKDİL Özgün Deneme Seti",
+          "type": "Pratik ve Sınav Simülasyonu"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Sınıf Eğitimi",
+        "badge": "POPÜLER",
+        "desc": "Bursa, İzmir, İstanbul, Eskişehir ve Ankara şubelerimizde alanında uzman öğretmenlerle sınıf içi yüz yüze eğitim.",
+        "features": [
+          "Dinamik Sınıf Ortamı",
+          "Alana Özgü Sınıflar (Fen, Sosyal, Sağlık)",
+          "Birebir Soru Sorma ve Etüt İmkanı",
+          "Fiziksel Deneme Sınavları Uygulaması",
+          "Yüksek Disiplin ve Motivasyon"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'nin en kapsamlı online dil platformu İngilizce UZEM ile kontrolün sizde olduğu, video modülleri içeren esnek program.",
+        "features": [
+          "İngilizce UZEM Altyapısı",
+          "Canlı ve Etkileşimli Ders Deneyimi",
+          "Video Modülleri ile Sınırsız Tekrar",
+          "Dijital Soru Çözümü ve Geri Bildirim",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "YÖKDİL Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "YÖKDİL puanı nerelerde geçerlidir?",
+          "a": "Araştırma görevlisi seçme ve atamaları, doçentlik, doktora, sanatta yeterlilik başvuruları ile yüksek lisans kabullerinde geçerlidir. Ayrıca dil tazminatı almak isteyen kurum çalışanları da bu sınava başvurmaktadır."
+        },
+        {
+          "q": "Sınav için kelime çalışmalarını nasıl yapıyorsunuz?",
+          "a": "Seçtiğiniz alana (Sağlık, Fen, Sosyal) göre en çok çıkan akademik kelimeleri filtreliyor, ezbere dayalı değil, bağlam kurarak ve pratik soru çözüm teknikleriyle pekiştirerek öğretiyoruz."
+        },
+        {
+          "q": "Uzaktan (Online) eğitim, yüz yüze kadar verimli mi?",
+          "a": "Kesinlikle. Türkiye'nin en kapsamlı platformu İngilizce UZEM üzerinden sunduğumuz canlı yayınlar, video modülleri ve PDF dokümanlar sayesinde mekandan bağımsız, odaklanmış bir eğitim alırsınız."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "YÖKDİL Sınavında Geliştireceğimiz Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Grammar (Dil Bilgisi)",
+          "title": "Temel ve İleri Düzey Dil Bilgisi",
+          "desc": "YÖKDİL soru tiplerinin temelini oluşturan gramer yapılarında sıfır hata prensibiyle ilerliyoruz.",
+          "bullets": [
+            "Tense, Preposition ve Conjunction taktikleri",
+            "Cümle analiz ederek doğru şıkkı saniyeler içinde bulma",
+            "Gereksiz gramer kurallarından arındırılmış pratik bilgiler",
+            "Cloze test sorularında bağlamsal gramer uyumu"
+          ],
+          "summary": "Dil bilgisini kurallara boğularak değil, test teknikleri üzerinden öğrenin."
+        },
+        {
+          "tabTitle": "Vocabulary (Kelime)",
+          "title": "Alana Özgü Kelime Dağarcığı",
+          "desc": "Sosyal Bilimler, Fen Bilimleri veya Sağlık Bilimleri alanınızın vazgeçilmez kelimelerini ezberliyoruz.",
+          "bullets": [
+            "Eş anlamlı ve zıt anlamlı (Synonyms/Antonyms) kelime taktikleri",
+            "Phrasal verb ezberleme ve cümlede tanıma teknikleri",
+            "Alan makalelerinde en sık tekrar eden kelimelerin filtreli listesi",
+            "Kelime sorularında çeldiricileri kolayca eleme"
+          ],
+          "summary": "Zengin akademik kelime dağarcığı ile metinlerdeki boşlukları rahatça doldurun."
+        },
+        {
+          "tabTitle": "Reading (Okuma)",
+          "title": "Okuma Parçası Analizi (Reading Comprehension)",
+          "desc": "Uzun akademik makaleleri hızlıca tarayarak ana fikri bulma ve çeldiricileri eleme tekniklerinde ustalaşın.",
+          "bullets": [
+            "Skimming (göz atma) ve Scanning (tarama) taktikleri",
+            "Metin içerisinde yazarın tutumunu ve ana fikri anlama",
+            "Soru kökünde istenilen spesifik detayı metin içinde bulma",
+            "Referans (it, they, such vs.) kelimeleri doğru bağlama"
+          ],
+          "summary": "Okuma parçalarındaki ana konu tespitinde eğitmenlerimizin isabetli sunumlarıyla fark yaratın."
+        },
+        {
+          "tabTitle": "Test Strategies",
+          "title": "Soru Çözüm Taktikleri ve Test Stratejisi",
+          "desc": "Çeviri sorularından, paragraf tamamlamaya kadar her soru tipi için geliştirilmiş zaman kazandıran yöntemler.",
+          "bullets": [
+            "İngilizce-Türkçe, Türkçe-İngilizce çeviride özne/yüklem uyumu",
+            "Cümle tamamlama (Sentence Completion) ipuçları",
+            "Anlam bütünlüğünü bozan cümleyi (Irrelevant Sentence) saptama",
+            "Optik form işaretleme ve sınav süresi (zaman) yönetimi"
+          ],
+          "summary": "Tüm stratejilere makro düzeyde hazırlanıp YÖKDİL maratonunda rakiplerinizin önüne geçin."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "YÖKDİL Başarısı İçin 37 Yıllık Deneyim",
+        "desc": "Doçentlik, doktora, yüksek lisans programları ve araştırma görevlisi seçme işlemleri için büyük önem taşıyan YÖKDİL sınavında başarı, sadece genel İngilizce bilgisiyle değil; sınav matematiğine hakimiyetle gelir. 37 yılı aşkın eğitim tecrübemiz ve değişen sınav sistemlerini yakından takip eden uzman kadromuzla, sizi bu kritik maratona eksiksiz hazırlıyoruz.",
+        "bullets": [
+          "Bizzat sınava giren ve tam skor elde eden profesyonel eğitmenler",
+          "Sosyal, Fen ve Sağlık Bilimleri alanlarına özel ayrılmış konu anlatımları",
+          "Sınav zorluk derecesini birebir yansıtan Türkiye geneli deneme sınavları",
+          "Okuma parçalarında (Reading) zaman kazandıran isabetli çözüm sunumları"
+        ],
+        "summary": "Türkiye'nin önde gelen eğitmen kadrosuyla çalışarak akademik hedeflerinize zaman kaybetmeden ulaşın."
+      },
+      {
+        "title": "İngilizce UZEM veya Yüz Yüze Eğitim Seçenekleri",
+        "desc": "Türkiye'nin çeşitli illerinde (Bursa, İzmir, İstanbul, Eskişehir ve Ankara) bulunan kampüslerimizle yüz yüze eğitimin (sınıf içi eğitim) ayrıcalığını sunuyoruz. Zaman ve mekan engeli yaşayan adaylarımız için ise, Türkiye'nin en kapsamlı online dil platformu olan İngilizce UZEM üzerinden, kontrolün tamamen öğrencide olduğu video modülleri ve canlı destek seçenekleriyle kesintisiz eğitim sağlıyoruz.",
+        "bullets": [
+          "Sınıf içi eğitimde uzman eğitmenlerle anında yüz yüze etkileşim",
+          "İngilizce UZEM ile kaçırılan derslerin video modüllerinden tekrarı",
+          "Dil bilgisi, kelime ve soru çözüm uygulamalarının entegre işlendiği güncel setler",
+          "Hedefe (Yüksek Lisans, Doktora, Dil Tazminatı vb.) yönelik stratejik rehberlik"
+        ],
+        "summary": "Hangi eğitim modelini seçerseniz seçin, Akademik Yabancı Dil Kursu farkıyla ayrıcalıklı olduğunuzu hissedeceksiniz."
+      }
+    ]
+  },
+  "toeflLandingPage": {
+    "hero": {
+      "tag": "TOEFL HAZIRLIK KURSU",
+      "title": "TOEFL Sınavında Hedeflediğiniz Skora Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "TOEFL Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
+      "description": "TOEFL sınavını yıllardır deneyimlemiş, derece skora sahip eğitmenlerimiz eşliğinde elektronik ortamda 4 temel becerinizde ustalaşın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kapsamlı Yayın Desteği ve Stratejik Soru Çözümü!"
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "TOEFL Nedir ve Kimler Girmelidir?",
+      "desc": "TOEFL (Test of English as a Foreign Language), uluslararası geçerliliğe sahip; elektronik ortamda yapılan ve akademik seviyede İngilizce kullanımını ölçen bir sınavdır. Anadili İngilizce olmayan kişilerin İngilizce yetkinliğini ölçen ve 170 ülkedeki 4500 yetkili sınav merkezinde yapılan akademik bir testtir.<br/><br/><b>Sınava Kimler Katılır?</b> Bir yüksek öğrenim kurumunda eğitim almak isteyen öğrenciler, burs ve sertifika adayları, vize başvurusu yapan öğrenciler ve işçiler ile dil ilerlemelerini izlemek isteyenler katılmaktadır.<br/><br/><b>Eğitim Yaklaşımımız:</b> Öğrencilerimizin TOEFL sınavında test edilen dört becerisindeki eksikliklerini tespit ederek başlıyor; sınav formatı ve soru tipleriyle tanıştırarak süreci en doğru biçimde değerlendirmelerini sağlıyoruz.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Akademik okuma parçalarını analiz etme, ana fikri bulma ve çeldiricileri eleme teknikleri."
+        },
+        {
+          "id": "listening",
+          "title": "Listening (Dinleme)",
+          "desc": "Elektronik ortamda dinleme pratiği, not alma (note-taking) ve duyduğunu anlama becerisi."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Haftanın her günü gerçekleştirilen speaking aktiviteleriyle mikrofona akıcı konuşma pratiği."
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Zaman kısıtlaması altında akademik formatta, bütünlüğü olan makale (essay) yazma çalışmaları."
+        }
+      ],
+      "description": "Dünya çapında 35 milyondan fazla kişinin girdiği TOEFL sınavına, uzman eğitmen kadromuzla zaman kaybetmeden hazırlanın.",
+      "features": [
+        "Reading, Listening, Speaking ve Writing olmak üzere 4 temel beceri eğitimi.",
+        "TOEFL sınav formatı ve çıkmış sorular üzerinden sınav stratejileri teknikleri.",
+        "Haftanın her günü katılım sağlayabileceğiniz Speaking aktiviteleri.",
+        "Özel ders programlarıyla eğitim hızını %50 daha kısa sürede tamamlama imkanı."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International TOEFL Kursu?",
+      "subtitle": "Zamanınızı ve Skorunuzu Güvence Altına Alın",
+      "cardTitle": "Derece Skora Sahip Eğitmenler",
+      "cardDesc": "Sınavı bizzat deneyimlemiş, yüksek skor elde etmiş ve TOEFL algoritmasına tam hakim profesyonel bir kadroyla çalışıyoruz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "TOEFL sınavı ne kadar sürüyor ve yılda kaç kez yapılıyor?",
+          "a": "Sınav toplamda 4 buçuk saat sürmektedir. Önceden belirlenen takvim ile yılda yaklaşık 50 defa yapılmaktadır."
+        },
+        {
+          "q": "TOEFL kursunda nasıl bir yöntem izliyorsunuz?",
+          "a": "Öğrencilerimizin okuma, dinleme, konuşma ve yazma becerilerindeki eksikliklerini test ederek eğitime başlıyoruz. Çıkmış sorular üzerinden sınav stratejileri ve skor artırma tekniklerine odaklanıyoruz."
+        },
+        {
+          "q": "Speaking (Konuşma) pratiği için özel bir çalışmanız var mı?",
+          "a": "Evet, TOEFL programına kayıtlı olan öğrencilerimiz haftanın her günü düzenlenen speaking aktivitelerine katılım sağlayarak konuşma becerilerini ve akıcılıklarını geliştirebilirler."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Elektronik Sınav Pratiği",
+          "desc": "Gerçek sınav ortamını simüle eden bilgisayar tabanlı (CBT/iBT) TOEFL denemeleri.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Hızlı Gelişim",
+          "desc": "Özel ders çalışmaları ile kişinin sınıf bazında alabileceği eğitim hızını %50 oranında kısaltıyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Kapsamlı Yayın Desteği",
+          "desc": "Dört becerideki eksiklikleri gidermek için özel olarak hazırlanan yayın ve döküman desteği.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Stratejik Soru Çözümü",
+          "desc": "Soruları hızlı ve doğru çözebilmek için uygulanan sınav stratejileri tekniği.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "TOEFL İçin Kullandığımız Kaynaklar",
+      "subtitle": "Kapsamlı ve Güncel Sınav Materyalleri",
+      "features": [
+        "Çıkmış TOEFL Soruları",
+        "4 Beceri Odaklı Çalışma Kitapları",
+        "Elektronik Deneme (Mock Exam) Setleri"
+      ],
+      "books": [
+        {
+          "name": "TOEFL iBT Reading & Listening",
+          "type": "Okuma ve Dinleme Pratiği"
+        },
+        {
+          "name": "TOEFL iBT Speaking & Writing",
+          "type": "Üretken Beceriler ve Şablonlar"
+        },
+        {
+          "name": "Academic Vocabulary for TOEFL",
+          "type": "Sınav Kelimeleri"
+        },
+        {
+          "name": "TOEFL Strateji ve Deneme Seti",
+          "type": "Çıkmış Sorular ve Taktikler"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Sınıf Eğitimi",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde derece skora sahip uzman eğitmenlerle yüz yüze, dinamik ve disiplinli TOEFL hazırlığı.",
+        "features": [
+          "Uzman Kadro ile Yüz Yüze Etkileşim",
+          "Haftanın Her Günü Speaking Aktiviteleri",
+          "Kurum İçi Elektronik Deneme Sınavları",
+          "Anında Hata Analizi ve Geri Bildirim"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "TOEFL'ın dijital yapısına en uygun model! İnteraktif platformumuz üzerinden esnek saatlerle elektronik ortamda hazırlanın.",
+        "features": [
+          "Evden Çıkmadan Canlı Ders İmkanı",
+          "Online Sınav Simülasyonları",
+          "Dijital Yayın ve Döküman Desteği",
+          "Özel Ders ile %50 Daha Hızlı Eğitim"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "TOEFL Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "TOEFL sınavının geçerlilik süresi ne kadardır?",
+          "a": "Sınav sonucunuzun akademik veya kurumsal başvurularda kullanım süresi genellikle sınav tarihinden itibaren 2 yıldır."
+        },
+        {
+          "q": "TOEFL kursuna başlamak için İngilizce seviyem ne olmalı?",
+          "a": "TOEFL, orta ile ileri seviye (Intermediate - Advanced) arası dil becerisini ölçen ağır bir akademik sınavdır. Eğitime başlamadan önce temel ve orta düzey İngilizce eksiklerinizi tamamlamış olmanız tavsiye edilir."
+        },
+        {
+          "q": "Sınav hazırlık programları ne zaman başlıyor?",
+          "a": "Akademik Yabancı Dil Kurslarında sınav hazırlık programlarımızın hangi kampüsümüzde, hangi tarihlerde başlayacağı güncel olarak duyurulmaktadır. İhtiyacınıza göre özel ders formatında hemen de başlayabilirsiniz."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "TOEFL Sınavında Ustalaşacağınız Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Reading",
+          "title": "Okuma (Reading) Stratejileri",
+          "desc": "Akademik metinleri okurken zaman yönetimi yapmak ve doğru bilgiye hızla ulaşmak için uyguladığımız yöntemler.",
+          "bullets": [
+            "Paragraftan anlam çıkarma ve yazarın niyetini bulma",
+            "Referans kelimelerin metindeki karşılığını tespit etme",
+            "Cümle ekleme (Insert a Sentence) sorularında mantık akışı",
+            "Kelime (Vocabulary) sorularını bağlamdan çıkarma"
+          ],
+          "summary": "Uzun ve karmaşık metinlerde kaybolmadan, doğrudan soruya ve cevaba odaklanın."
+        },
+        {
+          "tabTitle": "Listening",
+          "title": "Dinleme (Listening) Taktikleri",
+          "desc": "Üniversite ortamındaki sohbetleri (conversation) ve uzun akademik dersleri (lecture) dinlerken dikkat edilmesi gerekenler.",
+          "bullets": [
+            "Etkili not alma (note-taking) sembolleri ve kısaltmaları",
+            "Konuşmacının ses tonu ve vurgusundan (attitude) çıkarım yapma",
+            "Ana fikri ve destekleyici detayları (details) birbirinden ayırma",
+            "Sorular ekrana geldiğinde doğru notlara odaklanma"
+          ],
+          "summary": "İşitsel verileri hafızada tutmak yerine doğru stratejiyle not alarak dinleme skorunuzu artırın."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Konuşma (Speaking) Becerisi",
+          "desc": "Bilgisayar başında mikrofona konuşurken stresi yönetme ve akıcılığı koruma çalışmaları.",
+          "bullets": [
+            "Bağımsız sorularda 15 saniyede fikir üretme ve 45 saniye konuşma",
+            "Okuma-Dinleme-Konuşma entegre görevlerinde bilgiyi sentezleme",
+            "Doğru telaffuz, tonlama ve duraksamaları (pauses) azaltma",
+            "Zaman sayacını (timer) kontrol ederek cümleleri toparlama"
+          ],
+          "summary": "Haftanın her günü düzenlenen speaking aktivitelerimizle konuşma özgüveninizi en üst düzeye çıkarın."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Yazma (Writing) Formatı",
+          "desc": "Klavyede hızlı yazma pratiği ve değerlendiricilerin (rater) beklediği akademik kompozisyon yapıları.",
+          "bullets": [
+            "Entegre görevde (Integrated) okuma ve dinleme metnini özetleme",
+            "Bağımsız görevde (Independent) fikir savunma ve örnekleme",
+            "Geçiş kelimeleri (transitions) ile paragrafları bağlama",
+            "Gramer hatalarını kontrol etmek için zaman (proofreading) ayırma"
+          ],
+          "summary": "Çıkmış sorular üzerinden uyguladığımız şablonlarla yazılarınızı akademik standartlara taşıyın."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "TOEFL Sınavına Derece Skora Sahip Uzmanlarla Hazırlanın",
+        "desc": "Uluslararası geçerliliği olan, 170 ülkede 4500 sınav merkezinde uygulanan TOEFL sınavı; yurt dışında eğitim, burs başvuruları ve akademik kariyer için en önemli adımlardan biridir. Akademik Yabancı Dil Kursu olarak, bu zorlu elektronik sınava, bizzat yüksek skor elde etmiş, sınavın algoritmasını ve hilelerini bilen eğitmen kadromuzla hazırlık imkanı sunuyoruz.",
+        "bullets": [
+          "Okuma, dinleme, konuşma ve yazma becerilerini eşit oranda geliştiren müfredat",
+          "Sınav kaygısını düşüren ve net artıran stratejik taktikler",
+          "Çıkmış sorular üzerinden sınav simülasyonları",
+          "Haftalık katılım sağlanabilen speaking aktiviteleri"
+        ],
+        "summary": "Başarıyı şansa bırakmayın; sınavın mantığını kavrayarak hedeflediğiniz o kritik skora en kısa sürede ulaşın."
+      },
+      {
+        "title": "Zamanınızı %50 Daha Verimli Kullanın",
+        "desc": "TOEFL maratonunda en önemli faktörlerden biri zamandır. TOEFL hazırlık programımıza öğrencilerimizin dört becerideki eksikliklerini net bir şekilde tespit ederek başlıyoruz. Grup derslerinin yanı sıra, kişinin ihtiyaçlarına odaklanan özel ders çalışmalarımızla, sınıf bazında alınabilecek eğitim hızını %50 daha kısa sürede tamamlayarak sizlere büyük bir avantaj sağlıyoruz.",
+        "bullets": [
+          "Nokta atışı eksik tespiti ve kişiye özel eğitim planlaması",
+          "Elektronik ortamda gerçek sınav süresine (4.5 saat) uygun denemeler",
+          "Speaking ve Writing bölümlerinde eğitmenlerden birebir analiz ve geri bildirim",
+          "Kapsamlı doküman ve güncel yayın desteği"
+        ],
+        "summary": "İster grup eğitiminde ister özel derste, Akademik Yabancı Dil Kursu farkıyla hedefinize emin adımlarla ilerleyin."
+      }
+    ]
+  },
+  "toeicLandingPage": {
+    "hero": {
+      "tag": "TOEIC HAZIRLIK KURSU",
+      "title": "TOEIC Sınavında 990 Skoruyla Kariyerinizi Zirveye Taşıyın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "İŞ DÜNYASINDA ÖNE ÇIKIN!",
+      "formSubtitle": "TOEIC Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz (En az Upper-Intermediate)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: İŞ İNGİLİZCESİ SINAVLARI",
+      "description": "Reading ve Listening becerilerinde tam 990 skora sahip sınav stratejisine hakim eğitmenlerimiz tarafından kişiye özel programla eksiklikleriniz tespit edilerek hedefinize ulaşın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kapsamlı Doküman Desteği ve Stratejik Soru Çözümü!"
+    },
+    "about": {
+      "badge": "KURUMSAL GEÇERLİLİK",
+      "title": "TOEIC Nedir ve Kimler Girmelidir?",
+      "desc": "TOEIC (Test Of English for International Communication), Amerikan kökenli olan ETS (Educational Testing Service) kuruluşunun özellikle iş alanına yönelik yaptığı bir yabancı dil sınavıdır. Herhangi bir geçerlilik süresi limiti yoktur.<br/><br/><b>Nerelerde İstenir?</b> TOEIC sınav skoru özellikle TOFAŞ, RENAULT ve küresel piyasada öne çıkan büyük ölçekli firmalar tarafından işe alım sürecinde personelin yabancı dile hakimiyet sürecinde istenmektedir.<br/><br/><b>Eğitim Yaklaşımımız:</b> Bu sınavda başarılı bir skor elde edebilmek için en az upper-intermediate seviyesini bitirmiş olmak gerekmektedir. Eğitim programlarında genel İngilizce eğitimlerinden ziyade sadece TOEIC sınavına yönelik eğitimler üzerinde durulmaktadır.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "İş dünyası yazışmaları, raporlar ve kurumsal metinleri analiz etme ve hızlı okuma becerisi."
+        },
+        {
+          "id": "listening",
+          "title": "Listening (Dinleme)",
+          "desc": "İş mülakatlarında ve global iletişim süreçlerinde net bir dinleme yetisi kazanma."
+        },
+        {
+          "id": "business_vocab",
+          "title": "İş İngilizcesi (Vocabulary)",
+          "desc": "Eğitim sürecinde kazanılan kelime hazinesi ve donanımlı İngilizce altyapısıyla yazılı iletişimi başarılı hale getirme."
+        },
+        {
+          "id": "strategy",
+          "title": "Sınav Stratejisi",
+          "desc": "990 skora sahip uzman eğitmenlerin uyguladığı, iletişim ağırlıklı bu sınava özel taktikler."
+        }
+      ],
+      "description": "Rakiplerinin önüne geçmek isteyenler, öğrenciler veya TOEIC skoru talep eden kurumlara başvuracak olanlar için en nitelikli hazırlık süreci.",
+      "features": [
+        "Reading ve Listening olmak üzere 2 temel beceriyi sınayan iletişim ağırlıklı müfredat.",
+        "Tam 990 skora sahip, sınav stratejisine hakim eğitmen kadrosu.",
+        "Sadece TOEIC sınavına yönelik, kişiye özel eksiklik tespiti ve programlama.",
+        "Kampüslerimizde TOEIC eğitimi alan öğrencilere ücretsiz speaking programlarına katılım hakk."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International TOEIC Kursu?",
+      "subtitle": "Global İletişim Standartlarına Hakim Olun",
+      "cardTitle": "990 Tam Skorlu Eğitmenler",
+      "cardDesc": "TOEIC sınavından 990 tam puan almış, sınavın algoritmasına ve kurumsal iş İngilizcesine tamamen hakim bir eğitim kadrosuyla çalışın.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "TOEFL ile TOEIC arasındaki fark nedir?",
+          "a": "Her ikisi de ETS tarafından yapılsa da; TOEFL daha çok akademik eğitim (üniversite) amaçlıdır, TOEIC ise doğrudan iş dünyasına ve kurumsal iletişime yönelik bir sınavdır."
+        },
+        {
+          "q": "TOEIC kursuna katılmak için seviyem ne olmalı?",
+          "a": "Bu sınavda başarılı bir skor elde edebilmek için adayların en az upper-intermediate (orta-üst) seviyesini bitirmiş olması gerekmektedir."
+        },
+        {
+          "q": "Sınav başvurularını nasıl yapabilirim?",
+          "a": "Telefon yoluyla ilinizdeki yetkili sınav başvuru merkezlerinden randevu alarak başvuru yapılabilmektedir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Kişiye Özel Program",
+          "desc": "Öğrencinin eksiklikleri tespit edilerek doğrudan zayıf yönlerini güçlendiren birebir takip sistemi.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Ücretsiz Speaking",
+          "desc": "Kampüslerimizde TOEIC öğrencilerine özel olarak sunulan ücretsiz konuşma (speaking) kulüpleri.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "İngilizce UZEM",
+          "desc": "Yoğun iş temposundaki profesyoneller için Türkiye'nin en nitelikli online dil platformu üzerinden eğitim.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kurumsal Geçerlilik",
+          "desc": "TOFAŞ, RENAULT gibi dev markaların iş mülakatlarına doğrudan hazırlayan iş dünyası odaklı içerik.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "TOEIC İçin Kullandığımız Kaynaklar",
+      "subtitle": "Kapsamlı Doküman ve Materyal Desteği",
+      "features": [
+        "İş İngilizcesi Odaklı Okuma",
+        "Kurumsal Dinleme Pratikleri",
+        "TOEIC Sınav Stratejileri"
+      ],
+      "books": [
+        {
+          "name": "TOEIC Reading Strategies",
+          "type": "İş Metinleri ve Rapor Analizi"
+        },
+        {
+          "name": "TOEIC Listening for Business",
+          "type": "Toplantı ve Mülakat Dinlemeleri"
+        },
+        {
+          "name": "Business Vocabulary Builder",
+          "type": "Kurumsal Kelime Hazinesi"
+        },
+        {
+          "name": "TOEIC Full Practice Exams",
+          "type": "Tam Kapsamlı Deneme Sınavları"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde 990 skorlu eğitmenlerle yüz yüze, iş dünyasının dinamiklerine uygun iletişim ağırlıklı TOEIC hazırlığı.",
+        "features": [
+          "Uzman Eğitmenle Yüz Yüze Etkileşim",
+          "Ücretsiz Speaking Programlarına Katılım",
+          "Eksiklik Tespiti ve Kişiye Özel Program",
+          "Kapsamlı Doküman Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Yoğun iş hayatı temposunda olan öğrencilerimiz için Türkiye'nin en nitelikli online dil platformu İngilizce UZEM üzerinden eğitim.",
+        "features": [
+          "Evden veya Ofisten Bağlantı İmkanı",
+          "990 Skorlu Eğitmenlerce Hazırlanan İçerik",
+          "Canlı ve İnteraktif Ders Deneyimi",
+          "Zaman Kaybetmeden Kariyer Hazırlığı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "TOEIC Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "TOEIC sınavı hangi alanları test eder?",
+          "a": "Sınav temel olarak Reading (Okuma) ve Listening (Dinleme) olmak üzere 2 beceriyi sınayan, kısacası iletişim ağırlıklı bir sınavdır."
+        },
+        {
+          "q": "Eğitim sürecinde sadece sınav çözümü mü yapılıyor?",
+          "a": "Hayır. Sınav stratejilerine ek olarak, öğrencilerimiz eğitim sonunda global iletişim süreçlerine hakim olur; iş mülakatlarında net bir dinleme yetisi ve yazılı iletişimlerde kelime hazinesi kazanırlar."
+        },
+        {
+          "q": "TOEIC sınavının geçerlilik süresi var mı?",
+          "a": "TOEFL'ın aksine, TOEIC sınavının herhangi bir geçerlilik süresi limiti yoktur. Alınan skor kalıcı olarak kariyerinize eklenir."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "TOEIC Sınavında Değerlendirilen Beceriler",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Dinleme (Listening) Becerisi",
+          "desc": "İş mülakatlarında, toplantılarda ve telefon görüşmelerinde net bir dinleme yetisi kazanmanızı sağlayan pratikler.",
+          "bullets": [
+            "Fotoğraf/Görsel tanımlama sorularını analiz etme",
+            "Soru-Cevap (Question-Response) bölümünde çeldiricileri eleme",
+            "Kısa diyaloglar ve kurumsal duyuruları anlama",
+            "Farklı İngilizce aksanlarına (İngiliz, Amerikan, Avustralya) aşinalık"
+          ],
+          "summary": "İş dünyasının global iletişim standartlarına dinleyerek adapte olun."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Okuma (Reading) Becerisi",
+          "desc": "E-postalar, resmi raporlar ve iş mektupları gibi kurumsal yazışmaları anlama ve yorumlama kabiliyeti.",
+          "bullets": [
+            "Eksik cümle tamamlama (Incomplete Sentences) gramer taktikleri",
+            "Metin tamamlama (Text Completion) bölümlerinde bağlam analizi",
+            "Tekli ve çoklu (Multiple Passages) okuma parçalarını hızlı tarama",
+            "Eş anlamlı kelimeleri (Synonyms) iş dünyası jargonunda yakalama"
+          ],
+          "summary": "İş dünyası metinlerinde hız kazanarak TOEIC okuma bölümünü zamanında bitirin."
+        },
+        {
+          "tabTitle": "Business Vocab",
+          "title": "İş İngilizcesi ve Kelime Hazinesi",
+          "desc": "Genel İngilizceden ziyade, tamamen kurumsal hayata ve TOEIC müfredatına uygun kelime çalışmaları.",
+          "bullets": [
+            "İnsan kaynakları, finans, pazarlama ve üretim terminolojisi",
+            "İş mektuplarında ve e-postalarda kullanılan resmi kalıplar",
+            "Kelime hazinesi ve donanımlı altyapı ile yazılı iletişimi güçlendirme",
+            "Bağlamsal ipuçlarıyla bilmediğiniz kelimenin anlamını çıkarma"
+          ],
+          "summary": "Zengin kurumsal kelime hazinesi ile hem sınavda hem ofis hayatında fark yaratın."
+        },
+        {
+          "tabTitle": "Strategy",
+          "title": "990 Skor Stratejisi",
+          "desc": "TOEIC sınavından 990 tam puan almış eğitmenlerimizin uyguladığı zaman yönetimi ve şık eleme teknikleri.",
+          "bullets": [
+            "Zamanı doğru yöneterek tüm soruları yetiştirme teknikleri",
+            "Listening bölümünde sorular önceden okuyarak hazır bulunma",
+            "Sınavın algoritmasını çözerek hatalı şıkları hızla eleme",
+            "Kişiye özel eksiklik tespiti ile nokta atışı çalışma planı"
+          ],
+          "summary": "Sadece İngilizce bilginizle değil, sınav stratejinizle de rakiplerinizin önüne geçin."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Kurumsal Kariyerinizin Kapılarını TOEIC ile Aralayın",
+        "desc": "TOEIC (Test Of English for International Communication), TOFAŞ, RENAULT gibi küresel piyasada öne çıkan dev markaların işe alım ve terfi süreçlerinde tercih ettiği en prestijli iş İngilizcesi sınavıdır. Akademik Yabancı Dil Kursları olarak, genel İngilizce eğitimlerinden sıyrılarak tamamen iş dünyasına ve TOEIC sınav müfredatına odaklanan özel programlar sunuyoruz.",
+        "bullets": [
+          "Sınavdan tam 990 puan almış, strateji uzmanı eğitmen kadrosu",
+          "Reading ve Listening odaklı iletişim ağırlıklı yoğun müfredat",
+          "Kampüs eğitimlerine ek olarak ücretsiz Speaking (Konuşma) kulüpleri",
+          "Kişiye özel eksiklik tespiti ve zengin doküman desteği"
+        ],
+        "summary": "Kariyer basamaklarını hızla tırmanmak ve global iletişim standartlarını yakalamak için doğru yerdesiniz."
+      },
+      {
+        "title": "İş Yoğunluğunuza Uygun Çözümler: İngilizce UZEM",
+        "desc": "Yoğun iş hayatı temposunda sınavlara hazırlanmanın ne kadar zor olduğunu biliyoruz. Bu nedenle, rakiplerinin önüne geçmek isteyen profesyoneller için Türkiye'nin en nitelikli online dil platformu İngilizce UZEM üzerinden TOEIC hazırlık imkanı sunuyoruz. Zamandan ve mekandan bağımsız olarak, 990 skorlu uzman öğretmenlerimizin hazırladığı online içeriklerle eğitiminizi kesintisiz sürdürebilirsiniz.",
+        "bullets": [
+          "İş saatlerinize göre esnetilebilen online TOEIC hazırlık programları",
+          "İş mülakatlarında net dinleme yetisi (Listening) kazandıran pratikler",
+          "Yazılı iletişimi (Reading & Vocabulary) güçlendiren donanımlı altyapı",
+          "En az Upper-Intermediate seviyesindeki adaylara özel hızlı gelişim"
+        ],
+        "summary": "Geleceğinize yatırım yaparken zamanınızı en verimli şekilde kullanın, hedeflediğiniz TOEIC skoruna ulaşın."
+      }
+    ]
+  },
+  "gmatLandingPage": {
+    "hero": {
+      "tag": "GMAT HAZIRLIK KURSU",
+      "title": "MBA Hayallerinize Türkiye'nin En İyi GMAT Kursu ile Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "AKADEMİK ZİRVEYE ULAŞIN!",
+      "formSubtitle": "GMAT Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Hedeflediğiniz Program (MBA, Doktora vb.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GMAT hazırlık kursu Akademik Yabancı Dil Kursu, nitelikli dil eğitimi için burada.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Yüksek Skor Elde Etmiş Hocalarla Stratejik Hazırlık!"
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "GMAT Nedir ve Sınav İçeriği Nasıldır?",
+      "desc": "GMAT (Graduate Management Admission Test), Türkiye’de ve yurtdışında çoğunlukla işletme yüksek lisans (MBA) programına sahip 8.000’in üstünde okulun geçerli kıldığı ve bu alanda yüksek lisans ve doktora yapmak isteyen öğrencilerin giriş sağladığı bir sınavdır. Sınavın geçerlilik süresi 5 yıldır.<br/><br/><b>Sınavın Yapısı:</b> Graduate Management Admission Council (GMAC) tarafından hazırlanan ve Pearson VUE tarafından gerçekleştirilen GMAT sınavı, tamamen bilgisayar üzerinden yapılmaktadır. Sınavda geçtiğiniz sorulara geri dönemezsiniz; bu nedenle strateji diğer sınavlara oranla çok daha etkindir.",
+      "skills": [
+        {
+          "id": "quantitative",
+          "title": "Sayısal (Quantitative)",
+          "desc": "Veri yorumlama ve problem çözme ile ilişkili sorularla, doğru sonuçlara ulaşma becerileriniz ölçülür."
+        },
+        {
+          "id": "verbal",
+          "title": "Sözel (Verbal)",
+          "desc": "Okuduğunu anlama, eleştirel mantık yürütme ve cümle düzeltme becerileri test edilir."
+        },
+        {
+          "id": "integrated",
+          "title": "Mantık Yürütme (Integrated Reasoning)",
+          "desc": "Tablo analizleri ve grafik yorumlama ile farklı kaynaklardan alınan bilgileri değerlendirme yeteneği."
+        },
+        {
+          "id": "analytical",
+          "title": "Analitik Yazı (Analytical Writing)",
+          "desc": "Bir tartışmayı analiz etmeniz, eleştirel düşünebilme ve fikirlerinizi ifade etme yeteneğiniz ölçülür."
+        }
+      ],
+      "description": "GMAT sınavında stratejinin önemini bilen, yüksek skor elde etmiş uzman eğitmen kadromuzla zaman kaybetmeden hedefinize ulaşın.",
+      "features": [
+        "Analitik Yazı, Mantık Yürütme, Sözel ve Sayısal olmak üzere 4 temel bölüm.",
+        "Sınav stratejilerine ve GMAT soru tiplerine tam hakim yüksek skorlu eğitmenler.",
+        "Bilgisayar tabanlı sınava (CBT) birebir uygun, geriye dönülmeyen soru simülasyonları.",
+        "GMAT programına kayıtlı öğrencilerimize haftanın her günü ücretsiz speaking aktiviteleri."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International GMAT Kursu?",
+      "subtitle": "Türkiye'nin En Nitelikli GMAT Hazırlığı",
+      "cardTitle": "Yüksek Skorlu Uzmanlar",
+      "cardDesc": "GMAT sınavına bizzat girmiş, sistemin algoritmasını çözmüş ve yüksek skor elde etmiş hocalardan oluşan ayrıcalıklı bir kadro.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "GMAT sınavı ne kadar sürmektedir?",
+          "a": "GMAT sınavı Analitik Yazı, Bütüncül Mantık Yürütme, Sözel ve Sayısal olmak üzere 4 bölümden oluşur ve ayrılan toplam süre 3 saat 30 dakikadır."
+        },
+        {
+          "q": "Sınavda önceki sorulara dönüp cevap değiştirebilir miyim?",
+          "a": "Hayır. GMAT sınavı bilgisayar üzerinden yapılmaktadır ve algoritması gereği geçtiğiniz sorulara geri dönemezsiniz. Bu yüzden kursumuzda zaman yönetimi ve kesin karar verme stratejileri üzerine yoğun bir eğitim verilir."
+        },
+        {
+          "q": "GMAT puanı kaç yıl geçerlidir?",
+          "a": "GMAT sınav sonucunun uluslararası geçerlilik süresi 5 yıldır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Özgün Müfredat",
+          "desc": "GMAT formatıyla ve soru tipleriyle tam uyumlu, Türkiye'nin en iyi hazırlık kursu müfredatı.",
+          "icon": "Award"
+        },
+        {
+          "title": "Algoritma Stratejisi",
+          "desc": "Geri dönülemeyen sorular ve bilgisayar uyarlamalı test (CAT) mantığına özel taktikler.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Ücretsiz Speaking",
+          "desc": "GMAT programına kayıtlı öğrencilerimiz için haftanın her günü düzenlenen ücretsiz konuşma kulüpleri.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Kapsamlı Analiz",
+          "desc": "Öğrencilerin sözel ve sayısal zayıflıklarını anında tespit eden detaylı deneme raporları.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "GMAT İçin Kullandığımız Kaynaklar",
+      "subtitle": "Uluslararası Standartlarda Eğitim Materyalleri",
+      "features": [
+        "Orijinal GMAT Çıkmış Soruları",
+        "Sayısal ve Sözel Odaklı Pratikler",
+        "Bilgisayar Tabanlı Deneme Setleri"
+      ],
+      "books": [
+        {
+          "name": "GMAT Quantitative Focus",
+          "type": "Sayısal Veri Yorumlama ve Problem Çözme"
+        },
+        {
+          "name": "GMAT Verbal & Critical Reasoning",
+          "type": "Eleştirel Mantık Yürütme"
+        },
+        {
+          "name": "Integrated Reasoning & AWA",
+          "type": "Grafik Yorumlama ve Analitik Yazı"
+        },
+        {
+          "name": "GMAT Official Computer Mocks",
+          "type": "Bilgisayar Tabanlı Denemeler"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde, yüksek skorlu eğitmenlerimiz eşliğinde yüz yüze stratejik GMAT hazırlığı.",
+        "features": [
+          "Uzman Eğitmenlerle Sınıf İçi Etkileşim",
+          "Ücretsiz Speaking Kulüplerine Katılım",
+          "GMAT Formatında Bilgisayarlı Denemeler",
+          "Soru Çözüm Stratejileri ve Etütler"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Zaman kısıtlaması olan öğrencilerimiz için interaktif platformlarımız üzerinden gerçekleştirilen yüksek verimli online GMAT kursu.",
+        "features": [
+          "Dilediğiniz Yerden Canlı Derslere Katılım",
+          "Online Deneme ve Zaman Yönetimi Pratiği",
+          "Yüksek Skorlu Eğitmenlerden Dijital Destek",
+          "GMAT Algoritmasına Uygun Ekran Pratikleri"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "GMAT Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "GMAT kursunuza kimler katılmalı?",
+          "a": "İşletme (MBA) başta olmak üzere finans, muhasebe gibi alanlarda yüksek lisans veya doktora yapmak isteyen ve dünya çapındaki prestijli okullara başvuru planlayan tüm adaylar katılmalıdır."
+        },
+        {
+          "q": "Sınav stratejisi neden bu kadar önemli?",
+          "a": "Sınav bilgisayar üzerinden yapıldığı ve ekranda sadece kalan süre ve soru sayısını görüp, geçtiğiniz sorulara geri dönemediğiniz için (Computer Adaptive Test mantığı), hangi soruya ne kadar vakit ayıracağınızı bilmek hayati önem taşır."
+        },
+        {
+          "q": "Integrated Reasoning bölümü neleri içeriyor?",
+          "a": "Tablo analizleri ve grafik yorumlama içeren bu bölümde, farklı kaynaklardan alınmış bilgileri bir araya getirerek mantıklı değerlendirmeler yapma beceriniz ölçülür."
+        }
+      ]
+    },
+    "gradeTabs": {
+      "title": "GMAT Sınavında Değerlendirilen 4 Temel Bölüm",
+      "grades": [
+        {
+          "tabTitle": "Quantitative",
+          "title": "Sayısal (Quantitative)",
+          "desc": "Veri yorumlama ve problem çözme ile ilişkili soruların bulunduğu sayısal muhakeme bölümüdür.",
+          "bullets": [
+            "Matematiksel kavramları hızlıca uygulama",
+            "Karmaşık verileri analiz ederek doğru sonuca ulaşma",
+            "Problem Solving (Problem Çözme) taktikleri",
+            "Data Sufficiency (Veri Yeterliliği) mantığını kavrama"
+          ],
+          "summary": "Zaman baskısı altında matematiksel mantığınızı en verimli şekilde kullanmayı öğrenin."
+        },
+        {
+          "tabTitle": "Verbal",
+          "title": "Sözel (Verbal)",
+          "desc": "Okuduğunu anlama, eleştirel mantık yürütme ve İngilizce cümle düzeltme (Sentence Correction) yeteneklerinizi ölçer.",
+          "bullets": [
+            "Reading Comprehension: Karmaşık metinleri anlama",
+            "Critical Reasoning: Bir argümanın zayıf/güçlü yönlerini bulma",
+            "Sentence Correction: Gramer ve anlam bozukluklarını düzeltme",
+            "Kelime dağarcığını bağlama uygun şekilde yorumlama"
+          ],
+          "summary": "Metinlerin içine gizlenmiş mantık hatalarını ve doğru gramer yapılarını saniyeler içinde tespit edin."
+        },
+        {
+          "tabTitle": "Integrated R.",
+          "title": "Bütüncül Mantık Yürütme (Integrated Reasoning)",
+          "desc": "Farklı şekillerdeki (tablo, grafik) verileri harmanlayarak bilgi üretme becerinizin sınandığı kritik bir alandır.",
+          "bullets": [
+            "Çok kaynaklı akıl yürütme (Multi-Source Reasoning)",
+            "Grafik ve Tablo (Graphics Interpretation / Table Analysis)",
+            "İki aşamalı analiz (Two-Part Analysis)",
+            "Karmaşık veri setleri arasında hızlı geçiş yapabilme"
+          ],
+          "summary": "İş dünyasındaki gerçek problemlere benzer verileri hatasız yorumlama kabiliyeti kazanın."
+        },
+        {
+          "tabTitle": "Analytical W.",
+          "title": "Analitik Yazı (Analytical Writing Assessment)",
+          "desc": "Sizden bir tartışmayı analiz etmeniz istenecek bu bölümde, eleştirel düşünebilme ve fikirlerinizi yapılandırma hızınız ölçülür.",
+          "bullets": [
+            "Bir argümanın mantıksal zayıflıklarını bulma",
+            "Düşünceleri açık, anlaşılır ve akademik bir İngilizceyle yazma",
+            "Giriş, gelişme, sonuç paragraflarını zamanında kurgulama",
+            "İkna edici örneklerle tartışmayı destekleme"
+          ],
+          "summary": "Eleştirilerinizi rater'ların (değerlendiricilerin) yüksek puan verdiği şablonlarla yazıya dökün."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "MBA Hayalleriniz İçin Türkiye'nin En İyi GMAT Kursu",
+        "desc": "Amerika başta olmak üzere tüm dünyada MBA (İşletme Yüksek Lisansı) ve doktora programlarının kapısını aralayan GMAT (Graduate Management Admission Test), 8.000'in üzerinde okulda geçerliliğe sahiptir. Özgün eğitim müfredatımız ve yüksek skor elde etmiş uzman öğretmen kadromuzla, Akademik Yabancı Dil Kursu olarak nitelikli dil ve sınav eğitimi için buradayız.",
+        "bullets": [
+          "GMAT soru mantığını ve algoritmasını yakından tanıyan eğitim kadrosu",
+          "Analitik Yazı, Sözel, Sayısal ve Mantık Yürütme bölümlerine özel müfredat",
+          "Bilgisayar uyarlamalı (CAT) test sistemine birebir uygun dijital pratikler",
+          "Sınav kaygısını yönetme ve zaman tasarrufu sağlayan taktikler"
+        ],
+        "summary": "Uluslararası standartlardaki eğitimimizle akademik geleceğinize en güçlü adımı atın."
+      },
+      {
+        "title": "GMAT'te Stratejinin Gücü ve Bilgisayarlı Sınav Pratiği",
+        "desc": "GMAT, toplam 3 saat 30 dakika süren ve tamamen bilgisayar üzerinden gerçekleştirilen bir sınavdır. Sınavın en belirgin özelliği, geçtiğiniz sorulara geri dönememenizdir. Bu durum, GMAT sınavında stratejiyi diğer sınavlara oranla çok daha hayati bir konuma getirir. Kursumuzda, ekrandaki süreyi yönetme ve sorular karşısında tereddüt etmeden karar verme reflekslerini geliştiriyoruz.",
+        "bullets": [
+          "Önceki soruya dönülememe kuralına (No-Return) göre hazırlanan zaman yönetimi çalışmaları",
+          "Farklı zorluk derecelerine uyum sağlayan (Adaptive) soru çözüm teknikleri",
+          "GMAT programı öğrencilerine özel haftalık ücretsiz speaking aktiviteleri",
+          "Veri yorumlama ve eleştirel mantık yürütmede pratik analiz yöntemleri"
+        ],
+        "summary": "Doğru strateji olmadan sadece İngilizce bilmek GMAT için yeterli değildir; kursumuzla sınavın kurallarını kendi lehinize çevirin."
+      }
+    ]
+  },
+  "goetheLandingPage": {
+    "hero": {
+      "tag": "GOETHE ALMANCA KURSU",
+      "title": "Almanya Hayalinize GOETHE Sertifikası ile Ulaşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ALMANYA İÇİN İLK ADIM!",
+      "formSubtitle": "Goethe Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Hedeflediğiniz Seviyeyi Seçiniz (A1, B1, B2 vb.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
+      "description": "Aile birleşimi, eğitim veya çalışacağınız kurum için Almanca dil yeterliliğinizi kanıtlayan GOETHE sınavına en az 5 yıl tecrübeli kadromuzla hazırlanın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kişiye Özel Program ve Soru Çözüm Teknikleri!"
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "GOETHE Almanca Sınavı Nedir?",
+      "desc": "Almanca dil yeterlilik düzeyinin belirlenmesi için uygulanan GOETHE sınavı tüm dünya tarafından bilinmektedir. Sertifikalar iş verenler ve eğitim kurumları tarafından resmi dil yeterlilik belgesi olarak görülür.<br/><br/><b>Sınavın Kapsamı:</b> GOETHE Enstitüsünün sınavları, Ortak Avrupa Referans Diller Çerçevesinin (CEFR) dil seviyelerine tamamen uygundur. Bu sistemde adayların Almanca bilgisi <b>A1 seviyesinden C2 seviyesine kadar</b> ölçülmektedir.<br/><br/><b>Ne İşe Yarar?</b> Bu sınava katılarak basit düzeyde iletişim kurabildiğinizi veya akademik seviyede dil kullanabildiğinizi kanıtlayabilirsiniz. Goethe Enstitüsü sertifikasını iş başvurularınızda, eğitim kurumlarında ve özellikle aile birleşimi vize süreçlerinde kullanabilirsiniz.",
+      "skills": [
+        {
+          "id": "a1_a2",
+          "title": "Temel Kullanım (A1 - A2)",
+          "desc": "Aile birleşimi ve temel iletişim için gerekli olan günlük Almanca ifadeleri anlama ve kullanma becerisi."
+        },
+        {
+          "id": "b1_b2",
+          "title": "Bağımsız Kullanım (B1 - B2)",
+          "desc": "Almanya'da mesleki denklik almak, çalışmak ve günlük hayatta akıcı iletişim kurmak için gerekli seviye."
+        },
+        {
+          "id": "c1_c2",
+          "title": "Yetkin Kullanım (C1 - C2)",
+          "desc": "Alman üniversitelerinde eğitim görmek ve karmaşık akademik/profesyonel metinleri analiz etme becerisi."
+        },
+        {
+          "id": "exam_strategy",
+          "title": "Sınav Stratejisi",
+          "desc": "Okuma, dinleme, yazma ve konuşma modüllerini verilen süre içinde başarıyla tamamlama teknikleri."
+        }
+      ],
+      "description": "Akademik Yabancı Dil Kursu ile GOETHE sınav hazırlık programına katılarak Almanca dil yeterlilik başarınızı resmi olarak belgeleyin.",
+      "features": [
+        "Alanında en az 5 yıl tecrübeli ve sınav sistemine hakim uzman eğitmen kadrosu.",
+        "Aile birleşimi, akademik eğitim veya mesleki denklik hedeflerine özel sınıf planlaması.",
+        "Goethe Zertifikat (A1-C2) modüllerine özel geliştirilmiş soru çözüm teknikleri.",
+        "Hedeflenen seviyeye (A1'den C2'ye) en kısa sürede ulaşmayı sağlayan yoğunlaştırılmış müfredat."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International Goethe Kursu?",
+      "subtitle": "Almanca Hedeflerinizi Uzmanlara Emanet Edin",
+      "cardTitle": "Tecrübeli Eğitim Kadrosu",
+      "cardDesc": "Sadece dil öğreten değil, Goethe sınavının değerlendirme kriterlerini yakından tanıyan en az 5 yıl deneyimli hocalarla çalışın.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Aile birleşimi vizesi için hangi sınava girmeliyim?",
+          "a": "Almanya aile birleşimi vizesi başvurularında Alman Konsolosluğu genellikle Goethe-Zertifikat A1: Start Deutsch 1 sertifikasını talep etmektedir."
+        },
+        {
+          "q": "Goethe sertifikasının geçerlilik süresi var mıdır?",
+          "a": "Goethe Enstitüsü'nün verdiği sertifikaların (A1'den C2'ye kadar) ömür boyu geçerliliği vardır. Ancak bazı kurumlar veya işverenler, sertifikanın son 2 yıl içinde alınmış olmasını talep edebilir."
+        },
+        {
+          "q": "Eğitimlerinizde hangi seviyelere hazırlıyorsunuz?",
+          "a": "Ortak Avrupa Referans Diller Çerçevesi (CEFR) standartlarına uygun olarak A1 başlangıç seviyesinden, C2 en ileri akademik seviyeye kadar tüm Goethe sınav modüllerine eğitim veriyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Soru Çözüm Teknikleri",
+          "desc": "Goethe sınav modüllerindeki okuma ve dinleme çeldiricilerine düşmemek için pratik taktikler.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Konuşma Pratiği",
+          "desc": "Sınavın sözlü (Sprechen) bölümünde heyecanı yenmek ve akıcı iletişim kurmak için birebir etütler.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Resmi Standartlar",
+          "desc": "Eğitim kurumları ve işverenler tarafından talep edilen A1-C2 Ortak Avrupa kriterlerine %100 uyum.",
+          "icon": "Award"
+        },
+        {
+          "title": "Modüler Hazırlık",
+          "desc": "Zayıf olduğunuz modülün (Örn: Sadece Yazma/Schreiben) üzerine giderek eksiklikleri hızlıca giderme.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Goethe İçin Kullandığımız Kaynaklar",
+      "subtitle": "Seviyenize Uygun Sınav Materyalleri",
+      "features": [
+        "A1 - C2 Seviye Kitapları",
+        "Modüler Soru Bankaları",
+        "Goethe Deneme Sınavları"
+      ],
+      "books": [
+        {
+          "name": "Prüfungstraining Goethe-Zertifikat",
+          "type": "Sınav Antrenman Seti"
+        },
+        {
+          "name": "Fit fürs Goethe-Zertifikat",
+          "type": "Dört Beceri Hazırlık Kitabı"
+        },
+        {
+          "name": "Wortschatz & Grammatik",
+          "type": "Kelime ve Gramer Çalışmaları"
+        },
+        {
+          "name": "Goethe Modelltests",
+          "type": "Gerçek Sınav Simülasyonları"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde en az 5 yıl deneyimli eğitmenlerimizle yüz yüze, motivasyonu yüksek ve disiplinli Goethe hazırlığı.",
+        "features": [
+          "Uzman Kadro ile Yüz Yüze Etkileşim",
+          "Sınıf İçi Konuşma (Sprechen) Pratikleri",
+          "Fiziksel Deneme Sınavları ve Geri Bildirim",
+          "Sınav Kaygısı ve Zaman Yönetimi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "İster iş yerinizden ister evinizden; interaktif online platformumuz üzerinden zaman kaybetmeden Almanca hedefinize ulaşın.",
+        "features": [
+          "Canlı ve Etkileşimli Dersler",
+          "Online Sınav Simülasyonları",
+          "Dijital Yayın ve Doküman Desteği",
+          "Esnek Eğitim Saatleri"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Goethe Sınav Hazırlığı Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Goethe sınavına girmek için yaş sınırı var mı?",
+          "a": "Sınav modüllerine göre değişiklik göstermekle birlikte, genellikle yetişkinler için olan Goethe-Zertifikat sınavlarına 16 yaş ve üzeri adayların katılması önerilir. Daha küçük yaş grupları için 'Fit in Deutsch' gibi özel modüller bulunur."
+        },
+        {
+          "q": "Sınavın sadece bir bölümünden (modülünden) kalırsam ne olur?",
+          "a": "B1, B2, C1 ve C2 gibi seviyelerde sınav modüler olarak (Okuma, Dinleme, Yazma, Konuşma) yapılır. Eğer sadece bir modülden kalırsanız, tüm sınava tekrar girmek yerine ilerleyen tarihlerde sadece kaldığınız modülün sınavına girerek sertifikanızı tamamlayabilirsiniz."
+        },
+        {
+          "q": "Aile birleşimi (A1) sertifikasını almak ortalama ne kadar sürer?",
+          "a": "Öğrencinin sıfırdan başladığı varsayıldığında, yoğunlaştırılmış programlarımızla ve adayın düzenli çalışmasıyla A1 seviyesi sertifikasına ulaşmak genellikle 1,5 ile 2.5 ay arasında sürmektedir."
+        }
+      ]
+    }
+  },
+  "osdLandingPage": {
+    "hero": {
+      "tag": "ÖSD ALMANCA KURSU",
+      "title": "Dünyanın Her Yerinde Geçerli ÖSD Sertifikası ile Sınırları Aşın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFLERİNİZE ULAŞIN!",
+      "formSubtitle": "ÖSD Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Gireceğiniz Seviyeyi Seçiniz (A1-C2)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
+      "description": "Tüm dünyada geçerli, iletişim odaklı ÖSD sınavına, alanında en az 5 yıl tecrübeli ve güncel sınav deneyimine sahip uzman eğitmenlerimizle hazırlanın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kişiye Özel Eğitim Programı ve Stratejik Hazırlık!"
+    },
+    "about": {
+      "badge": "KÜRESEL GEÇERLİLİK",
+      "title": "ÖSD Sınavı Nedir?",
+      "desc": "ÖSD (Österreichisches Sprachdiplom Deutsch), tüm dünyada geçerli olan uluslararası bir Almanca dil sertifikasıdır. İletişim odaklı bir sınav sistemi olarak ÖSD'yi tanımlamak mümkündür. ÖSD sınavı merkezi bir sınav sistemine bağlıdır ve adayların Almanca bilgisini A1-C2 seviyeleri arasında ölçmektedir.<br/><br/><b>Sertifikanın Avantajları Nelerdir?</b> ÖSD sertifikasına sahip olmanız; dil becerisine sahip olduğunuza dair oturma izninin alınmasında, üniversite kayıtları ön kabullerinde, çalışma müsaadesi süreçlerinde, vatandaşlık işlemlerinde, konsolosluklarda aile birleşimi başvurularında, öğrenci ve çalışma vizesi için geçerli alanlarda size büyük bir avantaj sağlar.",
+      "skills": [
+        {
+          "id": "communication",
+          "title": "İletişim Odaklılık",
+          "desc": "Günlük ve mesleki hayatta ihtiyaç duyacağınız pratik Almanca iletişim becerilerinin geliştirilmesi."
+        },
+        {
+          "id": "strategy",
+          "title": "Sınav Stratejileri",
+          "desc": "Merkezi sınav sisteminin mantığını ve soru çözüm tekniklerini öğreten spesifik stratejiler."
+        },
+        {
+          "id": "custom",
+          "title": "Kişiye Özel Eğitim",
+          "desc": "Öğrencinin yetkinlik alanını ölçerek eksiklerine göre hazırlanan nokta atışı çalışma programı."
+        },
+        {
+          "id": "levels",
+          "title": "A1 - C2 Kapsamı",
+          "desc": "Aile birleşiminden (A1) akademik kariyere (C2) kadar her seviyeye özel müfredat içeriği."
+        }
+      ],
+      "description": "Akademik Yabancı Dil Kursu ÖSD sınavı hazırlık programı ile yetkinlik alanınızı ölçecek size özel eğitim programıyla tanışın.",
+      "features": [
+        "Alanında en az 5 yıl tecrübeli uzman öğretmen kadrosu.",
+        "Değişen soru yapılarına hakim, güncel sınav deneyimine sahip eğitmenler.",
+        "Aile birleşimi, üniversite kabulü ve çalışma vizesine özel programlama.",
+        "Merkezi sınav sisteminin kurallarına ve puanlama kriterlerine tam uyum."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International ÖSD Kursu?",
+      "subtitle": "Zaman Kaybetmeden Resmi Belgenize Kavuşun",
+      "cardTitle": "Deneyimli Eğitmen Kadrosu",
+      "cardDesc": "Sınavın iletişim odaklı yapısını çok iyi bilen, en az 5 yıl tecrübeli hocalar eşliğinde pratik ağırlıklı bir hazırlık dönemi geçirin.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "ÖSD sertifikası nerelerde kullanılabilir?",
+          "a": "Oturma izni alınması, üniversite ön kayıtları, çalışma müsaadesi, vatandaşlık başvuruları ve konsolosluklardaki aile birleşimi vize işlemlerinde geçerlidir."
+        },
+        {
+          "q": "ÖSD sınavının diğer sınavlardan farkı nedir?",
+          "a": "ÖSD sınavı gramer ezberinden ziyade 'iletişim odaklı' bir sınav sistemine dayanır. Adayın dili günlük hayatta ve akademik/iş ortamında ne kadar etkin kullanabildiğini ölçer."
+        },
+        {
+          "q": "Kurslarınız hangi seviyeleri kapsıyor?",
+          "a": "ÖSD sınavları A1-C2 seviyelerinde sunulmaktadır ve kurumumuz, temel başlangıçtan (A1) en üst düzeye (C2) kadar tüm modüller için özel eğitim vermektedir."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Üniversite & Kariyer",
+          "desc": "Üniversite ön kayıtları ve çalışma müsaadesi için gerekli olan dil yeterliliğini belgeleme.",
+          "icon": "Award"
+        },
+        {
+          "title": "Aile Birleşimi & Vize",
+          "desc": "Konsolosluklarda aile birleşimi ve oturma izni süreçlerinde sorunsuz kabul.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Sınav Merkezi Uyumu",
+          "desc": "ÖSD'nin iletişim odaklı merkezi sınav formatına %100 uygun çalışma ve denemeler.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Kişiselleştirilmiş Hız",
+          "desc": "Size özel hazırlanan eğitim programıyla zayıf yönlerinizi hızla kapatma fırsatı.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "ÖSD İçin Kullandığımız Kaynaklar",
+      "subtitle": "İletişim Odaklı Sınav Materyalleri",
+      "features": [
+        "A1 - C2 Seviye Çalışma Kitapları",
+        "İletişim ve Konuşma Pratiği",
+        "ÖSD Deneme Sınavı Setleri"
+      ],
+      "books": [
+        {
+          "name": "ÖSD Zertifikat Übungsmaterialien",
+          "type": "Sınav Hazırlık ve Alıştırma"
+        },
+        {
+          "name": "Mit Erfolg zum ÖSD",
+          "type": "Strateji ve Soru Çözümü"
+        },
+        {
+          "name": "Kommunikation im Alltag",
+          "type": "İletişim ve Konuşma Odaklı Pratik"
+        },
+        {
+          "name": "ÖSD Modellprüfungen",
+          "type": "Tam Kapsamlı Deneme Sınavları"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde, en az 5 yıl tecrübeli hocalarımızla yüz yüze etkileşim kurarak pratik yapma imkanı.",
+        "features": [
+          "Uzman Eğitmenle Birebir Etkileşim",
+          "İletişim Odaklı Sınıf Pratikleri",
+          "ÖSD Formatında Fiziksel Deneme",
+          "Hata Tespiti ve Anında Düzeltme"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Dilediğiniz yerden, size özel eğitim programımız dahilinde kesintisiz ve interaktif ÖSD hazırlık deneyimi.",
+        "features": [
+          "Canlı ve Etkileşimli Eğitim",
+          "Zaman ve Mekan Özgürlüğü",
+          "Dijital Deneme ve Soru Çözümleri",
+          "Kişiye Özel Takip Sistemi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "ÖSD Hazırlık Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "ÖSD sınavında başarılı olmak için nasıl bir strateji izlemeliyim?",
+          "a": "ÖSD iletişim ağırlıklı bir sınav olduğu için sadece gramer çalışmak yetmez. Eğitimlerimizde konuşma, anlama ve yazılı ifade yeteneklerinizi eş zamanlı geliştiren güncel taktikler uyguluyoruz."
+        },
+        {
+          "q": "Eğitmenlerinizin tecrübesi nedir?",
+          "a": "Sınav hazırlık programımız, alanında en az 5 yıl tecrübeli ve ÖSD'nin güncel sınav algoritmasına hakim hocalarımız tarafından yürütülmektedir."
+        },
+        {
+          "q": "Aile birleşimi için eğitiminiz ne kadar sürüyor?",
+          "a": "Öğrencinin altyapısına bağlı olarak, size özel oluşturduğumuz çalışma programıyla en kısa sürede konsolosluk standartlarındaki A1 sertifikasını almanız hedeflenmektedir."
+        }
+      ]
+    }
+  },
+  "etepLandingPage": {
+    "meta": {
+      "title": "E-TEP Sınavı Nedir? Sınav Formatı ve Hazırlık Kursu | Akademik International",
+      "description": "E-TEP (Electronic Test of English Proficiency) sınavı, ÖSYM tarafından düzenlenen dört becerili yeni nesil İngilizce yeterlilik testidir. E-TEP formatı, soru tipleri ve hazırlık kursumuz hakkında detaylı bilgi alın."
+    },
+    "hero": {
+      "title": "E-TEP Sınavına",
+      "highlight": "Akademik International ile Hazırlanın",
+      "subtitle": "ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP'te hedeflediğiniz puana uzman eğitmen kadromuzla ulaşın.",
+      "buttonText": "Eğitimleri İncele",
+      "tag": "E-TEP HAZIRLIK KURSU",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "E-TEP Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT İÇİ SINAV HAZIRLIK",
+      "description": "ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP'te hedeflediğiniz puana uzman eğitmen kadromuzla ulaşın."
+    },
+    "info": {
+      "title": "E-TEP Sınavı Nedir?",
+      "desc": "E-tep (Electronic Test of English Proficiency) sınavı, İngilizce dil yeterliliğini ölçmeyi amaçlayan bir sınavdır ve Türkiye'nin Öğrenci Seçme ve Yerleştirme Merkezi Başkanlığı (ÖSYM) tarafından düzenlenmektedir. Katılımcıların İngilizce dilindeki okuma, dinleme, yazma ve konuşma becerilerini değerlendirir."
+    },
+    "seoContent": [
+      {
+        "title": "E-TEP Sınavı Nedir?",
+        "desc": "E-tep ((Electronic- Test of English Proficiency) sınavı, İngilizce dil yeterliliğini ölçmeyi amaçlayan bir sınavdır ve bu sınav Türkiye'nin Öğrenci Seçme ve Yerleştirme Merkezi Başkanlığı (ÖSYM) tarafından düzenlenmektedir. Bu yeni sınav türü, uzun bir hazırlık sürecinin ardından 22-23 Temmuz 2023 tarihlerinde Ankara Esenboğa Sınav Merkezi'nde pilot bir uygulama gerçekleştirilmiştir.\n\nE-tep sınavı, katılımcıların İngilizce dilindeki okuma, dinleme, yazma ve konuşma becerilerini değerlendirmektir. Bu dört becerinin bir araya gelerek bireylerin genel İngilizce yeterliliğini yansıtması istenmektedir."
+      },
+      {
+        "title": "E-TEP Sınavının Amacı Nedir?",
+        "desc": "E-TEP sınavının amacı, adayların okuma, dinleme, yazma ve konuşma alanlarındaki yeteneklerini kapsamlı bir şekilde değerlendirerek dil becerilerini objektif bir biçimde ölçmektir. Ayrıca, sınav sonuçları uluslararası düzeyde kabul gören ve saygınlığı yüksek sınavlar olan TOEFL, IELTS ve PTE gibi standartlara yaklaşması hedeflenmektedir.\n\nE-TEP sınavının ileriye dönük hedefi, uluslararası alanda saygın bir konuma ulaşarak, dünya genelinde İngilizce yeterliliğini ölçen güvenilir bir referans noktası olmaktır. Bu sınavın kalitesi ve etkinliği, adayların İngilizce dilini kullanma yeteneklerini gerçekçi bir şekilde yansıtarak, eğitim ve iş dünyasındaki fırsatlarını artırmalarına yardımcı olmayı amaçlar."
+      },
+      {
+        "title": "Birinci Bölüm: Reading (Okuma) ve Listening (Dinleme) Becerileri",
+        "summary": "Okuma ve Dinleme becerilerinin ölçüldüğü bu bölüm, İngilizceyi anlama kapasitenizi test eder."
+      },
+      {
+        "title": "Reading (Okuma) Bölümü",
+        "desc": "E-TEP Sınavında Reading (okuma) bölümü, IELTS, TOEFL ve PTE sınavlarına benzer özelliklere sahiptir. Bu bölümde:",
+        "bullets": [
+          "Toplam 16 soru bulunmaktadır.",
+          "Sorular için 60 dakika süre verilmektedir.",
+          "Soru tipleri arasında çoktan seçmeli sorular, paragraf sıralama ve paragraf soruları yer almaktadır.",
+          "Metinler akademik içerikli olup, YDS ve YÖKDİL'den farklı bir formata sahiptir.",
+          "Okuma sırasında önemli yerlerin altı çizilebilir ve not alınabilir.",
+          "En çok TOEFL reading bölümüne benzerlik göstermektedir."
+        ]
+      },
+      {
+        "title": "Listening (Dinleme) Bölümü",
+        "desc": "E-TEP Sınavındaki Listening (dinleme) bölümü, uluslararası sınavların dinleme formatlarını karma biçimde içermektedir:",
+        "bullets": [
+          "Toplam 27 soru bulunmaktadır.",
+          "Sorular için 36 dakika süre verilmektedir.",
+          "İlk iki ses dosyası diğer akademik sınavlara göre daha yavaş tempodadır.",
+          "Çoğunlukla üç şıklı, kısa sorulardan oluşmaktadır.",
+          "IELTS'in çoktan seçmeli ilk bölümlerine benzerlik göstermektedir.",
+          "Ses dosyaları ve videolar Türk konuşmacılar tarafından seslendirilmektedir.",
+          "Video içerikli entegre beceri soruları da bulunmaktadır."
+        ]
+      },
+      {
+        "title": "İkinci Bölüm: Writing (Yazma) ve Speaking (Konuşma) Becerileri",
+        "desc": "Bu bölüm, dil üretme ve ifade etme yeteneklerini test eder. Adayların yaratıcı ve mantıklı bir şekilde düşüncelerini yazılı ve sözlü olarak ifade edebilme yeteneklerini öne çıkarır."
+      },
+      {
+        "title": "Writing (Yazma) Bölümü",
+        "desc": "E-TEP Sınavı Writing (Yazma) bölümü, uluslararası sınavların yazma formatlarını karma biçimde içermektedir:",
+        "bullets": [
+          "Toplam 2 task bulunmaktadır.",
+          "Tüm bölüm için 50 dakika süre verilmektedir.",
+          "Task 1: Blog/e-posta yazma formatında olup, belirli bir durum veya konuyla ilgili resmi olmayan bir yazı yazmanız istenir. Bu task, IELTS General Training yazma bölümündeki mektup/e-posta formatına benzer yapıdadır.",
+          "Task 2: Görsel bir materyal (grafik, tablo vs.) ve dinlenen podcast içeriğinden alınan bilgileri analiz ederek rapor şeklinde yazmanız istenir. Bu task, TOEFL sınavının entegre yazma bölümünde olduğu gibi birden fazla kaynaktan alınan bilgileri sentezleme becerinizi ölçer.",
+          "Word limitleri task türüne göre 130-300 kelime arasında değişmektedir."
+        ]
+      },
+      {
+        "title": "Speaking (Konuşma) Bölümü",
+        "desc": "E-TEP Sınavı Speaking bölümü, karma bir formatta hazırlanmış olup uluslararası sınavların konuşma bölümlerinden esinlenilmiştir:",
+        "bullets": [
+          "Toplam 4 task bulunmaktadır.",
+          "Tüm bölüm için 11 dakika süre verilmektedir.",
+          "İlk task bir \"warm-up\" niteliğinde olup değerlendirmeye alınmamaktadır. (kendinizi tanıtma)",
+          "PTE ve TOEFL Speaking yapısına benzer özellikler taşımaktadır.",
+          "TRT World'den alınan video içeriklere dair görüş bildirme soruları bulunmaktadır.",
+          "Sınav esnasında tüm adaylar aynı anda konuştuğu için ses karışması olabilmektedir."
+        ]
+      },
+      {
+        "title": "E-tep Sınavına Kimler Katılabilir?",
+        "desc": "E-TEP sınavına başvuracak adayların en az B2 seviyesinde Genel İngilizce yeteneğine sahip olmaları veya YDS, E-YDS gibi ulusal ve uluslararası İngilizce sınavlarında 70 puan ve üstü almış olmaları beklenir. Adaylar, sınavın gerektirdiği özel becerilere yönelik hazırlık yapmalı ve sınavın farklı bölümlerine yönelik çalışmalıdır.\n\nE-TEP Sınavı hakkında daha fazla bilgi edinmek ve detaylı açıklamalar almak için İstanbul, Bursa, İzmir ve Ankara şubelerimizden, uzmanlarımızla görüşebilir ve sınavla ilgili merak ettiğiniz tüm sorulara yanıt bulabilirsiniz."
+      },
+      {
+        "title": "E-TEP Sınav Süresi Ne Kadar?",
+        "desc": "E-TEP sınavının süresi 160 dakika olarak belirlendi. Ancak sınav şu an pilot uygulama aşamasında bulunuyor ve ilerleyen dönemlerde süre kısaltılabileceği düşünülüyor.\n\nE-TEP sınavı iki ana bölümden oluşmaktadır:"
+      },
+      {
+        "title": "E-TEP Sınavı Birinci Bölüm Süresi: Reading ve Listening",
+        "bullets": [
+          "Reading bölümünde toplamda 16 soru bulunmakta olup, adaylara bu soruları yanıtlamaları için 60 dakika süre verilmektedir.",
+          "Listening bölümünde ise toplamda 27 soru bulunmakta olup, adaylara bu soruları yanıtlamaları için 36 dakika süre verilmektedir.",
+          "Birinci bölüm tamamlandıktan sonra 5 dakikalık bir ara verilmektedir."
+        ]
+      },
+      {
+        "title": "E-TEP Sınavı İkinci Bölüm Süresi: Speaking ve Writing",
+        "bullets": [
+          "Speaking bölümü 4 farklı task içermekte olup, adaylara bu bölüm için toplam 11 dakika süre verilmektedir.",
+          "Writing bölümü 2 farklı task içermekte olup, adaylara bu yazma bölümü için toplam 50 dakika süre verilmektedir."
+        ]
+      },
+      {
+        "title": "E-TEP Sınavının İçeriği: Detaylı Bölüm Analizi",
+        "desc": "E-TEP Sınavı, dil becerilerini ayrıntılı bir şekilde değerlendiren iki bölümden oluşur: Okuma ve Dinleme becerilerinin ölçüldüğü birinci bölüm ile Yazma ve Konuşma becerilerinin ele alındığı ikinci bölüm. Her iki bölüm de adayların İngilizce dil yeteneklerini geniş bir perspektiften incelemeyi amaçlar."
+      },
+      {
+        "title": "E-TEP Sınavı Kayıt ve Uygulama Süreci",
+        "desc": "E-TEP sınavına giriş süreci, diğer sınavlardan farklılık göstermektedir:",
+        "bullets": [
+          "Sınav merkezine girişte güvenlik kontrolü yapılmaktadır.",
+          "Adaylar e-mail ve numara bilgileriyle kendileri login işlemi gerçekleştirmektedir.",
+          "Sisteme giriş sonrası fotoğraf çekimi yapılmaktadır.",
+          "\"Exam Manual\" butonundan sınav talimatlarını incelemek gerekmektedir.",
+          "Her ana bölüm arasında 5 dakikalık ara bulunmaktadır.",
+          "İkinci bölüme geçişte tekrar login ve fotoğraf çekimi yapılmaktadır.",
+          "Sınava su getirme serbestisi vardır ancak tedarik edilmemektedir."
+        ]
+      },
+      {
+        "title": "E-TEP'in Uluslararası Sınavlarla Karşılaştırması",
+        "desc": "E-TEP sınavı, bilirkişinin değerlendirmesine göre, uluslararası tanınmış sınavların hibrit bir versiyonu niteliğindedir:",
+        "bullets": [
+          "Reading: TOEFL Reading'e daha yakın bir format içerir, akademik metinler ve soru tipleri benzerlik gösterir.",
+          "Listening: IELTS Listening'in çoktan seçmeli sorularına benzer yapıda, ancak video içerikler de bulundurur.",
+          "Speaking: PTE sınavındaki giriş bölümü (warm-up) ve TOEFL entegre speaking bölümlerinin karışımı şeklinde tasarlanmıştır.",
+          "Writing: IELTS General Training Task 1 formatında e-posta/blog yazımı ve TOEFL entegre yazma bölümünde olduğu gibi multimedya içeriklerine dayalı kompozisyon yazımı içerir."
+        ]
+      },
+      {
+        "title": "E-TEP Sınavına Hazırlık Stratejileri",
+        "desc": "E-TEP sınavına hazırlık için önerilen stratejiler:",
+        "bullets": [
+          "Sınav Formatını Tanıma: Sınav öncesinde mutlaka soru türlerini ve formatını öğrenin.",
+          "Akademik Okuma Becerileri: IELTS ve TOEFL tarzı akademik metinlere çalışın.",
+          "Dinleme Pratiği: Farklı aksanlarda dinleme pratiği yapın, TRT World içeriklerini takip edin.",
+          "Konuşma Alıştırmaları: Sınav formatına uygun, zaman kısıtlı konuşma alıştırmaları yapın.",
+          "Entegre Beceriler: Dinlediğiniz/okuduğunuz içerikler hakkında yazma ve konuşma pratiği yapın.",
+          "Zaman Yönetimi: Her bölüm için zaman yönetimi stratejilerini öğrenin.",
+          "Model Testler: Mümkünse ÖSYM'nin yayınlayacağı E-TEP model testlerini çözün."
+        ]
+      }
+    ],
+    "prosConsTable": {
+      "title": "E-TEP Sınavının Artıları ve Geliştirilmesi Gereken Yönleri",
+      "headers": [
+        "Sınavın Artı Yönleri",
+        "Sınavın Geliştirilmesi Gereken Yönleri"
+      ],
+      "rows": [
+        {
+          "pro": "Dört beceriyi (okuma, dinleme, yazma, konuşma) kapsamlı biçimde ölçen ulusal bir sınav olması",
+          "con": "Speaking bölümünde tüm adayların aynı anda konuşması nedeniyle ses karmaşası yaşanması"
+        },
+        {
+          "pro": "Uluslararası sınavlara göre daha cömert süre kısıtlamaları sunması",
+          "con": "Bazı bölümlerde talimatların karmaşık olabilmesi"
+        },
+        {
+          "pro": "Okuma bölümünde not alma, işaretleme ve altını çizme imkanı tanıması",
+          "con": "Yeni bir sınav olduğu için örnek soru sayısının sınırlı olması"
+        },
+        {
+          "pro": "İki kere login yapılması sayesinde güvenlik seviyesinin artırılması",
+          "con": "Uluslararası denklik süreçlerinin henüz tamamlanmamış olması"
+        },
+        {
+          "pro": "Hibrit yapısıyla birden fazla sınav formatını bir arada içermesi",
+          "con": "Sınav sonuçlarının geçerlilik süresinin ve kabul edilebilirliğinin henüz netleşmemiş olması"
+        }
+      ]
+    },
+    "faq": {
+      "title": "E-TEP Sınavı Hakkında Sıkça Sorulan Sorular",
+      "desc": "E-TEP sınavı hakkında merak edilen tüm soruların cevaplarını bu sayfada bulabilirsiniz.",
+      "items": [
+        {
+          "q": "E-TEP sınavı uluslararası geçerliliğe sahip midir?",
+          "a": "E-TEP sınavı şu an için tam anlamıyla uluslararası geçerliliğe sahip değildir, ancak ÖSYM tarafından bu yönde aktif çalışmalar yürütülmektedir. Türkiye'nin ilk dört becerili İngilizce yeterlilik testi olarak geliştirilen E-TEP, uluslararası tanınmış sınavların hibrit formatını kullanarak, küresel standartlara uyum sağlama hedefiyle tasarlanmıştır. Sınav henüz pilot uygulama ve geliştirilme aşamasında olduğundan, şu aşamada denklik ve tanınırlık süreçleri devam etmektedir. ÖSYM'nin resmi web sitesini ve E-TEP ile ilgili duyuruları düzenli olarak kontrol etmeniz önerilir."
+        },
+        {
+          "q": "E-TEP sınavı için gerekli İngilizce seviyesi nedir?",
+          "a": "E-TEP sınavı için gerekli İngilizce seviyesi, ÖSYM'nin belirlediği kriterlere göre en az B2 düzeyinde olmalıdır. Adayların sınava başvurabilmeleri için CEFR standartlarında B2 seviyesinde Genel İngilizce yeterliliğine sahip olmaları veya YDS, E-YDS gibi sınavlardan 70 puan ve üzeri almış olmaları beklenmektedir."
+        },
+        {
+          "q": "E-TEP sınavında başarılı olmak için tavsiyeler nelerdir?",
+          "a": "ÖSYM'nin bu dört becerili İngilizce testinin formatını iyi tanıyın ve en az B2 seviyesinde hazırlık yapın. Okuma için akademik metinler, dinleme için TRT World içerikleri, yazma için e-posta/blog ve rapor yazımı, konuşma için video yorumlama pratikleri yapın. TOEFL ve IELTS formatlarını inceleyin."
+        },
+        {
+          "q": "E-TEP sınavı akademik İngilizce ölçümünde ne kadar etkindir?",
+          "a": "ÖSYM tarafından geliştirilen bu yeni nesil İngilizce yeterlilik testi, akademik İngilizce ölçümünde oldukça etkin bir araçtır. Dört temel dil becerisini kapsamlı şekilde değerlendiren sınav; akademik metinleri anlama, analiz etme, görsel materyalleri yorumlayarak akademik rapor yazma ve video içerikler hakkında görüş bildirme gibi üniversite ortamında gerekli olan tüm becerileri test etmektedir. YÖK tarafından tanınmaktadır."
+        },
+        {
+          "q": "E-TEP sınavı için hangi kaynaklar önerilir?",
+          "a": "ÖSYM'nin yayınladığı örnek sorular temel alınmalıdır. Akademik International Yabancı Dil Kursu'nun özel E-TEP hazırlık setleri ve online platformları da sınava yönelik hedefli çalışma imkanı sunmaktadır. Ayrıca TOEFL iBT, IELTS Academic ve PTE Academic hazırlık kitapları ile TRT World, BBC Academic, The Economist gibi kaynaklar önerilir."
+        }
+      ]
+    },
+    "about": {
+      "badge": "YENİ NESİL SINAV",
+      "title": "E-TEP Nedir ve Kimler Girmelidir?",
+      "desc": "E-tep (Electronic Test of English Proficiency) sınavı, İngilizce dil yeterliliğini ölçmeyi amaçlayan bir sınavdır ve Türkiye'nin Öğrenci Seçme ve Yerleştirme Merkezi Başkanlığı (ÖSYM) tarafından düzenlenmektedir. Katılımcıların İngilizce dilindeki okuma, dinleme, yazma ve konuşma becerilerini değerlendirir.<br/><br/><b>Sınava Kimler Katılır?</b> En az B2 seviyesinde Genel İngilizce yeteneğine sahip olanlar veya YDS, E-YDS gibi sınavlarda 70 puan ve üstü alan adaylar başvurabilir. Yükseköğrenim kurumlarında akademik personel yeterliliği ve yurtdışı eğitim/kariyer fırsatları için kullanılır.",
+      "skills": [
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Akademik metinler üzerinde TOEFL formatına benzer şekilde analiz, okuduğunu anlama ve not alma becerileri."
+        },
+        {
+          "id": "listening",
+          "title": "Listening (Dinleme)",
+          "desc": "IELTS benzeri çoktan seçmeli sorularla TRT World gibi kaynaklardan dinleme becerileri."
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Blog/E-posta formatında ve multimedya içerikli akademik rapor/kompozisyon yazma becerileri."
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking (Konuşma)",
+          "desc": "Süre kısıtlaması altında akademik ve güncel konularda, TOEFL/PTE tarzında sözlü ifade becerileri."
+        }
+      ]
+    }
+  }
 }

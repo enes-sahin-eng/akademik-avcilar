@@ -1,59 +1,16 @@
 import React from "react";
-import styles from "./UpcomingProgramsTable.module.css";
-import { motion } from "framer-motion";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { UpcomingProgramsTableClient } from "./UpcomingProgramsTableClient";
 
-export const UpcomingProgramsTable = () => {
-  const dict = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const UpcomingProgramsTable = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
   const tableData = (dict as any)?.homeContentSection?.upcomingProgramsTable;
 
   if (!tableData) return null;
-  return (
-    <motion.div 
-      className={styles.tableWrapper}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className={styles.gridContainer}>
-        {tableData.programs.map((prog: any, i: number) => (
-          <motion.div 
-            key={i} 
-            className={`${styles.programCard} ${prog.status === 'full' ? styles.cardFull : styles.cardAvailable}`}
-            whileHover={{ y: -5 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            <div className={styles.cardHeader}>
-              <h3 className={styles.programName}>{prog.code}</h3>
-              <span className={`${styles.statusBadge} ${prog.status === 'full' ? styles.badgeFull : styles.badgeAvailable}`}>
-                {prog.status === "full" ? tableData.statusFull : tableData.statusAvailable}
-              </span>
-            </div>
-            
-            <div className={styles.cardBody}>
-              <div className={styles.dateInfo}>
-                <div className={styles.dateItem}>
-                  <span className={styles.dateLabel}>{tableData.headers[1]}</span>
-                  <span className={styles.dateValue}>{prog.start}</span>
-                </div>
-                <div className={styles.dateDivider}></div>
-                <div className={styles.dateItem}>
-                  <span className={styles.dateLabel}>{tableData.headers[2]}</span>
-                  <span className={styles.dateValue}>{prog.end}</span>
-                </div>
-              </div>
-            </div>
 
-            <div className={styles.cardFooter}>
-              <a href="#" className={styles.detailBtn}>
-                {tableData.detailBtn}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </a>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </motion.div>
-  );
+  return <UpcomingProgramsTableClient tableData={tableData} />;
 };

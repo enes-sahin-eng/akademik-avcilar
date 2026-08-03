@@ -1,8 +1,6 @@
-"use client";
-
 import React from "react";
 import styles from "./CourseInfoSection.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { BookOpen, BookA, PenTool, Mic } from "lucide-react";
 
 const getIcon = (id: string) => {
@@ -27,10 +25,11 @@ const getIconColorClass = (index: number) => {
 
 interface Props {
   courseKey: string;
+  lang: Locale;
 }
 
-export const CourseInfoSection = ({ courseKey }: Props) => {
-  const dictionary = useDictionary();
+export const CourseInfoSection = async ({ courseKey, lang }: Props) => {
+  const dictionary = await getDictionary(lang);
   const pageData = (dictionary as any)[courseKey]?.about;
 
   if (!pageData) return null;
@@ -40,22 +39,26 @@ export const CourseInfoSection = ({ courseKey }: Props) => {
       <div className={styles.container}>
         <div className={styles.contentWrapper}>
           <div className={styles.textContent}>
-            {pageData.badge && <div className={styles.badge}>{pageData.badge}</div>}
+            {pageData.badge && (
+              <div className={styles.badge}>{pageData.badge}</div>
+            )}
             <h1 className={styles.title}>{pageData.title}</h1>
-            <div 
-              className={styles.desc} 
-              dangerouslySetInnerHTML={{ __html: pageData.desc }} 
+            <div
+              className={styles.desc}
+              dangerouslySetInnerHTML={{ __html: pageData.desc }}
             />
           </div>
-          
+
           <div className={styles.skillsGrid}>
             {pageData.skills?.map((skill: any, index: number) => (
               <div key={index} className={styles.skillCard}>
-                <div className={`${styles.iconWrapper} ${getIconColorClass(index)}`}>
+                <div
+                  className={`${styles.iconWrapper} ${getIconColorClass(index)}`}
+                >
                   {getIcon(skill.id)}
                 </div>
                 <h3 className={styles.skillTitle}>{skill.title}</h3>
-                <div 
+                <div
                   className={styles.skillDesc}
                   dangerouslySetInnerHTML={{ __html: skill.desc }}
                 />

@@ -1,53 +1,47 @@
-"use client";
-
 import React from "react";
 import styles from "./HomeContentSection.module.css";
 import { HappyHoursBanner } from "./HappyHoursBanner";
 import { HomeArticle } from "./HomeArticle";
 import { FAQSection } from "./FAQSection";
-import { MapsEmbed } from "../ui/MapsEmbed";
 import { Leaderboard } from "./Leaderboard";
 import { UpcomingProgramsTable } from "./UpcomingProgramsTable";
 import { ProgramTabsSection } from "./ProgramTabsSection";
-import { useDictionary } from "../../../src/context/DictionaryContext";
-import { motion } from "framer-motion";
+import { MapsEmbed } from "../ui/MapsEmbed";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
-export const HomeContentSection = () => {
-  const dict = useDictionary();
-  const programsTitle = dict?.homeContentSection?.programsTitle;
+interface Props {
+  lang: Locale;
+}
+
+export const HomeContentSection = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
+  const programsTitle = (dict as any)?.homeContentSection?.programsTitle;
 
   return (
     <section className={styles.sectionContainer}>
       <div className={styles.grid}>
-        
-        {/* Left Column */}
+
+        {/* Sol kolon — SEO kritik metinler, Reveal/framer-motion YOK */}
         <div className={styles.leftColumn}>
           <HappyHoursBanner />
-          <HomeArticle />
-          <FAQSection />
+          <HomeArticle lang={lang} />
+          <FAQSection lang={lang} />
         </div>
 
-        {/* Right Column */}
+        {/* Sağ kolon */}
         <div className={styles.rightColumn}>
-          <MapsEmbed />
           <Leaderboard />
+          <MapsEmbed />
         </div>
       </div>
 
       <ProgramTabsSection />
 
       {programsTitle && (
-        <motion.h2 
-          className={styles.programsTitle}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          {programsTitle}
-        </motion.h2>
+        <h2 className={styles.programsTitle}>{programsTitle}</h2>
       )}
-
-      <UpcomingProgramsTable />
+      
+      <UpcomingProgramsTable lang={lang} />
     </section>
   );
 };
