@@ -6570,5 +6570,2295 @@
         }
       ]
     }
+  },
+  "kadikoyAlmancaLandingPage": {
+    "hero": {
+      "tag": "KADIKÖY ALMANCA KURSU",
+      "title": "Kadıköy'de Hedefinize Yönelik, Yetişkinlere Özel Almanca Eğitimi",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HEDEFE GİDEN YOL!",
+      "formSubtitle": "Kadıköy Almanca Kursumuz İçin Hemen Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Eğitim Hedefiniz (Sınav, Kariyer, Aile Birleşimi)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: ALMANCA DİL EĞİTİMİ",
+      "description": "Türkiye'de ilk kez uygulanan yetişkin bireylere özel yabancı dil müfredatı ile, Kadıköy'ün merkezinde ezberden uzak, tamamen amaca yönelik bir sistemle Almanca öğrenin.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Native Speaker Eğitmenler ve Güncel Materyaller!"
+    },
+    "about": {
+      "badge": "AMACA YÖNELİK EĞİTİM",
+      "title": "İhtiyacınıza Özel Almanca Programları",
+      "desc": "Dil eğitimi, sadece gramer kurallarını öğrenmek değil, o dili bir yaşam biçimi haline getirmektir. Kurumumuzu Kadıköy'deki diğer Almanca kursları arasında farklı kılan en temel özellik eğitim metodolojimizdir.<br/><br/><b>Yetişkin Müfredatı:</b> Demode olmuş ve 'okul tipi' kalıplaşmış eğitim modellerinin aksine, her yaş grubu ve öğrenme amacı için özel bir müfredat hazırlarız. Bu sayede zaman kaybetmez, ihtiyacınız olan Almancayı en verimli şekilde öğrenirsiniz.<br/><br/><b>Birebir İlgi:</b> Grup saatleri size uymuyorsa veya öğrenme sürecini hızlandırmak istiyorsanız, tamamen takviminize ve eksiklerinize göre şekillenen kişiye özel Kadıköy Almanca Özel Ders seçeneklerimizden faydalanabilirsiniz.",
+      "skills": [
+        {
+          "id": "exam_focused",
+          "title": "Sınav Odaklı Eğitimler",
+          "desc": "Goethe, Telc ve TestDaF gibi üniversite veya iş başvurularında geçerli sertifikalar için sınav tekniklerine yönelik stratejik çalışmalar."
+        },
+        {
+          "id": "family_reunion",
+          "title": "Aile Birleşimi (A1)",
+          "desc": "Vize süreci için gerekli olan temel Almanca (Start Deutsch A1) eğitimi ve doğrudan sınava yönelik hazırlık."
+        },
+        {
+          "id": "general_german",
+          "title": "Genel Almanca Kursu",
+          "desc": "Günlük hayatta akıcı konuşmayı hedefleyenler için interaktif, iletişime ve pratiğe dayalı odaklı gruplar."
+        },
+        {
+          "id": "private_lessons",
+          "title": "Kişiye Özel Program",
+          "desc": "Dinamik bir eğitim modeliyle kontenjan veya dönem başı beklemeden, hedefinize uygun anında planlama."
+        }
+      ],
+      "description": "İstanbul Almanca kursu arayışında en kritik nokta olan amaca yönelik sınıflar, doğru seviye tespiti ve aktif kullanım anlayışıyla beklentilerinizi karşılıyoruz.",
+      "features": [
+        "Türkiye'de ilk kez yetişkin bireyler için oluşturulmuş özel Almanca müfredatı.",
+        "Londra merkezli The Academic Publishing kaynakları ile global standartlarda eğitim.",
+        "Native speaker (anadili Almanca olan) eğitmenler ve sertifikalı öğretim kadrosu.",
+        "Düzenli ders dışı aktiviteler ve kültürel deneyim olanakları."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Kadıköy Almanca Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İstanbul'da Almanca kursu tavsiyesi ararken nelere dikkat edilmeli?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili Almanca olan uzman eğitmen kadrosu.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle Alman kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
+      "books": [
+        {
+          "name": "The Academic German B1-B2",
+          "type": "Genel ve Orta Düzey Almanca"
+        },
+        {
+          "name": "Prüfungstraining (Goethe, Telc)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interaktives Sprechen",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Wortschatz Aktuell",
+          "type": "Modern Kelime Dağarcığı"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kadıköy'ün merkezindeki şubemizde, yetişkin müfredatı ve native eğitmenlerle interaktif yüz yüze Almanca dersleri.",
+        "features": [
+          "Uzman Eğitmenle Birebir İletişim",
+          "İletişim Odaklı ve Pratik Ağırlıklı Sınıflar",
+          "Akşam ve Hafta Sonu Esnek Grupları",
+          "Ders Dışı Kültürel Aktiviteler"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "İstanbul trafiğine takılmadan, nerede olursanız olun interaktif altyapımızla Kadıköy standartlarında Almanca eğitimi.",
+        "features": [
+          "Canlı ve İnteraktif Ders Deneyimi",
+          "Online Birebir (Özel Ders) Seçenekleri",
+          "Dijital Yayın ve Doküman Desteği",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Kadıköy Almanca Kursu Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Sıfırdan başlayan biri ne kadar sürede Almanca konuşabilir?",
+          "a": "Düzenli katılım ve yetişkinlere özel müfredatımızın takibiyle, ortalama 6-8 ay içerisinde günlük ihtiyaçlarınızı karşılayacak ve kendinizi ifade edebilecek seviyeye (B1) gelebilirsiniz."
+        },
+        {
+          "q": "Çalışanlar için akşam veya hafta sonu gruplarınız var mı?",
+          "a": "Yetişkin müfredatı uygulayan bir kurum olarak hedef kitlemizin yoğunluğunu biliyoruz. Mesai saatleri dışında katılım sağlayabileceğiniz hafta içi akşam programları veya sadece hafta sonlarını değerlendirebileceğiniz sabah/öğlen gruplarımız mevcuttur."
+        },
+        {
+          "q": "Yeni bir gruba başlamak için dönem başını beklemeli miyim?",
+          "a": "Kadıköy Almanca kursumuzda klasik ve hantal işleyen kur sistemleri yerine, dinamik bir eğitim modeli uygulanır. Yetişkinlere özel hazırlanan müfredatımız sayesinde, genel dönem başlangıç tarihlerini veya kontenjan dolmasını beklemenize gerek kalmaz. Planlama yapıldığı an eğitime başlarsınız."
+        },
+        {
+          "q": "Goethe, Telc ve TestDaF için Almanca kursu var mı?",
+          "a": "Evet. İstanbul Kadıköy, Avcılar ve Çekmeköy Almanca kursu şubelerimizde, sınav odaklı eğitimler kapsamında Goethe, Telc ve TestDaF hedefleri için stratejik çalışmalar yürütülür. Okuma, yazma, dinleme ve konuşma becerileri dengeli bir şekilde desteklenir."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "İstanbul En İyi Almanca Kursu Standartları",
+        "desc": "İstanbul en iyi Almanca kursu arayışında başarı, yalnızca müfredatın varlığıyla değil; ders içeriğinin güncelliği, kaynak kalitesi ve öğretim metodunun hedef odaklı olmasıyla ölçülür. Kadıköy Almanca kursu programlarımızda, eğitimdeki öğrenme hızınızı doğrudan etkileyecek olan Londra merkezli The Academic Publishing yayınlarını kullanıyoruz. Bu sayede eski ve sıkıcı metinler yerine güncel konuları ele alıyor, modern kelime yapılarına hakim oluyorsunuz. Dil yetkinliğiniz global standartlarda en üst seviyeye taşınıyor.",
+        "bullets": [
+          "Yetişkinlere özel olarak geliştirilmiş yenilikçi dil müfredatı",
+          "Gramer ezberinden uzak, konuşturma ve pratik odaklı ders işleyişi",
+          "Kariyer hedeflerinize ve vize süreçlerinize (Aile Birleşimi vb.) uygun eğitim",
+          "Eksiklerinize odaklanan kişiye özel özel ders (birebir) seçenekleri"
+        ],
+        "summary": "İnternetteki yorumlar arasında kaybolmayın; dünya standartlarında, konuşturmaya yönelik eğitim modelimizle hedefinize garantili şekilde ulaşın."
+      },
+      {
+        "title": "İstanbul Almanca Kursu Fiyatları 2026",
+        "desc": "2026 yılı İstanbul Almanca kursu fiyatları genel olarak 15.000 ₺ ile 45.000 ₺ arasında değişkenlik gösterebilmektedir. Fiyatlar; seçilen seviye (A1–C2), eğitim programı türü (genel Almanca / sınav odaklı / aile birleşimi), haftalık ders planı, ders kapsamına ve özel ders tercihlerine göre şekillenir. Akademik Yabancı Dil Kursu Kadıköy şubesinde, bütçenize ve hedefinize en uygun, tamamen size özel programlar tasarlanır.",
+        "bullets": [
+          "Hedeflenen seviyeye (Örn: A1 veya B2) göre değişen paket program avantajları",
+          "Genel Almanca ve Sınav (Goethe, Telc, TestDaF) odaklı program fiyatlandırmaları",
+          "Kampanya ve dönemsellik faktörleriyle değişebilen avantajlı tutarlar",
+          "Kayıt öncesi öğrencinin hedefine göre yapılan ücretsiz planlama ve seviye tespiti"
+        ],
+        "summary": "Net fiyatlar ve size en uygun eğitim paketini belirlemek için kayıt öncesi uzman eğitim danışmanlarımızla iletişime geçebilirsiniz."
+      }
+    ]
+  },
+  "aileBirlesimiLandingPage": {
+    "hero": {
+      "tag": "AİLE BİRLEŞİMİ KURSU",
+      "title": "Almanya Vizesi İçin Start Deutsch A1 Sınavında Kesin Başarı",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ALMANYA HAYALİNİZ İÇİN İLK ADIM!",
+      "formSubtitle": "Aile Birleşimi Kursumuz İçin Hemen Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Eğitim Almak İstediğiniz Şube (Örn: Kadıköy, Beşiktaş)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: VİZE VE OTURMA İZNİ",
+      "description": "Alman Konsolosluğu'nun vize taleplerinde zorunlu kıldığı Aile Birleşimi sınavına, anadili Almanca olan uzman eğitmenlerimizle eksiksiz hazırlanın.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "4 Temel Beceri ve Doğrudan Hedefe Yönelik Müfredat!"
+    },
+    "about": {
+      "badge": "VİZE ONAYI İÇİN ŞART",
+      "title": "Almanca Aile Birleşimi Kursu Nedir?",
+      "desc": "Oturma izni yasası sebebiyle, Almanya'daki eşinin yanına yerleşmek isteyen yabancılara henüz vize talebinde bulunurken kendi ülkesinde basit düzeyde Almanca bilgisine sahip olduğunu kanıtlama zorunluluğu getirilmektedir.<br/><br/><b>Genel Almanca Değildir!</b> Akademik Batı Dilleri Almanca Aile Birleşimi kursumuz; genel Almanca kursu değildir. Eğitim programımız tamamen Goethe Enstitüsü Aile Birleşimi (Start Deutsch A1) sınavına uygun planlanmış olup, Almanca eğitimi Basic düzeyde cümle yapılarıyla öğretilir.",
+      "skills": [
+        {
+          "id": "horen",
+          "title": "Hören (Dinleme)",
+          "desc": "Günlük hayattaki kısa duyuruları, telefon mesajlarını ve basit soruları anlama pratiği."
+        },
+        {
+          "id": "lesen",
+          "title": "Lesen (Okuma)",
+          "desc": "Kısa notlar, ilanlar, yönlendirme levhaları ve basit formlardaki bilgileri kavrama becerisi."
+        },
+        {
+          "id": "schreiben",
+          "title": "Schreiben (Yazma)",
+          "desc": "Kısa kişisel mesajlar yazabilme ve vize/kayıt süreçleri için gerekli basit formları doldurma."
+        },
+        {
+          "id": "sprechen",
+          "title": "Sprechen (Konuşma)",
+          "desc": "Kendini tanıtma, basit sorular sorma ve günlük hayatta temel düzeyde iletişim kurma yeteneği."
+        }
+      ],
+      "description": "Aile Birleşimi Almanya'ya gelecek olan kişilerin, en azından basit bir şekilde Almanca dilini günlük hayatında konuşabilecek, iletişim kuracak duruma getirilmesini amaçlamaktadır.",
+      "features": [
+        "Sınav kaygınızı yenmenizi sağlayacak, hedefe doğrudan odaklanan teknik müfredat.",
+        "Almanya'da ikamet etmiş ve Alman kültürünü çok iyi tanıyan profesyonel eğitim kadrosu.",
+        "Goethe Start Deutsch sınav sisteminin 4 temel bölümüne (Okuma, Yazma, Dinleme, Konuşma) özel hazırlık.",
+        "Lisans ve lisansüstü eğitim modeli standartlarıyla zenginleştirilmiş Basic düzey anlatım."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Aile Birleşimi Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Geleceğinizi Oluştururken Riske Girmeyin",
+      "cardTitle": "Anadili Almanca Olan (Native) Kadro",
+      "cardDesc": "Sadece gramer öğreten değil, Alman kültürünü tanıtan ve Aile Birleşimi sınav yönetmeliğine tam hakim eğitmenlerle çalışın.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Bu kursun genel Almanca kurslarından farkı nedir?",
+          "a": "Genel Almanca kursları dili uzun sürede tüm yönleriyle öğretmeyi hedeflerken, bu kurs doğrudan Alman Konsolosluğu'nun istediği Start Deutsch A1 sınavını başarıyla geçmeniz için tasarlanmış nokta atışı bir programdır."
+        },
+        {
+          "q": "Sınavda hangi beceriler ölçülüyor?",
+          "a": "Start Deutsch A1 sınavı; Hören (Dinleme), Lesen (Okuma), Schreiben (Yazma) ve Sprechen (Konuşma) olmak üzere dört ayrı bölümden oluşmaktadır."
+        },
+        {
+          "q": "Eğitimlere hangi şubelerinizde katılabilirim?",
+          "a": "Geleceğinizi oluşturmak ve sınav kaygınızı yenmek için sizleri Kadıköy ve Beşiktaş şubelerimize bekliyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Kültürel Uyum",
+          "desc": "Aile Birleşimi kursu, sadece sınavı geçmek değil, aynı zamanda Alman kültürünü yakından tanımaktır.",
+          "icon": "Award"
+        },
+        {
+          "title": "Stres Yönetimi",
+          "desc": "Sınav kaygısını yenmeye yönelik uygulanan teknik müfredat ve psikolojik motivasyon desteği.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Merkezi Konumlar",
+          "desc": "Kadıköy ve Beşiktaş şubelerimizde, ulaşımı son derece kolay noktalarda kaliteli eğitim alma fırsatı.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Goethe Formatı",
+          "desc": "Sınavda sürpriz yaşamamanız için, Goethe Enstitüsü kurallarına ve puanlamasına %100 uygun denemeler.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Aile Birleşimi (A1) İçin Kullandığımız Kaynaklar",
+      "subtitle": "Sınav Başarınızı Garantileyen Özel Materyaller",
+      "features": [
+        "Goethe A1 Formatına Uygun",
+        "Temel Cümle Yapıları (Basic)",
+        "Görsel ve İşitsel Pratikler"
+      ],
+      "books": [
+        {
+          "name": "Fit fürs Goethe-Zertifikat A1",
+          "type": "Sınav Antrenman Seti"
+        },
+        {
+          "name": "Start Deutsch 1 Übungstests",
+          "type": "Çıkmış Soru Formatında Denemeler"
+        },
+        {
+          "name": "A1 Wortschatz & Grammatik",
+          "type": "Temel Kelime ve Dil Bilgisi"
+        },
+        {
+          "name": "Hören & Sprechen A1",
+          "type": "Dinleme ve Konuşma Pratiği"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kadıköy ve Beşiktaş şubelerimizde, anadili Almanca olan eğitmenlerimizle yüz yüze, motivasyonu yüksek A1 hazırlığı.",
+        "features": [
+          "Native Eğitmenle Yüz Yüze Pratik",
+          "Sınıf İçi Konuşma (Sprechen) Çalışmaları",
+          "Fiziksel Deneme Sınavları Uygulaması",
+          "Alman Kültürüne Dair Aktarımlar"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Şubelerimize gelemeyen adaylar için, evinizin konforunda doğrudan Start Deutsch A1 sınavına hazırlayan interaktif program.",
+        "features": [
+          "Canlı ve Etkileşimli Dersler",
+          "Dijital Ortamda Okuma ve Dinleme",
+          "Zaman ve Mekan Özgürlüğü",
+          "Kesintisiz Eğitmen Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Aile Birleşimi Vizesi ve Sınavı Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Almanca seviyem sıfır, bu kursa katılabilir miyim?",
+          "a": "Kesinlikle. Eğitimlerimiz tamamen Almanca bilmeyen (Basic düzey) adaylara göre sıfırdan başlar ve temel cümle yapıları adım adım, sınav odaklı bir şekilde öğretilir."
+        },
+        {
+          "q": "Start Deutsch A1 sınavından geçmek zor mu?",
+          "a": "Doğru teknikler, Alman kültürünü tanıyan profesyonel kadromuz ve Goethe sınav formatına birebir uygun pratiklerimizle sınav kaygınızı yenerek ilk girişinizde başarılı olabilirsiniz."
+        },
+        {
+          "q": "Eşim Almanya'da çalışıyor, benim de sınava girmem şart mı?",
+          "a": "Almanya oturma izni yasası gereğince, istisnai durumlar (örn: Mavi Kart sahiplerinin eşleri vb.) haricinde, eşinizin yanına yerleşmek için vize başvurusu yaparken A1 düzeyinde dil sertifikası sunmanız zorunludur."
+        }
+      ]
+    }
+  },
+  "izmirAileBirlesimiLandingPage": {
+    "hero": {
+      "tag": "İZMİR AİLE BİRLEŞİMİ KURSU",
+      "title": "İzmir'de Almanca Aile Birleşimi Eğitimleri ile Almanya'ya İlk Adımı Atın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Daha Detaylı Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "İletişim ve Bilgi Formu",
+      "formTitle": "VİZE SÜRECİNİZİ BAŞLATIN!",
+      "formSubtitle": "İzmir Şubemizdeki Eğitimler Hakkında Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "İzmir (Aile Birleşimi A1)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: VİZE VE OTURMA İZNİ",
+      "description": "Almanca Aile Birleşimi Kursu İzmir hakkında daha detaylı bilgi almak, eğitim sürecimizi öğrenmek ve vize başvurularınıza güvenle hazırlanmak için bizimle iletişim sağlayabilirsiniz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Almanya Konsolosluğu Standartlarına Uygun A1 Eğitimi"
+    },
+    "about": {
+      "badge": "ALMANYA VİZESİ",
+      "title": "İzmir Almanca Aile Birleşimi Kursu Hakkında",
+      "desc": "Almanya'da eşinin yanına yerleşmek isteyen yabancı uyruklu vatandaşların, vize başvuru sürecinde en az temel düzeyde (A1) Almanca bildiklerini kanıtlamaları gerekmektedir.<br/><br/><b>Eğitim İçeriğimiz:</b> İzmir Almanca Aile Birleşimi kursumuz, genel bir dil eğitiminden ziyade doğrudan Alman Konsolosluğu'nun talep ettiği Start Deutsch A1 sınav formatına yönelik hazırlanmıştır. Bu program sayesinde günlük hayatta temel ihtiyaçlarınızı karşılayacak ve kendinizi ifade edebilecek iletişim becerilerini kazanırsınız.",
+      "skills": [
+        {
+          "id": "horen",
+          "title": "Hören (Dinleme)",
+          "desc": "Günlük kısa duyuruları ve basit telefon mesajlarını anlama."
+        },
+        {
+          "id": "lesen",
+          "title": "Lesen (Okuma)",
+          "desc": "Kısa notları, tabelaları ve formlardaki temel bilgileri kavrama."
+        },
+        {
+          "id": "schreiben",
+          "title": "Schreiben (Yazma)",
+          "desc": "Resmi ve kişisel formları doldurabilme, basit mesajlar yazma."
+        },
+        {
+          "id": "sprechen",
+          "title": "Sprechen (Konuşma)",
+          "desc": "Kendini tanıtma, basit sorular sorup cevaplayabilme yeteneği."
+        }
+      ],
+      "description": "Sınav kaygınızı yenmek ve İzmir şubemizdeki eğitim detaylarını öğrenmek için eğitim danışmanlarımızla doğrudan iletişime geçebilirsiniz.",
+      "features": [
+        "Konsolosluk onaylı sertifika (Goethe, Telc vb.) sınavlarına özel müfredat.",
+        "Sınav stratejilerine ve 4 temel beceriye odaklanan yoğunlaştırılmış program.",
+        "Deneyimli eğitmen kadrosu eşliğinde Almanya kültürü ve günlük yaşam pratikleri.",
+        "Sıfırdan başlayan (Basic) adaylar için anlaşılır ve adım adım ilerleyen eğitim modeli."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Aile Birleşimi Eğitiminde Bizi Tercih Etmelisiniz?",
+      "subtitle": "Vize Sürecinizi Riske Atmayın",
+      "cardTitle": "Detaylı Bilgi ve Şeffaflık",
+      "cardDesc": "Almanca Aile Birleşimi Kursu İzmir programlarımız hakkında aklınıza takılan tüm sorulara yanıt bulmak ve size en uygun planlamayı yapmak için bizimle her zaman iletişim sağlayabilirsiniz.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İzmir'deki eğitimlere sıfırdan katılabilir miyim?",
+          "a": "Evet, aile birleşimi eğitimlerimiz daha önce hiç Almanca görmemiş adaylar için sıfırdan, temel (A1) seviyeden başlamaktadır."
+        },
+        {
+          "q": "Sınav başvurularını siz mi yapıyorsunuz?",
+          "a": "Eğitim süreciniz boyunca sınav formatı, başvuru süreçleri ve konsolosluk randevuları hakkında eğitim danışmanlarımız sizlere gerekli yönlendirmeleri sağlamaktadır."
+        },
+        {
+          "q": "Daha detaylı bilgiye nasıl ulaşabilirim?",
+          "a": "Sayfamızda bulunan iletişim formunu doldurarak veya WhatsApp hattımız üzerinden İzmir eğitim danışmanlarımızla doğrudan görüşebilirsiniz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Hedef Odaklılık",
+          "desc": "Sadece sınavı geçmeniz için gerekli olan konulara ve soru tiplerine odaklanan zaman tasarruflu sistem.",
+          "icon": "Award"
+        },
+        {
+          "title": "İletişim Kolaylığı",
+          "desc": "Kayıt öncesi ve sonrası tüm süreçlerde detaylı bilgi alabileceğiniz ulaşılabilir danışmanlık hizmeti.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Güncel Denemeler",
+          "desc": "Sınav formatında sürpriz yaşamamanız için çıkmış sorulara benzer deneme sınavları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Motivasyon",
+          "desc": "Yeni bir hayata başlarken yaşayabileceğiniz stres ve sınav kaygısını azaltmaya yönelik eğitmen desteği.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "A1 Seviyesi İçin Kullandığımız Kaynaklar",
+      "subtitle": "Sınav Formatına Uygun Temel Materyaller",
+      "features": [
+        "Goethe/Telc A1 Formatına Uygun",
+        "Temel Cümle Yapıları (Basic)",
+        "Görsel ve İşitsel Aktiviteler"
+      ],
+      "books": [
+        {
+          "name": "Start Deutsch 1 Hazırlık Kitapları",
+          "type": "Sınav Antrenman Seti"
+        },
+        {
+          "name": "A1 Wortschatz & Grammatik",
+          "type": "Temel Kelime ve Dil Bilgisi"
+        },
+        {
+          "name": "Modelltests für A1",
+          "type": "Çıkmış Soru Formatında Denemeler"
+        },
+        {
+          "name": "Hören & Sprechen Übungen",
+          "type": "Dinleme ve Konuşma Pratikleri"
+        }
+      ]
+    },
+    "models": {
+      "title": "Eğitim Modellerimiz",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "İZMİR",
+        "desc": "İzmir'deki eğitim faaliyetlerimiz, sınıflarımız ve yüz yüze program planlamamız hakkında detaylı bilgi almak için bizimle iletişime geçebilirsiniz.",
+        "features": [
+          "Uzman Eğitmenlerle Sınıf Ortamı",
+          "Konuşma ve Pratik Odaklı Dersler",
+          "Fiziksel Deneme Sınavları",
+          "Detaylı Bilgi İçin İletişim Formu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "İletişim Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Dilediğiniz yerden katılım sağlayabileceğiniz, interaktif platformumuz üzerinden sunulan canlı Aile Birleşimi (A1) eğitimleri.",
+        "features": [
+          "Canlı ve Etkileşimli Dersler",
+          "Dijital Ortamda Okuma ve Dinleme",
+          "Zaman ve Mekan Özgürlüğü",
+          "Kesintisiz Eğitmen Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "İzmir Aile Birleşimi Süreci Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "İzmir Almanca Aile Birleşimi Kursu hakkında nasıl bilgi alabilirim?",
+          "a": "Program detayları, güncel eğitim tarihleri ve fiyatlandırma hakkında daha detaylı bilgi almak için sayfamızdaki iletişim formunu kullanabilir veya WhatsApp destek hattımızdan bize ulaşabilirsiniz."
+        },
+        {
+          "q": "Almanya aile birleşimi vizesi için sertifika zorunlu mu?",
+          "a": "Evet, istisnai bazı durumlar dışında Almanya Konsolosluğu, başvuru esnasında A1 seviyesinde (Start Deutsch vb.) yetkili kurumlardan alınmış bir dil sertifikasını ibraz etmenizi zorunlu tutmaktadır."
+        },
+        {
+          "q": "Kurs programı ne kadar sürer?",
+          "a": "Eğitim süresi adayın mevcut bilgi düzeyine ve seçilen programa (yoğunlaştırılmış veya standart) göre değişiklik gösterir. Size en uygun program süresini belirlemek için eğitim danışmanlarımızla görüşebilirsiniz."
+        }
+      ]
+    }
+  },
+  "besiktasFransizcaLandingPage": {
+    "hero": {
+      "tag": "BEŞİKTAŞ FRANSIZCA KURSU",
+      "title": "Beşiktaş'ta Native Eğitmenlerle Fransızca Öğrenme Ayrıcalığı",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "FRANSIZCA DÜNYASINA ADIM ATIN!",
+      "formSubtitle": "Beşiktaş Fransızca Kursumuz İçin Hemen Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Eğitim Tercihiniz (Grup Dersi / Özel Ders)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: FRANSIZCA DİL EĞİTİMİ",
+      "description": "Anadil ve ikinci dil olarak revaçta olan Fransızcayı; çeyrek asra aşkın birikimimiz, sertifikalı native hocalarımız ve 4 temel beceriye dayanan eğitim modelimizle Beşiktaş şubemizde öğrenin.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Birebir Özel Ders ve Grup Dersi Seçenekleri!"
+    },
+    "about": {
+      "badge": "4 TEMEL BECERİ",
+      "title": "Beşiktaş Fransızca Kursu Eğitim Modeli",
+      "desc": "Anadil ve ikinci dil olarak revaçta olan Fransızca dili öğrenimine ilgi artmaya başladıkça 'doğru ve nitelikli eğitim nerede ve nasıl öğrenilir?' soruları artmaya başladı. Bu sorularınıza cevap niteliğinde Beşiktaş Fransızca Kurs programımızı oluşturduk.<br/><br/><b>Eğitim Yaklaşımımız:</b> Beşiktaş Fransızca Kursu eğitim modeli, dil kültür ayrımı yapmadan 4 dil yetkinliği becerisiyle ve çeşitli eğitsel aktivitelerle planlanmıştır. Öğrencilerimiz, birebir özel ders veya grup dersi seçenekleri ile eğitimlerini alanında uzman eğitmenlerle planlayabilirler.",
+      "skills": [
+        {
+          "id": "parler",
+          "title": "Konuşma (Parler)",
+          "desc": "Native eğitmenler eşliğinde telaffuz ve akıcı konuşma pratikleri."
+        },
+        {
+          "id": "ecrire",
+          "title": "Yazma (Écrire)",
+          "desc": "Gramer kurallarını pratiğe dökerek Fransızca metin ve kompozisyon oluşturma."
+        },
+        {
+          "id": "lire",
+          "title": "Okuma (Lire)",
+          "desc": "Fransız kültürüne ait metinleri, makaleleri ve kitapları doğru anlama."
+        },
+        {
+          "id": "ecouter",
+          "title": "Dinleme (Écouter)",
+          "desc": "Günlük diyalogları ve akademik Fransızcayı işitsel olarak eksiksiz kavrama."
+        }
+      ],
+      "description": "Akademik Yabancı Dil Okulları çeyrek asra aşkın birikimiyle geçmişten bugüne gelişerek sizleri dil öğrenme yolculuğunuzda yalnız bırakmıyor.",
+      "features": [
+        "Sertifikalı native hocalar ve uzman formasyon sahibi öğretmen kadrosu.",
+        "Konuşma, yazma, okuma ve dinleme olmak üzere 4 temel dil becerisi eğitimi.",
+        "Dil ve kültür ayrımı yapmadan, eğitsel aktivitelerle desteklenen müfredat.",
+        "Öğrencinin ihtiyacına göre şekillenen birebir özel ders veya grup dersi seçenekleri."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Beşiktaş Fransızca Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Tavsiye Listelerinde Bir Numara",
+      "cardTitle": "Çeyrek Asırlık Tecrübe",
+      "cardDesc": "Beşiktaş Fransızca Kursu Tavsiye listesinde bir numara olan Akademik Yabancı Dil Okulları, 25 yılı aşkın süredir nitelikli dil eğitiminin merkezidir.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Eğitmen kadronuz kimlerden oluşuyor?",
+          "a": "Program eğitmenlerimiz; sertifikalı native (anadili Fransızca olan) hocalardan ve alanında uzman, formasyon sahibi tecrübeli öğretmenlerden oluşmaktadır."
+        },
+        {
+          "q": "Eğitim programlarında sadece gramer mi öğretiliyor?",
+          "a": "Hayır. Eğitim modelimiz; konuşma, yazma, okuma ve dinleme olmak üzere 4 dil yetkinliğini eşit oranda geliştirecek şekilde, eğitsel aktivitelerle desteklenerek işlenir."
+        },
+        {
+          "q": "Özel ders imkanınız var mı?",
+          "a": "Evet, Beşiktaş şubemizde öğrencilerimiz kendi öğrenme hızlarına ve takvimlerine uygun olarak birebir özel ders veya grup dersi seçenekleriyle eğitimlerini planlayabilirler."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Anadili Fransızca olan sertifikalı öğretmenlerle doğru telaffuz ve pratik.",
+          "icon": "Users"
+        },
+        {
+          "title": "4 Beceri Modeli",
+          "desc": "Sadece okuma-yazma değil, dinleme ve konuşma odaklı tam donanımlı eğitim.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Özel Ders Seçeneği",
+          "desc": "Grup derslerine katılamayan veya hızlı ilerlemek isteyenler için birebir programlar.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Kültürel Aktiviteler",
+          "desc": "Fransız dilini, kendi kültürüyle harmanlayarak eğitsel etkinliklerle öğrenme fırsatı.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Fransızca İçin Kullandığımız Kaynaklar",
+      "subtitle": "4 Temel Beceriyi Geliştiren Materyaller",
+      "features": [
+        "Uluslararası Standartlarda",
+        "İşitsel ve Görsel Pratikler",
+        "Kültürel Okuma Metinleri"
+      ],
+      "books": [
+        {
+          "name": "Fransızca Dil Bilgisi ve Pratik",
+          "type": "Gramer ve Cümle Yapıları"
+        },
+        {
+          "name": "Compréhension Orale & Écrite",
+          "type": "Okuma ve Dinleme Çalışmaları"
+        },
+        {
+          "name": "Expression Orale",
+          "type": "Konuşma ve Telaffuz (Native)"
+        },
+        {
+          "name": "Eğitsel Aktivite Materyalleri",
+          "type": "Kültürel ve İnteraktif İçerik"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "BEŞİKTAŞ",
+        "desc": "Beşiktaş şubemizde, native eğitmenlerle yüz yüze iletişim kurarak 4 beceride Fransızcanızı geliştirin.",
+        "features": [
+          "Grup Dersi Seçenekleri",
+          "Birebir Özel Ders İmkanı",
+          "Eğitsel ve Kültürel Aktiviteler",
+          "Konuşma ve Pratik Odaklı Sınıflar"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "İstanbul trafiğine girmeden, interaktif altyapımız üzerinden uzman kadromuzla kesintisiz Fransızca eğitimi alın.",
+        "features": [
+          "Canlı ve İnteraktif Dersler",
+          "Online Özel Ders Seçenekleri",
+          "Dijital Ortamda Okuma/Dinleme",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Beşiktaş Fransızca Kursu Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Beşiktaş Fransızca kursu programlarına kimler katılabilir?",
+          "a": "Fransızcayı anadil veya ikinci dil olarak öğrenmek isteyen, başlangıç seviyesinden ileri seviyeye kadar tüm yaş ve meslek gruplarından bireyler programlarımıza katılabilir."
+        },
+        {
+          "q": "Kurs tavsiyelerinde neden ilk sıradasınız?",
+          "a": "Çeyrek asra aşkın birikimimiz, dil ve kültür ayrımı yapmayan 4 beceri odaklı eğitim modelimiz ve sertifikalı native eğitmenlerimiz sayesinde Beşiktaş Fransızca kursu tavsiye listelerinde birinci sıradayız."
+        },
+        {
+          "q": "Birebir özel ders almak istiyorum, program nasıl ayarlanıyor?",
+          "a": "Eğitim danışmanlarımızla yapacağınız görüşme sonucunda; mevcut seviyeniz, hedefleriniz ve müsaitlik durumunuza (gün/saat) göre alanında uzman formasyon sahibi öğretmenlerimizle kişisel bir takvim oluşturulmaktadır."
+        }
+      ]
+    }
+  },
+  "businessEnglishLandingPage": {
+    "meta": {
+      "title": "İş İngilizcesi Kursu (Business English) | Akademik International",
+      "description": "Global iş dünyasında başarılı olmak için İş İngilizcesi (Business English) eğitimlerimizle profesyonel iletişim, sunum ve yazışma becerilerinizi geliştirin."
+    },
+    "hero": {
+      "tag": "İŞ İNGİLİZCESİ KURSU",
+      "title": "İş İngilizcesi ile Kariyerinizde",
+      "highlight": "Zirveye Çıkın",
+      "subtitle": "Günümüzün global iş dünyasında başarılı olmanın temel taşlarından biri olan İş İngilizcesi ile profesyonel iletişiminizi güçlendirin.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "KARİYERİNİZ İÇİN İLK ADIM!",
+      "formSubtitle": "İş İngilizcesi Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: PROFESYONEL EĞİTİMLER",
+      "description": "İş görüşmelerinden sunumlara, e-posta yazışmalarından toplantılara kadar her alanda kendinizi güvenle ifade edin."
+    },
+    "about": {
+      "badge": "PROFESYONEL İLETİŞİM",
+      "title": "İş İngilizcesi Ne Demek?",
+      "desc": "İş ingilizcesi (Business english), iş dünyasında etkili iletişim kurabilmek ve profesyonel ortamlarda başarılı olmak için kullanılan İngilizce dil becerisini ifade eder. İş ingilizcesi, işle ilgili terimleri, yazışma ve sunum tekniklerini, iş görüşmeleri ve toplantılar için uygun dil kullanımını içerir. Bu beceri, uluslararası şirketlerde çalışanlar, yabancı müşterilerle iletişim kuranlar, iş seyahati yapanlar ve farklı kültürlerle etkileşimde bulunan herkes için önemlidir.",
+      "skills": [
+        {
+          "id": "communication",
+          "title": "Etkili İletişim",
+          "desc": "Global iş dünyasında profesyonel ve akıcı bir şekilde iletişim kurma becerisi."
+        },
+        {
+          "id": "writing",
+          "title": "İş Yazışmaları",
+          "desc": "E-postalar, raporlar ve resmi yazışmalarda doğru terminolojiyi ve üslubu kullanma."
+        },
+        {
+          "id": "presentation",
+          "title": "Sunum Teknikleri",
+          "desc": "Uluslararası toplantılarda ve etkinliklerde etkileyici ve profesyonel sunumlar yapma."
+        },
+        {
+          "id": "interview",
+          "title": "Mülakat Başarısı",
+          "desc": "İngilizce iş görüşmelerinde kendinizi en iyi şekilde ifade etme ve öne çıkma."
+        }
+      ],
+      "description": "İş dünyasında sınırları kaldırmak ve global ölçekte rekabet edebilmek için doğru İngilizce becerilerine sahip olun.",
+      "features": [
+        "İş dünyasında en çok kullanılan terimler ve kalıplar.",
+        "Toplantı yönetimi ve sunum becerileri.",
+        "Profesyonel e-posta ve rapor yazım teknikleri.",
+        "Uluslararası iletişim ve kültürlerarası etkileşim kuralları."
+      ]
+    },
+    "vocabTable": {
+      "title": "En Çok Kullanılan İş İngilizcesi Kelimeleri",
+      "desc": "İş hayatımızda en çok kullandığımız kelimeleri sizin için derledik. En sık kullanılan iş ingilizcesi kelimeleri şu şekildedir:",
+      "headers": [
+        "İş ingilizcesi kelimeleri",
+        "Türkçe çevirisi"
+      ],
+      "rows": [
+        {
+          "term": "presentation",
+          "translation": "sunum"
+        },
+        {
+          "term": "project",
+          "translation": "proje"
+        },
+        {
+          "term": "deadline",
+          "translation": "son teslim tarihi"
+        },
+        {
+          "term": "team",
+          "translation": "ekip"
+        },
+        {
+          "term": "report",
+          "translation": "rapor"
+        },
+        {
+          "term": "strategy",
+          "translation": "strateji"
+        },
+        {
+          "term": "budget",
+          "translation": "bütçe"
+        },
+        {
+          "term": "meeting",
+          "translation": "toplantı"
+        },
+        {
+          "term": "market",
+          "translation": "pazar"
+        },
+        {
+          "term": "sales",
+          "translation": "satış"
+        },
+        {
+          "term": "opportunity",
+          "translation": "fırsat"
+        },
+        {
+          "term": "analysis",
+          "translation": "analiz"
+        },
+        {
+          "term": "manager",
+          "translation": "yönetici"
+        },
+        {
+          "term": "solution",
+          "translation": "çözüm"
+        }
+      ],
+      "footer": "Buradaki iş ingilizcesi kelimeleri, iş dünyasında sıkça karşılaşılan ve kullanılanlar arasındadır."
+    },
+    "emailTable": {
+      "title": "İş İngilizcesi Mail Kalıpları",
+      "desc": "İş dünyasında etkili iletişim kurmanın önemli bir yolu da iş ingilizcesi ile yazılan e-maillerdir. Doğru ve etkili bir şekilde yazılan e-mailler, profesyonel görünümünüzü yansıtarak iş ilişkilerinizi güçlendirebilir.",
+      "headers": [
+        "İş ingilizcesi mail kalıpları",
+        "Konu",
+        "Açıklama"
+      ],
+      "rows": [
+        {
+          "category": "İş Başvurusu",
+          "subject": "Job Application for [Pozisyon Adı]",
+          "content": "Sayın [Alıcı İsmi],\nUygun pozisyonunuz için başvurumu iletmek istiyorum. CV ve önyazım ekte yer almaktadır. Pozisyonla ilgili daha fazla bilgi almak için sizinle iletişime geçmekten memnuniyet duyarım.\nSaygılarımla, [Adınız]"
+        },
+        {
+          "category": "Toplantı Davetiyesi",
+          "subject": "Invitation to Attend [Toplantı Adı] Meeting on [Tarih]",
+          "content": "Sayın [Alıcı İsmi],\n[Şirket Adı] olarak [Tarih] tarihinde düzenleyeceğimiz [Toplantı Adı] toplantısına katılmanızı rica ederiz. Toplantı detayları aşağıda yer almaktadır.\nTarih: [Tarih] Saat: [Saat] Yer: [Toplantı Yeri]\nKatılımınızı bekleriz.\nSaygılarımla, [Adınız]"
+        },
+        {
+          "category": "Teşekkür Maili",
+          "subject": "Thank You for Your Support",
+          "content": "Sayın [Alıcı İsmi],\n[Etkinlik/Toplantı/Proje] kapsamında bize verdiğiniz destek için teşekkür ederiz. İşbirliğimizin daha da güçlenmesini umuyoruz.\nSaygılarımla, [Adınız]"
+        },
+        {
+          "category": "Ürün/Servis Talebi",
+          "subject": "Inquiry about [Ürün/Servis Adı]",
+          "content": "Sayın [Alıcı İsmi],\n[Ürün/Servis Adı] hakkında bilgi almak istiyorum. Fiyat, özellikler ve teslimat süresi hakkında bilgi verebilir misiniz?\nİlgili bilgileri en kısa sürede iletebilirseniz sevinirim.\nSaygılarımla, [Adınız]"
+        },
+        {
+          "category": "İş Teklifi",
+          "subject": "Job Offer for [Pozisyon Adı]",
+          "content": "Sayın [Alıcı İsmi],\n[Tarih] tarihinde gerçekleştirdiğimiz görüşme sonucunda [Pozisyon Adı] pozisyonu için size iş teklifi sunmaktan mutluluk duyuyoruz. Detaylar ve iş teklifimiz ekte yer almaktadır.\nEn kısa sürede geri dönüş yapmanızı rica ederiz.\nSaygılarımla, [Adınız]"
+        }
+      ],
+      "footer": "İş ingilizcesi mail kalıpları, profesyonel iletişim kurmanızı kolaylaştırır ve doğru mesajı iletmek için rehberlik eder. İhtiyacınıza uygun şekilde bu kalıpları kullanarak, iş dünyasındaki iletişiminizi daha etkili hale getirebilirsiniz."
+    },
+    "seoContent": [
+      {
+        "title": "İş İngilizcesi Kursları",
+        "desc": "İş ingilizcesi kursları iş dünyasında etkili iletişim kurmak ve kariyerinizde ilerlemek için önemli bir araçtır. Bu kurslarda iş ingilizcesi eğitimi, profesyonel iletişim becerilerinizi geliştirmeniz ve iş yerinde daha güvenli ve etkili bir şekilde iletişim kurmanız için tasarlanmıştır."
+      },
+      {
+        "title": "Neden İş İngilizcesi Kursu Almalısınız?",
+        "desc": "İş ingilizcesi kursunun yararları şunlardır:",
+        "bullets": [
+          "İş ingilizcesi kursları, iş dünyasında gerekli olan özel terimleri, yazışma kurallarını ve etkili iletişim stratejilerini öğrenmenize yardımcı olur. İş hayatında başarılı olmak için doğru iletişim becerilerini geliştirmeniz önemlidir.",
+          "İş görüşmeleri, kariyerinizin önemli bir adımıdır ve bu görüşmeler sırasında etkili iletişim kurmak kritik bir rol oynar. İş İngilizcesi kursu, iş görüşmelerinde kendinizi daha iyi ifade etmenize yardımcı olabilir.",
+          "İş ingilizcesi kursları, profesyonel sunum becerilerinizi geliştirmenize olanak tanır. Etkili bir sunum yapmak, iş toplantıları ve sunumlarda izleyicileri etkilemek için önemlidir.",
+          "E-postalar, raporlar ve resmi yazışmalar, iş dünyasında günlük iletişimin bir parçasıdır. İş ingilizcesi kursu, yazılı iletişimde doğru ifadeleri kullanmayı öğretir.",
+          "Eğer uluslararası iş dünyasında faaliyet gösteriyorsanız, İş ingilizcesi kursu uluslararası iş ilişkilerinde başarılı olmanızı destekler. Farklı kültürlerle iletişim kurarken doğru terimleri ve ifadeleri bilmek büyük bir avantajdır.",
+          "İş ingilizcesi kursları, kariyerinizde ilerlemenize yardımcı olabilir. İş dünyasının rekabetçi doğası göz önüne alındığında, iyi bir İş ingilizcesi becerisi sizi diğer adaylardan ayırabilir.",
+          "İş ingilizcesi kursları, iş hayatında başarılı iletişim için ihtiyaç olan becerileri geliştirmenize yardımcı olur. İş görüşmelerinden profesyonel sunumlara kadar birçok alanda size rehberlik eder ve kariyerinizi ilerletmek için önemli bir adım sunar."
+        ]
+      }
+    ]
+  },
+  "havacilikIngilizcesiLandingPage": {
+    "hero": {
+      "tag": "HAVACILIK VE PİLOTLUK İNGİLİZCESİ",
+      "title": "Gökyüzündeki Kariyerinize En İyi Havacılık İngilizcesi Kursu ile Başlayın",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "MÜLAKATLARDA ÖNE GEÇİN!",
+      "formSubtitle": "Havacılık İngilizcesi Kursumuz İçin Hemen Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Hedefiniz (Kabin Memurluğu, Pilotluk vb.)",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: ÖZEL AMAÇLI EĞİTİMLER",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi Havacılık / Pilotluk İngilizce hazırlık kursu Akademik Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "Kabin Memurluğu Mülakatları ve Havacılık Terminolojisi!"
+    },
+    "about": {
+      "badge": "SEKTÖREL UZMANLIK",
+      "title": "Havacılık İngilizcesi ve Kabin Memurluğu",
+      "desc": "Havacılık sektöründe kariyerini ilerletmek isteyen kişiler için hazırlanmış olan İngilizce eğitim programımızdır. Bu programımızda temel İngilizce derslerinde 4 temel beceride (Reading, Writing, Listening, Speaking) yetkinlik kazandırılarak havacılık terminolojisi kapsamında kelime bilgisi, ifade yetisi ve pratik kazandırılmaktadır.<br/><br/><b>Kabin Memurluğu Nedir?</b> Havacılıkta kabin ekibi olarak geçen, İngilizcede stewards, cabin crew veya stewardesses diye adlandırılan ekipler; uçaklarda yolcularla ilgilenen, onların rahat bir yolculuk geçirmelerini ve yangın, duman, tahliye, sağlık problemleri gibi durumlarda güvenliği sağlayan hayati uçak personelidir.",
+      "skills": [
+        {
+          "id": "terminology",
+          "title": "Havacılık Terminolojisi",
+          "desc": "Mesleki kelime bilgisi, havacılık alfabesi ve uçak içi anons (announcement) pratikleri."
+        },
+        {
+          "id": "emergency",
+          "title": "Acil Durum İletişimi",
+          "desc": "Yangın, duman, tahliye (evacuation) ve sağlık problemleri gibi kriz anlarında net ifade yetisi."
+        },
+        {
+          "id": "skills_4",
+          "title": "4 Temel Beceri",
+          "desc": "Reading, Writing, Listening ve Speaking alanlarında sektörel yetkinlik kazanma."
+        },
+        {
+          "id": "interview",
+          "title": "Mülakat Stratejisi",
+          "desc": "Kurul mülakatlarında zaman yönetimi, stres yönetimi ve dili etkin kullanma taktikleri."
+        }
+      ],
+      "description": "Kabin memurluğu alımlarında yapılan online İngilizce sınavı ve kurul mülakatlarına Akademik Yabancı Dil Kursu farkıyla hazırlanın.",
+      "features": [
+        "Türkiye'nin en iyi Havacılık/Pilotluk İngilizcesi eğitim müfredatı.",
+        "Online İngilizce (Örn: DynEd, CBT) sınavlarına yönelik özel soru çözüm teknikleri.",
+        "Kurul mülakatlarında (Board Interview) sizi diğer adayların önüne geçirecek strateji desteği.",
+        "Sektörel deneyime sahip, alanında uzman öğretmen kadrosu."
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Havacılık İngilizcesi İçin Bizi Seçmelisiniz?",
+      "subtitle": "Mülakatlarda Fark Yaratın",
+      "cardTitle": "Kapsamlı Mülakat Stratejisi",
+      "cardDesc": "Eğitim içeriğine ek olarak zaman yönetimi, stres yönetimi, dili etkin kullanma gibi mülakatta sizi öne geçirecek tüm strateji desteği sağlanmaktadır.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Havacılık İngilizcesi programında neler öğretiliyor?",
+          "a": "Genel İngilizceden farklı olarak, 4 temel beceri (Okuma, Yazma, Dinleme, Konuşma) tamamen havacılık terminolojisi, kelime bilgisi ve uçak içi senaryolar (tahliye, sağlık vb.) üzerinden işlenir."
+        },
+        {
+          "q": "Kabin memurluğu mülakatlarına nasıl hazırlıyorsunuz?",
+          "a": "Hava yolu şirketlerinin (THY, Pegasus, SunExpress vb.) uyguladığı online İngilizce sınavlarına ve sonrasındaki yüz yüze kurul mülakatlarına özel simülasyonlar, stres ve zaman yönetimi çalışmaları yapıyoruz."
+        },
+        {
+          "q": "Eğitmenlerinizin bu alandaki yetkinliği nedir?",
+          "a": "Özgün eğitim müfredatımız, havacılık sektörünün dinamiklerini ve mülakat sistemlerini yakından tanıyan alanında uzman öğretmen kadromuz tarafından uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Kurul Mülakatı Simülasyonu",
+          "desc": "Gerçek mülakat ortamını aratmayan birebir İngilizce konuşma ve senaryo pratikleri.",
+          "icon": "Users"
+        },
+        {
+          "title": "Acil Durum (Emergency) Dili",
+          "desc": "Duman, yangın ve tahliye gibi anlarda kullanılması gereken uluslararası havacılık kalıpları.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Sınav Hazırlığı",
+          "desc": "Hava yolu şirketlerinin bilgisayar tabanlı (CBT) İngilizce sınav formatlarına birebir uyum.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Stres ve Zaman Yönetimi",
+          "desc": "Baskı altında İngilizceyi akıcı ve etkin kullanabilmeniz için psikolojik altyapı çalışmaları.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Eğitimde Kullandığımız Sektörel Kaynaklar",
+      "subtitle": "Kabin ve Kokpit İçin Özel Materyaller",
+      "features": [
+        "Havacılık Terminolojisi",
+        "Mülakat Çıkmış Soruları",
+        "İşitsel (Dinleme) Pratikleri"
+      ],
+      "books": [
+        {
+          "name": "English for Cabin Crew",
+          "type": "Mesleki Terminoloji ve Diyaloglar"
+        },
+        {
+          "name": "Aviation Interview Strategies",
+          "type": "Kurul Mülakatı ve Taktikler"
+        },
+        {
+          "name": "Online Test (CBT) Mocks",
+          "type": "Bilgisayar Tabanlı Deneme Sınavları"
+        },
+        {
+          "name": "Emergency Situations & Health",
+          "type": "Acil Durum ve Tahliye Senaryoları"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Kampüslerimizde, mülakat ortamını birebir simüle ederek yüz yüze Havacılık İngilizcesi ve stres yönetimi hazırlığı.",
+        "features": [
+          "Uzman Eğitmenlerle Kurul Mülakatı Pratiği",
+          "Sınıf İçi Acil Durum Senaryoları (Role-Play)",
+          "Anında Geri Bildirim ve Hata Düzeltme",
+          "Fiziksel Deneme Sınavları Uygulaması"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Yoğun çalışanlar veya farklı şehirlerdeki adaylar için Türkiye'nin en iyi Havacılık İngilizcesi kursuna online katılım imkanı.",
+        "features": [
+          "Canlı ve İnteraktif Ders Deneyimi",
+          "Bilgisayar Tabanlı Sınav (CBT) Pratikleri",
+          "Zaman ve Mekan Özgürlüğü",
+          "Dijital Yayın ve Doküman Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Kabin Memurluğu ve Havacılık İngilizcesi Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Kabin memurluğu İngilizce mülakatlarında en çok neye dikkat ediliyor?",
+          "a": "Adayın İngilizceyi doğru ve akıcı kullanmasının yanı sıra, stres altında soğukkanlılığını koruyabilmesi, zamanı doğru yönetmesi ve acil durum senaryolarına (tahliye, sağlık problemi) anında tepki verebilmesi değerlendirilir."
+        },
+        {
+          "q": "Kursunuza katılmak için İngilizce seviyemin ne olması gerekir?",
+          "a": "Havacılık terminolojisini ve mülakat stratejilerini anlayabilmeniz için genellikle en az Orta (Intermediate) seviyede bir genel İngilizce altyapısına sahip olmanız beklenir. Kayıt öncesi seviyeniz test edilerek size en uygun yönlendirme yapılır."
+        },
+        {
+          "q": "Pilotluk İngilizcesi (ICAO) sınavlarına da hazırlıyor musunuz?",
+          "a": "Evet, 4 temel beceriyi (Okuma, Yazma, Dinleme, Konuşma) kapsayan özgün müfredatımız, kabin memurluğunun yanı sıra pilotluk hedefleri olan adaylar için de ICAO standartlarındaki yeterlilik sınavlarına yönelik altyapı sağlamaktadır."
+        }
+      ]
+    }
+  },
+  "satLandingPage": {
+    "meta": {
+      "title": "SAT Sınavı Hazırlık Kursu | Akademik International",
+      "description": "Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak için SAT sınavına uzman kadromuzla hazırlanın."
+    },
+    "hero": {
+      "tag": "SAT HAZIRLIK KURSU",
+      "title": "Yurtdışı Üniversite Hayalleriniz İçin",
+      "highlight": "SAT Sınavı",
+      "subtitle": "Amerika, İngiltere, Kanada ve Avustralya'daki en prestijli üniversitelerde eğitim alma ve burs kazanma fırsatını yakalayın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "SAT Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: YURT DIŞI SINAVLARI",
+      "description": "Scholastic Aptitude Test (SAT) ile dünya çapında 3100'den fazla üniversitenin kapılarını aralayın."
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "SAT Sınavı Nedir ve Sınav Türleri",
+      "desc": "Sat Sınavı tarihte ilk kez College Board tarafından 1926 yılından itibaren düzenlenmeye başlanan uluslararası geçerliliğe sahip bir testtir. Başlangıçta Amerika Birleşik Devletleri'nde uygulanmaya başlanan Sat Sınavı günümüzde İngiltere, Kanada, Avustralya gibi büyük devletlerin de aralarında bulunduğu yaklaşık 3100 farklı üniversitede eğitim alma fırsatı tanıyor.\n\nSAT (Scholastic Aptitude Test) her üniversite için geçerli olan bir uygulama değildir. Ancak prestijli olan Harvard, Oxford, Yale gibi üniversiteler için, akademik ya da spor bursu kazanmak isteyen öğrenciler için oldukça gerekli bir sınavdır.",
+      "skills": [
+        {
+          "id": "sat-reasoning",
+          "title": "SAT Reasoning Test (SAT 1)",
+          "desc": "Adayların okuma, yazma ve dil ile matematiksel becerilerini değerlendiren, günümüzde aktif olarak uygulanan ana testtir."
+        },
+        {
+          "id": "digital-sat",
+          "title": "Dijital SAT Güncellemesi",
+          "desc": "College Board kararıyla 2023 yılından itibaren dijital ortamda gerçekleşmeye başlamış ve sınav süresi 3 saatten 2 saate düşürülmüştür."
+        },
+        {
+          "id": "subject-test",
+          "title": "SAT 2 Subject Test (Kaldırıldı)",
+          "desc": "2021 yılı itibariyle College Board tarafından kullanımdan kaldırılmış ve Essay bölümü de iptal edilmiştir. Artık sadece SAT 1 geçerlidir."
+        }
+      ],
+      "description": "Öğrencilerin akademik başarılarını uluslararası standartlarda kanıtlamalarını sağlayan SAT sınavında yüksek skorlar hedefliyoruz.",
+      "features": [
+        "Okuma, Yazma ve Dil ile Matematik bölümlerine özel stratejiler.",
+        "Dijital SAT (Digital SAT) formatına tam uyumlu deneme sınavları.",
+        "Upper Intermediate ve üzeri seviyedeki öğrenciler için yoğun program.",
+        "Hedeflenen prestijli üniversiteler için skor odaklı rehberlik."
+      ]
+    },
+    "gradeTabs": {
+      "title": "SAT Sınav Konuları",
+      "grades": [
+        {
+          "tabTitle": "SAT Reading",
+          "title": "1. SAT Reading (Okuma)",
+          "desc": "Reading bölümü 52 soru içermektedir. Bu bölümde grafik, şablon ve tablolar da içeren metin bölümleri vardır.",
+          "bullets": [
+            "Bilim, tarih ve sosyal bilgiler alanlarını kapsayan konulardan yaklaşık 5 parça metin bulunur.",
+            "Çoktan seçmeli bir şekilde cevaplanır.",
+            "Genel itibari ile okuduğunuzu anlayabilme beceriniz değerlendirilir.",
+            "Bu bölümün süresi 65 dakikadır."
+          ],
+          "summary": "Odak: Hızlı okuma, analiz etme ve grafiksel verileri yorumlama."
+        },
+        {
+          "tabTitle": "SAT Writing",
+          "title": "2. SAT Writing and Language",
+          "desc": "Sat Writing and Language çoktan seçmeli olarak 44 sorudan meydana gelmektedir.",
+          "bullets": [
+            "Karşınıza çıkan paragrafların düzeltilmesi ve anlaşılır bir şekilde okunması beklenir.",
+            "Paragrafı anlama, noktalama işaretleri ve cümle kalıplarını ayırt etme becerileri ölçülür.",
+            "Kelime dağarcığını ölçmeye yönelik değerlendirme yapılır.",
+            "Bu bölümün süresi 35 dakikadır."
+          ],
+          "summary": "Odak: Gramer kuralları, metin düzenleme ve bağlamsal kelime bilgisi."
+        },
+        {
+          "tabTitle": "SAT Mathematics",
+          "title": "3. SAT Mathematics (Matematik)",
+          "desc": "Sat Matematik Sınavı 45 çoktan seçmeli ve 13 tablolu olmak üzere toplam 58 sorudan oluşmaktadır.",
+          "bullets": [
+            "Fonksiyonlar, denklemler, istatistikler ve matematik problem çözme beceriniz değerlendirilir.",
+            "Sınavda hesap makinesi kullanabilirsiniz; 20 tane soruyu hesap makinası ile cevaplama hakkınız bulunur.",
+            "25 soruluk bölüm 25 dakika, 35 soruluk bölüm ise 55 dakikadır."
+          ],
+          "summary": "Odak: Cebir, veri analizi ve ileri düzey matematiksel problem çözümü."
+        }
+      ]
+    },
+    "centersTable": {
+      "title": "SAT Sınav Merkezleri",
+      "desc": "Türkiye genelinde SAT sınavının yapıldığı resmi merkezler aşağıdaki gibidir:",
+      "headers": [
+        "ŞEHİR",
+        "ÜNİVERSİTE / LİSE"
+      ],
+      "rows": [
+        {
+          "city": "BURSA",
+          "center": "BURSA TED KOLEJİ"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "HİSAR OKULLARI"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "ÖZEL OĞUZKAAN KOLEJİ"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "ST. GEORG AUSTRIAN COLLEGE"
+        },
+        {
+          "city": "İZMİR",
+          "center": "AMERİKAN KOLEJ ENSTİTÜSÜ"
+        },
+        {
+          "city": "DENİZLİ",
+          "center": "ÖZEL SERVERGAZİ ANADOLU VE FEN LİSESİ"
+        },
+        {
+          "city": "KOCAELİ",
+          "center": "FATİH KOLEJİ"
+        },
+        {
+          "city": "MERSİN",
+          "center": "TARSUS AMERİKAN OKULU"
+        },
+        {
+          "city": "ERZURUM",
+          "center": "BİLKENT ERZURUM LABARATUVAR LİSESİ"
+        },
+        {
+          "city": "KAYSERİ",
+          "center": "ABDULLAH GÜL ÜNİVERSİTESİ"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "SAT Sınavı Puan Hesaplaması",
+        "desc": "SAT Sınavında Matematik bölümü 800 tam puan üzerinden hesaplanırken; Okuma, yazma ve dil bölümü 400-1600 Puan arasında hesaplanmaktadır. 1500 puan üzerinden bir skor elde ederseniz dünya çapında prestijli üniversitelerde eğitim alma hakkı elde edebilirsiniz."
+      },
+      {
+        "title": "SAT Sınavına Kimler Katılabilir?",
+        "desc": "Yaş sınırı ve süresi bulunmayan bu sınava genellikle son sınıf lise öğrencileri ve lise mezunu öğrenciler başvurmaktadırlar. Sınavda başarılı olabilmek adına İngilizce seviyenizin minumum Upper Intermediate olması gerekmektedir. SAT Sınavı katılımı için bir sınırlama yoktur, dileyen dilediği kadar bu sınava başvuru yapabilir."
+      },
+      {
+        "title": "SAT Sınav Ücretleri",
+        "desc": "Güncel SAT Sınavı temel kayıt ücretleri:",
+        "bullets": [
+          "SAT Kayıt Ücreti: $60",
+          "Türkiye için ise $49"
+        ]
+      },
+      {
+        "title": "SAT Ek Kayıt Ücretleri",
+        "desc": "Bazı durumlarda ortaya çıkabilen ek kayıt ve işlem ücretleri:",
+        "bullets": [
+          "Sınav Merkezi Katılım Ücreti $24",
+          "Sınav Merkezi Değişiklik Talebi Ücreti $25",
+          "Kayıt İptal Etmek $25",
+          "Geç Kayıt İptal İşlem Ücreti $35"
+        ]
+      },
+      {
+        "title": "SAT Puan Hizmeti Ücretleri",
+        "desc": "Sınav sonuç raporları ve değerlendirme için talep edilen ek hizmet ücretleri:",
+        "bullets": [
+          "Ek Puan Raporu Ücreti İlgili Rapor başına $12",
+          "Hızlı Rapor Ücreti ise $31",
+          "Telefonla Bilgilendirme Ücreti Çağrı Başına $15",
+          "Puan Rapor Arşivleme Ücreti $31",
+          "SAT Soru-Cevap Hizmet Ücreti $16",
+          "SAT Öğrenci Yanıt Hizmet Ücreti $16",
+          "Elle Puanlama ve Doğrulama Hizmet Ücreti ise $55"
+        ]
+      }
+    ]
+  },
+  "pteLandingPage": {
+    "meta": {
+      "title": "PTE Sınavı Hazırlık Kursu | Akademik International",
+      "description": "Pearson Test of English (PTE) sınavına uzman eğitmen kadromuzla hazırlanın, hedeflediğiniz skora kısa sürede ulaşın."
+    },
+    "hero": {
+      "tag": "PTE ACADEMIC HAZIRLIK",
+      "title": "Kariyerinize ve Eğitiminize Yön Verin",
+      "highlight": "PTE Sınavı",
+      "subtitle": "YÖKDİL ve YDS'ye alternatif, yapay zeka destekli, hızlı sonuç veren PTE sınavı ile hayallerinize bir adım daha yaklaşın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "PTE Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: AKADEMİK SINAVLAR",
+      "description": "Dünya çapında 1300'den fazla üniversite tarafından kabul edilen PTE Akademik sınavında başarılı olun."
+    },
+    "about": {
+      "badge": "YAPAY ZEKA DESTEKLİ SINAV",
+      "title": "PTE Sınavı Nedir ve Avantajları Nelerdir?",
+      "desc": "PTE Sınavı açılımı Pearson Test Of English Academic olan yabancı dil seviye belirleme sınavı 2009 yılında kullanılmaya başlanmış ve dünya çapında 1300'den fazla üniversite ve kuruluş tarafından kabul edilen bir sınavdır. PTE Sınavı başlangıçtan ileri seviyelere kadar (A1-C2) dil becerinizi belgelendirmeniz için uluslararası bir fırsat sunar ve 10 ile 90 Puan arasında değerlendirilmektedir.\n\nPTE Sınavında TOEFL Sınavında olduğu gibi 4 temel beceri (Konuşma, Yazma, Dinleme ve Okuma) değerlendirilir.",
+      "skills": [
+        {
+          "id": "pte-yok",
+          "title": "YÖK Tarafından Tanınır",
+          "desc": "Pearson Test Of English Yükseköğretim Kurumu (YÖK) tarafından tanınan sınavlar arasında yer alır. YÖKDİL ya da YDS'ye alternatif olarak kullanılabilir."
+        },
+        {
+          "id": "pte-global",
+          "title": "Küresel Geçerlilik",
+          "desc": "Avustralya, Kanada, Amerika, Almanya ve İngiltere başta olmak üzere birçok ülkeye göçmenlik ve eğitim başvurusu yapılabilir."
+        },
+        {
+          "id": "pte-fast",
+          "title": "Hızlı ve Dijital",
+          "desc": "Sınav dijital ortamda gerçekleşir, 24 saat önceden başvuru yapabilirsiniz ve sonuçlar 48 saat içinde açıklanır."
+        },
+        {
+          "id": "pte-ai",
+          "title": "Yapay Zeka ve Canlı Öğretmensiz",
+          "desc": "Speaking bölümü yapay zeka ile değerlendirilir, böylece aday heyecanını yener ve sınavlar profesyonelce ölçülür."
+        }
+      ],
+      "description": "PTE Sınavı IELTS, YDS ve TOEFL'a göre çok daha kolay ve hedeflediğiniz skoru almak için kısa sürede sonuç veren etkili bir sınavdır.",
+      "features": [
+        "Alanında uzman yerli ve yabancı eğitmenler.",
+        "Yılın 365 günü erişim sağlayabilme ve pratiğe yönelik eğitimler.",
+        "Özgün sınav stratejileri ve güncel konu anlatımlı metinler.",
+        "Speaking, Listening, Reading ve Writing becerilerinde yoğun pekiştirme."
+      ]
+    },
+    "gradeTabs": {
+      "title": "PTE Sınav Süreci",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Dinleme (Listening) Bölümü",
+          "desc": "Sınavın dinleme bölümü, adayların İngilizce konuşmaları anlama yeteneğini ölçer.",
+          "bullets": [
+            "Süre yaklaşık 60 dakikadır.",
+            "Farklı aksanlarda konuşmalar ve konferans kayıtları dinletilir.",
+            "Anlama, özetleme ve detayları yakalama becerileri test edilir."
+          ],
+          "summary": "Odak: İşitsel kavrama ve bağlamsal analiz."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Okuma (Reading) Bölümü",
+          "desc": "Bu bölüm akademik metinleri anlama ve yorumlama becerisine odaklanır.",
+          "bullets": [
+            "Süre yaklaşık 40 dakikadır.",
+            "Çoktan seçmeli sorular, boşluk doldurma ve paragraf sıralama içerir.",
+            "Metin içindeki ana fikri ve detayları bulma yeteneği sınanır."
+          ],
+          "summary": "Odak: Hızlı okuma, kelime bilgisi ve okuduğunu anlama."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Yazma (Writing) Bölümü",
+          "desc": "Adayların dilbilgisi ve kelime dağarcığını kullanarak düzgün metinler oluşturmasını bekler.",
+          "bullets": [
+            "Süre yaklaşık 45 dakikadır.",
+            "Metin özetleme ve makale yazma görevlerinden oluşur.",
+            "Akademik formatta yazılı ifade becerisi değerlendirilir."
+          ],
+          "summary": "Odak: Gramer kuralları, akademik yazı dili ve bütünlük."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Konuşma (Speaking) Bölümü",
+          "desc": "Bilgisayar tabanlı yapay zeka destekli konuşma değerlendirmesidir.",
+          "bullets": [
+            "Süre yaklaşık 45 dakikadır.",
+            "Sesli okuma, cümleyi tekrarlama ve grafik/görsel açıklama görevleri yer alır.",
+            "Akıcılık ve telaffuz odaklı puanlama yapılır."
+          ],
+          "summary": "Odak: Telaffuz, akıcılık ve sözlü ifade."
+        }
+      ]
+    },
+    "centersTable": {
+      "title": "Türkiye PTE Akademik Test Sınav Merkezleri",
+      "desc": "Türkiye genelinde PTE sınavının yapıldığı yetkili sınav merkezleri:",
+      "headers": [
+        "İL",
+        "KURUM",
+        "ADRES"
+      ],
+      "rows": [
+        {
+          "col1": "İSTANBUL",
+          "col2": "YILDIZ TEKNİK ÜNİVERSİTESİ SEM",
+          "col3": "YILDIZ MAH. BARBAROS BULVARI BLOG :N 10234349 BEŞİKTAŞ/İSTANBUL"
+        },
+        {
+          "col1": "İZMİR",
+          "col2": "DOKUZ EYLÜL ÜNİVERSİTESİ YABANCI DİLLER YÜKSEKOKULU",
+          "col3": "DOKUZÇEŞMELER KAMPÜSÜ BUCA/İZMİR"
+        },
+        {
+          "col1": "KIBRIS",
+          "col2": "ODTÜ KUZEY KIBRIS KAMPÜSÜ",
+          "col3": "ARABAHMET MAHALLESİ DERVİŞ PAŞA SOKAK NO:4"
+        },
+        {
+          "col1": "ERZURUM",
+          "col2": "ATATÜRK ÜNİVERSİTESİ",
+          "col3": "ATATÜRK ÜNİVERSİTESİ ULUSLARARASI DİL SINAVLARI KOORDİNATÖRLÜĞÜ 25100 YAKUTİYE/ERZURUM"
+        },
+        {
+          "col1": "DENİZLİ",
+          "col2": "PAMUKKALE ÜNİVERSİTESİ YABANCI DİLLER YÜKSEK OKULU",
+          "col3": "KAMPÜS 20070 KINIKLI/DENİZLİ"
+        },
+        {
+          "col1": "ADANA",
+          "col2": "ADANA ALPARSLAN TÜRKEŞ BİLİM ve TEKNOLOJİ ÜNİVERSİTESİ SARIÇAM YERLEŞKESİ",
+          "col3": "ADANA DİLLER YÜKSEKOKUL BİNASI ÇATALAN CADDESİ 01130 SARIÇAM/ADANA"
+        },
+        {
+          "col1": "ANKARA",
+          "col2": "YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+          "col3": "GÜVENEVLER MAHALLESİ CİNNAH CADDESİ NO:16 06680 KAVAKLIDERE/ÇANKAYA"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "İSTANBUL ÜNİVERSİTESİ YABANCI DİLLER BÖLÜMÜ",
+          "col3": "KALENDERHANE MAHALLESİ 16 MART ŞEHİTLERİ CADDESİ DR. ŞEVKET APARTMANI NO:22/24 VEZNECİLER,BEYAZIT, FATİH İSTANBUL"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "MARMARA ÜNİVERSİTESİ YABANCI DİLLER YÜKSEK OKULU",
+          "col3": "MARMARA ÜNİVERSİTESİ GÖZTEPE KAMPÜSÜ EĞİTİM MAHALLESİ FAHRETTİN KERİM GÖKAY CADDESİ KADIKÖY/İSTANBUL"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "PEARSON PROFESSIONAL CENTERS",
+          "col3": "SÜLEYMAN SEBA CADDESİ NO:48 BJK PLAZA A BLOK KAT:1 DAİRE:3 AKARETLER/BEŞİKTAŞ"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "BRİTİSH SİDE ENGLİSH LANGUAGE SCHOOL",
+          "col3": "BARBAROS BULVARI NO:91 BEŞİKTAŞ/İSTANBUL"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "PTE Sınav Psikolojisi",
+        "desc": "Sınav Psikolojisi, sınava girecek öğrencilerin bilinçaltı ve bilinç dışı etkinliklerden kaynaklı endişe, stres ve gerginlik durumudur. Sınav stresi ve sınav psikolojisi doğru kontrol edildiğinde sizi akademik ve sosyal anlamda başarıya ulaştırmaktadır. Sınavın olumsuz psikolojisini ve stresini azaltmanın en etkili yolu beceri odaklı çalışmalar ve bilişsel yaklaşımlar sergileyerek çalışmaktır. Bu noktada kişi kaygılarına odaklanmaktan ziyade hedeflerine odaklanmalı ve başarıya inanarak hareket etmelidir. Bu aşamada tek yapmanız gereken sınava kadar olan süreçte bilgi birikim seviyenizi en üst seviyeye çıkararak bol bol pratik sınavlar gerçekleştirmektir. Kurumumuz PTE Sınav Yönetimi sürecinde sizlere uzman eğitmen tarafından destek sağlamaktadır."
+      }
+    ]
+  },
+  "caeLandingPage": {
+    "meta": {
+      "title": "CAE Sınavı Hazırlık Kursu | Akademik International",
+      "description": "Cambridge English Advanced (CAE) sınavına uzman eğitmen kadromuzla hazırlanın, İngilizce yetkinliğinizi uluslararası arenada belgeleyin."
+    },
+    "hero": {
+      "tag": "CAE C1 ADVANCED HAZIRLIK",
+      "title": "İleri Düzey İngilizce Yetkinliğinizi Belgeleyin",
+      "highlight": "CAE Sınavı",
+      "subtitle": "Cambridge Üniversitesi onaylı, dünya genelinde binlerce kurum ve şirket tarafından kabul edilen CAE sertifikasıyla kariyerinize güç katın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "CAE Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İngilizce Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: CAMBRIDGE SINAVLARI",
+      "description": "İngilizceyi ana dil seviyesine yakın kullanan adayların yetkinliğini ölçen C1 Advanced sınavında yüksek skor hedefliyoruz."
+    },
+    "about": {
+      "badge": "CAMBRIDGE ONAYLI",
+      "title": "CAE Sınavı Nedir ve Kimler Katılabilir?",
+      "desc": "CAE (Certificate in Advanced English) sınavı, Cambridge Üniversitesi tarafından İngilizce dil becerisinin üst düzeyde ölçüldüğü bir sınavdır. Bu sınav, özellikle İngilizceyi ikinci dil olarak öğrenenler için tasarlanmış ve İngilizce öğreten, çok iyi bir şekilde anlayan, okuyabilen, yazabilen ve konuşabilen adayların yetkinliğini belgelemeyi amaçlar.\n\nC1 Advanced Sınavına, yurt dışında akademik kariyer hedefleyen ve uluslararası şirketlerde çalışmak isteyen herkes katılabilir. Yaş sınırlaması bulunmamaktadır.",
+      "skills": [
+        {
+          "id": "cae-global",
+          "title": "Küresel Tanınma",
+          "desc": "Dünya üzerinde binlerce kurum, kuruluş ve üniversite tarafından kabul edilen uluslararası bir vasıftır."
+        },
+        {
+          "id": "cae-career",
+          "title": "Kariyer Fırsatları",
+          "desc": "Araştırmalara göre, işverenlerin büyük çoğunluğu C1 Advanced sertifikasına sahip adaylara işe alım sürecinde öncelik tanımaktadır."
+        },
+        {
+          "id": "cae-validity",
+          "title": "Ömür Boyu Geçerlilik",
+          "desc": "IELTS veya TOEFL'ın aksine, CAE sertifikasının geçerlilik süresi dolmaz; ömür boyu kullanabilirsiniz."
+        },
+        {
+          "id": "cae-centers",
+          "title": "Geniş Sınav Ağı",
+          "desc": "Dünya üzerinde 150 farklı ülkede 2.900'ün üzerinde yetkili sınav merkezinde gerçekleştirilir."
+        }
+      ],
+      "description": "CAE Sınavı uluslararası eğitim kurumlarının ve şirketlerin nitelikli personel arayışında adayların İngilizce yeterliliklerini belgelemelerine olanak tanır.",
+      "features": [
+        "Reading, Writing, Listening ve Speaking becerilerinde üst düzey eğitim.",
+        "Orijinal Cambridge materyalleri ile sınav pratiği.",
+        "Sınav formatına tam hakimiyet kazandıran strateji dersleri.",
+        "Yabancı eğitmenlerle birebir Speaking simülasyonları."
+      ]
+    },
+    "gradeTabs": {
+      "title": "CAE Sınav Bölümleri",
+      "grades": [
+        {
+          "tabTitle": "Reading",
+          "title": "CAE Reading Sınavı",
+          "desc": "İngilizce okuma becerilerinizi ölçmek için tasarlanmıştır. Sınavın toplam süresi 1 saat 30 dakikadır.",
+          "bullets": [
+            "Gazete makaleleri, edebi kitaplar, ilanlar ve broşürler gibi çeşitli türlerden metinler sunulur.",
+            "Dört farklı metin içerir ve her metin ortalama 700-900 kelime arasındadır.",
+            "Okuduğunuz metinlerdeki ayrıntıları, ana fikirleri ve yorumlama becerilerinizi test eder."
+          ],
+          "summary": "Odak: İleri düzey metin analizi, kelime dağarcığı ve okuduğunu anlama."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "CAE Writing Sınavı",
+          "desc": "2 saat 15 dakikada tamamlanması gereken iki farklı yazma görevinden oluşur.",
+          "bullets": [
+            "Makale, deneme, mektup, e-posta veya rapor yazma gibi görevler verilir.",
+            "Belirli kelime sınırları ve format kurallarına uyulması beklenir.",
+            "Dilbilgisi, yazım kuralları ve fikirlerin açıkça ifade edilmesi değerlendirilir."
+          ],
+          "summary": "Odak: Akademik yazım, argüman geliştirme ve doğru gramer."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "CAE Speaking Sınavı",
+          "desc": "Sınavda 4 bölüm vardır ve genellikle 15 dakika kadar sürer. Bireysel veya grup olarak yapılabilir.",
+          "bullets": [
+            "1. Bölüm: Sınav görevlisiyle genel konuşma.",
+            "2. Bölüm: Verilen resimler hakkında konuşma.",
+            "3. Bölüm: Diğer adaylarla doğaçlama ve rol oynama (interaktif görev).",
+            "4. Bölüm: İlgili konu hakkında derinlemesine tartışma."
+          ],
+          "summary": "Odak: Akıcılık, telaffuz, interaktif iletişim ve fikir beyanı."
+        },
+        {
+          "tabTitle": "Listening",
+          "title": "CAE Listening Sınavı",
+          "desc": "4 farklı bölüm ve 30 sorudan oluşmaktadır. Yaklaşık 40 dakika sürer.",
+          "bullets": [
+            "Radyo programları, röportajlar, sunumlar ve günlük konuşmalar dinletilir.",
+            "Her ses kaydı maksimum iki kez dinletilmektedir.",
+            "Konuşulan materyalleri takip etme ve detayları yakalama yeteneği ölçülür."
+          ],
+          "summary": "Odak: İşitsel kavrama, aksanları anlama ve not alma."
+        }
+      ]
+    },
+    "tables": {
+      "scoring": {
+        "title": "CAE Sınavı Puanlama Sistemi",
+        "desc": "C1 Advanced Sınavının geçerli puanları 160-210 arasındadır. 180 ya da üstü bir puan sınavı 'geçti' olarak değerlendirilir.",
+        "headers": [
+          "Seviye",
+          "Puan",
+          "CEFR Seviyesi",
+          "KPDS/ÜDS/YDS Denkliği"
+        ],
+        "rows": [
+          {
+            "col1": "Grade A",
+            "col2": "200-210",
+            "col3": "C2",
+            "col4": "80"
+          },
+          {
+            "col1": "Grade B",
+            "col2": "193-199",
+            "col3": "C1",
+            "col4": "70"
+          },
+          {
+            "col1": "Grade C",
+            "col2": "180-192",
+            "col3": "C1",
+            "col4": "60"
+          }
+        ]
+      },
+      "dates": {
+        "title": "CAE Güncel Sınav Ayları (2026 - 2027)",
+        "desc": "Sınavlar dünya genelinde her ay farklı merkezlerde düzenlenmektedir.",
+        "headers": [
+          "Sınav Dönemi",
+          "Yıl"
+        ],
+        "rows": [
+          {
+            "col1": "Ocak, Şubat, Mart",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "Nisan, Mayıs, Haziran",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "Temmuz, Ağustos, Eylül",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "Ekim, Kasım, Aralık",
+            "col2": "2026/2027"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "CAE Sınavına Nasıl Başvurulur?",
+        "desc": "Cambridge Advanced English Sınavına katılmak için yetkili bir sınav merkezine doğrudan kayıt yaptırmak gerekmektedir. Dünya üzerinde 150 farklı ülkede 2.900'ün üzerinde yetkili sınav merkezi bulunmaktadır. Türkiye'de bulunan başlıca CAE Sınav Merkezleri:",
+        "bullets": [
+          "Study in UK - Turkey",
+          "myELT",
+          "Evrim School of Languages",
+          "Dünya Education Exam Centre",
+          "Anadolu University School of Foreign Languages",
+          "Address Education Centre, İzmir-Turkey",
+          "3 H Danışmanlık (3h Education Consultancy)"
+        ]
+      },
+      {
+        "title": "Cambridge Sınavının Önemi",
+        "desc": "CAE Sınavı uluslararası eğitim kurumlarının ve şirketlerin nitelikli personel arayışında adayların İngilizce yeterliliklerini belgelemelerine olanak tanır. Bu bağlamda bireyin CAE Sertifikasına sahip olması akademik ve mesleki yaşantısında kendisine prestij kazandırır. Eğitim kurumları için CAE, öğrencilerin ileri düzeyde araştırma yürütmek ve etkili iletişim kurabilmek için gerekli İngilizce yeterliliğine sahip olduğunu ispatlar."
+      }
+    ]
+  },
+  "torflLandingPage": {
+    "meta": {
+      "title": "TORFL Sınavı Hazırlık Kursu (Rusça) | Akademik International",
+      "description": "Rusya'da eğitim görmek ve kariyer yapmak için zorunlu olan TORFL sınavına %100 başarı garantili kursumuzla hazırlanın."
+    },
+    "hero": {
+      "tag": "TORFL RUSÇA SINAV HAZIRLIĞI",
+      "title": "Rusya'daki Kariyerinizin ve Eğitiminizin Kapılarını Aralayın",
+      "highlight": "TORFL Sınavı",
+      "subtitle": "Rusya Eğitim Bakanlığı onaylı, CEFR uyumlu TORFL sınavına hazırlanarak Rusça dil yeterliliğinizi uluslararası düzeyde kanıtlayın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "TORFL Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut Rusça Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: RUSÇA SINAVLARI",
+      "description": "TORFL Kursu Rusya'da eğitim görmek ve vatandaşlık almak isteyen bireyleri hayallerini kurdukları sertifikaya ilk seferde ulaştırıyor."
+    },
+    "about": {
+      "badge": "RUSYA EĞİTİM BAKANLIĞI ONAYLI",
+      "title": "TORFL Sınavı Nedir ve Kimler Katılabilir?",
+      "desc": "Test of Russian as a Foreign Language (TORFL), yabancı dil olarak Rusça öğrenenlere ve Rusya'daki kurum ve kuruluşlara katılım gösterecek adaylara uygulanan nitelikli bir sınavdır. Rusya Eğitim ve Bilim Bakanlığı'nın denetiminde uygulanmaktadır ve Avrupa Ortak Dil Çerçevesi (CEFR) uyumludur.\n\nTORFL Sınavına; Rusya'da hazırlık eğitiminden muaf olmak isteyen öğrenciler, Rusya'da çalışmak veya Rus vatandaşlığı almak isteyen bireyler katılabilir.",
+      "skills": [
+        {
+          "id": "torfl-levels",
+          "title": "6 Farklı Seviye",
+          "desc": "Başlangıç A1 düzeyinden başlayarak ileri seviye olan C2'ye kadar farklı zorluk derecelerinden oluşur."
+        },
+        {
+          "id": "torfl-skills",
+          "title": "Dört Temel Beceri",
+          "desc": "Her seviye okuma, yazma, dinleme ve konuşma dahil olmak üzere 4 temel beceriyi test eder."
+        },
+        {
+          "id": "torfl-citizenship",
+          "title": "Vatandaşlık İçin Zorunlu",
+          "desc": "Özellikle A2 (Temel) seviye sertifikası, Rusya vatandaşlığı alınabilmesi için gerekli olan minimum düzeydir."
+        },
+        {
+          "id": "torfl-price",
+          "title": "Sınav Ücretleri",
+          "desc": "Her seviye için belirlenen sınav ücreti ortalama 150-200 Dolar arasında değişkenlik göstermektedir."
+        }
+      ],
+      "description": "TORFL sınavına hazırlanmak için düzenli ve yeterli çalışma yapmak, öğrencilerin sınavda başarılı olmalarına yardımcı olabilir.",
+      "features": [
+        "Dinleme Becerisi: Farklı aksanları anlama, duyduklarını özetleme.",
+        "Okuma Becerisi: Genel ve ayrıntılı metinleri anlama, yazarın düşüncelerini kavrama.",
+        "Yazma Becerisi: Cümle, paragraf ve kompozisyon yazma, yazılı iletişim kurabilme.",
+        "Konuşma Becerisi: Basit ve detaylı konuşma yapabilme, farklı konuları tartışabilme."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TORFL Sınav Seviyeleri (A1 - C2)",
+      "grades": [
+        {
+          "tabTitle": "A1 Seviye",
+          "title": "A1 Başlangıç Seviyesi",
+          "desc": "Sınavın başlangıç aşamasıdır. Günlük yaşantıda sınırlı olarak ihtiyaçları karşılayacak asgari Rusça bilgisine sahip olunması beklenir.",
+          "bullets": [
+            "Temel iletişim becerileri ölçülür.",
+            "Basit kelime dağarcığı ve gramer test edilir."
+          ],
+          "summary": "Odak: Günlük yaşamda asgari iletişim kurabilme."
+        },
+        {
+          "tabTitle": "A2 Seviye",
+          "title": "A2 Temel Seviye",
+          "desc": "Bireyin günlük hayatını devam ettirecek şekilde konuşma, yazma ve dinleme becerilerine sahip olması beklenir.",
+          "bullets": [
+            "Rusya vatandaşlığı alabilmek için gerekli minimum seviyedir.",
+            "Günlük etkileşimlerde daha bağımsız olunmasını sağlar."
+          ],
+          "summary": "Odak: Vatandaşlık başvurusu için temel iletişim becerileri."
+        },
+        {
+          "tabTitle": "B1 Seviye",
+          "title": "B1 Orta Seviye (Seviye 1)",
+          "desc": "Eğitim ve meslek alanlarında temel iletişim gereksinimlerini karşılamak için orta seviyede Rusça gerektirir.",
+          "bullets": [
+            "Rusya'da yüksek eğitim kurumlarına giriş için gerekli seviyedir.",
+            "Akademik metinlerin temellerini anlama becerisi aranır."
+          ],
+          "summary": "Odak: Üniversiteye giriş için akademik ve mesleki Rusça."
+        },
+        {
+          "tabTitle": "B2 Seviye",
+          "title": "B2 İleri Orta Seviye (Seviye 2)",
+          "desc": "İletişim gereksinimlerini karşılayabilecek yüksek yeterlilik seviyesidir. B2 sertifikası Master diploması almak için gereklidir.",
+          "bullets": [
+            "Mühendislik, teknik ve beşeri bilimlerde mesleki yeterliliği gösterir.",
+            "Rusya'daki üniversitelerde akademisyen olmak için geçerli seviyedir."
+          ],
+          "summary": "Odak: Master ve akademik kariyer için ileri iletişim."
+        },
+        {
+          "tabTitle": "C1 Seviye",
+          "title": "C1 İleri Seviye (Seviye 3)",
+          "desc": "Birey Rusça konuşulan bir kurumda çalışabilir.",
+          "bullets": [
+            "Editör, gazeteci, diplomat ve yönetici gibi alanlarda faaliyet yürütülebilir."
+          ],
+          "summary": "Odak: Profesyonel iş hayatında tam yetkinlik."
+        },
+        {
+          "tabTitle": "C2 Seviye",
+          "title": "C2 Ana Dil Seviyesi (Seviye 4)",
+          "desc": "Bireyin ana dili seviyesinde Rusça bilgisine sahip olma derecesidir.",
+          "bullets": [
+            "Rusça alanında eğitmenlik ve bilimsel araştırma faaliyeti yapabilir."
+          ],
+          "summary": "Odak: Eğitmenlik ve bilimsel akademik araştırma."
+        }
+      ]
+    },
+    "comparisonTable": {
+      "title": "TORFL CEFR, IELTS ve TOEFL İle Karşılaştırılması",
+      "desc": "TORFL sınav seviyelerinin diğer uluslararası geçerliliği olan dil sınavları ile puan eşdeğerleri:",
+      "headers": [
+        "TORFL",
+        "CEFR",
+        "TOEFL",
+        "IELTS"
+      ],
+      "rows": [
+        {
+          "col1": "Başlangıç",
+          "col2": "A1",
+          "col3": "-",
+          "col4": "1-2"
+        },
+        {
+          "col1": "Temel",
+          "col2": "A2",
+          "col3": "96-162",
+          "col4": "3"
+        },
+        {
+          "col1": "Seviye 1",
+          "col2": "B1",
+          "col3": "163-226",
+          "col4": "3.5 - 4.5"
+        },
+        {
+          "col1": "Seviye 2",
+          "col2": "B2",
+          "col3": "227-269",
+          "col4": "5 - 6"
+        },
+        {
+          "col1": "Seviye 3",
+          "col2": "C1",
+          "col3": "270",
+          "col4": "6.5 - 7"
+        },
+        {
+          "col1": "Seviye 4",
+          "col2": "C2",
+          "col3": "-",
+          "col4": "7.5+"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Türkiye TORFL Sınav Merkezi",
+        "desc": "Türkiye'de TORFL Sınav Merkezi olan kurum sayısı oldukça sınırlıdır. Eğer siz de Türkiye'de yaşıyor ve TORFL Sınav Merkezi arıyorsanız İstanbul Tuzla'da bulunan Okan Üniversitesi ile iletişim kurarak resmi sınav başvurularınızı gerçekleştirebilirsiniz."
+      },
+      {
+        "title": "En İyi TORFL Kursu Tavsiye",
+        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Bireyin ihtiyacına yönelik oluşturulan eğitim programlarımız, The Academic Publishing kaynaklarımız ve uzman eğitmenlerimiz ile sizlere en nitelikli TORFL hazırlık hizmetini sunmaktayız. İstanbul, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
+      }
+    ]
+  },
+  "cilsLandingPage": {
+    "meta": {
+      "title": "CILS Sınavı Hazırlık Kursu (İtalyanca) | Akademik International",
+      "description": "İtalya'da eğitim ve vatandaşlık için gerekli CILS sınavına %100 başarı garantili kursumuzla hazırlanın."
+    },
+    "hero": {
+      "tag": "CILS İTALYANCA SINAV HAZIRLIĞI",
+      "title": "İtalya'da Eğitim ve Yaşamın Kapılarını Aralayın",
+      "highlight": "CILS Sınavı",
+      "subtitle": "Siena Yabancılar Üniversitesi tarafından yürütülen ve İtalyan Konsolosluğu tarafından tanınan CILS sertifikası ile hayallerinize ulaşın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "CILS Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut İtalyanca Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: İTALYANCA SINAVLARI",
+      "description": "CILS Kursu, İtalya'da eğitim görmek ve vatandaşlık almak isteyen bireyleri hayallerini kurdukları sertifikaya ilk seferde ulaştırıyor."
+    },
+    "about": {
+      "badge": "SİENA ÜNİVERSİTESİ ONAYLI",
+      "title": "CILS Sınavı Nedir ve Geçme Şartları Nelerdir?",
+      "desc": "CILS (Certificazione di Italiano come Lingua Straniera), İtalyan Dışişleri ve Eğitim Bakanlığınca tanınan ve Siena Yabancılar Üniversitesi aracılığıyla yürütülen uluslararası bir İtalyanca yeterlilik sınavıdır.\n\nİtalya'da oturum izni almak, İtalyan bir üniversitede öğrenim görmek ya da İtalya'da iş başvuruları gerçekleştirmek için CILS Sertifikası hayati bir önem taşımaktadır. Sınavda başarılı olabilmek için her bir bölümden en az 11 puan alınması ve toplamda minimum 55 puan alınması şarttır.",
+      "skills": [
+        {
+          "id": "cils-levels",
+          "title": "6 Farklı Seviye",
+          "desc": "A1, A2, B1, B2, C1 ve C2 olmak üzere altı CEFR seviyesinden oluşmaktadır."
+        },
+        {
+          "id": "cils-consulate",
+          "title": "Konsolosluk Onayı",
+          "desc": "İtalyan Konsolosluğu, lisans veya yüksek lisans için en az B2 yeterliliği beklemektedir."
+        },
+        {
+          "id": "cils-skills",
+          "title": "Temel Beceriler",
+          "desc": "Okuma, dinleme, yazma ve konuşma becerileri üzerinden test uygulanmaktadır."
+        },
+        {
+          "id": "cils-results",
+          "title": "Sonuç Süreci",
+          "desc": "Adaylar sınav sonuçlarına, sınav tarihinden itibaren 1-4 ay içerisinde Siena Üniversitesi web sitesinden erişebilirler."
+        }
+      ],
+      "description": "Yılda iki kez düzenlenen bu sınav, İtalya Eğitim Bakanlığı tarafından kabul edilmekte ve kalıcı bir yeterlilik belgesi sağlamaktadır.",
+      "features": [
+        "İtalya kültürü deneyimi olan uzman eğitmen kadrosu.",
+        "Sınava yönelik spesifik eğitim ve eksik kapatma çalışmaları.",
+        "Geçmiş yılların çıkmış soruları ve deneme sınavları ile pratik.",
+        "Canlı stüdyo ortamında telafi dersleri imkanı."
+      ]
+    },
+    "gradeTabs": {
+      "title": "CILS Sınav Aşamaları",
+      "grades": [
+        {
+          "tabTitle": "CILS Uno",
+          "title": "CILS Uno (Seviye 1)",
+          "desc": "Adayların temel İtalyanca becerilerini değerlendirir.",
+          "bullets": [
+            "Sınav yaklaşık 3 saat sürmektedir.",
+            "Günlük yaşamda temel iletişim kurabilme yetisi ölçülür."
+          ],
+          "summary": "Odak: Temel iletişim ve metin anlama."
+        },
+        {
+          "tabTitle": "CILS Due",
+          "title": "CILS Due (Seviye 2)",
+          "desc": "Orta düzeyde İtalyanca becerileri ölçer.",
+          "bullets": [
+            "Sınav 4 saat sürmektedir.",
+            "İtalyan üniversitelerine (lisans/yüksek lisans) başvuru için genellikle istenen minimum seviyedir."
+          ],
+          "summary": "Odak: Akademik başlangıç ve bağımsız iletişim."
+        },
+        {
+          "tabTitle": "CILS Tre",
+          "title": "CILS Tre (Seviye 3)",
+          "desc": "İleri düzeyde İtalyanca bilgisini değerlendirir.",
+          "bullets": [
+            "Sınav 5 saat sürmektedir.",
+            "Mesleki ve profesyonel alanlarda İtalyanca kullanım yeteneğini kanıtlar."
+          ],
+          "summary": "Odak: Profesyonel yetkinlik ve ileri dilbilgisi."
+        },
+        {
+          "tabTitle": "CILS Quattro",
+          "title": "CILS Quattro (Seviye 4)",
+          "desc": "Sınavın en ileri derecesi olan uygulamadır.",
+          "bullets": [
+            "Yaklaşık 5-5.5 saat sürmektedir.",
+            "Ana dil seviyesine yakın İtalyanca hakimiyeti gerektirir."
+          ],
+          "summary": "Odak: Uzmanlık ve anadile yakın yetkinlik."
+        }
+      ]
+    },
+    "tables": {
+      "format": {
+        "title": "CILS Sınav Süreleri ve İçerikleri",
+        "desc": "Her seviye için belirlenmiş sınav süreleri (dakika) ve test edilen beceriler:",
+        "headers": [
+          "Seviye",
+          "Süre (Dk)",
+          "İçerik"
+        ],
+        "rows": [
+          {
+            "col1": "A1",
+            "col2": "130",
+            "col3": "Konuşma, dinleme, metni anlama"
+          },
+          {
+            "col1": "A2",
+            "col2": "150",
+            "col3": "İletişimsel yapı, metni anlama, kompozisyon, konuşma, dinleme"
+          },
+          {
+            "col1": "B1",
+            "col2": "220",
+            "col3": "Metni anlama, kompozisyon, dinleme, konuşma"
+          },
+          {
+            "col1": "B2",
+            "col2": "220",
+            "col3": "İletişimsel yapı, konuşma, dinleme, metni anlama"
+          },
+          {
+            "col1": "C1",
+            "col2": "285",
+            "col3": "Kompozisyon, iletişimsel yapı, dinleme, konuşma"
+          },
+          {
+            "col1": "C2",
+            "col2": "300",
+            "col3": "Metni anlama, iletişimsel yapı, dinleme, kompozisyon, anlama"
+          }
+        ]
+      },
+      "fees": {
+        "title": "CILS Sınav Ücretleri",
+        "desc": "Siena Üniversitesi tarafından belirlenen seviyelere göre sınav ücretleri (Yıllara göre değişiklik gösterebilir):",
+        "headers": [
+          "Seviye",
+          "Sınav Ücreti"
+        ],
+        "rows": [
+          {
+            "col1": "A1",
+            "col2": "50 Euro"
+          },
+          {
+            "col1": "A2",
+            "col2": "50 Euro"
+          },
+          {
+            "col1": "B1 12-19 Adolescenti",
+            "col2": "70 Euro"
+          },
+          {
+            "col1": "B1 Cittadinanza",
+            "col2": "110 Euro"
+          },
+          {
+            "col1": "B1",
+            "col2": "80 Euro"
+          },
+          {
+            "col1": "B2",
+            "col2": "90 Euro"
+          },
+          {
+            "col1": "C1",
+            "col2": "100 Euro"
+          },
+          {
+            "col1": "C2",
+            "col2": "105 Euro"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "En İyi CILS Kursu Tavsiye",
+        "desc": "Dünya dillerinde her yıl binlerce öğrencisine yeni bir dil kazandıran Akademik Yabancı Dil Kursları, Türkiye'de ilk kez yetişkin bireylere özgü geliştirdiği eğitim modelleri ile sizlere yeni bir dil ve kariyer kazandırıyor. Ücretsiz olarak sunduğumuz seviye tespit sınavından sonra tamamen size özgü eğitim programlarına dahil olabilir ve gelemediğiniz dersleri Türkiye'de ilk defa dil okulumuz tarafından oluşturulan Canlı Stüdyo ortamında online bir şekilde telafi edebilirsiniz."
+      },
+      {
+        "title": "CILS Kursu Fiyatları",
+        "desc": "CILS Kursu Fiyatları bire bir, online ya da grup dersleri seçeneklerine göre değişkenlik gösterebilmekte ve ortalama fiyatlar 3500 TL ile 9750 TL arasındadır. Her dönem çeşitli kampanyalar eşliğinde uygun ödeme koşulları sunan dil okulumuz sizlere bütçe dostu bir CILS kursu fırsatı sunuyor."
+      }
+    ]
+  },
+  "tefLandingPage": {
+    "meta": {
+      "title": "TEF Sınavı Hazırlık Kursu (Fransızca) | Akademik International",
+      "description": "Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın."
+    },
+    "hero": {
+      "tag": "TEF FRANSIZCA SINAV HAZIRLIĞI",
+      "title": "Fransa ve Kanada'daki Kariyerinize İlk Adımı Atın",
+      "highlight": "TEF Sınavı",
+      "subtitle": "Fransızca dil yeterliliğinizi uluslararası arenada kanıtlayın. Üniversite kabulü, oturum izni ve vatandaşlık başvurularınız için TEF sınavına %100 başarı garantili kursumuzla hazırlanın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "TEF Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut Fransızca Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: FRANSIZCA SINAVLARI",
+      "description": "TEF Kursu her yıl binlerce öğrenciyi yurt dışı hayallerine ulaştıran ve kariyer kazandıran bir eğitim planı sunmaktadır."
+    },
+    "about": {
+      "badge": "ULUSLARARASI GEÇERLİLİK",
+      "title": "TEF Sınavı Nedir ve Neden Tercih Edilir?",
+      "desc": "TEF (Test d'Evaluation de Français), anadili Fransızca olmayan kişilerin dil akıcılığını ve yeterliliğini ölçmek için yapılan prestijli bir sınavdır. Paris Ile-de-France CCI tarafından yürütülmektedir.\n\nSınavın geçerlilik süresi 2 yıldır. TEF Sınavına katılmak için adayların en az B1 seviyesinde Fransızca dili yeterliliğine sahip olması şartı bulunmaktadır. Sınav; okuma, konuşma, yazma ve dinleme olarak dört temel beceri üzerinden uygulanmaktadır.",
+      "skills": [
+        {
+          "id": "tef-format",
+          "title": "İki Farklı Uygulama",
+          "desc": "Sınav kağıt üzerinde veya bilgisayar üzerinde olmak üzere iki farklı formatta uygulanabilir."
+        },
+        {
+          "id": "tef-validity",
+          "title": "Geçerlilik Süresi",
+          "desc": "Sınav sonucunuzun geçerlilik süresi 2 yıldır, alınan puanla işlemler bu süre içinde yapılabilir."
+        },
+        {
+          "id": "tef-structure",
+          "title": "Sınav Yapısı",
+          "desc": "3 zorunlu bölüm (Okuma, Dinleme, Kelime-Dilbilgisi) ve 2 seçmeli bölümden (Yazma, Konuşma) oluşur."
+        },
+        {
+          "id": "tef-price",
+          "title": "Sınav Ücretleri",
+          "desc": "TEF sınav ücretleri her seviyeye ve sınav türüne göre ortalama 1500 - 7500 TL arasında değişmektedir."
+        }
+      ],
+      "description": "Fransız üniversitesinde yüksek öğrenim görmek veya Kanada/Fransa'da vatandaşlık/oturum kartı almak isteyen adaylar için zorunlu bir sınavdır.",
+      "features": [
+        "Dinleme (Compréhension orale): Fransızca olarak kaydedilmiş konuşmaları anlayabilme.",
+        "Okuma (Compréhension écrite): Fransızca yazılmış metinleri okuyarak anlama.",
+        "Dil Bilgisi ve Kelime (Lexique et grammaire): Dil bilgisi kuralları ve kelime dağarcığı.",
+        "Yazma (Expression écrite): Belirli bir konu hakkında tutarlı yazılar yazabilme.",
+        "Konuşma (Expression orale): Belirli bir konuda konuşma ve diyaloglarda rol alma."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TEF Sınav Çeşitleri (Uygulama Alanları)",
+      "grades": [
+        {
+          "tabTitle": "TEF Naturalisation",
+          "title": "TEF Naturalisation",
+          "desc": "Bu sınav, Fransız vatandaşlığına başvuran yabancıların Fransızca dil seviyelerini belirlemek için uygulanır.",
+          "bullets": [],
+          "summary": "Odak: Vatandaşlık başvurusu."
+        },
+        {
+          "tabTitle": "TEF Canada",
+          "title": "TEF Canada",
+          "desc": "Bu sınav, Kanada'da kalıcı ikamet izni veya vatandaşlık için başvuranların Fransızca dil seviyelerini ölçmek için kullanılır.",
+          "bullets": [],
+          "summary": "Odak: Kanada kalıcı oturum ve vatandaşlık."
+        },
+        {
+          "tabTitle": "TEF Québec",
+          "title": "TEF Québec",
+          "desc": "Bu sınav, Quebec eyaletinde yaşayan veya oraya göç etmek isteyen yabancıların Fransızca dil seviyelerini belirlemek için kullanılır.",
+          "bullets": [],
+          "summary": "Odak: Quebec eyaleti göçmenlik işlemleri."
+        },
+        {
+          "tabTitle": "TEF Études en France",
+          "title": "TEF pour les études en France",
+          "desc": "Fransa'da üniversite veya yüksek lisans eğitimi almak isteyen uluslararası öğrencilerin Fransızca seviyelerini ölçmek için kullanılır.",
+          "bullets": [],
+          "summary": "Odak: Fransa üniversitelerinde yüksek öğrenim."
+        },
+        {
+          "tabTitle": "TEF Carte de Résident",
+          "title": "TEF pour la carte de résident en France",
+          "desc": "Fransa'da uzun süreli oturum (yerleşim kartı) başvurusunda bulunan yabancıların Fransızca dil seviyelerini ölçmek için kullanılır.",
+          "bullets": [],
+          "summary": "Odak: Fransa oturum izni."
+        }
+      ]
+    },
+    "tables": {
+      "dates": {
+        "title": "TEF Sınav Tarihleri",
+        "desc": "Fransız Enstitüsü ve resmi kurumlar tarafından uygulanan periyodik sınav tarihleri:",
+        "headers": [
+          "Günler",
+          "Aylar"
+        ],
+        "rows": [
+          {
+            "col1": "22 - 23",
+            "col2": "Şubat"
+          },
+          {
+            "col1": "12 - 13",
+            "col2": "Nisan"
+          },
+          {
+            "col1": "14 - 15",
+            "col2": "Haziran"
+          },
+          {
+            "col1": "18 - 19",
+            "col2": "Ekim"
+          },
+          {
+            "col1": "13 - 14",
+            "col2": "Aralık"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "En İyi TEF Kursu Tavsiye",
+        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Ücretsiz olarak sunduğumuz seviye tespit sınavımız, ihtiyacınıza yönelik eğitim programlarımız, alanında uzman eğitmen kadromuz ve Canlı Stüdyo seçeneğimiz ile sizlere en nitelikli TEF Kursu hizmetini sunmaktayız. İstanbul, Beşiktaş, Kadıköy, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
+      },
+      {
+        "title": "TEF Kursu Fiyatları",
+        "desc": "TEF Kursu Fiyatları bire bir, online ve grup derslerine göre farklılıklar içermektedir. Akademik Yabancı Dil Kursları olarak sizlere bütçe dostu bir TEF Kursu eğitimi sunmak adına her dönem çeşitli kampanyalar eşliğinde uygun ödeme koşulları sunmaktayız. Eğitimlerimiz ve fiyatlarımız hakkında daha fazla bilgi sahibi olmak isterseniz iletişim numaramızdan bize 7/24 ulaşabilirsiniz."
+      }
+    ]
+  },
+  "telcLandingPage": {
+    "meta": {
+      "title": "TELC Sınavı Hazırlık Kursu | Akademik International",
+      "description": "Avrupa Dil Sertifikası (TELC) sınavlarına uzman eğitmen kadromuzla hazırlanın. Süresiz geçerli TELC belgenizi ilk seferde alın."
+    },
+    "hero": {
+      "tag": "TELC DİL SINAVI HAZIRLIĞI",
+      "title": "Avrupa Standartlarında Dil Yeterliliğinizi Kanıtlayın",
+      "highlight": "TELC Sınavı",
+      "subtitle": "Almanya başta olmak üzere tüm Avrupa'da geçerli olan, süresiz geçerliliğe sahip TELC sertifikasıyla üniversite ve kariyer hedeflerinize ulaşın.",
+      "buttonText": "Eğitimleri İncele",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "HAYALLERİNİZE İLK ADIM!",
+      "formSubtitle": "TELC Hazırlık Kursumuz İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Mevcut Dil Seviyenizi Seçiniz",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "badge": "KATEGORİ: AVRUPA DİL SERTİFİKALARI",
+      "description": "TELC Kursu her yıl binlerce öğrenciyi yurt dışı hayallerine ulaştıran ve kariyer kazandıran bir eğitim planı sunmaktadır."
+    },
+    "about": {
+      "badge": "SÜRESİZ GEÇERLİLİK",
+      "title": "TELC Sınavı Nedir ve Neden Avantajlıdır?",
+      "desc": "TELC (The European Language Certificates), Ortak Avrupa Dil Referans Çerçevesi (CEFR) yönetmeliğine göre hazırlanan Alman Halk Eğitim Merkezleri Birliği (DVV) kuruluşudur.\n\nTELC'i diğer sınavlardan ayıran en büyük avantaj, sertifikanın **süresiz geçerliliğe** sahip olması ve bir alanda başarısız olunduğunda (örneğin sadece sözlü veya sadece yazılı) **tüm sınavı tekrar etmek yerine sadece o alana yeniden girilebilmesidir.**",
+      "skills": [
+        {
+          "id": "telc-validity",
+          "title": "Süresiz Geçerlilik",
+          "desc": "TELC yeterlilik belgesi ömür boyu geçerliliğe sahiptir."
+        },
+        {
+          "id": "telc-yok",
+          "title": "ÖSYM ve YÖK Onayı",
+          "desc": "Türkiye'de ÖSYM ve YÖK tarafından kabul edilmekte olup YDS eşdeğerliğine sahiptir."
+        },
+        {
+          "id": "telc-retake",
+          "title": "Modüler Sınav Sistemi",
+          "desc": "Sınavda bir alanda başarısız olduğunuzda tüm sınavı tekrar etmeniz gerekmez."
+        },
+        {
+          "id": "telc-dates",
+          "title": "Esnek Sınav Tarihleri",
+          "desc": "Dünya çapında 3500'den fazla merkezde esnek ve sık sınav tarihleri bulunur."
+        }
+      ],
+      "description": "Yurt dışında üniversite okumak ve akademik kariyer gerçekleştirmek isteyen bireylerin başvuru yaparken sunabileceği en köklü ve prestijli sınavlardan biridir.",
+      "features": [
+        "Yazılı ve sözlü olmak üzere iki temel bölümden oluşur.",
+        "Yazılı sınavlar merkezi Frankfurt'ta değerlendirilir ve sonuçlar yaklaşık 2 ayda gelir.",
+        "Sınava katılım sayısı kısıtlaması yoktur, dilediğiniz kadar girebilirsiniz.",
+        "12 yaşını geçmiş, dil seviyesini belgelemek isteyen herkes katılabilir."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TELC Sınav Seviyeleri ve Türleri",
+      "grades": [
+        {
+          "tabTitle": "A1 & A2 Seviyeleri",
+          "title": "TELC A1 ve A2 Seviye Sınavları",
+          "desc": "A1 Sınavı 65 dakika yazılı bölümden oluşur, hemen ardından sözlü sınav yapılır. A2 Sınavı 70 dakika yazılı bölümden oluşur. A2 Schule (Okul) versiyonunda ise 80 dakika yazılı sınav sonrası 15 dakika hazırlık süresi verilerek sözlüye geçilir.",
+          "bullets": [],
+          "summary": "Odak: Temel iletişim, aile birleşimi ve günlük yaşam."
+        },
+        {
+          "tabTitle": "B1 Seviyesi",
+          "title": "TELC B1 Sınavı",
+          "desc": "Yazılı bölüm 2 saat 30 dakika sürmektedir. Yazılı sınav bitiminde adaya 20 dakika hazırlanma süresi verilerek sözlü sınava geçilir. B1 Schule versiyonu da benzer formattadır.",
+          "bullets": [],
+          "summary": "Odak: Bağımsız kullanıcı, vatandaşlık ve mesleki başlangıç."
+        },
+        {
+          "tabTitle": "B2 Seviyesi",
+          "title": "TELC B2 Sınavları (Genel, Beruf, Medizin)",
+          "desc": "Genel B2 sınavı 2 saat 20 dk yazılı ve 20 dk hazırlıklı sözlüden oluşur. B2+ Beruf (Mesleki) sınavında yazılı kısım 3 saattir. B2-C1 Medizin (Tıp) sınavı ise sağlık profesyonellerine yöneliktir ve yazılı kısım 3 saat sürer.",
+          "bullets": [],
+          "summary": "Odak: Akademik eğitim, doktor/hemşire denklikleri ve mesleki yetkinlik."
+        },
+        {
+          "tabTitle": "C1 Seviyesi",
+          "title": "TELC C1 Sınavları (Genel, Hochschule)",
+          "desc": "C1 ve C1 Hochschule (Üniversite) sınavlarında yazılı bölüm 3 saat 40 dakika sürmektedir. Sözlü sınavdan önce 20 dakika hazırlık süreniz vardır.",
+          "bullets": [],
+          "summary": "Odak: Almanya'da üniversite eğitimi (Hochschule) ve ileri yetkinlik."
+        },
+        {
+          "tabTitle": "C2 Seviyesi",
+          "title": "TELC C2 Deneme Sınavı",
+          "desc": "Yazılı kısım 4 saat 10 dakika sürmektedir. Bu sınavdan sonra adaya 20 dakikalık bir müsaade verilir ve sonrasında sözlü sınava geçilir.",
+          "bullets": [],
+          "summary": "Odak: Anadile yakın profesyonel hakimiyet."
+        }
+      ]
+    },
+    "tables": {
+      "dates": {
+        "title": "Güncel TELC Sınav Tarihleri",
+        "desc": "Sınav tarihleri talep yoğunluğuna göre her ay düzenli olarak açılmaktadır. En güncel periyodik sınav takvimi aşağıdadır:",
+        "headers": [
+          "Seviye",
+          "Periyodik Sınav Tarihleri"
+        ],
+        "rows": [
+          {
+            "col1": "A1 / A2 / B1",
+            "col2": "Her Ayın 2. ve 4. Haftası"
+          },
+          {
+            "col1": "B2 / C1 / C1 Hochschule",
+            "col2": "Her Ayın 1. ve 3. Haftası"
+          },
+          {
+            "col1": "Medizin / Pflege (B2-C1)",
+            "col2": "Her Ayın Son Haftası"
+          }
+        ]
+      },
+      "centers": {
+        "title": "Türkiye'deki Başlıca TELC Sınav Merkezleri",
+        "desc": "Sınava girebileceğiniz bazı yetkili merkezlerin bulunduğu iller:",
+        "headers": [
+          "İl",
+          "Merkez Türü"
+        ],
+        "rows": [
+          {
+            "col1": "İstanbul",
+            "col2": "Avrupa Dil Kültür Merkezi, Kadıköy Halk Eğitim Merkezi, Köy Hizmetleri And. Lisesi"
+          },
+          {
+            "col1": "Ankara",
+            "col2": "ANKA Sprachschule, TOBB ETÜ, Çankaya Başkent Halk Eğitim Merkezi"
+          },
+          {
+            "col1": "İzmir",
+            "col2": "DAS Akademie"
+          },
+          {
+            "col1": "Antalya",
+            "col2": "Muratpaşa Azize Kahraman Halk Eğitim Merkezi"
+          },
+          {
+            "col1": "Trabzon",
+            "col2": "Trabzon Merkez Halk Eğitim Merkezi"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "En Nitelikli TELC Kursu: Akademik International",
+        "desc": "Sınava hazırlanmadan önce bu uygulamanın yapısına, sınav bölümlerine ve konularına hakim olmak oldukça önemlidir. Bu analiz bireye zaman kazandırmakla birlikte üstünde durması gereken konuları açık etmeye yarar. Başarıya ulaşabilmek için Bursa Nilüfer TELC Kursu, İstanbul, İzmir, Eskişehir, Ankara kampüsleri ile sizlere en nitelikli eğitimleri sunmaktayız."
+      },
+      {
+        "title": "TELC Sınavı İle Hedeflerinize Ulaşın",
+        "desc": "Giderek küreselleşen dünyamızda farklı ülkede eğitim almak ya da yaşamak için başvuru oranına göre kabul kriterlerinde değişiklikler yapılmaktadır. Fakat iyi bir TELC puanı ile istediğiniz hedeflere doğrudan ulaşma ihtimaliniz çok yüksektir. Bursa, İstanbul Beşiktaş, Kadıköy, İzmir, Eskişehir şubelerimizle kariyer yolculuğunuzda yanınızdayız."
+      }
+    ]
   }
 }

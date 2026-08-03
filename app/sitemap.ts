@@ -21,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/lise-ingilizce-kursu",
     "/ingilizce-ozel-ders",
     "/kurumlara-ozel-ingilizce-kursu",
+    "/is-ingilizcesi",
+    "/havacilik-pilotluk-ingilizcesi-kursu",
     // Akademik Sınav Hazırlık (İngilizce)
     "/akademik-ingilizce-kursu",
     "/yds-hazirlik-kursu",
@@ -34,10 +36,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/itep-hazirlik-kursu",
     "/ingilizce-hazirlik-atlama",
     "/e-tep-sinavi-nedir",
+    "/sat-kursu",
+    "/pte-kursu",
+    "/cae-kursu",
     // Almanca Sınav Hazırlık
     "/testdaf-almanca-kursu",
     "/almanca-goethe-sinavi-hazirlik-kursu",
     "/osd-almanca-dil-sertifikasi-kursu",
+    // Diğer Diller Sınav Hazırlık
+    "/torfl-kursu",
+    "/cils-kursu",
+    "/tef-kursu",
+    "/telc-kursu",
+
+    // Amaca Yönelik Almanca Programları
+    "/almanca-aile-birlesimi-kursu",
+    "/izmir-almanca-aile-birlesimi-kursu",
+    // Lokasyon Bazlı Diğer Dil Kursları
+    "/kadikoy-almanca-kursu",
+    "/fransizca-kursu-besiktas",
     // Diğer
     "/tercume-hizmeti",
   ];

@@ -6533,5 +6533,2256 @@
         }
       ]
     }
+  },
+  "kadikoyAlmancaLandingPage": {
+    "hero": {
+      "tag": "KADIKÖY GERMAN COURSE",
+      "title": "German Education Tailored to Your Goal and Specially for Adults in Kadıköy",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE ROAD TO YOUR GOAL!",
+      "formSubtitle": "Get Information for Our Kadıköy German Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Your Educational Goal (Exam, Career, Family Reunification)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: GERMAN LANGUAGE EDUCATION",
+      "description": "Learn German in the center of Kadıköy with a foreign language curriculum designed specially for adults—applied for the first time in Turkey—far from rote learning and fully goal-oriented.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Native Speaker Instructors and Up-to-Date Materials!"
+    },
+    "about": {
+      "badge": "GOAL-ORIENTED EDUCATION",
+      "title": "German Programs Tailored to Your Needs",
+      "desc": "Language education is not just learning grammar rules; it is making that language a way of life. The most fundamental feature that sets our institution apart from other German courses in Kadıköy is our educational methodology.<br/><br/><b>Adult Curriculum:</b> Unlike outdated and stereotyped 'school-type' education models, we prepare a special curriculum for every age group and learning goal. This way, you do not waste time and learn the German you need in the most efficient manner.<br/><br/><b>One-on-One Attention:</b> If group class hours do not suit you or if you want to accelerate your learning process, you can benefit from our personalized Kadıköy German Private Lesson options, shaped entirely according to your schedule and weaknesses.",
+      "skills": [
+        {
+          "id": "exam_focused",
+          "title": "Exam-Focused Trainings",
+          "desc": "Strategic work aimed at exam techniques for certificates valid in university or job applications, such as Goethe, Telc, and TestDaF."
+        },
+        {
+          "id": "family_reunion",
+          "title": "Family Reunification (A1)",
+          "desc": "Basic German (Start Deutsch A1) training required for the visa process and direct preparation for the exam."
+        },
+        {
+          "id": "general_german",
+          "title": "General German Course",
+          "desc": "Interactive, communication and practice-based focused groups for those who aim for fluent speech in daily life."
+        },
+        {
+          "id": "private_lessons",
+          "title": "Personalized Program",
+          "desc": "Instant planning aligned with your goals with a dynamic educational model, without waiting for quotas or term starts."
+        }
+      ],
+      "description": "We meet your expectations with goal-oriented classes, accurate level assessment, and an active usage mindset, which are the most critical points in searching for a German course in Istanbul.",
+      "features": [
+        "Special German curriculum developed for adults for the first time in Turkey.",
+        "Global standard education using London-based The Academic Publishing resources.",
+        "Native speaker instructors (native German speakers) and certified teaching staff.",
+        "Regular extracurricular activities and cultural experience opportunities."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Us for the Kadıköy German Course?",
+      "subtitle": "Experience Quality, Don't Waste Time",
+      "cardTitle": "Speaking-Focused System",
+      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you solve textbook exercises, it gets you speaking. That is exactly what we do.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "What should be considered when looking for a German course recommendation in Istanbul?",
+          "a": "Look for native speaker instructors, targeted training (exams, business, communication), up-to-date materials, high success rates, and institution-specific flexible program options."
+        },
+        {
+          "q": "Are classroom trainings active enough?",
+          "a": "Yes, our educational approach at our Kadıköy branch aims for active class participation and practical language usage rather than passive listening."
+        },
+        {
+          "q": "Is it suitable for my career goals?",
+          "a": "Absolutely. After understanding your individual goals, we design the most suitable program for you and offer a goal-oriented education guarantee."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Instructors",
+          "desc": "Expert teaching staff who are native German speakers with certified teaching degrees.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dynamic Enrollment",
+          "desc": "The opportunity to start your education without losing time waiting for quotas to fill or a new term to begin.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Flexible Hours",
+          "desc": "After-hours evening programs or weekend morning/afternoon groups for working individuals.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Cultural Experience",
+          "desc": "The chance to closely get to know German culture through extracurricular activities, not just the language.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
+      "features": [
+        "London-Based Publications",
+        "Up-to-Date and Current Topics",
+        "Modern Vocabulary Structures"
+      ],
+      "books": [
+        {
+          "name": "The Academic German B1-B2",
+          "type": "General and Intermediate German"
+        },
+        {
+          "name": "Prüfungstraining (Goethe, Telc)",
+          "type": "Exam Techniques and Strategy"
+        },
+        {
+          "name": "Interaktives Sprechen",
+          "type": "Speaking and Active Communication"
+        },
+        {
+          "name": "Wortschatz Aktuell",
+          "type": "Modern Vocabulary"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Interactive face-to-face German classes with native instructors and an adult curriculum at our branch in the center of Kadıköy.",
+        "features": [
+          "One-on-One Communication with Expert Instructors",
+          "Communication-Focused and Practice-Heavy Classes",
+          "Flexible Evening and Weekend Groups",
+          "Extracurricular Cultural Activities"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "German education at Kadıköy standards with our interactive infrastructure, wherever you are, without getting stuck in Istanbul traffic.",
+        "features": [
+          "Live and Interactive Class Experience",
+          "Online One-on-One (Private Lesson) Options",
+          "Digital Publication and Document Support",
+          "Freedom of Time and Location"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Kadıköy German Course",
+      "items": [
+        {
+          "q": "How long does it take for a complete beginner to speak German?",
+          "a": "With regular attendance and following our adult-specific curriculum, you can reach a level (B1) where you can meet your daily needs and express yourself in an average of 6–8 months."
+        },
+        {
+          "q": "Do you have evening or weekend groups for employees?",
+          "a": "As an institution implementing an adult curriculum, we understand the busy schedule of our target audience. We have weekday evening programs you can attend outside work hours, or weekend morning/afternoon groups."
+        },
+        {
+          "q": "Should I wait for the beginning of a term to start a new group?",
+          "a": "In our Kadıköy German course, a dynamic education model is applied instead of traditional and sluggish course level systems. Thanks to our curriculum specially prepared for adults, you don't need to wait for general term start dates or for quotas to fill. You start your education as soon as the planning is done."
+        },
+        {
+          "q": "Are there German courses for Goethe, Telc, and TestDaF?",
+          "a": "Yes. At our Istanbul Kadıköy, Avcılar, and Çekmeköy German course branches, strategic studies are conducted for Goethe, Telc, and TestDaF goals within the scope of exam-focused trainings. Reading, writing, listening, and speaking skills are balanced and supported."
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "Best German Course Standards in Istanbul",
+        "desc": "In the search for the best German course in Istanbul, success is measured not only by the presence of a curriculum, but also by up-to-date lesson content, resource quality, and a goal-oriented teaching method. In our Kadıköy German course programs, we use London-based The Academic Publishing materials, which directly affect your learning speed. This way, instead of old and boring texts, you cover current topics and master modern vocabulary structures. Your language proficiency is brought to the highest level by global standards.",
+        "bullets": [
+          "Innovative language curriculum developed specially for adults",
+          "Practical and speaking-oriented lessons, far from grammar memorization",
+          "Education suitable for your career goals and visa processes (Family Reunification, etc.)",
+          "Personalized private (one-on-one) lesson options focusing on your shortcomings"
+        ],
+        "summary": "Don't get lost in online reviews; reach your goal in a guaranteed way with our world-class, speaking-oriented education model."
+      },
+      {
+        "title": "Istanbul German Course Prices 2026",
+        "desc": "In 2026, German course prices in Istanbul generally range between 15,000 ₺ and 45,000 ₺. Prices vary based on the selected level (A1–C2), type of education program (general German / exam-focused / family reunification), weekly schedule, scope of lessons, and private lesson preferences. At the Academic Foreign Language Course Kadıköy branch, completely customized programs are designed to best fit your budget and goals.",
+        "bullets": [
+          "Package program advantages varying according to the targeted level (e.g., A1 or B2)",
+          "Program pricing for General German and Exam (Goethe, Telc, TestDaF) focus",
+          "Advantageous amounts that may vary due to promotional and seasonal factors",
+          "Free planning and level placement conducted based on the student's goal prior to registration"
+        ],
+        "summary": "You can contact our expert educational consultants before registering to determine exact prices and the educational package that best suits you."
+      }
+    ]
+  },
+  "aileBirlesimiLandingPage": {
+    "hero": {
+      "tag": "GERMAN FAMILY REUNIFICATION COURSE",
+      "title": "Guaranteed Success in the Start Deutsch A1 Exam for a German Visa",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "THE FIRST STEP FOR YOUR GERMANY DREAM!",
+      "formSubtitle": "Get Information for Our Family Reunification Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Branch You Wish to Attend (e.g., Kadıköy, Beşiktaş)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: VISA AND RESIDENCE PERMIT",
+      "description": "Prepare thoroughly for the Family Reunification exam, required by the German Consulate for visa applications, with our expert instructors who are native German speakers.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "4 Core Skills and a Direct Goal-Oriented Curriculum!"
+    },
+    "about": {
+      "badge": "REQUIRED FOR VISA APPROVAL",
+      "title": "What is the German Family Reunification Course?",
+      "desc": "Due to residence permit laws, foreigners wishing to join their spouse in Germany are required to prove basic knowledge of German in their home country when applying for a visa.<br/><br/><b>It is Not General German!</b> Our Academic Western Languages German Family Reunification course is not a general German course. Our training program is planned entirely in accordance with the Goethe Institute Family Reunification (Start Deutsch A1) exam, and German is taught using basic sentence structures.",
+      "skills": [
+        {
+          "id": "horen",
+          "title": "Hören (Listening)",
+          "desc": "Practice understanding short daily announcements, phone messages, and simple questions."
+        },
+        {
+          "id": "lesen",
+          "title": "Lesen (Reading)",
+          "desc": "Ability to comprehend short notes, announcements, directional signs, and information in simple forms."
+        },
+        {
+          "id": "schreiben",
+          "title": "Schreiben (Writing)",
+          "desc": "Ability to write short personal messages and fill out simple forms required for visa/registration processes."
+        },
+        {
+          "id": "sprechen",
+          "title": "Sprechen (Speaking)",
+          "desc": "Ability to introduce oneself, ask simple questions, and communicate at a basic level in daily life."
+        }
+      ],
+      "description": "Family Reunification aims to enable individuals moving to Germany to speak and communicate in basic German in daily life.",
+      "features": [
+        "A targeted technical curriculum designed to help you overcome exam anxiety.",
+        "A professional teaching staff who have resided in Germany and know German culture very well.",
+        "Special preparation for the 4 core sections of the Goethe Start Deutsch exam system (Reading, Writing, Listening, Speaking).",
+        "Basic level presentation enriched by undergraduate and graduate education model standards."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Us for the Family Reunification Course?",
+      "subtitle": "Don't Take Risks While Building Your Future",
+      "cardTitle": "Native German-Speaking Teaching Staff",
+      "cardDesc": "Work with instructors who do not just teach grammar, but introduce German culture and fully master Family Reunification exam regulations.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "What is the difference between this course and general German courses?",
+          "a": "While general German courses aim to teach all aspects of the language over a long period, this program is a targeted course designed for you to successfully pass the Start Deutsch A1 exam required by the German Consulate."
+        },
+        {
+          "q": "Which skills are measured in the exam?",
+          "a": "The Start Deutsch A1 exam consists of four separate sections: Hören (Listening), Lesen (Reading), Schreiben (Writing), and Sprechen (Speaking)."
+        },
+        {
+          "q": "Which branches can I attend for the training?",
+          "a": "To build your future and overcome your exam anxiety, we welcome you to our Kadıköy and Beşiktaş branches."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Cultural Adaptation",
+          "desc": "The Family Reunification course is not just about passing the exam, but also getting to know German culture closely.",
+          "icon": "Award"
+        },
+        {
+          "title": "Stress Management",
+          "desc": "Technical curriculum and psychological motivation support applied to overcome exam anxiety.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Central Locations",
+          "desc": "Opportunity to receive quality education at highly accessible points in our Kadıköy and Beşiktaş branches.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Goethe Format",
+          "desc": "Mock exams 100% compliant with Goethe Institute rules and scoring so you experience no surprises in the exam.",
+          "icon": "BookOpen"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for Family Reunification (A1)",
+      "subtitle": "Special Materials Guaranteeing Your Exam Success",
+      "features": [
+        "Compliant with Goethe A1 Format",
+        "Basic Sentence Structures",
+        "Visual and Auditory Practice"
+      ],
+      "books": [
+        {
+          "name": "Fit fürs Goethe-Zertifikat A1",
+          "type": "Exam Training Set"
+        },
+        {
+          "name": "Start Deutsch 1 Übungstests",
+          "type": "Mock Exams in Past Exam Question Format"
+        },
+        {
+          "name": "A1 Wortschatz & Grammatik",
+          "type": "Basic Vocabulary and Grammar"
+        },
+        {
+          "name": "Hören & Sprechen A1",
+          "type": "Listening and Speaking Practice"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "High-motivation A1 preparation face-to-face with native German instructors at our Kadıköy and Beşiktaş branches.",
+        "features": [
+          "Face-to-Face Practice with Native Instructors",
+          "In-Class Speaking (Sprechen) Exercises",
+          "Physical Mock Exam Applications",
+          "Insights into German Culture"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "An interactive program preparing you directly for the Start Deutsch A1 exam from the comfort of your home for candidates unable to visit our branches.",
+        "features": [
+          "Live and Interactive Classes",
+          "Digital Reading and Listening",
+          "Freedom of Time and Location",
+          "Uninterrupted Instructor Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the Family Reunification Visa and Exam",
+      "items": [
+        {
+          "q": "My German level is zero, can I join this course?",
+          "a": "Absolutely. Our courses start from scratch for candidates with no prior knowledge of German (basic level), and basic sentence structures are taught step-by-step in an exam-focused manner."
+        },
+        {
+          "q": "Is it difficult to pass the Start Deutsch A1 exam?",
+          "a": "With the right techniques, our professional staff familiar with German culture, and practice fully tailored to the Goethe exam format, you can overcome your exam anxiety and succeed on your first attempt."
+        },
+        {
+          "q": "My spouse works in Germany, is it mandatory for me to take the exam too?",
+          "a": "Under German residence permit regulations, unless exceptional circumstances apply (e.g., spouses of Blue Card holders), submitting an A1 level language certificate when applying for a visa to join your spouse is mandatory."
+        }
+      ]
+    }
+  },
+  "izmirAileBirlesimiLandingPage": {
+    "hero": {
+      "tag": "IZMIR FAMILY REUNIFICATION COURSE",
+      "title": "Take the First Step to Germany with German Family Reunification Training in Izmir",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get More Detailed Information!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Contact and Information Form",
+      "formTitle": "START YOUR VISA PROCESS!",
+      "formSubtitle": "Get Detailed Information About Training at Our Izmir Branch!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Izmir (Family Reunification A1)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: VISA AND RESIDENCE PERMIT",
+      "description": "You can contact us to get more detailed information about the German Family Reunification Course in Izmir, learn about our training process, and prepare confidently for your visa applications.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "A1 Training Compliant with German Consulate Standards"
+    },
+    "about": {
+      "badge": "GERMAN VISA",
+      "title": "About Izmir German Family Reunification Course",
+      "desc": "Foreign nationals who wish to settle with their spouse in Germany are required to prove at least a basic knowledge (A1) of German during the visa application process.<br/><br/><b>Our Training Content:</b> Rather than general language education, our Izmir German Family Reunification course is prepared directly for the Start Deutsch A1 exam format requested by the German Consulate. Thanks to this program, you will gain communication skills to meet your basic daily needs and express yourself.",
+      "skills": [
+        {
+          "id": "horen",
+          "title": "Hören (Listening)",
+          "desc": "Understanding short daily announcements and simple phone messages."
+        },
+        {
+          "id": "lesen",
+          "title": "Lesen (Reading)",
+          "desc": "Comprehending short notes, signs, and basic information in forms."
+        },
+        {
+          "id": "schreiben",
+          "title": "Schreiben (Writing)",
+          "desc": "Ability to fill out official and personal forms, and write simple messages."
+        },
+        {
+          "id": "sprechen",
+          "title": "Sprechen (Speaking)",
+          "desc": "Ability to introduce oneself, ask and answer simple questions."
+        }
+      ],
+      "description": "You can directly contact our educational consultants to overcome your exam anxiety and learn the training details at our Izmir branch.",
+      "features": [
+        "Special curriculum for consulate-approved certificate exams (Goethe, Telc, etc.).",
+        "Intensive program focusing on exam strategies and 4 core skills.",
+        "German culture and daily life practices accompanied by an experienced teaching staff.",
+        "Clear and step-by-step education model for complete beginners (Basic)."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Should You Choose Us for Family Reunification Training?",
+      "subtitle": "Don't Risk Your Visa Process",
+      "cardTitle": "Detailed Information and Transparency",
+      "cardDesc": "You can always contact us to find answers to all your questions about our German Family Reunification Course Izmir programs and to make the most suitable plan for you.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Can I join the training in Izmir from scratch?",
+          "a": "Yes, our family reunification training starts from scratch at a basic (A1) level for candidates who have never learned German before."
+        },
+        {
+          "q": "Do you handle the exam applications?",
+          "a": "Throughout your training process, our educational consultants provide you with the necessary guidance regarding the exam format, application processes, and consulate appointments."
+        },
+        {
+          "q": "How can I access more detailed information?",
+          "a": "You can speak directly with our Izmir educational consultants by filling out the contact form on our page or via our WhatsApp line."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Goal Orientation",
+          "desc": "A time-saving system focusing strictly on topics and question types required for passing the exam.",
+          "icon": "Award"
+        },
+        {
+          "title": "Ease of Communication",
+          "desc": "Accessible consultancy services where you can obtain detailed information in all processes before and after registration.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Up-to-Date Mock Exams",
+          "desc": "Mock exams similar to past questions so you experience no surprises in the exam format.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Motivation",
+          "desc": "Instructor support aimed at reducing stress and exam anxiety you might experience when starting a new life.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for A1 Level",
+      "subtitle": "Basic Materials Compliant with the Exam Format",
+      "features": [
+        "Compliant with Goethe/Telc A1 Format",
+        "Basic Sentence Structures",
+        "Visual and Auditory Activities"
+      ],
+      "books": [
+        {
+          "name": "Start Deutsch 1 Hazırlık Kitapları",
+          "type": "Exam Training Set"
+        },
+        {
+          "name": "A1 Wortschatz & Grammatik",
+          "type": "Basic Vocabulary and Grammar"
+        },
+        {
+          "name": "Modelltests für A1",
+          "type": "Mock Exams in Past Exam Question Format"
+        },
+        {
+          "name": "Hören & Sprechen Übungen",
+          "type": "Listening and Speaking Practice"
+        }
+      ]
+    },
+    "models": {
+      "title": "Our Education Models",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "IZMIR",
+        "desc": "You can contact us to get detailed information about our training activities, classrooms, and face-to-face program planning in Izmir.",
+        "features": [
+          "Classroom Environment with Expert Instructors",
+          "Speaking and Practice-Focused Lessons",
+          "Physical Mock Exams",
+          "Contact Form for Detailed Information"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Contact Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Live Family Reunification (A1) training offered through our interactive platform, accessible from anywhere.",
+        "features": [
+          "Live and Interactive Classes",
+          "Digital Reading and Listening",
+          "Freedom of Time and Location",
+          "Uninterrupted Instructor Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About the Izmir Family Reunification Process",
+      "items": [
+        {
+          "q": "How can I get information about the Izmir German Family Reunification Course?",
+          "a": "To get more detailed information about program details, current training dates, and pricing, you can use the contact form on our page or reach us via our WhatsApp support line."
+        },
+        {
+          "q": "Is a certificate mandatory for a German family reunification visa?",
+          "a": "Yes, except for a few exceptional cases, the German Consulate requires you to submit a language certificate at the A1 level (Start Deutsch, etc.) obtained from authorized institutions during application."
+        },
+        {
+          "q": "How long does the course program last?",
+          "a": "Training duration varies depending on the candidate's current knowledge level and the selected program (intensive or standard). You can speak with our educational consultants to determine the program duration most suitable for you."
+        }
+      ]
+    }
+  },
+  "besiktasFransizcaLandingPage": {
+    "hero": {
+      "tag": "BEŞİKTAŞ FRENCH COURSE",
+      "title": "The Privilege of Learning French with Native Instructors in Beşiktaş",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "STEP INTO THE WORLD OF FRENCH!",
+      "formSubtitle": "Get Information for Our Beşiktaş French Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Training Preference (Group Lesson / Private Lesson)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: FRENCH LANGUAGE EDUCATION",
+      "description": "Learn French, popular both as a native and second language, at our Beşiktaş branch with our experience of over a quarter-century, certified native instructors, and an education model based on 4 core skills.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "One-on-One Private Lessons and Group Lesson Options!"
+    },
+    "about": {
+      "badge": "4 CORE SKILLS",
+      "title": "Beşiktaş French Course Education Model",
+      "desc": "As interest in learning French—popular both as a native and second language—continues to grow, questions like 'Where and how to receive proper and qualified education?' have increased. We created our Beşiktaş French Course program as an answer to these questions.<br/><br/><b>Our Educational Approach:</b> The Beşiktaş French Course education model is planned around 4 language competence skills without separating language from culture, supported by various educational activities. Our students can schedule their education with expert instructors through one-on-one private lessons or group lesson options.",
+      "skills": [
+        {
+          "id": "parler",
+          "title": "Speaking (Parler)",
+          "desc": "Pronunciation and fluent speaking practices accompanied by native instructors."
+        },
+        {
+          "id": "ecrire",
+          "title": "Writing (Écrire)",
+          "desc": "Creating French texts and compositions by putting grammar rules into practice."
+        },
+        {
+          "id": "lire",
+          "title": "Reading (Lire)",
+          "desc": "Accurately understanding texts, articles, and books belonging to French culture."
+        },
+        {
+          "id": "ecouter",
+          "title": "Listening (Écouter)",
+          "desc": "Fully comprehending daily dialogues and academic French auditorily."
+        }
+      ],
+      "description": "Academic Foreign Language Schools does not leave you alone in your language learning journey, having evolved from the past to the present with over a quarter-century of experience.",
+      "features": [
+        "Certified native teachers and expert teaching staff with pedagogical formation.",
+        "Education in 4 core language skills: speaking, writing, reading, and listening.",
+        "Curriculum supported by educational activities without separating language and culture.",
+        "One-on-one private lesson or group lesson options tailored to student needs."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Us for the Beşiktaş French Course?",
+      "subtitle": "Number One on Recommendation Lists",
+      "cardTitle": "A Quarter-Century of Experience",
+      "cardDesc": "Ranking number one on the Beşiktaş French Course recommendation list, Academic Foreign Language Schools has been the center of qualified language education for over 25 years.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "Who makes up your teaching staff?",
+          "a": "Our program instructors consist of certified native (native French-speaking) teachers and experienced teachers who are experts in their fields with pedagogical formation."
+        },
+        {
+          "q": "Is only grammar taught in the training programs?",
+          "a": "No. Our education model is taught supported by educational activities to equally develop all 4 language competencies: speaking, writing, reading, and listening."
+        },
+        {
+          "q": "Do you offer private lessons?",
+          "a": "Yes, at our Beşiktaş branch, students can plan their training with one-on-one private lessons or group lesson options according to their own learning speed and schedule."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Instructors",
+          "desc": "Correct pronunciation and practice with certified native French-speaking teachers.",
+          "icon": "Users"
+        },
+        {
+          "title": "4 Skills Model",
+          "desc": "Fully equipped education focusing not only on reading and writing, but also on listening and speaking.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Private Lesson Option",
+          "desc": "One-on-one programs for those who cannot attend group lessons or want to progress rapidly.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Cultural Activities",
+          "desc": "Opportunity to learn the French language blended with its own culture through educational activities.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources We Use for French",
+      "subtitle": "Materials Developing 4 Core Skills",
+      "features": [
+        "At International Standards",
+        "Auditory and Visual Practices",
+        "Cultural Reading Texts"
+      ],
+      "books": [
+        {
+          "name": "Fransızca Dil Bilgisi ve Pratik",
+          "type": "Grammar and Sentence Structures"
+        },
+        {
+          "name": "Compréhension Orale & Écrite",
+          "type": "Reading and Listening Exercises"
+        },
+        {
+          "name": "Expression Orale",
+          "type": "Speaking and Pronunciation (Native)"
+        },
+        {
+          "name": "Eğitsel Aktivite Materyalleri",
+          "type": "Cultural and Interactive Content"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "BEŞİKTAŞ",
+        "desc": "Improve your French across 4 skills by communicating face-to-face with native instructors at our Beşiktaş branch.",
+        "features": [
+          "Group Lesson Options",
+          "One-on-One Private Lesson Opportunities",
+          "Educational and Cultural Activities",
+          "Speaking and Practice-Focused Classrooms"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Receive uninterrupted French education with our expert staff through our interactive infrastructure without getting caught in Istanbul traffic.",
+        "features": [
+          "Live and Interactive Classes",
+          "Online Private Lesson Options",
+          "Digital Reading/Listening",
+          "Freedom of Time and Location"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Beşiktaş French Course",
+      "items": [
+        {
+          "q": "Who can attend Beşiktaş French course programs?",
+          "a": "Individuals from all age and profession groups, from beginner to advanced levels, who wish to learn French as a native or second language can participate in our programs."
+        },
+        {
+          "q": "Why are you ranked first in course recommendations?",
+          "a": "Thanks to our experience of over a quarter-century, our 4-skill-focused education model that does not separate language and culture, and our certified native instructors, we rank first on Beşiktaş French course recommendation lists."
+        },
+        {
+          "q": "I want to take one-on-one private lessons, how is the program arranged?",
+          "a": "As a result of your consultation with our educational consultants, a personalized calendar is created with our expert teachers holding pedagogical formation, based on your current level, goals, and availability (day/time)."
+        }
+      ]
+    }
+  },
+  "businessEnglishLandingPage": {
+    "meta": {
+      "title": "Business English Course | Akademik International",
+      "description": "Improve your professional communication, presentation, and writing skills with our Business English courses to succeed in the global business world."
+    },
+    "hero": {
+      "tag": "BUSINESS ENGLISH COURSE",
+      "title": "Reach the Peak of Your Career with",
+      "highlight": "Business English",
+      "subtitle": "Strengthen your professional communication with Business English, one of the cornerstones of success in today's global business world.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "THE FIRST STEP FOR YOUR CAREER!",
+      "formSubtitle": "Get Pricing and Detailed Info for our Business English Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: PROFESSIONAL TRAINING",
+      "description": "Express yourself confidently in every field, from job interviews to presentations, email correspondence to meetings."
+    },
+    "about": {
+      "badge": "PROFESSIONAL COMMUNICATION",
+      "title": "What Does Business English Mean?",
+      "desc": "Business English refers to the English language skills used to communicate effectively in the business world and succeed in professional environments. Business English includes business-related terms, correspondence and presentation techniques, and appropriate language use for job interviews and meetings. This skill is important for anyone working in international companies, communicating with foreign clients, traveling for business, and interacting with different cultures.",
+      "skills": [
+        {
+          "id": "communication",
+          "title": "Effective Communication",
+          "desc": "The ability to communicate professionally and fluently in the global business world."
+        },
+        {
+          "id": "writing",
+          "title": "Business Correspondence",
+          "desc": "Using the correct terminology and tone in emails, reports, and official correspondence."
+        },
+        {
+          "id": "presentation",
+          "title": "Presentation Skills",
+          "desc": "Making impressive and professional presentations in international meetings and events."
+        },
+        {
+          "id": "interview",
+          "title": "Interview Success",
+          "desc": "Expressing yourself in the best possible way and standing out in English job interviews."
+        }
+      ],
+      "description": "Acquire the right English skills to break down borders in the business world and compete on a global scale.",
+      "features": [
+        "The most commonly used terms and phrases in the business world.",
+        "Meeting management and presentation skills.",
+        "Professional email and report writing techniques.",
+        "Rules of international communication and cross-cultural interaction."
+      ]
+    },
+    "vocabTable": {
+      "title": "Most Commonly Used Business English Words",
+      "desc": "We have compiled the most frequently used words in our business life for you. The most commonly used Business English words are as follows:",
+      "headers": [
+        "Business English Words",
+        "Turkish Translation"
+      ],
+      "rows": [
+        {
+          "term": "presentation",
+          "translation": "sunum"
+        },
+        {
+          "term": "project",
+          "translation": "proje"
+        },
+        {
+          "term": "deadline",
+          "translation": "son teslim tarihi"
+        },
+        {
+          "term": "team",
+          "translation": "ekip"
+        },
+        {
+          "term": "report",
+          "translation": "rapor"
+        },
+        {
+          "term": "strategy",
+          "translation": "strateji"
+        },
+        {
+          "term": "budget",
+          "translation": "bütçe"
+        },
+        {
+          "term": "meeting",
+          "translation": "toplantı"
+        },
+        {
+          "term": "market",
+          "translation": "pazar"
+        },
+        {
+          "term": "sales",
+          "translation": "satış"
+        },
+        {
+          "term": "opportunity",
+          "translation": "fırsat"
+        },
+        {
+          "term": "analysis",
+          "translation": "analiz"
+        },
+        {
+          "term": "manager",
+          "translation": "yönetici"
+        },
+        {
+          "term": "solution",
+          "translation": "çözüm"
+        }
+      ],
+      "footer": "These Business English words are among the most frequently encountered and used in the business world."
+    },
+    "emailTable": {
+      "title": "Business English Email Templates",
+      "desc": "An important way to communicate effectively in the business world is through emails written in Business English. Emails written correctly and effectively can reflect your professional appearance and strengthen your business relationships.",
+      "headers": [
+        "Email Templates",
+        "Subject",
+        "Description"
+      ],
+      "rows": [
+        {
+          "category": "Job Application",
+          "subject": "Job Application for [Position Name]",
+          "content": "Dear [Recipient Name],\nI would like to submit my application for your suitable position. My CV and cover letter are attached. I would be glad to contact you to get more information about the position.\nSincerely, [Your Name]"
+        },
+        {
+          "category": "Meeting Invitation",
+          "subject": "Invitation to Attend [Meeting Name] Meeting on [Date]",
+          "content": "Dear [Recipient Name],\nWe request your attendance at the [Meeting Name] meeting we will hold on [Date] as [Company Name]. Meeting details are below.\nDate: [Date] Time: [Time] Location: [Meeting Location]\nWe look forward to your participation.\nSincerely, [Your Name]"
+        },
+        {
+          "category": "Thank You Email",
+          "subject": "Thank You for Your Support",
+          "content": "Dear [Recipient Name],\nThank you for your support regarding [Event/Meeting/Project]. We hope our cooperation will become even stronger.\nSincerely, [Your Name]"
+        },
+        {
+          "category": "Product/Service Inquiry",
+          "subject": "Inquiry about [Product/Service Name]",
+          "content": "Dear [Recipient Name],\nI would like to get information about [Product/Service Name]. Could you provide information about price, features, and delivery time?\nI would appreciate it if you could forward the relevant information as soon as possible.\nSincerely, [Your Name]"
+        },
+        {
+          "category": "Job Offer",
+          "subject": "Job Offer for [Position Name]",
+          "content": "Dear [Recipient Name],\nAs a result of our interview on [Date], we are pleased to offer you a job for the [Position Name] position. Details and our job offer are attached.\nWe request you to get back to us as soon as possible.\nSincerely, [Your Name]"
+        }
+      ],
+      "footer": "Business English email templates make it easier for you to communicate professionally and guide you to convey the right message. By using these templates appropriately for your needs, you can make your communication in the business world more effective."
+    },
+    "seoContent": [
+      {
+        "title": "Business English Courses",
+        "desc": "Business English courses are an important tool for communicating effectively in the business world and advancing in your career. Business English training in these courses is designed for you to improve your professional communication skills and communicate more confidently and effectively in the workplace."
+      },
+      {
+        "title": "Why Should You Take a Business English Course?",
+        "desc": "The benefits of a Business English course are as follows:",
+        "bullets": [
+          "Business English courses help you learn special terms, correspondence rules, and effective communication strategies required in the business world. It is important to develop the right communication skills to be successful in business life.",
+          "Job interviews are an important step in your career, and effective communication during these interviews plays a critical role. A Business English course can help you express yourself better in job interviews.",
+          "Business English courses allow you to improve your professional presentation skills. Giving an effective presentation is important to impress audiences in business meetings and presentations.",
+          "Emails, reports, and official correspondence are part of daily communication in the business world. A Business English course teaches the use of correct expressions in written communication.",
+          "If you operate in the international business world, a Business English course supports your success in international business relationships. Knowing the right terms and expressions when communicating with different cultures is a great advantage.",
+          "Business English courses can help you advance in your career. Given the competitive nature of the business world, a good Business English skill can set you apart from other candidates.",
+          "Business English courses help you develop the skills needed for successful communication in business life. It guides you in many areas from job interviews to professional presentations and offers an important step to advance your career."
+        ]
+      }
+    ]
+  },
+  "havacilikIngilizcesiLandingPage": {
+    "hero": {
+      "tag": "AVIATION AND PILOT ENGLISH",
+      "title": "Start Your Career in the Skies with the Best Aviation English Course",
+      "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration and Information Form",
+      "formTitle": "STAND OUT IN INTERVIEWS!",
+      "formSubtitle": "Get Information for Our Aviation English Course Right Away!",
+      "namePlaceholder": "Enter First and Last Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Your Goal (Cabin Crew, Piloting, etc.)",
+      "submitBtn": "GET INFORMATION NOW!",
+      "badge": "CATEGORY: ENGLISH FOR SPECIFIC PURPOSES",
+      "description": "With its unique curriculum and expert teaching staff, Academic Foreign Language Course, Turkey's best Aviation / Pilot English preparation course, is here for qualified language education.",
+      "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
+      "subtitle": "Cabin Crew Interviews and Aviation Terminology!"
+    },
+    "about": {
+      "badge": "SECTORAL EXPERTISE",
+      "title": "Aviation English and Cabin Crew",
+      "desc": "This is our English training program designed for individuals looking to advance their career in the aviation industry. In this program, competence in 4 core skills (Reading, Writing, Listening, Speaking) is built alongside vocabulary, expressive skills, and practical experience within the scope of aviation terminology.<br/><br/><b>What is Cabin Crew?</b> Referred to as cabin crew, stewards, or stewardesses in aviation, these teams are vital aircraft personnel who attend to passengers, ensure a comfortable journey, and guarantee safety during emergencies such as fire, smoke, evacuation, and medical issues.",
+      "skills": [
+        {
+          "id": "terminology",
+          "title": "Aviation Terminology",
+          "desc": "Professional vocabulary, phonetic alphabet, and in-flight announcement practices."
+        },
+        {
+          "id": "emergency",
+          "title": "Emergency Communication",
+          "desc": "Clear expression capability during crisis situations such as fire, smoke, evacuation, and medical issues."
+        },
+        {
+          "id": "skills_4",
+          "title": "4 Core Skills",
+          "desc": "Gaining sectoral competence in Reading, Writing, Listening, and Speaking."
+        },
+        {
+          "id": "interview",
+          "title": "Interview Strategy",
+          "desc": "Time management, stress management, and effective language use tactics in board interviews."
+        }
+      ],
+      "description": "Prepare for online English exams and board interviews for cabin crew recruitment with the distinction of Academic Foreign Language Course.",
+      "features": [
+        "Turkey's best Aviation/Pilot English training curriculum.",
+        "Special question-solving techniques for online English exams (e.g., DynEd, CBT).",
+        "Strategy support that puts you ahead of other candidates in board interviews.",
+        "Expert teaching staff with sectoral experience."
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Us for Aviation English?",
+      "subtitle": "Make a Difference in Interviews",
+      "cardTitle": "Comprehensive Interview Strategy",
+      "cardDesc": "In addition to the educational content, full strategy support such as time management, stress management, and effective language use is provided to help you stand out in interviews.",
+      "btnNext": "Our Other Advantages →",
+      "faqs": [
+        {
+          "q": "What is taught in the Aviation English program?",
+          "a": "Unlike general English, the 4 core skills (Reading, Writing, Listening, Speaking) are taught entirely through aviation terminology, vocabulary, and in-flight scenarios (evacuation, health, etc.)."
+        },
+        {
+          "q": "How do you prepare candidates for cabin crew interviews?",
+          "a": "We conduct special simulations, stress and time management practices for online English exams administered by airlines (THY, Pegasus, SunExpress, etc.) and subsequent face-to-face board interviews."
+        },
+        {
+          "q": "What is the competence of your instructors in this field?",
+          "a": "Our unique curriculum is delivered by expert instructors who are intimately familiar with aviation industry dynamics and interview systems."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Board Interview Simulation",
+          "desc": "One-on-one English speaking and scenario practices that mimic real interview environments.",
+          "icon": "Users"
+        },
+        {
+          "title": "Emergency Language",
+          "desc": "International aviation phrases to be used during moments of smoke, fire, and evacuation.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Exam Preparation",
+          "desc": "Exact alignment with computer-based test (CBT) English exam formats used by airlines.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Stress and Time Management",
+          "desc": "Psychological foundational training so you can use English fluently and effectively under pressure.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Sectoral Resources We Use in Training",
+      "subtitle": "Special Materials for Cabin and Cockpit",
+      "features": [
+        "Aviation Terminology",
+        "Past Interview Questions",
+        "Auditory (Listening) Practices"
+      ],
+      "books": [
+        {
+          "name": "English for Cabin Crew",
+          "type": "Occupational Terminology and Dialogues"
+        },
+        {
+          "name": "Aviation Interview Strategies",
+          "type": "Board Interview and Tactics"
+        },
+        {
+          "name": "Online Test (CBT) Mocks",
+          "type": "Computer-Based Mock Exams"
+        },
+        {
+          "name": "Emergency Situations & Health",
+          "type": "Emergency and Evacuation Scenarios"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Education Model Most Suitable for You",
+      "faceToFace": {
+        "title": "Formal (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Face-to-face Aviation English and stress management preparation at our campuses, simulating the interview environment directly.",
+        "features": [
+          "Board Interview Practice with Expert Instructors",
+          "In-Class Emergency Scenarios (Role-Play)",
+          "Instant Feedback and Error Correction",
+          "Physical Mock Exam Applications"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "Online participation opportunities for busy professionals or candidates from different cities to Turkey's best Aviation English course.",
+        "features": [
+          "Live and Interactive Class Experience",
+          "Computer-Based Testing (CBT) Practices",
+          "Freedom of Time and Location",
+          "Digital Publishing and Document Support"
+        ],
+        "btnWhatsapp": "WhatsApp Information Line",
+        "btnForm": "Pre-Information Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Cabin Crew and Aviation English",
+      "items": [
+        {
+          "q": "What is paid most attention to in cabin crew English interviews?",
+          "a": "In addition to using English correctly and fluently, candidates are evaluated on their ability to stay calm under stress, manage time effectively, and respond instantly to emergency scenarios (evacuation, medical issues)."
+        },
+        {
+          "q": "What should my English level be to join your course?",
+          "a": "To understand aviation terminology and interview strategies, you are generally expected to have at least an Intermediate level of general English background. Your level is tested prior to registration to provide you with the most suitable guidance."
+        },
+        {
+          "q": "Do you also prepare for Pilot English (ICAO) exams?",
+          "a": "Yes, our unique curriculum covering 4 core skills (Reading, Writing, Listening, Speaking) provides foundational preparation for ICAO standard proficiency exams for candidates with piloting goals alongside cabin crew aspirations."
+        }
+      ]
+    }
+  },
+  "satLandingPage": {
+    "meta": {
+      "title": "SAT Preparation Course | Akademik International",
+      "description": "Prepare for the SAT exam with our expert staff to study at prestigious universities in the US and around the world."
+    },
+    "hero": {
+      "tag": "SAT PREPARATION COURSE",
+      "title": "For Your University Dreams Abroad",
+      "highlight": "SAT Exam",
+      "subtitle": "Seize the opportunity to study and win scholarships at the most prestigious universities in the USA, UK, Canada, and Australia.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our SAT Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: EXAMS ABROAD",
+      "description": "Open the doors to over 3100 universities worldwide with the Scholastic Aptitude Test (SAT)."
+    },
+    "about": {
+      "badge": "INTERNATIONAL VALIDITY",
+      "title": "What is the SAT Exam and Exam Types",
+      "desc": "The SAT Exam is an internationally recognized test that was first administered by the College Board in 1926. The SAT, which was initially administered in the United States, now provides the opportunity to study at approximately 3100 different universities, including major countries such as the UK, Canada, and Australia.\n\nThe SAT (Scholastic Aptitude Test) is not an application valid for every university. However, it is an essential exam for students who want to win academic or sports scholarships for prestigious universities such as Harvard, Oxford, and Yale.",
+      "skills": [
+        {
+          "id": "sat-reasoning",
+          "title": "SAT Reasoning Test (SAT 1)",
+          "desc": "The main test actively administered today, evaluating candidates' reading, writing and language, and mathematical skills."
+        },
+        {
+          "id": "digital-sat",
+          "title": "Digital SAT Update",
+          "desc": "By decision of the College Board, it began to be held digitally starting in 2023, and the exam duration was reduced from 3 hours to 2 hours."
+        },
+        {
+          "id": "subject-test",
+          "title": "SAT 2 Subject Test (Discontinued)",
+          "desc": "Discontinued by the College Board as of 2021, and the Essay section has also been canceled. Now only SAT 1 is valid."
+        }
+      ],
+      "description": "We aim for high scores in the SAT exam, which allows students to prove their academic success at international standards.",
+      "features": [
+        "Special strategies for Reading, Writing and Language, and Math sections.",
+        "Practice exams fully compatible with the Digital SAT format.",
+        "Intensive program for Upper Intermediate and above students.",
+        "Score-oriented guidance for targeted prestigious universities."
+      ]
+    },
+    "gradeTabs": {
+      "title": "SAT Exam Subjects",
+      "grades": [
+        {
+          "tabTitle": "SAT Reading",
+          "title": "1. SAT Reading",
+          "desc": "The Reading section contains 52 questions. There are text sections in this part that also include graphics, templates, and tables.",
+          "bullets": [
+            "There are approximately 5 pieces of text from subjects covering science, history, and social studies.",
+            "It is answered in a multiple-choice format.",
+            "Generally, your ability to understand what you read is evaluated.",
+            "This section is 65 minutes."
+          ],
+          "summary": "Focus: Speed reading, analyzing, and interpreting graphical data."
+        },
+        {
+          "tabTitle": "SAT Writing",
+          "title": "2. SAT Writing and Language",
+          "desc": "The SAT Writing and Language consists of 44 multiple-choice questions.",
+          "bullets": [
+            "You are expected to correct the paragraphs you encounter and read them comprehensibly.",
+            "Skills such as understanding paragraphs, punctuation, and distinguishing sentence structures are measured.",
+            "Evaluation is aimed at measuring vocabulary.",
+            "This section is 35 minutes."
+          ],
+          "summary": "Focus: Grammar rules, text editing, and contextual vocabulary."
+        },
+        {
+          "tabTitle": "SAT Math",
+          "title": "3. SAT Mathematics",
+          "desc": "The SAT Mathematics Exam consists of a total of 58 questions, 45 multiple choice and 13 with tables.",
+          "bullets": [
+            "Your skills in functions, equations, statistics, and mathematical problem-solving are evaluated.",
+            "You can use a calculator in the exam; you have the right to answer 20 questions with a calculator.",
+            "The 25-question section is 25 minutes, and the 35-question section is 55 minutes."
+          ],
+          "summary": "Focus: Algebra, data analysis, and advanced mathematical problem-solving."
+        }
+      ]
+    },
+    "centersTable": {
+      "title": "SAT Exam Centers in Turkey",
+      "desc": "The official centers where the SAT exam is held across Turkey are as follows:",
+      "headers": [
+        "CITY",
+        "UNIVERSITY / HIGH SCHOOL"
+      ],
+      "rows": [
+        {
+          "city": "BURSA",
+          "center": "BURSA TED COLLEGE"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "HİSAR SCHOOLS"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "ÖZEL OĞUZKAAN COLLEGE"
+        },
+        {
+          "city": "İSTANBUL",
+          "center": "ST. GEORG AUSTRIAN COLLEGE"
+        },
+        {
+          "city": "İZMİR",
+          "center": "AMERICAN COLLEGIATE INSTITUTE"
+        },
+        {
+          "city": "DENİZLİ",
+          "center": "ÖZEL SERVERGAZİ ANATOLIAN AND SCIENCE HIGH SCHOOL"
+        },
+        {
+          "city": "KOCAELİ",
+          "center": "FATİH COLLEGE"
+        },
+        {
+          "city": "MERSİN",
+          "center": "TARSUS AMERICAN COLLEGE"
+        },
+        {
+          "city": "ERZURUM",
+          "center": "BİLKENT ERZURUM LABORATORY HIGH SCHOOL"
+        },
+        {
+          "city": "KAYSERİ",
+          "center": "ABDULLAH GÜL UNIVERSITY"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "SAT Exam Score Calculation",
+        "desc": "In the SAT Exam, the Mathematics section is calculated out of 800 full points; while the Reading, writing, and language section is calculated between 400-1600 Points. If you get a score of 1500, you can earn the right to study at prestigious universities worldwide."
+      },
+      {
+        "title": "Who Can Take the SAT Exam?",
+        "desc": "This exam, which has no age limit or duration, is generally applied by high school seniors and high school graduates. In order to be successful in the exam, your English level must be a minimum of Upper Intermediate. There is no restriction for SAT Exam participation; anyone can apply for this exam as many times as they want."
+      },
+      {
+        "title": "SAT Exam Fees",
+        "desc": "Current SAT Exam basic registration fees:",
+        "bullets": [
+          "SAT Registration Fee: $60",
+          "For Turkey it is $49"
+        ]
+      },
+      {
+        "title": "SAT Additional Registration Fees",
+        "desc": "Additional registration and processing fees that may arise in some cases:",
+        "bullets": [
+          "Test Center Attendance Fee $24",
+          "Test Center Change Request Fee $25",
+          "Cancel Registration $25",
+          "Late Registration Cancellation Processing Fee $35"
+        ]
+      },
+      {
+        "title": "SAT Score Service Fees",
+        "desc": "Additional service fees requested for exam result reports and evaluation:",
+        "bullets": [
+          "Additional Score Report Fee per Relevant Report $12",
+          "Rush Report Fee is $31",
+          "Scores by Phone Fee per Call $15",
+          "Score Report Archiving Fee $31",
+          "SAT Question-and-Answer Service Fee $16",
+          "SAT Student Answer Service Fee $16",
+          "Hand-Scoring and Verification Service Fee is $55"
+        ]
+      }
+    ]
+  },
+  "pteLandingPage": {
+    "meta": {
+      "title": "PTE Preparation Course | Akademik International",
+      "description": "Prepare for the Pearson Test of English (PTE) with our expert teaching staff and reach your target score in a short time."
+    },
+    "hero": {
+      "tag": "PTE ACADEMIC PREPARATION",
+      "title": "Shape Your Career and Education",
+      "highlight": "PTE Exam",
+      "subtitle": "Get one step closer to your dreams with the AI-supported, fast-result PTE exam, a great alternative to traditional language tests.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our PTE Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: ACADEMIC EXAMS",
+      "description": "Succeed in the PTE Academic exam, accepted by over 1300 universities worldwide."
+    },
+    "about": {
+      "badge": "AI-SUPPORTED EXAM",
+      "title": "What is the PTE Exam and Its Advantages?",
+      "desc": "The PTE (Pearson Test of English Academic) is a foreign language placement test that has been used since 2009 and is accepted by more than 1300 universities and institutions worldwide. Evaluated between 10 and 90 points, it offers an international opportunity to certify your language skills from beginner to advanced levels (A1-C2).",
+      "skills": [
+        {
+          "id": "pte-yok",
+          "title": "Recognized by YÖK",
+          "desc": "Recognized by the Turkish Higher Education Council (YÖK). Can be used as an alternative to YDS or YÖKDİL for academic appointments."
+        },
+        {
+          "id": "pte-global",
+          "title": "Global Validity",
+          "desc": "Valid for immigration and education applications to many countries, especially Australia, Canada, USA, Germany, and the UK."
+        },
+        {
+          "id": "pte-fast",
+          "title": "Fast and Digital",
+          "desc": "The exam takes place digitally; you can apply 24 hours in advance and results are announced within 48 hours."
+        },
+        {
+          "id": "pte-ai",
+          "title": "AI Evaluated",
+          "desc": "The speaking section is not conducted with live teachers. You speak to the computer, removing anxiety and providing unbiased AI evaluation."
+        }
+      ],
+      "description": "The PTE Exam is considered highly effective and yields quick results to achieve your target score compared to IELTS and TOEFL.",
+      "features": [
+        "Expert local and foreign instructors.",
+        "Access 365 days a year with practical training sessions.",
+        "Original exam strategies and updated topic-based materials.",
+        "Intensive reinforcement in Speaking, Listening, Reading, and Writing."
+      ]
+    },
+    "gradeTabs": {
+      "title": "PTE Exam Process",
+      "grades": [
+        {
+          "tabTitle": "Listening",
+          "title": "Listening Section",
+          "desc": "Measures the candidates' ability to understand spoken English.",
+          "bullets": [
+            "Duration is approximately 60 minutes.",
+            "Includes speeches and lecture recordings in various accents.",
+            "Tests comprehension, summarization, and catching details."
+          ],
+          "summary": "Focus: Auditory comprehension and contextual analysis."
+        },
+        {
+          "tabTitle": "Reading",
+          "title": "Reading Section",
+          "desc": "Focuses on the ability to understand and interpret academic texts.",
+          "bullets": [
+            "Duration is approximately 40 minutes.",
+            "Includes multiple-choice, fill-in-the-blanks, and paragraph ordering.",
+            "Tests the ability to find the main idea and details."
+          ],
+          "summary": "Focus: Speed reading, vocabulary, and reading comprehension."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "Writing Section",
+          "desc": "Expects candidates to create proper texts using grammar and vocabulary.",
+          "bullets": [
+            "Duration is approximately 45 minutes.",
+            "Consists of text summarization and essay writing tasks.",
+            "Evaluates written expression skills in an academic format."
+          ],
+          "summary": "Focus: Grammar rules, academic writing style, and coherence."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "Speaking Section",
+          "desc": "A computer-based, AI-supported speech evaluation.",
+          "bullets": [
+            "Duration is approximately 45 minutes.",
+            "Includes reading aloud, repeating sentences, and describing graphics.",
+            "Scoring focuses on fluency and pronunciation."
+          ],
+          "summary": "Focus: Pronunciation, fluency, and oral expression."
+        }
+      ]
+    },
+    "centersTable": {
+      "title": "PTE Academic Exam Centers in Turkey",
+      "desc": "Authorized test centers where the PTE exam is held across Turkey:",
+      "headers": [
+        "CITY",
+        "INSTITUTION",
+        "ADDRESS"
+      ],
+      "rows": [
+        {
+          "col1": "İSTANBUL",
+          "col2": "YILDIZ TEKNİK ÜNİVERSİTESİ SEM",
+          "col3": "YILDIZ MAH. BARBAROS BULVARI BLOG :N 10234349 BEŞİKTAŞ/İSTANBUL"
+        },
+        {
+          "col1": "İZMİR",
+          "col2": "DOKUZ EYLÜL ÜNİVERSİTESİ YABANCI DİLLER YÜKSEKOKULU",
+          "col3": "DOKUZÇEŞMELER KAMPÜSÜ BUCA/İZMİR"
+        },
+        {
+          "col1": "KIBRIS",
+          "col2": "ODTÜ KUZEY KIBRIS KAMPÜSÜ",
+          "col3": "ARABAHMET MAHALLESİ DERVİŞ PAŞA SOKAK NO:4"
+        },
+        {
+          "col1": "ERZURUM",
+          "col2": "ATATÜRK ÜNİVERSİTESİ",
+          "col3": "ATATÜRK ÜNİVERSİTESİ ULUSLARARASI DİL SINAVLARI KOORDİNATÖRLÜĞÜ 25100 YAKUTİYE/ERZURUM"
+        },
+        {
+          "col1": "DENİZLİ",
+          "col2": "PAMUKKALE ÜNİVERSİTESİ YABANCI DİLLER YÜKSEK OKULU",
+          "col3": "KAMPÜS 20070 KINIKLI/DENİZLİ"
+        },
+        {
+          "col1": "ADANA",
+          "col2": "ADANA ALPARSLAN TÜRKEŞ BİLİM ve TEKNOLOJİ ÜNİVERSİTESİ SARIÇAM YERLEŞKESİ",
+          "col3": "ADANA DİLLER YÜKSEKOKUL BİNASI ÇATALAN CADDESİ 01130 SARIÇAM/ADANA"
+        },
+        {
+          "col1": "ANKARA",
+          "col2": "YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+          "col3": "GÜVENEVLER MAHALLESİ CİNNAH CADDESİ NO:16 06680 KAVAKLIDERE/ÇANKAYA"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "İSTANBUL ÜNİVERSİTESİ YABANCI DİLLER BÖLÜMÜ",
+          "col3": "KALENDERHANE MAHALLESİ 16 MART ŞEHİTLERİ CADDESİ DR. ŞEVKET APARTMANI NO:22/24 VEZNECİLER,BEYAZIT, FATİH İSTANBUL"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "MARMARA ÜNİVERSİTESİ YABANCI DİLLER YÜKSEK OKULU",
+          "col3": "MARMARA ÜNİVERSİTESİ GÖZTEPE KAMPÜSÜ EĞİTİM MAHALLESİ FAHRETTİN KERİM GÖKAY CADDESİ KADIKÖY/İSTANBUL"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "PEARSON PROFESSIONAL CENTERS",
+          "col3": "SÜLEYMAN SEBA CADDESİ NO:48 BJK PLAZA A BLOK KAT:1 DAİRE:3 AKARETLER/BEŞİKTAŞ"
+        },
+        {
+          "col1": "İSTANBUL",
+          "col2": "BRİTİSH SİDE ENGLİSH LANGUAGE SCHOOL",
+          "col3": "BARBAROS BULVARI NO:91 BEŞİKTAŞ/İSTANBUL"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "PTE Exam Psychology",
+        "desc": "Exam Psychology is the state of anxiety and stress caused by the candidates' subconscious. When exam stress is properly controlled, it leads you to success. The most effective way to reduce stress is to work with skill-oriented and cognitive approaches. At this point, the person should focus on their goals rather than their anxieties. All you need to do is maximize your knowledge by taking plenty of practice exams. Our institution provides psychological support and expert guidance during the PTE Exam Management process."
+      }
+    ]
+  },
+  "caeLandingPage": {
+    "meta": {
+      "title": "CAE Preparation Course | Akademik International",
+      "description": "Prepare for the Cambridge English Advanced (CAE) exam with our expert instructors and certify your English proficiency internationally."
+    },
+    "hero": {
+      "tag": "CAE C1 ADVANCED PREPARATION",
+      "title": "Certify Your Advanced English Proficiency",
+      "highlight": "CAE Exam",
+      "subtitle": "Boost your career with the Cambridge University-approved CAE certificate, accepted by thousands of institutions and companies worldwide.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our CAE Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current English Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: CAMBRIDGE EXAMS",
+      "description": "We aim for high scores in the C1 Advanced exam, which measures the competence of candidates who use English close to a native level."
+    },
+    "about": {
+      "badge": "CAMBRIDGE APPROVED",
+      "title": "What is the CAE Exam and Who Can Take It?",
+      "desc": "The CAE (Certificate in Advanced English) exam is a Cambridge University exam that measures English language proficiency at a high level. It is designed for those learning English as a second language to certify their competence in reading, writing, listening, and speaking.\n\nAnyone aiming for an academic career abroad or wishing to work in international companies can take the C1 Advanced Exam. There is no age limit.",
+      "skills": [
+        {
+          "id": "cae-global",
+          "title": "Global Recognition",
+          "desc": "An international qualification accepted by thousands of institutions and universities worldwide."
+        },
+        {
+          "id": "cae-career",
+          "title": "Career Opportunities",
+          "desc": "Research shows employers prioritize candidates with the C1 Advanced certificate during the hiring process."
+        },
+        {
+          "id": "cae-validity",
+          "title": "Lifetime Validity",
+          "desc": "Unlike IELTS or TOEFL, the CAE certificate does not expire; it is valid for life."
+        },
+        {
+          "id": "cae-centers",
+          "title": "Wide Exam Network",
+          "desc": "Administered in over 2,900 authorized exam centers across 150 different countries."
+        }
+      ],
+      "description": "The CAE Exam allows candidates to certify their English proficiency in the search for qualified personnel by international educational institutions and companies.",
+      "features": [
+        "Advanced training in Reading, Writing, Listening, and Speaking skills.",
+        "Exam practice with original Cambridge materials.",
+        "Strategy lessons providing full mastery of the exam format.",
+        "One-on-one Speaking simulations with native instructors."
+      ]
+    },
+    "gradeTabs": {
+      "title": "CAE Exam Sections",
+      "grades": [
+        {
+          "tabTitle": "Reading",
+          "title": "CAE Reading Exam",
+          "desc": "Designed to measure your English reading skills. The total duration of the exam is 1 hour and 30 minutes.",
+          "bullets": [
+            "Texts from various genres such as newspaper articles, literary books, advertisements, and brochures.",
+            "Contains four different texts, each averaging 700-900 words.",
+            "Tests details, main ideas, and your interpretation skills."
+          ],
+          "summary": "Focus: Advanced text analysis, vocabulary, and reading comprehension."
+        },
+        {
+          "tabTitle": "Writing",
+          "title": "CAE Writing Exam",
+          "desc": "Consists of two different writing tasks to be completed in 2 hours and 15 minutes.",
+          "bullets": [
+            "Tasks may include writing an article, essay, letter, email, or report.",
+            "Expected to follow specific word limits and formatting rules.",
+            "Grammar, spelling, and clear expression of ideas are evaluated."
+          ],
+          "summary": "Focus: Academic writing, argument development, and correct grammar."
+        },
+        {
+          "tabTitle": "Speaking",
+          "title": "CAE Speaking Exam",
+          "desc": "Contains 4 sections and usually takes about 15 minutes. It can be done individually or in groups.",
+          "bullets": [
+            "Part 1: General conversation with the examiner.",
+            "Part 2: Speaking about provided pictures.",
+            "Part 3: Improvisation and role-play with other candidates.",
+            "Part 4: In-depth discussion about the related topic."
+          ],
+          "summary": "Focus: Fluency, pronunciation, interactive communication, and expressing ideas."
+        },
+        {
+          "tabTitle": "Listening",
+          "title": "CAE Listening Exam",
+          "desc": "Consists of 4 different sections and 30 questions. Lasts approximately 40 minutes.",
+          "bullets": [
+            "Listen to radio programs, interviews, presentations, and daily conversations.",
+            "Each audio recording is played a maximum of two times.",
+            "Measures the ability to follow spoken materials and catch details."
+          ],
+          "summary": "Focus: Auditory comprehension, understanding accents, and note-taking."
+        }
+      ]
+    },
+    "tables": {
+      "scoring": {
+        "title": "CAE Exam Scoring System",
+        "desc": "Valid scores for the C1 Advanced Exam are between 160-210. A score of 180 or above is considered a 'pass'.",
+        "headers": [
+          "Grade",
+          "Score",
+          "CEFR Level",
+          "Turkish Exam Equivalent"
+        ],
+        "rows": [
+          {
+            "col1": "Grade A",
+            "col2": "200-210",
+            "col3": "C2",
+            "col4": "80"
+          },
+          {
+            "col1": "Grade B",
+            "col2": "193-199",
+            "col3": "C1",
+            "col4": "70"
+          },
+          {
+            "col1": "Grade C",
+            "col2": "180-192",
+            "col3": "C1",
+            "col4": "60"
+          }
+        ]
+      },
+      "dates": {
+        "title": "CAE Current Exam Months (2026 - 2027)",
+        "desc": "Exams are held every month in different centers around the world.",
+        "headers": [
+          "Exam Period",
+          "Year"
+        ],
+        "rows": [
+          {
+            "col1": "January, February, March",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "April, May, June",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "July, August, September",
+            "col2": "2026/2027"
+          },
+          {
+            "col1": "October, November, December",
+            "col2": "2026/2027"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "How to Apply for the CAE Exam?",
+        "desc": "To participate in the Cambridge Advanced English Exam, you must register directly with an authorized exam center. There are over 2,900 authorized exam centers in 150 different countries. Major CAE Exam Centers in Turkey:",
+        "bullets": [
+          "Study in UK - Turkey",
+          "myELT",
+          "Evrim School of Languages",
+          "Dünya Education Exam Centre",
+          "Anadolu University School of Foreign Languages",
+          "Address Education Centre, İzmir-Turkey",
+          "3 H Education Consultancy"
+        ]
+      },
+      {
+        "title": "The Importance of the Cambridge Exam",
+        "desc": "The CAE Exam allows candidates to certify their English proficiency in the search for qualified personnel by international educational institutions and companies. In this context, having a CAE Certificate brings prestige to the individual in their academic and professional life."
+      }
+    ]
+  },
+  "torflLandingPage": {
+    "meta": {
+      "title": "TORFL Preparation Course | Akademik International",
+      "description": "Prepare for the Test of Russian as a Foreign Language (TORFL) with our 100% success guaranteed courses."
+    },
+    "hero": {
+      "tag": "TORFL RUSSIAN EXAM PREPARATION",
+      "title": "Open the Doors to Your Career and Education in Russia",
+      "highlight": "TORFL Exam",
+      "subtitle": "Prove your Russian language proficiency internationally by preparing for the CEFR-compliant TORFL exam approved by the Russian Ministry of Education.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our TORFL Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current Russian Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: RUSSIAN EXAMS",
+      "description": "The TORFL Course helps individuals who want to study and gain citizenship in Russia achieve the certificate they dream of on their first try."
+    },
+    "about": {
+      "badge": "RUSSIAN MINISTRY OF EDUCATION APPROVED",
+      "title": "What is the TORFL Exam and Who Can Take It?",
+      "desc": "The Test of Russian as a Foreign Language (TORFL) is a qualified exam administered to learners of Russian as a foreign language and candidates who will participate in institutions in Russia.\n\nStudents who want to be exempt from Russian preparatory education in Russia, individuals who want to work in Russia, or those who want to obtain Russian citizenship can take this exam.",
+      "skills": [
+        {
+          "id": "torfl-levels",
+          "title": "6 Different Levels",
+          "desc": "Consists of 6 levels, from beginner (A1) to advanced (C2)."
+        },
+        {
+          "id": "torfl-skills",
+          "title": "Four Basic Skills",
+          "desc": "Each level tests reading, writing, listening, and speaking."
+        },
+        {
+          "id": "torfl-citizenship",
+          "title": "Mandatory for Citizenship",
+          "desc": "The A2 level certificate is the minimum required to obtain Russian citizenship."
+        },
+        {
+          "id": "torfl-price",
+          "title": "Exam Fees",
+          "desc": "The exam fee determined for each level averages between 150-200 Dollars."
+        }
+      ],
+      "description": "Regular and sufficient study can help students succeed in the TORFL exam.",
+      "features": [
+        "Listening: Understanding different accents, summarizing what is heard.",
+        "Reading: Comprehending general and detailed texts, grasping the author's thoughts.",
+        "Writing: Writing sentences, paragraphs, essays, and written communication.",
+        "Speaking: Performing simple and detailed conversations, discussing different topics."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TORFL Exam Levels (A1 - C2)",
+      "grades": [
+        {
+          "tabTitle": "A1 Level",
+          "title": "A1 Beginner",
+          "desc": "The initial stage of the exam. Expected to have minimal Russian knowledge to meet limited daily needs.",
+          "bullets": [],
+          "summary": "Focus: Basic daily communication."
+        },
+        {
+          "tabTitle": "A2 Level",
+          "title": "A2 Basic",
+          "desc": "Expected to have speaking, writing, and listening skills to sustain daily life.",
+          "bullets": [],
+          "summary": "Focus: Minimum level required for Russian citizenship."
+        },
+        {
+          "tabTitle": "B1 Level",
+          "title": "B1 Intermediate (Level 1)",
+          "desc": "Requires intermediate Russian for basic communication in education and professional fields.",
+          "bullets": [],
+          "summary": "Focus: Required for entry into higher education institutions in Russia."
+        },
+        {
+          "tabTitle": "B2 Level",
+          "title": "B2 Upper Intermediate (Level 2)",
+          "desc": "High proficiency level. The B2 certificate is required to obtain a Master's degree.",
+          "bullets": [],
+          "summary": "Focus: Required to become an academic in Russian universities."
+        },
+        {
+          "tabTitle": "C1 Level",
+          "title": "C1 Advanced (Level 3)",
+          "desc": "The individual can work in a Russian-speaking institution.",
+          "bullets": [],
+          "summary": "Focus: Professional careers like editor, journalist, diplomat."
+        },
+        {
+          "tabTitle": "C2 Level",
+          "title": "C2 Native (Level 4)",
+          "desc": "Proficiency equivalent to a native speaker.",
+          "bullets": [],
+          "summary": "Focus: Instructor and scientific research activities in the Russian field."
+        }
+      ]
+    },
+    "comparisonTable": {
+      "title": "Comparison of TORFL with CEFR, IELTS, and TOEFL",
+      "desc": "Score equivalents of TORFL exam levels with other internationally recognized language exams:",
+      "headers": [
+        "TORFL",
+        "CEFR",
+        "TOEFL",
+        "IELTS"
+      ],
+      "rows": [
+        {
+          "col1": "Beginner",
+          "col2": "A1",
+          "col3": "-",
+          "col4": "1-2"
+        },
+        {
+          "col1": "Basic",
+          "col2": "A2",
+          "col3": "96-162",
+          "col4": "3"
+        },
+        {
+          "col1": "Level 1",
+          "col2": "B1",
+          "col3": "163-226",
+          "col4": "3.5 - 4.5"
+        },
+        {
+          "col1": "Level 2",
+          "col2": "B2",
+          "col3": "227-269",
+          "col4": "5 - 6"
+        },
+        {
+          "col1": "Level 3",
+          "col2": "C1",
+          "col3": "270",
+          "col4": "6.5 - 7"
+        },
+        {
+          "col1": "Level 4",
+          "col2": "C2",
+          "col3": "-",
+          "col4": "7.5+"
+        }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "TORFL Exam Center in Turkey",
+        "desc": "If you live in Turkey and are looking for a TORFL Exam Center, you can contact Okan University located in Tuzla, Istanbul to make your official exam applications."
+      },
+      {
+        "title": "Best TORFL Course Recommendation",
+        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and The Academic Publishing resources."
+      }
+    ]
+  },
+  "cilsLandingPage": {
+    "meta": {
+      "title": "CILS Preparation Course | Akademik International",
+      "description": "Prepare for the CILS exam required for education and citizenship in Italy with our 100% success guaranteed courses."
+    },
+    "hero": {
+      "tag": "CILS ITALIAN EXAM PREPARATION",
+      "title": "Open the Doors to Education and Life in Italy",
+      "highlight": "CILS Exam",
+      "subtitle": "Reach your dreams with the CILS certificate administered by the University of Siena and recognized by the Italian Consulate.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our CILS Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current Italian Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: ITALIAN EXAMS",
+      "description": "The CILS Course helps individuals who want to study and gain citizenship in Italy achieve the certificate they dream of on their first try."
+    },
+    "about": {
+      "badge": "UNIVERSITY OF SIENA APPROVED",
+      "title": "What is the CILS Exam and Passing Requirements?",
+      "desc": "CILS (Certificazione di Italiano come Lingua Straniera) is an international Italian proficiency exam recognized by the Italian Ministry of Foreign Affairs and Education and administered through the University of Siena.\n\nTo pass the exam, you must score at least 11 points in each section and a minimum total of 55 points.",
+      "skills": [
+        {
+          "id": "cils-levels",
+          "title": "6 Different Levels",
+          "desc": "Consists of six CEFR levels: A1, A2, B1, B2, C1, and C2."
+        },
+        {
+          "id": "cils-consulate",
+          "title": "Consulate Approval",
+          "desc": "The Italian Consulate expects at least B2 proficiency for undergraduate or graduate education."
+        },
+        {
+          "id": "cils-skills",
+          "title": "Basic Skills",
+          "desc": "The test applies to reading, listening, writing, and speaking skills."
+        },
+        {
+          "id": "cils-results",
+          "title": "Result Process",
+          "desc": "Candidates can access their exam results on the University of Siena website within 1-4 months."
+        }
+      ],
+      "description": "This exam, held twice a year, is accepted by the Italian Ministry of Education and provides a permanent qualification.",
+      "features": [
+        "Expert instructors with experience in Italian culture.",
+        "Exam-specific training and gap-closing studies.",
+        "Practice with past years' questions and mock exams."
+      ]
+    },
+    "gradeTabs": {
+      "title": "CILS Exam Stages",
+      "grades": [
+        {
+          "tabTitle": "CILS Uno",
+          "title": "CILS Uno (Level 1)",
+          "desc": "Evaluates candidates' basic Italian skills. The exam takes about 3 hours.",
+          "bullets": [],
+          "summary": "Focus: Basic communication."
+        },
+        {
+          "tabTitle": "CILS Due",
+          "title": "CILS Due (Level 2)",
+          "desc": "Measures intermediate Italian skills. The exam takes 4 hours.",
+          "bullets": [],
+          "summary": "Focus: Academic start and independent communication."
+        },
+        {
+          "tabTitle": "CILS Tre",
+          "title": "CILS Tre (Level 3)",
+          "desc": "Evaluates advanced Italian knowledge. The exam takes 5 hours.",
+          "bullets": [],
+          "summary": "Focus: Professional competence."
+        },
+        {
+          "tabTitle": "CILS Quattro",
+          "title": "CILS Quattro (Level 4)",
+          "desc": "The most advanced level of the exam. Takes about 5-5.5 hours.",
+          "bullets": [],
+          "summary": "Focus: Near-native proficiency."
+        }
+      ]
+    },
+    "tables": {
+      "format": {
+        "title": "CILS Exam Durations and Contents",
+        "desc": "Exam durations (minutes) and tested skills determined for each level:",
+        "headers": [
+          "Level",
+          "Duration (Min)",
+          "Content"
+        ],
+        "rows": [
+          {
+            "col1": "A1",
+            "col2": "130",
+            "col3": "Speaking, listening, text comprehension"
+          },
+          {
+            "col1": "A2",
+            "col2": "150",
+            "col3": "Communicative structure, text comprehension, composition, speaking, listening"
+          },
+          {
+            "col1": "B1",
+            "col2": "220",
+            "col3": "Text comprehension, composition, listening, speaking"
+          },
+          {
+            "col1": "B2",
+            "col2": "220",
+            "col3": "Communicative structure, speaking, listening, text comprehension"
+          },
+          {
+            "col1": "C1",
+            "col2": "285",
+            "col3": "Composition, communicative structure, listening, speaking"
+          },
+          {
+            "col1": "C2",
+            "col2": "300",
+            "col3": "Text comprehension, communicative structure, listening, composition, comprehension"
+          }
+        ]
+      },
+      "fees": {
+        "title": "CILS Exam Fees",
+        "desc": "Exam fees according to levels determined by the University of Siena (May vary by year):",
+        "headers": [
+          "Level",
+          "Exam Fee"
+        ],
+        "rows": [
+          {
+            "col1": "A1",
+            "col2": "50 Euro"
+          },
+          {
+            "col1": "A2",
+            "col2": "50 Euro"
+          },
+          {
+            "col1": "B1 12-19 Adolescenti",
+            "col2": "70 Euro"
+          },
+          {
+            "col1": "B1 Cittadinanza",
+            "col2": "110 Euro"
+          },
+          {
+            "col1": "B1",
+            "col2": "80 Euro"
+          },
+          {
+            "col1": "B2",
+            "col2": "90 Euro"
+          },
+          {
+            "col1": "C1",
+            "col2": "100 Euro"
+          },
+          {
+            "col1": "C2",
+            "col2": "105 Euro"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "Best CILS Course Recommendation",
+        "desc": "Akademik Foreign Language Courses brings you a new language and career with its education models developed specifically for adults for the first time in Turkey."
+      },
+      {
+        "title": "CILS Course Prices",
+        "desc": "Our language school, which offers suitable payment terms accompanied by various campaigns every term, offers you a budget-friendly CILS course opportunity."
+      }
+    ]
+  },
+  "tefLandingPage": {
+    "meta": {
+      "title": "TEF Preparation Course (French) | Akademik International",
+      "description": "Prepare for the TEF exam, which is valid for education, residence, and citizenship in France and Canada, with our expert trainers."
+    },
+    "hero": {
+      "tag": "TEF FRENCH EXAM PREPARATION",
+      "title": "Take the First Step to Your Career in France and Canada",
+      "highlight": "TEF Exam",
+      "subtitle": "Prove your French proficiency in the international arena. Prepare for the TEF exam for university admission, residence permits, and citizenship applications with our 100% success guaranteed course.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our TEF Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current French Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: FRENCH EXAMS",
+      "description": "The TEF Course offers an education plan that brings thousands of students to their dreams abroad."
+    },
+    "about": {
+      "badge": "INTERNATIONALLY RECOGNIZED",
+      "title": "What is the TEF Exam and Why is it Preferred?",
+      "desc": "TEF (Test d'Evaluation de Français) is a prestigious exam that measures the language fluency and proficiency of non-native French speakers. Administered by the Paris Ile-de-France CCI.\n\nThe validity period of the exam is 2 years. To participate in the TEF Exam, candidates must have French language proficiency at least at the B1 level.",
+      "skills": [
+        {
+          "id": "tef-format",
+          "title": "Two Formats",
+          "desc": "The exam can be administered in two different formats: on paper or on a computer."
+        },
+        {
+          "id": "tef-validity",
+          "title": "Validity Period",
+          "desc": "Your exam result is valid for 2 years."
+        }
+      ],
+      "description": "It is a mandatory exam for candidates who aim to study at a French university or want to obtain citizenship/residence cards in Canada/France.",
+      "features": [
+        "Listening: Understanding recorded speech in French.",
+        "Reading: Reading and understanding texts written in French.",
+        "Lexicon and Grammar: Grammar rules and vocabulary.",
+        "Writing: Writing coherently on a specific topic.",
+        "Speaking: Speaking on a specific topic and playing a role in dialogues."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TEF Exam Types (Application Areas)",
+      "grades": [
+        {
+          "tabTitle": "TEF Naturalisation",
+          "title": "TEF Naturalisation",
+          "desc": "Administered to determine the French language level of foreigners applying for French citizenship.",
+          "bullets": [],
+          "summary": "Focus: Citizenship application."
+        },
+        {
+          "tabTitle": "TEF Canada",
+          "title": "TEF Canada",
+          "desc": "Used to measure the French level of applicants for permanent residency or citizenship in Canada.",
+          "bullets": [],
+          "summary": "Focus: Canadian PR and citizenship."
+        },
+        {
+          "tabTitle": "TEF Québec",
+          "title": "TEF Québec",
+          "desc": "Used to determine the French language level of foreigners wishing to immigrate to Quebec.",
+          "bullets": [],
+          "summary": "Focus: Quebec immigration."
+        },
+        {
+          "tabTitle": "TEF Études en France",
+          "title": "TEF pour les études en France",
+          "desc": "Used for international students wanting to study at a university in France.",
+          "bullets": [],
+          "summary": "Focus: Higher education in French universities."
+        },
+        {
+          "tabTitle": "TEF Carte de Résident",
+          "title": "TEF pour la carte de résident",
+          "desc": "Used to measure the French level of foreigners applying for a long-term residence card in France.",
+          "bullets": [],
+          "summary": "Focus: French residence permit."
+        }
+      ]
+    },
+    "tables": {
+      "dates": {
+        "title": "TEF Exam Dates",
+        "desc": "Periodic exam dates administered by official institutions:",
+        "headers": [
+          "Days",
+          "Months"
+        ],
+        "rows": [
+          {
+            "col1": "22 - 23",
+            "col2": "February"
+          },
+          {
+            "col1": "12 - 13",
+            "col2": "April"
+          },
+          {
+            "col1": "14 - 15",
+            "col2": "June"
+          },
+          {
+            "col1": "18 - 19",
+            "col2": "October"
+          },
+          {
+            "col1": "13 - 14",
+            "col2": "December"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "Best TEF Course Recommendation",
+        "desc": "Akademik Foreign Language Courses, which developed original education models for adults for the first time in Turkey, offers the most qualified TEF Course service."
+      },
+      {
+        "title": "TEF Course Prices",
+        "desc": "We offer budget-friendly TEF course training with suitable payment terms accompanied by various campaigns every term."
+      }
+    ]
+  },
+  "telcLandingPage": {
+    "meta": {
+      "title": "TELC Preparation Course | Akademik International",
+      "description": "Prepare for the European Language Certificates (TELC) exams with our expert trainers. Get your lifetime valid TELC certificate on your first try."
+    },
+    "hero": {
+      "tag": "TELC LANGUAGE EXAM PREPARATION",
+      "title": "Prove Your Language Proficiency at European Standards",
+      "highlight": "TELC Exam",
+      "subtitle": "Reach your university and career goals with the TELC certificate, which is valid indefinitely, especially in Germany and all over Europe.",
+      "buttonText": "View Courses",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "Whatsapp Info",
+      "formRibbon": "Registration and Info Form",
+      "formTitle": "FIRST STEP TO YOUR DREAMS!",
+      "formSubtitle": "Get Pricing and Detailed Info for our TELC Prep Course Now!",
+      "namePlaceholder": "Enter Name and Surname.",
+      "phonePlaceholder": "Enter your GSM Number.",
+      "branchPlaceholder": "Select Your Current Level",
+      "submitBtn": "GET INFO NOW!",
+      "badge": "CATEGORY: EUROPEAN LANGUAGE CERTIFICATES",
+      "description": "The TELC Course offers an education plan that brings thousands of students to their dreams abroad every year."
+    },
+    "about": {
+      "badge": "LIFETIME VALIDITY",
+      "title": "What is the TELC Exam and Why is it Advantageous?",
+      "desc": "TELC (The European Language Certificates) is an organization of the German Adult Education Centers Association prepared according to the CEFR.\n\nThe biggest advantage is that the certificate has **lifetime validity**, and if you fail in one area, **you do not need to repeat the whole exam, you can only retake that specific area.**",
+      "skills": [
+        {
+          "id": "telc-validity",
+          "title": "Lifetime Validity",
+          "desc": "The TELC qualification certificate has lifelong validity."
+        },
+        {
+          "id": "telc-yok",
+          "title": "OSYM and YOK Approval",
+          "desc": "It is accepted by OSYM and YOK in Turkey and has YDS equivalence."
+        },
+        {
+          "id": "telc-retake",
+          "title": "Modular Exam System",
+          "desc": "If you fail in one area, you do not need to repeat the entire exam."
+        },
+        {
+          "id": "telc-dates",
+          "title": "Flexible Exam Dates",
+          "desc": "Flexible and frequent exam dates in more than 3500 centers worldwide."
+        }
+      ],
+      "description": "It is one of the most established and prestigious exams that individuals who want to study abroad and pursue an academic career can present.",
+      "features": [
+        "Consists of two main parts: written and oral.",
+        "Written exams are evaluated centrally in Frankfurt (approx. 2 months).",
+        "There is no limit on the number of times you can take the exam.",
+        "Anyone over 12 who wants to certify their language level can participate."
+      ]
+    },
+    "gradeTabs": {
+      "title": "TELC Exam Levels and Types",
+      "grades": [
+        {
+          "tabTitle": "A1 & A2 Levels",
+          "title": "TELC A1 and A2 Level Exams",
+          "desc": "The A1 Exam consists of a 65-minute written part, immediately followed by the oral exam. The A2 Exam has a 70-minute written part.",
+          "bullets": [],
+          "summary": "Focus: Basic communication, family reunification."
+        },
+        {
+          "tabTitle": "B1 Level",
+          "title": "TELC B1 Exam",
+          "desc": "The written part takes 2 hours and 30 minutes. 20 minutes of preparation time is given for the oral exam.",
+          "bullets": [],
+          "summary": "Focus: Independent user, citizenship."
+        },
+        {
+          "tabTitle": "B2 Level",
+          "title": "TELC B2 Exams (General, Beruf, Medizin)",
+          "desc": "General B2 is 2h 20m written. B2+ Beruf (Vocational) written is 3 hours. B2-C1 Medizin (Medical) is for healthcare professionals.",
+          "bullets": [],
+          "summary": "Focus: Academic education, medical equivalency."
+        },
+        {
+          "tabTitle": "C1 Level",
+          "title": "TELC C1 Exams (General, Hochschule)",
+          "desc": "C1 and C1 Hochschule written part takes 3 hours 40 minutes.",
+          "bullets": [],
+          "summary": "Focus: University education in Germany (Hochschule)."
+        },
+        {
+          "tabTitle": "C2 Level",
+          "title": "TELC C2 Exam",
+          "desc": "The written part takes 4 hours 10 minutes.",
+          "bullets": [],
+          "summary": "Focus: Near-native professional mastery."
+        }
+      ]
+    },
+    "tables": {
+      "dates": {
+        "title": "Current TELC Exam Dates",
+        "desc": "Exam dates are opened regularly every month depending on demand intensity:",
+        "headers": [
+          "Level",
+          "Periodic Exam Dates"
+        ],
+        "rows": [
+          {
+            "col1": "A1 / A2 / B1",
+            "col2": "2nd and 4th Week of Every Month"
+          },
+          {
+            "col1": "B2 / C1 / C1 Hochschule",
+            "col2": "1st and 3rd Week of Every Month"
+          },
+          {
+            "col1": "Medizin / Pflege (B2-C1)",
+            "col2": "Last Week of Every Month"
+          }
+        ]
+      },
+      "centers": {
+        "title": "Main TELC Exam Centers in Turkey",
+        "desc": "Provinces where some authorized centers are located:",
+        "headers": [
+          "Province",
+          "Center Type"
+        ],
+        "rows": [
+          {
+            "col1": "Istanbul",
+            "col2": "Avrupa Dil Kültür Merkezi, Kadıköy Public Education Center"
+          },
+          {
+            "col1": "Ankara",
+            "col2": "ANKA Sprachschule, TOBB ETU"
+          },
+          {
+            "col1": "Izmir",
+            "col2": "DAS Akademie"
+          },
+          {
+            "col1": "Antalya",
+            "col2": "Muratpaşa Azize Kahraman Public Education Center"
+          },
+          {
+            "col1": "Trabzon",
+            "col2": "Trabzon Merkez Public Education Center"
+          }
+        ]
+      }
+    },
+    "seoContent": [
+      {
+        "title": "The Most Qualified TELC Course",
+        "desc": "Before preparing for the exam, it is very important to master the structure, sections, and topics of this application. We offer you the most qualified TELC Course training with our campuses in Bursa, Istanbul, Izmir, Eskişehir, and Ankara."
+      },
+      {
+        "title": "Reach Your Goals with the TELC Exam",
+        "desc": "With a good TELC score, your chances of directly reaching your desired goals are very high. We are with you on your career journey."
+      }
+    ]
   }
 }

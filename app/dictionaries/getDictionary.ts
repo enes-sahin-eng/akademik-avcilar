@@ -14,12 +14,4 @@ const dictionaries: Record<Locale, () => Promise<DictionaryData>> = {
   ar: () => import("./ar.json").then((module) => module.default),
 };
 
-export const getDictionary = cache(async (locale: Locale) => {
-  if (!dictionaries[locale]) {
-    console.warn(
-      `[getDictionary] Geçersiz locale: "${locale}". "${defaultLocale}" varsayılanına düşülüyor.`,
-    );
-    return dictionaries[defaultLocale]();
-  }
-  return dictionaries[locale]();
-});
+export const getDictionary = cache((locale: Locale) => dictionaries[locale]());
