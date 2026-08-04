@@ -129,3 +129,29 @@
     font-size: 60px;
   }
 }
+
+/* Nabız efekti — framer-motion yerine CSS (JS gerektirmez, daha performanslı) */
+@keyframes subtitlePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.subtitlePulse {
+  animation: subtitlePulse 2s ease-in-out infinite;
+}
+
+.btn {
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subtitlePulse { animation: none; }
+}

@@ -72,7 +72,7 @@ export default async function SatKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function SatKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="satLandingPage" />
+      <CourseHeroSlider courseKey="satLandingPage" lang={lang} />
 
       {/* About (SAT Sınavı Nedir) */}
       <CourseInfoSection courseKey="satLandingPage" lang={lang} />
       
       {/* Sınav Konuları (Reading, Writing, Math) */}
-      <GradeLevelTabs courseKey="satLandingPage" />
+      <GradeLevelTabs courseKey="satLandingPage" lang={lang} />
 
       {/* Sınav Merkezleri Tablosu */}
       <SatCentersTable lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Puan Hesaplama, Ücretler vb.) */}
       <SeoContentBlock courseKey="satLandingPage" lang={lang} />

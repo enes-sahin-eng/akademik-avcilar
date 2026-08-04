@@ -50,7 +50,7 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -70,7 +70,7 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="genelIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="genelIngilizceLandingPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="genelIngilizceLandingPage" lang={lang} />
@@ -79,7 +79,7 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="genelIngilizceLandingPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="genelIngilizceLandingPage" />
+      <WhyUsSection courseKey="genelIngilizceLandingPage" lang={lang} />
 
       
       {/* SSS (FAQ) */}
@@ -90,9 +90,9 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

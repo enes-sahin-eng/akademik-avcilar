@@ -79,7 +79,7 @@ export default async function YokdilHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -165,20 +165,20 @@ export default async function YokdilHazirlikKursuPage({ params }: PageProps) {
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
       {/* Client Component */}
-      <CourseHeroSlider courseKey="yokdilLandingPage" />
+      <CourseHeroSlider courseKey="yokdilLandingPage" lang={lang} />
 
       {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="yokdilLandingPage" lang={lang} />
 
       {/* Client Component */}
-      <GradeLevelTabs courseKey="yokdilLandingPage" />
+      <GradeLevelTabs courseKey="yokdilLandingPage" lang={lang} />
 
       {/* Server Components */}
       <PublicationsShowcase courseKey="yokdilLandingPage" lang={lang} />
 
       {/* Client Components */}
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="yokdilLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="yokdilLandingPage" lang={lang} />
 
       {/* Server Components */}
       <EducationModels courseKey="yokdilLandingPage" lang={lang} />

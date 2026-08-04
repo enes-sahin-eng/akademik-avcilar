@@ -72,7 +72,7 @@ export default async function TorflKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function TorflKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="torflLandingPage" />
+      <CourseHeroSlider courseKey="torflLandingPage" lang={lang} />
 
       {/* About (TORFL Sınavı Nedir & Kimler Katılabilir) */}
       <CourseInfoSection courseKey="torflLandingPage" lang={lang} />
       
       {/* Sınav Bölümleri (A1 - C2 Seviyeleri) */}
-      <GradeLevelTabs courseKey="torflLandingPage" />
+      <GradeLevelTabs courseKey="torflLandingPage" lang={lang} />
 
       {/* Karşılaştırma Tablosu */}
       <TorflComparisonTable lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Sınav Merkezleri, Tavsiyeler vb.) */}
       <SeoContentBlock courseKey="torflLandingPage" lang={lang} />

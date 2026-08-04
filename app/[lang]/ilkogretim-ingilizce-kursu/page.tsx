@@ -83,7 +83,7 @@ export default async function IlkogretimIngilizceKursuPage({
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA (Hiyerarşi) */}
       <script
@@ -161,16 +161,16 @@ export default async function IlkogretimIngilizceKursuPage({
       )}
 
       {/* BİLEŞENLER */}
-      <CourseHeroSlider courseKey="ilkogretimIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="ilkogretimIngilizceLandingPage" />
+      <GradeLevelTabs courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <EducationModels courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

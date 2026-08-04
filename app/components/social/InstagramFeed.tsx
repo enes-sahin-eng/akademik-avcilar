@@ -89,12 +89,12 @@ export default async function InstagramFeed({ lang }: { lang?: string }) {
             </div>
             <div>
               <h2 className={styles.title}>{t?.title || "Instagram'da Bizi Takip Edin"}</h2>
-              <a href="https://instagram.com/akademikinternational" target="_blank" rel="noopener noreferrer" className={styles.handle}>
-                @akademikinternational
+              <a href="https://www.instagram.com/avcilarakademik" target="_blank" rel="noopener noreferrer" className={styles.handle}>
+                @avcilarakademik
               </a>
             </div>
           </div>
-          <a href="https://instagram.com/akademikinternational" target="_blank" rel="noopener noreferrer" className={styles.followBtn}>
+          <a href="https://www.instagram.com/avcilarakademik" target="_blank" rel="noopener noreferrer" className={styles.followBtn}>
             {t?.followBtn || "Takip Et"}
           </a>
         </div>

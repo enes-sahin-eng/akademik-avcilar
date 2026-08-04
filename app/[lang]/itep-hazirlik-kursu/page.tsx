@@ -79,7 +79,7 @@ export default async function ItepHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -165,20 +165,20 @@ export default async function ItepHazirlikKursuPage({ params }: PageProps) {
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
       {/* Client Component */}
-      <CourseHeroSlider courseKey="itepLandingPage" />
+      <CourseHeroSlider courseKey="itepLandingPage" lang={lang} />
 
       {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="itepLandingPage" lang={lang} />
 
       {/* Client Component */}
-      <GradeLevelTabs courseKey="itepLandingPage" />
+      <GradeLevelTabs courseKey="itepLandingPage" lang={lang} />
 
       {/* Server Components */}
       <PublicationsShowcase courseKey="itepLandingPage" lang={lang} />
 
       {/* Client Components */}
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="itepLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="itepLandingPage" lang={lang} />
 
       {/* Server Components */}
       <EducationModels courseKey="itepLandingPage" lang={lang} />

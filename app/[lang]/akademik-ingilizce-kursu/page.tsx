@@ -50,7 +50,7 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -70,7 +70,7 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="akademikIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="akademikIngilizceLandingPage" lang={lang} />
@@ -79,7 +79,7 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
       <PublicationsShowcase courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="akademikIngilizceLandingPage" />
+      <WhyUsSection courseKey="akademikIngilizceLandingPage" lang={lang} />
 
       
       {/* SSS (FAQ) */}
@@ -90,9 +90,9 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

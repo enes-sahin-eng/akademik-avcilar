@@ -1,52 +1,17 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import styles from "./WhyUsSection.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
-import { ChevronDown } from "lucide-react";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { AnimatedAdvantageStack } from "./AnimatedAdvantageStack";
-
-const AccordionItem = ({
-  q,
-  a,
-  isOpen,
-  onClick,
-}: {
-  q: string;
-  a: string;
-  isOpen: boolean;
-  onClick: () => void;
-}) => {
-  return (
-    <div className={styles.accordionItem}>
-      <button
-        className={styles.accordionHeader}
-        onClick={onClick}
-        aria-expanded={isOpen}
-      >
-        <span>{q}</span>
-        <ChevronDown
-          size={20}
-          className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ""}`}
-        />
-      </button>
-
-      {/* Framer Motion silindi. HTML DOM'da hep var, sadece CSS ile gizleniyor */}
-      <div className={isOpen ? styles.contentOpen : styles.contentClosed}>
-        <div className={styles.accordionContent}>{a}</div>
-      </div>
-    </div>
-  );
-};
+import { WhyUsAccordion } from "./WhyUsAccordion";
 
 interface Props {
   courseKey: string;
+  lang: Locale;
 }
 
-export const WhyUsSection = ({ courseKey }: Props) => {
-  const dictionary = useDictionary();
+export const WhyUsSection = async ({ courseKey, lang }: Props) => {
+  const dictionary = await getDictionary(lang);
   const pageData = (dictionary as any)[courseKey]?.whyUs;
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   if (!pageData) return null;
 
@@ -69,15 +34,7 @@ export const WhyUsSection = ({ courseKey }: Props) => {
 
           {/* Right: Accordion FAQs */}
           <div className={styles.accordionContainer}>
-            {pageData.faqs?.map((faq: any, index: number) => (
-              <AccordionItem
-                key={index}
-                q={faq.q}
-                a={faq.a}
-                isOpen={openIndex === index}
-                onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
-              />
-            ))}
+            <WhyUsAccordion faqs={pageData.faqs || []} styles={styles} />
           </div>
         </div>
       </div>

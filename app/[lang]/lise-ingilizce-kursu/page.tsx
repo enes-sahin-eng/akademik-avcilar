@@ -71,7 +71,7 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -147,12 +147,12 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
       )}
       
       {/* BİLEŞENLER */}
-      <CourseHeroSlider courseKey="liseIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="liseIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="liseIngilizceLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="liseIngilizceLandingPage" />
+      <GradeLevelTabs courseKey="liseIngilizceLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="liseIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="liseIngilizceLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="liseIngilizceLandingPage" lang={lang} />
       <SeoContentBlock courseKey="liseIngilizceLandingPage" lang={lang} />
       <EducationModels courseKey="liseIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="liseIngilizceLandingPage" lang={lang} />

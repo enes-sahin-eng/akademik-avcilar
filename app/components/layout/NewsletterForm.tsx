@@ -45,12 +45,12 @@ export const NewsletterForm = ({ footerData }: Props) => {
               className={styles.emailInput}
               required 
             />
-            <button 
-              type="submit" 
-              className={styles.subscribeBtn}
+            <button
+              type="submit"
+              className={styles.sendBtn}
               disabled={isSubmitting}
             >
-              {isSubmitting ? footerData.subscribingBtn : footerData.subscribeBtn}
+              {isSubmitting ? footerData.sendingBtn : footerData.sendBtn}
             </button>
           </div>
           <label className={styles.checkboxLabel}>
@@ -77,13 +77,13 @@ export const NewsletterForm = ({ footerData }: Props) => {
               <div className={styles.checkCircle}>
                 <Check size={40} className={styles.checkIcon} />
               </div>
-              <h3 className={styles.modalTitle}>Başarılı</h3>
-              <p className={styles.modalDesc}>Abonelik Talebiniz Alınmıştır</p>
-              <button 
+              <h3 className={styles.modalTitle}>{footerData.successTitle}</h3>
+              <p className={styles.modalDesc}>{footerData.successDesc}</p>
+              <button
                 onClick={() => setShowSuccess(false)}
                 className={styles.modalCloseBtn}
               >
-                Tamam
+                {footerData.okBtn}
               </button>
             </motion.div>
           </div>

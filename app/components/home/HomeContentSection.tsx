@@ -23,19 +23,19 @@ export const HomeContentSection = async ({ lang }: Props) => {
 
         {/* Sol kolon — SEO kritik metinler, Reveal/framer-motion YOK */}
         <div className={styles.leftColumn}>
-          <HappyHoursBanner />
+          <HappyHoursBanner lang={lang} />
           <HomeArticle lang={lang} />
           <FAQSection lang={lang} />
         </div>
 
         {/* Sağ kolon */}
         <div className={styles.rightColumn}>
-          <Leaderboard />
+          <Leaderboard lang={lang} />
           <MapsEmbed />
         </div>
       </div>
 
-      <ProgramTabsSection />
+      <ProgramTabsSection lang={lang} />
 
       {programsTitle && (
         <h2 className={styles.programsTitle}>{programsTitle}</h2>

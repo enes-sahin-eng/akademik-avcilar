@@ -65,8 +65,26 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 ## Diğer Hizmetler
 - [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
 
+## Diğer Dil Kursları
+- [İspanyolca Dil Kursu](https://avcilarakademik.com.tr/ispanyolca-dil-kursu): Başlangıçtan ileri seviyeye İspanyolca eğitimi; DELE sınav hazırlığı ve konuşma pratiği ile İspanyolca öğrenin.
+- [Fransızca Dil Kursu](https://avcilarakademik.com.tr/fransizca-dil-kursu): DELF/DALF sınav hazırlığı dahil, A1'den C2'ye Fransızca eğitim programları.
+- [Almanca Dil Kursu](https://avcilarakademik.com.tr/almanca-dil-kursu): Goethe, TestDaF ve ÖSD sınavlarına yönelik kapsamlı Almanca eğitim programları.
+- [Rusça Dil Kursu](https://avcilarakademik.com.tr/rusca-dil-kursu): Başlangıçtan ileri seviyeye Rusça eğitimi; TORFL sınav hazırlığı ve iş Rusçası programları.
+- [İtalyanca Dil Kursu](https://avcilarakademik.com.tr/italyanca-dil-kursu): CILS ve CELI sınav hazırlığı dahil, kapsamlı İtalyanca eğitim programları.
+- [Farsça Dil Kursu](https://avcilarakademik.com.tr/farsca-dil-kursu): Başlangıçtan ileri seviyeye Farsça (Farsi) eğitimi; edebiyat, iş ve akademik amaçlı programlar.
+- [Çince Dil Kursu](https://avcilarakademik.com.tr/cince-dil-kursu): Mandarin Çincesi eğitimi; HSK sınav hazırlığı ve iş Çincesi programları.
+- [Japonca Dil Kursu](https://avcilarakademik.com.tr/japonca-dil-kursu): JLPT sınav hazırlığı dahil, başlangıçtan ileri seviyeye Japonca eğitim programları.
+- [Korece Dil Kursu](https://avcilarakademik.com.tr/korece-dil-kursu): TOPIK sınav hazırlığı dahil, kapsamlı Korece eğitim programları.
+- [Osmanlıca Dil Kursu](https://avcilarakademik.com.tr/osmanlica-dil-kursu): Osmanlı Türkçesi okuma, yazma ve metin çözümleme eğitimi; arşiv ve tarih araştırmacılarına yönelik program.
+- [Yabancılara Türkçe Kursu](https://avcilarakademik.com.tr/yabancilara-turkce): Yabancı uyruklu öğrenciler için A1'den C2'ye Türkçe eğitimi; TYS ve Türkçe Yeterlilik sınavlarına hazırlık.
+- [Türkçe Dil Kursu](https://avcilarakademik.com.tr/turkce-dil-kursu): Ana dili Türkçe olmayan bireyler için kapsamlı Türkçe dil eğitimi programları.
+- [Latince Dil Kursu](https://avcilarakademik.com.tr/latince-dil-kursu): Akademik ve tarihsel amaçlı Latince eğitimi; tıp, hukuk ve felsefe terminolojisi programları.
+- [Portekizce Dil Kursu](https://avcilarakademik.com.tr/portekizce-dil-kursu): Brezilya ve Avrupa Portekizcesi eğitimi; CELPE-Bras sınav hazırlığı dahil programlar.
+- [Arapça Dil Kursu](https://avcilarakademik.com.tr/arapca-dil-kursu): Modern Standart Arapça ve lehçe eğitimi; akademik, iş ve günlük iletişim amaçlı programlar.
+- [Felemenkçe Dil Kursu](https://avcilarakademik.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
+
 ## Şubeler ve Ek Hizmetler
 *(Aktif 12 şubeye ait özel lokasyon sayfaları ile İspanyolca, Fransızca gibi diğer dil eğitim sayfaları yayına alındıkça bu bölüme eklenecektir.)*
 
 ---
-*Son Güncelleme: 3 Ağustos 2026*
+*Son Güncelleme: 4 Ağustos 2026*

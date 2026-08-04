@@ -72,7 +72,7 @@ export default async function TefKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function TefKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="tefLandingPage" />
+      <CourseHeroSlider courseKey="tefLandingPage" lang={lang} />
 
       {/* About (TEF Sınavı Nedir & Neden Tercih Edilir?) */}
       <CourseInfoSection courseKey="tefLandingPage" lang={lang} />
       
       {/* Sınav Bölümleri (Uygulama Alanları: Canada, Quebec vs.) */}
-      <GradeLevelTabs courseKey="tefLandingPage" />
+      <GradeLevelTabs courseKey="tefLandingPage" lang={lang} />
 
       {/* Tarihler Tablosu */}
       <TefTables lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Tavsiyeler, Fiyatlar vb.) */}
       <SeoContentBlock courseKey="tefLandingPage" lang={lang} />

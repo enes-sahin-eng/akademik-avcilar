@@ -3,13 +3,13 @@ import styles from "./WhatsAppButton.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
 interface WhatsAppButtonProps {
-  phoneNumber?: string; // Tel numaranız (Örn: 905300000000)
+  phoneNumber?: string; // Tel numaranız (Örn: 905323609256)
   message?: string; // Tıklandığında hazır gönderilecek mesaj
   lang: Locale;
 }
 
 export const WhatsAppButton = async ({
-  phoneNumber = "905300000000",
+  phoneNumber = "905323609256",
   message,
   lang,
 }: WhatsAppButtonProps) => {

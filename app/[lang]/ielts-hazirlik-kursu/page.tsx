@@ -79,7 +79,7 @@ export default async function IeltsHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -163,13 +163,13 @@ export default async function IeltsHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* İÇERİK BİLEŞENLERİ */}
-      <CourseHeroSlider courseKey="ieltsLandingPage" />
+      <CourseHeroSlider courseKey="ieltsLandingPage" lang={lang} />
 
       <CourseInfoSection courseKey="ieltsLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="ieltsLandingPage" />
+      <GradeLevelTabs courseKey="ieltsLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="ieltsLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="ieltsLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="ieltsLandingPage" lang={lang} />
       <EducationModels courseKey="ieltsLandingPage" lang={lang} />
       <CourseFAQ courseKey="ieltsLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ieltsLandingPage" lang={lang} />

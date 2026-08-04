@@ -79,7 +79,7 @@ export default async function GmatHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -163,12 +163,12 @@ export default async function GmatHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
-      <CourseHeroSlider courseKey="gmatLandingPage" />
+      <CourseHeroSlider courseKey="gmatLandingPage" lang={lang} />
       <CourseInfoSection courseKey="gmatLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="gmatLandingPage" />
+      <GradeLevelTabs courseKey="gmatLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="gmatLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="gmatLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="gmatLandingPage" lang={lang} />
       <EducationModels courseKey="gmatLandingPage" lang={lang} />
       <CourseFAQ courseKey="gmatLandingPage" lang={lang} />
       <SeoContentBlock courseKey="gmatLandingPage" lang={lang} />

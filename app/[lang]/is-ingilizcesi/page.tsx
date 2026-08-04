@@ -71,7 +71,7 @@ export default async function IsIngilizcesiPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -126,7 +126,7 @@ export default async function IsIngilizcesiPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="businessEnglishLandingPage" />
+      <CourseHeroSlider courseKey="businessEnglishLandingPage" lang={lang} />
 
       {/* About (İş İngilizcesi Ne Demek?) */}
       <CourseInfoSection courseKey="businessEnglishLandingPage" lang={lang} />
@@ -135,7 +135,7 @@ export default async function IsIngilizcesiPage({ params }: PageProps) {
       <BusinessEnglishTables lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Neden İş İngilizcesi vb.) */}
       <SeoContentBlock courseKey="businessEnglishLandingPage" lang={lang} />

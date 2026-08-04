@@ -80,7 +80,7 @@ export default async function BesiktasFransizcaKursuPage({
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -158,7 +158,7 @@ export default async function BesiktasFransizcaKursuPage({
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
-      <CourseHeroSlider courseKey="besiktasFransizcaLandingPage" />
+      <CourseHeroSlider courseKey="besiktasFransizcaLandingPage" lang={lang} />
       <CourseInfoSection courseKey="besiktasFransizcaLandingPage" lang={lang} />
 
       <PublicationsShowcase
@@ -166,8 +166,8 @@ export default async function BesiktasFransizcaKursuPage({
         lang={lang}
       />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="besiktasFransizcaLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="besiktasFransizcaLandingPage" lang={lang} />
       <EducationModels courseKey="besiktasFransizcaLandingPage" lang={lang} />
       <CourseFAQ courseKey="besiktasFransizcaLandingPage" lang={lang} />
 

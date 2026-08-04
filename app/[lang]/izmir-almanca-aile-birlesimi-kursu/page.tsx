@@ -80,7 +80,7 @@ export default async function IzmirAileBirlesimiKursuPage({
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -158,7 +158,7 @@ export default async function IzmirAileBirlesimiKursuPage({
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
-      <CourseHeroSlider courseKey="izmirAileBirlesimiLandingPage" />
+      <CourseHeroSlider courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <CourseInfoSection
         courseKey="izmirAileBirlesimiLandingPage"
         lang={lang}
@@ -170,8 +170,8 @@ export default async function IzmirAileBirlesimiKursuPage({
         lang={lang}
       />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="izmirAileBirlesimiLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <EducationModels courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <CourseFAQ courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
 

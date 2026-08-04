@@ -56,11 +56,11 @@ export default async function IletisimPage({ params }: PageProps) {
   
   return (
     <div style={{ position: "relative", zIndex: 10, minHeight: "100vh" }}>
-      <Navbar />
+      <Navbar lang={lang} />
       
       <div style={{ paddingTop: "70px" }}>
         <ContactHero lang={lang} />
-        <ContactFormSection />
+        <ContactFormSection lang={lang} />
         <ContactCampuses lang={lang} />
         <ContactCorporate lang={lang} />
       </div>

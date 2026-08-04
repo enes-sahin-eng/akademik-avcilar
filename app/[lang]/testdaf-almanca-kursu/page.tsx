@@ -78,7 +78,7 @@ export default async function TestDafHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -164,7 +164,7 @@ export default async function TestDafHazirlikKursuPage({ params }: PageProps) {
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
       {/* Client Component */}
-      <CourseHeroSlider courseKey="testdafLandingPage" />
+      <CourseHeroSlider courseKey="testdafLandingPage" lang={lang} />
 
       {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="testdafLandingPage" lang={lang} />
@@ -174,8 +174,8 @@ export default async function TestDafHazirlikKursuPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="testdafLandingPage" lang={lang} />
 
       {/* Client Components */}
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="testdafLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="testdafLandingPage" lang={lang} />
 
       {/* Server Components */}
       <EducationModels courseKey="testdafLandingPage" lang={lang} />

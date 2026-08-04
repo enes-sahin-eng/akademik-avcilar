@@ -72,7 +72,7 @@ export default async function CilsKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function CilsKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="cilsLandingPage" />
+      <CourseHeroSlider courseKey="cilsLandingPage" lang={lang} />
 
       {/* About (CILS Sınavı Nedir & Başvuru) */}
       <CourseInfoSection courseKey="cilsLandingPage" lang={lang} />
       
       {/* Sınav Bölümleri (CILS Uno, Due, Tre, Quattro) */}
-      <GradeLevelTabs courseKey="cilsLandingPage" />
+      <GradeLevelTabs courseKey="cilsLandingPage" lang={lang} />
 
       {/* Format ve Ücretler Tablosu */}
       <CilsTables lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Tavsiyeler, Fiyatlar vb.) */}
       <SeoContentBlock courseKey="cilsLandingPage" lang={lang} />

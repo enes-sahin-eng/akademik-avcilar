@@ -1,17 +1,14 @@
-"use client";
-
-import { useState } from "react";
-import { motion } from "framer-motion";
 import { Phone, Sparkles } from "lucide-react";
 import Image from "next/image";
 import styles from "./CourseHeroSlider.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { Reveal } from "../motion/Reveal";
 
 const WhatsappIcon = ({ size = 18 }: { size?: number }) => (
-  <svg 
-    width={size} 
-    height={size} 
-    viewBox="0 0 24 24" 
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
     fill="currentColor"
   >
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
@@ -20,13 +17,14 @@ const WhatsappIcon = ({ size = 18 }: { size?: number }) => (
 
 interface Props {
   courseKey: string;
+  lang: Locale;
 }
 
-export const CourseHeroSlider = ({ courseKey }: Props) => {
-  const dictionary = useDictionary();
+export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
+  const dictionary = await getDictionary(lang);
   const heroData = (dictionary as any)?.[courseKey]?.hero;
-  
-  // Using contact info dictionary for branch list
+
+  // Şube listesi için iletişim sözlüğünü kullanıyoruz
   const campuses = (dictionary as any)?.iletisim?.campuses?.items || [];
 
   if (!heroData) return null;
@@ -37,8 +35,14 @@ export const CourseHeroSlider = ({ courseKey }: Props) => {
       <div className={styles.bgWrapper}>
         <Image
           src="/image.png"
-          alt="Course Banner" title="Course Banner"
+          alt={
+            heroData?.title
+              ? `${heroData.title} - Akademik International Yabancı Dil Okulları`
+              : "Akademik International Kurs Programı"
+          }
+          title={heroData?.title || "Akademik International Kurs Programı"}
           fill
+          sizes="100vw"
           className={styles.bgImage}
           priority
         />
@@ -48,55 +52,58 @@ export const CourseHeroSlider = ({ courseKey }: Props) => {
       {/* CONTENT */}
       <div className={styles.container}>
         {/* LEFT: TEXT & BUTTONS */}
-        <motion.div 
+        <Reveal
           className={styles.contentLeft}
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          trigger="mount"
+          x={-30}
+          y={0}
+          duration={0.8}
+          delay={0.2}
         >
           <div className={styles.categoryTag}>{heroData.tag}</div>
           <h1 className={styles.title}>{heroData.title}</h1>
-          
+
           <a href="tel:08503050516" className={styles.primaryBtn}>
             <Phone size={20} />
             {heroData.customerServiceBtn}
           </a>
-          
+
           <div className={styles.secondaryButtons}>
             <a href="https://wa.me/905323609256" target="_blank" rel="noopener noreferrer" className={styles.whatsappBtn}>
               <WhatsappIcon size={18} />
               {heroData.whatsappBtn}
             </a>
           </div>
-        </motion.div>
+        </Reveal>
 
         {/* RIGHT: PREMIUM FORM CARD */}
-        <motion.div 
+        <Reveal
           className={styles.formWrapper}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          trigger="mount"
+          y={30}
+          duration={0.8}
+          delay={0.4}
           id="info-form"
         >
           <div className={styles.premiumBadge}>
             <Sparkles size={14} className={styles.badgeIcon} />
             {heroData.formRibbon}
           </div>
-          
+
           <div className={styles.formHeader}>
             <h2 className={styles.formTitle}>{heroData.formTitle}</h2>
             <p className={styles.formSubtitle}>{heroData.formSubtitle}</p>
           </div>
-          
+
           <form className={styles.form}>
             <div className={styles.inputGroup}>
               <input type="text" placeholder={heroData.namePlaceholder} className={styles.input} required />
             </div>
-            
+
             <div className={styles.inputGroup}>
               <input type="tel" placeholder={heroData.phonePlaceholder} className={styles.input} required />
             </div>
-            
+
             <div className={styles.inputGroup}>
               <select className={styles.input} defaultValue="" required>
                 <option value="" disabled hidden>{heroData.branchPlaceholder}</option>
@@ -107,7 +114,7 @@ export const CourseHeroSlider = ({ courseKey }: Props) => {
                 ))}
               </select>
             </div>
-            
+
             <button type="button" className={styles.submitBtn}>
               {heroData.submitBtn}
             </button>
@@ -115,7 +122,7 @@ export const CourseHeroSlider = ({ courseKey }: Props) => {
               {heroData.formDisclaimer || "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."}
             </div>
           </form>
-        </motion.div>
+        </Reveal>
       </div>
     </section>
   );

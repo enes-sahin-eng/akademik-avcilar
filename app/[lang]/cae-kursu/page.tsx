@@ -72,7 +72,7 @@ export default async function CaeKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function CaeKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="caeLandingPage" />
+      <CourseHeroSlider courseKey="caeLandingPage" lang={lang} />
 
       {/* About (CAE Sınavı Nedir & Kimler Katılabilir) */}
       <CourseInfoSection courseKey="caeLandingPage" lang={lang} />
       
       {/* Sınav Bölümleri (Reading, Writing, Speaking, Listening) */}
-      <GradeLevelTabs courseKey="caeLandingPage" />
+      <GradeLevelTabs courseKey="caeLandingPage" lang={lang} />
 
       {/* Puanlama ve Sınav Tarihleri Tabloları */}
       <CaeTables lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Nasıl Başvurulur, Sınavın Önemi vb.) */}
       <SeoContentBlock courseKey="caeLandingPage" lang={lang} />

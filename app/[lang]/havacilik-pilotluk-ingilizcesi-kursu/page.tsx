@@ -80,7 +80,7 @@ export default async function HavacilikIngilizcesiKursuPage({
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -159,7 +159,7 @@ export default async function HavacilikIngilizcesiKursuPage({
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
-      <CourseHeroSlider courseKey="havacilikIngilizcesiLandingPage" />
+      <CourseHeroSlider courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
       <CourseInfoSection
         courseKey="havacilikIngilizcesiLandingPage"
         lang={lang}
@@ -170,8 +170,8 @@ export default async function HavacilikIngilizcesiKursuPage({
         lang={lang}
       />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="havacilikIngilizcesiLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
       <EducationModels
         courseKey="havacilikIngilizcesiLandingPage"
         lang={lang}

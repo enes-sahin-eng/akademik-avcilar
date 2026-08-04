@@ -77,7 +77,7 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -156,13 +156,13 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
-      <CourseHeroSlider courseKey="aileBirlesimiLandingPage" />
+      <CourseHeroSlider courseKey="aileBirlesimiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="aileBirlesimiLandingPage" lang={lang} />
 
       <PublicationsShowcase courseKey="aileBirlesimiLandingPage" lang={lang} />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="aileBirlesimiLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="aileBirlesimiLandingPage" lang={lang} />
       <EducationModels courseKey="aileBirlesimiLandingPage" lang={lang} />
       <CourseFAQ courseKey="aileBirlesimiLandingPage" lang={lang} />
 

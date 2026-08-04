@@ -72,7 +72,7 @@ export default async function PteKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function PteKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="pteLandingPage" />
+      <CourseHeroSlider courseKey="pteLandingPage" lang={lang} />
 
       {/* About (PTE Sınavı Nedir & Avantajları) */}
       <CourseInfoSection courseKey="pteLandingPage" lang={lang} />
       
       {/* Sınav Süreci (Listening, Reading, Writing, Speaking) */}
-      <GradeLevelTabs courseKey="pteLandingPage" />
+      <GradeLevelTabs courseKey="pteLandingPage" lang={lang} />
 
       {/* Sınav Merkezleri Tablosu */}
       <PteCentersTable lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Psikoloji) */}
       <SeoContentBlock courseKey="pteLandingPage" lang={lang} />

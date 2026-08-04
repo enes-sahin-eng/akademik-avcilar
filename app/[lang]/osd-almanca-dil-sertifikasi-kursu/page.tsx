@@ -77,7 +77,7 @@ export default async function OsdHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -161,14 +161,14 @@ export default async function OsdHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş) --- */}
-      <CourseHeroSlider courseKey="osdLandingPage" />
+      <CourseHeroSlider courseKey="osdLandingPage" lang={lang} />
       <CourseInfoSection courseKey="osdLandingPage" lang={lang} />
 
       {/* Yayınlar Modülü Sabit */}
       <PublicationsShowcase courseKey="osdLandingPage" lang={lang} />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="osdLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="osdLandingPage" lang={lang} />
       <EducationModels courseKey="osdLandingPage" lang={lang} />
       <CourseFAQ courseKey="osdLandingPage" lang={lang} />
 

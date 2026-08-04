@@ -1,20 +1,21 @@
-"use client";
-
-import React, { useState } from "react";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import React from "react";
 import styles from "./StudentReviewsAndAwards.module.css";
-import { Star, PlayCircle, Quote } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 import Image from "next/image";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { VideoLightbox } from "./VideoLightbox";
 
-export const StudentReviewsAndAwards = () => {
-  const dictionary: any = useDictionary();
+interface Props {
+  lang: Locale;
+}
+
+export const StudentReviewsAndAwards = async ({ lang }: Props) => {
+  const dictionary: any = await getDictionary(lang);
   const dict = dictionary?.studentReviewsAndAwards;
-  
-  const [activeModalVideo, setActiveModalVideo] = useState<string | null>(null);
 
   if (!dict) return null;
 
-  // Duplicate items for the marquee effect so it loops seamlessly
+  // Marquee'nin kesintisiz dönmesi için öğeleri iki kez basıyoruz
   const marqueeReviews = [...dict.reviews, ...dict.reviews];
   const marqueeAwards = [...dict.awards, ...dict.awards];
 
@@ -41,11 +42,9 @@ export const StudentReviewsAndAwards = () => {
                     <Star key={star} size={18} fill="currentColor" />
                   ))}
                 </div>
-                <p className={styles.reviewText}>"{review.text}"</p>
+                <p className={styles.reviewText}>&quot;{review.text}&quot;</p>
                 <div className={styles.authorInfo}>
-                  <div className={styles.avatar}>
-                    {review.author.charAt(0)}
-                  </div>
+                  <div className={styles.avatar}>{review.author.charAt(0)}</div>
                   <div className={styles.authorDetails}>
                     <span className={styles.authorName}>{review.author}</span>
                     <span className={styles.authorRole}>{review.role}</span>
@@ -63,29 +62,11 @@ export const StudentReviewsAndAwards = () => {
             <strong>{dict.videosTitle.split(" ")[0]}</strong>{" "}
             {dict.videosTitle.split(" ").slice(1).join(" ")}
           </h3>
-          <div className={styles.videosWrapper}>
-            {dict.videos.map((video: any) => (
-              <div key={video.id} className={styles.videoSquare}>
-                <Image
-                  src={video.thumbnail || `https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
-                  alt={dict.videosAlt || `Öğrenci Yorumu - Avcılar Yabancı Dil Kursu ${video.id}`}
-                  title="Avcılar Yabancı Dil Kursu Öğrenci Tavsiyeleri"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className={styles.videoImg}
-                  style={{ objectFit: 'cover' }}
-                />
-                <div 
-                  className={styles.videoOverlay}
-                  onClick={() => setActiveModalVideo(video.youtubeId)}
-                  style={{ cursor: 'pointer' }}
-                >
-                  <PlayCircle size={28} className={styles.playIcon} />
-                  <span className={styles.watchNowText}>{dict.watchNow}</span>
-                </div>
-              </div>
-            ))}
-          </div>
+          <VideoLightbox
+            videos={dict.videos}
+            watchNow={dict.watchNow}
+            videosAlt={dict.videosAlt}
+          />
         </div>
 
         {/* AWARDS SECTION (MARQUEE) */}
@@ -97,7 +78,10 @@ export const StudentReviewsAndAwards = () => {
                 <div key={`${award.id}-${index}`} className={styles.awardItem}>
                   <Image
                     src={award.image}
-                    alt={dict.awardsAlt || `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`}
+                    alt={
+                      dict.awardsAlt ||
+                      `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`
+                    }
                     title="Avcılar Akademik International Başarı ve Kalite Ödülleri"
                     width={180}
                     height={180}
@@ -109,28 +93,6 @@ export const StudentReviewsAndAwards = () => {
           </div>
         </div>
       </div>
-
-      {/* VIDEO MODAL */}
-      {activeModalVideo && (
-        <div 
-          className={styles.videoModalBackdrop}
-          onClick={() => setActiveModalVideo(null)}
-        >
-          <div className={styles.videoModalContent} onClick={e => e.stopPropagation()}>
-            <button className={styles.closeModalBtn} onClick={() => setActiveModalVideo(null)}>✕</button>
-            <iframe
-              width="100%"
-              height="100%"
-              src={`https://www.youtube.com/embed/${activeModalVideo}?autoplay=1`}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{ position: 'absolute', top: 0, left: 0 }}
-            ></iframe>
-          </div>
-        </div>
-      )}
     </section>
   );
 };
