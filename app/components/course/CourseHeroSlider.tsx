@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./CourseHeroSlider.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { Reveal } from "../motion/Reveal";
+import { HeroQuickNav } from "./HeroQuickNav";
 
 const WhatsappIcon = ({ size = 18 }: { size?: number }) => (
   <svg
@@ -30,7 +31,8 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
   if (!heroData) return null;
 
   return (
-    <section className={styles.heroSection}>
+    <>
+      <section className={styles.heroSection}>
       {/* BACKGROUND IMAGE */}
       <div className={styles.bgWrapper}>
         <Image
@@ -124,6 +126,10 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
           </form>
         </Reveal>
       </div>
-    </section>
+      </section>
+      
+      {/* QUICK NAV OVERLAY */}
+      <HeroQuickNav lang={lang} />
+    </>
   );
 };

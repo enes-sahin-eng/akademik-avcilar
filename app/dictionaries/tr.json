@@ -4544,7 +4544,7 @@
           "title": "Bilgisayar Tabanlı Deneyim",
           "desc": "Türkiye'de genellikle bilgisayar ortamında uygulanan sınava uygun dijital deneme pratikleri.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Kapsamlı Yayın Desteği",
@@ -4967,7 +4967,7 @@
           "title": "Esnek Eğitim",
           "desc": "Uygun gün ve saat aralığında size özel uygulanacak yüz yüze veya online eğitim programı.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -5115,7 +5115,7 @@
           "title": "İngilizce UZEM",
           "desc": "Kontrolün sizde olduğu video modülleri ile Türkiye'nin en kapsamlı online dil platformu desteği.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "İsabetli Sunumlar",
@@ -5354,7 +5354,7 @@
           "title": "Elektronik Sınav Pratiği",
           "desc": "Gerçek sınav ortamını simüle eden bilgisayar tabanlı (CBT/iBT) TOEFL denemeleri.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Hızlı Gelişim",
@@ -5611,7 +5611,7 @@
           "title": "İngilizce UZEM",
           "desc": "Yoğun iş temposundaki profesyoneller için Türkiye'nin en nitelikli online dil platformu üzerinden eğitim.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Kurumsal Geçerlilik",
@@ -5863,7 +5863,7 @@
           "title": "Kapsamlı Analiz",
           "desc": "Öğrencilerin sözel ve sayısal zayıflıklarını anında tespit eden detaylı deneme raporları.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6279,7 +6279,7 @@
           "title": "Kişiselleştirilmiş Hız",
           "desc": "Size özel hazırlanan eğitim programıyla zayıf yönlerinizi hızla kapatma fırsatı.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6684,7 +6684,7 @@
           "title": "Esnek Saatler",
           "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Kültür Deneyimi",
@@ -6882,7 +6882,7 @@
           "title": "Merkezi Konumlar",
           "desc": "Kadıköy ve Beşiktaş şubelerimizde, ulaşımı son derece kolay noktalarda kaliteli eğitim alma fırsatı.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Goethe Formatı",
@@ -7057,7 +7057,7 @@
           "title": "Motivasyon",
           "desc": "Yeni bir hayata başlarken yaşayabileceğiniz stres ve sınav kaygısını azaltmaya yönelik eğitmen desteği.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -12836,5 +12836,43 @@
         }
       ]
     }
-  }
+  },
+  "quickNav": [
+    {
+      "id": "yabanci-dil",
+      "title": "Yabancı Dil Kursu",
+      "desc": "Başlangıç seviyesinden akademik düzeye kadar her yaş grubuna özel...",
+      "link": "/ingilizce-kursu",
+      "btn": "Sayfayı Gör",
+      "icon": "Building2",
+      "theme": "blue"
+    },
+    {
+      "id": "kids",
+      "title": "Akademik Kids",
+      "desc": "4-14 yaş için oyun temelli, dili sevdiren doğal edinim programları.",
+      "link": "/ilkogretim-ingilizce-kursu",
+      "btn": "Sayfayı Gör",
+      "icon": "Baby",
+      "theme": "purple"
+    },
+    {
+      "id": "adult",
+      "title": "Akademik Adult",
+      "desc": "Çalışan yetişkinler için esnek saatli, iş hayatına dönük yoğunlaştırılmış...",
+      "link": "/is-ingilizcesi",
+      "btn": "Sayfayı Gör",
+      "icon": "Briefcase",
+      "theme": "darkblue"
+    },
+    {
+      "id": "sinav",
+      "title": "Sınav Merkezi",
+      "desc": "IELTS, PTE ve LanguageCert yetkili sınav merkezi; hazırlık ve...",
+      "link": "/akademik-ingilizce-kursu",
+      "btn": "Sayfayı Gör",
+      "icon": "Award",
+      "theme": "darkred"
+    }
+  ]
 }

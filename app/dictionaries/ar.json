@@ -4537,7 +4537,7 @@
           "title": "تجربة قائمة على الحاسوب",
           "desc": "تدريبات واختبارات تجريبية رقمية مناسبة للاختبار الذي يُجرى عادةً عبر الحاسوب في تركيا.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "دعم شامل بالمنشورات والمواد",
@@ -4960,7 +4960,7 @@
           "title": "تعليم مرن",
           "desc": "برنامج تعليمي حضوري أو عبر الإنترنت يُطبق خصيصًا لك في الأيام والساعات المناسبة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -5108,7 +5108,7 @@
           "title": "İngilizce UZEM",
           "desc": "دعم من أشمل منصة لغات عبر الإنترنت في تركيا عبر وحدات فيديو تمنحك التحكم الكامل.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "عروض دقيقة",
@@ -5347,7 +5347,7 @@
           "title": "تدريب على الاختبار الإلكتروني",
           "desc": "اختبارات TOEFL تجريبية حاسوبية (CBT/iBT) تحاكي بيئة الاختبار الحقيقية.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "تطور سريع",
@@ -5604,7 +5604,7 @@
           "title": "منصة İngilizce UZEM",
           "desc": "تدريب عبر أفضل منصة لغات إلكترونية في تركيا للمهنيين ذوي جداول العمل المزدحمة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "اعتماد مؤسسي",
@@ -5856,7 +5856,7 @@
           "title": "تحليل شامل",
           "desc": "تقارير اختبارات تجريبية مفصلة تحدد نقاط الضعف اللفظية والكمية لدى الطلاب على الفور.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6272,7 +6272,7 @@
           "title": "سرعة مخصصة",
           "desc": "فرصة لمعالجة نقاط ضعفك بسرعة من خلال برنامج تدريبي مُعد خصيصًا لك.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6522,7 +6522,7 @@
           "title": "ساعات مرنة",
           "desc": "برامج مسائية خارج ساعات العمل أو مجموعات صباحية/ظهر في عطلة نهاية الأسبوع للموظفين.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "تجربة ثقافية",
@@ -6720,7 +6720,7 @@
           "title": "مواقع مركزية",
           "desc": "فرصة للحصول على تعليم عالي الجودة في نقاط سهلة الوصول للغاية في فرعينا بكاديكوي وبشكتاش.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "نمط جوته",
@@ -6895,7 +6895,7 @@
           "title": "الحافز",
           "desc": "دعم المعلم الموجه لتقليل التوتر وقلق الاختبار الذي قد تشعر به عند بدء حياة جديدة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -12386,5 +12386,43 @@
         }
       ]
     }
-  }
+  },
+  "quickNav": [
+    {
+      "id": "yabanci-dil",
+      "title": "دورة اللغات الأجنبية",
+      "desc": "من المستوى المبتدئ إلى الأكاديمي، مخصصة لجميع الفئات العمرية...",
+      "link": "/ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Building2",
+      "theme": "blue"
+    },
+    {
+      "id": "kids",
+      "title": "أكاديميك للأطفال",
+      "desc": "برامج اكتساب طبيعية مبنية على الألعاب للأعمار من 4 إلى 14 عامًا.",
+      "link": "/ilkogretim-ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Baby",
+      "theme": "purple"
+    },
+    {
+      "id": "adult",
+      "title": "أكاديميك للبالغين",
+      "desc": "برامج مكثفة مرنة موجهة لسوق العمل للبالغين.",
+      "link": "/is-ingilizcesi",
+      "btn": "عرض الصفحة",
+      "icon": "Briefcase",
+      "theme": "darkblue"
+    },
+    {
+      "id": "sinav",
+      "title": "مركز الامتحانات",
+      "desc": "مركز اختبار معتمد لـ IELTS و PTE و LanguageCert.",
+      "link": "/akademik-ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Award",
+      "theme": "darkred"
+    }
+  ]
 }

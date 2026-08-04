@@ -1,5 +1,6 @@
 import { Navbar } from "../components/layout/Navbar";
 import { HeroSlider } from "../components/home/HeroSlider";
+import { HeroQuickNav } from "../components/course/HeroQuickNav";
 import { MiniGallery } from "../components/home/MiniGallery";
 import { CampusCarousel } from "../components/ui/CampusCarousel";
 import { HomeContentSection } from "../components/home/HomeContentSection";
@@ -23,6 +24,7 @@ export default async function Home({ params }: PageProps) {
       <h1 className="sr-only">Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu</h1>
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
+      <HeroQuickNav lang={lang} />
       <MiniGallery />
       <CampusCarousel lang={lang} />
       <HomeContentSection lang={lang} />

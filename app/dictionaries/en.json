@@ -4537,7 +4537,7 @@
           "title": "Computer-Based Experience",
           "desc": "Digital mock exam practices suited for the exam, which is generally computer-based in Turkey.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Comprehensive Publication Support",
@@ -4960,7 +4960,7 @@
           "title": "Flexible Training",
           "desc": "In-person or online training programs scheduled specifically for you on suitable days and hours.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -5108,7 +5108,7 @@
           "title": "İngilizce UZEM",
           "desc": "Turkey's most comprehensive online language platform support featuring video modules where you are in control.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Accurate Presentations",
@@ -5347,7 +5347,7 @@
           "title": "Electronic Exam Practice",
           "desc": "Computer-based (CBT/iBT) TOEFL mock exams simulating the real exam environment.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Rapid Development",
@@ -5604,7 +5604,7 @@
           "title": "Ingilizce UZEM",
           "desc": "Training through Turkey's most qualified online language platform for professionals with busy work schedules.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Corporate Validity",
@@ -5856,7 +5856,7 @@
           "title": "Comprehensive Analysis",
           "desc": "Detailed mock reports that instantly identify students' verbal and quantitative weaknesses.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6272,7 +6272,7 @@
           "title": "Personalized Pace",
           "desc": "The opportunity to quickly address your weak points with a training program tailored to you.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6647,7 +6647,7 @@
           "title": "Flexible Hours",
           "desc": "After-hours evening programs or weekend morning/afternoon groups for working individuals.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Cultural Experience",
@@ -6845,7 +6845,7 @@
           "title": "Central Locations",
           "desc": "Opportunity to receive quality education at highly accessible points in our Kadıköy and Beşiktaş branches.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "Goethe Format",
@@ -7020,7 +7020,7 @@
           "title": "Motivation",
           "desc": "Instructor support aimed at reducing stress and exam anxiety you might experience when starting a new life.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -12755,5 +12755,43 @@
         }
       ]
     }
-  }
+  },
+  "quickNav": [
+    {
+      "id": "yabanci-dil",
+      "title": "Foreign Language Course",
+      "desc": "From beginner to academic level, tailored for every age group...",
+      "link": "/ingilizce-kursu",
+      "btn": "View Page",
+      "icon": "Building2",
+      "theme": "blue"
+    },
+    {
+      "id": "kids",
+      "title": "Akademik Kids",
+      "desc": "Game-based, natural acquisition programs for ages 4-14.",
+      "link": "/ilkogretim-ingilizce-kursu",
+      "btn": "View Page",
+      "icon": "Baby",
+      "theme": "purple"
+    },
+    {
+      "id": "adult",
+      "title": "Akademik Adult",
+      "desc": "Flexible, business-oriented intensive programs for working adults.",
+      "link": "/is-ingilizcesi",
+      "btn": "View Page",
+      "icon": "Briefcase",
+      "theme": "darkblue"
+    },
+    {
+      "id": "sinav",
+      "title": "Exam Center",
+      "desc": "Authorized testing center for IELTS, PTE, and LanguageCert.",
+      "link": "/akademik-ingilizce-kursu",
+      "btn": "View Page",
+      "icon": "Award",
+      "theme": "darkred"
+    }
+  ]
 }
