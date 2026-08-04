@@ -77,7 +77,7 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. COURSE SCHEMA (Kurumsal İçin Güncellendi) */}
       <script
@@ -120,12 +120,12 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
       )}
 
       {/* BİLEŞENLER (Tüm courseKey değerleri kurumsalIngilizceLandingPage olarak değiştirildi) */}
-      <CourseHeroSlider courseKey="kurumsalIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="kurumsalIngilizceLandingPage" />
+      <GradeLevelTabs courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="kurumsalIngilizceLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <EducationModels courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="kurumsalIngilizceLandingPage" lang={lang} />
 

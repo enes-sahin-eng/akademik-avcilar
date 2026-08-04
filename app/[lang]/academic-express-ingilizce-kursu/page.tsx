@@ -48,7 +48,7 @@ export default async function AcademicExpressPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,7 +68,7 @@ export default async function AcademicExpressPage({ params }: PageProps) {
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="academicExpressPage" />
+      <CourseHeroSlider courseKey="academicExpressPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="academicExpressPage" lang={lang} />
@@ -77,17 +77,17 @@ export default async function AcademicExpressPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="academicExpressPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="academicExpressPage" />
+      <WhyUsSection courseKey="academicExpressPage" lang={lang} />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
       <EducationModels courseKey="academicExpressPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 
       {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

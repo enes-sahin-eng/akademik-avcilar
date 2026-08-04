@@ -4,7 +4,7 @@ Bu dosya, bu repoda kod yazan yapay zeka ajanları (Cursor, Claude Code vb.) ve 
 
 ## Proje Özeti
 
-Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **33 ana sayfa** yayındadır:
+Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **49 ana sayfa** yayındadır:
 
 ### Temel Sayfalar
 - Anasayfa (`/`)
@@ -61,6 +61,24 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 ### Amaca Yönelik Almanca Programları
 - Almanca Aile Birleşimi Kursu (`/almanca-aile-birlesimi-kursu`)
 - İzmir Almanca Aile Birleşimi Kursu (`/izmir-almanca-aile-birlesimi-kursu`)
+
+### Diğer Dil Kursları
+- İspanyolca Dil Kursu (`/ispanyolca-dil-kursu`)
+- Fransızca Dil Kursu (`/fransizca-dil-kursu`)
+- Almanca Dil Kursu (`/almanca-dil-kursu`)
+- Rusça Dil Kursu (`/rusca-dil-kursu`)
+- İtalyanca Dil Kursu (`/italyanca-dil-kursu`)
+- Farsça Dil Kursu (`/farsca-dil-kursu`)
+- Çince Dil Kursu (`/cince-dil-kursu`)
+- Japonca Dil Kursu (`/japonca-dil-kursu`)
+- Korece Dil Kursu (`/korece-dil-kursu`)
+- Osmanlıca Dil Kursu (`/osmanlica-dil-kursu`)
+- Yabancılara Türkçe Kursu (`/yabancilara-turkce`)
+- Türkçe Dil Kursu (`/turkce-dil-kursu`)
+- Latince Dil Kursu (`/latince-dil-kursu`)
+- Portekizce Dil Kursu (`/portekizce-dil-kursu`)
+- Arapça Dil Kursu (`/arapca-dil-kursu`)
+- Felemenkçe Dil Kursu (`/flemenkce-dil-kursu`)
 
 ### Lokasyon Bazlı Dil Kursları
 - Kadıköy Almanca Kursu (`/kadikoy-almanca-kursu`)

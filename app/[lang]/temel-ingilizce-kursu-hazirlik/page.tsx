@@ -48,7 +48,7 @@ export default async function HazirlikPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,7 +68,7 @@ export default async function HazirlikPage({ params }: PageProps) {
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="prepPage" />
+      <CourseHeroSlider courseKey="prepPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="prepPage" lang={lang} />
@@ -77,17 +77,17 @@ export default async function HazirlikPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="prepPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="prepPage" />
+      <WhyUsSection courseKey="prepPage" lang={lang} />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
       <EducationModels courseKey="prepPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 
       {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

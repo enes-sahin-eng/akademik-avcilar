@@ -79,7 +79,7 @@ export default async function GreHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -165,20 +165,20 @@ export default async function GreHazirlikKursuPage({ params }: PageProps) {
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
       {/* Client Component */}
-      <CourseHeroSlider courseKey="greLandingPage" />
+      <CourseHeroSlider courseKey="greLandingPage" lang={lang} />
 
       {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="greLandingPage" lang={lang} />
 
       {/* Client Component */}
-      <GradeLevelTabs courseKey="greLandingPage" />
+      <GradeLevelTabs courseKey="greLandingPage" lang={lang} />
 
       {/* Server Components */}
       <PublicationsShowcase courseKey="greLandingPage" lang={lang} />
 
       {/* Client Components */}
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="greLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="greLandingPage" lang={lang} />
 
       {/* Server Components */}
       <EducationModels courseKey="greLandingPage" lang={lang} />

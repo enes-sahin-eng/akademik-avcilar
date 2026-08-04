@@ -79,7 +79,7 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -163,12 +163,12 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
-      <CourseHeroSlider courseKey="toeflLandingPage" />
+      <CourseHeroSlider courseKey="toeflLandingPage" lang={lang} />
       <CourseInfoSection courseKey="toeflLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="toeflLandingPage" />
+      <GradeLevelTabs courseKey="toeflLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="toeflLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="toeflLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="toeflLandingPage" lang={lang} />
       <EducationModels courseKey="toeflLandingPage" lang={lang} />
       <CourseFAQ courseKey="toeflLandingPage" lang={lang} />
       <SeoContentBlock courseKey="toeflLandingPage" lang={lang} />

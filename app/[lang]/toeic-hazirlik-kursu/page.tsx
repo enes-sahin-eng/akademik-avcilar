@@ -79,7 +79,7 @@ export default async function ToeicHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -163,12 +163,12 @@ export default async function ToeicHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
-      <CourseHeroSlider courseKey="toeicLandingPage" />
+      <CourseHeroSlider courseKey="toeicLandingPage" lang={lang} />
       <CourseInfoSection courseKey="toeicLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="toeicLandingPage" />
+      <GradeLevelTabs courseKey="toeicLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="toeicLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="toeicLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="toeicLandingPage" lang={lang} />
       <EducationModels courseKey="toeicLandingPage" lang={lang} />
       <CourseFAQ courseKey="toeicLandingPage" lang={lang} />
       <SeoContentBlock courseKey="toeicLandingPage" lang={lang} />

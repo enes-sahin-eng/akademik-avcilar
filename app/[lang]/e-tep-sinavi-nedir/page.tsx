@@ -80,7 +80,7 @@ export default async function EtepSinaviNedirPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -164,12 +164,12 @@ export default async function EtepSinaviNedirPage({ params }: PageProps) {
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
-      <CourseHeroSlider courseKey="etepLandingPage" />
+      <CourseHeroSlider courseKey="etepLandingPage" lang={lang} />
       <CourseInfoSection courseKey="etepLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="etepLandingPage" />
+      <GradeLevelTabs courseKey="etepLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="etepLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="etepLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="etepLandingPage" lang={lang} />
       <EducationModels courseKey="etepLandingPage" lang={lang} />
       <CourseFAQ courseKey="etepLandingPage" lang={lang} />
       

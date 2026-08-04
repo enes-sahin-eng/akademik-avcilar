@@ -80,7 +80,7 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -158,12 +158,12 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
       )}
 
       {/* BİLEŞENLER */}
-      <CourseHeroSlider courseKey="ortaokulIngilizceLandingPage" />
+      <CourseHeroSlider courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="ortaokulIngilizceLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="ortaokulIngilizceLandingPage" />
+      <GradeLevelTabs courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="ortaokulIngilizceLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <EducationModels courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="ortaokulIngilizceLandingPage" lang={lang} />

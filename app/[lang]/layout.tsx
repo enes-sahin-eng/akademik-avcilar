@@ -9,7 +9,6 @@ import {
   defaultLocale,
   type Locale,
 } from "../dictionaries/getDictionary";
-import { DictionaryProvider } from "../../src/context/DictionaryContext";
 import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { getOrganizationSchema } from "../../src/utils/seo";
@@ -116,7 +115,6 @@ export default async function RootLayout({
     notFound();
   }
   const lang = rawLang as Locale;
-  const dictionary = await getDictionary(lang);
 
   const direction = lang === "ar" ? "rtl" : "ltr";
 
@@ -124,17 +122,15 @@ export default async function RootLayout({
     <html lang={lang} dir={direction}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProvider>
-          <DictionaryProvider dictionary={dictionary}>
-            <script
-              id="organization-schema"
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{
-                __html: JSON.stringify(getOrganizationSchema(siteUrl))
-              }}
-            />
-            {children}
-            <Footer lang={lang} />
-          </DictionaryProvider>
+          <script
+            id="organization-schema"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(getOrganizationSchema(siteUrl))
+            }}
+          />
+          {children}
+          <Footer lang={lang} />
         </ThemeProvider>
       </body>
     </html>

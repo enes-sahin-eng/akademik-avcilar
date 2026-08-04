@@ -7,13 +7,13 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 
 const images = [
-  "https://picsum.photos/seed/mini1/400/300",
-  "https://picsum.photos/seed/mini2/400/300",
-  "https://picsum.photos/seed/mini3/400/300",
-  "https://picsum.photos/seed/mini4/400/300",
-  "https://picsum.photos/seed/mini5/400/300",
-  "https://picsum.photos/seed/mini6/400/300",
-  "https://picsum.photos/seed/mini7/400/300",
+  "/sliders/slider1.webp",
+  "/sliders/slider2.webp",
+  "/sliders/slider3.webp",
+  "/sliders/slider4.webp",
+  "/sliders/slider5.webp",
+  "/campuses/sube-avcilar.jpg",
+  "/campuses/sube-kadikoy.webp",
 ];
 
 export const MiniGallery = () => {

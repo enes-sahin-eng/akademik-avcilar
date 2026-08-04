@@ -78,7 +78,7 @@ export default async function ProficiencyHazirlikKursuPage({
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -162,14 +162,14 @@ export default async function ProficiencyHazirlikKursuPage({
       )}
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
-      <CourseHeroSlider courseKey="proficiencyLandingPage" />
+      <CourseHeroSlider courseKey="proficiencyLandingPage" lang={lang} />
       <CourseInfoSection courseKey="proficiencyLandingPage" lang={lang} />
 
       {/* Yayınlar Modülü Geri Eklendi */}
       <PublicationsShowcase courseKey="proficiencyLandingPage" lang={lang} />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="proficiencyLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="proficiencyLandingPage" lang={lang} />
       <EducationModels courseKey="proficiencyLandingPage" lang={lang} />
       <CourseFAQ courseKey="proficiencyLandingPage" lang={lang} />
 

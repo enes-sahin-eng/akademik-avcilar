@@ -21,16 +21,16 @@ export default async function Home({ params }: PageProps) {
   return (
     <div>
       <h1 className="sr-only">Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu</h1>
-      <Navbar />
-      <HeroSlider />
+      <Navbar lang={lang} />
+      <HeroSlider lang={lang} />
       <MiniGallery />
-      <CampusCarousel />
+      <CampusCarousel lang={lang} />
       <HomeContentSection lang={lang} />
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
-      <LeadFormModal />
-      <PlacementTestBanner />
+      <LeadFormModal lang={lang} />
+      <PlacementTestBanner lang={lang} />
     </div>
   );
 }

@@ -80,7 +80,7 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -164,13 +164,13 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
       )}
 
       {/* Client Component - lang'i Context'ten alıyor */}
-      <CourseHeroSlider courseKey="ydsLandingPage" />
+      <CourseHeroSlider courseKey="ydsLandingPage" lang={lang} />
 
       <CourseInfoSection courseKey="ydsLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="ydsLandingPage" />
+      <GradeLevelTabs courseKey="ydsLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="ydsLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="ydsLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="ydsLandingPage" lang={lang} />
       <EducationModels courseKey="ydsLandingPage" lang={lang} />
       <CourseFAQ courseKey="ydsLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ydsLandingPage" lang={lang} />

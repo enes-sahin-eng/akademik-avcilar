@@ -48,7 +48,7 @@ export default async function PrepPlusPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,7 +68,7 @@ export default async function PrepPlusPage({ params }: PageProps) {
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="prepPlusPage" />
+      <CourseHeroSlider courseKey="prepPlusPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="prepPlusPage" lang={lang} />
@@ -77,17 +77,17 @@ export default async function PrepPlusPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="prepPlusPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="prepPlusPage" />
+      <WhyUsSection courseKey="prepPlusPage" lang={lang} />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
       <EducationModels courseKey="prepPlusPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 
       {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

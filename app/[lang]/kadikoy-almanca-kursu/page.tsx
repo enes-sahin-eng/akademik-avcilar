@@ -78,7 +78,7 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -156,11 +156,11 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
-      <CourseHeroSlider courseKey="kadikoyAlmancaLandingPage" />
+      <CourseHeroSlider courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <CourseInfoSection courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="kadikoyAlmancaLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="kadikoyAlmancaLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <EducationModels courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <CourseFAQ courseKey="kadikoyAlmancaLandingPage" lang={lang} />
 

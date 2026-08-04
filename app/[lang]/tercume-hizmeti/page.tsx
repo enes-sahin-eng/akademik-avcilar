@@ -76,7 +76,7 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. SERVICE SCHEMA (Tercüme Hizmeti İçin Güncellendi) */}
       <script
@@ -120,12 +120,12 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
       )}
 
       {/* BİLEŞENLER (Tüm courseKey değerleri tercumeHizmetiLandingPage olarak değiştirildi) */}
-      <CourseHeroSlider courseKey="tercumeHizmetiLandingPage" />
+      <CourseHeroSlider courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="tercumeHizmetiLandingPage" lang={lang} />
-      <GradeLevelTabs courseKey="tercumeHizmetiLandingPage" />
+      <GradeLevelTabs courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <PublicationsShowcase courseKey="tercumeHizmetiLandingPage" lang={lang} />
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="tercumeHizmetiLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <EducationModels courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <CourseFAQ courseKey="tercumeHizmetiLandingPage" lang={lang} />
 

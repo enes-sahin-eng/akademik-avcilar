@@ -72,7 +72,7 @@ export default async function TelcKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* BREADCRUMBLIST SCHEMA */}
       <script
@@ -133,19 +133,19 @@ export default async function TelcKursuPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <CourseHeroSlider courseKey="telcLandingPage" />
+      <CourseHeroSlider courseKey="telcLandingPage" lang={lang} />
 
       {/* About (TELC Sınavı Nedir & Avantajları) */}
       <CourseInfoSection courseKey="telcLandingPage" lang={lang} />
       
       {/* Sınav Seviyeleri (A1, A2, B1, B2, C1, C2) */}
-      <GradeLevelTabs courseKey="telcLandingPage" />
+      <GradeLevelTabs courseKey="telcLandingPage" lang={lang} />
 
       {/* Sınav Tarihleri ve Merkezleri Tabloları */}
       <TelcTables lang={lang} />
 
       {/* Placement Test Banner */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Tavsiyeler, Hedefler vb.) */}
       <SeoContentBlock courseKey="telcLandingPage" lang={lang} />

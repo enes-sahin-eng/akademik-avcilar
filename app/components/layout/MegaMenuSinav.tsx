@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { GraduationCap, Book, BookOpen, FileBadge, Award, Trophy, PenTool } from "lucide-react";
 import styles from "./MegaMenu.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 
 const iconMap: Record<string, React.ElementType> = {
   GraduationCap,
@@ -19,11 +18,10 @@ const iconMap: Record<string, React.ElementType> = {
   PenTool
 };
 
-export const MegaMenuSinav: React.FC = () => {
-  const dict = useDictionary();
+export const MegaMenuSinav: React.FC<{ data: any }> = ({ data }) => {
   const pathname = usePathname();
   const lang = pathname?.split('/')[1] || 'tr';
-  const megaMenu = dict?.megaMenuSinav;
+  const megaMenu = data;
 
   if (!megaMenu) return null;
 
@@ -67,11 +65,14 @@ export const MegaMenuSinav: React.FC = () => {
       </div>
 
       <div className={styles.megaMenuRightImage}>
-        <Image 
-          src="https://picsum.photos/seed/graduates/300/400" 
-          alt="Sınav Kursları" title="Sınav Kursları" 
-          className={styles.rightFullImage} 
-        width={40} height={40} />
+        <Image
+          src="/campuses/sube-avcilar.jpg"
+          alt="Akademik International Avcılar Merkez Şubesi - IELTS, TOEFL, YDS ve YÖKDİL akademik sınav hazırlık sınıfları"
+          title="Akademik Sınav Kursları - Avcılar Merkez Şubesi"
+          fill
+          sizes="(max-width: 900px) 100vw, 320px"
+          className={styles.rightFullImage}
+        />
       </div>
     </motion.div>
   );

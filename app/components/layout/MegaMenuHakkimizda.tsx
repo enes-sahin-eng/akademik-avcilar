@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BookOpen, ScrollText, BadgeCheck, Briefcase, Star, Handshake } from "lucide-react";
 import styles from "./MegaMenu.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 
 const iconMap: Record<string, React.ElementType> = {
   BookOpen,
@@ -15,9 +14,8 @@ const iconMap: Record<string, React.ElementType> = {
   Handshake
 };
 
-export const MegaMenuHakkimizda: React.FC = () => {
-  const dict = useDictionary();
-  const hakkimizdaMenu = dict?.megaMenuHakkimizda;
+export const MegaMenuHakkimizda: React.FC<{ data: any }> = ({ data }) => {
+  const hakkimizdaMenu = data;
 
   if (!hakkimizdaMenu) return null;
 

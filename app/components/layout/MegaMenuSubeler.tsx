@@ -5,11 +5,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Building2, Phone } from "lucide-react";
 import styles from "./MegaMenu.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 
-export const MegaMenuSubeler: React.FC = () => {
-  const dict = useDictionary();
-  const megaMenu = dict?.megaMenuSubeler;
+export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
+  const megaMenu = data;
 
   if (!megaMenu) return null;
 
@@ -80,11 +78,14 @@ export const MegaMenuSubeler: React.FC = () => {
         
         <div className={styles.subelerPromoArea}>
           <div className={styles.subelerCircleGroup}>
-            <Image 
-              src="https://picsum.photos/seed/campus/250/250" 
-              alt={megaMenu.promo.title} title={megaMenu.promo.title} 
-              className={styles.subelerCircleImage} 
-            width={40} height={40} />
+            <Image
+              src="/campuses/sube-avcilar.jpg"
+              alt={`${megaMenu.promo.title} - Akademik International Avcılar Merkez Şubesi`}
+              title={megaMenu.promo.title}
+              className={styles.subelerCircleImage}
+              width={250}
+              height={250}
+            />
             <div className={styles.subelerTopBadge}>
               {megaMenu.promo.badge}
             </div>

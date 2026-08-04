@@ -55,6 +55,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Lokasyon Bazlı Diğer Dil Kursları
     "/kadikoy-almanca-kursu",
     "/fransizca-kursu-besiktas",
+    // Diğer Dil Kursları
+    "/ispanyolca-dil-kursu",
+    "/fransizca-dil-kursu",
+    "/almanca-dil-kursu",
+    "/rusca-dil-kursu",
+    "/italyanca-dil-kursu",
+    "/farsca-dil-kursu",
+    "/cince-dil-kursu",
+    "/japonca-dil-kursu",
+    "/korece-dil-kursu",
+    "/osmanlica-dil-kursu",
+    "/yabancilara-turkce",
+    "/turkce-dil-kursu",
+    "/latince-dil-kursu",
+    "/portekizce-dil-kursu",
+    "/arapca-dil-kursu",
+    "/flemenkce-dil-kursu",
     // Diğer
     "/tercume-hizmeti",
   ];
@@ -75,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: "2026-08-03",
+        lastModified: "2026-08-04",
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,

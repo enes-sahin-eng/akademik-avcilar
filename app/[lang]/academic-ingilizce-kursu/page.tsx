@@ -48,7 +48,7 @@ export default async function AcademicPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,7 +68,7 @@ export default async function AcademicPage({ params }: PageProps) {
 
       
       {/* KURS HERO SLIDER */}
-      <CourseHeroSlider courseKey="academicPage" />
+      <CourseHeroSlider courseKey="academicPage" lang={lang} />
 
       {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="academicPage" lang={lang} />
@@ -77,17 +77,17 @@ export default async function AcademicPage({ params }: PageProps) {
       <PublicationsShowcase courseKey="academicPage" lang={lang} />
 
       {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
-      <WhyUsSection courseKey="academicPage" />
+      <WhyUsSection courseKey="academicPage" lang={lang} />
 
       {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
       <EducationModels courseKey="academicPage" lang={lang} />
 
       
       {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
-      <StudentReviewsAndAwards />
+      <StudentReviewsAndAwards lang={lang} />
 
       {/* DİL SEVİYE BELİRLEME SINAVI */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       
       {/* INSTAGRAM FEED (Mock API) */}

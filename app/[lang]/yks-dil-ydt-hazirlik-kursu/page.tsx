@@ -79,7 +79,7 @@ export default async function YdtHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -165,20 +165,20 @@ export default async function YdtHazirlikKursuPage({ params }: PageProps) {
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
       {/* Client Component */}
-      <CourseHeroSlider courseKey="ydtLandingPage" />
+      <CourseHeroSlider courseKey="ydtLandingPage" lang={lang} />
 
       {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="ydtLandingPage" lang={lang} />
 
       {/* Client Component */}
-      <GradeLevelTabs courseKey="ydtLandingPage" />
+      <GradeLevelTabs courseKey="ydtLandingPage" lang={lang} />
 
       {/* Server Components */}
       <PublicationsShowcase courseKey="ydtLandingPage" lang={lang} />
 
       {/* Client Components */}
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="ydtLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="ydtLandingPage" lang={lang} />
 
       {/* Server Components */}
       <EducationModels courseKey="ydtLandingPage" lang={lang} />

@@ -1,10 +1,9 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import { BarChart3 } from "lucide-react";
-import { motion } from "framer-motion";
 import styles from "./Leaderboard.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { Reveal } from "../motion/Reveal";
+import { LeaderboardTabs } from "./LeaderboardTabs";
 
 const dummyData = [
   { name: "E**** Y*****", program: "IELTS", score: "7.5" },
@@ -16,21 +15,18 @@ const dummyData = [
   { name: "M**** A**", program: "IELTS", score: "7.5" },
 ];
 
-export const Leaderboard = () => {
-  const dict = useDictionary();
-  const content = dict?.homeContentSection?.leaderboard;
-  const [activeTab, setActiveTab] = useState("IELTS");
+interface Props {
+  lang: Locale;
+}
+
+export const Leaderboard = async ({ lang }: Props) => {
+  const dict = await getDictionary(lang);
+  const content = (dict as any)?.homeContentSection?.leaderboard;
 
   if (!content) return null;
 
   return (
-    <motion.div 
-      className={styles.leaderboardCard}
-      initial={{ opacity: 0, x: 30 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
-    >
+    <Reveal className={styles.leaderboardCard} x={30} y={0} duration={0.5}>
       <div className={styles.header}>
         <div className={styles.iconWrapper}>
           <BarChart3 size={28} />
@@ -39,17 +35,7 @@ export const Leaderboard = () => {
         <p className={styles.subtitle}>{content.subtitle}</p>
       </div>
 
-      <div className={styles.tabsContainer}>
-        {content.tabs.map((tab: string) => (
-          <button 
-            key={tab} 
-            className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ""}`}
-            onClick={() => setActiveTab(tab)}
-          >
-            {tab}
-          </button>
-        ))}
-      </div>
+      <LeaderboardTabs tabs={content.tabs} />
 
       <div className={styles.tableHeader}>
         <span>{content.headers.name}</span>
@@ -59,27 +45,15 @@ export const Leaderboard = () => {
 
       <div className={styles.tableBody}>
         {dummyData.map((row, idx) => (
-          <motion.div 
-            key={idx} 
-            className={styles.tableRow}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.05 }}
-          >
+          <div key={idx} className={styles.tableRow}>
             <span>{row.name}</span>
             <span>{row.program}</span>
             <span className={styles.scoreCell}>{row.score}</span>
-          </motion.div>
+          </div>
         ))}
       </div>
 
-      <motion.button 
-        className={styles.btnAll}
-        whileHover={{ scale: 1.02 }}
-        whileTap={{ scale: 0.98 }}
-      >
-        {content.btnAll}
-      </motion.button>
-    </motion.div>
+      <button className={styles.btnAll}>{content.btnAll}</button>
+    </Reveal>
   );
 };

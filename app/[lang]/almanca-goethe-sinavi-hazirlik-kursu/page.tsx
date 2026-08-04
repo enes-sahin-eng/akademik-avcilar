@@ -77,7 +77,7 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* 1. BREADCRUMBLIST SCHEMA */}
       <script
@@ -162,14 +162,14 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
-      <CourseHeroSlider courseKey="goetheLandingPage" />
+      <CourseHeroSlider courseKey="goetheLandingPage" lang={lang} />
       <CourseInfoSection courseKey="goetheLandingPage" lang={lang} />
 
       {/* Yayınlar Modülü Kısa Sayfalarda da Sabit */}
       <PublicationsShowcase courseKey="goetheLandingPage" lang={lang} />
 
-      <PlacementTestBanner />
-      <WhyUsSection courseKey="goetheLandingPage" />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="goetheLandingPage" lang={lang} />
       <EducationModels courseKey="goetheLandingPage" lang={lang} />
       <CourseFAQ courseKey="goetheLandingPage" lang={lang} />
 

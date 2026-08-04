@@ -10,7 +10,7 @@ export const getOrganizationSchema = (siteUrl: string) => {
     "logo": `${baseUrl}/brand/logo.png`,
     "description": "İstanbul Avcılar merkezli, 12 şubeli yabancı dil okulu. İngilizce, Almanca ve sınav hazırlık (IELTS, YDS, TOEFL, GOETHE) programları ile konuşma garantili dil eğitimi.",
     "sameAs": [
-      "https://www.instagram.com/akademikinternational",
+      "https://www.instagram.com/avcilarakademik",
       "https://tr-tr.facebook.com/akademikbatidilleri/",
       "https://x.com/akademikdilokul",
       "https://www.youtube.com/channel/UC1VMsQPzasFIRhPYfo16O_Q",

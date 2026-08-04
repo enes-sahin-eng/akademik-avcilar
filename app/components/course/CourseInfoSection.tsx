@@ -42,7 +42,7 @@ export const CourseInfoSection = async ({ courseKey, lang }: Props) => {
             {pageData.badge && (
               <div className={styles.badge}>{pageData.badge}</div>
             )}
-            <h1 className={styles.title}>{pageData.title}</h1>
+            <h2 className={styles.title}>{pageData.title}</h2>
             <div
               className={styles.desc}
               dangerouslySetInnerHTML={{ __html: pageData.desc }}

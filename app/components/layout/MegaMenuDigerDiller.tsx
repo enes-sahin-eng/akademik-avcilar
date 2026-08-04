@@ -2,10 +2,11 @@
 import Image from 'next/image';
 
 import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { Castle, Building, Landmark, Building2, Snowflake, Moon, Globe2, Monitor, MountainSnow, Ship, Wind, Library, Sun, Coffee, ArrowRight } from "lucide-react";
 import styles from "./MegaMenu.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 
 const iconMap: Record<string, React.ElementType> = {
   Castle,
@@ -24,16 +25,20 @@ const iconMap: Record<string, React.ElementType> = {
   Coffee
 };
 
-export const MegaMenuDigerDiller: React.FC = () => {
-  const dict = useDictionary();
-  const megaMenu = dict?.megaMenuDigerDiller;
+export const MegaMenuDigerDiller: React.FC<{ data: any }> = ({ data }) => {
+  const megaMenu = data;
+  const pathname = usePathname();
+  const lang = pathname?.split("/")[1] || "tr";
 
   if (!megaMenu) return null;
 
   const renderSection = (section: any, idx: number) => {
     const Icon = iconMap[section.icon] || Globe2;
+    const href = section.href
+      ? `/${lang}${section.href}`
+      : `#${section.title}`;
     return (
-      <a href={`#${section.title}`} key={idx} className={styles.dillerSection}>
+      <Link href={href} key={idx} className={styles.dillerSection}>
         <div className={styles.dillerIconWrapper}>
           <Icon size={24} strokeWidth={1.5} />
         </div>
@@ -41,7 +46,7 @@ export const MegaMenuDigerDiller: React.FC = () => {
           <div className={styles.sectionTitle}>{section.title}</div>
           <p className={styles.sectionSubtitle}>{section.subtitle}</p>
         </div>
-      </a>
+      </Link>
     );
   };
 
@@ -73,11 +78,14 @@ export const MegaMenuDigerDiller: React.FC = () => {
         </div>
         <div className={styles.newsCard}>
           <div className={styles.newsDateBadge}>{megaMenu.news.date}</div>
-          <Image 
-            src="https://picsum.photos/seed/students-hall/300/350" 
-            alt={megaMenu.news.title} title={megaMenu.news.title} 
-            className={styles.newsImage} 
-          width={300} height={350} />
+          <Image
+            src="/sliders/slider2.webp"
+            alt={`${megaMenu.news.title} - Akademik International Diğer Diller Kursları`}
+            title={megaMenu.news.title}
+            className={styles.newsImage}
+            width={300}
+            height={350}
+          />
           <div className={styles.newsOverlay}>
             <div className={styles.newsTitle}>{megaMenu.news.title}</div>
             <a href="#" className={styles.newsLink}>

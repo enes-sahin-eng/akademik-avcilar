@@ -14,12 +14,10 @@ import {
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import styles from "./MegaMenu.module.css";
-import { useDictionary } from "../../../src/context/DictionaryContext";
 import Link from "next/link";
 
-export const MegaMenuGenelIngilizce: React.FC = () => {
-  const dict = useDictionary();
-  const megaMenu = dict?.megaMenuGenelIngilizce;
+export const MegaMenuGenelIngilizce: React.FC<{ data: any }> = ({ data }) => {
+  const megaMenu = data;
   const pathname = usePathname();
   const currentLocale = pathname?.split("/")[1] || "tr";
 
@@ -186,18 +184,24 @@ export const MegaMenuGenelIngilizce: React.FC = () => {
       {/* Sağ Taraf - Promosyon */}
       <div className={styles.megaMenuRight}>
         <div className={styles.promoTitle}>{megaMenu.promo.title}</div>
-        {/* Placeholder görsel (Gerçek görsel yerine css tasarımı ya da placehoder image) */}
         <div className={styles.promoImageWrapper}>
           <Image
-            src="https://picsum.photos/seed/grammar/200/280"
-            alt="Academic Express"
-            title="Academic Express"
+            src="/sliders/slider1.webp"
+            alt="The Academic Publishing - Akademik International İngilizce Kurs Kitapları ve Yeni Sezon Yayınları"
+            title="Akademik International Yayınları - Yeni Sezon Kitapları"
             className={styles.promoImage}
-            width={40}
-            height={40}
+            width={160}
+            height={220}
           />
         </div>
-        <button className={styles.promoBtn}>{megaMenu.promo.button}</button>
+        <a
+          href="https://theacademicpublishing.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.promoBtn}
+        >
+          {megaMenu.promo.button}
+        </a>
       </div>
     </motion.div>
   );

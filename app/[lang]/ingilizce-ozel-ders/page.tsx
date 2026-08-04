@@ -73,7 +73,7 @@ export default async function OzelDersPage({ params }: PageProps) {
 
   return (
     <main>
-      <Navbar />
+      <Navbar lang={lang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -93,22 +93,22 @@ export default async function OzelDersPage({ params }: PageProps) {
       />
 
       {/* 1. HERO SLIDER */}
-      <CourseHeroSlider courseKey="ozelDersLandingPage" />
+      <CourseHeroSlider courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 2. COURSE INFO (Badge, Title, Desc, Skills) */}
       <CourseInfoSection courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* NEW: GRADE LEVEL TABS (5,6,7,8) */}
-      <GradeLevelTabs courseKey="ozelDersLandingPage" />
+      <GradeLevelTabs courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 3. PUBLICATIONS SHOWCASE */}
       <PublicationsShowcase courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 4. PLACEMENT TEST BANNER */}
-      <PlacementTestBanner />
+      <PlacementTestBanner lang={lang} />
 
       {/* 5. WHY US / ADVANTAGES & ACCORDION FAQS */}
-      <WhyUsSection courseKey="ozelDersLandingPage" />
+      <WhyUsSection courseKey="ozelDersLandingPage" lang={lang} />
 
       {/* 6. EDUCATION MODELS */}
       <EducationModels courseKey="ozelDersLandingPage" lang={lang} />
