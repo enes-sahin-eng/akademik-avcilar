@@ -4,7 +4,7 @@ Bu dosya, bu repoda kod yazan yapay zeka ajanları (Cursor, Claude Code vb.) ve 
 
 ## Proje Özeti
 
-Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **49 ana sayfa** yayındadır:
+Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **72 ana sayfa** yayındadır:
 
 ### Temel Sayfalar
 - Anasayfa (`/`)
@@ -82,9 +82,23 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 
 ### Lokasyon Bazlı Dil Kursları
 - Kadıköy Almanca Kursu (`/kadikoy-almanca-kursu`)
+- Kadıköy İngilizce Dil Kursu (`/kadikoy-ingilizce-dil-kursu`)
 - Beşiktaş Fransızca Kursu (`/fransizca-kursu-besiktas`)
 
-> Diğer şube lokasyon sayfaları (Bursa, İzmir, Ankara vb.) ve İspanyolca/Fransızca gibi diğer diller yol haritasındadır. Footer'da bu sayfalar için `href="#"` placeholder linkleri bulunmaktadır — yeni sayfa açılınca hem `href` doldurulmalı hem `sitemap.ts` ve `llms.txt` güncellenmelidir.
+### Şube Lokasyon Sayfaları (İngilizce)
+- Avcılar İngilizce Dil Kursu (`/avcilar-ingilizce-dil-kursu`)
+- İstanbul İngilizce Kursu (`/istanbul-ingilizce-kursu`)
+- Bursa FSM İngilizce Dil Kursu (`/bursa-ingilizce-dil-kursu-fsm`)
+- İstanbul Çekmeköy İngilizce Dil Kursu (`/cekmekoy-ingilizce-dil-kursu`)
+- Bursa Görükle İngilizce Dil Kursu (`/gorukle-ingilizce-dil-kursu`)
+- Ankara İngilizce Dil Kursu (`/ankara-ingilizce-dil-kursu`)
+- İzmir İngilizce Dil Kursu (`/izmir-ingilizce-dil-kursu`)
+- Kocaeli İzmit İngilizce Dil Kursu (`/kocaeli-izmit-ingilizce-dil-kursu`)
+- Tekirdağ Çorlu İngilizce Dil Kursu (`/corlu-ingilizce-dil-kursu`)
+- Bursa İnegöl İngilizce Dil Kursu (`/inegol-ingilizce-dil-kursu`)
+- Bursa Yıldırım Erikli İngilizce Dil Kursu (`/yildirim-erikli-ingilizce-dil-kursu`)
+- Amerika Kampüsü — Yurt Dışı Eğitim (`/amerika`)
+- Kütahya İngilizce Kursu (`/ingilizce-kursu-kutahya`)
 
 ## Teknoloji Yığını & Ortam
 
@@ -103,7 +117,7 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 - `/app/components` — Yeniden kullanılabilir React bileşenleri (örn: `SeoContentBlock`) ve ilgili CSS modülleri.
 - `/public` — Görseller, logo, ikon, statik varlıklar ve `llms.txt`.
 - `/app/icon.png` — Next.js App Router konvensiyonu; `<link rel="icon">` meta tag'i buradan üretilir. Silinmesin.
-- `/app/favicon.ico` — Browser'ların default `/favicon.ico` isteğini karşılar. **`app/icon.png` tek başına yetmez** — tarayıcı yine `/favicon.ico`'yu ister ve 404 alır. İki dosya da bulunmak zorunda.
+- `/app/favicon.ico` — **Kasıtlı olarak silinmiştir.** `app/icon.png` tek başına favicon görevi görmektedir; favicon.ico'nun varlığı icon.png'yi override ederek eski logonun görünmesine yol açıyordu.
 
 ## Ajanlar İçin Kesin Kurallar
 

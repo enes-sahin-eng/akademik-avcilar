@@ -7,18 +7,18 @@ import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { NewsletterForm } from "./NewsletterForm";
 
 const campuses = [
-  { name: "Kadıköy İngilizce Dil Kursu", badge: false },
-  { name: "Bursa İngilizce Kursu", badge: true },
-  { name: "Avcılar İngilizce Dil Kursu", badge: false },
-  { name: "İstanbul İngilizce Dil Kursu", badge: false },
-  { name: "İstanbul Çekmeköy", badge: false },
-  { name: "Bursa Görükle", badge: false },
-  { name: "Ankara", badge: true },
-  { name: "İzmir İngilizce Dil Kursu", badge: true },
-  { name: "Kocaeli İzmit", badge: false },
-  { name: "Tekirdağ Çorlu", badge: false },
-  { name: "Bursa İnegöl", badge: false },
-  { name: "Bursa Yıldırım", badge: false },
+  { name: "Kadıköy İngilizce Dil Kursu", badge: false, href: "/kadikoy-ingilizce-dil-kursu" },
+  { name: "Bursa İngilizce Kursu", badge: true, href: "/bursa-ingilizce-dil-kursu-fsm" },
+  { name: "Avcılar İngilizce Dil Kursu", badge: false, href: "/avcilar-ingilizce-dil-kursu" },
+  { name: "İstanbul İngilizce Dil Kursu", badge: false, href: "/istanbul-ingilizce-kursu" },
+  { name: "İstanbul Çekmeköy", badge: false, href: "/cekmekoy-ingilizce-dil-kursu" },
+  { name: "Bursa Görükle", badge: false, href: "/gorukle-ingilizce-dil-kursu" },
+  { name: "Ankara", badge: true, href: "/ankara-ingilizce-dil-kursu" },
+  { name: "İzmir İngilizce Dil Kursu", badge: true, href: "/izmir-ingilizce-dil-kursu" },
+  { name: "Kocaeli İzmit", badge: false, href: "/kocaeli-izmit-ingilizce-dil-kursu" },
+  { name: "Tekirdağ Çorlu", badge: false, href: "/corlu-ingilizce-dil-kursu" },
+  { name: "Bursa İnegöl", badge: false, href: "/inegol-ingilizce-dil-kursu" },
+  { name: "Bursa Yıldırım", badge: false, href: "/yildirim-erikli-ingilizce-dil-kursu" },
 ];
 
 const programs = [
@@ -105,7 +105,7 @@ export const Footer = async ({ lang }: Props) => {
             <ul className={styles.linkList}>
               {campuses.map((c, i) => (
                 <li key={i} className={styles.linkItem}>
-                  <a href="#">{c.name}</a>
+                  <Link href={`/${lang}${c.href}`}>{c.name}</Link>
                   {c.badge && <span className={styles.redBadge}>IELTS Test Venue</span>}
                 </li>
               ))}

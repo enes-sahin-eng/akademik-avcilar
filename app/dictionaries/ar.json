@@ -281,65 +281,82 @@
     "activeCampusesTitle": "الحرم الجامعي النشط",
     "activeCampusesCol1": [
       {
-        "name": "دورة اللغة الإنجليزية في كاديكوي"
+        "name": "دورة اللغة الإنجليزية في كاديكوي",
+        "href": "/kadikoy-ingilizce-dil-kursu"
       },
       {
         "name": "دورة بورصة للغة الإنجليزية",
-        "badge": "مكان اختبار IELTS"
+        "badge": "مكان اختبار IELTS",
+        "href": "/bursa-ingilizce-dil-kursu-fsm"
       },
       {
-        "name": "دورة أفجيلار للغة الإنجليزية"
+        "name": "دورة أفجيلار للغة الإنجليزية",
+        "href": "/avcilar-ingilizce-dil-kursu"
       },
       {
-        "name": "دورة اسطنبول للغة الإنجليزية"
+        "name": "دورة اسطنبول للغة الإنجليزية",
+        "href": "/istanbul-ingilizce-kursu"
       },
       {
-        "name": "اسطنبول تشيكميكوي"
+        "name": "اسطنبول تشيكميكوي",
+        "href": "/cekmekoy-ingilizce-dil-kursu"
       },
       {
-        "name": "بورصة جوروكلي"
+        "name": "بورصة جوروكلي",
+        "href": "/gorukle-ingilizce-dil-kursu"
       },
       {
         "name": "أنقرة",
-        "badge": "مكان اختبار IELTS"
+        "badge": "مكان اختبار IELTS",
+        "href": "/ankara-ingilizce-dil-kursu"
       }
     ],
     "activeCampusesCol2": [
       {
         "name": "دورة إزمير للغة الإنجليزية",
-        "badge": "مكان اختبار IELTS"
+        "badge": "مكان اختبار IELTS",
+        "href": "/izmir-ingilizce-dil-kursu"
       },
       {
-        "name": "كوجالي إزميت"
+        "name": "كوجالي إزميت",
+        "href": "/kocaeli-izmit-ingilizce-dil-kursu"
       },
       {
-        "name": "تيكيرداغ تشورلو"
+        "name": "تيكيرداغ تشورلو",
+        "href": "/corlu-ingilizce-dil-kursu"
       },
       {
-        "name": "بورصة إنيغول"
+        "name": "بورصة إنيغول",
+        "href": "/inegol-ingilizce-dil-kursu"
       },
       {
-        "name": "بورصة يلدريم"
+        "name": "بورصة يلدريم",
+        "href": "/yildirim-erikli-ingilizce-dil-kursu"
       }
     ],
     "expandingTitle": "نحن بصدد توسيع شبكة مدارس اللغات الأكثر تأهيلاً في تركيا!",
     "expandingCol1": [
       {
-        "name": "بورصة عثمان غازي فومارا"
+        "name": "بورصة عثمان غازي فومارا",
+        "href": "/bursa-ingilizce-dil-kursu-fsm"
       },
       {
-        "name": "الحرم الجامعي الأمريكي"
+        "name": "الحرم الجامعي الأمريكي",
+        "href": "/amerika"
       },
       {
-        "name": "كوتاهيا"
+        "name": "كوتاهيا",
+        "href": "/ingilizce-kursu-kutahya"
       }
     ],
     "expandingCol2": [
       {
-        "name": "دورة اسكيشهر للغة الإنجليزية"
+        "name": "دورة اسكيشهر للغة الإنجليزية",
+        "openFranchise": true
       },
       {
-        "name": "بورصة كاراجابي"
+        "name": "بورصة كاراجابي",
+        "openFranchise": true
       }
     ],
     "promo": {
@@ -348,21 +365,39 @@
       "title": "اسطنبول تشيكميكوي",
       "phone": "0501 369 56 40",
       "button1": "فحص الفرع ←",
-      "button2": "نموذج طلب معلومات الامتياز ←"
+      "button1Href": "/cekmekoy-ingilizce-dil-kursu",
+      "button2": "نموذج طلب معلومات الامتياز ←",
+      "franchiseModal": {
+        "title": "نموذج طلب الامتياز",
+        "nameLabel": "الاسم الكامل",
+        "namePlaceholder": "أدخل اسمك الكامل",
+        "phoneLabel": "الهاتف",
+        "phonePlaceholder": "أدخل رقم هاتفك المحمول",
+        "emailLabel": "البريد الإلكتروني",
+        "emailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+        "messageLabel": "رسالتك",
+        "messagePlaceholder": "أسئلتك حول الامتياز...",
+        "checkboxLabel": "بملء هذا النموذج، أقبل الإشعار القانوني/شروط الاستخدام.",
+        "submitBtn": "إرسال الطلب",
+        "successMsg": "تم استلام طلبك! سنتواصل معك في أقرب وقت ممكن."
+      }
     }
   },
   "megaMenuHakkimizda": [
     {
       "title": "منشوراتنا",
-      "icon": "BookOpen"
+      "icon": "BookOpen",
+      "href": "/yayinlarimiz"
     },
     {
       "title": "تاريخنا",
-      "icon": "ScrollText"
+      "icon": "ScrollText",
+      "href": "/tarihce"
     },
     {
       "title": "لماذا نحن؟",
-      "icon": "BadgeCheck"
+      "icon": "BadgeCheck",
+      "href": "/neden-akademik-yabanci-dil-kurslari"
     },
     {
       "title": "فرص العمل",
@@ -406,73 +441,85 @@
           "name": "أفجيلار",
           "label": "اللغة الإنجليزية",
           "phone": "0212 650 90 90",
-          "image": "/campuses/sube-avcilar.webp"
+          "image": "/campuses/sube-avcilar.webp",
+          "href": "/avcilar-ingilizce-dil-kursu"
         },
         {
           "name": "كاديكوي",
           "label": "اللغة الإنجليزية",
           "phone": "0216 330 19 09",
-          "image": "/campuses/sube-kadikoy.webp"
+          "image": "/campuses/sube-kadikoy.webp",
+          "href": "/kadikoy-ingilizce-dil-kursu"
         },
         {
           "name": "بورصة",
           "label": "دورة اللغة الإنجليزية",
           "phone": "0224 480 00 15",
-          "image": "/campuses/sube-bursa.webp"
+          "image": "/campuses/sube-bursa.webp",
+          "href": "/bursa-ingilizce-dil-kursu-fsm"
         },
         {
           "name": "اسطنبول",
           "label": "اللغة الإنجليزية",
           "phone": "0216 330 19 09",
-          "image": "/campuses/sube-ingilizcedil.webp"
+          "image": "/campuses/sube-ingilizcedil.webp",
+          "href": "/istanbul-ingilizce-kursu"
         },
         {
           "name": "اسطنبول",
           "label": "تشيكميكوي",
           "phone": "0501 369 56 40",
-          "image": "/campuses/sube-cekmekoy.webp"
+          "image": "/campuses/sube-cekmekoy.webp",
+          "href": "/cekmekoy-ingilizce-dil-kursu"
         },
         {
           "name": "بورصة",
           "label": "جوروكلي",
           "phone": "0224 480 00 14",
-          "image": "/campuses/sube-gorukle.webp"
+          "image": "/campuses/sube-gorukle.webp",
+          "href": "/gorukle-ingilizce-dil-kursu"
         },
         {
           "name": "أنقرة",
           "label": "أنقرة",
           "phone": "0312 433 99 99",
-          "image": "/campuses/sube-ankara.webp"
+          "image": "/campuses/sube-ankara.webp",
+          "href": "/ankara-ingilizce-dil-kursu"
         },
         {
           "name": "إزمير",
           "label": "اللغة الإنجليزية",
           "phone": "0850 305 05 16",
-          "image": "/campuses/sube-izmir.webp"
+          "image": "/campuses/sube-izmir.webp",
+          "href": "/izmir-ingilizce-dil-kursu"
         },
         {
           "name": "كوجالي",
           "label": "إزميت",
           "phone": "0545 116 4141",
-          "image": "/campuses/sube-kocaeli.webp"
+          "image": "/campuses/sube-kocaeli.webp",
+          "href": "/kocaeli-izmit-ingilizce-dil-kursu"
         },
         {
           "name": "تيكيرداغ",
           "label": "تشورلو",
           "phone": "0541 236 01 59",
-          "image": "/campuses/sube-tekirdag.webp"
+          "image": "/campuses/sube-tekirdag.webp",
+          "href": "/corlu-ingilizce-dil-kursu"
         },
         {
           "name": "بورصة",
           "label": "إنيغول",
           "phone": "0224 777 07 74",
-          "image": "/campuses/sube-inegol.webp"
+          "image": "/campuses/sube-inegol.webp",
+          "href": "/inegol-ingilizce-dil-kursu"
         },
         {
           "name": "بورصة",
           "label": "يلدريم",
           "phone": "0 224 342 01 23",
-          "image": "/campuses/sube-yildirim.webp"
+          "image": "/campuses/sube-yildirim.webp",
+          "href": "/yildirim-erikli-ingilizce-dil-kursu"
         }
       ],
       "button": "تطبيق الحرم الجامعي"
@@ -509,7 +556,7 @@
       "سياسة البيانات الشخصية",
       "البنود والشروط"
     ],
-    "copyright": "© 1992 - 2024 دورة أكاديميك الدولية للغات الأجنبية جميع الحقوق محفوظة.",
+    "copyright": "© 1992 - 2026 دورة أكاديميك الدولية للغات الأجنبية جميع الحقوق محفوظة.",
     "partnersTitle": "الشركاء الذين يجعلوننا أقوياء",
     "groupTitle": "مجموعة أكاديمية الدولية",
     "designBy": "تصميم وتطوير بواسطة"
@@ -618,62 +665,118 @@
         "تفاصيل"
       ],
       "statusAvailable": "متاح",
-      "statusFull": "ممتلئ",
+      "statusFull": "لا توجد مقاعد",
       "detailBtn": "عرض التفاصيل",
+      "remainingDays": "{days} أيام",
+      "lastSpots": "تبقى {spots} أماكن فقط!",
+      "registerBtn": "سجل الان",
+      "quotaText": "الحصة",
+      "startDateLabel": "تاريخ البدء",
+      "spotsLeft": "متبقي {spots} مقاعد",
+      "urgentSpots": "آخر {spots} مقاعد",
+      "quotaFilledText": "{filled} / {total} ممتلئ",
+      "generalProgram": "برنامج عام",
+      "startsToday": "يبدأ اليوم",
+      "started": "بدأ",
+      "modal": {
+        "weekdays": "أيام الأسبوع",
+        "statusFullText": "الحصة ممتلئة",
+        "statusClosingText": "التسجيلات على وشك الإغلاق",
+        "statusOpenText": "التسجيلات جارية",
+        "description": "يقدم هذا البرنامج منهجاً مكثفاً لمساعدة الطلاب على الوصول إلى مستوى اللغة الإنجليزية المستهدف في وقت قصير.",
+        "daysLabel": "أيام",
+        "hoursLabel": "ساعات",
+        "durationLabel": "مدة",
+        "classSizeLabel": "فصل",
+        "daysValue": "الإثنين - الأربعاء - الجمعة",
+        "hoursValue": "19:00 - 21:30",
+        "durationValue": "3 أشهر",
+        "classSizeValue": "الحد الأقصى 12 شخصاً",
+        "features": [
+          "مدربون أصليون",
+          "دعم مواد مجاني",
+          "المشاركة في نادي المحادثة"
+        ],
+        "reserveBtn": "احجز الآن",
+        "pageBtn": "انتقل إلى صفحة البرنامج"
+      },
       "programs": [
         {
           "code": "الدورة الشتوية التحضيرية 2026 (A1-A2)",
-          "start": "2026-01-19",
-          "end": "2026-03-16",
-          "status": "available"
+          "link": "/temel-ingilizce-kursu-hazirlik",
+          "start": "2026-09-15",
+          "end": "2026-11-16",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 0
         },
         {
           "code": "أكاديميك إكسبريس الدورة الشتوية 2026 (B2)",
-          "start": "2026-01-26",
-          "end": "2026-04-20",
-          "status": "available"
+          "link": "/academic-express-ingilizce-kursu",
+          "start": "2026-09-25",
+          "end": "2026-12-20",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 5
         },
         {
           "code": "أكاديميك للأطفال الفصل الدراسي (أطفال)",
-          "start": "2026-01-19",
-          "end": "2026-05-31",
-          "status": "available"
+          "link": "/ilkogretim-ingilizce-kursu",
+          "start": "2026-10-10",
+          "end": "2027-02-15",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 10
         },
         {
           "code": "الدورة الشتوية التحضيرية 2026 (A1-A2)",
+          "link": "/temel-ingilizce-kursu-hazirlik",
           "start": "2026-01-31",
           "end": "2026-04-26",
-          "status": "available"
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 10
         },
         {
           "code": "الدورة الشتوية الألمانية A2 2026",
-          "start": "2026-01-31",
-          "end": "2026-04-26",
-          "status": "available"
+          "link": "/almanca-dil-kursu",
+          "start": "2026-11-01",
+          "end": "2027-01-26",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 12
         },
         {
           "code": "الدورة الشتوية الألمانية A1 2026",
           "start": "2026-01-24",
           "end": "2026-04-12",
-          "status": "available"
+          "status": "available",
+          "quotaTotal": 10,
+          "quotaFilled": 6
         },
         {
           "code": "الدورة الشتوية التحضيرية 2025 (A1-A2)",
           "start": "2026-01-17",
           "end": "2026-03-14",
-          "status": "available"
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 9
         },
         {
           "code": "التحضيري بلس الدورة الشتوية 2026 (B1)",
           "start": "2026-01-26",
           "end": "2026-04-20",
-          "status": "full"
+          "status": "full",
+          "quotaTotal": 12,
+          "quotaFilled": 12
         },
         {
           "code": "الدورة الشتوية الإسبانية A1 2026",
           "start": "2026-01-24",
           "end": "2026-04-19",
-          "status": "available"
+          "status": "available",
+          "quotaTotal": 10,
+          "quotaFilled": 5
         }
       ]
     }
@@ -4537,7 +4640,7 @@
           "title": "تجربة قائمة على الحاسوب",
           "desc": "تدريبات واختبارات تجريبية رقمية مناسبة للاختبار الذي يُجرى عادةً عبر الحاسوب في تركيا.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "دعم شامل بالمنشورات والمواد",
@@ -4960,7 +5063,7 @@
           "title": "تعليم مرن",
           "desc": "برنامج تعليمي حضوري أو عبر الإنترنت يُطبق خصيصًا لك في الأيام والساعات المناسبة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -5108,7 +5211,7 @@
           "title": "İngilizce UZEM",
           "desc": "دعم من أشمل منصة لغات عبر الإنترنت في تركيا عبر وحدات فيديو تمنحك التحكم الكامل.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "عروض دقيقة",
@@ -5347,7 +5450,7 @@
           "title": "تدريب على الاختبار الإلكتروني",
           "desc": "اختبارات TOEFL تجريبية حاسوبية (CBT/iBT) تحاكي بيئة الاختبار الحقيقية.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "تطور سريع",
@@ -5604,7 +5707,7 @@
           "title": "منصة İngilizce UZEM",
           "desc": "تدريب عبر أفضل منصة لغات إلكترونية في تركيا للمهنيين ذوي جداول العمل المزدحمة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "اعتماد مؤسسي",
@@ -5856,7 +5959,7 @@
           "title": "تحليل شامل",
           "desc": "تقارير اختبارات تجريبية مفصلة تحدد نقاط الضعف اللفظية والكمية لدى الطلاب على الفور.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6272,7 +6375,7 @@
           "title": "سرعة مخصصة",
           "desc": "فرصة لمعالجة نقاط ضعفك بسرعة من خلال برنامج تدريبي مُعد خصيصًا لك.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -6522,7 +6625,7 @@
           "title": "ساعات مرنة",
           "desc": "برامج مسائية خارج ساعات العمل أو مجموعات صباحية/ظهر في عطلة نهاية الأسبوع للموظفين.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "تجربة ثقافية",
@@ -6720,7 +6823,7 @@
           "title": "مواقع مركزية",
           "desc": "فرصة للحصول على تعليم عالي الجودة في نقاط سهلة الوصول للغاية في فرعينا بكاديكوي وبشكتاش.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         },
         {
           "title": "نمط جوته",
@@ -6895,7 +6998,7 @@
           "title": "الحافز",
           "desc": "دعم المعلم الموجه لتقليل التوتر وقلق الاختبار الذي قد تشعر به عند بدء حياة جديدة.",
           "icon": "Monitor",
-        "href": "/korece-dil-kursu"
+          "href": "/korece-dil-kursu"
         }
       ]
     },
@@ -12386,5 +12489,1819 @@
         }
       ]
     }
+  },
+  "quickNav": [
+    {
+      "id": "yabanci-dil",
+      "title": "دورة اللغات الأجنبية",
+      "desc": "من المستوى المبتدئ إلى الأكاديمي، مخصصة لجميع الفئات العمرية...",
+      "link": "/ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Building2",
+      "theme": "blue"
+    },
+    {
+      "id": "kids",
+      "title": "أكاديميك للأطفال",
+      "desc": "برامج اكتساب طبيعية مبنية على الألعاب للأعمار من 4 إلى 14 عامًا.",
+      "link": "/ilkogretim-ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Baby",
+      "theme": "purple"
+    },
+    {
+      "id": "adult",
+      "title": "أكاديميك للبالغين",
+      "desc": "برامج مكثفة مرنة موجهة لسوق العمل للبالغين.",
+      "link": "/is-ingilizcesi",
+      "btn": "عرض الصفحة",
+      "icon": "Briefcase",
+      "theme": "darkblue"
+    },
+    {
+      "id": "sinav",
+      "title": "مركز الامتحانات",
+      "desc": "مركز اختبار معتمد لـ IELTS و PTE و LanguageCert.",
+      "link": "/akademik-ingilizce-kursu",
+      "btn": "عرض الصفحة",
+      "icon": "Award",
+      "theme": "darkred"
+    }
+  ],
+  "kadikoyIngilizceLandingPage": {
+    "meta": {
+      "title": "Kadıköy İngilizce Kursu | Kadıköy İngilizce Dil Kursu",
+      "description": "Kadıköy İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "Rıhtım Cd. Recaizade Sk. No:2 Kat:3 34716 Kadıköy / İSTANBUL",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com.tr/maps/place/Kad%C4%B1k%C3%B6y+%C4%B0ngilizce+Kursu+%7C+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+Kad%C4%B1k%C3%B6y+Dil+Okulu/@40.9939059,29.0155923,16z/data=!3m1!5s0x14cab869a4f2f009:0x204f4d9a9d95209!4m7!3m6!1s0x14cab926c40d328b:0xbd9c8cb0acfe8176!8m2!3d40.9939059!4d29.0251195!15sChlrYWTEsWvDtnkgaW5naWxpemNlIGt1cnN1WhsiGWthZMSxa8O2eSBpbmdpbGl6Y2Uga3Vyc3WSAQ9sYW5ndWFnZV9zY2hvb2yaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTnlkRTU2ZGtOUkVBReABAA!16s%2Fg%2F11jvhr5nkl?coh=219816&entry=tts&g_ep=EgoyMDI0MDgwNy4wKgBIAVAD",
+      "distances": [
+        {
+          "icon": "bus",
+          "text": "على بعد 3 دقائق سيراً على الأقدام من مترو كاديكوي"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "مقابل موقف حافلات كاديكوي"
+        },
+        {
+          "icon": "ferry",
+          "text": "على بعد 4 دقائق سيراً على الأقدام من رصيف كاديكوي"
+        },
+        {
+          "icon": "walking",
+          "text": "على بعد 5 دقائق سيراً على الأقدام من تمثال الثور"
+        }
+      ]
+    },
+    "upcomingProgramsTable": {
+      "title": "البرامج القادمة في حرم دورة اللغة الإنجليزية في كاديكوي",
+      "headers": {
+        "groupCode": "Grup Kodu",
+        "startDate": "Başlama Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "quota": "Kontenjan",
+        "detail": "Detay"
+      },
+      "programs": [
+        {
+          "id": "1",
+          "code": "مجموعة أغسطس التحضيرية 2025 - مساء أيام الأسبوع",
+          "start": "2025-12-16",
+          "end": "2026-02-16",
+          "status": "full",
+          "quotaTotal": 12,
+          "quotaFilled": 12,
+          "type": "دورة لغة إنجليزية"
+        },
+        {
+          "id": "2",
+          "code": "فصل الشتاء التحضيري 2025 (A1-A2)",
+          "start": "2025-12-22",
+          "end": "2026-02-28",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 8,
+          "type": "دورة لغة إنجليزية"
+        },
+        {
+          "id": "3",
+          "code": "فصل الشتاء التحضيري بلس 2025 (B1)",
+          "start": "2025-12-08",
+          "end": "2026-02-23",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 8,
+          "type": "دورة لغة إنجليزية"
+        },
+        {
+          "id": "4",
+          "code": "فصل الشتاء التحضيري 2025 (A1-A2) - عطلة نهاية الأسبوع",
+          "start": "2025-12-27",
+          "end": "2026-02-28",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 8,
+          "type": "دورة لغة إنجليزية"
+        },
+        {
+          "id": "5",
+          "code": "فصل الشتاء التحضيري بلس 2025 (B1) - عطلة نهاية الأسبوع",
+          "start": "2025-12-20",
+          "end": "2026-02-21",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 8,
+          "type": "دورة لغة إنجليزية"
+        },
+        {
+          "id": "6",
+          "code": "فصل الشتاء الأكاديمي السريع 2025 (B2)",
+          "start": "2025-12-13",
+          "end": "2026-02-15",
+          "status": "available",
+          "quotaTotal": 12,
+          "quotaFilled": 8,
+          "type": "دورة لغة إنجليزية"
+        }
+      ],
+      "actions": {
+        "viewDetail": "Detaylı İncele"
+      },
+      "startDateLabel": "تاريخ البدء",
+      "generalProgram": "برنامج عام",
+      "detailBtn": "عرض التفاصيل",
+      "statusFull": "لا توجد مقاعد",
+      "spotsLeft": "متبقي {spots} مقاعد",
+      "urgentSpots": "آخر {spots} مقاعد",
+      "quotaFilledText": "{filled} / {total} ممتلئ",
+      "remainingDays": "{days} أيام",
+      "startsToday": "يبدأ اليوم",
+      "started": "بدأ",
+      "modal": {
+        "weekdays": "أيام الأسبوع",
+        "statusFullText": "الحصة ممتلئة",
+        "statusClosingText": "التسجيلات على وشك الإغلاق",
+        "statusOpenText": "التسجيلات جارية",
+        "description": "يقدم هذا البرنامج منهجاً مكثفاً لمساعدة الطلاب على الوصول إلى مستوى اللغة الإنجليزية المستهدف في وقت قصير.",
+        "daysLabel": "أيام",
+        "hoursLabel": "ساعات",
+        "durationLabel": "مدة",
+        "classSizeLabel": "فصل",
+        "daysValue": "الإثنين - الأربعاء - الجمعة",
+        "hoursValue": "19:00 - 21:30",
+        "durationValue": "3 أشهر",
+        "classSizeValue": "الحد الأقصى 12 شخصاً",
+        "features": [
+          "مدربون أصليون",
+          "دعم مواد مجاني",
+          "المشاركة في نادي المحادثة"
+        ],
+        "reserveBtn": "احجز الآن",
+        "pageBtn": "انتقل إلى صفحة البرنامج"
+      },
+      "tableHeaders": {
+        "program": "برنامج",
+        "type": "نوع التعليم",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "days": "أيام",
+        "hours": "ساعات",
+        "quota": "حالة الحصة",
+        "action": "تسجيل"
+      }
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في كاديكوي",
+        "desc": "يُعرف باسم دورة كاديكوي للغة الإنجليزية، وتعد دورة الأكاديمية للغات الأجنبية الخيار الأفضل بمواردها الفريدة ومناهجها التعليمية المتميزة التي تصل بالطالب إلى المستوى المستهدف."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة المتداولة",
+      "subtitle": "Kadıköy İngilizce Kursu hakkında en çok merak edilen soruları ve bu soruların detaylı cevaplarını sizin için derledik.",
+      "items": [
+        {
+          "q": "هل يوجد متحدثون أصليون؟",
+          "a": "نعم، مدربونا متحدثون أصليون."
+        },
+        {
+          "q": "هل الفصول تفاعلية؟",
+          "a": "نعم، تفاعلية بالكامل."
+        }
+      ]
+    },
+    "publications": {
+      "title": "الموارد الحالية مع فرق النشر الأكاديمي",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+      "features": [
+        "منشورات مقرها لندن",
+        "مواضيع حالية وفعلية",
+        "هياكل المفردات الحديثة"
+      ],
+      "books": [
+        {
+          "name": "The Academic English B1-B2",
+          "type": "اللغة الإنجليزية العامة والمتوسطة"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "تقنيات واستراتيجيات الامتحانات"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "التحدث والتواصل النشط"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "مفردات حديثة"
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا تختارنا لدورة اللغة الإنجليزية في كاديكوي؟",
+      "subtitle": "جرب الجودة، لا تضيع الوقت",
+      "cardTitle": "نظام موجه نحو التحدث",
+      "cardDesc": "لا تضيع بين المراجعات على الإنترنت؛ الدورة الجيدة لا تجعلك فقط تحل التمارين في الكتاب، بل تجعلك تتحدث. هذا بالضبط ما نفعله.",
+      "btnNext": "مزايانا الأخرى →",
+      "faqs": [
+        {
+          "q": "ما الذي يجب مراعاته عند البحث عن توصية لدورة لغة إنجليزية في اسطنبول؟",
+          "a": "يجب البحث عن مدربين متحدثين أصليين، وتعليم موجه (امتحان، أعمال، تواصل)، ومواد محدثة، ومعدلات نجاح عالية، وخيارات برامج مرنة خاصة بالمؤسسة."
+        },
+        {
+          "q": "هل التدريبات في الفصول نشطة بما فيه الكفاية؟",
+          "a": "نعم، يهدف نهجنا التعليمي في فرع كاديكوي إلى المشاركة النشطة في الدرس والاستخدام العملي للغة بدلاً من الاستماع السلبي."
+        },
+        {
+          "q": "هل هي مناسبة لأهدافي المهنية؟",
+          "a": "بالتأكيد. بعد فهم أهدافك الفردية، نقوم بتصميم البرنامج الأنسب لك ونقدم ضماناً تعليمياً مناسباً للغرض."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "مدربون أصليون",
+          "desc": "طاقم مدربين خبراء حاصلين على شهادة تدريس معتمدة، لغتهم الأم هي الإنجليزية.",
+          "icon": "Users"
+        },
+        {
+          "title": "تسجيل ديناميكي",
+          "desc": "فرصة لبدء تعليمك دون إضاعة الوقت دون انتظار امتلاء الحصة أو بداية الفصل الدراسي.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "ساعات مرنة",
+          "desc": "برامج مسائية خارج أوقات العمل أو مجموعات صباحية/مسائية في عطلة نهاية الأسبوع للموظفين.",
+          "icon": "Monitor",
+          "href": "#"
+        },
+        {
+          "title": "تجربة ثقافية",
+          "desc": "فرصة للتعرف على الثقافة البريطانية عن كثب ليس فقط من خلال اللغة ولكن أيضاً من خلال الأنشطة اللامنهجية.",
+          "icon": "Award"
+        }
+      ]
+    },
+    "hero": {
+      "tag": "دورة اللغة الإنجليزية في كاديكوي",
+      "title": "تعليم لغة إنجليزية موجه نحو الهدف مع متحدثين أصليين في كاديكوي",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات واتساب",
+      "formRibbon": "استمارة التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات الآن عن دورة اللغة الإنجليزية في كاديكوي!",
+      "namePlaceholder": "أدخل الاسم واللقب.",
+      "phonePlaceholder": "أدخل رقم هاتفك المحمول.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على المعلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "الخيار الأفضل بموارده الأصلية الخاصة ومنهج تعليمي متميز يوصل الطالب إلى المستوى المستهدف.",
+      "formDisclaimer": "بملء استمارة المعلومات، أوافق على التحذير القانوني/شروط الاستخدام.",
+      "subtitle": "شكل حياتك المهنية ومستقبلك!"
+    }
+  },
+  "bursaIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في بورصة | مدرسة بورصة للغة الإنجليزية FSM",
+      "description": "دورة اللغة الإنجليزية في بورصة من أكاديميك إنترناشيونال تقدم أفضل تعليم بمواردها الأصلية ومنهجها المتميز للوصول إلى مستوى اللغة المستهدف."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "İhsaniye Mahallesi Can Sokak No:2 Kat:6 16130 Dünya İş Merkezi FSM Nilüfer / BURSA",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com/maps/place/Akademik+International+Dil+Okullar%C4%B1+Bursa/@40.212043,28.9792457,17z/data=!3m1!4b1!4m6!3m5!1s0x14ca1420f75c8521:0xd322ba91c3733254!8m2!3d40.212043!4d28.9792457!16s%2Fg%2F11f00977hs?hl=tr-tr&entry=tts",
+      "distances": [
+        { "icon": "bus", "text": "دقيقتان من ميدان بورصة FSM" },
+        { "icon": "walking", "text": "مقابل مديرية شرطة بورصة" },
+        { "icon": "bus-stop", "text": "دقيقتان إلى محطة حافلات FSM" },
+        { "icon": "bus", "text": "5 دقائق إلى مترو FSM" }
+      ]
+    },
+    "upcomingProgramsTable": {
+      "title": "البرامج القادمة في حرم دورة اللغة الإنجليزية في بورصة",
+      "headers": { "groupCode": "رمز المجموعة", "startDate": "تاريخ البدء", "endDate": "تاريخ الانتهاء", "quota": "الحصة", "detail": "التفاصيل" },
+      "programs": [
+        { "id": "1", "code": "HAFTA İÇİ AKŞAM PREP", "start": "2025-07-28", "end": "2025-09-28", "status": "available", "quotaTotal": 12, "quotaFilled": 8 },
+        { "id": "2", "code": "HAFTA İÇİ AKŞAM PLUS", "start": "2025-07-28", "end": "2025-09-28", "status": "available", "quotaTotal": 12, "quotaFilled": 8 },
+        { "id": "3", "code": "HAFTA İÇİ AKŞAM ACADEMIC EXPRESS", "start": "2025-07-28", "end": "2025-10-05", "status": "full", "quotaTotal": 12, "quotaFilled": 12 },
+        { "id": "4", "code": "HAFTA SONU SABAH PREP", "start": "2025-07-28", "end": "2025-09-28", "status": "available", "quotaTotal": 12, "quotaFilled": 8 },
+        { "id": "5", "code": "HAFTA SONU ÖĞLE PREP", "start": "2025-07-28", "end": "2025-09-28", "status": "available", "quotaTotal": 12, "quotaFilled": 8 },
+        { "id": "6", "code": "HAFTA İÇİ AKŞAM ACADEMIC", "start": "2025-08-04", "end": "2025-11-02", "status": "available", "quotaTotal": 12, "quotaFilled": 8 }
+      ],
+      "actions": { "viewDetail": "عرض التفاصيل" },
+      "startDateLabel": "تاريخ البدء",
+      "generalProgram": "البرنامج العام",
+      "detailBtn": "عرض التفاصيل",
+      "statusFull": "لا توجد أماكن",
+      "spotsLeft": "{spots} أماكن متاحة",
+      "urgentSpots": "آخر {spots} أماكن",
+      "quotaFilledText": "{filled} / {total} ممتلئ",
+      "remainingDays": "{days} يوم",
+      "startsToday": "يبدأ اليوم",
+      "started": "بدأ",
+      "modal": {
+        "weekdays": "أيام الأسبوع",
+        "statusFullText": "الحصة ممتلئة",
+        "statusClosingText": "التسجيل على وشك الإغلاق",
+        "statusOpenText": "التسجيل مفتوح",
+        "description": "يقدم هذا البرنامج منهجاً مكثفاً لمساعدة الطلاب على الوصول إلى مستوى اللغة الإنجليزية المستهدف في وقت قصير.",
+        "daysLabel": "الأيام",
+        "hoursLabel": "الساعات",
+        "durationLabel": "المدة",
+        "classSizeLabel": "الفصل",
+        "daysValue": "الاثنين - الأربعاء - الجمعة",
+        "hoursValue": "19:00 - 21:30",
+        "durationValue": "3 أشهر",
+        "classSizeValue": "12 طالباً كحد أقصى",
+        "features": ["مدرسون ناطقون أصليون", "دعم مواد مجاني", "المشاركة في نادي المحادثة"],
+        "reserveBtn": "احجز الآن",
+        "pageBtn": "انتقل إلى صفحة البرنامج"
+      }
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في بورصة",
+        "desc": "دورة اللغة الإنجليزية في بورصة من أكاديميك إنترناشيونال تقدم أفضل تعليم بمواردها الأصلية ومنهجها المتميز للوصول إلى مستوى اللغة المستهدف."
+      },
+      {
+        "title": "دورة اللغة الإنجليزية في بورصة",
+        "desc": "دورة اللغة الإنجليزية في بورصة هي خيار مثالي لتلبية احتياجات الكفاءة في اللغة الإنجليزية التي قد تواجهها في الحياة اليومية والمسار المهني."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الأكثر شيوعاً عند اختيار دورة إنجليزية في بورصة",
+      "subtitle": "الأسئلة الأكثر شيوعاً من الطلاب حول دورة اللغة الإنجليزية في بورصة",
+      "items": [
+        { "q": "ما هي مستويات اللغة الإنجليزية؟", "a": "مستويات اللغة الإنجليزية هي نظام يُستخدم لقياس مهارات اللغة الإنجليزية. يعد اختبار تحديد المستوى وتحديد مستوى الشخص بشكل صحيح في المهارات الأربع الأساسية معياراً مهماً للحصول على تعليم فعال." },
+        { "q": "كم تستغرق دورة اللغة الإنجليزية؟", "a": "تستغرق كل فترة في دورتنا للغة الإنجليزية في بورصة عادةً 3 أشهر. يواصل طلابنا تعليمهم بالانتقال إلى المستوى التالي كل 3 أشهر." },
+        { "q": "دورات تعليم اللغة الإنجليزية في بورصة", "a": "على الرغم من وجود العديد من دورات اللغة الإنجليزية في بورصة، تستمر مدرستنا في كونها الخيار الأول بمنهجها المعد خصيصاً للبالغين." },
+        { "q": "أشياء يجب مراعاتها عند اختيار دورة إنجليزية", "a": "من أهم الأمور التي يجب مراعاتها: ملاءمة البرنامج لاحتياجات الطالب، تحديد المستوى والأهداف، خبرة المدرسين، ومناسبة السعر للميزانية." },
+        { "q": "هل تقدم دورة بورصة نيلوفر للإنجليزية تدريب إنجليزية الأعمال؟", "a": "نعم، نقدم تدريب إنجليزية الأعمال المتخصص للمحترفين في فرع بورصة نيلوفر." }
+      ]
+    },
+    "publications": {
+      "title": "موارد حديثة مع فرق The Academic Publishing",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر مباشرة على سرعة تعلمك",
+      "features": ["منشورات من لندن", "مواضيع حالية ومعاصرة", "هياكل مفردات حديثة"],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "إنجليزية عامة ومتوسطة" },
+        { "name": "استراتيجيات الامتحانات (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الامتحانات" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل النشط" },
+        { "name": "Modern Vocabulary", "type": "بناء المفردات الحديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا تختارنا لدورة اللغة الإنجليزية في بورصة؟",
+      "subtitle": "جرب الجودة، لا تضيع الوقت",
+      "cardTitle": "نظام يركز على المحادثة",
+      "cardDesc": "لا تضيع بين التعليقات على الإنترنت؛ الدورة الجيدة لا تجعلك تحل التمارين من الكتب فقط، بل تجعلك تتحدث. هذا بالضبط ما نفعله.",
+      "btnNext": "مزايانا الأخرى ←",
+      "faqs": [
+        { "q": "ما الذي يجب البحث عنه عند البحث عن دورة إنجليزية في بورصة؟", "a": "ابحث عن مدرسين ناطقين أصليين، تعليم موجه، مواد حديثة، معدلات نجاح عالية وخيارات برامج مرنة." },
+        { "q": "هل الحصص الدراسية نشطة بما فيه الكفاية؟", "a": "نعم، نهجنا التعليمي في فرع بورصة FSM يستهدف المشاركة النشطة والاستخدام العملي للغة." },
+        { "q": "هل هو مناسب لأهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونضمن تعليماً موجهاً نحو الهدف." }
+      ],
+      "advantages": [
+        { "title": "مدرسون أصليون", "desc": "طاقم تدريس خبير من الناطقين الأصليين بالإنجليزية حاملين شهادات تدريس معتمدة.", "icon": "Users" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ تعليمك دون انتظار امتلاء الحصص أو بداية الفصل.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية بعد ساعات العمل أو مجموعات صباحية/ظهرية في عطلة نهاية الأسبوع.", "icon": "Monitor" },
+        { "title": "تجربة ثقافية", "desc": "ليس فقط اللغة، بل فرصة لتجربة الثقافة الإنجليزية من خلال الأنشطة اللامنهجية.", "icon": "Award" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة اللغة الإنجليزية في بورصة",
+      "title": "تعليم إنجليزي موجه نحو أهدافك مع ناطقين أصليين في بورصة",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات واتساب",
+      "formRibbon": "نموذج التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات عن دورة اللغة الإنجليزية في بورصة الآن!",
+      "namePlaceholder": "أدخل اسمك الكامل.",
+      "phonePlaceholder": "أدخل رقم هاتفك.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "الخيار الأفضل بموارد أصلية ومنهج تعليمي متميز للوصول إلى مستوى اللغة المستهدف.",
+      "formDisclaimer": "بملء استمارة المعلومات، أوافق على التحذير القانوني/شروط الاستخدام.",
+      "subtitle": "شكل حياتك المهنية ومستقبلك!"
+    }
+  },
+  "homePage": {
+    "location": {
+      "title": "عنواننا",
+      "address": "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu",
+      "distances": [
+        { "icon": "bus", "text": "5 دقائق سيراً إلى محطة مترو أفجلار" },
+        { "icon": "walking", "text": "10 دقائق سيراً إلى حرم جامعة إسطنبول" },
+        { "icon": "bus-stop", "text": "مقابل تمثال أتاتورك" },
+        { "icon": "walking", "text": "5 دقائق سيراً إلى مركز بارش مانتشو الثقافي" }
+      ]
+    }
+  },
+  "avcilarIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في أفجلار | مدرسة أفجلار للغة الإنجليزية",
+      "description": "دورة اللغة الإنجليزية في أفجلار من أكاديميك إنترناشيونال، الأولى في توصيات دورات الإنجليزية في أفجلار، تقدم فرص النجاح في الامتحانات ببرامج مخصصة لكل الأعمار."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu",
+      "distances": [
+        { "icon": "bus", "text": "5 دقائق سيراً إلى محطة مترو أفجلار" },
+        { "icon": "walking", "text": "10 دقائق سيراً إلى حرم جامعة إسطنبول" },
+        { "icon": "bus-stop", "text": "مقابل تمثال أتاتورك" },
+        { "icon": "walking", "text": "5 دقائق سيراً إلى مركز بارش مانتشو الثقافي" }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في أفجلار",
+        "desc": "دورة اللغة الإنجليزية في أفجلار من أكاديميك إنترناشيونال، الأولى في التوصيات، تقدم فرص النجاح ببرامج مخصصة لكل الأعمار وأساليب تدريس فعالة تركز على تحقيق أعلى الدرجات."
+      },
+      {
+        "title": "دورة أفجلار للإنجليزية: لماذا يجب أن تتعلم الإنجليزية؟",
+        "desc": "يدرك الأفراد والآباء الباحثون عن دورات إنجليزية في أفجلار أن معرفة اللغة الإنجليزية أصبحت ضرورة في عالم اليوم. مزايا معرفة الإنجليزية في الحياة الشخصية والمهنية لا تُحصى."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الأكثر شيوعاً حول دورة أفجلار للإنجليزية",
+      "subtitle": "إذا كنت تبحث عن دورة إنجليزية في أفجلار ولديك أسئلة، فأنت في المكان الصحيح.",
+      "items": [
+        {
+          "q": "هل تقدم أكاديميك إنترناشيونال برامج نهاية الأسبوع في فرع أفجلار؟",
+          "a": "نعم، نواصل تعليم اللغة الإنجليزية في عطلات نهاية الأسبوع. برامج السبت والأحد تمكن المحترفين العاملين والطلاب المشغولين من تحقيق أهدافهم في تعلم الإنجليزية."
+        },
+        {
+          "q": "هل يتم إجراء اختبار تحديد المستوى قبل الدورة؟",
+          "a": "نعم، نجري اختبارات تحديد المستوى في فرع أفجلار. هذا الاختبار مصمم لتحديد مستويات الطلاب الحالية ووضعهم في الفصول الأنسب. الاختبار مجاني ويمكن إجراؤه بموعد مسبق."
+        },
+        {
+          "q": "هل تتوفر دروس تجريبية في فرع أفجلار؟",
+          "a": "تتوفر دروس تجريبية مجانية في فرع أفجلار لجميع المستويات بموعد مسبق. يمكنك تجربة بيئة الفصل الحقيقية والتعرف على معلمينا ومنهجنا."
+        }
+      ]
+    },
+    "publications": {
+      "title": "موارد حديثة مع فرق The Academic Publishing",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر مباشرة على سرعة تعلمك",
+      "features": ["منشورات من لندن", "مواضيع حالية ومعاصرة", "هياكل مفردات حديثة"],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "إنجليزية عامة ومتوسطة" },
+        { "name": "استراتيجيات الامتحانات (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الامتحانات" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل النشط" },
+        { "name": "Modern Vocabulary", "type": "بناء المفردات الحديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا تختارنا لدورة أفجلار للإنجليزية؟",
+      "subtitle": "جرب الجودة، لا تضيع الوقت",
+      "cardTitle": "نظام يركز على المحادثة",
+      "cardDesc": "لا تضيع بين التعليقات على الإنترنت؛ الدورة الجيدة لا تجعلك تحل التمارين فقط، بل تجعلك تتحدث. هذا بالضبط ما نفعله.",
+      "btnNext": "مزايانا الأخرى ←",
+      "faqs": [
+        { "q": "ما الذي يجب البحث عنه عند البحث عن دورة إنجليزية في أفجلار؟", "a": "ابحث عن مدرسين ناطقين أصليين، تعليم موجه، مواد حديثة ومعدلات نجاح عالية." },
+        { "q": "هل الحصص الدراسية نشطة بما فيه الكفاية؟", "a": "نعم، نهجنا التعليمي في فرع أفجلار يستهدف المشاركة النشطة والاستخدام العملي للغة." },
+        { "q": "هل هو مناسب لأهدافي المهنية؟", "a": "بالتأكيد. نصمم البرنامج الأنسب بعد فهم أهدافك ونضمن تعليماً موجهاً." }
+      ],
+      "advantages": [
+        { "title": "مدرسون أصليون", "desc": "طاقم تدريس خبير من الناطقين الأصليين حاملين شهادات تدريس معتمدة.", "icon": "Users" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ تعليمك دون انتظار امتلاء الحصص أو بداية الفصل.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية أو مجموعات صباحية في عطلة نهاية الأسبوع.", "icon": "Monitor" },
+        { "title": "تجربة ثقافية", "desc": "فرصة لتجربة الثقافة الإنجليزية من خلال الأنشطة اللامنهجية.", "icon": "Award" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة أفجلار للإنجليزية",
+      "title": "تعليم إنجليزي موجه نحو أهدافك مع ناطقين أصليين في أفجلار",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات واتساب",
+      "formRibbon": "نموذج التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات عن دورة أفجلار للإنجليزية الآن!",
+      "namePlaceholder": "أدخل اسمك الكامل.",
+      "phonePlaceholder": "أدخل رقم هاتفك.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "الخيار الأفضل بموارده الأصلية ومنهج تعليمي متميز يوصل الطالب إلى المستوى المستهدف.",
+      "formDisclaimer": "بملء استمارة المعلومات، أوافق على التحذير القانوني/شروط الاستخدام.",
+      "subtitle": "شكل حياتك المهنية ومستقبلك!"
+    }
+  },
+  "istanbulIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في إسطنبول | مدرسة إسطنبول للغة الإنجليزية",
+      "description": "دورة اللغة الإنجليزية في إسطنبول من أكاديميك إنترناشيونال تقدم أفضل تعليم بمواردها الأصلية ومنهجها المتميز، وتحتل مكانة بين أفضل دورات الإنجليزية في إسطنبول."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu",
+      "distances": [
+        { "icon": "bus", "text": "5 دقائق سيراً إلى محطة مترو أفجلار" },
+        { "icon": "walking", "text": "10 دقائق سيراً إلى حرم جامعة إسطنبول" },
+        { "icon": "bus-stop", "text": "مقابل تمثال أتاتورك" },
+        { "icon": "walking", "text": "5 دقائق سيراً إلى مركز بارش مانتشو الثقافي" }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في إسطنبول",
+        "desc": "العامل الأهم عند اختيار دورة إنجليزية في إسطنبول هو أن تقدم المؤسسة التعليمية منهجاً يناسب أسلوب تعلمك وأهدافك. من بين دورات الإنجليزية في إسطنبول، تبرز أكاديميك إنترناشيونال للغات الأجنبية كأفضل خيار للباحثين عن تعليم لغات أجنبية عالي الجودة. تحتل أكاديميك إنترناشيونال إسطنبول مراتب عليا في توصيات دورات الإنجليزية في إسطنبول، وتوفر فرص نجاح موجهة نحو الأهداف ببرامج لغات أجنبية مناسبة لجميع الأعمار."
+      },
+      {
+        "title": "دورة اللغة الإنجليزية في إسطنبول",
+        "desc": "البالغون وأولياء الأمور الذين يبحثون عن دورة إنجليزية في إسطنبول يدركون أن إتقان لغة أجنبية أصبح ضرورة في عالم اليوم. اتخاذ القرار الصحيح بين مراكز تعليم اللغات الأجنبية التي تخدم في نقاط مختلفة من المدينة في إسطنبول يؤثر مباشرة على نجاح رحلة تعلم الإنجليزية الخاصة بك. من بين دورات الإنجليزية في إسطنبول، قد تكون أكاديميك إنترناشيونال للغات الأجنبية، حيث يمكنك الحصول على تعليم لغات أجنبية عالي الجودة، هي ما تبحث عنه."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الأكثر شيوعاً حول دورة اللغة الإنجليزية في إسطنبول",
+      "subtitle": "إذا كنت تبحث عن دورة إنجليزية في إسطنبول ولديك أسئلة، فأنت في المكان الصحيح. أجبنا لكم عن الأسئلة الأكثر شيوعاً وإجاباتها التفصيلية حول دورة اللغة الإنجليزية في إسطنبول.",
+      "items": [
+        { "q": "من أي مستوى يجب أن أبدأ لتعلم الإنجليزية في دورة إسطنبول للإنجليزية؟", "a": "عند البدء في تعلم لغة أجنبية في دوراتنا للإنجليزية في إسطنبول، يتم تحديد مستواك الحالي من خلال تقييم مهارات القراءة والكتابة والاستماع والتحدث. ثم يتم إنشاء برنامج تعليمي يركز على أهدافك ويناسب احتياجاتك بدءاً من هذا المستوى. هذا يضمن عملية تعلم فعالة للوصول إلى المستوى اللغوي الذي تريده من مستواك الحالي." },
+        { "q": "ما أنواع التعليم المقدمة في دورة إسطنبول للغة الإنجليزية؟", "a": "يتم تقديم الدورات التالية في أكثر من 22 لغة عالمية في حرمنا الجامعي في إسطنبول: اللغات العامة - الإنجليزية، الألمانية، الفرنسية، الإيطالية، الإسبانية+ دورات التحضير للامتحانات - IELTS، TOEFL، YDS، ITEP، TOEIC+" },
+        { "q": "ماذا تنصحون للحفاظ على مستواي بعد انتهاء برنامج دورة الإنجليزية؟", "a": "نقدم لخريجينا نوادي محادثة مجانية، وصول إلى موارد عبر الإنترنت ودورات صيانة مستوى دورية." },
+        { "q": "لا أعرف أي إنجليزية، هل يتم قبولي في المستوى المبتدئ في دورة إسطنبول للإنجليزية؟", "a": "لدينا فصول مصممة خصيصاً للطلاب المبتدئين تماماً (A1)، ومدرسونا بارعون في أساليب التدريس المخصصة لمن يبدأون من الصفر." },
+        { "q": "هل يمكنني أخذ درس تجريبي قبل بدء التعليم في دورة إسطنبول للإنجليزية؟", "a": "يمكنك حجز موعد لدرس تجريبي مجاني وجولة تعريفية في حرمنا الجامعي في إسطنبول، ومشاهدة بيئة الفصل الدراسي بنفسك." }
+      ]
+    },
+    "publications": {
+      "title": "موارد حديثة مع فرق The Academic Publishing",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر مباشرة على سرعة تعلمك",
+      "features": ["منشورات من لندن", "مواضيع حالية ومعاصرة", "هياكل مفردات حديثة"],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "إنجليزية عامة ومتوسطة" },
+        { "name": "استراتيجيات الامتحانات (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الامتحانات" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل النشط" },
+        { "name": "Modern Vocabulary", "type": "بناء المفردات الحديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا تختارنا لدورة إسطنبول للإنجليزية؟",
+      "subtitle": "جرب الجودة، لا تضيع الوقت",
+      "cardTitle": "نظام يركز على المحادثة",
+      "cardDesc": "لا تضيع بين التعليقات على الإنترنت؛ الدورة الجيدة لا تجعلك تحل التمارين فقط، بل تجعلك تتحدث.",
+      "btnNext": "مزايانا الأخرى ←",
+      "faqs": [
+        { "q": "ما الذي يجب البحث عنه عند اختيار دورة إنجليزية في إسطنبول؟", "a": "ابحث عن مدرسين ناطقين أصليين، تعليم موجه، مواد حديثة ومعدلات نجاح عالية." },
+        { "q": "هل الحصص نشطة بما فيه الكفاية؟", "a": "نعم، نهجنا التعليمي في فروع إسطنبول يستهدف المشاركة النشطة والاستخدام العملي للغة." },
+        { "q": "هل هو مناسب لأهدافي المهنية؟", "a": "بالتأكيد. نصمم البرنامج الأنسب بعد فهم أهدافك ونضمن تعليماً موجهاً." }
+      ],
+      "advantages": [
+        { "title": "مدرسون أصليون", "desc": "طاقم تدريس خبير من الناطقين الأصليين حاملين شهادات معتمدة.", "icon": "Users" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ تعليمك دون انتظار امتلاء الحصص أو بداية الفصل.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية أو مجموعات صباحية في عطلة نهاية الأسبوع.", "icon": "Monitor" },
+        { "title": "تجربة ثقافية", "desc": "فرصة لتجربة الثقافة الإنجليزية من خلال الأنشطة اللامنهجية.", "icon": "Award" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة إسطنبول للإنجليزية",
+      "title": "تعليم إنجليزي موجه نحو أهدافك مع ناطقين أصليين في إسطنبول",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات واتساب",
+      "formRibbon": "نموذج التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات عن دورة إسطنبول للإنجليزية الآن!",
+      "namePlaceholder": "أدخل اسمك الكامل.",
+      "phonePlaceholder": "أدخل رقم هاتفك.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "الخيار الأفضل في إسطنبول بموارد أصلية ومنهج متميز للوصول إلى مستواك المستهدف.",
+      "formDisclaimer": "بملء استمارة المعلومات، أوافق على التحذير القانوني/شروط الاستخدام.",
+      "subtitle": "شكل حياتك المهنية ومستقبلك!"
+    }
+  },
+  "cekmekoyIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في جكمك كوي | دورة جكمك كوي للغة الإنجليزية",
+      "description": "تدعم دورة اللغة الإنجليزية في جكمك كوي تعلمك للغة بطرق تدريس حديثة وتكاليف مناسبة. تبرز دورتنا، Akademik Yabancı Dil Kursu، المفضلة في إسطنبول، بنظامها التعليمي المصمم خصيصاً للبالغين."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "محمد عاكف، شارع رفاه رقم 2/6، 34782 جكمك كوي/إسطنبول",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com/maps/place/%C3%87ekmek%C3%B6y+Final+%C3%96zel+%C3%96%C4%9Fretim+Kursu/@41.0147485,29.1866365,17z/data=!3m1!4b1!4m6!3m5!1s0x14cace5698b8b1b3:0xafa9ad13b2a3e2de!8m2!3d41.0147445!4d29.1892114!16s%2Fg%2F11cn35phj7?entry=tts",
+      "distances": [
+        { "icon": "bus", "text": "على بعد دقيقتين من محطة الحافلات" },
+        { "icon": "bus-stop", "text": "بجوار محطة مترو جكمك كوي" }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في جكمك كوي",
+        "desc": "بالنسبة لأولئك الذين يرغبون في اكتساب الكفاءة في اللغة الإنجليزية، تعد دورة اللغة الإنجليزية في جكمك كوي مركزاً تعليمياً مبتكراً يقدم حلولاً شاملة. تعد دورتنا، التي تعمل في المنطقة النامية في إسطنبول، خياراً أساسياً لكل من يرغب في تطوير كفاءته في اللغة الإنجليزية بشكل منهجي. تم وضع دورات الأكاديمية الدولية للغات (Akademik Yabancı Dil Kursları) كأكاديمية لغات موثوقة تجذب جميع الفئات العمرية، وخاصة الطلاب والعاملين في منطقة جكمك كوي. يبرز مركزنا في جكمك كوي، الذي أصبح الخيار الأول للأفراد الذين يسعون لتطوير لغتهم، بهيئة تدريس خبيرة ومناهج تربوية حديثة. إحدى الميزات البارزة لأكاديميتنا، المتخصصة في توفير تعليم لغة إنجليزية مكثف ومنهجي للمشاركين، هي الاعتراف العالمي بشهاداتها. نقدم لطلابنا فرصة الحصول على وثيقة مرموقة ومقبولة عالمياً."
+      },
+      {
+        "title": "دورة اللغة الإنجليزية في جكمك كوي",
+        "desc": "تواصل دورة اللغة الإنجليزية الخاصة بنا في منطقة جكمك كوي دعم المغامرات التعليمية للأفراد من خلال توفير إرشادات قوية وبنية تحتية أكاديمية، بالإضافة إلى مساعدتهم في الوصول إلى أهدافهم في تعلم اللغة الإنجليزية."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الشائعة حول دورة اللغة الإنجليزية في جكمك كوي",
+      "subtitle": "يمكنك مراجعة الإجابات الشاملة والمعلومات التفصيلية لجميع أسئلتك حول دورة اللغة الإنجليزية في جكمك كوي في هذا القسم.",
+      "items": [
+        {
+          "q": "هل تتوفر دروس في عطلة نهاية الأسبوع؟",
+          "a": "دروس عطلة نهاية الأسبوع متوفرة. يتم تقديم ساعات مرنة يومي السبت والأحد للطلاب والعاملين الذين لديهم جداول مزدحمة خلال الأسبوع. تُعقد برامج عطلة نهاية الأسبوع عادةً في الصباح من 09:00 إلى 12:00 أو بعد الظهر من 13:00 إلى 16:00، وتقدم نفس جودة المحتوى التعليمي مثل برامج أيام الأسبوع. بفضل هذا البرنامج، يمكنك العثور على فرصة لتعلم اللغة الإنجليزية دون المساس بحياتك العملية وإحراز تقدم بالسرعة التي تناسبك."
+        },
+        {
+          "q": "هل توجد برامج لغة إنجليزية للأطفال؟",
+          "a": "لدينا برامج لغة إنجليزية مصممة خصيصاً للأطفال. ضمن دورة الأكاديمية الدولية للغات، يتم تقديم برامج تدريبية تم إعدادها باستخدام أساليب التدريس القائمة على الألعاب والتفاعلية للأطفال الذين تتراوح أعمارهم بين 4 و 12 عاماً. في منهجنا المعد بما يتناسب مع مراحل نمو الأطفال، نجعل عملية تعلم اللغة الإنجليزية ممتعة من خلال الأغاني والألعاب والكتب المصورة ومقاطع الفيديو التعليمية. في فصولنا التي يديرها مدربون أطفال ذوو خبرة، يتم الحفاظ على أحجام الفصول في الفئات العمرية الصغيرة منخفضة لضمان الاهتمام الفردي بكل طفل، مما يساهم في بناء أساس قوي للغة الإنجليزية في سن مبكرة."
+        },
+        {
+          "q": "هل توجد دورة تحضيرية لامتحان التوفل (TOEFL)؟",
+          "a": "تتوفر لدينا دورة تحضيرية شاملة لامتحان التوفل. في برنامج التحضير للتوفل المقدم في مؤسستنا، يتم توفير تدريب منهجي لأقسام القراءة والاستماع والتحدث والكتابة، وهي مجالات المهارات الأساسية الأربعة للامتحان. في الدورات التي يديرها مدربونا ذوو الخبرة، يتم تدريس استراتيجيات خاصة بامتحان التوفل، وإجراء اختبارات تجريبية بانتظام، وتحديد نقاط الضعف الفردية وتقويتها."
+        }
+      ]
+    },
+    "publications": {
+      "title": "موارد حديثة مع فرق The Academic Publishing",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+      "features": [
+        "منشورات مقرها لندن",
+        "مواضيع حالية وحديثة",
+        "هياكل مفردات حديثة"
+      ],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "اللغة الإنجليزية العامة والمتوسطة" },
+        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الامتحان" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل النشط" },
+        { "name": "Modern Vocabulary", "type": "مفردات حديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا تختارنا لدورة اللغة الإنجليزية في جكمك كوي؟",
+      "subtitle": "جرب الجودة، ولا تضيع وقتك",
+      "cardTitle": "نظام يركز على المحادثة",
+      "cardDesc": "لا تضيع بين التعليقات على الإنترنت؛ الدورة الجيدة لا تجعلك فقط تقوم بحل التمارين من الكتاب، بل تشجعك على التحدث. وهذا بالضبط ما نفعله.",
+      "btnNext": "مزايا أخرى لدينا ←",
+      "faqs": [
+        { "q": "ما الذي يجب الانتباه إليه عند البحث عن توصية لدورة لغة إنجليزية في جكمك كوي؟", "a": "ابحث عن معلمين ناطقين باللغة الأم، وتعليم موجه نحو الهدف (امتحان، عمل، تواصل)، ومواد حديثة، ومعدلات نجاح عالية، وخيارات برامج مرنة." },
+        { "q": "هل جلسات الفصل نشطة بما فيه الكفاية؟", "a": "نعم، يهدف نهج التدريس المطبق في فرعنا في جكمك كوي إلى المشاركة النشطة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+        { "q": "هل تناسب أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نقوم بتصميم البرنامج الأنسب ونقدم ضماناً تعليمياً موجهاً نحو الهدف." }
+      ],
+      "advantages": [
+        { "title": "معلمون ناطقون باللغة الأم", "desc": "هيئة تدريس خبيرة من الناطقين باللغة الإنجليزية كلغة أم مع درجات تدريس معتمدة.", "icon": "Users" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ تعليمك دون انتظار اكتمال العدد أو بدء الفصل الدراسي.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية بعد العمل أو مجموعات صباحية/ظهرية في عطلة نهاية الأسبوع للعاملين.", "icon": "Monitor" },
+        { "title": "تجربة ثقافية", "desc": "فرصة لتجربة الثقافة البريطانية من خلال الأنشطة اللامنهجية، وليس فقط اللغة.", "icon": "Award" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة اللغة الإنجليزية في جكمك كوي",
+      "title": "تعليم اللغة الإنجليزية موجه نحو الهدف مع معلمين ناطقين باللغة الأم في جكمك كوي",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات واتساب",
+      "formRibbon": "استمارة التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات الآن عن دورة اللغة الإنجليزية في جكمك كوي!",
+      "namePlaceholder": "أدخل اسمك ولقبك.",
+      "phonePlaceholder": "أدخل رقم هاتفك المحمول.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "الخيار الأفضل الذي يدعم تعلمك للغة الإنجليزية بأساليب تدريس حديثة وتكاليف مناسبة في جكمك كوي.",
+      "formDisclaimer": "بملء نموذج المعلومات، أوافق على الإشعار القانوني/شروط الاستخدام.",
+      "subtitle": "شكل حياتك المهنية ومستقبلك!"
+    }
+  },
+  "gorukleIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في غوروكلي | دورة اللغة الإنجليزية بورصة غوروكلي",
+      "description": "كن متقدماً بخطوة في حياتك المهنية والأكاديمية من خلال محتوى تعليمي مخصص لطلاب الجامعة والخريجين في دورة اللغة الإنجليزية في غوروكلي، بورصة."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "غوروكلي، شارع كارديلين رقم: 12 الطابق: 1-2 بيكادو بلازا نيلوفر / بورصة",
+      "directionText": "الحصول على الاتجاهات",
+      "directionLink": "https://www.google.com/maps/place/Bursa+En+%C4%B0yi+%C4%B0ngilizce+Kursu-Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+G%C3%B6r%C3%BCkle+%C5%9Eubesi/@40.2273005,28.850317,17z/data=!3m1!4b1!4m6!3m5!1s0x14ca0e3de90c7ea7:0x8d60f95c21247f03!8m2!3d40.2273005!4d28.850317!16s%2Fg%2F11c187xypp?entry=ttu",
+      "distances": [
+        { "icon": "building", "text": "مقابل مركز الشباب" },
+        { "icon": "building", "text": "دقيقة واحدة من بيت شباب نيلوفر" },
+        { "icon": "walking", "text": "دقيقتان من مركز غوروكلي" },
+        { "icon": "bus-stop", "text": "على بعد 8 دقائق من محطة مترو جامعة أولوداغ" }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في بورصة غوروكلي",
+        "desc": "بصفتنا دورة اللغة الإنجليزية في بورصة غوروكلي، وبدلاً من إجبار طلابنا على حفظ اللغة الأجنبية عبر نظام تعليمي قائم على الحفظ ومصادر تقليدية؛ نتبنى نظاماً تعليمياً يقوم على الفهم والاستيعاب ونسعى لإكساب المهارات الحقيقية. نسهم في تحقيق أهدافك واستغلال وقتك بكفاءة عبر مناهج تعليمية مخصصة لكل فئة عمرية ولكل لغة على حدة، مدمجة بمصادرنا الخاصة وكادرنا التعليمي الخبير. في عالم متسارع نحو العولمة، لم تعد معرفة الإنجليزية مجرد مزية بل أصبحت ضرورة ملحة، بل قد تحتاج إلى إتقان لغات أخرى بجانبها. وفي هذه النقطة تحديداً، نقدم خدماتنا في دورة بورصة غوروكلي للغة الإنجليزية من خلال إعداد نظام تعليمي يلبي احتياجاتكم بناءً على منشوراتنا الأصلية باللغات الإنجليزية والألمانية والفرنسية والإسبانية، ومناهجنا التعليمية المخصصة للكبار."
+      },
+      {
+        "title": "أفضل دورة لغة إنجليزية في بورصة غوروكلي",
+        "desc": "يشير الطلاب في النظام التعليمي في تركيا إلى أنهم يتلقون تعليم اللغة الإنجليزية لمتوسط 10-11 سنة، لكنهم ما زالوا يجدون صعوبة في التحدث بها. ورغم أن معظمهم قادر على الفهم، إلا أنهم يعانون عند المحادثة. والسبب الرئيسي لذلك هو خضوع الطلاب لنظام يعتمد على الحفظ دون تركيز على الفهم. تتبنى العديد من المؤسسات التعليمية اليوم هذا النظام وتطبق المنهاج نفسه على طالب المرحلة المتوسطة والبالغ وتنتظر النتيجة ذاتها. غير أن تباين قدرات الفهم والاستيعاب بين طالب المتوسطة والبالغ هو أصل المشكلة. وهنا تحديداً، وكمؤسسة تعليمية للغات الأجنبية في بورصة غوروكلي، نقدم خدمة تعليمية تلبي احتياجات طلابنا من خلال دمج المناهج المناسبة لكل الفئات العمرية -سواء الكبار أو الأطفال- مع منشوراتنا الأصلية. تعمل دوراتنا في بورصة غوروكلي طوال أيام الأسبوع السبعة، وتُقام حصصنا عادةً في الفترة المسائية تلبيةً لاحتياجات طلابنا البالغين."
+      },
+      {
+        "title": "أسعار دورات اللغة الإنجليزية في بورصة غوروكلي",
+        "desc": "في مدارس أكاديميك للغات الأجنبية فرع بورصة غوروكلي، نقدّم أنشطة تستهدف مهارات متنوعة كالقواعد، القراءة، الكتابة، والمفردات، والتي يمكنك المشاركة فيها بشكل غير محدود ومجاني على مدار 6 أيام في الأسبوع خارج الدروس الأساسية. تم تقسيم هذه الأنشطة وفق المستويات والجلسات لتمنح الطلاب فرص تعلم بأساليب مختلفة وممتعة. تعرف الآن على دورات اللغة الإنجليزية في فرع أكاديميك للغات الأجنبية ببورصة غوروكلي، والتي ستتيح لك التقدم بشكل أسرع في تعليمك وحياتك المهنية من خلال نظامنا التعليمي الموثوق والعصري، وشعورنا بالمسؤولية، ونهجنا المبتكر، وبرامجنا الموجهة للطلاب، والأنشطة الأسبوعية، والفصول المجهزة بالتكنولوجيا."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في بورصة غوروكلي",
+      "subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في بورصة غوروكلي وأجبنا عليها بالتفصيل.",
+      "items": [
+        {
+          "q": "هل تتوفر دروس في نهاية الأسبوع؟",
+          "a": "نعم، تتوفر دروس خلال عطلة نهاية الأسبوع. نقدم أوقات دروس مرنة يومي السبت والأحد للطلاب والموظفين الذين لديهم جدول مزدحم خلال أيام الأسبوع. تُقام برامج نهاية الأسبوع عادةً بين الساعة 09:00-12:00 صباحاً أو 13:00-16:00 بعد الظهر، وتوفر جودة التعليم نفسها المتاحة في برامج أيام الأسبوع. بفضل هذا البرنامج، يمكنك تعلم الإنجليزية دون المساومة على حياتك المهنية والتقدم بالسرعة التي تناسبك."
+        },
+        {
+          "q": "هل تتوفر برامج لغة إنجليزية للأطفال؟",
+          "a": "تتوفر لدينا برامج إنجليزية صُممت خصيصاً للأطفال. ضمن دورة أكاديميك إنترناشيونال للغات الأجنبية، نقدّم برامج تعليمية للأطفال من سن 4 إلى 12 سنة باستخدام طرق تدريس تفاعلية وقائمة على اللعب. وفي منهجنا المخصص لمراحل نمو الأطفال، يتم جعل عملية تعلم الإنجليزية ممتعة من خلال الأغاني، الألعاب، الكتب المصورة، والفيديوهات التعليمية."
+        },
+        {
+          "q": "هل تتوفر دورة تحضيرية لاختبار TOEFL؟",
+          "a": "تتوفر لدينا دورة تحضيرية شاملة لاختبار TOEFL. يقدّم برنامج التحضير لاختبار TOEFL في مؤسستنا تدريباً منهجياً يستهدف الأقسام الأربعة الأساسية للاختبار: القراءة، الاستماع، التحدث، والكتابة. وفي الدورات التي يقودها مدربون ذوو خبرة، يتم تدريس استراتيجيات خاصة باختبار TOEFL، وإجراء اختبارات تجريبية منتظمة، وتحديد نقاط ضعف كل طالب وتقويتها."
+        }
+      ]
+    },
+    "publications": {
+      "title": "مصادر حديثة بتميز من The Academic للنشر",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+      "features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+        { "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا نحن لدورة اللغة الإنجليزية في غوروكلي؟",
+      "subtitle": "اختبر الجودة، ولا تضيع وقتك",
+      "cardTitle": "نظام مخصص للمحادثة",
+      "cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+      "btnNext": "مزايانا الأخرى ←",
+      "faqs": [
+        { "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في غوروكلي؟", "a": "انتبه لوجود مدربين لغتهم الأم هي الإنجليزية، والتعليم الموجه للهدف، والمواد الحديثة، ونسب النجاح العالية، وخيارات الجداول المرنة." },
+        { "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بغوروكلي يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+        { "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+      ],
+      "advantages": [
+        { "title": "مدربون لغتهم الأم الإنجليزية", "desc": "كادر متخصص حاصل على شهادات تدريس معتمدة ولغتهم الأم هي الإنجليزية.", "icon": "Users" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية بعد العمل للموظفين أو مجموعات صباحية/بعد الظهر في نهاية الأسبوع.", "icon": "Monitor" },
+        { "title": "تجربة ثقافية", "desc": "فرصة لاختبار الثقافة البريطانية عبر أنشطة خارج الصف وليس مجرد تعلم اللغة.", "icon": "Award" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة اللغة الإنجليزية في بورصة غوروكلي",
+      "title": "تعليم إنجليزي موجه نحو الهدف مع مدربين لغتهم الأم الإنجليزية في غوروكلي",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات عبر واتساب",
+      "formRibbon": "نموذج التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في بورصة غوروكلي!",
+      "namePlaceholder": "أدخل الاسم واللقب.",
+      "phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "أفضل تعليم للغة الإنجليزية في غوروكلي لطلاب الجامعات والكبار عبر مصادر أصلية وكادر متخصص.",
+      "formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+      "subtitle": "ابنِ مسارك المهني ومستقبلك!"
+    }
+  },
+  "ankaraIngilizceLandingPage": {
+    "meta": {
+      "title": "دورة اللغة الإنجليزية في أنقرة | دورة أنقرة للغة الإنجليزية | أكاديميك",
+      "description": "أكاديميك إنترناشيونال دورة اللغة الإنجليزية في أنقرة هي أعرق مدرسة للغات في أنقرة، وشريك قنصلية المجلس الثقافي البريطاني ومركز اختبار IELTS المعتمد."
+    },
+    "location": {
+      "title": "عنواننا",
+      "address": "Kültür, Mithatpaşa Cd. No:43/E D:33, 06420 Çankaya/Ankara",
+      "directionText": "احصل على الاتجاهات",
+      "directionLink": "https://www.google.com/maps/place/Ankara+%C4%B0ngilizce+Kursu+%7C+ITEP+%7C+YDS+%7C+TOEFL+-+AKADEM%C4%B0K+YABANCI+D%C4%B0L+KURSLARI/@39.9212815,32.855981,17z/data=!4m7!3m6!1s0x14d34f01004ff801:0xb9be16acc1e226fa!8m2!3d39.9212213!4d32.8585734!15sCh1hbmthcmEgYWthZGVtaWsgYmF0xLEgZGlsbGVyaSIDiAEBWh8iHWFua2FyYSBha2FkZW1payBiYXTEsSBkaWxsZXJpkgEPbGFuZ3VhZ2Vfc2Nob29s4AEA!16s%2Fg%2F11fjxf0lpn?coh=225988&entry=tts",
+      "distances": [
+        { "icon": "bus-stop", "text": "3 دقائق إلى مترو قيزيلاي" },
+        { "icon": "bus", "text": "قريب من محطة الحافلات" },
+        { "icon": "walking", "text": "دقيقة واحدة إلى ميدان قيزيلاي" },
+        { "icon": "walking", "text": "على بعد مسافة سيراً على الأقدام" }
+      ]
+    },
+    "seoContent": [
+      {
+        "title": "دورة اللغة الإنجليزية في أنقرة",
+        "desc": "أكاديميك إنترناشيونال، التي طورت أول نموذج تعليمي خاص بالفئات العمرية في تركيا وتتيح لك تعلم الإنجليزية بفريق من المدرسين المحليين والأجانب المتخصصين، هي أكثر مدرسة لغات تأهيلاً وأعرقها بين دورات اللغة الإنجليزية في أنقرة. الطلب المتزايد على اللغة الإنجليزية اليوم يخلق العديد من فرص العمل. خاصةً الخطوات الجديدة في العالم الرقمي التي جمعت بين مجالات محلية ودولية عديدة وأفرزت مفهوم المواطنة العالمية. من خلال دورة اللغة الإنجليزية في أنقرة، يمكنك أنت أيضاً التكيف مع ديناميكيات العالم الجديد بتعلم لغة جديدة، وتعزيز شبكة تواصلك على مستوى العالم، واكتشاف فرص مهنية جديدة. دورة اللغة الإنجليزية في أنقرة، شريك قنصلية المجلس الثقافي البريطاني ومركز اختبار IELTS المعتمد، هي أيضاً مدرسة لغات تمتلك موارد دار النشر The Academic Publishing ومقرها لندن. يمكنك الوثوق بخبرة أكاديميك إنترناشيونال التي تقترب من نصف قرن وتعلم الإنجليزية في وقت قصير."
+      },
+      {
+        "title": "توصية دورة اللغة الإنجليزية في أنقرة",
+        "desc": "أكاديميك إنترناشيونال، التي كثيراً ما يُذكر اسمها على كل منصة في نقطة توصية دورة اللغة الإنجليزية في أنقرة، هي مدرسة اللغات الأكثر تفضيلاً في أنقرة كما هي الحال في مدن تركيا الأخرى. مع طاقم خبراء متخصصين، ونشر أصيل، وتعليم جيد، تواصل أكاديميك إنترناشيونال تقديم خدمة تعليمية بـ17 لغة عالمية بمهمتها المتمثلة في رضا الطلاب. الهدف هو أن يحصل طلابنا على أقصى قدر من الإنتاجية من طاقمنا المختص، وأن تُنقل هذه الإنتاجية بشكل دوري إلى مستويات أعلى. إذا كنت تريد تعلم الإنجليزية أو توسيع معرفتك الإنجليزية الحالية، يمكنك البدء ببداية رائعة مع مدرسة اللغات لدينا."
+      },
+      {
+        "title": "أفضل دورة إنجليزية في أنقرة",
+        "desc": "مع أفضل دورة إنجليزية في أنقرة، يمكنك تحقيق أهدافك المهنية الأكاديمية والجامعية والهجرة والكفاءة في وقت قصير، وإضافة تجربة أكثر إيجابية لحياتك بفارق أكاديميك إنترناشيونال. في أفضل دورات اللغة الإنجليزية في أنقرة، نقدم لك أرقى وأجود تعليم للغة الإنجليزية مع فصولنا VIP، وطاقم المدرسين المحليين والأجانب من خلفية أكاديمية، ومنشورات Academic Publishing. إذا كنت تريد إحداث فرق في مستقبلك واكتساب زخم في مسيرتك المهنية من خلال اللغة الإنجليزية، يمكنك البدء ببداية جيدة مع أفضل دورة إنجليزية في أنقرة وفتح أبواب الفرص الكثيرة."
+      },
+      {
+        "title": "أسعار دورة اللغة الإنجليزية في أنقرة",
+        "desc": "قد تتفاوت أسعار دورة اللغة الإنجليزية في أنقرة وفقاً للمستويات التي تريد الدراسة فيها. كما قد تختلف الأسعار وفقاً لنموذج الدرس ومساحة الصف والفرص والامتيازات التي يقدمها المركز التعليمي ذي الصلة. إذا كنت تريد بناء مستقبل جميل، فإن تعليم اللغة الإنجليزية الذي يمكنك الاستمتاع بثماره في كل مرحلة من حياتك سيكون من أفضل استثماراتك. يمكنك التواصل معنا في أي وقت عبر رقم الهاتف الموجود في صفحتنا الرئيسية للحصول على معلومات تفصيلية حول نماذج التعليم في أكاديميك إنترناشيونال وأسعار دورة اللغة الإنجليزية في أنقرة."
+      },
+      {
+        "title": "دورة اللغة في أنقرة",
+        "desc": "بصفتنا دورة لغة في أنقرة، نفخر بمنح لغة جديدة لعدد لا يحصى من الطلاب ببرامج اللغات الأجنبية المناسبة لكل مستوى وعمر في 17 لغة عالمية مختلفة. تواصل أكاديميك إنترناشيونال، التي تمتلك نماذج تعليمية فريدة بين دورات اللغة في أنقرة ومنهجية تعليم اللغة الأولى من نوعها في تركيا، في أن تكون مدرسة اللغات الأكثر تفضيلاً. إذا كنت تريد تطوير نفسك وإضافة ابتكارات جديدة لحياتك بلغة جديدة، يمكنك التواصل مع دورة اللغة في أنقرة وتطوير نفسك في اللغة التي تريد تعلمها في وقت قصير. يمكنك المشاركة في اختبار تحديد المستوى المجاني والانضمام إلى البرامج اللغوية الخاصة بك من مدرسينا الخبراء. للاستفادة من مزايا التسجيل المبكر والخصومات الخاصة على أسعار دورة اللغة في أنقرة، يمكنك التواصل معنا في أي وقت على الرقم 0850 305 05 16."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الأكثر شيوعاً حول دورة اللغة الإنجليزية في أنقرة",
+      "subtitle": "لقد جمعنا لكم الأسئلة الأكثر شيوعاً حول دورة اللغة الإنجليزية في أنقرة مع إجاباتها التفصيلية.",
+      "items": [
+        {
+          "q": "كيف هم مدرسو دورة اللغة الإنجليزية في أنقرة؟",
+          "a": "على الرغم من أن لكل مدرس أسلوبه الخاص، إلا أن اختيار المدرس لا يقل أهمية عن اختيار المؤسسة لتعلم اللغة. في دورة اللغة الإنجليزية لدينا في أنقرة، ستيسّر تعلم اللغة الإنجليزية مع مدرسين لديهم خبرة لا تقل عن 5-6 سنوات ومتخصصون في مجالهم."
+        },
+        {
+          "q": "ما الذي يجب مراعاته عند التسجيل في دورة اللغة الإنجليزية؟",
+          "a": "أصبح تعلم اللغة الإنجليزية مهارة ضرورية للاستفادة من العديد من الفرص في عالمنا المتعولم. لهذا السبب، هناك بعض العوامل التي يجب مراعاتها عند البحث عن دورة لغة إنجليزية. هذه العوامل هي: التحقق من ملاءمتها لاحتياجاتك وأهدافك، والانتباه إلى مراجع الطلاب الخريجين، والتسجيل بعد المشاركة في الدروس التجريبية المجانية قبل البدء."
+        }
+      ]
+    },
+    "publications": {
+      "title": "موارد حديثة بتميز من The Academic للنشر",
+      "subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+      "features": ["منشورات مقرها لندن", "مواضيع حالية وشائعة", "تراكيب مفردات معاصرة"],
+      "books": [
+        { "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+        { "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+        { "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+      ]
+    },
+    "whyUs": {
+      "title": "لماذا نحن لدورة اللغة الإنجليزية في أنقرة؟",
+      "subtitle": "اختبر الجودة، ولا تضيع وقتك",
+      "cardTitle": "نظام مخصص للمحادثة",
+      "cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+      "btnNext": "مزايانا الأخرى ←",
+      "faqs": [
+        { "q": "ما الذي يجب البحث عنه عند طلب توصية بدورة إنجليزية في أنقرة؟", "a": "ابحث عن مدرسين لغتهم الأم الإنجليزية، وتعليم موجه للهدف، ومواد حديثة، ومعدلات نجاح عالية، وخيارات جداول مرنة." },
+        { "q": "هل جلسات الدروس نشطة بما فيه الكفاية؟", "a": "نعم، نهج التدريس المطبق في فرعنا بأنقرة يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+        { "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+      ],
+      "advantages": [
+        { "title": "مركز اختبار IELTS المعتمد", "desc": "شريك قنصلية المجلس الثقافي البريطاني ومركز اختبار IELTS المعتمد للحصول على شهادات رسمية.", "icon": "Award" },
+        { "title": "تسجيل ديناميكي", "desc": "ابدأ تعليمك دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Laptop" },
+        { "title": "ساعات مرنة", "desc": "برامج مسائية بعد العمل للموظفين أو مجموعات صباحية/بعد الظهر في نهاية الأسبوع.", "icon": "Monitor" },
+        { "title": "17 لغة عالمية", "desc": "التعليم بـ17 لغة عالمية مختلفة إضافة إلى الإنجليزية.", "icon": "Users" }
+      ]
+    },
+    "hero": {
+      "tag": "دورة اللغة الإنجليزية في أنقرة",
+      "title": "تعليم إنجليزي موجه نحو الهدف في مركز اختبار IELTS المعتمد في أنقرة",
+      "customerServiceBtn": "تحدث مع مستشارنا التعليمي الآن!",
+      "infoBtn": "احصل على معلومات الآن!",
+      "whatsappBtn": "معلومات عبر واتساب",
+      "formRibbon": "نموذج التسجيل والمعلومات",
+      "formTitle": "تعليم مجاني!",
+      "formSubtitle": "احصل على معلومات لدورة اللغة الإنجليزية في أنقرة الآن!",
+      "namePlaceholder": "أدخل الاسم واللقب.",
+      "phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+      "branchPlaceholder": "اختر الفرع.",
+      "submitBtn": "احصل على معلومات الآن!",
+      "badge": "الفئة: تعليم اللغة الإنجليزية",
+      "description": "أعرق مدرسة لغات في أنقرة — شريك المجلس الثقافي البريطاني، مركز IELTS المعتمد، 17 لغة عالمية.",
+      "formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+      "subtitle": "ابنِ مسارك المهني ومستقبلك!"
+    }
+  },
+  "izmirIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في إزمير | دورة اللغة الإنجليزية إزمير | أكاديميك",
+"description": "حرم دورة اللغة الإنجليزية في إزمير هو أحد أفضل الخيارات للراغبين في تعلم لغة أجنبية. يوفر فرصة لتعلم اللغة الإنجليزية بشكل فعال وسريع برفقة مدربين خبراء."
+},
+"location": {
+"title": "عنواننا",
+"address": "ألسنجاك، إزمير",
+"directionText": "الحصول على الاتجاهات",
+"directionLink": "https://www.google.com/maps/place/Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-%C4%B0zmir+%C4%B0ngilizce+Kursu-%C4%B0zmir+Almanca+Kursu/@38.4357427,27.1157188,15z/data=!4m7!3m6!1s0x14bbd900e8d26c87:0x46a44f3ebe2c40d0!4b1!8m2!3d38.4361125!4d27.124406!16s%2Fg%2F11q3xtqxcn?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
+"distances": [
+{ "icon": "bus-stop", "text": "بالقرب من محطة مترو ألسنجاك" },
+{ "icon": "bus", "text": "بالقرب من موقف الحافلات" }
+]
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في إزمير",
+"desc": "بصفتنا دورة اللغة الإنجليزية في إزمير، تمنح دورات أكاديميك للغات الأجنبية نفساً جديداً للتعليم التقليدي للغات الأجنبية، وهي أقدم وأكثر المدارس اللغوية تأهيلاً في تركيا لتطوير نماذج تعليمية مخصصة للأفراد من جميع الأعمار. بصفتها مدرسة لغات تساهم في بناء المسار المهني، توفر لك دورة إزمير للغة الإنجليزية البيئة المثالية لتلقي تعليم ممتاز من مدربين خبراء من خلال نماذج تعليمية حديثة وفصول VIP. يقع معهدنا في قلب إزمير بمنطقة ألسنجاك، ويمنحك لغة جديدة تزيد من قيمتك المهنية والأكاديمية. إلى جانب كوننا شريكاً لقنصلية المجلس البريطاني (British Council)، فإن معهدنا هو أيضاً مركز معتمد لاختبارات IELTS. نعمل بكفاءة وصلاحية كاملة في مجال اللغات الأجنبية واختبارات قياس المستوى والتقييم، لنخرجك بمهارات عالية تدعم أهدافك دون ترك النجاح للمصادفة."
+},
+{
+"title": "دورة اللغة الإنجليزية في إزمير",
+"desc": "يمكنك الانضمام إلى البرامج التعليمية المكونة من مواضيع حديثة والمخصصة للبالغين لأول مرة في تركيا، وتوسيع معرفتك باللغة الأجنبية لتكون رصيداً مستداماً لك طوال الحياة. بغض النظر عن مستواك في اللغة الإنجليزية، فإن مدربينا ذوي الخلفيات الأكاديمية والذين عملوا بفاعلية في مجال تعليم اللغات لسنوات طويلة، يعدونك ببناء مستقبل واعد يكونون فيه مرشداً لك. وفي هذا السياق، ومن أجل تمكينك من تعلم الإنجليزية بأسرع وقت وأكثر كفاءة، فإننا نحافظ على أعداد قليلة للطلاب في الفصول الدراسية لتستمتع بفرصة تعليم تشبه الدروس الخاصة في راحة منزلك."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في إزمير",
+"subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في إزمير وأجبنا عليها بالتفصيل.",
+"items": [
+{
+"q": "من أي مستوى يجب أن أبدأ لتعلم اللغة الإنجليزية؟",
+"a": "عند البدء في تعلم اللغة الإنجليزية، يتم قياس مستواك الحالي من خلال تقييم مهارات القراءة والكتابة والاستماع والتحدث لديك. في دورة اللغات الأجنبية الخاصة بنا في إزمير، نحدد مستوى البداية عبر تقييم هذه المهارات وننشئ برنامجاً تعليمياً يناسب أهدافك. وبذلك نضمن لك عملية تعلم مخصصة للوصول إلى المستوى اللغوي المستهدف انطلاقاً من مستواك الحالي."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا نحن لدورة اللغة الإنجليزية في إزمير؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{ "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في إزمير؟", "a": "انتبه لوجود مدربين لغتهم الأم هي الإنجليزية، والتعليم الموجه للهدف، والمواد الحديثة، ونسب النجاح العالية، وخيارات الجداول المرنة." },
+{ "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بإزمير يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+{ "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+],
+"advantages": [
+{ "title": "مركز معتمد لاختبارات IELTS", "desc": "فرصة الحصول على شهادات رسمية بصفلتنا شريكاً لقنصلية المجلس البريطاني ومركزاً معتمداً لاختبارات IELTS.", "icon": "Award" },
+{ "title": "فصول VIP", "desc": "اهتمام فردي يشبه الدروس الخاصة بفضل أعداد الطلاب المحدودة في الفصول.", "icon": "Users" },
+{ "title": "ساعات مرنة", "desc": "برامج مسائية بعد العمل للموظفين أو مجموعات في نهاية الأسبوع.", "icon": "Monitor" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Laptop" }
+]
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في إزمير",
+"title": "تعليم إنجليزي موجه نحو الهدف في إزمير ألسنجاك مع مركز معتمد لاختبارات IELTS",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في إزمير!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "تعليم سريع وفعال للغة الإنجليزية في إزمير عبر فصول VIP وكادر متخصص.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+}
+},
+"kocaeliIzmitIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في كوجالي إزميت | دورة أكاديميك للغات الأجنبية",
+"description": "يقدم حرم دورة اللغة الإنجليزية في كوجالي إزميت تعليماً شاملاً للغة الإنجليزية لجميع المستويات مع نماذج تعليمية مرنة ومدربين خبراء."
+},
+"location": {
+"title": "عنواننا",
+"address": "حي أومر أغا، شارع ألمدار، زقاق م. ليفينت إرسوي، رقم: 5-6 إزميت / كوجالي",
+"directionText": "الحصول على الاتجاهات",
+"directionLink": "https://www.google.com/maps/place/Akademik+International+Yabanc%C4%B1+Dil+Kursu+Kocaeli+Kamp%C3%BCs%C3%BC/@40.7626194,29.9260453,17z/data=!4m6!3m5!1s0x14cb456db46853bd:0x8fb0655d2e79337c!8m2!3d40.7625754!4d29.9286186!16s%2Fg%2F11vc1ldn5k?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
+"distances": [
+{ "icon": "building", "text": "دقيقتان من ساحة المدينة" },
+{ "icon": "walking", "text": "دقيقة واحدة من طريق المشاة (Yürüyüş Yolu)" },
+{ "icon": "home", "text": "دقيقتان من هالك إيفي (Halk Evi)" },
+{ "icon": "train", "text": "دقيقتان من ترام يني جمعة" }
+]
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في كوجالي",
+"desc": "تتميز دورات اللغة الإنجليزية في كوجالي إزميت بنماذج تعليمية مرنة ومدربين خبراء. مع أسعار خاصة لفترة 2025-2026، نقدم مزايا مناسبة لتعلم الإنجليزية في جميع المستويات. انضم إلينا لتحقيق أهدافك واكتشف اللغة الإنجليزية بتعليم عالي الجودة وبأسعار مناسبة! توفر دورات اللغة الإنجليزية في كوجالي مجموعة واسعة من البرامج، مما يجعلها خياراً مثالياً للشغوفين بتعلم اللغة. تتضمن مناهجنا الشاملة كل شيء بدءاً من القواعد الأساسية ومهارات التواصل وصولاً إلى التحدث المتقدم، الكتابة، والاستيعاب. بوجود مدربينا الخبراء، نرافقك في رحلة تعلم اللغة ونساعدك على الوصول إلى أهدافك."
+},
+{
+"title": "دورة اللغة الإنجليزية في إزميت",
+"desc": "تعتبر دورة اللغة الإنجليزية في إزميت مؤسسة رائدة تقدم تجربة فريدة لمن يرغبون في تحويل شغفهم بتعلم الإنجليزية إلى واقع. يقع هذا المعهد في قلب كوجالي، وهو خيار مثالي لكل من يرغب في تطوير مهاراته اللغوية من البداية إلى الإتقان. وتُعد دورات الإنجليزية الأكاديمية مصدراً لا غنى عنه لطلاب الجامعات في كوجالي بشكل خاص. يمنح الاعتراف بالشهادات الممنوحة في الولايات المتحدة الأمريكية الطلاب فرصة الحصول على شهادات مرموقة ومعترف بها دولياً. كما تُعد دورات إزمير وإزميت رائدة في المرونة، حيث تتيح للطلاب التدرّب في أي فرع يفضلونه أو الاستفادة من الدورات المباشرة عبر الإنترنت."
+},
+{
+"title": "دورة اللغات في كوجالي",
+"desc": "تستهدف مؤسسات تعليم اللغات في كوجالي شريحة واسعة من الطلاب، من المبتدئين إلى الباحثين عن شهادات دولية. تهدف دورات اللغات العاملة في المدينة إلى تطوير مهارات الأفراد من خلال توفير التعليم في لغات مختلفة مثل الإنجليزية، الإسبانية، الفرنسية، والألمانية. تدعم مدارس اللغات في كوجالي الطلاب لتطوير مهاراتهم بشكل فعال من خلال الدروس المقدمة من قبل مدربين خبراء، وتتيح لهم فرصة توثيق معرفتهم اللغوية رسمياً عبر شهادات معترف بها دولياً. يمكن لدورات اللغات الأجنبية في كوجالي أن توسع فرص العمل وتمنح ميزة تنافسية في الساحة الدولية."
+},
+{
+"title": "أسعار دورات اللغة الإنجليزية في إزميت",
+"desc": "تعتبر أسعار دورات اللغة الإنجليزية في إزميت موضوعاً ينتظره بشغف كل من اتخذ قرار تعلم لغة جديدة ويسعى للارتقاء في مساره المهني. بصفتنا دورات أكاديميك إنترناشيونال، نعمل برؤية تهدف إلى إكساب آلاف الطلاب لغة جديدة عبر تركيا. ندعم موادنا التعليمية بمصادر مقدمة من دار النشر 'The Academic Publishing' ومقرها لندن. أسعار دورات إزميت لا تقتصر على تقديم عروض جاذبة فحسب، بل نعد أيضاً بتوفير تجربة تعليمية عالية الجودة لطلابنا. نقدم محتويات ومواد دراسية مخصصة لكل مستوى، من المستوى المبتدئ A1 إلى المستوى المتقدم C2."
+},
+{
+"title": "أفضل دورة لغة إنجليزية في إزميت",
+"desc": "إن اختيار أفضل دورة لغة إنجليزية في إزميت خطوة حاسمة للراغبين في تطوير مهاراتهم اللغوية. تقدم أفضل دورة إنجليزية في إزميت نهجاً مخصصاً للغة لزيادة فاعلية عملية التعلم، وتوفر بيئة تعليمية قوية تركز على تعزيز مهارات المشاركين. كل طالب يختلف عن الآخر؛ ولهذا السبب تقدم دورة إزميت خيارات تعليمية مخصصة، حيث نكيف تجربة التعلم باستخدام خطط ومواد تناسب الاحتياجات الفردية للطلاب. توفر أفضل دورة إنجليزية في إزميت بكوجالي تجربة تعلم ممتازة من خلال تقديم تعليم عالي الجودة بأسعار مناسبة."
+},
+{
+"title": "توصيات دورة اللغة الإنجليزية في إزميت",
+"desc": "تقدم توصيات دورة اللغة الإنجليزية في إزميت معلومات هامة قائمة على التجارب الحقيقية للطلاب لترشدك في اختيار الدورة المناسبة. توفر أفضل الدورات برامج يُديرها مدربون مؤهلون؛ حيث تضمن دورة إزميت للمشاركين تجربة تعلم فعالة بفضل كادرها التعليمي الخبير. تتبع الدورة نهجاً يركز على الطالب وتقدم خيارات تعليمية تناسب الاحتياجات المختلفة لكل فرد. تؤكد التوصيات على التوازن بين السعر والجودة؛ حيث تضمن أفضل الدورات تجربة تعلم جيدة بأسعار معقولة. عند اختيار دورة اللغة الإنجليزية في كوجالي، يمكنك العثور على الدورة الأنسب من خلال مراعاة عوامل مثل جودة المدربين، تجارب الطلاب، والميزانية."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً من الطلاب الباحثين عن دورة لغة إنجليزية في كوجالي إزميت",
+"subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في كوجالي إزميت وأجبنا عليها بالتفصيل.",
+"items": [
+{
+"q": "كيف هي آراء وتقييمات دورات اللغة الإنجليزية في كوجالي؟",
+"a": "تعتبر تقييمات دورات اللغة الإنجليزية في كوجالي إيجابية بشكل عام، إلا أن الصعوبة الكبرى التي يواجهها معظم الطلاب هي العثور على دورة اللغة التي تقدم المنهاج التعليمي الأنسب لاحتياجاتهم الخاصة."
+},
+{
+"q": "ما هي الكتب المستخدمة في دورات اللغة الإنجليزية في كوجالي؟",
+"a": "تحدث أكاديميك إنترناشيونال فارقاً لأول مرة في تركيا من خلال محتوى تعليمي مخصص للكبار ومنشورات خاصة بالمؤسسة، حيث تقدم التعليم باستخدام مصادرها الأصلية التابعة لها."
+},
+{
+"q": "ما هي اللغات الأجنبية الأخرى التي يتم تدريسها في حرم دورة إزميت بجانب الإنجليزية؟",
+"a": "في دورة اللغات بإزميت، لا نقدم التعليم باللغة الإنجليزية فحسب، بل أيضاً بالعديد من اللغات الأخرى مثل الألمانية، الفرنسية، الإسبانية، الروسية، الصينية، الكورية، اليابانية، الهولندية (الفلمنكية)، العربية، التركية، اللاتينية، البرتغالية، واليونانية. هدفنا لا يقتصر على تعليم القواعد، بل إكساب الطلاب مهارات المحادثة العملية لاستخدام اللغة في الحياة اليومية."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا نحن لدورة اللغة الإنجليزية في كوجالي إزميت؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{ "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في كوجالي إزميت؟", "a": "انتبه لوجود مدربين خبراء، والتعليم الموجه للهدف، والمواد الحديثة، والشهادات المعترف بها دولياً، وخيارات الجداول المرنة." },
+{ "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بإزميت يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+{ "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+],
+"advantages": [
+{ "title": "شهادة دولية", "desc": "الشهادات الممنوحة معترف بها في الولايات المتحدة الأمريكية وتتمتع بصلاحية دولية.", "icon": "Award" },
+{ "title": "نموذج تعليمي مرن", "desc": "تعليم يناسب نمط حياتك في أي فرع تختاره أو عبر خيار الدروس المباشرة أونلاين.", "icon": "Laptop" },
+{ "title": "كادر من الخبراء", "desc": "مدربون ذوو خلفيات أكاديمية وخبرة طويلة في مجال تعليم اللغات.", "icon": "Users" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Monitor" }
+]
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في كوجالي إزميت",
+"title": "تعليم إنجليزي فعال في كوجالي إزميت مع كادر متخصص وبرامج مرنة",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في كوجالي إزميت!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "تعليم سريع وفعال للغة الإنجليزية في كوجالي إزميت عبر برامج مرنة وكادر متخصص.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+}
+},
+"corluIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في تشورلو | دورة اللغة الإنجليزية في تكيرداغ تشورلو | أكاديميك",
+"description": "يقدم حرم دورة اللغة الإنجليزية في تشورلو ضمان تعلم اللغة الإنجليزية بسرعة، وفاعلية، وبأسعار تناسب الميزانية. كادرنا المتخصص بجانبك من خلال نموذج تعليمي مخصص للكبار."
+},
+"location": {
+"title": "عنواننا",
+"address": "حي محيي الدين، زقاق فيكير أراليغي، رقم: 5 أ، 59850 تشورلو / تكيرداغ",
+"directionText": "الحصول على الاتجاهات",
+"directionLink": "https://www.google.com/maps/place/%C3%87orlu+Akademik+Yabanc%C4%B1+Dil+Okulu/@41.1554375,27.8101798,18.89z/data=!4m15!1m8!3m7!1s0x14b4e6de6766d3f7:0x5e3b75f1bedfbda9!2zTXVoaXR0aW4sIEZpa2lyIEFyYWzEscSfxLEgU2suIDVBLCA1OTg1MCDDh29ybHUvVGVraXJkYcSf!3b1!8m2!3d41.15501!4d27.810156!16s%2Fg%2F11z6q7w0h1!3m5!1s0x14b4e704d0508b5f:0xd11adfed763b567d!8m2!3d41.1553343!4d27.8100916!16s%2Fg%2F11n3_6wsh9?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
+"distances": [
+{ "icon": "building", "text": "على بعد 5 دقائق من حديقة الشعب (Millet Bahçesi)" },
+{ "icon": "bus-stop", "text": "دقيقتان من موقف الحافلات" }
+]
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في تشورلو",
+"desc": "تقدم دورة اللغة الإنجليزية في تشورلو للطلاب ضمان تعلم اللغة الإنجليزية بسرعة، وفاعلية، وبأسعار تناسب الميزانية. وتبرز دورة أكاديميك للغات الأجنبية الصنّفت ضمن الأفضل لعام 2024-2025 بتقديمها نموذجاً تعليمياً مخصصاً للكبار. يقع معهدنا في منطقة تشورلو، المنطقة المميزة في تكيرداغ، ويعد خياراً مثالياً لكل من يرغب في تطوير مهاراته اللغوية بالإنجليزية بشكل فعال. أصبحت دورات أكاديميك للغات الأجنبية مدرسة لغات لا غنى عنها خاصة للطلاب والموظفين في تشورلو. تمنح الصلاحية الدولية للشهادات المكتسبة الطلاب فرصة الحصول على شهادة مرموقة ومعترف بها عالمياً. كما تتصدر دورات تشورلو للغة الإنجليزية في جانب المرونة؛ حيث تتيح للطلاب فرصة تلقي دروس خاصة فردية في المكان الذي يفضلونه أو الاستفادة من الدروس المباشرة عبر الإنترنت مع دورات أكاديميك إنترناشيونال للغات في مختلف المدن."
+},
+{
+"title": "دورة اللغات في تشورلو: العنوان الصحيح للتعليم العالي الجودة",
+"desc": "تتميز دورات اللغات في تشورلو بكونها العنوان الصحيح لتقديم تجربة تعليمية عالية الجودة في رحلة تعلم اللغة. تستمد دورات أكاديميك إنترناشيونال للغات الهامها من الثراء الثقافي للمدينة وتقدم للطلاب فرصة تعليمية وفق أعلى المعايير، ملفتة الأنظار بكادرها التعليمي المكون من معلمين خبراء ونهجها التعليمي الحديث. تتضمن فرص التعليم العالي الجودة المقدمة من دورة اللغة الإنجليزية في تشورلو برامج تعليمية مخصصة وفق الاحتياجات الفردية للطلاب، ومواد دراسية أصيلة، وأساليب تقييم خاصة بكل فرد. تتعهد دورة اللغات الأجنبية في تشورلو بالتواجد بجانب الطلاب في كل خطوة لتجاوز الصعوبات المواجهة في رحلة تعلم اللغة ودعمهم للوصول إلى النجاح."
+},
+{
+"title": "أسعار دورات اللغة الإنجليزية في تشورلو",
+"desc": "تتوفر خيارات متنوعة ضمن أسعار دورات اللغة الإنجليزية في تشورلو، مثل الباقات الأسبوعية أو الشهرية، والتعليم الفردي، والدروس الجماعية. يمكن للطلاب تلقي التعليم عبر الباقات التي يختارونها بما يتناسب مع احتياجاتهم وأهدافهم في دورات أكاديميك إنترناشيونال للغات، مع الحصول على فرصة تجربة تعليم لغوي عالي الجودة بأسعار مناسبة. تختلف أسعار دورات اللغة الإنجليزية لعام 2024-2025 في تشورلو بناءً على خيارات الباقات، وخبرة الكادر التعليمي، والخدمات الإضافية المقدمة، وفترات الدراسة. يمكنك التواصل مع مركزنا في تشورلو لتحديد خيار السعر الأنسب لك."
+},
+{
+"title": "أفضل دورة لغة إنجليزية في تشورلو",
+"desc": "عند اختيار أفضل دورة لغة إنجليزية في تشورلو، يُوصى بالنظر إلى العناصر الأساسية مثل خطط الدروس المخصصة التي تقدمها مدرسة اللغات، وكادر المعلمين الخبراء، وفرص التعلم المدعومة بالتكنولوجيا. تقدم خطط الدروس المخصصة برامج تم تشكيلها وفق احتياجات تطوير المهارات اللغوية للطلاب، مما يتيح عملية تعلم أسرع وأكثر فاعلية. يزداد دور التكنولوجيا في التعليم يوماً بعد يوم؛ حيث تضمن الدروس المقدمة عبر المنصات التفاعلية، والمواد أونلاين، والأدوات الرقمية إبقاء الطلاب أكثر نشاطاً وتحفيزاً. يمكنك اختيار الدورة الأنسب لك من خلال تقييم هذه العوامل بدقة عند البحث عن أفضل دورة إنجليزية في تشورلو."
+},
+{
+"title": "مدارس اللغات في تشورلو: مدربون مؤهلون وتجربة تعلم لغة مخصصة",
+"desc": "تقدم مدارس اللغات العاملة في تشورلو تعليماً لغوياً عالي الجودة للطلاب بفضل كادرها التعليمي المتخصص والاحترافي. تتشكل البرامج التعليمية وفق احتياجات وأهداف كل طالب، وتُدعم بالدروس الفردية والأنشطة الجماعية لتقديم تجربة تعلم مخصصة للفرد. تضمن مدارس اللغات في تشورلو تطوير مهارات الطلاب اللغوية بفاعلية عبر استخدام مواد دراسية تفاعلية وتقنيات تدريس حديثة. إذا كنت ترغب في الحصول على تعليم لغوي عالي الجودة وجعل عملية تعلم اللغة ممتعة، فإن مدارس اللغات في تشورلو هي الخيار الصحيح لك."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في تشورلو",
+"subtitle": "يمكنك العثور هنا على أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في تشورلو وإجاباتها التفصيلية.",
+"items": [
+{
+"q": "ما هو نطاق أسعار دورات اللغة الإنجليزية في تشورلو؟",
+"a": "يتفاوت نطاق أسعار دورات اللغة الإنجليزية في تشورلو عادةً حسب مدة الدورة، والمستوى، والخدمات المقدمة. لذلك، تُحدد الأسعار عادةً على أساس بالساعة، أسبوعي، أو شهري، وتتراوح عموماً بين 7,000 ليرة تركية و35,000 ليرة تركية."
+},
+{
+"q": "هل يمكنني الحصول على معلومات حول خبرة وكفاءة المدربين؟",
+"a": "يعمل مدربون خبراء وذوو خبرة طويلة في دورات اللغة الإنجليزية في تشورلو. هؤلاء المدربون متخصصون في مجال تعليم اللغات ويحملون في الغالب مؤهلات عليا. ينظم المدربون دروساً تفاعلية باستخدام أساليب وتجهيزات تعليمية متنوعة لتطوير مهارات الطلاب اللغوية. ويعتمدون نهجاً يركز على الطالب ويسعون لتقديم تعليم يناسب الاحتياجات الفردية وأساليب التعلم الخاصة بكل فرد."
+},
+{
+"q": "هل الحضور إجباري في دورات اللغة الإنجليزية؟",
+"a": "رغم أن الحضور ليس إجبارياً في جميع دورات اللغة الإنجليزية بمنطقة تشورلو، إلا أن بعض الدورات تطبق شرط الحضور لتشجيع الالتزام المنتظم. تشترط دورات أكاديميك إنترناشيونال للغات على الطلاب تحقيق نسبة حضور معينة. والهدف من ذلك هو مساعدة الطلاب على تطوير مهاراتهم اللغوية والمشاركة الفعالة في عملية التعلم. قد تختلف سياسات الحضور والغياب حسب الدورة والمؤسسة."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا نحن لدورة اللغة الإنجليزية في تشورلو؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{ "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في تشورلو؟", "a": "انتبه لوجود مدربين خبراء، والتعليم الموجه للهدف، والمواد الحديثة، والشهادات المعترف بها دولياً، وخيارات الجداول المرنة." },
+{ "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بتشورلو يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+{ "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+],
+"advantages": [
+{ "title": "شهادة دولية", "desc": "الشهادات المكتسبة تتمتع بصلاحية دولية وتساهم في تحقيق أهدافك المهنية العالمية.", "icon": "Award" },
+{ "title": "نموذج تعليمي مرن", "desc": "تعليم يناسب نمط حياتك في أي فرع تختاره أو عبر خيار الدروس المباشرة أونلاين.", "icon": "Laptop" },
+{ "title": "كادر من الخبراء", "desc": "تعلم سريع وفعال مع مدربين خبرة متخصصين في مجالاتهم.", "icon": "Users" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Monitor" }
+]
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في تشورلو",
+"title": "تعليم إنجليزي فعال في تكيرداغ تشورلو مع كادر متخصص وبرامج مرنة",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في تشورلو!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "تعليم سريع وفعال للغة الإنجليزية في تكيرداغ تشورلو عبر برامج مرنة وكادر متخصص.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+}
+},
+"inegolIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في إينغول | دورة اللغة الإنجليزية في بورصة إينغول | أكاديميك",
+"description": "يتألق حرم دورة اللغة الإنجليزية في إينغول مع دورة أكاديميك إنترناشيونال للغات الأجنبية، وهي المؤسسة الرائدة في فئة أفضل مدرسة لعام 2024-2025، بكادر تعليمي متخصص وأسعار مناسبة."
+},
+"location": {
+"title": "عنواننا",
+"address": "حي السليمانية، شارع الاستقلال، رقم: 90/B إينغول / بورصة",
+"directionText": "الحصول على الاتجاهات",
+"directionLink": "https://www.google.com/maps/place/%C4%B0neg%C3%B6l+%C4%B0ngilizce+Kursu-Akademik+International+Dil+Okullar%C4%B1/@40.0833566,29.5015248,17z/data=!3m1!4b1!4m6!3m5!1s0x14cbcb1f4ba1b45d:0xf4c27e7d767e1524!8m2!3d40.0833525!4d29.5040997!16s%2Fg%2F11w9ffddw4?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
+"distances": [
+{ "icon": "building", "text": "5 دقائق سيراً على الأقدام إلى مول إينغول AVM" },
+{ "icon": "bus-stop", "text": "دقيقة واحدة من موقف الحافلات" },
+{ "icon": "building", "text": "5 دقائق من مبنى بلدية إينغول" },
+{ "icon": "bus", "text": "5 دقائق بالسيارة إلى كلية إدارة الأعمال في إينغول" }
+]
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في إينغول",
+"desc": "تأتي دورة أكاديميك إنترناشيونال للغات الأجنبية في مقدمة دورات اللغة الإنجليزية في إينغول لعام 2024-2025 ضمن فئة أفضل المدارس، وتلفت الأنظار بتعليمها الموجه نحو تحقيق أعلى مستويات النجاح وأسعارها المناسبة. تقدم لك تجربة جديدة لتعلم اللغة من خلال كادر تعليمي متخصص ونماذج تعليمية تناسب جميع الفئات العمرية. تقدم دورة إينغول للغة الإنجليزية للأفراد تجربة تعلّم تتيح لهم البروز في حياتهم الاجتماعية والمهنية. وتتميز الدورة بكادرها المتخصص ونماذجها التعليمية المصممة لكل فئة عمرية. تحت مظلة مدرسة أكاديميك إنترناشيونال للغات الأجنبية، تقدم دورات إينغول للغة الإنجليزية تعليماً لغوياً بأكثر الطرق عراقة وخبرة، حيث توفر نموذجاً تعليمياً فريداً يتيح للطلاب الوصول إلى مستويات متقدمة في المهارات الأساسية: القراءة، الكتابة، الاستماع، والتحدث. وفي فصول الـ VIP ذات الأعداد القليلة من الطلاب، يمكنك تلقي التعليم براحة تامة وشعور يشبه المنزل، وتطوير مهاراتك اللغوية برفقة مدربين محليين وأجانب. تساعد دورة اللغة الإنجليزية في إينغول الطلاب الذين يستعدون لاختبارات مثل IELTS وYDS وYÖKDİL وCAE على تحقيق أهدافهم من خلال استراتيجيات اختبارات فعالة ومحتويات دروس حديثة. وبفضل مصادر دار النشر 'The Academic Publishing' والخبرة الممتدة لسنوات طويلة، تقدم لك دورة إينغول تجربة تعلم فريدة من نوعها."
+},
+{
+"title": "دورة اللغات في إينغول",
+"desc": "يمكنك الحصول على فرصة تعلم أي لغة أجنبية ترغب بها وتحقيق أحلامك مع دورة اللغات في إينغول. يتألق فرع دورة أكاديميك إنترناشيونال للغات الأجنبية في إينغول بين دورات اللغات بالمنطقة بفضل برامجه اللغوية المؤهلة التي تقدم تعليماً في 22 لغة مختلفة. يبرز أهمية اللغة الأجنبية مع تزايد فرص العمل وتطور العلاقات الدولية في عالم يتجه نحو العولمة. تساهم دورة اللغات الأجنبية في إينغول في بناء مسارك المهني من خلال تقديم لغات العالم عبر مناهج شاملة ومدربين ذوي خلفيات أكاديمية. توجهك دورة اللغات في إينغول لحياتك الاجتماعية، وسفرياتك الشخصية، ودراستك الأكاديمية، وطلبات الهجرة الخاصة بك، وغير ذلك الكثير، لمساعدتك في الوصول إلى أهدافك."
+},
+{
+"title": "توصية دورة اللغة الإنجليزية في إينغول",
+"desc": "تعتبر دورة أكاديميك إنترناشيونال للغات الأجنبية اسماً يتردد كثيراً في أبحاث التوصية بدورات الإنجليزية في إينغول، حيث تقدم تعليماً عالي الجودة في جميع لغات العالم وعلى رأسها الإنجليزية. وتتصدر مدرستنا قائمة أفضل مقترحات دورات الإنجليزية في إينغول منذ سنوات طويلة؛ إذ تتألق باختبار تحديد المستوى المجاني، وعضوية نادي المحادثة (Speaking Club) المجانية، وفصول الـ VIP، والمدربين الأكاديميين. إنه الوقت المثالي للتعرف على دورة اللغة الإنجليزية في إينغول التي تقدم فرص التعليم اللغوي المباشر عبر الإنترنت في بيئة استوديو حي لأول مرة في تركيا، وتطور نماذج تعليمية لكل الفئات العمرية! إذا كنت ترغب في الحصول على المزيد من المعلومات حول دورة اللغة الإنجليزية الموصى بها في إينغول، يمكنك التواصل معنا في أي وقت."
+},
+{
+"title": "أسعار دورات اللغة الإنجليزية في إينغول",
+"desc": "تُدعم أسعار دورات اللغة الإنجليزية في إينغول بحملات متنوعة في كل فترة لتوفير خيارات دفع مناسبة. تُعد مدرسة أكاديميك إنترناشيونال للغات الأجنبية خياراً صائباً واستثماراً قيماً في مستقبلك. تتراوح أسعار دورات الإنجليزية في إينغول حالياً بين 6,750 ليرة تركية و34,000 ليرة تركية، وقد تختلف حسب المستوى اللغوي. يمكنك التواصل معنا لمعرفة المزيد حول رسوم دورات اللغة الإنجليزية ومزايا التسجيل المبكر في إينغول. كما يمكنك الاتصال برقم التواصل الخاص بنا 0850 305 05 16 للحصول على معلومات تفصيلية."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في إينغول",
+"subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في إينغول وأجبنا عليها بالتفصيل.",
+"items": [
+{
+"q": "هل يمكنني الحصول على معلومات حول خبرة وكفاءة المدربين؟",
+"a": "يتوفر كادر تعليمي خبير وذو خبرة واسعة في دورات اللغة الإنجليزية في إينغول. هؤلاء المدربون متخصصون في تدريس اللغات ويحملون عادةً مؤهلات أكاديمية عليا. ينظم المعلمون دروساً تفاعلية باستخدام استراتيجيات ومواد تعليمية متنوعة لتطوير المهارات اللغوية للطلاب. تلعب آراء الطلاب دوراً حاسماً في نجاح التعلم؛ ولهذا يتبع المدربون نهجاً يركز على الطالب بهدف تقديم تعليم يناسب الاحتياجات الفردية وأساليب التعلم الخاصة بكل شخص."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا نحن لدورة اللغة الإنجليزية في إينغول؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{ "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في إينغول؟", "a": "انتبه لوجود مدربين خبراء، والتعليم الموجه للهدف، والمواد الحديثة، والشهادات المعترف بها دولياً، وخيارات الجداول المرنة." },
+{ "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بإينغول يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+{ "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+],
+"advantages": [
+{ "title": "شهادة دولية", "desc": "الشهادات المكتسبة تتمتع بصلاحية دولية وتساهم في تحقيق أهدافك المهنية العالمية.", "icon": "Award" },
+{ "title": "نموذج تعليمي مرن", "desc": "تعليم يناسب نمط حياتك في أي فرع تختاره أو عبر خيار الدروس المباشرة أونلاين.", "icon": "Laptop" },
+{ "title": "كادر من الخبراء", "desc": "مدربون ذوو خلفيات أكاديمية وخبرة طويلة في مجال تعليم اللغات.", "icon": "Users" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Monitor" }
+]
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في إينغول",
+"title": "تعليم إنجليزي فعال في بورصة إينغول مع كادر متخصص وبرامج مرنة",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في إينغول!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "تعليم سريع وفعال للغة الإنجليزية في بورصة إينغول عبر برامج مرنة وكادر متخصص.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+}
+},
+"yildirimErikliIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في يلدريم إيريكلي | دورة اللغة الإنجليزية في بورصة يلدريم | أكاديميك",
+"description": "تقدم دورة اللغة الإنجليزية في يلدريم إيريكلي برامج تعليمية خاصة مناسبة لجميع الفئات العمرية، مما يمنح الطلاب فرصة تحقيق أفضل النتائج في الاستعداد للاختبارات."
+},
+"location": {
+"title": "عنواننا",
+"address": "حي إيريكلي، شارع طريق أنقرة، رقم: 478-482 يلدريم / بورصة",
+"directionText": "الحصول على الاتجاهات",
+"directionLink": "https://www.google.com/maps/place/Erikli,+Ankara+Yolu+Cd+%C5%9Eaypa+Al%C4%B1%C5%9Fveri%C5%9F+Merkezi+478-482,+16300+Y%C4%B1ld%C4%B1r%C4%B1m%2FBursa/@40.1915767,29.136352,17z/data=!4m6!3m5!1s0x14ca3ecccc5af981:0x3f77db07341cb39e!8m2!3d40.1914299!4d29.138847!16s%2Fg%2F11nhzsn68x?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
+"distances": [
+{ "icon": "walking", "text": "بجوار جسر المشاة العلوي في يلدريم إيريكلي" },
+{ "icon": "building", "text": "دقيقة واحدة من فرع بنك فاكف (VakıfBank) في إيريكلي" },
+{ "icon": "train", "text": "3 دقائق من محطة مترو إسينلير" },
+{ "icon": "walking", "text": "5 دقائق من مديرية قوات مكافحة الشغب في بورصة" }
+]
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في يلدريم إيريكلي",
+"desc": "تقدم دورات اللغة الإنجليزية في يلدريم إيريكلي برامج تعليمية خاصة تلاءم كافة الفئات العمرية، مما يتيح للطلاب تحقيق أفضل النتائج أثناء التحضير للاختبارات. تدعم دوراتنا الطلاب بفعالية وتساعدهم على تطوير مهاراتهم اللغوية من خلال التركيز على تحقيق نسب نجاح عالية. توفر دورة يلدريم إيريكلي نظاماً تعليمياً فعالاً لجميع الأعمار ممن لديهم الحاجة أو الشغف لتعلم اللغة. ومن خلال رؤيتنا التعليمية الحديثة التي تتجاوز الطرق التقليدية، نضمن لك فهم اللغة الإنجليزية بنحو عميق بدلاً من مجرد الحفظ. ومع البرامج المصممة خصيصاً لاحتياجات الطلاب في فرع إيريكلي، يتم إعداد رحلة تعلم اللغة الخاصة بك بشكل مخصص لك. نحن ندرك أهمية امتلاك مهارات اللغة الإنجليزية كعنصر أساسي للمنافسة في العالم الرقمي؛ وبصفتنا دورة إيريكلي في منطقة يلدريم ببورصة، فإننا نتيح لك الارتقاء بقدراتك اللغوية والانفتاح على الفرص العالمية في آن واحد."
+},
+{
+"title": "دورة اللغات في إيريكلي يلدريم: تجربة تعلم لغة تصنع الفارق",
+"desc": "بتصور حديث ورؤية تعليمية تركز على الطالب، تخرج دورة اللغات في يلدريم إيريكلي عن المألوف في الأنظمة التعليمية العادية لتسلط الضوء على مناهج أصيلة تتوافق مع المعايير الدولية. وخلافاً للمؤسسات التعليمية التقليدية، تقدم برامجنا المصممة خصيصاً لكل فئة عمرية رحلة تعليمية فردية وفعالة تلبي احتياجات الطلاب. وبصفتنا دورة اللغات الأجنبية في إيريكلي بورصة، فإننا نطور أساليب تناسب مختلف الأعمار من الأطفال إلى الكبار، مدعومة بمطبوعات وأصدارات متميزة. يغطي محتوانا التعليمي العناصر الأساسية لتعلم اللغة عبر التركيز على مهارات القراءة والكتابة والاستماع والتحدث. ونستهدف بشكل خاص من خلال نهجنا المعتمد على التحدث تحضير طلابنا للمواقف اليومية وتطوير مهاراتهم اللغوية العملية."
+},
+{
+"title": "أفضل دورة لغات في يلدريم: حقق أهدافك مع دورة إيريكلي للغة الإنجليزية!",
+"desc": "تتألق دورة إيريكلي للغة الإنجليزية كمركز يثري تجربة تعلم اللغة لديك عبر أفضل المعلمين كفاءة في يلدريم والمناطق المحيطة بها، إضافة إلى المواد الدراسية التفاعلية وطرق التدريس المبتكرة. تتيح لك الدورة خوض رحلة تعلم ممتعة ومثمرة من خلال برامج تعزز مهارات التواصل وتمنحك الثقة بالنفس أثناء تطوير قدراتك اللغوية الشاملة. يدعمك الكادر التعليمي المتخصص في دورة إيريكلي للوصول إلى أهدافك عبر تقديم تعليم لغوي مخصص يناسب احتياجاتك الفردية. وكترشيح وتوصية، إذا كنت تبحث عن أفضل دورة إنجليزية في يلدريم، فإن دورة إيريكلي هي الخيار الأمثل لك."
+},
+{
+"title": "أسعار دورات اللغة الإنجليزية في إيريكلي",
+"desc": "تتراوح أسعار دورات اللغة الإنجليزية في يلدريم إيريكلي عموماً بين 6,500 ليرة تركية و33,000 ليرة تركية. وترجع أسباب هذا التفاوت في الأسعار إلى عوامل مثل مدة الدورة، كفاءة المعلمين، المواد التعليمية، والخدمات الإضافية المقدمة. تقدم دورة أكاديميك إنترناشيونال للغات الأجنبية تحديداً فرصة تعليمية عالية الجودة وأسعاراً مناسبة في إيريكلي. توفر دوراتنا فرصة تعلم اللغة وفق معايير دولية وبرامج مخصصة تناسب تطلعات الطلاب واحتياجاتهم، مما يتيح للراغبين في تعلم الإنجليزية بإيريكلي تطوير مهاراتهم عبر تعليم فعال واقتصادي."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في يلدريم إيريكلي",
+"subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في يلدريم إيريكلي وأجبنا عليها بالتفصيل.",
+"items": [
+{
+"q": "هل يمكنني الحصول على معلومات حول خبرة ومستوى اختصاص المعلمين؟",
+"a": "يتوفر معلّمون متخصصون وذوو خبرة عالية في دورات اللغة الإنجليزية في يلدريم. يمتلك هؤلاء المعلمون خبرة واسعة في تدريس اللغات ويحملون مؤهلات تعليمية رفيعة. ينظم المعلمون دروساً تفاعلية باستخدام استراتيجيات ومواد تعليمية متنوعة لتطوير المهارات اللغوية للطلاب. تلعب آراء وتقييمات الطلاب دوراً مهماً في نجاح المعلمين؛ لذا يتبع المعلمون نهجاً يركز على الطالب لتقديم تعليم يتناسب مع الاحتياجات الفردية وأساليب التعلم الخاصة بكل طالب."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا نحن لدورة اللغة الإنجليزية في يلدريم إيريكلي؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما نفعله تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{ "q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في يلدريم إيريكلي؟", "a": "انتبه لوجود مدربين خبراء، والتعليم الموجه للهدف، والمواد الحديثة، والشهادات المعترف بها دولياً، وخيارات الجداول المرنة." },
+{ "q": "هل جلسات الدروس تفاعلية بنشاط؟", "a": "نعم، نهج التدريس المطبق في فرعنا بيلدريم إيريكلي يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي." },
+{ "q": "هل يناسب هذا البرنامج أهدافي المهنية؟", "a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف." }
+],
+"advantages": [
+{ "title": "شهادة دولية", "desc": "الشهادات المكتسبة تتمتع بصلاحية دولية وتساهم في تحقيق أهدافك المهنية العالمية.", "icon": "Award" },
+{ "title": "نموذج تعليمي مرن", "desc": "تعليم يناسب نمط حياتك في أي فرع تختاره أو عبر خيار الدروس المباشرة أونلاين.", "icon": "Laptop" },
+{ "title": "كادر من الخبراء", "desc": "مدربون ذوو خلفيات أكاديمية وخبرة طويلة في مجال تعليم اللغات.", "icon": "Users" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Monitor" }
+]
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في يلدريم إيريكلي",
+"title": "تعليم إنجليزي فعال في بورصة يلدريم إيريكلي مع كادر متخصص وبرامج مرنة",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في يلدريم إيريكلي!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "تعليم سريع وفعال للغة الإنجليزية في بورصة يلدريم إيريكلي عبر برامج مرنة وكادر متخصص.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+}
+},
+"amerikaLandingPage": {
+"meta": {
+"title": "حرم أمريكا | الدراسة في أمريكا | أكاديميك إنترناشيونال",
+"description": "اكتشف فرص الدراسة في أمريكا مع أكاديميك إنترناشيونال. حقق حلمك من خلال مدرستنا الثانوية الدولية الخاصة في نيويورك وبرامجنا للتحضير الأكاديمي."
+},
+"hero": {
+"tag": "حرم أمريكا",
+"title": "فرصة رائعة للدراسة في أمريكا",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "استشارة مجانية!",
+"formSubtitle": "احصل على معلومات من مستشارينا المتخصصين للدراسة في أمريكا!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: الدراسة في الخارج",
+"description": "تعد الدراسة في أمريكا واحدة من أكثر التجارب رغبة على مستوى العالم.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "حول حلمك إلى حقيقة!"
+},
+"seoContent": [
+{
+"title": "أسباب للدراسة في أمريكا؟",
+"desc": "تقدم لك بعض أفضل الجامعات في العالم، وبلداً يمتلك تراثاً ثقافياً غنياً وتنوعاً فريداً، وفرصاً تشكل مسار مسيرتك المهنية. هناك العديد من الأسباب للدراسة في أمريكا:",
+"bullets": [
+"تضم أفضل الجامعات في العالم. تحتضن الولايات المتحدة الأمريكية بعضاً من أفضل الجامعات على مستوى العالم، وتعد هذه الجامعات مؤسسات المرموقة ومعترف بها عالمياً.",
+"تمتلك تراثاً ثقافياً غنياً وتنوعاً فريداً. تعتبر الولايات المتحدة الأمريكية بلداً يجمع بين الناس من جميع أنحاء العالم، مما يخلق مزيجاً وتنوعاً ثقافياً فريداً.",
+"تقدم فرصاً تشكل مسار مسيرتك المهنية. تعد الولايات المتحدة قوة رائدة في عالم الأعمال، وحصولك على درجة علمية في أمريكا يمكن أن يساعدك في تحقيق أهدافك المهنية."
+],
+"summary": "تتوفر خيارات متنوعة للدراسة في أمريكا مثل دورات اللغة، والمدرسة الثانوية الدولية، وبرامج التحضير الأكاديمي."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول الدراسة في أمريكا",
+"subtitle": "لقد جمعنا لكم إجابات أكثر الأسئلة تداولاً حول حرمنا في أمريكا وبرامج الدراسة في الخارج.",
+"items": [
+{
+"q": "ما هو مستوى اللغة الإنجليزية المطلوب للدراسة في أمريكا؟",
+"a": "تتطلب الدراسة في أمريكا عادة مستوى إنجليزية بين B2 و C1. بصفتنا أكاديميك إنترناشيونال، يمكنك إكمال مرحلة التحضير للغة الإنجليزية في فروعنا داخل تركيا، والبدء في برامج أمريكا بعد الوصول إلى المستوى المناسب."
+},
+{
+"q": "كيف يمكنني التقدم إلى مدرستكم في نيويورك؟",
+"a": "للتقديم على مدرستنا الثانوية الدولية الخاصة في نيويورك، يكفي الاتصال برقمنا 0850 305 05 16 أو تعبئة النموذج الموجود على موقعنا للتحدث مع مستشارينا. سنقوم بتخطيط البرنامج الأنسب لك ومرحلة التقديم معاً."
+},
+{
+"q": "ما هي تكلفة برنامج التعليم في أمريكا؟",
+"a": "تختلف تكلفة الدراسة في أمريكا بناءً على البرنامج المختار، ونوع المدرسة، ومدة التعليم. يحدد مستشارو أكاديميك إنترناشيونال البرنامج الأنسب لميزانيتك وأهدافك ويقدمون معلومات تفصيلية حول خيارات خطة الدفع."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة والمتوسطة" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا تختار أكاديميك إنترناشيونال للدراسة في أمريكا؟",
+"subtitle": "توجيه موثوق، ونجاح مثبت",
+"cardTitle": "ضمان التعليم في أمريكا",
+"cardDesc": "لتحويل حلمك بالدراسة في أمريكا إلى حقيقة، يتواجد كادرنا الاستشاري الخبير، وشبكة مدارسنا المعتمدة، وخدمات الدعم الشاملة بجانبك في كل خطوة.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{
+"q": "لماذا يجب عليك اختيارنا للدراسة في أمريكا؟",
+"a": "تخدم أكاديميك إنترناشيونال كواحدة من أكثر شبكات مدارس اللغات الأجنبية عراقة في تركيا من خلال 12 فرعاً. نحن رفيقك الموثوق بفضل كادرنا الاستشاري الخبير وشراكاتنا مع المدارس المعتمدة لإدارة رحلتك التعليمية في أمريكا من البداية وحتى النهاية."
+},
+{
+"q": "هل يمكنني إجراء التحضير للغة الإنجليزية في تركيا؟",
+"a": "نعم. يمكنك الارتقاء بمستواك في اللغة الإنجليزية إلى المعايير الأمريكية في فروع أكاديميك إنترناشيونال في جميع أنحاء تركيا. ومن خلال التحضير لاختبارات مثل IELTS و TOEFL، يمكنك التقديم للجامعات الأمريكية بشهادة لغة قوية."
+},
+{
+"q": "هل يمكنني الحصول على دعم بشأن تأشيرة الطالب؟",
+"a": "نعم. يوجهك مستشارونا في كافة المراحل بداية من تقديم طلب تأشيرة الطالب F-1 والمستندات المطلوبة، وصولاً إلى نموذج DS-160 والتحضير لمقابلة التأشيرة."
+}
+],
+"advantages": [
+{ "title": "شبكة مدارس معتمدة", "desc": "نوفر بيئة تعليمية آمنة من خلال شراكاتنا مع مدارس معتمدة ومثبتة الجودة في الولايات المتحدة، وخاصة في نيويورك.", "icon": "Award" },
+{ "title": "استشارات التأشيرة", "desc": "يقف مستشارونا الخبراء بجانبك في كل خطوة ابتداءً من مرحلة التقديم على تأشيرة الطالب وحتى تجهيز الأوراق المطلوبة.", "icon": "Laptop" },
+{ "title": "دعم التحضير اللغوي", "desc": "سافر إلى أمريكا بأفضل مستوى في اللغة الإنجليزية من خلال التحضير لاختبارات IELTS و TOEFL في فروعنا بتركيا.", "icon": "Users" },
+{ "title": "ضمان أسعار مناسبة", "desc": "يمكنك اكتشاف خطط الدفع المناسبة لميزانيتك وفرص المنح الدراسية من خلال مستشارينا.", "icon": "Monitor" }
+]
+}
+},
+"kutahyaIngilizceLandingPage": {
+"meta": {
+"title": "دورة اللغة الإنجليزية في كوتاهيا | دورة أكاديميك إنترناشيونال للغات الأجنبية",
+"description": "بصفتها دورة اللغة الإنجليزية في كوتاهيا، تقدم أكاديميك إنترناشيونال التعليم الأفضل جودة للغة الإنجليزية في كوتاهيا بفضل مصادرها المتميزة وكادرها التعليمي المتخصص."
+},
+"hero": {
+"tag": "دورة اللغة الإنجليزية في كوتاهيا",
+"title": "تعليم إنجليزي فعال في كوتاهيا مع كادر متخصص ومناهج متميزة",
+"customerServiceBtn": "تحدث مع مستشارنا التعليمي فوراً!",
+"infoBtn": "احصل على معلومات الآن!",
+"whatsappBtn": "معلومات عبر واتساب",
+"formRibbon": "نموذج التسجيل والمعلومات",
+"formTitle": "تعليم مجاني!",
+"formSubtitle": "احصل على معلومات فورية لدورة اللغة الإنجليزية في كوتاهيا!",
+"namePlaceholder": "أدخل الاسم واللقب.",
+"phonePlaceholder": "أدخل رقم الهاتف المحمول.",
+"branchPlaceholder": "اختر الفرع.",
+"submitBtn": "احصل على معلومات الآن!",
+"badge": "الفئة: تعليم اللغة الإنجليزية",
+"description": "العنوان الصحيح لتعلم اللغة الإنجليزية في كوتاهيا؛ منهج متميز وتعليم يركز على المحادثة.",
+"formDisclaimer": "بتعبئة نموذج المعلومات، أوافق على الإخلاء القانوني / شروط الاستخدام.",
+"subtitle": "ابنِ مسارك المهني ومستقبلك!"
+},
+"seoContent": [
+{
+"title": "دورة اللغة الإنجليزية في كوتاهيا",
+"desc": "تعتبر دورة أكاديميك إنترناشيونال للغات الأجنبية، المعروفة بكورسات اللغة الإنجليزية في كوتاهيا، الخيار الأفضل بفضل مصادرها الخاصة المتميزة ومنهجها التعليمي الاستثنائي الذي يوصل الطلاب إلى المستوى الذي يطمحون إليه. تهدف هذه الدورة إلى تصدر قائمة أفضل دورات اللغة الإنجليزية في كوتاهيا مع تقديم ضمان لتعلم اللغة، مما يساهم بشكل مباشر في بناء مسارك المهني ومستقبلك.",
+"bullets": [
+"مع نظام تعليمي يركز على المحادثة، لن تكتفي بتعلم اللغة الإنجليزية فحسب، بل ستستعملها بشكل فعال.",
+"تتسارع عملية تعلمك بفضل إصدارات أكاديميك إنترناشيونال الفريدة وموادها الحديثة.",
+"تطور نطقك وطلاقتك تحت إشراف مدربين لغتهم الأم هي الإنجليزية (Native Speaker).",
+"تحصل على فرصة التقدم بأسلوبك الخاص عبر برامج دروس مرنة تناسب احتياجاتك الفردية."
+],
+"summary": "للراغبين في تعلم الإنجليزية في كوتاهيا: برامج PREP و Academic و IELTS و TOEFL وغيرها؛ تعليم لغوي شامل تحت سقف واحد."
+}
+],
+"faq": {
+"title": "الأسئلة الأكثر تكراراً حول دورة اللغة الإنجليزية في كوتاهيا",
+"subtitle": "لقد جمعنا لكم أكثر الأسئلة تداولاً حول دورة اللغة الإنجليزية في كوتاهيا وأجبنا عليها بالتفصيل.",
+"items": [
+{
+"q": "ما هي البرامج المقدمة في دورة اللغة الإنجليزية في كوتاهيا؟",
+"a": "تُقدم في فرعنا بكوتاهيا برامج الإنجليزية العامة (PREP, Academic, Academic Plus)، والتحضير للاختبارات (IELTS, TOEFL, YDS, YÖKDİL)، والإنجليزية للأعمال، والدروس الخاصة. ويتم تحديد البرنامج الأنسب لك عبر اختبار تحديد مستوى مجاني."
+},
+{
+"q": "هل المعلمون يتحدثون الإنجليزية كبلد أم (Native Speaker)؟",
+"a": "يتكون كادرنا التعليمي من معلمين أتراك متخصصين في مجالهم ومحاصلين على التأهيل التربوي، ومعلمين لغتهم الأم هي الإنجليزية (Native Speaker). وتطور نطقك وطلاقتك من خلال ممارسة اللغة مع معلمينا الأجانب خاصة في دروس المحادثة."
+},
+{
+"q": "كيف تحدد أسعار دورة اللغة الإنجليزية في كوتاهيا؟",
+"a": "تختلف الأسعار في فرعنا بكوتاهيا حسب نوع البرنامج المختار ومدة التعليم. تُقدم لك الأسعار وخيارات الدفع المخصصة بعد إجراء اختبار تحديد المستوى الاسترشادي والحديث مع المستشار التعليمي."
+}
+]
+},
+"publications": {
+"title": "مصادر حديثة بتميز من The Academic للنشر",
+"subtitle": "المواد المستخدمة في التعليم تؤثر بشكل مباشر على سرعة تعلمك",
+"features": ["منشورات مركزها لندن", "مواضيع حديثة وشائعة", "تراكيب مفردات معاصرة"],
+"books": [
+{ "name": "The Academic English B1-B2", "type": "الإنجليزية العامة ومتوسطة المستوى" },
+{ "name": "Exam Strategies (IELTS, TOEFL)", "type": "تقنيات واستراتيجيات الاختبارات" },
+{ "name": "Interactive Speaking", "type": "المحادثة والتواصل الفعال" },
+{ "name": "Modern Vocabulary", "type": "حصيلة المفردات الحديثة" }
+]
+},
+"whyUs": {
+"title": "لماذا تختارنا لدورة اللغة الإنجليزية في كوتاهيا؟",
+"subtitle": "اختبر الجودة، ولا تضيع وقتك",
+"cardTitle": "نظام مخصص للمحادثة",
+"cardDesc": "لا تضيع بين التقييمات على الإنترنت؛ الدورة الجيدة لا تجبرك على حل التمارين من الكتب، بل تشجعك على التحدث. وهذا ما تفعله أكاديميك إنترناشيونال تماماً.",
+"btnNext": "مزايانا الأخرى ←",
+"faqs": [
+{
+"q": "ما الذي يجب عليك الانتباه إليه عند البحث عن توصية لدورة إنجليزية في كوتاهيا؟",
+"a": "انتبه لوجود مدربين لغتهم الأم هي الإنجليزية، والتعليم الموجه للهدف (اختبارات، عمل، تواصل)، والمواد الحديثة، ونسب النجاح العالية، وخيارات الجداول المرنة المتاحة للمؤسسة."
+},
+{
+"q": "هل جلسات الدروس تفاعلية بنشاط؟",
+"a": "نعم، نهج التدريس المطبق في فرعنا بكوتاهيا يستهدف المشاركة الفعالة والاستخدام العملي للغة بدلاً من الاستماع السلبي. وبفضل تنظيم الفصول بجمع قليل، يحظى كل طالب باهتمام فردي."
+},
+{
+"q": "هل يناسب هذا البرنامج أهدافي المهنية؟",
+"a": "بالتأكيد. بعد فهم أهدافك الفردية، نصمم البرنامج الأنسب ونقدم ضمان تعليم موجه نحو الهدف."
+}
+],
+"advantages": [
+{ "title": "شهادة دولية", "desc": "الشهادات المكتسبة تتمتع بصلاحية دولية وتساهم في تحقيق أهدافك المهنية العالمية.", "icon": "Award" },
+{ "title": "نموذج تعليمي مرن", "desc": "تعليم يناسب نمط حياتك في أي فرع تختاره أو عبر خيار الدروس المباشرة أونلاين.", "icon": "Laptop" },
+{ "title": "كادر من الخبراء", "desc": "مدربون ذوو خلفيات أكاديمية وخبرة طويلة في مجال تعليم اللغات.", "icon": "Users" },
+{ "title": "تسجيل ديناميكي", "desc": "ابدأ التدريب فوراً دون انتظار اكتمال العدد أو بداية الفصل الدراسي.", "icon": "Monitor" }
+]
+}
+},
+"tarihcePage": {
+  "meta": {
+    "title": "تاريخنا | مدارس أكاديميك الدولية للغات",
+    "description": "تعرف على قصة تأسيس أكاديميك الدولية للغات ورؤيتها ومساهماتها في تعليم اللغات حتى اليوم."
+  },
+  "hero": {
+    "tag": "أكاديميك إنترناشيونال",
+    "title": "تاريخنا",
+    "customerServiceBtn": "تواصل مع خدمة العملاء الآن!",
+    "infoBtn": "احصل على معلومات الآن!",
+    "whatsappBtn": "معلومات واتساب",
+    "formRibbon": "نموذج المعلومات",
+    "formTitle": "درس تجريبي مجاني!",
+    "formSubtitle": "تعليم اللغة بضمان المحادثة!",
+    "namePlaceholder": "أدخل اسمك الكامل.",
+    "phonePlaceholder": "أدخل رقم هاتفك.",
+    "branchPlaceholder": "اختر الفرع.",
+    "submitBtn": "احصل على المعلومات الآن!",
+    "formDisclaimer": "بملء هذا النموذج، أقبل الإشعار القانوني / شروط الاستخدام."
+  },
+  "intro": {
+    "title": "تاريخنا",
+    "paragraphs": [
+      "تُعدّ أكاديميك للغات الأجنبية من المؤسسات الرائدة التي تشكّل تعليم اللغات الأجنبية منذ ما يقارب نصف قرن، إذ أنشأت نظاماً تعليمياً مستداماً يحلّ محل المناهج التقليدية ويضفي على تعليم اللغات منظوراً جديداً يتوافق مع متطلبات الصناعة 4.0.",
+      "تُعدّ مدرسة أكاديميك للغات الأولى في تركيا التي طوّرت مناهج منفصلة للبالغين والفئات العمرية الأصغر سناً. وبمصادرها الأصيلة المُعدّة وفق الفئات العمرية والمعرفة الحديثة لدار النشر The Academic Publishing المؤسَّسة في لندن عام 2010، قدّمت خدمات تعليم اللغات لموظفين كثيرين في القطاعين العام والخاص.",
+      "منذ تأسيسها، أعادت أكاديميك إنترناشيونال تعريف معايير الجودة في تعليم اللغات الأجنبية، وتقدّم لطلابها تعليماً لغوياً بمستوى عالمي بفضل فريقها القوي من الأكاديميين وأصحاب اللغة الأم.",
+      "تعمل أكاديميك إنترناشيونال اليوم في أكثر من 12 مدينة في تركيا، وتخدم آلاف الطلاب في إسطنبول وأنقرة وبورصة وإزمير وكوجالي وغيرها. كما تدعم فرص التعليم الدولي، لا سيما في أمريكا.",
+      "بوصفها أول مؤسسة في تركيا تحصل على شهادة ISO 9001:2015 لنظام إدارة الجودة في مجال تعليم اللغات الأجنبية، تواصل أكاديميك إنترناشيونال كونها معياراً في الصناعة بنسبة رضا طلاب تبلغ 97٪."
+    ]
+  },
+  "whyUs": {
+    "title": "لماذا أكاديميك إنترناشيونال؟",
+    "subtitle": "المزايا التعليمية التي نقدمها لطلابنا منذ تأسيسنا",
+    "advantages": [
+      { "title": "خبرة تقارب نصف قرن", "desc": "بفضل خبرتنا الراسخة في تعليم اللغات الأجنبية ومناهجنا المتجددة باستمرار، نحافظ على مكانتنا الريادية في القطاع.", "icon": "Award" },
+      { "title": "شهادة ISO 9001:2015", "desc": "نفخر بأننا أول مؤسسة في تركيا تحصل على شهادة ISO 9001:2015 لنظام إدارة الجودة في مجال تعليم اللغات الأجنبية.", "icon": "BadgeCheck" },
+      { "title": "+12 مدينة، رؤية واحدة", "desc": "بفروعنا المنتشرة في أنحاء تركيا وارتباطاتنا الدولية، نكون دائماً إلى جانب طلابنا.", "icon": "Globe" },
+      { "title": "97٪ رضا الطلاب", "desc": "التغذية الراجعة التي نتلقاها من آلاف الطلاب كل عام هي أقوى دليل على جودة تعليمنا.", "icon": "Star" }
+    ]
+  },
+  "faq": {
+    "items": [
+      { "q": "متى تأسست أكاديميك إنترناشيونال؟", "a": "تأسست أكاديميك إنترناشيونال منذ ما يقارب نصف قرن، ومنذ ذلك الحين واصلت رفع معايير الجودة في تعليم اللغات الأجنبية." },
+      { "q": "في كم مدينة تقدمون خدماتكم؟", "a": "نخدم في أكثر من 12 فرعاً في إسطنبول وأنقرة وبورصة وإزمير وكوجالي وكثير من المدن التركية الأخرى. كما نقدم فرص الدراسة في الخارج عبر حرمنا الجامعي الأمريكي." },
+      { "q": "ماذا تعني شهادة ISO 9001:2015؟", "a": "ISO 9001:2015 معيار دولي معترف به لنظام إدارة الجودة. أكاديميك إنترناشيونال هي أول مؤسسة في تركيا تحصل على هذه الشهادة في مجال تعليم اللغات الأجنبية." }
+    ]
   }
+},
+"yayinlarimizPage": {
+  "meta": {
+    "title": "منشوراتنا | The Academic Publishing | مدارس أكاديميك الدولية للغات",
+    "description": "كتب تعليم اللغة ومواد التحضير للاختبارات من دار نشر The Academic Publishing، تأسست في لندن عام 2017، مصممة حصرياً للبالغين."
+  },
+  "hero": {
+    "tag": "THE ACADEMIC PUBLISHING",
+    "title": "منشوراتنا",
+    "customerServiceBtn": "تواصل مع خدمة العملاء الآن!",
+    "infoBtn": "احصل على معلومات الآن!",
+    "whatsappBtn": "معلومات واتساب",
+    "formRibbon": "نموذج المعلومات",
+    "formTitle": "درس تجريبي مجاني!",
+    "formSubtitle": "تعليم اللغة بضمان المحادثة!",
+    "namePlaceholder": "أدخل اسمك الكامل.",
+    "phonePlaceholder": "أدخل رقم هاتفك.",
+    "branchPlaceholder": "اختر الفرع.",
+    "submitBtn": "احصل على المعلومات الآن!",
+    "formDisclaimer": "بملء هذا النموذج، أقبل الإشعار القانوني / شروط الاستخدام."
+  },
+  "intro": {
+    "title": "منشوراتنا",
+    "paragraphs": [
+      "تُعدّ أكاديميك إنترناشيونال أول مدرسة لغات تضيف بُعداً جديداً لنظام تعليم اللغات الأجنبية الوطني في تركيا، من خلال تصميم محتوى تعليمي خاص بالبالغين. قدّمت مؤسستنا حتى الآن خدمات تعليم اللغات لآلاف طلاب الجامعات والأكاديميين والصحفيين والمسؤولين وكبار المدراء والموظفين في القطاعين العام والخاص.",
+      "بهدف إضافة بُعد جديد لتعليم اللغة الأكاديمية وتقديم قيمة مضافة، أسّست أكاديميك للغات الأجنبية دار نشر The Academic Publishing عام 2017 بمقرها في لندن. منشوراتنا المُعدّة بالتعاون الجماعي للجنتنا اللغوية المؤلفة من أساتذة أكاديميين ومدرسين من أصحاب اللغة الأم، ستساعدك على النظر إلى تعلم اللغة من منظور مختلف والوصول إلى مستواك المطلوب في وقت أقصر.",
+      "مصادرنا المُعدّة وفق منهجية تراعي التغيرات في الاستخدام اللغوي واستراتيجيات الاختبارات المتطورة، والمحدّثة باستمرار، ستُحدث فارقاً كبيراً في رحلة تعلّمك وتحضيرك للاختبارات.",
+      "تم إعداد مصادر تعليمية للغة الأجنبية مناسبة لكفاءات المتعلمين الأتراك، لكل مستوى على حدة، مع التركيز ليس فقط على القواعد بل على تطوير مهارات التحدث والكتابة والاستماع والقراءة معاً.",
+      "استكملت اللجنة الأكاديمية للغات الأجنبية أعمال النشر المتعلقة بالاختبارات المعترف بها دولياً (YDS وYÖKDİL وIELTS وTOEFL وTOEIC وProficiency).",
+      "نفخر بوقوفنا إلى جانبكم بمصادر خالية من المعلومات غير الضرورية وموجّهة نحو الهدف، لمساعدتكم على الوصول إلى أهدافكم المهنية والأكاديمية بسرعة مع أكاديميك إنترناشيونال."
+    ]
+  },
+  "publications": {
+    "title": "منشورات خاصة مصممة حصرياً للبالغين",
+    "subtitle": "مجانية للطلاب المسجلين",
+    "features": [
+      "تصميم داخلي غني",
+      "محتوى مخصص للبالغين",
+      "نهج مبتكر"
+    ],
+    "books": [
+      { "name": "PREP GRAMMAR", "type": "قواعد وتلميحات نحوية، تمارين" },
+      { "name": "PREP READING", "type": "مفردات، تكوين الكلمات، استماع" },
+      { "name": "PREP WORKBOOK", "type": "قراءة، قواعد، تمارين" },
+      { "name": "ACADEMIC GRAMMAR", "type": "قواعد متقدمة، كتابة أكاديمية" },
+      { "name": "ACADEMIC READING", "type": "فهم القراءة، التفكير النقدي" },
+      { "name": "ACADEMIC WORKBOOK", "type": "مهارات متكاملة، تدريب على الاختبارات" },
+      { "name": "YDS / YÖKDİL PREP", "type": "استراتيجيات الاختبار، أسئلة نموذجية" },
+      { "name": "IELTS / TOEFL PREP", "type": "استراتيجيات الدرجات، اختبارات محاكاة كاملة" }
+    ]
+  },
+  "whyUs": {
+    "title": "لماذا The Academic Publishing؟",
+    "subtitle": "المزايا الفريدة التي تقدمها دار النشر لطلابنا في أكاديميك إنترناشيونال",
+    "advantages": [
+      {
+        "title": "دار نشر مقرها لندن",
+        "desc": "تأسست The Academic Publishing عام 2017، وتنتج منشورات بمعايير دولية من مقرها في لندن.",
+        "icon": "Globe"
+      },
+      {
+        "title": "كادر أكاديمي",
+        "desc": "تُعدّ المواد من قِبل لجنة من الأساتذة الأكاديميين في جامعات تركيا الرائدة ومدرسين من أصحاب اللغة الأم.",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "محتوى حسب المستوى",
+        "desc": "مواد مُصمَّمة لكل مستوى لغوي من A1 إلى C2، مع التوازن بين مهارات التحدث والكتابة والقراءة والاستماع.",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "محتوى موجّه للاختبارات",
+        "desc": "مصادر موجّهة نحو الهدف وخالية من المعلومات غير الضرورية لاختبارات YDS وYÖKDİL وIELTS وTOEFL وTOEIC وProficiency.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "هل منشوراتكم متاحة فقط لطلاب الدورات؟",
+        "a": "تُقدَّم منشوراتنا مجاناً بصفة أساسية لطلاب أكاديميك إنترناشيونال. يُرجى التواصل معنا للاستفسار عن قنوات الشراء خارج الدورات."
+      },
+      {
+        "q": "ما المستويات اللغوية التي صُممت لها الكتب؟",
+        "a": "توجد مواد منفصلة لجميع المستويات اللغوية من المبتدئ (A1) إلى المتقدم (C1-C2). تُحدَّد المجموعة المناسبة بناءً على نتائج اختبار تحديد مستواك."
+      },
+      {
+        "q": "هل كتب The Academic Publishing كافية للتحضير للاختبارات؟",
+        "a": "منشوراتنا، التي تقدم محتوى شاملاً لاختبارات YDS وYÖKDİL وIELTS وTOEFL وTOEIC وProficiency، تُحدَّث بانتظام بالتوازي مع استراتيجيات الاختبارات الحالية."
+      }
+    ]
+  }
+},
+"nedenAkademikPage": {
+  "meta": {
+    "title": "لماذا دورات أكاديميك للغات؟ | أكاديميك إنترناشيونال",
+    "description": "اكتشف لماذا تتميز أكاديميك إنترناشيونال: كادر متخصص، جودة معتمدة بـ ISO، منشورات أصيلة، دروس أونلاين، ورضا الطلاب بنسبة 97%."
+  },
+  "hero": {
+    "tag": "أكاديميك إنترناشيونال",
+    "title": "لماذا دورات أكاديميك للغات؟",
+    "subtitle": "نموذجنا التعليمي وكادرنا المتخصص والامتيازات التي نقدمها لك",
+    "customerServiceBtn": "تواصل مع خدمة العملاء الآن!",
+    "infoBtn": "احصل على معلومات مسبقة الآن!",
+    "whatsappBtn": "معلومات واتساب",
+    "formRibbon": "نموذج الاستفسار",
+    "formTitle": "درس تجريبي مجاني!",
+    "formSubtitle": "تعليم لغوي بضمان التحدث!",
+    "namePlaceholder": "أدخل اسمك الكامل.",
+    "phonePlaceholder": "أدخل رقم هاتفك المحمول.",
+    "branchPlaceholder": "اختر الفرع.",
+    "submitBtn": "احصل على المعلومات الآن!",
+    "formDisclaimer": "بملء هذا النموذج، أوافق على الإشعار القانوني / شروط الاستخدام."
+  },
+  "intro": {
+    "title": "لماذا نحن؟",
+    "paragraphs": [
+      "مع سنوات من الخبرة في تعليم اللغات الأجنبية، طوّرت مدرسة أكاديميك للغات مناهج متوافقة مع متطلبات الصناعة 4.0 للبالغين والأطفال — وكانت الأولى في تركيا التي طوّرت نظاماً تعليمياً مخصصاً للبالغين."
+    ]
+  },
+  "nedenBiz": {
+    "leftTitle": "مزاياها",
+    "leftSubtitle": "المزايا التعليمية الشاملة والنوعية التي تقدمها مدارس أكاديميك إنترناشيونال لطلابها",
+    "features": [
+      {
+        "icon": "GraduationCap",
+        "title": "كادر متخصص",
+        "description": "توفر مدارس أكاديميك إنترناشيونال تعليماً لغوياً متميزاً عبر فريق خبراء يمتلك سنوات طويلة من الخبرة في مجال تعليم اللغات."
+      },
+      {
+        "icon": "Monitor",
+        "title": "الدروس الأونلاين",
+        "description": "مع منصة Letslingo، الأكثر تفاعلية وشمولاً في تركيا، يمكنك الانضمام إلى دروس مرئية وصوتية في أي وقت ومن أي مكان."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "نوادي المحادثة",
+        "description": "دروس المحادثة الإنجليزية لدينا مصممة للمستويين اليومي والمتقدم. تتضمن الجلسات مع مدرسين ناطقين بالإنجليزية أنشطة وتمارين متنوعة لتطوير مهارات الكلام."
+      },
+      {
+        "icon": "Award",
+        "title": "رضا الطلاب",
+        "description": "أول مدرسة لغات في تركيا تحصل على شهادتَي ISO 9001:2015 و10002:2018، وتحقق نسبة رضا تبلغ 97% بين الطلاب."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "منشورات أصيلة",
+        "description": "طوّرت دار نشرنا THE ACADEMIC PUBLISHING، ومقرها لندن، مصادر أصيلة مُكيَّفة مع البنية اللغوية التركية، بالتأليف المشترك بين كتّاب ناطقين وعلماء لغة أتراك."
+      }
+    ],
+    "rightTitle": "لماذا أكاديميك إنترناشيونال؟",
+    "rightSubtitle": "المزايا التعليمية التي نقدمها لطلابنا الكرام الذين يختارون دورات أكاديميك إنترناشيونال",
+    "accordion": [
+      {
+        "q": "تعليم لغوي نوعي",
+        "a": "مدرستنا — التي رسّخت منهجاً فريداً للبالغين في تركيا — تقدم تعليم اللغات الأجنبية بـ 14 لغة بما فيها الإنجليزية والألمانية والفرنسية والإسبانية، مع التركيز على تطوير المهارات الأربع الأساسية: الكلام والقراءة والاستماع والكتابة."
+      },
+      {
+        "q": "برامج لغوية وفق المستوى",
+        "a": "بعد اختبار تحديد مستوى مجاني، يُوضع لك برنامج دراسي مناسب. بفضل مناهجنا التي يُعدّها متخصصو اللغة، ستبلغ مستواك المستهدف من المبتدئ إلى المتقدم."
+      },
+      {
+        "q": "إتقان المهارات اللغوية الأربع",
+        "a": "نرى أن التعليم المتمحور حول قواعد اللغة هو أكبر ثغرة في تعليم اللغات. لمعالجة ذلك، ندمج القراءة والاستماع والكتابة والكلام في مناهجنا، مما يمنح الطلاب فرصة تعلم اللغات بشكل متكامل."
+      },
+      {
+        "q": "موضوعات راهنة – محتوى ثري",
+        "a": "بالتركيز على الوحدات المعجمية كالعبارات والتراكيب والأفعال المركبة، فضلاً عن علم الدلالة، يساعدك تدريبنا على دمج مهارات اللغة في القراءة والكتابة والكلام والاستماع للوصول إلى أعلى مستويات الكفاءة اللغوية."
+      },
+      {
+        "q": "ما نظام التدريس المتبع في دورات الإنجليزية؟",
+        "a": "مؤسستنا، الأولى في تركيا التي وضعت مناهج لتعليم اللغات للبالغين، تُعدّ مناهج مخصصة لكل فئة عمرية. باستخدام مصادر أصيلة من The Academic Publishing، يُتناول الموضوعات الحديثة والراهنة لرفع كفاءتك اللغوية إلى أقصى مستوى."
+      }
+    ]
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      {
+        "q": "ما الذي يميز أكاديميك إنترناشيونال عن مدارس اللغات الأخرى؟",
+        "a": "كنا أول من أنشأ نظاماً لتعليم اللغات الأجنبية مخصصاً للبالغين في تركيا، ونقدم تعليماً جيداً معتمداً بشهادتَي ISO 9001:2015 و10002:2018."
+      },
+      {
+        "q": "ما المستويات التي تُدرَّسون؟",
+        "a": "ندرّس جميع المستويات من المبتدئ إلى المتقدم. يُحدَّد البرنامج الأنسب لك عبر اختبار تحديد مستوى مجاني."
+      },
+      {
+        "q": "هل الدروس الأونلاين متاحة؟",
+        "a": "نعم، عبر منصة Letslingo يمكنك الانضمام إلى دروس مرئية وصوتية في أي وقت ومن أي مكان."
+      }
+    ]
+  }
+}
 }

@@ -5,51 +5,16 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./ProgramTabsSection.module.css";
 function AnimatedProgramCard({ card, styles }: { card: any; styles: any }) {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [hovered, setHovered] = useState(false);
-
-  const handleMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    setMousePos({
-      x: (x / rect.width - 0.5) * 25,
-      y: (y / rect.height - 0.5) * -25,
-    });
-  };
-
-  const handleEnter = () => setHovered(true);
-  const handleLeave = () => {
-    setHovered(false);
-    setMousePos({ x: 0, y: 0 });
-  };
-
   return (
     <motion.div
       layout
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{
-        opacity: 1,
-        scale: 1,
-        rotateX: mousePos.y,
-        rotateY: mousePos.x,
-        z: hovered ? 30 : 0,
-      }}
-      exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ type: "spring", stiffness: 400, damping: 35, mass: 0.8 }}
-      className={`${styles.card} group relative w-full overflow-hidden transform-gpu transition-all duration-500 ease-out`}
-      onMouseMove={handleMove}
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
-      style={{ transformStyle: "preserve-3d", perspective: "1200px" }}
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.95 }}
+      transition={{ duration: 0.3 }}
+      className={styles.card}
     >
-      {/* Background Image Layer (pushed back for parallax) */}
-      <motion.div
-        className="absolute inset-0 w-full h-full"
-        animate={{ scale: hovered ? 1.05 : 1 }}
-        transition={{ duration: 0.4 }}
-        style={{ transform: "translateZ(-10px)" }}
-      >
+      <div className={styles.cardImgWrapper}>
         <Image
           src={card.img}
           alt={`${card.title.replace(/\n/g, " ")}`}
@@ -58,60 +23,34 @@ function AnimatedProgramCard({ card, styles }: { card: any; styles: any }) {
           className={styles.cardImg}
         />
         <div className={styles.gradientOverlay}></div>
-      </motion.div>
+      </div>
 
-      {/* Glare/Shine Effect Layer */}
-      <motion.div
-        className="absolute inset-0 rounded-2xl overflow-hidden pointer-events-none"
-        style={{ transform: "translateZ(15px)" }}
-      >
-        <motion.div
-          className="absolute -inset-full"
-          animate={{
-            background: hovered
-              ? `linear-gradient(${mousePos.x + 135}deg, transparent 40%, rgba(255,255,255,0.25) 50%, transparent 60%)`
-              : "transparent",
-          }}
-          transition={{ duration: 0.3 }}
-        />
-      </motion.div>
-
-      {/* Foreground Content Layer (pulled forward for parallax) */}
-      <motion.div
-        style={{ transform: "translateZ(20px)" }}
-        className="relative z-20 w-full h-full flex flex-col pointer-events-none"
-      >
-        {/* Top Right Icons */}
-        <div className={styles.iconStack}>
-          <div className={styles.flagsWrapper}>
-            {card.flags.map((flag: string, i: number) => (
-              <div key={i} className={styles.flagIcon}>
-                {flag}
-              </div>
-            ))}
-          </div>
-          <div className={styles.smallIcons}>
-            <span>💬</span>
-            <span>📖</span>
-            <span>✍️</span>
-            <span>🎧</span>
-          </div>
+      <div className={styles.iconStack}>
+        <div className={styles.flagsWrapper}>
+          {card.flags.map((flag: string, i: number) => (
+            <div key={i} className={styles.flagIcon}>
+              {flag}
+            </div>
+          ))}
         </div>
-
-        <div className={styles.cardContent}>
-          <motion.h3
-            style={{ textShadow: "0 4px 8px rgba(0,0,0,0.5)" }}
-            animate={{ scale: hovered ? 1.02 : 1 }}
-          >
-            {card.title.split("\n").map((line: string, i: number) => (
-              <React.Fragment key={i}>
-                {line}
-                <br />
-              </React.Fragment>
-            ))}
-          </motion.h3>
+        <div className={styles.smallIcons}>
+          <span>💬</span>
+          <span>📖</span>
+          <span>✍️</span>
+          <span>🎧</span>
         </div>
-      </motion.div>
+      </div>
+
+      <div className={styles.cardContent}>
+        <h3>
+          {card.title.split("\n").map((line: string, i: number) => (
+            <React.Fragment key={i}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </h3>
+      </div>
     </motion.div>
   );
 }
@@ -120,6 +59,12 @@ function AnimatedProgramCard({ card, styles }: { card: any; styles: any }) {
 
 export const ProgramTabsClient = ({ t }: { t: any }) => {
   const [activeTab, setActiveTab] = useState("tum");
+  const [visibleCount, setVisibleCount] = useState(6);
+
+  const handleTabChange = (tab: string) => {
+    setActiveTab(tab);
+    setVisibleCount(6);
+  };
 
   // ... (unchanged programCards definition) ...
   const programCards = [
@@ -254,19 +199,19 @@ export const ProgramTabsClient = ({ t }: { t: any }) => {
         <div className={styles.tabsContainer}>
           <button
             className={`${styles.tabBtn} ${activeTab === "tum" ? styles.active : ""}`}
-            onClick={() => setActiveTab("tum")}
+            onClick={() => handleTabChange("tum")}
           >
             {t?.tabs?.tum || "TÜM PROGRAMLAR"}
           </button>
           <button
             className={`${styles.tabBtn} ${activeTab === "nitelikli" ? styles.active : ""}`}
-            onClick={() => setActiveTab("nitelikli")}
+            onClick={() => handleTabChange("nitelikli")}
           >
             {t?.tabs?.nitelikli || "NİTELİKLİ DİL KURSLARI"}
           </button>
           <button
             className={`${styles.tabBtn} ${activeTab === "sinav" ? styles.active : ""}`}
-            onClick={() => setActiveTab("sinav")}
+            onClick={() => handleTabChange("sinav")}
           >
             {t?.tabs?.sinav || "AKADEMİK SINAV KURSLARI"}
           </button>
@@ -274,10 +219,29 @@ export const ProgramTabsClient = ({ t }: { t: any }) => {
 
         <div className={styles.cardsGrid}>
           <AnimatePresence mode="popLayout">
-            {filteredCards.map((card) => (
+            {filteredCards.slice(0, visibleCount).map((card) => (
               <AnimatedProgramCard key={card.id} card={card} styles={styles} />
             ))}
           </AnimatePresence>
+        </div>
+        
+        <div className={styles.showMoreContainer}>
+          {filteredCards.length > visibleCount && (
+            <button 
+              className={styles.showMoreBtn}
+              onClick={() => setVisibleCount(prev => prev + 6)}
+            >
+              {t?.tabs?.showMore || "Daha Fazla Göster"}
+            </button>
+          )}
+          {visibleCount > 6 && (
+            <button 
+              className={styles.showLessBtn}
+              onClick={() => setVisibleCount(6)}
+            >
+              {t?.tabs?.showLess || "Daha Az Göster"}
+            </button>
+          )}
         </div>
     </>
   );

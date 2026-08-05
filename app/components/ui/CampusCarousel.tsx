@@ -11,5 +11,5 @@ export const CampusCarousel = async ({ lang }: Props) => {
 
   if (!campusesData.length) return null;
 
-  return <CampusCarouselClient campusesData={campusesData} />;
+  return <CampusCarouselClient campusesData={campusesData} lang={lang} />;
 };

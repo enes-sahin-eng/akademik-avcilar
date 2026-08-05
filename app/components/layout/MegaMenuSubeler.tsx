@@ -1,13 +1,19 @@
 "use client";
 import Image from 'next/image';
+import Link from 'next/link';
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Building2, Phone } from "lucide-react";
 import styles from "./MegaMenu.module.css";
+import { usePathname } from "next/navigation";
+import { FranchiseModal } from "./FranchiseModal";
 
 export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
   const megaMenu = data;
+  const pathname = usePathname();
+  const lang = pathname.split("/")[1] || "tr";
+  const [franchiseOpen, setFranchiseOpen] = useState(false);
 
   if (!megaMenu) return null;
 
@@ -30,7 +36,11 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
             <ul className={styles.subelerList}>
               {megaMenu.activeCampusesCol1.map((item: any, idx: number) => (
                 <li key={idx} className={styles.subelerItem}>
-                  <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  {item.href ? (
+                    <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
+                  ) : (
+                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  )}
                   {item.badge && <span className={styles.subelerBadge}>{item.badge}</span>}
                 </li>
               ))}
@@ -38,7 +48,11 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
             <ul className={styles.subelerList}>
               {megaMenu.activeCampusesCol2.map((item: any, idx: number) => (
                 <li key={idx} className={styles.subelerItem}>
-                  <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  {item.href ? (
+                    <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
+                  ) : (
+                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  )}
                   {item.badge && <span className={styles.subelerBadge}>{item.badge}</span>}
                 </li>
               ))}
@@ -56,14 +70,24 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
             <ul className={styles.subelerList}>
               {megaMenu.expandingCol1.map((item: any, idx: number) => (
                 <li key={idx} className={styles.subelerItem}>
-                  <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  {item.href ? (
+                    <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
+                  ) : (
+                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  )}
                 </li>
               ))}
             </ul>
             <ul className={styles.subelerList}>
               {megaMenu.expandingCol2.map((item: any, idx: number) => (
                 <li key={idx} className={styles.subelerItem}>
-                  <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  {item.openFranchise ? (
+                    <button className={`${styles.subelerLink} ${styles.subelerLinkBtn}`} onClick={() => setFranchiseOpen(true)}>{item.name}</button>
+                  ) : item.href ? (
+                    <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
+                  ) : (
+                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -97,15 +121,29 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
             </div>
           </div>
           
-          <button className={styles.subelerBtnBlue}>
-            {megaMenu.promo.button1}
-          </button>
-          
-          <button className={styles.subelerBtnGray}>
+          {megaMenu.promo.button1Href ? (
+            <Link href={`/${lang}${megaMenu.promo.button1Href}`} className={styles.subelerBtnBlue}>
+              {megaMenu.promo.button1}
+            </Link>
+          ) : (
+            <button className={styles.subelerBtnBlue}>
+              {megaMenu.promo.button1}
+            </button>
+          )}
+
+          <button className={styles.subelerBtnRed} onClick={() => setFranchiseOpen(true)}>
             {megaMenu.promo.button2}
           </button>
         </div>
       </div>
+
+      {megaMenu.promo.franchiseModal && (
+        <FranchiseModal
+          isOpen={franchiseOpen}
+          onClose={() => setFranchiseOpen(false)}
+          labels={megaMenu.promo.franchiseModal}
+        />
+      )}
     </motion.div>
   );
 };

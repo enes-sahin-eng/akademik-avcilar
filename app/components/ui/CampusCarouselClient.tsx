@@ -1,13 +1,15 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Phone } from "lucide-react";
 import styles from "./CampusCarousel.module.css";
 import { motion, useInView } from "framer-motion";
 
 import Image from "next/image";
 
-export const CampusCarouselClient = ({ campusesData }: { campusesData: any[] }) => {
+export const CampusCarouselClient = ({ campusesData, lang }: { campusesData: any[]; lang: string }) => {
+  const router = useRouter();
 
 
 
@@ -91,13 +93,11 @@ export const CampusCarouselClient = ({ campusesData }: { campusesData: any[] }) 
           {campusesData.map((campus: any, idx: number) => (
             <motion.div
               key={idx}
-              className={styles.campusItem}
+              className={`${styles.campusItem}${campus.href ? ` ${styles.campusItemClickable}` : ""}`}
               variants={itemVariants}
-              whileHover={{
-                scale: 1.05,
-                y: -10,
-              }}
+              whileHover={{ scale: 1.05, y: -10 }}
               whileTap={{ scale: 0.98 }}
+              onClick={() => campus.href && router.push(`/${lang}${campus.href}`)}
             >
               <motion.div
                 className={styles.campusImgWrapper}
@@ -119,6 +119,7 @@ export const CampusCarouselClient = ({ campusesData }: { campusesData: any[] }) 
                 <a
                   href={`tel:${campus.phone.replace(/\s/g, "")}`}
                   className={styles.campusPhone}
+                  onClick={(e) => e.stopPropagation()}
                 >
                   <Phone size={16} fill="currentColor" /> {campus.phone}
                 </a>

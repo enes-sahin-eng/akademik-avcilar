@@ -1,7 +1,7 @@
 .sectionContainer {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto;
   padding: 0 16px;
 }
 
@@ -27,12 +27,26 @@
   font-size: 24px;
   font-weight: 800;
   color: var(--text-primary);
-  margin: 40px 0 20px 0;
-  padding-top: 40px;
-  border-top: 1px solid var(--border-subtle);
+  margin: 0 0 30px 0;
+  padding-top: 0;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
+}
+
+.fullWidthBeige {
+  width: 100%;
+  background-color: #f7f6f1;
+  padding: 60px 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.innerContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 @media (max-width: 1024px) {
@@ -49,6 +63,6 @@
   .programsTitle {
     font-size: 20px;
     margin: 30px 0 16px 0;
-    padding-top: 30px;
+    padding-top: 0;
   }
 }

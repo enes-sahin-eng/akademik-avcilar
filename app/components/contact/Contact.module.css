@@ -395,6 +395,11 @@
   border-color: var(--accent-red);
 }
 
+.campusImageLink {
+  display: block;
+  text-decoration: none;
+}
+
 .campusImageWrapper {
   position: relative;
   width: 100%;

@@ -1,0 +1,194 @@
+.wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: -80px auto 40px auto; /* Desktop Overlap */
+  padding: 0 16px;
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    margin: 20px auto 40px auto; /* Remove overlap on mobile/tablet */
+    padding: 0 16px;
+  }
+  
+  .scrollContainer {
+    flex-wrap: wrap; /* Wrap on tablet/mobile */
+    justify-content: center;
+    overflow-x: visible;
+    padding-bottom: 0;
+  }
+  
+  .card {
+    min-width: calc(50% - 16px);
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    min-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+.scrollContainer {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-top: 16px; /* Space for hover transform */
+  padding-bottom: 24px; /* Space for scrollbar */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.card {
+  flex: 0 0 280px; /* Fixed width for cards */
+  scroll-snap-align: start;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.4) 100%);
+  pointer-events: none;
+}
+
+/* Base Content */
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.5px;
+}
+
+.desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Footer of the card */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover .btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.iconWrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Themes based on the image */
+.themeBlue {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+.themeBlue .iconWrapper { background-color: #1e3c72; border: 2px solid rgba(255,255,255,0.2); }
+
+.themePurple {
+  background: linear-gradient(135deg, #4b134f 0%, #c94b4b 100%);
+}
+.themePurple .iconWrapper { background-color: #ff9f1c; color: #fff; border: 2px solid rgba(255,255,255,0.2); }
+
+.themeGreen {
+  background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+}
+.themeGreen .iconWrapper { background-color: #134e5e; border: 2px solid rgba(255,255,255,0.2); }
+
+.themeBrown {
+  background: linear-gradient(135deg, #603813 0%, #b29f94 100%);
+}
+.themeBrown .iconWrapper { background-color: #603813; border: 2px solid rgba(255,255,255,0.2); }
+
+.themeDarkBlue {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+}
+.themeDarkBlue .iconWrapper { background-color: #2c5364; border: 2px solid rgba(255,255,255,0.2); }
+
+.themeDarkRed {
+  background: linear-gradient(135deg, #870000 0%, #190a05 100%);
+}
+.themeDarkRed .iconWrapper { background-color: #ff0000; color: #fff; border: 2px solid rgba(255,255,255,0.2); }
+
+.themeOlive {
+  background: linear-gradient(135deg, #3f4c6b 0%, #606c88 100%); /* Adjusted olive to a nicer dark tone */
+  background: linear-gradient(135deg, #4b5320 0%, #2b3310 100%); 
+}
+.themeOlive .iconWrapper { background-color: #d4af37; color: #fff; border: 2px solid rgba(255,255,255,0.2); }
