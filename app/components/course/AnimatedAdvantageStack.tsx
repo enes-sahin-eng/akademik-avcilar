@@ -106,6 +106,12 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
   const [items, setItems] = useState<AdvantageWithId[]>(
     advantages.map((adv, i) => ({ ...adv, uniqueId: i }))
   );
+  
+  React.useEffect(() => {
+    setItems(advantages.map((adv, i) => ({ ...adv, uniqueId: i })));
+    setNextId(advantages.length);
+  }, [advantages]);
+
   const [nextId, setNextId] = useState(advantages.length);
   const [isAnimating, setIsAnimating] = useState(false);
 

@@ -18,30 +18,36 @@ export const HomeContentSection = async ({ lang }: Props) => {
   const programsTitle = (dict as any)?.homeContentSection?.programsTitle;
 
   return (
-    <section className={styles.sectionContainer}>
-      <div className={styles.grid}>
+    <>
+      <section className={styles.sectionContainer}>
+        <div className={styles.grid}>
 
-        {/* Sol kolon — SEO kritik metinler, Reveal/framer-motion YOK */}
-        <div className={styles.leftColumn}>
-          <HappyHoursBanner lang={lang} />
-          <HomeArticle lang={lang} />
-          <FAQSection lang={lang} />
+          {/* Sol kolon — SEO kritik metinler, Reveal/framer-motion YOK */}
+          <div className={styles.leftColumn}>
+            <HappyHoursBanner lang={lang} />
+            <HomeArticle lang={lang} />
+            <FAQSection lang={lang} />
+          </div>
+
+          {/* Sağ kolon */}
+          <div className={styles.rightColumn}>
+            <Leaderboard lang={lang} />
+            <MapsEmbed />
+          </div>
         </div>
 
-        {/* Sağ kolon */}
-        <div className={styles.rightColumn}>
-          <Leaderboard lang={lang} />
-          <MapsEmbed />
+        <ProgramTabsSection lang={lang} />
+      </section>
+
+      <section className={styles.fullWidthBeige}>
+        <div className={styles.innerContainer}>
+          {programsTitle && (
+            <h2 className={styles.programsTitle}>{programsTitle}</h2>
+          )}
+          
+          <UpcomingProgramsTable lang={lang} />
         </div>
-      </div>
-
-      <ProgramTabsSection lang={lang} />
-
-      {programsTitle && (
-        <h2 className={styles.programsTitle}>{programsTitle}</h2>
-      )}
-      
-      <UpcomingProgramsTable lang={lang} />
-    </section>
+      </section>
+    </>
   );
 };

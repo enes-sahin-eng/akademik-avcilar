@@ -6,11 +6,11 @@ interface Props {
   lang: Locale;
 }
 
-export const UpcomingProgramsTable = async ({ lang }: Props) => {
+export const UpcomingProgramsTable = async ({ lang, dictKey = "homeContentSection" }: Props & { dictKey?: string }) => {
   const dict = await getDictionary(lang);
-  const tableData = (dict as any)?.homeContentSection?.upcomingProgramsTable;
+  const tableData = (dict as any)?.[dictKey]?.upcomingProgramsTable;
 
   if (!tableData) return null;
 
-  return <UpcomingProgramsTableClient tableData={tableData} />;
+  return <UpcomingProgramsTableClient tableData={tableData} lang={lang} />;
 };

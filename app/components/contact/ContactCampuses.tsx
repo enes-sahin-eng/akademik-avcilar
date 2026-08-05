@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Phone } from "lucide-react";
 import Image from "next/image";
 import styles from "./Contact.module.css";
@@ -22,19 +23,37 @@ export const ContactCampuses = async ({ lang }: Props) => {
       <div className={styles.campusesGrid}>
         {campusesData.items.map((campus: any, index: number) => (
           <div key={index} className={styles.campusCard}>
-            <div className={styles.campusImageWrapper}>
-              <div className={styles.campusTopBadge}>{campus.name}</div>
-              <Image
-                src={campus.image || "/brand/logo.png"}
-                alt={campus.name}
-                title={campus.name}
-                fill
-                quality={100}
-                style={{ objectFit: "cover" }}
-                className={styles.campusImage}
-                unoptimized={campus.image?.startsWith("http")}
-              />
-            </div>
+            {campus.href ? (
+              <Link href={`/${lang}${campus.href}`} className={styles.campusImageLink}>
+                <div className={styles.campusImageWrapper}>
+                  <div className={styles.campusTopBadge}>{campus.name}</div>
+                  <Image
+                    src={campus.image || "/brand/logo.png"}
+                    alt={campus.name}
+                    title={campus.name}
+                    fill
+                    quality={100}
+                    style={{ objectFit: "cover" }}
+                    className={styles.campusImage}
+                    unoptimized={campus.image?.startsWith("http")}
+                  />
+                </div>
+              </Link>
+            ) : (
+              <div className={styles.campusImageWrapper}>
+                <div className={styles.campusTopBadge}>{campus.name}</div>
+                <Image
+                  src={campus.image || "/brand/logo.png"}
+                  alt={campus.name}
+                  title={campus.name}
+                  fill
+                  quality={100}
+                  style={{ objectFit: "cover" }}
+                  className={styles.campusImage}
+                  unoptimized={campus.image?.startsWith("http")}
+                />
+              </div>
+            )}
             <div className={styles.campusInfoBox}>
               <div className={styles.campusLabel}>{campus.label}</div>
               <a

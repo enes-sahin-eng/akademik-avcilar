@@ -3,6 +3,7 @@ import { HeroSlider } from "../components/home/HeroSlider";
 import { HeroQuickNav } from "../components/course/HeroQuickNav";
 import { MiniGallery } from "../components/home/MiniGallery";
 import { CampusCarousel } from "../components/ui/CampusCarousel";
+import { CampusLocation } from "../components/campus/CampusLocation";
 import { HomeContentSection } from "../components/home/HomeContentSection";
 import { StudentReviewsAndAwards } from "../components/home/StudentReviewsAndAwards";
 import { WhatsAppButton } from "../components/ui/WhatsAppButton";
@@ -21,10 +22,13 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <div>
-      <h1 className="sr-only">Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu</h1>
+      <h1 className="sr-only">
+        Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu
+      </h1>
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
       <HeroQuickNav lang={lang} />
+      <CampusLocation courseKey="homePage" lang={lang} />
       <MiniGallery />
       <CampusCarousel lang={lang} />
       <HomeContentSection lang={lang} />

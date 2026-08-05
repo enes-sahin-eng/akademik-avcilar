@@ -59,8 +59,24 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [İzmir Almanca Aile Birleşimi Kursu](https://avcilarakademik.com.tr/izmir-almanca-aile-birlesimi-kursu): İzmir ve çevresinden Almanya aile birleşimi vizesine başvuracak adaylar için Ege bölgesine özel A1 seviyesi konuşma odaklı hazırlık programı.
 
 ## Lokasyon Bazlı Dil Kursları
-- [Kadıköy Almanca Kursu](https://avcilarakademik.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlığı ve esnek programlarla Almanca eğitim.
-- [Beşiktaş Fransızca Kursu](https://avcilarakademik.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlığı ve konuşma odaklı Fransızca eğitim.
+- [Kadıköy Almanca Kursu](https://avcilarakademik.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy Şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlı ve esnek programlarla Almanca eğitim.
+- [Kadıköy İngilizce Dil Kursu](https://avcilarakademik.com.tr/kadikoy-ingilizce-dil-kursu): İstanbul Kadıköy'de Native Speaker eğitmenler, speaking odaklı sınıflar ve Akademik Publishing kaynaklarıyla nitelikli İngilizce kursu.
+- [Beşiktaş Fransızca Kursu](https://avcilarakademik.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş Şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlı ve konuşma odaklı Fransızca eğitim.
+
+## Şube Lokasyon Sayfaları (İngilizce)
+- [Avcılar İngilizce Dil Kursu](https://avcilarakademik.com.tr/avcilar-ingilizce-dil-kursu): Akademik International'ın genel merkez şubesi Avcılar'da yetişkin, öğrenci ve kurumsal gruplara özel İngilizce dil kursu.
+- [İstanbul İngilizce Kursu](https://avcilarakademik.com.tr/istanbul-ingilizce-kursu): İstanbul genelinde merkezi lokasyon ve esnek ders saatleriyle nitelikli İngilizce eğitimi.
+- [Bursa FSM İngilizce Dil Kursu](https://avcilarakademik.com.tr/bursa-ingilizce-dil-kursu-fsm): Bursa FSM şubesinde IELTS Test Venue onaylı, native speaker eğitmenlerle İngilizce kursu.
+- [İstanbul Çekmeköy İngilizce Dil Kursu](https://avcilarakademik.com.tr/cekmekoy-ingilizce-dil-kursu): İstanbul Çekmeköy şubesinde yetişkin ve öğrencilere yönelik nitelikli İngilizce eğitimi.
+- [Bursa Görükle İngilizce Dil Kursu](https://avcilarakademik.com.tr/gorukle-ingilizce-dil-kursu): Bursa Görükle şubesinde Uludağ Üniversitesi çevresinde akademik odaklı İngilizce kursu.
+- [Ankara İngilizce Dil Kursu](https://avcilarakademik.com.tr/ankara-ingilizce-dil-kursu): Ankara şubesinde IELTS Test Venue onaylı, akademik ve genel İngilizce programları.
+- [İzmir İngilizce Dil Kursu](https://avcilarakademik.com.tr/izmir-ingilizce-dil-kursu): İzmir şubesinde IELTS Test Venue onaylı, Ege bölgesine özel İngilizce eğitim programları.
+- [Kocaeli İzmit İngilizce Dil Kursu](https://avcilarakademik.com.tr/kocaeli-izmit-ingilizce-dil-kursu): Kocaeli İzmit şubesinde yetişkin ve kurumsal gruplara yönelik İngilizce dil kursu.
+- [Tekirdağ Çorlu İngilizce Dil Kursu](https://avcilarakademik.com.tr/corlu-ingilizce-dil-kursu): Tekirdağ Çorlu şubesinde esnek programlarla nitelikli İngilizce eğitimi.
+- [Bursa İnegöl İngilizce Dil Kursu](https://avcilarakademik.com.tr/inegol-ingilizce-dil-kursu): Bursa İnegöl şubesinde yetişkin ve öğrencilere özel İngilizce dil kursu.
+- [Bursa Yıldırım Erikli İngilizce Dil Kursu](https://avcilarakademik.com.tr/yildirim-erikli-ingilizce-dil-kursu): Bursa Yıldırım Erikli şubesinde Ankara Yolu üzerinde kolay ulaşımlı İngilizce eğitim merkezi.
+- [Amerika Kampüsü | Amerika'da Eğitim](https://avcilarakademik.com.tr/amerika): New York'taki özel uluslararası lise ve akademik hazırlık programlarıyla Amerika'da eğitim fırsatları; öğrenci vizesi danışmanlığı ve burs desteği.
+- [Kütahya İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu-kutahya): Kütahya şubesinde özgün müfredat, Native Speaker eğitmenler ve konuşma odaklı sistem ile kaliteli İngilizce eğitimi.
 
 ## Diğer Hizmetler
 - [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
@@ -83,8 +99,5 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Arapça Dil Kursu](https://avcilarakademik.com.tr/arapca-dil-kursu): Modern Standart Arapça ve lehçe eğitimi; akademik, iş ve günlük iletişim amaçlı programlar.
 - [Felemenkçe Dil Kursu](https://avcilarakademik.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
 
-## Şubeler ve Ek Hizmetler
-*(Aktif 12 şubeye ait özel lokasyon sayfaları ile İspanyolca, Fransızca gibi diğer dil eğitim sayfaları yayına alındıkça bu bölüme eklenecektir.)*
-
 ---
-*Son Güncelleme: 4 Ağustos 2026*
+*Son Güncelleme: 5 Ağustos 2026*

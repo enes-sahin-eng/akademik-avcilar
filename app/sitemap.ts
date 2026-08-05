@@ -54,7 +54,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/izmir-almanca-aile-birlesimi-kursu",
     // Lokasyon Bazlı Diğer Dil Kursları
     "/kadikoy-almanca-kursu",
+    "/kadikoy-ingilizce-dil-kursu",
     "/fransizca-kursu-besiktas",
+    // Şube Lokasyon Sayfaları (İngilizce)
+    "/avcilar-ingilizce-dil-kursu",
+    "/istanbul-ingilizce-kursu",
+    "/bursa-ingilizce-dil-kursu-fsm",
+    "/cekmekoy-ingilizce-dil-kursu",
+    "/gorukle-ingilizce-dil-kursu",
+    "/ankara-ingilizce-dil-kursu",
+    "/izmir-ingilizce-dil-kursu",
+    "/kocaeli-izmit-ingilizce-dil-kursu",
+    "/corlu-ingilizce-dil-kursu",
+    "/inegol-ingilizce-dil-kursu",
+    "/yildirim-erikli-ingilizce-dil-kursu",
+    "/amerika",
+    "/ingilizce-kursu-kutahya",
     // Diğer Dil Kursları
     "/ispanyolca-dil-kursu",
     "/fransizca-dil-kursu",
@@ -72,6 +87,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/portekizce-dil-kursu",
     "/arapca-dil-kursu",
     "/flemenkce-dil-kursu",
+    // Hakkımızda
+    "/yayinlarimiz",
+    "/tarihce",
+    "/neden-akademik-yabanci-dil-kurslari",
     // Diğer
     "/tercume-hizmeti",
   ];
@@ -92,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: "2026-08-04",
+        lastModified: "2026-08-05",
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,

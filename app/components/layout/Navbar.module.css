@@ -241,7 +241,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -270,6 +270,7 @@
   color: var(--text-primary);
   font-weight: 800;
   font-size: 18px;
+  flex: 1;
 }
 
 .mainLogo {
@@ -288,7 +289,6 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 1;
   justify-content: center;
 }
 
@@ -332,6 +332,8 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .ctaBtn {

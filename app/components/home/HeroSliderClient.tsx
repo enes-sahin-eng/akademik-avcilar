@@ -27,6 +27,7 @@ export const HeroSliderClient = ({
 
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
   // Otomatik slayt geçişi (5 saniyede bir, mouse üzerine gelince durur)
@@ -40,12 +41,19 @@ export const HeroSliderClient = ({
 
   const nextSlide = () => {
     if (slides.length === 0) return;
+    setDirection(1);
     setCurrentIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
 
   const prevSlide = () => {
     if (slides.length === 0) return;
+    setDirection(-1);
     setCurrentIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  };
+
+  const goToSlide = (index: number) => {
+    setDirection(index > currentIndex ? 1 : -1);
+    setCurrentIndex(index);
   };
 
   if (!slides.length) return null;
@@ -61,13 +69,37 @@ export const HeroSliderClient = ({
       <div className={styles.sliderWrapper}>
         <div className={styles.sliderContainer}>
           {/* ANIMASYONLU GÖRSEL VE YAZI İÇERİĞİ */}
-          <AnimatePresence mode="wait">
+          <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={currentSlide.id || currentIndex}
-              initial={{ opacity: 0, scale: 1.04 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.96 }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
+              custom={direction}
+              variants={{
+                enter: (dir: number) => ({
+                  x: dir > 0 ? 50 : -50,
+                  opacity: 0,
+                  scale: 1.05,
+                }),
+                center: {
+                  zIndex: 1,
+                  x: 0,
+                  opacity: 1,
+                  scale: 1,
+                },
+                exit: (dir: number) => ({
+                  zIndex: 0,
+                  x: dir < 0 ? 50 : -50,
+                  opacity: 0,
+                  scale: 0.98,
+                }),
+              }}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                x: { type: "spring", stiffness: 200, damping: 25 },
+                opacity: { duration: 0.6 },
+                scale: { duration: 0.7, ease: "easeOut" }
+              }}
               className={styles.slideInner}
             >
               {/* Picsum Kapak Görseli */}
@@ -106,7 +138,7 @@ export const HeroSliderClient = ({
             {slides.map((slideItem: Slide, index: number) => (
               <button
                 key={slideItem.id || index}
-                onClick={() => setCurrentIndex(index)}
+                onClick={() => goToSlide(index)}
                 className={`${styles.dot} ${currentIndex === index ? styles.dotActive : ""}`}
                 aria-label={`Slayt ${index + 1}`}
               />
