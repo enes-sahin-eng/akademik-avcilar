@@ -36,7 +36,7 @@
 
 .fullWidthBeige {
   width: 100%;
-  background-color: #f7f6f1;
+  background-color: var(--bg-surface-alt);
   padding: 60px 0;
   margin-top: 60px;
   margin-bottom: 60px;

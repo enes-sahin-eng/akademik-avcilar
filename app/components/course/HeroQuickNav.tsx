@@ -1,38 +1,34 @@
 import React from 'react';
-import Link from 'next/link';
-import { ArrowRight, Building2, Baby, Laptop, Globe, Briefcase, Award, BookOpen } from 'lucide-react';
-import styles from './HeroQuickNav.module.css';
 import { getDictionary, type Locale } from '../../dictionaries/getDictionary';
+import { InteractiveCard } from '../ui/InteractiveCard';
+import styles from './HeroQuickNav.module.css';
 
 interface Props {
   lang: Locale;
 }
 
-const getIcon = (iconName: string) => {
-  switch (iconName) {
-    case 'Building2': return <Building2 size={20} />;
-    case 'Baby': return <Baby size={20} />;
-    case 'Laptop': return <Laptop size={20} />;
-    case 'Globe': return <Globe size={20} />;
-    case 'Briefcase': return <Briefcase size={20} />;
-    case 'Award': return <Award size={20} />;
-    case 'BookOpen': return <BookOpen size={20} />;
-    default: return <ArrowRight size={20} />;
+const cardStyles = [
+  {
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=600",
+    themeColor: "#1e3a8a", 
+    gradient: "linear-gradient(to right, #0f172a, #1e3a8a)",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600",
+    themeColor: "#701a75", 
+    gradient: "linear-gradient(to right, #4a044e, #701a75)",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=600",
+    themeColor: "#0f766e", 
+    gradient: "linear-gradient(to right, #042f2e, #0f766e)",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600",
+    themeColor: "#7f1d1d", 
+    gradient: "linear-gradient(to right, #450a0a, #7f1d1d)",
   }
-};
-
-const getThemeClass = (themeName: string) => {
-  switch (themeName) {
-    case 'blue': return styles.themeBlue;
-    case 'purple': return styles.themePurple;
-    case 'green': return styles.themeGreen;
-    case 'brown': return styles.themeBrown;
-    case 'darkblue': return styles.themeDarkBlue;
-    case 'darkred': return styles.themeDarkRed;
-    case 'olive': return styles.themeOlive;
-    default: return styles.themeBlue;
-  }
-};
+];
 
 export const HeroQuickNav = async ({ lang }: Props) => {
   const dictionary = await getDictionary(lang);
@@ -42,8 +38,9 @@ export const HeroQuickNav = async ({ lang }: Props) => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.scrollContainer}>
+      <div className={styles.gridContainer}>
         {quickNav.map((item: any, index: number) => {
+          const style = cardStyles[index] || cardStyles[0];
           
           // Next.js Link needs to include locale prefix if it's internal
           const href = item.link.startsWith('/') && item.link !== '/' 
@@ -52,23 +49,18 @@ export const HeroQuickNav = async ({ lang }: Props) => {
               ? `/${lang}` 
               : item.link;
 
-          return (
-            <Link key={index} href={href} className={`${styles.card} ${getThemeClass(item.theme)}`}>
-              <div className={styles.content}>
-                <h3 className={styles.title}>{item.title}</h3>
-                <p className={styles.desc}>{item.desc}</p>
-              </div>
-              
-              <div className={styles.footer}>
-                <span className={styles.btn}>
-                  {item.btn} <ArrowRight size={14} />
-                </span>
-                <div className={styles.iconWrapper}>
-                  {getIcon(item.icon)}
-                </div>
-              </div>
-            </Link>
-          );
+          const cardData = {
+            title: item.title,
+            description: item.desc,
+            image: style.image,
+            themeColor: style.themeColor,
+            gradient: style.gradient,
+            iconName: item.icon, 
+            href: href,
+            btnText: item.btn
+          };
+
+          return <InteractiveCard key={index} card={cardData} />;
         })}
       </div>
     </div>

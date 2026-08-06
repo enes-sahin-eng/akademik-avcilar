@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   // You can extend the dictionary later to include this metadata
   const meta = (dict as any)?.genelIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "Genel İngilizce Course | Akademik International" : (lang === 'ar' ? "Genel İngilizce Kursu | Akademik International" : "Genel İngilizce Kursu | Akademik International"),
+    title: lang === 'en' ? "Genel İngilizce Course" : (lang === 'ar' ? "Genel İngilizce Kursu" : "Genel İngilizce Kursu"),
     description: "Sıfırdan başlayarak Genel İngilizce kursları ile İngilizceyi akıcı ve doğru bir şekilde öğrenin. Tüm seviyeler için özel eğitim programları."
   };
 

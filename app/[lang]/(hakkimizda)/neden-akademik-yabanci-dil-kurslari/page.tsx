@@ -34,7 +34,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Neden Akademik Yabancı Dil Kursları? | Akademik International",
+    title: "Neden Akademik Yabancı Dil Kursları?",
     description:
       "Neden Akademik Yabancı Dil Kurslarını tercih etmelisiniz? Eğitim modelimiz, uzman kadromuz ve size sunduğumuz ayrıcalıklar.",
   };

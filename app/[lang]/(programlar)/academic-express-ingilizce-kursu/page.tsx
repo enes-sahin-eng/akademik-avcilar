@@ -30,7 +30,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.academicExpressPage?.meta || {
-    title: lang === 'en' ? "Academic Express İngilizce Course | Akademik International" : (lang === 'ar' ? "Academic Express İngilizce Kursu | Akademik International" : "Academic Express İngilizce Kursu | Akademik International"),
+    title: lang === 'en' ? "Academic Express İngilizce Course" : (lang === 'ar' ? "Academic Express İngilizce Kursu" : "Academic Express İngilizce Kursu"),
     description: "B1 Intermediate seviyesinde, okuma ve konuşma becerilerinizi hızla geliştirecek Academic Express İngilizce kursu."
   };
 

@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 24px;
   color: var(--dropdown-bg);
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: inherit;
 }
 
 .paragraph {
@@ -85,6 +85,6 @@
 }
 
 .highlightText {
-  color: var(--accent-blue, #3b82f6);
+  color: var(--accent-blue, var(--accent-blue));
   font-weight: 700;
 }

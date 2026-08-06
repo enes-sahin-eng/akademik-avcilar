@@ -1,77 +1,360 @@
+/* ═══════════════════════════════════════════════════════════════════
+   AKADEMİK INTERNATIONAL — Premium Tasarım Sistemi
+   Tüm mevcut token isimleri korunmuştur; sadece değerler rafine edildi
+   ve yeni token katmanları eklendi. İki tema tam destekli.
+   ═══════════════════════════════════════════════════════════════════ */
+
 :root {
-  /* LIGHT THEME (Default) */
-  --bg-base: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-surface-hover: #f1f5f9;
-  --bg-surface-alt: #f4f4f5;
-  --bg-inverse: #0f172a;
+  /* ── LIGHT THEME ─────────────────────────────────────────────── */
 
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #94a3b8;
-  --text-inverse: #ffffff;
-  --text-inverse-muted: #cbd5e1;
+  /* Zeminler — açık gri sayfa üstünde beyaz kartlar (derinlik) */
+  --bg-base:          #f6f7fa;
+  --bg-surface:       #ffffff;
+  --bg-surface-hover: #f1f3f7;
+  --bg-surface-alt:   #f4f5f7;
+  --bg-inverse:       #0b2239;
 
-  --border-subtle: #e2e8f0;
-  --border-strong: #cbd5e1;
-  --border-inverse: #334155;
+  /* Metin */
+  --text-primary:       #0f172a;
+  --text-secondary:     #4b5563;
+  --text-muted:         #6b7280;
+  --text-inverse:       #ffffff;
+  --text-inverse-muted: #b9c6d6;
 
-  --nav-bg: #ffffff;
+  /* Kenarlıklar */
+  --border-subtle:  #e6e8ec;
+  --border-strong:  #d2d6dd;
+  --border-inverse: #1b4a7a;
+
+  /* UI yüzeyleri */
+  --nav-bg:      #ffffff;
   --dropdown-bg: #ffffff;
-  --input-bg: #ffffff;
+  --input-bg:    #ffffff;
 
-  --accent-red: #dc2626;
-  --hover-red: #b91c1c;
-  --accent-blue: #3b82f6;
-  --accent-green: #22c55e;
+  /* ── MARKA RENKLERİ ──────────────────────────────────────────── */
+  --accent-navy:      #123a63;
+  --accent-navy-deep: #0b2239;
+  --accent-navy-soft: #1b4a7a;
+
+  --accent-red:  #e11b22;
+  --hover-red:   #b71219;
+
+  --accent-orange:       #f26522;
+  --accent-orange-light: #fb8c3a;
+
+  --accent-blue:  #1b4a7a;
+  --accent-green: #15803d;
+
+  /* Metin için güvenli marka vurgusu.
+     --accent-navy koyu temada zemin rengi olduğu için metinde okunmuyor;
+     bu token koyu temada aydınlanır. Başlık/link vurgularında bunu kullan. */
+  --brand-ink: #123a63;
+
+  /* Marka renklerinin şeffaf tonları (rozet / hafif zemin) */
+  --tint-navy:   rgba(18, 58, 99, 0.08);
+  --tint-red:    rgba(225, 27, 34, 0.08);
+  --tint-orange: rgba(242, 101, 34, 0.10);
+
+  /* Cam yüzeyler (backdrop-filter ile kullanılır) */
+  --glass-soft:   rgba(255, 255, 255, 0.62);
+  --glass-medium: rgba(255, 255, 255, 0.80);
+  --glass-strong: rgba(255, 255, 255, 0.94);
+  --glass-border: rgba(255, 255, 255, 0.72);
+
+  /* ── GÖLGELER — lacivert tonlu, premium derinlik ─────────────── */
+  --shadow-xs:   0 1px 2px rgba(9, 30, 52, 0.05);
+  --shadow-sm:   0 2px 8px -2px rgba(9, 30, 52, 0.08);
+  --shadow-md:   0 8px 22px -10px rgba(9, 30, 52, 0.22);
+  --shadow-lg:   0 14px 34px -22px rgba(9, 30, 52, 0.55);
+  --shadow-xl:   0 24px 54px -24px rgba(9, 30, 52, 0.50);
+  --shadow-2xl:  0 40px 80px -30px rgba(9, 30, 52, 0.55);
+  --shadow-lift: 0 30px 60px -26px rgba(9, 30, 52, 0.70);
+
+  /* Renkli buton gölgeleri */
+  --shadow-orange: 0 8px 20px -8px rgba(242, 101, 34, 0.85);
+  --shadow-red:    0 8px 20px -8px rgba(225, 27, 34, 0.75);
+  --shadow-navy:   0 8px 20px -8px rgba(18, 58, 99, 0.60);
+
+  /* ── KÖŞE YARIÇAPLARI ────────────────────────────────────────── */
+  --radius-xs:   6px;
+  --radius-sm:   9px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   22px;
+  --radius-2xl:  30px;
+  --radius-full: 9999px;
+
+  /* ── TİPOGRAFİ ───────────────────────────────────────────────── */
+  /* NOT: --font-display / --font-body `body` kuralında tanımlanır.
+     next/font değişkenleri (--font-inter, --font-poppins) <body>
+     class'ıyla geldiği için :root scope'unda henüz görünmezler. */
+
+  --tracking-tighter: -0.035em;
+  --tracking-tight:   -0.022em;
+  --tracking-snug:    -0.012em;
+  --tracking-normal:   0;
+  --tracking-wide:     0.06em;
+  --tracking-wider:    0.16em;
+
+  /* ── HAREKET ─────────────────────────────────────────────────── */
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast:   0.2s;
+  --dur-base:   0.3s;
+  --dur-slow:   0.45s;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   DARK THEME — lacivert tabanlı derinlik (saf siyah değil)
+   ═══════════════════════════════════════════════════════════════════ */
 [data-theme="dark"] {
-  /* DARK THEME */
-  --bg-base: #020617;
-  --bg-surface: #0f172a;
-  --bg-surface-hover: #1e293b;
-  --bg-surface-alt: #1e293b;
-  --bg-inverse: #ffffff;
+  --bg-base:          #070f1c;
+  --bg-surface:       #0e1a2c;
+  --bg-surface-hover: #16253b;
+  --bg-surface-alt:   #0b1524;
+  --bg-inverse:       #ffffff;
 
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
-  --text-inverse: #000000;
-  --text-inverse-muted: #475569;
+  --text-primary:       #eef3f9;
+  --text-secondary:     #a3b3c7;
+  --text-muted:         #6b7f97;
+  --text-inverse:       #0b2239;
+  --text-inverse-muted: #4b5563;
 
-  --border-subtle: #1e293b;
-  --border-strong: #334155;
-  --border-inverse: #e2e8f0;
+  --border-subtle:  #1a2a40;
+  --border-strong:  #27395381;
+  --border-inverse: #d2d6dd;
 
-  --nav-bg: #0f172a;
-  --dropdown-bg: #1e293b;
-  --input-bg: #1e293b;
+  --nav-bg:      #0e1a2c;
+  --dropdown-bg: #0e1a2c;
+  --input-bg:    #16253b;
 
-  --accent-red: #dc2626;
-  --hover-red: #ef4444;
-  --accent-blue: #3b82f6;
+  /* Koyu zeminde daha canlı marka tonları (kontrast için) */
+  --accent-navy:      #1b4a7a;
+  --accent-navy-deep: #0b2239;
+  --accent-navy-soft: #2a6199;
+
+  --accent-red:  #f0353c;
+  --hover-red:   #ff5057;
+
+  --accent-orange:       #ff7a33;
+  --accent-orange-light: #ff9a5c;
+
+  --accent-blue:  #4a9eff;
   --accent-green: #22c55e;
+
+  --brand-ink: #7fb5f0;
+
+  --tint-navy:   rgba(74, 158, 255, 0.12);
+  --tint-red:    rgba(240, 53, 60, 0.14);
+  --tint-orange: rgba(255, 122, 51, 0.15);
+
+  --glass-soft:   rgba(14, 26, 44, 0.62);
+  --glass-medium: rgba(14, 26, 44, 0.80);
+  --glass-strong: rgba(14, 26, 44, 0.94);
+  --glass-border: rgba(255, 255, 255, 0.10);
+
+  /* Koyu temada gölgeler daha derin ve saf siyaha yakın */
+  --shadow-xs:   0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-sm:   0 2px 8px -2px rgba(0, 0, 0, 0.45);
+  --shadow-md:   0 8px 22px -10px rgba(0, 0, 0, 0.65);
+  --shadow-lg:   0 14px 34px -18px rgba(0, 0, 0, 0.75);
+  --shadow-xl:   0 24px 54px -22px rgba(0, 0, 0, 0.80);
+  --shadow-2xl:  0 40px 80px -28px rgba(0, 0, 0, 0.85);
+  --shadow-lift: 0 30px 60px -24px rgba(0, 0, 0, 0.90);
+
+  --shadow-orange: 0 8px 22px -8px rgba(255, 122, 51, 0.55);
+  --shadow-red:    0 8px 22px -8px rgba(240, 53, 60, 0.50);
+  --shadow-navy:   0 8px 22px -8px rgba(27, 74, 122, 0.70);
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   RESET
+   ═══════════════════════════════════════════════════════════════════ */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
+  /* Font tokenları burada tanımlanır — next/font değişkenleri body
+     class'ıyla geldiği için bu scope'ta görünür, aşağı da miras kalır. */
+  --font-display: var(--font-poppins, ui-sans-serif), ui-sans-serif, system-ui, sans-serif;
+  --font-body:    var(--font-inter, ui-sans-serif),   ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+
   background-color: var(--bg-base);
   color: var(--text-primary);
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: var(--tracking-snug);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   overflow-x: clip;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  /* DİKKAT: body'ye background/color transition'ı EKLEME.
+     Tema `data-theme` ile mount sonrası JS tarafından değiştiği için
+     transition başlangıç değerinde takılı kalıyor ve koyu temada
+     body açık renkte kalıyordu. Tema geçişi anlık olmalı. */
 }
 
-html {
-  overflow-x: clip;
+/* Arapça — Poppins/Inter Arap alfabesini kapsamaz, sistem yığınına düş */
+[dir="rtl"] body,
+[lang="ar"] body {
+  font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", "Arabic Typesetting", sans-serif;
+  letter-spacing: 0;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   TİPOGRAFİ
+   ═══════════════════════════════════════════════════════════════════ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: var(--tracking-tight);
+  margin: 0;
+  text-wrap: balance;
+  /* DİKKAT: burada `color` TANIMLAMA.
+     Renkli kartların (lacivert/kırmızı zeminli) içindeki başlıklar
+     kapsayıcıdan beyaz rengi miras alıyor; global bir renk bunu ezip
+     başlıkları siyah yapıyor. Renk gerektiğinde bileşende verilmeli. */
+}
+
+h1 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); letter-spacing: var(--tracking-tighter); }
+h2 { font-size: clamp(1.45rem, 2.4vw, 1.95rem); }
+h3 { font-size: clamp(1.1rem, 1.6vw, 1.3rem); font-weight: 700; }
+h4 { font-size: 1.05rem; font-weight: 700; }
+
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
+[dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+  letter-spacing: 0;
+}
+
+p { margin: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img, video, svg {
+  max-width: 100%;
+}
+
+img, video {
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  letter-spacing: inherit;
+}
+
+button { cursor: pointer; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   SEÇİM & ODAK & KAYDIRMA ÇUBUĞU
+   ═══════════════════════════════════════════════════════════════════ */
+::selection {
+  background: var(--tint-orange);
+  color: var(--text-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-orange);
+  outline-offset: 3px;
+  border-radius: var(--radius-xs);
+}
+
+::-webkit-scrollbar        { width: 10px; height: 10px; }
+::-webkit-scrollbar-track  { background: var(--bg-surface-alt); }
+::-webkit-scrollbar-thumb  {
+  background: var(--border-strong);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--bg-surface-alt);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   PAYLAŞILAN PREMIUM YARDIMCI SINIFLAR
+   Global (hash'lenmez) — herhangi bir component'ten kullanılabilir
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Buton üzerinden soldan sağa akan ışık efekti */
+.ak-shine {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.ak-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 32%,
+    rgba(255, 255, 255, 0.30) 46%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.75s var(--ease-out-expo);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ak-shine:hover::after {
+  transform: translateX(130%);
+}
+
+/* Kart yükselme efekti */
+.ak-lift {
+  transition:
+    transform var(--dur-slow) var(--ease-out-expo),
+    box-shadow var(--dur-slow) var(--ease-out-expo);
+  box-shadow: var(--shadow-lg);
+}
+
+.ak-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lift);
+}
+
+/* Bölüm etiketi — küçük, harf aralıklı, turuncu */
+.ak-eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--accent-orange);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   HAREKET AZALTMA TERCİHİ
+   ═══════════════════════════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   ERİŞİLEBİLİRLİK
+   ═══════════════════════════════════════════════════════════════════ */
 .sr-only {
   position: absolute;
   width: 1px;

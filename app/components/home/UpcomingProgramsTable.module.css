@@ -10,7 +10,7 @@
   font-weight: 800;
   text-align: center;
   margin-bottom: 2rem;
-  color: #1f2937;
+  color: var(--text-primary);
 }
 
 @media (max-width: 768px) {
@@ -27,7 +27,7 @@
 }
 
 .programCard {
-  background: #283a42;
+  background: var(--accent-navy-deep);
   border-radius: 24px;
   padding: 24px;
   display: flex;
@@ -44,16 +44,16 @@
 
 /* Gradients for different indexes */
 .glowGreen {
-  background: radial-gradient(circle at top right, rgba(1, 195, 168, 0.15), transparent 60%), #283a42;
+  background: radial-gradient(circle at top right, rgba(1, 195, 168, 0.15), transparent 60%), var(--accent-navy-deep);
 }
 .glowOrange {
-  background: radial-gradient(circle at top right, rgba(255, 183, 65, 0.15), transparent 60%), #283a42;
+  background: radial-gradient(circle at top right, rgba(255, 183, 65, 0.15), transparent 60%), var(--accent-navy-deep);
 }
 .glowRed {
-  background: radial-gradient(circle at top right, rgba(166, 61, 42, 0.15), transparent 60%), #283a42;
+  background: radial-gradient(circle at top right, rgba(166, 61, 42, 0.15), transparent 60%), var(--accent-navy-deep);
 }
 .glowBlue {
-  background: radial-gradient(circle at top right, rgba(24, 144, 255, 0.15), transparent 60%), #283a42;
+  background: radial-gradient(circle at top right, rgba(24, 144, 255, 0.15), transparent 60%), var(--accent-navy-deep);
 }
 
 .programCard:hover {
@@ -120,7 +120,7 @@
 
 .programLevel {
   font-size: 14px;
-  color: #a1a1aa;
+  color: var(--text-muted);
   font-weight: 500;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .spotsUrgent {
-  color: #ef4444;
+  color: var(--accent-red);
 }
 
 .spotsOrange {
@@ -158,7 +158,7 @@
 
 .spotsRatio {
   font-size: 12px;
-  color: #71717a;
+  color: var(--text-muted);
   font-weight: 500;
 }
 
@@ -181,7 +181,7 @@
 .fillOrange { background: #ffb741; }
 .fillRed { background: #a63d2a; }
 .fillBlue { background: #1890ff; }
-.fillUrgent { background: #ef4444; }
+.fillUrgent { background: var(--accent-red); }
 .fillFull { background: #52525b; }
 
 /* Footer */
@@ -253,7 +253,7 @@
 }
 
 .modalContent {
-  background: #ffffff;
+  background: var(--bg-surface);
   border-radius: 16px;
   width: 100%;
   max-width: 650px;
@@ -277,7 +277,7 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  background: white;
+  background: var(--bg-surface);
   color: #333;
   border: none;
   border-radius: 50%;
@@ -330,18 +330,18 @@
 }
 
 .modalTagUrgent {
-  background: #ef4444;
+  background: var(--accent-red);
   color: white;
   animation: pulse 2s infinite;
 }
 
 .modalBody {
   padding: 32px;
-  background: #ffffff;
+  background: var(--bg-surface);
 }
 
 .modalProgressCard {
-  background: #f4f4f5;
+  background: var(--bg-surface-alt);
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 24px;
@@ -350,11 +350,11 @@
 .modalProgressStatusText {
   margin: 12px 0 0 0;
   font-size: 13px;
-  color: #71717a;
+  color: var(--text-muted);
 }
 
 .modalDesc {
-  color: #52525b;
+  color: var(--text-secondary);
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 32px;
@@ -372,13 +372,13 @@
   flex-direction: column;
   gap: 6px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #e4e4e7;
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .modalGridLabel {
   font-size: 11px;
   font-weight: 700;
-  color: #a1a1aa;
+  color: var(--text-muted);
   letter-spacing: 0.5px;
 }
 
@@ -402,7 +402,7 @@
   align-items: flex-start;
   gap: 12px;
   font-size: 14px;
-  color: #52525b;
+  color: var(--text-secondary);
 }
 
 .modalFooterActions {
@@ -416,7 +416,7 @@
   justify-content: center;
   gap: 8px;
   flex: 1;
-  background: #e11d48;
+  background: var(--accent-red);
   color: white;
   padding: 16px;
   border-radius: 12px;
@@ -427,7 +427,7 @@
 }
 
 .modalReserveBtn:hover {
-  background: #be123c;
+  background: var(--hover-red);
 }
 
 .modalPageBtn {
@@ -436,11 +436,11 @@
   justify-content: center;
   gap: 8px;
   flex: 1;
-  background: white;
+  background: var(--bg-surface);
   color: #18181b;
   padding: 16px;
   border-radius: 12px;
-  border: 1px solid #e4e4e7;
+  border: 1px solid var(--border-subtle);
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -448,7 +448,7 @@
 }
 
 .modalPageBtn:hover {
-  background: #f4f4f5;
+  background: var(--bg-surface-alt);
 }
 
 @media (max-width: 640px) {
@@ -483,7 +483,7 @@
 }
 
 .registerBtn:hover {
-  background: #c1121f;
+  background: var(--hover-red);
   transform: translateY(-2px);
 }
 

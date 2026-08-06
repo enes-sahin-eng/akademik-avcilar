@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--glass-medium);
   backdrop-filter: blur(16px);
   border-radius: 24px;
   padding: 40px;
@@ -285,7 +285,7 @@
 }
 
 .submitBtn:hover {
-  background: #1d4ed8;
+  background: var(--accent-navy);
   transform: translateY(-2px);
   box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
 }
@@ -349,7 +349,7 @@
   max-width: 1200px;
   margin: 0 auto 80px auto;
   padding: 40px 20px;
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--glass-medium);
   backdrop-filter: blur(20px);
   border-radius: 24px;
   text-align: center;
@@ -473,7 +473,7 @@
 .campusApplyBtn {
   display: flex;
   margin: 0 auto;
-  background: linear-gradient(135deg, var(--accent-red) 0%, #dc2626 100%);
+  background: linear-gradient(135deg, var(--accent-red) 0%, var(--hover-red) 100%);
   color: white;
   border: none;
   padding: 18px 40px;
@@ -537,5 +537,5 @@
 }
 
 :global([data-theme="dark"]) .corporateValue {
-  color: #e2e8f0;
+  color: var(--text-inverse-muted);
 }

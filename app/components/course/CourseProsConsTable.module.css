@@ -49,7 +49,7 @@
 }
 
 .thPro {
-  background-color: #059669; /* Emerald 600 */
+  background-color: var(--accent-green); /* Emerald 600 */
 }
 
 .thCon {
@@ -89,7 +89,7 @@
 }
 
 .iconPro {
-  color: #059669;
+  color: var(--accent-green);
   flex-shrink: 0;
   margin-top: 2px;
 }

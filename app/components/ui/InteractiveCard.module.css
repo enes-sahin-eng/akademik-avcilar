@@ -1,0 +1,149 @@
+.card {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  z-index: 10;
+  text-decoration: none;
+}
+@media (min-width: 1280px) {
+  .card {
+    height: 220px;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: right;
+  transition: transform 0.7s;
+}
+.card:hover .bgImage {
+  transform: scale(1.05);
+}
+
+.gradientOverlay {
+  position: absolute;
+  inset: 0;
+  width: 120%;
+  height: 100%;
+  opacity: 0.95;
+}
+
+.contentContainer {
+  position: relative;
+  z-index: 10;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  transform: translateZ(30px);
+}
+
+.title {
+  color: white;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  line-height: 1.3;
+  width: 80%;
+  font-weight: 500;
+  margin: 0;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  transition: background-color 0.2s;
+  color: white;
+  pointer-events: none;
+  width: fit-content;
+}
+.card:hover .btnContainer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btnText {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.btnIconWrapper {
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cutoutWrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  pointer-events: none;
+  transition: transform 0.5s;
+  transform: translateZ(40px);
+}
+.card:hover .cutoutWrapper {
+  transform: scale(1.1) translate(-4px, -4px) translateZ(40px);
+}
+
+.cutoutBg {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  background-color: white;
+  border-top-left-radius: 44px;
+}
+
+.iconCircle {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  width: 68px;
+  height: 68px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cornerTop {
+  position: absolute;
+  top: -24px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+}
+.cornerLeft {
+  position: absolute;
+  bottom: 0;
+  left: -24px;
+  width: 24px;
+  height: 24px;
+}

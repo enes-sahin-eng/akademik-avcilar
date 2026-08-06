@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Tarihçe | Akademik International",
+    title: "Tarihçe",
     description: "Akademik International'ın kuruluş hikayesi ve vizyonu.",
   };
 

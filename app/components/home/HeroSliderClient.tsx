@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, User, Phone, MapPin, ChevronDown, ArrowRight, Sparkles, ShieldCheck, Clock, Gift } from "lucide-react";
 import styles from "./HeroSlider.module.css";
 
 import Image from "next/image";
@@ -24,11 +24,25 @@ export const HeroSliderClient = ({
   campuses: any[];
 }) => {
 
-
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+
+  // New state for custom dropdown
+  const [branch, setBranch] = useState("");
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   // Otomatik slayt geçişi (5 saniyede bir, mouse üzerine gelince durur)
   useEffect(() => {
@@ -147,32 +161,107 @@ export const HeroSliderClient = ({
           </div>
         </div>
 
-        {/* Form Card Overlay (Ücretsiz Eğitim) - Moved outside sliderContainer to fix mobile overflow */}
-        <div className={styles.formCardOverlay}>
-            <div className={styles.formHeader}>
-              <div>
-                <h2 className={styles.formTitle}>{form?.title || "ÜCRETSİZ EĞİTİM!"}</h2>
-                <p className={styles.formSubtitle}>{form?.subtitle || "Eğitim İçin Hemen Ön Bilgi Alın!"}</p>
+        {/* Premium Lead Form Overlay */}
+        <div className={styles.glassFormOverlay}>
+          <div className={styles.glassBadge}>
+            <Sparkles size={12} strokeWidth={2.5} />
+            <span>Ücretsiz Ön Bilgilendirme</span>
+          </div>
+
+          <div className={styles.glassHeader}>
+            <h2 className={styles.glassTitle}>{form?.title || "ÜCRETSİZ EĞİTİM!"}</h2>
+            <p className={styles.glassSubtitle}>{form?.subtitle || "Eğitim İçin Hemen Ön Bilgi Alın!"}</p>
+          </div>
+          
+          <form className={styles.glassForm}>
+            {/* Name Input */}
+            <div className={styles.inputWrapper}>
+              <User className={styles.glassIcon} size={15} strokeWidth={2} />
+              <input
+                type="text"
+                id="floating_name"
+                className={styles.glassInput}
+                placeholder=" "
+                required
+              />
+              <label htmlFor="floating_name" className={styles.glassLabel}>
+                {form?.namePlaceholder || "İsim Ve Soyisim Giriniz."}
+              </label>
+            </div>
+
+            {/* Phone Input */}
+            <div className={styles.inputWrapper}>
+              <Phone className={styles.glassIcon} size={15} strokeWidth={2} />
+              <input
+                type="tel"
+                id="floating_phone"
+                className={styles.glassInput}
+                placeholder=" "
+                required
+              />
+              <label htmlFor="floating_phone" className={styles.glassLabel}>
+                {form?.phonePlaceholder || "GSM Numaranızı Giriniz."}
+              </label>
+            </div>
+
+            {/* Custom Branch Select */}
+            <div className={styles.inputWrapper} ref={dropdownRef}>
+              <MapPin className={styles.glassIcon} size={15} strokeWidth={2} />
+              <div
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className={`${styles.glassInput} ${styles.dropdownTrigger} ${branch ? styles.hasValue : ''} ${isDropdownOpen ? styles.isFocused : ''}`}
+              >
+                <span className={branch ? styles.dropdownTriggerText : `${styles.dropdownTriggerText} ${styles.isEmpty}`}>
+                  {branch || " "}
+                </span>
+                <ChevronDown size={15} className={`${styles.dropdownArrow} ${isDropdownOpen ? styles.isOpen : ''}`} />
+              </div>
+
+              <label className={`${styles.glassLabel} ${(branch || isDropdownOpen) ? styles.hasValue : ''}`}>
+                {form?.branchPlaceholder || "Şube Seçiniz."}
+              </label>
+
+              {/* Custom Dropdown Menu */}
+              <div className={`${styles.dropdownMenu} ${isDropdownOpen ? styles.isOpen : ''}`}>
+                <ul className={styles.dropdownList}>
+                  {campuses?.map((campus: any, index: number) => (
+                    <li 
+                      key={index}
+                      onClick={() => { setBranch(campus.name); setIsDropdownOpen(false); }}
+                      className={`${styles.dropdownItem} ${branch === campus.name ? styles.isSelected : ''}`}
+                    >
+                      {campus.name}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
-            
-            <form className={styles.minimalForm}>
-              <input type="text" placeholder={form?.namePlaceholder || "İsim Ve Soyisim Giriniz."} className={styles.minimalInput} />
-              <input type="tel" placeholder={form?.phonePlaceholder || "GSM Numaranızı Giriniz."} className={styles.minimalInput} />
-              <select className={styles.minimalInput} defaultValue="">
-                <option value="" disabled hidden>{form?.branchPlaceholder || "Şube Seçiniz."}</option>
-                {campuses?.map((campus: any, index: number) => (
-                  <option key={index} value={campus.name}>
-                    {campus.name}
-                  </option>
-                ))}
-              </select>
-              <button type="button" className={styles.minimalSubmitBtn}>
-                {form?.submitBtn || "HEMEN ÖN BİLGİ AL!"}
-              </button>
-              <p className={styles.minimalLegal}>{form?.legal || "Bilgi formunu doldurarak Yasal Uyarı / Kullanım Şartlarını kabul ediyorum."}</p>
-            </form>
+
+            <button type="submit" className={styles.glassSubmitBtn}>
+              {form?.submitBtn || "HEMEN ÖN BİLGİ AL!"}
+              <ArrowRight className={styles.btnArrow} size={20} />
+            </button>
+          </form>
+
+          <div className={styles.glassTrustRow}>
+            <div className={styles.glassTrustItem}>
+              <Clock size={13} strokeWidth={2.2} />
+              <span>Hızlı Yanıt</span>
+            </div>
+            <div className={styles.glassTrustDivider} />
+            <div className={styles.glassTrustItem}>
+              <ShieldCheck size={13} strokeWidth={2.2} />
+              <span>Bilgiler Gizli</span>
+            </div>
+            <div className={styles.glassTrustDivider} />
+            <div className={styles.glassTrustItem}>
+              <Gift size={13} strokeWidth={2.2} />
+              <span>Deneme Dersi</span>
+            </div>
           </div>
+
+          <p className={styles.glassLegal}>{form?.legal || "Bilgi formunu doldurarak Yasal Uyarı / Kullanım Şartlarını kabul ediyorum."}</p>
+        </div>
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Kütahya İngilizce Kursu | Akademik International Yabancı Dil Kursu",
+    title: "Kütahya İngilizce Kursu",
     description:
       "Kütahya İngilizce Kursu olarak Akademik International, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır.",
   };

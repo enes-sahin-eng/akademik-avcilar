@@ -57,11 +57,13 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
   const [topLangDropdownOpen, setTopLangDropdownOpen] = useState(false);
   const [themeDropdownOpen, setThemeDropdownOpen] = useState(false);
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
   // Extract current locale from URL path e.g. /tr/foo => tr
   const currentLocale = pathname?.split("/")[1] || "tr";
 
   useEffect(() => {
+    setMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
@@ -502,7 +504,9 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                   onMouseLeave={() => setThemeDropdownOpen(false)}
                 >
                   <button className={styles.langBtn} aria-label="Tema Seçimi">
-                    {theme === "dark" ? (
+                    {!mounted ? (
+                      <Monitor size={16} />
+                    ) : theme === "dark" ? (
                       <Moon size={16} />
                     ) : theme === "light" ? (
                       <Sun size={16} />

@@ -30,7 +30,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.academicPlusPage?.meta || {
-    title: lang === 'en' ? "Academic Plus İngilizce Course | Akademik International" : (lang === 'ar' ? "Academic Plus İngilizce Kursu | Akademik International" : "Academic Plus İngilizce Kursu | Akademik International"),
+    title: lang === 'en' ? "Academic Plus İngilizce Course" : (lang === 'ar' ? "Academic Plus İngilizce Kursu" : "Academic Plus İngilizce Kursu"),
     description: "C1-C2 Proficiency seviyesinde kusursuz İngilizce, simultane çeviri ve akademik yazarlık yetkinliği kazanın."
   };
 

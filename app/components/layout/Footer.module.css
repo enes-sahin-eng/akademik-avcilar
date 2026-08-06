@@ -1,12 +1,26 @@
 .footerContainer {
   position: relative;
   width: 100%;
-  color: var(--text-primary);
-  background-color: var(--bg-surface-alt);
+  background-color: var(--accent-navy-deep);
   overflow: hidden;
   z-index: 10;
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.7;
+
+  /* Footer her iki temada da koyu lacivert. Token'ları burada yeniden
+     tanımlayarak tüm alt bileşenler otomatik olarak açık renge geçer. */
+  --text-primary:       #ffffff;
+  --text-secondary:     rgba(255, 255, 255, 0.76);
+  --text-muted:         rgba(255, 255, 255, 0.55);
+  --border-subtle:      rgba(255, 255, 255, 0.12);
+  --border-strong:      rgba(255, 255, 255, 0.22);
+  --bg-surface:         rgba(255, 255, 255, 0.06);
+  --bg-surface-hover:   rgba(255, 255, 255, 0.07);
+  --bg-surface-alt:     rgba(255, 255, 255, 0.05);
+  --bg-inverse:         #ffffff;
+  --text-inverse:       #0b2239;
+
+  color: var(--text-secondary);
 }
 
 .footerBackground {
@@ -90,10 +104,13 @@
 }
 
 .columnTitle {
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--text-primary);
-  margin-bottom: 24px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--accent-orange);
+  margin-bottom: 22px;
 }
 
 .linkList {
@@ -118,7 +135,7 @@
 }
 
 .linkItem a:hover {
-  color: #38bdf8;
+  color: var(--accent-orange);
 }
 
 .redBadge {
@@ -175,9 +192,14 @@
 .inputWrapper {
   display: flex;
   background: var(--bg-surface-hover);
-  border-radius: 6px;
+  border-radius: var(--radius-full);
   overflow: hidden;
   border: 1px solid var(--border-subtle);
+  transition: border-color var(--dur-fast) ease;
+}
+
+.inputWrapper:focus-within {
+  border-color: var(--accent-orange);
 }
 
 .emailInput {
@@ -195,17 +217,20 @@
 }
 
 .sendBtn {
-  background: var(--bg-inverse);
-  color: var(--text-inverse);
+  background: var(--accent-orange);
+  color: #ffffff;
   border: none;
-  padding: 0 24px;
-  font-weight: 700;
+  padding: 0 22px;
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background var(--dur-fast) ease;
 }
 
 .sendBtn:hover {
-  background: #e2e8f0;
+  background: var(--accent-red);
 }
 
 .checkboxLabel {
@@ -233,7 +258,7 @@
 }
 
 .socialIcon:hover {
-  color: #38bdf8;
+  color: var(--accent-orange);
   transform: translateY(-3px);
 }
 
@@ -243,29 +268,47 @@
   align-items: flex-start;
 }
 
-/* SUCCESS MODAL */
+/* SUCCESS MODAL
+   Modal DOM'da footer'ın içinde olduğu için yukarıdaki koyu token
+   override'larını miras alır — burada sayfa temasına geri döndürülür. */
 .modalOverlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(6, 14, 29, 0.62);
   z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  /* Token'ları sayfa temasına sıfırla (açık tema varsayılan) */
+  --text-primary:   #0f172a;
+  --text-secondary: #4b5563;
+  --text-muted:     #6b7280;
+  --border-subtle:  #e6e8ec;
+  --bg-surface:     #ffffff;
+}
+
+:global([data-theme="dark"]) .modalOverlay {
+  --text-primary:   #eef3f9;
+  --text-secondary: #a3b3c7;
+  --text-muted:     #6b7f97;
+  --border-subtle:  #1a2a40;
+  --bg-surface:     #0e1a2c;
 }
 
 .successModal {
   background-color: var(--bg-surface);
-  border-radius: 12px;
+  border-radius: var(--radius-xl);
   padding: 40px;
   width: 90%;
   max-width: 400px;
   text-align: center;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--shadow-2xl);
   border: 1px solid var(--border-subtle);
   display: flex;
   flex-direction: column;
@@ -301,7 +344,7 @@
 }
 
 .modalCloseBtn {
-  background-color: #3b82f6; /* matches the blue in screenshot */
+  background-color: var(--accent-blue); /* matches the blue in screenshot */
   color: white;
   border: none;
   border-radius: 6px;
@@ -313,7 +356,7 @@
 }
 
 .modalCloseBtn:hover {
-  background-color: #2563eb;
+  background-color: var(--brand-ink);
 }
 
 .phoneGroup {
@@ -327,19 +370,25 @@
 }
 
 .callNowBtn {
-  background: var(--hover-red);
+  background: var(--accent-orange);
   color: #fff;
   border: none;
-  padding: 10px 30px;
-  border-radius: 6px;
-  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   cursor: pointer;
   margin-bottom: 24px;
-  transition: background 0.2s;
+  transition:
+    background var(--dur-fast) ease,
+    box-shadow var(--dur-fast) ease;
+  box-shadow: var(--shadow-orange);
 }
 
 .callNowBtn:hover {
   background: var(--accent-red);
+  box-shadow: var(--shadow-red);
 }
 
 .abroadCall {
@@ -380,7 +429,7 @@
 }
 
 .bottomLinks a:hover {
-  color: #38bdf8;
+  color: var(--accent-orange);
 }
 
 .copyright {
@@ -415,7 +464,7 @@
 }
 
 .groupSection .sectionHeading {
-  color: #38bdf8;
+  color: var(--accent-orange);
 }
 
 .logosRow {

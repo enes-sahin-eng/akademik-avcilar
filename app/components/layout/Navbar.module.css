@@ -5,14 +5,14 @@
   right: 0;
   z-index: 999;
   transition: all 0.3s ease;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: inherit;
 }
 
 .topBar {
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  border-bottom: 1px solid var(--border-subtle);
-  font-size: 13px;
+  background: var(--accent-navy-deep);
+  color: var(--text-inverse);
+  border-bottom: none;
+  font-size: 12.5px;
   padding: 8px 24px;
   display: flex;
   align-items: center;
@@ -42,9 +42,9 @@
   width: 140px;
   background-color: var(--bg-surface);
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   padding: 6px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-xl);
   margin-top: 6px;
   display: flex;
   flex-direction: column;
@@ -54,19 +54,20 @@
 
 .topBarDivider {
   width: 1px;
-  height: 18px;
-  background-color: var(--border-strong);
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0.18);
   margin: 0 8px;
 }
 
 .topBarLink {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.82);
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 6px;
-  font-weight: 600;
-  transition: color 0.2s;
+  font-family: var(--font-display);
+  font-weight: 500;
+  transition: color var(--dur-fast) ease;
 }
 
 .langButton {
@@ -105,7 +106,7 @@
 }
 
 .topBarLink:hover {
-  color: var(--hover-red);
+  color: var(--accent-orange-light);
 }
 
 .topBarCenter {
@@ -137,8 +138,10 @@
 }
 
 .marqueeItem {
-  color: var(--hover-red);
+  color: var(--accent-orange-light);
+  font-family: var(--font-display);
   font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   padding: 0 40px;
   display: inline-flex;
   align-items: center;
@@ -165,41 +168,41 @@
   }
 }
 
+/* Navy topBar üzerinde sosyal ikonlar — nötr beyaz, hover'da marka rengi */
 .socialIcon {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.65);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.2s, transform 0.2s;
+  transition:
+    color var(--dur-fast) ease,
+    transform var(--dur-fast) var(--ease-out-expo);
 }
 
 .socialIcon:hover {
-  transform: scale(1.1);
+  transform: translateY(-2px) scale(1.08);
 }
 
-.instagram {
-  color: #E1306C;
+.instagram:hover {
+  color: #f77737;
 }
 
-.facebook {
-  color: #1877F2;
+.facebook:hover {
+  color: #4a9eff;
 }
 
-.twitter {
-  color: #000000;
-}
-
-:global([data-theme="dark"]) .twitter {
+.twitter:hover {
   color: #ffffff;
 }
 
-.youtube {
-  color: #FF0000;
+.youtube:hover {
+  color: #ff4444;
 }
 
-.linkedin {
-  color: #0A66C2;
+.linkedin:hover {
+  color: #4aa3e8;
 }
+
 
 @media (max-width: 768px) {
   .topBar {
@@ -215,29 +218,32 @@
   top: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(9, 30, 52, 0.07);
   padding: 14px 24px;
-  transition: all 0.3s ease;
+  transition:
+    padding var(--dur-base) var(--ease-out-expo),
+    background-color var(--dur-base) ease,
+    box-shadow var(--dur-base) ease;
   z-index: 1;
 }
 
 :global([data-theme="dark"]) .nav {
-  background-color: rgba(15, 23, 42, 0.75);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(7, 15, 28, 0.78);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .navScrolled {
-  padding: 10px 24px;
-  background-color: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
+  padding: 9px 24px;
+  background-color: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow-md);
 }
 
 :global([data-theme="dark"]) .navScrolled {
-  background-color: rgba(15, 23, 42, 0.95);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(7, 15, 28, 0.95);
+  box-shadow: var(--shadow-lg);
 }
 
 .container {
@@ -303,23 +309,26 @@
   background: none;
   border: none;
   color: var(--text-primary);
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-weight: 600;
   font-size: 13px;
+  letter-spacing: var(--tracking-snug);
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 6px 8px;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  font-family: inherit;
+  padding: 7px 11px;
+  border-radius: var(--radius-full);
+  transition:
+    color var(--dur-fast) ease,
+    background-color var(--dur-fast) ease;
   white-space: nowrap; /* CRUCIAL: prevents text from wrapping to multiple lines! */
 }
 
 .dropdownBtn:hover,
 .link:hover {
-  color: var(--accent-blue);
-  background-color: var(--bg-surface-alt);
+  color: var(--accent-orange);
+  background-color: var(--tint-orange);
 }
 
 .rightActions {
@@ -337,16 +346,44 @@
 }
 
 .ctaBtn {
-  background: var(--accent-red);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--accent-orange);
   color: #fff;
-  padding: 6px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 800;
+  padding: 9px 18px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition:
+    background var(--dur-fast) ease,
+    transform var(--dur-fast) var(--ease-out-expo),
+    box-shadow var(--dur-fast) ease;
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  box-shadow: var(--shadow-orange);
+}
+
+/* Soldan sağa akan ışık efekti */
+.ctaBtn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 32%,
+    rgba(255, 255, 255, 0.32) 46%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.75s var(--ease-out-expo);
+  pointer-events: none;
+}
+
+.ctaBtn:hover::after {
+  transform: translateX(130%);
 }
 
 .loginBtnWrapper {
@@ -355,9 +392,9 @@
 }
 
 .ctaBtn:hover {
-  background: var(--hover-red);
+  background: var(--accent-red);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.5);
+  box-shadow: var(--shadow-red);
 }
 
 .mobileCtaWrapper {
@@ -372,19 +409,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   color: #fff;
-  padding: 12px;
-  border-radius: 8px;
+  padding: 13px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: background var(--dur-fast) ease;
   width: 100%;
+  box-shadow: var(--shadow-orange);
 }
 
 .ctaBtnMobile:hover {
-  background: var(--hover-red);
+  background: var(--accent-red);
 }
 
 .langSelectorContainer {
@@ -395,21 +435,30 @@
   background: var(--bg-surface-hover);
   border: 1px solid var(--border-subtle);
   color: var(--text-primary);
-  font-size: 13px;
+  font-family: var(--font-display);
+  font-size: 12.5px;
   font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 8px;
+  padding: 7px 14px;
+  border-radius: var(--radius-full);
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 6px;
-  transition: all 0.2s ease;
-  font-family: inherit;
+  transition:
+    background var(--dur-fast) ease,
+    border-color var(--dur-fast) ease;
+}
+
+.langBtn svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
 }
 
 .langBtn:hover {
-  background: var(--bg-surface-alt);
-  border-color: var(--border-strong);
+  background: var(--tint-orange);
+  border-color: var(--accent-orange);
 }
 
 .langDropdownMenu {
@@ -419,9 +468,9 @@
   width: 140px;
   background-color: var(--bg-surface);
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   padding: 6px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-xl);
   margin-top: 6px;
   display: flex;
   flex-direction: column;
@@ -434,24 +483,31 @@
   border: none;
   color: var(--text-secondary);
   text-align: left;
-  font-size: 13px;
+  font-family: var(--font-display);
+  font-size: 12.5px;
   font-weight: 500;
-  padding: 8px 10px;
-  border-radius: 6px;
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: inherit;
+  transition:
+    background-color var(--dur-fast) ease,
+    color var(--dur-fast) ease;
 }
 
 .langDropdownItem:hover {
-  background-color: rgba(220, 38, 38, 0.2);
-  color: var(--text-primary);
+  background-color: var(--tint-orange);
+  color: var(--accent-orange);
 }
 
 .langActive {
-  background-color: rgba(220, 38, 38, 0.3);
+  background-color: var(--accent-orange);
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.langActive:hover {
+  background-color: var(--accent-orange);
+  color: #ffffff;
 }
 
 
@@ -497,18 +553,21 @@
   background: var(--bg-surface-hover);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
+  font-family: var(--font-display);
   font-size: 12px;
-  font-weight: 700;
-  padding: 4px 12px;
-  border-radius: 6px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: var(--radius-full);
   cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: inherit;
+  transition:
+    background var(--dur-fast) ease,
+    border-color var(--dur-fast) ease,
+    color var(--dur-fast) ease;
 }
 
 .mobileLangActive {
-  background: var(--accent-red);
-  border-color: var(--accent-red);
+  background: var(--accent-orange);
+  border-color: var(--accent-orange);
   color: #ffffff;
 }
 
