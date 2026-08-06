@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Akademik Language School - Avcılar Dil Kursu",
+    "title": "En Nitelikli Dil Kursu",
     "description": "34 yıllık tecrübe ile yerli ve yabancı eğitmenler eşliğinde konuşma garantili dil eğitimi."
   },
   "placementTest": {
@@ -400,15 +400,18 @@
     },
     {
       "title": "KARİYER FIRSATLARI",
-      "icon": "Briefcase"
+      "icon": "Briefcase",
+      "href": "/kariyer-firsatlari"
     },
     {
       "title": "REFERANSLAR",
-      "icon": "Star"
+      "icon": "Star",
+      "href": "/referanslar"
     },
     {
       "title": "KURUMSAL ANLAŞMALAR",
-      "icon": "Handshake"
+      "icon": "Handshake",
+      "href": "/kurumsal-anlasmalar"
     }
   ],
   "iletisim": {
@@ -3090,7 +3093,7 @@
       }
     ],
     "meta": {
-      "title": "İngilizce Özel Ders | Akademik International"
+      "title": "İngilizce Özel Ders"
     }
   },
   "kurumsalIngilizceLandingPage": {
@@ -3326,7 +3329,7 @@
       }
     ],
     "meta": {
-      "title": "Kurumsal İngilizce Kursu | Akademik International",
+      "title": "Kurumsal İngilizce Kursu",
       "description": "Kurumsal İngilizce, iş dünyasında etkili iletişim kurabilmek ve profesyonel ilişkileri geliştirebilmek için kullanılan özel bir dil becerisidir."
     }
   },
@@ -6460,7 +6463,7 @@
   },
   "etepLandingPage": {
     "meta": {
-      "title": "E-TEP Sınavı Nedir? Sınav Formatı ve Hazırlık Kursu | Akademik International",
+      "title": "E-TEP Sınavı Nedir? Sınav Formatı ve Hazırlık Kursu",
       "description": "E-TEP (Electronic Test of English Proficiency) sınavı, ÖSYM tarafından düzenlenen dört becerili yeni nesil İngilizce yeterlilik testidir. E-TEP formatı, soru tipleri ve hazırlık kursumuz hakkında detaylı bilgi alın."
     },
     "hero": {
@@ -7407,7 +7410,7 @@
   },
   "businessEnglishLandingPage": {
     "meta": {
-      "title": "İş İngilizcesi Kursu (Business English) | Akademik International",
+      "title": "İş İngilizcesi Kursu (Business English)",
       "description": "Global iş dünyasında başarılı olmak için İş İngilizcesi (Business English) eğitimlerimizle profesyonel iletişim, sunum ve yazışma becerilerinizi geliştirin."
     },
     "hero": {
@@ -7758,7 +7761,7 @@
   },
   "satLandingPage": {
     "meta": {
-      "title": "SAT Sınavı Hazırlık Kursu | Akademik International",
+      "title": "SAT Sınavı Hazırlık Kursu",
       "description": "Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak için SAT sınavına uzman kadromuzla hazırlanın."
     },
     "hero": {
@@ -7943,7 +7946,7 @@
   },
   "pteLandingPage": {
     "meta": {
-      "title": "PTE Sınavı Hazırlık Kursu | Akademik International",
+      "title": "PTE Sınavı Hazırlık Kursu",
       "description": "Pearson Test of English (PTE) sınavına uzman eğitmen kadromuzla hazırlanın, hedeflediğiniz skora kısa sürede ulaşın."
     },
     "hero": {
@@ -8123,7 +8126,7 @@
   },
   "caeLandingPage": {
     "meta": {
-      "title": "CAE Sınavı Hazırlık Kursu | Akademik International",
+      "title": "CAE Sınavı Hazırlık Kursu",
       "description": "Cambridge English Advanced (CAE) sınavına uzman eğitmen kadromuzla hazırlanın, İngilizce yetkinliğinizi uluslararası arenada belgeleyin."
     },
     "hero": {
@@ -8309,7 +8312,7 @@
   },
   "torflLandingPage": {
     "meta": {
-      "title": "TORFL Sınavı Hazırlık Kursu (Rusça) | Akademik International",
+      "title": "TORFL Sınavı Hazırlık Kursu (Rusça)",
       "description": "Rusya'da eğitim görmek ve kariyer yapmak için zorunlu olan TORFL sınavına %100 başarı garantili kursumuzla hazırlanın."
     },
     "hero": {
@@ -8489,7 +8492,7 @@
   },
   "cilsLandingPage": {
     "meta": {
-      "title": "CILS Sınavı Hazırlık Kursu (İtalyanca) | Akademik International",
+      "title": "CILS Sınavı Hazırlık Kursu (İtalyanca)",
       "description": "İtalya'da eğitim ve vatandaşlık için gerekli CILS sınavına %100 başarı garantili kursumuzla hazırlanın."
     },
     "hero": {
@@ -8688,7 +8691,7 @@
   },
   "tefLandingPage": {
     "meta": {
-      "title": "TEF Sınavı Hazırlık Kursu (Fransızca) | Akademik International",
+      "title": "TEF Sınavı Hazırlık Kursu (Fransızca)",
       "description": "Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın."
     },
     "hero": {
@@ -8830,7 +8833,7 @@
   },
   "telcLandingPage": {
     "meta": {
-      "title": "TELC Sınavı Hazırlık Kursu | Akademik International",
+      "title": "TELC Sınavı Hazırlık Kursu",
       "description": "Avrupa Dil Sertifikası (TELC) sınavlarına uzman eğitmen kadromuzla hazırlanın. Süresiz geçerli TELC belgenizi ilk seferde alın."
     },
     "hero": {
@@ -8993,7 +8996,7 @@
   },
   "fransizcaLandingPage": {
     "meta": {
-      "title": "Fransızca Dil Kursu | Akademik International",
+      "title": "Fransızca Dil Kursu",
       "description": "50 ülkede 250 milyondan fazla insanın konuştuğu Fransızcayı, Türkiye'nin en iyi Fransızca kursunda A1'den B2'ye kadar uzman kadroyla öğrenin."
     },
     "hero": {
@@ -9229,7 +9232,7 @@
   },
   "almancaLandingPage": {
     "meta": {
-      "title": "Almanca Dil Kursu ve Aile Birleşimi | Akademik International",
+      "title": "Almanca Dil Kursu ve Aile Birleşimi",
       "description": "Türkiye'nin en iyi Almanca dil kursu ile hedeflerinize ulaşın. Uzman eğitmen kadrosu, A1-B2 seviye eğitimleri ve Aile Birleşimi hazırlığı."
     },
     "hero": {
@@ -9458,7 +9461,7 @@
   },
   "italyancaLandingPage": {
     "meta": {
-      "title": "İtalyanca Dil Kursu | Akademik International",
+      "title": "İtalyanca Dil Kursu",
       "description": "Sanat, moda, müzik ve mutfak kültürünün dili İtalyancayı, Türkiye'nin en iyi dil kursunda A1'den C2'ye kadar uzman eğitmenlerle öğrenin."
     },
     "hero": {
@@ -9705,7 +9708,7 @@
   },
   "farscaLandingPage": {
     "meta": {
-      "title": "Farsça Dil Kursu ve YDS Hazırlık | Akademik International",
+      "title": "Farsça Dil Kursu ve YDS Hazırlık",
       "description": "Doğunun köklü dili Farsçayı, anadili Farsça olan uzman eğitmen kadromuzla ve yetişkinlere özel eğitim modellerimizle kısa sürede öğrenin."
     },
     "hero": {
@@ -9938,7 +9941,7 @@
   },
   "cinceLandingPage": {
     "meta": {
-      "title": "Çince Dil Kursu | Akademik International",
+      "title": "Çince Dil Kursu",
       "description": "Uzakdoğunun en güzide dili Çinceyi, anadili Çince olan eğitmenlerimizle HSK standartlarında (HSK 1 - HSK 6) VIP sınıflarda öğrenin."
     },
     "hero": {
@@ -10189,7 +10192,7 @@
   },
   "japoncaLandingPage": {
     "meta": {
-      "title": "Japonca Dil Kursu | Akademik International",
+      "title": "Japonca Dil Kursu",
       "description": "Türkiye'nin ilk özgün eğitim modeliyle, 5-7 kişilik VIP sınıflarda Japoncayı refleksif konuşarak öğrenin. Hiragana, Katakana ve Kanji eğitimleri."
     },
     "hero": {
@@ -10429,7 +10432,7 @@
   },
   "koreceLandingPage": {
     "meta": {
-      "title": "Korece Dil Kursu | Akademik International",
+      "title": "Korece Dil Kursu",
       "description": "Türkçeyle aynı dil ailesinden gelen Koreceyi, uzman akademisyen kadromuzla A1'den C2'ye kadar VIP sınıflarda hızlı ve kolayca öğrenin."
     },
     "hero": {
@@ -10680,7 +10683,7 @@
   },
   "osmanlicaLandingPage": {
     "meta": {
-      "title": "Osmanlıca Kursu | Akademik International",
+      "title": "Osmanlıca Kursu",
       "description": "Tarihin köklerine inmek ve kadim metinleri okuyabilmek için uzman eğitmenlerimiz eşliğinde kapsamlı Osmanlıca kursu eğitimlerimize katılın."
     },
     "hero": {
@@ -10898,7 +10901,7 @@
   },
   "yabancilaraTurkceLandingPage": {
     "meta": {
-      "title": "Yabancılara Türkçe Kursu | Akademik International",
+      "title": "Yabancılara Türkçe Kursu",
       "description": "Görsel ve işitsel materyallerle donatılmış 8-15 kişilik sınıflarımızda, uzman kadromuzla Yabancılar için Türkçe eğitimlerine hemen katılın."
     },
     "hero": {
@@ -11138,7 +11141,7 @@
   },
   "turkceLandingPage": {
     "meta": {
-      "title": "Türkçe Dil Kursu | Akademik International",
+      "title": "Türkçe Dil Kursu",
       "description": "Akademisyen kökenli eğitmenlerimizle, A1'den C2'ye kadar iletişim odaklı ve özgün modellerle Türkçe öğrenin."
     },
     "hero": {
@@ -11389,7 +11392,7 @@
   },
   "latinceLandingPage": {
     "meta": {
-      "title": "Latince Dil Kursu | Akademik International",
+      "title": "Latince Dil Kursu",
       "description": "Modern bilime ve Avrupa dillerine ışık tutan Latinceyi, akademisyen kökenli eğitmenlerimizle A1'den C2'ye kadar kapsamlı bir şekilde öğrenin."
     },
     "hero": {
@@ -11640,7 +11643,7 @@
   },
   "flemenkceLandingPage": {
     "meta": {
-      "title": "Flemenkçe (Hollandaca) Dil Kursu | Akademik International",
+      "title": "Flemenkçe (Hollandaca) Dil Kursu",
       "description": "Hollanda Aile Birleşimi ve Uyum Sınavlarına yönelik, uzman akademisyen kadromuzla A1'den C2'ye kadar kapsamlı Flemenkçe (Hollandaca) eğitimi alın."
     },
     "hero": {
@@ -11891,7 +11894,7 @@
   },
   "ispanyolcaLandingPage": {
     "meta": {
-      "title": "İspanyolca Dil Kursu | Akademik International Yabancı Dil Kursları",
+      "title": "İspanyolca Dil Kursu",
       "description": "Türkiye'nin en iyi İspanyolca dil kursu ile hedeflerinize ulaşın. A1-C2 seviye eğitimleri, uzman eğitmen kadrosu ve dört beceri odaklı eğitim."
     },
     "hero": {
@@ -12144,7 +12147,7 @@
   },
   "ruscaLandingPage": {
     "meta": {
-      "title": "Rusça Dil Kursu | Akademik International Yabancı Dil Kursları",
+      "title": "Rusça Dil Kursu",
       "description": "Rusça dil kursu ile 300 milyondan fazla kişinin konuştuğu bu Slav diline hakim olun. A1-B2 seviye eğitimleri, uzman eğitmenler ve uygun fiyatlar."
     },
     "hero": {
@@ -12406,7 +12409,7 @@
   },
   "portekizceLandingPage": {
     "meta": {
-      "title": "Portekizce Dil Kursu | Akademik International Yabancı Dil Okulları",
+      "title": "Portekizce Dil Kursu",
       "description": "Portekizce dil kursu ile dünyada en yaygın 5. dil olan Portekizce'yi öğrenin. Brezilyalı ve Portekizli geniş eğitmen kadromuzla A1-C2 seviye eğitimleri."
     },
     "hero": {
@@ -12670,7 +12673,7 @@
   },
   "arapcaLandingPage": {
     "meta": {
-      "title": "Arapça Dil Kursu | Akademik International Yabancı Dil Kursları",
+      "title": "Arapça Dil Kursu",
       "description": "Ana dili Arapça olan eğitmenlerimizle Arapça öğrenin. A1-C2 seviyeleri, YDS Arapça hazırlık ve Ortadoğu ülkeleri için kapsamlı dil eğitimi."
     },
     "hero": {
@@ -12979,7 +12982,7 @@
   ],
   "kadikoyIngilizceLandingPage": {
     "meta": {
-      "title": "Kadıköy İngilizce Kursu | Kadıköy İngilizce Dil Kursu",
+      "title": "Kadıköy İngilizce Kursu",
       "description": "Kadıköy İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir."
     },
     "location": {
@@ -13231,7 +13234,7 @@
   },
   "bursaIngilizceLandingPage": {
     "meta": {
-      "title": "Bursa İngilizce Dil Kursu | Bursa İngilizce Kursu FSM",
+      "title": "Bursa İngilizce Dil Kursu",
       "description": "Bursa İngilizce dil kursu olarak bilinen Akademik Yabancı Dil Kursu, özgün kaynakları ve ayrıcalıklı eğitim müfredatı ile hedef dil seviyesine ulaştıran en iyi seçenektir."
     },
     "location": {
@@ -13512,7 +13515,7 @@
   },
   "avcilarIngilizceLandingPage": {
     "meta": {
-      "title": "Avcılar İngilizce Kursu | Avcılar İngilizce Dil Kursu",
+      "title": "Avcılar İngilizce Kursu",
       "description": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır."
     },
     "location": {
@@ -13576,10 +13579,22 @@
         "Modern Kelime Yapıları"
       ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Düzey İngilizce" },
-        { "name": "Sınav Stratejileri (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Dağarcığı" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Düzey İngilizce"
+        },
+        {
+          "name": "Sınav Stratejileri (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Dağarcığı"
+        }
       ]
     },
     "whyUs": {
@@ -13603,10 +13618,26 @@
         }
       ],
       "advantages": [
-        { "title": "Native Eğitmenler", "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.", "icon": "Laptop" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.", "icon": "Monitor" },
-        { "title": "Kültür Deneyimi", "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.", "icon": "Award" }
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
       ]
     },
     "hero": {
@@ -13630,7 +13661,7 @@
   },
   "istanbulIngilizceLandingPage": {
     "meta": {
-      "title": "İstanbul İngilizce Kursu | İstanbul İngilizce Dil Kursu",
+      "title": "İstanbul İngilizce Kursu",
       "description": "İstanbul İngilizce Kursu olarak bilinen Akademik International Yabancı Dil Kursu, kendine ait özgün kaynakları ve ayrıcalıklı eğitim müfredatı ile İstanbul'un en iyi İngilizce kursları arasında yer almaktadır."
     },
     "location": {
@@ -13639,10 +13670,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu",
       "distances": [
-        { "icon": "bus", "text": "Avcılar Metrobüs Durağına 5 Dakika Yürüme Mesafesi" },
-        { "icon": "walking", "text": "İstanbul Üniversitesi Yerleşkesine 10 Dakika Yürüme Mesafesi" },
-        { "icon": "bus-stop", "text": "Atatürk Heykeli Karşısı" },
-        { "icon": "walking", "text": "Barış Manço Kültür Merkezine 5 Dakika Yürüme Mesafesi" }
+        {
+          "icon": "bus",
+          "text": "Avcılar Metrobüs Durağına 5 Dakika Yürüme Mesafesi"
+        },
+        {
+          "icon": "walking",
+          "text": "İstanbul Üniversitesi Yerleşkesine 10 Dakika Yürüme Mesafesi"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "Atatürk Heykeli Karşısı"
+        },
+        {
+          "icon": "walking",
+          "text": "Barış Manço Kültür Merkezine 5 Dakika Yürüme Mesafesi"
+        }
       ]
     },
     "seoContent": [
@@ -13684,12 +13727,28 @@
     "publications": {
       "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Düzey İngilizce" },
-        { "name": "Sınav Stratejileri (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Dağarcığı" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Düzey İngilizce"
+        },
+        {
+          "name": "Sınav Stratejileri (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Dağarcığı"
+        }
       ]
     },
     "whyUs": {
@@ -13699,15 +13758,40 @@
       "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?", "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır." },
-        { "q": "Sınıf eğitimleri yeterince aktif mi?", "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız." }
+        {
+          "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
       ],
       "advantages": [
-        { "title": "Native Eğitmenler", "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.", "icon": "Laptop" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.", "icon": "Monitor" },
-        { "title": "Kültür Deneyimi", "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.", "icon": "Award" }
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
       ]
     },
     "hero": {
@@ -13731,7 +13815,7 @@
   },
   "cekmekoyIngilizceLandingPage": {
     "meta": {
-      "title": "Çekmeköy İngilizce Kursu | Çekmeköy İngilizce Dil Kursu",
+      "title": "Çekmeköy İngilizce Kursu",
       "description": "Çekmeköy İngilizce Kursu, modern öğretim yöntemleri ve uygun maliyetlerle İngilizce öğrenmenizi destekler. İstanbul'da tercih edilen Akademik Yabancı Dil Kursumuz, yetişkin bireylere yönelik özel tasarlanmış eğitim sistemi ile dikkat çeker."
     },
     "location": {
@@ -13740,8 +13824,14 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/%C3%87ekmek%C3%B6y+Final+%C3%96zel+%C3%96%C4%9Fretim+Kursu/@41.0147485,29.1866365,17z/data=!3m1!4b1!4m6!3m5!1s0x14cace5698b8b1b3:0xafa9ad13b2a3e2de!8m2!3d41.0147445!4d29.1892114!16s%2Fg%2F11cn35phj7?entry=tts",
       "distances": [
-        { "icon": "bus", "text": "Otobüs Durağına 2 Dk" },
-        { "icon": "bus-stop", "text": "Çekmeköy Metro İstasyonunun Yanı" }
+        {
+          "icon": "bus",
+          "text": "Otobüs Durağına 2 Dk"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "Çekmeköy Metro İstasyonunun Yanı"
+        }
       ]
     },
     "seoContent": [
@@ -13775,12 +13865,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -13790,15 +13896,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Çekmeköy'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Çekmeköy'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Anadili İngilizce Eğitmenler", "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Laptop" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.", "icon": "Monitor" },
-        { "title": "Kültürel Deneyim", "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.", "icon": "Award" }
+        {
+          "title": "Anadili İngilizce Eğitmenler",
+          "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültürel Deneyim",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.",
+          "icon": "Award"
+        }
       ]
     },
     "hero": {
@@ -13822,7 +13953,7 @@
   },
   "gorukleIngilizceLandingPage": {
     "meta": {
-      "title": "Görükle İngilizce Kursu | Bursa Görükle İngilizce Dil Kursu",
+      "title": "Görükle İngilizce Kursu",
       "description": "Bursa Görükle'deki İngilizce yabancı dil kursumuzda üniversite öğrencileri ve mezunlarına yönelik eğitim içeriği ile iş hayatında ve akademik hayatınızda bir adım önde olun."
     },
     "location": {
@@ -13831,10 +13962,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/Bursa+En+%C4%B0yi+%C4%B0ngilizce+Kursu-Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+G%C3%B6r%C3%BCkle+%C5%9Eubesi/@40.2273005,28.850317,17z/data=!3m1!4b1!4m6!3m5!1s0x14ca0e3de90c7ea7:0x8d60f95c21247f03!8m2!3d40.2273005!4d28.850317!16s%2Fg%2F11c187xypp?entry=ttu",
       "distances": [
-        { "icon": "building", "text": "Gençlik Merkezinin Karşısı" },
-        { "icon": "building", "text": "Nilüfer Gençlik Evine 1 Dakika" },
-        { "icon": "walking", "text": "Görükle Merkeze 2 Dakika" },
-        { "icon": "bus-stop", "text": "Uludağ Üniversitesi Metro İstasyonundan 8 Dakika Mesafede" }
+        {
+          "icon": "building",
+          "text": "Gençlik Merkezinin Karşısı"
+        },
+        {
+          "icon": "building",
+          "text": "Nilüfer Gençlik Evine 1 Dakika"
+        },
+        {
+          "icon": "walking",
+          "text": "Görükle Merkeze 2 Dakika"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "Uludağ Üniversitesi Metro İstasyonundan 8 Dakika Mesafede"
+        }
       ]
     },
     "seoContent": [
@@ -13872,12 +14015,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -13887,15 +14046,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Görükle'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Görükle'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Anadili İngilizce Eğitmenler", "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Laptop" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.", "icon": "Monitor" },
-        { "title": "Kültürel Deneyim", "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.", "icon": "Award" }
+        {
+          "title": "Anadili İngilizce Eğitmenler",
+          "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültürel Deneyim",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.",
+          "icon": "Award"
+        }
       ]
     },
     "hero": {
@@ -13919,7 +14103,7 @@
   },
   "ankaraIngilizceLandingPage": {
     "meta": {
-      "title": "Ankara İngilizce Kursu | Ankara İngilizce Dil Kursu | Akademik",
+      "title": "Ankara İngilizce Kursu",
       "description": "Ankara İngilizce Kursu olarak Akademik International; IELTS Yetkili Sınav Merkezi ve British Council Konsolosluk Partneri olarak Ankara'nın en köklü dil okuludur."
     },
     "location": {
@@ -13928,10 +14112,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/Ankara+%C4%B0ngilizce+Kursu+%7C+ITEP+%7C+YDS+%7C+TOEFL+-+AKADEM%C4%B0K+YABANCI+D%C4%B0L+KURSLARI/@39.9212815,32.855981,17z/data=!4m7!3m6!1s0x14d34f01004ff801:0xb9be16acc1e226fa!8m2!3d39.9212213!4d32.8585734!15sCh1hbmthcmEgYWthZGVtaWsgYmF0xLEgZGlsbGVyaSIDiAEBWh8iHWFua2FyYSBha2FkZW1payBiYXTEsSBkaWxsZXJpkgEPbGFuZ3VhZ2Vfc2Nob29s4AEA!16s%2Fg%2F11fjxf0lpn?coh=225988&entry=tts",
       "distances": [
-        { "icon": "bus-stop", "text": "Kızılay Metroya 3 Dakika" },
-        { "icon": "bus", "text": "Otobüs Durağına Yakın" },
-        { "icon": "walking", "text": "Kızılay Meydana 1 Dakika" },
-        { "icon": "walking", "text": "Yürüme Mesafesi" }
+        {
+          "icon": "bus-stop",
+          "text": "Kızılay Metroya 3 Dakika"
+        },
+        {
+          "icon": "bus",
+          "text": "Otobüs Durağına Yakın"
+        },
+        {
+          "icon": "walking",
+          "text": "Kızılay Meydana 1 Dakika"
+        },
+        {
+          "icon": "walking",
+          "text": "Yürüme Mesafesi"
+        }
       ]
     },
     "seoContent": [
@@ -13973,12 +14169,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -13988,15 +14200,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Ankara'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Ankara'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "IELTS Yetkili Sınav Merkezi", "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.", "icon": "Award" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Laptop" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.", "icon": "Monitor" },
-        { "title": "17 Dünya Dili", "desc": "İngilizce'nin yanı sıra 17 farklı dünya dilinde eğitim imkanı.", "icon": "Users" }
+        {
+          "title": "IELTS Yetkili Sınav Merkezi",
+          "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.",
+          "icon": "Award"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "17 Dünya Dili",
+          "desc": "İngilizce'nin yanı sıra 17 farklı dünya dilinde eğitim imkanı.",
+          "icon": "Users"
+        }
       ]
     },
     "hero": {
@@ -14020,7 +14257,7 @@
   },
   "izmirIngilizceLandingPage": {
     "meta": {
-      "title": "İzmir İngilizce Kursu | İzmir İngilizce Dil Kursu | Akademik",
+      "title": "İzmir İngilizce Kursu",
       "description": "İzmir İngilizce Kursu kampüsümüz, yabancı dil öğrenmek isteyenler için en iyi seçeneklerden biridir. Uzman eğitmenler eşliğinde etkili ve hızlı İngilizce öğrenme fırsatı sunmaktadır."
     },
     "location": {
@@ -14029,8 +14266,14 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-%C4%B0zmir+%C4%B0ngilizce+Kursu-%C4%B0zmir+Almanca+Kursu/@38.4357427,27.1157188,15z/data=!4m7!3m6!1s0x14bbd900e8d26c87:0x46a44f3ebe2c40d0!4b1!8m2!3d38.4361125!4d27.124406!16s%2Fg%2F11q3xtqxcn?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
       "distances": [
-        { "icon": "bus-stop", "text": "Alsancak Metro İstasyonuna Yakın" },
-        { "icon": "bus", "text": "Otobüs Durağına Yakın" }
+        {
+          "icon": "bus-stop",
+          "text": "Alsancak Metro İstasyonuna Yakın"
+        },
+        {
+          "icon": "bus",
+          "text": "Otobüs Durağına Yakın"
+        }
       ]
     },
     "seoContent": [
@@ -14056,12 +14299,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14071,15 +14330,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "İzmir'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "İzmir'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "IELTS Yetkili Sınav Merkezi", "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.", "icon": "Award" },
-        { "title": "VIP Sınıflar", "desc": "Düşük sınıf mevcutları ile bire bir ders alıyormuş gibi kişisel ilgi.", "icon": "Users" },
-        { "title": "Esnek Saatler", "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu grupları.", "icon": "Monitor" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Laptop" }
+        {
+          "title": "IELTS Yetkili Sınav Merkezi",
+          "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.",
+          "icon": "Award"
+        },
+        {
+          "title": "VIP Sınıflar",
+          "desc": "Düşük sınıf mevcutları ile bire bir ders alıyormuş gibi kişisel ilgi.",
+          "icon": "Users"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Laptop"
+        }
       ]
     },
     "hero": {
@@ -14103,7 +14387,7 @@
   },
   "kocaeliIzmitIngilizceLandingPage": {
     "meta": {
-      "title": "Kocaeli İzmit İngilizce Kursu | Akademik Yabancı Dil Kursu",
+      "title": "Kocaeli İzmit İngilizce Kursu",
       "description": "Kocaeli İzmit İngilizce Kursu kampüsümüz, esnek eğitim modelleri ve uzman eğitmenlerle her seviyeden öğrenciye yönelik kapsamlı İngilizce eğitimi sunmaktadır."
     },
     "location": {
@@ -14112,10 +14396,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/Akademik+International+Yabanc%C4%B1+Dil+Kursu+Kocaeli+Kamp%C3%BCs%C3%BC/@40.7626194,29.9260453,17z/data=!4m6!3m5!1s0x14cb456db46853bd:0x8fb0655d2e79337c!8m2!3d40.7625754!4d29.9286186!16s%2Fg%2F11vc1ldn5k?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
       "distances": [
-        { "icon": "building", "text": "Kent Meydanına 2 Dakika" },
-        { "icon": "walking", "text": "Yürüyüş Yoluna 1 Dakika" },
-        { "icon": "home", "text": "Halk Evine 2 Dakika" },
-        { "icon": "train", "text": "Yeniçuma Tramvay 2 Dakika" }
+        {
+          "icon": "building",
+          "text": "Kent Meydanına 2 Dakika"
+        },
+        {
+          "icon": "walking",
+          "text": "Yürüyüş Yoluna 1 Dakika"
+        },
+        {
+          "icon": "home",
+          "text": "Halk Evine 2 Dakika"
+        },
+        {
+          "icon": "train",
+          "text": "Yeniçuma Tramvay 2 Dakika"
+        }
       ]
     },
     "seoContent": [
@@ -14165,12 +14461,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14180,15 +14492,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Kocaeli İzmit'te İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Kocaeli İzmit'te İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Uluslararası Sertifika", "desc": "Elde edilen sertifikalar Amerika Birleşik Devletleri'nde tanınmakta olup uluslararası düzeyde geçerlidir.", "icon": "Award" },
-        { "title": "Esnek Eğitim Modeli", "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.", "icon": "Laptop" },
-        { "title": "Uzman Kadro", "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Monitor" }
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Elde edilen sertifikalar Amerika Birleşik Devletleri'nde tanınmakta olup uluslararası düzeyde geçerlidir.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Monitor"
+        }
       ]
     },
     "hero": {
@@ -14212,7 +14549,7 @@
   },
   "corluIngilizceLandingPage": {
     "meta": {
-      "title": "Çorlu İngilizce Kursu | Tekirdağ Çorlu İngilizce Dil Kursu | Akademik",
+      "title": "Çorlu İngilizce Kursu",
       "description": "Çorlu İngilizce Kursu kampüsümüz, hızlı, etkili ve bütçe dostu fiyatlarla İngilizce öğrenme garantisi sunar. Yetişkinlere özel eğitim modeli ile uzman kadromuz yanınızda."
     },
     "location": {
@@ -14221,8 +14558,14 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/%C3%87orlu+Akademik+Yabanc%C4%B1+Dil+Okulu/@41.1554375,27.8101798,18.89z/data=!4m15!1m8!3m7!1s0x14b4e6de6766d3f7:0x5e3b75f1bedfbda9!2zTXVoaXR0aW4sIEZpa2lyIEFyYWzEscSfxLEgU2suIDVBLCA1OTg1MCDDh29ybHUvVGVraXJkYcSf!3b1!8m2!3d41.15501!4d27.810156!16s%2Fg%2F11z6q7w0h1!3m5!1s0x14b4e704d0508b5f:0xd11adfed763b567d!8m2!3d41.1553343!4d27.8100916!16s%2Fg%2F11n3_6wsh9?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
       "distances": [
-        { "icon": "building", "text": "Millet Bahçesine 5dk Mesafede" },
-        { "icon": "bus-stop", "text": "Otobüs Durağına 2 Dakika" }
+        {
+          "icon": "building",
+          "text": "Millet Bahçesine 5dk Mesafede"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "Otobüs Durağına 2 Dakika"
+        }
       ]
     },
     "seoContent": [
@@ -14268,12 +14611,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14283,15 +14642,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Çorlu'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Çorlu'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Uluslararası Sertifika", "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.", "icon": "Award" },
-        { "title": "Esnek Eğitim Modeli", "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.", "icon": "Laptop" },
-        { "title": "Uzman Kadro", "desc": "Alanında uzmanlaşmış, deneyimli eğitmenlerle etkili ve hızlı öğrenme.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Monitor" }
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Alanında uzmanlaşmış, deneyimli eğitmenlerle etkili ve hızlı öğrenme.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Monitor"
+        }
       ]
     },
     "hero": {
@@ -14315,7 +14699,7 @@
   },
   "inegolIngilizceLandingPage": {
     "meta": {
-      "title": "İnegöl İngilizce Kursu | Bursa İnegöl İngilizce Dil Kursu | Akademik",
+      "title": "İnegöl İngilizce Kursu",
       "description": "İnegöl İngilizce Kursu kampüsümüz, 2024-2025 yılında en iyi okul kategorisinde ön planda olan Akademik International Yabancı Dil Kursu ile uzman eğitmen kadrosu ve uygun fiyatlarıyla öne çıkmaktadır."
     },
     "location": {
@@ -14324,10 +14708,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/%C4%B0neg%C3%B6l+%C4%B0ngilizce+Kursu-Akademik+International+Dil+Okullar%C4%B1/@40.0833566,29.5015248,17z/data=!3m1!4b1!4m6!3m5!1s0x14cbcb1f4ba1b45d:0xf4c27e7d767e1524!8m2!3d40.0833525!4d29.5040997!16s%2Fg%2F11w9ffddw4?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
       "distances": [
-        { "icon": "building", "text": "İnegöl AVM'ye 5 Dk Yürüme Mesafesinde" },
-        { "icon": "bus-stop", "text": "Otobüs Durağına 1 Dk" },
-        { "icon": "building", "text": "İnegöl Belediye Binasına 5 Dk" },
-        { "icon": "bus", "text": "İnegöl İşletme Fakültesine Araç İle 5 Dk" }
+        {
+          "icon": "building",
+          "text": "İnegöl AVM'ye 5 Dk Yürüme Mesafesinde"
+        },
+        {
+          "icon": "bus-stop",
+          "text": "Otobüs Durağına 1 Dk"
+        },
+        {
+          "icon": "building",
+          "text": "İnegöl Belediye Binasına 5 Dk"
+        },
+        {
+          "icon": "bus",
+          "text": "İnegöl İşletme Fakültesine Araç İle 5 Dk"
+        }
       ]
     },
     "seoContent": [
@@ -14361,12 +14757,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14376,15 +14788,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "İnegöl'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "İnegöl'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Uluslararası Sertifika", "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.", "icon": "Award" },
-        { "title": "Esnek Eğitim Modeli", "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.", "icon": "Laptop" },
-        { "title": "Uzman Kadro", "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Monitor" }
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Monitor"
+        }
       ]
     },
     "hero": {
@@ -14408,7 +14845,7 @@
   },
   "yildirimErikliIngilizceLandingPage": {
     "meta": {
-      "title": "Yıldırım Erikli İngilizce Kursu | Bursa Yıldırım İngilizce Dil Kursu | Akademik",
+      "title": "Yıldırım Erikli İngilizce Kursu",
       "description": "Yıldırım Erikli İngilizce Kursu, her yaş grubuna uygun özel eğitim programları sunarak öğrencilere sınavlara hazırlıkta en iyi sonuçları elde etme fırsatı sunmaktadır."
     },
     "location": {
@@ -14417,10 +14854,22 @@
       "directionText": "YOL TARİFİ AL",
       "directionLink": "https://www.google.com/maps/place/Erikli,+Ankara+Yolu+Cd+%C5%9Eaypa+Al%C4%B1%C5%9Fveri%C5%9F+Merkezi+478-482,+16300+Y%C4%B1ld%C4%B1r%C4%B1m%2FBursa/@40.1915767,29.136352,17z/data=!4m6!3m5!1s0x14ca3ecccc5af981:0x3f77db07341cb39e!8m2!3d40.1914299!4d29.138847!16s%2Fg%2F11nhzsn68x?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D",
       "distances": [
-        { "icon": "walking", "text": "Yıldırım Erikli Üst Geçit Yanı" },
-        { "icon": "building", "text": "Erikli Vakıfbank Şubesine 1 Dk" },
-        { "icon": "train", "text": "Esenler Metro İstasyonuna 3 Dk" },
-        { "icon": "walking", "text": "Bursa Çevik Kuvvet Amirliğine 5 Dk" }
+        {
+          "icon": "walking",
+          "text": "Yıldırım Erikli Üst Geçit Yanı"
+        },
+        {
+          "icon": "building",
+          "text": "Erikli Vakıfbank Şubesine 1 Dk"
+        },
+        {
+          "icon": "train",
+          "text": "Esenler Metro İstasyonuna 3 Dk"
+        },
+        {
+          "icon": "walking",
+          "text": "Bursa Çevik Kuvvet Amirliğine 5 Dk"
+        }
       ]
     },
     "seoContent": [
@@ -14454,12 +14903,28 @@
     "publications": {
       "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14469,15 +14934,40 @@
       "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
-        { "q": "Yıldırım Erikli'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?", "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin." },
-        { "q": "Ders seansları yeterince aktif mi?", "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler." },
-        { "q": "Kariyer hedeflerime uygun mu?", "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz." }
+        {
+          "q": "Yıldırım Erikli'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
       ],
       "advantages": [
-        { "title": "Uluslararası Sertifika", "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.", "icon": "Award" },
-        { "title": "Esnek Eğitim Modeli", "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.", "icon": "Laptop" },
-        { "title": "Uzman Kadro", "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Monitor" }
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Monitor"
+        }
       ]
     },
     "hero": {
@@ -14501,7 +14991,7 @@
   },
   "amerikaLandingPage": {
     "meta": {
-      "title": "Amerika Kampüsü | Amerika'da Eğitim | Akademik International",
+      "title": "Amerika Kampüsü",
       "description": "Amerika'da eğitim almak için Akademik International fırsatlarını keşfedin. New York'taki özel uluslararası lisemiz ve akademik hazırlık programlarımızla hayalinizi gerçekleştirin."
     },
     "hero": {
@@ -14555,12 +15045,28 @@
     "publications": {
       "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14584,16 +15090,32 @@
         }
       ],
       "advantages": [
-        { "title": "Akreditasyonlu Okul Ağı", "desc": "New York başta olmak üzere ABD'de akreditasyona sahip, kalitesi kanıtlanmış okul ortaklıklarımızla güvenli bir eğitim ortamı sunuyoruz.", "icon": "Award" },
-        { "title": "Vize Danışmanlığı", "desc": "Öğrenci vizesi başvuru sürecinden gerekli evraklara kadar her adımda uzman danışmanlarımız yanınızda.", "icon": "Laptop" },
-        { "title": "Dil Hazırlık Desteği", "desc": "Türkiye'deki şubelerimizde IELTS ve TOEFL hazırlığı yaparak Amerika'ya en iyi İngilizce düzeyiyle gidin.", "icon": "Users" },
-        { "title": "Uygun Fiyat Garantisi", "desc": "Bütçenize uygun ödeme planları ve burs fırsatlarını danışmanlarımız aracılığıyla keşfedebilirsiniz.", "icon": "Monitor" }
+        {
+          "title": "Akreditasyonlu Okul Ağı",
+          "desc": "New York başta olmak üzere ABD'de akreditasyona sahip, kalitesi kanıtlanmış okul ortaklıklarımızla güvenli bir eğitim ortamı sunuyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Vize Danışmanlığı",
+          "desc": "Öğrenci vizesi başvuru sürecinden gerekli evraklara kadar her adımda uzman danışmanlarımız yanınızda.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Dil Hazırlık Desteği",
+          "desc": "Türkiye'deki şubelerimizde IELTS ve TOEFL hazırlığı yaparak Amerika'ya en iyi İngilizce düzeyiyle gidin.",
+          "icon": "Users"
+        },
+        {
+          "title": "Uygun Fiyat Garantisi",
+          "desc": "Bütçenize uygun ödeme planları ve burs fırsatlarını danışmanlarımız aracılığıyla keşfedebilirsiniz.",
+          "icon": "Monitor"
+        }
       ]
     }
   },
   "kutahyaIngilizceLandingPage": {
     "meta": {
-      "title": "Kütahya İngilizce Kursu | Akademik International Yabancı Dil Kursu",
+      "title": "Kütahya İngilizce Kursu",
       "description": "Kütahya İngilizce Kursu olarak Akademik International, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır."
     },
     "hero": {
@@ -14648,12 +15170,28 @@
     "publications": {
       "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": ["Londra Merkezli Yayınlar", "Güncel ve Aktüel Konular", "Modern Kelime Yapıları"],
+      "features": [
+        "Londra Merkezli Yayınlar",
+        "Güncel ve Aktüel Konular",
+        "Modern Kelime Yapıları"
+      ],
       "books": [
-        { "name": "The Academic English B1-B2", "type": "Genel ve Orta Seviye İngilizce" },
-        { "name": "Exam Strategies (IELTS, TOEFL)", "type": "Sınav Teknikleri ve Strateji" },
-        { "name": "Interactive Speaking", "type": "Konuşma ve Aktif İletişim" },
-        { "name": "Modern Vocabulary", "type": "Modern Kelime Hazinesi" }
+        {
+          "name": "The Academic English B1-B2",
+          "type": "Genel ve Orta Seviye İngilizce"
+        },
+        {
+          "name": "Exam Strategies (IELTS, TOEFL)",
+          "type": "Sınav Teknikleri ve Strateji"
+        },
+        {
+          "name": "Interactive Speaking",
+          "type": "Konuşma ve Aktif İletişim"
+        },
+        {
+          "name": "Modern Vocabulary",
+          "type": "Modern Kelime Hazinesi"
+        }
       ]
     },
     "whyUs": {
@@ -14677,16 +15215,32 @@
         }
       ],
       "advantages": [
-        { "title": "Uluslararası Sertifika", "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.", "icon": "Award" },
-        { "title": "Esnek Eğitim Modeli", "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.", "icon": "Laptop" },
-        { "title": "Uzman Kadro", "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.", "icon": "Users" },
-        { "title": "Dinamik Kayıt", "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.", "icon": "Monitor" }
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
+          "icon": "Monitor"
+        }
       ]
     }
   },
   "tarihcePage": {
     "meta": {
-      "title": "Tarihçe | Akademik International Yabancı Dil Okulları",
+      "title": "Tarihçe",
       "description": "Akademik Yabancı Dil Kursu'nun kuruluş hikayesi, vizyonu ve bugüne kadar yabancı dil eğitimine katkıları hakkında bilgi edinin."
     },
     "hero": {
@@ -14759,7 +15313,7 @@
   },
   "yayinlarimizPage": {
     "meta": {
-      "title": "Yayınlarımız | The Academic Publishing | Akademik International Dil Okulları",
+      "title": "Yayınlarımız",
       "description": "2017 yılında merkezi Londra olan The Academic Publishing yayınevimiz tarafından hazırlanan, yetişkinlere özgü yabancı dil eğitim kitapları ve sınav materyalleri."
     },
     "hero": {
@@ -14795,14 +15349,38 @@
         "Yenilikçi Yaklaşım"
       ],
       "books": [
-        { "name": "PREP GRAMMAR", "type": "Grammar Tips & Rules, Exercises" },
-        { "name": "PREP READING", "type": "Vocabulary, Word Formation, Listening" },
-        { "name": "PREP WORKBOOK", "type": "Reading, Grammar, Exercises" },
-        { "name": "ACADEMIC GRAMMAR", "type": "Advanced Grammar Rules, Academic Writing" },
-        { "name": "ACADEMIC READING", "type": "Reading Comprehension, Critical Thinking" },
-        { "name": "ACADEMIC WORKBOOK", "type": "Integrated Skills, Exam Practice" },
-        { "name": "YDS / YÖKDİL PREP", "type": "Sınav Stratejileri, Örnek Sorular" },
-        { "name": "IELTS / TOEFL PREP", "type": "Band Score Strategies, Full Mock Tests" }
+        {
+          "name": "PREP GRAMMAR",
+          "type": "Grammar Tips & Rules, Exercises"
+        },
+        {
+          "name": "PREP READING",
+          "type": "Vocabulary, Word Formation, Listening"
+        },
+        {
+          "name": "PREP WORKBOOK",
+          "type": "Reading, Grammar, Exercises"
+        },
+        {
+          "name": "ACADEMIC GRAMMAR",
+          "type": "Advanced Grammar Rules, Academic Writing"
+        },
+        {
+          "name": "ACADEMIC READING",
+          "type": "Reading Comprehension, Critical Thinking"
+        },
+        {
+          "name": "ACADEMIC WORKBOOK",
+          "type": "Integrated Skills, Exam Practice"
+        },
+        {
+          "name": "YDS / YÖKDİL PREP",
+          "type": "Sınav Stratejileri, Örnek Sorular"
+        },
+        {
+          "name": "IELTS / TOEFL PREP",
+          "type": "Band Score Strategies, Full Mock Tests"
+        }
       ]
     },
     "whyUs": {
@@ -14848,9 +15426,239 @@
       ]
     }
   },
+  "kariyerFirsatlariPage": {
+    "meta": {
+      "title": "Kariyer Fırsatları",
+      "description": "Akademik International bünyesinde kariyer yapmak ister misiniz? Eğitim danışmanı, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve Rusça öğretmeni pozisyonları için başvurun."
+    },
+    "hero": {
+      "tag": "AKADEMİK INTERNATIONAL",
+      "title": "Kariyer Fırsatları",
+      "subtitle": "Türkiye'nin en köklü yabancı dil okulunda kariyerinizi inşa edin",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Başvurun!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kariyer Başvuru Formu",
+      "formTitle": "KARİYERİNİZE BAŞLAYIN!",
+      "formSubtitle": "Uzman Kadromuzun Bir Parçası Olun!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Başvurduğunuz Pozisyon.",
+      "submitBtn": "HEMEN BAŞVUR!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "showcase": {
+      "sectionTitle": "Açık Pozisyonlar",
+      "sectionSubtitle": "Akademik International ailesine katılmak ister misiniz? Aşağıdaki pozisyonlar için başvurularınızı bekliyoruz.",
+      "openPositionsLabel": "Açık Pozisyon",
+      "cityLabel": "Şehir",
+      "applyBtn": "BAŞVUR",
+      "jobs": [
+        {
+          "title": "Eğitim Danışmanı (Pazarlama Ve Yönetim Direktörü)",
+          "department": "Yönetim",
+          "departmentType": "management",
+          "locations": [],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=Eğitim Danışmanı Pozisyonu Başvurusu"
+        },
+        {
+          "title": "İngilizce Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [
+            "İstanbul",
+            "Bursa",
+            "İzmir",
+            "Ankara"
+          ],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=İngilizce Öğretmeni Başvurusu"
+        },
+        {
+          "title": "İspanyolca Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=İspanyolca Öğretmeni Başvurusu"
+        },
+        {
+          "title": "Almanca Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=Almanca Öğretmeni Başvurusu"
+        },
+        {
+          "title": "Fransızca Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=Fransızca Öğretmeni Başvurusu"
+        },
+        {
+          "title": "İtalyanca Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [
+            "İstanbul",
+            "İzmir",
+            "Bursa",
+            "Ankara",
+            "Eskişehir"
+          ],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=İtalyanca Öğretmeni Başvurusu"
+        },
+        {
+          "title": "Rusça Öğretmeni",
+          "department": "Öğretmen",
+          "departmentType": "teacher",
+          "locations": [],
+          "applyUrl": "mailto:istanbul@akademik.com.tr?subject=Rusça Öğretmeni Başvurusu"
+        }
+      ]
+    }
+  },
+  "kurumsalAnlasmalarPage": {
+    "meta": {
+      "title": "Kurumsal Anlaşmalar",
+      "description": "Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD ve Tek Gıda İş Sendikası ile imzaladığımız kurumsal indirim anlaşmalarını keşfedin."
+    },
+    "hero": {
+      "tag": "AKADEMİK INTERNATIONAL",
+      "title": "Kurumsal Anlaşmalar",
+      "subtitle": "Türkiye'nin köklü şirketleri ve sivil toplum kuruluşları ile imzaladığımız kurumsal indirim anlaşmaları",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ DENEME DERSİ!",
+      "formSubtitle": "Kurumsal İndirimden Yararlanın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "showcase": {
+      "sectionTitle": "Kurumsal Anlaşmalarımız",
+      "sectionSubtitle": "Türkiye'nin önde gelen şirketleri ve sivil toplum kuruluşları ile imzaladığımız kurumsal indirim anlaşmaları.",
+      "agreementBadge": "Anlaşma",
+      "eventBadge": "Etkinlik"
+    },
+    "whyUs": {
+      "title": "Kurumsal Anlaşma Avantajları",
+      "subtitle": "Anlaşmalı kurumların çalışanlarına sunduğumuz özel ayrıcalıklar",
+      "advantages": [
+        {
+          "title": "Özel İndirim",
+          "desc": "Anlaşmalı kurum çalışanlarına tüm dil kurslarımızda özel kurumsal indirim oranları uygulanmaktadır.",
+          "icon": "Award"
+        },
+        {
+          "title": "Öncelikli Kayıt",
+          "desc": "Yeni dönem açılışlarında anlaşmalı kurum çalışanları öncelikli kayıt hakkına sahip olmaktadır.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Esnek Ödeme",
+          "desc": "Kurumsal anlaşmalar kapsamında özel ödeme planı ve taksit seçenekleri sunulmaktadır.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Ücretsiz Seviye Testi",
+          "desc": "Anlaşmalı kurum çalışanları ücretsiz dil seviye belirleme testinden yararlanabilmektedir.",
+          "icon": "Laptop"
+        }
+      ],
+      "btnNext": "Sonraki Avantaj",
+      "faqs": [
+        {
+          "q": "Kurumsal anlaşmadan nasıl yararlanabilirim?",
+          "a": "Çalıştığınız kurumun Akademik International ile anlaşmalı olması durumunda, kurumunuzun İK departmanından temin edeceğiniz belge ile herhangi bir şubemize başvurabilirsiniz."
+        },
+        {
+          "q": "Anlaşma kapsamındaki indirim oranı nedir?",
+          "a": "İndirim oranları kuruma ve kursa göre değişmektedir. Detaylı bilgi için müşteri hizmetlerimizi arayabilirsiniz."
+        },
+        {
+          "q": "Kurumumuz adına anlaşma yapmak istiyoruz, nasıl iletişime geçebiliriz?",
+          "a": "Kurumsal anlaşma talebiniz için istanbul@akademik.com.tr adresine e-posta gönderebilir veya 0532 360 92 56 numaralı hattımızı arayabilirsiniz."
+        }
+      ]
+    }
+  },
+  "referanslarPage": {
+    "meta": {
+      "title": "Kurumsal Referanslarımız",
+      "description": "Turkish Airlines, Turkcell, TRT, İş Bankası, Acıbadem ve daha birçok önde gelen kurumun tercih ettiği Akademik International yabancı dil kursları."
+    },
+    "hero": {
+      "tag": "AKADEMİK INTERNATIONAL",
+      "title": "Kurumsal Referanslarımız",
+      "subtitle": "Türkiye'nin köklü kurum ve markalarının güvendiği yabancı dil eğitim merkezi",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ DENEME DERSİ!",
+      "formSubtitle": "Kurumsal Eğitimde Güvenilir Tercih!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
+    "showcase": {
+      "title": "Bize Güvenen Kurumlar",
+      "subtitle": "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Akademik International'ı tercih ediyor.",
+      "statsLabel": "Kurumsal Referans",
+      "yearLabel": "Yıllık Deneyim",
+      "sectorLabel": "Farklı Sektör"
+    },
+    "whyUs": {
+      "title": "Neden Kurumlar Bizi Seçiyor?",
+      "subtitle": "Kurumsal dil eğitiminde standartları belirleyen yaklaşımımız",
+      "advantages": [
+        {
+          "title": "ISO Sertifikalı Kalite",
+          "desc": "Türkiye'de ilk kez ISO 9001:2015 ve 10002:2018 belgelerini alan yabancı dil okulu olarak kalite güvencesini resmi belgelerle sunuyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Program",
+          "desc": "Kurumların çalışma saatlerine ve ihtiyaçlarına göre özelleştirilmiş eğitim takvimi ve müfredat oluşturuyoruz.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Alanında uzman, sertifikalı eğitmenlerden oluşan kadromuzla kurumsal hedeflerinize uygun dil eğitimi sağlıyoruz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Ölçülebilir Sonuç",
+          "desc": "%97 öğrenci memnuniyeti ve belgelenmiş başarı oranlarıyla kurumsal eğitim yatırımınızın geri dönüşünü somut verilerle gösteriyoruz.",
+          "icon": "Laptop"
+        }
+      ],
+      "btnNext": "Sonraki Avantaj",
+      "faqs": [
+        {
+          "q": "Kurumsal eğitim için özel program hazırlıyor musunuz?",
+          "a": "Evet, kurumunuzun sektörüne, çalışan seviyelerine ve hedeflerine göre tamamen özelleştirilmiş müfredat ve program oluşturuyoruz."
+        },
+        {
+          "q": "Grup eğitimlerinde minimum katılımcı sayısı nedir?",
+          "a": "Kurumsal grup eğitimlerimiz en az 4 kişiyle başlayabilmektedir. Daha büyük gruplar için özel fiyatlandırma uygulanmaktadır."
+        },
+        {
+          "q": "Eğitimler yerinde (on-site) verilebiliyor mu?",
+          "a": "Evet, şubelerimizde eğitim verilebildiği gibi kurumunuzun tesislerinde de on-site eğitim gerçekleştirilmektedir."
+        }
+      ]
+    }
+  },
   "nedenAkademikPage": {
     "meta": {
-      "title": "Neden Akademik Yabancı Dil Kursları? | Akademik International",
+      "title": "Neden Akademik Yabancı Dil Kursları?",
       "description": "Akademik International'ı tercih etmenizin nedenleri: uzman kadro, ISO sertifikalı kalite, özgün yayınlar, online ders imkânı ve %97 öğrenci memnuniyeti."
     },
     "hero": {

@@ -78,6 +78,14 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Amerika Kampüsü | Amerika'da Eğitim](https://avcilarakademik.com.tr/amerika): New York'taki özel uluslararası lise ve akademik hazırlık programlarıyla Amerika'da eğitim fırsatları; öğrenci vizesi danışmanlığı ve burs desteği.
 - [Kütahya İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu-kutahya): Kütahya şubesinde özgün müfredat, Native Speaker eğitmenler ve konuşma odaklı sistem ile kaliteli İngilizce eğitimi.
 
+## Hakkımızda
+- [Yayınlarımız](https://avcilarakademik.com.tr/yayinlarimiz): Akademik International'ın özgün eğitim kitapları ve yayın serisi; kendi bünyesinde geliştirilen müfredat materyalleri.
+- [Tarihçemiz](https://avcilarakademik.com.tr/tarihce): Akademik International'ın kuruluşundan bugüne uzanan 12+ yıllık büyüme hikayesi, vizyonu ve kurumsal gelişimi.
+- [Neden Akademik Yabancı Dil Kursları?](https://avcilarakademik.com.tr/neden-akademik-yabanci-dil-kurslari): Akademik International'ı tercih etmeniz için 5 temel neden; native speaker eğitmenler, özgün müfredat, sınav garantisi ve daha fazlası.
+- [Referanslar](https://avcilarakademik.com.tr/referanslar): Kamu kurumları, özel sektör şirketleri, eğitim kurumları ve sağlık kuruluşları dahil 17+ kurumsal referans ve iş ortağı.
+- [Kurumsal Anlaşmalar](https://avcilarakademik.com.tr/kurumsal-anlasmalar): Akademik International'ın Türkiye İş Bankası, BAU, BTSO, Yeşilova Holding, TÜMSİAD ve Tek Gıda-İş Sendikası ile imzaladığı kurumsal indirim anlaşmaları.
+- [Kariyer Fırsatları](https://avcilarakademik.com.tr/kariyer-firsatlari): Akademik International bünyesinde açık pozisyonlar; yabancı dil eğitmeni, online eğitmen, akademik danışman ve idari kadro ilanları.
+
 ## Diğer Hizmetler
 - [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
 
@@ -100,4 +108,4 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Felemenkçe Dil Kursu](https://avcilarakademik.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
 
 ---
-*Son Güncelleme: 5 Ağustos 2026*
+*Son Güncelleme: 6 Ağustos 2026*

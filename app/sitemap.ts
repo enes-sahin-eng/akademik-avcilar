@@ -91,6 +91,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/yayinlarimiz",
     "/tarihce",
     "/neden-akademik-yabanci-dil-kurslari",
+    "/referanslar",
+    "/kurumsal-anlasmalar",
+    "/kariyer-firsatlari",
     // Diğer
     "/tercume-hizmeti",
   ];
