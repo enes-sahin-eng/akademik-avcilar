@@ -11,7 +11,7 @@
 }
 
 .modal {
-  background: #ffffff;
+  background: var(--bg-surface);
   border-radius: 16px;
   width: 100%;
   max-width: 380px;
@@ -45,7 +45,7 @@
 }
 
 .header {
-  background: linear-gradient(135deg, #dc2626, #991b1b);
+  background: linear-gradient(135deg, var(--accent-navy) 0%, var(--accent-red) 100%);
   padding: 28px 24px 24px;
 }
 
@@ -74,43 +74,43 @@
 .label {
   font-size: 11px;
   font-weight: 800;
-  color: #374151;
+  color: var(--text-primary);
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .input {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 10px 14px;
   font-size: 14px;
-  color: #111827;
+  color: var(--text-primary);
   outline: none;
   transition: border-color 0.2s;
-  background: #f9fafb;
+  background: var(--bg-base);
 }
 
 .input:focus {
-  border-color: #dc2626;
-  background: #ffffff;
+  border-color: var(--hover-red);
+  background: var(--bg-surface);
 }
 
 .textarea {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 10px 14px;
   font-size: 14px;
-  color: #111827;
+  color: var(--text-primary);
   outline: none;
   transition: border-color 0.2s;
-  background: #f9fafb;
+  background: var(--bg-base);
   resize: vertical;
   font-family: inherit;
 }
 
 .textarea:focus {
-  border-color: #dc2626;
-  background: #ffffff;
+  border-color: var(--hover-red);
+  background: var(--bg-surface);
 }
 
 .checkboxField {
@@ -124,19 +124,19 @@
   height: 16px;
   flex-shrink: 0;
   margin-top: 2px;
-  accent-color: #dc2626;
+  accent-color: var(--hover-red);
   cursor: pointer;
 }
 
 .checkboxLabel {
   font-size: 12px;
-  color: #6b7280;
+  color: var(--text-muted);
   line-height: 1.5;
   cursor: pointer;
 }
 
 .submitBtn {
-  background: #dc2626;
+  background: var(--hover-red);
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -150,14 +150,14 @@
 }
 
 .submitBtn:hover {
-  background: #b91c1c;
+  background: var(--hover-red);
   transform: translateY(-1px);
 }
 
 .success {
   padding: 40px 24px;
   text-align: center;
-  color: #16a34a;
+  color: var(--accent-green);
   font-size: 15px;
   font-weight: 600;
   line-height: 1.5;

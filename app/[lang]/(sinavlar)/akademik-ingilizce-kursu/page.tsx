@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   // You can extend the dictionary later to include this metadata
   const meta = (dict as any)?.akademikIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "Akademik İngilizce Course | Akademik International" : (lang === 'ar' ? "Akademik İngilizce Kursu | Akademik International" : "Akademik İngilizce Kursu | Akademik International"),
+    title: lang === 'en' ? "Akademik İngilizce Course" : (lang === 'ar' ? "Akademik İngilizce Kursu" : "Akademik İngilizce Kursu"),
     description: "Yurt dışı eğitim ve uluslararası akademik kariyeriniz için Academic İngilizce eğitimleriyle hedeflerinize ulaşın."
   };
 

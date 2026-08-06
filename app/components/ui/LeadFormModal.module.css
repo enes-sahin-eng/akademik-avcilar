@@ -45,7 +45,7 @@
 }
 
 .closeBtn:hover {
-  background: #f3f4f6;
+  background: var(--bg-surface-alt);
   color: var(--text-primary);
 }
 
@@ -126,7 +126,7 @@
 /* Buton */
 .submitBtn {
   width: 100%;
-  background: #ff3333;
+  background: var(--accent-red);
   color: white;
   border: none;
   border-radius: 12px;
@@ -181,8 +181,8 @@
 }
 
 .checkbox:checked {
-  background-color: #ff3333;
-  border-color: #ff3333;
+  background-color: var(--accent-red);
+  border-color: var(--accent-red);
 }
 
 .checkbox:checked::after {

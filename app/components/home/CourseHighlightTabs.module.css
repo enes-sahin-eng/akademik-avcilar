@@ -1,6 +1,6 @@
 .section {
-  padding: 64px 24px;
-  background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+  padding: 72px 24px;
+  background: var(--bg-surface-alt);
 }
 
 /* ── Hidden radio inputs (functional, invisible) ─────────── */
@@ -23,9 +23,9 @@
 
 /* ── Shared panel styles (always applied) ────────────────── */
 .panel {
-  border-radius: 22px;
+  border-radius: var(--radius-xl);
   overflow: hidden;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.11);
+  box-shadow: var(--shadow-xl);
   min-height: 380px;
 }
 
@@ -77,8 +77,10 @@
 }
 
 .leftTitle {
-  font-size: clamp(26px, 3.2vw, 40px);
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3.2vw, 38px);
   font-weight: 800;
+  letter-spacing: var(--tracking-tight);
   color: #ffffff;
   line-height: 1.15;
   margin: 0;
@@ -104,13 +106,18 @@
 .tabLabel {
   display: inline-block;
   padding: 7px 16px;
-  border-radius: 50px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   color: rgba(255, 255, 255, 0.68);
   border: 1.5px solid rgba(255, 255, 255, 0.28);
   cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  transition:
+    color var(--dur-fast) ease,
+    border-color var(--dur-fast) ease,
+    background var(--dur-fast) ease;
   user-select: none;
   white-space: nowrap;
 }
@@ -123,13 +130,13 @@
 .tabLabelActive {
   background: rgba(255, 255, 255, 0.95);
   border-color: transparent;
-  color: #0f172a; /* overridden per theme below */
+  color: var(--text-primary); /* overridden per theme below */
 }
 
 /* ── Right side ──────────────────────────────────────────── */
 .rightContent {
   flex: 1;
-  background: #ffffff;
+  background: var(--bg-surface);
   display: flex;
   align-items: center;
   min-width: 0;
@@ -141,15 +148,17 @@
 }
 
 .rightTitle {
+  font-family: var(--font-display);
   font-size: 21px;
   font-weight: 800;
-  color: #0f172a;
+  letter-spacing: var(--tracking-tight);
+  color: var(--text-primary);
   margin: 0 0 10px 0;
 }
 
 .rightDesc {
   font-size: 13.5px;
-  color: #64748b;
+  color: var(--text-secondary);
   line-height: 1.75;
   margin: 0 0 28px 0;
 }
@@ -180,9 +189,10 @@
 }
 
 .featureText {
+  font-family: var(--font-display);
   font-size: 13px;
   font-weight: 600;
-  color: #334155;
+  color: var(--text-primary);
   line-height: 1.4;
 }
 
@@ -193,76 +203,88 @@
 }
 
 .ctaBtn {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 12px 26px;
-  border-radius: 50px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 600;
+  letter-spacing: var(--tracking-snug);
   text-decoration: none;
   color: #ffffff;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.2s ease;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  transition:
+    transform var(--dur-fast) var(--ease-out-expo),
+    box-shadow var(--dur-fast) ease,
+    background var(--dur-fast) ease;
+  box-shadow: var(--shadow-md);
+}
+
+.ctaBtn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 32%,
+    rgba(255, 255, 255, 0.30) 46%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.75s var(--ease-out-expo);
+  pointer-events: none;
+}
+
+.ctaBtn:hover::after {
+  transform: translateX(130%);
 }
 
 .ctaBtn:hover {
-  transform: translateX(5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  transform: translateX(4px);
+  box-shadow: var(--shadow-lg);
 }
 
-/* ── Theme: Navy ─────────────────────────────────────────── */
+/* ── Theme: Navy (marka lacivert) ────────────────────────── */
 .themeNavy .leftCard {
-  background: linear-gradient(140deg, #091e42 0%, #1d4ed8 100%);
+  background: linear-gradient(140deg, #0b2239 0%, #1b4a7a 100%);
 }
-.themeNavy .tabLabelActive { color: #091e42; }
-.themeNavy .featureIcon { background: #1e3a8a; }
-.themeNavy .ctaBtn { background: #1e3a8a; }
-.themeNavy .ctaBtn:hover { background: #1d4ed8; }
+.themeNavy .tabLabelActive { color: #0b2239; }
+.themeNavy .featureIcon { background: #123a63; }
+.themeNavy .ctaBtn { background: #123a63; }
+.themeNavy .ctaBtn:hover { background: #1b4a7a; }
 
-/* ── Theme: Red ──────────────────────────────────────────── */
+/* ── Theme: Red (marka kırmızı) ──────────────────────────── */
 .themeRed .leftCard {
-  background: linear-gradient(140deg, #7f1d1d 0%, #dc2626 100%);
+  background: linear-gradient(140deg, #6b0f14 0%, #e11b22 100%);
 }
-.themeRed .tabLabelActive { color: #7f1d1d; }
-.themeRed .featureIcon { background: #dc2626; }
-.themeRed .ctaBtn { background: #dc2626; }
-.themeRed .ctaBtn:hover { background: #b91c1c; }
+.themeRed .tabLabelActive { color: #6b0f14; }
+.themeRed .featureIcon { background: #e11b22; }
+.themeRed .ctaBtn { background: #e11b22; }
+.themeRed .ctaBtn:hover { background: #b71219; }
 
-/* ── Theme: Green (redesigned) ───────────────────────────── */
+/* ── Theme: Green ────────────────────────────────────────── */
 .themeGreen .leftCard {
-  background: linear-gradient(140deg, #064e3b 0%, #059669 100%);
+  background: linear-gradient(140deg, #04372a 0%, #15803d 100%);
 }
-.themeGreen .tabLabelActive { color: #064e3b; }
-.themeGreen .featureIcon { background: #059669; }
-.themeGreen .ctaBtn { background: #059669; }
-.themeGreen .ctaBtn:hover { background: #047857; }
+.themeGreen .tabLabelActive { color: #04372a; }
+.themeGreen .featureIcon { background: #15803d; }
+.themeGreen .ctaBtn { background: #15803d; }
+.themeGreen .ctaBtn:hover { background: #0d5c2b; }
 
-/* ── Theme: Orange ───────────────────────────────────────── */
+/* ── Theme: Orange (marka turuncu) ───────────────────────── */
 .themeOrange .leftCard {
-  background: linear-gradient(140deg, #7c2d12 0%, #f97316 100%);
+  background: linear-gradient(140deg, #7c2d12 0%, #f26522 100%);
 }
 .themeOrange .tabLabelActive { color: #7c2d12; }
-.themeOrange .featureIcon { background: #ea580c; }
-.themeOrange .ctaBtn { background: #ea580c; }
+.themeOrange .featureIcon { background: #f26522; }
+.themeOrange .ctaBtn { background: #f26522; }
 .themeOrange .ctaBtn:hover { background: #c2410c; }
 
-/* ── Dark mode ───────────────────────────────────────────── */
-:global([data-theme="dark"]) .section {
-  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
-}
-:global([data-theme="dark"]) .rightContent {
-  background: #1e293b;
-}
-:global([data-theme="dark"]) .rightTitle {
-  color: #f1f5f9;
-}
-:global([data-theme="dark"]) .rightDesc {
-  color: #94a3b8;
-}
-:global([data-theme="dark"]) .featureText {
-  color: #cbd5e1;
-}
+/* Renkler artık token'lardan geliyor; ayrı dark override gerekmiyor. */
 
 /* ── Mobile ──────────────────────────────────────────────── */
 @media (max-width: 860px) {

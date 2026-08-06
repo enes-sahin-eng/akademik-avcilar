@@ -70,7 +70,7 @@
 }
 
 .accordionHeader:hover {
-  background: #1e40af;
+  background: var(--accent-navy);
 }
 
 .arrowIcon {
@@ -88,7 +88,7 @@
 
 .accordionBody {
   padding: 0 20px 16px 20px;
-  color: #bfdbfe;
+  color: var(--text-inverse-muted);
   font-size: 14px;
   line-height: 1.5;
 }

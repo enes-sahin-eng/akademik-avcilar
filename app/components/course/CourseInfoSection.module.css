@@ -3,7 +3,7 @@
   background: 
     radial-gradient(circle at 15% 50%, rgba(225, 29, 72, 0.05), transparent 25%),
     radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.08), transparent 25%);
-  background-color: #f8fafc;
+  background-color: var(--bg-base);
   position: relative;
   overflow: hidden;
 }
@@ -64,7 +64,7 @@
 
 .badge {
   display: inline-block;
-  background: linear-gradient(135deg, #e11d48, #be123c);
+  background: linear-gradient(135deg, var(--accent-red), var(--hover-red));
   color: white;
   padding: 0.6rem 1.5rem;
   border-radius: 9999px;
@@ -80,7 +80,7 @@
 .title {
   font-size: 2.8rem;
   font-weight: 900;
-  color: #0f172a;
+  color: var(--text-primary);
   margin-bottom: 1.5rem;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -91,7 +91,7 @@
 
 .desc {
   font-size: 1.1rem;
-  color: #475569;
+  color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 2rem;
 }
@@ -101,7 +101,7 @@
 }
 
 .desc strong {
-  color: #0f172a;
+  color: var(--text-primary);
   font-weight: 800;
   background-color: rgba(59, 130, 246, 0.1);
   padding: 0 0.25rem;
@@ -122,10 +122,10 @@
 }
 
 .skillCard {
-  background: rgba(255, 255, 255, 0.6);
+  background: var(--glass-soft);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--glass-border);
   border-radius: 1.5rem;
   padding: 2rem;
   display: flex;
@@ -155,7 +155,7 @@
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 1);
   border-color: rgba(225, 29, 72, 0.2);
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--glass-strong);
 }
 
 .iconWrapper {
@@ -175,41 +175,42 @@
   transform: scale(1.1);
 }
 
+/* İkon zeminleri: renkli marka tonunun şeffaf hâli — her iki temada çalışır */
 .iconWrapper.red {
-  background: linear-gradient(135deg, #ffe4e6 0%, #fecdd3 100%);
-  color: #e11d48;
-  box-shadow: 0 8px 16px rgba(225, 29, 72, 0.15);
+  background: var(--tint-red);
+  color: var(--accent-red);
+  box-shadow: 0 8px 16px rgba(225, 27, 34, 0.14);
 }
 
 .iconWrapper.blue {
-  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
-  color: #2563eb;
-  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.15);
+  background: var(--tint-navy);
+  color: var(--brand-ink);
+  box-shadow: 0 8px 16px rgba(18, 58, 99, 0.14);
 }
 
 .iconWrapper.green {
-  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
-  color: #059669;
-  box-shadow: 0 8px 16px rgba(5, 150, 105, 0.15);
+  background: rgba(21, 128, 61, 0.10);
+  color: var(--accent-green);
+  box-shadow: 0 8px 16px rgba(21, 128, 61, 0.14);
 }
 
 .iconWrapper.purple {
-  background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
-  color: #7c3aed;
-  box-shadow: 0 8px 16px rgba(124, 58, 237, 0.15);
+  background: var(--tint-orange);
+  color: var(--accent-orange);
+  box-shadow: 0 8px 16px rgba(242, 101, 34, 0.14);
 }
 
 .skillTitle {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #0f172a;
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   position: relative;
   z-index: 2;
 }
 
 .skillDesc {
-  color: #475569;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.6;
   position: relative;
@@ -217,6 +218,6 @@
 }
 
 .skillDesc strong {
-  color: #0f172a;
+  color: var(--text-primary);
   font-weight: 700;
 }

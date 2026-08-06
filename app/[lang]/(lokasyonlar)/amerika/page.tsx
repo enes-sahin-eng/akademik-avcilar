@@ -38,7 +38,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Amerika Kampüsü | Amerika'da Eğitim | Akademik International",
+    title: "Amerika Kampüsü | Amerika'da Eğitim",
     description:
       "Amerika'da eğitim almak için Akademik International fırsatlarını keşfedin. New York'taki özel uluslararası lisemiz ve akademik hazırlık programlarımızla hayalinizi gerçekleştirin.",
   };

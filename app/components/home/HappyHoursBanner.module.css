@@ -36,7 +36,7 @@
   font-size: 26px;
   font-weight: 900;
   margin: 0 0 24px 0;
-  background: #fff;
+  background: var(--bg-surface);
   color: var(--accent-red);
   display: inline-block;
   padding: 4px 16px;
@@ -56,7 +56,7 @@
 }
 
 .timerBlock {
-  background: white;
+  background: var(--bg-surface);
   color: var(--dropdown-bg);
   padding: 12px 20px;
   border-radius: 12px;
@@ -84,7 +84,7 @@
 }
 
 .btn {
-  background: white;
+  background: var(--bg-surface);
   color: var(--accent-red);
   border: none;
   padding: 12px 30px;

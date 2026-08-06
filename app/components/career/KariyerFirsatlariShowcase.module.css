@@ -1,6 +1,6 @@
 .section {
   padding: 5rem 0 6rem;
-  background: linear-gradient(170deg, #f0f4ff 0%, #ffffff 60%);
+  background: linear-gradient(170deg, var(--bg-surface-alt) 0%, var(--bg-base) 60%);
 }
 
 .inner {
@@ -21,21 +21,21 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #e11d48;
+  color: var(--accent-red);
   margin-bottom: 0.9rem;
 }
 
 .title {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   font-weight: 900;
-  color: #0f172a;
+  color: var(--text-primary);
   margin: 0 0 0.75rem;
   line-height: 1.2;
 }
 
 .subtitle {
   font-size: 1.05rem;
-  color: #64748b;
+  color: var(--text-muted);
   line-height: 1.7;
   max-width: 580px;
   margin: 0 auto 1.75rem;
@@ -52,13 +52,13 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
   border-radius: 100px;
   padding: 0.45rem 1.1rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #334155;
+  color: var(--text-secondary);
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
@@ -77,9 +77,9 @@
 
 /* ─── Card ─── */
 .card {
-  background: #fff;
+  background: var(--bg-surface);
   border-radius: 16px;
-  border: 1.5px solid #e9eef5;
+  border: 1.5px solid var(--border-subtle);
   border-left-width: 4px;
   padding: 1.4rem 1.4rem 1.2rem;
   display: flex;
@@ -96,9 +96,9 @@
 }
 
 /* Department accent border colours */
-.deptManagement { border-left-color: #1d4ed8; }
-.deptTeacher    { border-left-color: #e11d48; }
-.deptOther      { border-left-color: #7c3aed; }
+.deptManagement { border-left-color: var(--brand-ink); }
+.deptTeacher    { border-left-color: var(--accent-red); }
+.deptOther      { border-left-color: var(--accent-orange); }
 
 .cardTop {
   flex: 1;
@@ -112,21 +112,21 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  background: #f1f5f9;
-  color: #475569;
+  background: var(--bg-surface-alt);
+  color: var(--text-secondary);
   padding: 0.25rem 0.65rem;
   border-radius: 100px;
   margin-bottom: 0.6rem;
 }
 
-.deptManagement .deptBadge { background: #eff6ff; color: #1d4ed8; }
-.deptTeacher    .deptBadge { background: #fff1f2; color: #e11d48; }
-.deptOther      .deptBadge { background: #f5f3ff; color: #7c3aed; }
+.deptManagement .deptBadge { background: var(--tint-navy);   color: var(--brand-ink); }
+.deptTeacher    .deptBadge { background: var(--tint-red);    color: var(--accent-red); }
+.deptOther      .deptBadge { background: var(--tint-orange); color: var(--accent-orange); }
 
 .jobTitle {
   font-size: 1rem;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--text-primary);
   margin: 0 0 0.5rem;
   line-height: 1.35;
 }
@@ -136,13 +136,13 @@
   align-items: center;
   gap: 0.3rem;
   font-size: 0.78rem;
-  color: #64748b;
+  color: var(--text-muted);
   font-weight: 500;
 }
 
 .pinIcon {
   flex-shrink: 0;
-  color: #94a3b8;
+  color: var(--text-muted);
 }
 
 /* Apply button */
@@ -165,6 +165,6 @@
 }
 
 .applyBtn:hover {
-  background: #e11d48;
+  background: var(--accent-red);
   transform: scale(1.04);
 }

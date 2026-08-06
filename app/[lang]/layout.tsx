@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Poppins, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {
   getDictionary,
@@ -13,14 +13,25 @@ import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { getOrganizationSchema } from "../../src/utils/seo";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+/** Gövde metni — yüksek okunabilirlik */
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+});
+
+/** Başlıklar, butonlar, etiketler — geometrik karakter */
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -126,8 +137,21 @@ export default async function RootLayout({
   const direction = lang === "ar" ? "rtl" : "ltr";
 
   return (
-    <html lang={lang} dir={direction}>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang={lang} dir={direction} suppressHydrationWarning>
+      <head>
+        {/*
+          Temayı React hydrate olmadan ÖNCE uygular (tema flash'ını önler).
+        */}
+        <script
+          id="theme-init"
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("theme")||"system";var d=t==="dark"||(t==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches);var r=document.documentElement;r.setAttribute("data-theme",d?"dark":"light");r.classList.add(d?"dark":"light");}catch(e){}})();`,
+          }}
+        />
+      </head>
+      <body
+        className={`${inter.variable} ${poppins.variable} ${geistMono.variable}`}
+      >
         <ThemeProvider>
           <script
             id="organization-schema"

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Kurumsal Anlaşmalar | Akademik International",
+    title: "Kurumsal Anlaşmalar",
     description: "Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD ve daha fazlasıyla imzaladığımız kurumsal indirim anlaşmalarını keşfedin.",
   };
 

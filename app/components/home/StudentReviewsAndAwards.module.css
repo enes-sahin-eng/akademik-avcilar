@@ -62,7 +62,7 @@
 
 .title strong {
   font-weight: 800;
-  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  background: linear-gradient(to right, var(--accent-blue), #a78bfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -74,7 +74,7 @@
 }
 
 :global([data-theme="dark"]) .subtitle {
-  color: #94a3b8;
+  color: var(--text-muted);
 }
 
 /* REVIEWS MARQUEE */
@@ -171,7 +171,7 @@
 }
 
 :global([data-theme="dark"]) .reviewText {
-  color: #e2e8f0;
+  color: var(--text-inverse-muted);
 }
 
 .authorInfo {
@@ -192,7 +192,7 @@
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-navy));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,7 +224,7 @@
 }
 
 :global([data-theme="dark"]) .authorRole {
-  color: #94a3b8;
+  color: var(--text-muted);
 }
 
 /* VIDEOS SECTION */
@@ -280,7 +280,7 @@
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  border: 4px solid #ef4444; /* Vivid red */
+  border: 4px solid var(--accent-red); /* Vivid red */
   box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.2), 0 10px 25px rgba(0,0,0,0.5);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   background: #000;

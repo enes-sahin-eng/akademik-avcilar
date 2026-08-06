@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Kurumsal Referanslarımız | Akademik International",
+    title: "Kurumsal Referanslarımız",
     description: "Turkish Airlines, Turkcell, TRT, İş Bankası ve daha birçok kurumun tercih ettiği Akademik International yabancı dil kursları.",
   };
 

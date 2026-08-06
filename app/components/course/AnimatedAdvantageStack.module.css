@@ -46,10 +46,10 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 1.5rem 1.5rem 0 0;
-  border-top: 1px solid #e2e8f0;
-  border-left: 1px solid #e2e8f0;
-  border-right: 1px solid #e2e8f0;
-  background-color: #ffffff;
+  border-top: 1px solid var(--border-subtle);
+  border-left: 1px solid var(--border-subtle);
+  border-right: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
   padding: 0.5rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   will-change: transform;
@@ -77,8 +77,8 @@
   width: 80px;
   height: 80px;
   border-radius: 20px;
-  background-color: #eff6ff;
-  color: #3b82f6;
+  background-color: var(--tint-navy);
+  color: var(--accent-blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,13 +94,13 @@
 .cardTitle {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #0f172a;
+  color: var(--text-primary);
   margin: 0;
 }
 
 .cardDesc {
   font-size: 1rem;
-  color: #64748b;
+  color: var(--text-muted);
   margin: 0;
   line-height: 1.6;
 }
@@ -113,7 +113,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem 0;
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid var(--border-subtle);
   margin-top: -1px;
 }
 
@@ -125,17 +125,17 @@
   justify-content: center;
   gap: 0.5rem;
   border-radius: 0.75rem;
-  border: 1px solid #e2e8f0;
-  background-color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
   padding: 0 1.5rem;
   font-weight: 600;
-  color: #334155;
+  color: var(--text-secondary);
   transition: all 0.2s ease;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .animateButton:hover {
-  background-color: #f8fafc;
+  background-color: var(--bg-base);
   transform: translateY(-1px);
 }
 

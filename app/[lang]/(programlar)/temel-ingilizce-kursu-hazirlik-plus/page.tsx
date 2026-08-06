@@ -30,7 +30,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.prepPlusPage?.meta || {
-    title: lang === 'en' ? "Prep Plus İngilizce Course | Akademik International" : (lang === 'ar' ? "Prep Plus İngilizce Kursu | Akademik International" : "Prep Plus İngilizce Kursu | Akademik International"),
+    title: lang === 'en' ? "Prep Plus İngilizce Course" : (lang === 'ar' ? "Prep Plus İngilizce Kursu" : "Prep Plus İngilizce Kursu"),
     description: "Temel gramer bilgisini pratiğe dökmek ve akıcı İngilizce konuşmak isteyenler için Prep Plus (A2) kursu."
   };
 
