@@ -109,3 +109,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+.tableWrapper { overflow-x: auto; margin-bottom: 2rem; }
+.seoTable { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.seoTable th, .seoTable td { border: 1px solid var(--border-subtle); padding: 12px 16px; text-align: left; }
+.seoTable th { background-color: var(--bg-surface-alt); font-weight: 700; }
+.triangleIcon, .diamondIcon { color: var(--accent-red); margin-right: 8px; font-size: 1.2rem; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 import styles from "./GradeLevelTabs.module.css";
 
@@ -18,42 +17,55 @@ interface Props {
 }
 
 /**
- * Sekme geçişini ve animasyonu yöneten client bileşen. Tüm metinler server
+ * Sekme geçişini yöneten client bileşen. Tüm metinler server
  * component'tan prop olarak gelir; sözlüğe erişmez.
+ *
+ * SEO/GEO NOTU: Tüm sekme içerikleri her zaman DOM'da bulunur.
+ * Görünürlük CSS class'larıyla (tabPanel / tabPanelActive) kontrol edilir.
+ * Google botları butona basmadan tüm içerikleri görebilir.
  */
 export const GradeLevelTabsClient = ({ grades }: Props) => {
   const [activeTab, setActiveTab] = useState(0);
-  const active = grades[activeTab];
 
   return (
     <>
+      {/* Sekme butonları */}
       <div className={styles.tabsContainer}>
         {grades.map((grade, index) => (
           <button
             key={index}
             onClick={() => setActiveTab(index)}
             className={`${styles.tabBtn} ${activeTab === index ? styles.activeTab : ""}`}
+            aria-selected={activeTab === index}
+            aria-controls={`grade-panel-${index}`}
+            id={`grade-tab-${index}`}
+            role="tab"
           >
             {grade.tabTitle}
           </button>
         ))}
       </div>
 
+      {/* Tüm panel içerikleri her zaman DOM'da — SEO botları hepsini görür */}
       <div className={styles.contentWrapper}>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeTab}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
+        {grades.map((grade, index) => (
+          <div
+            key={index}
+            id={`grade-panel-${index}`}
+            role="tabpanel"
+            aria-labelledby={`grade-tab-${index}`}
+            className={
+              activeTab === index ? styles.tabPanel : styles.tabPanelHidden
+            }
           >
-            <h3 className={styles.contentTitle}>{active.title}</h3>
+            <h3 className={styles.contentTitle}>{grade.title}</h3>
 
-            {active.desc && <p className={styles.contentDesc}>{active.desc}</p>}
+            {grade.desc && (
+              <p className={styles.contentDesc}>{grade.desc}</p>
+            )}
 
             <ul className={styles.bulletList}>
-              {active.bullets.map((bullet, idx) => (
+              {grade.bullets.map((bullet, idx) => (
                 <li key={idx} className={styles.bulletItem}>
                   <div className={styles.iconWrapper}>
                     <CheckCircle2 size={18} />
@@ -63,11 +75,11 @@ export const GradeLevelTabsClient = ({ grades }: Props) => {
               ))}
             </ul>
 
-            {active.summary && (
-              <div className={styles.contentSummary}>{active.summary}</div>
+            {grade.summary && (
+              <div className={styles.contentSummary}>{grade.summary}</div>
             )}
-          </motion.div>
-        </AnimatePresence>
+          </div>
+        ))}
       </div>
     </>
   );

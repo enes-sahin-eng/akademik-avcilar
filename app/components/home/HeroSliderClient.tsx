@@ -109,6 +109,7 @@ export const HeroSliderClient = ({
                 title={currentSlide.title || ""}
                 fill
                 priority={true}
+                fetchPriority="high"
                 sizes="(max-width: 768px) 100vw, 100vw"
                 className={styles.slideImage}
               />

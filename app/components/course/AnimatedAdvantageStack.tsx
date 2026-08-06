@@ -70,8 +70,6 @@ function AnimatedCard({
 }) {
   const styleIndex = Math.min(index, 2);
   const { scale, y } = positionStyles[styleIndex] ?? positionStyles[2];
-  
-  // Normal stacking order (3 for front, 2 for middle, 1 for back)
   const zIndex = 3 - index;
 
   const exitAnim = index === 0 ? exitAnimation : undefined;
@@ -102,36 +100,26 @@ function AnimatedCard({
 }
 
 export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
-  // Add a unique ID to each advantage initially so Framer Motion can track them perfectly
   const [items, setItems] = useState<AdvantageWithId[]>(
     advantages.map((adv, i) => ({ ...adv, uniqueId: i }))
   );
-  
-  React.useEffect(() => {
-    setItems(advantages.map((adv, i) => ({ ...adv, uniqueId: i })));
-    setNextId(advantages.length);
-  }, [advantages]);
-
   const [nextId, setNextId] = useState(advantages.length);
   const [isAnimating, setIsAnimating] = useState(false);
+
 
   const handleAnimate = () => {
     if (isAnimating || items.length <= 1) return;
     setIsAnimating(true);
 
-    // The item that falls off the stack
     const exitingItem = items[0];
-    
-    // Create a new array: remove the first item, and append it at the end with a NEW uniqueId
     const newItems = [
-      ...items.slice(1), 
+      ...items.slice(1),
       { ...exitingItem, uniqueId: nextId }
     ];
-    
+
     setItems(newItems);
     setNextId((prev) => prev + 1);
-    
-    // Delay matches the spring animation length roughly
+
     setTimeout(() => {
       setIsAnimating(false);
     }, 1200);
@@ -141,13 +129,28 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
 
   return (
     <div className={styles.stackWrapper}>
-      <div className={styles.stackContainer}>
+      {/*
+       * SEO/GEO: Tüm avantajlar her zaman DOM'da bulunur — botlar tümünü görür.
+       * Görsel stack animasyonu ayrı katmanda çalışır, içerik katmanı gizlidir
+       * ama taranabilir (screen-reader safe "visually hidden" tekniği).
+       */}
+      <div className={styles.seoContent} aria-hidden="false">
+        {advantages.map((adv, i) => (
+          <div key={i} className={styles.seoItem}>
+            <h3>{adv.title}</h3>
+            <p>{adv.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Görsel animasyonlu stack — kullanıcıya gösterilen katman */}
+      <div className={styles.stackContainer} aria-hidden="true">
         <AnimatePresence initial={false}>
           {items.slice(0, 3).map((item, index) => (
-            <AnimatedCard 
-              key={item.uniqueId} // Now completely unique per render lifecycle!
-              advantage={item} 
-              index={index} 
+            <AnimatedCard
+              key={item.uniqueId}
+              advantage={item}
+              index={index}
             />
           ))}
         </AnimatePresence>

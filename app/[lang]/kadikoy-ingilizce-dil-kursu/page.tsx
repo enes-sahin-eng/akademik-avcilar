@@ -80,7 +80,8 @@ export default async function KadikoyIngilizceDilKursuPage({
   const siteUrl = "https://avcilarakademik.com.tr";
   const pageData = (dict as any)?.kadikoyIngilizceLandingPage;
   const meta = pageData?.meta || {};
-  const homeName = lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa";
+  const homeName =
+    lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa";
 
   // Dinamik SSS Verisi (JSON-LD için)
   const faqItems = pageData?.faq?.items || [];
@@ -168,6 +169,10 @@ export default async function KadikoyIngilizceDilKursuPage({
       <CampusLocation courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <MiniGallery />
       <CampusCarousel lang={lang} />
+      <SeoContentBlock courseKey="kadikoyIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="kadikoyIngilizceLandingPage" lang={lang} />
+      <WhyUsSection courseKey="kadikoyIngilizceLandingPage" lang={lang} />
+
       <UpcomingProgramsTable
         lang={lang}
         dictKey="kadikoyIngilizceLandingPage"
@@ -177,12 +182,9 @@ export default async function KadikoyIngilizceDilKursuPage({
         lang={lang}
       />
       <PlacementTestBanner lang={lang} />
-      <WhyUsSection courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-      <CourseFAQ courseKey="kadikoyIngilizceLandingPage" lang={lang} />
 
       {/* Uzun SEO Metinleri */}
-      <SeoContentBlock courseKey="kadikoyIngilizceLandingPage" lang={lang} />
 
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />

@@ -38,6 +38,11 @@ const motionTagMap = {
  * framer-motion'a ihtiyaç duyar. Tüm gerçek içerik (metin, alt component'lar)
  * server component olarak `children` üzerinden geçirilir; bu wrapper'ın
  * kendisi hiçbir metin/veri bilmez — sözlükten tek kelime bile taşımaz.
+ *
+ * SEO/GEO NOTU: initial={visible} kullanıldığı için SSR çıktısında
+ * inline style="opacity:1" yazılır — Google botları tüm metinleri görür.
+ * Animasyon (trigger="inView") element viewport'a girince variants üzerinden
+ * "hidden → visible" ile çalışır; kullanıcı deneyimi korunur.
  */
 export function Reveal({
   children,
@@ -71,6 +76,10 @@ export function Reveal({
 
   const variants: Variants = { hidden, visible };
 
+  // trigger="mount"  → hemen animate="visible"
+  // trigger="inView" → whileInView ile viewport'a girince animasyon başlar.
+  // Her iki durumda da initial={visible}: SSR çıktısında opacity:1 inline style
+  // yazılır, botlar içeriği görür. Client JS yüklenince whileInView devreye girer.
   const triggerProps =
     trigger === "mount"
       ? { animate: "visible" as const }
@@ -83,7 +92,7 @@ export function Reveal({
     <MotionTag
       id={id}
       className={className}
-      initial="hidden"
+      initial={visible}
       variants={variants}
       transition={{ duration, delay }}
       {...triggerProps}
