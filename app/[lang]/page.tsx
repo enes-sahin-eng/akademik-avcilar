@@ -10,6 +10,7 @@ import { WhatsAppButton } from "../components/ui/WhatsAppButton";
 import { LeadFormModal } from "../components/ui/LeadFormModal";
 import PlacementTestBanner from "../components/course/PlacementTestBanner";
 import InstagramFeed from "../components/social/InstagramFeed";
+import CourseHighlightTabs from "../components/home/CourseHighlightTabs";
 
 interface PageProps {
   params: Promise<{
@@ -31,6 +32,7 @@ export default async function Home({ params }: PageProps) {
       <CampusLocation courseKey="homePage" lang={lang} />
       <MiniGallery />
       <CampusCarousel lang={lang} />
+      <CourseHighlightTabs lang={lang} />
       <HomeContentSection lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />

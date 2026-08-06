@@ -7,7 +7,9 @@
   border-radius: 12px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   display: flex;
-  overflow: hidden; /* So right side and bottom strip border radius match */
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
   cursor: default;
   z-index: 1000;
 }

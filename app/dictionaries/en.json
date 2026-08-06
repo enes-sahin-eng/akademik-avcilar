@@ -7371,7 +7371,7 @@
     },
     "hero": {
       "tag": "BUSINESS ENGLISH COURSE",
-      "title": "Reach the Peak of Your Career with",
+      "title": "Reach the Peak of Your Career with Business English!",
       "highlight": "Business English",
       "subtitle": "Strengthen your professional communication with Business English, one of the cornerstones of success in today's global business world.",
       "buttonText": "View Courses",
@@ -12886,7 +12886,7 @@
       "id": "sinav",
       "title": "Exam Center",
       "desc": "Authorized testing center for IELTS, PTE, and LanguageCert.",
-      "link": "/akademik-ingilizce-kursu",
+      "link": "https://atc.akademik.com.tr/",
       "btn": "View Page",
       "icon": "Award",
       "theme": "darkred"
@@ -15795,5 +15795,121 @@
         }
       ]
     }
+  },
+  "courseHighlightSection": {
+    "tabs": [
+      {
+        "label": "General English",
+        "color": "navy",
+        "leftTitle": "General English",
+        "leftDesc": "Our flagship program progressing from A1 to C2 with CEFR-based modules: Prep, Prep Plus, Express, Academic, and Academic Plus.",
+        "rightTitle": "Speaking-Guaranteed Language Education",
+        "rightDesc": "We build strong foundations at beginner level, develop complex sentence mastery and fluency at intermediate level, and bring learners to advanced proficiency for discussing abstract topics.",
+        "features": [
+          {
+            "text": "Speaking Club",
+            "icon": "mic"
+          },
+          {
+            "text": "Native Speaker Classes",
+            "icon": "globe"
+          },
+          {
+            "text": "Max. 10-12 Students per Class",
+            "icon": "users"
+          },
+          {
+            "text": "Free Make-up Lessons",
+            "icon": "clock"
+          }
+        ],
+        "ctaHref": "/ingilizce-kursu",
+        "ctaText": "View Page"
+      },
+      {
+        "label": "Exam Prep",
+        "color": "red",
+        "leftTitle": "Academic Exam Courses",
+        "leftDesc": "Results-driven preparation for IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YKS-DİL and iTEP exams, conducted by our experienced instructors.",
+        "rightTitle": "Reach Your Target Score with Exam Strategy",
+        "rightDesc": "Our exam prep groups use strategy-based learning instead of rote memorization. Weekly progress tracking with 4-skill publication sets and regular mock exam evaluations.",
+        "features": [
+          {
+            "text": "IELTS · TOEFL · TOEIC",
+            "icon": "book"
+          },
+          {
+            "text": "YDS · YÖKDİL · YKS-DİL",
+            "icon": "graduation"
+          },
+          {
+            "text": "Mock Tests & Score Analysis",
+            "icon": "chart"
+          },
+          {
+            "text": "One-on-One Tutoring",
+            "icon": "user"
+          }
+        ],
+        "ctaHref": "/akademik-ingilizce-kursu",
+        "ctaText": "View Page"
+      },
+      {
+        "label": "Proficiency",
+        "color": "green",
+        "leftTitle": "Proficiency / Skip Prep Year",
+        "leftDesc": "An intensive Proficiency program tailored to your university's exam format, designed for students who want to skip the preparatory year.",
+        "rightTitle": "A Program That Saves You a Year",
+        "rightDesc": "Our model teaches language through exam strategy without compartmentalizing skills — reading, writing, listening, and speaking are developed simultaneously with university-specific publication sets.",
+        "features": [
+          {
+            "text": "University-Specific Format",
+            "icon": "school"
+          },
+          {
+            "text": "Academic English",
+            "icon": "book"
+          },
+          {
+            "text": "Writing & Essay Workshop",
+            "icon": "pen"
+          },
+          {
+            "text": "Listening & Note-Taking Skills",
+            "icon": "headphones"
+          }
+        ],
+        "ctaHref": "/ingilizce-hazirlik-atlama",
+        "ctaText": "View Page"
+      },
+      {
+        "label": "Kids & Teens",
+        "color": "orange",
+        "leftTitle": "Kids & Teens Programs",
+        "leftDesc": "Game-based Kids & Junior programs for ages 4-14 and speaking-focused Teens classes for high school students.",
+        "rightTitle": "Natural Language Acquisition Through Engagement",
+        "rightDesc": "We use experiential learning methodology in children's groups — language is acquired, not memorized, through gamified, child-pedagogy-aligned processes. High school groups follow a speaking-focused curriculum that supports the school syllabus.",
+        "features": [
+          {
+            "text": "4-14 Age Kids & Junior",
+            "icon": "star"
+          },
+          {
+            "text": "Game-Based Learning",
+            "icon": "play"
+          },
+          {
+            "text": "High School English (Teens)",
+            "icon": "graduation"
+          },
+          {
+            "text": "Age-Specific Publications",
+            "icon": "book"
+          }
+        ],
+        "ctaHref": "/ilkogretim-ingilizce-kursu",
+        "ctaText": "View Page"
+      }
+    ]
   }
 }

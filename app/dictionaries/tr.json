@@ -7415,7 +7415,7 @@
     },
     "hero": {
       "tag": "İŞ İNGİLİZCESİ KURSU",
-      "title": "İş İngilizcesi ile Kariyerinizde",
+      "title": "İş İngilizcesi ile Kariyerinizde Zirveye Ulaşın!",
       "highlight": "Zirveye Çıkın",
       "subtitle": "Günümüzün global iş dünyasında başarılı olmanın temel taşlarından biri olan İş İngilizcesi ile profesyonel iletişiminizi güçlendirin.",
       "buttonText": "Eğitimleri İncele",
@@ -12974,7 +12974,7 @@
       "id": "sinav",
       "title": "Sınav Merkezi",
       "desc": "IELTS, PTE ve LanguageCert yetkili sınav merkezi; hazırlık ve...",
-      "link": "/akademik-ingilizce-kursu",
+      "link": "https://atc.akademik.com.tr/",
       "btn": "Sayfayı Gör",
       "icon": "Award",
       "theme": "darkred"
@@ -15877,5 +15877,121 @@
         }
       ]
     }
+  },
+  "courseHighlightSection": {
+    "tabs": [
+      {
+        "label": "Genel İngilizce",
+        "color": "navy",
+        "leftTitle": "Genel İngilizce",
+        "leftDesc": "A1'den C2'ye kadar CEFR temelli kurlarla ilerleyen; Prep, Prep Plus, Express, Academic ve Academic Plus modüllerinden oluşan ana programımız.",
+        "rightTitle": "Konuşma Garantili Dil Eğitimi",
+        "rightDesc": "Başlangıç seviyesinde dilin yapı taşlarını sağlam bir zemine kuruyor, orta seviyede karmaşık cümle yapılarına hakimiyet ve akıcılık kazandırıyor, ileri seviyede soyut kavramları tartışabilen üst düzey bir dil kullanımına ulaştırıyoruz.",
+        "features": [
+          {
+            "text": "Speaking Club (Konuşma Kulübü)",
+            "icon": "mic"
+          },
+          {
+            "text": "Native Speaker Dersleri",
+            "icon": "globe"
+          },
+          {
+            "text": "Maksimum 10-12 Kişilik Sınıf",
+            "icon": "users"
+          },
+          {
+            "text": "Ücretsiz Telafi Dersi",
+            "icon": "clock"
+          }
+        ],
+        "ctaHref": "/ingilizce-kursu",
+        "ctaText": "Sayfayı Gör"
+      },
+      {
+        "label": "Sınav Hazırlık",
+        "color": "red",
+        "leftTitle": "Akademik Sınav Kursları",
+        "leftDesc": "IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YKS-DİL ve iTEP sınavlarına yönelik, deneyimli kadromuzla yürütülen sonuç odaklı hazırlık programları.",
+        "rightTitle": "Hedef Skoruna Sınav Stratejisiyle",
+        "rightDesc": "Sınav hazırlık gruplarımızda klasik ezber yöntemleri yerine sınav stratejisine dayalı bir süreç yürütüyoruz. Dört beceriyi eş zamanlı geliştiren yayın setlerimiz ve düzenli deneme değerlendirmeleriyle skor gelişimi haftalık olarak takip edilir.",
+        "features": [
+          {
+            "text": "IELTS · TOEFL · TOEIC",
+            "icon": "book"
+          },
+          {
+            "text": "YDS · YÖKDİL · YKS-DİL",
+            "icon": "graduation"
+          },
+          {
+            "text": "Deneme ve Skor Analizi",
+            "icon": "chart"
+          },
+          {
+            "text": "Birebir Özel Ders İmkânı",
+            "icon": "user"
+          }
+        ],
+        "ctaHref": "/akademik-ingilizce-kursu",
+        "ctaText": "Sayfayı Gör"
+      },
+      {
+        "label": "Hazırlık Atlama",
+        "color": "green",
+        "leftTitle": "Hazırlık Atlama (Proficiency)",
+        "leftDesc": "Üniversite hazırlık sınıfını atlamak isteyen öğrenciler için, kendi üniversitenizin sınav formatına göre kurgulanan yoğunlaştırılmış Proficiency programı.",
+        "rightTitle": "Bir Yıl Kazandıran Program",
+        "rightDesc": "Dili parçalara ayırmadan sınav stratejisiyle öğreten modelimiz; okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştirir. Üniversite sınav programına özel hazırlanan yayın setlerimizle hedeflediğiniz skora en sağlam adımlarla ulaşırsınız.",
+        "features": [
+          {
+            "text": "Üniversiteye Özel Format",
+            "icon": "school"
+          },
+          {
+            "text": "Akademik İngilizce",
+            "icon": "book"
+          },
+          {
+            "text": "Writing ve Essay Atölyesi",
+            "icon": "pen"
+          },
+          {
+            "text": "Dinleme ve Not Alma Teknikleri",
+            "icon": "headphones"
+          }
+        ],
+        "ctaHref": "/ingilizce-hazirlik-atlama",
+        "ctaText": "Sayfayı Gör"
+      },
+      {
+        "label": "Kids & Teens",
+        "color": "orange",
+        "leftTitle": "Kids & Teens Programları",
+        "leftDesc": "4-14 yaş arası çocuklar için oyunlaştırma tabanlı Kids & Junior programlar ve lise öğrencileri için konuşma odaklı Teens sınıfları.",
+        "rightTitle": "Dili Sevdiren Doğal Edinim",
+        "rightDesc": "Çocuk gruplarımızda yaşayarak öğrenme metodolojisi kullanıyoruz; çocuk pedagojisine uygun, oyunlaştırma tabanlı süreçlerle dil ezberlenmiyor, ediniliyor. Ortaokul ve lise gruplarında ise okul müfredatını destekleyen konuşma odaklı bir program yürütülüyor.",
+        "features": [
+          {
+            "text": "4-14 Yaş Kids & Junior",
+            "icon": "star"
+          },
+          {
+            "text": "Oyun Temelli Öğrenme",
+            "icon": "play"
+          },
+          {
+            "text": "Lise İngilizce (Teens)",
+            "icon": "graduation"
+          },
+          {
+            "text": "Yaş Grubuna Özel Yayınlar",
+            "icon": "book"
+          }
+        ],
+        "ctaHref": "/ilkogretim-ingilizce-kursu",
+        "ctaText": "Sayfayı Gör"
+      }
+    ]
   }
 }

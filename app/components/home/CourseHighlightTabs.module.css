@@ -1,0 +1,313 @@
+.section {
+  padding: 64px 24px;
+  background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+}
+
+/* ── Hidden radio inputs (functional, invisible) ─────────── */
+.tabInput {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ── Container ───────────────────────────────────────────── */
+.panels {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ── Shared panel styles (always applied) ────────────────── */
+.panel {
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.11);
+  min-height: 380px;
+}
+
+/* Hide all panels by default */
+.panel0,
+.panel1,
+.panel2,
+.panel3 {
+  display: none;
+}
+
+/* Show active panel via CSS sibling combinator */
+/* :global() prevents CSS Modules from hashing the ID selectors */
+:global(#courseTab0):checked ~ .panels .panel0,
+:global(#courseTab1):checked ~ .panels .panel1,
+:global(#courseTab2):checked ~ .panels .panel2,
+:global(#courseTab3):checked ~ .panels .panel3 {
+  display: flex;
+}
+
+/* ── Left card ───────────────────────────────────────────── */
+.leftCard {
+  position: relative;
+  width: 42%;
+  flex-shrink: 0;
+  padding: 48px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.shapeSvg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.leftContent {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.leftTitle {
+  font-size: clamp(26px, 3.2vw, 40px);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.leftDesc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Tab nav pills ───────────────────────────────────────── */
+.tabNav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 36px;
+}
+
+.tabLabel {
+  display: inline-block;
+  padding: 7px 16px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.68);
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.tabLabel:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.tabLabelActive {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: transparent;
+  color: #0f172a; /* overridden per theme below */
+}
+
+/* ── Right side ──────────────────────────────────────────── */
+.rightContent {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.rightInner {
+  padding: 48px 56px;
+  width: 100%;
+}
+
+.rightTitle {
+  font-size: 21px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 10px 0;
+}
+
+.rightDesc {
+  font-size: 13.5px;
+  color: #64748b;
+  line-height: 1.75;
+  margin: 0 0 28px 0;
+}
+
+/* ── Feature grid ────────────────────────────────────────── */
+.featureGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.featureIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.featureText {
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  line-height: 1.4;
+}
+
+/* ── CTA button ──────────────────────────────────────────── */
+.ctaRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.2s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.ctaBtn:hover {
+  transform: translateX(5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+/* ── Theme: Navy ─────────────────────────────────────────── */
+.themeNavy .leftCard {
+  background: linear-gradient(140deg, #091e42 0%, #1d4ed8 100%);
+}
+.themeNavy .tabLabelActive { color: #091e42; }
+.themeNavy .featureIcon { background: #1e3a8a; }
+.themeNavy .ctaBtn { background: #1e3a8a; }
+.themeNavy .ctaBtn:hover { background: #1d4ed8; }
+
+/* ── Theme: Red ──────────────────────────────────────────── */
+.themeRed .leftCard {
+  background: linear-gradient(140deg, #7f1d1d 0%, #dc2626 100%);
+}
+.themeRed .tabLabelActive { color: #7f1d1d; }
+.themeRed .featureIcon { background: #dc2626; }
+.themeRed .ctaBtn { background: #dc2626; }
+.themeRed .ctaBtn:hover { background: #b91c1c; }
+
+/* ── Theme: Green (redesigned) ───────────────────────────── */
+.themeGreen .leftCard {
+  background: linear-gradient(140deg, #064e3b 0%, #059669 100%);
+}
+.themeGreen .tabLabelActive { color: #064e3b; }
+.themeGreen .featureIcon { background: #059669; }
+.themeGreen .ctaBtn { background: #059669; }
+.themeGreen .ctaBtn:hover { background: #047857; }
+
+/* ── Theme: Orange ───────────────────────────────────────── */
+.themeOrange .leftCard {
+  background: linear-gradient(140deg, #7c2d12 0%, #f97316 100%);
+}
+.themeOrange .tabLabelActive { color: #7c2d12; }
+.themeOrange .featureIcon { background: #ea580c; }
+.themeOrange .ctaBtn { background: #ea580c; }
+.themeOrange .ctaBtn:hover { background: #c2410c; }
+
+/* ── Dark mode ───────────────────────────────────────────── */
+:global([data-theme="dark"]) .section {
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+:global([data-theme="dark"]) .rightContent {
+  background: #1e293b;
+}
+:global([data-theme="dark"]) .rightTitle {
+  color: #f1f5f9;
+}
+:global([data-theme="dark"]) .rightDesc {
+  color: #94a3b8;
+}
+:global([data-theme="dark"]) .featureText {
+  color: #cbd5e1;
+}
+
+/* ── Mobile ──────────────────────────────────────────────── */
+@media (max-width: 860px) {
+  :global(#courseTab0):checked ~ .panels .panel0,
+  :global(#courseTab1):checked ~ .panels .panel1,
+  :global(#courseTab2):checked ~ .panels .panel2,
+  :global(#courseTab3):checked ~ .panels .panel3 {
+    flex-direction: column;
+  }
+
+  .leftCard {
+    width: 100%;
+    padding: 36px 28px 28px;
+    min-height: 240px;
+  }
+
+  .rightContent {
+    align-items: flex-start;
+  }
+
+  .rightInner {
+    padding: 32px 28px;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .ctaBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 16px;
+  }
+  .tabLabel {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+  .rightInner {
+    padding: 28px 20px;
+  }
+}
