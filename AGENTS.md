@@ -122,6 +122,7 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 ## Dizin Yapısı
 
 - `/app` — Sayfa route'ları ve sözlükler (`/app/dictionaries`).
+  - **DİKKAT (Route Groups):** Sayfalar kod okunabilirliği için `[lang]` dizini altında `(hakkimizda)`, `(sinavlar)`, `(diller)`, `(programlar)` ve `(lokasyonlar)` gibi mantıksal Route Group klasörlerine ayrılmıştır. Yeni sayfa eklerken mutlaka doğrudan `[lang]` altına değil, ilgili parantezli klasörün altına ekleyin. (Örn: `app/[lang]/(hakkimizda)/yeni-sayfa`).
 - `/app/components` — Yeniden kullanılabilir React bileşenleri (örn: `SeoContentBlock`) ve ilgili CSS modülleri.
 - `/public` — Görseller, logo, ikon, statik varlıklar ve `llms.txt`.
 - `/app/icon.png` — Next.js App Router konvensiyonu; `<link rel="icon">` meta tag'i buradan üretilir. Silinmesin.

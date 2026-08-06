@@ -69,6 +69,17 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1418) {
+        setMobileMenuOpen(false);
+        setMobileActiveDropdown(null);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const switchLanguage = (newLocale: string) => {
     if (newLocale === currentLocale) return;
     const segments = (pathname || "").split("/");
@@ -314,6 +325,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 title="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
                 width={200}
                 height={50}
+                style={{ height: "auto" }}
                 className={styles.mainLogo}
                 priority
               />

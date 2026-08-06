@@ -1,0 +1,180 @@
+import type { Metadata } from "next";
+import {
+  getDictionary,
+  locales,
+  type Locale,
+} from "../../../dictionaries/getDictionary";
+import { Navbar } from "../../../components/layout/Navbar";
+import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
+import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
+import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
+import { WhyUsSection } from "../../../components/course/WhyUsSection";
+import { EducationModels } from "../../../components/course/EducationModels";
+import { CourseFAQ } from "../../../components/course/CourseFAQ";
+import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
+import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
+import InstagramFeed from "../../../components/social/InstagramFeed";
+import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
+import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
+
+interface PageProps {
+  params: Promise<{
+    lang: string;
+  }>;
+}
+
+export async function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
+  const dict = await getDictionary(lang);
+
+  const meta = (dict as any)?.toeicLandingPage?.meta || {
+    title:
+      lang === "en"
+        ? "TOEIC Preparation Course | Akademik International"
+        : lang === "ar"
+          ? "دورة التحضير لامتحان TOEIC | Akademik International"
+          : "TOEIC Hazırlık Kursu | İş İngilizcesi Sınavı | Akademik International",
+    description:
+      lang === "en"
+        ? "Achieve your target score in the TOEIC exam with our expert instructors scoring 990, specialized for corporate career goals."
+        : lang === "ar"
+          ? "حقق النتيجة المستهدفة في امتحان TOEIC مع مدربينا الخبراء الذين سجلوا 990 درجة، والمتخصصين في الأهداف المهنية للشركات."
+          : "İş dünyasında geçerliliği olan TOEIC sınavına, 990 tam skora sahip uzman eğitmenlerimizle hazırlanın ve kariyerinizde öne geçin.",
+  };
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `/${lang}/toeic-hazirlik-kursu`,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      locale: lang,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
+  };
+}
+
+export default async function ToeicHazirlikKursuPage({ params }: PageProps) {
+  const { lang: rawLang } = await params;
+  const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
+  const dict = await getDictionary(lang);
+
+  // Dinamik SSS Verisi (JSON-LD için)
+  const faqItems = (dict as any)?.toeicLandingPage?.faq?.items || [];
+
+  return (
+    <main>
+      <Navbar lang={lang} />
+
+      {/* 1. BREADCRUMBLIST SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Anasayfa",
+                item: "https://www.avcilarakademik.com.tr",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Akademik Sınav Kursları",
+                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "TOEIC Hazırlık Kursu",
+                item: `https://www.avcilarakademik.com.tr/${lang}/toeic-hazirlik-kursu`,
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* 2. COURSE SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            name: "TOEIC Hazırlık Kursu",
+            description:
+              "Global iletişim süreçlerine hakim olmak isteyenler ve kurumsal firmaların işe alım süreçleri için özel olarak tasarlanmış TOEIC (Test Of English for International Communication) hazırlık programı.",
+            provider: {
+              "@type": "EducationalOrganization",
+              name: "Akademik International Yabancı Dil Okulları",
+              sameAs: "https://www.avcilarakademik.com.tr",
+            },
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "Blended",
+              location: {
+                "@type": "Place",
+                name: "Akademik International Avcılar",
+                address:
+                  "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
+              },
+            },
+          }),
+        }}
+      />
+
+      {/* 3. FAQ SCHEMA */}
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqItems.map((item: any) => ({
+                "@type": "Question",
+                name: item.q,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: item.a,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
+
+      {/* --- İÇERİK BİLEŞENLERİ --- */}
+      <CourseHeroSlider courseKey="toeicLandingPage" lang={lang} />
+      <CourseInfoSection courseKey="toeicLandingPage" lang={lang} />
+      <GradeLevelTabs courseKey="toeicLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="toeicLandingPage" lang={lang} />
+      <PlacementTestBanner lang={lang} />
+      <WhyUsSection courseKey="toeicLandingPage" lang={lang} />
+      <EducationModels courseKey="toeicLandingPage" lang={lang} />
+      <CourseFAQ courseKey="toeicLandingPage" lang={lang} />
+      <SeoContentBlock courseKey="toeicLandingPage" lang={lang} />
+
+      <InstagramFeed lang={lang} />
+      <WhatsAppButton phoneNumber="905323609256" lang={lang} />
+    </main>
+  );
+}

@@ -62,6 +62,27 @@
   overflow: hidden;
 }
 
+/* SEO: Tüm paneller DOM'da kalır — görünürlük CSS ile kontrol edilir */
+.tabPanel {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.tabPanelHidden {
+  /* Kullanıcıya gizli ama botlar okuyabilir */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .contentWrapper::before {
   content: '';
   position: absolute;

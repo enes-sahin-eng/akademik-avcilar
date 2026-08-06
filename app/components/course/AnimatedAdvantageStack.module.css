@@ -5,6 +5,22 @@
   align-items: center;
   justify-content: center;
   padding-top: 1rem;
+  position: relative;
+}
+
+/* SEO: Tüm avantaj metinleri her zaman DOM'da — botlar okur, kullanıcı görmez */
+.seoContent {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.seoItem {
+  display: block;
 }
 
 .stackContainer {
@@ -13,6 +29,7 @@
   width: 100%;
   overflow: hidden;
 }
+
 
 @media (min-width: 640px) {
   .stackContainer {

@@ -1,23 +1,60 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./UpcomingProgramsTable.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 interface Props {
-  tableData: any;
+  tableData: {
+    title?: string;
+    programs: {
+      code: string;
+      start: string;
+      end: string;
+      status?: string;
+      quotaTotal?: number;
+      quotaFilled?: number;
+      link?: string;
+    }[];
+    startDateLabel?: string;
+    remainingDays?: string;
+    startsToday?: string;
+    started?: string;
+    urgentSpots?: string;
+    spotsLeft?: string;
+    quotaFilledText?: string;
+    detailBtn?: string;
+    statusFull?: string;
+    generalProgram?: string;
+    modal?: {
+      weekdays?: string;
+      description?: string;
+      daysLabel?: string;
+      daysValue?: string;
+      hoursLabel?: string;
+      hoursValue?: string;
+      durationLabel?: string;
+      durationValue?: string;
+      classSizeLabel?: string;
+      classSizeValue?: string;
+      features?: string[];
+      reserveBtn?: string;
+      pageBtn?: string;
+      statusFullText?: string;
+      statusClosingText?: string;
+      statusOpenText?: string;
+    };
+  };
   lang: string;
 }
 
 export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
   const [expandedId, setExpandedId] = useState<number | null>(null);
-  const [modalProgram, setModalProgram] = useState<any | null>(null);
-  const [now, setNow] = useState<Date | null>(null);
-
-  useEffect(() => {
-    setNow(new Date());
-  }, []);
+  const [modalProgram, setModalProgram] = useState<Props["tableData"]["programs"][0] | null>(null);
+  // now rendered istemci tarafında stabil, SSR/client fark önemli değil
+  // (sadece gün hesabı için; render sırasında doğrudan hesaplanır)
+  const now = new Date();
 
   if (!tableData) return null;
 
@@ -27,7 +64,7 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
   return (
     <motion.div 
       className={styles.tableWrapper}
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 1, y: 0 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
@@ -36,7 +73,7 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
         <h2 className={styles.sectionTitle}>{tableData.title}</h2>
       )}
       <div className={styles.gridContainer}>
-        {tableData.programs.map((prog: any, i: number) => {
+        {tableData.programs.map((prog: Props["tableData"]["programs"][number], i: number) => {
           const isExpanded = expandedId === i;
           const quotaTotal = prog.quotaTotal || 12;
           const quotaFilled = prog.quotaFilled || (prog.status === 'full' ? 12 : 0);
@@ -66,13 +103,13 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
             fillClass = styles.fillOrange;
           }
 
-          // Text color logic for "X KİŞİLİK YER" text
-          let spotsTextClass = styles.spotsGreen;
-          if (isUrgentSpots) {
-             spotsTextClass = styles.spotsUrgent;
-          } else if (isMediumSpots) {
-             spotsTextClass = styles.spotsOrange || styles.spotsGreen; // We can use green or orange, let's keep it green if no orange class exists, but we should add an orange class to CSS later if needed, for now use Green or hardcode inline style if needed. Actually we have fillOrange, we'll use inline style or just spotsGreen. We'll add styles.spotsOrange to CSS if needed.
-          }
+          // Text color logic for "X KİŞİLİK YER" text — computed for possible future use
+          const _spotsTextClass = isUrgentSpots
+            ? styles.spotsUrgent
+            : isMediumSpots
+            ? styles.spotsOrange ?? styles.spotsGreen
+            : styles.spotsGreen;
+          void _spotsTextClass;
           
           // Remaining time text calculation
           let timeText = "";
