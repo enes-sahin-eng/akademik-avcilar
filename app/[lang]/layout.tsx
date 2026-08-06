@@ -51,11 +51,18 @@ export async function generateMetadata({
   const description: string =
     dict?.meta?.description ?? "Avcılar Frontend sitesi";
 
+  const titleSuffix =
+    lang === "en"
+      ? "Akademik International Language Schools - Avcılar"
+      : lang === "ar"
+        ? "مدارس أكاديميك الدولية للغات - أفجيلار"
+        : "Akademik International Dil Okulları - Avcılar";
+
   return {
     metadataBase: new URL(siteUrl),
     title: {
-      default: title,
-      template: `%s | ${title}`,
+      default: `${title} | ${titleSuffix}`,
+      template: `%s | ${titleSuffix}`,
     },
     description,
 

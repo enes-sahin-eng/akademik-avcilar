@@ -1,0 +1,170 @@
+.section {
+  padding: 5rem 0 6rem;
+  background: linear-gradient(170deg, #f0f4ff 0%, #ffffff 60%);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─── Header ─── */
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #e11d48;
+  margin-bottom: 0.9rem;
+}
+
+.title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900;
+  color: #0f172a;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #64748b;
+  line-height: 1.7;
+  max-width: 580px;
+  margin: 0 auto 1.75rem;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.statPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 100px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ─── Grid ─── */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ─── Card ─── */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1.5px solid #e9eef5;
+  border-left-width: 4px;
+  padding: 1.4rem 1.4rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 32px rgba(0,0,0,0.1);
+}
+
+/* Department accent border colours */
+.deptManagement { border-left-color: #1d4ed8; }
+.deptTeacher    { border-left-color: #e11d48; }
+.deptOther      { border-left-color: #7c3aed; }
+
+.cardTop {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Department badge */
+.deptBadge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 0.25rem 0.65rem;
+  border-radius: 100px;
+  margin-bottom: 0.6rem;
+}
+
+.deptManagement .deptBadge { background: #eff6ff; color: #1d4ed8; }
+.deptTeacher    .deptBadge { background: #fff1f2; color: #e11d48; }
+.deptOther      .deptBadge { background: #f5f3ff; color: #7c3aed; }
+
+.jobTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+  line-height: 1.35;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.pinIcon {
+  flex-shrink: 0;
+  color: #94a3b8;
+}
+
+/* Apply button */
+.applyBtn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #1d3a6e;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.65rem 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.15s ease;
+  align-self: center;
+}
+
+.applyBtn:hover {
+  background: #e11d48;
+  transform: scale(1.04);
+}

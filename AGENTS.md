@@ -4,7 +4,7 @@ Bu dosya, bu repoda kod yazan yapay zeka ajanları (Cursor, Claude Code vb.) ve 
 
 ## Proje Özeti
 
-Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **72 ana sayfa** yayındadır:
+Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için çok dilli, SEO/GEO odaklı bir Next.js (App Router) web uygulaması. Şu an toplam **78 ana sayfa** yayındadır:
 
 ### Temel Sayfalar
 - Anasayfa (`/`)
@@ -100,6 +100,14 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 - Amerika Kampüsü — Yurt Dışı Eğitim (`/amerika`)
 - Kütahya İngilizce Kursu (`/ingilizce-kursu-kutahya`)
 
+### Hakkımızda
+- Yayınlarımız (`/yayinlarimiz`)
+- Tarihçemiz (`/tarihce`)
+- Neden Akademik Yabancı Dil Kursları? (`/neden-akademik-yabanci-dil-kurslari`)
+- Referanslar (`/referanslar`)
+- Kurumsal Anlaşmalar (`/kurumsal-anlasmalar`)
+- Kariyer Fırsatları (`/kariyer-firsatlari`)
+
 ## Teknoloji Yığını & Ortam
 
 - **Çalışma Ortamı:** Node.js >= 18.x
@@ -148,6 +156,7 @@ Düz kutu ve yalın arka planlardan kaçın. Yeni bir tasarım dili icat etme; m
 
 - **Semantik HTML:** Sayfa başına tek `<h1>`, atlamayan başlık hiyerarşisi (`<h2>` → `<h3>`), `<section>`/`<nav>`/`<article>` etiketlerini kullan.
 - **Meta Veriler:** `generateMetadata` fonksiyonunda daima `openGraph` (type: "website") ve `twitter` (card: "summary_large_image") kartları zorunlu olarak tanımlanmalıdır. Hiçbir sayfanın `description` alanı bir diğeriyle kopya olamaz.
+- **Sayfa Title Kuralı (KESİN):** `[lang]/layout.tsx` içindeki `generateMetadata`, her sayfanın title'ına otomatik olarak `| Akademik International Dil Okulları - Avcılar` (TR), `| Akademik International Language Schools - Avcılar` (EN), `| مدارس أكاديميك الدولية للغات - أفجيلار` (AR) suffix'i ekler. Bu nedenle dict dosyalarındaki `meta.title` değerlerine **asla** `| Akademik International` veya benzeri bir marka suffix'i yazma — template bunu otomatik halleder ve çift suffix oluşur. Dict'e sadece sayfa adını yaz: `"YDS Hazırlık Kursu"`, `"Kariyer Fırsatları"` gibi.
 - **Canonical URL:** `alternates.canonical` **her zaman gerçek klasör adıyla** birebir eşleşmeli. Slug ile klasör adının uyuşmaması ciddi SEO bug'ıdır (örn: klasör `kadikoy-almanca-kursu` iken canonical `/almanca-kursu` YAZMA).
 - **JSON-LD Şemaları:** Sayfanın amacına göre `EducationalOrganization`, `Course` (Eğitimler için), `Service` (Tercüme vb. hizmetler için) ve `FAQPage` şemalarını doğru ata. Aynı sayfada aynı entity için tek JSON-LD bloğu kullan.
 - **BreadcrumbList Kuralı:** Breadcrumb'ta yazılan her `item` URL'inin **gerçekten var olan bir sayfayı** işaret ettiğinden emin ol. Var olmayan bir kategori URL'i (örn: `/almanca-kursu` gibi hayali bir ana kategori) breadcrumb'a yazılırsa Google'a kırık link sinyali verir. Ara seviye kategori yoksa 2 seviyeli breadcrumb kullan (Anasayfa → Sayfa).
