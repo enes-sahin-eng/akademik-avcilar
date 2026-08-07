@@ -1,9 +1,9 @@
 import React from "react";
-import { Info } from "lucide-react";
-import styles from "./FAQSection.module.css";
+import styles from "../course/WhyUsSection.module.css";
 import anim from "../motion/animations.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
-import { Accordion } from "../ui/Accordion";
+import { AnimatedAdvantageStack } from "../course/AnimatedAdvantageStack";
+import { WhyUsAccordion } from "../course/WhyUsAccordion";
 
 interface Props {
   lang: Locale;
@@ -16,15 +16,28 @@ export const FAQSection = async ({ lang }: Props) => {
   if (!content) return null;
 
   return (
-    <div className={`${styles.faqContainer} ${anim.fadeUp4}`}>
-      <div className={styles.faqHeader}>
-        <Info size={28} className={styles.infoIcon} />
-        <div className={styles.headerText}>
+    <section className={`${styles.section} ${anim.fadeUp4}`} style={{ marginTop: '3rem' }}>
+      <div className={styles.container}>
+        <div className={styles.header}>
           <h2 className={styles.title}>{content.title}</h2>
-          <p className={styles.desc}>{content.desc}</p>
+          <p className={styles.subtitle}>{content.desc}</p>
+        </div>
+
+        <div className={styles.contentWrapper}>
+          {/* Left: Animated Card Stack for Advantages */}
+          <div className={styles.advantagesGrid}>
+            <AnimatedAdvantageStack
+              advantages={content.advantages || []}
+              btnNext={content.btnNext || "Daha Fazla"}
+            />
+          </div>
+
+          {/* Right: Accordion FAQs */}
+          <div className={styles.accordionContainer}>
+            <WhyUsAccordion faqs={content.items || []} styles={styles} />
+          </div>
         </div>
       </div>
-      <Accordion items={content.items} type="faq" styles={styles} />
-    </div>
+    </section>
   );
 };

@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/is-ingilizcesi",
     "/havacilik-pilotluk-ingilizcesi-kursu",
     // Akademik Sınav Hazırlık (İngilizce)
+    "/akademik-sinavlar",
     "/akademik-ingilizce-kursu",
     "/yds-hazirlik-kursu",
     "/yokdil-hazirlik-kursu",
@@ -114,7 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: "2026-08-05",
+        lastModified: "2026-08-07",
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,

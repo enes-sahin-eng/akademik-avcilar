@@ -165,7 +165,7 @@ export const HeroSliderClient = ({
         <div className={styles.glassFormOverlay}>
           <div className={styles.glassBadge}>
             <Sparkles size={12} strokeWidth={2.5} />
-            <span>Ücretsiz Ön Bilgilendirme</span>
+            <span>{form?.badgeText || "Ücretsiz Ön Bilgilendirme"}</span>
           </div>
 
           <div className={styles.glassHeader}>
@@ -246,17 +246,17 @@ export const HeroSliderClient = ({
           <div className={styles.glassTrustRow}>
             <div className={styles.glassTrustItem}>
               <Clock size={13} strokeWidth={2.2} />
-              <span>Hızlı Yanıt</span>
+              <span>{form?.trustFast || "Hızlı Yanıt"}</span>
             </div>
             <div className={styles.glassTrustDivider} />
             <div className={styles.glassTrustItem}>
               <ShieldCheck size={13} strokeWidth={2.2} />
-              <span>Bilgiler Gizli</span>
+              <span>{form?.trustSecure || "Bilgiler Gizli"}</span>
             </div>
             <div className={styles.glassTrustDivider} />
             <div className={styles.glassTrustItem}>
               <Gift size={13} strokeWidth={2.2} />
-              <span>Deneme Dersi</span>
+              <span>{form?.trustTrial || "Deneme Dersi"}</span>
             </div>
           </div>
 

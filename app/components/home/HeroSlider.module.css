@@ -98,7 +98,10 @@
 
 @media (max-width: 768px) {
   .sliderContainer {
-    height: 340px;
+    aspect-ratio: 16 / 9.5;
+    height: auto;
+    min-height: 200px;
+    max-height: 280px;
   }
   .arrowBtn {
     width: 36px;
@@ -108,15 +111,8 @@
 
 /* ═══════════════════════════════════════════════════════════════════
    PREMIUM LEAD FORM — Deep navy card, warm amber accents, luxury feel
+   Token'lar globals.css içinde tanımlıdır.
    ═══════════════════════════════════════════════════════════════════ */
-:root {
-  --lead-amber:      #f7c56b;
-  --lead-amber-soft: #e8b358;
-  --lead-amber-deep: #c4923a;
-  --lead-navy-1:     #0a1b30;
-  --lead-navy-2:     #123a63;
-  --lead-hairline:   rgba(247, 197, 107, 0.28);
-}
 
 .glassFormOverlay {
   position: absolute;
@@ -127,14 +123,11 @@
   max-width: 405px;
   padding: 30px 30px 22px;
   border-radius: 20px;
-  background:
-    radial-gradient(120% 90% at 100% 0%, rgba(247, 197, 107, 0.10) 0%, transparent 55%),
-    linear-gradient(160deg, var(--lead-navy-2) 0%, var(--lead-navy-1) 62%, #05101f 100%);
-  border: 1px solid var(--lead-hairline);
+  background: linear-gradient(135deg, #324b7a 0%, #1a2952 100%); /* Lighter premium navy gradient */
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Very subtle border */
   box-shadow:
-    0 40px 80px -32px rgba(0, 0, 0, 0.65),
-    0 18px 40px -20px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    0 32px 64px -16px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
   z-index: 20;
   overflow: hidden;
   isolation: isolate;

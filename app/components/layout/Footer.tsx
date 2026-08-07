@@ -222,7 +222,7 @@ export const Footer = async ({ lang }: Props) => {
           </div>
           
           <div className={styles.groupSection}>
-            <Image src="/brand/group-companies.svg" alt="Akademik International Group Companies" title="Akademik International Group Companies" height={60} width={650} style={{ height: 'auto' }} className={styles.groupTitleImg} />
+            <Image src="/brand/group-companies.svg" alt="Akademik International Group Companies" title="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
                 <Image src="/brand/logo.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} style={{ height: 'auto' }} className={styles.logoImg} />
