@@ -1,5 +1,5 @@
 import React from "react";
-import MiniGalleryClient from "./MiniGalleryClient";
+import { CircularGallery, GalleryItem } from "../ui/CircularGallery";
 import styles from "./MiniGallery.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
@@ -26,10 +26,13 @@ export const MiniGallery = async ({ lang = "tr" }: Props) => {
     imgTitle: "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
   };
 
-  const cards = images.map((img, idx) => ({
-    imgUrl: img,
-    alt: `${t.imgAlt} ${idx + 1}`,
-    title: t.imgTitle,
+  const galleryItems: GalleryItem[] = images.map((img, idx) => ({
+    common: t.imgTitle,
+    binomial: "",
+    photo: {
+      url: img,
+      text: `${t.imgAlt} ${idx + 1}`,
+    }
   }));
 
   return (
@@ -39,7 +42,7 @@ export const MiniGallery = async ({ lang = "tr" }: Props) => {
         <p className={styles.gallerySubtitle}>{t.subtitle}</p>
       </div>
       <div className={styles.galleryContainer}>
-        <MiniGalleryClient cards={cards} />
+        <CircularGallery items={galleryItems} radius={500} autoRotateSpeed={0.015} />
       </div>
     </section>
   );

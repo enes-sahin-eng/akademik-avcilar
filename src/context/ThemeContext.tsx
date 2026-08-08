@@ -29,18 +29,18 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     const root = window.document.documentElement;
     root.classList.remove("light", "dark");
 
+    let resolved: string;
     if (theme === "system") {
-      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light";
-      root.classList.add(systemTheme);
-      root.setAttribute("data-theme", systemTheme);
+      resolved = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
     } else {
-      root.classList.add(theme);
-      root.setAttribute("data-theme", theme);
+      resolved = theme;
     }
 
+    root.classList.add(resolved);
+    root.setAttribute("data-theme", resolved);
     localStorage.setItem("theme", theme);
+    // Cookie lets the server apply the correct theme on the initial HTML render (no FOUC)
+    document.cookie = `theme=${resolved}; path=/; max-age=31536000; SameSite=Lax`;
   }, [theme, mounted]);
 
   // Handle system theme changes dynamically when set to system
@@ -54,6 +54,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
       root.classList.remove("light", "dark");
       root.classList.add(systemTheme);
       root.setAttribute("data-theme", systemTheme);
+      document.cookie = `theme=${systemTheme}; path=/; max-age=31536000; SameSite=Lax`;
     };
 
     mediaQuery.addEventListener("change", handleChange);

@@ -9,9 +9,9 @@
 }
 
 .topBar {
-  background: var(--accent-navy-deep);
-  color: var(--text-inverse);
-  border-bottom: none;
+  background: #ffffff;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   font-size: 12.5px;
   padding: 8px 24px;
   display: flex;
@@ -55,12 +55,12 @@
 .topBarDivider {
   width: 1px;
   height: 16px;
-  background-color: rgba(255, 255, 255, 0.18);
+  background-color: rgba(0, 0, 0, 0.15);
   margin: 0 8px;
 }
 
 .topBarLink {
-  color: rgba(255, 255, 255, 0.82);
+  color: var(--text-secondary);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@
 }
 
 .topBarLink:hover {
-  color: var(--accent-orange-light);
+  color: var(--accent-red);
 }
 
 .topBarCenter {
@@ -138,13 +138,33 @@
 }
 
 .marqueeItem {
-  color: var(--accent-orange-light);
+  color: var(--text-secondary);
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: var(--tracking-snug);
   padding: 0 40px;
   display: inline-flex;
   align-items: center;
+  gap: 12px;
+}
+
+.marqueeBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .topBarRight {
@@ -168,60 +188,46 @@
   }
 }
 
-/* Navy topBar üzerinde sosyal ikonlar — nötr beyaz, hover'da marka rengi */
+/* Beyaz topBar üzerinde sosyal ikonlar — kendi marka renkleri */
 .socialIcon {
-  color: rgba(255, 255, 255, 0.65);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:
-    color var(--dur-fast) ease,
-    transform var(--dur-fast) var(--ease-out-expo);
+  transition: transform var(--dur-fast) var(--ease-out-expo);
 }
 
 .socialIcon:hover {
   transform: translateY(-2px) scale(1.08);
 }
 
-.instagram:hover {
-  color: #f77737;
+.instagram {
+  color: #E1306C;
 }
 
-.facebook:hover {
-  color: #4a9eff;
+.facebook {
+  color: #1877F2;
 }
 
-.twitter:hover {
-  color: #ffffff;
+.twitter {
+  color: #000000;
 }
 
-.youtube:hover {
-  color: #ff4444;
+.youtube {
+  color: #FF0000;
 }
 
-.linkedin:hover {
-  color: #4aa3e8;
+.linkedin {
+  color: #0A66C2;
 }
 
-
-@media (max-width: 768px) {
-  .topBar {
-    display: none; /* Hide on mobile to save space */
-  }
-  .ctaBtn {
-    display: none;
-  }
-}
 
 .nav {
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.78);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-bottom: 1px solid rgba(9, 30, 52, 0.07);
+  background-color: var(--accent-navy-deep);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   padding: 14px 24px;
   transition:
     padding var(--dur-base) var(--ease-out-expo),
@@ -230,19 +236,33 @@
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .topBar {
+    display: none;
+  }
+  .ctaBtn {
+    display: none;
+  }
+  /* topBar gizlenince header 0px yüksekliğe düşer; nav'ı flow'a al */
+  .nav {
+    position: relative;
+    top: 0;
+  }
+}
+
 :global([data-theme="dark"]) .nav {
-  background-color: rgba(7, 15, 28, 0.78);
+  background-color: var(--accent-navy-deep);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .navScrolled {
   padding: 9px 24px;
-  background-color: rgba(255, 255, 255, 0.94);
+  background-color: var(--accent-navy-deep);
   box-shadow: var(--shadow-md);
 }
 
 :global([data-theme="dark"]) .navScrolled {
-  background-color: rgba(7, 15, 28, 0.95);
+  background-color: var(--accent-navy-deep);
   box-shadow: var(--shadow-lg);
 }
 
@@ -273,10 +293,11 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: var(--text-primary);
+  color: var(--text-inverse);
   font-weight: 800;
   font-size: 18px;
   flex: 1;
+  min-width: 200px;
 }
 
 .mainLogo {
@@ -308,7 +329,7 @@
 .link {
   background: none;
   border: none;
-  color: var(--text-primary);
+  color: var(--text-inverse);
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 13px;
@@ -364,6 +385,13 @@
     box-shadow var(--dur-fast) ease;
   white-space: nowrap;
   box-shadow: var(--shadow-orange);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ctaBtn svg {
+  flex-shrink: 0;
 }
 
 /* Soldan sağa akan ışık efekti */
@@ -423,6 +451,10 @@
   box-shadow: var(--shadow-orange);
 }
 
+.ctaBtnMobile svg {
+  flex-shrink: 0;
+}
+
 .ctaBtnMobile:hover {
   background: var(--accent-red);
 }
@@ -432,9 +464,9 @@
 }
 
 .langBtn {
-  background: var(--bg-surface-hover);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text-inverse);
   font-family: var(--font-display);
   font-size: 12.5px;
   font-weight: 600;
@@ -515,7 +547,7 @@
   display: none;
   background: none;
   border: none;
-  color: var(--text-primary);
+  color: var(--text-inverse);
   cursor: pointer;
 }
 

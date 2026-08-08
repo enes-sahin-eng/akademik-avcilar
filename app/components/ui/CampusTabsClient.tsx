@@ -19,9 +19,17 @@ interface CampusTabsClientProps {
   campusesData: CampusData[];
   lang: string;
   viewBranchText?: string;
+  title?: string;
+  desc?: string;
 }
 
-export const CampusTabsClient = ({ campusesData, lang, viewBranchText = "Şubeyi İncele" }: CampusTabsClientProps) => {
+export const CampusTabsClient = ({ 
+  campusesData, 
+  lang, 
+  viewBranchText = "Şubeyi İncele",
+  title = "",
+  desc = "" 
+}: CampusTabsClientProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const tabsRef = useRef<HTMLDivElement>(null);
@@ -59,6 +67,13 @@ export const CampusTabsClient = ({ campusesData, lang, viewBranchText = "Şubeyi
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
+      {(title || desc) && (
+        <div className={styles.sectionHeader}>
+          {title && <h2 className={styles.sectionTitle}>{title}</h2>}
+          {desc && <p className={styles.sectionDesc}>{desc}</p>}
+        </div>
+      )}
+
       <div className={styles.tabsHeaderWrapper}>
         <div className={styles.tabsHeader} ref={tabsRef}>
           {campusesData.map((campus, idx) => (

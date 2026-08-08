@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
+import { cookies } from "next/headers";
 import { Inter, Poppins, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {
@@ -12,7 +13,6 @@ import {
 import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { getOrganizationSchema } from "../../src/utils/seo";
-import Script from "next/script";
 
 /** Gövde metni — yüksek okunabilirlik */
 const inter = Inter({
@@ -142,22 +142,17 @@ export default async function RootLayout({
 
   const direction = lang === "ar" ? "rtl" : "ltr";
 
+  const cookieStore = await cookies();
+  const cookieTheme = cookieStore.get("theme")?.value;
+  const dataTheme = cookieTheme === "dark" ? "dark" : "light";
+
   return (
-    <html lang={lang} dir={direction} suppressHydrationWarning>
+    <html lang={lang} dir={direction} suppressHydrationWarning data-theme={dataTheme}>
       <head>
-        {/* Tema flash önleme — React hydrate'dan önce çalışır */}
-        <Script
-          id="theme-init"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem("theme")||"system";var d=t==="dark"||(t==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches);var r=document.documentElement;r.setAttribute("data-theme",d?"dark":"light");r.classList.add(d?"dark":"light");}catch(e){}})();`,
-          }}
-        />
-        {/* JSON-LD — sunucu taraflı render, client component dışında */}
-        <Script
+        {/* JSON-LD */}
+        <script
           id="organization-schema"
           type="application/ld+json"
-          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(getOrganizationSchema(siteUrl)),
           }}

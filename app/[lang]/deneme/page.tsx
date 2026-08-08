@@ -2,6 +2,7 @@ import CourseHighlightTabs from "../../components/home/CourseHighlightTabs";
 import CardFanCarousel from "../../components/deneme/CardFanCarousel";
 import DenemeTabs from "../../components/deneme/DenemeTabs";
 import PremiumFaq from "../../components/deneme/PremiumFaq";
+import { CircularGalleryDemo } from "../../components/ui/CircularGalleryDemo";
 
 interface PageProps {
   params: Promise<{
@@ -28,6 +29,11 @@ export default async function DemoOne({ params }: PageProps) {
   return (
     <>
       <main className="py-20 bg-zinc-50 overflow-hidden">
+        {/* NEW COMPONENT (CircularGallery) */}
+        <div className="mb-32">
+          <CircularGalleryDemo />
+        </div>
+
         <CardFanCarousel cards={DEMO_CARDS} />
         
         <div className="mt-32">

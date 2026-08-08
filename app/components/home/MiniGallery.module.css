@@ -1,6 +1,6 @@
 .gallerySection {
   width: 100%;
-  padding: 100px 0;
+  padding: 40px 0 60px;
   background-color: transparent;
 }
 
@@ -27,11 +27,14 @@
 
 .galleryContainer {
   width: 100%;
-  max-width: 1200px;
+  height: 550px;
+  min-height: 550px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .galleryTrack {

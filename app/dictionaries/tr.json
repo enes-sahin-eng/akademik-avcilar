@@ -29,9 +29,23 @@
     "navContact": "İletişim",
     "selectLanguage": "Dil Seçin",
     "weeklyProgram": "Haftalık Aktivite Programı",
-    "marquee1": "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026",
-    "marquee2": "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi",
-    "marquee3": "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma",
+    "marqueeItems": [
+      {
+        "badgeText": "HAPPY HOURS",
+        "badgeColor": "red",
+        "text": "Flaş indirim saati başladı, indirim saatini kaçırma"
+      },
+      {
+        "badgeText": "ÜCRETSİZ",
+        "badgeColor": "green",
+        "text": "Seviye tespit sınavı ile İngilizce seviyeni öğren"
+      },
+      {
+        "badgeText": "YENİ",
+        "badgeColor": "blue",
+        "text": "Avcılar kampüsümüzde erken kayıt fırsatları başladı!"
+      }
+    ],
     "parentLogin": "Veli Girişi",
     "studentLogin": "Öğrenci Girişi"
   },
@@ -437,7 +451,7 @@
       "address": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu, Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
     },
     "campuses": {
-      "title": "Akademik International Dil Okulları Kampüsleri",
+      "title": "Size En Yakın İngilizce Dil Kursu Şubelerimiz",
       "items": [
         {
           "name": "Avcılar",
@@ -537,7 +551,8 @@
         }
       ],
       "button": "KAMPÜS BAŞVURUSU",
-      "viewBranchText": "Şubeyi İncele"
+      "viewBranchText": "Şubeyi İncele",
+      "desc": "İstanbul, Ankara, Bursa ve Kocaeli'de bulunan Akademik International Yabancı Dil Kursu şubelerimizle, uluslararası standartlarda dil eğitimini kapınıza getiriyoruz."
     },
     "corporate": {
       "title1": "TİCARET ÜNVANI:",
@@ -12982,21 +12997,21 @@
       "theme": "purple"
     },
     {
-      "id": "adult",
-      "title": "Akademik Adult",
-      "desc": "Çalışan yetişkinler için esnek saatli, iş hayatına dönük yoğunlaştırılmış...",
-      "link": "/is-ingilizcesi",
+      "id": "diger-diller",
+      "title": "Diğer Diller",
+      "desc": "Almanca, Fransızca, İspanyolca, Rusça, Japonca ve 15+ dil kursu seçeneği.",
+      "link": "/diger-diller",
       "btn": "Sayfayı Gör",
-      "icon": "Briefcase",
-      "theme": "darkblue"
+      "icon": "Globe",
+      "theme": "teal"
     },
     {
-      "id": "sinav",
-      "title": "Sınav Merkezi",
-      "desc": "IELTS, PTE ve LanguageCert yetkili sınav merkezi; hazırlık ve...",
-      "link": "https://atc.akademik.com.tr/",
-      "btn": "Sayfayı Gör",
-      "icon": "Award",
+      "id": "subelerimiz",
+      "title": "Şubelerimiz",
+      "desc": "İstanbul, Bursa, Ankara, İzmir ve daha fazla şehirde 12+ modern kampüsümüz.",
+      "link": "/subelerimiz",
+      "btn": "Şubeleri Gör",
+      "icon": "MapPin",
       "theme": "darkred"
     }
   ],
@@ -16020,6 +16035,303 @@
     "imgAlt": "Avcılar Akademik International Etkinlik ve Kampüs Görseli",
     "imgTitle": "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
   },
+  "digerDillerLandingPage": {
+    "meta": {
+      "title": "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası | Akademik International",
+      "description": "Avcılar ve tüm şubelerimizde Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve 15+ dil kursu. Uzman eğitmenler, esnek saatler, her seviyede eğitim."
+    },
+    "hero": {
+      "tag": "TÜM DÜNYA DİLLERİ",
+      "title": "Dünyayla Konuş, Fırsatları Yakala",
+      "badge": "KATEGORİ: YABANCI DİL KURSLARI",
+      "description": "Almancadan Japonca'ya, Fransızcadan Arapça'ya kadar 15'ten fazla dilde uzman eğitmenlerimiz ve kanıtlanmış yöntemlerimizle hedeflediğiniz dili kısa sürede öğrenin.",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ÜCRETSİZ DANIŞMANLIK!",
+      "formSubtitle": "Yabancı Dil Kurslarımız İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "15+ Dilde Uzman Kadro ve Kanıtlanmış Başarı!"
+    },
+    "about": {
+      "badge": "4 TEMEL YAKLAŞIM",
+      "title": "Yabancı Dil Öğreniminde Doğru Yöntem",
+      "desc": "Her dil, kendi kültürüne açılan bir kapıdır. Akademik International olarak Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve daha pek çok dilde uzman eğitmenlerimizle öğrencilerimizi gerçek iletişim becerisine taşıyoruz.<br/><br/><b>Dile Özel Müfredat:</b> Her dilin kendine özgü yapısı, telaffuzu ve kültürel bağlamı vardır. Eğitmenlerimiz, hedef dilinize özel hazırlanmış müfredat ve materyallerle en kısa sürede konuşabilmenizi sağlar.<br/><br/><b>İletişim Odaklı Eğitim:</b> Dil öğrenimi sadece gramer değildir; gerçek hayatta kullanmaktır. Konuşma pratiği, dinleme egzersizleri ve kültürel içeriklerle dili yaşayarak öğrenin.",
+      "skills": [
+        {
+          "id": "konusma",
+          "title": "Konuşma Odaklı Eğitim",
+          "desc": "Gerçek hayatta kullanabileceğiniz dil becerileri için interaktif konuşma pratikleri."
+        },
+        {
+          "id": "kultur",
+          "title": "Kültürel Bağlam",
+          "desc": "Dilin arka planındaki kültürü anlayarak daha doğal ve akıcı bir öğrenme deneyimi."
+        },
+        {
+          "id": "seviye",
+          "title": "Seviyeye Uygun Program",
+          "desc": "Ücretsiz seviye tespit sınavı ile A1'den C2'ye doğru sınıfa yerleştirme."
+        },
+        {
+          "id": "materyal",
+          "title": "Güncel Materyaller",
+          "desc": "The Academic Publishing yayınevimizin dile özel hazırlanmış özgün kaynakları."
+        }
+      ],
+      "description": "Hedeflediğiniz dilde Akademik International'ın uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile hızlı ve kalıcı öğrenme deneyimi yaşayın.",
+      "features": [
+        "Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve daha fazlası.",
+        "7-10 kişilik butik sınıflarda ya da birebir formatta eğitim imkanı.",
+        "Ana dil aksanına sahip ve alanında uzman eğitmen kadrosu.",
+        "Ücretsiz seviye tespit sınavı ve kişisel ilerleme takibi."
+      ]
+    },
+    "examCards": {
+      "title": "Öğrenebileceğiniz Diller",
+      "subtitle": "Avrupa'dan Asya'ya, 15'ten fazla dilde kapsamlı yabancı dil kursları.",
+      "categories": [
+        {
+          "id": "european",
+          "label": "Avrupa Dilleri",
+          "exams": [
+            {
+              "name": "Almanca",
+              "shortDesc": "Avrupa'nın en çok konuşulan dili; Almanya, Avusturya ve İsviçre'de kariyer ve göç için.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/almanca-dil-kursu"
+            },
+            {
+              "name": "Fransızca",
+              "shortDesc": "29 ülkede resmi dil; Avrupa, Afrika ve Kanada'da kariyer kapıları açar.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/fransizca-dil-kursu"
+            },
+            {
+              "name": "İspanyolca",
+              "shortDesc": "Dünyada en çok konuşulan ikinci dil; 20+ ülkede iletişim ve iş fırsatları.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/ispanyolca-dil-kursu"
+            },
+            {
+              "name": "İtalyanca",
+              "shortDesc": "Sanat, moda ve gastronomi dünyasının dili; İtalya'da kariyer ve yaşam için.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/italyanca-dil-kursu"
+            },
+            {
+              "name": "Portekizce",
+              "shortDesc": "Brezilya ve Portekiz başta olmak üzere 9 ülkenin resmi dili; geniş iş ağı.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/portekizce-dil-kursu"
+            },
+            {
+              "name": "Flemenkçe",
+              "shortDesc": "Hollanda ve Belçika'da yaşam, çalışma ve eğitim için kapsamlı Hollandaca programı.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/flemenkce-dil-kursu"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asya ve Orta Doğu Dilleri",
+          "exams": [
+            {
+              "name": "Japonca",
+              "shortDesc": "Anime, teknoloji ve iş dünyası için; Japonya'da kariyer ve eğitim fırsatları.",
+              "targetScore": "N5 – N1 JLPT",
+              "link": "/japonca-dil-kursu"
+            },
+            {
+              "name": "Korece",
+              "shortDesc": "K-pop, K-drama ve Samsung/LG/Hyundai gibi küresel şirketlerde kariyer için.",
+              "targetScore": "TOPIK I – II",
+              "link": "/korece-dil-kursu"
+            },
+            {
+              "name": "Çince (Mandarin)",
+              "shortDesc": "Dünyanın en büyük ekonomisinin dili; küresel ticaret ve yatırım fırsatları.",
+              "targetScore": "HSK 1 – 6",
+              "link": "/cince-dil-kursu"
+            },
+            {
+              "name": "Arapça",
+              "shortDesc": "22 ülkenin resmi dili; Orta Doğu'da iş ve diplomatik kariyer için.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/arapca-dil-kursu"
+            },
+            {
+              "name": "Farsça",
+              "shortDesc": "İran, Afganistan ve Tacikistan'da iletişim; ticaret ve kültür köprüsü.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/farsca-dil-kursu"
+            }
+          ]
+        },
+        {
+          "id": "special",
+          "label": "Özel ve Kültürel Dil Programları",
+          "exams": [
+            {
+              "name": "Rusça",
+              "shortDesc": "BDT ülkelerinde iş ve kariyer; Avrupa'nın en geniş coğrafyasının dili.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/rusca-dil-kursu"
+            },
+            {
+              "name": "Türkçe (Yabancılara)",
+              "shortDesc": "Türkiye'de yaşayan ya da ticaret yapan yabancılar için kapsamlı Türkçe programı.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/yabancilara-turkce"
+            },
+            {
+              "name": "Osmanlıca",
+              "shortDesc": "Tarih, arkeoloji ve kültürel miras araştırmaları için Osmanlı Türkçesi programı.",
+              "targetScore": "Başlangıç – İleri",
+              "link": "/osmanlica-dil-kursu"
+            },
+            {
+              "name": "Latince",
+              "shortDesc": "Hukuk, tıp, din bilimleri ve klasik edebiyat için temel Latince eğitimi.",
+              "targetScore": "Başlangıç – İleri",
+              "link": "/latince-dil-kursu"
+            }
+          ]
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International Yabancı Dil Kursu?",
+      "subtitle": "Hızlı ve Kalıcı Dil Öğreniminin Adresi",
+      "cardTitle": "15+ Dilde Uzman Eğitim",
+      "cardDesc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde binlerce öğrenciye Almanca, Fransızca, İspanyolca ve daha pek çok dilde eğitim veren, en çok tavsiye edilen yabancı dil kursu deneyimi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Hangi dillerde kurs verilmektedir?",
+          "a": "Almanca, Fransızca, İspanyolca, İtalyanca, Portekizce, Flemenkçe, Rusça, Japonca, Korece, Çince, Arapça, Farsça, Türkçe (yabancılara), Osmanlıca ve Latince kurslarımız mevcuttur."
+        },
+        {
+          "q": "Dil kursuna hangi seviyeden başlayabilirim?",
+          "a": "Ücretsiz seviye belirleme sınavımız ile mevcut düzeyiniz tespit edilerek, A1'den C2'ye kadar doğru sınıfa yerleştirilirsiniz."
+        },
+        {
+          "q": "Kurs süreleri ne kadar?",
+          "a": "Seçtiğiniz dile ve seviyenize göre 8 haftadan 12 aya kadar değişen esnek programlar uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uzman Eğitmenler",
+          "desc": "Ana dil aksanlı ve alanında sertifikalı uzman eğitmenlerle hızlı öğrenme.",
+          "icon": "Award"
+        },
+        {
+          "title": "Konuşma Garantili",
+          "desc": "İlk dersten itibaren konuşma pratiğiyle dili aktif olarak kullanın.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Sabah, öğleden sonra ve akşam seçenekleriyle çalışma hayatınıza uygun program.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Kuruma Özel Kaynaklar",
+          "desc": "The Academic Publishing yayınevimizin dile özel hazırlanmış güncel materyalleri.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Dil Eğitiminde Kullandığımız Kaynaklar",
+      "subtitle": "The Academic Publishing Farkı",
+      "features": [
+        "Dile Özgü Güncel İçerikler",
+        "Kültürel Bağlam ve Gerçek Hayat Diyalogları",
+        "Kuruma Ait Özgün Materyaller"
+      ],
+      "books": [
+        {
+          "name": "Almanca Başlangıç Seti",
+          "type": "A1-A2 Temel Almanca"
+        },
+        {
+          "name": "Fransızca İletişim Programı",
+          "type": "B1-B2 Pratik Fransızca"
+        },
+        {
+          "name": "Asya Dilleri Rehberi",
+          "type": "Japonca / Korece / Çince"
+        },
+        {
+          "name": "Kültür & Dil Kitapları",
+          "type": "Her Dil İçin Kültürel İçerik"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde 7-10 kişilik butik sınıflarda interaktif dil eğitimi.",
+        "features": [
+          "7-10 Kişilik Butik Gruplar",
+          "Anında Soru Sorma İmkanı",
+          "Yüz Yüze Konuşma Pratiği",
+          "Kültürel Etkinlikler ve Aktiviteler",
+          "Grup Motivasyonu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu ile dilediğiniz yerden dil eğitimi alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "Canlı ve Etkileşimli Dersler",
+          "Online Konuşma Pratiği",
+          "Dijital Materyal Desteği",
+          "Esnek Ders Saatleri"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Diğer Dil Kursları Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Almanca kurs ne kadar sürer?",
+          "a": "Almanca kurs süresi seviyenize ve program yoğunluğuna bağlıdır. A1-A2 temel seviye için ortalama 6-8 ay, B1-B2 orta seviye için 8-12 ay sürmektedir. Yoğunlaştırılmış programlarla bu süreler kısaltılabilir."
+        },
+        {
+          "q": "Japonca öğrenmek için ön koşul var mı?",
+          "a": "Hayır, Japonca kurslarımız tamamen sıfırdan başlayanlar için tasarlanmış programlarla açılmaktadır. Hiragana ve Katakana alfabelerinden başlayarak adım adım ilerliyoruz."
+        },
+        {
+          "q": "Dil kurslarında sertifika veriliyor mu?",
+          "a": "Kursumuzu tamamlayan öğrencilere Akademik International katılım sertifikası verilmektedir. Ayrıca Goethe (Almanca), DELF/DALF (Fransızca), DELE (İspanyolca) gibi uluslararası sınav hazırlığı da yapılmaktadır."
+        },
+        {
+          "q": "Hangi seviyeden hangi dil kursunu almalıyım?",
+          "a": "Ücretsiz seviye tespit sınavımız aracılığıyla mevcut dil bilginiz ölçülür ve CEFR (A1-C2) çerçevesinde doğru seviyeye yerleştirilirsiniz."
+        },
+        {
+          "q": "Rusça ve Arapça gibi zor dillerde ne kadar sürede konuşabilirim?",
+          "a": "Bu diller yapısal olarak Türkçeden farklı olsa da düzenli çalışmayla 6-8 ay içinde günlük iletişim kurabilir düzeye ulaşmak mümkündür. Eğitmenlerimiz en hızlı ilerlemeyi sağlayacak yöntemi kullanmaktadır."
+        }
+      ]
+    }
+  },
   "akademikSinavlarLandingPage": {
     "meta": {
       "title": "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE | Akademik International",
@@ -16309,6 +16621,42 @@
           "a": "GMAT ağırlıklı olarak MBA ve işletme yüksek lisansı programları tarafından kabul edilirken, GRE mühendislik, sosyal bilimler ve fen bilimleri gibi geniş bir lisansüstü alanda geçerlidir. Birçok MBA programı artık her ikisini de kabul etmektedir."
         }
       ]
+    }
+  },
+  "subelerLandingPage": {
+    "meta": {
+      "title": "Şubelerimiz | Türkiye Geneli Dil Kursu Kampüsleri | Akademik International",
+      "description": "Avcılar, Kadıköy, Bursa, Ankara, İzmir, Kocaeli ve Tekirdağ'da 12+ şubemizle Türkiye'nin dört bir yanında yabancı dil eğitimi. Size en yakın Akademik International şubesini bulun."
+    },
+    "hero": {
+      "tag": "TÜRKİYE GENELİ",
+      "title": "Size En Yakın Şubemizde Dil Öğrenin",
+      "desc": "İstanbul'dan İzmir'e, Ankara'dan Bursa'ya Türkiye genelinde 12+ modern kampüsümüzle kaliteli yabancı dil eğitimini kapınıza getiriyoruz.",
+      "stats": [
+        { "value": "12+", "label": "Şube" },
+        { "value": "6", "label": "Büyükşehir" },
+        { "value": "30+", "label": "Yıllık Deneyim" },
+        { "value": "75K+", "label": "Mezun Öğrenci" }
+      ]
+    },
+    "istanbul": {
+      "cityTitle": "İstanbul Şubelerimiz",
+      "cityDesc": "İstanbul'un farklı ilçelerinde 4 şubemizle, Anadolu ve Avrupa yakasında hizmetinizdeyiz."
+    },
+    "bursa": {
+      "cityTitle": "Bursa Şubelerimiz",
+      "cityDesc": "Nilüfer, Görükle, İnegöl ve Yıldırım'da 4 şubemizle Bursa'nın her köşesine ulaşıyoruz."
+    },
+    "otherCities": {
+      "cityTitle": "Diğer Şehirler",
+      "cityDesc": "Ankara, İzmir, Kocaeli ve Tekirdağ'daki şubelerimizle Türkiye genelinde hizmet veriyoruz."
+    },
+    "visitBranch": "Şubeyi İncele",
+    "callBranch": "Şubeyi Ara",
+    "ieltsVenueBadge": "IELTS Sınav Merkezi",
+    "seoSection": {
+      "title": "Türkiye Geneli Şubelerimiz",
+      "content": "Akademik International Yabancı Dil Okulları olarak İstanbul, Ankara, İzmir, Bursa, Kocaeli ve Tekirdağ dahil 6 büyükşehirde 12'den fazla modern eğitim kampüsümüzde hizmet veriyoruz. İstanbul Avcılar ingilizce kursu, Kadıköy ingilizce kursu, Çekmeköy dil kursu, Bursa Nilüfer ingilizce kursu, Bursa Görükle dil kursu, Bursa İnegöl ingilizce kursu, Bursa Yıldırım dil kursu, Ankara ingilizce kursu, İzmir ingilizce kursu, Kocaeli İzmit dil kursu ve Tekirdağ Çorlu ingilizce kursu için doğru adrestesiniz. Tüm şubelerimizde IELTS, TOEFL, YDS hazırlık kursları, genel ingilizce, almanca, fransızca ve daha pek çok dilde eğitim verilmektedir."
     }
   }
 }

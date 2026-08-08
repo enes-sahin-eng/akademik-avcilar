@@ -9,8 +9,18 @@ export const CampusTabs = async ({ lang }: Props) => {
   const dict = await getDictionary(lang);
   const campusesData = (dict as any)?.iletisim?.campuses?.items || [];
   const viewBranchText = (dict as any)?.iletisim?.campuses?.viewBranchText || "Şubeyi İncele";
+  const title = (dict as any)?.iletisim?.campuses?.title || "";
+  const desc = (dict as any)?.iletisim?.campuses?.desc || "";
 
   if (!campusesData.length) return null;
 
-  return <CampusTabsClient campusesData={campusesData} lang={lang} viewBranchText={viewBranchText} />;
+  return (
+    <CampusTabsClient 
+      campusesData={campusesData} 
+      lang={lang} 
+      viewBranchText={viewBranchText} 
+      title={title}
+      desc={desc}
+    />
+  );
 };

@@ -41,7 +41,8 @@
   position: absolute;
   display: flex;
   height: 280px;
-  width: 324px;
+  width: 100% !important;
+  max-width: none !important;
   align-items: center;
   justify-content: center;
   overflow: hidden;

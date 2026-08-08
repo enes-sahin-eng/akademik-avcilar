@@ -12,6 +12,8 @@ import {
   Sun,
   Monitor,
   Calendar,
+  User,
+  GraduationCap
 } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
@@ -167,39 +169,85 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
           <div className={styles.topBarCenter}>
             <div className={styles.marquee}>
               <div className={styles.marqueeContent}>
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee1 ||
-                    "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
-                </span>
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee2 ||
-                    "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
-                </span>
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee3 ||
-                    "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
-                </span>
+                {(navDict?.marqueeItems || []).map((item: any, idx: number) => {
+                  let badgeBg = "#f3f4f6";
+                  let badgeColor = "#4b5563";
+                  let dotColor = "#9ca3af";
+
+                  if (item.badgeColor === "red") {
+                    badgeBg = "#fee2e2";
+                    badgeColor = "#ef4444";
+                    dotColor = "#ef4444";
+                  } else if (item.badgeColor === "green") {
+                    badgeBg = "#dcfce7";
+                    badgeColor = "#10b981";
+                    dotColor = "#10b981";
+                  } else if (item.badgeColor === "blue") {
+                    badgeBg = "#dbeafe";
+                    badgeColor = "#3b82f6";
+                    dotColor = "#3b82f6";
+                  }
+
+                  return (
+                    <span key={idx} className={styles.marqueeItem}>
+                      <span
+                        className={styles.marqueeBadge}
+                        style={{
+                          backgroundColor: badgeBg,
+                          color: badgeColor,
+                        }}
+                      >
+                        <span
+                          className={styles.badgeDot}
+                          style={{ backgroundColor: dotColor }}
+                        ></span>
+                        {item.badgeText}
+                      </span>
+                      {item.text}
+                    </span>
+                  );
+                })}
               </div>
               {/* Duplicate for seamless looping */}
               <div className={styles.marqueeContent} aria-hidden="true">
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee1 ||
-                    "Seramik Hamuruyla Yaratıcı Tasarımlar - Yaz Okulu 2026"}
-                </span>
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee2 ||
-                    "Yaz Okulu 2026: Boncuklu Fotoğraf Çerçevesi Atölyesi"}
-                </span>
-                <span className={styles.marqueeItem}>
-                  <Sparkles size={14} className={styles.sparkleIcon} />
-                  {navDict?.marquee3 ||
-                    "Yaz Okulu 2026'da Tarak Ebru: Geleneksel Sanatla Buluşma"}
-                </span>
+                {(navDict?.marqueeItems || []).map((item: any, idx: number) => {
+                  let badgeBg = "#f3f4f6";
+                  let badgeColor = "#4b5563";
+                  let dotColor = "#9ca3af";
+
+                  if (item.badgeColor === "red") {
+                    badgeBg = "#fee2e2";
+                    badgeColor = "#ef4444";
+                    dotColor = "#ef4444";
+                  } else if (item.badgeColor === "green") {
+                    badgeBg = "#dcfce7";
+                    badgeColor = "#10b981";
+                    dotColor = "#10b981";
+                  } else if (item.badgeColor === "blue") {
+                    badgeBg = "#dbeafe";
+                    badgeColor = "#3b82f6";
+                    dotColor = "#3b82f6";
+                  }
+
+                  return (
+                    <span key={`dup-${idx}`} className={styles.marqueeItem}>
+                      <span
+                        className={styles.marqueeBadge}
+                        style={{
+                          backgroundColor: badgeBg,
+                          color: badgeColor,
+                        }}
+                      >
+                        <span
+                          className={styles.badgeDot}
+                          style={{ backgroundColor: dotColor }}
+                        ></span>
+                        {item.badgeText}
+                      </span>
+                      {item.text}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -572,9 +620,11 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 {/* GİRİŞ BUTONLARI */}
                 <div className={styles.loginBtnWrapper}>
                   <a href="#" className={styles.ctaBtn}>
+                    <User size={16} />
                     {navDict?.parentLogin || "Veli Girişi"}
                   </a>
                   <a href="#" className={styles.ctaBtn}>
+                    <GraduationCap size={16} />
                     {navDict?.studentLogin || "Öğrenci Girişi"}
                   </a>
                 </div>
@@ -779,9 +829,11 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
 
               <div className={styles.mobileCtaWrapper}>
                 <a href="#" className={styles.ctaBtnMobile}>
+                  <User size={18} style={{ marginRight: '6px' }} />
                   {navDict?.parentLogin || "Veli Girişi"}
                 </a>
                 <a href="#" className={styles.ctaBtnMobile}>
+                  <GraduationCap size={18} style={{ marginRight: '6px' }} />
                   {navDict?.studentLogin || "Öğrenci Girişi"}
                 </a>
               </div>

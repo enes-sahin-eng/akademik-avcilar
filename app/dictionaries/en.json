@@ -30,9 +30,23 @@
     "navContact": "Contact",
     "selectLanguage": "Select Language",
     "weeklyProgram": "Weekly Activity Program",
-    "marquee1": "Creative Designs with Ceramic Clay - Summer School 2026",
-    "marquee2": "Summer School 2026: Beaded Photo Frame Workshop",
-    "marquee3": "Comb Marbling at Summer School 2026: Meeting Traditional Art",
+    "marqueeItems": [
+      {
+        "badgeText": "HAPPY HOURS",
+        "badgeColor": "red",
+        "text": "Flash discount hour has started, don't miss the discount hour"
+      },
+      {
+        "badgeText": "FREE",
+        "badgeColor": "green",
+        "text": "Learn your English level with the placement test"
+      },
+      {
+        "badgeText": "NEW",
+        "badgeColor": "blue",
+        "text": "Early registration opportunities started at our Avcılar campus!"
+      }
+    ],
     "parentLogin": "Parent Login",
     "studentLogin": "Student Login"
   },
@@ -438,7 +452,7 @@
       "address": "Avcılar Academic Foreign Language Courses - Avcılar English Course, Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
     },
     "campuses": {
-      "title": "Akademik International Language Schools Campuses",
+      "title": "Our English Language Course Branches Nearest to You",
       "items": [
         {
           "name": "Avcılar",
@@ -538,7 +552,8 @@
         }
       ],
       "button": "CAMPUS APPLICATION",
-      "viewBranchText": "View Branch"
+      "viewBranchText": "View Branch",
+      "desc": "With our Akademik International Foreign Language Course branches located in Istanbul, Ankara, Bursa, and Kocaeli, we bring language education at international standards to your doorstep."
     },
     "corporate": {
       "title1": "COMMERCIAL TITLE:",
@@ -12894,21 +12909,21 @@
       "theme": "purple"
     },
     {
-      "id": "adult",
-      "title": "Akademik Adult",
-      "desc": "Flexible, business-oriented intensive programs for working adults.",
-      "link": "/is-ingilizcesi",
+      "id": "diger-diller",
+      "title": "Other Languages",
+      "desc": "German, French, Spanish, Russian, Japanese and 15+ language course options.",
+      "link": "/diger-diller",
       "btn": "View Page",
-      "icon": "Briefcase",
-      "theme": "darkblue"
+      "icon": "Globe",
+      "theme": "teal"
     },
     {
-      "id": "sinav",
-      "title": "Exam Center",
-      "desc": "Authorized testing center for IELTS, PTE, and LanguageCert.",
-      "link": "https://atc.akademik.com.tr/",
-      "btn": "View Page",
-      "icon": "Award",
+      "id": "subelerimiz",
+      "title": "Our Branches",
+      "desc": "12+ modern campuses in Istanbul, Bursa, Ankara, Izmir and more cities.",
+      "link": "/subelerimiz",
+      "btn": "See Branches",
+      "icon": "MapPin",
       "theme": "darkred"
     }
   ],
@@ -16227,6 +16242,339 @@
           "a": "GMAT is mainly accepted by MBA and business postgraduate programmes, while GRE is valid across a wide range of postgraduate fields including engineering, social sciences and natural sciences. Many MBA programmes now accept both."
         }
       ]
+    }
+  },
+  "digerDillerLandingPage": {
+    "meta": {
+      "title": "Other Language Courses | German, French, Spanish & More | Akademik International",
+      "description": "German, French, Spanish, Italian, Russian, Japanese, Korean and 15+ language courses in Avcılar and all our branches. Expert teachers, flexible hours, all levels."
+    },
+    "hero": {
+      "tag": "ALL WORLD LANGUAGES",
+      "title": "Speak the World, Seize the Opportunities",
+      "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
+      "description": "From German to Japanese, from French to Arabic — learn your target language in no time with our expert instructors and proven methodologies in 15+ languages.",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration & Information Form",
+      "formTitle": "FREE CONSULTATION!",
+      "formSubtitle": "Get Pricing and Detailed Information for Our Language Courses!",
+      "namePlaceholder": "Enter Your Full Name.",
+      "phonePlaceholder": "Enter Your Mobile Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling out this form, you accept the Terms of Use.",
+      "subtitle": "Expert Staff in 15+ Languages with Proven Success!"
+    },
+    "about": {
+      "badge": "4 CORE APPROACHES",
+      "title": "The Right Method for Language Learning",
+      "desc": "Every language is a door to its own culture. At Akademik International, our expert instructors guide students to real communicative competence in German, French, Spanish, Italian, Russian, Japanese, Korean and many more languages.<br/><br/><b>Language-Specific Curriculum:</b> Each language has its own unique structure, pronunciation, and cultural context. Our instructors ensure you can speak your target language quickly with specially designed curricula and materials.<br/><br/><b>Communication-Focused Learning:</b> Language learning is not just grammar — it is about using the language in real life. Learn by living the language through speaking practice, listening exercises, and cultural content.",
+      "skills": [
+        {
+          "id": "speaking",
+          "title": "Communication-Focused Learning",
+          "desc": "Interactive speaking practices for language skills you can use in real-life situations."
+        },
+        {
+          "id": "culture",
+          "title": "Cultural Context",
+          "desc": "A more natural and fluent learning experience by understanding the culture behind the language."
+        },
+        {
+          "id": "level",
+          "title": "Level-Appropriate Programme",
+          "desc": "Free placement test to place you in the correct class from A1 to C2."
+        },
+        {
+          "id": "material",
+          "title": "Up-to-Date Materials",
+          "desc": "Language-specific original resources from our publishing house, The Academic Publishing."
+        }
+      ],
+      "description": "Experience fast and lasting learning in your target language with Akademik International's expert teaching staff and proven methodology.",
+      "features": [
+        "German, French, Spanish, Italian, Russian, Japanese, Korean and more.",
+        "Boutique classes of 7-10 students or one-to-one format.",
+        "Expert instructors with native-level accents and field certifications.",
+        "Free placement test and personal progress tracking."
+      ]
+    },
+    "examCards": {
+      "title": "Languages You Can Learn",
+      "subtitle": "Comprehensive language courses in 15+ languages from Europe to Asia.",
+      "categories": [
+        {
+          "id": "european",
+          "label": "European Languages",
+          "exams": [
+            {
+              "name": "German",
+              "shortDesc": "The most spoken language in Europe; essential for career and immigration in Germany, Austria and Switzerland.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/almanca-dil-kursu"
+            },
+            {
+              "name": "French",
+              "shortDesc": "Official language in 29 countries; opens career doors across Europe, Africa and Canada.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/fransizca-dil-kursu"
+            },
+            {
+              "name": "Spanish",
+              "shortDesc": "The world's second most spoken language; business and communication opportunities in 20+ countries.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/ispanyolca-dil-kursu"
+            },
+            {
+              "name": "Italian",
+              "shortDesc": "The language of art, fashion and gastronomy; for career and life in Italy.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/italyanca-dil-kursu"
+            },
+            {
+              "name": "Portuguese",
+              "shortDesc": "Official language of 9 countries including Brazil and Portugal; wide business network.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/portekizce-dil-kursu"
+            },
+            {
+              "name": "Dutch",
+              "shortDesc": "Comprehensive Dutch programme for living, working and studying in the Netherlands and Belgium.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/flemenkce-dil-kursu"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asian & Middle Eastern Languages",
+          "exams": [
+            {
+              "name": "Japanese",
+              "shortDesc": "For anime, technology and business; career and education opportunities in Japan.",
+              "targetScore": "JLPT N5 – N1",
+              "link": "/japonca-dil-kursu"
+            },
+            {
+              "name": "Korean",
+              "shortDesc": "For K-pop, K-drama and careers at global companies like Samsung, LG and Hyundai.",
+              "targetScore": "TOPIK I – II",
+              "link": "/korece-dil-kursu"
+            },
+            {
+              "name": "Chinese (Mandarin)",
+              "shortDesc": "The language of the world's largest economy; global trade and investment opportunities.",
+              "targetScore": "HSK 1 – 6",
+              "link": "/cince-dil-kursu"
+            },
+            {
+              "name": "Arabic",
+              "shortDesc": "Official language of 22 countries; for business and diplomatic careers in the Middle East.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/arapca-dil-kursu"
+            },
+            {
+              "name": "Persian (Farsi)",
+              "shortDesc": "Communication in Iran, Afghanistan and Tajikistan; a bridge for trade and culture.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/farsca-dil-kursu"
+            }
+          ]
+        },
+        {
+          "id": "special",
+          "label": "Special & Cultural Language Programmes",
+          "exams": [
+            {
+              "name": "Russian",
+              "shortDesc": "Business and career in CIS countries; the language of Europe's widest geography.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/rusca-dil-kursu"
+            },
+            {
+              "name": "Turkish (for Foreigners)",
+              "shortDesc": "Comprehensive Turkish programme for foreigners living or doing business in Turkey.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/yabancilara-turkce"
+            },
+            {
+              "name": "Ottoman Turkish",
+              "shortDesc": "Ottoman Turkish programme for history, archaeology and cultural heritage research.",
+              "targetScore": "Beginner – Advanced",
+              "link": "/osmanlica-dil-kursu"
+            },
+            {
+              "name": "Latin",
+              "shortDesc": "Basic Latin education for law, medicine, religious studies and classical literature.",
+              "targetScore": "Beginner – Advanced",
+              "link": "/latince-dil-kursu"
+            }
+          ]
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Why Akademik International Language Courses?",
+      "subtitle": "The Address for Fast and Lasting Language Learning",
+      "cardTitle": "Expert Education in 15+ Languages",
+      "cardDesc": "Thousands of students trained in German, French, Spanish and many more languages across our branches in Istanbul, Bursa, Izmir, Ankara and beyond — the most recommended foreign language school experience.",
+      "btnNext": "Other Advantages →",
+      "faqs": [
+        {
+          "q": "Which languages are available?",
+          "a": "German, French, Spanish, Italian, Portuguese, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Persian, Turkish (for foreigners), Ottoman Turkish and Latin courses are available."
+        },
+        {
+          "q": "What level can I start a language course from?",
+          "a": "With our free placement test, your current level is determined and you are placed in the right class from A1 to C2."
+        },
+        {
+          "q": "How long are the courses?",
+          "a": "Flexible programmes ranging from 8 weeks to 12 months are available depending on the language you choose and your level."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Expert Instructors",
+          "desc": "Fast learning with native-accented and certified specialist instructors.",
+          "icon": "Award"
+        },
+        {
+          "title": "Speaking Guaranteed",
+          "desc": "Use the language actively with speaking practice from the very first lesson.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Flexible Hours",
+          "desc": "Programme to suit your working life with morning, afternoon and evening options.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Custom Materials",
+          "desc": "Up-to-date materials language-specifically prepared by our publishing house, The Academic Publishing.",
+          "icon": "Laptop"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Resources Used in Language Training",
+      "subtitle": "The Academic Publishing Difference",
+      "features": [
+        "Language-Specific Up-to-Date Content",
+        "Cultural Context and Real-Life Dialogues",
+        "Original Institution-Owned Materials"
+      ],
+      "books": [
+        {
+          "name": "German Starter Set",
+          "type": "A1-A2 Basic German"
+        },
+        {
+          "name": "French Communication Programme",
+          "type": "B1-B2 Practical French"
+        },
+        {
+          "name": "Asian Languages Guide",
+          "type": "Japanese / Korean / Chinese"
+        },
+        {
+          "name": "Culture & Language Books",
+          "type": "Cultural Content for Every Language"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Training Model That Suits You Best",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Education",
+        "badge": "POPULAR",
+        "desc": "Interactive language education in boutique classes of 7-10 students at our branches in Istanbul, Bursa, Izmir, Ankara and beyond.",
+        "features": [
+          "Boutique Groups of 7-10",
+          "Immediate Q&A Opportunity",
+          "Face-to-Face Speaking Practice",
+          "Cultural Activities and Events",
+          "Group Motivation"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Registration Form"
+      },
+      "online": {
+        "title": "Online (Distance) Education",
+        "desc": "The advantage of taking language education from wherever you want with our interactive language platform, broadcast live from studios for the first time in Turkey.",
+        "features": [
+          "Study From Anywhere",
+          "Live and Interactive Lessons",
+          "Online Speaking Practice",
+          "Digital Material Support",
+          "Flexible Lesson Hours"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Registration Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Other Language Courses",
+      "items": [
+        {
+          "q": "How long does a German course take?",
+          "a": "The duration of a German course depends on your level and programme intensity. On average, 6-8 months for A1-A2 basic level and 8-12 months for B1-B2 intermediate level. Intensive programmes can shorten these durations."
+        },
+        {
+          "q": "Is there a prerequisite for learning Japanese?",
+          "a": "No, our Japanese courses are designed with programmes starting completely from scratch. We progress step by step starting from the Hiragana and Katakana alphabets."
+        },
+        {
+          "q": "Do language courses provide certificates?",
+          "a": "Students who complete our course receive an Akademik International participation certificate. In addition, preparation for international exams such as Goethe (German), DELF/DALF (French) and DELE (Spanish) is also provided."
+        },
+        {
+          "q": "Which level language course should I take?",
+          "a": "Your existing language knowledge is measured through our free placement test and you are placed at the correct level within the CEFR (A1-C2) framework."
+        },
+        {
+          "q": "How quickly can I speak in difficult languages like Russian and Arabic?",
+          "a": "Even though these languages are structurally different from Turkish, it is possible to reach daily communication level within 6-8 months with regular study. Our instructors use the method that will provide the fastest progress."
+        }
+      ]
+    }
+  },
+  "subelerLandingPage": {
+    "meta": {
+      "title": "Our Branches | Language School Campuses Across Turkey | Akademik International",
+      "description": "Find Akademik International language school branches in Istanbul, Ankara, Izmir, Bursa, Kocaeli and Tekirdag. 12+ campuses across Turkey — find the one nearest you."
+    },
+    "hero": {
+      "tag": "ACROSS TURKEY",
+      "title": "Learn a Language at Your Nearest Branch",
+      "desc": "With 12+ modern campuses from Istanbul to Izmir, Ankara to Bursa, we bring quality language education right to you.",
+      "stats": [
+        { "value": "12+", "label": "Branches" },
+        { "value": "6", "label": "Major Cities" },
+        { "value": "30+", "label": "Years of Experience" },
+        { "value": "75K+", "label": "Graduates" }
+      ]
+    },
+    "istanbul": {
+      "cityTitle": "Istanbul Branches",
+      "cityDesc": "4 branches across different districts of Istanbul, serving both the European and Asian sides."
+    },
+    "bursa": {
+      "cityTitle": "Bursa Branches",
+      "cityDesc": "4 branches in Nilüfer, Görükle, İnegöl and Yıldırım, reaching every corner of Bursa."
+    },
+    "otherCities": {
+      "cityTitle": "Other Cities",
+      "cityDesc": "Serving across Turkey with branches in Ankara, İzmir, Kocaeli and Tekirdağ."
+    },
+    "visitBranch": "View Branch",
+    "callBranch": "Call Branch",
+    "ieltsVenueBadge": "IELTS Test Venue",
+    "seoSection": {
+      "title": "Our Branches Across Turkey",
+      "content": "Akademik International Language Schools operates 12+ modern education campuses in Istanbul, Ankara, Izmir, Bursa, Kocaeli and Tekirdag. Find English, German, French, Spanish and more language courses at Istanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Görükle, İnegöl, Yıldırım, Ankara, İzmir, Kocaeli İzmit and Tekirdag Çorlu. IELTS, TOEFL, and YDS preparation available at all branches."
     }
   }
 }

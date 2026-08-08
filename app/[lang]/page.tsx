@@ -29,12 +29,12 @@ export default async function Home({ params }: PageProps) {
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
       <HeroQuickNav lang={lang} />
+      <CampusLocation courseKey="homePage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <HomeContentSection lang={lang} />
+      <CourseHighlightTabs lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
-      <CourseHighlightTabs lang={lang} />
-      <CampusLocation courseKey="homePage" lang={lang} />
-      <HomeContentSection lang={lang} />
-      <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
       <LeadFormModal lang={lang} />

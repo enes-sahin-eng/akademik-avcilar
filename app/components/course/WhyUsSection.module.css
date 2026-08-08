@@ -48,11 +48,7 @@
   gap: 1.5rem;
 }
 
-@media (min-width: 500px) {
-  .advantagesGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 
 .advantageCard {
   background-color: var(--bg-base);

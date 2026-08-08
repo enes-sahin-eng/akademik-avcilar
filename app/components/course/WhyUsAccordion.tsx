@@ -18,7 +18,7 @@ interface Props {
  * component'tan prop olarak gelir; sözlüğe erişmez.
  */
 export const WhyUsAccordion = ({ faqs, styles }: Props) => {
-  const [openIndex, setOpenIndex] = useState<number>(0);
+  const [openIndex, setOpenIndex] = useState<number>(-1);
 
   return (
     <>

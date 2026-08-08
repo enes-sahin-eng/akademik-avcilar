@@ -88,8 +88,9 @@ function AnimatedCard({
       }}
       style={{
         zIndex,
-        left: "50%",
-        x: "-50%",
+        left: 0,
+        right: 0,
+        margin: "0 auto",
         bottom: 0,
       }}
       className={styles.animatedCard}
