@@ -2,7 +2,7 @@
   position: relative;
   z-index: 10;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1480px; /* Adjusted to allow approx 352px width per card */
   margin: -100px auto 40px auto;
   padding: 0 1rem;
   perspective: 1200px;

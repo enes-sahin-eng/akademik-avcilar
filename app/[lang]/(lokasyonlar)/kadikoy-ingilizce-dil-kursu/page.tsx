@@ -7,7 +7,7 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusLocation } from "../../../components/campus/CampusLocation";
-import { CampusCarousel } from "../../../components/ui/CampusCarousel";
+import { CampusTabs } from "../../../components/ui/CampusTabs";
 import { UpcomingProgramsTable } from "../../../components/home/UpcomingProgramsTable";
 import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
@@ -167,8 +167,8 @@ export default async function KadikoyIngilizceDilKursuPage({
       {/* --- İÇERİK BİLEŞENLERİ --- */}
       <CourseHeroSlider courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <CampusLocation courseKey="kadikoyIngilizceLandingPage" lang={lang} />
-      <MiniGallery />
-      <CampusCarousel lang={lang} />
+      <MiniGallery lang={lang} />
+      <CampusTabs lang={lang} />
       <SeoContentBlock courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="kadikoyIngilizceLandingPage" lang={lang} />

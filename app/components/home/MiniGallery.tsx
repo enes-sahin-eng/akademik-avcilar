@@ -1,10 +1,7 @@
-"use client";
-
-import React, { useRef } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import React from "react";
+import MiniGalleryClient from "./MiniGalleryClient";
 import styles from "./MiniGallery.module.css";
-import { motion, useInView } from "framer-motion";
-import Image from "next/image";
+import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
 const images = [
   "/sliders/slider1.webp",
@@ -16,91 +13,34 @@ const images = [
   "/campuses/sube-kadikoy.webp",
 ];
 
-export const MiniGallery = () => {
-  const trackRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+interface Props {
+  lang?: Locale;
+}
 
-  const scrollLeft = () => {
-    if (trackRef.current) {
-      trackRef.current.scrollBy({ left: -220, behavior: "smooth" });
-    }
+export const MiniGallery = async ({ lang = "tr" }: Props) => {
+  const dict = await getDictionary(lang);
+  const t = (dict as any)?.miniGallery || {
+    title: "Kursumuzdan Kareler",
+    subtitle: "Kampüsümüzden ve etkinliklerimizden öne çıkan anlar",
+    imgAlt: "Avcılar Akademik International Etkinlik ve Kampüs Görseli",
+    imgTitle: "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
   };
 
-  const scrollRight = () => {
-    if (trackRef.current) {
-      trackRef.current.scrollBy({ left: 220, behavior: "smooth" });
-    }
-  };
-
-  const containerVariants: any = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
-  const itemVariants: any = {
-    hidden: { opacity: 0, scale: 0.8, y: 30 },
-    show: { opacity: 1, scale: 1, y: 0, transition: { type: "spring", stiffness: 200, damping: 20 } }
-  };
+  const cards = images.map((img, idx) => ({
+    imgUrl: img,
+    alt: `${t.imgAlt} ${idx + 1}`,
+    title: t.imgTitle,
+  }));
 
   return (
-    <div className={styles.galleryContainer} ref={containerRef}>
-      <div className={styles.galleryWrapper}>
-        <motion.button 
-          className={`${styles.arrowBtn} ${styles.prevBtn}`} 
-          onClick={scrollLeft}
-          whileHover={{ scale: 1.1, backgroundColor: "#ef4444" }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0, x: -20 }}
-          animate={isInView ? { opacity: 1, x: 0 } : {}}
-          transition={{ delay: 0.5 }}
-        >
-          <ChevronLeft size={24} />
-        </motion.button>
-
-        <motion.div 
-          className={styles.galleryTrack} 
-          ref={trackRef}
-          variants={containerVariants}
-          initial="hidden"
-          animate={isInView ? "show" : "hidden"}
-        >
-          {images.map((img, idx) => (
-            <motion.div 
-              key={idx} 
-              className={styles.galleryItem}
-              variants={itemVariants}
-              whileHover={{ y: -10, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.3)" }}
-            >
-              <Image 
-                src={img} 
-                alt={`Avcılar Akademik International Etkinlik ve Kampüs Görseli ${idx + 1}`} 
-                title="Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
-                width={400}
-                height={300}
-                className={styles.galleryImg} 
-              />
-            </motion.div>
-          ))}
-        </motion.div>
-
-        <motion.button 
-          className={`${styles.arrowBtn} ${styles.nextBtn}`} 
-          onClick={scrollRight}
-          whileHover={{ scale: 1.1, backgroundColor: "#ef4444" }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0, x: 20 }}
-          animate={isInView ? { opacity: 1, x: 0 } : {}}
-          transition={{ delay: 0.5 }}
-        >
-          <ChevronRight size={24} />
-        </motion.button>
+    <section className={styles.gallerySection}>
+      <div className={styles.galleryHeader}>
+        <h2 className={styles.galleryTitle}>{t.title}</h2>
+        <p className={styles.gallerySubtitle}>{t.subtitle}</p>
       </div>
-    </div>
+      <div className={styles.galleryContainer}>
+        <MiniGalleryClient cards={cards} />
+      </div>
+    </section>
   );
 };

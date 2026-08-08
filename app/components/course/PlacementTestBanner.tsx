@@ -23,16 +23,19 @@ export default async function PlacementTestBanner({ lang }: Props) {
       tabText={testDict?.tabText || "✦ Ücretsiz Seviye Sınavı"}
       isRtl={lang === "ar"}
     >
+      {/* Başlık */}
       <div className="banner-header">
-        <div className="banner-avatar">
-          <Image
-            src="/brand/mascot-peek.png"
-            alt={testDict?.avatarAlt || "Avcılar İngilizce Kursu Eğitim Danışmanı"}
-            title={testDict?.avatarTitle || "Avcılar Dil Okulu Seviye Sınavı"}
-            width={48}
-            height={48}
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "left top" }}
-          />
+        <div className="banner-avatar-shell">
+          <div className="banner-avatar">
+            <Image
+              src="/brand/mascot-peek.png"
+              alt={testDict?.avatarAlt || "Avcılar İngilizce Kursu Eğitim Danışmanı"}
+              title={testDict?.avatarTitle || "Avcılar Dil Okulu Seviye Sınavı"}
+              width={42}
+              height={42}
+              style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "left top" }}
+            />
+          </div>
         </div>
         <div>
           <div className="banner-title">
@@ -49,6 +52,7 @@ export default async function PlacementTestBanner({ lang }: Props) {
           "Hızlı bir test ile İngilizce seviyenizi belirleyin, size özel hazırlanmış programa hemen başlayın."}
       </p>
 
+      {/* Özellik listesi — Double-Bezel */}
       <div className="banner-list">
         {listItems.map((item, i) => (
           <div key={i} className="banner-list-item">
@@ -58,13 +62,15 @@ export default async function PlacementTestBanner({ lang }: Props) {
         ))}
       </div>
 
+      {/* CTA — Button-in-Button */}
       <a
         href="https://atc.akademik.com.tr/"
         target="_blank"
         rel="noopener noreferrer"
         className="banner-action-btn"
       >
-        {testDict?.btnText || "Sınava Başla →"}
+        <span>{testDict?.btnText || "Sınava Başla"}</span>
+        <span className="banner-btn-icon">→</span>
       </a>
 
       <p className="banner-footer">

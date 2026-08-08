@@ -441,90 +441,103 @@
       "items": [
         {
           "name": "Avcılar",
-          "label": "İngilizce Dil",
+          "label": "Avcılar",
           "phone": "0212 650 90 90",
           "image": "/campuses/sube-avcilar.jpg",
-          "href": "/avcilar-ingilizce-dil-kursu"
+          "href": "/avcilar-ingilizce-dil-kursu",
+          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
         },
         {
           "name": "Kadıköy",
-          "label": "İngilizce Dil",
+          "label": "Kadıköy",
           "phone": "0216 330 19 09",
           "image": "/campuses/sube-kadikoy.webp",
-          "href": "/kadikoy-ingilizce-dil-kursu"
+          "href": "/kadikoy-ingilizce-dil-kursu",
+          "mapQuery": "Kadıköy İngilizce Kursu | Akademik Yabancı Dil Kursları Kadıköy Dil Okulu"
         },
         {
           "name": "Bursa",
-          "label": "İngilizce Kursu",
+          "label": "Bursa / Nilüfer",
           "phone": "0224 480 00 15",
           "image": "/campuses/sube-bursa.webp",
-          "href": "/bursa-ingilizce-dil-kursu-fsm"
+          "href": "/bursa-ingilizce-dil-kursu-fsm",
+          "mapQuery": "40.212043, 28.9792457"
         },
         {
           "name": "İstanbul",
-          "label": "İngilizce Dil",
+          "label": "İstanbul",
           "phone": "0216 330 19 09",
           "image": "/campuses/sube-ingilizcedil.webp",
-          "href": "/istanbul-ingilizce-kursu"
+          "href": "/istanbul-ingilizce-kursu",
+          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
         },
         {
           "name": "İstanbul",
           "label": "Çekmeköy",
           "phone": "0501 369 56 40",
           "image": "/campuses/sube-cekmekoy.webp",
-          "href": "/cekmekoy-ingilizce-dil-kursu"
+          "href": "/cekmekoy-ingilizce-dil-kursu",
+          "mapQuery": "Çekmeköy Final Özel Öğretim Kursu"
         },
         {
           "name": "Bursa",
           "label": "Görükle",
           "phone": "0224 480 00 14",
           "image": "/campuses/sube-gorukle.webp",
-          "href": "/gorukle-ingilizce-dil-kursu"
+          "href": "/gorukle-ingilizce-dil-kursu",
+          "mapQuery": "Bursa En İyi İngilizce Kursu-Akademik Yabancı Dil Kursları Görükle Şubesi"
         },
         {
           "name": "Ankara",
           "label": "Ankara",
           "phone": "0312 433 99 99",
           "image": "/campuses/sube-ankara.webp",
-          "href": "/ankara-ingilizce-dil-kursu"
+          "href": "/ankara-ingilizce-dil-kursu",
+          "mapQuery": "Ankara İngilizce Kursu | ITEP | YDS | TOEFL - AKADEMİK YABANCI DİL KURSLARI"
         },
         {
           "name": "İzmir",
-          "label": "İngilizce Dil",
+          "label": "İzmir",
           "phone": "0850 305 05 16",
           "image": "/campuses/sube-izmir.webp",
-          "href": "/izmir-ingilizce-dil-kursu"
+          "href": "/izmir-ingilizce-dil-kursu",
+          "mapQuery": "Akademik Yabancı Dil Kursları -İzmir İngilizce Kursu-İzmir Almanca Kursu"
         },
         {
           "name": "Kocaeli",
-          "label": "İzmit",
+          "label": "İzmit / Kocaeli",
           "phone": "0545 116 4141",
           "image": "/campuses/sube-kocaeli.webp",
-          "href": "/kocaeli-izmit-ingilizce-dil-kursu"
+          "href": "/kocaeli-izmit-ingilizce-dil-kursu",
+          "mapQuery": "Akademik International Yabancı Dil Kursu Kocaeli Kampüsü"
         },
         {
           "name": "Tekirdağ",
-          "label": "Çorlu",
+          "label": "Çorlu / Tekirdağ",
           "phone": "0541 236 01 59",
           "image": "/campuses/sube-tekirdag.webp",
-          "href": "/corlu-ingilizce-dil-kursu"
+          "href": "/corlu-ingilizce-dil-kursu",
+          "mapQuery": "41.1553343, 27.8100916"
         },
         {
           "name": "Bursa",
           "label": "İnegöl",
           "phone": "0224 777 07 74",
           "image": "/campuses/sube-inegol.webp",
-          "href": "/inegol-ingilizce-dil-kursu"
+          "href": "/inegol-ingilizce-dil-kursu",
+          "mapQuery": "İnegöl İngilizce Kursu-Akademik International Dil Okulları"
         },
         {
           "name": "Bursa",
-          "label": "Yıldırım",
+          "label": "Yıldırım / Erikli",
           "phone": "0 224 342 01 23",
           "image": "/campuses/sube-yildirim.webp",
-          "href": "/yildirim-erikli-ingilizce-dil-kursu"
+          "href": "/yildirim-erikli-ingilizce-dil-kursu",
+          "mapQuery": "40.1914299, 29.138847"
         }
       ],
-      "button": "KAMPÜS BAŞVURUSU"
+      "button": "KAMPÜS BAŞVURUSU",
+      "viewBranchText": "Şubeyi İncele"
     },
     "corporate": {
       "title1": "TİCARET ÜNVANI:",
@@ -564,14 +577,6 @@
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
-    "happyHours": {
-      "title": "AVANTAJLI \"HAPPY HOURS\" FLAŞ İNDİRİM SAATİ",
-      "subtitle": "İNDİRİM SAATİNİ KAÇIRMA!",
-      "days": "GÜN",
-      "hours": "SAAT",
-      "minutes": "DAKİKA",
-      "btnText": "DETAYLI BİLGİ İÇİN TIKLA"
-    },
     "article": {
       "p1": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır. Bu prestijli yabancı dil kursu, yüksek başarı puanına odaklanan etkili öğretim yöntemleriyle öğrencilerin dil becerilerini geliştirirken, Avcılar İngilizce Kursları arasında kaliteli İngilizce eğitimi arayanlar için en iyi seçenek olarak öne çıkmaktadır.",
       "h2": "Avcılar İngilizce Kursu: Neden İngilizce Öğrenmelisiniz?",
@@ -658,26 +663,27 @@
           "q": "Avcılar İngilizce Kursu şubenizde deneme dersleri var mı?",
           "a": "Avcılar İngilizce Kursu şubemizde ücretsiz deneme dersleri mevcuttur ve tüm seviyeler için randevu alarak katılabilirsiniz. Deneme dersimizde gerçek sınıf ortamını deneyimleyebilir, öğretmenlerimizle tanışabilir ve kurs metodumuzu yakından görebilirsiniz."
         }
-      ]
+      ],
+      "advantages": [
+        {
+          "icon": "Award",
+          "title": "En İyi İngilizce Kursu",
+          "desc": "Uluslararası standartlarda, konuşma odaklı ve garantili İngilizce dil kursu eğitimi ile hedeflerinize ulaşın."
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Akademik İngilizce",
+          "desc": "YDS, YÖKDİL, IELTS ve TOEFL gibi tüm akademik sınavlarda Türkiye dereceleri çıkaran uzman eğitim kadrosu."
+        },
+        {
+          "icon": "Globe",
+          "title": "Tüm Dünya Dilleri",
+          "desc": "Almanca, İspanyolca, Fransızca ve daha birçok dünya dilinde, anadili olan (Native Speaker) eğitmenlerle öğrenin."
+        }
+      ],
+      "btnNext": "Diğer Avantajlarımız"
     },
     "programsTitle": "Avcılar İngilizce Dil Kursu Kampüsümüzde Açılacak Programlar",
-    "leaderboard": {
-      "title": "Gurur Tablomuz",
-      "subtitle": "Başarıya Ulaşan Öğrencilerimizle Gurur Duyuyoruz",
-      "tabs": [
-        "IELTS",
-        "YDS",
-        "TOEFL",
-        "GOETHE",
-        "TESTDAF"
-      ],
-      "headers": {
-        "name": "Ad Soyad",
-        "program": "Program",
-        "score": "Puan"
-      },
-      "btnAll": "Tüm Tabloyu Görüntüle"
-    },
     "upcomingProgramsTable": {
       "headers": [
         "Grup Kodu",
@@ -842,6 +848,12 @@
         "image": "/sliders/slider5.webp",
         "alt": "Avcılar'ın En İyi Yabancı Dil Okulu - Akademik International Modern Kampüsü",
         "title": "Tüm Dillerde Kaliteli Eğitimle Avcılar'da Yabancı Dil Öğrenin"
+      },
+      {
+        "id": 6,
+        "image": "/sliders/slider6.png",
+        "alt": "Türkiye'nin En İyi Yabancı Dil Kursu Eğitim Merkezi - Avcılar Akademik International",
+        "title": "Uzman Eğitmenlerle Uluslararası Standartlarda Dil Eğitimi"
       }
     ]
   },
@@ -852,7 +864,11 @@
     "phonePlaceholder": "GSM Numaranızı Giriniz.",
     "branchPlaceholder": "Şube Seçiniz.",
     "submitBtn": "HEMEN ÖN BİLGİ AL!",
-    "legal": "Bilgi formunu doldurarak Yasal Uyarı / Kullanım Şartlarını kabul ediyorum."
+    "legal": "Bilgi formunu doldurarak Yasal Uyarı / Kullanım Şartlarını kabul ediyorum.",
+    "badgeText": "Ücretsiz Ön Bilgilendirme",
+    "trustFast": "Hızlı Yanıt",
+    "trustSecure": "Bilgiler Gizli",
+    "trustTrial": "Deneme Dersi"
   },
   "whatsapp": {
     "onlineText": "Çevrimiçi",
@@ -1703,35 +1719,35 @@
   },
   "genelIngilizceLandingPage": {
     "about": {
-      "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
-      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "badge": "TÜM SEVİYELER / A1'DEN C1'E",
+      "title": "Genel İngilizce Kursları ile Hedeflerinize Ulaşın",
+      "desc": "<p><strong>Akademik International Genel İngilizce Kursları</strong>, A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye yönelik, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu kapsamlı dil programlarıdır.</p><p>Kurumumuza başvuran her öğrencimize ücretsiz <strong>seviye tespit sınavı</strong> uygulanır ve kendi İngilizce seviyenize en uygun sınıfa yerleştirilerek eğitiminize başlarsınız. Genel İngilizce programlarımızda ezber değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerini eş zamanlı geliştiren bütünleşik bir yöntem uygulanır.</p><p>Yetişkinlere özel hazırlanan güncel içerikler ve <strong>The Academic Publishing</strong> yayınlarıyla desteklenen programlarımız sayesinde günlük iletişimden iş hayatına, seyahatten akademik çalışmalara kadar her alanda özgüvenle İngilizce kullanabilirsiniz.</p>",
       "skills": [
         {
           "id": "grammar",
           "title": "Grammar (Dil Bilgisi)",
-          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
+          "desc": "A1'den C1'e tüm seviyelerde <strong>İngilizce dil bilgisi kuralları</strong> sistematik biçimde öğretilir. Kelime türleri, zamanlar, cümle yapıları ve <strong>ileri düzey gramer</strong> konuları kademeli olarak işlenir; sağlam bir dil altyapısı oluşturulur.",
           "icon": "BookOpen"
         },
         {
           "id": "reading",
           "title": "Reading (Okuma)",
-          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
+          "desc": "Seviyenize uygun özgün <strong>okuma parçaları</strong> ile vocabulary zenginleştirilir. <strong>Kelime türetme (word formation)</strong>, phrasal verb ve metin anlama stratejileri uygulamalı olarak pekiştirilir.",
           "icon": "BookA"
         },
         {
           "id": "writing",
           "title": "Writing (Yazma)",
-          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
+          "desc": "Temel e-posta yazmaktan <strong>ileri düzey akademik yazarlığa</strong> uzanan geniş bir yelpazede yazma becerileri geliştirilir. Gerçek hayat senaryoları ile dil kullanımı pratiğe dökülür.",
           "icon": "PenTool"
         },
         {
           "id": "speaking",
           "title": "Speaking & Listening",
-          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
+          "desc": "Native ve alanında uzman eğitmenler eşliğinde gerçekleştirilen <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleriyle İngilizce konuşma özgüveni kazanılır; akıcı ve doğal bir iletişim dili inşa edilir.",
           "icon": "Mic"
         }
-      ],
-      "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
+      ]
     },
     "whyUs": {
       "title": "Neden Akademik International?",
@@ -1792,12 +1808,12 @@
           "type": "Grammar Tips & Rules, Exercises"
         },
         {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
+          "name": "ACADEMIC GRAMMAR",
+          "type": "Advanced Grammar, Academic Writing"
         },
         {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
+          "name": "ACADEMIC WORKBOOK",
+          "type": "Reading, Listening, Speaking Activities"
         }
       ]
     },
@@ -1832,7 +1848,7 @@
       }
     },
     "hero": {
-      "tag": "TEMEL İNGİLİZCE KURSLARI",
+      "tag": "GENEL İNGİLİZCE KURSLARI",
       "title": "Genel İngilizce Kursları",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
       "infoBtn": "Hemen Ön Bilgi Alın!",
@@ -1844,34 +1860,38 @@
       "phonePlaceholder": "GSM Numaranızı Giriniz.",
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
-      "badge": "KATEGORİ: İNGİLİZCE",
+      "badge": "KATEGORİ: GENEL İNGİLİZCE",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
-      "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
-      "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
+      "title": "Genel İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+      "desc": "Genel İngilizce kursları hakkında en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
       "items": [
         {
-          "q": "İyi bir İngilizce kursu nasıl seçilir?",
-          "a": "İyi bir İngilizce kursu seçerken akreditasyon durumuna, öğretmenlerin tecrübeleri ve anlatım tarzlarına, program içeriğine, gerçek öğrenci yorumlarına ve kursun fiyatına dikkat etmek önemlidir. Tüm bu faktörleri göz önünde bulundurarak ve geniş bir araştırma yaparak kendinize en uygun İngilizce kursunu seçebilirsiniz."
+          "q": "Genel İngilizce kursu nedir ve kimler için uygundur?",
+          "a": "Genel İngilizce kursu; günlük hayatta, iş dünyasında ve sosyal ortamlarda iletişim kurabilmek için gereken dört temel dil becerisini (Okuma, Yazma, Dinleme, Konuşma) dengeli biçimde geliştiren kapsamlı bir dil programıdır. A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye hitap eder; öğrenciler ücretsiz seviye tespit sınavı ile en uygun gruba yerleştirilir."
         },
         {
-          "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
-          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+          "q": "Hangi İngilizce seviyeleri için program bulunmaktadır?",
+          "a": "Akademik International'da A1 (Beginner/Başlangıç), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate/Upper-Intermediate) ve C1 (Advanced) olmak üzere tüm CEFR seviyeleri için ayrı programlar mevcuttur. Her seviye, bir üst seviyeye geçişi hedefleyerek sistematik biçimde tasarlanmıştır."
         },
         {
-          "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
-          "a": "İngilizce kurslarındaki öğretmenler genellikle yüksek lisans veya doktora derecesine sahip, dil öğretimi konusunda uzmanlaşmış ve geniş deneyime sahip eğitimcilerdir. Genel olarak İngilizce kursundaki öğretmenler uluslararası sertifikasyon programlarına katılarak kendilerini sürekli olarak geliştirmekte ve güncel dil öğretim yöntemlerini takip etmektedirler. Bu sayede öğrencilere daha etkili, özgün ve motive edici bir öğrenme deneyimi sunabilmektedirler."
+          "q": "İngilizce seviyemi nasıl öğrenebilirim?",
+          "a": "Kurumumuza başvuran her öğrencimize tamamen ücretsiz olarak seviye tespit sınavı uygulanmaktadır. Bu sınav; gramer, kelime bilgisi ve anlama becerilerini ölçer. Sonuca göre CEFR standartlarında seviyeniz belirlenir ve size en uygun programa kayıt yapılır."
         },
         {
-          "q": "İngilizce kursunda hangi sertifikaları alabilirim?",
-          "a": "İngilizce kursları genellikle farklı dil seviyelerine yönelik sertifika programları sunar. Örneğin, TOEFL (Test of English as a Foreign Language), IELTS (International English Language Testing System), Cambridge English sertifikaları gibi uluslararası geçerliliği olan dil sınavlarına hazırlık programlarına katılarak bu sınavlardan belirli bir puan alabilir ve ilgili sertifikayı elde edebilirsiniz. Ayrıca, kursun sunduğu içeriğe bağlı olarak özel amaçlı İngilizce sertifikaları da alabilirsiniz, örneğin iş İngilizcesi, akademik İngilizce veya konuşma becerileri gibi alanlarda sertifikasyonlar elde edebilirsiniz. Bu sertifikalar, dil yeteneklerinizi belgeleyerek kariyerinizde veya eğitim hayatınızda faydalı olabilir."
+          "q": "Genel İngilizce kursu ne kadar sürer?",
+          "a": "Program süresi seçilen seviyeye ve ders programına göre farklılık gösterir. Her CEFR seviyesi için yaklaşık 120-160 ders saatlik bir eğitim öngörülmektedir. Yüz yüze, online veya hibrit modelden birini seçerek kendi temponuza uygun şekilde ilerleyebilirsiniz."
         },
         {
-          "q": "İngilizce kurslarına nasıl kayıt olabilirim?",
-          "a": "İngilizce kurslarına kayıt olmak oldukça kolaydır ve genellikle çevrimiçi başvuru yaparak veya kurs merkezine giderek kayıt işlemlerini tamamlayabilirsiniz. İlk adım olarak, tercih ettiğiniz İngilizce kursu hakkında bilgi almak ve kayıt şartlarını öğrenmek için kursun resmi web sitesini ziyaret edebilir veya yetkililerle iletişime geçebilirsiniz. Kayıt için genellikle kimlik belgesi, önceki eğitim düzeyine dair belgeler ve varsa dil yeterlilik sertifikaları gibi belgelerin verilmesi sizin öğrenim sürecindeki program oluşumunuzun sağlanması açısından daha etkili olur. Kayıt sürecinde ödeme planı ve kurs programı gibi detaylar da belirlenir ve kayıt işlemi tamamlandıktan sonra kursa katılımınız için gerekli bilgiler tarafınıza iletilir."
+          "q": "Genel İngilizce kursu tamamlandığında hangi sertifika verilir?",
+          "a": "Program sonunda Akademik International katılım sertifikası verilmektedir. Bunun yanı sıra IELTS, TOEFL, Cambridge gibi uluslararası sınav hazırlık programlarına geçiş yapabilir; belirli bir puan elde ederek dünya genelinde geçerli dil sertifikalarına sahip olabilirsiniz."
         }
       ]
+    },
+    "meta": {
+      "title": "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler | Akademik International",
+      "description": "Avcılar'da genel İngilizce kursu. A1 başlangıç seviyesinden C1 ileri seviyeye CEFR uyumlu programlar. Ücretsiz seviye tespit sınavı, konuşma garantili eğitim, native eğitmenler. Hemen bilgi alın."
     }
   },
   "akademikIngilizceLandingPage": {
@@ -12945,20 +12965,20 @@
   "quickNav": [
     {
       "id": "yabanci-dil",
-      "title": "Yabancı Dil Kursu",
-      "desc": "Başlangıç seviyesinden akademik düzeye kadar her yaş grubuna özel...",
+      "title": "Genel İngilizce Kursu",
+      "desc": "Başlangıçtan akademik seviyeye kadar en iyi İngilizce kursu eğitimi.",
       "link": "/ingilizce-kursu",
       "btn": "Sayfayı Gör",
       "icon": "Building2",
       "theme": "blue"
     },
     {
-      "id": "kids",
-      "title": "Akademik Kids",
-      "desc": "4-14 yaş için oyun temelli, dili sevdiren doğal edinim programları.",
-      "link": "/ilkogretim-ingilizce-kursu",
+      "id": "akademik-sinavlar",
+      "title": "Akademik Sınavlar",
+      "desc": "IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE ve daha fazlası için uzman sınav hazırlık programları.",
+      "link": "/akademik-sinavlar",
       "btn": "Sayfayı Gör",
-      "icon": "Baby",
+      "icon": "GraduationCap",
       "theme": "purple"
     },
     {
@@ -15993,5 +16013,302 @@
         "ctaText": "Sayfayı Gör"
       }
     ]
+  },
+  "miniGallery": {
+    "title": "Kursumuzdan Kareler",
+    "subtitle": "Kampüsümüzden ve etkinliklerimizden öne çıkan anlar",
+    "imgAlt": "Avcılar Akademik International Etkinlik ve Kampüs Görseli",
+    "imgTitle": "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
+  },
+  "akademikSinavlarLandingPage": {
+    "meta": {
+      "title": "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE | Akademik International",
+      "description": "IELTS, TOEFL, YDS, YÖKDİL, YDT, GMAT, GRE, SAT ve Cambridge hazırlık kursları Avcılar ve tüm şubelerimizde. Uzman eğitmenler, deneme sınavları, yüksek başarı oranı."
+    },
+    "hero": {
+      "tag": "AKADEMİK SINAV HAZIRLIK KURSLARI",
+      "title": "Hedeflediğiniz Sınavı Kazanın",
+      "badge": "KATEGORİ: SINAV HAZIRLIK",
+      "description": "IELTS'ten TOEFL'a, YDS'den GMAT'a kadar her uluslararası ve ulusal akademik sınav için uzman eğitmenlerimiz ve kanıtlanmış sınav stratejilerimizle hedefinize ulaşın.",
+      "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
+      "infoBtn": "Hemen Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Kayıt ve Bilgi Formu",
+      "formTitle": "ÜCRETSİZ DANIŞMANLIK!",
+      "formSubtitle": "Sınav Hazırlık Kurslarımız İçin Hemen Fiyat ve Detaylı Bilgi Alın!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN BİLGİ AL!",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "20+ Sınavda Uzman Kadro ve Kanıtlanmış Başarı!"
+    },
+    "about": {
+      "badge": "4 TEMEL YAKLAŞIM",
+      "title": "Akademik Sınav Hazırlığında Doğru Yöntem",
+      "desc": "Akademik sınavlar; yurt dışı eğitim, kariyer gelişimi, kamu atamaları ve uluslararası alanda kendinizi kanıtlamak için kapınızı açan köprülerdir. Akademik International olarak IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge ve daha fazlasında kanıtlanmış yöntemlerimizle öğrencilerimizi başarıya taşıyoruz.<br/><br/><b>Sınava Özel Strateji:</b> Her sınavın kendine özgü yapısı, soru tipleri ve değerlendirme kriterleri vardır. Eğitmenlerimiz, hedef sınavınıza özel hazırlanmış stratejiler ve materyallerle en kısa sürede hedefinize ulaşmanızı sağlar.<br/><br/><b>Deneme Sınavı Odaklı Hazırlık:</b> Gerçek sınav koşullarında yapılan düzenli denemeler; hem eksiklerinizi ortaya çıkarır hem de sınav stresi yönetiminde güven inşa eder.",
+      "skills": [
+        {
+          "id": "strateji",
+          "title": "Sınava Özel Strateji",
+          "desc": "Her sınavın yapısına özel hazırlanmış soru çözme teknikleri ve zaman yönetimi stratejileri."
+        },
+        {
+          "id": "analiz",
+          "title": "Soru Tipi Analizi",
+          "desc": "Her soru tipinin mantığını kavrayarak doğru cevaba en hızlı yoldan ulaşma becerisi."
+        },
+        {
+          "id": "deneme",
+          "title": "Gerçekçi Deneme Sınavları",
+          "desc": "Gerçek sınav formatında düzenli denemelerle pratik yapın, eksik alanlarınızı keşfedin."
+        },
+        {
+          "id": "hedef",
+          "title": "Kişisel Puan Hedefi",
+          "desc": "Mevcut seviyenizden hareketle belirlenen kişisel hedef puanına yönelik planlı ilerleme."
+        }
+      ],
+      "description": "Uluslararası veya ulusal akademik hedefinize Akademik International'ın uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile ulaşın.",
+      "features": [
+        "IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, CAE, PTE ve daha fazlası.",
+        "7-10 kişilik butik sınıflarda ya da birebir formatta eğitim imkanı.",
+        "Sınav deneyimli ve derece skora sahip uzman eğitmen kadrosu.",
+        "Düzenli deneme sınavları, puan takibi ve kişisel geri bildirim."
+      ]
+    },
+    "examCards": {
+      "title": "Hazırlık Yaptığımız Sınavlar",
+      "subtitle": "İngilizce veya Almanca dilinde uluslararası ve ulusal tüm akademik sınavlar için kapsamlı hazırlık programları.",
+      "categories": [
+        {
+          "id": "international",
+          "label": "Uluslararası İngilizce Sınavları",
+          "exams": [
+            {
+              "name": "IELTS",
+              "shortDesc": "Yurt dışı eğitim ve göçmenlik için dünya genelinde en yaygın İngilizce yeterlilik sınavı.",
+              "targetScore": "Band 5.5 – 8.5",
+              "link": "/ielts-hazirlik-kursu"
+            },
+            {
+              "name": "TOEFL iBT",
+              "shortDesc": "ABD ve Kanada üniversitelerine başvuru için ETS tarafından düzenlenen akademik İngilizce sınavı.",
+              "targetScore": "Skor: 60 – 120",
+              "link": "/toefl-hazirlik-kursu"
+            },
+            {
+              "name": "TOEIC",
+              "shortDesc": "İş dünyası ve kurumsal kariyer başvurularında tercih edilen İngilizce yeterlilik sınavı.",
+              "targetScore": "785+ İyi Seviye",
+              "link": "/toeic-hazirlik-kursu"
+            },
+            {
+              "name": "Cambridge CAE",
+              "shortDesc": "İleri düzey İngilizce yetkinliği kanıtlayan, dünya çapında tanınan Cambridge C1 sertifikası.",
+              "targetScore": "C1 – C2 Seviye",
+              "link": "/cae-kursu"
+            },
+            {
+              "name": "PTE Academic",
+              "shortDesc": "Pearson tarafından geliştirilen bilgisayar tabanlı akademik İngilizce yeterlilik sınavı.",
+              "targetScore": "Skor: 50 – 90",
+              "link": "/pte-kursu"
+            }
+          ]
+        },
+        {
+          "id": "turkey",
+          "label": "Türkiye Ulusal Sınavları",
+          "exams": [
+            {
+              "name": "YDS",
+              "shortDesc": "ÖSYM tarafından yılda iki kez düzenlenen, kamu kariyer ve akademisyenler için zorunlu dil sınavı.",
+              "targetScore": "70+ Hedef Puan",
+              "link": "/yds-hazirlik-kursu"
+            },
+            {
+              "name": "YÖKDİL",
+              "shortDesc": "YÖK tarafından lisansüstü eğitim ve akademik kadro atamalarına yönelik dil sınavı.",
+              "targetScore": "65+ Hedef Puan",
+              "link": "/yokdil-hazirlik-kursu"
+            },
+            {
+              "name": "YKS Dil / YDT",
+              "shortDesc": "Üniversite sınavlarında yabancı dil puanını yükselterek tercih avantajı sağlayan sınav.",
+              "targetScore": "Yüksek Puan Hedefi",
+              "link": "/yks-dil-ydt-hazirlik-kursu"
+            }
+          ]
+        },
+        {
+          "id": "graduate",
+          "label": "Yüksek Lisans ve MBA Sınavları",
+          "exams": [
+            {
+              "name": "GMAT",
+              "shortDesc": "MBA ve işletme yüksek lisansı için dünya genelinde kabul gören analitik düşünme sınavı.",
+              "targetScore": "600+ Hedef Skor",
+              "link": "/gmat-hazirlik-kursu"
+            },
+            {
+              "name": "GRE",
+              "shortDesc": "ABD ve Avrupa üniversitelerinde lisansüstü programa başvuru için gerekli akademik yetenek sınavı.",
+              "targetScore": "310+ Hedef Skor",
+              "link": "/gre-sinavi-hazirlik-kursu"
+            },
+            {
+              "name": "SAT",
+              "shortDesc": "ABD üniversitelerine lisans başvurusu yapacak lise öğrencileri için College Board sınavı.",
+              "targetScore": "1400+ Hedef Skor",
+              "link": "/sat-kursu"
+            }
+          ]
+        },
+        {
+          "id": "german",
+          "label": "Almanca Sınavları",
+          "exams": [
+            {
+              "name": "Goethe Sertifikası",
+              "shortDesc": "Almanya'da eğitim, göç ve kariyer için Goethe-Institut tarafından A1'den C2'ye verilen resmi sertifika.",
+              "targetScore": "A1 – C2 Seviyeleri",
+              "link": "/almanca-goethe-sinavi-hazirlik-kursu"
+            },
+            {
+              "name": "TestDaF",
+              "shortDesc": "Almanya'da lisans ve yüksek lisans eğitimi almak isteyen yabancı öğrenciler için zorunlu dil sınavı.",
+              "targetScore": "TDN 4 – 5 Hedef",
+              "link": "/testdaf-almanca-kursu"
+            }
+          ]
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Neden Akademik International Sınav Hazırlık?",
+      "subtitle": "Zaman Kaybetmeden Hedefinize Ulaşın",
+      "cardTitle": "Kanıtlanmış Başarı Oranı",
+      "cardDesc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde binlerce öğrenciyi hedeflediği sınav skoruna taşıyan, en çok tavsiye edilen sınav hazırlık kursu deneyimi.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Hangi sınavlara hazırlık yapabiliyorum?",
+          "a": "IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YDT, GMAT, GRE, SAT, Cambridge CAE, PTE Academic, Goethe, TestDaF ve daha fazlası için hazırlık programlarımız mevcuttur."
+        },
+        {
+          "q": "Sınav hazırlık kursuna hangi seviyeden başlayabilirim?",
+          "a": "Ücretsiz seviye belirleme sınavımız ile mevcut düzeyiniz tespit edilerek, doğrudan hedef sınavınıza yönelik kişisel program oluşturulur."
+        },
+        {
+          "q": "Kurs süreleri ne kadar?",
+          "a": "Hedeflediğiniz sınava ve mevcut seviyenize göre 8 haftadan 6 aya kadar değişen yoğunlukta programlar uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Sınav Deneyimli Eğitmenler",
+          "desc": "Yüksek skor elde etmiş, sınav stratejilerine tam hakim uzman eğitmen kadrosu.",
+          "icon": "Award"
+        },
+        {
+          "title": "Düzenli Deneme Sınavları",
+          "desc": "Gerçek sınav formatında denemeler ile pratik kazanın, sınav stresini yönetin.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Kişiselleştirilmiş Program",
+          "desc": "Mevcut seviyenize ve hedef sınavınıza özel hazırlanan bireysel ilerleme planı.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Kuruma Özel Kaynaklar",
+          "desc": "The Academic Publishing yayınevimizin sınava özel hazırlanmış güncel materyalleri.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Sınav Hazırlığında Kullandığımız Kaynaklar",
+      "subtitle": "The Academic Publishing Farkı",
+      "features": [
+        "Sınava Özgü Güncel Stratejiler",
+        "Tüm Soru Tipleri Kapsamı",
+        "Kuruma Ait Özgün Materyaller"
+      ],
+      "books": [
+        {
+          "name": "IELTS & TOEFL Strategy Guide",
+          "type": "Uluslararası Sınav Stratejileri"
+        },
+        {
+          "name": "YDS / YÖKDİL Hazırlık",
+          "type": "Ulusal Sınav Programı"
+        },
+        {
+          "name": "GMAT / GRE Verbal Reasoning",
+          "type": "Analitik Akıl Yürütme"
+        },
+        {
+          "name": "Academic Mock Exams",
+          "type": "Gerçek Format Deneme Seti"
+        }
+      ]
+    },
+    "models": {
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "POPÜLER",
+        "desc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde 7-10 kişilik butik sınıflarda etkileşimli sınav hazırlığı.",
+        "features": [
+          "7-10 Kişilik Butik Gruplar",
+          "Anında Soru Sorma İmkanı",
+          "Yüz Yüze Birebir Etütler",
+          "Fiziksel Deneme Sınavları",
+          "Grup Motivasyonu"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Türkiye'de ilk kez canlı yayın stüdyolarından gerçekleştirilen interaktif dil platformu İngilizce UZEM ile dilediğiniz yerden eğitim alma avantajı.",
+        "features": [
+          "Dilediğin Yerde Eğitim",
+          "İngilizce UZEM Altyapısı",
+          "Canlı ve Etkileşimli Dersler",
+          "Online Deneme Sınavları",
+          "Dijital Materyal Desteği"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
+    "faq": {
+      "title": "Akademik Sınav Hazırlığı Hakkında Sıkça Sorulanlar",
+      "items": [
+        {
+          "q": "Akademik sınav hazırlık kursu nedir?",
+          "a": "Akademik sınav hazırlık kursu; IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT gibi ulusal veya uluslararası sınavlarda hedeflenen skora ulaşmak için sınava özel stratejiler, soru tipi analizleri ve deneme sınavlarından oluşan kapsamlı bir eğitim programıdır."
+        },
+        {
+          "q": "Yurt dışında yüksek lisans için hangi sınava hazırlanmalıyım?",
+          "a": "Başvurmak istediğiniz ülkeye göre değişir: ABD ve Kanada için genellikle IELTS veya TOEFL artı GRE ya da GMAT; İngiltere için IELTS; Almanya için TestDaF ya da Goethe sınavlarına ihtiyaç duyulur. Eğitim danışmanlarımız size en doğru yönlendirmeyi yapar."
+        },
+        {
+          "q": "YDS ile YÖKDİL arasındaki fark nedir?",
+          "a": "YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) ÖSYM tarafından, YÖKDİL ise YÖK koordinasyonuyla yapılır. YDS kamu personeli atamaları ve akademisyenler için daha geniş kapsamlıyken, YÖKDİL ağırlıklı olarak lisansüstü eğitim başvuruları için kullanılır."
+        },
+        {
+          "q": "Sınav hazırlık kursuna başlamadan önce seviyemi nasıl belirlerim?",
+          "a": "Akademik International'da ücretsiz seviye belirleme sınavı ile mevcut İngilizce düzeyiniz tespit edilir. Bu değerlendirme sonucunda hedef sınavınıza en uygun programa yönlendirilirsiniz."
+        },
+        {
+          "q": "GMAT ve GRE arasındaki fark nedir?",
+          "a": "GMAT ağırlıklı olarak MBA ve işletme yüksek lisansı programları tarafından kabul edilirken, GRE mühendislik, sosyal bilimler ve fen bilimleri gibi geniş bir lisansüstü alanda geçerlidir. Birçok MBA programı artık her ikisini de kabul etmektedir."
+        }
+      ]
+    }
   }
 }

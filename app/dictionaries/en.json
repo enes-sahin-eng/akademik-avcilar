@@ -442,90 +442,103 @@
       "items": [
         {
           "name": "Avcılar",
-          "label": "English Language",
+          "label": "Avcılar",
           "phone": "0212 650 90 90",
           "image": "/campuses/sube-avcilar.jpg",
-          "href": "/avcilar-ingilizce-dil-kursu"
+          "href": "/avcilar-ingilizce-dil-kursu",
+          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
         },
         {
           "name": "Kadıköy",
-          "label": "English Language",
+          "label": "Kadıköy",
           "phone": "0216 330 19 09",
           "image": "/campuses/sube-kadikoy.webp",
-          "href": "/kadikoy-ingilizce-dil-kursu"
+          "href": "/kadikoy-ingilizce-dil-kursu",
+          "mapQuery": "Kadıköy İngilizce Kursu | Akademik Yabancı Dil Kursları Kadıköy Dil Okulu"
         },
         {
           "name": "Bursa",
-          "label": "English Course",
+          "label": "Bursa / Nilüfer",
           "phone": "0224 480 00 15",
           "image": "/campuses/sube-bursa.webp",
-          "href": "/bursa-ingilizce-dil-kursu-fsm"
+          "href": "/bursa-ingilizce-dil-kursu-fsm",
+          "mapQuery": "40.212043, 28.9792457"
         },
         {
           "name": "Istanbul",
-          "label": "English Language",
+          "label": "İstanbul",
           "phone": "0216 330 19 09",
           "image": "/campuses/sube-ingilizcedil.webp",
-          "href": "/istanbul-ingilizce-kursu"
+          "href": "/istanbul-ingilizce-kursu",
+          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
         },
         {
           "name": "Istanbul",
           "label": "Çekmeköy",
           "phone": "0501 369 56 40",
           "image": "/campuses/sube-cekmekoy.webp",
-          "href": "/cekmekoy-ingilizce-dil-kursu"
+          "href": "/cekmekoy-ingilizce-dil-kursu",
+          "mapQuery": "Çekmeköy Final Özel Öğretim Kursu"
         },
         {
           "name": "Bursa",
           "label": "Görükle",
           "phone": "0224 480 00 14",
           "image": "/campuses/sube-gorukle.webp",
-          "href": "/gorukle-ingilizce-dil-kursu"
+          "href": "/gorukle-ingilizce-dil-kursu",
+          "mapQuery": "Bursa En İyi İngilizce Kursu-Akademik Yabancı Dil Kursları Görükle Şubesi"
         },
         {
           "name": "Ankara",
           "label": "Ankara",
           "phone": "0312 433 99 99",
           "image": "/campuses/sube-ankara.webp",
-          "href": "/ankara-ingilizce-dil-kursu"
+          "href": "/ankara-ingilizce-dil-kursu",
+          "mapQuery": "Ankara İngilizce Kursu | ITEP | YDS | TOEFL - AKADEMİK YABANCI DİL KURSLARI"
         },
         {
           "name": "Izmir",
-          "label": "English Language",
+          "label": "İzmir",
           "phone": "0850 305 05 16",
           "image": "/campuses/sube-izmir.webp",
-          "href": "/izmir-ingilizce-dil-kursu"
+          "href": "/izmir-ingilizce-dil-kursu",
+          "mapQuery": "Akademik Yabancı Dil Kursları -İzmir İngilizce Kursu-İzmir Almanca Kursu"
         },
         {
           "name": "Kocaeli",
-          "label": "Izmit",
+          "label": "İzmit / Kocaeli",
           "phone": "0545 116 4141",
           "image": "/campuses/sube-kocaeli.webp",
-          "href": "/kocaeli-izmit-ingilizce-dil-kursu"
+          "href": "/kocaeli-izmit-ingilizce-dil-kursu",
+          "mapQuery": "Akademik International Yabancı Dil Kursu Kocaeli Kampüsü"
         },
         {
           "name": "Tekirdağ",
-          "label": "Çorlu",
+          "label": "Çorlu / Tekirdağ",
           "phone": "0541 236 01 59",
           "image": "/campuses/sube-tekirdag.webp",
-          "href": "/corlu-ingilizce-dil-kursu"
+          "href": "/corlu-ingilizce-dil-kursu",
+          "mapQuery": "41.1553343, 27.8100916"
         },
         {
           "name": "Bursa",
           "label": "İnegöl",
           "phone": "0224 777 07 74",
           "image": "/campuses/sube-inegol.webp",
-          "href": "/inegol-ingilizce-dil-kursu"
+          "href": "/inegol-ingilizce-dil-kursu",
+          "mapQuery": "İnegöl İngilizce Kursu-Akademik International Dil Okulları"
         },
         {
           "name": "Bursa",
-          "label": "Yıldırım",
+          "label": "Yıldırım / Erikli",
           "phone": "0 224 342 01 23",
           "image": "/campuses/sube-yildirim.webp",
-          "href": "/yildirim-erikli-ingilizce-dil-kursu"
+          "href": "/yildirim-erikli-ingilizce-dil-kursu",
+          "mapQuery": "40.1914299, 29.138847"
         }
       ],
-      "button": "CAMPUS APPLICATION"
+      "button": "CAMPUS APPLICATION",
+      "viewBranchText": "View Branch"
     },
     "corporate": {
       "title1": "COMMERCIAL TITLE:",
@@ -565,14 +578,6 @@
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
-    "happyHours": {
-      "title": "ADVANTAGEOUS \"HAPPY HOURS\" FLASH DISCOUNT TIME",
-      "subtitle": "DON't MISS THE DISCOUNT TIME!",
-      "days": "DAYS",
-      "hours": "HOURS",
-      "minutes": "MINS",
-      "btnText": "CLICK FOR DETAILS"
-    },
     "article": {
       "p1": "Ranking first among Avcılar English Course recommendations, Avcılar Akademik International Language Course offers an opportunity for success in exams with special programs for all ages. While improving students' language skills with effective teaching methods focused on high achievement scores, this prestigious language course stands out as the best choice for those seeking quality English education among Avcılar English Courses.",
       "h2": "Avcılar English Course: Why Should You Learn English?",
@@ -639,26 +644,27 @@
           "q": "Are there trial lessons at your Avcılar English Course branch?",
           "a": "Free trial lessons are available at our Avcılar English Course branch, and you can participate by making an appointment for all levels. In our trial lesson, you can experience the real classroom environment, meet our teachers, and get a closer look at our course methodology."
         }
-      ]
+      ],
+      "advantages": [
+        {
+          "icon": "Award",
+          "title": "Best English Course",
+          "desc": "Reach your goals with international standards, speaking-oriented and guaranteed English language course education."
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Academic English",
+          "desc": "Expert teaching staff producing top results in academic exams like YDS, YOKDIL, IELTS, and TOEFL in Turkey."
+        },
+        {
+          "icon": "Globe",
+          "title": "World Languages",
+          "desc": "Learn German, Spanish, French and many other world languages with Native Speaker instructors."
+        }
+      ],
+      "btnNext": "Our Other Advantages"
     },
     "programsTitle": "Programs Opening at Our Avcılar English Language Course Campus",
-    "leaderboard": {
-      "title": "Our Pride Board",
-      "subtitle": "We Are Proud of Our Students Who Achieved Success",
-      "tabs": [
-        "IELTS",
-        "YDS",
-        "TOEFL",
-        "GOETHE",
-        "TESTDAF"
-      ],
-      "headers": {
-        "name": "Name Surname",
-        "program": "Program",
-        "score": "Score"
-      },
-      "btnAll": "View the Entire Board"
-    },
     "upcomingProgramsTable": {
       "headers": [
         "Group Code",
@@ -816,6 +822,12 @@
         "image": "/sliders/slider5.webp",
         "alt": "Best Foreign Language School in Avcilar - Akademik International Modern Campus",
         "title": "Learn Foreign Languages in Avcilar with Quality Education in All Languages"
+      },
+      {
+        "id": 6,
+        "image": "/sliders/slider6.png",
+        "alt": "Turkey's Best Foreign Language Course Training Center - Avcilar Akademik International",
+        "title": "Language Education at International Standards with Expert Instructors"
       }
     ]
   },
@@ -826,7 +838,11 @@
     "phonePlaceholder": "Enter your GSM Number.",
     "branchPlaceholder": "Select Branch.",
     "submitBtn": "GET PRELIMINARY INFO NOW!",
-    "legal": "By filling out the information form, I accept the Legal Disclaimer / Terms of Use."
+    "legal": "By filling out the information form, I accept the Legal Disclaimer / Terms of Use.",
+    "badgeText": "Free Preliminary Info",
+    "trustFast": "Fast Reply",
+    "trustSecure": "Secure Data",
+    "trustTrial": "Trial Lesson"
   },
   "whatsapp": {
     "onlineText": "Online",
@@ -1677,35 +1693,35 @@
   },
   "genelIngilizceLandingPage": {
     "about": {
-      "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "badge": "ALL LEVELS / A1 TO C1",
+      "title": "Achieve Your Goals with General English Courses",
+      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and <strong>The Academic Publishing</strong> resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
       "skills": [
         {
           "id": "grammar",
           "title": "Grammar",
-          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
+          "desc": "<strong>English grammar rules</strong> are taught systematically across all levels from A1 to C1. Word classes, tenses, sentence structures, and <strong>advanced grammar</strong> topics are covered progressively to build a solid linguistic foundation.",
           "icon": "BookOpen"
         },
         {
           "id": "reading",
           "title": "Reading",
-          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
+          "desc": "Authentic <strong>reading texts</strong> at your exact level enrich your vocabulary. <strong>Word formation</strong>, phrasal verbs, and reading comprehension strategies are practised and reinforced throughout the course.",
           "icon": "BookA"
         },
         {
           "id": "writing",
           "title": "Writing",
-          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
+          "desc": "Writing skills are developed across a wide range — from basic email writing to <strong>advanced academic writing</strong>. Grammar and vocabulary knowledge is consolidated through real-life scenarios and authentic tasks.",
           "icon": "PenTool"
         },
         {
           "id": "speaking",
           "title": "Speaking & Listening",
-          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
+          "desc": "Interactive <strong>Speaking</strong> and <strong>Listening</strong> practice sessions led by native and expert teachers build English-speaking confidence and develop fluent, natural communication skills.",
           "icon": "Mic"
         }
-      ],
-      "badge": "A1 BEGINNER / STARTER LEVEL"
+      ]
     },
     "whyUs": {
       "title": "Why Akademik International?",
@@ -1753,8 +1769,8 @@
       "btnNext": "Next Privilege →"
     },
     "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
+      "title": "Our Exclusive Publications for Adults",
+      "subtitle": "Free for Enrolled Students",
       "features": [
         "Rich Interior Design",
         "Adult-Specific Content",
@@ -1766,12 +1782,12 @@
           "type": "Grammar Tips & Rules, Exercises"
         },
         {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
+          "name": "ACADEMIC GRAMMAR",
+          "type": "Advanced Grammar, Academic Writing"
         },
         {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
+          "name": "ACADEMIC WORKBOOK",
+          "type": "Reading, Listening, Speaking Activities"
         }
       ]
     },
@@ -1818,34 +1834,38 @@
       "phonePlaceholder": "Enter GSM Number.",
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: ENGLISH",
+      "badge": "CATEGORY: GENERAL ENGLISH",
       "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     },
     "faq": {
-      "title": "Frequently Asked Questions About English Courses",
-      "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
+      "title": "Frequently Asked Questions about General English Courses",
+      "desc": "We answer the most common questions about General English courses to help you begin your language learning journey.",
       "items": [
         {
-          "q": "How to choose a good English course?",
-          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
+          "q": "What is a General English course and who is it for?",
+          "a": "A General English course is a comprehensive language programme that develops all four core skills — Reading, Writing, Listening, and Speaking — in a balanced way for everyday, professional, and social communication. It is suitable for learners at all levels from A1 beginner to C1 advanced; students are placed in the right group via a free placement test."
         },
         {
-          "q": "What teaching methods are applied in English courses?",
-          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+          "q": "Which English levels are available?",
+          "a": "Akademik International offers dedicated programmes for A1 (Beginner), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate / Upper-Intermediate), and C1 (Advanced), all aligned with CEFR standards. Each level is designed to progress systematically toward the next."
         },
         {
-          "q": "What education and experience do teachers in English courses generally have?",
-          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
+          "q": "How do I find out my English level?",
+          "a": "Every applicant receives a free placement test that measures grammar, vocabulary, and comprehension skills. Based on the results, your CEFR level is determined and you are enrolled in the most appropriate programme."
         },
         {
-          "q": "What certificates can I get from an English course?",
-          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
+          "q": "How long does a General English course take?",
+          "a": "Duration varies by level and schedule. Each CEFR level typically requires approximately 120–160 teaching hours. You can choose face-to-face, online, or a hybrid model to progress at your own pace."
         },
         {
-          "q": "How can I enroll in English courses?",
-          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
+          "q": "What certificate will I receive after completing the course?",
+          "a": "You will receive an Akademik International participation certificate upon completion. You may also progress to internationally recognised exam preparation programmes such as IELTS, TOEFL, or Cambridge, enabling you to obtain globally accepted language certificates."
         }
       ]
+    },
+    "meta": {
+      "title": "General English Course | All Levels A1–C1 | Akademik International Avcılar",
+      "description": "General English courses in Avcılar, Istanbul. CEFR-certified programs from A1 beginner to C1 advanced level. Free placement test, speaking-guaranteed training, native teachers. Get info now."
     }
   },
   "akademikIngilizceLandingPage": {
@@ -12857,18 +12877,18 @@
   "quickNav": [
     {
       "id": "yabanci-dil",
-      "title": "Foreign Language Course",
-      "desc": "From beginner to academic level, tailored for every age group...",
+      "title": "General English Course",
+      "desc": "The best English course training from beginner to academic level.",
       "link": "/ingilizce-kursu",
       "btn": "View Page",
       "icon": "Building2",
       "theme": "blue"
     },
     {
-      "id": "kids",
-      "title": "Akademik Kids",
-      "desc": "Game-based, natural acquisition programs for ages 4-14.",
-      "link": "/ilkogretim-ingilizce-kursu",
+      "id": "akademik-sinavlar",
+      "title": "Academic Exams",
+      "desc": "Expert preparation programmes for IELTS, TOEFL, YDS, GMAT, GRE and more.",
+      "link": "/akademik-sinavlar",
       "btn": "View Page",
       "icon": "Baby",
       "theme": "purple"
@@ -15911,5 +15931,302 @@
         "ctaText": "View Page"
       }
     ]
+  },
+  "miniGallery": {
+    "title": "Moments from Our Course",
+    "subtitle": "Highlights from our campus and events",
+    "imgAlt": "Avcilar Akademik International Event and Campus Visual",
+    "imgTitle": "Avcilar Foreign Language Course Education Center and Social Activities"
+  },
+  "akademikSinavlarLandingPage": {
+    "meta": {
+      "title": "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE | Akademik International",
+      "description": "Preparation courses for IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT and Cambridge in Avcılar and all our branches. Expert tutors, mock exams, proven success rates."
+    },
+    "hero": {
+      "tag": "ACADEMIC EXAM PREPARATION",
+      "title": "Pass the Exam You Are Aiming For",
+      "badge": "CATEGORY: EXAM PREPARATION",
+      "description": "From IELTS to TOEFL, from YDS to GMAT — reach your target in every international and national academic exam with our expert instructors and proven exam strategies.",
+      "customerServiceBtn": "Talk to Our Education Consultant Now!",
+      "infoBtn": "Get Information Now!",
+      "whatsappBtn": "WhatsApp Info",
+      "formRibbon": "Registration & Information Form",
+      "formTitle": "FREE CONSULTATION!",
+      "formSubtitle": "Get Detailed Pricing and Information for Our Exam Prep Courses!",
+      "namePlaceholder": "Enter Your Full Name.",
+      "phonePlaceholder": "Enter Your Phone Number.",
+      "branchPlaceholder": "Select Branch.",
+      "submitBtn": "GET INFO NOW!",
+      "formDisclaimer": "By filling in the form, you accept the Terms of Use / Legal Notice.",
+      "subtitle": "Expert Team in 20+ Exams with Proven Results!"
+    },
+    "about": {
+      "badge": "4 CORE APPROACHES",
+      "title": "The Right Method for Academic Exam Preparation",
+      "desc": "Academic exams are the bridges that open doors to overseas education, career advancement, public appointments and international recognition. At Akademik International we guide students to success in IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge and many more with our proven methodology.<br/><br/><b>Exam-Specific Strategy:</b> Every exam has its own unique structure, question types and assessment criteria. Our instructors ensure you reach your goal in the shortest time with strategies and materials tailored specifically to your target exam.<br/><br/><b>Mock-Exam-Centred Preparation:</b> Regular mock exams held under real exam conditions reveal your weak areas and build confidence in managing exam anxiety.",
+      "skills": [
+        {
+          "id": "strategy",
+          "title": "Exam-Specific Strategy",
+          "desc": "Question-solving techniques and time management strategies tailored to each exam's structure."
+        },
+        {
+          "id": "analysis",
+          "title": "Question Type Analysis",
+          "desc": "Understand the logic of every question type and reach the correct answer by the fastest route."
+        },
+        {
+          "id": "mock",
+          "title": "Realistic Mock Exams",
+          "desc": "Practice with regular mock exams in real exam format and identify your weak areas."
+        },
+        {
+          "id": "target",
+          "title": "Personal Score Target",
+          "desc": "Planned progress towards a personal target score determined from your current level."
+        }
+      ],
+      "description": "Reach your international or national academic goal with Akademik International's expert instructors and proven exam-preparation methodology.",
+      "features": [
+        "IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, CAE, PTE and more.",
+        "Boutique classes of 7-10 students or one-to-one format.",
+        "Expert instructors with exam experience and top scores.",
+        "Regular mock exams, score tracking and personal feedback."
+      ]
+    },
+    "examCards": {
+      "title": "Exams We Prepare Students For",
+      "subtitle": "Comprehensive preparation programmes for all international and national academic exams in English or German.",
+      "categories": [
+        {
+          "id": "international",
+          "label": "International English Exams",
+          "exams": [
+            {
+              "name": "IELTS",
+              "shortDesc": "The world's most widely accepted English proficiency test for overseas study and immigration.",
+              "targetScore": "Band 5.5 – 8.5",
+              "link": "/ielts-hazirlik-kursu"
+            },
+            {
+              "name": "TOEFL iBT",
+              "shortDesc": "ETS's academic English exam required for applications to US and Canadian universities.",
+              "targetScore": "Score: 60 – 120",
+              "link": "/toefl-hazirlik-kursu"
+            },
+            {
+              "name": "TOEIC",
+              "shortDesc": "English proficiency test preferred for business and corporate career applications.",
+              "targetScore": "785+ Good Level",
+              "link": "/toeic-hazirlik-kursu"
+            },
+            {
+              "name": "Cambridge CAE",
+              "shortDesc": "The globally recognised Cambridge C1 certificate proving advanced English proficiency.",
+              "targetScore": "C1 – C2 Level",
+              "link": "/cae-kursu"
+            },
+            {
+              "name": "PTE Academic",
+              "shortDesc": "Pearson's computer-based academic English proficiency test.",
+              "targetScore": "Score: 50 – 90",
+              "link": "/pte-kursu"
+            }
+          ]
+        },
+        {
+          "id": "turkey",
+          "label": "Turkish National Exams",
+          "exams": [
+            {
+              "name": "YDS",
+              "shortDesc": "ÖSYM's twice-yearly language exam, mandatory for public service careers and academics.",
+              "targetScore": "70+ Target Score",
+              "link": "/yds-hazirlik-kursu"
+            },
+            {
+              "name": "YÖKDİL",
+              "shortDesc": "YÖK's language exam for postgraduate education and academic appointments.",
+              "targetScore": "65+ Target Score",
+              "link": "/yokdil-hazirlik-kursu"
+            },
+            {
+              "name": "YKS Dil / YDT",
+              "shortDesc": "Exam that boosts the foreign language score in university entrance, giving a preference advantage.",
+              "targetScore": "High Score Target",
+              "link": "/yks-dil-ydt-hazirlik-kursu"
+            }
+          ]
+        },
+        {
+          "id": "graduate",
+          "label": "Postgraduate & MBA Exams",
+          "exams": [
+            {
+              "name": "GMAT",
+              "shortDesc": "Globally accepted analytical thinking exam for MBA and business postgraduate programmes.",
+              "targetScore": "600+ Target Score",
+              "link": "/gmat-hazirlik-kursu"
+            },
+            {
+              "name": "GRE",
+              "shortDesc": "Academic general aptitude exam required for postgraduate programme applications at US and European universities.",
+              "targetScore": "310+ Target Score",
+              "link": "/gre-sinavi-hazirlik-kursu"
+            },
+            {
+              "name": "SAT",
+              "shortDesc": "College Board exam for high school students applying for undergraduate programmes at US universities.",
+              "targetScore": "1400+ Target Score",
+              "link": "/sat-kursu"
+            }
+          ]
+        },
+        {
+          "id": "german",
+          "label": "German Language Exams",
+          "exams": [
+            {
+              "name": "Goethe Certificate",
+              "shortDesc": "Official language certificate from A1 to C2 issued by Goethe-Institut for study, immigration and careers in Germany.",
+              "targetScore": "A1 – C2 Levels",
+              "link": "/almanca-goethe-sinavi-hazirlik-kursu"
+            },
+            {
+              "name": "TestDaF",
+              "shortDesc": "Mandatory language exam for international students wishing to study at undergraduate or postgraduate level in Germany.",
+              "targetScore": "TDN 4 – 5 Target",
+              "link": "/testdaf-almanca-kursu"
+            }
+          ]
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Why Akademik International for Exam Prep?",
+      "subtitle": "Reach Your Goal Without Wasting Time",
+      "cardTitle": "Proven Success Rate",
+      "cardDesc": "Experience of the most recommended exam prep course — having guided thousands of students to their target scores across our branches in Bursa, Istanbul, Izmir, Ankara and beyond.",
+      "btnNext": "More Advantages →",
+      "faqs": [
+        {
+          "q": "Which exams do you prepare students for?",
+          "a": "We offer preparation programmes for IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YDT, GMAT, GRE, SAT, Cambridge CAE, PTE Academic, Goethe and TestDaF, among others."
+        },
+        {
+          "q": "What level do I need to start an exam prep course?",
+          "a": "A free placement test determines your current level, and a personalised programme aimed directly at your target exam is then created for you."
+        },
+        {
+          "q": "How long are the courses?",
+          "a": "Programmes of varying intensity run from 8 weeks to 6 months, depending on your target exam and current level."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Experienced Exam Instructors",
+          "desc": "Expert instructors who have achieved high scores themselves and have total command of exam strategies.",
+          "icon": "Award"
+        },
+        {
+          "title": "Regular Mock Exams",
+          "desc": "Gain practice and manage exam anxiety with mock tests run in real exam format.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Personalised Programme",
+          "desc": "An individual progress plan prepared specifically for your current level and target exam.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Proprietary Study Materials",
+          "desc": "Up-to-date, exam-specific materials from our in-house publisher, The Academic Publishing.",
+          "icon": "MessageCircle"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Study Materials We Use for Exam Preparation",
+      "subtitle": "The Academic Publishing Difference",
+      "features": [
+        "Up-to-date Exam-Specific Strategies",
+        "Full Coverage of All Question Types",
+        "Proprietary Course Materials"
+      ],
+      "books": [
+        {
+          "name": "IELTS & TOEFL Strategy Guide",
+          "type": "International Exam Strategies"
+        },
+        {
+          "name": "YDS / YÖKDİL Preparation",
+          "type": "National Exam Programme"
+        },
+        {
+          "name": "GMAT / GRE Verbal Reasoning",
+          "type": "Analytical Reasoning"
+        },
+        {
+          "name": "Academic Mock Exams",
+          "type": "Real-Format Practice Set"
+        }
+      ]
+    },
+    "models": {
+      "title": "Choose the Learning Model That Suits You Best",
+      "faceToFace": {
+        "title": "In-Person (Face-to-Face) Learning",
+        "badge": "POPULAR",
+        "desc": "Interactive exam preparation in boutique classes of 7-10 students across our branches in Bursa, Istanbul, Izmir, Ankara and more.",
+        "features": [
+          "Boutique Groups of 7-10",
+          "Ask Questions Instantly",
+          "Face-to-Face One-to-One Sessions",
+          "Physical Mock Exams",
+          "Group Motivation"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Registration Form"
+      },
+      "online": {
+        "title": "Online (Distance) Learning",
+        "desc": "Study from anywhere with İngilizce UZEM, Turkey's first interactive language platform broadcast live from studio classrooms.",
+        "features": [
+          "Learn from Anywhere",
+          "İngilizce UZEM Platform",
+          "Live and Interactive Lessons",
+          "Online Mock Exams",
+          "Digital Study Materials"
+        ],
+        "btnWhatsapp": "WhatsApp Info Line",
+        "btnForm": "Pre-Registration Form"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Academic Exam Preparation",
+      "items": [
+        {
+          "q": "What is an academic exam preparation course?",
+          "a": "An academic exam preparation course is a comprehensive training programme consisting of exam-specific strategies, question-type analyses and mock exams, designed to help candidates reach their target score in national or international exams such as IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE and SAT."
+        },
+        {
+          "q": "Which exam should I prepare for to study for a postgraduate degree abroad?",
+          "a": "It depends on the country: the US and Canada typically require IELTS or TOEFL plus GRE or GMAT; the UK usually requires IELTS; Germany requires TestDaF or a Goethe certificate. Our education consultants will point you in the right direction."
+        },
+        {
+          "q": "What is the difference between YDS and YÖKDİL?",
+          "a": "YDS (Foreign Language Proficiency Test) is administered by ÖSYM, while YÖKDİL is run under YÖK coordination. YDS covers a broader scope for public service appointments and academics, whereas YÖKDİL is mainly used for postgraduate programme applications."
+        },
+        {
+          "q": "How do I determine my level before starting an exam prep course?",
+          "a": "Akademik International offers a free placement test to determine your current English level. Based on the results, you will be directed to the most suitable programme for your target exam."
+        },
+        {
+          "q": "What is the difference between GMAT and GRE?",
+          "a": "GMAT is mainly accepted by MBA and business postgraduate programmes, while GRE is valid across a wide range of postgraduate fields including engineering, social sciences and natural sciences. Many MBA programmes now accept both."
+        }
+      ]
+    }
   }
 }

@@ -12,6 +12,7 @@ import {
 import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { getOrganizationSchema } from "../../src/utils/seo";
+import Script from "next/script";
 
 /** Gövde metni — yüksek okunabilirlik */
 const inter = Inter({
@@ -76,6 +77,11 @@ export async function generateMetadata({
       template: `%s | ${titleSuffix}`,
     },
     description,
+    icons: {
+      icon: [{ url: "/icon.png", type: "image/png" }],
+      shortcut: "/icon.png",
+      apple: "/icon.png",
+    },
 
     alternates: {
       canonical: `${siteUrl}/${lang}`,
@@ -139,13 +145,21 @@ export default async function RootLayout({
   return (
     <html lang={lang} dir={direction} suppressHydrationWarning>
       <head>
-        {/*
-          Temayı React hydrate olmadan ÖNCE uygular (tema flash'ını önler).
-        */}
-        <script
+        {/* Tema flash önleme — React hydrate'dan önce çalışır */}
+        <Script
           id="theme-init"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem("theme")||"system";var d=t==="dark"||(t==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches);var r=document.documentElement;r.setAttribute("data-theme",d?"dark":"light");r.classList.add(d?"dark":"light");}catch(e){}})();`,
+          }}
+        />
+        {/* JSON-LD — sunucu taraflı render, client component dışında */}
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getOrganizationSchema(siteUrl)),
           }}
         />
       </head>
@@ -153,13 +167,6 @@ export default async function RootLayout({
         className={`${inter.variable} ${poppins.variable} ${geistMono.variable}`}
       >
         <ThemeProvider>
-          <script
-            id="organization-schema"
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(getOrganizationSchema(siteUrl))
-            }}
-          />
           {children}
           <Footer lang={lang} />
         </ThemeProvider>

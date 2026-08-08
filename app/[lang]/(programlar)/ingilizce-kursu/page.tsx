@@ -32,8 +32,16 @@ export async function generateMetadata({
 
   // You can extend the dictionary later to include this metadata
   const meta = (dict as any)?.genelIngilizceLandingPage?.meta || {
-    title: lang === 'en' ? "Genel İngilizce Course" : (lang === 'ar' ? "Genel İngilizce Kursu" : "Genel İngilizce Kursu"),
-    description: "Sıfırdan başlayarak Genel İngilizce kursları ile İngilizceyi akıcı ve doğru bir şekilde öğrenin. Tüm seviyeler için özel eğitim programları."
+    title: lang === 'en'
+      ? "General English Course | All Levels A1–C1 | Akademik International"
+      : lang === 'ar'
+        ? "دورة اللغة الإنجليزية العامة | جميع المستويات A1–C1 | أكاديميك إنترناشيونال"
+        : "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler | Akademik International",
+    description: lang === 'en'
+      ? "General English courses in Avcılar, Istanbul. CEFR-aligned programmes from A1 beginner to C1 advanced. Free placement test. Get info now."
+      : lang === 'ar'
+        ? "دورات اللغة الإنجليزية العامة في أفجيلار. برامج CEFR من A1 إلى C1. اختبار مستوى مجاني."
+        : "Avcılar'da genel İngilizce kursu. A1'den C1'e tüm seviyeler, CEFR uyumlu programlar, ücretsiz seviye tespit sınavı. Hemen bilgi alın."
   };
 
   return {
@@ -57,13 +65,28 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Course",
-            "name": "Genel İngilizce Kursu",
-            "description": "Sıfırdan başlayarak Genel İngilizce kursları ile İngilizceyi akıcı ve doğru bir şekilde öğrenin.",
+            "name": lang === "en"
+              ? "General English Course – All Levels A1 to C1"
+              : lang === "ar"
+                ? "دورة اللغة الإنجليزية العامة – جميع المستويات من A1 إلى C1"
+                : "Genel İngilizce Kursu – A1'den C1'e Tüm Seviyeler",
+            "description": lang === "en"
+              ? "General English courses from A1 beginner to C1 advanced level. CEFR-certified, free placement test, native teachers."
+              : lang === "ar"
+                ? "دورات الإنجليزية العامة من A1 إلى C1. معتمدة CEFR، اختبار مستوى مجاني، مدرسون متخصصون."
+                : "A1'den C1'e tüm seviyelerde genel İngilizce kursları. CEFR uyumlu, ücretsiz seviye tespit sınavı, konuşma garantili.",
             "provider": {
-              "@type": "Organization",
+              "@type": "EducationalOrganization",
               "name": "Akademik International Yabancı Dil Okulları",
               "sameAs": "https://avcilarakademik.com.tr"
-            }
+            },
+            "hasCourseInstance": [
+              { "@type": "CourseInstance", "name": "A1 Beginner", "courseMode": "Blended" },
+              { "@type": "CourseInstance", "name": "A2 Elementary", "courseMode": "Blended" },
+              { "@type": "CourseInstance", "name": "B1 Pre-Intermediate", "courseMode": "Blended" },
+              { "@type": "CourseInstance", "name": "B2 Intermediate", "courseMode": "Blended" },
+              { "@type": "CourseInstance", "name": "C1 Advanced", "courseMode": "Blended" }
+            ]
           })
         }}
       />

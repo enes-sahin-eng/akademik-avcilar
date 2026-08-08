@@ -2,7 +2,7 @@ import { Navbar } from "../components/layout/Navbar";
 import { HeroSlider } from "../components/home/HeroSlider";
 import { HeroQuickNav } from "../components/course/HeroQuickNav";
 import { MiniGallery } from "../components/home/MiniGallery";
-import { CampusCarousel } from "../components/ui/CampusCarousel";
+import { CampusTabs } from "../components/ui/CampusTabs";
 import { CampusLocation } from "../components/campus/CampusLocation";
 import { HomeContentSection } from "../components/home/HomeContentSection";
 import { StudentReviewsAndAwards } from "../components/home/StudentReviewsAndAwards";
@@ -29,10 +29,10 @@ export default async function Home({ params }: PageProps) {
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
       <HeroQuickNav lang={lang} />
-      <CampusLocation courseKey="homePage" lang={lang} />
-      <MiniGallery />
-      <CampusCarousel lang={lang} />
+      <MiniGallery lang={lang} />
+      <CampusTabs lang={lang} />
       <CourseHighlightTabs lang={lang} />
+      <CampusLocation courseKey="homePage" lang={lang} />
       <HomeContentSection lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />

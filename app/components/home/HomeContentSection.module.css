@@ -5,22 +5,11 @@
   padding: 0 16px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
-}
-
-.leftColumn {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.rightColumn {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
+  width: 100%;
 }
 
 .programsTitle {
@@ -50,11 +39,7 @@
 }
 
 @media (max-width: 1024px) {
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .rightColumn {
+  .contentWrapper {
     gap: 30px;
   }
 }

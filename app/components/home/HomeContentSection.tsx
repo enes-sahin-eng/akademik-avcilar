@@ -1,12 +1,9 @@
 import React from "react";
 import styles from "./HomeContentSection.module.css";
-import { HappyHoursBanner } from "./HappyHoursBanner";
 import { HomeArticle } from "./HomeArticle";
 import { FAQSection } from "./FAQSection";
-import { Leaderboard } from "./Leaderboard";
 import { UpcomingProgramsTable } from "./UpcomingProgramsTable";
 import { ProgramTabsSection } from "./ProgramTabsSection";
-import { MapsEmbed } from "../ui/MapsEmbed";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 
 interface Props {
@@ -20,22 +17,15 @@ export const HomeContentSection = async ({ lang }: Props) => {
   return (
     <>
       <section className={styles.sectionContainer}>
-        <div className={styles.grid}>
-
-          {/* Sol kolon — SEO kritik metinler, Reveal/framer-motion YOK */}
-          <div className={styles.leftColumn}>
-            <HappyHoursBanner lang={lang} />
-            <HomeArticle lang={lang} />
-            <FAQSection lang={lang} />
-          </div>
-
-          {/* Sağ kolon */}
-          <div className={styles.rightColumn}>
-            <Leaderboard lang={lang} />
-            <MapsEmbed />
-          </div>
+        <div className={styles.contentWrapper}>
+          <HomeArticle lang={lang} />
         </div>
+      </section>
 
+      {/* FAQSection moved outside to allow 100% width */}
+      <FAQSection lang={lang} />
+
+      <section className={styles.sectionContainer}>
         <ProgramTabsSection lang={lang} />
       </section>
 

@@ -96,11 +96,58 @@
   --tracking-wide:     0.06em;
   --tracking-wider:    0.16em;
 
+  /* ── PREMIUM DISPLAY ÖLÇEĞİ ──────────────────────────────────
+     Editorial his için. Referans: 60-90px hero başlıkları, cömert nefes.
+     clamp(min, fluid, max) — mobil/desktop otomatik ölçekler.            */
+  --fs-display-2xl: clamp(3.25rem, 7vw, 6rem);      /* 52-96px  — Hero mega  */
+  --fs-display-xl:  clamp(2.75rem, 5.6vw, 4.75rem); /* 44-76px  — H1 premium */
+  --fs-display-lg:  clamp(2.25rem, 4.2vw, 3.5rem);  /* 36-56px  — H2 section */
+  --fs-display-md:  clamp(1.75rem, 3vw, 2.5rem);    /* 28-40px  — H3 alt    */
+  --fs-display-sm:  clamp(1.35rem, 2.1vw, 1.75rem); /* 22-28px  — H4        */
+
+  --fs-body-lg:     1.125rem;                        /* 18px — hero lead    */
+  --fs-body-md:     1rem;                            /* 16px — gövde        */
+  --fs-body-sm:     0.9375rem;                       /* 15px — muted        */
+  --fs-body-xs:     0.8125rem;                       /* 13px — meta         */
+
+  --fs-eyebrow:     0.75rem;                         /* 12px — küçük etiket */
+
+  /* Line-height ölçeği — display sıkı, body geniş */
+  --lh-display:  0.98;
+  --lh-heading:  1.08;
+  --lh-subhead:  1.25;
+  --lh-body:     1.65;
+  --lh-relaxed:  1.75;
+
+  /* ── SPACING RITHMI ──────────────────────────────────────────
+     Section padding sistematik olsun — cömert ve tutarlı.        */
+  --space-section-xl: clamp(96px, 12vw, 176px);  /* Hero + büyük section */
+  --space-section-lg: clamp(72px, 9vw, 128px);   /* Normal section       */
+  --space-section-md: clamp(56px, 7vw, 96px);    /* Kompakt              */
+  --space-block:      clamp(32px, 4vw, 56px);    /* Block içi ritim      */
+  --space-inline:     clamp(24px, 3vw, 40px);    /* Yan boşluk           */
+
+  /* ── CONTAINER ÖLÇEKLERİ ─────────────────────────────────────
+     Referans premium siteler 1280-1440px arası kullanır.          */
+  --container-max:     1440px;   /* Standart sayfa max            */
+  --container-wide:    1600px;   /* Görsel-ağırlıklı geniş        */
+  --container-narrow:  1120px;   /* İçerik odaklı dar             */
+  --container-prose:    720px;   /* Uzun metin okuma              */
+  --container-gutter:  clamp(20px, 4vw, 40px); /* Yan iç boşluk   */
+
   /* ── HAREKET ─────────────────────────────────────────────────── */
   --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
   --dur-fast:   0.2s;
   --dur-base:   0.3s;
   --dur-slow:   0.45s;
+
+  /* ── LEAD FORM (HeroSlider altın-lacivert kart) ──────────────── */
+  --lead-amber:      #f7c56b;
+  --lead-amber-soft: #e8b358;
+  --lead-amber-deep: #c4923a;
+  --lead-navy-1:     #0a1b30;
+  --lead-navy-2:     #123a63;
+  --lead-hairline:   rgba(247, 197, 107, 0.28);
 }
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -175,8 +222,12 @@
 
 html {
   overflow-x: clip;
-  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+}
+
+/* Next.js router geçişlerinde smooth scroll'u aktifleştir */
+[data-scroll-behavior="smooth"] {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -191,9 +242,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: var(--fs-body-md);          /* 16px — premium standart */
   font-weight: 400;
-  line-height: 1.7;
+  line-height: var(--lh-body);           /* 1.65 — okunabilir ama sıkı */
   letter-spacing: var(--tracking-snug);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -218,7 +269,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   font-weight: 800;
-  line-height: 1.16;
+  line-height: var(--lh-heading);
   letter-spacing: var(--tracking-tight);
   margin: 0;
   text-wrap: balance;
@@ -228,17 +279,49 @@ h1, h2, h3, h4, h5, h6 {
      başlıkları siyah yapıyor. Renk gerektiğinde bileşende verilmeli. */
 }
 
-h1 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); letter-spacing: var(--tracking-tighter); }
-h2 { font-size: clamp(1.45rem, 2.4vw, 1.95rem); }
-h3 { font-size: clamp(1.1rem, 1.6vw, 1.3rem); font-weight: 700; }
-h4 { font-size: 1.05rem; font-weight: 700; }
+/* Premium ölçek — referans siteler seviyesi.
+   H1 hero-scale, tighter tracking, sıkı line-height.        */
+h1 {
+  font-size: var(--fs-display-xl);          /* 44-76px */
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-tighter);
+  font-weight: 900;
+}
+h2 {
+  font-size: var(--fs-display-lg);          /* 36-56px */
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tracking-tighter);
+  font-weight: 800;
+}
+h3 {
+  font-size: var(--fs-display-md);          /* 28-40px */
+  line-height: var(--lh-subhead);
+  font-weight: 800;
+}
+h4 {
+  font-size: var(--fs-display-sm);          /* 22-28px */
+  line-height: var(--lh-subhead);
+  font-weight: 700;
+}
+h5 {
+  font-size: var(--fs-body-lg);             /* 18px */
+  line-height: var(--lh-subhead);
+  font-weight: 700;
+}
+h6 {
+  font-size: var(--fs-body-md);             /* 16px */
+  line-height: var(--lh-subhead);
+  font-weight: 700;
+  letter-spacing: var(--tracking-snug);
+}
+
+/* Uzun paragraflar dengeli sarılsın — orphan kelime yok */
+p { margin: 0; text-wrap: pretty; }
 
 [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
 [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
   letter-spacing: 0;
 }
-
-p { margin: 0; }
 
 a {
   color: inherit;
@@ -331,11 +414,134 @@ button { cursor: pointer; }
 /* Bölüm etiketi — küçük, harf aralıklı, turuncu */
 .ak-eyebrow {
   font-family: var(--font-display);
-  font-size: 0.68rem;
+  font-size: var(--fs-eyebrow);
   font-weight: 700;
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
   color: var(--accent-orange);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   PREMIUM DÜZEN YARDIMCILARI
+   Container, section spacing, display tipografi, grain doku
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Container — max-width + otomatik yan iç boşluk (gutter) */
+.ak-container,
+.ak-container-wide,
+.ak-container-narrow,
+.ak-container-prose {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: var(--container-gutter);
+}
+.ak-container        { max-width: var(--container-max);    }
+.ak-container-wide   { max-width: var(--container-wide);   }
+.ak-container-narrow { max-width: var(--container-narrow); }
+.ak-container-prose  { max-width: var(--container-prose);  }
+
+/* Section spacing — sistematik dikey ritim.
+   Alt padding %8 daha fazla — optik denge (üst kenar başlıkla,
+   alt kenar hiçbir şeyle sınırlanmadığı için daha çok boşluk ister). */
+.ak-section {
+  padding-top: var(--space-section-lg);
+  padding-bottom: calc(var(--space-section-lg) * 1.08);
+}
+.ak-section-xl {
+  padding-top: var(--space-section-xl);
+  padding-bottom: calc(var(--space-section-xl) * 1.08);
+}
+.ak-section-md {
+  padding-top: var(--space-section-md);
+  padding-bottom: calc(var(--space-section-md) * 1.08);
+}
+
+/* Display tipografi — h etiketlerinden bağımsız utility ölçek.
+   Hero'da <h1 class="ak-display-hero"> gibi kullan.               */
+.ak-display-hero {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-2xl);
+  font-weight: 900;
+  line-height: var(--lh-display);
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.ak-display-xl {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-xl);
+  font-weight: 900;
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-tighter);
+  text-wrap: balance;
+}
+
+.ak-display-lg {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-lg);
+  font-weight: 800;
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tracking-tighter);
+  text-wrap: balance;
+}
+
+/* Lead paragraph — hero altında büyük gövde metni */
+.ak-lead {
+  font-size: var(--fs-body-lg);
+  line-height: var(--lh-body);
+  color: var(--text-secondary);
+  max-width: 58ch;
+  text-wrap: pretty;
+}
+
+/* Sayı vurgusu — tabular figürler + display font (stat kartları) */
+.ak-num {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  letter-spacing: var(--tracking-tighter);
+}
+
+/* Turuncu vurgu kelime — başlık içinde marka renkli parça */
+.ak-accent {
+  color: var(--accent-orange);
+}
+.ak-accent-red { color: var(--accent-red); }
+
+/* İnce doku — premium sitelerin gizli sırrı: subtle noise overlay.
+   Fixed pozisyonda uygulanır, tüm sayfaya düşer, pointer'ı bloklamaz.
+   İstemeyen bileşenlerde ak-no-grain ile devre dışı bırakılır.       */
+.ak-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: overlay;
+}
+
+/* Görsel üstünde okunabilir başlık için gradyan overlay */
+.ak-overlay-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(6, 13, 24, 0.15) 0%,
+    rgba(6, 13, 24, 0.55) 55%,
+    rgba(6, 13, 24, 0.90) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Kural: RTL'de italik kalmasın (Arap harflerinde italik yapı bozar) */
+[dir="rtl"] .ak-display-hero,
+[dir="rtl"] .ak-display-xl,
+[dir="rtl"] .ak-display-lg {
+  letter-spacing: 0;
 }
 
 /* ═══════════════════════════════════════════════════════════════════
