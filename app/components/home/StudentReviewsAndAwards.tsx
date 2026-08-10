@@ -31,6 +31,20 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
           <p className={styles.subtitle}>{dict.reviewsSubtitle}</p>
         </div>
 
+        {/* VIDEOS SECTION */}
+        <div className={styles.videosSection}>
+          <div className={styles.bgLines}></div>
+          <h3 className={styles.videosTitle}>
+            <strong>{dict.videosTitle.split(" ")[0]}</strong>{" "}
+            {dict.videosTitle.split(" ").slice(1).join(" ")}
+          </h3>
+          <VideoLightbox
+            videos={dict.videos}
+            watchNow={dict.watchNow}
+            videosAlt={dict.videosAlt}
+          />
+        </div>
+
         {/* REVIEWS CAROUSEL (MARQUEE) */}
         <div className={styles.marqueeContainer}>
           <div className={styles.marqueeTrack}>
@@ -53,20 +67,6 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* VIDEOS SECTION */}
-        <div className={styles.videosSection}>
-          <div className={styles.bgLines}></div>
-          <h3 className={styles.videosTitle}>
-            <strong>{dict.videosTitle.split(" ")[0]}</strong>{" "}
-            {dict.videosTitle.split(" ").slice(1).join(" ")}
-          </h3>
-          <VideoLightbox
-            videos={dict.videos}
-            watchNow={dict.watchNow}
-            videosAlt={dict.videosAlt}
-          />
         </div>
 
         {/* AWARDS SECTION (MARQUEE) */}
