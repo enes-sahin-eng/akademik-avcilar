@@ -172,24 +172,66 @@
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
+  .locationSection {
+    padding: 24px 16px;
+  }
+
   .container {
-    border-radius: 24px;
+    border-radius: 20px;
     flex-direction: column;
-    padding: 24px;
+    padding: 18px 16px 16px;
     align-items: stretch;
-    gap: 24px;
+    gap: 14px;
   }
-  
+
   .titleArea {
-    justify-content: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  
+
+  .title {
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .pathArea {
+    gap: 0;
+  }
+
+  .animatedLine {
+    display: none;
+  }
+
+  .scrollArea {
+    padding: 0;
+  }
+
+  .chipsWrapper {
+    gap: 10px;
+  }
+
+  .chip {
+    padding: 7px 12px;
+    gap: 8px;
+    border-radius: 10px;
+  }
+
+  .chip::before {
+    display: none;
+  }
+
+  .chipText {
+    font-size: 12.5px;
+  }
+
   .directionBtn {
     justify-content: center;
-    padding: 14px;
-  }
-  
-  .scrollArea {
-    padding: 20px 0;
+    padding: 13px;
+    border-radius: 12px;
+    font-size: 13.5px;
+    margin-top: 2px;
   }
 }
