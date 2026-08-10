@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function ItalyancaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* About (İtalyanca Eğitimi & Avantajları) */}
       <CourseInfoSection courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2, C1, C2) */}
       <GradeLevelTabs courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="italyancaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* SEO Text (İtalyanca Neden Çalışmalı, 5 Neden vb.) */}
       <SeoContentBlock courseKey="italyancaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

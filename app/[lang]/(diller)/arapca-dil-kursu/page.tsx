@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { ArapcaTables } from "../../../components/course/ArapcaTables";
 
 interface PageProps {
@@ -137,37 +138,16 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* About */}
       <CourseInfoSection courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1-A2, B1-B2, C1-C2) */}
       <GradeLevelTabs courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* Arapça Konuşulan Ülkeler Tablosu (Özel) */}
-      <ArapcaTables lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri */}
+      <PublicationsShowcase courseKey="arapcaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* SEO Text */}
       <SeoContentBlock courseKey="arapcaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -158,14 +159,12 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
 
       <CourseHeroSlider courseKey="aileBirlesimiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="aileBirlesimiLandingPage" lang={lang} />
-
-      <PublicationsShowcase courseKey="aileBirlesimiLandingPage" lang={lang} />
-
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="aileBirlesimiLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="aileBirlesimiLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="aileBirlesimiLandingPage" lang={lang} />
       <CourseFAQ courseKey="aileBirlesimiLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

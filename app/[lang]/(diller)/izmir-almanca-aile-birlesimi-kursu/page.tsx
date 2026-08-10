@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -159,22 +160,13 @@ export default async function IzmirAileBirlesimiKursuPage({
       {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş Şablon) --- */}
 
       <CourseHeroSlider courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
-      <CourseInfoSection
-        courseKey="izmirAileBirlesimiLandingPage"
-        lang={lang}
-      />
-
-      {/* Yayınlar Modülü Sabit */}
-      <PublicationsShowcase
-        courseKey="izmirAileBirlesimiLandingPage"
-        lang={lang}
-      />
-
-      <PlacementTestBanner lang={lang} />
+      <CourseInfoSection courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <WhyUsSection courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <CourseFAQ courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function IspanyolcaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* About (İspanyolca Nedir & Neden Öğrenilmeli) */}
       <CourseInfoSection courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2, C1, C2) */}
       <GradeLevelTabs courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="ispanyolcaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* SEO Text (Bursa İspanyolca Kursu & Kariyer Fırsatları) */}
       <SeoContentBlock courseKey="ispanyolcaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

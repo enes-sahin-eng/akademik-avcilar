@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function CinceDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="cinceLandingPage" lang={lang} />
-
-      {/* About (Çince Eğitimi Nedir & Avantajları) */}
       <CourseInfoSection courseKey="cinceLandingPage" lang={lang} />
-
-      {/* Seviyeler (HSK 1, HSK 2, HSK 3, HSK 4, HSK 5, HSK 6) */}
       <GradeLevelTabs courseKey="cinceLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="cinceLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="cinceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="cinceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="cinceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="cinceLandingPage" lang={lang} />
-
-      {/* SEO Text (Çince Bilmenin Önemi, Kurs Fiyatları vb.) */}
       <SeoContentBlock courseKey="cinceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

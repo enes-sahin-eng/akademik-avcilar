@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="almancaLandingPage" lang={lang} />
-
-      {/* About (Almanca Eğitimi & Aile Birleşimi Nedir) */}
       <CourseInfoSection courseKey="almancaLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2) */}
       <GradeLevelTabs courseKey="almancaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="almancaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="almancaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="almancaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="almancaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="almancaLandingPage" lang={lang} />
-
-      {/* SEO Text (Almanya A1 Aile Birleşimi Nedir? & Bursa Almanca Kursu Detayları) */}
       <SeoContentBlock courseKey="almancaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

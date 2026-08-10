@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { RuscaTables } from "../../../components/course/RuscaTables";
 
 interface PageProps {
@@ -137,37 +138,16 @@ export default async function RuscaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* About */}
       <CourseInfoSection courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2) */}
       <GradeLevelTabs courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* Fiyat Tablosu (Özel) */}
-      <RuscaTables lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri */}
+      <PublicationsShowcase courseKey="ruscaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* SEO Text */}
       <SeoContentBlock courseKey="ruscaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

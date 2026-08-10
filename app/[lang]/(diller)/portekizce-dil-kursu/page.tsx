@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { PortekizceTables } from "../../../components/course/PortekizceTables";
 
 interface PageProps {
@@ -137,37 +138,16 @@ export default async function PortekizceDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* About */}
       <CourseInfoSection courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2, C1, C2) */}
       <GradeLevelTabs courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* CEFR Seviye Tablosu (Özel) */}
-      <PortekizceTables lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri */}
+      <PublicationsShowcase courseKey="portekizceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* SEO Text */}
       <SeoContentBlock courseKey="portekizceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

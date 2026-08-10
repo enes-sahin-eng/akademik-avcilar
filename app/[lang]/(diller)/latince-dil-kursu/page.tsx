@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function LatinceDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="latinceLandingPage" lang={lang} />
-
-      {/* About (Eğitim Nedir & Hedef Kitle) */}
       <CourseInfoSection courseKey="latinceLandingPage" lang={lang} />
-
-      {/* Seviyeler */}
       <GradeLevelTabs courseKey="latinceLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="latinceLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="latinceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri */}
+      <PublicationsShowcase courseKey="latinceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="latinceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="latinceLandingPage" lang={lang} />
-
-      {/* SEO Text (Kökleri, Fiyatlar vb.) */}
       <SeoContentBlock courseKey="latinceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

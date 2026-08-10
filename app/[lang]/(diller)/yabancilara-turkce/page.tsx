@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,37 +137,16 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* About (Eğitim Nedir & Avantajları) */}
       <CourseInfoSection courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* Seviyeler */}
       <GradeLevelTabs courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase
-        courseKey="yabancilaraTurkceLandingPage"
-        lang={lang}
-      />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="yabancilaraTurkceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* SEO Text */}
       <SeoContentBlock courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

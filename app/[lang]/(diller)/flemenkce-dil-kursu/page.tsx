@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function FlemenkceDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* About (Eğitim Nedir & Avantajları) */}
       <CourseInfoSection courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1 - C2) */}
       <GradeLevelTabs courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="flemenkceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* SEO Text (Aile Birleşimi, Uyum Sınavı vb.) */}
       <SeoContentBlock courseKey="flemenkceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function FarscaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="farscaLandingPage" lang={lang} />
-
-      {/* About (Farsça Eğitimi Nedir & Avantajları) */}
       <CourseInfoSection courseKey="farscaLandingPage" lang={lang} />
-
-      {/* Seviyeler (Sıtıh-e Avval, Dovvom, Sevvom, Chaharom) */}
       <GradeLevelTabs courseKey="farscaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="farscaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="farscaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="farscaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="farscaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="farscaLandingPage" lang={lang} />
-
-      {/* SEO Text (YDS Hazırlık, Fiyatlar, Dilin Önemi vb.) */}
       <SeoContentBlock courseKey="farscaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

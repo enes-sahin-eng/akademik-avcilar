@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function KoreceDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="koreceLandingPage" lang={lang} />
-
-      {/* About (Korece Eğitimi Nedir & Avantajları) */}
       <CourseInfoSection courseKey="koreceLandingPage" lang={lang} />
-
-      {/* Seviyeler (A1, A2, B1, B2, C1, C2) */}
       <GradeLevelTabs courseKey="koreceLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="koreceLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="koreceLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="koreceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="koreceLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="koreceLandingPage" lang={lang} />
-
-      {/* SEO Text (Korece Öğrenmenin Faydaları, Kursun Amacı vb.) */}
       <SeoContentBlock courseKey="koreceLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -16,6 +16,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -136,34 +137,16 @@ export default async function OsmanlicaDilKursuPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* About (Osmanlıca Eğitimi Nedir & Avantajları) */}
       <CourseInfoSection courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* Seviyeler (Başlangıç, Detaylı, İleri vb.) */}
       <GradeLevelTabs courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* Yayınlar */}
-      <PublicationsShowcase courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* Placement Test Banner */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* Neden Biz */}
       <WhyUsSection courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* Eğitim Modelleri (Örgün / Online) */}
+      <PublicationsShowcase courseKey="osmanlicaLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* SSS */}
       <CourseFAQ courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* SEO Text (Osmanlıca Öğrenmenin Faydaları vb.) */}
       <SeoContentBlock courseKey="osmanlicaLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
