@@ -31,9 +31,9 @@ const getAdvantageIcon = (iconName: string, size = 32) => {
 };
 
 const positionStyles = [
-  { scale: 1, y: 12 },
-  { scale: 0.95, y: -16 },
-  { scale: 0.9, y: -44 },
+  { scale: 1, y: 0 },
+  { scale: 0.95, y: -56 },
+  { scale: 0.9, y: -100 },
 ];
 
 const exitAnimation = {
@@ -43,18 +43,18 @@ const exitAnimation = {
 };
 
 const enterAnimation = {
-  y: -16,
+  y: -100,
   scale: 0.9,
 };
 
 function CardContent({ advantage }: { advantage: Advantage }) {
   return (
     <div className={styles.cardContent}>
-      <div className={styles.iconContainer}>
-        {getAdvantageIcon(advantage.icon, 48)}
-      </div>
-      <div className={styles.textContainer}>
-        <h3 className={styles.cardTitle}>{advantage.title}</h3>
+      <h3 className={styles.cardTitle}>{advantage.title}</h3>
+      <div className={styles.cardBody}>
+        <div className={styles.iconContainer}>
+          {getAdvantageIcon(advantage.icon, 48)}
+        </div>
         <p className={styles.cardDesc}>{advantage.desc}</p>
       </div>
     </div>
@@ -91,7 +91,7 @@ function AnimatedCard({
         left: 0,
         right: 0,
         margin: "0 auto",
-        bottom: 0,
+        bottom: 30,
       }}
       className={styles.animatedCard}
     >

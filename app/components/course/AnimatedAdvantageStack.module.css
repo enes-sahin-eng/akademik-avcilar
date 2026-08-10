@@ -25,7 +25,7 @@
 
 .stackContainer {
   position: relative;
-  height: 380px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
 }
@@ -68,16 +68,34 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 2rem;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 1rem 2rem 1.5rem;
   text-align: center;
 }
 
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 1.25rem;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+
 .iconContainer {
-  width: 80px;
-  height: 80px;
-  border-radius: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
   background-color: var(--tint-navy);
   color: var(--accent-blue);
   display: flex;
@@ -86,21 +104,8 @@
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.textContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cardTitle {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-primary);
-  margin: 0;
-}
-
 .cardDesc {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   margin: 0;
   line-height: 1.6;
