@@ -16,6 +16,7 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 import { SeoContentBlock } from "@/app/components/course/SeoContentBlock";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -119,19 +120,16 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
         />
       )}
 
-      {/* BİLEŞENLER (Tüm courseKey değerleri kurumsalIngilizceLandingPage olarak değiştirildi) */}
       <CourseHeroSlider courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-
-      {/* YENİ: SEMANTİK SEO İÇERİK ALANI */}
       <SeoContentBlock courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

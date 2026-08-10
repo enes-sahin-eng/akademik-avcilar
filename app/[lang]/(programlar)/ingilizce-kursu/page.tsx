@@ -92,35 +92,15 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
       />
 
       
-      {/* KURS HERO SLIDER */}
       <CourseHeroSlider courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
       <WhyUsSection courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      
-      {/* SSS (FAQ) */}
-      <CourseFAQ courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="genelIngilizceLandingPage" lang={lang} />
-
-      
-      {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
+      <PublicationsShowcase courseKey="genelIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-{/* DİL SEVİYE BELİRLEME SINAVI */}
       <PlacementTestBanner lang={lang} />
-
-      
-      {/* INSTAGRAM FEED (Mock API) */}
+      <EducationModels courseKey="genelIngilizceLandingPage" lang={lang} />
+      <CourseFAQ courseKey="genelIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
 
           </main>

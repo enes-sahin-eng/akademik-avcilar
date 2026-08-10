@@ -160,17 +160,16 @@ export default async function IlkogretimIngilizceKursuPage({
         />
       )}
 
-      {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <SeoContentBlock courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <StudentReviewsAndAwards lang={lang} />
+      <SeoContentBlock courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

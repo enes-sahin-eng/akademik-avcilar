@@ -67,32 +67,14 @@ export default async function AcademicPage({ params }: PageProps) {
       />
 
       
-      {/* KURS HERO SLIDER */}
       <CourseHeroSlider courseKey="academicPage" lang={lang} />
-
-      {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="academicPage" lang={lang} />
-
-      {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="academicPage" lang={lang} />
-
-      {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
       <WhyUsSection courseKey="academicPage" lang={lang} />
-
-      {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="academicPage" lang={lang} />
-
-      
-      {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
+      <PublicationsShowcase courseKey="academicPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-
-      {/* DİL SEVİYE BELİRLEME SINAVI */}
       <PlacementTestBanner lang={lang} />
-
-      
-      {/* INSTAGRAM FEED (Mock API) */}
+      <EducationModels courseKey="academicPage" lang={lang} />
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
 
           </main>

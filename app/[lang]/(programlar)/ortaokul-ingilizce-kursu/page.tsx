@@ -16,6 +16,7 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -157,16 +158,16 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
         />
       )}
 
-      {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ortaokulIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="ortaokulIngilizceLandingPage" lang={lang} />
-      <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="ortaokulIngilizceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="ortaokulIngilizceLandingPage" lang={lang} />
+      <SeoContentBlock courseKey="ortaokulIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

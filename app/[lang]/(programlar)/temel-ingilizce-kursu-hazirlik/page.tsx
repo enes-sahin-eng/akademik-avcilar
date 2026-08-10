@@ -67,32 +67,14 @@ export default async function HazirlikPage({ params }: PageProps) {
       />
 
       
-      {/* KURS HERO SLIDER */}
       <CourseHeroSlider courseKey="prepPage" lang={lang} />
-
-      {/* PROGRAM ÖZETİ */}
       <CourseInfoSection courseKey="prepPage" lang={lang} />
-
-      {/* YAYINLARIMIZ */}
-      <PublicationsShowcase courseKey="prepPage" lang={lang} />
-
-      {/* NEDEN BİZ? AVANTAJLAR VE SSS */}
       <WhyUsSection courseKey="prepPage" lang={lang} />
-
-      {/* EĞİTİM MODELLERİ (YÜZ YÜZE / ONLINE) */}
-      <EducationModels courseKey="prepPage" lang={lang} />
-
-      
-      {/* ÖĞRENCİ YORUMLARI VE VİDEOLAR */}
+      <PublicationsShowcase courseKey="prepPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-
-      {/* DİL SEVİYE BELİRLEME SINAVI */}
       <PlacementTestBanner lang={lang} />
-
-      
-      {/* INSTAGRAM FEED (Mock API) */}
+      <EducationModels courseKey="prepPage" lang={lang} />
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
 
           </main>

@@ -12,6 +12,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -125,22 +126,12 @@ export default async function IsIngilizcesiPage({ params }: PageProps) {
         }}
       />
 
-      {/* Hero */}
       <CourseHeroSlider courseKey="businessEnglishLandingPage" lang={lang} />
-
-      {/* About (İş İngilizcesi Ne Demek?) */}
       <CourseInfoSection courseKey="businessEnglishLandingPage" lang={lang} />
-      
-      {/* Tables: Vocab & Email Templates */}
       <BusinessEnglishTables lang={lang} />
-
-      {/* Placement Test Banner */}
+      <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
-
-      {/* SEO Text (Neden İş İngilizcesi vb.) */}
       <SeoContentBlock courseKey="businessEnglishLandingPage" lang={lang} />
-
-      {/* Footer Elements */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -15,6 +15,7 @@ import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -92,33 +93,16 @@ export default async function OzelDersPage({ params }: PageProps) {
         }}
       />
 
-      {/* 1. HERO SLIDER */}
       <CourseHeroSlider courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* 2. COURSE INFO (Badge, Title, Desc, Skills) */}
       <CourseInfoSection courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* NEW: GRADE LEVEL TABS (5,6,7,8) */}
       <GradeLevelTabs courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* 3. PUBLICATIONS SHOWCASE */}
-      <PublicationsShowcase courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* 4. PLACEMENT TEST BANNER */}
-      <PlacementTestBanner lang={lang} />
-
-      {/* 5. WHY US / ADVANTAGES & ACCORDION FAQS */}
       <WhyUsSection courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* 6. EDUCATION MODELS */}
+      <PublicationsShowcase courseKey="ozelDersLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* 7. DETAILED FAQ */}
       <CourseFAQ courseKey="ozelDersLandingPage" lang={lang} />
-
-      {/* INSTAGRAM FEED (Mock API) */}
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );

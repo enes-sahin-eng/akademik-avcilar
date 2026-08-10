@@ -12,6 +12,7 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -146,16 +147,16 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
         />
       )}
       
-      {/* BİLEŞENLER */}
       <CourseHeroSlider courseKey="liseIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="liseIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="liseIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="liseIngilizceLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="liseIngilizceLandingPage" lang={lang} />
-      <SeoContentBlock courseKey="liseIngilizceLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="liseIngilizceLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="liseIngilizceLandingPage" lang={lang} />
       <CourseFAQ courseKey="liseIngilizceLandingPage" lang={lang} />
+      <SeoContentBlock courseKey="liseIngilizceLandingPage" lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
