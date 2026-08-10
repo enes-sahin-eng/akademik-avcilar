@@ -51,9 +51,8 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
         <div className={styles.overlay}></div>
       </div>
 
-      {/* CONTENT */}
+      {/* LEFT CONTENT */}
       <div className={styles.container}>
-        {/* LEFT: TEXT & BUTTONS */}
         <Reveal
           className={styles.contentLeft}
           trigger="mount"
@@ -77,54 +76,50 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
             </a>
           </div>
         </Reveal>
+      </div>
 
-        {/* RIGHT: PREMIUM FORM CARD */}
-        <Reveal
-          className={styles.formWrapper}
-          trigger="mount"
-          y={30}
-          duration={0.8}
-          delay={0.4}
-          id="info-form"
-        >
-          <div className={styles.premiumBadge}>
-            <Sparkles size={14} className={styles.badgeIcon} />
-            {heroData.formRibbon}
+      {/* FORM OVERLAY — positioned relative to heroSection, like home glassFormOverlay */}
+      <div
+        className={styles.formWrapper}
+        id="info-form"
+      >
+        <div className={styles.premiumBadge}>
+          <Sparkles size={14} className={styles.badgeIcon} />
+          {heroData.formRibbon}
+        </div>
+
+        <div className={styles.formHeader}>
+          <h2 className={styles.formTitle}>{heroData.formTitle}</h2>
+          <p className={styles.formSubtitle}>{heroData.formSubtitle}</p>
+        </div>
+
+        <form className={styles.form}>
+          <div className={styles.inputGroup}>
+            <input type="text" placeholder={heroData.namePlaceholder} className={styles.input} required />
           </div>
 
-          <div className={styles.formHeader}>
-            <h2 className={styles.formTitle}>{heroData.formTitle}</h2>
-            <p className={styles.formSubtitle}>{heroData.formSubtitle}</p>
+          <div className={styles.inputGroup}>
+            <input type="tel" placeholder={heroData.phonePlaceholder} className={styles.input} required />
           </div>
 
-          <form className={styles.form}>
-            <div className={styles.inputGroup}>
-              <input type="text" placeholder={heroData.namePlaceholder} className={styles.input} required />
-            </div>
+          <div className={styles.inputGroup}>
+            <select className={styles.input} defaultValue="" required>
+              <option value="" disabled hidden>{heroData.branchPlaceholder}</option>
+              {campuses.map((campus: any, index: number) => (
+                <option key={index} value={campus.name}>
+                  {campus.name}
+                </option>
+              ))}
+            </select>
+          </div>
 
-            <div className={styles.inputGroup}>
-              <input type="tel" placeholder={heroData.phonePlaceholder} className={styles.input} required />
-            </div>
-
-            <div className={styles.inputGroup}>
-              <select className={styles.input} defaultValue="" required>
-                <option value="" disabled hidden>{heroData.branchPlaceholder}</option>
-                {campuses.map((campus: any, index: number) => (
-                  <option key={index} value={campus.name}>
-                    {campus.name}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <button type="button" className={styles.submitBtn}>
-              {heroData.submitBtn}
-            </button>
-            <div className={styles.formFooter}>
-              {heroData.formDisclaimer || "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."}
-            </div>
-          </form>
-        </Reveal>
+          <button type="button" className={styles.submitBtn}>
+            {heroData.submitBtn}
+          </button>
+          <div className={styles.formFooter}>
+            {heroData.formDisclaimer || "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."}
+          </div>
+        </form>
       </div>
       </section>
       
