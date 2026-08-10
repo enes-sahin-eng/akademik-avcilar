@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "./Contact.module.css";
 import anim from "../motion/animations.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
+import { ContactCampusApplyClient } from "./ContactCampusApplyClient";
 
 interface Props {
   lang: Locale;
@@ -67,7 +68,11 @@ export const ContactCampuses = async ({ lang }: Props) => {
         ))}
       </div>
 
-      <button className={styles.campusApplyBtn}>{campusesData.button}</button>
+      <ContactCampusApplyClient
+        buttonLabel={campusesData.button}
+        campuses={campusesData.items}
+        formData={(dict as any)?.iletisim?.formSection}
+      />
     </div>
   );
 };
