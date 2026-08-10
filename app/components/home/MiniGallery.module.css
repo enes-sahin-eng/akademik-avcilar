@@ -107,4 +107,15 @@
     width: 150px;
     height: 100px;
   }
+  .galleryContainer {
+    height: 420px;
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .galleryContainer {
+    height: 360px;
+    min-height: 360px;
+  }
 }

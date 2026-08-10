@@ -42,7 +42,7 @@ export const MiniGallery = async ({ lang = "tr" }: Props) => {
         <p className={styles.gallerySubtitle}>{t.subtitle}</p>
       </div>
       <div className={styles.galleryContainer}>
-        <CircularGallery items={galleryItems} radius={500} autoRotateSpeed={0.015} />
+        <CircularGallery items={galleryItems} radius={500} autoRotateSpeed={0.07} />
       </div>
     </section>
   );
