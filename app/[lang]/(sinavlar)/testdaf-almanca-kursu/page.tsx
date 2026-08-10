@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
 interface PageProps {
@@ -163,25 +164,14 @@ export default async function TestDafHazirlikKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
-      {/* Client Component */}
       <CourseHeroSlider courseKey="testdafLandingPage" lang={lang} />
-
-      {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="testdafLandingPage" lang={lang} />
-      
-
-      {/* Server Components */}
-      <PublicationsShowcase courseKey="testdafLandingPage" lang={lang} />
-
-      {/* Client Components */}
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="testdafLandingPage" lang={lang} />
-
-      {/* Server Components */}
+      <PublicationsShowcase courseKey="testdafLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="testdafLandingPage" lang={lang} />
       <CourseFAQ courseKey="testdafLandingPage" lang={lang} />
-
-      {/* Footer ve Sosyal */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

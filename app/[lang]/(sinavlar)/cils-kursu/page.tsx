@@ -13,6 +13,7 @@ import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -145,6 +146,7 @@ export default async function CilsKursuPage({ params }: PageProps) {
       <CilsTables lang={lang} />
 
       {/* Placement Test Banner */}
+      <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
 
       {/* SEO Text (Tavsiyeler, Fiyatlar vb.) */}

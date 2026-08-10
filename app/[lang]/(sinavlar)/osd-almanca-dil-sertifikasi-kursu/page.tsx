@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -160,18 +161,14 @@ export default async function OsdHazirlikKursuPage({ params }: PageProps) {
         />
       )}
 
-      {/* --- İÇERİK BİLEŞENLERİ (Sadeleştirilmiş) --- */}
       <CourseHeroSlider courseKey="osdLandingPage" lang={lang} />
       <CourseInfoSection courseKey="osdLandingPage" lang={lang} />
-
-      {/* Yayınlar Modülü Sabit */}
-      <PublicationsShowcase courseKey="osdLandingPage" lang={lang} />
-
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="osdLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="osdLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="osdLandingPage" lang={lang} />
       <CourseFAQ courseKey="osdLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

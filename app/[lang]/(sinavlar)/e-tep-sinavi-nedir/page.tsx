@@ -13,6 +13,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
@@ -163,20 +164,16 @@ export default async function EtepSinaviNedirPage({ params }: PageProps) {
         />
       )}
 
-      {/* --- İÇERİK BİLEŞENLERİ --- */}
       <CourseHeroSlider courseKey="etepLandingPage" lang={lang} />
       <CourseInfoSection courseKey="etepLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="etepLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="etepLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="etepLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="etepLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="etepLandingPage" lang={lang} />
       <CourseFAQ courseKey="etepLandingPage" lang={lang} />
-      
-      {/* SEO Yazı blokları ve Tablo */}
       <SeoContentBlock courseKey="etepLandingPage" lang={lang} />
-      <CourseProsConsTable courseKey="etepLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
@@ -164,28 +165,16 @@ export default async function ItepHazirlikKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
-      {/* Client Component */}
       <CourseHeroSlider courseKey="itepLandingPage" lang={lang} />
-
-      {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="itepLandingPage" lang={lang} />
-
-      {/* Client Component */}
       <GradeLevelTabs courseKey="itepLandingPage" lang={lang} />
-
-      {/* Server Components */}
-      <PublicationsShowcase courseKey="itepLandingPage" lang={lang} />
-
-      {/* Client Components */}
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="itepLandingPage" lang={lang} />
-
-      {/* Server Components */}
+      <PublicationsShowcase courseKey="itepLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="itepLandingPage" lang={lang} />
       <CourseFAQ courseKey="itepLandingPage" lang={lang} />
       <SeoContentBlock courseKey="itepLandingPage" lang={lang} />
-
-      {/* Footer ve Sosyal */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -161,18 +162,14 @@ export default async function ProficiencyHazirlikKursuPage({
         />
       )}
 
-      {/* --- İÇERİK BİLEŞENLERİ --- */}
       <CourseHeroSlider courseKey="proficiencyLandingPage" lang={lang} />
       <CourseInfoSection courseKey="proficiencyLandingPage" lang={lang} />
-
-      {/* Yayınlar Modülü Geri Eklendi */}
-      <PublicationsShowcase courseKey="proficiencyLandingPage" lang={lang} />
-
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="proficiencyLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="proficiencyLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="proficiencyLandingPage" lang={lang} />
       <CourseFAQ courseKey="proficiencyLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

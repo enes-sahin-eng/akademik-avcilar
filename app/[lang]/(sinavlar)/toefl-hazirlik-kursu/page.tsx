@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
@@ -162,17 +163,16 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
         />
       )}
 
-      {/* --- İÇERİK BİLEŞENLERİ --- */}
       <CourseHeroSlider courseKey="toeflLandingPage" lang={lang} />
       <CourseInfoSection courseKey="toeflLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="toeflLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="toeflLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="toeflLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="toeflLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="toeflLandingPage" lang={lang} />
       <CourseFAQ courseKey="toeflLandingPage" lang={lang} />
       <SeoContentBlock courseKey="toeflLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

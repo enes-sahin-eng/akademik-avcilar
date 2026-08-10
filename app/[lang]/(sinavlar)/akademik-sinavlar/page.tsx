@@ -173,36 +173,16 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
         />
       )}
 
-      {/* HERO */}
       <CourseHeroSlider courseKey={COURSE_KEY} lang={lang} />
-
-      {/* HAKKINDA */}
       <CourseInfoSection courseKey={COURSE_KEY} lang={lang} />
-
-      {/* SINAV KARTLARI */}
       <ExamCardsGrid courseKey={COURSE_KEY} lang={lang} />
-
-      {/* YAYINLAR */}
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
-
-      {/* NEDEN BİZ */}
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
-
-      {/* EĞİTİM MODELLERİ */}
-      <EducationModels courseKey={COURSE_KEY} lang={lang} />
-
-      {/* SSS */}
-      <CourseFAQ courseKey={COURSE_KEY} lang={lang} />
-
-      {/* ÖĞRENCİ YORUMLARI */}
+      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-
-      {/* SEVİYE BELİRLEME */}
       <PlacementTestBanner lang={lang} />
-
-      {/* INSTAGRAM */}
+      <EducationModels courseKey={COURSE_KEY} lang={lang} />
+      <CourseFAQ courseKey={COURSE_KEY} lang={lang} />
       <InstagramFeed lang={lang} />
-
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
   );

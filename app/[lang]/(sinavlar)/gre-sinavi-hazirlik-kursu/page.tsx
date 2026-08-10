@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
@@ -164,28 +165,16 @@ export default async function GreHazirlikKursuPage({ params }: PageProps) {
 
       {/* --- İÇERİK BİLEŞENLERİ --- */}
 
-      {/* Client Component */}
       <CourseHeroSlider courseKey="greLandingPage" lang={lang} />
-
-      {/* Server Components - lang prop'u zorunlu */}
       <CourseInfoSection courseKey="greLandingPage" lang={lang} />
-
-      {/* Client Component */}
       <GradeLevelTabs courseKey="greLandingPage" lang={lang} />
-
-      {/* Server Components */}
-      <PublicationsShowcase courseKey="greLandingPage" lang={lang} />
-
-      {/* Client Components */}
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="greLandingPage" lang={lang} />
-
-      {/* Server Components */}
+      <PublicationsShowcase courseKey="greLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="greLandingPage" lang={lang} />
       <CourseFAQ courseKey="greLandingPage" lang={lang} />
       <SeoContentBlock courseKey="greLandingPage" lang={lang} />
-
-      {/* Footer ve Sosyal */}
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

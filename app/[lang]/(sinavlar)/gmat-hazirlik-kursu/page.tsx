@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
@@ -162,17 +163,16 @@ export default async function GmatHazirlikKursuPage({ params }: PageProps) {
         />
       )}
 
-      {/* --- İÇERİK BİLEŞENLERİ --- */}
       <CourseHeroSlider courseKey="gmatLandingPage" lang={lang} />
       <CourseInfoSection courseKey="gmatLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="gmatLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="gmatLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="gmatLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="gmatLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="gmatLandingPage" lang={lang} />
       <CourseFAQ courseKey="gmatLandingPage" lang={lang} />
       <SeoContentBlock courseKey="gmatLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

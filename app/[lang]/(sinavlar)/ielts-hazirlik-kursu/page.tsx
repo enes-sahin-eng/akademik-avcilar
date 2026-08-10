@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "@/app/components/course/GradeLevelTabs";
 
@@ -162,18 +163,16 @@ export default async function IeltsHazirlikKursuPage({ params }: PageProps) {
         />
       )}
 
-      {/* İÇERİK BİLEŞENLERİ */}
       <CourseHeroSlider courseKey="ieltsLandingPage" lang={lang} />
-
       <CourseInfoSection courseKey="ieltsLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ieltsLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ieltsLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="ieltsLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="ieltsLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ieltsLandingPage" lang={lang} />
       <CourseFAQ courseKey="ieltsLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ieltsLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

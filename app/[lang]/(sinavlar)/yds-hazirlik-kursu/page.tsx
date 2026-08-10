@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
 import { GradeLevelTabs } from "@/app/components/course/GradeLevelTabs";
 // YDS'ye özel belki tablo veya farklı bir komponent eklenecekse buraya import edeceğiz
@@ -163,18 +164,16 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
         />
       )}
 
-      {/* Client Component - lang'i Context'ten alıyor */}
       <CourseHeroSlider courseKey="ydsLandingPage" lang={lang} />
-
       <CourseInfoSection courseKey="ydsLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ydsLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ydsLandingPage" lang={lang} />
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="ydsLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="ydsLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ydsLandingPage" lang={lang} />
       <CourseFAQ courseKey="ydsLandingPage" lang={lang} />
       <SeoContentBlock courseKey="ydsLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>

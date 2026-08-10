@@ -14,6 +14,7 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
 import InstagramFeed from "../../../components/social/InstagramFeed";
+import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
 interface PageProps {
   params: Promise<{
@@ -164,15 +165,12 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
 
       <CourseHeroSlider courseKey="goetheLandingPage" lang={lang} />
       <CourseInfoSection courseKey="goetheLandingPage" lang={lang} />
-
-      {/* Yayınlar Modülü Kısa Sayfalarda da Sabit */}
-      <PublicationsShowcase courseKey="goetheLandingPage" lang={lang} />
-
-      <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="goetheLandingPage" lang={lang} />
+      <PublicationsShowcase courseKey="goetheLandingPage" lang={lang} />
+      <StudentReviewsAndAwards lang={lang} />
+      <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="goetheLandingPage" lang={lang} />
       <CourseFAQ courseKey="goetheLandingPage" lang={lang} />
-
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
