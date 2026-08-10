@@ -16637,6 +16637,24 @@
       "turkce": "Turkish",
       "yabancilara-turkce": "Turkish for Foreigners",
       "diger": "Other Languages"
+    },
+    "tabLanguage": "Language Course",
+    "tabExam": "Exam Prep",
+    "examSectionLabel": "Popular exams",
+    "examExpandMore": "See all exams",
+    "examExpandLess": "Show less",
+    "examCta": "Prepare for Exam",
+    "examCtaPlaceholder": "Select an exam first",
+    "exams": {
+      "ielts": "IELTS",
+      "toefl": "TOEFL",
+      "yds": "YDS",
+      "yokdil": "YÖKDİL",
+      "goethe": "Goethe",
+      "cae": "Cambridge",
+      "toeic": "TOEIC",
+      "pte": "PTE",
+      "yks": "YKS-DİL"
     }
   }
 }

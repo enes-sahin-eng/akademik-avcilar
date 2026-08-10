@@ -16719,6 +16719,24 @@
       "turkce": "Türkçe",
       "yabancilara-turkce": "Yab. Türkçe",
       "diger": "Diğer Diller"
+    },
+    "tabLanguage": "Dil Kursu",
+    "tabExam": "Sınav Hazırlık",
+    "examSectionLabel": "Popüler sınavlar",
+    "examExpandMore": "Tüm sınavları gör",
+    "examExpandLess": "Daha az göster",
+    "examCta": "Sınava Hazırlan",
+    "examCtaPlaceholder": "Önce bir sınav seçin",
+    "exams": {
+      "ielts": "IELTS",
+      "toefl": "TOEFL",
+      "yds": "YDS",
+      "yokdil": "YÖKDİL",
+      "goethe": "Goethe",
+      "cae": "Cambridge",
+      "toeic": "TOEIC",
+      "pte": "PTE",
+      "yks": "YKS-DİL"
     }
   }
 }

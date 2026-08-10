@@ -16262,6 +16262,24 @@
       "turkce": "التركية",
       "yabancilara-turkce": "التركية للأجانب",
       "diger": "لغات أخرى"
+    },
+    "tabLanguage": "دورة لغة",
+    "tabExam": "التحضير للامتحان",
+    "examSectionLabel": "الامتحانات الشائعة",
+    "examExpandMore": "عرض كل الامتحانات",
+    "examExpandLess": "عرض أقل",
+    "examCta": "الاستعداد للامتحان",
+    "examCtaPlaceholder": "اختر امتحاناً أولاً",
+    "exams": {
+      "ielts": "IELTS",
+      "toefl": "TOEFL",
+      "yds": "YDS",
+      "yokdil": "YÖKDİL",
+      "goethe": "Goethe",
+      "cae": "Cambridge",
+      "toeic": "TOEIC",
+      "pte": "PTE",
+      "yks": "YKS-DİL"
     }
   }
 }

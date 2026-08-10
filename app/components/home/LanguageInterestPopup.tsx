@@ -17,6 +17,14 @@ interface Dict {
   skip: string;
   closeLabel: string;
   languages: Record<string, string>;
+  tabLanguage?: string;
+  tabExam?: string;
+  examSectionLabel?: string;
+  examExpandMore?: string;
+  examExpandLess?: string;
+  examCta?: string;
+  examCtaPlaceholder?: string;
+  exams?: Record<string, string>;
 }
 
 interface Props {
@@ -27,51 +35,62 @@ interface Props {
 interface LangItem {
   key: string;
   label: string;
-  flagImg?: string;   // /flags/... webp yolu
-  flagEmoji?: string; // görsel yoksa fallback emoji
+  flagImg?: string;
+  flagEmoji?: string;
+  path: string;
+}
+
+interface ExamItem {
+  key: string;
+  label: string;
+  abbr: string;
+  color: string;
   path: string;
 }
 
 const FEATURED: LangItem[] = [
-  {
-    key: "ingilizce",
-    label: "İngilizce",
-    flagImg: "/flags/ingilizce.svg",
-    path: "ingilizce-kursu",
-  },
-  {
-    key: "almanca",
-    label: "Almanca",
-    flagImg: "/flags/almanca.webp",
-    path: "almanca-dil-kursu",
-  },
-  {
-    key: "arapca",
-    label: "Arapça",
-    flagImg: "/flags/arapça.svg",
-    path: "arapca-dil-kursu",
-  },
+  { key: "ingilizce", label: "İngilizce", flagImg: "/flags/ingilizce.svg", path: "ingilizce-kursu" },
+  { key: "almanca",   label: "Almanca",   flagImg: "/flags/almanca.webp",  path: "almanca-dil-kursu" },
+  { key: "arapca",    label: "Arapça",    flagImg: "/flags/arapça.svg",    path: "arapca-dil-kursu" },
 ];
 
 const ALL_LANGUAGES: LangItem[] = [
-  { key: "fransizca",          label: "Fransızca",        flagImg: "/flags/fransa.webp",     path: "fransizca-dil-kursu" },
-  { key: "ispanyolca",         label: "İspanyolca",        flagImg: "/flags/ispanya.webp",    path: "ispanyolca-dil-kursu" },
-  { key: "rusca",              label: "Rusça",             flagImg: "/flags/rusça.webp",      path: "rusca-dil-kursu" },
-  { key: "japonca",            label: "Japonca",           flagImg: "/flags/japan.webp",      path: "japonca-dil-kursu" },
-  { key: "korece",             label: "Korece",            flagImg: "/flags/kore.webp",       path: "korece-dil-kursu" },
-  { key: "italyanca",          label: "İtalyanca",         flagImg: "/flags/italyanca.webp",  path: "italyanca-dil-kursu" },
-  { key: "cince",              label: "Çince",             flagImg: "/flags/çince.webp",      path: "cince-dil-kursu" },
-  { key: "portekizce",         label: "Portekizce",        flagImg: "/flags/portekiz.webp",   path: "portekizce-dil-kursu" },
-  { key: "flemenkce",          label: "Flemenkçe",         flagImg: "/flags/flemenkçe.webp",  path: "flemenkce-dil-kursu" },
-  { key: "farsca",             label: "Farsça",            flagImg: "/flags/farsça.webp",     path: "farsca-dil-kursu" },
-  { key: "latince",            label: "Latince",           flagImg: "/flags/latince.webp",    path: "latince-dil-kursu" },
-  { key: "osmanlica",          label: "Osmanlıca",         flagImg: "/flags/osmanlıca.webp",  path: "osmanlica-dil-kursu" },
-  { key: "turkce",             label: "Türkçe",            flagImg: "/flags/türkçe.webp",     path: "turkce-dil-kursu" },
-  { key: "yabancilara-turkce", label: "Yab. Türkçe",      flagImg: "/flags/türkçe.webp",     path: "yabancilara-turkce" },
-  { key: "diger",              label: "Diğer Diller",      flagEmoji: "🌍",                   path: "diger-diller" },
+  { key: "fransizca",          label: "Fransızca",     flagImg: "/flags/fransa.webp",     path: "fransizca-dil-kursu" },
+  { key: "ispanyolca",         label: "İspanyolca",    flagImg: "/flags/ispanya.webp",    path: "ispanyolca-dil-kursu" },
+  { key: "rusca",              label: "Rusça",          flagImg: "/flags/rusça.webp",      path: "rusca-dil-kursu" },
+  { key: "japonca",            label: "Japonca",        flagImg: "/flags/japan.webp",      path: "japonca-dil-kursu" },
+  { key: "korece",             label: "Korece",         flagImg: "/flags/kore.webp",       path: "korece-dil-kursu" },
+  { key: "italyanca",          label: "İtalyanca",      flagImg: "/flags/italyanca.webp",  path: "italyanca-dil-kursu" },
+  { key: "cince",              label: "Çince",          flagImg: "/flags/çince.webp",      path: "cince-dil-kursu" },
+  { key: "portekizce",         label: "Portekizce",     flagImg: "/flags/portekiz.webp",   path: "portekizce-dil-kursu" },
+  { key: "flemenkce",          label: "Flemenkçe",      flagImg: "/flags/flemenkçe.webp",  path: "flemenkce-dil-kursu" },
+  { key: "farsca",             label: "Farsça",         flagImg: "/flags/farsça.webp",     path: "farsca-dil-kursu" },
+  { key: "latince",            label: "Latince",        flagImg: "/flags/latince.webp",    path: "latince-dil-kursu" },
+  { key: "osmanlica",          label: "Osmanlıca",      flagImg: "/flags/osmanlıca.webp",  path: "osmanlica-dil-kursu" },
+  { key: "turkce",             label: "Türkçe",         flagImg: "/flags/türkçe.webp",     path: "turkce-dil-kursu" },
+  { key: "yabancilara-turkce", label: "Yab. Türkçe",   flagImg: "/flags/türkçe.webp",     path: "yabancilara-turkce" },
+  { key: "diger",              label: "Diğer Diller",   flagEmoji: "🌍",                   path: "diger-diller" },
 ];
 
 const ALL = [...FEATURED, ...ALL_LANGUAGES];
+
+const FEATURED_EXAMS: ExamItem[] = [
+  { key: "ielts", label: "IELTS",  abbr: "IELTS", color: "#c8102e", path: "ielts-hazirlik-kursu" },
+  { key: "toefl", label: "TOEFL",  abbr: "TOEFL", color: "#0047ab", path: "toefl-hazirlik-kursu" },
+  { key: "yds",   label: "YDS",    abbr: "YDS",   color: "#6d28d9", path: "yds-hazirlik-kursu" },
+];
+
+const ALL_EXAMS: ExamItem[] = [
+  { key: "yokdil", label: "YÖKDİL",   abbr: "YÖKDİL", color: "#0369a1", path: "yokdil-hazirlik-kursu" },
+  { key: "goethe", label: "Goethe",   abbr: "Goethe",  color: "#1c1c1e", path: "almanca-goethe-sinavi-hazirlik-kursu" },
+  { key: "cae",    label: "Cambridge", abbr: "CAE",    color: "#1e3a5f", path: "cae-kursu" },
+  { key: "toeic",  label: "TOEIC",    abbr: "TOEIC",   color: "#0891b2", path: "toeic-hazirlik-kursu" },
+  { key: "pte",    label: "PTE",      abbr: "PTE",     color: "#0ea5e9", path: "pte-kursu" },
+  { key: "yks",    label: "YKS-DİL",  abbr: "YKS",    color: "#d97706", path: "yks-dil-ydt-hazirlik-kursu" },
+  { key: "diger",  label: "Diğer Sınavlar", abbr: "...",  color: "#475569", path: "akademik-sinavlar" },
+];
+
+const ALL_EXAMS_FLAT = [...FEATURED_EXAMS, ...ALL_EXAMS];
 
 function FlagImage({ item, size }: { item: LangItem; size: number }) {
   if (item.flagImg) {
@@ -93,10 +112,20 @@ function FlagImage({ item, size }: { item: LangItem; size: number }) {
   );
 }
 
+function ExamBadge({ item }: { item: ExamItem }) {
+  return (
+    <span className={styles.examBadge} style={{ background: item.color }}>
+      {item.abbr}
+    </span>
+  );
+}
+
 export const LanguageInterestPopup = ({ lang, dict }: Props) => {
-  const [visible, setVisible]   = useState(false);
-  const [selected, setSelected] = useState<string | null>(null);
-  const [expanded, setExpanded] = useState(false);
+  const [visible, setVisible]       = useState(false);
+  const [activeTab, setActiveTab]   = useState<"language" | "exam">("language");
+  const [selected, setSelected]     = useState<string | null>(null);
+  const [selectedExam, setSelectedExam] = useState<string | null>(null);
+  const [expanded, setExpanded]     = useState(false);
 
   useEffect(() => {
     if (sessionStorage.getItem("langPopupSeen")) return;
@@ -109,7 +138,15 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
     setVisible(false);
   };
 
-  const selectedLang = ALL.find((l) => l.key === selected);
+  const handleTabChange = (tab: "language" | "exam") => {
+    setActiveTab(tab);
+    setExpanded(false);
+    setSelected(null);
+    setSelectedExam(null);
+  };
+
+  const selectedLang     = ALL.find((l) => l.key === selected);
+  const selectedExamItem = ALL_EXAMS_FLAT.find((e) => e.key === selectedExam);
 
   if (!visible) return null;
 
@@ -126,55 +163,118 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
           <p className={styles.subtitle}>{dict.subtitle}</p>
         </div>
 
-        <p className={styles.sectionLabel}>{dict.sectionLabel}</p>
-        <div className={styles.featuredGrid}>
-          {FEATURED.map((item) => (
-            <button
-              key={item.key}
-              className={`${styles.featuredCard} ${selected === item.key ? styles.selectedCard : ""}`}
-              onClick={() => setSelected(item.key)}
-            >
-              <FlagImage item={item} size={40} />
-              <span className={styles.featuredLabel}>{dict.languages[item.key] ?? item.label}</span>
-              {selected === item.key && <span className={styles.checkMark}>✓</span>}
-            </button>
-          ))}
+        {/* Tab switcher */}
+        <div className={styles.tabs}>
+          <button
+            className={`${styles.tabPill} ${activeTab === "language" ? styles.tabPillActive : ""}`}
+            onClick={() => handleTabChange("language")}
+          >
+            {dict.tabLanguage ?? "Dil Kursu"}
+          </button>
+          <button
+            className={`${styles.tabPill} ${activeTab === "exam" ? styles.tabPillActive : ""}`}
+            onClick={() => handleTabChange("exam")}
+          >
+            {dict.tabExam ?? "Sınav Hazırlık"}
+          </button>
         </div>
 
-        {/* Tüm diller genişleyici */}
-        <button className={styles.expandBtn} onClick={() => setExpanded((v) => !v)}>
-          <ChevronDown size={15} className={expanded ? styles.chevronUp : ""} />
-          {expanded ? dict.expandLess : dict.expandMore}
-        </button>
+        {activeTab === "language" ? (
+          <>
+            <p className={styles.sectionLabel}>{dict.sectionLabel}</p>
+            <div className={styles.featuredGrid}>
+              {FEATURED.map((item) => (
+                <button
+                  key={item.key}
+                  className={`${styles.featuredCard} ${selected === item.key ? styles.selectedCard : ""}`}
+                  onClick={() => setSelected(item.key)}
+                >
+                  <FlagImage item={item} size={40} />
+                  <span className={styles.featuredLabel}>{dict.languages[item.key] ?? item.label}</span>
+                  {selected === item.key && <span className={styles.checkMark}>✓</span>}
+                </button>
+              ))}
+            </div>
 
-        {expanded && (
-          <div className={styles.allGrid}>
-            {ALL_LANGUAGES.map((item) => (
-              <button
-                key={item.key}
-                className={`${styles.langChip} ${selected === item.key ? styles.selectedChip : ""}`}
-                onClick={() => setSelected(item.key)}
-              >
-                <FlagImage item={item} size={24} />
-                <span className={styles.chipLabel}>{dict.languages[item.key] ?? item.label}</span>
-              </button>
-            ))}
-          </div>
+            <button className={styles.expandBtn} onClick={() => setExpanded((v) => !v)}>
+              <ChevronDown size={15} className={expanded ? styles.chevronUp : ""} />
+              {expanded ? dict.expandLess : dict.expandMore}
+            </button>
+
+            {expanded && (
+              <div className={styles.allGrid}>
+                {ALL_LANGUAGES.map((item) => (
+                  <button
+                    key={item.key}
+                    className={`${styles.langChip} ${selected === item.key ? styles.selectedChip : ""}`}
+                    onClick={() => setSelected(item.key)}
+                  >
+                    <FlagImage item={item} size={24} />
+                    <span className={styles.chipLabel}>{dict.languages[item.key] ?? item.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          <>
+            <p className={styles.sectionLabel}>{dict.examSectionLabel ?? "Popüler sınavlar"}</p>
+            <div className={styles.featuredGrid}>
+              {FEATURED_EXAMS.map((item) => (
+                <button
+                  key={item.key}
+                  className={`${styles.featuredCard} ${selectedExam === item.key ? styles.selectedCard : ""}`}
+                  onClick={() => setSelectedExam(item.key)}
+                >
+                  <ExamBadge item={item} />
+                  <span className={styles.featuredLabel}>{dict.exams?.[item.key] ?? item.label}</span>
+                  {selectedExam === item.key && <span className={styles.checkMark}>✓</span>}
+                </button>
+              ))}
+            </div>
+
+            <button className={styles.expandBtn} onClick={() => setExpanded((v) => !v)}>
+              <ChevronDown size={15} className={expanded ? styles.chevronUp : ""} />
+              {expanded ? (dict.examExpandLess ?? "Daha az göster") : (dict.examExpandMore ?? "Tüm sınavları gör")}
+            </button>
+
+            {expanded && (
+              <div className={styles.allGrid}>
+                {ALL_EXAMS.map((item) => (
+                  <button
+                    key={item.key}
+                    className={`${styles.langChip} ${selectedExam === item.key ? styles.selectedChip : ""}`}
+                    onClick={() => setSelectedExam(item.key)}
+                  >
+                    <ExamBadge item={item} />
+                    <span className={styles.chipLabel}>{dict.exams?.[item.key] ?? item.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </>
         )}
 
         <div className={styles.footer}>
-          {selectedLang ? (
-            <Link
-              href={`/${lang}/${selectedLang.path}`}
-              className={styles.ctaBtn}
-              onClick={handleClose}
-            >
-              {dict.cta}
+          {activeTab === "language" ? (
+            selectedLang ? (
+              <Link href={`/${lang}/${selectedLang.path}`} className={styles.ctaBtn} onClick={handleClose}>
+                {dict.cta}
+                <ArrowRight size={16} />
+              </Link>
+            ) : (
+              <button className={`${styles.ctaBtn} ${styles.ctaDisabled}`} disabled>
+                {dict.ctaPlaceholder}
+              </button>
+            )
+          ) : selectedExamItem ? (
+            <Link href={`/${lang}/${selectedExamItem.path}`} className={styles.ctaBtn} onClick={handleClose}>
+              {dict.examCta ?? "Sınava Hazırlan"}
               <ArrowRight size={16} />
             </Link>
           ) : (
             <button className={`${styles.ctaBtn} ${styles.ctaDisabled}`} disabled>
-              {dict.ctaPlaceholder}
+              {dict.examCtaPlaceholder ?? "Önce bir sınav seçin"}
             </button>
           )}
           <button className={styles.skipBtn} onClick={handleClose}>
@@ -182,11 +282,16 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
           </button>
         </div>
 
-        {/* SEO: gizli linkler — botlar tüm dil sayfalarını görür */}
+        {/* SEO: gizli linkler — botlar tüm dil ve sınav sayfalarını görür */}
         <nav aria-hidden="true" className={styles.seoLinks}>
           {ALL.map((item) => (
             <Link key={item.key} href={`/${lang}/${item.path}`} tabIndex={-1}>
               {item.label} Kursu
+            </Link>
+          ))}
+          {ALL_EXAMS_FLAT.map((item) => (
+            <Link key={`exam-${item.key}`} href={`/${lang}/${item.path}`} tabIndex={-1}>
+              {item.label} Hazırlık Kursu
             </Link>
           ))}
         </nav>
