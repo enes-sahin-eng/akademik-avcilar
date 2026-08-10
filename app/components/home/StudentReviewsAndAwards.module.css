@@ -90,23 +90,25 @@
 
 .marqueeTrack {
   display: flex;
-  gap: 24px;
   width: max-content;
-  animation: scroll 40s linear infinite;
 }
 
-.marqueeTrack:hover {
+.reviewsGroup {
+  display: flex;
+  flex-shrink: 0;
+  gap: 24px;
+  padding-right: 24px; /* Crucial for seamless loop */
+  align-items: center;
+  animation: scrollReviews 40s linear infinite;
+}
+
+.marqueeTrack:hover .reviewsGroup {
   animation-play-state: paused;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    /* Translates by half of its width to create seamless loop */
-    transform: translateX(-50%);
-  }
+@keyframes scrollReviews {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 
 .reviewCard {
@@ -337,113 +339,149 @@
   text-shadow: 0 2px 4px rgba(0,0,0,0.8);
 }
 
-/* AWARDS SECTION */
+/* AWARDS & CERTIFICATES */
 .awardsSection {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 60px;
-  background: var(--accent-red);
-  border: 1px solid var(--border-subtle);
-  border-radius: 30px;
-  padding: 40px;
-  backdrop-filter: blur(10px);
+  background: #172742;
+  border-radius: 24px;
+  padding: 72px 60px 64px;
+  margin-top: 140px; /* Increased to prevent overlap with review cards */
+  position: relative;
+  overflow: hidden;
 }
 
-:global([data-theme="dark"]) .awardsSection {
-  background: var(--accent-red);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+/* Subtle top-edge light line */
+.awardsSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.18), transparent);
+  pointer-events: none;
 }
 
-@media (min-width: 1024px) {
-  .awardsSection {
-    flex-direction: row;
-    padding: 60px;
-    gap: 60px;
-  }
+.awardsHeader {
+  text-align: center;
+  margin-bottom: 52px;
 }
 
 .awardsTitle {
-  font-size: 32px;
+  font-size: clamp(26px, 3.5vw, 44px);
   font-weight: 800;
-  max-width: 300px;
-  line-height: 1.3;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0;
 }
 
-
-
-@media (min-width: 1024px) {
-  .awardsTitle {
-    text-align: left;
-    margin-bottom: 0;
-    font-size: 40px;
-  }
-}
-
-/* AWARDS MARQUEE */
+/* Awards — yavaş marquee */
 .awardsMarqueeContainer {
-  flex-grow: 1;
   width: 100%;
   overflow: hidden;
-  position: relative;
-  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  margin-top: 60px; /* Push plaques down from the title */
+  margin-bottom: 56px;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
 
 .awardsTrack {
   display: flex;
-  gap: 60px;
   width: max-content;
-  align-items: center;
-  animation: scrollAwards 25s linear infinite;
 }
 
-.awardsTrack:hover {
+.awardGroup {
+  display: flex;
+  gap: 64px;
+  padding-right: 64px;
+  align-items: center;
+  animation: scrollAwards 32s linear infinite;
+}
+
+.awardsTrack:hover .awardGroup {
   animation-play-state: paused;
 }
 
 @keyframes scrollAwards {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 
 .awardItem {
-  position: relative;
-  transition: transform 0.3s ease, filter 0.3s ease;
-  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1)) grayscale(20%);
-}
-
-:global([data-theme="dark"]) .awardItem {
-  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.3)) grayscale(20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease;
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.4)) grayscale(20%);
 }
 
 .awardItem:hover {
-  transform: translateY(-10px) scale(1.05);
-  filter: drop-shadow(0 20px 25px rgba(0,0,0,0.15)) grayscale(0%);
-}
-
-:global([data-theme="dark"]) .awardItem:hover {
-  filter: drop-shadow(0 20px 25px rgba(255,255,255,0.1)) grayscale(0%);
+  transform: translateY(-10px) scale(1.06);
+  filter: drop-shadow(0 22px 36px rgba(0, 0, 0, 0.55)) grayscale(0%);
 }
 
 .awardImg {
-  height: 140px;
+  height: 160px;
   width: auto;
+  max-width: 160px; /* Prevent horizontal overlap for wide plaque images */
   object-fit: contain;
 }
 
-@media (min-width: 1024px) {
-  .awardImg {
-    height: 180px;
-  }
+/* Divider */
+.awardsDivider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin-bottom: 48px;
+}
+
+/* Certificates: 4-column static grid */
+.certificatesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.certificateItem {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.certificateItem:hover {
+  transform: translateY(-8px) scale(1.03);
+  filter: drop-shadow(0 15px 30px rgba(251, 191, 36, 0.25));
+}
+
+.certificateImg {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  .awardsSection { padding: 52px 32px 48px; border-radius: 16px; }
+  .awardGroup { gap: 40px; padding-right: 40px; }
+  .certificatesGrid { gap: 24px; }
+  .certificateImg { max-width: 150px; }
+}
+
+@media (max-width: 480px) {
+  .awardsSection { padding: 40px 20px 36px; border-radius: 12px; margin-top: 48px; }
+  .awardsHeader { margin-bottom: 32px; }
+  .awardImg { height: 120px; }
+  .certificatesGrid { gap: 16px; }
+  .certificateImg { max-width: 130px; }
 }
 
 .videoModalBackdrop {

@@ -974,6 +974,24 @@
         "id": 4,
         "image": "/rewards/reward4.webp"
       }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "image": "/sertifikalar/sertifika-1_165ac6d2cd090f.webp"
+      },
+      {
+        "id": 2,
+        "image": "/sertifikalar/sertifika-2_165ac6d0ddb4ad.webp"
+      },
+      {
+        "id": 3,
+        "image": "/sertifikalar/sertifika-3_165ac6d5372cb0.webp"
+      },
+      {
+        "id": 4,
+        "image": "/sertifikalar/sertifika-3_165ac6d8a1ea9d.webp"
+      }
     ]
   },
   "prepPage": {

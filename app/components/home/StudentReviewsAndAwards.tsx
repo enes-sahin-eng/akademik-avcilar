@@ -15,9 +15,9 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
 
   if (!dict) return null;
 
-  // Marquee'nin kesintisiz dönmesi için öğeleri iki kez basıyoruz
-  const marqueeReviews = [...dict.reviews, ...dict.reviews];
-  const marqueeAwards = [...dict.awards, ...dict.awards];
+  // Marquee'nin kesintisiz dönmesi için orijinal dizileri kullanıp CSS'te iki grup halinde render edeceğiz.
+  const awards = dict.awards || [];
+  const certificates = dict.certificates || [];
 
   return (
     <section className={styles.section}>
@@ -48,49 +48,79 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
         {/* REVIEWS CAROUSEL (MARQUEE) */}
         <div className={styles.marqueeContainer}>
           <div className={styles.marqueeTrack}>
-            {marqueeReviews.map((review: any, index: number) => (
-              <div key={`${review.id}-${index}`} className={styles.reviewCard}>
-                <Quote className={styles.quoteIcon} />
-                <div className={styles.stars}>
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Star key={star} size={18} fill="currentColor" />
-                  ))}
-                </div>
-                <p className={styles.reviewText}>&quot;{review.text}&quot;</p>
-                <div className={styles.authorInfo}>
-                  <div className={styles.avatar}>{review.author.charAt(0)}</div>
-                  <div className={styles.authorDetails}>
-                    <span className={styles.authorName}>{review.author}</span>
-                    <span className={styles.authorRole}>{review.role}</span>
+            {[0, 1].map((groupIndex) => (
+              <div key={`review-group-${groupIndex}`} className={styles.reviewsGroup}>
+                {dict.reviews.map((review: any, index: number) => (
+                  <div key={`review-${review.id}-${index}`} className={styles.reviewCard}>
+                    <Quote className={styles.quoteIcon} />
+                    <div className={styles.stars}>
+                      {[1, 2, 3, 4, 5].map((star) => (
+                        <Star key={star} size={18} fill="currentColor" />
+                      ))}
+                    </div>
+                    <p className={styles.reviewText}>&quot;{review.text}&quot;</p>
+                    <div className={styles.authorInfo}>
+                      <div className={styles.avatar}>{review.author.charAt(0)}</div>
+                      <div className={styles.authorDetails}>
+                        <span className={styles.authorName}>{review.author}</span>
+                        <span className={styles.authorRole}>{review.role}</span>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
             ))}
           </div>
         </div>
 
-        {/* AWARDS SECTION (MARQUEE) */}
+        {/* AWARDS & CERTIFICATES SECTION */}
         <div className={styles.awardsSection}>
-          <h2 className={styles.awardsTitle}>{dict.awardsTitle}</h2>
+          <div className={styles.awardsHeader}>
+            <h2 className={styles.awardsTitle}>{dict.awardsTitle}</h2>
+          </div>
+
+          {/* PLAQUES — yavaş marquee */}
           <div className={styles.awardsMarqueeContainer}>
             <div className={styles.awardsTrack}>
-              {marqueeAwards.map((award: any, index: number) => (
-                <div key={`${award.id}-${index}`} className={styles.awardItem}>
-                  <Image
-                    src={award.image}
-                    alt={
-                      dict.awardsAlt ||
-                      `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`
-                    }
-                    title="Avcılar Akademik International Başarı ve Kalite Ödülleri"
-                    width={180}
-                    height={180}
-                    className={styles.awardImg}
-                  />
+              {[0, 1, 2, 3, 4, 5, 6, 7].map((groupIndex) => (
+                <div key={`award-group-${groupIndex}`} className={styles.awardGroup}>
+                  {awards.map((award: any) => (
+                    <div key={`award-${award.id}-${groupIndex}`} className={styles.awardItem}>
+                      <Image
+                        src={award.image}
+                        alt={dict.awardsAlt || `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`}
+                        title="Avcılar Akademik International Başarı ve Kalite Ödülleri"
+                        width={200}
+                        height={200}
+                        className={styles.awardImg}
+                      />
+                    </div>
+                  ))}
                 </div>
               ))}
             </div>
           </div>
+
+          {/* CERTIFICATES — statik grid */}
+          {certificates.length > 0 && (
+            <>
+              <div className={styles.awardsDivider} />
+              <div className={styles.certificatesGrid}>
+                {certificates.map((cert: any) => (
+                  <div key={cert.id} className={styles.certificateItem}>
+                    <Image
+                      src={cert.image}
+                      alt={`Uluslararası Dil Sertifikası ${cert.id}`}
+                      title="Uluslararası Dil Sertifikaları"
+                      width={300}
+                      height={200}
+                      className={styles.certificateImg}
+                    />
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </section>

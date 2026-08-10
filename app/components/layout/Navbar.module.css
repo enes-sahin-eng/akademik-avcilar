@@ -549,6 +549,11 @@
   border: none;
   color: #ffffff;
   cursor: pointer;
+  flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobileMenu {
@@ -615,28 +620,74 @@
   color: #ffffff;
 }
 
+/* Kademe 1: Tablet/Dizüstü (1418px altına inildiğinde yazıları ufalt) */
 @media (max-width: 1418px) {
+  .container {
+    gap: 10px;
+  }
+  .navLinks {
+    gap: 2px;
+  }
+  .dropdownBtn, .link {
+    font-size: 11.5px;
+    padding: 6px 8px;
+    letter-spacing: normal;
+  }
+  .mainLogo {
+    height: 40px;
+  }
+  .ctaBtn {
+    font-size: 11.5px;
+    padding: 7px 12px;
+  }
+  .langBtn {
+    padding: 5px 10px;
+  }
+}
+
+/* Kademe 2: Küçük Tablet (1150px altı - daha da ufalt, sığması için) */
+@media (max-width: 1150px) {
+  .dropdownBtn, .link {
+    font-size: 10.5px;
+    padding: 5px 4px;
+    gap: 2px;
+  }
+  .mainLogo {
+    height: 35px;
+  }
+  .rightActions {
+    gap: 4px;
+  }
+  .ctaBtn {
+    font-size: 10.5px;
+    padding: 6px 10px;
+  }
+}
+
+/* Kademe 3: Telefon moduna yaklaşırken (1024px altı hamburger menüye geçiş) */
+@media (max-width: 1024px) {
   .navLinks {
     display: none;
   }
   .mobileBtn {
-    display: block;
+    display: flex;
   }
   .mobileCtaWrapper,
   .mobileLangList {
     display: none !important;
   }
-
-  /* Mobil/tablet akordiyon menüsündeki başlık butonları */
   .mobileMenu .dropdownContainer {
     width: 100%;
   }
   .mobileMenu .dropdownBtn {
     width: 100%;
     justify-content: space-between;
+    font-size: 13px;
+    padding: 10px 0;
   }
 }
 
+/* Kademe 4: Tam Telefon Modu (768px altı topBar kaybolduğu için sağ actionlar gizlenip mobil içerik açılır) */
 @media (max-width: 768px) {
   .rightActions {
     display: none;
