@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Saudi Arabia flag -->
+  <rect width="900" height="600" fill="#006C35"/>
+  <!-- Shahada text - Arabic calligraphy approximation -->
+  <text
+    x="450" y="240"
+    fill="white"
+    font-size="96"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Scheherazade New','Amiri','Traditional Arabic',serif"
+    font-weight="bold"
+    letter-spacing="2"
+  >لا إله إلا الله</text>
+  <text
+    x="450" y="340"
+    fill="white"
+    font-size="80"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Scheherazade New','Amiri','Traditional Arabic',serif"
+    font-weight="bold"
+  >محمد رسول الله</text>
+  <!-- Sword blade -->
+  <line x1="200" y1="420" x2="680" y2="420" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <!-- Sword tip -->
+  <polygon points="680,410 680,430 720,420" fill="white"/>
+  <!-- Sword hilt/guard -->
+  <rect x="188" y="405" width="28" height="30" rx="4" fill="white"/>
+  <rect x="172" y="400" width="16" height="42" rx="4" fill="white"/>
+</svg>

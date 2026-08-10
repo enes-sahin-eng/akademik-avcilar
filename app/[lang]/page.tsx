@@ -11,6 +11,8 @@ import { LeadFormModal } from "../components/ui/LeadFormModal";
 import PlacementTestBanner from "../components/course/PlacementTestBanner";
 import InstagramFeed from "../components/social/InstagramFeed";
 import CourseHighlightTabs from "../components/home/CourseHighlightTabs";
+import { LanguageInterestPopup } from "../components/home/LanguageInterestPopup";
+import { getDictionary } from "../dictionaries/getDictionary";
 
 interface PageProps {
   params: Promise<{
@@ -20,6 +22,8 @@ interface PageProps {
 
 export default async function Home({ params }: PageProps) {
   const { lang } = await params;
+  const dictionary = await getDictionary(lang);
+  const popupDict = (dictionary as any).languageInterestPopup;
 
   return (
     <div>
@@ -38,6 +42,7 @@ export default async function Home({ params }: PageProps) {
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
       <LeadFormModal lang={lang} />
+      <LanguageInterestPopup lang={lang} dict={popupDict} />
       <PlacementTestBanner lang={lang} />
     </div>
   );

@@ -16576,5 +16576,36 @@
       "title": "Our Branches Across Turkey",
       "content": "Akademik International Language Schools operates 12+ modern education campuses in Istanbul, Ankara, Izmir, Bursa, Kocaeli and Tekirdag. Find English, German, French, Spanish and more language courses at Istanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Görükle, İnegöl, Yıldırım, Ankara, İzmir, Kocaeli İzmit and Tekirdag Çorlu. IELTS, TOEFL, and YDS preparation available at all branches."
     }
+  },
+  "languageInterestPopup": {
+    "title": "Which language would you like to learn?",
+    "subtitle": "Discover the program tailored for you",
+    "sectionLabel": "Most popular",
+    "expandMore": "See all languages",
+    "expandLess": "Show less",
+    "cta": "Explore Program",
+    "ctaPlaceholder": "Select a language first",
+    "skip": "Not now",
+    "closeLabel": "Close",
+    "languages": {
+      "ingilizce": "English",
+      "almanca": "German",
+      "arapca": "Arabic",
+      "fransizca": "French",
+      "ispanyolca": "Spanish",
+      "rusca": "Russian",
+      "japonca": "Japanese",
+      "korece": "Korean",
+      "italyanca": "Italian",
+      "cince": "Chinese",
+      "portekizce": "Portuguese",
+      "flemenkce": "Dutch",
+      "farsca": "Persian",
+      "latince": "Latin",
+      "osmanlica": "Ottoman",
+      "turkce": "Turkish",
+      "yabancilara-turkce": "Turkish for Foreigners",
+      "diger": "Other Languages"
+    }
   }
 }

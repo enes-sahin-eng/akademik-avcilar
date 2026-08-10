@@ -16658,5 +16658,36 @@
       "title": "Türkiye Geneli Şubelerimiz",
       "content": "Akademik International Yabancı Dil Okulları olarak İstanbul, Ankara, İzmir, Bursa, Kocaeli ve Tekirdağ dahil 6 büyükşehirde 12'den fazla modern eğitim kampüsümüzde hizmet veriyoruz. İstanbul Avcılar ingilizce kursu, Kadıköy ingilizce kursu, Çekmeköy dil kursu, Bursa Nilüfer ingilizce kursu, Bursa Görükle dil kursu, Bursa İnegöl ingilizce kursu, Bursa Yıldırım dil kursu, Ankara ingilizce kursu, İzmir ingilizce kursu, Kocaeli İzmit dil kursu ve Tekirdağ Çorlu ingilizce kursu için doğru adrestesiniz. Tüm şubelerimizde IELTS, TOEFL, YDS hazırlık kursları, genel ingilizce, almanca, fransızca ve daha pek çok dilde eğitim verilmektedir."
     }
+  },
+  "languageInterestPopup": {
+    "title": "Hangi dili öğrenmek istiyorsunuz?",
+    "subtitle": "Size özel programı hemen keşfedin",
+    "sectionLabel": "En çok tercih edilenler",
+    "expandMore": "Tüm dilleri gör",
+    "expandLess": "Daha az göster",
+    "cta": "Programı İncele",
+    "ctaPlaceholder": "Önce bir dil seçin",
+    "skip": "Şimdilik değil",
+    "closeLabel": "Kapat",
+    "languages": {
+      "ingilizce": "İngilizce",
+      "almanca": "Almanca",
+      "arapca": "Arapça",
+      "fransizca": "Fransızca",
+      "ispanyolca": "İspanyolca",
+      "rusca": "Rusça",
+      "japonca": "Japonca",
+      "korece": "Korece",
+      "italyanca": "İtalyanca",
+      "cince": "Çince",
+      "portekizce": "Portekizce",
+      "flemenkce": "Flemenkçe",
+      "farsca": "Farsça",
+      "latince": "Latince",
+      "osmanlica": "Osmanlıca",
+      "turkce": "Türkçe",
+      "yabancilara-turkce": "Yab. Türkçe",
+      "diger": "Diğer Diller"
+    }
   }
 }
