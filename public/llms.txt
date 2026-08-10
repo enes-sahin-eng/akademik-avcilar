@@ -108,4 +108,4 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Felemenkçe Dil Kursu](https://avcilarakademik.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
 
 ---
-*Son Güncelleme: 6 Ağustos 2026*
+*Son Güncelleme: 10 Ağustos 2026*

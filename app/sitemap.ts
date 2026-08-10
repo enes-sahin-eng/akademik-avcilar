@@ -115,7 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: "2026-08-07",
+        lastModified: "2026-08-10",
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,

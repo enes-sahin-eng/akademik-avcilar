@@ -108,6 +108,17 @@ Akademik International Yabancı Dil Okulları (genel merkez: Avcılar) için ço
 - Kurumsal Anlaşmalar (`/kurumsal-anlasmalar`)
 - Kariyer Fırsatları (`/kariyer-firsatlari`)
 
+## Skeleton Loading Sistemi
+
+`app/components/ui/Skeleton.tsx` — shimmer primitifleri (`Sk`, `Sk.Title`, `Sk.Line`, `Sk.Circle`, `Sk.Btn`, `Sk.Badge`).  
+`app/components/ui/Skeleton.module.css` — 1.8s ease-in-out shimmer, light + dark mode.
+
+- `app/[lang]/loading.tsx` → Anasayfa skeleton (navbar + hero + quicknav + kampüs kartları + yorumlar + tab bölümü)
+- `app/[lang]/(diller)/loading.tsx` → Tüm dil kursu sayfaları skeleton
+- `app/[lang]/(sinavlar)/loading.tsx` → Tüm sınav sayfaları skeleton
+
+`(diller)` ve `(sinavlar)` route gruplarının `loading.tsx` okuyabilmesi için her ikisinde de minimal `layout.tsx` (children passthrough) eklenmiştir.
+
 ## Teknoloji Yığını & Ortam
 
 - **Çalışma Ortamı:** Node.js >= 18.x
