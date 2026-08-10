@@ -137,15 +137,12 @@
   position: relative;
   width: 52%;
   flex-shrink: 0;
-  padding: 56px 80px 44px max(32px, calc(50vw - 750px)); /* Shifted left and increased right padding to avoid curve */
+  padding: 56px 80px 44px max(32px, calc(50vw - 750px));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  
-  /* Yeni Dalga / Kavis Şekli */
-  border-top-right-radius: 500px;
-  border-bottom-right-radius: 500px;
+  /* Şekil per-tema override eder */
 }
 
 /* Dekoratif SVG şekil — yavaş yüzer */
@@ -457,34 +454,52 @@
   background: rgba(255, 255, 255, 0.28);
 }
 
-/* ── Tema renkleri ───────────────────────────────────────────────── */
-.themeNavy .leftCard       { background: linear-gradient(150deg, #0b2239 0%, #1a4a80 100%); }
+/* ── Tema renkleri + şekiller ────────────────────────────────────── */
+
+/* NAVY — İngilizce: Pill (her iki sağ köşe yuvarlak) */
+.themeNavy .leftCard {
+  background: linear-gradient(150deg, #0b2239 0%, #1a4a80 100%);
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
 .themeNavy .tabLabelActive { color: #0b2239; }
 .themeNavy .featureIcon    { background: #123a63; }
 .themeNavy .ctaBtn         { background: #123a63; box-shadow: var(--shadow-navy); }
 .themeNavy .ctaBtn:hover   { background: #1b4a7a; }
-.themeNavy .rightStripe    { background: linear-gradient(180deg, #123a63, #1b4a7a); }
 
-.themeRed .leftCard        { background: linear-gradient(150deg, #6b0f14 0%, #e11b22 100%); }
+/* RED — Almanca: Yarım kemer (sadece üst-sağ yuvarlak, alt köşe keskin) */
+.themeRed .leftCard {
+  background: linear-gradient(150deg, #6b0f14 0%, #e11b22 100%);
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .themeRed .tabLabelActive  { color: #6b0f14; }
 .themeRed .featureIcon     { background: #e11b22; }
 .themeRed .ctaBtn          { background: #e11b22; box-shadow: var(--shadow-red); }
 .themeRed .ctaBtn:hover    { background: #b71219; }
-.themeRed .rightStripe     { background: linear-gradient(180deg, #e11b22, #b71219); }
 
-.themeGreen .leftCard      { background: linear-gradient(150deg, #04372a 0%, #15803d 100%); }
+/* GREEN — Fransızca: Ok/chevron (sağa işaret eden ok şekli) */
+.themeGreen .leftCard {
+  background: linear-gradient(150deg, #04372a 0%, #15803d 100%);
+  border-radius: 0;
+  clip-path: polygon(0 0, 83% 0, 100% 50%, 83% 100%, 0 100%);
+}
 .themeGreen .tabLabelActive{ color: #04372a; }
 .themeGreen .featureIcon   { background: #15803d; }
 .themeGreen .ctaBtn        { background: #15803d; box-shadow: 0 8px 20px -8px rgba(21,128,61,0.55); }
 .themeGreen .ctaBtn:hover  { background: #0d5c2b; }
-.themeGreen .rightStripe   { background: linear-gradient(180deg, #15803d, #0d5c2b); }
 
-.themeOrange .leftCard     { background: linear-gradient(150deg, #7c2d12 0%, #f26522 100%); }
+/* ORANGE — İspanyolca: Diyagonal eğim (paralel kenar / parallelogram) */
+.themeOrange .leftCard {
+  background: linear-gradient(150deg, #7c2d12 0%, #f26522 100%);
+  border-radius: 0;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+}
 .themeOrange .tabLabelActive { color: #7c2d12; }
 .themeOrange .featureIcon  { background: #f26522; }
 .themeOrange .ctaBtn       { background: #f26522; box-shadow: var(--shadow-orange); }
 .themeOrange .ctaBtn:hover { background: #c2410c; }
-.themeOrange .rightStripe  { background: linear-gradient(180deg, #f26522, #c2410c); }
 
 /* ── Tablet / Mobil ──────────────────────────────────────────────── */
 @media (max-width: 900px) {

@@ -9,9 +9,9 @@
 }
 
 .topBar {
-  background: #ffffff;
+  background: var(--bg-surface);
   color: var(--text-primary);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid var(--border-subtle);
   font-size: 12.5px;
   padding: 8px 24px;
   display: flex;
@@ -293,7 +293,7 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: var(--text-inverse);
+  color: #ffffff;
   font-weight: 800;
   font-size: 18px;
   flex: 1;
@@ -329,7 +329,7 @@
 .link {
   background: none;
   border: none;
-  color: var(--text-inverse);
+  color: #ffffff;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 13px;
@@ -466,7 +466,7 @@
 .langBtn {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: var(--text-inverse);
+  color: #ffffff;
   font-family: var(--font-display);
   font-size: 12.5px;
   font-weight: 600;

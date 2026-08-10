@@ -15916,12 +15916,12 @@
   "courseHighlightSection": {
     "tabs": [
       {
-        "label": "Genel İngilizce",
+        "label": "İngilizce",
         "color": "navy",
-        "leftTitle": "Genel İngilizce",
-        "leftDesc": "A1'den C2'ye kadar CEFR temelli kurlarla ilerleyen; Prep, Prep Plus, Express, Academic ve Academic Plus modüllerinden oluşan ana programımız.",
-        "rightTitle": "Konuşma Garantili Dil Eğitimi",
-        "rightDesc": "Başlangıç seviyesinde dilin yapı taşlarını sağlam bir zemine kuruyor, orta seviyede karmaşık cümle yapılarına hakimiyet ve akıcılık kazandırıyor, ileri seviyede soyut kavramları tartışabilen üst düzey bir dil kullanımına ulaştırıyoruz.",
+        "leftTitle": "İngilizce Kursları",
+        "leftDesc": "A1'den C2'ye, her seviye ve hedefe uygun İngilizce programlarıyla akıcılığa giden en sağlam yol.",
+        "rightTitle": "Konuşma Garantili İngilizce Eğitimi",
+        "rightDesc": "Prep'ten Academic Plus'a, IELTS hazırlığından Hazırlık Atlama'ya; her İngilizce ihtiyacınız için kurgulanan sonuç odaklı programlar. 7-10 kişilik butik sınıflarda, Native Speaker eğitmenleriyle.",
         "features": [
           {
             "text": "Speaking Club (Konuşma Kulübü)",
@@ -15941,91 +15941,91 @@
           }
         ],
         "ctaHref": "/ingilizce-kursu",
-        "ctaText": "Sayfayı Gör"
+        "ctaText": "İngilizce Kurslarını Gör"
       },
       {
-        "label": "Sınav Hazırlık",
+        "label": "Almanca",
         "color": "red",
-        "leftTitle": "Akademik Sınav Kursları",
-        "leftDesc": "IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YKS-DİL ve iTEP sınavlarına yönelik, deneyimli kadromuzla yürütülen sonuç odaklı hazırlık programları.",
-        "rightTitle": "Hedef Skoruna Sınav Stratejisiyle",
-        "rightDesc": "Sınav hazırlık gruplarımızda klasik ezber yöntemleri yerine sınav stratejisine dayalı bir süreç yürütüyoruz. Dört beceriyi eş zamanlı geliştiren yayın setlerimiz ve düzenli deneme değerlendirmeleriyle skor gelişimi haftalık olarak takip edilir.",
+        "leftTitle": "Almanca Kursları",
+        "leftDesc": "Almanya vizesi, iş hayatı veya seyahat için A1'den C1'e uzanan kapsamlı Almanca programları.",
+        "rightTitle": "Goethe Sertifikasına Hazır Almanca",
+        "rightDesc": "Almanya vize sınavından Goethe Zertifikat'a kadar her hedefe uygun Almanca kursu. Ana dil aksanına sahip eğitmenler, Goethe formatına özel materyaller.",
         "features": [
           {
-            "text": "IELTS · TOEFL · TOEIC",
-            "icon": "book"
-          },
-          {
-            "text": "YDS · YÖKDİL · YKS-DİL",
+            "text": "Goethe Zertifikat Hazırlık",
             "icon": "graduation"
           },
           {
-            "text": "Deneme ve Skor Analizi",
+            "text": "Almanya Vizesi (A1) Programı",
+            "icon": "globe"
+          },
+          {
+            "text": "ÖSD & TestDaF Hazırlık",
+            "icon": "book"
+          },
+          {
+            "text": "VIP 4-6 Kişilik Sınıflar",
+            "icon": "users"
+          }
+        ],
+        "ctaHref": "/almanca-kursu",
+        "ctaText": "Almanca Kurslarını Gör"
+      },
+      {
+        "label": "Fransızca",
+        "color": "green",
+        "leftTitle": "Fransızca Kursları",
+        "leftDesc": "Günlük iletişimden iş Fransızcasına, DELF/DALF sınav hazırlığına kadar eksiksiz program.",
+        "rightTitle": "DELF / DALF Sertifikasına Giden Yol",
+        "rightDesc": "A1 başlangıç seviyesinden C1 ileri seviyeye, DELF & DALF sertifika hazırlığına özel programlarla Fransızca öğrenin. Konuşma odaklı sınıflar, ana dil aksanlı eğitmenler.",
+        "features": [
+          {
+            "text": "DELF & DALF Sertifika Hazırlık",
+            "icon": "graduation"
+          },
+          {
+            "text": "İş Fransızcası Programı",
             "icon": "chart"
           },
           {
-            "text": "Birebir Özel Ders İmkânı",
-            "icon": "user"
-          }
-        ],
-        "ctaHref": "/akademik-ingilizce-kursu",
-        "ctaText": "Sayfayı Gör"
-      },
-      {
-        "label": "Hazırlık Atlama",
-        "color": "green",
-        "leftTitle": "Hazırlık Atlama (Proficiency)",
-        "leftDesc": "Üniversite hazırlık sınıfını atlamak isteyen öğrenciler için, kendi üniversitenizin sınav formatına göre kurgulanan yoğunlaştırılmış Proficiency programı.",
-        "rightTitle": "Bir Yıl Kazandıran Program",
-        "rightDesc": "Dili parçalara ayırmadan sınav stratejisiyle öğreten modelimiz; okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştirir. Üniversite sınav programına özel hazırlanan yayın setlerimizle hedeflediğiniz skora en sağlam adımlarla ulaşırsınız.",
-        "features": [
-          {
-            "text": "Üniversiteye Özel Format",
-            "icon": "school"
+            "text": "Konuşma Odaklı Sınıflar",
+            "icon": "mic"
           },
           {
-            "text": "Akademik İngilizce",
-            "icon": "book"
-          },
-          {
-            "text": "Writing ve Essay Atölyesi",
-            "icon": "pen"
-          },
-          {
-            "text": "Dinleme ve Not Alma Teknikleri",
-            "icon": "headphones"
-          }
-        ],
-        "ctaHref": "/ingilizce-hazirlik-atlama",
-        "ctaText": "Sayfayı Gör"
-      },
-      {
-        "label": "Kids & Teens",
-        "color": "orange",
-        "leftTitle": "Kids & Teens Programları",
-        "leftDesc": "4-14 yaş arası çocuklar için oyunlaştırma tabanlı Kids & Junior programlar ve lise öğrencileri için konuşma odaklı Teens sınıfları.",
-        "rightTitle": "Dili Sevdiren Doğal Edinim",
-        "rightDesc": "Çocuk gruplarımızda yaşayarak öğrenme metodolojisi kullanıyoruz; çocuk pedagojisine uygun, oyunlaştırma tabanlı süreçlerle dil ezberlenmiyor, ediniliyor. Ortaokul ve lise gruplarında ise okul müfredatını destekleyen konuşma odaklı bir program yürütülüyor.",
-        "features": [
-          {
-            "text": "4-14 Yaş Kids & Junior",
+            "text": "A1'den C1'e Tüm Seviyeler",
             "icon": "star"
-          },
+          }
+        ],
+        "ctaHref": "/fransizca-kursu",
+        "ctaText": "Fransızca Kurslarını Gör"
+      },
+      {
+        "label": "İspanyolca",
+        "color": "orange",
+        "leftTitle": "İspanyolca Kursları",
+        "leftDesc": "Hızla yükselen İspanyolca talebiyle başlayın; seyahat, kariyer veya DELE sertifikası için.",
+        "rightTitle": "DELE Sertifikasına Hazır İspanyolca",
+        "rightDesc": "Dünyanın 2. en çok konuşulan dilini, eğlenceli ve akıcı bir metodoloji ile öğrenin. A1'den B2'ye DELE sınav hazırlığı, konuşma odaklı butik sınıflar.",
+        "features": [
           {
-            "text": "Oyun Temelli Öğrenme",
-            "icon": "play"
-          },
-          {
-            "text": "Lise İngilizce (Teens)",
+            "text": "DELE Sertifika Hazırlık",
             "icon": "graduation"
           },
           {
-            "text": "Yaş Grubuna Özel Yayınlar",
+            "text": "Seyahat İspanyolcası",
+            "icon": "globe"
+          },
+          {
+            "text": "Speaking Club (Konuşma Kulübü)",
+            "icon": "mic"
+          },
+          {
+            "text": "A1'den B2'ye Tüm Seviyeler",
             "icon": "book"
           }
         ],
-        "ctaHref": "/ilkogretim-ingilizce-kursu",
-        "ctaText": "Sayfayı Gör"
+        "ctaHref": "/ispanyolca-kursu",
+        "ctaText": "İspanyolca Kurslarını Gör"
       }
     ]
   },
@@ -16633,10 +16633,22 @@
       "title": "Size En Yakın Şubemizde Dil Öğrenin",
       "desc": "İstanbul'dan İzmir'e, Ankara'dan Bursa'ya Türkiye genelinde 12+ modern kampüsümüzle kaliteli yabancı dil eğitimini kapınıza getiriyoruz.",
       "stats": [
-        { "value": "12+", "label": "Şube" },
-        { "value": "6", "label": "Büyükşehir" },
-        { "value": "30+", "label": "Yıllık Deneyim" },
-        { "value": "75K+", "label": "Mezun Öğrenci" }
+        {
+          "value": "12+",
+          "label": "Şube"
+        },
+        {
+          "value": "6",
+          "label": "Büyükşehir"
+        },
+        {
+          "value": "30+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "75K+",
+          "label": "Mezun Öğrenci"
+        }
       ]
     },
     "istanbul": {

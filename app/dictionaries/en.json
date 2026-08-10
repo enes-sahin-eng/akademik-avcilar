@@ -15834,116 +15834,116 @@
   "courseHighlightSection": {
     "tabs": [
       {
-        "label": "General English",
+        "label": "English",
         "color": "navy",
-        "leftTitle": "General English",
-        "leftDesc": "Our flagship program progressing from A1 to C2 with CEFR-based modules: Prep, Prep Plus, Express, Academic, and Academic Plus.",
-        "rightTitle": "Speaking-Guaranteed Language Education",
-        "rightDesc": "We build strong foundations at beginner level, develop complex sentence mastery and fluency at intermediate level, and bring learners to advanced proficiency for discussing abstract topics.",
+        "leftTitle": "English Courses",
+        "leftDesc": "From A1 to C2, the most solid path to fluency with programs tailored to every level and goal.",
+        "rightTitle": "Speaking-Guaranteed English Training",
+        "rightDesc": "From Prep to Academic Plus, IELTS prep to Proficiency Bypass — result-driven programs designed for every English need. Boutique classes of 7-10 students with Native Speaker instructors.",
         "features": [
           {
             "text": "Speaking Club",
             "icon": "mic"
           },
           {
-            "text": "Native Speaker Classes",
+            "text": "Native Speaker Lessons",
             "icon": "globe"
           },
           {
-            "text": "Max. 10-12 Students per Class",
+            "text": "Max 10-12 Students per Class",
             "icon": "users"
           },
           {
-            "text": "Free Make-up Lessons",
+            "text": "Free Make-Up Lesson",
             "icon": "clock"
           }
         ],
         "ctaHref": "/ingilizce-kursu",
-        "ctaText": "View Page"
+        "ctaText": "See English Courses"
       },
       {
-        "label": "Exam Prep",
+        "label": "German",
         "color": "red",
-        "leftTitle": "Academic Exam Courses",
-        "leftDesc": "Results-driven preparation for IELTS, TOEFL, TOEIC, YDS, YÖKDİL, YKS-DİL and iTEP exams, conducted by our experienced instructors.",
-        "rightTitle": "Reach Your Target Score with Exam Strategy",
-        "rightDesc": "Our exam prep groups use strategy-based learning instead of rote memorization. Weekly progress tracking with 4-skill publication sets and regular mock exam evaluations.",
+        "leftTitle": "German Courses",
+        "leftDesc": "Comprehensive German programs from A1 to C1 for visa applications, career, or travel.",
+        "rightTitle": "German Ready for Goethe Certificate",
+        "rightDesc": "From German visa exams to Goethe Zertifikat, courses for every goal. Native-accent instructors, Goethe-format materials.",
         "features": [
           {
-            "text": "IELTS · TOEFL · TOEIC",
-            "icon": "book"
-          },
-          {
-            "text": "YDS · YÖKDİL · YKS-DİL",
+            "text": "Goethe Zertifikat Prep",
             "icon": "graduation"
           },
           {
-            "text": "Mock Tests & Score Analysis",
+            "text": "Germany Visa (A1) Program",
+            "icon": "globe"
+          },
+          {
+            "text": "ÖSD & TestDaF Preparation",
+            "icon": "book"
+          },
+          {
+            "text": "VIP Classes of 4-6 Students",
+            "icon": "users"
+          }
+        ],
+        "ctaHref": "/almanca-kursu",
+        "ctaText": "See German Courses"
+      },
+      {
+        "label": "French",
+        "color": "green",
+        "leftTitle": "French Courses",
+        "leftDesc": "Complete programs from everyday communication to business French and DELF/DALF exam prep.",
+        "rightTitle": "The Road to DELF / DALF Certificate",
+        "rightDesc": "Learn French from A1 beginner to C1 advanced with programs designed for DELF & DALF certification. Speaking-focused classes with native-accent instructors.",
+        "features": [
+          {
+            "text": "DELF & DALF Certificate Prep",
+            "icon": "graduation"
+          },
+          {
+            "text": "Business French Program",
             "icon": "chart"
           },
           {
-            "text": "One-on-One Tutoring",
-            "icon": "user"
-          }
-        ],
-        "ctaHref": "/akademik-ingilizce-kursu",
-        "ctaText": "View Page"
-      },
-      {
-        "label": "Proficiency",
-        "color": "green",
-        "leftTitle": "Proficiency / Skip Prep Year",
-        "leftDesc": "An intensive Proficiency program tailored to your university's exam format, designed for students who want to skip the preparatory year.",
-        "rightTitle": "A Program That Saves You a Year",
-        "rightDesc": "Our model teaches language through exam strategy without compartmentalizing skills — reading, writing, listening, and speaking are developed simultaneously with university-specific publication sets.",
-        "features": [
-          {
-            "text": "University-Specific Format",
-            "icon": "school"
+            "text": "Speaking-Focused Classes",
+            "icon": "mic"
           },
           {
-            "text": "Academic English",
-            "icon": "book"
-          },
-          {
-            "text": "Writing & Essay Workshop",
-            "icon": "pen"
-          },
-          {
-            "text": "Listening & Note-Taking Skills",
-            "icon": "headphones"
-          }
-        ],
-        "ctaHref": "/ingilizce-hazirlik-atlama",
-        "ctaText": "View Page"
-      },
-      {
-        "label": "Kids & Teens",
-        "color": "orange",
-        "leftTitle": "Kids & Teens Programs",
-        "leftDesc": "Game-based Kids & Junior programs for ages 4-14 and speaking-focused Teens classes for high school students.",
-        "rightTitle": "Natural Language Acquisition Through Engagement",
-        "rightDesc": "We use experiential learning methodology in children's groups — language is acquired, not memorized, through gamified, child-pedagogy-aligned processes. High school groups follow a speaking-focused curriculum that supports the school syllabus.",
-        "features": [
-          {
-            "text": "4-14 Age Kids & Junior",
+            "text": "All Levels A1 to C1",
             "icon": "star"
-          },
+          }
+        ],
+        "ctaHref": "/fransizca-kursu",
+        "ctaText": "See French Courses"
+      },
+      {
+        "label": "Spanish",
+        "color": "orange",
+        "leftTitle": "Spanish Courses",
+        "leftDesc": "Start with the fastest-rising language demand; for travel, career, or DELE certification.",
+        "rightTitle": "Spanish Ready for DELE Certificate",
+        "rightDesc": "Learn the world's 2nd most spoken language with an engaging methodology. DELE exam prep from A1 to B2, speaking-focused boutique classes.",
+        "features": [
           {
-            "text": "Game-Based Learning",
-            "icon": "play"
-          },
-          {
-            "text": "High School English (Teens)",
+            "text": "DELE Certificate Preparation",
             "icon": "graduation"
           },
           {
-            "text": "Age-Specific Publications",
+            "text": "Travel Spanish Program",
+            "icon": "globe"
+          },
+          {
+            "text": "Speaking Club",
+            "icon": "mic"
+          },
+          {
+            "text": "All Levels A1 to B2",
             "icon": "book"
           }
         ],
-        "ctaHref": "/ilkogretim-ingilizce-kursu",
-        "ctaText": "View Page"
+        "ctaHref": "/ispanyolca-kursu",
+        "ctaText": "See Spanish Courses"
       }
     ]
   },
@@ -16551,10 +16551,22 @@
       "title": "Learn a Language at Your Nearest Branch",
       "desc": "With 12+ modern campuses from Istanbul to Izmir, Ankara to Bursa, we bring quality language education right to you.",
       "stats": [
-        { "value": "12+", "label": "Branches" },
-        { "value": "6", "label": "Major Cities" },
-        { "value": "30+", "label": "Years of Experience" },
-        { "value": "75K+", "label": "Graduates" }
+        {
+          "value": "12+",
+          "label": "Branches"
+        },
+        {
+          "value": "6",
+          "label": "Major Cities"
+        },
+        {
+          "value": "30+",
+          "label": "Years of Experience"
+        },
+        {
+          "value": "75K+",
+          "label": "Graduates"
+        }
       ]
     },
     "istanbul": {
