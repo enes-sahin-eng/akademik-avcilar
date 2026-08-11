@@ -237,39 +237,48 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
   }, [open]);
 
   const renderRobotCanvas = (scale = 1.4, isMobilePanel = false, noFall = false) => (
-    <Canvas shadows camera={{ position: [0, 0.2, 6], fov: 40 }} dpr={[1, 1.5]}>
+    <Canvas
+      shadows={!isMobilePanel}
+      camera={{ position: [0, 0.2, 6], fov: 40 }}
+      dpr={isMobilePanel ? 1 : [1, 1.5]}
+      performance={{ min: 0.5 }}
+    >
       <Suspense fallback={null}>
-        <ambientLight intensity={0.75} color="#ffffff" />
+        <ambientLight intensity={isMobilePanel ? 1.1 : 0.75} color="#ffffff" />
         <directionalLight
           position={[0, 6, 3]}
           intensity={0.4}
           color="#00ffe2"
-          castShadow
+          castShadow={!isMobilePanel}
           shadow-mapSize={[512, 512]}
           shadow-bias={-0.0005}
         >
-          <orthographicCamera
-            attach="shadow-camera"
-            args={[-1.5, 1.5, 1.5, -1.5, 0.1, 20]}
-          />
+          {!isMobilePanel && (
+            <orthographicCamera
+              attach="shadow-camera"
+              args={[-1.5, 1.5, 1.5, -1.5, 0.1, 20]}
+            />
+          )}
         </directionalLight>
         <directionalLight
           position={[-5, 2, -5]}
           intensity={0.2}
           color="#dbdbdb"
         />
-        <Environment preset="studio" blur={0.5} />
+        <Environment preset="studio" blur={0.5} resolution={isMobilePanel ? 32 : 256} />
         <ResponsiveGroup scale={isMobilePanel ? 1.5 : scale}>
           <group position={[0, isMobilePanel ? -0.2 : -0.65, 0]}>
-            <ContactShadows
-              position={[0, -0.79, 0]}
-              opacity={0.7}
-              scale={12}
-              resolution={512}
-              blur={2}
-              far={2.5}
-              color="#000000"
-            />
+            {!isMobilePanel && (
+              <ContactShadows
+                position={[0, -0.79, 0]}
+                opacity={0.7}
+                scale={12}
+                resolution={512}
+                blur={2}
+                far={2.5}
+                color="#000000"
+              />
+            )}
             <RobotPrototype
               neckParams={{
                 baseR: 0.215,
