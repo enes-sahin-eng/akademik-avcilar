@@ -3,7 +3,7 @@
 import { useRef, useState, useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, ContactShadows, Html } from "@react-three/drei";
-import { RobotPrototype, ResponsiveGroup } from "./RobotHero";
+import { RobotPrototype } from "./RobotHero";
 import styles from "./FloatingRobot.module.css";
 
 const PHONE = "905323609256";
@@ -267,8 +267,8 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
           color="#dbdbdb"
         />
         <Environment preset="studio" blur={0.5} resolution={isMobilePanel ? 32 : 256} />
-        <ResponsiveGroup scale={isMobilePanel ? 1.5 : scale}>
-          <group position={[0, isMobilePanel ? -0.2 : -0.65, 0]}>
+        <group scale={isMobilePanel ? 1.5 : scale}>
+          <group position={[0, isMobilePanel ? -0.2 : -0.45, 0]}>
             {!isMobilePanel && (
               <ContactShadows
                 position={[0, -0.79, 0]}
@@ -323,7 +323,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               )}
             </RobotPrototype>
           </group>
-        </ResponsiveGroup>
+        </group>
       </Suspense>
     </Canvas>
   );
@@ -363,7 +363,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
             zIndex: 1,
           }}
         >
-          {renderRobotCanvas(1.7, false, true)}
+          {renderRobotCanvas(1.5, false, true)}
         </div>
       )}
 

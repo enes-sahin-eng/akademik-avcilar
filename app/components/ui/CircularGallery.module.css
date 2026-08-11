@@ -13,10 +13,12 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
+  will-change: transform;
 }
 
 .itemWrapper {
   position: absolute;
+  will-change: transform, opacity;
 }
 
 .card {
@@ -40,6 +42,14 @@
 .card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-2xl);
+}
+
+@media (max-width: 768px) {
+  .card {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    transition: none;
+  }
 }
 
 .image {
