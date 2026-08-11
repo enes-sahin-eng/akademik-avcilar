@@ -378,6 +378,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 style={{ width: 'auto' }}
                 className={styles.mainLogo}
                 priority
+                sizes="(max-width: 768px) 140px, 200px"
               />
             </Link>
 

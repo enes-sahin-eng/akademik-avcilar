@@ -6,6 +6,7 @@ import styles from './CircularGallery.module.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export interface GalleryItem {
   common: string;
@@ -230,12 +231,14 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   }}
                 >
                   <div className={styles.card}>
-                    <img
+                    <Image
                       src={item.photo.url}
                       alt={item.photo.text}
+                      fill
                       className={styles.image}
-                      style={{ objectPosition: item.photo.pos || 'center' }}
+                      style={{ objectFit: 'cover', objectPosition: item.photo.pos || 'center' }}
                       draggable={false}
+                      sizes="(max-width: 480px) 195px, (max-width: 768px) 240px, 300px"
                     />
                     {item.badge && (
                       <span className={styles.badge}>{item.badge}</span>
