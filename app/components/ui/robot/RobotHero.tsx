@@ -352,20 +352,13 @@ export function RobotPrototype({
   // Track raw global mouse coordinates
   const globalMouse = useRef({ x: typeof window !== "undefined" ? window.innerWidth / 2 : 0, y: typeof window !== "undefined" ? window.innerHeight / 2 : 0 });
   useEffect(() => {
-    const handlePointerMove = (e: PointerEvent | TouchEvent) => {
-      if ('touches' in e) {
-        globalMouse.current.x = e.touches[0].clientX;
-        globalMouse.current.y = e.touches[0].clientY;
-      } else {
-        globalMouse.current.x = (e as PointerEvent).clientX;
-        globalMouse.current.y = (e as PointerEvent).clientY;
-      }
+    const handlePointerMove = (e: PointerEvent) => {
+      globalMouse.current.x = e.clientX;
+      globalMouse.current.y = e.clientY;
     };
     window.addEventListener("pointermove", handlePointerMove, { passive: true });
-    window.addEventListener("touchmove", handlePointerMove, { passive: true });
     return () => {
       window.removeEventListener("pointermove", handlePointerMove);
-      window.removeEventListener("touchmove", handlePointerMove);
     };
   }, []);
 
@@ -397,113 +390,24 @@ export function RobotPrototype({
       if (halfVH > 0) ty = THREE.MathUtils.clamp(-(clientY - cy) / halfVH, -1, 1);
     }
 
-    const maxMoveX = state.viewport.width / 3.5;
-
-    // --- Idle detection: use canvas-relative tx/ty (already computed above) ---
-    // If pointer has moved away from center of canvas, it's "active"
+    // Idle detection
     if (Math.abs(tx) > 0.05 || Math.abs(ty) > 0.05) {
       lastTouchTime.current = state.clock.elapsedTime;
     }
     const idleSeconds = state.clock.elapsedTime - lastTouchTime.current;
     const isIdle = idleSeconds > 2.5;
 
-    // Count down cooldown after each fall
-    if (fallCooldown.current > 0) {
-      fallCooldown.current -= dt;
-    }
-
-    const wallLimit = maxMoveX * 0.72;
-
-    // First move the robot toward target (unclamped so it can push into wall)
-    const targetPosX = tx * maxMoveX;
-    if (fallState.current === 0) {
-      bodyRef.current.position.x = THREE.MathUtils.lerp(
-        bodyRef.current.position.x, targetPosX, config.moveSpeed * dt,
-      );
-      // Clamp so it doesn't escape past wall
-      bodyRef.current.position.x = THREE.MathUtils.clamp(bodyRef.current.position.x, -wallLimit, wallLimit);
-    }
-
-    // Now check robot's actual 3D position — did it reach the wall?
-    if (!noFall && fallState.current === 0 && fallCooldown.current <= 0) {
-      const robotX = bodyRef.current.position.x;
-      if (robotX >= wallLimit - 0.02) {
-        fallStartX.current = bodyRef.current.position.x;
-        fallState.current = 1;
-        fallTime.current = 0;
-        fallDirection.current = -1;
-      } else if (robotX <= -wallLimit + 0.02) {
-        fallStartX.current = bodyRef.current.position.x;
-        fallState.current = 1;
-        fallTime.current = 0;
-        fallDirection.current = 1;
-      }
-    }
-
-    if (fallState.current > 0) {
-      fallTime.current += dt;
-      if (fallState.current === 1 && fallTime.current > 0.18) {       // fall down fast
-        fallState.current = 2; fallTime.current = 0;
-      } else if (fallState.current === 2 && fallTime.current > 0.35) { // stay down brief
-        fallState.current = 3; fallTime.current = 0;
-      } else if (fallState.current === 3 && fallTime.current > 0.28) { // get up fast
-        fallState.current = 0; fallTime.current = 0;
-        fallCooldown.current = 1.5;
-      }
-    }
-
-    let fallProgress = 0;
-    if (fallState.current === 1) fallProgress = fallTime.current / 0.18;
-    else if (fallState.current === 2) fallProgress = 1;
-    else if (fallState.current === 3) fallProgress = 1 - (fallTime.current / 0.28);
-
-    fallProgress = THREE.MathUtils.smoothstep(fallProgress, 0, 1);
-
-    if (fallState.current > 0) {
-      // Pin robot to exact X where it hit the wall — zero sliding
-      bodyRef.current.position.x = fallStartX.current;
-    }
-
-    // Target Y: fall wins if falling, idle bob otherwise, 0 when active
-    const targetY = fallProgress > 0
-      ? -0.5 * fallProgress
-      : isIdle
-        ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05
-        : 0;
+    // Idle float bob
+    const targetY = isIdle ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05 : 0;
     bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, targetY, 8 * dt);
 
-    // Idle sway: gentle x-axis wander when no interaction
-    const idleTx = isIdle && fallState.current === 0
-      ? Math.sin(state.clock.elapsedTime * 0.4) * 0.18 + Math.sin(state.clock.elapsedTime * 0.13) * 0.08
-      : tx;
-    const idleTy = isIdle && fallState.current === 0
-      ? Math.sin(state.clock.elapsedTime * 0.6) * 0.08
-      : ty;
+    // Head follows mouse directly
+    const idleTx = isIdle ? Math.sin(state.clock.elapsedTime * 0.35) * 0.4 : tx;
+    const idleTy = isIdle ? Math.sin(state.clock.elapsedTime * 0.6) * 0.08 : ty;
 
-    // Body rotations
-    const relativeX = idleTx - bodyRef.current.position.x / 2.5;
-    const bodyTargetRotY = -relativeX * config.bodyTiltY;
-    const bodyTargetRotX = relativeX * relativeX * config.bodyTiltX - idleTy * 0.25;
-    const bodyTargetRotZ = isIdle && fallState.current === 0
-      ? Math.sin(state.clock.elapsedTime * 0.5) * 0.04
-      : -relativeX * 0.15;
-    const targetFallRotZ = -fallDirection.current * Math.PI / 2;
-
-    bodyRef.current.rotation.y = THREE.MathUtils.lerp(bodyRef.current.rotation.y, bodyTargetRotY * (1 - fallProgress), config.bodyRotSpeed * dt);
-    bodyRef.current.rotation.x = THREE.MathUtils.lerp(bodyRef.current.rotation.x, bodyTargetRotX * (1 - fallProgress), config.bodyRotSpeed * dt);
-    bodyRef.current.rotation.z = THREE.MathUtils.lerp(bodyRef.current.rotation.z, bodyTargetRotZ * (1 - fallProgress) + targetFallRotZ * fallProgress, config.bodyRotSpeed * dt);
-
-    // Head rotations
-    const headTargetRotY = relativeX * config.headLookY;
-    const headTargetRotX = -idleTy * config.headLookX;
-    const headFallRotZ = Math.sin(state.clock.elapsedTime * 25) * 0.3 * fallProgress;
-    const headIdleRotY = isIdle && fallState.current === 0
-      ? Math.sin(state.clock.elapsedTime * 0.35) * 0.4
-      : headTargetRotY;
-
-    headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, headIdleRotY * (1 - fallProgress), config.headRotSpeed * dt);
-    headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, headTargetRotX * (1 - fallProgress), config.headRotSpeed * dt);
-    headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, headFallRotZ, config.headRotSpeed * dt);
+    headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, idleTx * config.headLookY, config.headRotSpeed * dt);
+    headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX, config.headRotSpeed * dt);
+    headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, 0, config.headRotSpeed * dt);
   });
 
   useEffect(() => {

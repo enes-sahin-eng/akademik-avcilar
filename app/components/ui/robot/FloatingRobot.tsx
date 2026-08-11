@@ -240,9 +240,9 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
     <Canvas
       shadows={!isMobilePanel}
       camera={{ position: [0, 0.2, 6], fov: 40 }}
-      dpr={isMobilePanel ? 1 : [1, 1.5]}
+      dpr={isMobilePanel ? [1, 2] : [1, 1.5]}
       performance={{ min: 0.5 }}
-      gl={isMobilePanel ? { antialias: false, powerPreference: "high-performance" } : undefined}
+      gl={{ antialias: true, powerPreference: "high-performance" }}
     >
       <Suspense fallback={null}>
         <ambientLight intensity={isMobilePanel ? 1.1 : 0.75} color="#ffffff" />
