@@ -12,6 +12,7 @@ import {
 } from "../dictionaries/getDictionary";
 import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
+import ChatAgentMount from "../components/ui/ChatAgentMount";
 import { getOrganizationSchema } from "../../src/utils/seo";
 
 /** Gövde metni — yüksek okunabilirlik */
@@ -158,6 +159,7 @@ export default async function RootLayout({
         <ThemeProvider>
           {children}
           <Footer lang={lang} />
+          <ChatAgentMount lang={lang} />
         </ThemeProvider>
       </body>
     </html>
