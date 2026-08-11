@@ -5,10 +5,10 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { GraduationCap, Book, BookOpen, FileBadge, Award, Trophy, PenTool } from "lucide-react";
+import { GraduationCap, Award, BookOpen, Target, FileText, Bookmark, Calculator, CheckCircle, Brain, Briefcase, Sparkles, Languages, Lightbulb, TrendingUp, Presentation, Compass, Shield, Flag, Code, Plane, Music, PlayCircle, Anchor, Activity, LucideIcon, Book, FileBadge, Trophy, PenTool } from "lucide-react";
 import styles from "./MegaMenu.module.css";
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, LucideIcon> = {
   GraduationCap,
   Book,
   BookOpen,

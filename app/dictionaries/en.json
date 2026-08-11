@@ -18,6 +18,14 @@
     "avatarTitle": "Avcilar Akademik International Free Placement Test",
     "formTitle": "FREE ENGLISH!"
   },
+  "robot": {
+    "tooltip": "How can I help you?",
+    "title": "AI Assistant",
+    "status": "Online",
+    "inputPlaceholder": "Type something...",
+    "send": "Send",
+    "ariaFab": "Open Assistant"
+  },
   "navbar": {
     "topAnnouncement": "30% Early Bird Discount Has Started!",
     "brandName": "AKADEMİK",

@@ -3,11 +3,11 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, ScrollText, BadgeCheck, Briefcase, Star, Handshake } from "lucide-react";
+import { BookOpen, ScrollText, BadgeCheck, Briefcase, Star, Handshake, LucideIcon } from "lucide-react";
 import styles from "./MegaMenu.module.css";
 import { usePathname } from "next/navigation";
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, LucideIcon> = {
   BookOpen,
   ScrollText,
   BadgeCheck,
