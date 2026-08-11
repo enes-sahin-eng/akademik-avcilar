@@ -29,6 +29,7 @@ export default async function DemoOne({ params }: PageProps) {
   return (
     <>
       <main className="py-20 bg-zinc-50 overflow-hidden">
+
         {/* NEW COMPONENT (CircularGallery) */}
         <div className="mb-32">
           <CircularGalleryDemo />

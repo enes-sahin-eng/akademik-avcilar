@@ -1,0 +1,265 @@
+.section {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.bgTextWrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.bgText {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: 900;
+  user-select: none;
+  white-space: nowrap;
+  color: #000;
+  opacity: 0.13;
+  letter-spacing: -0.05em;
+  font-size: clamp(4rem, 15vw, 14rem);
+  line-height: 1;
+  transform: translate(0px, 40px);
+}
+
+.canvasWrap {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentInner {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentSpacer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 48px;
+  width: 100%;
+}
+
+/* Navbar */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  padding: 32px 32px 0;
+  pointer-events: none;
+}
+
+.navInner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  pointer-events: auto;
+}
+
+.navRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 16px;
+}
+
+.navLeft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  z-index: 20;
+}
+
+.navRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 16px;
+  z-index: 20;
+}
+
+.navLink {
+  position: relative;
+  padding: 10px 28px;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.15);
+}
+.navLink:hover { background: #e4e4e7; }
+
+.navLinkIndicator {
+  position: absolute;
+  inset: 0;
+  border-bottom: 3px solid #000;
+  pointer-events: none;
+}
+
+.contactBtn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.15);
+}
+.contactBtn:hover { background: #e4e4e7; }
+
+.ctaBtn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: #00ffc6;
+  color: #000;
+  font-size: 12px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 198, 0.4);
+  font-family: inherit;
+}
+.ctaBtn:hover { background: #00e5b2; }
+
+/* Antenna logo (center) */
+.logoWrap {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.logoInner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 64px;
+}
+
+.antennaLeft,
+.antennaRight {
+  position: absolute;
+  width: 6px;
+  height: 16px;
+  background: #d4d4d8;
+  transition: transform 0.3s ease;
+}
+.antennaLeft { left: 8px; border-radius: 6px 0 0 6px; }
+.antennaRight { right: 8px; border-radius: 0 6px 6px 0; }
+.logoWrap:hover .antennaLeft { transform: translateX(-4px); }
+.logoWrap:hover .antennaRight { transform: translateX(4px); }
+
+.logoBody {
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.logoWrap:hover .logoBody {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 25px rgba(255, 255, 255, 0.15);
+}
+
+.logoScreen {
+  width: 70%;
+  height: 60%;
+  background: #0a0a0a;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.eyeBar {
+  width: 6px;
+  height: 12px;
+  background: #00ffc6;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #00ffc6;
+  transition: transform 0.2s ease;
+}
+.logoWrap:hover .eyeBar { transform: scaleY(0.2); }
+
+.navDivider {
+  width: 100%;
+  margin-top: 24px;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 1024px) {
+  .navRow { flex-direction: row; gap: 0; }
+  .navLeft { justify-content: flex-start; }
+  .navRight { justify-content: flex-end; width: auto; margin-top: 0; }
+  .logoWrap { display: flex; }
+}
+
+@media (min-width: 640px) {
+  .navLeft, .navRight { gap: 12px; }
+  .contactBtn, .ctaBtn { padding: 10px 28px; font-size: 14px; }
+}

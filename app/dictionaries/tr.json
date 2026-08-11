@@ -17,6 +17,14 @@
     "avatarAlt": "Avcılar Yabancı Dil Kursu Seviye Tespit Sınavı Eğitim Danışmanı",
     "avatarTitle": "Avcılar Akademik International Ücretsiz Seviye Belirleme Sınavı"
   },
+  "robot": {
+    "tooltip": "Sana nasıl yardımcı olabilirim?",
+    "title": "AI Asistan",
+    "status": "Çevrimiçi",
+    "inputPlaceholder": "Bir şeyler yazın...",
+    "send": "Gönder",
+    "ariaFab": "Asistanı Aç"
+  },
   "navbar": {
     "topAnnouncement": "Erken Kayıtta %30 İndirim Fırsatı Başladı!",
     "brandName": "AKADEMİK",
