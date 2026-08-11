@@ -338,8 +338,8 @@
   position: fixed;
   bottom: 28px;
   left: 28px;
-  width: 200px;
-  height: 260px;
+  width: 260px;
+  height: 320px;
   z-index: 999999;
   pointer-events: auto;
   background: transparent;

@@ -9,17 +9,18 @@
 }
 
 .title {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   text-align: left;
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-secondary);
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   text-align: left;
 }
 
@@ -55,13 +56,13 @@
 
 .cardsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 18px;
 }
 
 .card {
   position: relative;
-  height: 380px;
+  height: 270px;
   background-color: #000;
   border-radius: 20px;
   overflow: hidden;
@@ -108,8 +109,8 @@
 
 .iconStack {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 14px;
+  right: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -128,11 +129,11 @@
 }
 
 .flagIcon {
-  font-size: 24px;
+  font-size: 18px;
   background: var(--bg-surface);
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,9 +156,9 @@
 
 .cardContent {
   position: absolute;
-  bottom: 24px;
-  left: 24px;
-  right: 24px;
+  bottom: 18px;
+  left: 18px;
+  right: 18px;
   z-index: 3;
   transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -167,7 +168,7 @@
 }
 
 .cardContent h3 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 800;
   color: #fff;
   margin: 0;
@@ -177,16 +178,42 @@
 
 @media (max-width: 768px) {
   .title {
-    font-size: 24px;
+    font-size: 21px;
   }
-  
+
   .tabsContainer {
     flex-direction: column;
     align-items: stretch;
   }
-  
+
   .tabBtn {
     text-align: center;
+  }
+
+  .cardsGrid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 14px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .cardsGrid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    flex: 0 0 80%;
+    max-width: 80%;
+    height: 260px;
+    scroll-snap-align: center;
+  }
+
+  .cardContent h3 {
+    font-size: 19px;
   }
 }
 

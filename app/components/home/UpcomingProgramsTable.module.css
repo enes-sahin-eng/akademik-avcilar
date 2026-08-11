@@ -6,33 +6,34 @@
 }
 
 .sectionTitle {
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   color: var(--text-primary);
 }
 
 @media (max-width: 768px) {
   .sectionTitle {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 14px;
   width: 100%;
 }
 
 .programCard {
   background: var(--accent-navy-deep);
-  border-radius: 24px;
-  padding: 24px;
+  border-radius: 16px;
+  padding: 14px 16px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 8px;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.05);
   position: relative;
@@ -83,10 +84,11 @@
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 .startDate {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 900;
   color: #ffffff;
   line-height: 1;
@@ -104,13 +106,13 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 8px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  gap: 4px;
+  margin-top: 2px;
+  margin-bottom: 4px;
 }
 
 .programName {
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 800;
   color: #ffffff;
   line-height: 1.2;
@@ -225,12 +227,12 @@
 
 /* Action Area */
 .actionArea {
-  padding-top: 20px;
+  padding-top: 8px;
   border-top: 1px dashed rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-top: 20px;
+  gap: 8px;
+  margin-top: 0;
 }
 
 .detailBtn svg {
@@ -466,9 +468,9 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 12px;
-  border-radius: 12px;
-  font-size: 14px;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -497,8 +499,31 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .tableWrapper {
+    padding: 0 20px;
+  }
+
   .gridContainer {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 14px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .gridContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .programCard {
+    flex: 0 0 84%;
+    max-width: 84%;
+    scroll-snap-align: center;
+    padding: 20px;
+    gap: 16px;
   }
 }

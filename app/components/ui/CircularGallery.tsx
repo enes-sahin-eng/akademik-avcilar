@@ -144,15 +144,15 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
       if (!isDraggingRef.current) return;
       
       const deltaX = e.clientX - startXRef.current;
-      const rotationDelta = deltaX * 0.08; 
-      
+      const rotationDelta = deltaX * 0.35;
+
       rotationRef.current = lastDragRotationRef.current + rotationDelta;
       updateDOM();
-      
+
       const now = Date.now();
       const timeDelta = now - lastTimeRef.current;
       if (timeDelta > 0) {
-        const moveDelta = (e.clientX - lastXRef.current) * 0.08;
+        const moveDelta = (e.clientX - lastXRef.current) * 0.35;
         velocityRef.current = moveDelta / timeDelta;
       }
       
