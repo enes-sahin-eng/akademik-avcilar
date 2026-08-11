@@ -102,7 +102,8 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
           } else {
              velocityRef.current = 0;
              if (!isHoveringRef.current) {
-               rotationRef.current += autoRotateSpeed;
+               const currentSpeed = window.innerWidth < 768 ? autoRotateSpeed * 2.5 : autoRotateSpeed;
+               rotationRef.current += currentSpeed;
              }
           }
           updateDOM();
