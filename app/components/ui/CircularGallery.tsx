@@ -144,7 +144,8 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
       if (!isDraggingRef.current) return;
       
       const deltaX = e.clientX - startXRef.current;
-      const rotationDelta = deltaX * 0.35;
+      const dragFactor = window.innerWidth < 768 ? 0.85 : 0.35;
+      const rotationDelta = deltaX * dragFactor;
 
       rotationRef.current = lastDragRotationRef.current + rotationDelta;
       updateDOM();
@@ -152,7 +153,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
       const now = Date.now();
       const timeDelta = now - lastTimeRef.current;
       if (timeDelta > 0) {
-        const moveDelta = (e.clientX - lastXRef.current) * 0.35;
+        const moveDelta = (e.clientX - lastXRef.current) * dragFactor;
         velocityRef.current = moveDelta / timeDelta;
       }
       
@@ -171,7 +172,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
       }
       
       itemsRef.current.forEach(node => {
-        if (node) node.style.transition = 'opacity 0.3s linear';
+        if (node) node.style.transition = 'none';
       });
     };
 
