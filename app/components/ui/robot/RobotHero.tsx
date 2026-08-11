@@ -412,7 +412,7 @@ export function RobotPrototype({
       fallCooldown.current -= dt;
     }
 
-    const wallLimit = maxMoveX * 0.55;
+    const wallLimit = maxMoveX * 0.72;
 
     // First move the robot toward target (unclamped so it can push into wall)
     const targetPosX = tx * maxMoveX;

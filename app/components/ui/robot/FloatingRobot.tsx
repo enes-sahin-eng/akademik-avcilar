@@ -242,6 +242,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
       camera={{ position: [0, 0.2, 6], fov: 40 }}
       dpr={isMobilePanel ? 1 : [1, 1.5]}
       performance={{ min: 0.5 }}
+      gl={isMobilePanel ? { antialias: false, powerPreference: "high-performance" } : undefined}
     >
       <Suspense fallback={null}>
         <ambientLight intensity={isMobilePanel ? 1.1 : 0.75} color="#ffffff" />
@@ -539,7 +540,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               )}
               {isMobile && open && (
                 <div className={styles.mobileRobotWrapper}>
-                  {renderRobotCanvas(1.5, true)}
+                  {renderRobotCanvas(1.5, true, true)}
                 </div>
               )}
             </div>
