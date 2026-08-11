@@ -370,16 +370,33 @@ export function RobotPrototype({
   const fallCooldown = useRef(0);
   const fallStartX = useRef(0); // exact X position where fall triggered
   const lastTouchTime = useRef(0);
+  const nextGlanceTime = useRef(0);
+  const glanceTarget = useRef({ x: 0, y: 0 });
 
   useFrame((state, delta) => {
     if (!bodyRef.current || !headRef.current) return;
 
     const dt = Math.min(delta, 0.1);
-    
+
+    if (noBodyMove) {
+      // Mobile: no pointer tracking, cheap autonomous glance instead
+      const t = state.clock.elapsedTime;
+      if (t >= nextGlanceTime.current) {
+        glanceTarget.current.x = (Math.random() * 2 - 1) * 0.5;
+        glanceTarget.current.y = (Math.random() * 2 - 1) * 0.12;
+        nextGlanceTime.current = t + 2.5 + Math.random() * 2.5;
+      }
+      headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, glanceTarget.current.x, 3 * dt);
+      headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, glanceTarget.current.y, 3 * dt);
+      headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, 0, config.headRotSpeed * dt);
+      bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, Math.sin(t * 1.1) * 0.05, 8 * dt);
+      return;
+    }
+
     // Calculate normalized pointer relative to the canvas element's center
     let tx = 0;
     let ty = 0;
-    
+
     const { x: clientX, y: clientY } = globalMouse.current;
     const canvas = state.gl.domElement;
     if (canvas) {
@@ -402,7 +419,7 @@ export function RobotPrototype({
     const idleTx = isIdle ? Math.sin(state.clock.elapsedTime * 0.35) * 0.4 : tx;
     const idleTy = isIdle ? Math.sin(state.clock.elapsedTime * 0.6) * 0.08 : ty;
 
-    if (!noBodyMove) {
+    {
       // Body X movement + fall logic
       const maxMoveX = state.viewport.width / 3.5;
       const wallLimit = maxMoveX * 0.72;
@@ -450,13 +467,6 @@ export function RobotPrototype({
       headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, relativeX * config.headLookY * (1 - fallProgress), config.headRotSpeed * dt);
       headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX * (1 - fallProgress), config.headRotSpeed * dt);
       headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, Math.sin(state.clock.elapsedTime * 25) * 0.3 * fallProgress, config.headRotSpeed * dt);
-    } else {
-      // Mobile: body stays fixed, only head tracks mouse
-      const targetY = isIdle ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05 : 0;
-      bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, targetY, 8 * dt);
-      headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, idleTx * config.headLookY, config.headRotSpeed * dt);
-      headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX, config.headRotSpeed * dt);
-      headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, 0, config.headRotSpeed * dt);
     }
   });
 
