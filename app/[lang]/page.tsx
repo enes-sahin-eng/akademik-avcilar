@@ -7,11 +7,10 @@ import { CampusLocation } from "../components/campus/CampusLocation";
 import { HomeContentSection } from "../components/home/HomeContentSection";
 import { StudentReviewsAndAwards } from "../components/home/StudentReviewsAndAwards";
 import { WhatsAppButton } from "../components/ui/WhatsAppButton";
-import { LeadFormModal } from "../components/ui/LeadFormModal";
 import PlacementTestBanner from "../components/course/PlacementTestBanner";
 import InstagramFeed from "../components/social/InstagramFeed";
 import CourseHighlightTabs from "../components/home/CourseHighlightTabs";
-import { LanguageInterestPopup } from "../components/home/LanguageInterestPopup";
+import DeferredModals from "../components/home/DeferredModals";
 import { getDictionary } from "../dictionaries/getDictionary";
 
 interface PageProps {
@@ -43,8 +42,11 @@ export default async function Home({ params }: PageProps) {
       <CampusTabs lang={lang} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
-      <LeadFormModal lang={lang} />
-      <LanguageInterestPopup lang={lang} dict={popupDict} />
+      <DeferredModals
+        lang={lang}
+        formDict={(dictionary as any)?.leadForm}
+        popupDict={popupDict}
+      />
       <PlacementTestBanner lang={lang} />
     </div>
   );

@@ -637,6 +637,8 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                   setMobileActiveDropdown(null);
                 }}
                 className={styles.mobileBtn}
+                aria-label={mobileMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
+                aria-expanded={mobileMenuOpen}
               >
                 {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>

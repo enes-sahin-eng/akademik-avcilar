@@ -41,6 +41,9 @@
 
   --accent-orange:       #f26522;
   --accent-orange-light: #fb8c3a;
+  /* WCAG AA uyumlu türevler — her ikisi de 4.5:1 oranını karşılar */
+  --accent-orange-text:  #8b3a06; /* Açık zemin üstünde turuncu metin */
+  --accent-orange-btn:   #c1531b; /* Beyaz metin için turuncu buton zemini */
 
   --accent-blue:  #1b4a7a;
   --accent-green: #15803d;
@@ -184,6 +187,8 @@
 
   --accent-orange:       #ff7a33;
   --accent-orange-light: #ff9a5c;
+  --accent-orange-text:  #ff9a5c; /* Koyu zemin üstünde yeterli kontrast */
+  --accent-orange-btn:   #c1531b; /* Beyaz metin için — iki temada da 4.5:1 */
 
   --accent-blue:  #4a9eff;
   --accent-green: #22c55e;
@@ -235,7 +240,7 @@ body {
      class'ıyla geldiği için bu scope'ta görünür, aşağı da miras kalır. */
   --font-display: var(--font-poppins, ui-sans-serif), ui-sans-serif, system-ui, sans-serif;
   --font-body:    var(--font-inter, ui-sans-serif),   ui-sans-serif, system-ui, sans-serif;
-  --font-mono:    var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+  --font-mono:    ui-monospace, monospace;
 
   background-color: var(--bg-base);
   color: var(--text-primary);

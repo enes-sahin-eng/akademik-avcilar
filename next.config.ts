@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["192.168.1.176"],
+  poweredByHeader: false,
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion", "gsap"],
   },

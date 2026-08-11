@@ -147,7 +147,7 @@
 .label {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--accent-orange);
+  color: var(--accent-orange-text);
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: var(--tracking-wider);

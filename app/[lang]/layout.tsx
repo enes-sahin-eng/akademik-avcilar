@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { cookies } from "next/headers";
-import { Inter, Poppins, Geist_Mono } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import {
   getDictionary,
@@ -26,12 +26,6 @@ const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin", "latin-ext"],
   weight: ["400", "500", "600", "700", "800", "900"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
   display: "swap",
 });
 
@@ -159,7 +153,7 @@ export default async function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${poppins.variable} ${geistMono.variable}`}
+        className={`${inter.variable} ${poppins.variable}`}
       >
         <ThemeProvider>
           {children}

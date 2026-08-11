@@ -33,9 +33,6 @@ interface InstagramPost {
 // When you have the Meta API, replace this function with your actual fetch call:
 // const res = await fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url&access_token=${process.env.IG_TOKEN}`);
 async function getInstagramPosts(): Promise<InstagramPost[]> {
-  // Simulate network delay
-  await new Promise((resolve) => setTimeout(resolve, 500));
-
   return [
     {
       id: '1',

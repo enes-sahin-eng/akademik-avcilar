@@ -217,7 +217,7 @@
 }
 
 .sendBtn {
-  background: var(--accent-orange);
+  background: var(--accent-orange-btn);
   color: #ffffff;
   border: none;
   padding: 0 22px;
@@ -370,7 +370,7 @@
 }
 
 .callNowBtn {
-  background: var(--accent-orange);
+  background: var(--accent-orange-btn);
   color: #fff;
   border: none;
   padding: 12px 32px;
