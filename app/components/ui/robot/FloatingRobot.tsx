@@ -306,6 +306,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               metalness={0.3}
               lovedRef={lovedRef}
               noFall={noFall}
+              noBodyMove={isMobilePanel}
             >
               {!open && !isMobilePanel && (
                 <Html position={[0, 0.65, 0]} zIndexRange={[100, 0]}>

@@ -300,6 +300,7 @@ export function RobotPrototype({
   headColor = "#111111",
   lovedRef,
   noFall = false,
+  noBodyMove = false,
   children,
 }: {
   neckParams?: Record<string, number>;
@@ -312,6 +313,7 @@ export function RobotPrototype({
   headColor?: string;
   lovedRef?: React.MutableRefObject<boolean>;
   noFall?: boolean;
+  noBodyMove?: boolean;
   children?: React.ReactNode;
 }) {
   const { viewport, mouse } = useThree();
@@ -397,17 +399,65 @@ export function RobotPrototype({
     const idleSeconds = state.clock.elapsedTime - lastTouchTime.current;
     const isIdle = idleSeconds > 2.5;
 
-    // Idle float bob
-    const targetY = isIdle ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05 : 0;
-    bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, targetY, 8 * dt);
-
-    // Head follows mouse directly
     const idleTx = isIdle ? Math.sin(state.clock.elapsedTime * 0.35) * 0.4 : tx;
     const idleTy = isIdle ? Math.sin(state.clock.elapsedTime * 0.6) * 0.08 : ty;
 
-    headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, idleTx * config.headLookY, config.headRotSpeed * dt);
-    headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX, config.headRotSpeed * dt);
-    headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, 0, config.headRotSpeed * dt);
+    if (!noBodyMove) {
+      // Body X movement + fall logic
+      const maxMoveX = state.viewport.width / 3.5;
+      const wallLimit = maxMoveX * 0.72;
+      const targetPosX = idleTx * maxMoveX;
+
+      if (fallState.current === 0) {
+        bodyRef.current.position.x = THREE.MathUtils.lerp(bodyRef.current.position.x, targetPosX, config.moveSpeed * dt);
+        bodyRef.current.position.x = THREE.MathUtils.clamp(bodyRef.current.position.x, -wallLimit, wallLimit);
+      }
+
+      if (!noFall && fallState.current === 0 && fallCooldown.current <= 0) {
+        const robotX = bodyRef.current.position.x;
+        if (robotX >= wallLimit - 0.02) {
+          fallStartX.current = robotX; fallState.current = 1; fallTime.current = 0; fallDirection.current = -1;
+        } else if (robotX <= -wallLimit + 0.02) {
+          fallStartX.current = robotX; fallState.current = 1; fallTime.current = 0; fallDirection.current = 1;
+        }
+      }
+
+      if (fallCooldown.current > 0) fallCooldown.current -= dt;
+
+      if (fallState.current > 0) {
+        fallTime.current += dt;
+        if (fallState.current === 1 && fallTime.current > 0.18) { fallState.current = 2; fallTime.current = 0; }
+        else if (fallState.current === 2 && fallTime.current > 0.35) { fallState.current = 3; fallTime.current = 0; }
+        else if (fallState.current === 3 && fallTime.current > 0.28) { fallState.current = 0; fallTime.current = 0; fallCooldown.current = 1.5; }
+        bodyRef.current.position.x = fallStartX.current;
+      }
+
+      // Body rotations
+      const relativeX = idleTx - bodyRef.current.position.x / 2.5;
+      let fallProgress = 0;
+      if (fallState.current === 1) fallProgress = fallTime.current / 0.18;
+      else if (fallState.current === 2) fallProgress = 1;
+      else if (fallState.current === 3) fallProgress = 1 - fallTime.current / 0.28;
+      fallProgress = THREE.MathUtils.smoothstep(fallProgress, 0, 1);
+
+      bodyRef.current.rotation.y = THREE.MathUtils.lerp(bodyRef.current.rotation.y, -relativeX * config.bodyTiltY * (1 - fallProgress), config.bodyRotSpeed * dt);
+      bodyRef.current.rotation.x = THREE.MathUtils.lerp(bodyRef.current.rotation.x, -idleTy * 0.25 * (1 - fallProgress), config.bodyRotSpeed * dt);
+      bodyRef.current.rotation.z = THREE.MathUtils.lerp(bodyRef.current.rotation.z, (-relativeX * 0.15) * (1 - fallProgress) + (-fallDirection.current * Math.PI / 2) * fallProgress, config.bodyRotSpeed * dt);
+
+      const targetY = fallProgress > 0 ? -0.5 * fallProgress : isIdle ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05 : 0;
+      bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, targetY, 8 * dt);
+
+      headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, relativeX * config.headLookY * (1 - fallProgress), config.headRotSpeed * dt);
+      headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX * (1 - fallProgress), config.headRotSpeed * dt);
+      headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, Math.sin(state.clock.elapsedTime * 25) * 0.3 * fallProgress, config.headRotSpeed * dt);
+    } else {
+      // Mobile: body stays fixed, only head tracks mouse
+      const targetY = isIdle ? Math.sin(state.clock.elapsedTime * 1.1) * 0.05 : 0;
+      bodyRef.current.position.y = THREE.MathUtils.lerp(bodyRef.current.position.y, targetY, 8 * dt);
+      headRef.current.rotation.y = THREE.MathUtils.lerp(headRef.current.rotation.y, idleTx * config.headLookY, config.headRotSpeed * dt);
+      headRef.current.rotation.x = THREE.MathUtils.lerp(headRef.current.rotation.x, -idleTy * config.headLookX, config.headRotSpeed * dt);
+      headRef.current.rotation.z = THREE.MathUtils.lerp(headRef.current.rotation.z, 0, config.headRotSpeed * dt);
+    }
   });
 
   useEffect(() => {
