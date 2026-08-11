@@ -386,10 +386,16 @@ export function RobotPrototype({
     let ty = 0;
     
     const { x: clientX, y: clientY } = globalMouse.current;
-    const vw = window.innerWidth;
-    const vh = window.innerHeight;
-    if (vw > 0) tx = THREE.MathUtils.clamp((clientX / vw) * 2 - 1, -1, 1);
-    if (vh > 0) ty = THREE.MathUtils.clamp(-((clientY / vh) * 2 - 1), -1, 1);
+    const canvas = state.gl.domElement;
+    if (canvas) {
+      const rect = canvas.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const halfVW = window.innerWidth / 2;
+      const halfVH = window.innerHeight / 2;
+      if (halfVW > 0) tx = THREE.MathUtils.clamp((clientX - cx) / halfVW, -1, 1);
+      if (halfVH > 0) ty = THREE.MathUtils.clamp(-(clientY - cy) / halfVH, -1, 1);
+    }
 
     const maxMoveX = state.viewport.width / 3.5;
 
@@ -406,7 +412,7 @@ export function RobotPrototype({
       fallCooldown.current -= dt;
     }
 
-    const wallLimit = maxMoveX * 0.78;
+    const wallLimit = maxMoveX * 0.55;
 
     // First move the robot toward target (unclamped so it can push into wall)
     const targetPosX = tx * maxMoveX;

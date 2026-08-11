@@ -6,7 +6,7 @@ import { Environment, ContactShadows, Html } from "@react-three/drei";
 import { RobotPrototype, ResponsiveGroup } from "./RobotHero";
 import styles from "./FloatingRobot.module.css";
 
-const PHONE = "908503050516";
+const PHONE = "905323609256";
 
 // Dictionary translation for the chat interface
 const T: Record<string, any> = {
