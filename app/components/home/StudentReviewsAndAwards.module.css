@@ -288,10 +288,12 @@
   background: #000;
 }
 
-.videoSquare:hover {
-  transform: scale(1.1);
-  border-color: #f87171;
-  box-shadow: 0 0 0 8px rgba(239, 68, 68, 0.1), 0 15px 35px rgba(0,0,0,0.6);
+@media (hover: hover) and (pointer: fine) {
+  .videoSquare:hover {
+    transform: scale(1.1);
+    border-color: #f87171;
+    box-shadow: 0 0 0 8px rgba(239, 68, 68, 0.1), 0 15px 35px rgba(0,0,0,0.6);
+  }
 }
 
 .videoImg {
@@ -302,9 +304,11 @@
   transition: opacity 0.3s ease, transform 0.5s ease;
 }
 
-.videoCircle:hover .videoImg {
-  opacity: 0.4;
-  transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+  .videoSquare:hover .videoImg {
+    opacity: 0.4;
+    transform: scale(1.1);
+  }
 }
 
 .videoOverlay {
@@ -328,8 +332,10 @@
   transition: transform 0.3s ease;
 }
 
-.videoCircle:hover .playIcon {
-  transform: scale(1.2);
+@media (hover: hover) and (pointer: fine) {
+  .videoSquare:hover .playIcon {
+    transform: scale(1.2);
+  }
 }
 
 .watchNowText {
@@ -482,6 +488,50 @@
   .awardImg { height: 120px; }
   .certificatesGrid { gap: 16px; }
   .certificateImg { max-width: 130px; }
+}
+
+@media (max-width: 768px) {
+  .videosWrapper {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 14px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .videosWrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .videoSquare {
+    flex: 0 0 150px;
+    width: 150px;
+    scroll-snap-align: center;
+  }
+
+  .certificatesGrid {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 12px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .certificatesGrid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .certificateItem {
+    flex: 0 0 160px;
+    width: 160px;
+    scroll-snap-align: center;
+  }
 }
 
 .videoModalBackdrop {
