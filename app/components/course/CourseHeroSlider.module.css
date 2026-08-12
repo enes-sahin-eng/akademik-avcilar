@@ -2,14 +2,18 @@
 .heroSection {
   position: relative;
   width: 100%;
-  /* Sabit oran: her breakpoint'te AYNI (16/9.5) — mobilde farklı bir orana
-     geçmiyoruz, böylece kırpma miktarı ekran boyutundan bağımsız tutarlı kalır. */
+  font-family: var(--font-geist-sans), sans-serif;
+  color: #fff;
+}
+
+.mediaWrapper {
+  position: relative;
+  width: 100%;
   aspect-ratio: 16 / 9.5;
   min-height: 65vh;
   max-height: 780px;
   background-color: var(--bg-surface);
-  font-family: var(--font-geist-sans), sans-serif;
-  color: #fff;
+  overflow: hidden;
 }
 
 .bgWrapper {
@@ -307,29 +311,29 @@
 }
 
 /* ── RESPONSIVE ─────────────────────────────────────────────────── */
-/* Form orantılı küçülme — translateY telafisi: +H*(1-X)/2, H≈460px */
+/* Form orantılı küçülme — Gereksiz Y telafileri kaldırıldı */
 @media (max-width: 1350px) and (min-width: 821px) {
   .formWrapper {
     right: 2%;
-    transform: translateY(calc(-58% + 23px)) scale(0.9);
+    transform: translateY(-58%) scale(0.9);
   }
 }
 
 @media (max-width: 1150px) and (min-width: 821px) {
   .formWrapper {
-    transform: translateY(calc(-58% + 48px)) scale(0.79);
+    transform: translateY(-58%) scale(0.79);
   }
 }
 
 @media (max-width: 1000px) and (min-width: 821px) {
   .formWrapper {
-    transform: translateY(calc(-58% + 71px)) scale(0.69);
+    transform: translateY(-58%) scale(0.69);
   }
 }
 
 @media (max-width: 900px) and (min-width: 821px) {
   .formWrapper {
-    transform: translateY(calc(-58% + 92px)) scale(0.60);
+    transform: translateY(-58%) scale(0.60);
   }
 }
 
@@ -340,35 +344,28 @@
 }
 
 @media (max-width: 820px) {
-  .heroSection {
-    aspect-ratio: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bgWrapper {
-    position: relative;
-    aspect-ratio: 16 / 9.5;
+  .mediaWrapper {
     min-height: 280px;
     max-height: 420px;
   }
 
   .container {
-    position: relative;
-    inset: auto;
     flex-direction: column;
     align-items: flex-start;
-    padding: 56px 24px 36px;
-    gap: 32px;
+    justify-content: center;
+    padding: 20px 24px;
+    gap: 16px;
   }
 
   .contentLeft {
     max-width: 100%;
+    align-items: flex-start;
+    gap: 12px;
   }
 
   .title {
-    font-size: 36px;
+    font-size: 32px;
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
   }
 
   .formWrapper {
@@ -376,7 +373,9 @@
     top: auto;
     right: auto;
     transform: none;
-    max-width: 100%;
-    width: 100%;
+    width: 96%;
+    max-width: 600px;
+    margin: 18px auto 32px;
+    padding: 28px 22px 22px;
   }
 }

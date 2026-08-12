@@ -33,49 +33,52 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
   return (
     <>
       <section className={styles.heroSection}>
-      {/* BACKGROUND IMAGE */}
-      <div className={styles.bgWrapper}>
-        <Image
-          src="/image.png"
-          alt={
-            heroData?.title
-              ? `${heroData.title} - Akademik International Yabancı Dil Okulları`
-              : "Akademik International Kurs Programı"
-          }
-          title={heroData?.title || "Akademik International Kurs Programı"}
-          fill
-          sizes="100vw"
-          className={styles.bgImage}
-          priority
-        />
-        <div className={styles.overlay}></div>
-      </div>
+      {/* MEDIA WRAPPER (Image + Text) */}
+      <div className={styles.mediaWrapper}>
+        {/* BACKGROUND IMAGE */}
+        <div className={styles.bgWrapper}>
+          <Image
+            src="/image.png"
+            alt={
+              heroData?.title
+                ? `${heroData.title} - Akademik International Yabancı Dil Okulları`
+                : "Akademik International Kurs Programı"
+            }
+            title={heroData?.title || "Akademik International Kurs Programı"}
+            fill
+            sizes="100vw"
+            className={styles.bgImage}
+            priority
+          />
+          <div className={styles.overlay}></div>
+        </div>
 
-      {/* LEFT CONTENT */}
-      <div className={styles.container}>
-        <Reveal
-          className={styles.contentLeft}
-          trigger="mount"
-          x={-30}
-          y={0}
-          duration={0.8}
-          delay={0.2}
-        >
-          <div className={styles.categoryTag}>{heroData.tag}</div>
-          <h1 className={styles.title}>{heroData.title}</h1>
+        {/* LEFT CONTENT */}
+        <div className={styles.container}>
+          <Reveal
+            className={styles.contentLeft}
+            trigger="mount"
+            x={-30}
+            y={0}
+            duration={0.8}
+            delay={0.2}
+          >
+            <div className={styles.categoryTag}>{heroData.tag}</div>
+            <h1 className={styles.title}>{heroData.title}</h1>
 
-          <a href="tel:08503050516" className={styles.primaryBtn}>
-            <Phone size={20} />
-            {heroData.customerServiceBtn}
-          </a>
-
-          <div className={styles.secondaryButtons}>
-            <a href="https://wa.me/905323609256" target="_blank" rel="noopener noreferrer" className={styles.whatsappBtn}>
-              <WhatsappIcon size={18} />
-              {heroData.whatsappBtn}
+            <a href="tel:08503050516" className={styles.primaryBtn}>
+              <Phone size={20} />
+              {heroData.customerServiceBtn}
             </a>
-          </div>
-        </Reveal>
+
+            <div className={styles.secondaryButtons}>
+              <a href="https://wa.me/905323609256" target="_blank" rel="noopener noreferrer" className={styles.whatsappBtn}>
+                <WhatsappIcon size={18} />
+                {heroData.whatsappBtn}
+              </a>
+            </div>
+          </Reveal>
+        </div>
       </div>
 
       {/* FORM OVERLAY — positioned relative to heroSection, like home glassFormOverlay */}
