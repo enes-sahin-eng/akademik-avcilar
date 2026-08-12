@@ -12,10 +12,13 @@ export interface GalleryItem {
   common: string;
   binomial: string;
   photo: {
-    url: string; 
+    url: string;
     text: string;
     pos?: string;
     by?: string;
+    /** Modaldaki next/image icin gercek boyutlar. Verilmezse 3:2 varsayilir. */
+    width?: number;
+    height?: number;
   };
   href?: string;
   buttonText?: string;
@@ -277,9 +280,12 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   <X size={24} />
                 </button>
                 <div className={styles.modalImageWrapper}>
-                  <img
+                  <Image
                     src={selectedItem.photo.url}
                     alt={selectedItem.photo.text}
+                    width={selectedItem.photo.width ?? 1200}
+                    height={selectedItem.photo.height ?? 800}
+                    sizes="75vw"
                     className={styles.modalImage}
                     draggable={false}
                   />
