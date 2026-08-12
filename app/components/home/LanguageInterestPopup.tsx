@@ -122,10 +122,10 @@ function ExamBadge({ item }: { item: ExamItem }) {
 
 export const LanguageInterestPopup = ({ lang, dict }: Props) => {
   const [visible, setVisible]       = useState(false);
-  const [activeTab, setActiveTab]   = useState<"language" | "exam">("language");
   const [selected, setSelected]     = useState<string | null>(null);
   const [selectedExam, setSelectedExam] = useState<string | null>(null);
-  const [expanded, setExpanded]     = useState(false);
+  const [expandedLang, setExpandedLang]     = useState(false);
+  const [expandedExam, setExpandedExam]     = useState(false);
 
   useEffect(() => {
     if (sessionStorage.getItem("langPopupSeen")) return;
@@ -136,13 +136,6 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
   const handleClose = () => {
     sessionStorage.setItem("langPopupSeen", "1");
     setVisible(false);
-  };
-
-  const handleTabChange = (tab: "language" | "exam") => {
-    setActiveTab(tab);
-    setExpanded(false);
-    setSelected(null);
-    setSelectedExam(null);
   };
 
   const selectedLang     = ALL.find((l) => l.key === selected);
@@ -163,110 +156,86 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
           <p className={styles.subtitle}>{dict.subtitle}</p>
         </div>
 
-        {/* Tab switcher */}
-        <div className={styles.tabs}>
-          <button
-            className={`${styles.tabPill} ${activeTab === "language" ? styles.tabPillActive : ""}`}
-            onClick={() => handleTabChange("language")}
-          >
-            {dict.tabLanguage ?? "Dil Kursu"}
-          </button>
-          <button
-            className={`${styles.tabPill} ${activeTab === "exam" ? styles.tabPillActive : ""}`}
-            onClick={() => handleTabChange("exam")}
-          >
-            {dict.tabExam ?? "Sınav Hazırlık"}
-          </button>
-        </div>
+        <div className={styles.contentScroll}>
+          <p className={styles.sectionLabel}>{dict.sectionLabel}</p>
+          <div className={styles.featuredGrid}>
+            {FEATURED.map((item) => (
+              <button
+                key={item.key}
+                className={`${styles.featuredCard} ${selected === item.key ? styles.selectedCard : ""}`}
+                onClick={() => { setSelected(item.key); setSelectedExam(null); }}
+              >
+                <FlagImage item={item} size={40} />
+                <span className={styles.featuredLabel}>{dict.languages[item.key] ?? item.label}</span>
+                {selected === item.key && <span className={styles.checkMark}>✓</span>}
+              </button>
+            ))}
+          </div>
 
-        {activeTab === "language" ? (
-          <>
-            <p className={styles.sectionLabel}>{dict.sectionLabel}</p>
-            <div className={styles.featuredGrid}>
-              {FEATURED.map((item) => (
+          <button className={styles.expandBtn} onClick={() => setExpandedLang((v) => !v)}>
+            <ChevronDown size={15} className={expandedLang ? styles.chevronUp : ""} />
+            {expandedLang ? dict.expandLess : dict.expandMore}
+          </button>
+
+          {expandedLang && (
+            <div className={styles.allGrid}>
+              {ALL_LANGUAGES.map((item) => (
                 <button
                   key={item.key}
-                  className={`${styles.featuredCard} ${selected === item.key ? styles.selectedCard : ""}`}
-                  onClick={() => setSelected(item.key)}
+                  className={`${styles.langChip} ${selected === item.key ? styles.selectedChip : ""}`}
+                  onClick={() => { setSelected(item.key); setSelectedExam(null); }}
                 >
-                  <FlagImage item={item} size={40} />
-                  <span className={styles.featuredLabel}>{dict.languages[item.key] ?? item.label}</span>
-                  {selected === item.key && <span className={styles.checkMark}>✓</span>}
+                  <FlagImage item={item} size={24} />
+                  <span className={styles.chipLabel}>{dict.languages[item.key] ?? item.label}</span>
                 </button>
               ))}
             </div>
+          )}
 
-            <button className={styles.expandBtn} onClick={() => setExpanded((v) => !v)}>
-              <ChevronDown size={15} className={expanded ? styles.chevronUp : ""} />
-              {expanded ? dict.expandLess : dict.expandMore}
-            </button>
+          <div style={{ height: '24px' }}></div>
 
-            {expanded && (
-              <div className={styles.allGrid}>
-                {ALL_LANGUAGES.map((item) => (
-                  <button
-                    key={item.key}
-                    className={`${styles.langChip} ${selected === item.key ? styles.selectedChip : ""}`}
-                    onClick={() => setSelected(item.key)}
-                  >
-                    <FlagImage item={item} size={24} />
-                    <span className={styles.chipLabel}>{dict.languages[item.key] ?? item.label}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </>
-        ) : (
-          <>
-            <p className={styles.sectionLabel}>{dict.examSectionLabel ?? "Popüler sınavlar"}</p>
-            <div className={styles.featuredGrid}>
-              {FEATURED_EXAMS.map((item) => (
+          <p className={styles.sectionLabel}>{dict.examSectionLabel ?? "Popüler sınavlar"}</p>
+          <div className={styles.featuredGrid}>
+            {FEATURED_EXAMS.map((item) => (
+              <button
+                key={item.key}
+                className={`${styles.featuredCard} ${selectedExam === item.key ? styles.selectedCard : ""}`}
+                onClick={() => { setSelectedExam(item.key); setSelected(null); }}
+              >
+                <ExamBadge item={item} />
+                <span className={styles.featuredLabel}>{dict.exams?.[item.key] ?? item.label}</span>
+                {selectedExam === item.key && <span className={styles.checkMark}>✓</span>}
+              </button>
+            ))}
+          </div>
+
+          <button className={styles.expandBtn} onClick={() => setExpandedExam((v) => !v)}>
+            <ChevronDown size={15} className={expandedExam ? styles.chevronUp : ""} />
+            {expandedExam ? (dict.examExpandLess ?? "Daha az göster") : (dict.examExpandMore ?? "Tüm sınavları gör")}
+          </button>
+
+          {expandedExam && (
+            <div className={styles.allGrid}>
+              {ALL_EXAMS.map((item) => (
                 <button
                   key={item.key}
-                  className={`${styles.featuredCard} ${selectedExam === item.key ? styles.selectedCard : ""}`}
-                  onClick={() => setSelectedExam(item.key)}
+                  className={`${styles.langChip} ${selectedExam === item.key ? styles.selectedChip : ""}`}
+                  onClick={() => { setSelectedExam(item.key); setSelected(null); }}
                 >
                   <ExamBadge item={item} />
-                  <span className={styles.featuredLabel}>{dict.exams?.[item.key] ?? item.label}</span>
-                  {selectedExam === item.key && <span className={styles.checkMark}>✓</span>}
+                  <span className={styles.chipLabel}>{dict.exams?.[item.key] ?? item.label}</span>
                 </button>
               ))}
             </div>
-
-            <button className={styles.expandBtn} onClick={() => setExpanded((v) => !v)}>
-              <ChevronDown size={15} className={expanded ? styles.chevronUp : ""} />
-              {expanded ? (dict.examExpandLess ?? "Daha az göster") : (dict.examExpandMore ?? "Tüm sınavları gör")}
-            </button>
-
-            {expanded && (
-              <div className={styles.allGrid}>
-                {ALL_EXAMS.map((item) => (
-                  <button
-                    key={item.key}
-                    className={`${styles.langChip} ${selectedExam === item.key ? styles.selectedChip : ""}`}
-                    onClick={() => setSelectedExam(item.key)}
-                  >
-                    <ExamBadge item={item} />
-                    <span className={styles.chipLabel}>{dict.exams?.[item.key] ?? item.label}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </>
-        )}
+          )}
+        </div>
 
         <div className={styles.footer}>
-          {activeTab === "language" ? (
-            selectedLang ? (
-              <Link href={`/${lang}/${selectedLang.path}`} className={styles.ctaBtn} onClick={handleClose}>
-                {dict.cta}
-                <ArrowRight size={16} />
-              </Link>
-            ) : (
-              <button className={`${styles.ctaBtn} ${styles.ctaDisabled}`} disabled>
-                {dict.ctaPlaceholder}
-              </button>
-            )
+          {selectedLang ? (
+            <Link href={`/${lang}/${selectedLang.path}`} className={styles.ctaBtn} onClick={handleClose}>
+              {dict.cta}
+              <ArrowRight size={16} />
+            </Link>
           ) : selectedExamItem ? (
             <Link href={`/${lang}/${selectedExamItem.path}`} className={styles.ctaBtn} onClick={handleClose}>
               {dict.examCta ?? "Sınava Hazırlan"}
@@ -274,7 +243,7 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
             </Link>
           ) : (
             <button className={`${styles.ctaBtn} ${styles.ctaDisabled}`} disabled>
-              {dict.examCtaPlaceholder ?? "Önce bir sınav seçin"}
+              {dict.ctaPlaceholder}
             </button>
           )}
           <button className={styles.skipBtn} onClick={handleClose}>

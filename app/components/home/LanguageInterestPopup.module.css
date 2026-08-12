@@ -27,10 +27,18 @@
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
   animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentScroll {
+  flex: 1;
   overflow-y: auto;
+  min-height: 0;
+  margin-bottom: 24px;
   scrollbar-width: none;
 }
-.modal::-webkit-scrollbar { display: none; }
+.contentScroll::-webkit-scrollbar { display: none; }
 
 @keyframes slideUp {
   from { transform: translateY(24px); opacity: 0; }
@@ -93,44 +101,6 @@
 
 :global([data-theme="dark"]) .subtitle {
   color: #e2eaf4;
-}
-
-/* TAB SWITCHER */
-.tabs {
-  display: flex;
-  gap: 8px;
-  background: var(--bg-surface-alt);
-  border-radius: 12px;
-  padding: 4px;
-  margin-bottom: 16px;
-}
-
-.tabPill {
-  flex: 1;
-  padding: 8px 12px;
-  border-radius: 9px;
-  border: none;
-  background: transparent;
-  color: #374151;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  white-space: nowrap;
-}
-
-:global([data-theme="dark"]) .tabPill {
-  color: #cbd5e1;
-}
-
-.tabPill:hover {
-  color: var(--text-primary);
-}
-
-.tabPillActive {
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sectionLabel {
