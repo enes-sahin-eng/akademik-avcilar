@@ -13,13 +13,18 @@
   color: var(--text-primary);
   border-bottom: 1px solid var(--border-subtle);
   font-size: 12.5px;
+  position: relative;
+  z-index: 2;
+}
+
+.topBarContainer {
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 8px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 42px;
-  position: relative;
-  z-index: 2;
 }
 
 .topBarLeft {

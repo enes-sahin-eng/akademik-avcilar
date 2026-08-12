@@ -97,6 +97,9 @@ export const LeadFormModalClient: React.FC<{ formDict: any }> = ({ formDict }) =
                           className={styles.input}
                           placeholder={formDict.phonePlaceholder}
                           required
+                          minLength={10}
+                          pattern="[\d\s\+\-\(\)]{10,}"
+                          title={formDict.phoneError || "Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)"}
                         />
                       </div>
                       

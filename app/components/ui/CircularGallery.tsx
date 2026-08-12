@@ -201,8 +201,6 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
-          onMouseEnter={() => { isHoveringRef.current = true; }}
-          onMouseLeave={() => { isHoveringRef.current = false; }}
           {...props}
         >
           <div
@@ -219,6 +217,8 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   role="group"
                   aria-label={item.common}
                   className={styles.itemWrapper}
+                  onMouseEnter={() => { isHoveringRef.current = true; }}
+                  onMouseLeave={() => { isHoveringRef.current = false; }}
                   onClick={(e) => handleItemClick(e, item)}
                   style={{
                     transform: `rotateY(${itemAngle}deg) translateZ(${effectiveRadius}px)`,

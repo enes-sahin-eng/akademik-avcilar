@@ -880,6 +880,7 @@
     "namePlaceholder": "Enter your name and surname.",
     "phoneLabel": "Phone Number",
     "phonePlaceholder": "Enter your mobile phone number.",
+    "phoneError": "Please enter a valid phone number (e.g. 0532 123 45 67)",
     "branchLabel": "Branch of Interest",
     "branchPlaceholder": "Choose your nearest branch.",
     "branchOptions": [
@@ -1905,7 +1906,7 @@
       ]
     },
     "meta": {
-      "title": "General English Course | All Levels A1–C1 | Akademik International Avcılar",
+      "title": "General English Course | All Levels A1–C1",
       "description": "General English courses in Avcılar, Istanbul. CEFR-certified programs from A1 beginner to C1 advanced level. Free placement test, speaking-guaranteed training, native teachers. Get info now."
     }
   },
@@ -15981,7 +15982,7 @@
   },
   "akademikSinavlarLandingPage": {
     "meta": {
-      "title": "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE | Akademik International",
+      "title": "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE",
       "description": "Preparation courses for IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT and Cambridge in Avcılar and all our branches. Expert tutors, mock exams, proven success rates."
     },
     "hero": {
@@ -16272,7 +16273,7 @@
   },
   "digerDillerLandingPage": {
     "meta": {
-      "title": "Other Language Courses | German, French, Spanish & More | Akademik International",
+      "title": "Other Language Courses | German, French, Spanish & More",
       "description": "German, French, Spanish, Italian, Russian, Japanese, Korean and 15+ language courses in Avcılar and all our branches. Expert teachers, flexible hours, all levels."
     },
     "hero": {
@@ -16569,7 +16570,7 @@
   },
   "subelerLandingPage": {
     "meta": {
-      "title": "Our Branches | Language School Campuses Across Turkey | Akademik International",
+      "title": "Our Branches | Language School Campuses Across Turkey",
       "description": "Find Akademik International language school branches in Istanbul, Ankara, Izmir, Bursa, Kocaeli and Tekirdag. 12+ campuses across Turkey — find the one nearest you."
     },
     "hero": {

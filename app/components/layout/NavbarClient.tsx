@@ -98,7 +98,8 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
       <header className={styles.header}>
         {/* ÜST İNCE DUYURU BANDI */}
         <div className={styles.topBar}>
-          <div className={styles.topBarLeft}>
+          <div className={styles.topBarContainer}>
+            <div className={styles.topBarLeft}>
             <div
               className={styles.topLangSelector}
               onMouseEnter={() => setTopLangDropdownOpen(true)}
@@ -359,6 +360,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
+          </div>
           </div>
         </div>
 

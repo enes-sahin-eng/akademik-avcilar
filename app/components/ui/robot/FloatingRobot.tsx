@@ -27,6 +27,7 @@ const T: Record<string, any> = {
       "Harika! WhatsApp'tan konuşmaya başlamak için son bir adım kaldı. Seni tanıyabilir miyiz?",
     placeholderName: "Adınız Soyadınız",
     placeholderPhone: "0 (5XX) XXX XX XX",
+    errorPhone: "Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)",
     submit: "WhatsApp'a Git",
     close: "Geri",
     labelLang: "İlgilenilen Dil",
@@ -52,6 +53,7 @@ const T: Record<string, any> = {
       "Great! Just one final step before we switch to WhatsApp. May we know who we are speaking with?",
     placeholderName: "Your Full Name",
     placeholderPhone: "0 (5XX) XXX XX XX",
+    errorPhone: "Please enter a valid phone number",
     submit: "Go to WhatsApp",
     close: "Back",
     labelLang: "Language",
@@ -84,6 +86,7 @@ const T: Record<string, any> = {
       "رائع! خطوة واحدة أخيرة لبدء الدردشة عبر واتساب. هل يمكننا التعرف عليك؟",
     placeholderName: "الاسم الكامل",
     placeholderPhone: "0 (5XX) XXX XX XX",
+    errorPhone: "يرجى إدخال رقم هاتف صحيح",
     submit: "انتقل إلى واتساب",
     close: "العودة",
     labelLang: "اللغة",
@@ -510,6 +513,9 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
                           value={phone}
                           onChange={(e) => setPhone(e.target.value)}
                           required
+                          minLength={10}
+                          pattern="[\d\s\+\-\(\)]{10,}"
+                          title={t.errorPhone}
                         />
                         <button
                           type="submit"

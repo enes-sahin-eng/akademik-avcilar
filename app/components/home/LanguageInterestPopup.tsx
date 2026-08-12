@@ -77,12 +77,12 @@ const ALL = [...FEATURED, ...ALL_LANGUAGES];
 const FEATURED_EXAMS: ExamItem[] = [
   { key: "ielts", label: "IELTS",  abbr: "IELTS", color: "#c8102e", path: "ielts-hazirlik-kursu" },
   { key: "toefl", label: "TOEFL",  abbr: "TOEFL", color: "#0047ab", path: "toefl-hazirlik-kursu" },
-  { key: "yds",   label: "YDS",    abbr: "YDS",   color: "#6d28d9", path: "yds-hazirlik-kursu" },
+  { key: "goethe", label: "Goethe",   abbr: "Goethe",  color: "#1c1c1e", path: "almanca-goethe-sinavi-hazirlik-kursu" },
 ];
 
 const ALL_EXAMS: ExamItem[] = [
   { key: "yokdil", label: "YÖKDİL",   abbr: "YÖKDİL", color: "#0369a1", path: "yokdil-hazirlik-kursu" },
-  { key: "goethe", label: "Goethe",   abbr: "Goethe",  color: "#1c1c1e", path: "almanca-goethe-sinavi-hazirlik-kursu" },
+  { key: "yds",   label: "YDS",    abbr: "YDS",   color: "#6d28d9", path: "yds-hazirlik-kursu" },
   { key: "cae",    label: "Cambridge", abbr: "CAE",    color: "#1e3a5f", path: "cae-kursu" },
   { key: "toeic",  label: "TOEIC",    abbr: "TOEIC",   color: "#0891b2", path: "toeic-hazirlik-kursu" },
   { key: "pte",    label: "PTE",      abbr: "PTE",     color: "#0ea5e9", path: "pte-kursu" },
