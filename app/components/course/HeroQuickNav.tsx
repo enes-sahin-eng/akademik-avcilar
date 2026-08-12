@@ -9,23 +9,25 @@ interface Props {
 
 const cardStyles = [
   {
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=600",
-    themeColor: "#1e3a8a", 
+    image: "/quicknav/quicknav-1.webp",
+    themeColor: "#1e3a8a",
     gradient: "linear-gradient(to right, #0f172a, #1e3a8a)",
   },
   {
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600",
-    themeColor: "#701a75", 
+    image: "/quicknav/quicknav-2.webp",
+    themeColor: "#701a75",
     gradient: "linear-gradient(to right, #4a044e, #701a75)",
   },
   {
-    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=600",
-    themeColor: "#0f766e", 
+    image: "/quicknav/quicknav-3.webp",
+    themeColor: "#0f766e",
     gradient: "linear-gradient(to right, #042f2e, #0f766e)",
   },
   {
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600",
-    themeColor: "#7f1d1d", 
+    // Bu kartın Unsplash görseli kaynakta silinmiş (404) — hiçbir zaman
+    // render edilmiyordu. Görünüm aynı kalsın diye görselsiz bırakıldı.
+    image: null,
+    themeColor: "#7f1d1d",
     gradient: "linear-gradient(to right, #450a0a, #7f1d1d)",
   }
 ];
