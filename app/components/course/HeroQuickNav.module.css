@@ -8,7 +8,7 @@
   perspective: 1200px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1280px) {
   .wrapper {
     margin: 20px auto 40px auto;
   }
@@ -24,7 +24,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .gridContainer {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
