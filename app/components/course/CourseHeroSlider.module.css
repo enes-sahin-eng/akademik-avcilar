@@ -317,11 +317,19 @@
     right: 2%;
     transform: translateY(-58%) scale(0.9);
   }
+  .contentLeft {
+    transform: scale(0.9);
+    transform-origin: left center;
+  }
 }
 
 @media (max-width: 1150px) and (min-width: 821px) {
   .formWrapper {
     transform: translateY(-58%) scale(0.79);
+  }
+  .contentLeft {
+    transform: scale(0.79);
+    transform-origin: left center;
   }
 }
 
@@ -329,11 +337,19 @@
   .formWrapper {
     transform: translateY(-58%) scale(0.69);
   }
+  .contentLeft {
+    transform: scale(0.69);
+    transform-origin: left center;
+  }
 }
 
 @media (max-width: 900px) and (min-width: 821px) {
   .formWrapper {
     transform: translateY(-58%) scale(0.60);
+  }
+  .contentLeft {
+    transform: scale(0.60);
+    transform-origin: left center;
   }
 }
 
