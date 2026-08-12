@@ -203,6 +203,12 @@
   box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
 }
 .chip:active { transform: translateY(0); }
+.chipActive {
+  background: #f97316;
+  color: #ffffff;
+  border-color: #f97316;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.25);
+}
 
 /* ── Form ── */
 .form {
