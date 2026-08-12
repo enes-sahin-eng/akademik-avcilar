@@ -37,7 +37,7 @@ const T: Record<string, any> = {
     labelPhone: "Telefon",
     msgIntro: "Merhaba, şu eğitimle ilgileniyorum:",
     tooltip: "Sana nasıl yardımcı olabilirim?",
-    title: "Asistan",
+    title: "Eğitim Danışmanı",
     status: "Çevrimiçi",
     ariaFab: "Asistanı Aç",
     examQ: "Hangi sınava hazırlanıyorsun?",
@@ -63,7 +63,7 @@ const T: Record<string, any> = {
     labelPhone: "Phone",
     msgIntro: "Hello, I am interested in:",
     tooltip: "How can I help you?",
-    title: "Assistant",
+    title: "Education Advisor",
     status: "Online",
     ariaFab: "Open Assistant",
     examQ: "Which exam are you preparing for?",
@@ -96,7 +96,7 @@ const T: Record<string, any> = {
     labelPhone: "الهاتف",
     msgIntro: "مرحبًا، أرغب في الحصول على معلومات حول الدورة:",
     tooltip: "كيف يمكنني مساعدتك؟",
-    title: "مساعد",
+    title: "المستشار التعليمي",
     status: "متصل",
     ariaFab: "افتح المساعد",
     examQ: "لأي امتحان تستعد؟",
@@ -383,7 +383,6 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
         >
           <header className={styles.header}>
             <div className={styles.headerLeft}>
-              <div className={styles.headerDot} aria-hidden="true" />
               <div className={styles.headerInfo}>
                 <div className={styles.headerTitle}>{t.title}</div>
                 <div className={styles.headerSub}>

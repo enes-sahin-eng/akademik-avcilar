@@ -19,7 +19,7 @@
   },
   "robot": {
     "tooltip": "Sana nasıl yardımcı olabilirim?",
-    "title": "AI Asistan",
+    "title": "Eğitim Danışmanı",
     "status": "Çevrimiçi",
     "inputPlaceholder": "Bir şeyler yazın...",
     "send": "Gönder",
