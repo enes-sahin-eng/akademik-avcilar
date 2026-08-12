@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { HeroSliderClient } from "./HeroSliderClient";
 
@@ -11,10 +10,6 @@ export const HeroSlider = async ({ lang }: Props) => {
   const slides = (dict as any)?.heroSlider?.slides || [];
 
   if (!slides.length) return null;
-
-  if (slides[0]?.image) {
-    ReactDOM.preload(slides[0].image, { as: "image", fetchPriority: "high" });
-  }
 
   return (
     <HeroSliderClient
