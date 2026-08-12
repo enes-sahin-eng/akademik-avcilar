@@ -66,15 +66,15 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
             <div className={styles.categoryTag}>{heroData.tag}</div>
             <h1 className={styles.title}>{heroData.title}</h1>
 
-            <a href="tel:08503050516" className={styles.primaryBtn}>
-              <Phone size={20} />
-              {heroData.customerServiceBtn}
-            </a>
+            <div className={styles.actionButtons}>
+              <a href="tel:08503050516" className={styles.primaryBtn}>
+                <Phone size={18} className={styles.btnIcon} />
+                <span className={styles.btnText}>{heroData.customerServiceBtn}</span>
+              </a>
 
-            <div className={styles.secondaryButtons}>
               <a href="https://wa.me/905323609256" target="_blank" rel="noopener noreferrer" className={styles.whatsappBtn}>
-                <WhatsappIcon size={18} />
-                {heroData.whatsappBtn}
+                <WhatsappIcon size={18} className={styles.btnIcon} />
+                <span className={styles.btnText}>{heroData.whatsappBtn}</span>
               </a>
             </div>
           </Reveal>

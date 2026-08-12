@@ -103,10 +103,11 @@
   box-shadow: 0 12px 28px rgba(230, 57, 70, 0.5);
 }
 
-.secondaryButtons {
+.actionButtons {
   display: flex;
+  flex-direction: column;
   gap: 16px;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .outlineBtn,
@@ -390,22 +391,29 @@
     padding: 4px 8px;
   }
 
-  .primaryBtn {
-    font-size: 12px;
-    padding: 10px 16px;
-    width: auto; /* Don't stretch full width */
-  }
-
-  .secondaryButtons {
+  .actionButtons {
+    flex-direction: row;
     width: 100%;
-    justify-content: flex-start;
+    gap: 8px;
+    align-items: stretch;
   }
 
-  .whatsappBtn {
+  .primaryBtn, .whatsappBtn {
+    flex: 1;
+    width: 50%;
+    padding: 10px 8px;
     font-size: 11px;
-    padding: 8px 14px;
-    width: auto; /* Don't stretch full width */
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  .btnText {
+    white-space: normal;
+    line-height: 1.2;
   }
 
   .formWrapper {
