@@ -318,10 +318,6 @@
     right: 2%;
     transform: translateY(-58%) scale(0.9);
   }
-  .container {
-    align-items: flex-end;
-    padding-bottom: 80px;
-  }
   .contentLeft { gap: 16px; margin-top: 0; }
   .title { font-size: 36px; }
   .primaryBtn { font-size: 14px; padding: 12px 24px; }
