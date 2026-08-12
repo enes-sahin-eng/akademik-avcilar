@@ -317,36 +317,40 @@
     right: 2%;
     transform: translateY(-58%) scale(0.9);
   }
-  .title { font-size: 42px; }
-  .primaryBtn { font-size: 15px; padding: 14px 28px; }
-  .whatsappBtn { font-size: 14px; padding: 10px 20px; }
+  .contentLeft { gap: 16px; margin-top: 4vh; }
+  .title { font-size: 36px; }
+  .primaryBtn { font-size: 14px; padding: 12px 24px; }
+  .whatsappBtn { font-size: 13px; padding: 8px 16px; }
 }
 
 @media (max-width: 1150px) and (min-width: 821px) {
   .formWrapper {
     transform: translateY(-58%) scale(0.79);
   }
-  .title { font-size: 36px; }
-  .primaryBtn { font-size: 14px; padding: 12px 24px; }
-  .whatsappBtn { font-size: 13px; padding: 8px 16px; }
+  .contentLeft { gap: 14px; margin-top: 6vh; }
+  .title { font-size: 32px; }
+  .primaryBtn { font-size: 13px; padding: 10px 20px; }
+  .whatsappBtn { font-size: 12px; padding: 6px 12px; }
 }
 
 @media (max-width: 1000px) and (min-width: 821px) {
   .formWrapper {
     transform: translateY(-58%) scale(0.69);
   }
-  .title { font-size: 32px; }
-  .primaryBtn { font-size: 13px; padding: 10px 20px; }
-  .whatsappBtn { font-size: 12px; padding: 6px 14px; }
+  .contentLeft { gap: 12px; margin-top: 8vh; }
+  .title { font-size: 28px; }
+  .primaryBtn { font-size: 12px; padding: 8px 16px; }
+  .whatsappBtn { font-size: 11px; padding: 5px 10px; }
 }
 
 @media (max-width: 900px) and (min-width: 821px) {
   .formWrapper {
     transform: translateY(-58%) scale(0.60);
   }
-  .title { font-size: 28px; }
-  .primaryBtn { font-size: 12px; padding: 8px 16px; }
-  .whatsappBtn { font-size: 11px; padding: 6px 12px; }
+  .contentLeft { gap: 10px; margin-top: 10vh; }
+  .title { font-size: 24px; }
+  .primaryBtn { font-size: 11px; padding: 6px 14px; }
+  .whatsappBtn { font-size: 10px; padding: 4px 8px; }
 }
 
 @media (max-width: 1100px) {
