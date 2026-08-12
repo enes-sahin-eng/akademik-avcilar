@@ -13,16 +13,57 @@
 }
 
 .programsTitle {
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -0.3px;
-  color: var(--text-primary);
-  margin: 0 0 24px 0;
-  padding: 0 40px;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 0 0 40px 0;
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
+  
+  /* Shimmer Gradient Text */
+  background: linear-gradient(
+    to right,
+    #0f172a 20%,
+    #2563eb 40%,
+    #0f172a 60%,
+    #2563eb 80%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shineText 5s linear infinite;
 }
+
+.programsTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #2563eb, #f59e0b, #2563eb);
+  background-size: 200% auto;
+  animation: pulseWidth 3s ease-in-out infinite, shineText 3s linear infinite;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+@keyframes shineText {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulseWidth {
+  0%, 100% { width: 60px; opacity: 0.7; }
+  50% { width: 140px; opacity: 1; }
+}
+
 
 .fullWidthBeige {
   width: 100%;

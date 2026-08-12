@@ -141,16 +141,9 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
                 </div>
                 
                 <div className={styles.headerRight}>
-                  {isUrgentSpots && !isFull ? (
-                    <div className={`${styles.pill} ${styles.urgentPill}`}>
-                       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
-                       {tableData.urgentSpots?.replace('{spots}', remainingSpots.toString()) || `SON ${remainingSpots} KİŞİ`}
-                    </div>
-                  ) : (
-                    <div className={`${styles.pill} ${styles.countdownPill}`}>
-                      {timeText}
-                    </div>
-                  )}
+                  <div className={`${styles.pill} ${styles.countdownPill}`}>
+                    {timeText}
+                  </div>
                 </div>
               </motion.div>
               
@@ -165,11 +158,22 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
               {/* Progress Section */}
               <motion.div className={styles.progressSection} layout="position">
                 <div className={styles.progressHeader}>
-                  <span className={`${styles.spotsLeft} ${isUrgentSpots ? styles.spotsUrgent : (isMediumSpots ? styles.spotsOrange : styles.spotsGreen)}`}>
-                    {isFull ? tableData.statusFull?.toUpperCase() : 
-                     isUrgentSpots ? (tableData.urgentSpots?.replace('{spots}', remainingSpots.toString()) || `SON ${remainingSpots} KİŞİ`).toUpperCase() : 
-                     (tableData.spotsLeft?.replace('{spots}', remainingSpots.toString()) || `${remainingSpots} KİŞİLİK YER`).toUpperCase()}
-                  </span>
+                  <div className={styles.pillWrapper}>
+                    {isFull ? (
+                      <div className={`${styles.pill} ${styles.fullPill}`}>
+                        {tableData.statusFull?.toUpperCase() || 'KONTENJAN DOLDU'}
+                      </div>
+                    ) : isUrgentSpots ? (
+                      <div className={`${styles.pill} ${styles.urgentPill}`}>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                        {tableData.urgentSpots?.replace('{spots}', remainingSpots.toString()) || `SON ${remainingSpots} KİŞİ`}
+                      </div>
+                    ) : (
+                      <div className={`${styles.pill} ${isMediumSpots ? styles.pillOrange : styles.pillGreen}`}>
+                        {tableData.spotsLeft?.replace('{spots}', remainingSpots.toString()).toUpperCase() || `${remainingSpots} KİŞİLİK KONTENJAN`}
+                      </div>
+                    )}
+                  </div>
                   <span className={styles.spotsRatio}>
                     {tableData.quotaFilledText?.replace('{filled}', quotaFilled.toString()).replace('{total}', quotaTotal.toString()) || `${quotaFilled} / ${quotaTotal} dolu`}
                   </span>
@@ -251,7 +255,7 @@ export const UpcomingProgramsTableClient = ({ tableData, lang }: Props) => {
                     <span className={`${styles.spotsLeft} ${((modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)) <= 5 ? styles.spotsUrgent : styles.spotsGreen}`}>
                       {modalProgram.status === 'full' ? tableData.statusFull?.toUpperCase() : 
                        ((modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)) <= 5 ? (tableData.urgentSpots?.replace('{spots}', ((modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)).toString()) || `SON ${(modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)} KİŞİ`).toUpperCase() : 
-                       (tableData.spotsLeft?.replace('{spots}', ((modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)).toString()) || `${(modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)} KİŞİLİK YER`).toUpperCase()}
+                       (tableData.spotsLeft?.replace('{spots}', ((modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)).toString()) || `${(modalProgram.quotaTotal || 12) - (modalProgram.quotaFilled || 0)} KİŞİLİK KONTENJAN`).toUpperCase()}
                     </span>
                     <span className={styles.spotsRatio}>
                       {tableData.quotaFilledText?.replace('{filled}', (modalProgram.quotaFilled || 0).toString()).replace('{total}', (modalProgram.quotaTotal || 12).toString()) || `${modalProgram.quotaFilled || 0} / ${modalProgram.quotaTotal || 12} dolu`}
