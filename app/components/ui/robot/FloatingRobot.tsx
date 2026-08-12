@@ -127,32 +127,34 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
   const selectLang = (l: string) => {
     setLanguage(l);
     triggerLove();
-    setStep(1);
+    // ikisi de seçildiyse kampüse geç
+    if (exam !== "") setTimeout(() => setStep(1), 350);
   };
 
   const selectExam = (e: string) => {
     setExam(e);
     triggerLove();
-    setStep(2);
+    // ikisi de seçildiyse kampüse geç
+    if (language !== "") setTimeout(() => setStep(1), 350);
   };
 
   const selectCampus = (c: string) => {
     setCampus(c);
     triggerLove();
-    setStep(3);
+    setStep(2); // iletişim formuna geç
   };
 
   const goBack = (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (step === 1) {
+    if (step === 0 && language !== "") {
       setLanguage("");
+      setExam("");
+    } else if (step === 1) {
+      setExam("");
       setStep(0);
     } else if (step === 2) {
-      setExam("");
-      setStep(1);
-    } else if (step === 3) {
       setCampus("");
-      setStep(2);
+      setStep(1);
     }
   };
 
@@ -199,7 +201,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
     if (bodyRef.current) {
       bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
     }
-  }, [step, open]);
+  }, [step, open, language]);
 
   const [isMobile, setIsMobile] = useState(false);
   const [bubbleVisible, setBubbleVisible] = useState(false);
@@ -416,6 +418,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
 
           <div className={styles.chatPane} style={{ borderLeft: "none" }}>
             <div className={styles.messages} ref={bodyRef}>
+              {/* Step 0: dil + sınav sorusu aynı anda görünür */}
               {step === 0 && (
                 <div>
                   <div className={styles.bot}>{t.intro}</div>
@@ -424,43 +427,35 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
                       <button
                         key={l}
                         type="button"
-                        className={styles.chip}
+                        className={`${styles.chip} ${language === l ? styles.chipActive : ""}`}
                         onClick={() => selectLang(l)}
                       >
                         {l}
                       </button>
                     ))}
                   </div>
+                  <div className={styles.bot}>{t.examQ}</div>
+                  <div className={styles.chips}>
+                    {t.exams.map((e: string) => (
+                      <button
+                        key={e}
+                        type="button"
+                        className={`${styles.chip} ${exam === e ? styles.chipActive : ""}`}
+                        onClick={() => selectExam(e)}
+                      >
+                        {e}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               )}
 
+              {/* Step 1: kampüs (geçmiş: dil + sınav) */}
               {step >= 1 && (
                 <>
                   <div className={styles.userMsg}>{language}</div>
-                  {step === 1 && (
-                    <div>
-                      <div className={styles.bot}>{t.examQ}</div>
-                      <div className={styles.chips}>
-                        {t.exams.map((e: string) => (
-                          <button
-                            key={e}
-                            type="button"
-                            className={styles.chip}
-                            onClick={() => selectExam(e)}
-                          >
-                            {e}
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </>
-              )}
-
-              {step >= 2 && (
-                <>
                   <div className={styles.userMsg}>{exam}</div>
-                  {step === 2 && (
+                  {step === 1 && (
                     <div>
                       <div className={styles.bot}>{t.campusQ}</div>
                       <div className={styles.chips}>
@@ -480,10 +475,11 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
                 </>
               )}
 
-              {step >= 3 && (
+              {/* Step 2: iletişim formu */}
+              {step >= 2 && (
                 <>
                   <div className={styles.userMsg}>{campus}</div>
-                  {step === 3 && (
+                  {step === 2 && (
                     <div>
                       <div className={styles.bot}>{t.contactQ}</div>
                       <form
@@ -552,7 +548,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
                 type="button"
                 className={styles.backBtn}
                 onClick={goBack}
-                style={{ visibility: step > 0 ? "visible" : "hidden" }}
+                style={{ visibility: (step > 0 || language !== "") ? "visible" : "hidden" }}
               >
                 <svg
                   width="14"

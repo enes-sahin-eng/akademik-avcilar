@@ -439,3 +439,54 @@
     padding: 28px 22px 22px;
   }
 }
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 20px;
+  }
+  .primaryBtn, .whatsappBtn {
+    padding: 9px 6px;
+    font-size: 11px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 19px;
+  }
+  .primaryBtn, .whatsappBtn {
+    padding: 8px 4px;
+    font-size: 10px;
+    gap: 4px;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 17px;
+  }
+  .primaryBtn, .whatsappBtn {
+    padding: 7px 3px;
+    font-size: 10px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 16px 16px 24px 16px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .primaryBtn, .whatsappBtn {
+    padding: 6px 2px;
+    font-size: 9px;
+    border-radius: 10px;
+  }
+  .actionButtons {
+    gap: 4px;
+  }
+}
