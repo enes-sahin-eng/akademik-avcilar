@@ -68,9 +68,9 @@ export function InteractiveCard({ card }: { card: any }) {
     >
       
       {/* Background Image */}
-      <div 
+      <div
         className={styles.bgImage}
-        style={{ backgroundImage: `url(${card.image})` }}
+        style={card.image ? { backgroundImage: `url(${card.image})` } : undefined}
       />
 
       {/* Gradient Overlay */}
