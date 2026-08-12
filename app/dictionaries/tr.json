@@ -906,6 +906,7 @@
     "namePlaceholder": "İsim ve soyisim giriniz.",
     "phoneLabel": "Telefon Numarası",
     "phonePlaceholder": "Cep telefonu numaranızı giriniz.",
+    "phoneError": "Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)",
     "branchLabel": "İlgilendiğiniz Şubemiz",
     "branchPlaceholder": "En yakın şubenizi seçiniz.",
     "branchOptions": [
@@ -1931,7 +1932,7 @@
       ]
     },
     "meta": {
-      "title": "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler | Akademik International",
+      "title": "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler",
       "description": "Avcılar'da genel İngilizce kursu. A1 başlangıç seviyesinden C1 ileri seviyeye CEFR uyumlu programlar. Ücretsiz seviye tespit sınavı, konuşma garantili eğitim, native eğitmenler. Hemen bilgi alın."
     }
   },
@@ -16063,7 +16064,7 @@
   },
   "digerDillerLandingPage": {
     "meta": {
-      "title": "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası | Akademik International",
+      "title": "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası",
       "description": "Avcılar ve tüm şubelerimizde Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve 15+ dil kursu. Uzman eğitmenler, esnek saatler, her seviyede eğitim."
     },
     "hero": {
@@ -16360,7 +16361,7 @@
   },
   "akademikSinavlarLandingPage": {
     "meta": {
-      "title": "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE | Akademik International",
+      "title": "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE",
       "description": "IELTS, TOEFL, YDS, YÖKDİL, YDT, GMAT, GRE, SAT ve Cambridge hazırlık kursları Avcılar ve tüm şubelerimizde. Uzman eğitmenler, deneme sınavları, yüksek başarı oranı."
     },
     "hero": {
@@ -16651,7 +16652,7 @@
   },
   "subelerLandingPage": {
     "meta": {
-      "title": "Şubelerimiz | Türkiye Geneli Dil Kursu Kampüsleri | Akademik International",
+      "title": "Şubelerimiz | Türkiye Geneli Dil Kursu Kampüsleri",
       "description": "Avcılar, Kadıköy, Bursa, Ankara, İzmir, Kocaeli ve Tekirdağ'da 12+ şubemizle Türkiye'nin dört bir yanında yabancı dil eğitimi. Size en yakın Akademik International şubesini bulun."
     },
     "hero": {
