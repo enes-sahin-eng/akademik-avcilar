@@ -26,6 +26,7 @@ interface ProgramTabsTranslations {
 function AnimatedProgramCard({ card, index }: { card: ProgramCard; index: number }) {
   return (
     <motion.div
+      layout
       initial={{ opacity: 0, scale: 0.96 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.96 }}
@@ -240,7 +241,7 @@ export const ProgramTabsClient = ({ t }: { t: ProgramTabsTranslations }) => {
         </div>
 
         <div className={styles.cardsGrid}>
-          <AnimatePresence mode="wait">
+          <AnimatePresence mode="popLayout">
             {filteredCards.slice(0, visibleCount).map((card, index) => (
               <AnimatedProgramCard key={card.id} card={card} index={index} />
             ))}
