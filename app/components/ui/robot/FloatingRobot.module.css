@@ -432,7 +432,8 @@
   .container {
     left: 16px;
     right: auto;
-    bottom: 80px;
+    /* Alt navigasyon cubugu (62px + iPhone guvenli alani) ustunde kalsin */
+    bottom: calc(80px + env(safe-area-inset-bottom, 0px));
     width: 62px;
     height: 62px;
   }
@@ -442,7 +443,8 @@
   .playBubble {
     display: block;
     position: fixed;
-    bottom: 156px; /* 80px container bottom + 62px height + 14px gap */
+    /* 80px container bottom + 62px height + 14px gap (+ guvenli alan) */
+    bottom: calc(156px + env(safe-area-inset-bottom, 0px));
     left: 16px;    /* container ile aynı left */
     white-space: nowrap;
     background: #ffffff;
