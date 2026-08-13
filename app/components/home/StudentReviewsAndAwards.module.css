@@ -76,7 +76,9 @@
   flex-shrink: 0;
   gap: 24px;
   padding-right: 24px; /* Crucial for seamless loop */
-  align-items: center;
+  /* stretch: tum kartlar en uzun kartin boyuna esitlenir, boylece
+     yorum uzunlugu degisse de kart yuksekligi ayni kalir */
+  align-items: stretch;
   animation: scrollReviews 40s linear infinite;
 }
 
@@ -509,6 +511,39 @@
     flex: 0 0 160px;
     width: 160px;
     scroll-snap-align: center;
+  }
+}
+
+/* Yorum kartlari mobilde bir tik kucultuluyor (masaustu olculeri fazla iri kaliyordu) */
+@media (max-width: 768px) {
+  .reviewCard {
+    width: 320px;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 18px;
+  }
+
+  .quoteIcon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .reviewText {
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .authorName {
+    font-size: 14px;
+  }
+
+  .authorRole {
+    font-size: 12px;
   }
 }
 
