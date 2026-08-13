@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -39,10 +39,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.kurumsalIngilizceLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Corporate English Course & Training | Akademik International"
+        ? "Corporate English Course & Training"
         : lang === "ar"
-          ? "دورة اللغة الإنجليزية للشركات | Akademik International"
-          : "Kurumsal İngilizce Kursu | Şirketlere Özel | Akademik International",
+          ? "دورة اللغة الإنجليزية للشركات"
+          : "Kurumsal İngilizce Kursu | Şirketlere Özel",
     description:
       lang === "en"
         ? "Ensure your team communicates effectively in the global arena with HR-integrated Corporate English training tailored to your company and sector."

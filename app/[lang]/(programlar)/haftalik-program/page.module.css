@@ -1,0 +1,13 @@
+/* Navbar'ın menü çubuğu (.nav) absolute konumlandığı için header'ın
+   normal akıştaki yüksekliği görünen toplam yükseklikten az kalıyor —
+   bu sayfanın içeriği doğrudan en üstte başladığı için menünün altında
+   kalıyordu. Sadece bu sayfaya özel boşluk ekliyoruz. */
+.main {
+  padding-top: 115px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-top: 80px;
+  }
+}

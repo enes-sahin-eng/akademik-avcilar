@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,9 +38,9 @@ export async function generateMetadata({
   const meta = (dict as any)?.farscaLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Persian Language Course | Akademik International"
+        ? "Persian Language Course"
         : lang === "ar"
-          ? "دورة اللغة الفارسية | Akademik International"
+          ? "دورة اللغة الفارسية"
           : "Farsça Dil Kursu | Akademik Yabancı Dil Kursları",
     description:
       lang === "en"

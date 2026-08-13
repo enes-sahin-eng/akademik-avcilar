@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title:
       lang === "en"
-        ? "Other Language Courses | German, French, Spanish & More | Akademik International"
+        ? "Other Language Courses | German, French, Spanish & More"
         : lang === "ar"
           ? "دورات اللغات الأخرى | الألمانية والفرنسية والإسبانية والمزيد | أكاديميك إنترناشيونال"
-          : "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası | Akademik International",
+          : "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası",
     description:
       lang === "en"
         ? "German, French, Spanish, Italian, Russian, Japanese, Korean and 15+ language courses. Expert teachers, flexible hours, all levels."

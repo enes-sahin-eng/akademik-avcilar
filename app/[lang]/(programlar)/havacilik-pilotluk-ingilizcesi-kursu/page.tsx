@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.havacilikIngilizcesiLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Aviation & Pilot English Course | Akademik International"
+        ? "Aviation & Pilot English Course"
         : lang === "ar"
-          ? "دورة اللغة الإنجليزية للطيران والطيارين | Akademik International"
-          : "Havacılık ve Pilotluk İngilizcesi Kursu | Akademik International",
+          ? "دورة اللغة الإنجليزية للطيران والطيارين"
+          : "Havacılık ve Pilotluk İngilizcesi Kursu",
     description:
       lang === "en"
         ? "Advance your career in aviation with our specialized English course focusing on terminology, cabin crew interviews, and 4 core skills."

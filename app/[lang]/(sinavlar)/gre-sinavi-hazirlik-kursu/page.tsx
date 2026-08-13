@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.greLandingPage?.meta || {
     title:
       lang === "en"
-        ? "GRE Preparation Course | High Score Guarantee | Akademik International"
+        ? "GRE Preparation Course | High Score Guarantee"
         : lang === "ar"
-          ? "دورة التحضير لاختبار GRE | Akademik International"
-          : "GRE Hazırlık Kursu | Yüksek Skor Garantili Eğitim | Akademik International",
+          ? "دورة التحضير لاختبار GRE"
+          : "GRE Hazırlık Kursu | Yüksek Skor Garantili Eğitim",
     description:
       lang === "en"
         ? "Achieve your target score with our intensive GRE preparation course. Expert instructors, analytical problem-solving techniques, and comprehensive materials."

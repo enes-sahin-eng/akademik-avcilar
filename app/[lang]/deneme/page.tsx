@@ -1,5 +1,5 @@
 import CourseHighlightTabs from "../../components/home/CourseHighlightTabs";
-import CardFanCarousel from "../../components/deneme/CardFanCarousel";
+import CardFanCarousel from "../../components/home/CardFanCarousel";
 import DenemeTabs from "../../components/deneme/DenemeTabs";
 import PremiumFaq from "../../components/deneme/PremiumFaq";
 import { CircularGalleryDemo } from "../../components/ui/CircularGalleryDemo";

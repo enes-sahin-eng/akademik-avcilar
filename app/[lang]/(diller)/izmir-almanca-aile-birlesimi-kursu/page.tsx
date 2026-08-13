@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.izmirAileBirlesimiLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Izmir German Family Reunification Course | Akademik International"
+        ? "Izmir German Family Reunification Course"
         : lang === "ar"
-          ? "دورة لم الشمل العائلي باللغة الألمانية في إزمير | Akademik International"
-          : "İzmir Almanca Aile Birleşimi Kursu | Akademik International",
+          ? "دورة لم الشمل العائلي باللغة الألمانية في إزمير"
+          : "İzmir Almanca Aile Birleşimi Kursu",
     description:
       lang === "en"
         ? "Contact us for detailed information about our German Family Reunification Course in Izmir and get prepared for your visa applications."

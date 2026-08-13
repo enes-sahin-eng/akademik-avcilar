@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -35,10 +35,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.torflLandingPage?.meta || {
     title:
       lang === "en"
-        ? "TORFL Preparation Course | Akademik International"
+        ? "TORFL Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان TORFL | Akademik International"
-          : "TORFL Sınavı Hazırlık Kursu (Rusça) | Akademik International",
+          ? "دورة التحضير لامتحان TORFL"
+          : "TORFL Sınavı Hazırlık Kursu (Rusça)",
     description:
       lang === "en"
         ? "Prepare for the Test of Russian as a Foreign Language (TORFL) with our 100% success guaranteed courses."

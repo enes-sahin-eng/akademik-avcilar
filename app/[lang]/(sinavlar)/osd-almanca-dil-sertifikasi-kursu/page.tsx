@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.osdLandingPage?.meta || {
     title:
       lang === "en"
-        ? "ÖSD German Language Certificate Course | Akademik International"
+        ? "ÖSD German Language Certificate Course"
         : lang === "ar"
-          ? "دورة شهادة اللغة الألمانية ÖSD | Akademik International"
-          : "ÖSD Almanca Dil Sertifikası Kursu | Akademik International",
+          ? "دورة شهادة اللغة الألمانية ÖSD"
+          : "ÖSD Almanca Dil Sertifikası Kursu",
     description:
       lang === "en"
         ? "Prepare for the internationally recognized ÖSD exam with our instructors who have at least 5 years of experience. Ideal for family reunification, university admission, and work permits."

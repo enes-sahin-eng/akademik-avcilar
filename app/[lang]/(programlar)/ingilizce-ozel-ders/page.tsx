@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -37,10 +37,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.ozelDersLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Private English Tutoring & Lessons | Akademik International"
+        ? "Private English Tutoring & Lessons"
         : lang === "ar"
-          ? "دروس لغة إنجليزية خاصة فردية | Akademik International"
-          : "İngilizce Özel Ders | Birebir ve Yabancı Eğitmenli | Akademik International",
+          ? "دروس لغة إنجليزية خاصة فردية"
+          : "İngilizce Özel Ders | Birebir ve Yabancı Eğitmenli",
     description:
       lang === "en"
         ? "Boost your English skills rapidly with 1-on-1 private lessons. Tailored curriculum with native teachers for exam prep (TOEFL, IELTS), business, or daily speaking."

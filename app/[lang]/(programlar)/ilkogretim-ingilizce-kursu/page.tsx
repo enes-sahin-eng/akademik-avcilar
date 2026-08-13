@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.ilkogretimIngilizceLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Primary School Kids English Course | Akademik International"
+        ? "Primary School Kids English Course"
         : lang === "ar"
-          ? "دورة اللغة الإنجليزية للمرحلة الابتدائية | Akademik International"
-          : "İlköğretim İngilizce Kursu | Çocuklar İçin Dil Eğitimi | Akademik International",
+          ? "دورة اللغة الإنجليزية للمرحلة الابتدائية"
+          : "İlköğretim İngilizce Kursu | Çocuklar İçin Dil Eğitimi",
     description:
       lang === "en"
         ? "Fun and conversation-focused English courses designed specifically for 2nd, 3rd, and 4th-grade primary school students. Boost your child's language skills early."

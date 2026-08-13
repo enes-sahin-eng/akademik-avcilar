@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -35,10 +35,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.caeLandingPage?.meta || {
     title:
       lang === "en"
-        ? "CAE Preparation Course | Akademik International"
+        ? "CAE Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان CAE | Akademik International"
-          : "CAE Sınavı Hazırlık Kursu | Akademik International",
+          ? "دورة التحضير لامتحان CAE"
+          : "CAE Sınavı Hazırlık Kursu",
     description:
       lang === "en"
         ? "Prepare for the Cambridge English Advanced (CAE) exam with our expert instructors and certify your English proficiency internationally."
