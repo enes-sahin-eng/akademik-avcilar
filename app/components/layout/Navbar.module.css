@@ -651,8 +651,12 @@
   }
 }
 
-/* Kademe 2: Küçük Tablet (1150px altı - daha da ufalt, sığması için) */
-@media (max-width: 1150px) {
+/* Kademe 2: Küçük Tablet & Dar Masaüstü (1280px altı - daha da ufalt, sığması için) */
+@media (max-width: 1280px) {
+  .container {
+    gap: 4px;
+    padding: 0 10px;
+  }
   .dropdownBtn, .link {
     font-size: 10.5px;
     padding: 5px 4px;
@@ -661,19 +665,53 @@
   .mainLogo {
     height: 35px;
   }
+  .rightGroup {
+    gap: 4px;
+  }
   .rightActions {
     gap: 4px;
   }
   .ctaBtn {
     font-size: 10.5px;
-    padding: 6px 10px;
+    padding: 6px 8px;
+    gap: 4px;
+  }
+  .langBtn {
+    font-size: 10.5px;
+    padding: 4px 6px;
+    gap: 2px;
+  }
+}
+
+/* Kademe 2.5: Çok Dar Masaüstü (1150px - 1025px arası metinleri gizle, sadece ikon kalsın) */
+@media (min-width: 1025px) and (max-width: 1150px) {
+  .ctaBtnText {
+    display: none;
+  }
+  .ctaBtn {
+    padding: 8px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+  }
+  .langBtn span {
+    display: none;
+  }
+  .langBtn {
+    padding: 8px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
   }
 }
 
 /* Kademe 3: Telefon moduna yaklaşırken (1024px altı hamburger menüye geçiş) */
 /* Mobil ust cubuk gruplari: masaustunde gizli */
 .mobileLeft,
-.mobileRight {
+.mobileRight,
+.mobileMenuBtnContainer {
   display: none;
 }
 
@@ -773,6 +811,13 @@
   100% { transform: scale(2.4); opacity: 0;   }
 }
 
+/* Sadece tablette (769-1024px) gizle. Telefondaysa (<769) görünür kalsın. */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mobileLoginWrapper {
+    display: none;
+  }
+}
+
 .mobileLoginWrapper {
   position: relative;
 }
@@ -819,24 +864,17 @@
     display: none;
   }
 
-  /* Yan gruplar icerigi kadar yer kaplar; logo kalan alanda ortalanir.
-     Iki grup da 2'ser ikon tasidigi icin genislikleri esit, boylece
-     logo gercekten merkeze oturur. */
-  .mobileLeft,
-  .mobileRight {
+  .mobileMenuBtnContainer {
     display: flex;
     align-items: center;
     gap: 4px;
     flex: 0 0 auto;
   }
-  .mobileRight {
-    justify-content: flex-end;
-    min-width: 88px; /* mobileLeft ile esit: logo her zaman ortalanir */
-  }
   .logo {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     min-width: 0;
-    justify-content: center;
+    margin-right: auto;
+    justify-content: flex-start;
   }
   .mainLogo {
     width: auto;
