@@ -3,6 +3,13 @@
     "title": "Top Quality Language Courses",
     "description": "Guaranteed speaking language education with native and qualified teachers backed by 34 years of experience."
   },
+  "mobileBottomNav": {
+    "placement": "Placement",
+    "languages": "Languages",
+    "exams": "Exams",
+    "branches": "Branches",
+    "home": "Home"
+  },
   "placementTest": {
     "nudgeText": "Want to know your level?",
     "tabText": "✦ Free Placement Test",
@@ -21,7 +28,8 @@
   "robot": {
     "tooltip": "How can I help you?",
     "title": "Education Advisor",
-    "status": "Online",
+    "status": "Authorised IELTS Test Centre",
+    "online": "Online",
     "inputPlaceholder": "Type something...",
     "send": "Send",
     "ariaFab": "Open Assistant"

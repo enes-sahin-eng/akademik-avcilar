@@ -3,6 +3,13 @@
     "title": "En Nitelikli Dil Kursu",
     "description": "34 yıllık tecrübe ile yerli ve yabancı eğitmenler eşliğinde konuşma garantili dil eğitimi."
   },
+  "mobileBottomNav": {
+    "placement": "Seviye Testi",
+    "languages": "Diller",
+    "exams": "Sınavlar",
+    "branches": "Şubeler",
+    "home": "Ana Sayfa"
+  },
   "placementTest": {
     "nudgeText": "Seviyeni öğrenmek ister misin?",
     "tabText": "✦ Ücretsiz Seviye Sınavı",
@@ -20,7 +27,8 @@
   "robot": {
     "tooltip": "Sana nasıl yardımcı olabilirim?",
     "title": "Eğitim Danışmanı",
-    "status": "Çevrimiçi",
+    "status": "IELTS Yetkili Sınav Merkezi",
+    "online": "Çevrimiçi",
     "inputPlaceholder": "Bir şeyler yazın...",
     "send": "Gönder",
     "ariaFab": "Asistanı Aç"
