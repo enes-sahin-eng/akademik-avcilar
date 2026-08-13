@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Award, BookOpen, MessageCircle, Laptop, ArrowRight } from "lucide-react";
+import React, { useState, useRef } from "react";
+import { Award, BookOpen, MessageCircle, Laptop, Globe, ArrowRight } from "lucide-react";
 import styles from "./AnimatedAdvantageStack.module.css";
 
 interface Advantage {
@@ -26,113 +25,96 @@ const getAdvantageIcon = (iconName: string, size = 32) => {
     case "BookOpen": return <BookOpen size={size} />;
     case "MessageCircle": return <MessageCircle size={size} />;
     case "Laptop": return <Laptop size={size} />;
+    case "Globe": return <Globe size={size} />;
     default: return <Award size={size} />;
   }
 };
-
-const positionStyles = [
-  { scale: 1, y: 0 },
-  { scale: 0.95, y: -56 },
-  { scale: 0.9, y: -100 },
-];
-
-const exitAnimation = {
-  y: 340,
-  scale: 1,
-  zIndex: 10,
-};
-
-const enterAnimation = {
-  y: -100,
-  scale: 0.9,
-};
-
-function CardContent({ advantage }: { advantage: Advantage }) {
-  return (
-    <div className={styles.cardContent}>
-      <h3 className={styles.cardTitle}>{advantage.title}</h3>
-      <div className={styles.cardBody}>
-        <div className={styles.iconContainer}>
-          {getAdvantageIcon(advantage.icon, 48)}
-        </div>
-        <p className={styles.cardDesc}>{advantage.desc}</p>
-      </div>
-    </div>
-  );
-}
-
-function AnimatedCard({
-  advantage,
-  index,
-}: {
-  advantage: AdvantageWithId;
-  index: number;
-}) {
-  const styleIndex = Math.min(index, 2);
-  const { scale, y } = positionStyles[styleIndex] ?? positionStyles[2];
-  const zIndex = 3 - index;
-
-  const exitAnim = index === 0 ? exitAnimation : undefined;
-  const initialAnim = index >= 2 ? enterAnimation : undefined;
-
-  return (
-    <motion.div
-      initial={initialAnim}
-      animate={{ y, scale }}
-      exit={exitAnim}
-      transition={{
-        type: "spring",
-        stiffness: 60,
-        damping: 15,
-        mass: 1,
-      }}
-      style={{
-        zIndex,
-        left: 0,
-        right: 0,
-        margin: "0 auto",
-        bottom: 30,
-      }}
-      className={styles.animatedCard}
-    >
-      <CardContent advantage={advantage} />
-    </motion.div>
-  );
-}
 
 export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
   const [items, setItems] = useState<AdvantageWithId[]>(
     advantages.map((adv, i) => ({ ...adv, uniqueId: i }))
   );
   const [nextId, setNextId] = useState(advantages.length);
-  const [isAnimating, setIsAnimating] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragPos, setDragPos] = useState({ x: 0, y: 0 });
+  const [flyingId, setFlyingId] = useState<number | null>(null);
 
+  const startPos = useRef({ x: 0, y: 0 });
+  const dragging = useRef(false);
+  const animating = useRef(false);
+  const lastDragPos = useRef({ x: 0, y: 0 });
+  const stackRef = useRef<HTMLDivElement>(null);
 
-  const handleAnimate = () => {
-    if (isAnimating || items.length <= 1) return;
-    setIsAnimating(true);
+  // Kayma miktarı CSS custom property'lerden okunuyor (.stack --card-offset-*),
+  // mobilde medya sorgusuyla otomatik küçülüyor.
+  const getBackPosition = (totalItems: number) => {
+    const i = totalItems - 1;
+    const el = stackRef.current;
+    const cs = el ? getComputedStyle(el) : null;
+    const x = parseFloat(cs?.getPropertyValue('--card-offset-x') || '-22') || -22;
+    const y = parseFloat(cs?.getPropertyValue('--card-offset-y') || '-16') || -16;
+    const rotate = parseFloat(cs?.getPropertyValue('--card-rotate') || '-4') || -4;
+    return { x: i * x, y: i * y, rotate: i * rotate };
+  };
 
-    const exitingItem = items[0];
-    const newItems = [
-      ...items.slice(1),
-      { ...exitingItem, uniqueId: nextId }
-    ];
-
-    setItems(newItems);
-    setNextId((prev) => prev + 1);
-
+  const advanceStack = () => {
+    if (animating.current || items.length <= 1) return;
+    animating.current = true;
+    const topId = items[0].uniqueId;
+    setFlyingId(topId);
+    setDragPos({ x: 0, y: 0 });
     setTimeout(() => {
-      setIsAnimating(false);
-    }, 1200);
+      setItems(prev => {
+        const next = [...prev];
+        const top = next.shift()!;
+        next.push({ ...top, uniqueId: nextId });
+        return next;
+      });
+      setNextId(prev => prev + 1);
+      setFlyingId(null);
+      setTimeout(() => { animating.current = false; }, 50);
+    }, 400);
+  };
+
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (animating.current) return;
+    e.currentTarget.setPointerCapture(e.pointerId);
+    dragging.current = true;
+    setIsDragging(true);
+    startPos.current = { x: e.clientX, y: e.clientY };
+    setDragPos({ x: 0, y: 0 });
+  };
+
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging.current) return;
+    const pos = { x: e.clientX - startPos.current.x, y: e.clientY - startPos.current.y };
+    lastDragPos.current = pos;
+    setDragPos(pos);
+  };
+
+  const handlePointerUp = () => {
+    if (!dragging.current) return;
+    dragging.current = false;
+    setIsDragging(false);
+    const { x, y } = lastDragPos.current;
+    const dist = Math.sqrt(x ** 2 + y ** 2);
+
+    if (dist > 60) {
+      advanceStack();
+    } else {
+      setDragPos({ x: 0, y: 0 });
+    }
   };
 
   if (!items || items.length === 0) return null;
+
+  const back = getBackPosition(items.length);
 
   return (
     <div className={styles.stackWrapper}>
       {/*
        * SEO/GEO: Tüm avantajlar her zaman DOM'da bulunur — botlar tümünü görür.
-       * Görsel stack animasyonu ayrı katmanda çalışır, içerik katmanı gizlidir
+       * Görsel stack ayrı katmanda çalışır, içerik katmanı gizlidir
        * ama taranabilir (screen-reader safe "visually hidden" tekniği).
        */}
       <div className={styles.seoContent} aria-hidden="false">
@@ -144,24 +126,67 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
         ))}
       </div>
 
-      {/* Görsel animasyonlu stack — kullanıcıya gösterilen katman */}
+      {/* Görsel diyagonal kart yığını — sürüklenebilir/tıklanabilir */}
       <div className={styles.stackContainer} aria-hidden="true">
-        <AnimatePresence initial={false}>
-          {items.slice(0, 3).map((item, index) => (
-            <AnimatedCard
-              key={item.uniqueId}
-              advantage={item}
-              index={index}
-            />
-          ))}
-        </AnimatePresence>
+        <div className={styles.stack} ref={stackRef}>
+          {items.map((item, index) => {
+            const isTop = index === 0;
+            const isFlying = item.uniqueId === flyingId;
+            let cardStyle: React.CSSProperties;
+
+            if (isFlying) {
+              cardStyle = {
+                transform: `translate(${back.x}px, ${back.y}px) rotate(${back.rotate}deg) scale(0.85)`,
+                transition: 'transform 0.4s cubic-bezier(0.4, 0, 0.6, 1), opacity 0.4s ease',
+                opacity: 0.3,
+                zIndex: 0,
+                pointerEvents: 'none',
+              };
+            } else if (isTop && isDragging) {
+              cardStyle = {
+                transform: `translate(${dragPos.x}px, ${dragPos.y}px) rotate(${dragPos.x * 0.05}deg) scale(1.03)`,
+                transition: 'none',
+                zIndex: 100,
+                cursor: 'grabbing',
+              };
+            } else if (index === 0) {
+              cardStyle = { zIndex: 5, transform: 'translate(0,0) rotate(0deg)', opacity: 1 };
+            } else {
+              const opacity = Math.max(0.55, 1 - index * 0.15);
+              cardStyle = {
+                ['--i' as any]: index,
+                zIndex: 5 - index,
+                opacity,
+              };
+            }
+
+            const isStacked = !isFlying && !(isTop && isDragging) && index !== 0;
+
+            return (
+              <div
+                key={item.uniqueId}
+                className={`${styles.card} ${isTop && !isFlying ? styles.topCard : ''} ${isStacked ? styles.stackedCard : ''}`}
+                style={cardStyle}
+                onPointerDown={isTop && !isFlying ? handlePointerDown : undefined}
+                onPointerMove={isTop && !isFlying ? handlePointerMove : undefined}
+                onPointerUp={isTop && !isFlying ? handlePointerUp : undefined}
+              >
+                <div className={styles.iconContainer}>
+                  {getAdvantageIcon(item.icon, 32)}
+                </div>
+                <h3 className={styles.cardTitle}>{item.title}</h3>
+                <p className={styles.cardDesc}>{item.desc}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className={styles.controls}>
         <button
-          onClick={handleAnimate}
+          onClick={advanceStack}
           className={styles.animateButton}
-          disabled={isAnimating}
+          disabled={items.length <= 1}
         >
           {btnNext || "Sonraki Ayrıcalık"}
           <ArrowRight size={18} />
