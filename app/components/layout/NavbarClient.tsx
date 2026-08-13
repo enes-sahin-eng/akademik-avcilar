@@ -421,10 +421,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                   aria-expanded={mobileLoginOpen}
                   aria-haspopup="menu"
                 >
-                  <User size={14} aria-hidden="true" />
-                  <span className={styles.mobileLoginText}>
-                    {navDict?.loginLabel || "Giriş"}
-                  </span>
+                  <User size={18} aria-hidden="true" />
                 </button>
 
                 <AnimatePresence>

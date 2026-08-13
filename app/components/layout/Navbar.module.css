@@ -702,10 +702,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  padding: 0 14px;
+  width: 36px;
   height: 36px;
-  border-radius: 20px;
+  border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: #ffffff;
