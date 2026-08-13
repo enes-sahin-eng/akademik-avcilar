@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Navbar } from "../../../components/layout/Navbar";
 import { ContactHero } from "../../../components/contact/ContactHero";
 import { ContactFormSection } from "../../../components/contact/ContactFormSection";
@@ -21,9 +21,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const lang = (locales.includes(rawLang as Locale) ? rawLang : "tr") as Locale;
 
   const titles: Record<Locale, string> = {
-    tr: "İletişim | Akademik International Avcılar",
-    en: "Contact | Akademik International",
-    ar: "اتصل بنا | Akademik International",
+    tr: "İletişim",
+    en: "Contact",
+    ar: "اتصل بنا",
   };
   const descriptions: Record<Locale, string> = {
     tr: "Avcılar merkez ve 12 şubemizle iletişime geçin. Kurs kayıt, bilgi ve randevu için bize ulaşın.",

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.gmatLandingPage?.meta || {
     title:
       lang === "en"
-        ? "GMAT Preparation Course | Akademik International"
+        ? "GMAT Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لاختبار GMAT | Akademik International"
-          : "GMAT Hazırlık Kursu | MBA ve Yüksek Lisans | Akademik International",
+          ? "دورة التحضير لاختبار GMAT"
+          : "GMAT Hazırlık Kursu | MBA ve Yüksek Lisans",
     description:
       lang === "en"
         ? "Get accepted into top MBA programs worldwide by preparing for the GMAT with our high-scoring expert instructors."

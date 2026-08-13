@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.ieltsLandingPage?.meta || {
     title:
       lang === "en"
-        ? "IELTS Preparation Course | High Band Score Guarantee | Akademik International"
+        ? "IELTS Preparation Course | High Band Score Guarantee"
         : lang === "ar"
-          ? "دورة التحضير لاختبار IELTS | Akademik International"
-          : "IELTS Hazırlık Kursu | Yüksek Skor Garantili Eğitim | Akademik International",
+          ? "دورة التحضير لاختبار IELTS"
+          : "IELTS Hazırlık Kursu | Yüksek Skor Garantili Eğitim",
     description:
       lang === "en"
         ? "Achieve your target band score with our intensive IELTS preparation course. Expert instructors, speaking practice, and comprehensive materials."

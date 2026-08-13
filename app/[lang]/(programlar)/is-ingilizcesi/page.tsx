@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -34,10 +34,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.businessEnglishLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Business English Course | Akademik International"
+        ? "Business English Course"
         : lang === "ar"
-          ? "دورة لغة إنجليزية للأعمال | Akademik International"
-          : "İş İngilizcesi Kursu (Business English) | Akademik International",
+          ? "دورة لغة إنجليزية للأعمال"
+          : "İş İngilizcesi Kursu (Business English)",
     description:
       lang === "en"
         ? "Improve your professional communication, presentation, and writing skills with our Business English courses."

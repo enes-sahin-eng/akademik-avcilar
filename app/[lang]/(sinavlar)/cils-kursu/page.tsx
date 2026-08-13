@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -35,10 +35,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.cilsLandingPage?.meta || {
     title:
       lang === "en"
-        ? "CILS Preparation Course | Akademik International"
+        ? "CILS Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان CILS | Akademik International"
-          : "CILS Sınavı Hazırlık Kursu (İtalyanca) | Akademik International",
+          ? "دورة التحضير لامتحان CILS"
+          : "CILS Sınavı Hazırlık Kursu (İtalyanca)",
     description:
       lang === "en"
         ? "Prepare for the CILS exam required for education and citizenship in Italy with our 100% success guaranteed courses."

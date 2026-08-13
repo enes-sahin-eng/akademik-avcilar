@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { getDictionary, locales, type Locale } from "../../../dictionaries/getDictionary";
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
@@ -33,9 +33,9 @@ export async function generateMetadata({
 
   const meta = (dict as any)?.liseIngilizceLandingPage?.meta || {
     title: 
-      lang === 'en' ? "High School English Course | TOEFL & IELTS Prep | Akademik International" : 
-      (lang === 'ar' ? "دورة اللغة الإنجليزية للمرحلة الثانوية | Akademik International" : 
-      "Lise İngilizce Kursu | YKS-DİL, TOEFL, IELTS Hazırlık | Akademik International"),
+      lang === 'en' ? "High School English Course | TOEFL & IELTS Prep" : 
+      (lang === 'ar' ? "دورة اللغة الإنجليزية للمرحلة الثانوية" : 
+      "Lise İngilizce Kursu | YKS-DİL, TOEFL, IELTS Hazırlık"),
     description: 
       lang === 'en' ? "High school English course focusing on fluent speaking, school curriculum alignment, and academic exam prep (TOEFL, IELTS, SAT)." : 
       (lang === 'ar' ? "دورة لغة إنجليزية للمرحلة الثانوية تركز على التحدث بطلاقة، ومواءمة المناهج المدرسية، والإعداد للاختبارات الأكاديمية (TOEFL، IELTS)." : 

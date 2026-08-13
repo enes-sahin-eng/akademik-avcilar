@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.ydtLandingPage?.meta || {
     title:
       lang === "en"
-        ? "YKS-DİL (YDT) Preparation Course | Akademik International"
+        ? "YKS-DİL (YDT) Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان YKS-DİL (YDT) | Akademik International"
-          : "YKS-DİL (YDT) Hazırlık Kursu | Üniversite Hazırlık | Akademik International",
+          ? "دورة التحضير لامتحان YKS-DİL (YDT)"
+          : "YKS-DİL (YDT) Hazırlık Kursu | Üniversite Hazırlık",
     description:
       lang === "en"
         ? "Get ready for the university entrance exam (YDT) with our expert instructors and strategy-focused curriculum."

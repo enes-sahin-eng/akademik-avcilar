@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title:
       lang === "en"
-        ? "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE | Akademik International"
+        ? "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE"
         : lang === "ar"
           ? "دورات التحضير للاختبارات الأكاديمية | IELTS وTOEFL وYDS وGMAT | أكاديميك إنترناشيونال"
-          : "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE | Akademik International",
+          : "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE",
     description:
       lang === "en"
         ? "Preparation courses for IELTS, TOEFL, YDS, GMAT, GRE, SAT and Cambridge. Expert tutors, mock exams, proven success rates."

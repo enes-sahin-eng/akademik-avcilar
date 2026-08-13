@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { getDictionary, locales, type Locale } from "../../../dictionaries/getDictionary";
 import { Navbar } from "../../../components/layout/Navbar";
 import InstagramFeed from "../../../components/social/InstagramFeed";
@@ -33,10 +33,10 @@ export async function generateMetadata({
   // You can extend the dictionary later to include this metadata
   const meta = (dict as any)?.genelIngilizceLandingPage?.meta || {
     title: lang === 'en'
-      ? "General English Course | All Levels A1–C1 | Akademik International"
+      ? "General English Course | All Levels A1–C1"
       : lang === 'ar'
         ? "دورة اللغة الإنجليزية العامة | جميع المستويات A1–C1 | أكاديميك إنترناشيونال"
-        : "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler | Akademik International",
+        : "Genel İngilizce Kursu | A1'den C1'e Tüm Seviyeler",
     description: lang === 'en'
       ? "General English courses in Avcılar, Istanbul. CEFR-aligned programmes from A1 beginner to C1 advanced. Free placement test. Get info now."
       : lang === 'ar'

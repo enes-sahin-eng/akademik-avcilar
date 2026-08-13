@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.aileBirlesimiLandingPage?.meta || {
     title:
       lang === "en"
-        ? "German Family Reunification Course | Akademik International"
+        ? "German Family Reunification Course"
         : lang === "ar"
-          ? "دورة لم الشمل العائلي باللغة الألمانية | Akademik International"
-          : "Almanca Aile Birleşimi Kursu | Akademik International",
+          ? "دورة لم الشمل العائلي باللغة الألمانية"
+          : "Almanca Aile Birleşimi Kursu",
     description:
       lang === "en"
         ? "Prepare for the Goethe Start Deutsch A1 exam required for German visa applications with our native speaker instructors."

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,9 +38,9 @@ export async function generateMetadata({
   const meta = (dict as any)?.flemenkceLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Dutch (Flemish) Language Course | Akademik International"
+        ? "Dutch (Flemish) Language Course"
         : lang === "ar"
-          ? "دورة اللغة الهولندية (الفلمنكية) | Akademik International"
+          ? "دورة اللغة الهولندية (الفلمنكية)"
           : "Flemenkçe (Hollandaca) Dil Kursu | Akademik Yabancı Dil Kursları",
     description:
       lang === "en"

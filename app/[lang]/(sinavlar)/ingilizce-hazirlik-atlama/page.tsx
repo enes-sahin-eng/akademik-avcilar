@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.proficiencyLandingPage?.meta || {
     title:
       lang === "en"
-        ? "University Proficiency Preparation Course | Akademik International"
+        ? "University Proficiency Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لاختبار الكفاءة الجامعية | Akademik International"
-          : "Üniversite Hazırlık Atlama (Proficiency) Kursu | Akademik International",
+          ? "دورة التحضير لاختبار الكفاءة الجامعية"
+          : "Üniversite Hazırlık Atlama (Proficiency) Kursu",
     description:
       lang === "en"
         ? "Skip the university preparatory year with our intensive Proficiency course tracking 78 different universities' curricula."

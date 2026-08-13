@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.toeflLandingPage?.meta || {
     title:
       lang === "en"
-        ? "TOEFL Preparation Course | Akademik International"
+        ? "TOEFL Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان TOEFL | Akademik International"
-          : "TOEFL Hazırlık Kursu | Akademik International",
+          ? "دورة التحضير لامتحان TOEFL"
+          : "TOEFL Hazırlık Kursu",
     description:
       lang === "en"
         ? "Achieve your target score in the TOEFL exam with our expert instructors and comprehensive study materials."

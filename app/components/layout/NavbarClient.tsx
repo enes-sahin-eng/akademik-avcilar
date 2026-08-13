@@ -647,11 +647,11 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
 
                 {/* GİRİŞ BUTONLARI */}
                 <div className={styles.loginBtnWrapper}>
-                  <a href="#" className={styles.ctaBtn}>
+                  <a href="https://atc.akademik.com.tr/" target="_blank" rel="noopener noreferrer" className={styles.ctaBtn}>
                     <User size={16} />
                     <span className={styles.ctaBtnText}>{navDict?.parentLogin || "Veli Girişi"}</span>
                   </a>
-                  <a href="#" className={styles.ctaBtn}>
+                  <a href="https://atc.akademik.com.tr/" target="_blank" rel="noopener noreferrer" className={styles.ctaBtn}>
                     <GraduationCap size={16} />
                     <span className={styles.ctaBtnText}>{navDict?.studentLogin || "Öğrenci Girişi"}</span>
                   </a>
@@ -691,7 +691,8 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                       role="menu"
                     >
                       <a
-                        href="#"
+                        href="https://atc.akademik.com.tr/"
+                        target="_blank" rel="noopener noreferrer"
                         role="menuitem"
                         className={styles.mobileLoginItem}
                         onClick={() => setMobileLoginOpen(false)}
@@ -700,7 +701,8 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                         {navDict?.parentLogin || "Veli Girişi"}
                       </a>
                       <a
-                        href="#"
+                        href="https://atc.akademik.com.tr/"
+                        target="_blank" rel="noopener noreferrer"
                         role="menuitem"
                         className={styles.mobileLoginItem}
                         onClick={() => setMobileLoginOpen(false)}
@@ -926,11 +928,11 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
               </Link>
 
               <div className={styles.mobileCtaWrapper}>
-                <a href="#" className={styles.ctaBtnMobile}>
+                <a href="https://atc.akademik.com.tr/" target="_blank" rel="noopener noreferrer" className={styles.ctaBtnMobile}>
                   <User size={18} style={{ marginRight: '6px' }} />
                   {navDict?.parentLogin || "Veli Girişi"}
                 </a>
-                <a href="#" className={styles.ctaBtnMobile}>
+                <a href="https://atc.akademik.com.tr/" target="_blank" rel="noopener noreferrer" className={styles.ctaBtnMobile}>
                   <GraduationCap size={18} style={{ marginRight: '6px' }} />
                   {navDict?.studentLogin || "Öğrenci Girişi"}
                 </a>

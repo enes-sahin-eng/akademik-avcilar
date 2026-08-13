@@ -1,9 +1,10 @@
 "use client";
 
+import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import type { CardItem } from "../deneme/CardFanCarousel";
+import type { CardItem } from "./CardFanCarousel";
 
-const CardFanCarousel = dynamic(() => import("../deneme/CardFanCarousel"), {
+const CardFanCarousel = dynamic(() => import("./CardFanCarousel"), {
   ssr: false,
   loading: () => <div style={{ minHeight: 400 }} />,
 });
