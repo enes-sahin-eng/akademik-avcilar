@@ -393,70 +393,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
           className={`${styles.nav} ${isScrolled ? styles.navScrolled : ""}`}
         >
           <div className={styles.container}>
-            {/* MOBİL SOL GRUP: hamburger + giriş (yalnızca <=1024px) */}
-            <div className={styles.mobileLeft}>
-              <button
-                type="button"
-                onClick={() => {
-                  setMobileMenuOpen(!mobileMenuOpen);
-                  setMobileActiveDropdown(null);
-                  setMobileLoginOpen(false);
-                }}
-                className={styles.mobileIconBtn}
-                aria-label={mobileMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
-                aria-expanded={mobileMenuOpen}
-              >
-                {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-              </button>
 
-              <div className={styles.mobileLoginWrapper} ref={mobileLoginRef}>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setMobileLoginOpen((v) => !v);
-                    setMobileMenuOpen(false);
-                  }}
-                  className={styles.mobileLoginChip}
-                  aria-label={navDict?.loginLabel || "Giriş"}
-                  aria-expanded={mobileLoginOpen}
-                  aria-haspopup="menu"
-                >
-                  <User size={18} aria-hidden="true" />
-                </button>
-
-                <AnimatePresence>
-                  {mobileLoginOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -6, scale: 0.97 }}
-                      animate={{ opacity: 1, y: 0, scale: 1 }}
-                      exit={{ opacity: 0, y: -6, scale: 0.97 }}
-                      transition={{ duration: 0.16 }}
-                      className={styles.mobileLoginMenu}
-                      role="menu"
-                    >
-                      <a
-                        href="#"
-                        role="menuitem"
-                        className={styles.mobileLoginItem}
-                        onClick={() => setMobileLoginOpen(false)}
-                      >
-                        <User size={15} />
-                        {navDict?.parentLogin || "Veli Girişi"}
-                      </a>
-                      <a
-                        href="#"
-                        role="menuitem"
-                        className={styles.mobileLoginItem}
-                        onClick={() => setMobileLoginOpen(false)}
-                      >
-                        <GraduationCap size={15} />
-                        {navDict?.studentLogin || "Öğrenci Girişi"}
-                      </a>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            </div>
 
             {/* LOGO */}
             <Link href={`/${currentLocale}`} className={styles.logo}>
@@ -712,19 +649,70 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 <div className={styles.loginBtnWrapper}>
                   <a href="#" className={styles.ctaBtn}>
                     <User size={16} />
-                    {navDict?.parentLogin || "Veli Girişi"}
+                    <span className={styles.ctaBtnText}>{navDict?.parentLogin || "Veli Girişi"}</span>
                   </a>
                   <a href="#" className={styles.ctaBtn}>
                     <GraduationCap size={16} />
-                    {navDict?.studentLogin || "Öğrenci Girişi"}
+                    <span className={styles.ctaBtnText}>{navDict?.studentLogin || "Öğrenci Girişi"}</span>
                   </a>
                 </div>
               </div>
 
             </div>
 
-            {/* MOBİL SAĞ GRUP: WhatsApp + konum (yalnızca <=1024px) */}
-            <div className={styles.mobileRight}>
+
+
+            {/* MOBİL MENÜ BUTONU (Hamburger - yalnızca <=1024px) */}
+            <div className={styles.mobileMenuBtnContainer}>
+              {/* Sadece <768px'de gösterilecek mobil giriş butonu */}
+              <div className={styles.mobileLoginWrapper} ref={mobileLoginRef}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMobileLoginOpen((v) => !v);
+                    setMobileMenuOpen(false);
+                  }}
+                  className={styles.mobileLoginChip}
+                  aria-label={navDict?.loginLabel || "Giriş"}
+                  aria-expanded={mobileLoginOpen}
+                  aria-haspopup="menu"
+                >
+                  <User size={18} aria-hidden="true" />
+                </button>
+
+                <AnimatePresence>
+                  {mobileLoginOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -6, scale: 0.97 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: -6, scale: 0.97 }}
+                      transition={{ duration: 0.16 }}
+                      className={styles.mobileLoginMenu}
+                      role="menu"
+                    >
+                      <a
+                        href="#"
+                        role="menuitem"
+                        className={styles.mobileLoginItem}
+                        onClick={() => setMobileLoginOpen(false)}
+                      >
+                        <User size={15} />
+                        {navDict?.parentLogin || "Veli Girişi"}
+                      </a>
+                      <a
+                        href="#"
+                        role="menuitem"
+                        className={styles.mobileLoginItem}
+                        onClick={() => setMobileLoginOpen(false)}
+                      >
+                        <GraduationCap size={15} />
+                        {navDict?.studentLogin || "Öğrenci Girişi"}
+                      </a>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               <a
                 href="https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu"
                 target="_blank"
@@ -736,6 +724,20 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 <MapPin size={14} aria-hidden="true" />
                 <span>Avcılar</span>
               </a>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileMenuOpen(!mobileMenuOpen);
+                  setMobileActiveDropdown(null);
+                  setMobileLoginOpen(false);
+                }}
+                className={styles.mobileIconBtn}
+                aria-label={mobileMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
+                aria-expanded={mobileMenuOpen}
+              >
+                {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
             </div>
           </div>
         </nav>
