@@ -670,12 +670,111 @@
 }
 
 /* Kademe 3: Telefon moduna yaklaşırken (1024px altı hamburger menüye geçiş) */
+/* Mobil ust cubuk gruplari: masaustunde gizli */
+.mobileLeft,
+.mobileRight {
+  display: none;
+}
+
+.mobileIconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+  /* Navbar zemini koyu lacivert oldugu icin ikonlar beyaz */
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: background 0.2s ease;
+}
+
+.mobileIconBtn:active {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* Tek renkli istisna: WhatsApp marka yesili */
+.mobileWhatsapp {
+  color: #25d366;
+}
+
+.mobileLoginWrapper {
+  position: relative;
+}
+
+.mobileLoginMenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  inset-inline-start: 0;
+  z-index: 1200;
+  min-width: 176px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  border-radius: 12px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
+  transform-origin: top left;
+}
+
+.mobileLoginItem {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mobileLoginItem:active {
+  background: var(--border-subtle);
+}
+
 @media (max-width: 1024px) {
   .navLinks {
     display: none;
   }
+  /* Hamburger artik sol grupta; eski sag taraftaki buton kullanilmiyor */
   .mobileBtn {
+    display: none;
+  }
+
+  /* Yan gruplar icerigi kadar yer kaplar; logo kalan alanda ortalanir.
+     Iki grup da 2'ser ikon tasidigi icin genislikleri esit, boylece
+     logo gercekten merkeze oturur. */
+  .mobileLeft,
+  .mobileRight {
     display: flex;
+    align-items: center;
+    gap: 0;
+    flex: 0 0 auto;
+  }
+  .mobileRight {
+    justify-content: flex-end;
+  }
+  .logo {
+    flex: 1 1 auto;
+    min-width: 0;
+    justify-content: center;
+  }
+  .mainLogo {
+    max-width: 128px;
+    height: auto;
+  }
+  .container {
+    gap: 4px;
+  }
+  .nav {
+    padding: 10px 8px;
   }
   .mobileCtaWrapper,
   .mobileLangList {
