@@ -3,6 +3,8 @@ import CardFanCarousel from "../../components/deneme/CardFanCarousel";
 import DenemeTabs from "../../components/deneme/DenemeTabs";
 import PremiumFaq from "../../components/deneme/PremiumFaq";
 import { CircularGalleryDemo } from "../../components/ui/CircularGalleryDemo";
+import CardStack from "../../components/deneme/CardStack";
+import styles from "./page.module.css";
 
 interface PageProps {
   params: Promise<{
@@ -28,24 +30,35 @@ export default async function DemoOne({ params }: PageProps) {
 
   return (
     <>
-      <main className="py-20 bg-zinc-50 overflow-hidden">
+      <main className={styles.main}>
+
+        {/* CARD STACK — Deneme Sandbox */}
+        <div className={styles.cardStackSection}>
+          <CardStack cards={[
+            { id: 1, badge: "Uluslararası Sertifika", title: "ISO 9001:2015", subtitle: "Kalite Yönetim Sistemi" },
+            { id: 2, badge: "Uluslararası Sertifika", title: "ISO 10002:2018", subtitle: "Müşteri Memnuniyeti" },
+            { id: 3, badge: "Küresel Başarı", title: "Avrupa'nın En İyisi", subtitle: "Best Language School" },
+            { id: 4, badge: "Ulusal Ödül", title: "TÖMER Onaylı", subtitle: "Milli Eğitim Bakanlığı" },
+            { id: 5, badge: "30+ Yıl Deneyim", title: "Akademik International", subtitle: "Türkiye Geneli #1" },
+          ]} />
+        </div>
 
         {/* NEW COMPONENT (CircularGallery) */}
-        <div className="mb-32">
+        <div className={styles.gallerySection}>
           <CircularGalleryDemo />
         </div>
 
         <CardFanCarousel cards={DEMO_CARDS} />
-        
-        <div className="mt-32">
+
+        <div className={styles.spacedSection}>
           <CourseHighlightTabs lang={lang} />
         </div>
 
-        <div className="mt-32">
+        <div className={styles.spacedSection}>
           <DenemeTabs />
         </div>
 
-        <div className="mt-32">
+        <div className={styles.spacedSection}>
           <PremiumFaq />
         </div>
       </main>
