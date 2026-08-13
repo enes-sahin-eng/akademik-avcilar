@@ -328,12 +328,41 @@
 /* AWARDS & CERTIFICATES */
 .awardsSection {
   width: 100%;
-  background: #172742;
-  border-radius: 24px;
-  padding: 72px 60px 64px;
-  margin-top: 140px; /* Increased to prevent overlap with review cards */
+  margin-top: 100px; /* Review kartlarıyla çakışmayı önlemek için */
+  /* Daha canlı/açık bir lacivert taban (koyu-kapalı --accent-navy-deep yerine)
+     + başlığın arkasında marka turuncusuyla belirgin bir "sahne ışığı",
+     köşelerde mavi/altın lekeler ve çok ince bir çapraz çizgi dokusu. */
+  background:
+    repeating-linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.02) 0px,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px,
+      transparent 34px
+    ),
+    radial-gradient(ellipse 620px 320px at 50% -8%, rgba(255, 138, 76, 0.28), transparent 68%),
+    radial-gradient(circle at 6% 105%, rgba(90, 170, 255, 0.24), transparent 55%),
+    radial-gradient(circle at 102% 10%, rgba(255, 194, 92, 0.16), transparent 50%),
+    linear-gradient(160deg, #1c3f6e 0%, #16305a 55%, #122548 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  padding: 52px 44px 44px;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  box-shadow: 0 22px 50px -18px rgba(6, 15, 30, 0.5);
+}
+
+/* Çok hafif grain: düz vektör hissini kırıyor */
+.awardsSection::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Subtle top-edge light line */
@@ -346,28 +375,55 @@
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.18), transparent);
   pointer-events: none;
+  z-index: 1;
+}
+
+.awardsHeader,
+.awardsMarqueeContainer,
+.awardsDivider,
+.certificatesGrid {
+  position: relative;
+  z-index: 1;
 }
 
 .awardsHeader {
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.awardsKicker {
+  color: var(--accent-orange-light, #ff9a5c);
+  margin-bottom: 10px;
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(0 0 14px rgba(255, 154, 92, 0.35));
 }
 
 .awardsTitle {
-  font-size: clamp(26px, 3.5vw, 44px);
-  font-weight: 800;
+  font-size: clamp(21px, 2.6vw, 32px);
+  font-weight: 600;
   letter-spacing: -0.03em;
-  line-height: 1.1;
+  line-height: 1.15;
   color: #ffffff;
   margin: 0;
+}
+
+.awardsTitle strong {
+  font-weight: 800;
+  background: linear-gradient(100deg, var(--accent-orange-light, #ff9a5c), var(--accent-orange, #f26522));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Awards — yavaş marquee */
 .awardsMarqueeContainer {
   width: 100%;
   overflow: hidden;
-  margin-top: 60px; /* Push plaques down from the title */
-  margin-bottom: 56px;
+  margin-top: 36px; /* Push plaques down from the title */
+  margin-bottom: 36px;
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
@@ -379,8 +435,8 @@
 
 .awardGroup {
   display: flex;
-  gap: 64px;
-  padding-right: 64px;
+  gap: 48px;
+  padding-right: 48px;
   align-items: center;
   animation: scrollAwards 32s linear infinite;
 }
@@ -409,65 +465,136 @@
 }
 
 .awardImg {
-  height: 160px;
+  height: 120px;
   width: auto;
-  max-width: 160px; /* Prevent horizontal overlap for wide plaque images */
+  max-width: 130px; /* Prevent horizontal overlap for wide plaque images */
   object-fit: contain;
 }
 
-/* Divider */
+/* Divider — kenarlara doğru soluklaşan ince geçiş, üstteki ışık çizgisiyle tutarlı */
 .awardsDivider {
   height: 1px;
-  background: rgba(255, 255, 255, 0.08);
-  margin-bottom: 48px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.16), transparent);
+  margin-bottom: 32px;
 }
 
-/* Certificates: 4-column static grid */
+/* Certificates: uniform matte kartlar + büyütme ipucu */
 .certificatesGrid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .certificateItem {
-  border-radius: 8px;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  background: transparent;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  /* Sertifika taramaları beyaz zeminli olduğu için beyaz bir "mat" üzerine
+     oturtmak, koyu lacivert zeminle çakışmayı önlüyor ve okunabilir kalıyor. */
+  background: #fbfbfd;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px;
   display: flex;
   justify-content: center;
+  box-shadow: 0 10px 22px -12px rgba(0, 0, 0, 0.45);
 }
 
-.certificateItem:hover {
-  transform: translateY(-8px) scale(1.03);
-  filter: drop-shadow(0 15px 30px rgba(251, 191, 36, 0.25));
+.certificateItem:hover,
+.certificateItem:focus-visible {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 18px 36px -14px rgba(0, 0, 0, 0.55);
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .certificateImg {
   width: 100%;
-  max-width: 180px;
+  max-width: 148px;
   height: auto;
   object-fit: contain;
   display: block;
+  border-radius: 4px;
+}
+
+.certificateZoomHint {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-navy-deep, #0b2239);
+  color: #fff;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+
+.certificateItem:hover .certificateZoomHint,
+.certificateItem:focus-visible .certificateZoomHint {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Sertifika büyütme modalı — video modalıyla aynı görsel dil */
+.certModalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.certModalContent {
+  position: relative;
+  max-width: min(90vw, 520px);
+  max-height: 85vh;
+  background: #fbfbfd;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+}
+
+.certModalImg {
+  width: 100%;
+  height: auto;
+  max-height: calc(85vh - 40px);
+  object-fit: contain;
   border-radius: 6px;
 }
 
 @media (max-width: 900px) {
-  .awardsSection { padding: 52px 32px 48px; border-radius: 16px; }
-  .awardGroup { gap: 40px; padding-right: 40px; }
-  .certificatesGrid { gap: 24px; }
-  .certificateImg { max-width: 150px; }
+  .awardsSection { padding: 40px 28px 36px; border-radius: 16px; }
+  .awardGroup { gap: 32px; padding-right: 32px; }
+  .certificatesGrid { gap: 18px; }
+  .certificateImg { max-width: 120px; }
 }
 
 @media (max-width: 480px) {
-  .awardsSection { padding: 40px 20px 36px; border-radius: 12px; margin-top: 48px; }
-  .awardsHeader { margin-bottom: 32px; }
+  .awardsSection { padding: 32px 18px 28px; border-radius: 12px; margin-top: 40px; }
+  .awardsHeader { margin-bottom: 24px; }
   .awardImg { height: 120px; }
   .certificatesGrid { gap: 16px; }
   .certificateImg { max-width: 130px; }
+  .certModalContent { padding: 14px; border-radius: 12px; }
 }
 
 @media (max-width: 768px) {
