@@ -306,8 +306,9 @@
 }
 
 .mainLogo {
-  height: 50px;
-  width: auto;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   object-fit: contain;
   transition: transform 0.2s;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.9)) drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.5));
@@ -697,9 +698,80 @@
   background: rgba(255, 255, 255, 0.14);
 }
 
+.mobileLoginChip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 14px;
+  height: 36px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.mobileLoginChip:active {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
 /* Tek renkli istisna: WhatsApp marka yesili */
 .mobileWhatsapp {
   color: #25d366;
+}
+
+/* Konum chip: pill şeklinde, canlı nabız efekti */
+.mobileLocationChip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 12px;
+  height: 36px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  letter-spacing: 0.02em;
+}
+
+.mobileLocationChip:active {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Nabız noktası: kırmızı nokta + dalgalanan halka */
+.locationPulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.locationPulse::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1.5px solid #22c55e;
+  animation: locationPing 1.8s ease-out infinite;
+}
+
+@keyframes locationPing {
+  0%   { transform: scale(1);   opacity: 0.7; }
+  100% { transform: scale(2.4); opacity: 0;   }
 }
 
 .mobileLoginWrapper {
@@ -755,11 +827,12 @@
   .mobileRight {
     display: flex;
     align-items: center;
-    gap: 0;
+    gap: 4px;
     flex: 0 0 auto;
   }
   .mobileRight {
     justify-content: flex-end;
+    min-width: 88px; /* mobileLeft ile esit: logo her zaman ortalanir */
   }
   .logo {
     flex: 1 1 auto;
@@ -767,8 +840,16 @@
     justify-content: center;
   }
   .mainLogo {
-    max-width: 128px;
-    height: auto;
+    width: auto;
+    max-width: 100%;
+    height: 38px;
+    object-fit: contain;
+  }
+  .mobileLoginText {
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #ffffff;
   }
   .container {
     gap: 4px;

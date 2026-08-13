@@ -416,12 +416,15 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                     setMobileLoginOpen((v) => !v);
                     setMobileMenuOpen(false);
                   }}
-                  className={styles.mobileIconBtn}
+                  className={styles.mobileLoginChip}
                   aria-label={navDict?.loginLabel || "Giriş"}
                   aria-expanded={mobileLoginOpen}
                   aria-haspopup="menu"
                 >
-                  <GraduationCap size={24} />
+                  <User size={14} aria-hidden="true" />
+                  <span className={styles.mobileLoginText}>
+                    {navDict?.loginLabel || "Giriş"}
+                  </span>
                 </button>
 
                 <AnimatePresence>
@@ -466,7 +469,6 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 title="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
                 width={200}
                 height={50}
-                style={{ width: 'auto' }}
                 className={styles.mainLogo}
                 priority
                 sizes="(max-width: 768px) 140px, 200px"
@@ -742,10 +744,12 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 href="https://www.google.com.tr/maps/place/Avc%C4%B1lar+Akademik+Yabanc%C4%B1+Dil+Kurslar%C4%B1+-+Avc%C4%B1lar+%C4%B0ngilizce+Kursu/@40.9828944,28.7172896,16z/data=!4m6!3m5!1s0x14caa1b2231bed03:0xb643688ca18a6ded!8m2!3d40.9828653!4d28.7224319!16s%2Fg%2F11w9xywqjq?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.mobileIconBtn}
+                className={styles.mobileLocationChip}
                 aria-label={navDict?.locationLabel || "Konum"}
               >
-                <MapPin size={24} />
+                <span className={styles.locationPulse} aria-hidden="true" />
+                <MapPin size={14} aria-hidden="true" />
+                <span>Avcılar</span>
               </a>
             </div>
           </div>
