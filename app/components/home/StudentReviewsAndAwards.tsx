@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./StudentReviewsAndAwards.module.css";
-import { Star, Quote } from "lucide-react";
+import { Star, Quote, Award } from "lucide-react";
 import Image from "next/image";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { VideoLightbox } from "./VideoLightbox";
+import { CertificateLightbox } from "./CertificateLightbox";
 
 interface Props {
   lang: Locale;
@@ -18,6 +19,14 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
   // Marquee'nin kesintisiz dönmesi için orijinal dizileri kullanıp CSS'te iki grup halinde render edeceğiz.
   const awards = dict.awards || [];
   const certificates = dict.certificates || [];
+
+  // Başlıktaki orta iki kelimeyi (ör. "Language School") vurgulamak için
+  // metni kelime bazında bölüyoruz — metin sözlükten aynen geliyor, sadece
+  // görsel vurgu ekleniyor.
+  const awardsTitleWords: string[] = (dict.awardsTitle || "").split(" ");
+  const awardsTitleBefore = awardsTitleWords.slice(0, 2).join(" ");
+  const awardsTitleHighlight = awardsTitleWords.slice(2, 4).join(" ");
+  const awardsTitleAfter = awardsTitleWords.slice(4).join(" ");
 
   return (
     <section className={styles.section}>
@@ -76,7 +85,12 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
         {/* AWARDS & CERTIFICATES SECTION */}
         <div className={styles.awardsSection}>
           <div className={styles.awardsHeader}>
-            <h2 className={styles.awardsTitle}>{dict.awardsTitle}</h2>
+            <Award className={styles.awardsKicker} size={22} strokeWidth={1.5} aria-hidden="true" />
+            <h2 className={styles.awardsTitle}>
+              {awardsTitleBefore}{" "}
+              <strong>{awardsTitleHighlight}</strong>{" "}
+              {awardsTitleAfter}
+            </h2>
           </div>
 
           {/* PLAQUES — yavaş marquee */}
@@ -101,24 +115,14 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
             </div>
           </div>
 
-          {/* CERTIFICATES — statik grid */}
+          {/* CERTIFICATES — kart ızgarası + büyütme lightbox'ı */}
           {certificates.length > 0 && (
             <>
               <div className={styles.awardsDivider} />
-              <div className={styles.certificatesGrid}>
-                {certificates.map((cert: any) => (
-                  <div key={cert.id} className={styles.certificateItem}>
-                    <Image
-                      src={cert.image}
-                      alt={`Uluslararası Dil Sertifikası ${cert.id}`}
-                      title="Uluslararası Dil Sertifikaları"
-                      width={300}
-                      height={200}
-                      className={styles.certificateImg}
-                    />
-                  </div>
-                ))}
-              </div>
+              <CertificateLightbox
+                certificates={certificates}
+                zoomLabel={dict.certificateZoomLabel}
+              />
             </>
           )}
         </div>
