@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.yokdilLandingPage?.meta || {
     title:
       lang === "en"
-        ? "YÖKDİL Preparation Course | Akademik International"
+        ? "YÖKDİL Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان YÖKDİL | Akademik International"
-          : "YÖKDİL Hazırlık Kursu | Fen, Sosyal ve Sağlık Bilimleri | Akademik International",
+          ? "دورة التحضير لامتحان YÖKDİL"
+          : "YÖKDİL Hazırlık Kursu | Fen, Sosyal ve Sağlık Bilimleri",
     description:
       lang === "en"
         ? "Prepare for the YÖKDİL exam with expert instructors specialized in Health, Science, and Social Sciences fields."

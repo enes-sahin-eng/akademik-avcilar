@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -39,10 +39,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.tercumeHizmetiLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Professional Translation Services | Akademik International"
+        ? "Professional Translation Services"
         : lang === "ar"
-          ? "خدمات الترجمة المهنية | Akademik International"
-          : "Profesyonel Tercüme Hizmetleri | Akademik International",
+          ? "خدمات الترجمة المهنية"
+          : "Profesyonel Tercüme Hizmetleri",
     description:
       lang === "en"
         ? "Fast, reliable, and sworn translation services for your personal and corporate documents."

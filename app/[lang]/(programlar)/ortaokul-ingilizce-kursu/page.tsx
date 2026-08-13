@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.ortaokulIngilizceLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Middle School English Course & Tutoring | Akademik International"
+        ? "Middle School English Course & Tutoring"
         : lang === "ar"
-          ? "دورة اللغة الإنجليزية للمرحلة المتوسطة | Akademik International"
-          : "Ortaokul İngilizce Kursu | LGS Hazırlık ve Konuşma Odaklı | Akademik International",
+          ? "دورة اللغة الإنجليزية للمرحلة المتوسطة"
+          : "Ortaokul İngilizce Kursu | LGS Hazırlık ve Konuşma Odaklı",
     description:
       lang === "en"
         ? "Conversation-focused English course for middle school students, supporting school grades and high school transition exams. Speak English fluently."

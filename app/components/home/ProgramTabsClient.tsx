@@ -23,14 +23,17 @@ interface ProgramTabsTranslations {
   };
 }
 
-function AnimatedProgramCard({ card }: { card: ProgramCard }) {
+function AnimatedProgramCard({ card, index }: { card: ProgramCard; index: number }) {
   return (
     <motion.div
       layout
-      initial={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, scale: 0.96 }}
       animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      transition={{ duration: 0.3 }}
+      exit={{ opacity: 0, scale: 0.96 }}
+      transition={{
+        duration: 0.3,
+        ease: "easeInOut",
+      }}
       className={styles.card}
     >
       <div className={styles.cardImgWrapper}>
@@ -239,8 +242,8 @@ export const ProgramTabsClient = ({ t }: { t: ProgramTabsTranslations }) => {
 
         <div className={styles.cardsGrid}>
           <AnimatePresence mode="popLayout">
-            {filteredCards.slice(0, visibleCount).map((card) => (
-              <AnimatedProgramCard key={card.id} card={card} />
+            {filteredCards.slice(0, visibleCount).map((card, index) => (
+              <AnimatedProgramCard key={card.id} card={card} index={index} />
             ))}
           </AnimatePresence>
         </div>

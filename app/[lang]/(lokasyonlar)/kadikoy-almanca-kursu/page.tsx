@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,9 +36,9 @@ export async function generateMetadata({
   const meta = (dict as any)?.kadikoyAlmancaLandingPage?.meta || {
     title:
       lang === "en"
-        ? "German Course in Kadıköy | Akademik International"
+        ? "German Course in Kadıköy"
         : lang === "ar"
-          ? "دورة اللغة الألمانية في كاديكوي | Akademik International"
+          ? "دورة اللغة الألمانية في كاديكوي"
           : "Kadıköy Almanca Kursu | İstanbul'un En İyi Dil Okulu",
     description:
       lang === "en"

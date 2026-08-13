@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -36,10 +36,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.goetheLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Goethe German Exam Preparation Course | Akademik International"
+        ? "Goethe German Exam Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان معهد جوته للغة الألمانية | Akademik International"
-          : "Goethe Almanca Sınavı Hazırlık Kursu | Akademik International",
+          ? "دورة التحضير لامتحان معهد جوته للغة الألمانية"
+          : "Goethe Almanca Sınavı Hazırlık Kursu",
     description:
       lang === "en"
         ? "Prepare for the Goethe exam with our experienced instructors for family reunification, academic, and professional goals in Germany."

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,9 +38,9 @@ export async function generateMetadata({
   const meta = (dict as any)?.cinceLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Chinese Language Course | Akademik International"
+        ? "Chinese Language Course"
         : lang === "ar"
-          ? "دورة اللغة الصينية | Akademik International"
+          ? "دورة اللغة الصينية"
           : "Çince Dil Kursu | Akademik Yabancı Dil Kursları",
     description:
       lang === "en"

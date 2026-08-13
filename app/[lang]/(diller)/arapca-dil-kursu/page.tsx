@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -39,9 +39,9 @@ export async function generateMetadata({
   const meta = (dict as any)?.arapcaLandingPage?.meta || {
     title:
       lang === "en"
-        ? "Arabic Language Course | Akademik International"
+        ? "Arabic Language Course"
         : lang === "ar"
-          ? "دورة اللغة العربية | Akademik International"
+          ? "دورة اللغة العربية"
           : "Arapça Dil Kursu | Akademik Yabancı Dil Kursları",
     description:
       lang === "en"

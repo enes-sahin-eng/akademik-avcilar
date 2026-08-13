@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -35,10 +35,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.tefLandingPage?.meta || {
     title:
       lang === "en"
-        ? "TEF Preparation Course (French) | Akademik International"
+        ? "TEF Preparation Course (French)"
         : lang === "ar"
-          ? "دورة التحضير لامتحان TEF | Akademik International"
-          : "TEF Sınavı Hazırlık Kursu (Fransızca) | Akademik International",
+          ? "دورة التحضير لامتحان TEF"
+          : "TEF Sınavı Hazırlık Kursu (Fransızca)",
     description:
       lang === "en"
         ? "Prepare for the TEF exam, which is valid for education, residence, and citizenship in France and Canada, with our expert trainers."

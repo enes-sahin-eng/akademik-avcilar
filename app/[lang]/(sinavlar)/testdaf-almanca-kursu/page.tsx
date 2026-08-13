@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -37,10 +37,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.testdafLandingPage?.meta || {
     title:
       lang === "en"
-        ? "TestDaF Preparation Course | Akademik International"
+        ? "TestDaF Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لاختبار TestDaF | Akademik International"
-          : "TestDaF Almanca Kursu | Akademik International",
+          ? "دورة التحضير لاختبار TestDaF"
+          : "TestDaF Almanca Kursu",
     description:
       lang === "en"
         ? "Prepare for the TestDaF exam with our expert instructors and comprehensive study materials for German university admission."

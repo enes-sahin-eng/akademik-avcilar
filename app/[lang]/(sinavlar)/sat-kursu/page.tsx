@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -35,10 +35,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.satLandingPage?.meta || {
     title:
       lang === "en"
-        ? "SAT Preparation Course | Akademik International"
+        ? "SAT Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان SAT | Akademik International"
-          : "SAT Sınavı Hazırlık Kursu | Akademik International",
+          ? "دورة التحضير لامتحان SAT"
+          : "SAT Sınavı Hazırlık Kursu",
     description:
       lang === "en"
         ? "Prepare for the SAT exam with our expert staff to study at prestigious universities in the US and around the world."

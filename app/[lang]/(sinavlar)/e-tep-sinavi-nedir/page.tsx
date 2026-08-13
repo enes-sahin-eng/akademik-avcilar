@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -39,10 +39,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.etepLandingPage?.meta || {
     title:
       lang === "en"
-        ? "What is E-TEP Exam? Exam Format and Preparation Course | Akademik International"
+        ? "What is E-TEP Exam? Exam Format and Preparation Course"
         : lang === "ar"
-          ? "ما هو امتحان E-TEP؟ تنسيق الامتحان ودورة التحضير | Akademik International"
-          : "E-TEP Sınavı Nedir? Sınav Formatı ve Hazırlık Kursu | Akademik International",
+          ? "ما هو امتحان E-TEP؟ تنسيق الامتحان ودورة التحضير"
+          : "E-TEP Sınavı Nedir? Sınav Formatı ve Hazırlık Kursu",
     description:
       lang === "en"
         ? "E-TEP (Electronic Test of English Proficiency) is a new-generation four-skill English proficiency test organized by ÖSYM. Learn about E-TEP format, question types and our preparation course."

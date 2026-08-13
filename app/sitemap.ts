@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/iletisim",
+    "/subelerimiz",
+    "/diger-diller",
     // Genel İngilizce
     "/ingilizce-kursu",
     "/temel-ingilizce-kursu-hazirlik",

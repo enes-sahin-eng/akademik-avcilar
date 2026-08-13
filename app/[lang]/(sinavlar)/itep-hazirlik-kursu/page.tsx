@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.itepLandingPage?.meta || {
     title:
       lang === "en"
-        ? "iTEP Preparation Course | Akademik International"
+        ? "iTEP Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان iTEP | Akademik International"
-          : "iTEP Hazırlık Kursu | Akademik International",
+          ? "دورة التحضير لامتحان iTEP"
+          : "iTEP Hazırlık Kursu",
     description:
       lang === "en"
         ? "Get ready for the iTEP exam with our expert instructors and internationally accredited curriculum."

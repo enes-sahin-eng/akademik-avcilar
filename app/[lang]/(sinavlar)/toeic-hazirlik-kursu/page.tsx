@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   getDictionary,
   locales,
@@ -38,10 +38,10 @@ export async function generateMetadata({
   const meta = (dict as any)?.toeicLandingPage?.meta || {
     title:
       lang === "en"
-        ? "TOEIC Preparation Course | Akademik International"
+        ? "TOEIC Preparation Course"
         : lang === "ar"
-          ? "دورة التحضير لامتحان TOEIC | Akademik International"
-          : "TOEIC Hazırlık Kursu | İş İngilizcesi Sınavı | Akademik International",
+          ? "دورة التحضير لامتحان TOEIC"
+          : "TOEIC Hazırlık Kursu | İş İngilizcesi Sınavı",
     description:
       lang === "en"
         ? "Achieve your target score in the TOEIC exam with our expert instructors scoring 990, specialized for corporate career goals."
