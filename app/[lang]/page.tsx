@@ -24,12 +24,13 @@ export default async function Home({ params }: PageProps) {
   const dictionary = await getDictionary(lang);
   const popupDict = (dictionary as any).languageInterestPopup;
   const seoIntro  = (dictionary as any).homeSeoIntro;
+  const seoH1     =
+    (dictionary as any).homeSeoH1 ??
+    "Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu";
 
   return (
     <div>
-      <h1 className="sr-only">
-        Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu
-      </h1>
+      <h1 className="sr-only">{seoH1}</h1>
       {seoIntro && <p className="sr-only">{seoIntro}</p>}
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
