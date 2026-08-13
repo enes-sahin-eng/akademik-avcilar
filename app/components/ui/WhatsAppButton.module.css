@@ -101,3 +101,11 @@
     height: 32px;
   }
 }
+
+/* Mobil/tablette alt navigasyon cubugu var (MobileBottomNav, 62px).
+   Buton onun ustune kaldiriliyor ki ustuste binmesinler. */
+@media (max-width: 1023px) {
+  .whatsappFloating {
+    bottom: calc(82px + env(safe-area-inset-bottom, 0px));
+  }
+}

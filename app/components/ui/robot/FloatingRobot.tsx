@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, useEffect, Suspense } from "react";
+import Image from "next/image";
 import { Canvas } from "@react-three/fiber";
 import { Environment, ContactShadows, Html } from "@react-three/drei";
 import { RobotPrototype } from "./RobotHero";
@@ -38,7 +39,8 @@ const T: Record<string, any> = {
     msgIntro: "Merhaba, şu eğitimle ilgileniyorum:",
     tooltip: "Sana nasıl yardımcı olabilirim?",
     title: "Eğitim Danışmanı",
-    status: "Çevrimiçi",
+    status: "IELTS Yetkili Sınav Merkezi",
+    online: "Çevrimiçi",
     ariaFab: "Asistanı Aç",
     examQ: "Hangi sınava hazırlanıyorsun?",
     exams: ["YDS", "YÖKDİL", "IELTS", "TOEFL", "PTE", "TestDaF", "Diğer"],
@@ -64,7 +66,8 @@ const T: Record<string, any> = {
     msgIntro: "Hello, I am interested in:",
     tooltip: "How can I help you?",
     title: "Education Advisor",
-    status: "Online",
+    status: "Authorised IELTS Test Centre",
+    online: "Online",
     ariaFab: "Open Assistant",
     examQ: "Which exam are you preparing for?",
     exams: ["YDS", "YÖKDİL", "IELTS", "TOEFL", "PTE", "TestDaF", "Other"],
@@ -97,7 +100,8 @@ const T: Record<string, any> = {
     msgIntro: "مرحبًا، أرغب في الحصول على معلومات حول الدورة:",
     tooltip: "كيف يمكنني مساعدتك؟",
     title: "المستشار التعليمي",
-    status: "متصل",
+    status: "مركز معتمد لاختبار IELTS",
+    online: "متصل",
     ariaFab: "افتح المساعد",
     examQ: "لأي امتحان تستعد؟",
     exams: ["YDS", "YÖKDİL", "IELTS", "TOEFL", "PTE", "TestDaF", "أخرى"],
@@ -383,11 +387,24 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
         >
           <header className={styles.header}>
             <div className={styles.headerLeft}>
+              <div className={styles.avatarWrap}>
+                <Image
+                  src="/brand/advisor-avatar.webp"
+                  alt="Akademik International"
+                  width={96}
+                  height={96}
+                  loading="eager"
+                  className={styles.avatarImg}
+                />
+                <span
+                  className={styles.statusDot}
+                  role="img"
+                  aria-label={t.online}
+                />
+              </div>
               <div className={styles.headerInfo}>
                 <div className={styles.headerTitle}>{t.title}</div>
-                <div className={styles.headerSub}>
-                  <div className={styles.statusDot} /> {t.status}
-                </div>
+                <div className={styles.headerSub}>{t.status}</div>
               </div>
             </div>
             <div className={styles.headerRight}>

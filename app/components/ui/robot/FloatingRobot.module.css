@@ -51,29 +51,48 @@
 .headerSub {
   font-size: 12px;
   color: #64748b;
-  display: flex;
-  align-items: center;
-  gap: 5px;
   margin-top: 2px;
+  line-height: 1.3;
 }
+/* Marka logosu avatar olarak; durum noktasi kosesine rozet gibi oturuyor */
+.avatarWrap {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.avatarImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+}
+
 .statusDot {
-  width: 7px;
-  height: 7px;
+  position: absolute;
+  bottom: -1px;
+  inset-inline-end: -1px; /* RTL'de otomatik olarak sol kose */
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background: #22c55e;
-  box-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 6px rgba(34, 197, 94, 0.5);
   animation: statusPulse 1.6s ease-in-out infinite;
 }
 
 @keyframes statusPulse {
   0%,
   100% {
-    opacity: 1;
-    box-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
+    background: #22c55e;
+    box-shadow: 0 0 6px rgba(34, 197, 94, 0.5);
   }
   50% {
-    opacity: 0.4;
-    box-shadow: 0 0 11px rgba(34, 197, 94, 0.85);
+    background: #86efac;
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.9);
   }
 }
 

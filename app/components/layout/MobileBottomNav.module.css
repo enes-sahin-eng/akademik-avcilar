@@ -1,0 +1,122 @@
+/* Mobil + tablet alt navigasyon cubugu. 1024px ve uzerinde gizlenir. */
+.bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: stretch;
+  height: 62px;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.06);
+  /* iPhone alt cubugu (home indicator) icin guvenli alan */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+:global([data-theme="dark"]) .bar {
+  background: #0b1f38;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Sabit cubuk sayfa sonunu ortmesin */
+:global(body) {
+  padding-bottom: calc(62px + env(safe-area-inset-bottom, 0px));
+}
+
+.item {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  text-decoration: none;
+  color: var(--text-secondary, #64748b);
+  padding: 6px 2px;
+  transition: color 0.2s ease;
+}
+
+.item:active {
+  color: var(--accent-blue);
+}
+
+.itemActive {
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.icon {
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 10px;
+  line-height: 1.15;
+  text-align: center;
+  /* Uzun etiketler cubugu bozmasin */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Ortadaki marka isareti: cubuktan yukari tasar */
+.brand {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.brandCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-top: -20px;
+  border-radius: 50%;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.14);
+}
+
+:global([data-theme="dark"]) .brandCircle {
+  background: #0b1f38;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.brandImg {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+/* Dar telefonlarda etiketler icin biraz daha yer ac */
+@media (max-width: 360px) {
+  .label {
+    font-size: 9px;
+  }
+  .icon {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+/* Masaustunde tamamen gizle */
+@media (min-width: 1024px) {
+  .bar {
+    display: none;
+  }
+  :global(body) {
+    padding-bottom: 0;
+  }
+}

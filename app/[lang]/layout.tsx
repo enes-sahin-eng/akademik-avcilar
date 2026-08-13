@@ -12,6 +12,7 @@ import {
 } from "../dictionaries/getDictionary";
 import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
+import { MobileBottomNav } from "../components/layout/MobileBottomNav";
 import FloatingRobotMount from "../components/ui/robot/FloatingRobotMount";
 import { getOrganizationSchema } from "../../src/utils/seo";
 
@@ -159,6 +160,7 @@ export default async function RootLayout({
         <ThemeProvider>
           {children}
           <Footer lang={lang} />
+          <MobileBottomNav lang={lang} />
           <FloatingRobotMount lang={lang} />
         </ThemeProvider>
       </body>
