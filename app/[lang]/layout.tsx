@@ -61,10 +61,10 @@ export async function generateMetadata({
 
   const titleSuffix =
     lang === "en"
-      ? "Akademik International Language Schools - Avcılar"
+      ? "Avcılar English Language Course"
       : lang === "ar"
-        ? "مدارس أكاديميك الدولية للغات - أفجيلار"
-        : "Akademik International Dil Okulları - Avcılar";
+        ? "دورة أفجيلار لتعليم اللغة الإنجليزية"
+        : "Avcılar İngilizce Dil Kursu";
 
   return {
     metadataBase: new URL(siteUrl),

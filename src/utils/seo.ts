@@ -5,7 +5,7 @@ export const getOrganizationSchema = (siteUrl: string) => {
     "@context": "https://schema.org",
     "@type": "LanguageSchool",
     "@id": `${baseUrl}/#organization`,
-    "name": "Akademik International Yabancı Dil Okulları",
+    "name": "Avcılar İngilizce Dil Kursu",
     "url": baseUrl,
     "logo": `${baseUrl}/brand/logo2.png`,
     "description": "İstanbul Avcılar merkezli, 12 şubeli yabancı dil okulu. İngilizce, Almanca ve sınav hazırlık (IELTS, YDS, TOEFL, GOETHE) programları ile konuşma garantili dil eğitimi.",
