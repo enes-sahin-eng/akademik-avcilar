@@ -148,7 +148,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
       if (!isDraggingRef.current) return;
       
       const deltaX = e.clientX - startXRef.current;
-      const dragFactor = window.innerWidth < 768 ? 0.85 : 0.35;
+      const dragFactor = window.innerWidth < 768 ? 0.4 : 0.18;
       const rotationDelta = deltaX * dragFactor;
 
       rotationRef.current = lastDragRotationRef.current + rotationDelta;

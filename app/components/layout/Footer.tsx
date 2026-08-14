@@ -210,13 +210,13 @@ export const Footer = async ({ lang }: Props) => {
             <div className={styles.sectionHeading}>{footerData.partnersTitle}</div>
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/british.webp" alt="British Council & IELTS" title="British Council & IELTS" height={60} width={250} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/british.webp" alt="British Council & IELTS" title="British Council & IELTS" height={60} width={250} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/pearson.webp" alt="Pearson PTE" title="Pearson PTE" height={60} width={180} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/pearson.webp" alt="Pearson PTE" title="Pearson PTE" height={60} width={180} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/language.webp" alt="LanguageCert" title="LanguageCert" height={60} width={220} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/language.webp" alt="LanguageCert" title="LanguageCert" height={60} width={220} className={styles.logoImg} />
               </div>
             </div>
           </div>
@@ -225,22 +225,22 @@ export const Footer = async ({ lang }: Props) => {
             <Image src="/brand/group-companies.svg" alt="Akademik International Group Companies" title="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/logo.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/logo.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/akademikAbroad.webp" alt="AKADEMİK ABROAD" title="AKADEMİK ABROAD" height={45} width={150} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/akademikAbroad.webp" alt="AKADEMİK ABROAD" title="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/akademikPublishing.webp" alt="The Academic Publishing" title="The Academic Publishing" height={45} width={120} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/akademikPublishing.webp" alt="The Academic Publishing" title="The Academic Publishing" height={45} width={120} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/akademikKoleji.svg" alt="AKADEMİK Koleji International School" title="AKADEMİK Koleji International School" height={45} width={160} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/akademikKoleji.svg" alt="AKADEMİK Koleji International School" title="AKADEMİK Koleji International School" height={45} width={160} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/akademikKids.svg" alt="AKADEMİK Kids" title="AKADEMİK Kids" height={45} width={160} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/akademikKids.svg" alt="AKADEMİK Kids" title="AKADEMİK Kids" height={45} width={160} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/akademikAdult.webp" alt="AKADEMİK adult" title="AKADEMİK adult" height={45} width={150} style={{ width: 'auto' }} className={styles.logoImg} />
+                <Image src="/brand/akademikAdult.webp" alt="AKADEMİK adult" title="AKADEMİK adult" height={45} width={150} className={styles.logoImgSmall} />
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@ export const Footer = async ({ lang }: Props) => {
           <div className={styles.devCredit}>
             <div className={styles.creditContainer}>
               {footerData.designBy} <strong>ideaZone</strong>
-              <Image src="/brand/designer-logo.jpg" alt="ideaZone Logo" title="ideaZone Logo" width={40} height={18} style={{ width: 'auto' }} className={styles.designerLogo} />
+              <Image src="/brand/designer-logo.jpg" alt="ideaZone Logo" title="ideaZone Logo" width={40} height={18} className={styles.designerLogo} />
             </div>
           </div>
         </div>

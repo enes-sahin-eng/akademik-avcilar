@@ -77,7 +77,7 @@ export default async function PlacementTestBanner({ lang }: Props) {
           <div className="pt-avatar-ring">
             <div className="pt-avatar">
               <Image
-                src="/brand/mascot-peek.png"
+                src="/brand/mascot-peek.webp"
                 alt={t?.avatarAlt || "Avcılar İngilizce Kursu Eğitim Danışmanı"}
                 title={t?.avatarTitle || "Avcılar Dil Okulu Seviye Sınavı"}
                 width={44}
