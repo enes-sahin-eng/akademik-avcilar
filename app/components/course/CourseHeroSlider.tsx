@@ -42,10 +42,10 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
             src="/image.webp"
             alt={
               heroData?.title
-                ? `${heroData.title} - Akademik International Yabancı Dil Okulları`
-                : "Akademik International Kurs Programı"
+                ? `${heroData.title} - Avcılar İngilizce Dil Kursu`
+                : "Avcılar İngilizce Dil Kursu Kurs Programı"
             }
-            title={heroData?.title || "Akademik International Kurs Programı"}
+            title={heroData?.title || "Avcılar İngilizce Dil Kursu Kurs Programı"}
             fill
             sizes="100vw"
             className={styles.bgImage}
