@@ -402,7 +402,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
                 title="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
                 width={200}
-                height={50}
+                height={40}
                 className={styles.mainLogo}
                 priority
                 sizes="(max-width: 768px) 140px, 200px"

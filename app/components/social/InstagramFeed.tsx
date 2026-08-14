@@ -33,34 +33,38 @@ interface InstagramPost {
 // When you have the Meta API, replace this function with your actual fetch call:
 // const res = await fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url&access_token=${process.env.IG_TOKEN}`);
 async function getInstagramPosts(): Promise<InstagramPost[]> {
+  // Gerçek Meta API bağlanana kadar, dış siteden (Unsplash) alakasız stok
+  // fotoğraf çekmek yerine sitenin kendi gerçek kampüs/ders görselleri
+  // kullanılıyor — hem daha uygun içerik hem next/image tarafından optimize
+  // edilebiliyor (harici URL'de "unoptimized" zorunluydu).
   return [
     {
       id: '1',
-      media_url: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop',
+      media_url: '/sliders/slider1.webp',
       permalink: '#',
       caption: 'Öğrencilerimizle harika bir ders!',
     },
     {
       id: '2',
-      media_url: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop',
+      media_url: '/sliders/slider2.webp',
       permalink: '#',
       caption: 'Akademik başarılar devam ediyor.',
     },
     {
       id: '3',
-      media_url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop',
+      media_url: '/sliders/slider3.webp',
       permalink: '#',
       caption: 'Eğitimde sınır tanımıyoruz.',
     },
     {
       id: '4',
-      media_url: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop',
+      media_url: '/sliders/slider4.webp',
       permalink: '#',
       caption: 'İngilizce kurslarımıza hemen kayıt olun!',
     },
     {
       id: '5',
-      media_url: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=800&auto=format&fit=crop',
+      media_url: '/sliders/slider5.webp',
       permalink: '#',
       caption: 'Yeni kampüsümüzde ilk gün heyecanı.',
     },
@@ -105,12 +109,12 @@ export default async function InstagramFeed({ lang }: { lang?: string }) {
               rel="noopener noreferrer"
               className={styles.postItem}
             >
-              <Image 
-                src={post.media_url} 
-                alt={t?.posts?.[index] || post.caption || "Instagram Post"} title={t?.posts?.[index] || post.caption || "Instagram Post"} 
-                fill 
-                className={styles.image} 
-                unoptimized // for external unsplash URLs without Next config
+              <Image
+                src={post.media_url}
+                alt={t?.posts?.[index] || post.caption || "Instagram Post"} title={t?.posts?.[index] || post.caption || "Instagram Post"}
+                fill
+                sizes="(max-width: 768px) 50vw, 20vw"
+                className={styles.image}
               />
               <div className={styles.overlay}>
                 <InstagramIcon size={32} className={styles.overlayIcon} />

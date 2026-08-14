@@ -39,7 +39,7 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
         {/* BACKGROUND IMAGE */}
         <div className={styles.bgWrapper}>
           <Image
-            src="/image.png"
+            src="/image.webp"
             alt={
               heroData?.title
                 ? `${heroData.title} - Akademik International Yabancı Dil Okulları`
