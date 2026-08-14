@@ -35,37 +35,38 @@ interface InstagramPost {
 async function getInstagramPosts(): Promise<InstagramPost[]> {
   // Gerçek Meta API bağlanana kadar, dış siteden (Unsplash) alakasız stok
   // fotoğraf çekmek yerine sitenin kendi gerçek kampüs/ders görselleri
-  // kullanılıyor — hem daha uygun içerik hem next/image tarafından optimize
-  // edilebiliyor (harici URL'de "unoptimized" zorunluydu).
+  // ("Kursumuzdan Kareler" galerisiyle aynı fotoğraflar) kullanılıyor —
+  // hem daha uygun içerik hem next/image tarafından optimize edilebiliyor
+  // (harici URL'de "unoptimized" zorunluydu).
   return [
     {
       id: '1',
-      media_url: '/sliders/slider1.webp',
-      permalink: '#',
+      media_url: '/course_photos/kursumuzdan-kareler-1.webp',
+      permalink: 'https://www.instagram.com/avcilarakademik',
       caption: 'Öğrencilerimizle harika bir ders!',
     },
     {
       id: '2',
-      media_url: '/sliders/slider2.webp',
-      permalink: '#',
+      media_url: '/course_photos/kursumuzdan-kareler-2.webp',
+      permalink: 'https://www.instagram.com/avcilarakademik',
       caption: 'Akademik başarılar devam ediyor.',
     },
     {
       id: '3',
-      media_url: '/sliders/slider3.webp',
-      permalink: '#',
+      media_url: '/course_photos/kursumuzdan-kareler-3.webp',
+      permalink: 'https://www.instagram.com/avcilarakademik',
       caption: 'Eğitimde sınır tanımıyoruz.',
     },
     {
       id: '4',
-      media_url: '/sliders/slider4.webp',
-      permalink: '#',
+      media_url: '/course_photos/kursumuzdan-kareler-4.webp',
+      permalink: 'https://www.instagram.com/avcilarakademik',
       caption: 'İngilizce kurslarımıza hemen kayıt olun!',
     },
     {
       id: '5',
-      media_url: '/sliders/slider5.webp',
-      permalink: '#',
+      media_url: '/course_photos/kursumuzdan-kareler-5.webp',
+      permalink: 'https://www.instagram.com/avcilarakademik',
       caption: 'Yeni kampüsümüzde ilk gün heyecanı.',
     },
   ];
