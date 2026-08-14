@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -179,29 +178,6 @@ export const MegaMenuGenelIngilizce: React.FC<{ data: any }> = ({ data }) => {
             );
           })}
         </div>
-      </div>
-
-      {/* Sağ Taraf - Promosyon */}
-      <div className={styles.megaMenuRight}>
-        <div className={styles.promoTitle}>{megaMenu.promo.title}</div>
-        <div className={styles.promoImageWrapper}>
-          <Image
-            src="/sliders/gemini1.webp"
-            alt="The Academic Publishing - Akademik International İngilizce Kurs Kitapları ve Yeni Sezon Yayınları"
-            title="Akademik International Yayınları - Yeni Sezon Kitapları"
-            className={styles.promoImage}
-            width={160}
-            height={220}
-          />
-        </div>
-        <a
-          href="https://theacademicpublishing.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.promoBtn}
-        >
-          {megaMenu.promo.button}
-        </a>
       </div>
     </motion.div>
   );

@@ -1016,7 +1016,7 @@
   "prepPage": {
     "about": {
       "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -1055,8 +1055,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1178,8 +1178,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1301,8 +1301,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1424,8 +1424,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1547,8 +1547,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1632,7 +1632,7 @@
     "about": {
       "badge": "ALL LEVELS / A1 TO C1",
       "title": "Achieve Your Goals with General English Courses",
-      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and <strong>The Academic Publishing</strong> resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
+      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and our own original resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
       "skills": [
         {
           "id": "grammar",
@@ -1670,8 +1670,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1785,7 +1785,7 @@
   "akademikIngilizceLandingPage": {
     "about": {
       "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -1824,8 +1824,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -2151,7 +2151,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
           "icon": "BookOpen"
         },
@@ -2682,7 +2682,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
           "icon": "BookOpen"
         },
@@ -3595,7 +3595,7 @@
         },
         {
           "q": "Do you provide the training materials?",
-          "a": "Yes, we use up-to-date resources prepared according to exam strategies by our institution's publisher, The Academic Publishing."
+          "a": "Yes, we use up-to-date resources prepared according to exam strategies by our own in-house publisher."
         },
         {
           "q": "How can I overcome exam stress?",
@@ -3731,7 +3731,7 @@
         "desc": "The IELTS exam serves as a bridge leading people to their dreams and target goals. While climbing the career ladder, the most critical resource to save is time. We organize the best-fit IELTS Preparation Course plan to help you reach your target score without losing time.",
         "bullets": [
           "Instructors with top scores and years of exam experience",
-          "Up-to-date exam strategy resources exclusive to our institution by The Academic Publishing",
+          "Up-to-date exam strategy resources exclusive to our institution",
           "Online interactive learning option via the İngilizce UZEM platform",
           "Training focused on 4 core skills in boutique classes of 7–10 students"
         ],
@@ -6107,7 +6107,7 @@
       "description": "We meet your expectations with goal-oriented classes, accurate level assessment, and an active usage mindset, which are the most critical points in searching for a German course in Istanbul.",
       "features": [
         "Special German curriculum developed for adults for the first time in Turkey.",
-        "Global standard education using London-based The Academic Publishing resources.",
+        "Global standard education using our own original resources.",
         "Native speaker instructors (native German speakers) and certified teaching staff.",
         "Regular extracurricular activities and cultural experience opportunities."
       ]
@@ -6208,7 +6208,7 @@
     "seoContent": [
       {
         "title": "Best German Course Standards in Istanbul",
-        "desc": "In the search for the best German course in Istanbul, success is measured not only by the presence of a curriculum, but also by up-to-date lesson content, resource quality, and a goal-oriented teaching method. In our Kadıköy German course programs, we use London-based The Academic Publishing materials, which directly affect your learning speed. This way, instead of old and boring texts, you cover current topics and master modern vocabulary structures. Your language proficiency is brought to the highest level by global standards.",
+        "desc": "In the search for the best German course in Istanbul, success is measured not only by the presence of a curriculum, but also by up-to-date lesson content, resource quality, and a goal-oriented teaching method. In our Kadıköy German course programs, we use our own original materials, which directly affect your learning speed. This way, instead of old and boring texts, you cover current topics and master modern vocabulary structures. Your language proficiency is brought to the highest level by global standards.",
         "bullets": [
           "Innovative language curriculum developed specially for adults",
           "Practical and speaking-oriented lessons, far from grammar memorization",
@@ -7693,7 +7693,7 @@
       },
       {
         "title": "Best TORFL Course Recommendation",
-        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and The Academic Publishing resources."
+        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and our own original resources."
       }
     ]
   },
@@ -8409,7 +8409,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
-      "description": "Learn German, which is at the forefront of international fields such as trade, industry, technology, and automotive, without memorization through Academic Publishing resources."
+      "description": "Learn German, which is at the forefront of international fields such as trade, industry, technology, and automotive, without memorization through our own original resources."
     },
     "about": {
       "badge": "INTERNATIONAL STANDARDS",
@@ -8434,7 +8434,7 @@
         {
           "id": "de-academic",
           "title": "Qualified Resources",
-          "desc": "For the first time in Turkey, education models designed for individuals of all ages and Academic Publishing publishing house resources."
+          "desc": "For the first time in Turkey, education models designed for individuals of all ages and our own publishing house resources."
         }
       ],
       "description": "In line with the format and function of the European Language Portfolio, we provide German language proficiency from beginner level up to your target advanced level.",
@@ -8501,7 +8501,7 @@
       },
       {
         "title": "VIP Classes and 4 Core Skills Focused Education",
-        "desc": "Our courses, offered at Bursa, Istanbul, Izmir, Ankara, and Eskisehir campuses, are shaped by course content suitable for your background as an adult. In VIP classes of 4-6 people, with lessons taught like private tutoring, you can learn the language in its natural flow and use it in the most effective way. Developing educational models for individuals of all ages for the first time in Turkey and crowning this education with Academic Publishing resources, our institution ensures that you develop your 4 core skills in reading, writing, listening, and speaking without losing time."
+        "desc": "Our courses, offered at Bursa, Istanbul, Izmir, Ankara, and Eskisehir campuses, are shaped by course content suitable for your background as an adult. In VIP classes of 4-6 people, with lessons taught like private tutoring, you can learn the language in its natural flow and use it in the most effective way. Developing educational models for individuals of all ages for the first time in Turkey and crowning this education with our own publishing resources, our institution ensures that you develop your 4 core skills in reading, writing, listening, and speaking without losing time."
       }
     ],
     "whyUs": {
@@ -8527,7 +8527,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Up-to-date and qualified foreign language resources aligned with our well-established institution's educational model.",
           "icon": "BookOpen"
         },
@@ -8864,7 +8864,7 @@
         "Turkey's first original Persian education models developed for adults.",
         "Experienced staff who are native Persian speakers or have academic-level mastery of the language.",
         "A student-friendly and practice-oriented curriculum that eliminates classical difficulties.",
-        "Specially prepared, qualified resources belonging to The Academic Publishing house."
+        "Specially prepared, qualified resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -8964,7 +8964,7 @@
         },
         {
           "title": "Original Publications",
-          "desc": "Materials specially prepared within The Academic Publishing and suitable for the language logic of adults.",
+          "desc": "Materials specially prepared in-house and suitable for the language logic of adults.",
           "icon": "BookOpen"
         }
       ]
@@ -9010,7 +9010,7 @@
         },
         {
           "q": "What sets your institution apart from other language schools?",
-          "a": "The corporate assurance of being a British Council Consular Partner and IELTS Authorized Exam Center, our adult-tailored education models introduced for the first time in Turkey, and our original resources under The Academic Publishing brand elevate us to the top of language education."
+          "a": "The corporate assurance of being a British Council Consular Partner and IELTS Authorized Exam Center, our adult-tailored education models introduced for the first time in Turkey, and our own original resources elevate us to the top of language education."
         }
       ]
     }
@@ -9070,7 +9070,7 @@
         "Expert and experienced teaching staff who are native Chinese speakers.",
         "Curriculum designed with student-centered and modern learning methods.",
         "Systematic progression from level 1 to level 6, fully compatible with the HSK exam format.",
-        "VIP classes and exclusive resources belonging to The Academic Publishing house."
+        "VIP classes and exclusive resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -9151,7 +9151,7 @@
       },
       {
         "title": "Turkey's Best Chinese Course Recommendation",
-        "desc": "Our institution, which is frequently mentioned across all platforms in research for the Best Chinese Course recommendations, offers you the most comprehensive Far Eastern language education in Turkey. With the assurance of being a British Council consular partner and an IELTS Authorized Exam Center, you can shape your future at our Istanbul, Bursa, Eskisehir, Izmir, Ankara, and Kocaeli campuses. You can contact us anytime to get detailed information about our adult-tailored education models and The Academic Publishing resources."
+        "desc": "Our institution, which is frequently mentioned across all platforms in research for the Best Chinese Course recommendations, offers you the most comprehensive Far Eastern language education in Turkey. With the assurance of being a British Council consular partner and an IELTS Authorized Exam Center, you can shape your future at our Istanbul, Bursa, Eskisehir, Izmir, Ankara, and Kocaeli campuses. You can contact us anytime to get detailed information about our adult-tailored education models and our own original resources."
       }
     ],
     "whyUs": {
@@ -9177,8 +9177,8 @@
           "icon": "Users"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Qualified Chinese materials at international standards from our London-based publishing house.",
+          "title": "Original Learning Resources",
+          "desc": "Qualified Chinese materials at international standards from our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -9294,7 +9294,7 @@
         "Original educational models developed for the first time in Turkey for individuals of all ages.",
         "Abundant practice and Q&A opportunities in VIP classes with a capacity of 5-7 people.",
         "Education spanning from daily expressions to academic levels with a student-centered approach.",
-        "Qualified curriculum supported by resources from The Academic Publishing house."
+        "Qualified curriculum supported by resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -9505,7 +9505,7 @@
       "description": "At the end of the basic training, our students both efficiently learn the Korean language structure and increase their aptitude through practical exercises.",
       "features": [
         "Special strategies for Turkish students that turn Ural-Altaic language similarities into an advantage.",
-        "Special course materials supported by The Academic Publishing that facilitate learning.",
+        "Special course materials from our own publishing house that facilitate learning.",
         "Level tracking through regular mock exams and rapid correction of deficiencies.",
         "A holistic approach covering Korean culture, literature, and the historical development of the language."
       ]
@@ -9588,7 +9588,7 @@
       },
       {
         "title": "Educational Objectives and Scope of Our Korean Course",
-        "desc": "The main objective of the Korean courses we offer at our Bursa, Istanbul, Ankara, Izmir, Tekirdag, and Eskisehir campuses is to maximize the academic language skills that individuals need in fields such as Social Sciences, Natural Sciences, Health, and social life. Aiming to build competence in four core skills (Listening, Speaking, Writing, Reading), our program enables students to grasp the essentials of the Korean language both scientifically and formally. With the assurance of being a British Council Consular Partner and IELTS Authorized Exam Center; we create a unique educational opportunity in Turkey with VIP classes, makeup classes in a Live Studio environment, our native/foreign instructor team of academic background, and The Academic Publishing resources."
+        "desc": "The main objective of the Korean courses we offer at our Bursa, Istanbul, Ankara, Izmir, Tekirdag, and Eskisehir campuses is to maximize the academic language skills that individuals need in fields such as Social Sciences, Natural Sciences, Health, and social life. Aiming to build competence in four core skills (Listening, Speaking, Writing, Reading), our program enables students to grasp the essentials of the Korean language both scientifically and formally. With the assurance of being a British Council Consular Partner and IELTS Authorized Exam Center; we create a unique educational opportunity in Turkey with VIP classes, makeup classes in a Live Studio environment, our native/foreign instructor team of academic background, and our own original resources."
       }
     ],
     "whyUs": {
@@ -9671,7 +9671,7 @@
         },
         {
           "q": "What is the advantage of your institution's custom resources?",
-          "a": "Unlike standard books, our resources belonging to London-based publisher The Academic Publishing are custom-designed for the institution to suit Turkish students' language learning logic (especially Ural-Altaic similarities), accelerating learning."
+          "a": "Unlike standard books, our own in-house resources are custom-designed for the institution to suit Turkish students' language learning logic (especially Ural-Altaic similarities), accelerating learning."
         }
       ]
     }
@@ -10133,7 +10133,7 @@
       "description": "Following our placement test, our expert instructors with master's or doctoral degrees determine the most ideal education program for you.",
       "features": [
         "The first original education model designed specifically for adults in Turkey.",
-        "Video materials, practice exams, and The Academic Publishing resources that facilitate learning.",
+        "Video materials, practice exams, and our own original resources that facilitate learning.",
         "Enjoyable sessions focused on interactive speaking practice instead of a boring classroom environment.",
         "A current curriculum with a scientific foundation valid both domestically and internationally."
       ]
@@ -10216,7 +10216,7 @@
       },
       {
         "title": "Most Recommended Turkish Course Experience",
-        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Academic Foreign Language Courses has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our original publications under The Academic Publishing brand, we aim to take you to the highest points on the career ladder."
+        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Academic Foreign Language Courses has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
       }
     ],
     "whyUs": {
@@ -10253,7 +10253,7 @@
         },
         {
           "title": "Original Publications",
-          "desc": "Lessons supported by The Academic Publishing resources exclusive to our institution's students.",
+          "desc": "Lessons supported by original resources exclusive to our institution's students.",
           "icon": "BookOpen"
         }
       ]
@@ -10359,7 +10359,7 @@
         "A curriculum teaching basic grammar, noun declensions, verb conjugations, and the complex syntax structure of Latin.",
         "Practical applications that impart skills to follow Latin visual and auditory media, rather than just theoretical study.",
         "Specially designed terminology studies for lawyers, doctors, academicians, and history researchers.",
-        "Student-centered modern education methods supported by The Academic Publishing resources."
+        "Student-centered modern education methods supported by our own original resources."
       ]
     },
     "gradeTabs": {
@@ -10440,7 +10440,7 @@
       },
       {
         "title": "Turkey's Best Recommended Latin Course",
-        "desc": "If you want to learn a language with high academic weight like Latin, Academic International—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with The Academic Publishing resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
+        "desc": "If you want to learn a language with high academic weight like Latin, Academic International—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with our own original resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
       }
     ],
     "whyUs": {
@@ -10664,7 +10664,7 @@
       },
       {
         "title": "Dutch Course Prices and Best Course Recommendations",
-        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Academic Foreign Language Courses makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with The Academic Publishing resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
+        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Academic Foreign Language Courses makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with our own original resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
       }
     ],
     "whyUs": {
@@ -10701,7 +10701,7 @@
         },
         {
           "title": "Original Resources",
-          "desc": "Exam-oriented, technology-integrated materials belonging to London-based The Academic Publishing.",
+          "desc": "Exam-oriented, technology-integrated materials from our own publishing house.",
           "icon": "BookOpen"
         }
       ]
@@ -10774,7 +10774,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
-      "description": "Learn Spanish, the 3rd most spoken official language in the world, with Academic Publishing resources without memorization."
+      "description": "Learn Spanish, the 3rd most spoken official language in the world, with our own original resources without memorization."
     },
     "about": {
       "badge": "WORLD'S 3RD MOST SPOKEN LANGUAGE",
@@ -10916,7 +10916,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Up-to-date and quality foreign language resources.",
           "icon": "BookOpen"
         },
@@ -11149,7 +11149,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Quality language resources.",
           "icon": "BookOpen"
         },
@@ -11360,7 +11360,7 @@
       },
       {
         "title": "Best Portuguese Course Recommendation",
-        "desc": "Akademik International Foreign Language Schools continue to provide quality service with VIP classes, technology-integrated models, and Academic Publishing resources."
+        "desc": "Akademik International Foreign Language Schools continue to provide quality service with VIP classes, technology-integrated models, and our own original resources."
       }
     ],
     "whyUs": {
@@ -11386,8 +11386,8 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
-          "desc": "Supported by London-based Academic Publishing.",
+          "title": "Original Learning Resources",
+          "desc": "Supported by our own publishing resources.",
           "icon": "BookOpen"
         },
         {
@@ -11627,7 +11627,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Rich course materials from London-based publishers.",
           "icon": "BookOpen"
         },
@@ -11810,7 +11810,7 @@
       {
         "level": "h2",
         "title": "Kadıköy English Course Prices 2026",
-        "desc": "<b>Kadıköy English Course Prices 2026</b> generally vary between 18.000 ₺ and 95.000 ₺. This price range differs according to the total course hour intensity, class size, and additional materials offered. As Akademik International Language Courses, which has an advantageous position in the <b>Kadıköy English Course Prices 2026</b> term, we have adopted the principle of offering our national experience in the center of Istanbul at accessible costs. We see the education fee not as an expense item, but as a value that will return with the competencies it will bring.<br/>We cover all the materials you will need throughout your education process with the publication support of \"The Academic Publishing\" at global standards. When you compare with <b>Kadıköy English Course Prices 2026</b>, the course hour density, free activities, and resource quality we offer place our institution at the top in the \"Price/Benefit\" balance. Kadıköy language course prices are designed with installment options and flexible payment plans that will not strain our students' economic planning. Our goal is to enable you to focus solely on language development without budget concerns.<br/><br/><b>Kadıköy English Course Prices 2026:</b>",
+        "desc": "<b>Kadıköy English Course Prices 2026</b> generally vary between 18.000 ₺ and 95.000 ₺. This price range differs according to the total course hour intensity, class size, and additional materials offered. As Akademik International Language Courses, which has an advantageous position in the <b>Kadıköy English Course Prices 2026</b> term, we have adopted the principle of offering our national experience in the center of Istanbul at accessible costs. We see the education fee not as an expense item, but as a value that will return with the competencies it will bring.<br/>We cover all the materials you will need throughout your education process with our own publication support at global standards. When you compare with <b>Kadıköy English Course Prices 2026</b>, the course hour density, free activities, and resource quality we offer place our institution at the top in the \"Price/Benefit\" balance. Kadıköy language course prices are designed with installment options and flexible payment plans that will not strain our students' economic planning. Our goal is to enable you to focus solely on language development without budget concerns.<br/><br/><b>Kadıköy English Course Prices 2026:</b>",
         "table": {
           "headers": [
             "English Level",
@@ -14004,7 +14004,7 @@
         },
         {
           "q": "What Teaching System Do You Use in English Courses?",
-          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using original resources from The Academic Publishing, current and relevant topics are addressed to maximise your language proficiency."
+          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using our own original resources, current and relevant topics are addressed to maximise your language proficiency."
         }
       ]
     },
@@ -14349,7 +14349,7 @@
         },
         {
           "title": "Proprietary Study Materials",
-          "desc": "Up-to-date, exam-specific materials from our in-house publisher, The Academic Publishing.",
+          "desc": "Up-to-date, exam-specific materials from our own in-house publisher.",
           "icon": "MessageCircle"
         }
       ]
@@ -14456,7 +14456,7 @@
         {
           "id": "material",
           "title": "Up-to-Date Materials",
-          "desc": "Language-specific original resources from our publishing house, The Academic Publishing."
+          "desc": "Language-specific original resources from our own publishing house."
         }
       ],
       "description": "Experience fast and lasting learning in your target language with Akademik International's expert teaching staff and proven methodology.",
@@ -14619,7 +14619,7 @@
         },
         {
           "title": "Custom Materials",
-          "desc": "Up-to-date materials language-specifically prepared by our publishing house, The Academic Publishing.",
+          "desc": "Up-to-date materials language-specifically prepared by our own publishing house.",
           "icon": "Laptop"
         }
       ]

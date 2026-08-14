@@ -1042,7 +1042,7 @@
   "prepPage": {
     "about": {
       "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
-      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve özgün yayınlarımızla desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1081,8 +1081,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1204,8 +1204,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1327,8 +1327,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1450,8 +1450,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1573,8 +1573,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1658,7 +1658,7 @@
     "about": {
       "badge": "TÜM SEVİYELER / A1'DEN C1'E",
       "title": "Genel İngilizce Kursları ile Hedeflerinize Ulaşın",
-      "desc": "<p><strong>Akademik International Genel İngilizce Kursları</strong>, A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye yönelik, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu kapsamlı dil programlarıdır.</p><p>Kurumumuza başvuran her öğrencimize ücretsiz <strong>seviye tespit sınavı</strong> uygulanır ve kendi İngilizce seviyenize en uygun sınıfa yerleştirilerek eğitiminize başlarsınız. Genel İngilizce programlarımızda ezber değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerini eş zamanlı geliştiren bütünleşik bir yöntem uygulanır.</p><p>Yetişkinlere özel hazırlanan güncel içerikler ve <strong>The Academic Publishing</strong> yayınlarıyla desteklenen programlarımız sayesinde günlük iletişimden iş hayatına, seyahatten akademik çalışmalara kadar her alanda özgüvenle İngilizce kullanabilirsiniz.</p>",
+      "desc": "<p><strong>Akademik International Genel İngilizce Kursları</strong>, A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye yönelik, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu kapsamlı dil programlarıdır.</p><p>Kurumumuza başvuran her öğrencimize ücretsiz <strong>seviye tespit sınavı</strong> uygulanır ve kendi İngilizce seviyenize en uygun sınıfa yerleştirilerek eğitiminize başlarsınız. Genel İngilizce programlarımızda ezber değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerini eş zamanlı geliştiren bütünleşik bir yöntem uygulanır.</p><p>Yetişkinlere özel hazırlanan güncel içerikler ve özgün yayınlarımızla desteklenen programlarımız sayesinde günlük iletişimden iş hayatına, seyahatten akademik çalışmalara kadar her alanda özgüvenle İngilizce kullanabilirsiniz.</p>",
       "skills": [
         {
           "id": "grammar",
@@ -1696,8 +1696,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -1811,7 +1811,7 @@
   "akademikIngilizceLandingPage": {
     "about": {
       "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
-      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve <strong>The Academic Publishing</strong> yayınları ile desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
+      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve özgün yayınlarımızla desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1850,8 +1850,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING tarafından Native yazarlarca hazırlanan özgün yayınlar.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
           "icon": "BookOpen"
         },
         {
@@ -2177,7 +2177,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Ortaokul öğrencilerimize özel, Native yazarlarca hazırlanan özgün İngilizce eğitim yayınları.",
           "icon": "BookOpen"
         },
@@ -2700,7 +2700,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Ortaokul öğrencilerimize özel, Native yazarlarca hazırlanan özgün İngilizce eğitim yayınları.",
           "icon": "BookOpen"
         },
@@ -3609,7 +3609,7 @@
         },
         {
           "q": "Eğitim materyallerini siz mi karşılıyorsunuz?",
-          "a": "Evet, kurumumuza ait The Academic Publishing yayınevi tarafından sınav stratejilerine uygun olarak hazırlanan güncel kaynakları kullanıyoruz."
+          "a": "Evet, kurumumuza ait yayınevimiz tarafından sınav stratejilerine uygun olarak hazırlanan güncel kaynakları kullanıyoruz."
         },
         {
           "q": "Sınav stresini nasıl yenebilirim?",
@@ -3745,7 +3745,7 @@
         "desc": "IELTS Sınavı insanları kurdukları hayallere ve ulaşmak istediği hedeflere ulaştıran köprü niteliğinde bir sınavdır. Kariyer basamaklarını tırmanırken tasarruf edilmesi gereken en önemli kavram zamandır. Zaman kaybettirmeden hedeflediğiniz puanı elde etmeniz için size en uygun IELTS Hazırlık Kursu planlamasını gerçekleştiriyoruz.",
         "bullets": [
           "Derece skorlara sahip, sınavı yıllarca deneyimlemiş eğitmenler",
-          "Kuruma özgü, güncel The Academic Publishing sınav stratejisi kaynakları",
+          "Kuruma özgü, güncel sınav stratejisi kaynaklarımız",
           "İngilizce UZEM platformu ile online interaktif eğitim seçeneği",
           "7-10 kişilik butik sınıflarda dört temel beceri (4 skills) odaklı eğitim"
         ],
@@ -6151,7 +6151,7 @@
       "description": "İstanbul Almanca kursu arayışında en kritik nokta olan amaca yönelik sınıflar, doğru seviye tespiti ve aktif kullanım anlayışıyla beklentilerinizi karşılıyoruz.",
       "features": [
         "Türkiye'de ilk kez yetişkin bireyler için oluşturulmuş özel Almanca müfredatı.",
-        "Londra merkezli The Academic Publishing kaynakları ile global standartlarda eğitim.",
+        "Kendi kaynaklarımızla global standartlarda eğitim.",
         "Native speaker (anadili Almanca olan) eğitmenler ve sertifikalı öğretim kadrosu.",
         "Düzenli ders dışı aktiviteler ve kültürel deneyim olanakları."
       ]
@@ -6252,7 +6252,7 @@
     "seoContent": [
       {
         "title": "İstanbul En İyi Almanca Kursu Standartları",
-        "desc": "İstanbul en iyi Almanca kursu arayışında başarı, yalnızca müfredatın varlığıyla değil; ders içeriğinin güncelliği, kaynak kalitesi ve öğretim metodunun hedef odaklı olmasıyla ölçülür. Kadıköy Almanca kursu programlarımızda, eğitimdeki öğrenme hızınızı doğrudan etkileyecek olan Londra merkezli The Academic Publishing yayınlarını kullanıyoruz. Bu sayede eski ve sıkıcı metinler yerine güncel konuları ele alıyor, modern kelime yapılarına hakim oluyorsunuz. Dil yetkinliğiniz global standartlarda en üst seviyeye taşınıyor.",
+        "desc": "İstanbul en iyi Almanca kursu arayışında başarı, yalnızca müfredatın varlığıyla değil; ders içeriğinin güncelliği, kaynak kalitesi ve öğretim metodunun hedef odaklı olmasıyla ölçülür. Kadıköy Almanca kursu programlarımızda, eğitimdeki öğrenme hızınızı doğrudan etkileyecek olan özgün yayınlarımızı kullanıyoruz. Bu sayede eski ve sıkıcı metinler yerine güncel konuları ele alıyor, modern kelime yapılarına hakim oluyorsunuz. Dil yetkinliğiniz global standartlarda en üst seviyeye taşınıyor.",
         "bullets": [
           "Yetişkinlere özel olarak geliştirilmiş yenilikçi dil müfredatı",
           "Gramer ezberinden uzak, konuşturma ve pratik odaklı ders işleyişi",
@@ -7753,7 +7753,7 @@
       },
       {
         "title": "En İyi TORFL Kursu Tavsiye",
-        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Bireyin ihtiyacına yönelik oluşturulan eğitim programlarımız, The Academic Publishing kaynaklarımız ve uzman eğitmenlerimiz ile sizlere en nitelikli TORFL hazırlık hizmetini sunmaktayız. İstanbul, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
+        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Bireyin ihtiyacına yönelik oluşturulan eğitim programlarımız, özgün kaynaklarımız ve uzman eğitmenlerimiz ile sizlere en nitelikli TORFL hazırlık hizmetini sunmaktayız. İstanbul, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
       }
     ]
   },
@@ -8492,7 +8492,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: YABANCI DİL KURSLARI",
-      "description": "Ticaret, sanayi, teknoloji ve otomotiv gibi uluslararası her sahada ön planda olan Almancayı, Academic Publishing kaynaklarıyla ezberlemeden öğrenin."
+      "description": "Ticaret, sanayi, teknoloji ve otomotiv gibi uluslararası her sahada ön planda olan Almancayı, özgün kaynaklarımızla ezberlemeden öğrenin."
     },
     "about": {
       "badge": "ULUSLARARASI STANDARTLAR",
@@ -8517,7 +8517,7 @@
         {
           "id": "de-academic",
           "title": "Nitelikli Kaynaklar",
-          "desc": "Türkiye'de ilk kez her yaştan bireye yönelik eğitim modelleri ve Academic Publishing yayınevi kaynakları."
+          "desc": "Türkiye'de ilk kez her yaştan bireye yönelik eğitim modelleri ve özgün yayınevi kaynaklarımız."
         }
       ],
       "description": "Avrupa Dil Portföyü'nün biçim ve işlevi doğrultusunda başlangıç düzeyinden hedeflediğiniz ileri düzeye kadar Almanca dil yetkinliği kazandırıyoruz.",
@@ -8584,7 +8584,7 @@
       },
       {
         "title": "VIP Sınıflar ve 4 Temel Beceri Odaklı Eğitim",
-        "desc": "Bursa, İstanbul, İzmir, Ankara ve Eskişehir kampüslerinde sunulan eğitimlerimiz, yetişkin olarak sahip olduğunuz donanıma uygun ders içerikleriyle şekillenir. 4-6 kişilik VIP sınıflarda, özel ders niteliğinde işlenen derslerle dili doğal akışında öğrenir ve en etkili şekilde kullanabilirsiniz. Türkiye'de ilk kez her yaştan bireye yönelik eğitim modelleri geliştiren ve bu eğitimi Academic Publishing yayınevi kaynakları ile taçlandıran kurumumuz, okuma, yazma, dinleme ve konuşma alanlarında zaman kaybetmeden 4 temel becerinizi geliştirmenizi sağlar."
+        "desc": "Bursa, İstanbul, İzmir, Ankara ve Eskişehir kampüslerinde sunulan eğitimlerimiz, yetişkin olarak sahip olduğunuz donanıma uygun ders içerikleriyle şekillenir. 4-6 kişilik VIP sınıflarda, özel ders niteliğinde işlenen derslerle dili doğal akışında öğrenir ve en etkili şekilde kullanabilirsiniz. Türkiye'de ilk kez her yaştan bireye yönelik eğitim modelleri geliştiren ve bu eğitimi özgün yayınevi kaynaklarıyla taçlandıran kurumumuz, okuma, yazma, dinleme ve konuşma alanlarında zaman kaybetmeden 4 temel becerinizi geliştirmenizi sağlar."
       }
     ],
     "whyUs": {
@@ -8610,7 +8610,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
           "icon": "BookOpen"
         },
@@ -8947,7 +8947,7 @@
         "Türkiye'de yetişkinlere yönelik geliştirilen ilk özgün Farsça eğitim modelleri.",
         "Anadili Farsça olan veya dilin kullanımına akademik düzeyde hakim tecrübeli kadro.",
         "Klasik zorlukları ortadan kaldıran, öğrenci dostu ve pratik odaklı müfredat.",
-        "The Academic Publishing yayınevine ait özel hazırlanmış nitelikli kaynaklar."
+        "Kendi yayınevimize ait özel hazırlanmış nitelikli kaynaklar."
       ]
     },
     "gradeTabs": {
@@ -9047,7 +9047,7 @@
         },
         {
           "title": "Özgün Yayınlar",
-          "desc": "The Academic Publishing bünyesinde özel olarak hazırlanan ve yetişkinlerin dil mantığına uygun materyaller.",
+          "desc": "Yetişkinlerin dil mantığına uygun, özel olarak hazırlanan materyaller.",
           "icon": "BookOpen"
         }
       ]
@@ -9093,7 +9093,7 @@
         },
         {
           "q": "Kurumunuzu diğer dil okullarından ayıran özellik nedir?",
-          "a": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olmamızın verdiği kurumsal güvence, Türkiye'de ilk kez yetişkinlere yönelik hazırlanan eğitim modellerimiz ve The Academic Publishing markalı özgün kaynaklarımız bizi dil eğitiminde zirveye taşımaktadır."
+          "a": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olmamızın verdiği kurumsal güvence, Türkiye'de ilk kez yetişkinlere yönelik hazırlanan eğitim modellerimiz ve özgün kaynaklarımız bizi dil eğitiminde zirveye taşımaktadır."
         }
       ]
     }
@@ -9153,7 +9153,7 @@
         "Ana dili Çince olan (Native Speaker) uzman ve tecrübeli eğitmen kadrosu.",
         "Öğrenci merkezli ve modern öğrenme metotlarıyla tasarlanmış müfredat.",
         "HSK sınav formatına tam uyumlu, 1. seviyeden 6. seviyeye kadar sistematik ilerleme.",
-        "VIP sınıflar ve The Academic Publishing yayınevine ait özel kaynaklar."
+        "VIP sınıflar ve kendi yayınevimize ait özel kaynaklar."
       ]
     },
     "gradeTabs": {
@@ -9234,7 +9234,7 @@
       },
       {
         "title": "Türkiye'nin En İyi Çince Kursu Tavsiyesi",
-        "desc": "En İyi Çince Kursu tavsiye araştırmalarında tüm platformlarda adından sıkça söz ettiren kurumumuz, sizlere Türkiye'deki en kapsamlı uzakdoğu dilleri eğitimini sunmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; İstanbul, Bursa, Eskişehir, İzmir, Ankara ve Kocaeli kampüslerimizde geleceğinize yön verebilirsiniz. Yetişkinlere özel geliştirilmiş eğitim modellerimiz ve The Academic Publishing kaynaklarımız hakkında detaylı bilgi almak için dilediğiniz zaman bizimle iletişime geçebilirsiniz."
+        "desc": "En İyi Çince Kursu tavsiye araştırmalarında tüm platformlarda adından sıkça söz ettiren kurumumuz, sizlere Türkiye'deki en kapsamlı uzakdoğu dilleri eğitimini sunmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; İstanbul, Bursa, Eskişehir, İzmir, Ankara ve Kocaeli kampüslerimizde geleceğinize yön verebilirsiniz. Yetişkinlere özel geliştirilmiş eğitim modellerimiz ve özgün kaynaklarımız hakkında detaylı bilgi almak için dilediğiniz zaman bizimle iletişime geçebilirsiniz."
       }
     ],
     "whyUs": {
@@ -9260,8 +9260,8 @@
           "icon": "Users"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Londra merkezli yayınevimizin uluslararası standartlardaki nitelikli Çince materyalleri.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Uluslararası standartlardaki nitelikli Çince materyallerimiz.",
           "icon": "BookOpen"
         },
         {
@@ -9377,7 +9377,7 @@
         "Türkiye'de ilk kez geliştirilen, her yaştan bireye yönelik özgün eğitim modelleri.",
         "5-7 kişilik VIP kontenjanlı sınıflarda, bol pratik ve soru-cevap imkanı.",
         "Öğrenci merkezli yaklaşımla, günlük ifadelerden akademik düzeye kadar uzanan eğitim.",
-        "The Academic Publishing yayınevi kaynakları ile desteklenen nitelikli müfredat."
+        "Kendi yayınevimizin kaynaklarıyla desteklenen nitelikli müfredat."
       ]
     },
     "gradeTabs": {
@@ -9588,7 +9588,7 @@
       "description": "Temel eğitimlerin sonunda öğrencilerimiz hem Kore dil yapısını verimli bir şekilde öğrenir hem de pratik alıştırmalarla yatkınlıklarını artırırlar.",
       "features": [
         "Ural-Altay dil benzerliklerini avantaja çeviren, Türk öğrencilere özel stratejiler.",
-        "The Academic Publishing destekli, öğrenmeyi kolaylaştıran özel ders materyalleri.",
+        "Kendi kaynaklarımızla desteklenen, öğrenmeyi kolaylaştıran özel ders materyalleri.",
         "Düzenli deneme sınavlarıyla seviye takibi ve eksiklerin hızlıca giderilmesi.",
         "Kore kültürü, edebiyatı ve dilin tarihi gelişimini de kapsayan bütüncül yaklaşım."
       ]
@@ -9671,7 +9671,7 @@
       },
       {
         "title": "Korece Kursu Eğitim Amaçlarımız ve Kapsamı",
-        "desc": "Bursa, İstanbul, Ankara, İzmir, Tekirdağ ve Eskişehir kampüslerimizde sunduğumuz Korece kurslarının temel amacı; bireylerin Sosyal Bilimler, Fen Bilimleri, Sağlık ve sosyal yaşam gibi alanlarda ihtiyaç duydukları akademik dil becerilerini en üst noktaya taşımaktır. Dört temel beceride (Dinleme, Konuşma, Yazma, Okuma) yetkinlik kazandırmayı hedefleyen programımız, öğrencilerin Kore dilinin esaslarını hem bilimsel hem de biçimsel olarak kavramasını sağlar. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; VIP sınıflar, Canlı Stüdyo ortamında telafi dersleri, akademisyen kökenli yerli/yabancı eğitmen kadromuz ve The Academic Publishing kaynaklarıyla Türkiye'de eşsiz bir eğitim fırsatı yaratıyoruz."
+        "desc": "Bursa, İstanbul, Ankara, İzmir, Tekirdağ ve Eskişehir kampüslerimizde sunduğumuz Korece kurslarının temel amacı; bireylerin Sosyal Bilimler, Fen Bilimleri, Sağlık ve sosyal yaşam gibi alanlarda ihtiyaç duydukları akademik dil becerilerini en üst noktaya taşımaktır. Dört temel beceride (Dinleme, Konuşma, Yazma, Okuma) yetkinlik kazandırmayı hedefleyen programımız, öğrencilerin Kore dilinin esaslarını hem bilimsel hem de biçimsel olarak kavramasını sağlar. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; VIP sınıflar, Canlı Stüdyo ortamında telafi dersleri, akademisyen kökenli yerli/yabancı eğitmen kadromuz ve özgün kaynaklarımızla Türkiye'de eşsiz bir eğitim fırsatı yaratıyoruz."
       }
     ],
     "whyUs": {
@@ -9754,7 +9754,7 @@
         },
         {
           "q": "Kurumunuza ait özel kaynakların avantajı nedir?",
-          "a": "Londra merkezli The Academic Publishing yayınevine ait kaynaklarımız, standart kitapların aksine, Türk öğrencilerin dil öğrenme mantığına (özellikle Ural-Altay benzerliklerine) uygun olarak kuruma özel tasarlanmıştır ve öğrenmeyi hızlandırır."
+          "a": "Kendi yayınevimize ait kaynaklarımız, standart kitapların aksine, Türk öğrencilerin dil öğrenme mantığına (özellikle Ural-Altay benzerliklerine) uygun olarak kuruma özel tasarlanmıştır ve öğrenmeyi hızlandırır."
         }
       ]
     }
@@ -10216,7 +10216,7 @@
       "description": "Seviye tespit sınavımızın ardından, lisans, yüksek lisans veya doktora dereceli uzman öğretmenlerimiz sizin için en ideal eğitim programını belirler.",
       "features": [
         "Türkiye'de yetişkinler için özel olarak tasarlanmış ilk özgün eğitim modeli.",
-        "Öğrenmeyi kolaylaştıran video materyalleri, deneme sınavları ve The Academic Publishing kaynakları.",
+        "Öğrenmeyi kolaylaştıran video materyalleri, deneme sınavları ve özgün kaynaklarımız.",
         "Sıkıcı bir ders ortamı yerine, interaktif ve konuşma pratiği ağırlıklı keyifli seanslar.",
         "Yurtiçinde ve yurtdışında geçerliliği olan, bilimsel altyapıya sahip güncel müfredat."
       ]
@@ -10299,7 +10299,7 @@
       },
       {
         "title": "En Çok Tavsiye Edilen Türkçe Kursu Deneyimi",
-        "desc": "Sosyal platformlarda ve öğrenci referanslarında adından sıkça söz ettiren kurumumuz, yarım asırlık tecrübesiyle dil eğitiminde öncü konumdadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan Akademik Yabancı Dil Kursları, Türkiye'de bir ilke imza atarak yetişkin bireylere özgü eğitim modellerini hayata geçirmiştir. İstanbul, Ankara, İzmir, Bursa ve Eskişehir kampüslerimizde, tamamen öğrenci merkezli bir yaklaşımla eğitim veriyoruz. Canlı Stüdyo imkanlarımız ve The Academic Publishing markalı özgün yayınlarımızla, kariyer basamaklarında sizi en ileri noktalara taşımayı hedefliyoruz."
+        "desc": "Sosyal platformlarda ve öğrenci referanslarında adından sıkça söz ettiren kurumumuz, yarım asırlık tecrübesiyle dil eğitiminde öncü konumdadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan Akademik Yabancı Dil Kursları, Türkiye'de bir ilke imza atarak yetişkin bireylere özgü eğitim modellerini hayata geçirmiştir. İstanbul, Ankara, İzmir, Bursa ve Eskişehir kampüslerimizde, tamamen öğrenci merkezli bir yaklaşımla eğitim veriyoruz. Canlı Stüdyo imkanlarımız ve özgün yayınlarımızla, kariyer basamaklarında sizi en ileri noktalara taşımayı hedefliyoruz."
       }
     ],
     "whyUs": {
@@ -10336,7 +10336,7 @@
         },
         {
           "title": "Özgün Yayınlar",
-          "desc": "Sadece kurumumuz öğrencilerine özel The Academic Publishing kaynakları ile desteklenen dersler.",
+          "desc": "Sadece kurumumuz öğrencilerine özel, kendi kaynaklarımızla desteklenen dersler.",
           "icon": "BookOpen"
         }
       ]
@@ -10442,7 +10442,7 @@
         "Temel dilbilgisi, fiil ve isim çekimleri ile Latincenin karmaşık sentaks yapısını kavratan müfredat.",
         "Sadece teorik değil; Latince görsel ve işitsel medyayı takip edebilme becerisi kazandıran uygulamalar.",
         "Hukukçu, doktor, akademisyen ve tarih araştırmacıları için özel tasarlanmış terminoloji çalışmaları.",
-        "The Academic Publishing kaynaklarıyla desteklenen, öğrenci merkezli modern eğitim metotları."
+        "Kendi kaynaklarımızla desteklenen, öğrenci merkezli modern eğitim metotları."
       ]
     },
     "gradeTabs": {
@@ -10523,7 +10523,7 @@
       },
       {
         "title": "Türkiye'nin En İyi Latince Kursu Tavsiyesi",
-        "desc": "Latince gibi akademik ağırlığı yüksek bir dili öğrenmek istiyorsanız, en iyi Latince kursu tavsiye araştırmalarında ilk sırada yer alan Akademik International doğru adrestir. İstanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, İzmir ve Tekirdağ kampüslerimizde; yerli ve yabancı akademisyenlerden oluşan eğitmen kadromuzla Avrupa standartlarında eğitim veriyoruz. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan kurumumuz, The Academic Publishing kaynaklarıyla Latince eğitimine bilimsel bir boyut kazandırmaktadır. Siz de modern bilimin temellerine inmek ve kariyerinizde fark yaratmak için eğitimlerimize geç kalmadan dahil olun."
+        "desc": "Latince gibi akademik ağırlığı yüksek bir dili öğrenmek istiyorsanız, en iyi Latince kursu tavsiye araştırmalarında ilk sırada yer alan Akademik International doğru adrestir. İstanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, İzmir ve Tekirdağ kampüslerimizde; yerli ve yabancı akademisyenlerden oluşan eğitmen kadromuzla Avrupa standartlarında eğitim veriyoruz. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan kurumumuz, özgün kaynaklarıyla Latince eğitimine bilimsel bir boyut kazandırmaktadır. Siz de modern bilimin temellerine inmek ve kariyerinizde fark yaratmak için eğitimlerimize geç kalmadan dahil olun."
       }
     ],
     "whyUs": {
@@ -10747,7 +10747,7 @@
       },
       {
         "title": "Flemenkçe Kursu Fiyatları ve En İyi Kurs Tavsiyesi",
-        "desc": "Flemenkçe kursu fiyatları; kursun eğitim saatlerine, konumuna, özel veya grup dersi olmasına göre değişkenlik gösterebilmektedir. Akademik Yabancı Dil Kursları, her dönem sunduğu erken kayıt avantajları ve bütçe dostu kampanyalarıyla nitelikli eğitimi herkes için ulaşılabilir kılmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; The Academic Publishing kaynakları, akademisyen kökenli eğitmenler ve teknoloji entegreli sınıflarımızla Türkiye'nin 'En İyi Flemenkçe Kursu Tavsiye' listelerinde her zaman zirvede yer almaktayız."
+        "desc": "Flemenkçe kursu fiyatları; kursun eğitim saatlerine, konumuna, özel veya grup dersi olmasına göre değişkenlik gösterebilmektedir. Akademik Yabancı Dil Kursları, her dönem sunduğu erken kayıt avantajları ve bütçe dostu kampanyalarıyla nitelikli eğitimi herkes için ulaşılabilir kılmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; özgün kaynaklarımız, akademisyen kökenli eğitmenler ve teknoloji entegreli sınıflarımızla Türkiye'nin 'En İyi Flemenkçe Kursu Tavsiye' listelerinde her zaman zirvede yer almaktayız."
       }
     ],
     "whyUs": {
@@ -10784,7 +10784,7 @@
         },
         {
           "title": "Orijinal Kaynaklar",
-          "desc": "Londra merkezli The Academic Publishing yayınevine ait, sınav odaklı teknoloji entegreli materyaller.",
+          "desc": "Kendi yayınevimize ait, sınav odaklı teknoloji entegreli materyaller.",
           "icon": "BookOpen"
         }
       ]
@@ -10857,7 +10857,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: YABANCI DİL KURSLARI",
-      "description": "Global dünyada resmi dil olarak kabul edilmiş en yaygın 3'üncü lisan olan İspanyolcayı, Academic Publishing kaynaklarıyla ezberlemeden öğrenin."
+      "description": "Global dünyada resmi dil olarak kabul edilmiş en yaygın 3'üncü lisan olan İspanyolcayı, özgün kaynaklarımızla ezberlemeden öğrenin."
     },
     "about": {
       "badge": "DÜNYADA EN YAYGIN 3. DİL",
@@ -10999,7 +10999,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
           "icon": "BookOpen"
         },
@@ -11234,7 +11234,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
           "icon": "BookOpen"
         },
@@ -11445,7 +11445,7 @@
       },
       {
         "title": "En İyi Portekizce Kursu Tavsiye",
-        "desc": "En İyi Portekizce Kursu Tavsiye araştırmalarında Türkiye'nin en köklü dil okulu olan Akademik International Yabancı Dil Okulları dünya dillerinde kaliteli hizmet vermeye devam ediyor. VIP sınıfları, teknoloji entegreli ders modelleri, Londra Merkezli The Academic Publishing Yayınları ve akademisyen kökenli eğitmen kadrosuyla British Council Konsolosluk Partneri olarak yeni bir kariyer kazandırıyor."
+        "desc": "En İyi Portekizce Kursu Tavsiye araştırmalarında Türkiye'nin en köklü dil okulu olan Akademik International Yabancı Dil Okulları dünya dillerinde kaliteli hizmet vermeye devam ediyor. VIP sınıfları, teknoloji entegreli ders modelleri, özgün yayınlarımız ve akademisyen kökenli eğitmen kadrosuyla British Council Konsolosluk Partneri olarak yeni bir kariyer kazandırıyor."
       }
     ],
     "whyUs": {
@@ -11471,8 +11471,8 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
-          "desc": "Londra Merkezli The Academic Publishing Yayınları ile desteklenen eğitim.",
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Özgün yayınlarımızla desteklenen eğitim.",
           "icon": "BookOpen"
         },
         {
@@ -11689,7 +11689,7 @@
       },
       {
         "title": "En İyi Arapça Kursu Tavsiye",
-        "desc": "Türkiye'de her yıl binlerce öğrenciye yeni bir dil kazandıran Akademik International Yabancı Dil Okulları VIP Sınıflarda, düşük sınıf mevcutları ve alanında uzman eğitmen kadrosuyla sizlere en nitelikli Arapça eğitimini sunmaktadır. Londra Merkezli The Academic Publishing Yayınevi kaynakları ve Türkiye'de ilk defa Canlı Stüdyo ortamını kurarak sizlere Online seçenekler de sunan dil okulumuz En İyi Arapça Kursu Tavsiye araştırmalarında ilk sıradadır."
+        "desc": "Türkiye'de her yıl binlerce öğrenciye yeni bir dil kazandıran Akademik International Yabancı Dil Okulları VIP Sınıflarda, düşük sınıf mevcutları ve alanında uzman eğitmen kadrosuyla sizlere en nitelikli Arapça eğitimini sunmaktadır. Özgün yayınevi kaynaklarımız ve Türkiye'de ilk defa Canlı Stüdyo ortamını kurarak sizlere Online seçenekler de sunan dil okulumuz En İyi Arapça Kursu Tavsiye araştırmalarında ilk sıradadır."
       }
     ],
     "whyUs": {
@@ -11715,7 +11715,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Özgün Eğitim Kaynakları",
           "desc": "Londra Merkezli yayınlarla desteklenen zengin ders materyalleri.",
           "icon": "BookOpen"
         },
@@ -11898,7 +11898,7 @@
       {
         "level": "h2",
         "title": "Kadıköy İngilizce Kursu Fiyatları 2026",
-        "desc": "<b>Kadıköy İngilizce Kursu Fiyatları 2026</b> yılında genel olarak 18.000 ₺ ile 95.000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı; alınan eğitimin toplam ders saati yoğunluğuna, sınıf mevcuduna ve sunulan ek materyallere göre farklılıklar arz eder. <b>Kadıköy İngilizce Kursu Fiyatları 2026</b> yılı döneminde avantajlı konumda olan Akademik International Dil Kursları olarak, ulusal çaptaki tecrübemizi İstanbul'un merkezinde, ulaşılabilir maliyetlerle sunmayı ilke edindik. Eğitim ücretini bir masraf kalemi olarak değil, kazandıracağı yetkinliklerle geri dönecek bir değer olarak görüyoruz.<br/>Eğitim süreciniz boyunca ihtiyaç duyacağınız tüm materyalleri, global standartlardaki \"The Academic Publishing\" yayın desteğiyle karşılıyoruz. <b>Kadıköy İngilizce Kursu Fiyatları 2026</b> fiyatları ile kıyaslandığınızda, sunduğumuz ders saati yoğunluğu, ücretsiz aktiviteler ve kaynak kalitesi; kurumumuzu \"Fiyat/Fayda\" dengesinde zirveye taşımaktadır. Kadıköy dil kursu fiyatları, öğrencilerimizin ekonomik planlamalarını zorlamayacak taksit seçenekleri ve esnek ödeme planlarıyla kurgulanmıştır. Amacımız, bütçe kaygısı yaşamadan sadece dil gelişimine odaklanmanızı sağlamaktır.<br/><br/><b>Kadıköy İngilizce Kursu Fiyatları 2026:</b>",
+        "desc": "<b>Kadıköy İngilizce Kursu Fiyatları 2026</b> yılında genel olarak 18.000 ₺ ile 95.000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı; alınan eğitimin toplam ders saati yoğunluğuna, sınıf mevcuduna ve sunulan ek materyallere göre farklılıklar arz eder. <b>Kadıköy İngilizce Kursu Fiyatları 2026</b> yılı döneminde avantajlı konumda olan Akademik International Dil Kursları olarak, ulusal çaptaki tecrübemizi İstanbul'un merkezinde, ulaşılabilir maliyetlerle sunmayı ilke edindik. Eğitim ücretini bir masraf kalemi olarak değil, kazandıracağı yetkinliklerle geri dönecek bir değer olarak görüyoruz.<br/>Eğitim süreciniz boyunca ihtiyaç duyacağınız tüm materyalleri, global standartlardaki kendi yayın desteğimizle karşılıyoruz. <b>Kadıköy İngilizce Kursu Fiyatları 2026</b> fiyatları ile kıyaslandığınızda, sunduğumuz ders saati yoğunluğu, ücretsiz aktiviteler ve kaynak kalitesi; kurumumuzu \"Fiyat/Fayda\" dengesinde zirveye taşımaktadır. Kadıköy dil kursu fiyatları, öğrencilerimizin ekonomik planlamalarını zorlamayacak taksit seçenekleri ve esnek ödeme planlarıyla kurgulanmıştır. Amacımız, bütçe kaygısı yaşamadan sadece dil gelişimine odaklanmanızı sağlamaktır.<br/><br/><b>Kadıköy İngilizce Kursu Fiyatları 2026:</b>",
         "table": {
           "headers": [
             "İngilizce Seviye",
@@ -14104,7 +14104,7 @@
         },
         {
           "q": "İngilizce Kursu Eğitiminde Nasıl Bir Eğitim Sistemi Uyguluyorsunuz?",
-          "a": "Türkiye'de ilk kez yetişkin bireyler için yabancı dil müfredatı oluşturan kurumumuz demode olmuş yabancı dil eğitim müfredatlarının aksine her yaş gubu için özel eğitim müfredatı hazırlamaktadır. Londra merkezli The Academic Publishing Yayınevine ait özgün kaynaklardan güncel, aktüel konular ele alınarak dil yetkinliğinizi en üst seviyeye çıkartılır."
+          "a": "Türkiye'de ilk kez yetişkin bireyler için yabancı dil müfredatı oluşturan kurumumuz demode olmuş yabancı dil eğitim müfredatlarının aksine her yaş gubu için özel eğitim müfredatı hazırlamaktadır. Kendi yayınevimize ait özgün kaynaklardan güncel, aktüel konular ele alınarak dil yetkinliğinizi en üst seviyeye çıkartılır."
         }
       ]
     },
@@ -14292,7 +14292,7 @@
         {
           "id": "materyal",
           "title": "Güncel Materyaller",
-          "desc": "The Academic Publishing yayınevimizin dile özel hazırlanmış özgün kaynakları."
+          "desc": "Kendi yayınevimizin dile özel hazırlanmış özgün kaynakları."
         }
       ],
       "description": "Hedeflediğiniz dilde Akademik International'ın uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile hızlı ve kalıcı öğrenme deneyimi yaşayın.",
@@ -14455,7 +14455,7 @@
         },
         {
           "title": "Kuruma Özel Kaynaklar",
-          "desc": "The Academic Publishing yayınevimizin dile özel hazırlanmış güncel materyalleri.",
+          "desc": "Kendi yayınevimizin dile özel hazırlanmış güncel materyalleri.",
           "icon": "Laptop"
         }
       ]
@@ -14719,7 +14719,7 @@
         },
         {
           "title": "Kuruma Özel Kaynaklar",
-          "desc": "The Academic Publishing yayınevimizin sınava özel hazırlanmış güncel materyalleri.",
+          "desc": "Kendi yayınevimizin sınava özel hazırlanmış güncel materyalleri.",
           "icon": "MessageCircle"
         }
       ]
