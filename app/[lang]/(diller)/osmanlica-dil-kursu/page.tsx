@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function OsmanlicaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="osmanlicaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="osmanlicaLandingPage" lang={lang} />
       <WhyUsSection courseKey="osmanlicaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="osmanlicaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="osmanlicaLandingPage" lang={lang} />

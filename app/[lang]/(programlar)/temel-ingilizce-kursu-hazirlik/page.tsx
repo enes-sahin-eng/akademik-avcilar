@@ -7,7 +7,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
@@ -70,7 +69,6 @@ export default async function HazirlikPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="prepPage" lang={lang} />
       <CourseInfoSection courseKey="prepPage" lang={lang} />
       <WhyUsSection courseKey="prepPage" lang={lang} />
-      <PublicationsShowcase courseKey="prepPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="prepPage" lang={lang} />

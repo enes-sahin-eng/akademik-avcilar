@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -167,7 +166,6 @@ export default async function GmatHazirlikKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="gmatLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="gmatLandingPage" lang={lang} />
       <WhyUsSection courseKey="gmatLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="gmatLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="gmatLandingPage" lang={lang} />

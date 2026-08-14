@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -168,7 +167,6 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="ydsLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ydsLandingPage" lang={lang} />
       <WhyUsSection courseKey="ydsLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ydsLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ydsLandingPage" lang={lang} />

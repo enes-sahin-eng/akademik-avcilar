@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -97,7 +96,6 @@ export default async function OzelDersPage({ params }: PageProps) {
       <CourseInfoSection courseKey="ozelDersLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ozelDersLandingPage" lang={lang} />
       <WhyUsSection courseKey="ozelDersLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ozelDersLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ozelDersLandingPage" lang={lang} />

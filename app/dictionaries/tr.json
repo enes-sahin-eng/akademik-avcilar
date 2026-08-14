@@ -414,11 +414,6 @@
   },
   "megaMenuHakkimizda": [
     {
-      "title": "YAYINLARIMIZ",
-      "icon": "BookOpen",
-      "href": "/yayinlarimiz"
-    },
-    {
       "title": "TARİHÇE",
       "icon": "ScrollText",
       "href": "/tarihce"
@@ -1121,29 +1116,6 @@
       ],
       "btnNext": "Sonraki Ayrıcalık →"
     },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1266,29 +1238,6 @@
         }
       ],
       "btnNext": "Sonraki Ayrıcalık →"
-    },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
@@ -1413,29 +1362,6 @@
       ],
       "btnNext": "Sonraki Ayrıcalık →"
     },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1558,29 +1484,6 @@
         }
       ],
       "btnNext": "Sonraki Ayrıcalık →"
-    },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
@@ -1705,29 +1608,6 @@
       ],
       "btnNext": "Sonraki Ayrıcalık →"
     },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1850,29 +1730,6 @@
         }
       ],
       "btnNext": "Sonraki Ayrıcalık →"
-    },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Reading, Listening, Speaking Activities"
-        }
-      ]
     },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
@@ -2028,29 +1885,6 @@
       ],
       "btnNext": "Sonraki Ayrıcalık →"
     },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -2197,29 +2031,6 @@
         }
       ],
       "btnNext": "Sonraki Ayrıcalık →"
-    },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
@@ -2379,33 +2190,6 @@
           "title": "Online Ders (Letslingo)",
           "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Ortaokul Öğrencilerine Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Yaş Grubuna Uygun Dizayn",
-        "Ortaokula Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Hazırlık Kitabı"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Kelime Çalışma Kitabı"
         }
       ]
     },
@@ -2664,33 +2448,6 @@
           "icon": "Target",
           "title": "Erken Yaşta Küresel İletişim",
           "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini Akademik güvencesiyle tamamlayın."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Ortaokul Öğrencilerine Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Yaş Grubuna Uygun Dizayn",
-        "Ortaokula Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Hazırlık Kitabı"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Kelime Çalışma Kitabı"
         }
       ]
     },
@@ -2956,33 +2713,6 @@
           "title": "Online Ders (Letslingo)",
           "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Özel Ders Öğrencilerine Özgü Yayınlarımız",
-      "subtitle": "Seviyeye Uygun Dizayn, Kişiselleştirilmiş İçerikler, Yenilikçi Yaklaşım",
-      "features": [
-        "Yaş Grubuna Uygun Dizayn",
-        "Ortaokula Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Öğrenci Kitabı"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Hazırlık Kitabı"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Kelime Çalışma Kitabı"
         }
       ]
     },
@@ -3269,33 +2999,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Avcılar İngilizce Dil Kursu Kurum Yayınlarımız",
-      "subtitle": "Kurum Öğrencilerine Ücretsiz!",
-      "features": [
-        "Kurumlara Özel İçerik",
-        "Global Yeterlilikte Yayınlar",
-        "Sektörel Terimler"
-      ],
-      "books": [
-        {
-          "name": "Academic Reading",
-          "type": "Okuma ve Anlama"
-        },
-        {
-          "name": "Plus Listening",
-          "type": "Dinleme Pratiği"
-        },
-        {
-          "name": "Prep Workbook",
-          "type": "Çalışma Kitabı"
-        },
-        {
-          "name": "Corporate Vocabulary",
-          "type": "Mesleki Kelime Seti"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -3503,33 +3206,6 @@
           "title": "Çoklu Sektör Hakimiyeti",
           "desc": "Teknik, ticari, hukuki, tıbbi, akademik ve kurumsal metinlerde sektöre uygun doğru dil kullanımı.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Tercüme Ettiğimiz Belge Türleri",
-      "subtitle": "Her Alanda Kesintisiz Destek",
-      "features": [
-        "Kurumsal Çözümler",
-        "Akademik Çeviriler",
-        "Resmi Evraklar"
-      ],
-      "books": [
-        {
-          "name": "Sözleşmeler & İhaleler",
-          "type": "Hukuki & Ticari Metinler"
-        },
-        {
-          "name": "Tıbbi Raporlar & Makaleler",
-          "type": "Tıbbi Metinler"
-        },
-        {
-          "name": "Kullanım Kılavuzları",
-          "type": "Teknik Metinler"
-        },
-        {
-          "name": "Tez ve Sunumlar",
-          "type": "Akademik Metinler"
         }
       ]
     },
@@ -3754,33 +3430,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "YDS İçin Kullandığımız Kaynaklar",
-      "subtitle": "Başarıya Götüren Güncel İçerikler",
-      "features": [
-        "Konu Anlatımlı Kitaplar",
-        "Kelime ve Okuma Kitapları",
-        "Tam Kapsamlı Denemeler"
-      ],
-      "books": [
-        {
-          "name": "YDS Gramer ve Yapı Bankası",
-          "type": "Konu Anlatımı & Test"
-        },
-        {
-          "name": "Akademik Kelime ve Phrasal Verbs",
-          "type": "Kelime Çalışması"
-        },
-        {
-          "name": "YDS Reading Paragraf Çözümleri",
-          "type": "Okuma & Anlama"
-        },
-        {
-          "name": "10'lu Özgün YDS Deneme Seti",
-          "type": "Sınav Pratiği"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -3987,33 +3636,6 @@
           "title": "Kişisel Pekiştirme",
           "desc": "Profesyonel destek ve periyodik kişisel pekiştirme eğitimleri ile eksiklerinizi hızla kapatın.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "IELTS İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Farkı",
-      "features": [
-        "Güncel Sınav Stratejileri",
-        "Dört Temel Beceri (4 Skills)",
-        "Kuruma Özgü Materyaller"
-      ],
-      "books": [
-        {
-          "name": "IELTS Listening & Speaking",
-          "type": "Dinleme & Konuşma Pratiği"
-        },
-        {
-          "name": "IELTS Reading Strategies",
-          "type": "Okuma Analizi"
-        },
-        {
-          "name": "IELTS Writing Task 1 & 2",
-          "type": "Yazma Stratejileri"
-        },
-        {
-          "name": "IELTS Mock Exams",
-          "type": "Deneme Seti"
         }
       ]
     },
@@ -4238,33 +3860,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "YKS-Dil YDT İçin Kullandığımız Kaynaklar",
-      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
-      "features": [
-        "Güncel Sınav Stratejileri",
-        "Konu Anlatımı ve Soru Bankası",
-        "Kuruma Özgü Materyaller"
-      ],
-      "books": [
-        {
-          "name": "YDT Konu Anlatım Seti",
-          "type": "Konu Anlatımı"
-        },
-        {
-          "name": "YDT Soru Bankası",
-          "type": "Soru Çözümü"
-        },
-        {
-          "name": "YDT Yaprak Testler",
-          "type": "Çıkmış ve Özgün Sorular"
-        },
-        {
-          "name": "YDT Deneme Sınavları",
-          "type": "Deneme Seti"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -4483,33 +4078,6 @@
           "title": "Kapsamlı Yayın Desteği",
           "desc": "Konuşma, yazma, okuma ve dinleme becerilerindeki eksiklikleri gideren kapsamlı yayın desteği.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "ITEP İçin Kullandığımız Kaynaklar",
-      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
-      "features": [
-        "Güncel Sınav Stratejileri",
-        "Beş Temel Beceri Odaklı İçerik",
-        "Kuruma Özgü Materyaller"
-      ],
-      "books": [
-        {
-          "name": "ITEP Listening & Speaking",
-          "type": "Dinleme & Konuşma Pratiği"
-        },
-        {
-          "name": "ITEP Reading Strategies",
-          "type": "Okuma Analizi"
-        },
-        {
-          "name": "ITEP Writing & Grammar",
-          "type": "Yazma & Dil Bilgisi"
-        },
-        {
-          "name": "ITEP Çıkmış Sorular Seti",
-          "type": "Deneme ve Strateji"
         }
       ]
     },
@@ -4735,33 +4303,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "GRE İçin Kullandığımız Kaynaklar",
-      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
-      "features": [
-        "Güncel Sınav Stratejileri",
-        "Sayısal, Sözel ve Analitik Beceri Odaklı İçerik",
-        "Kuruma Özgü Materyaller"
-      ],
-      "books": [
-        {
-          "name": "GRE Quantitative Reasoning",
-          "type": "Sayısal ve Problem Çözme Pratiği"
-        },
-        {
-          "name": "GRE Verbal Reasoning",
-          "type": "Sözel Analiz ve Okuma"
-        },
-        {
-          "name": "GRE Analytical Writing",
-          "type": "Kompozisyon & Makale"
-        },
-        {
-          "name": "GRE Denemeleri ve Strateji Seti",
-          "type": "Deneme ve Zaman Yönetimi"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -4983,33 +4524,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "TestDaF İçin Kullandığımız Kaynaklar",
-      "subtitle": "Hedefe Yönelik Sınav Materyalleri",
-      "features": [
-        "TDN Seviyelerine Uygun İçerik",
-        "Dört Beceri Odaklı Pratikler",
-        "TestDaF Deneme Sınavları"
-      ],
-      "books": [
-        {
-          "name": "TestDaF Leseverstehen & Hörverstehen",
-          "type": "Okuma ve Dinleme Pratiği"
-        },
-        {
-          "name": "TestDaF Schriftlicher Ausdruck",
-          "type": "Yazılı İfade ve Kompozisyon"
-        },
-        {
-          "name": "TestDaF Mündlicher Ausdruck",
-          "type": "Sözlü İfade Çalışmaları"
-        },
-        {
-          "name": "TestDaF Musterprüfungen",
-          "type": "Deneme Sınavları Seti"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -5153,33 +4667,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Hazırlık Atlama İçin Kullandığımız Kaynaklar",
-      "subtitle": "Kapsamlı ve Üniversite Formatına Uygun Materyaller",
-      "features": [
-        "Geçmiş Yıl Sınav Arşivi",
-        "Akademik Kelime Çalışmaları",
-        "Yoğunlaştırılmış Gramer Setleri"
-      ],
-      "books": [
-        {
-          "name": "Proficiency Essay Writing",
-          "type": "Yazma ve Kompozisyon Pratiği"
-        },
-        {
-          "name": "Academic Vocabulary Builder",
-          "type": "Kelime Dağarcığı"
-        },
-        {
-          "name": "Advanced Grammar Focus",
-          "type": "Dil Bilgisi Çalışmaları"
-        },
-        {
-          "name": "University Mock Exams",
-          "type": "Kuruma Özel Denemeler"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -5303,33 +4790,6 @@
           "title": "İsabetli Sunumlar",
           "desc": "Okuma parçalarındaki soruları hızla çözmenizi sağlayan spesifik taktikler ve ayrıcalıklı yönlendirmeler.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "YÖKDİL İçin Kullandığımız Kaynaklar",
-      "subtitle": "Alanınıza Özel Güncel Yayın Setleri",
-      "features": [
-        "Konu Anlatımlı Kitaplar",
-        "Alana Özgü Soru Bankaları",
-        "Türkiye Geneli Denemeler"
-      ],
-      "books": [
-        {
-          "name": "YÖKDİL Grammar & Structure",
-          "type": "Hedef Odaklı Dil Bilgisi"
-        },
-        {
-          "name": "YÖKDİL Health / Science / Social",
-          "type": "Alana Özgü Kelime (Vocabulary)"
-        },
-        {
-          "name": "YÖKDİL Reading Analysis",
-          "type": "Okuma Parçası Analizi"
-        },
-        {
-          "name": "YÖKDİL Özgün Deneme Seti",
-          "type": "Pratik ve Sınav Simülasyonu"
         }
       ]
     },
@@ -5555,33 +5015,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "TOEFL İçin Kullandığımız Kaynaklar",
-      "subtitle": "Kapsamlı ve Güncel Sınav Materyalleri",
-      "features": [
-        "Çıkmış TOEFL Soruları",
-        "4 Beceri Odaklı Çalışma Kitapları",
-        "Elektronik Deneme (Mock Exam) Setleri"
-      ],
-      "books": [
-        {
-          "name": "TOEFL iBT Reading & Listening",
-          "type": "Okuma ve Dinleme Pratiği"
-        },
-        {
-          "name": "TOEFL iBT Speaking & Writing",
-          "type": "Üretken Beceriler ve Şablonlar"
-        },
-        {
-          "name": "Academic Vocabulary for TOEFL",
-          "type": "Sınav Kelimeleri"
-        },
-        {
-          "name": "TOEFL Strateji ve Deneme Seti",
-          "type": "Çıkmış Sorular ve Taktikler"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -5799,33 +5232,6 @@
           "title": "Kurumsal Geçerlilik",
           "desc": "TOFAŞ, RENAULT gibi dev markaların iş mülakatlarına doğrudan hazırlayan iş dünyası odaklı içerik.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "TOEIC İçin Kullandığımız Kaynaklar",
-      "subtitle": "Kapsamlı Doküman ve Materyal Desteği",
-      "features": [
-        "İş İngilizcesi Odaklı Okuma",
-        "Kurumsal Dinleme Pratikleri",
-        "TOEIC Sınav Stratejileri"
-      ],
-      "books": [
-        {
-          "name": "TOEIC Reading Strategies",
-          "type": "İş Metinleri ve Rapor Analizi"
-        },
-        {
-          "name": "TOEIC Listening for Business",
-          "type": "Toplantı ve Mülakat Dinlemeleri"
-        },
-        {
-          "name": "Business Vocabulary Builder",
-          "type": "Kurumsal Kelime Hazinesi"
-        },
-        {
-          "name": "TOEIC Full Practice Exams",
-          "type": "Tam Kapsamlı Deneme Sınavları"
         }
       ]
     },
@@ -6049,33 +5455,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "GMAT İçin Kullandığımız Kaynaklar",
-      "subtitle": "Uluslararası Standartlarda Eğitim Materyalleri",
-      "features": [
-        "Orijinal GMAT Çıkmış Soruları",
-        "Sayısal ve Sözel Odaklı Pratikler",
-        "Bilgisayar Tabanlı Deneme Setleri"
-      ],
-      "books": [
-        {
-          "name": "GMAT Quantitative Focus",
-          "type": "Sayısal Veri Yorumlama ve Problem Çözme"
-        },
-        {
-          "name": "GMAT Verbal & Critical Reasoning",
-          "type": "Eleştirel Mantık Yürütme"
-        },
-        {
-          "name": "Integrated Reasoning & AWA",
-          "type": "Grafik Yorumlama ve Analitik Yazı"
-        },
-        {
-          "name": "GMAT Official Computer Mocks",
-          "type": "Bilgisayar Tabanlı Denemeler"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -6295,33 +5674,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Goethe İçin Kullandığımız Kaynaklar",
-      "subtitle": "Seviyenize Uygun Sınav Materyalleri",
-      "features": [
-        "A1 - C2 Seviye Kitapları",
-        "Modüler Soru Bankaları",
-        "Goethe Deneme Sınavları"
-      ],
-      "books": [
-        {
-          "name": "Prüfungstraining Goethe-Zertifikat",
-          "type": "Sınav Antrenman Seti"
-        },
-        {
-          "name": "Fit fürs Goethe-Zertifikat",
-          "type": "Dört Beceri Hazırlık Kitabı"
-        },
-        {
-          "name": "Wortschatz & Grammatik",
-          "type": "Kelime ve Gramer Çalışmaları"
-        },
-        {
-          "name": "Goethe Modelltests",
-          "type": "Gerçek Sınav Simülasyonları"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -6462,33 +5814,6 @@
           "desc": "Size özel hazırlanan eğitim programıyla zayıf yönlerinizi hızla kapatma fırsatı.",
           "icon": "Monitor",
           "href": "/korece-dil-kursu"
-        }
-      ]
-    },
-    "publications": {
-      "title": "ÖSD İçin Kullandığımız Kaynaklar",
-      "subtitle": "İletişim Odaklı Sınav Materyalleri",
-      "features": [
-        "A1 - C2 Seviye Çalışma Kitapları",
-        "İletişim ve Konuşma Pratiği",
-        "ÖSD Deneme Sınavı Setleri"
-      ],
-      "books": [
-        {
-          "name": "ÖSD Zertifikat Übungsmaterialien",
-          "type": "Sınav Hazırlık ve Alıştırma"
-        },
-        {
-          "name": "Mit Erfolg zum ÖSD",
-          "type": "Strateji ve Soru Çözümü"
-        },
-        {
-          "name": "Kommunikation im Alltag",
-          "type": "İletişim ve Konuşma Odaklı Pratik"
-        },
-        {
-          "name": "ÖSD Modellprüfungen",
-          "type": "Tam Kapsamlı Deneme Sınavları"
         }
       ]
     },
@@ -6875,33 +6200,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic German B1-B2",
-          "type": "Genel ve Orta Düzey Almanca"
-        },
-        {
-          "name": "Prüfungstraining (Goethe, Telc)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interaktives Sprechen",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Wortschatz Aktuell",
-          "type": "Modern Kelime Dağarcığı"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -7073,33 +6371,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Aile Birleşimi (A1) İçin Kullandığımız Kaynaklar",
-      "subtitle": "Sınav Başarınızı Garantileyen Özel Materyaller",
-      "features": [
-        "Goethe A1 Formatına Uygun",
-        "Temel Cümle Yapıları (Basic)",
-        "Görsel ve İşitsel Pratikler"
-      ],
-      "books": [
-        {
-          "name": "Fit fürs Goethe-Zertifikat A1",
-          "type": "Sınav Antrenman Seti"
-        },
-        {
-          "name": "Start Deutsch 1 Übungstests",
-          "type": "Çıkmış Soru Formatında Denemeler"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Temel Kelime ve Dil Bilgisi"
-        },
-        {
-          "name": "Hören & Sprechen A1",
-          "type": "Dinleme ve Konuşma Pratiği"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -7243,33 +6514,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "A1 Seviyesi İçin Kullandığımız Kaynaklar",
-      "subtitle": "Sınav Formatına Uygun Temel Materyaller",
-      "features": [
-        "Goethe/Telc A1 Formatına Uygun",
-        "Temel Cümle Yapıları (Basic)",
-        "Görsel ve İşitsel Aktiviteler"
-      ],
-      "books": [
-        {
-          "name": "Start Deutsch 1 Hazırlık Kitapları",
-          "type": "Sınav Antrenman Seti"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Temel Kelime ve Dil Bilgisi"
-        },
-        {
-          "name": "Modelltests für A1",
-          "type": "Çıkmış Soru Formatında Denemeler"
-        },
-        {
-          "name": "Hören & Sprechen Übungen",
-          "type": "Dinleme ve Konuşma Pratikleri"
-        }
-      ]
-    },
     "models": {
       "title": "Eğitim Modellerimiz",
       "faceToFace": {
@@ -7409,33 +6653,6 @@
           "title": "Kültürel Aktiviteler",
           "desc": "Fransız dilini, kendi kültürüyle harmanlayarak eğitsel etkinliklerle öğrenme fırsatı.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Fransızca İçin Kullandığımız Kaynaklar",
-      "subtitle": "4 Temel Beceriyi Geliştiren Materyaller",
-      "features": [
-        "Uluslararası Standartlarda",
-        "İşitsel ve Görsel Pratikler",
-        "Kültürel Okuma Metinleri"
-      ],
-      "books": [
-        {
-          "name": "Fransızca Dil Bilgisi ve Pratik",
-          "type": "Gramer ve Cümle Yapıları"
-        },
-        {
-          "name": "Compréhension Orale & Écrite",
-          "type": "Okuma ve Dinleme Çalışmaları"
-        },
-        {
-          "name": "Expression Orale",
-          "type": "Konuşma ve Telaffuz (Native)"
-        },
-        {
-          "name": "Eğitsel Aktivite Materyalleri",
-          "type": "Kültürel ve İnteraktif İçerik"
         }
       ]
     },
@@ -7760,33 +6977,6 @@
           "title": "Stres ve Zaman Yönetimi",
           "desc": "Baskı altında İngilizceyi akıcı ve etkin kullanabilmeniz için psikolojik altyapı çalışmaları.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Eğitimde Kullandığımız Sektörel Kaynaklar",
-      "subtitle": "Kabin ve Kokpit İçin Özel Materyaller",
-      "features": [
-        "Havacılık Terminolojisi",
-        "Mülakat Çıkmış Soruları",
-        "İşitsel (Dinleme) Pratikleri"
-      ],
-      "books": [
-        {
-          "name": "English for Cabin Crew",
-          "type": "Mesleki Terminoloji ve Diyaloglar"
-        },
-        {
-          "name": "Aviation Interview Strategies",
-          "type": "Kurul Mülakatı ve Taktikler"
-        },
-        {
-          "name": "Online Test (CBT) Mocks",
-          "type": "Bilgisayar Tabanlı Deneme Sınavları"
-        },
-        {
-          "name": "Emergency Situations & Health",
-          "type": "Acil Durum ve Tahliye Senaryoları"
         }
       ]
     },
@@ -9234,33 +8424,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Eğitimde Kullandığımız Kaynaklar",
-      "subtitle": "Uluslararası Standartlarda Materyaller",
-      "features": [
-        "A1-B2 Seviye Uyumlu",
-        "İşitsel ve Görsel Pratikler",
-        "Aktüel Konu Anlatımları"
-      ],
-      "books": [
-        {
-          "name": "Fransızca Dil Bilgisi",
-          "type": "Gramer ve Cümle Yapıları"
-        },
-        {
-          "name": "Compréhension Orale",
-          "type": "Dinleme ve Anlama Pratikleri"
-        },
-        {
-          "name": "Expression Écrite",
-          "type": "Yazılı İfade ve Kompozisyon"
-        },
-        {
-          "name": "Kültürel Okuma Metinleri",
-          "type": "Sanat, Moda ve Tarih İçerikleri"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -9460,33 +8623,6 @@
           "title": "Esnek Modeller",
           "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online eğitim seçenekleri.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Almanca İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Avrupa Dil Portföyüne Uygun",
-        "Güncel ve Tematik İçerikler",
-        "4 Beceri Odaklı Alıştırmalar"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "Genel Almanca Ders Kitapları"
-        },
-        {
-          "name": "Dialog & Monolog Pratikleri",
-          "type": "Karşılıklı ve Sözlü Anlatım Materyali"
-        },
-        {
-          "name": "Aile Birleşimi Hazırlık",
-          "type": "Konsolosluk Formatında Çıkmış Sorular"
-        },
-        {
-          "name": "İşitsel Kavrama Metinleri",
-          "type": "Dinleme (Fonetik) Odaklı Kaynaklar"
         }
       ]
     },
@@ -9710,33 +8846,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "İtalyanca İçin Kullandığımız Kaynaklar",
-      "subtitle": "Zengin ve Aktüel Materyaller",
-      "features": [
-        "A1-C2 Seviye Uyumlu",
-        "Kültürel Okuma Metinleri",
-        "İşitsel ve Görsel Pratikler"
-      ],
-      "books": [
-        {
-          "name": "İtalyanca Dil Bilgisi (Grammatica)",
-          "type": "Gramer ve Cümle Yapıları"
-        },
-        {
-          "name": "Ascolto e Parlato",
-          "type": "Dinleme ve Konuşma (Fonetik) Pratikleri"
-        },
-        {
-          "name": "Lettura e Cultura",
-          "type": "Kültür, Sanat ve Okuma Metinleri"
-        },
-        {
-          "name": "Scrittura Avanzata (B2-C2)",
-          "type": "İleri Düzey Yazılı İfade ve Kompozisyon"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -9940,33 +9049,6 @@
           "title": "Özgün Yayınlar",
           "desc": "The Academic Publishing bünyesinde özel olarak hazırlanan ve yetişkinlerin dil mantığına uygun materyaller.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Farsça Öğreniminde Kullandığımız Kaynaklar",
-      "subtitle": "Kendi Yayınevimizden Profesyonel İçerikler",
-      "features": [
-        "İran MEB Sistemine Uyumlu",
-        "Yetişkinlere Özel İçerik",
-        "YDS Uyumlu Kelime/Metin Çalışmaları"
-      ],
-      "books": [
-        {
-          "name": "The Academic Publishing Farsça Seti",
-          "type": "Genel Farsça Ders Kitapları"
-        },
-        {
-          "name": "Okuma ve Anlama (Reading)",
-          "type": "Tarihi, Edebi ve Kültürel Metinler"
-        },
-        {
-          "name": "Farsça YDS Sınav Stratejileri",
-          "type": "Akademik Sınavlara Yönelik Soru Çözümleri"
-        },
-        {
-          "name": "Fonetik ve Konuşma",
-          "type": "İletişimsel Pratik Materyalleri"
         }
       ]
     },
@@ -10194,33 +9276,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Çince İçin Kullandığımız Özel Kaynaklar",
-      "subtitle": "Yayın Serimiz Güvencesiyle",
-      "features": [
-        "HSK Sınav Formatına Uygun",
-        "Hanzi (Karakter) Çalışma Kitapları",
-        "Görsel ve İşitsel Hafıza Teknikleri"
-      ],
-      "books": [
-        {
-          "name": "HSK Standart Hazırlık Seti",
-          "type": "Genel Çince ve Sınav Hazırlığı"
-        },
-        {
-          "name": "Karakter (Hanzi) Yazım Kılavuzu",
-          "type": "Yazma ve Zihin Egzersizleri"
-        },
-        {
-          "name": "Çince Tonlama ve Dinleme",
-          "type": "Pinyin ve Fonetik Pratikleri"
-        },
-        {
-          "name": "İş Çincesi (Business Chinese)",
-          "type": "Ticari ve Akademik Metinler"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -10431,33 +9486,6 @@
           "title": "Akademisyen Eğitmenler",
           "desc": "Japon diline ve kültürüne tam anlamıyla hakim, uzman akademisyen kadrosu.",
           "icon": "Users"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Japonca Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Kana ve Kanji Çalışma Kitapları",
-        "Refleksif Konuşma Materyalleri",
-        "CEFR Uyumlu Eğitim Setleri"
-      ],
-      "books": [
-        {
-          "name": "Japonca Dil Bilgisi ve Pratik",
-          "type": "Gramer ve Cümle Yapıları"
-        },
-        {
-          "name": "Hiragana, Katakana & Kanji Rehberi",
-          "type": "Yazı Sistemi ve Karakter Çalışmaları"
-        },
-        {
-          "name": "Aktif Japonca İletişim",
-          "type": "Soru-Cevap ve Speaking Odaklı"
-        },
-        {
-          "name": "Japon Kültürü ve Okuma Metinleri",
-          "type": "Edebi ve Güncel Metin İncelemeleri"
         }
       ]
     },
@@ -10685,33 +9713,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Korece Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Farkıyla",
-      "features": [
-        "Temel ve İleri Gramer Kitapları",
-        "Kore Kültürü Okuma Metinleri",
-        "Heceleme (Hangul) Alıştırmaları"
-      ],
-      "books": [
-        {
-          "name": "Korece Temel Dil Bilgisi",
-          "type": "Gramer ve Ek Çalışmaları"
-        },
-        {
-          "name": "Hangul Okuma ve Yazma",
-          "type": "Alfabe ve Hece Oluşturma Teknikleri"
-        },
-        {
-          "name": "Korece İletişim Pratikleri",
-          "type": "Günlük ve Akademik Diyaloglar"
-        },
-        {
-          "name": "Asya Dilleri ve Kültür Metinleri",
-          "type": "Edebi ve Tarihi Okuma Parçaları"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -10900,33 +9901,6 @@
           "title": "Uluslararası Kurum",
           "desc": "Türkiye'nin en köklü ve güvenilir dil okullarından birinde, sistemli ve disiplinli bir eğitim ortamı.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Osmanlıca İçin Kullanılan Eğitim Materyalleri",
-      "subtitle": "Tarihi Kaynaklar ve Modern Kitaplar",
-      "features": [
-        "Sıfırdan Alfabe Eğitimi",
-        "Matbu ve El Yazması (Rika) Örnekleri",
-        "Orijinal Arşiv Belgeleri"
-      ],
-      "books": [
-        {
-          "name": "Osmanlıca Okuma ve Yazma Rehberi",
-          "type": "Alfabe ve Başlangıç Metinleri"
-        },
-        {
-          "name": "Osmanlıca İmla ve Dilbilgisi",
-          "type": "Kaideler, Tamlamalar ve Ekler"
-        },
-        {
-          "name": "Tarihi ve Edebi Seçkiler",
-          "type": "Dergiler, Şiirler ve Makale Örnekleri"
-        },
-        {
-          "name": "Arşiv Belgeleri Okumaları (İleri Seviye)",
-          "type": "Ferman, Berat ve El Yazması (Rika) Evraklar"
         }
       ]
     },
@@ -11140,33 +10114,6 @@
           "title": "Uluslararası Deneyim",
           "desc": "Farklı kültürlerden gelen yüzlerce öğrenciye yıllardır Türkçe öğreten köklü eğitim kurumu.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Eğitimde Kullandığımız Materyaller",
-      "subtitle": "4 Temel Beceriyi Geliştiren Kaynaklar",
-      "features": [
-        "CEFR Standartlarına Uygun",
-        "Görsel ve İşitsel İçerikler",
-        "Günlük Hayat Odaklı Pratikler"
-      ],
-      "books": [
-        {
-          "name": "Yabancılar İçin Türkçe Ders Kitabı",
-          "type": "Gramer, Okuma ve Dinleme Çalışmaları"
-        },
-        {
-          "name": "Türkçe Çalışma Kitabı (Workbook)",
-          "type": "Yazma ve Dil Bilgisi Pratikleri"
-        },
-        {
-          "name": "Konuşma ve İletişim Rehberi",
-          "type": "Günlük Diyaloglar ve Telaffuz (Fonetik)"
-        },
-        {
-          "name": "Kültür ve Edebiyat Metinleri",
-          "type": "Türk Kültürünü Tanıtan İleri Seviye Metinler"
         }
       ]
     },
@@ -11394,33 +10341,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Eğitim Materyallerimiz",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "CEFR Standartlarına Uyumlu",
-        "Görsel ve Video İçerikli",
-        "İletişim Odaklı Pratikler"
-      ],
-      "books": [
-        {
-          "name": "Türkçe İletişim Kitabı",
-          "type": "Günlük Diyaloglar ve Dinleme-Anlama"
-        },
-        {
-          "name": "Uygulamalı Dil Bilgisi",
-          "type": "Sondan Eklemeli Yapı ve Kurallar"
-        },
-        {
-          "name": "Kültürel Okuma Metinleri",
-          "type": "Okuma-Anlama ve Kelime Dağarcığı"
-        },
-        {
-          "name": "Yazılı Anlatım Rehberi",
-          "type": "Kompozisyon ve İleri Düzey Yazım"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -11642,33 +10562,6 @@
           "title": "Kültürel Analiz",
           "desc": "Sadece gramer değil, Roma tarihi, edebiyatı ve sosyal yapısını kapsayan bütüncül bir yaklaşım.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Latince İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Katkısıyla",
-      "features": [
-        "Hukuk ve Tıp Terminolojisi",
-        "Edebi Metin Çözümlemeleri",
-        "Roma Tarihi Okumaları"
-      ],
-      "books": [
-        {
-          "name": "Latince Dil Bilgisi ve Sentaks",
-          "type": "Gramer, İsim ve Fiil Çekimleri"
-        },
-        {
-          "name": "Roma Hukuku ve Terminoloji",
-          "type": "Hukuk Fakülteleri İçin Temel Kavramlar"
-        },
-        {
-          "name": "Tıbbi Latince (Medical Latin)",
-          "type": "Tıp ve Sağlık Bilimleri Terminolojisi"
-        },
-        {
-          "name": "Antik Roma Edebiyatı Metinleri",
-          "type": "Şiir, Hitabet ve Felsefe Çevirileri"
         }
       ]
     },
@@ -11896,33 +10789,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Flemenkçe (Hollandaca) Eğitim Materyalleri",
-      "subtitle": "Yayın Serimiz Farkıyla",
-      "features": [
-        "Sınav Odaklı Soru Tipleri",
-        "Kültürel Okuma Metinleri",
-        "Görsel ve İşitsel İçerikler"
-      ],
-      "books": [
-        {
-          "name": "Flemenkçe Temel Gramer",
-          "type": "Dil Bilgisi ve Cümle Yapısı"
-        },
-        {
-          "name": "MVV Sınav Hazırlık Rehberi",
-          "type": "Aile Birleşimi Deneme ve Stratejileri"
-        },
-        {
-          "name": "Hollanda Toplumu ve Kültürü",
-          "type": "Uyum Sınavı (KNS) Okuma Metinleri"
-        },
-        {
-          "name": "Konuşma ve Dinleme Pratikleri",
-          "type": "İletişim, Diyalog ve Telaffuz Çalışmaları"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -12146,33 +11012,6 @@
           "title": "Esnek Modeller",
           "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online eğitim seçenekleri.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "İspanyolca İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Avrupa Dil Portföyüne Uygun",
-        "Güncel ve Tematik İçerikler",
-        "4 Beceri Odaklı Alıştırmalar"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-C2 Set",
-          "type": "Genel İspanyolca Ders Kitapları"
-        },
-        {
-          "name": "Conversación y Diálogo",
-          "type": "Konuşma ve Diyalog Pratikleri"
-        },
-        {
-          "name": "Gramática Española",
-          "type": "İspanyolca Gramer Kaynakları"
-        },
-        {
-          "name": "Comprensión Auditiva",
-          "type": "Dinleme (Fonetik) Odaklı Kaynaklar"
         }
       ]
     },
@@ -12411,33 +11250,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Rusça İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Avrupa Dil Portföyüne Uygun",
-        "Güncel ve Tematik İçerikler",
-        "4 Beceri Odaklı Alıştırmalar"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "Genel Rusça Ders Kitapları"
-        },
-        {
-          "name": "Разговор (Konuşma Pratiği)",
-          "type": "Diyalog ve Konuşma Materyali"
-        },
-        {
-          "name": "Русская Грамматика",
-          "type": "Rusça Gramer Kaynakları"
-        },
-        {
-          "name": "Аудирование (Dinleme)",
-          "type": "Dinleme Odaklı Kaynaklar"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -12672,33 +11484,6 @@
           "title": "Özel Ders İmkanı",
           "desc": "Grup derslerine katılamayanlar veya şirketler için birebir özel ders fırsatları.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Portekizce İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Avrupa Dil Portföyüne (CEFR) Uygun",
-        "Brezilya ve Portekiz Lehçeleri",
-        "Deneme Sınavları ve Testler"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Portekizce",
-          "type": "Genel Portekizce Ders Kitapları"
-        },
-        {
-          "name": "Portekizce Dilbilgisi",
-          "type": "Gramer ve Cümle Yapıları"
-        },
-        {
-          "name": "CIPLE Sınav Hazırlık",
-          "type": "A2 Vatandaşlık Sınavı Kaynakları"
-        },
-        {
-          "name": "Portekizce Konuşma Pratiği",
-          "type": "Günlük İletişim Odaklı Kaynaklar"
         }
       ]
     },
@@ -12943,33 +11728,6 @@
           "title": "Online Canlı Stüdyo",
           "desc": "Türkiye'de ilk defa Canlı Stüdyo ortamı ile kesintisiz online Arapça eğitimi.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Arapça İçin Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Kalitesi",
-      "features": [
-        "Avrupa Dil Portföyüne (CEFR) Uygun",
-        "Görsel ve İşitsel Malzemeler",
-        "Deneme Sınavları ve Testler"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Arapça",
-          "type": "Genel Arapça Ders Kitapları"
-        },
-        {
-          "name": "Arapça Dilbilgisi ve Kelime",
-          "type": "Gramer ve Sözcük Dağarcığı"
-        },
-        {
-          "name": "YDS Arapça Hazırlık",
-          "type": "YDS Sınav Stratejileri Kaynakları"
-        },
-        {
-          "name": "Arapça Okuma ve Dinleme",
-          "type": "Metin ve İşitsel Materyaller"
         }
       ]
     },
@@ -13240,33 +11998,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Düzey İngilizce"
-        },
-        {
-          "name": "Sınav Stratejileri (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Dağarcığı"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Neden Kadıköy İngilizce Kursu İçin Bizi Seçmelisiniz?",
       "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
@@ -13392,33 +12123,6 @@
         {
           "q": "Ders saatleri esnek mi, akşam ve hafta sonu seçenekleri var mı?",
           "a": "Derslerimiz sabah 08:00'den akşam 21:00'e kadar esnek saatlerde, birebir veya küçük gruplar halinde yürütülür. Ayrıca online eğitim seçeneğimiz ve kurumsal gruplar için özel şirket içi eğitim programlarımız da mevcuttur."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Düzey İngilizce"
-        },
-        {
-          "name": "Sınav Stratejileri (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Dağarcığı"
         }
       ]
     },
@@ -13567,33 +12271,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Düzey İngilizce"
-        },
-        {
-          "name": "Sınav Stratejileri (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Dağarcığı"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Neden Avcılar İngilizce Kursu İçin Bizi Seçmelisiniz?",
       "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
@@ -13721,33 +12398,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Düzey İngilizce"
-        },
-        {
-          "name": "Sınav Stratejileri (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Dağarcığı"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Neden İstanbul İngilizce Kursu İçin Bizi Seçmelisiniz?",
       "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
@@ -13864,33 +12514,6 @@
         {
           "q": "Yüz yüze derslerin yanı sıra online eğitim seçeneği var mı?",
           "a": "Evet, Çekmeköy kampüsümüze gelemeyen ya da online öğrenmeyi tercih eden öğrencilerimiz için canlı, eğitmen eşliğinde online ders seçeneği sunuyoruz. Online programlarımız, yüz yüze eğitimlerimizle aynı müfredatı ve kaliteyi korur."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
         }
       ]
     },
@@ -14022,33 +12645,6 @@
         {
           "q": "TOEFL sınavına hazırlık kursunuz var mı?",
           "a": "Evet, Reading, Listening, Speaking ve Writing bölümlerinin tamamını kapsayan sistematik bir TOEFL hazırlık programımız bulunuyor. Deneyimli eğitmenlerimiz düzenli mock sınavlarla ilerlemenizi takip eder ve zayıf noktalarınızı hedefe yönelik çalışmalarla güçlendirir."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
         }
       ]
     },
@@ -14191,33 +12787,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Ankara İngilizce Kursu İçin Neden Biz?",
       "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
@@ -14334,33 +12903,6 @@
         {
           "q": "Kurs ücretleri ne kadar, ödeme kolaylığı var mı?",
           "a": "Ücretlendirme seçtiğiniz programa (genel İngilizce, IELTS hazırlık, iş İngilizcesi vb.) ve eğitim süresine göre değişir. Ücretsiz seviye tespit sınavı sonrasında size özel fiyat teklifi sunulur ve taksitli ödeme seçenekleriyle destek sağlanır."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
         }
       ]
     },
@@ -14507,33 +13049,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Kocaeli İzmit İngilizce Kursu İçin Neden Biz?",
       "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
@@ -14662,33 +13177,6 @@
         {
           "q": "Derslere başlamadan önce kampüsü ve eğitmenleri tanıyabilir miyim?",
           "a": "Evet, Çorlu kampüsümüze gelerek ücretsiz seviye tespit sınavına ve örnek bir derse katılabilir, sınıf ortamını ve eğitmen tarzını kayıt olmadan önce yakından tanıyabilirsiniz."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
         }
       ]
     },
@@ -14827,33 +13315,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "İnegöl İngilizce Kursu İçin Neden Biz?",
       "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
@@ -14989,33 +13450,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Yıldırım Erikli İngilizce Kursu İçin Neden Biz?",
       "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
@@ -15139,33 +13573,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Neden Amerika Eğitimi İçin Akademik International'ı Seçmelisiniz?",
       "subtitle": "Güvenilir Rehberlik, Kanıtlanmış Başarı",
@@ -15272,33 +13679,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
-      "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
-      "features": [
-        "Londra Merkezli Yayınlar",
-        "Güncel ve Aktüel Konular",
-        "Modern Kelime Yapıları"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "Genel ve Orta Seviye İngilizce"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Sınav Teknikleri ve Strateji"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Konuşma ve Aktif İletişim"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Kelime Hazinesi"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Neden Kütahya İngilizce Kursu İçin Bizi Seçmelisiniz?",
       "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
@@ -15367,7 +13747,7 @@
       "title": "Tarihçe",
       "paragraphs": [
         "Sıradanlaşan yabancı dil eğitim müfredatının yerine, sürdürülebilir yabancı dil eğitim sistemini oluşturarak endüstri 4.0 ile dil eğitimine farklı bakış açısı kazandıran Akademik Yabancı Dil Kursu, yarım asra yakın süredir İngilizce başta olmak üzere yabancı dil eğitimine yön vermektedir.",
-        "Türkiye'de ilk kez yetişkinler ve alt yaş grupları için ayrı eğitim müfredatını oluşturan Akademik Dil Okulu, 2010 yılında Londra'da kurulan The Academic Publishing Yayınevine ait yaş gruplarına ve aktüel birikimlerine uygun hazırlanan özgün kaynakları ile bugüne kadar birçok kamu ve özel sektör çalışanına, ilköğretim öğrencilerinden başlayarak tüm yaş grupları için ayrı düzenlenmiş eğitim programları ile yabancı dil eğitimi hizmeti vermektedir.",
+        "Türkiye'de ilk kez yetişkinler ve alt yaş grupları için ayrı eğitim müfredatını oluşturan Akademik Dil Okulu, yaş gruplarına ve aktüel birikimlerine uygun hazırlanan özgün kaynakları ile bugüne kadar birçok kamu ve özel sektör çalışanına, ilköğretim öğrencilerinden başlayarak tüm yaş grupları için ayrı düzenlenmiş eğitim programları ile yabancı dil eğitimi hizmeti vermektedir.",
         "Akademik International, kuruluşundan bu yana yabancı dil eğitiminde kalite standartlarını yeniden tanımlamış; Türkiye'nin önde gelen üniversitelerinden gelen akademisyenler ve ana dili İngilizce olan uzman eğitmenlerden oluşan güçlü kadrosuyla öğrencilerine dünya standartlarında dil eğitimi sunmaktadır.",
         "Bugün Türkiye'nin 12'den fazla şehrinde faaliyet gösteren Akademik International, İstanbul, Ankara, Bursa, İzmir, Kocaeli ve daha pek çok ilde binlerce öğrenciye hizmet vermeye devam etmekte; aynı zamanda Amerika başta olmak üzere yurt dışı eğitim imkanlarıyla da öğrencilerinin yanında yer almaktadır.",
         "ISO 9001:2015 Kalite Yönetim Sistemi belgesiyle Türkiye'de yabancı dil eğitiminde bu sertifikayı alan ilk kurum olma unvanını taşıyan Akademik International, %97 öğrenci memnuniyeti oranıyla sektörün referans noktası olmayı sürdürmektedir."
@@ -15412,121 +13792,6 @@
         {
           "q": "ISO 9001:2015 belgesi ne anlama geliyor?",
           "a": "ISO 9001:2015, uluslararası alanda tanınan bir Kalite Yönetim Sistemi standardıdır. Akademik International, bu belgeyi yabancı dil eğitimi alanında Türkiye'de ilk kez alan kurumdur."
-        }
-      ]
-    }
-  },
-  "yayinlarimizPage": {
-    "meta": {
-      "title": "Yayınlarımız",
-      "description": "2017 yılında merkezi Londra olan The Academic Publishing yayınevimiz tarafından hazırlanan, yetişkinlere özgü yabancı dil eğitim kitapları ve sınav materyalleri."
-    },
-    "hero": {
-      "tag": "THE ACADEMIC PUBLISHING",
-      "title": "Yayınlarımız",
-      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
-      "infoBtn": "Hemen Ön Bilgi Alın!",
-      "whatsappBtn": "Whatsapp Bilgi",
-      "formRibbon": "Ön Bilgi Formu",
-      "formTitle": "ÜCRETSİZ DENEME DERSİ!",
-      "formSubtitle": "Konuşma Garantili Dil Eğitimi!",
-      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
-      "phonePlaceholder": "GSM Numaranızı Giriniz.",
-      "branchPlaceholder": "Şube Seçiniz."
-    },
-    "intro": {
-      "title": "Yayınlarımız",
-      "paragraphs": [
-        "Türkiye'de Yabancı Dil Milli Eğitim Sistemini'ne yeni bir boyut kazandırarak, yetişkinlere özgü eğitim içeriğini oluşturmuş ilk dil okuludur. Kurumumuz bugüne kadar binlerce üniversite öğrencisine, öğretim görevlileri ve akademisyenlere, gazetecilere, bürokratlara, üst düzey kurum yöneticilerine, kamu ve özel sektörde görevli personele uzmanlık alanı ve ilgili hedefler doğrultusunda dil eğitimi vermiştir.",
-        "Akademik nitelikli dil eğitimine yeni bir boyut kazandırmak ve katma değer sağlamak maksadıyla, Akademik Yabancı Dil Kursu, 2017 yılında merkezi Londra olan The Academic Publishing yayınevini kurmuştur. Türkiye'nin seçkin üniversitelerinde görev alan akademisyen hocamız ve native hocalarımızdan oluşan dil komisyonumuzun, kolektif çalışmalarıyla hazırlanan yayınlarımız, dil eğitimine farklı bir açıdan bakmanızı ve daha kısa sürede istediğiniz seviyeye ulaşmanıza büyük katkı sağlayacaktır.",
-        "Dil eğitiminde, ilgili yabancı dilde meydana gelen kullanım değişimlerini dahi dikkate alan ve değişen sınav stratejilerini sürekli olarak takip eden, sürekli yenilenen ve değiştiren bir anlayışla hazırlanan kaynaklarımız, gerek dil öğreniminizde ve sınav hazırlık süreçlerinizde büyük bir fark yaratarak daha kısa sürede ve daha etkin öğrenmenize katkı sağlayacaktır.",
-        "Türklerin yabancı dil öğrenme yetkinliklerine uyumlu, sadece grammar tabanlı değil konuşma, yazma, dinleme ve okuma becerilerini de paralelde geliştirebilecekleri yabancı dil eğitim kaynakları her seviye için ayrı ayrı hazırlanmıştır.",
-        "Akademik Yabancı Dil Komisyonu, yıllar içerisinde elde ettiği akademik ve business sınav eğitim tecrübesini kullanarak, Türkiye ve Dünya genelinde geçerli olan (YDS, YÖKDİL, IELTS, TOEFL, TOEIC, Proficiency) sınavlarına yönelik yayın çalışmalarını tamamlamıştır.",
-        "Sıklıkla gelişen yeni sınav stratejilerine paralel olarak, yüksek dereceler elde edilmesi için gereksiz bilgilerden arınmış ve hedef odaklı hazırlanmış kaynaklar ile Akademik Yabancı Dil Kursu olarak kariyer planlamanızda hedeflerinize hızla ulaşabilmeniz için sizlerin yanında olmaktan büyük bir kıvanç duyuyoruz."
-      ]
-    },
-    "publications": {
-      "title": "Yetişkinlere Özgü Özel Yayınlarımız",
-      "subtitle": "Kayıt Olan Öğrencilerimize Ücretsiz",
-      "features": [
-        "Zengin İç Dizayn",
-        "Yetişkinlere Özgü İçerikler",
-        "Yenilikçi Yaklaşım"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar Rules, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC READING",
-          "type": "Reading Comprehension, Critical Thinking"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Integrated Skills, Exam Practice"
-        },
-        {
-          "name": "YDS / YÖKDİL PREP",
-          "type": "Sınav Stratejileri, Örnek Sorular"
-        },
-        {
-          "name": "IELTS / TOEFL PREP",
-          "type": "Band Score Strategies, Full Mock Tests"
-        }
-      ]
-    },
-    "whyUs": {
-      "title": "Neden The Academic Publishing?",
-      "subtitle": "Akademik International bünyesindeki yayınevimizin öğrencilerimize sunduğu eşsiz avantajlar",
-      "advantages": [
-        {
-          "title": "Londra Merkezli Yayınevi",
-          "desc": "2017 yılında kurulan The Academic Publishing, merkezi Londra'da olan uluslararası standartlarda yayın üretmektedir.",
-          "icon": "Globe"
-        },
-        {
-          "title": "Akademisyen Kadro",
-          "desc": "Türkiye'nin seçkin üniversitelerinde görev yapan akademisyen hocalar ve native speaker eğitmenlerden oluşan komisyon tarafından hazırlanmaktadır.",
-          "icon": "GraduationCap"
-        },
-        {
-          "title": "Her Seviyeye Özel",
-          "desc": "A1'den C2'ye kadar her dil seviyesi için ayrı ayrı tasarlanmış, konuşma-yazma-okuma-dinleme becerilerini dengeli geliştiren materyaller.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Sınav Odaklı İçerik",
-          "desc": "YDS, YÖKDİL, IELTS, TOEFL, TOEIC ve Proficiency sınavları için hedef odaklı, gereksiz bilgilerden arındırılmış kaynaklar.",
-          "icon": "Award"
-        }
-      ]
-    },
-    "faq": {
-      "items": [
-        {
-          "q": "Yayınlarınız yalnızca kurs öğrencilerine mi sunuluyor?",
-          "a": "Yayınlarımız öncelikle Akademik International öğrencilerimize ücretsiz olarak verilmektedir. Kurs dışı satış kanallarımız hakkında bilgi almak için bizimle iletişime geçebilirsiniz."
-        },
-        {
-          "q": "Kitaplar hangi dil seviyelerine yöneliktir?",
-          "a": "Başlangıç (A1) seviyesinden ileri (C1-C2) seviyeye kadar tüm dil düzeyleri için ayrı ayrı materyaller mevcuttur. Seviye tespit sınavı sonucunuza göre size uygun set belirlenmektedir."
-        },
-        {
-          "q": "The Academic Publishing kitapları sınav hazırlığında yeterli mi?",
-          "a": "YDS, YÖKDİL, IELTS, TOEFL, TOEIC ve Proficiency sınavları için kapsamlı içerikler sunan yayınlarımız, güncel sınav stratejilerine paralel olarak düzenli güncellenmektedir."
         }
       ]
     }
@@ -16195,33 +14460,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Dil Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Farkı",
-      "features": [
-        "Dile Özgü Güncel İçerikler",
-        "Kültürel Bağlam ve Gerçek Hayat Diyalogları",
-        "Kuruma Ait Özgün Materyaller"
-      ],
-      "books": [
-        {
-          "name": "Almanca Başlangıç Seti",
-          "type": "A1-A2 Temel Almanca"
-        },
-        {
-          "name": "Fransızca İletişim Programı",
-          "type": "B1-B2 Pratik Fransızca"
-        },
-        {
-          "name": "Asya Dilleri Rehberi",
-          "type": "Japonca / Korece / Çince"
-        },
-        {
-          "name": "Kültür & Dil Kitapları",
-          "type": "Her Dil İçin Kültürel İçerik"
-        }
-      ]
-    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -16483,33 +14721,6 @@
           "title": "Kuruma Özel Kaynaklar",
           "desc": "The Academic Publishing yayınevimizin sınava özel hazırlanmış güncel materyalleri.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Sınav Hazırlığında Kullandığımız Kaynaklar",
-      "subtitle": "Yayın Serimiz Farkı",
-      "features": [
-        "Sınava Özgü Güncel Stratejiler",
-        "Tüm Soru Tipleri Kapsamı",
-        "Kuruma Ait Özgün Materyaller"
-      ],
-      "books": [
-        {
-          "name": "IELTS & TOEFL Strategy Guide",
-          "type": "Uluslararası Sınav Stratejileri"
-        },
-        {
-          "name": "YDS / YÖKDİL Hazırlık",
-          "type": "Ulusal Sınav Programı"
-        },
-        {
-          "name": "GMAT / GRE Verbal Reasoning",
-          "type": "Analitik Akıl Yürütme"
-        },
-        {
-          "name": "Academic Mock Exams",
-          "type": "Gerçek Format Deneme Seti"
         }
       ]
     },

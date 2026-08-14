@@ -9,7 +9,6 @@ import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { ExamCardsGrid } from "../../../components/course/ExamCardsGrid";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
@@ -179,7 +178,6 @@ export default async function DigerDillerPage({ params }: PageProps) {
       <CourseInfoSection courseKey={COURSE_KEY} lang={lang} />
       <ExamCardsGrid courseKey={COURSE_KEY} lang={lang} />
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey={COURSE_KEY} lang={lang} />

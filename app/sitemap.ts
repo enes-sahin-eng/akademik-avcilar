@@ -91,7 +91,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/arapca-dil-kursu",
     "/flemenkce-dil-kursu",
     // Hakkımızda
-    "/yayinlarimiz",
     "/tarihce",
     "/neden-akademik-yabanci-dil-kurslari",
     "/referanslar",

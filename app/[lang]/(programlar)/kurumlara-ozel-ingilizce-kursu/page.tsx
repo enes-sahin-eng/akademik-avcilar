@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -124,7 +123,6 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
       <CourseInfoSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="kurumsalIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="kurumsalIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="kurumsalIngilizceLandingPage" lang={lang} />

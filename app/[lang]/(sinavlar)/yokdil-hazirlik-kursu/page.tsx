@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -169,7 +168,6 @@ export default async function YokdilHazirlikKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="yokdilLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="yokdilLandingPage" lang={lang} />
       <WhyUsSection courseKey="yokdilLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="yokdilLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="yokdilLandingPage" lang={lang} />

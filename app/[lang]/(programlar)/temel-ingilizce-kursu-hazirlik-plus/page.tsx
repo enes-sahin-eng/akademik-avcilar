@@ -7,7 +7,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 
@@ -70,7 +69,6 @@ export default async function PrepPlusPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="prepPlusPage" lang={lang} />
       <CourseInfoSection courseKey="prepPlusPage" lang={lang} />
       <WhyUsSection courseKey="prepPlusPage" lang={lang} />
-      <PublicationsShowcase courseKey="prepPlusPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="prepPlusPage" lang={lang} />

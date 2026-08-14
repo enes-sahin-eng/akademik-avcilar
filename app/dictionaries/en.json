@@ -415,11 +415,6 @@
   },
   "megaMenuHakkimizda": [
     {
-      "title": "OUR PUBLICATIONS",
-      "icon": "BookOpen",
-      "href": "/yayinlarimiz"
-    },
-    {
       "title": "HISTORY",
       "icon": "ScrollText",
       "href": "/tarihce"
@@ -1095,29 +1090,6 @@
       ],
       "btnNext": "Next Privilege →"
     },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1240,29 +1212,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1387,29 +1336,6 @@
       ],
       "btnNext": "Next Privilege →"
     },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1532,29 +1458,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1679,29 +1582,6 @@
       ],
       "btnNext": "Next Privilege →"
     },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1824,29 +1704,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Our Exclusive Publications for Adults",
-      "subtitle": "Free for Enrolled Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Reading, Listening, Speaking Activities"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -2002,29 +1859,6 @@
       ],
       "btnNext": "Next Privilege →"
     },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -2171,29 +2005,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -2353,33 +2164,6 @@
           "title": "Online Lessons (Letslingo)",
           "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Special Publications for Middle School Students",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
         }
       ]
     },
@@ -2642,33 +2426,6 @@
           "icon": "Target",
           "title": "Global Communication at an Early Age",
           "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with Akademik assurance."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Special Publications for Middle School Students",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
         }
       ]
     },
@@ -2938,33 +2695,6 @@
           "title": "Online Lessons (Letslingo)",
           "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Exclusive Publications for Private Lesson Students",
-      "subtitle": "Level-Appropriate Design, Personalized Content, Innovative Approach",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
         }
       ]
     },
@@ -3255,33 +2985,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Avcılar English Language Course Corporate Publications",
-      "subtitle": "Free for Corporate Students!",
-      "features": [
-        "Corporate Specific Content",
-        "Global Standard Publications",
-        "Sectoral Terms"
-      ],
-      "books": [
-        {
-          "name": "Academic Reading",
-          "type": "Reading and Comprehension"
-        },
-        {
-          "name": "Plus Listening",
-          "type": "Listening Practice"
-        },
-        {
-          "name": "Prep Workbook",
-          "type": "Workbook"
-        },
-        {
-          "name": "Corporate Vocabulary",
-          "type": "Professional Vocabulary Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Best Education Model for You",
       "faceToFace": {
@@ -3489,33 +3192,6 @@
           "title": "Multi-Sector Mastery",
           "desc": "Accurate language use appropriate to the sector in technical, commercial, legal, medical, academic, and corporate texts.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Document Types We Translate",
-      "subtitle": "Uninterrupted Support in Every Field",
-      "features": [
-        "Corporate Solutions",
-        "Academic Translations",
-        "Official Documents"
-      ],
-      "books": [
-        {
-          "name": "Contracts & Tenders",
-          "type": "Legal & Commercial Texts"
-        },
-        {
-          "name": "Medical Reports & Articles",
-          "type": "Medical Texts"
-        },
-        {
-          "name": "User Manuals",
-          "type": "Technical Texts"
-        },
-        {
-          "name": "Theses and Presentations",
-          "type": "Academic Texts"
         }
       ]
     },
@@ -3740,33 +3416,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for YDS",
-      "subtitle": "Up-to-Date Contents Leading to Success",
-      "features": [
-        "Subject Explanation Books",
-        "Vocabulary and Reading Books",
-        "Comprehensive Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "YDS Grammar and Structure Bank",
-          "type": "Subject Explanation & Test"
-        },
-        {
-          "name": "Academic Vocabulary and Phrasal Verbs",
-          "type": "Vocabulary Study"
-        },
-        {
-          "name": "YDS Reading Paragraph Solutions",
-          "type": "Reading & Comprehension"
-        },
-        {
-          "name": "10 Original YDS Practice Exam Set",
-          "type": "Exam Practice"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model That Suits You Best",
       "faceToFace": {
@@ -3973,33 +3622,6 @@
           "title": "Personalized Reinforcement",
           "desc": "Quickly close your knowledge gaps with professional support and periodic personalized reinforcement sessions.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for IELTS",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Four Core Skills (4 Skills)",
-        "Institution-Specific Materials"
-      ],
-      "books": [
-        {
-          "name": "IELTS Listening & Speaking",
-          "type": "Listening & Speaking Practice"
-        },
-        {
-          "name": "IELTS Reading Strategies",
-          "type": "Reading Analysis"
-        },
-        {
-          "name": "IELTS Writing Task 1 & 2",
-          "type": "Writing Strategies"
-        },
-        {
-          "name": "IELTS Mock Exams",
-          "type": "Mock Exam Set"
         }
       ]
     },
@@ -4224,33 +3846,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for YKS-Dil YDT",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Lecture Explanations and Question Bank",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "YDT Lecture Set",
-          "type": "Lecture Notes"
-        },
-        {
-          "name": "YDT Question Bank",
-          "type": "Question Solving"
-        },
-        {
-          "name": "YDT Leaf Tests",
-          "type": "Past & Original Questions"
-        },
-        {
-          "name": "YDT Mock Exams",
-          "type": "Mock Exam Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -4469,33 +4064,6 @@
           "title": "Comprehensive Publication Support",
           "desc": "Comprehensive publication support that addresses weaknesses in speaking, writing, reading, and listening skills.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for ITEP",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Content Focused on Five Core Skills",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "ITEP Listening & Speaking",
-          "type": "Listening & Speaking Practice"
-        },
-        {
-          "name": "ITEP Reading Strategies",
-          "type": "Reading Analysis"
-        },
-        {
-          "name": "ITEP Writing & Grammar",
-          "type": "Writing & Grammar"
-        },
-        {
-          "name": "ITEP Past Questions Set",
-          "type": "Practice & Strategy"
         }
       ]
     },
@@ -4721,33 +4289,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for GRE",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Content Focused on Quantitative, Verbal, and Analytical Skills",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "GRE Quantitative Reasoning",
-          "type": "Quantitative & Problem Solving Practice"
-        },
-        {
-          "name": "GRE Verbal Reasoning",
-          "type": "Verbal Analysis & Reading"
-        },
-        {
-          "name": "GRE Analytical Writing",
-          "type": "Essay & Writing"
-        },
-        {
-          "name": "GRE Practice Tests & Strategy Set",
-          "type": "Mock Exams & Time Management"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -4969,33 +4510,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for TestDaF",
-      "subtitle": "Goal-Oriented Exam Materials",
-      "features": [
-        "Content Aligned with TDN Levels",
-        "Practice Focused on the Four Skills",
-        "TestDaF Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "TestDaF Leseverstehen & Hörverstehen",
-          "type": "Reading and Listening Practice"
-        },
-        {
-          "name": "TestDaF Schriftlicher Ausdruck",
-          "type": "Written Expression and Composition"
-        },
-        {
-          "name": "TestDaF Mündlicher Ausdruck",
-          "type": "Oral Expression Studies"
-        },
-        {
-          "name": "TestDaF Musterprüfungen",
-          "type": "Practice Exam Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5139,33 +4653,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Prep Exemption",
-      "subtitle": "Comprehensive Materials Aligned with University Formats",
-      "features": [
-        "Past Year Exam Archive",
-        "Academic Vocabulary Studies",
-        "Intensive Grammar Sets"
-      ],
-      "books": [
-        {
-          "name": "Proficiency Essay Writing",
-          "type": "Writing and Composition Practice"
-        },
-        {
-          "name": "Academic Vocabulary Builder",
-          "type": "Vocabulary Building"
-        },
-        {
-          "name": "Advanced Grammar Focus",
-          "type": "Grammar Studies"
-        },
-        {
-          "name": "University Mock Exams",
-          "type": "Institution-Specific Mock Exams"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5289,33 +4776,6 @@
           "title": "Accurate Presentations",
           "desc": "Specific tactics and privileged guidance that enable you to solve questions in reading passages quickly.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for YÖKDİL",
-      "subtitle": "Up-to-Date Publication Sets Specific to Your Field",
-      "features": [
-        "Books with Subject Explanations",
-        "Field-Specific Question Banks",
-        "Nationwide Mock Exams Across Turkey"
-      ],
-      "books": [
-        {
-          "name": "YÖKDİL Grammar & Structure",
-          "type": "Goal-Oriented Grammar"
-        },
-        {
-          "name": "YÖKDİL Health / Science / Social",
-          "type": "Field-Specific Vocabulary"
-        },
-        {
-          "name": "YÖKDİL Reading Analysis",
-          "type": "Reading Passage Analysis"
-        },
-        {
-          "name": "YÖKDİL Original Mock Exam Set",
-          "type": "Practice and Exam Simulation"
         }
       ]
     },
@@ -5541,33 +5001,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for TOEFL",
-      "subtitle": "Comprehensive and Up-to-Date Exam Materials",
-      "features": [
-        "Past TOEFL Questions",
-        "4-Skill Focused Study Books",
-        "Electronic Mock Exam Sets"
-      ],
-      "books": [
-        {
-          "name": "TOEFL iBT Reading & Listening",
-          "type": "Reading and Listening Practice"
-        },
-        {
-          "name": "TOEFL iBT Speaking & Writing",
-          "type": "Productive Skills and Templates"
-        },
-        {
-          "name": "Academic Vocabulary for TOEFL",
-          "type": "Exam Vocabulary"
-        },
-        {
-          "name": "TOEFL Strategy and Mock Exam Set",
-          "type": "Past Questions and Tactics"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5785,33 +5218,6 @@
           "title": "Corporate Validity",
           "desc": "Business-focused content directly preparing for job interviews at giant brands like TOFAŞ and RENAULT.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for TOEIC",
-      "subtitle": "Comprehensive Document and Material Support",
-      "features": [
-        "Business English Focused Reading",
-        "Corporate Listening Practices",
-        "TOEIC Exam Strategies"
-      ],
-      "books": [
-        {
-          "name": "TOEIC Reading Strategies",
-          "type": "Business Texts and Report Analysis"
-        },
-        {
-          "name": "TOEIC Listening for Business",
-          "type": "Meeting and Interview Listening Practices"
-        },
-        {
-          "name": "Business Vocabulary Builder",
-          "type": "Corporate Vocabulary"
-        },
-        {
-          "name": "TOEIC Full Practice Exams",
-          "type": "Full-Length Mock Exams"
         }
       ]
     },
@@ -6035,33 +5441,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for GMAT",
-      "subtitle": "Educational Materials at International Standards",
-      "features": [
-        "Original GMAT Past Questions",
-        "Quantitative and Verbal Focused Practices",
-        "Computer-Based Mock Sets"
-      ],
-      "books": [
-        {
-          "name": "GMAT Quantitative Focus",
-          "type": "Quantitative Data Interpretation and Problem Solving"
-        },
-        {
-          "name": "GMAT Verbal & Critical Reasoning",
-          "type": "Critical Reasoning"
-        },
-        {
-          "name": "Integrated Reasoning & AWA",
-          "type": "Graphics Interpretation and Analytical Writing"
-        },
-        {
-          "name": "GMAT Official Computer Mocks",
-          "type": "Computer-Based Mocks"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -6281,33 +5660,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Goethe",
-      "subtitle": "Exam Materials Suitable for Your Level",
-      "features": [
-        "A1 - C2 Level Books",
-        "Modular Question Banks",
-        "Goethe Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Prüfungstraining Goethe-Zertifikat",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "Fit fürs Goethe-Zertifikat",
-          "type": "Four Skills Preparation Book"
-        },
-        {
-          "name": "Wortschatz & Grammatik",
-          "type": "Vocabulary and Grammar Work"
-        },
-        {
-          "name": "Goethe Modelltests",
-          "type": "Real Exam Simulations"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -6448,33 +5800,6 @@
           "desc": "The opportunity to quickly address your weak points with a training program tailored to you.",
           "icon": "Monitor",
           "href": "/korece-dil-kursu"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for ÖSD",
-      "subtitle": "Communication-Oriented Exam Materials",
-      "features": [
-        "A1 - C2 Level Workbooks",
-        "Communication and Speaking Practice",
-        "ÖSD Practice Exam Sets"
-      ],
-      "books": [
-        {
-          "name": "ÖSD Zertifikat Übungsmaterialien",
-          "type": "Exam Preparation and Practice"
-        },
-        {
-          "name": "Mit Erfolg zum ÖSD",
-          "type": "Strategy and Question Solving"
-        },
-        {
-          "name": "Kommunikation im Alltag",
-          "type": "Communication and Speaking Focused Practice"
-        },
-        {
-          "name": "ÖSD Modellprüfungen",
-          "type": "Full-Scope Practice Exams"
         }
       ]
     },
@@ -6831,33 +6156,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Up-to-Date and Current Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic German B1-B2",
-          "type": "General and Intermediate German"
-        },
-        {
-          "name": "Prüfungstraining (Goethe, Telc)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interaktives Sprechen",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Wortschatz Aktuell",
-          "type": "Modern Vocabulary"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -7029,33 +6327,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Family Reunification (A1)",
-      "subtitle": "Special Materials Guaranteeing Your Exam Success",
-      "features": [
-        "Compliant with Goethe A1 Format",
-        "Basic Sentence Structures",
-        "Visual and Auditory Practice"
-      ],
-      "books": [
-        {
-          "name": "Fit fürs Goethe-Zertifikat A1",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "Start Deutsch 1 Übungstests",
-          "type": "Mock Exams in Past Exam Question Format"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Basic Vocabulary and Grammar"
-        },
-        {
-          "name": "Hören & Sprechen A1",
-          "type": "Listening and Speaking Practice"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -7199,33 +6470,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for A1 Level",
-      "subtitle": "Basic Materials Compliant with the Exam Format",
-      "features": [
-        "Compliant with Goethe/Telc A1 Format",
-        "Basic Sentence Structures",
-        "Visual and Auditory Activities"
-      ],
-      "books": [
-        {
-          "name": "Start Deutsch 1 Hazırlık Kitapları",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Basic Vocabulary and Grammar"
-        },
-        {
-          "name": "Modelltests für A1",
-          "type": "Mock Exams in Past Exam Question Format"
-        },
-        {
-          "name": "Hören & Sprechen Übungen",
-          "type": "Listening and Speaking Practice"
-        }
-      ]
-    },
     "models": {
       "title": "Our Education Models",
       "faceToFace": {
@@ -7365,33 +6609,6 @@
           "title": "Cultural Activities",
           "desc": "Opportunity to learn the French language blended with its own culture through educational activities.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for French",
-      "subtitle": "Materials Developing 4 Core Skills",
-      "features": [
-        "At International Standards",
-        "Auditory and Visual Practices",
-        "Cultural Reading Texts"
-      ],
-      "books": [
-        {
-          "name": "Fransızca Dil Bilgisi ve Pratik",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Compréhension Orale & Écrite",
-          "type": "Reading and Listening Exercises"
-        },
-        {
-          "name": "Expression Orale",
-          "type": "Speaking and Pronunciation (Native)"
-        },
-        {
-          "name": "Eğitsel Aktivite Materyalleri",
-          "type": "Cultural and Interactive Content"
         }
       ]
     },
@@ -7716,33 +6933,6 @@
           "title": "Stress and Time Management",
           "desc": "Psychological foundational training so you can use English fluently and effectively under pressure.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Sectoral Resources We Use in Training",
-      "subtitle": "Special Materials for Cabin and Cockpit",
-      "features": [
-        "Aviation Terminology",
-        "Past Interview Questions",
-        "Auditory (Listening) Practices"
-      ],
-      "books": [
-        {
-          "name": "English for Cabin Crew",
-          "type": "Occupational Terminology and Dialogues"
-        },
-        {
-          "name": "Aviation Interview Strategies",
-          "type": "Board Interview and Tactics"
-        },
-        {
-          "name": "Online Test (CBT) Mocks",
-          "type": "Computer-Based Mock Exams"
-        },
-        {
-          "name": "Emergency Situations & Health",
-          "type": "Emergency and Evacuation Scenarios"
         }
       ]
     },
@@ -9151,33 +8341,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use in Education",
-      "subtitle": "Materials at International Standards",
-      "features": [
-        "Compatible with A1-B2 Levels",
-        "Auditory and Visual Practices",
-        "Current Subject Explanations"
-      ],
-      "books": [
-        {
-          "name": "French Grammar",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Compréhension Orale",
-          "type": "Listening and Comprehension Practices"
-        },
-        {
-          "name": "Expression Écrite",
-          "type": "Written Expression and Composition"
-        },
-        {
-          "name": "Cultural Reading Texts",
-          "type": "Art, Fashion, and History Content"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -9377,33 +8540,6 @@
           "title": "Flexible Models",
           "desc": "Formal classroom lessons, one-on-one private lessons, or online education options according to your needs.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for German",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "Compliant with European Language Portfolio",
-        "Current and Thematic Content",
-        "4 Skills Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "General German Textbooks"
-        },
-        {
-          "name": "Dialogue & Monologue Practices",
-          "type": "Interpersonal and Oral Expression Material"
-        },
-        {
-          "name": "Family Reunification Preparation",
-          "type": "Past Exam Questions in Consulate Format"
-        },
-        {
-          "name": "Auditory Comprehension Texts",
-          "type": "Listening (Phonetics) Focused Resources"
         }
       ]
     },
@@ -9627,33 +8763,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Italian",
-      "subtitle": "Rich and Up-to-Date Materials",
-      "features": [
-        "A1-C2 Level Compliant",
-        "Cultural Reading Texts",
-        "Auditory and Visual Practices"
-      ],
-      "books": [
-        {
-          "name": "Italian Grammar (Grammatica)",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Ascolto e Parlato",
-          "type": "Listening and Speaking (Phonetic) Practices"
-        },
-        {
-          "name": "Lettura e Cultura",
-          "type": "Culture, Art, and Reading Texts"
-        },
-        {
-          "name": "Scrittura Avanzata (B2-C2)",
-          "type": "Advanced Written Expression and Composition"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -9857,33 +8966,6 @@
           "title": "Original Publications",
           "desc": "Materials specially prepared within The Academic Publishing and suitable for the language logic of adults.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Persian Learning",
-      "subtitle": "Professional Content from Our Own Publishing House",
-      "features": [
-        "Compliant with Iranian Ministry of National Education System",
-        "Content Tailored for Adults",
-        "YDS-Compliant Vocabulary/Text Studies"
-      ],
-      "books": [
-        {
-          "name": "The Academic Publishing Persian Set",
-          "type": "General Persian Textbooks"
-        },
-        {
-          "name": "Reading and Comprehension",
-          "type": "Historical, Literary, and Cultural Texts"
-        },
-        {
-          "name": "Persian YDS Exam Strategies",
-          "type": "Question Solving for Academic Exams"
-        },
-        {
-          "name": "Phonetics and Speaking",
-          "type": "Communicative Practice Materials"
         }
       ]
     },
@@ -10111,33 +9193,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Special Resources We Use for Chinese",
-      "subtitle": "With the Assurance of Our Publishing Series",
-      "features": [
-        "Compliant with HSK Exam Format",
-        "Hanzi (Character) Workbooks",
-        "Visual and Auditory Memory Techniques"
-      ],
-      "books": [
-        {
-          "name": "HSK Standard Preparation Set",
-          "type": "General Chinese and Exam Preparation"
-        },
-        {
-          "name": "Character (Hanzi) Writing Guide",
-          "type": "Writing and Brain Exercises"
-        },
-        {
-          "name": "Chinese Tones and Listening",
-          "type": "Pinyin and Phonetics Practice"
-        },
-        {
-          "name": "Business Chinese",
-          "type": "Commercial and Academic Texts"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -10348,33 +9403,6 @@
           "title": "Academician Instructors",
           "desc": "An expert academician team with full mastery of Japanese language and culture.",
           "icon": "Users"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use in Japanese Education",
-      "subtitle": "The Quality of Our Publishing Series",
-      "features": [
-        "Kana and Kanji Workbooks",
-        "Reflexive Speaking Materials",
-        "CEFR-Compliant Educational Sets"
-      ],
-      "books": [
-        {
-          "name": "Japanese Grammar and Practice",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Hiragana, Katakana & Kanji Guide",
-          "type": "Writing System and Character Exercises"
-        },
-        {
-          "name": "Active Japanese Communication",
-          "type": "Q&A and Speaking-Oriented"
-        },
-        {
-          "name": "Japanese Culture and Reading Texts",
-          "type": "Literary and Current Text Analysis"
         }
       ]
     },
@@ -10602,33 +9630,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use in Korean Education",
-      "subtitle": "With the Difference of Our Publishing Series",
-      "features": [
-        "Basic and Advanced Grammar Books",
-        "Korean Culture Reading Texts",
-        "Syllabification (Hangul) Exercises"
-      ],
-      "books": [
-        {
-          "name": "Korean Basic Grammar",
-          "type": "Grammar and Suffix Exercises"
-        },
-        {
-          "name": "Hangul Reading and Writing",
-          "type": "Alphabet and Syllable Formation Techniques"
-        },
-        {
-          "name": "Korean Communication Practices",
-          "type": "Daily and Academic Dialogues"
-        },
-        {
-          "name": "Asian Languages and Culture Texts",
-          "type": "Literary and Historical Reading Passages"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -10817,33 +9818,6 @@
           "title": "International Institution",
           "desc": "A systematic and disciplined educational environment in one of Turkey's most established and reliable language schools.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Educational Materials Used for Ottoman Turkish",
-      "subtitle": "Historical Sources and Modern Books",
-      "features": [
-        "Alphabet Training from Scratch",
-        "Printed and Handwritten (Rika) Examples",
-        "Original Archival Documents"
-      ],
-      "books": [
-        {
-          "name": "Ottoman Turkish Reading and Writing Guide",
-          "type": "Alphabet and Beginner Texts"
-        },
-        {
-          "name": "Ottoman Turkish Orthography and Grammar",
-          "type": "Rules, Compound Structures, and Suffixes"
-        },
-        {
-          "name": "Historical and Literary Selections",
-          "type": "Magazines, Poems, and Article Examples"
-        },
-        {
-          "name": "Archival Document Readings (Advanced Level)",
-          "type": "Edict (Ferman), Diploma (Berat), and Handwritten (Rika) Documents"
         }
       ]
     },
@@ -11057,33 +10031,6 @@
           "title": "International Experience",
           "desc": "An established educational institution that has been teaching Turkish to hundreds of students from different cultures for years.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Materials We Use in Education",
-      "subtitle": "Resources Developing 4 Core Skills",
-      "features": [
-        "Compliant with CEFR Standards",
-        "Visual and Audio Content",
-        "Daily Life-Oriented Practices"
-      ],
-      "books": [
-        {
-          "name": "Turkish Coursebook for Foreigners",
-          "type": "Grammar, Reading, and Listening Exercises"
-        },
-        {
-          "name": "Turkish Workbook",
-          "type": "Writing and Grammar Practices"
-        },
-        {
-          "name": "Speaking and Communication Guide",
-          "type": "Daily Dialogues and Pronunciation (Phonetics)"
-        },
-        {
-          "name": "Culture and Literature Texts",
-          "type": "Advanced Level Texts Introducing Turkish Culture"
         }
       ]
     },
@@ -11311,33 +10258,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Our Educational Materials",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "Compliant with CEFR Standards",
-        "Visual and Video Content",
-        "Communication-Oriented Practices"
-      ],
-      "books": [
-        {
-          "name": "Turkish Communication Book",
-          "type": "Daily Dialogues and Listening-Comprehension"
-        },
-        {
-          "name": "Applied Grammar",
-          "type": "Agglutinative Structure and Rules"
-        },
-        {
-          "name": "Cultural Reading Texts",
-          "type": "Reading-Comprehension and Vocabulary"
-        },
-        {
-          "name": "Written Expression Guide",
-          "type": "Composition and Advanced Writing"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -11559,33 +10479,6 @@
           "title": "Cultural Analysis",
           "desc": "A holistic approach covering Roman history, literature, and social structure—not just grammar.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Latin",
-      "subtitle": "With Contributions from Our Publishing Series",
-      "features": [
-        "Legal and Medical Terminology",
-        "Literary Text Analyses",
-        "Roman History Readings"
-      ],
-      "books": [
-        {
-          "name": "Latin Grammar and Syntax",
-          "type": "Grammar, Noun Declensions, and Verb Conjugations"
-        },
-        {
-          "name": "Roman Law and Terminology",
-          "type": "Core Concepts for Law Faculties"
-        },
-        {
-          "name": "Medical Latin",
-          "type": "Medicine and Health Sciences Terminology"
-        },
-        {
-          "name": "Ancient Roman Literature Texts",
-          "type": "Poetry, Oratory, and Philosophy Translations"
         }
       ]
     },
@@ -11813,33 +10706,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Dutch Educational Materials",
-      "subtitle": "Powered by Our Publishing Series",
-      "features": [
-        "Exam-Oriented Question Types",
-        "Cultural Reading Texts",
-        "Visual and Audio Content"
-      ],
-      "books": [
-        {
-          "name": "Dutch Basic Grammar",
-          "type": "Grammar and Sentence Structure"
-        },
-        {
-          "name": "MVV Exam Preparation Guide",
-          "type": "Family Reunification Practice & Strategies"
-        },
-        {
-          "name": "Dutch Society and Culture",
-          "type": "Integration Exam (KNS) Reading Texts"
-        },
-        {
-          "name": "Speaking and Listening Practices",
-          "type": "Communication, Dialogue, and Pronunciation Studies"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model That Suits You Best",
       "faceToFace": {
@@ -12063,33 +10929,6 @@
           "title": "Flexible Models",
           "desc": "In-class, private, or online education options.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Spanish",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "European Language Portfolio Compliant",
-        "Current and Thematic Content",
-        "4-Skill Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-C2 Set",
-          "type": "General Spanish Textbooks"
-        },
-        {
-          "name": "Conversación y Diálogo",
-          "type": "Conversation and Dialogue Practices"
-        },
-        {
-          "name": "Gramática Española",
-          "type": "Spanish Grammar Resources"
-        },
-        {
-          "name": "Comprensión Auditiva",
-          "type": "Listening (Phonetics) Resources"
         }
       ]
     },
@@ -12323,33 +11162,6 @@
           "title": "Flexible Models",
           "desc": "In-class, private, or online options.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Russian",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "European Language Portfolio Compliant",
-        "Current and Thematic Content",
-        "4-Skill Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "General Russian Textbooks"
-        },
-        {
-          "name": "Разговор (Conversation)",
-          "type": "Dialogue and Conversation Material"
-        },
-        {
-          "name": "Русская Грамматика",
-          "type": "Russian Grammar Resources"
-        },
-        {
-          "name": "Аудирование (Listening)",
-          "type": "Listening Resources"
         }
       ]
     },
@@ -12587,33 +11399,6 @@
           "title": "Private Lessons",
           "desc": "One-on-one lessons for individuals or corporate companies.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources for Portuguese",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "CEFR Compliant",
-        "Brazilian and Portuguese Dialects",
-        "Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Portuguese",
-          "type": "General Textbooks"
-        },
-        {
-          "name": "Portuguese Grammar",
-          "type": "Grammar and Structures"
-        },
-        {
-          "name": "CIPLE Exam Prep",
-          "type": "A2 Citizenship Exam Resources"
-        },
-        {
-          "name": "Speaking Practice",
-          "type": "Daily Communication Resources"
         }
       ]
     },
@@ -12855,33 +11640,6 @@
           "title": "Live Studio",
           "desc": "Uninterrupted online education via Live Studio.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Arabic",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "CEFR Compliant",
-        "Audiovisual Materials",
-        "Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Arabic",
-          "type": "General Textbooks"
-        },
-        {
-          "name": "Arabic Grammar",
-          "type": "Grammar and Vocabulary"
-        },
-        {
-          "name": "YDS Prep",
-          "type": "Exam Strategy Resources"
-        },
-        {
-          "name": "Reading & Listening",
-          "type": "Text and Audio Materials"
         }
       ]
     },
@@ -13140,33 +11898,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Current Resources with The Academic Publishing Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London Based Publications",
-        "Current and Actual Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Kadıköy English Course?",
       "subtitle": "Experience Quality, Don't Waste Time",
@@ -13292,33 +12023,6 @@
         {
           "q": "Are class hours flexible, with evening and weekend options?",
           "a": "Our classes run in flexible hours from 08:00 to 21:00, either one-on-one or in small groups. We also offer an online learning option and dedicated in-house training programs for corporate groups."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
         }
       ]
     },
@@ -13467,33 +12171,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Avcılar English Course?",
       "subtitle": "Experience Quality, Don't Waste Time",
@@ -13621,33 +12298,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Istanbul English Course?",
       "subtitle": "Experience Quality, Don't Waste Time",
@@ -13764,33 +12414,6 @@
         {
           "q": "Is there an online option in addition to in-person classes?",
           "a": "Yes, for students who can't come to our Çekmeköy campus or prefer to learn online, we offer live, instructor-led online classes. Our online programs follow the same curriculum and quality as our in-person courses."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate Level English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Treasury"
         }
       ]
     },
@@ -13922,33 +12545,6 @@
         {
           "q": "Do you offer a TOEFL preparation course?",
           "a": "Yes, we have a systematic TOEFL preparation program covering all four sections — Reading, Listening, Speaking, and Writing. Our experienced instructors track your progress with regular mock exams and target-focused practice to strengthen your weak points."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
         }
       ]
     },
@@ -14091,33 +12687,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate Level English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Ankara English Course?",
       "subtitle": "Experience Quality, Don't Waste Your Time",
@@ -14234,33 +12803,6 @@
         {
           "q": "How much does the course cost, and are there payment options?",
           "a": "Pricing depends on the program you choose (general English, IELTS preparation, business English, etc.) and its duration. After a free level-placement test, you'll receive a personalized quote along with installment payment support."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
         }
       ]
     },
@@ -14407,33 +12949,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Kocaeli Izmit English Course?",
       "subtitle": "Experience Quality, Don't Waste Your Time",
@@ -14562,33 +13077,6 @@
         {
           "q": "Can I visit the campus and meet the instructors before starting lessons?",
           "a": "Yes, you can visit our Çorlu campus for a free level-placement test and a sample lesson, giving you a close look at the classroom environment and teaching style before you commit."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
         }
       ]
     },
@@ -14727,33 +13215,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Inegol English Course?",
       "subtitle": "Experience Quality, Don't Waste Your Time",
@@ -14889,33 +13350,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Yildirim Erikli English Course?",
       "subtitle": "Experience Quality, Don't Waste Your Time",
@@ -15039,33 +13473,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Academic International for Education in America?",
       "subtitle": "Reliable Guidance, Proven Success",
@@ -15172,33 +13579,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Kutahya English Course?",
       "subtitle": "Experience Quality, Don't Waste Your Time",
@@ -15267,7 +13647,7 @@
       "title": "History",
       "paragraphs": [
         "Academic International Language Course, which has shaped foreign language education for nearly half a century by creating a sustainable language education system that replaces standardized curricula and brings a new Industry 4.0 perspective to language learning, continues to lead the field in English and other foreign languages.",
-        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge of The Academic Publishing, founded in London in 2010, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
+        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
         "Since its founding, Academic International has redefined quality standards in foreign language education; with its strong team of academics from Turkey's leading universities and expert native-speaking instructors, it offers students world-class language education.",
         "Today, Academic International operates in more than 12 cities across Turkey, serving thousands of students in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities; it also supports students' international education opportunities, especially in America.",
         "As the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education, Academic International continues to be the benchmark of the industry with a 97% student satisfaction rate."
@@ -15312,123 +13692,6 @@
         {
           "q": "What does the ISO 9001:2015 certificate mean?",
           "a": "ISO 9001:2015 is an internationally recognized Quality Management System standard. Academic International is the first institution in Turkey to receive this certificate in the field of foreign language education."
-        }
-      ]
-    }
-  },
-  "yayinlarimizPage": {
-    "meta": {
-      "title": "Our Publications",
-      "description": "Language education books and exam preparation materials by The Academic Publishing, founded in London in 2017, designed exclusively for adult learners."
-    },
-    "hero": {
-      "tag": "THE ACADEMIC PUBLISHING",
-      "title": "Our Publications",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Information Now!",
-      "whatsappBtn": "WhatsApp Info",
-      "formRibbon": "Information Form",
-      "formTitle": "FREE TRIAL LESSON!",
-      "formSubtitle": "English Education with Speaking Guarantee!",
-      "namePlaceholder": "Enter Your Full Name.",
-      "phonePlaceholder": "Enter Your Phone Number.",
-      "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFORMATION NOW!",
-      "formDisclaimer": "By filling out this form, I accept the Legal Notice / Terms of Use."
-    },
-    "intro": {
-      "title": "Our Publications",
-      "paragraphs": [
-        "Academic International is the first language school to add a new dimension to Turkey's Foreign Language National Education System by creating educational content exclusively designed for adults. Our institution has provided language education to thousands of university students, academics, journalists, bureaucrats, senior executives, and public and private sector employees in line with their fields of expertise and individual goals.",
-        "With the aim of adding a new dimension to academic language education and providing added value, Academic Foreign Language Course established The Academic Publishing in 2017, headquartered in London. Our publications, prepared through the collective work of our language commission consisting of academic instructors from Turkey's leading universities and native-speaking teachers, will greatly contribute to your fresh perspective on language learning and help you reach your desired level in a shorter time.",
-        "Our resources, prepared with an understanding that continuously tracks changing exam strategies and usage shifts in the target language, and is constantly renewed and updated, will make a significant difference in both your language learning and exam preparation processes — enabling you to learn more effectively in less time.",
-        "Language learning resources adapted to Turkish learners' competencies in foreign languages have been prepared separately for every level — focusing not only on grammar but also on developing speaking, writing, listening, and reading skills in parallel.",
-        "The Academic Foreign Language Commission, leveraging years of academic and business exam training experience, has completed publication work targeting internationally recognized exams including YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency.",
-        "In parallel with rapidly evolving exam strategies, we take great pride in standing by you with resources that are free of unnecessary information and goal-oriented — helping you reach your career and academic objectives quickly with Academic International."
-      ]
-    },
-    "publications": {
-      "title": "Publications Designed Exclusively for Adults",
-      "subtitle": "Free for Enrolled Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Oriented Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar Rules, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC READING",
-          "type": "Reading Comprehension, Critical Thinking"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Integrated Skills, Exam Practice"
-        },
-        {
-          "name": "YDS / YÖKDİL PREP",
-          "type": "Exam Strategies, Sample Questions"
-        },
-        {
-          "name": "IELTS / TOEFL PREP",
-          "type": "Band Score Strategies, Full Mock Tests"
-        }
-      ]
-    },
-    "whyUs": {
-      "title": "Why The Academic Publishing?",
-      "subtitle": "The unique advantages our publishing house within Academic International offers to our students",
-      "advantages": [
-        {
-          "title": "London-Based Publisher",
-          "desc": "The Academic Publishing, established in 2017, produces publications at international standards with its headquarters in London.",
-          "icon": "Globe"
-        },
-        {
-          "title": "Academic Staff",
-          "desc": "Materials are prepared by a commission of academic instructors from Turkey's leading universities and native speaker teachers.",
-          "icon": "GraduationCap"
-        },
-        {
-          "title": "Level-Specific Content",
-          "desc": "Materials designed separately for every language level from A1 to C2, balancing speaking, writing, reading, and listening skills.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Exam-Focused Content",
-          "desc": "Goal-oriented resources free of unnecessary information for YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency exams.",
-          "icon": "Award"
-        }
-      ]
-    },
-    "faq": {
-      "items": [
-        {
-          "q": "Are your publications available only for course students?",
-          "a": "Our publications are primarily provided free of charge to Academic International students. Please contact us for information about purchasing channels outside the course."
-        },
-        {
-          "q": "Which language levels are the books designed for?",
-          "a": "Separate materials are available for all language levels from beginner (A1) to advanced (C1-C2). The appropriate set is determined based on your placement test results."
-        },
-        {
-          "q": "Are The Academic Publishing books sufficient for exam preparation?",
-          "a": "Our publications, offering comprehensive content for YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency exams, are regularly updated in parallel with current exam strategies."
         }
       ]
     }
@@ -16091,33 +14354,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Study Materials We Use for Exam Preparation",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Up-to-date Exam-Specific Strategies",
-        "Full Coverage of All Question Types",
-        "Proprietary Course Materials"
-      ],
-      "books": [
-        {
-          "name": "IELTS & TOEFL Strategy Guide",
-          "type": "International Exam Strategies"
-        },
-        {
-          "name": "YDS / YÖKDİL Preparation",
-          "type": "National Exam Programme"
-        },
-        {
-          "name": "GMAT / GRE Verbal Reasoning",
-          "type": "Analytical Reasoning"
-        },
-        {
-          "name": "Academic Mock Exams",
-          "type": "Real-Format Practice Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Learning Model That Suits You Best",
       "faceToFace": {
@@ -16385,33 +14621,6 @@
           "title": "Custom Materials",
           "desc": "Up-to-date materials language-specifically prepared by our publishing house, The Academic Publishing.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources Used in Language Training",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Language-Specific Up-to-Date Content",
-        "Cultural Context and Real-Life Dialogues",
-        "Original Institution-Owned Materials"
-      ],
-      "books": [
-        {
-          "name": "German Starter Set",
-          "type": "A1-A2 Basic German"
-        },
-        {
-          "name": "French Communication Programme",
-          "type": "B1-B2 Practical French"
-        },
-        {
-          "name": "Asian Languages Guide",
-          "type": "Japanese / Korean / Chinese"
-        },
-        {
-          "name": "Culture & Language Books",
-          "type": "Cultural Content for Every Language"
         }
       ]
     },
