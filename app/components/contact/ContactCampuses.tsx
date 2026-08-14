@@ -29,7 +29,7 @@ export const ContactCampuses = async ({ lang }: Props) => {
                 <div className={styles.campusImageWrapper}>
                   <div className={styles.campusTopBadge}>{campus.name}</div>
                   <Image
-                    src={campus.image || "/brand/logo.png"}
+                    src={campus.image || "/brand/logo2.png"}
                     alt={campus.name}
                     title={campus.name}
                     fill
@@ -44,7 +44,7 @@ export const ContactCampuses = async ({ lang }: Props) => {
               <div className={styles.campusImageWrapper}>
                 <div className={styles.campusTopBadge}>{campus.name}</div>
                 <Image
-                  src={campus.image || "/brand/logo.png"}
+                  src={campus.image || "/brand/logo2.png"}
                   alt={campus.name}
                   title={campus.name}
                   fill

@@ -7,7 +7,7 @@ export const getOrganizationSchema = (siteUrl: string) => {
     "@id": `${baseUrl}/#organization`,
     "name": "Akademik International Yabancı Dil Okulları",
     "url": baseUrl,
-    "logo": `${baseUrl}/brand/logo.png`,
+    "logo": `${baseUrl}/brand/logo2.png`,
     "description": "İstanbul Avcılar merkezli, 12 şubeli yabancı dil okulu. İngilizce, Almanca ve sınav hazırlık (IELTS, YDS, TOEFL, GOETHE) programları ile konuşma garantili dil eğitimi.",
     "sameAs": [
       "https://www.instagram.com/avcilarakademik",

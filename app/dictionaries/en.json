@@ -826,39 +826,27 @@
     "slides": [
       {
         "id": 1,
-        "image": "/sliders/slider1.webp",
-        "alt": "Avcilar Foreign Language Course - Akademik International Educations",
-        "title": "Avcilar Foreign Language Course in All Languages"
+        "image": "/sliders/gemini1.webp",
+        "alt": "Akademik International Language Schools Avcilar Branch",
+        "title": "Language Education with Akademik International"
       },
       {
         "id": 2,
-        "image": "/sliders/slider2.webp",
-        "alt": "Avcilar English, German, Spanish Language School - For Kids and Adults",
-        "title": "Fun Foreign Language Classes for All Ages in Avcilar"
+        "image": "/sliders/gemini2.webp",
+        "alt": "English, German and All World Languages Course with Expert Instructors",
+        "title": "Language School with Expert Instructors in Avcilar"
       },
       {
         "id": 3,
-        "image": "/sliders/slider3.webp",
-        "alt": "Avcilar IELTS, TOEFL, Goethe Preparation Courses - Akademik International",
-        "title": "Guaranteed International Exam Preparation and Language Education"
+        "image": "/sliders/gemini3.webp",
+        "alt": "Turkey's Best Training Center for IELTS, TOEFL and YDS Preparation Courses",
+        "title": "Guaranteed Preparation for International Exams"
       },
       {
         "id": 4,
-        "image": "/sliders/slider4.webp",
-        "alt": "World Languages Course in Avcilar - Study Abroad and Career Opportunities",
-        "title": "French, Russian, Arabic and More in Avcilar"
-      },
-      {
-        "id": 5,
-        "image": "/sliders/slider5.webp",
-        "alt": "Best Foreign Language School in Avcilar - Akademik International Modern Campus",
-        "title": "Learn Foreign Languages in Avcilar with Quality Education in All Languages"
-      },
-      {
-        "id": 6,
-        "image": "/sliders/slider6.webp",
-        "alt": "Turkey's Best Foreign Language Course Training Center - Avcilar Akademik International",
-        "title": "Language Education at International Standards with Expert Instructors"
+        "image": "/sliders/gemini4.webp",
+        "alt": "Fun Foreign Language Education in Modern Classrooms for Children and Adults",
+        "title": "Modern Language Education for All Ages"
       }
     ]
   },

@@ -225,7 +225,7 @@ export const Footer = async ({ lang }: Props) => {
             <Image src="/brand/group-companies.svg" alt="Akademik International Group Companies" title="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/logo.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} className={styles.logoImgSmall} />
+                <Image src="/brand/logo2.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
                 <Image src="/brand/akademikAbroad.webp" alt="AKADEMİK ABROAD" title="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImgSmall} />
