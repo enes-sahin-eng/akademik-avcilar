@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function ItalyancaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="italyancaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="italyancaLandingPage" lang={lang} />
       <WhyUsSection courseKey="italyancaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="italyancaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="italyancaLandingPage" lang={lang} />

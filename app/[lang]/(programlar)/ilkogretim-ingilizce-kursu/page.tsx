@@ -11,7 +11,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
@@ -164,7 +163,6 @@ export default async function IlkogretimIngilizceKursuPage({
       <CourseInfoSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="ilkogretimIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="ilkogretimIngilizceLandingPage" lang={lang} />

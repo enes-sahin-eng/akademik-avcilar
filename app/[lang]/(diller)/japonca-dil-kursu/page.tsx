@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function JaponcaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="japoncaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="japoncaLandingPage" lang={lang} />
       <WhyUsSection courseKey="japoncaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="japoncaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="japoncaLandingPage" lang={lang} />

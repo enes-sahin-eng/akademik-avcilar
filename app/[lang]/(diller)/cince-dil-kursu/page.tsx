@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function CinceDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="cinceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="cinceLandingPage" lang={lang} />
       <WhyUsSection courseKey="cinceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="cinceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="cinceLandingPage" lang={lang} />

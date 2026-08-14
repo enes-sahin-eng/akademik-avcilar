@@ -9,7 +9,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusLocation } from "../../../components/campus/CampusLocation";
 import { CampusTabs } from "../../../components/ui/CampusTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
@@ -41,7 +40,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Avcılar İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır.",
+      "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar İngilizce Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır.",
   };
 
   return {
@@ -117,7 +116,7 @@ export default async function AvcilarIngilizceDilKursuPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -125,7 +124,7 @@ export default async function AvcilarIngilizceDilKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },
@@ -158,7 +157,6 @@ export default async function AvcilarIngilizceDilKursuPage({
       <CampusLocation courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />

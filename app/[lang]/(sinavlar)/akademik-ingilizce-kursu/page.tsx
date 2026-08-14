@@ -7,7 +7,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
@@ -72,7 +71,6 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
       <CourseHeroSlider courseKey="akademikIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="akademikIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="akademikIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="akademikIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="akademikIngilizceLandingPage" lang={lang} />

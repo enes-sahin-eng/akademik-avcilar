@@ -8,7 +8,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusTabs } from "../../../components/ui/CampusTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
@@ -40,7 +39,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Kütahya İngilizce Kursu",
     description:
-      "Kütahya İngilizce Kursu olarak Akademik International, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır.",
+      "Kütahya İngilizce Kursu olarak Avcılar İngilizce Dil Kursu, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır.",
   };
 
   return {
@@ -114,7 +113,7 @@ export default async function KutahyaIngilizceKursuPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -122,7 +121,7 @@ export default async function KutahyaIngilizceKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kütahya",
+                name: "Avcılar İngilizce Dil Kursu Kütahya",
                 address: "Kütahya",
               },
             },
@@ -156,7 +155,6 @@ export default async function KutahyaIngilizceKursuPage({ params }: PageProps) {
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <PlacementTestBanner lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <InstagramFeed lang={lang} />

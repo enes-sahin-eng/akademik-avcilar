@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="almancaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="almancaLandingPage" lang={lang} />
       <WhyUsSection courseKey="almancaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="almancaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="almancaLandingPage" lang={lang} />

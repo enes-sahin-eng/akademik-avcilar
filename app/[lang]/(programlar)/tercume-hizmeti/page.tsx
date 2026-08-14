@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -124,7 +123,6 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
       <CourseInfoSection courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <WhyUsSection courseKey="tercumeHizmetiLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="tercumeHizmetiLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="tercumeHizmetiLandingPage" lang={lang} />

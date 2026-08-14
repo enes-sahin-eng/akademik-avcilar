@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -169,7 +168,6 @@ export default async function ItepHazirlikKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="itepLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="itepLandingPage" lang={lang} />
       <WhyUsSection courseKey="itepLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="itepLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="itepLandingPage" lang={lang} />

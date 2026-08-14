@@ -9,7 +9,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusLocation } from "../../../components/campus/CampusLocation";
 import { CampusTabs } from "../../../components/ui/CampusTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
@@ -39,9 +38,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Yıldırım Erikli İngilizce Kursu | Akademik Yabancı Dil Kursu",
+    title: "Yıldırım Erikli İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Yıldırım Erikli İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Yıldırım Erikli İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -117,7 +116,7 @@ export default async function YildirimErikliIngilizceKursuPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -125,7 +124,7 @@ export default async function YildirimErikliIngilizceKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Yıldırım Erikli",
+                name: "Avcılar İngilizce Dil Kursu Yıldırım Erikli",
                 address:
                   "Erikli Mahallesi Ankara Yolu Caddesi No: 478-482 Yıldırım/Bursa",
               },
@@ -158,7 +157,6 @@ export default async function YildirimErikliIngilizceKursuPage({
       <CampusLocation courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />

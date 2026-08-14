@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
       <CourseInfoSection courseKey="yabancilaraTurkceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="yabancilaraTurkceLandingPage" lang={lang} />
       <WhyUsSection courseKey="yabancilaraTurkceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="yabancilaraTurkceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="yabancilaraTurkceLandingPage" lang={lang} />

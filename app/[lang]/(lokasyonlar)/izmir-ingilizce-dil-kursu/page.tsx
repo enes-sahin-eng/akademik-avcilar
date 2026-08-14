@@ -9,7 +9,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusLocation } from "../../../components/campus/CampusLocation";
 import { CampusTabs } from "../../../components/ui/CampusTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
@@ -39,9 +38,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "İzmir İngilizce Kursu | Akademik Yabancı Dil Kursu",
+    title: "İzmir İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "İzmir İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "İzmir İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -115,7 +114,7 @@ export default async function IzmirIngilizceKursuPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -123,7 +122,7 @@ export default async function IzmirIngilizceKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International İzmir",
+                name: "Avcılar İngilizce Dil Kursu İzmir",
                 address: "35220 Konak/İzmir",
               },
             },
@@ -155,7 +154,6 @@ export default async function IzmirIngilizceKursuPage({ params }: PageProps) {
       <CampusLocation courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
-      <PublicationsShowcase courseKey={COURSE_KEY} lang={lang} />
       <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />

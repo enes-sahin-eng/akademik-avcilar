@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -166,7 +165,6 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="goetheLandingPage" lang={lang} />
       <CourseInfoSection courseKey="goetheLandingPage" lang={lang} />
       <WhyUsSection courseKey="goetheLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="goetheLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="goetheLandingPage" lang={lang} />

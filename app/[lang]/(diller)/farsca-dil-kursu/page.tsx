@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function FarscaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="farscaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="farscaLandingPage" lang={lang} />
       <WhyUsSection courseKey="farscaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="farscaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="farscaLandingPage" lang={lang} />

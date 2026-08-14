@@ -415,11 +415,6 @@
   },
   "megaMenuHakkimizda": [
     {
-      "title": "OUR PUBLICATIONS",
-      "icon": "BookOpen",
-      "href": "/yayinlarimiz"
-    },
-    {
       "title": "HISTORY",
       "icon": "ScrollText",
       "href": "/tarihce"
@@ -1021,7 +1016,7 @@
   "prepPage": {
     "about": {
       "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -1060,8 +1055,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1094,29 +1089,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1206,8 +1178,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1240,29 +1212,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1352,8 +1301,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1386,29 +1335,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1498,8 +1424,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1532,29 +1458,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1644,8 +1547,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1678,29 +1581,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1752,7 +1632,7 @@
     "about": {
       "badge": "ALL LEVELS / A1 TO C1",
       "title": "Achieve Your Goals with General English Courses",
-      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and <strong>The Academic Publishing</strong> resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
+      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and our own original resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
       "skills": [
         {
           "id": "grammar",
@@ -1790,8 +1670,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -1824,29 +1704,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Our Exclusive Publications for Adults",
-      "subtitle": "Free for Enrolled Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Reading, Listening, Speaking Activities"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -1928,7 +1785,7 @@
   "akademikIngilizceLandingPage": {
     "about": {
       "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and <strong>The Academic Publishing</strong> materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
+      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -1967,8 +1824,8 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Original publications prepared by native authors through our London-based publishing house, THE ACADEMIC PUBLISHING.",
+          "title": "Original Learning Resources",
+          "desc": "Original publications prepared by native authors through our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -2001,29 +1858,6 @@
         }
       ],
       "btnNext": "Next Privilege →"
-    },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
     },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
@@ -2172,29 +2006,6 @@
       ],
       "btnNext": "Next Privilege →"
     },
-    "publications": {
-      "title": "Special Publications for Adults",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -2340,7 +2151,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
           "icon": "BookOpen"
         },
@@ -2353,33 +2164,6 @@
           "title": "Online Lessons (Letslingo)",
           "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Special Publications for Middle School Students",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
         }
       ]
     },
@@ -2645,33 +2429,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Special Publications for Middle School Students",
-      "subtitle": "Free for Our Registered Students",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Best Education Model for You",
       "faceToFace": {
@@ -2925,7 +2682,7 @@
           "icon": "Award"
         },
         {
-          "title": "The Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
           "icon": "BookOpen"
         },
@@ -2938,33 +2695,6 @@
           "title": "Online Lessons (Letslingo)",
           "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Exclusive Publications for Private Lesson Students",
-      "subtitle": "Level-Appropriate Design, Personalized Content, Innovative Approach",
-      "features": [
-        "Age-Appropriate Design",
-        "Middle School Specific Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "Academic Junior A1",
-          "type": "Student Book"
-        },
-        {
-          "name": "Academic Junior A2",
-          "type": "Student Book"
-        },
-        {
-          "name": "LGS Prep Kit",
-          "type": "LGS Prep Book"
-        },
-        {
-          "name": "Vocabulary Builder",
-          "type": "Vocabulary Practice Book"
         }
       ]
     },
@@ -3255,33 +2985,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Avcılar English Language Course Corporate Publications",
-      "subtitle": "Free for Corporate Students!",
-      "features": [
-        "Corporate Specific Content",
-        "Global Standard Publications",
-        "Sectoral Terms"
-      ],
-      "books": [
-        {
-          "name": "Academic Reading",
-          "type": "Reading and Comprehension"
-        },
-        {
-          "name": "Plus Listening",
-          "type": "Listening Practice"
-        },
-        {
-          "name": "Prep Workbook",
-          "type": "Workbook"
-        },
-        {
-          "name": "Corporate Vocabulary",
-          "type": "Professional Vocabulary Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Best Education Model for You",
       "faceToFace": {
@@ -3489,33 +3192,6 @@
           "title": "Multi-Sector Mastery",
           "desc": "Accurate language use appropriate to the sector in technical, commercial, legal, medical, academic, and corporate texts.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Document Types We Translate",
-      "subtitle": "Uninterrupted Support in Every Field",
-      "features": [
-        "Corporate Solutions",
-        "Academic Translations",
-        "Official Documents"
-      ],
-      "books": [
-        {
-          "name": "Contracts & Tenders",
-          "type": "Legal & Commercial Texts"
-        },
-        {
-          "name": "Medical Reports & Articles",
-          "type": "Medical Texts"
-        },
-        {
-          "name": "User Manuals",
-          "type": "Technical Texts"
-        },
-        {
-          "name": "Theses and Presentations",
-          "type": "Academic Texts"
         }
       ]
     },
@@ -3740,33 +3416,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for YDS",
-      "subtitle": "Up-to-Date Contents Leading to Success",
-      "features": [
-        "Subject Explanation Books",
-        "Vocabulary and Reading Books",
-        "Comprehensive Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "YDS Grammar and Structure Bank",
-          "type": "Subject Explanation & Test"
-        },
-        {
-          "name": "Academic Vocabulary and Phrasal Verbs",
-          "type": "Vocabulary Study"
-        },
-        {
-          "name": "YDS Reading Paragraph Solutions",
-          "type": "Reading & Comprehension"
-        },
-        {
-          "name": "10 Original YDS Practice Exam Set",
-          "type": "Exam Practice"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model That Suits You Best",
       "faceToFace": {
@@ -3946,7 +3595,7 @@
         },
         {
           "q": "Do you provide the training materials?",
-          "a": "Yes, we use up-to-date resources prepared according to exam strategies by our institution's publisher, The Academic Publishing."
+          "a": "Yes, we use up-to-date resources prepared according to exam strategies by our own in-house publisher."
         },
         {
           "q": "How can I overcome exam stress?",
@@ -3973,33 +3622,6 @@
           "title": "Personalized Reinforcement",
           "desc": "Quickly close your knowledge gaps with professional support and periodic personalized reinforcement sessions.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for IELTS",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Four Core Skills (4 Skills)",
-        "Institution-Specific Materials"
-      ],
-      "books": [
-        {
-          "name": "IELTS Listening & Speaking",
-          "type": "Listening & Speaking Practice"
-        },
-        {
-          "name": "IELTS Reading Strategies",
-          "type": "Reading Analysis"
-        },
-        {
-          "name": "IELTS Writing Task 1 & 2",
-          "type": "Writing Strategies"
-        },
-        {
-          "name": "IELTS Mock Exams",
-          "type": "Mock Exam Set"
         }
       ]
     },
@@ -4109,7 +3731,7 @@
         "desc": "The IELTS exam serves as a bridge leading people to their dreams and target goals. While climbing the career ladder, the most critical resource to save is time. We organize the best-fit IELTS Preparation Course plan to help you reach your target score without losing time.",
         "bullets": [
           "Instructors with top scores and years of exam experience",
-          "Up-to-date exam strategy resources exclusive to our institution by The Academic Publishing",
+          "Up-to-date exam strategy resources exclusive to our institution",
           "Online interactive learning option via the İngilizce UZEM platform",
           "Training focused on 4 core skills in boutique classes of 7–10 students"
         ],
@@ -4221,33 +3843,6 @@
           "title": "Free Level Placement Exam",
           "desc": "Placement into the right group through a free placement test given to all enrolled students beforehand.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for YKS-Dil YDT",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Lecture Explanations and Question Bank",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "YDT Lecture Set",
-          "type": "Lecture Notes"
-        },
-        {
-          "name": "YDT Question Bank",
-          "type": "Question Solving"
-        },
-        {
-          "name": "YDT Leaf Tests",
-          "type": "Past & Original Questions"
-        },
-        {
-          "name": "YDT Mock Exams",
-          "type": "Mock Exam Set"
         }
       ]
     },
@@ -4469,33 +4064,6 @@
           "title": "Comprehensive Publication Support",
           "desc": "Comprehensive publication support that addresses weaknesses in speaking, writing, reading, and listening skills.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for ITEP",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Content Focused on Five Core Skills",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "ITEP Listening & Speaking",
-          "type": "Listening & Speaking Practice"
-        },
-        {
-          "name": "ITEP Reading Strategies",
-          "type": "Reading Analysis"
-        },
-        {
-          "name": "ITEP Writing & Grammar",
-          "type": "Writing & Grammar"
-        },
-        {
-          "name": "ITEP Past Questions Set",
-          "type": "Practice & Strategy"
         }
       ]
     },
@@ -4721,33 +4289,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for GRE",
-      "subtitle": "The Avcılar English Language Course Difference",
-      "features": [
-        "Up-to-Date Exam Strategies",
-        "Content Focused on Quantitative, Verbal, and Analytical Skills",
-        "Proprietary Institution Materials"
-      ],
-      "books": [
-        {
-          "name": "GRE Quantitative Reasoning",
-          "type": "Quantitative & Problem Solving Practice"
-        },
-        {
-          "name": "GRE Verbal Reasoning",
-          "type": "Verbal Analysis & Reading"
-        },
-        {
-          "name": "GRE Analytical Writing",
-          "type": "Essay & Writing"
-        },
-        {
-          "name": "GRE Practice Tests & Strategy Set",
-          "type": "Mock Exams & Time Management"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -4969,33 +4510,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for TestDaF",
-      "subtitle": "Goal-Oriented Exam Materials",
-      "features": [
-        "Content Aligned with TDN Levels",
-        "Practice Focused on the Four Skills",
-        "TestDaF Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "TestDaF Leseverstehen & Hörverstehen",
-          "type": "Reading and Listening Practice"
-        },
-        {
-          "name": "TestDaF Schriftlicher Ausdruck",
-          "type": "Written Expression and Composition"
-        },
-        {
-          "name": "TestDaF Mündlicher Ausdruck",
-          "type": "Oral Expression Studies"
-        },
-        {
-          "name": "TestDaF Musterprüfungen",
-          "type": "Practice Exam Set"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5139,33 +4653,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Prep Exemption",
-      "subtitle": "Comprehensive Materials Aligned with University Formats",
-      "features": [
-        "Past Year Exam Archive",
-        "Academic Vocabulary Studies",
-        "Intensive Grammar Sets"
-      ],
-      "books": [
-        {
-          "name": "Proficiency Essay Writing",
-          "type": "Writing and Composition Practice"
-        },
-        {
-          "name": "Academic Vocabulary Builder",
-          "type": "Vocabulary Building"
-        },
-        {
-          "name": "Advanced Grammar Focus",
-          "type": "Grammar Studies"
-        },
-        {
-          "name": "University Mock Exams",
-          "type": "Institution-Specific Mock Exams"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5289,33 +4776,6 @@
           "title": "Accurate Presentations",
           "desc": "Specific tactics and privileged guidance that enable you to solve questions in reading passages quickly.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for YÖKDİL",
-      "subtitle": "Up-to-Date Publication Sets Specific to Your Field",
-      "features": [
-        "Books with Subject Explanations",
-        "Field-Specific Question Banks",
-        "Nationwide Mock Exams Across Turkey"
-      ],
-      "books": [
-        {
-          "name": "YÖKDİL Grammar & Structure",
-          "type": "Goal-Oriented Grammar"
-        },
-        {
-          "name": "YÖKDİL Health / Science / Social",
-          "type": "Field-Specific Vocabulary"
-        },
-        {
-          "name": "YÖKDİL Reading Analysis",
-          "type": "Reading Passage Analysis"
-        },
-        {
-          "name": "YÖKDİL Original Mock Exam Set",
-          "type": "Practice and Exam Simulation"
         }
       ]
     },
@@ -5541,33 +5001,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for TOEFL",
-      "subtitle": "Comprehensive and Up-to-Date Exam Materials",
-      "features": [
-        "Past TOEFL Questions",
-        "4-Skill Focused Study Books",
-        "Electronic Mock Exam Sets"
-      ],
-      "books": [
-        {
-          "name": "TOEFL iBT Reading & Listening",
-          "type": "Reading and Listening Practice"
-        },
-        {
-          "name": "TOEFL iBT Speaking & Writing",
-          "type": "Productive Skills and Templates"
-        },
-        {
-          "name": "Academic Vocabulary for TOEFL",
-          "type": "Exam Vocabulary"
-        },
-        {
-          "name": "TOEFL Strategy and Mock Exam Set",
-          "type": "Past Questions and Tactics"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -5785,33 +5218,6 @@
           "title": "Corporate Validity",
           "desc": "Business-focused content directly preparing for job interviews at giant brands like TOFAŞ and RENAULT.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for TOEIC",
-      "subtitle": "Comprehensive Document and Material Support",
-      "features": [
-        "Business English Focused Reading",
-        "Corporate Listening Practices",
-        "TOEIC Exam Strategies"
-      ],
-      "books": [
-        {
-          "name": "TOEIC Reading Strategies",
-          "type": "Business Texts and Report Analysis"
-        },
-        {
-          "name": "TOEIC Listening for Business",
-          "type": "Meeting and Interview Listening Practices"
-        },
-        {
-          "name": "Business Vocabulary Builder",
-          "type": "Corporate Vocabulary"
-        },
-        {
-          "name": "TOEIC Full Practice Exams",
-          "type": "Full-Length Mock Exams"
         }
       ]
     },
@@ -6035,33 +5441,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for GMAT",
-      "subtitle": "Educational Materials at International Standards",
-      "features": [
-        "Original GMAT Past Questions",
-        "Quantitative and Verbal Focused Practices",
-        "Computer-Based Mock Sets"
-      ],
-      "books": [
-        {
-          "name": "GMAT Quantitative Focus",
-          "type": "Quantitative Data Interpretation and Problem Solving"
-        },
-        {
-          "name": "GMAT Verbal & Critical Reasoning",
-          "type": "Critical Reasoning"
-        },
-        {
-          "name": "Integrated Reasoning & AWA",
-          "type": "Graphics Interpretation and Analytical Writing"
-        },
-        {
-          "name": "GMAT Official Computer Mocks",
-          "type": "Computer-Based Mocks"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -6281,33 +5660,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Goethe",
-      "subtitle": "Exam Materials Suitable for Your Level",
-      "features": [
-        "A1 - C2 Level Books",
-        "Modular Question Banks",
-        "Goethe Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Prüfungstraining Goethe-Zertifikat",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "Fit fürs Goethe-Zertifikat",
-          "type": "Four Skills Preparation Book"
-        },
-        {
-          "name": "Wortschatz & Grammatik",
-          "type": "Vocabulary and Grammar Work"
-        },
-        {
-          "name": "Goethe Modelltests",
-          "type": "Real Exam Simulations"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -6448,33 +5800,6 @@
           "desc": "The opportunity to quickly address your weak points with a training program tailored to you.",
           "icon": "Monitor",
           "href": "/korece-dil-kursu"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for ÖSD",
-      "subtitle": "Communication-Oriented Exam Materials",
-      "features": [
-        "A1 - C2 Level Workbooks",
-        "Communication and Speaking Practice",
-        "ÖSD Practice Exam Sets"
-      ],
-      "books": [
-        {
-          "name": "ÖSD Zertifikat Übungsmaterialien",
-          "type": "Exam Preparation and Practice"
-        },
-        {
-          "name": "Mit Erfolg zum ÖSD",
-          "type": "Strategy and Question Solving"
-        },
-        {
-          "name": "Kommunikation im Alltag",
-          "type": "Communication and Speaking Focused Practice"
-        },
-        {
-          "name": "ÖSD Modellprüfungen",
-          "type": "Full-Scope Practice Exams"
         }
       ]
     },
@@ -6782,7 +6107,7 @@
       "description": "We meet your expectations with goal-oriented classes, accurate level assessment, and an active usage mindset, which are the most critical points in searching for a German course in Istanbul.",
       "features": [
         "Special German curriculum developed for adults for the first time in Turkey.",
-        "Global standard education using London-based The Academic Publishing resources.",
+        "Global standard education using our own original resources.",
         "Native speaker instructors (native German speakers) and certified teaching staff.",
         "Regular extracurricular activities and cultural experience opportunities."
       ]
@@ -6828,33 +6153,6 @@
           "title": "Cultural Experience",
           "desc": "The chance to closely get to know German culture through extracurricular activities, not just the language.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Up-to-Date and Current Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic German B1-B2",
-          "type": "General and Intermediate German"
-        },
-        {
-          "name": "Prüfungstraining (Goethe, Telc)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interaktives Sprechen",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Wortschatz Aktuell",
-          "type": "Modern Vocabulary"
         }
       ]
     },
@@ -6910,7 +6208,7 @@
     "seoContent": [
       {
         "title": "Best German Course Standards in Istanbul",
-        "desc": "In the search for the best German course in Istanbul, success is measured not only by the presence of a curriculum, but also by up-to-date lesson content, resource quality, and a goal-oriented teaching method. In our Kadıköy German course programs, we use London-based The Academic Publishing materials, which directly affect your learning speed. This way, instead of old and boring texts, you cover current topics and master modern vocabulary structures. Your language proficiency is brought to the highest level by global standards.",
+        "desc": "In the search for the best German course in Istanbul, success is measured not only by the presence of a curriculum, but also by up-to-date lesson content, resource quality, and a goal-oriented teaching method. In our Kadıköy German course programs, we use our own original materials, which directly affect your learning speed. This way, instead of old and boring texts, you cover current topics and master modern vocabulary structures. Your language proficiency is brought to the highest level by global standards.",
         "bullets": [
           "Innovative language curriculum developed specially for adults",
           "Practical and speaking-oriented lessons, far from grammar memorization",
@@ -7026,33 +6324,6 @@
           "title": "Goethe Format",
           "desc": "Mock exams 100% compliant with Goethe Institute rules and scoring so you experience no surprises in the exam.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Family Reunification (A1)",
-      "subtitle": "Special Materials Guaranteeing Your Exam Success",
-      "features": [
-        "Compliant with Goethe A1 Format",
-        "Basic Sentence Structures",
-        "Visual and Auditory Practice"
-      ],
-      "books": [
-        {
-          "name": "Fit fürs Goethe-Zertifikat A1",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "Start Deutsch 1 Übungstests",
-          "type": "Mock Exams in Past Exam Question Format"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Basic Vocabulary and Grammar"
-        },
-        {
-          "name": "Hören & Sprechen A1",
-          "type": "Listening and Speaking Practice"
         }
       ]
     },
@@ -7199,33 +6470,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for A1 Level",
-      "subtitle": "Basic Materials Compliant with the Exam Format",
-      "features": [
-        "Compliant with Goethe/Telc A1 Format",
-        "Basic Sentence Structures",
-        "Visual and Auditory Activities"
-      ],
-      "books": [
-        {
-          "name": "Start Deutsch 1 Hazırlık Kitapları",
-          "type": "Exam Training Set"
-        },
-        {
-          "name": "A1 Wortschatz & Grammatik",
-          "type": "Basic Vocabulary and Grammar"
-        },
-        {
-          "name": "Modelltests für A1",
-          "type": "Mock Exams in Past Exam Question Format"
-        },
-        {
-          "name": "Hören & Sprechen Übungen",
-          "type": "Listening and Speaking Practice"
-        }
-      ]
-    },
     "models": {
       "title": "Our Education Models",
       "faceToFace": {
@@ -7365,33 +6609,6 @@
           "title": "Cultural Activities",
           "desc": "Opportunity to learn the French language blended with its own culture through educational activities.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for French",
-      "subtitle": "Materials Developing 4 Core Skills",
-      "features": [
-        "At International Standards",
-        "Auditory and Visual Practices",
-        "Cultural Reading Texts"
-      ],
-      "books": [
-        {
-          "name": "Fransızca Dil Bilgisi ve Pratik",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Compréhension Orale & Écrite",
-          "type": "Reading and Listening Exercises"
-        },
-        {
-          "name": "Expression Orale",
-          "type": "Speaking and Pronunciation (Native)"
-        },
-        {
-          "name": "Eğitsel Aktivite Materyalleri",
-          "type": "Cultural and Interactive Content"
         }
       ]
     },
@@ -7716,33 +6933,6 @@
           "title": "Stress and Time Management",
           "desc": "Psychological foundational training so you can use English fluently and effectively under pressure.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Sectoral Resources We Use in Training",
-      "subtitle": "Special Materials for Cabin and Cockpit",
-      "features": [
-        "Aviation Terminology",
-        "Past Interview Questions",
-        "Auditory (Listening) Practices"
-      ],
-      "books": [
-        {
-          "name": "English for Cabin Crew",
-          "type": "Occupational Terminology and Dialogues"
-        },
-        {
-          "name": "Aviation Interview Strategies",
-          "type": "Board Interview and Tactics"
-        },
-        {
-          "name": "Online Test (CBT) Mocks",
-          "type": "Computer-Based Mock Exams"
-        },
-        {
-          "name": "Emergency Situations & Health",
-          "type": "Emergency and Evacuation Scenarios"
         }
       ]
     },
@@ -8503,7 +7693,7 @@
       },
       {
         "title": "Best TORFL Course Recommendation",
-        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and The Academic Publishing resources."
+        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and our own original resources."
       }
     ]
   },
@@ -9151,33 +8341,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use in Education",
-      "subtitle": "Materials at International Standards",
-      "features": [
-        "Compatible with A1-B2 Levels",
-        "Auditory and Visual Practices",
-        "Current Subject Explanations"
-      ],
-      "books": [
-        {
-          "name": "French Grammar",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Compréhension Orale",
-          "type": "Listening and Comprehension Practices"
-        },
-        {
-          "name": "Expression Écrite",
-          "type": "Written Expression and Composition"
-        },
-        {
-          "name": "Cultural Reading Texts",
-          "type": "Art, Fashion, and History Content"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -9246,7 +8409,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
-      "description": "Learn German, which is at the forefront of international fields such as trade, industry, technology, and automotive, without memorization through Academic Publishing resources."
+      "description": "Learn German, which is at the forefront of international fields such as trade, industry, technology, and automotive, without memorization through our own original resources."
     },
     "about": {
       "badge": "INTERNATIONAL STANDARDS",
@@ -9271,7 +8434,7 @@
         {
           "id": "de-academic",
           "title": "Qualified Resources",
-          "desc": "For the first time in Turkey, education models designed for individuals of all ages and Academic Publishing publishing house resources."
+          "desc": "For the first time in Turkey, education models designed for individuals of all ages and our own publishing house resources."
         }
       ],
       "description": "In line with the format and function of the European Language Portfolio, we provide German language proficiency from beginner level up to your target advanced level.",
@@ -9338,7 +8501,7 @@
       },
       {
         "title": "VIP Classes and 4 Core Skills Focused Education",
-        "desc": "Our courses, offered at Bursa, Istanbul, Izmir, Ankara, and Eskisehir campuses, are shaped by course content suitable for your background as an adult. In VIP classes of 4-6 people, with lessons taught like private tutoring, you can learn the language in its natural flow and use it in the most effective way. Developing educational models for individuals of all ages for the first time in Turkey and crowning this education with Academic Publishing resources, our institution ensures that you develop your 4 core skills in reading, writing, listening, and speaking without losing time."
+        "desc": "Our courses, offered at Bursa, Istanbul, Izmir, Ankara, and Eskisehir campuses, are shaped by course content suitable for your background as an adult. In VIP classes of 4-6 people, with lessons taught like private tutoring, you can learn the language in its natural flow and use it in the most effective way. Developing educational models for individuals of all ages for the first time in Turkey and crowning this education with our own publishing resources, our institution ensures that you develop your 4 core skills in reading, writing, listening, and speaking without losing time."
       }
     ],
     "whyUs": {
@@ -9364,7 +8527,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Up-to-date and qualified foreign language resources aligned with our well-established institution's educational model.",
           "icon": "BookOpen"
         },
@@ -9377,33 +8540,6 @@
           "title": "Flexible Models",
           "desc": "Formal classroom lessons, one-on-one private lessons, or online education options according to your needs.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for German",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "Compliant with European Language Portfolio",
-        "Current and Thematic Content",
-        "4 Skills Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "General German Textbooks"
-        },
-        {
-          "name": "Dialogue & Monologue Practices",
-          "type": "Interpersonal and Oral Expression Material"
-        },
-        {
-          "name": "Family Reunification Preparation",
-          "type": "Past Exam Questions in Consulate Format"
-        },
-        {
-          "name": "Auditory Comprehension Texts",
-          "type": "Listening (Phonetics) Focused Resources"
         }
       ]
     },
@@ -9627,33 +8763,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use for Italian",
-      "subtitle": "Rich and Up-to-Date Materials",
-      "features": [
-        "A1-C2 Level Compliant",
-        "Cultural Reading Texts",
-        "Auditory and Visual Practices"
-      ],
-      "books": [
-        {
-          "name": "Italian Grammar (Grammatica)",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Ascolto e Parlato",
-          "type": "Listening and Speaking (Phonetic) Practices"
-        },
-        {
-          "name": "Lettura e Cultura",
-          "type": "Culture, Art, and Reading Texts"
-        },
-        {
-          "name": "Scrittura Avanzata (B2-C2)",
-          "type": "Advanced Written Expression and Composition"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -9755,7 +8864,7 @@
         "Turkey's first original Persian education models developed for adults.",
         "Experienced staff who are native Persian speakers or have academic-level mastery of the language.",
         "A student-friendly and practice-oriented curriculum that eliminates classical difficulties.",
-        "Specially prepared, qualified resources belonging to The Academic Publishing house."
+        "Specially prepared, qualified resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -9855,35 +8964,8 @@
         },
         {
           "title": "Original Publications",
-          "desc": "Materials specially prepared within The Academic Publishing and suitable for the language logic of adults.",
+          "desc": "Materials specially prepared in-house and suitable for the language logic of adults.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Persian Learning",
-      "subtitle": "Professional Content from Our Own Publishing House",
-      "features": [
-        "Compliant with Iranian Ministry of National Education System",
-        "Content Tailored for Adults",
-        "YDS-Compliant Vocabulary/Text Studies"
-      ],
-      "books": [
-        {
-          "name": "The Academic Publishing Persian Set",
-          "type": "General Persian Textbooks"
-        },
-        {
-          "name": "Reading and Comprehension",
-          "type": "Historical, Literary, and Cultural Texts"
-        },
-        {
-          "name": "Persian YDS Exam Strategies",
-          "type": "Question Solving for Academic Exams"
-        },
-        {
-          "name": "Phonetics and Speaking",
-          "type": "Communicative Practice Materials"
         }
       ]
     },
@@ -9928,7 +9010,7 @@
         },
         {
           "q": "What sets your institution apart from other language schools?",
-          "a": "The corporate assurance of being a British Council Consular Partner and IELTS Authorized Exam Center, our adult-tailored education models introduced for the first time in Turkey, and our original resources under The Academic Publishing brand elevate us to the top of language education."
+          "a": "The corporate assurance of being a British Council Consular Partner and IELTS Authorized Exam Center, our adult-tailored education models introduced for the first time in Turkey, and our own original resources elevate us to the top of language education."
         }
       ]
     }
@@ -9988,7 +9070,7 @@
         "Expert and experienced teaching staff who are native Chinese speakers.",
         "Curriculum designed with student-centered and modern learning methods.",
         "Systematic progression from level 1 to level 6, fully compatible with the HSK exam format.",
-        "VIP classes and exclusive resources belonging to The Academic Publishing house."
+        "VIP classes and exclusive resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -10069,7 +9151,7 @@
       },
       {
         "title": "Turkey's Best Chinese Course Recommendation",
-        "desc": "Our institution, which is frequently mentioned across all platforms in research for the Best Chinese Course recommendations, offers you the most comprehensive Far Eastern language education in Turkey. With the assurance of being a British Council consular partner and an IELTS Authorized Exam Center, you can shape your future at our Istanbul, Bursa, Eskisehir, Izmir, Ankara, and Kocaeli campuses. You can contact us anytime to get detailed information about our adult-tailored education models and The Academic Publishing resources."
+        "desc": "Our institution, which is frequently mentioned across all platforms in research for the Best Chinese Course recommendations, offers you the most comprehensive Far Eastern language education in Turkey. With the assurance of being a British Council consular partner and an IELTS Authorized Exam Center, you can shape your future at our Istanbul, Bursa, Eskisehir, Izmir, Ankara, and Kocaeli campuses. You can contact us anytime to get detailed information about our adult-tailored education models and our own original resources."
       }
     ],
     "whyUs": {
@@ -10095,8 +9177,8 @@
           "icon": "Users"
         },
         {
-          "title": "The Academic Publishing",
-          "desc": "Qualified Chinese materials at international standards from our London-based publishing house.",
+          "title": "Original Learning Resources",
+          "desc": "Qualified Chinese materials at international standards from our own publishing house.",
           "icon": "BookOpen"
         },
         {
@@ -10108,33 +9190,6 @@
           "title": "Brain Exercise",
           "desc": "Modern methods that provide mental discipline and strengthen memory through Hanzi (character) exercises.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Special Resources We Use for Chinese",
-      "subtitle": "With the Assurance of Our Publishing Series",
-      "features": [
-        "Compliant with HSK Exam Format",
-        "Hanzi (Character) Workbooks",
-        "Visual and Auditory Memory Techniques"
-      ],
-      "books": [
-        {
-          "name": "HSK Standard Preparation Set",
-          "type": "General Chinese and Exam Preparation"
-        },
-        {
-          "name": "Character (Hanzi) Writing Guide",
-          "type": "Writing and Brain Exercises"
-        },
-        {
-          "name": "Chinese Tones and Listening",
-          "type": "Pinyin and Phonetics Practice"
-        },
-        {
-          "name": "Business Chinese",
-          "type": "Commercial and Academic Texts"
         }
       ]
     },
@@ -10239,7 +9294,7 @@
         "Original educational models developed for the first time in Turkey for individuals of all ages.",
         "Abundant practice and Q&A opportunities in VIP classes with a capacity of 5-7 people.",
         "Education spanning from daily expressions to academic levels with a student-centered approach.",
-        "Qualified curriculum supported by resources from The Academic Publishing house."
+        "Qualified curriculum supported by resources from our own publishing house."
       ]
     },
     "gradeTabs": {
@@ -10351,33 +9406,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Resources We Use in Japanese Education",
-      "subtitle": "The Quality of Our Publishing Series",
-      "features": [
-        "Kana and Kanji Workbooks",
-        "Reflexive Speaking Materials",
-        "CEFR-Compliant Educational Sets"
-      ],
-      "books": [
-        {
-          "name": "Japanese Grammar and Practice",
-          "type": "Grammar and Sentence Structures"
-        },
-        {
-          "name": "Hiragana, Katakana & Kanji Guide",
-          "type": "Writing System and Character Exercises"
-        },
-        {
-          "name": "Active Japanese Communication",
-          "type": "Q&A and Speaking-Oriented"
-        },
-        {
-          "name": "Japanese Culture and Reading Texts",
-          "type": "Literary and Current Text Analysis"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -10477,7 +9505,7 @@
       "description": "At the end of the basic training, our students both efficiently learn the Korean language structure and increase their aptitude through practical exercises.",
       "features": [
         "Special strategies for Turkish students that turn Ural-Altaic language similarities into an advantage.",
-        "Special course materials supported by The Academic Publishing that facilitate learning.",
+        "Special course materials from our own publishing house that facilitate learning.",
         "Level tracking through regular mock exams and rapid correction of deficiencies.",
         "A holistic approach covering Korean culture, literature, and the historical development of the language."
       ]
@@ -10560,7 +9588,7 @@
       },
       {
         "title": "Educational Objectives and Scope of Our Korean Course",
-        "desc": "The main objective of the Korean courses we offer at our Bursa, Istanbul, Ankara, Izmir, Tekirdag, and Eskisehir campuses is to maximize the academic language skills that individuals need in fields such as Social Sciences, Natural Sciences, Health, and social life. Aiming to build competence in four core skills (Listening, Speaking, Writing, Reading), our program enables students to grasp the essentials of the Korean language both scientifically and formally. With the assurance of being a British Council Consular Partner and IELTS Authorized Exam Center; we create a unique educational opportunity in Turkey with VIP classes, makeup classes in a Live Studio environment, our native/foreign instructor team of academic background, and The Academic Publishing resources."
+        "desc": "The main objective of the Korean courses we offer at our Bursa, Istanbul, Ankara, Izmir, Tekirdag, and Eskisehir campuses is to maximize the academic language skills that individuals need in fields such as Social Sciences, Natural Sciences, Health, and social life. Aiming to build competence in four core skills (Listening, Speaking, Writing, Reading), our program enables students to grasp the essentials of the Korean language both scientifically and formally. With the assurance of being a British Council Consular Partner and IELTS Authorized Exam Center; we create a unique educational opportunity in Turkey with VIP classes, makeup classes in a Live Studio environment, our native/foreign instructor team of academic background, and our own original resources."
       }
     ],
     "whyUs": {
@@ -10599,33 +9627,6 @@
           "title": "Academician Instructors",
           "desc": "A local and foreign expert staff with academic mastery of the Korean language and pedagogical training.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use in Korean Education",
-      "subtitle": "With the Difference of Our Publishing Series",
-      "features": [
-        "Basic and Advanced Grammar Books",
-        "Korean Culture Reading Texts",
-        "Syllabification (Hangul) Exercises"
-      ],
-      "books": [
-        {
-          "name": "Korean Basic Grammar",
-          "type": "Grammar and Suffix Exercises"
-        },
-        {
-          "name": "Hangul Reading and Writing",
-          "type": "Alphabet and Syllable Formation Techniques"
-        },
-        {
-          "name": "Korean Communication Practices",
-          "type": "Daily and Academic Dialogues"
-        },
-        {
-          "name": "Asian Languages and Culture Texts",
-          "type": "Literary and Historical Reading Passages"
         }
       ]
     },
@@ -10670,7 +9671,7 @@
         },
         {
           "q": "What is the advantage of your institution's custom resources?",
-          "a": "Unlike standard books, our resources belonging to London-based publisher The Academic Publishing are custom-designed for the institution to suit Turkish students' language learning logic (especially Ural-Altaic similarities), accelerating learning."
+          "a": "Unlike standard books, our own in-house resources are custom-designed for the institution to suit Turkish students' language learning logic (especially Ural-Altaic similarities), accelerating learning."
         }
       ]
     }
@@ -10817,33 +9818,6 @@
           "title": "International Institution",
           "desc": "A systematic and disciplined educational environment in one of Turkey's most established and reliable language schools.",
           "icon": "Award"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Educational Materials Used for Ottoman Turkish",
-      "subtitle": "Historical Sources and Modern Books",
-      "features": [
-        "Alphabet Training from Scratch",
-        "Printed and Handwritten (Rika) Examples",
-        "Original Archival Documents"
-      ],
-      "books": [
-        {
-          "name": "Ottoman Turkish Reading and Writing Guide",
-          "type": "Alphabet and Beginner Texts"
-        },
-        {
-          "name": "Ottoman Turkish Orthography and Grammar",
-          "type": "Rules, Compound Structures, and Suffixes"
-        },
-        {
-          "name": "Historical and Literary Selections",
-          "type": "Magazines, Poems, and Article Examples"
-        },
-        {
-          "name": "Archival Document Readings (Advanced Level)",
-          "type": "Edict (Ferman), Diploma (Berat), and Handwritten (Rika) Documents"
         }
       ]
     },
@@ -11060,33 +10034,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Materials We Use in Education",
-      "subtitle": "Resources Developing 4 Core Skills",
-      "features": [
-        "Compliant with CEFR Standards",
-        "Visual and Audio Content",
-        "Daily Life-Oriented Practices"
-      ],
-      "books": [
-        {
-          "name": "Turkish Coursebook for Foreigners",
-          "type": "Grammar, Reading, and Listening Exercises"
-        },
-        {
-          "name": "Turkish Workbook",
-          "type": "Writing and Grammar Practices"
-        },
-        {
-          "name": "Speaking and Communication Guide",
-          "type": "Daily Dialogues and Pronunciation (Phonetics)"
-        },
-        {
-          "name": "Culture and Literature Texts",
-          "type": "Advanced Level Texts Introducing Turkish Culture"
-        }
-      ]
-    },
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -11186,7 +10133,7 @@
       "description": "Following our placement test, our expert instructors with master's or doctoral degrees determine the most ideal education program for you.",
       "features": [
         "The first original education model designed specifically for adults in Turkey.",
-        "Video materials, practice exams, and The Academic Publishing resources that facilitate learning.",
+        "Video materials, practice exams, and our own original resources that facilitate learning.",
         "Enjoyable sessions focused on interactive speaking practice instead of a boring classroom environment.",
         "A current curriculum with a scientific foundation valid both domestically and internationally."
       ]
@@ -11269,7 +10216,7 @@
       },
       {
         "title": "Most Recommended Turkish Course Experience",
-        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Academic Foreign Language Courses has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our original publications under The Academic Publishing brand, we aim to take you to the highest points on the career ladder."
+        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Academic Foreign Language Courses has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
       }
     ],
     "whyUs": {
@@ -11306,35 +10253,8 @@
         },
         {
           "title": "Original Publications",
-          "desc": "Lessons supported by The Academic Publishing resources exclusive to our institution's students.",
+          "desc": "Lessons supported by original resources exclusive to our institution's students.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Our Educational Materials",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "Compliant with CEFR Standards",
-        "Visual and Video Content",
-        "Communication-Oriented Practices"
-      ],
-      "books": [
-        {
-          "name": "Turkish Communication Book",
-          "type": "Daily Dialogues and Listening-Comprehension"
-        },
-        {
-          "name": "Applied Grammar",
-          "type": "Agglutinative Structure and Rules"
-        },
-        {
-          "name": "Cultural Reading Texts",
-          "type": "Reading-Comprehension and Vocabulary"
-        },
-        {
-          "name": "Written Expression Guide",
-          "type": "Composition and Advanced Writing"
         }
       ]
     },
@@ -11439,7 +10359,7 @@
         "A curriculum teaching basic grammar, noun declensions, verb conjugations, and the complex syntax structure of Latin.",
         "Practical applications that impart skills to follow Latin visual and auditory media, rather than just theoretical study.",
         "Specially designed terminology studies for lawyers, doctors, academicians, and history researchers.",
-        "Student-centered modern education methods supported by The Academic Publishing resources."
+        "Student-centered modern education methods supported by our own original resources."
       ]
     },
     "gradeTabs": {
@@ -11520,7 +10440,7 @@
       },
       {
         "title": "Turkey's Best Recommended Latin Course",
-        "desc": "If you want to learn a language with high academic weight like Latin, Academic International—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with The Academic Publishing resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
+        "desc": "If you want to learn a language with high academic weight like Latin, Academic International—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with our own original resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
       }
     ],
     "whyUs": {
@@ -11559,33 +10479,6 @@
           "title": "Cultural Analysis",
           "desc": "A holistic approach covering Roman history, literature, and social structure—not just grammar.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Latin",
-      "subtitle": "With Contributions from Our Publishing Series",
-      "features": [
-        "Legal and Medical Terminology",
-        "Literary Text Analyses",
-        "Roman History Readings"
-      ],
-      "books": [
-        {
-          "name": "Latin Grammar and Syntax",
-          "type": "Grammar, Noun Declensions, and Verb Conjugations"
-        },
-        {
-          "name": "Roman Law and Terminology",
-          "type": "Core Concepts for Law Faculties"
-        },
-        {
-          "name": "Medical Latin",
-          "type": "Medicine and Health Sciences Terminology"
-        },
-        {
-          "name": "Ancient Roman Literature Texts",
-          "type": "Poetry, Oratory, and Philosophy Translations"
         }
       ]
     },
@@ -11771,7 +10664,7 @@
       },
       {
         "title": "Dutch Course Prices and Best Course Recommendations",
-        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Academic Foreign Language Courses makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with The Academic Publishing resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
+        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Academic Foreign Language Courses makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with our own original resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
       }
     ],
     "whyUs": {
@@ -11808,35 +10701,8 @@
         },
         {
           "title": "Original Resources",
-          "desc": "Exam-oriented, technology-integrated materials belonging to London-based The Academic Publishing.",
+          "desc": "Exam-oriented, technology-integrated materials from our own publishing house.",
           "icon": "BookOpen"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Dutch Educational Materials",
-      "subtitle": "Powered by Our Publishing Series",
-      "features": [
-        "Exam-Oriented Question Types",
-        "Cultural Reading Texts",
-        "Visual and Audio Content"
-      ],
-      "books": [
-        {
-          "name": "Dutch Basic Grammar",
-          "type": "Grammar and Sentence Structure"
-        },
-        {
-          "name": "MVV Exam Preparation Guide",
-          "type": "Family Reunification Practice & Strategies"
-        },
-        {
-          "name": "Dutch Society and Culture",
-          "type": "Integration Exam (KNS) Reading Texts"
-        },
-        {
-          "name": "Speaking and Listening Practices",
-          "type": "Communication, Dialogue, and Pronunciation Studies"
         }
       ]
     },
@@ -11908,7 +10774,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
-      "description": "Learn Spanish, the 3rd most spoken official language in the world, with Academic Publishing resources without memorization."
+      "description": "Learn Spanish, the 3rd most spoken official language in the world, with our own original resources without memorization."
     },
     "about": {
       "badge": "WORLD'S 3RD MOST SPOKEN LANGUAGE",
@@ -12050,7 +10916,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Up-to-date and quality foreign language resources.",
           "icon": "BookOpen"
         },
@@ -12063,33 +10929,6 @@
           "title": "Flexible Models",
           "desc": "In-class, private, or online education options.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Spanish",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "European Language Portfolio Compliant",
-        "Current and Thematic Content",
-        "4-Skill Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-C2 Set",
-          "type": "General Spanish Textbooks"
-        },
-        {
-          "name": "Conversación y Diálogo",
-          "type": "Conversation and Dialogue Practices"
-        },
-        {
-          "name": "Gramática Española",
-          "type": "Spanish Grammar Resources"
-        },
-        {
-          "name": "Comprensión Auditiva",
-          "type": "Listening (Phonetics) Resources"
         }
       ]
     },
@@ -12310,7 +11149,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Quality language resources.",
           "icon": "BookOpen"
         },
@@ -12323,33 +11162,6 @@
           "title": "Flexible Models",
           "desc": "In-class, private, or online options.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Russian",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "European Language Portfolio Compliant",
-        "Current and Thematic Content",
-        "4-Skill Focused Exercises"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing A1-B2 Set",
-          "type": "General Russian Textbooks"
-        },
-        {
-          "name": "Разговор (Conversation)",
-          "type": "Dialogue and Conversation Material"
-        },
-        {
-          "name": "Русская Грамматика",
-          "type": "Russian Grammar Resources"
-        },
-        {
-          "name": "Аудирование (Listening)",
-          "type": "Listening Resources"
         }
       ]
     },
@@ -12548,7 +11360,7 @@
       },
       {
         "title": "Best Portuguese Course Recommendation",
-        "desc": "Akademik International Foreign Language Schools continue to provide quality service with VIP classes, technology-integrated models, and Academic Publishing resources."
+        "desc": "Akademik International Foreign Language Schools continue to provide quality service with VIP classes, technology-integrated models, and our own original resources."
       }
     ],
     "whyUs": {
@@ -12574,8 +11386,8 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
-          "desc": "Supported by London-based Academic Publishing.",
+          "title": "Original Learning Resources",
+          "desc": "Supported by our own publishing resources.",
           "icon": "BookOpen"
         },
         {
@@ -12587,33 +11399,6 @@
           "title": "Private Lessons",
           "desc": "One-on-one lessons for individuals or corporate companies.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources for Portuguese",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "CEFR Compliant",
-        "Brazilian and Portuguese Dialects",
-        "Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Portuguese",
-          "type": "General Textbooks"
-        },
-        {
-          "name": "Portuguese Grammar",
-          "type": "Grammar and Structures"
-        },
-        {
-          "name": "CIPLE Exam Prep",
-          "type": "A2 Citizenship Exam Resources"
-        },
-        {
-          "name": "Speaking Practice",
-          "type": "Daily Communication Resources"
         }
       ]
     },
@@ -12842,7 +11627,7 @@
           "icon": "Users"
         },
         {
-          "title": "Academic Publishing",
+          "title": "Original Learning Resources",
           "desc": "Rich course materials from London-based publishers.",
           "icon": "BookOpen"
         },
@@ -12855,33 +11640,6 @@
           "title": "Live Studio",
           "desc": "Uninterrupted online education via Live Studio.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources We Use for Arabic",
-      "subtitle": "Our Publishing Series Quality",
-      "features": [
-        "CEFR Compliant",
-        "Audiovisual Materials",
-        "Practice Exams"
-      ],
-      "books": [
-        {
-          "name": "Academic Publishing Arabic",
-          "type": "General Textbooks"
-        },
-        {
-          "name": "Arabic Grammar",
-          "type": "Grammar and Vocabulary"
-        },
-        {
-          "name": "YDS Prep",
-          "type": "Exam Strategy Resources"
-        },
-        {
-          "name": "Reading & Listening",
-          "type": "Text and Audio Materials"
         }
       ]
     },
@@ -13052,7 +11810,7 @@
       {
         "level": "h2",
         "title": "Kadıköy English Course Prices 2026",
-        "desc": "<b>Kadıköy English Course Prices 2026</b> generally vary between 18.000 ₺ and 95.000 ₺. This price range differs according to the total course hour intensity, class size, and additional materials offered. As Akademik International Language Courses, which has an advantageous position in the <b>Kadıköy English Course Prices 2026</b> term, we have adopted the principle of offering our national experience in the center of Istanbul at accessible costs. We see the education fee not as an expense item, but as a value that will return with the competencies it will bring.<br/>We cover all the materials you will need throughout your education process with the publication support of \"The Academic Publishing\" at global standards. When you compare with <b>Kadıköy English Course Prices 2026</b>, the course hour density, free activities, and resource quality we offer place our institution at the top in the \"Price/Benefit\" balance. Kadıköy language course prices are designed with installment options and flexible payment plans that will not strain our students' economic planning. Our goal is to enable you to focus solely on language development without budget concerns.<br/><br/><b>Kadıköy English Course Prices 2026:</b>",
+        "desc": "<b>Kadıköy English Course Prices 2026</b> generally vary between 18.000 ₺ and 95.000 ₺. This price range differs according to the total course hour intensity, class size, and additional materials offered. As Akademik International Language Courses, which has an advantageous position in the <b>Kadıköy English Course Prices 2026</b> term, we have adopted the principle of offering our national experience in the center of Istanbul at accessible costs. We see the education fee not as an expense item, but as a value that will return with the competencies it will bring.<br/>We cover all the materials you will need throughout your education process with our own publication support at global standards. When you compare with <b>Kadıköy English Course Prices 2026</b>, the course hour density, free activities, and resource quality we offer place our institution at the top in the \"Price/Benefit\" balance. Kadıköy language course prices are designed with installment options and flexible payment plans that will not strain our students' economic planning. Our goal is to enable you to focus solely on language development without budget concerns.<br/><br/><b>Kadıköy English Course Prices 2026:</b>",
         "table": {
           "headers": [
             "English Level",
@@ -13140,33 +11898,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Current Resources with The Academic Publishing Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London Based Publications",
-        "Current and Actual Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Kadıköy English Course?",
       "subtitle": "Experience Quality, Don't Waste Time",
@@ -13233,7 +11964,7 @@
   "bursaIngilizceLandingPage": {
     "meta": {
       "title": "Bursa English Course",
-      "description": "Akademik International Bursa English language course offers the best education with its original resources and privileged curriculum to reach your target language level."
+      "description": "Avcılar English Language Course's Bursa branch offers the best education with its original resources and privileged curriculum to reach your target language level."
     },
     "location": {
       "title": "Our Address",
@@ -13262,7 +11993,7 @@
     "seoContent": [
       {
         "title": "Bursa English Course",
-        "desc": "Akademik International Bursa English language course offers the best education with its original resources and privileged curriculum to reach your target language level. This course, which guarantees language learning, contributes to shaping your future."
+        "desc": "Avcılar English Language Course's Bursa branch offers the best education with its original resources and privileged curriculum to reach your target language level. This course, which guarantees language learning, contributes to shaping your future."
       },
       {
         "title": "Bursa English Course",
@@ -13270,55 +12001,28 @@
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Choosing an English Course in Bursa",
-      "subtitle": "The Most Frequently Asked Questions by Students About Bursa English Course",
+      "title": "Frequently Asked Questions About Our Bursa FSM English Course",
+      "subtitle": "We've compiled the questions students most often ask about our English programs at the FSM campus.",
       "items": [
         {
-          "q": "What Are English Levels?",
-          "a": "English levels are a system used to measure English language skills. A placement test and correctly determining a person's level in four basic skills is an important criterion for receiving effective English language education."
+          "q": "Where is your Bursa FSM campus and how easy is it to reach?",
+          "a": "Our campus is in Nilüfer FSM, at the Dünya İş Merkezi on Can Street in the İhsaniye neighborhood. It's 2 minutes from FSM Meydanı, 2 minutes from the FSM bus stop, and 5 minutes from the FSM metro station — right across from the Bursa Police Headquarters, making it very easy to reach."
         },
         {
-          "q": "How Long Does an English Language Course Last?",
-          "a": "There are many factors that significantly affect the duration of an English language course. Each term at our Bursa English course generally lasts 3 months. Our students continue their education by progressing to the next level every 3 months based on their current levels and goals."
+          "q": "Do you offer Native Speaker instructors at the FSM campus?",
+          "a": "Yes, a significant part of our speaking-focused classes at the FSM campus are led by native English-speaking instructors. Our goal-oriented curriculum is designed to help you achieve correct pronunciation and natural fluency."
         },
         {
-          "q": "English Courses in Bursa",
-          "a": "Despite many English courses in Bursa, our language school continues to be the first choice with its specially prepared curriculum for adults and its education system that makes a difference."
+          "q": "Can I get business English training in Bursa Nilüfer?",
+          "a": "Yes, our business English program for professionals focuses on critical areas such as email correspondence, meeting management, presentation skills, and client relations. Through our partnerships with corporate firms in the Nilüfer area, we offer content tailored to today's business needs."
         },
         {
-          "q": "Things to Consider When Choosing an English Course",
-          "a": "Some important considerations when choosing an English course include: the course program must meet the student's needs, the student must determine their level and goals, instructors must be expert and experienced, and the course price must be within budget."
+          "q": "What should I consider before registering for a course?",
+          "a": "First, be clear about your target level and what you want to achieve. From there, we recommend evaluating instructor quality, class sizes, the materials used, and taking advantage of a free trial lesson before making your decision."
         },
         {
-          "q": "Does Bursa Nilüfer English course offer business English training?",
-          "a": "Yes, at our Bursa Nilüfer English course we provide specialized business English training for professionals. Our program focuses on critical areas such as email correspondence, meeting management, presentation techniques, teleconference calls and customer relations."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
+          "q": "Are class hours flexible, with evening and weekend options?",
+          "a": "Our classes run in flexible hours from 08:00 to 21:00, either one-on-one or in small groups. We also offer an online learning option and dedicated in-house training programs for corporate groups."
         }
       ]
     },
@@ -13467,33 +12171,6 @@
         }
       ]
     },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
-        }
-      ]
-    },
     "whyUs": {
       "title": "Why Choose Us for Avcılar English Course?",
       "subtitle": "Experience Quality, Don't Waste Time",
@@ -13588,63 +12265,36 @@
     "seoContent": [
       {
         "title": "Istanbul English Course",
-        "desc": "The most important factor when choosing an English course in Istanbul is that the institution offers a method suited to your learning style and goals. Among Istanbul English Courses, Akademik International Foreign Language Courses stands out as the best option for those seeking quality foreign language education. Ranking high in Istanbul English Course recommendations, Istanbul Akademik International Foreign Language Course provides goal-oriented success opportunities with foreign language programs suitable for all ages."
+        "desc": "The most important factor when choosing an English course in Istanbul is that the institution offers a method suited to your learning style and goals. Among Istanbul English Courses, Avcılar English Language Course stands out as the best option for those seeking quality foreign language education. Ranking high in Istanbul English Course recommendations, Istanbul's Avcılar English Language Course provides goal-oriented success opportunities with foreign language programs suitable for all ages."
       },
       {
         "title": "Istanbul English Course",
-        "desc": "Adults and parents searching for an English Course in Istanbul are aware that knowing a foreign language has become a necessity in today's world. Making the right decision among foreign language education centers serving at different points of the city in Istanbul directly affects the success of your English learning journey. Among Istanbul English Courses, Akademik International Foreign Language Courses, where you can receive quality foreign language education, may be exactly what you are looking for."
+        "desc": "Adults and parents searching for an English Course in Istanbul are aware that knowing a foreign language has become a necessity in today's world. Making the right decision among foreign language education centers serving at different points of the city in Istanbul directly affects the success of your English learning journey. Among Istanbul English Courses, Avcılar English Language Course, where you can receive quality foreign language education, may be exactly what you are looking for."
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Istanbul English Course",
-      "subtitle": "If you are looking for an English course in Istanbul and have questions in mind, you are in the right place. We have answered the most frequently asked questions and their detailed answers about Istanbul English Language Course for you.",
+      "title": "Frequently Asked Questions About English Courses in Istanbul",
+      "subtitle": "If you're looking for an English course in Istanbul and have questions in mind, you're in the right place. Here are the most common questions and detailed answers.",
       "items": [
         {
-          "q": "What level should I start at to learn English at Istanbul English Course?",
-          "a": "When starting to learn a foreign language at our English courses in Istanbul, your current English level is determined by assessing your reading, writing, listening and speaking skills. Then, an education program focused on your goals and suited to your needs is created starting from this level. This ensures an effective learning process to reach the language level you desire from your current level."
+          "q": "Where in Istanbul is your campus, and how easy is it to reach?",
+          "a": "Our campus is in Avcılar, at the Umut İş Merkezi on Namık Kemal Street. It's a 5-minute walk from the Avcılar Metrobüs stop and 10 minutes from Istanbul University's campus, sitting right across from the Atatürk statue in a central spot that's easy to reach from anywhere in the city."
         },
         {
-          "q": "What types of education are offered at Istanbul English Language Course?",
-          "a": "The following courses are offered in 22+ world languages at our campuses in Istanbul: General Languages - English, German, French, Italian, Spanish+ Exam Preparation Courses - IELTS, TOEFL, YDS, ITEP, TOEIC+"
+          "q": "What level should I start learning English from?",
+          "a": "Before enrollment we run reading, writing, listening, and speaking assessments to determine your current English level. Based on this evaluation, we recommend a program suited to your goals and needs, so you progress as efficiently as possible from wherever you're starting."
         },
         {
-          "q": "What do you recommend to maintain my level after my English course program ends?",
-          "a": "We offer our graduates free conversation clubs, online resource access and periodic level maintenance courses."
+          "q": "What programs are offered at your Istanbul campus?",
+          "a": "Alongside general English, our campus offers German, French, Italian, and Spanish language programs, as well as preparation courses for international exams such as IELTS, TOEFL, YDS, iTEP, and TOEIC."
         },
         {
-          "q": "I don't know any English at all, am I accepted at beginner level at Istanbul English Language Course?",
-          "a": "We have specially designed classes for complete beginner (A1) level students, and our instructors are proficient in teaching methods specifically for those starting from scratch."
+          "q": "I don't know any English — can I start from scratch?",
+          "a": "Absolutely. We have classes specifically designed for complete beginners (A1 level), and our instructors specialize in teaching methods tailored to students starting English from zero."
         },
         {
-          "q": "Can I take a trial lesson before starting education at Istanbul English Course?",
-          "a": "You can make an appointment for a free trial lesson and institution tour at our campuses in Istanbul, and observe the classroom environment firsthand."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Building"
+          "q": "What do you recommend to maintain my level after finishing the course?",
+          "a": "Graduates get access to free speaking club events, online resources, and periodic level-maintenance lessons. This way you can keep your English active after the course ends and minimize the risk of losing what you've learned."
         }
       ]
     },
@@ -13742,47 +12392,28 @@
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Çekmeköy English Language Course",
-      "subtitle": "You can examine the comprehensive answers and detailed information for all your questions about the Çekmeköy English Language Course in this section.",
+      "title": "Frequently Asked Questions About Our Çekmeköy English Course",
+      "subtitle": "Here are the answers to the questions you're most likely wondering about our English programs at the Çekmeköy campus.",
       "items": [
         {
-          "q": "Are weekend classes available?",
-          "a": "Weekend classes are available. Flexible class hours on Saturdays and Sundays are offered for students who work or have busy schedules during the week. Weekend programs are usually held in the morning from 09:00-12:00 or in the afternoon from 13:00-16:00, providing the same quality of educational content as weekday programs. Thanks to this program, you can find the opportunity to learn English without compromising your work life and make progress at your own pace."
+          "q": "Where is your Çekmeköy campus and how easy is it to reach?",
+          "a": "Our campus is on Mehmet Akif Mahallesi Refah Street, right next to the Çekmeköy Metro station. It's just 2 minutes from the bus stop, making it easy to reach by public transport from any neighborhood in Çekmeköy."
         },
         {
-          "q": "Are there English programs available for children?",
-          "a": "We have specially designed English programs for children. Within Akademik International Yabancı Dil Kursu, training programs prepared using game-based and interactive teaching methods are offered for children aged 4-12. In our curriculum, prepared appropriately for children's developmental stages, the English learning process is made enjoyable through songs, games, picture books, and educational videos. In our classes conducted by experienced children's instructors, class sizes in young age groups are kept small to ensure individual attention for each child, thereby contributing to building a solid English foundation at an early age."
+          "q": "Can I take speaking classes with native-speaking instructors?",
+          "a": "Yes, a large portion of our speaking-focused classes at the Çekmeköy campus are taught by native English-speaking instructors. This gives you one-on-one practice with real-life expressions, pronunciation, and natural fluency."
         },
         {
-          "q": "Is there a preparation course for the TOEFL exam?",
-          "a": "We have a comprehensive preparation course for the TOEFL exam. In the TOEFL preparation program offered at our institution, systematic training is provided for the Reading, Listening, Speaking, and Writing sections, which are the four basic skill areas of the exam. In the courses conducted by our experienced instructors, TOEFL-specific strategies are taught, regular mock tests are administered, and individual weak points are identified and strengthened."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate Level English"
+          "q": "Do you have a special program for teens and students?",
+          "a": "We have a youth program for middle and high school students that supports the school curriculum with a speaking-focused, interactive approach. It's designed to build both academic success and the confidence to speak English."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "Can I get support preparing for the IELTS exam?",
+          "a": "Yes, our Çekmeköy campus offers an intensive IELTS preparation program covering all four core skills — reading, listening, speaking, and writing. We track your progress toward your target score with regular mock exams and individual feedback."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Treasury"
+          "q": "Is there an online option in addition to in-person classes?",
+          "a": "Yes, for students who can't come to our Çekmeköy campus or prefer to learn online, we offer live, instructor-led online classes. Our online programs follow the same curriculum and quality as our in-person courses."
         }
       ]
     },
@@ -13892,47 +12523,28 @@
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Bursa Görükle English Language Course",
-      "subtitle": "We have compiled the most frequently asked questions about the Bursa Görükle English Language Course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our Bursa Görükle English Course",
+      "subtitle": "We've compiled the most common questions about our English programs at the Görükle campus.",
       "items": [
         {
+          "q": "Where is your Görükle campus and how easy is it to reach?",
+          "a": "Our campus is in Nilüfer Görükle, at Bikado Plaza on Kardelen Street, directly across from the Gençlik Merkezi (Youth Center). It's 1 minute from the Nilüfer Gençlik Evi, 2 minutes from central Görükle, and about 8 minutes from the Uludağ University metro station."
+        },
+        {
+          "q": "Can I take classes with native English-speaking instructors?",
+          "a": "Yes, a significant portion of our speaking classes at the Görükle campus are led by native English-speaking instructors. This gives you one-on-one practice with correct pronunciation, natural fluency, and everyday expressions commonly used in spoken English."
+        },
+        {
           "q": "Are weekend classes available?",
-          "a": "Weekend classes are available. Flexible course hours are offered on Saturdays and Sundays for working individuals and students with busy weekday schedules. Weekend programs are generally scheduled between 09:00-12:00 in the morning or 13:00-16:00 in the afternoon, delivering the exact same high-quality educational content as weekday programs. Thanks to this schedule, you can learn English without compromising your professional life and progress at your own pace."
+          "a": "Yes, for students with busy weekday schedules we offer weekend classes on Saturdays and Sundays, either 09:00-12:00 or 13:00-16:00. These sessions cover the same content and quality as our weekday programs."
         },
         {
-          "q": "Are there English programs for children?",
-          "a": "We have English programs specially designed for children. Within Academic International Foreign Language Course, play-based and interactive teaching methods are used to prepare programs for children aged 4-12. In our curriculum, which is tailored to children's developmental stages, the process of learning English is made enjoyable through songs, games, picture books, and educational videos."
+          "q": "Do you have an English program for children?",
+          "a": "At our Görükle campus we offer English programs designed specifically for children aged 4-12, built around games and interactive methods. Our curriculum, supported by songs, games, and picture books, keeps class sizes small so every child gets individual attention."
         },
         {
-          "q": "Is there a preparation course for the TOEFL exam?",
-          "a": "We have a comprehensive preparation course for the TOEFL exam. In the TOEFL preparation program offered at our institution, systematic training is provided for the four core skill areas of the exam: Reading, Listening, Speaking, and Writing. Led by our experienced instructors, these courses teach TOEFL-specific strategies, conduct regular mock tests, and identify and strengthen individual weak points."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
-        },
-        {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
-        },
-        {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Do you offer a TOEFL preparation course?",
+          "a": "Yes, we have a systematic TOEFL preparation program covering all four sections — Reading, Listening, Speaking, and Writing. Our experienced instructors track your progress with regular mock exams and target-focused practice to strengthen your weak points."
         }
       ]
     },
@@ -14030,63 +12642,48 @@
     "seoContent": [
       {
         "title": "Ankara English Course",
-        "desc": "Akademik International, which developed Turkey's first age-group-specific education model and allows you to learn English with a team of expert domestic and foreign instructors, is the most qualified and established language school among Ankara English Courses. The growing demand for English today is creating many career opportunities. Especially the new steps taken in the digital world have brought together many national and international fields and introduced global citizenship. Together with the Ankara English Course, you too can adapt to the dynamics of the new world by learning a new language, strengthen your communication network worldwide, and discover new career opportunities. The Ankara English Course, which is also a British Council Consulate Partner and an IELTS Authorized Exam Center, is also a language school with London-based The Academic Publishing resources. You can trust Akademik International's nearly half-century of experience and learn English in a short time. The Ankara English Course, which provides hundreds of students each year with a new language and career, continues its quality education with high-score guaranteed training in speaking and academic exams. Ankara English Course also provides publishing services by obtaining resources from countries that are the source of English exams in Turkey such as IELTS, TOEFL, YDS, Level Skipping, and TOEIC."
+        "desc": "Avcılar English Language Course, which developed Turkey's first age-group-specific education model and allows you to learn English with a team of expert domestic and foreign instructors, is the most qualified and established language school among Ankara English Courses. The growing demand for English today is creating many career opportunities. Especially the new steps taken in the digital world have brought together many national and international fields and introduced global citizenship. Together with the Ankara English Course, you too can adapt to the dynamics of the new world by learning a new language, strengthen your communication network worldwide, and discover new career opportunities. The Ankara English Course, which is also a British Council Consulate Partner and an IELTS Authorized Exam Center, is also a language school with London-based publishing resources. You can trust our nearly half-century of experience and learn English in a short time. The Ankara English Course, which provides hundreds of students each year with a new language and career, continues its quality education with high-score guaranteed training in speaking and academic exams. Ankara English Course also provides publishing services by obtaining resources from countries that are the source of English exams in Turkey such as IELTS, TOEFL, YDS, Level Skipping, and TOEIC."
       },
       {
         "title": "Ankara English Course Recommendation",
-        "desc": "Akademik International, which frequently makes a name for itself on every platform in terms of Ankara English Course recommendations, is the most preferred language school in Ankara, just as it is in other cities of Turkey. With our expert staff, original publishing, and quality education, Akademik International, the most preferred English Course in terms of Ankara English Course recommendations, continues to provide education in 17 world languages with its student satisfaction mission. It is aimed that our students get maximum efficiency from our competent staff at our language school in terms of Ankara English Course recommendation, and that this efficiency is periodically carried to higher levels. If you want to learn English or expand your existing English knowledge, you can make a great start with our language school, which is always at the top of Ankara English Course recommendation options."
+        "desc": "We frequently make a name for ourselves on every platform in terms of Ankara English Course recommendations, and remain the most preferred language school in Ankara, just as in other cities of Turkey. With our expert staff, original publishing, and quality education, we remain the most preferred English Course in terms of Ankara English Course recommendations, continues to provide education in 17 world languages with its student satisfaction mission. It is aimed that our students get maximum efficiency from our competent staff at our language school in terms of Ankara English Course recommendation, and that this efficiency is periodically carried to higher levels. If you want to learn English or expand your existing English knowledge, you can make a great start with our language school, which is always at the top of Ankara English Course recommendation options."
       },
       {
         "title": "Ankara Best English Course",
-        "desc": "With Ankara Best English Course, you can achieve your academic career, university, immigration, and competency goals in a short time and add a more positive experience to your life with the Akademik International difference. At Ankara Best English Courses, we offer you the finest and highest quality English education with our VIP classrooms, academician-origin domestic and foreign instructor staff, and Academic Publishing Publications. If you want to make a difference in your future and gain momentum in your career through English, you can make a quality start with Ankara Best English Course and open many doors of opportunity."
+        "desc": "With Ankara Best English Course, you can achieve your academic career, university, immigration, and competency goals in a short time and add a more positive experience to your life with our difference. At Ankara Best English Courses, we offer you the finest and highest quality English education with our VIP classrooms, academician-origin domestic and foreign instructor staff, and our own publishing resources. If you want to make a difference in your future and gain momentum in your career through English, you can make a quality start with Ankara Best English Course and open many doors of opportunity."
       },
       {
         "title": "Ankara English Course Prices",
-        "desc": "Ankara English Course prices may vary according to the levels you want to study. Additionally, Ankara English Course prices may differ according to the relevant education center's lesson model, class capacity, and the opportunities and privileges it offers. If you want to build a beautiful future, an English education whose fruits you can enjoy at every stage of your life will be one of the best investments for you. You can reach us anytime through the phone number on our homepage for more detailed information about Akademik International education models, Academic Publishing, and Ankara English Course prices."
+        "desc": "Ankara English Course prices may vary according to the levels you want to study. Additionally, Ankara English Course prices may differ according to the relevant education center's lesson model, class capacity, and the opportunities and privileges it offers. If you want to build a beautiful future, an English education whose fruits you can enjoy at every stage of your life will be one of the best investments for you. You can reach us anytime through the phone number on our homepage for more detailed information about our education models, publishing resources, and Ankara English Course prices."
       },
       {
         "title": "Ankara Language Course",
-        "desc": "As Ankara Language Course, we take pride in providing a new language to countless students with our foreign language programs suitable for every level and age in 17 different world languages. Akademik International, which has unique training models among Ankara Language Courses and the first language education methodology applied in Turkey, continues to be the most preferred language school. If you want to improve yourself and add new innovations to your life with a new language, you can contact Ankara Language Course and improve yourself in the language you want to learn in a short time. You can participate in our free level assessment exam and join our expert instructors' special language programs for you. To take advantage of early enrollment benefits and special discounts on Ankara Language Course prices, you can contact us anytime at 0850 305 05 16."
+        "desc": "As Ankara Language Course, we take pride in providing a new language to countless students with our foreign language programs suitable for every level and age in 17 different world languages. With unique training models among Ankara Language Courses and the first language education methodology applied in Turkey, we continue to be the most preferred language school. If you want to improve yourself and add new innovations to your life with a new language, you can contact Ankara Language Course and improve yourself in the language you want to learn in a short time. You can participate in our free level assessment exam and join our expert instructors' special language programs for you. To take advantage of early enrollment benefits and special discounts on Ankara Language Course prices, you can contact us anytime at 0850 305 05 16."
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Ankara English Language Course",
-      "subtitle": "We have compiled the most frequently asked questions about the Ankara English Language Course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our Ankara English Course",
+      "subtitle": "We've compiled the most common questions about our English programs at the Ankara campus.",
       "items": [
         {
-          "q": "How are the English course teachers in Ankara?",
-          "a": "Although every teacher has their own style, choosing a teacher is as important as choosing an institution for language learning. At our English course in Ankara, you will facilitate your English learning with instructors who have at least 5-6 years of experience and are specialized in their field."
+          "q": "Where is your Ankara campus and how easy is it to reach?",
+          "a": "Our campus is on Mithatpaşa Street in Çankaya's Kültür neighborhood, just a 1-minute walk from Kızılay. It's only 3 minutes from Kızılay Square and Kızılay Metro station, making it easy to reach by public transport from anywhere in Ankara."
         },
         {
-          "q": "What should be considered when registering for an English Course?",
-          "a": "Learning English has become a necessary skill to seize many opportunities in our globalizing world. For this reason, there are some factors to consider when researching an English course. These factors are: verifying that it suits your needs and goals, paying attention to graduate student references, and registering by participating in the free trial lessons before starting."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Topical Subjects",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate Level English"
+          "q": "How experienced are your instructors in Ankara?",
+          "a": "While every instructor has their own style, choosing the right teacher matters as much as choosing the right school. At our Ankara campus, instructors with at least 5-6 years of experience and specialized expertise work with you to make the learning process easier."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "What does being an 'IELTS Authorized Exam Center' mean?",
+          "a": "Our Ankara campus is an authorized preparation center for the IELTS exam, offering exam-specific strategies, regular mock exams, and an intensive curriculum covering all four core skills. This helps you reach your target score in the shortest time possible."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
+          "q": "What should I pay attention to when registering for an English course?",
+          "a": "In our globalizing world, English is the key to a whole range of opportunities — so before enrolling, make sure the program matches your needs and goals, check graduate references, and take a free trial lesson before deciding."
         },
         {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "How are tuition fees determined, and are installments available?",
+          "a": "Pricing depends on the program you choose (general English, IELTS preparation, business English, etc.) and its duration. After a free level-placement test, you'll receive a personalized quote along with installment payment options."
         }
       ]
     },
@@ -14184,39 +12781,28 @@
       }
     ],
     "faq": {
-      "title": "Frequently Asked Questions About Izmir English Course",
-      "subtitle": "We have compiled the most frequently asked questions about the Izmir English Course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our Izmir Alsancak English Course",
+      "subtitle": "We've compiled the most common questions about our English programs at the Izmir Alsancak campus.",
       "items": [
         {
-          "q": "Which Level Should I Start From to Learn English?",
-          "a": "When starting to learn English, your current level is measured by examining your reading, writing, listening, and speaking skills. At our foreign language course in Izmir, we evaluate these skills to determine your starting level and create an educational program tailored to your goals. This provides you with a personalized learning process to reach your desired language level starting from your current proficiency."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "How easy is it to reach your campus in Alsancak?",
+          "a": "Our campus sits in a central spot in Izmir's Alsancak district, within walking distance of the metro station and bus stops. Thanks to its proximity to the Kordon waterfront and Alsancak's busy streets, it's easy to reach by public transport from anywhere in Izmir."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "What does 'IELTS Authorized Center' mean — do I take the exam there?",
+          "a": "Our Alsancak campus is an authorized center for IELTS preparation, offering an intensive curriculum covering exam strategies, speaking practice, and all four skill areas. Our instructors are up to date with the current IELTS format and support you toward your target score with regular mock exams."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
+          "q": "How is my current English level assessed?",
+          "a": "Before enrollment we assess your current level through reading, writing, listening, and speaking evaluations. At our Izmir campus, we then build a personalized program around these results so you progress as efficiently as possible toward your target level."
         },
         {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Can I get information about class sizes and the teaching staff?",
+          "a": "At our Alsancak campus, classes run in small groups (averaging 8-10 students), so every student gets individual attention. Our staff includes experienced Turkish instructors and native English-speaking teachers who lead our speaking sessions."
+        },
+        {
+          "q": "How much does the course cost, and are there payment options?",
+          "a": "Pricing depends on the program you choose (general English, IELTS preparation, business English, etc.) and its duration. After a free level-placement test, you'll receive a personalized quote along with installment payment support."
         }
       ]
     },
@@ -14326,7 +12912,7 @@
       },
       {
         "title": "Izmit English Course Prices",
-        "desc": "Izmit English Course Prices are a eagerly awaited topic for anyone who has decided to learn a language and aims to advance in their career. As Academic International Courses, we act with the mission of teaching a new language to thousands of students across Turkey. Our educational materials are supported by resources provided by London-based 'The Academic Publishing'. Kocaeli Izmit English Courses Prices not only offer attractive rates, but we are also confident in providing our students with a quality educational experience. We offer tailored content and lesson materials for every level, from A1 Beginner Level to C2 Upper-Advanced Level."
+        "desc": "Izmit English Course Prices are a eagerly awaited topic for anyone who has decided to learn a language and aims to advance in their career. As Avcılar English Language Course, we act with the mission of teaching a new language to thousands of students across Turkey. Our educational materials are supported by resources from our London-based publishing partner. Kocaeli Izmit English Courses Prices not only offer attractive rates, but we are also confident in providing our students with a quality educational experience. We offer tailored content and lesson materials for every level, from A1 Beginner Level to C2 Upper-Advanced Level."
       },
       {
         "title": "Best English Course in Izmit",
@@ -14338,47 +12924,28 @@
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions by Students Researching English Courses in Kocaeli Izmit",
-      "subtitle": "We have compiled the most curious questions about the Kocaeli Izmit English Course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our Kocaeli Izmit English Course",
+      "subtitle": "We've compiled the most common questions about our English programs at the Kocaeli Izmit campus.",
       "items": [
         {
-          "q": "How are the English course reviews in Kocaeli?",
-          "a": "While English course reviews in Kocaeli are generally positive, the point where many students struggle the most is finding the language course that offers the most suitable educational curriculum for themselves."
+          "q": "Where is your Kocaeli Izmit campus and how easy is it to reach?",
+          "a": "Our campus is on Ömerağa Mahallesi Alemdar Street, just a 2-minute walk from Izmit's Kent Meydanı (City Square). It's 2 minutes from the Yeniçuma tram stop and 1-2 minutes from the walking path and the Halk Evi, making it easy to reach from anywhere in the city center."
         },
         {
-          "q": "Which books are used in Kocaeli English Courses?",
-          "a": "Making a difference in Turkey for the first time with adult-specific educational content and institution-specific publications, Academic International provides education using its own original resources."
+          "q": "Which foreign languages besides English are taught in Izmit?",
+          "a": "At our Izmit campus we teach not only English but also German, French, Spanish, Russian, Chinese, Korean, Japanese, Dutch, Arabic, and many other languages. Our goal is not just to teach grammar, but to help students speak the language confidently in everyday life."
         },
         {
-          "q": "Which foreign languages are taught in your Izmit language course campus besides English?",
-          "a": "In our Izmit language course, we offer training not only in English, but also in many different languages such as German, French, Spanish, Russian, Chinese, Korean, Japanese, Dutch, Arabic, Turkish, Latin, Portuguese, and Greek. Our goal, beyond teaching grammar, is to impart practical speaking skills so students can use the language in daily life."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "What books and materials are used in the lessons?",
+          "a": "At our Izmit campus we use in-house course books along with up-to-date supplementary materials. Our resources are regularly refreshed with modern vocabulary and current topics, so the English you learn matches the situations you'll actually encounter."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "How are tuition fees and payment options determined?",
+          "a": "Pricing depends on the program you choose (general English, exam preparation, business English, etc.) and its duration. After a free level-placement test and consultation, you'll receive a personalized quote along with installment payment options."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Are there flexible class hours for working adults?",
+          "a": "Yes, our Izmit campus offers flexible scheduling with weekday evening classes and weekend options designed for working adults. This way you can keep learning English without disrupting your work schedule."
         }
       ]
     },
@@ -14468,15 +13035,15 @@
     "seoContent": [
       {
         "title": "Corlu English Course",
-        "desc": "Corlu English Course offers students a guarantee of learning English fast, effectively, and at budget-friendly prices. Ranked among the best in 2024-2025, our Academic Foreign Language Course stands out by offering an education model tailored specifically for adults. Located in Corlu, the favorite district of Tekirdag, this course is an ideal option for anyone looking to effectively improve their English language skills. Academic Foreign Language Courses have become an indispensable language school, especially for students and professionals in Corlu. The international validity of the certificates earned provides students with the opportunity to receive an internationally recognized and prestigious certification. Corlu English Courses lead the way in flexibility; allowing students to receive one-on-one education in their preferred location or benefit from live online classes with Academic International Language Courses in different cities."
+        "desc": "Corlu English Course offers students a guarantee of learning English fast, effectively, and at budget-friendly prices. Ranked among the best in 2024-2025, our course stands out by offering an education model tailored specifically for adults. Located in Corlu, the favorite district of Tekirdag, this course is an ideal option for anyone looking to effectively improve their English language skills. We have become an indispensable language school, especially for students and professionals in Corlu. The international validity of the certificates earned provides students with the opportunity to receive an internationally recognized and prestigious certification. Corlu English Courses lead the way in flexibility; allowing students to receive one-on-one education in their preferred location or benefit from live online classes with our branches in different cities."
       },
       {
         "title": "Corlu Language Course: The Right Address for Quality Education",
-        "desc": "Corlu Language Courses stand out as the right address for a quality educational experience on your language learning journey. Inspired by the city's cultural richness and offering high-standard educational opportunities to its students, Academic International Language Courses attract attention with their expert teaching staff and modern educational approach. Among the quality education opportunities provided by the English Language Course in Corlu are customized training programs tailored to students' individual needs, original lesson materials, and personalized evaluation methods. Corlu Foreign Language Course commits to being by students' side every step of the way to overcome the challenges faced in the language learning process and support them in achieving success."
+        "desc": "Corlu Language Courses stand out as the right address for a quality educational experience on your language learning journey. Inspired by the city's cultural richness and offering high-standard educational opportunities to its students, Avcılar English Language Course attracts attention with their expert teaching staff and modern educational approach. Among the quality education opportunities provided by the English Language Course in Corlu are customized training programs tailored to students' individual needs, original lesson materials, and personalized evaluation methods. Corlu Foreign Language Course commits to being by students' side every step of the way to overcome the challenges faced in the language learning process and support them in achieving success."
       },
       {
         "title": "Corlu English Course Prices",
-        "desc": "Corlu English Course Prices feature various options such as weekly or monthly packages, private lessons, and group classes. Students can receive education through packages selected in line with their needs and goals at Academic International Language Courses, enjoying the opportunity to experience a quality language education at affordable prices. Corlu English language courses prices for 2024-2025 vary depending on course package options, the experience of the teaching staff, additional services provided by the course, and course terms. You can contact our Corlu course center to determine the best price option for you."
+        "desc": "Corlu English Course Prices feature various options such as weekly or monthly packages, private lessons, and group classes. Students can receive education through packages selected in line with their needs and goals at our Corlu branch, enjoying the opportunity to experience a quality language education at affordable prices. Corlu English language courses prices for 2024-2025 vary depending on course package options, the experience of the teaching staff, additional services provided by the course, and course terms. You can contact our Corlu course center to determine the best price option for you."
       },
       {
         "title": "Best English Course in Corlu",
@@ -14488,47 +13055,28 @@
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions About Corlu English Language Course",
-      "subtitle": "You can find the most curious questions about the Corlu English Language Course along with their detailed answers here.",
+      "title": "Frequently Asked Questions About Our Çorlu English Course",
+      "subtitle": "Here are the questions most frequently asked about our English programs at the Çorlu campus.",
       "items": [
         {
-          "q": "What is the price range of English language courses in Corlu?",
-          "a": "The price range of English courses in Corlu generally varies according to the duration, level, and services provided by the course. Therefore, course prices are usually set on an hourly, weekly, or monthly basis, typically ranging between 7,000 ₺ and 35,000 ₺."
+          "q": "Where is your Çorlu campus and how easy is it to reach?",
+          "a": "Our campus is on Muhittin Mahallesi Fikir Aralığı Street, a 5-minute walk from Millet Bahçesi park. It's just 2 minutes from the bus stop, making it easy to reach from anywhere in central Çorlu."
         },
         {
-          "q": "Can I get information about the experience and competence of the instructors?",
-          "a": "Experienced and expert instructors serve at the English courses in Corlu. These instructors specialize in language education and generally hold higher education degrees. Instructors organize interactive lessons using various teaching methods and materials to improve students' language skills. Adopting a student-centered approach, they strive to deliver education suited to students' individual needs and learning styles."
+          "q": "How much do courses cost in Çorlu?",
+          "a": "Pricing varies depending on the course's duration, level, and content, generally ranging from ₺7,000 to ₺35,000. After a free level-placement test, you'll be offered a program that fits your budget along with installment payment options."
         },
         {
-          "q": "Is Attendance Mandatory in English Courses?",
-          "a": "While attendance is not compulsory in all English courses across the Corlu region, some courses implement attendance requirements to encourage regular participation. Academic International Language Courses require students to maintain a specific attendance rate. This aims to help students improve their language skills and actively participate in the learning process. Attendance policies of English courses may vary depending on the course and institution."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "Is attendance mandatory for the English courses?",
+          "a": "We expect a certain participation rate to encourage regular attendance, but we don't enforce a strict attendance policy. Our goal is for students to build their language skills steadily and stay actively engaged in the learning process."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "Are the class hours convenient for working adults?",
+          "a": "Yes, our Çorlu campus offers a flexible schedule with weekday evening classes and weekend options, so you can continue your English education without disrupting your work or school routine."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Can I visit the campus and meet the instructors before starting lessons?",
+          "a": "Yes, you can visit our Çorlu campus for a free level-placement test and a sample lesson, giving you a close look at the classroom environment and teaching style before you commit."
         }
       ]
     },
@@ -14626,55 +13174,44 @@
     "seoContent": [
       {
         "title": "Inegol English Course",
-        "desc": "Standing out in the best school category among Inegol English Courses in 2024-2025, Academic International Foreign Language Course draws attention with its high success-oriented education and affordable prices. It offers you a new language learning experience with an expert teaching staff and age group-specific training models. Inegol English course provides individuals with a language learning experience that enables them to stand out in their social and professional lives. The English Course in Inegol comes to the forefront with age-appropriate educational models and specialized instructors. Operating under Academic International Foreign Language School, Inegol English Courses offer language education through the most well-established and experienced framework. Academic International Foreign Language Courses provide a unique educational model that empowers students to reach advanced levels in core skills: reading, writing, listening, and speaking. In VIP Classrooms with low student capacity, you can receive education in the comfort of your home and improve your language skills alongside native and local instructors. Inegol English Course helps students preparing for exams like IELTS, YDS, YOKDIL, and CAE reach their goals with effective exam strategies and up-to-date lesson contents. With resources from The Academic Publishing and years of experience, Inegol English course offers you an unmatched learning process."
+        "desc": "Standing out in the best school category among Inegol English Courses in 2024-2025, Avcılar English Language Course draws attention with its high success-oriented education and affordable prices. It offers you a new language learning experience with an expert teaching staff and age group-specific training models. Inegol English course provides individuals with a language learning experience that enables them to stand out in their social and professional lives. The English Course in Inegol comes to the forefront with age-appropriate educational models and specialized instructors. Operating under Avcılar English Language Course, Inegol English Courses offer language education through the most well-established and experienced framework. Our foreign language courses provide a unique educational model that empowers students to reach advanced levels in core skills: reading, writing, listening, and speaking. In VIP Classrooms with low student capacity, you can receive education in the comfort of your home and improve your language skills alongside native and local instructors. Inegol English Course helps students preparing for exams like IELTS, YDS, YOKDIL, and CAE reach their goals with effective exam strategies and up-to-date lesson contents. With resources from our own publishing series and years of experience, Inegol English course offers you an unmatched learning process."
       },
       {
         "title": "Inegol Language Course",
-        "desc": "You can seize the opportunity to learn any foreign language you desire and achieve your dreams with Inegol Language Course. Academic International Foreign Language Course Inegol branch stands out among Inegol Language Courses with qualified language programs offering training in 22 different languages. Rising job opportunities and expanding international relations in a globalizing world emphasize the importance of foreign languages. Inegol Foreign Language Course contributes to your career by offering world languages taught by instructors with academic backgrounds and comprehensive curricula. Guiding you for your social life, personal travels, academic pursuits, immigration applications, and more, Inegol Language Course helps you reach your targets."
+        "desc": "You can seize the opportunity to learn any foreign language you desire and achieve your dreams with Inegol Language Course. Avcılar English Language Course's Inegol branch stands out among Inegol Language Courses with qualified language programs offering training in 22 different languages. Rising job opportunities and expanding international relations in a globalizing world emphasize the importance of foreign languages. Inegol Foreign Language Course contributes to your career by offering world languages taught by instructors with academic backgrounds and comprehensive curricula. Guiding you for your social life, personal travels, academic pursuits, immigration applications, and more, Inegol Language Course helps you reach your targets."
       },
       {
         "title": "Inegol English Course Recommendation",
-        "desc": "Frequently mentioned in searches for English course recommendations in Inegol, Academic International Foreign Language Course delivers high-quality education in all world languages, primarily English. Ranked at the top of best English course suggestions in Inegol for many years, our language school stands out with free level placement tests, complimentary Speaking Club membership, VIP Classrooms, and academic-based instructors. It is the perfect time to meet Inegol English course, which offers Live Studio Online language education opportunities for the first time in Turkey and develops training models for all age groups! If you would like to get more information about the recommended Inegol English Language Course, you can reach out to us at any time."
+        "desc": "Frequently mentioned in searches for English course recommendations in Inegol, Avcılar English Language Course delivers high-quality education in all world languages, primarily English. Ranked at the top of best English course suggestions in Inegol for many years, our language school stands out with free level placement tests, complimentary Speaking Club membership, VIP Classrooms, and academic-based instructors. It is the perfect time to meet Inegol English course, which offers Live Studio Online language education opportunities for the first time in Turkey and develops training models for all age groups! If you would like to get more information about the recommended Inegol English Language Course, you can reach out to us at any time."
       },
       {
         "title": "Inegol English Course Prices",
-        "desc": "Prices for English courses in Inegol are supported by various campaigns each term, offering flexible payment options. Academic International Foreign Language School, one of the premier English Courses in Inegol, is the right choice for a valuable investment in your future. Current Inegol English course prices range between 6,750 ₺ and 34,000 ₺, varying according to the language level. You can contact us to learn more about English Language Course fees and early registration advantages in Inegol. You can call our contact line at 0850 305 05 16 to receive detailed information."
+        "desc": "Prices for English courses in Inegol are supported by various campaigns each term, offering flexible payment options. Avcılar English Language Course, one of the premier English Courses in Inegol, is the right choice for a valuable investment in your future. Current Inegol English course prices range between 6,750 ₺ and 34,000 ₺, varying according to the language level. You can contact us to learn more about English Language Course fees and early registration advantages in Inegol. You can call our contact line at 0850 305 05 16 to receive detailed information."
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions About Inegol English Language Course",
-      "subtitle": "We have compiled the most curious questions about the Inegol English Language Course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our İnegöl English Course",
+      "subtitle": "We've compiled the most common questions about our English programs at the İnegöl campus.",
       "items": [
         {
-          "q": "Can I get information about the experience and competence of the instructors?",
-          "a": "Experienced and expert teaching staff serve at the English courses in Inegol. These instructors specialize in language teaching and generally hold advanced academic degrees. Instructors organize interactive lessons using various teaching strategies and materials to enhance students' language skills. Student feedback plays a critical role in learning success; therefore, instructors adopt a student-centered approach aimed at delivering instruction tailored to individual needs and learning styles."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "Where is your İnegöl campus and how easy is it to reach?",
+          "a": "Our campus is on Süleymaniye Mahallesi İstiklal Street, a 5-minute walk from İnegöl AVM shopping center. It's 1 minute from the bus stop, 5 minutes from İnegöl Municipality building, and 5 minutes by car from the Faculty of Business — an easy reach from anywhere in the town center."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "What age groups do you teach?",
+          "a": "At our İnegöl campus we offer separate programs and curricula for every age group, from primary school children to adults. Classes are grouped by age and level, so each student learns at a pace and with content suited to their group."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
+          "q": "Are classes held on weekdays or weekends?",
+          "a": "We offer both weekday evening classes and weekend morning or afternoon sessions. Students can enroll in whichever day and time slot best fits their work or school schedule."
         },
         {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "How experienced are your instructors?",
+          "a": "Our teaching staff in İnegöl consists of experienced instructors with pedagogical training who specialize in language teaching. Our student-centered approach means each learner gets a plan tailored to their individual needs and pace."
+        },
+        {
+          "q": "What certificates can I earn after finishing the course?",
+          "a": "Students who complete a program receive a certificate of participation appropriate to their level. Those who wish can continue into our IELTS or TOEFL preparation programs to work toward an internationally recognized language proficiency certificate."
         }
       ]
     },
@@ -14784,43 +13321,32 @@
       },
       {
         "title": "Erikli English Language Course Prices",
-        "desc": "Prices for English language courses in Yildirim Erikli generally range between 6,500 ₺ and 33,000 ₺. The reasons for this price range include factors such as course duration, instructor quality, lesson materials, and extra services provided by the course. In particular, Academic International Foreign Language Course offers both affordable and high-quality education in Erikli. Our course provides international-standard language learning opportunities with customized training programs tailored to students' individual needs and goals. This way, those who wish to learn English in Erikli can improve their language skills through affordable and effective training."
+        "desc": "Prices for English language courses in Yildirim Erikli generally range between 6,500 ₺ and 33,000 ₺. The reasons for this price range include factors such as course duration, instructor quality, lesson materials, and extra services provided by the course. In particular, Avcılar English Language Course offers both affordable and high-quality education in Erikli. Our course provides international-standard language learning opportunities with customized training programs tailored to students' individual needs and goals. This way, those who wish to learn English in Erikli can improve their language skills through affordable and effective training."
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions About Yildirim Erikli English Language Course",
-      "subtitle": "We have compiled the most curious questions about the Yildirim Erikli English language course along with their detailed answers for you.",
+      "title": "Frequently Asked Questions About Our Bursa Yıldırım Erikli English Course",
+      "subtitle": "We answered the questions most frequently asked about our English programs at the Yıldırım Erikli campus.",
       "items": [
         {
-          "q": "Can I get information about the experience and expertise level of the instructors?",
-          "a": "Experienced and expert teachers serve at the English courses in Yildirim. These teachers specialize in language instruction and generally hold advanced education degrees. Teachers organize interactive lessons using various teaching strategies and materials to improve students' language skills. Student feedback plays an important role in teachers' success; for this reason, teachers adopt a student-centered approach aimed at providing an education suited to students' individual needs and learning styles."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "Where is your Yıldırım Erikli campus and how easy is it to reach?",
+          "a": "Our campus is located on Erikli Mahallesi Ankara Yolu Street, right next to the Şaypa Shopping Center. It's within walking distance of the Erikli pedestrian overpass, only 3 minutes from Esenler Metro station, and easily reachable by the bus lines running toward Bursa Çevik Kuvvet Amirliği."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "Who makes up your teaching staff in Yıldırım Erikli?",
+          "a": "Our campus staff is a mixed team of Turkish instructors with pedagogical training and at least 5 years of experience, alongside native English-speaking teachers. In speaking classes you practice one-on-one with native instructors to improve your pronunciation and fluency."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
+          "q": "How is the course schedule and duration structured?",
+          "a": "Our programs run in 3-month terms, with flexible scheduling options including weekday evenings (18:00-21:00) and weekend morning or afternoon slots. Whether you're working or studying, you can pick the time slot that fits your routine."
         },
         {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Can I take a free trial lesson before enrolling?",
+          "a": "Yes, you can visit our Yıldırım Erikli campus for a free level-placement test and a sample lesson. This lets you experience the classroom environment and teaching style, and find the right program for you before you commit."
+        },
+        {
+          "q": "Do I receive a certificate after completing the course?",
+          "a": "Students who successfully complete a program receive a certificate of participation based on their level and attendance. If you'd like, you can continue on to our IELTS or TOEFL preparation programs to earn an internationally recognized language proficiency certificate."
         }
       ]
     },
@@ -14922,47 +13448,28 @@
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions About Education in America",
-      "subtitle": "We have compiled answers for you to the most curious questions about our American campus and study abroad programs.",
+      "title": "Frequently Asked Questions About Studying in America",
+      "subtitle": "We've compiled answers to the most common questions about our American campus and study abroad programs.",
       "items": [
         {
           "q": "What Should My English Level Be to Study in America?",
-          "a": "To study in America, a B2-C1 level of English is generally required. As Academic International, you can both complete your English preparation process at our branches in Turkey and start American programs after reaching an appropriate level."
+          "a": "To study in America, a B2-C1 level of English is generally required. You can complete your English preparation at our campuses in Turkey and start American programs once you reach the appropriate level."
         },
         {
           "q": "How Can I Apply to Your School in New York?",
-          "a": "To apply to our private international high school in New York, simply call our line at 0850 305 05 16 or fill out the form on our website to speak with our consultants. We will plan the most suitable program and application process for you together."
+          "a": "To apply to our private international high school in New York, simply call our line at 0850 305 05 16 or fill out the form on our website to speak with our consultants. We'll plan the most suitable program and application process together with you."
         },
         {
           "q": "What Is the Cost of the American Education Program?",
-          "a": "The cost of studying in America varies depending on the selected program, school type, and duration of study. Our Academic International consultants will determine the program that best fits your budget and goals, providing detailed information about payment plan options."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "a": "The cost of studying in America varies depending on the selected program, school type, and duration of study. Our consultants will help determine the program that best fits your budget and goals, with detailed information on payment plan options."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "How long does it take from application to starting my education in America?",
+          "a": "The process includes an English level assessment, school selection, preparing application documents, and visa procedures. Depending on your current level and chosen program, this typically takes between 3 months and 1 year — our consultants guide you through every stage."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "How does the preparation process in Turkey help with my education in America?",
+          "a": "The English preparation program you complete at our campuses in Turkey makes it easier to adapt to the school curriculum and academic environment in America. This means once you move abroad, you can settle into your classes and social life quickly, without a language barrier."
         }
       ]
     },
@@ -15036,7 +13543,7 @@
     "seoContent": [
       {
         "title": "Kutahya English Course",
-        "desc": "Known as Kutahya English Course, Academic International Foreign Language Course is the best option with its own unique resources and a privileged educational curriculum that brings its students to their target level. Aiming to be at the top of the best English course rankings in Kutahya and offering a language learning guarantee, this course directly contributes to shaping your career and future.",
+        "desc": "Known as Kutahya English Course, Avcılar English Language Course is the best option with its own unique resources and a privileged educational curriculum that brings its students to their target level. Aiming to be at the top of the best English course rankings in Kutahya and offering a language learning guarantee, this course directly contributes to shaping your career and future.",
         "bullets": [
           "With a speaking-oriented teaching system, you do not just learn English, but actively start using it.",
           "Your learning process accelerates with Academic International's unique publications and up-to-date materials.",
@@ -15047,47 +13554,28 @@
       }
     ],
     "faq": {
-      "title": "Most Frequently Asked Questions About Kutahya English Course",
-      "subtitle": "We have compiled answers for you to the most curious questions about Kutahya English language course.",
+      "title": "Frequently Asked Questions About Our Kütahya English Course",
+      "subtitle": "We've compiled answers to the most common questions about our English programs at the Kütahya campus.",
       "items": [
         {
-          "q": "Which programs are offered at Kutahya English Course?",
-          "a": "At our Kutahya branch, General English (PREP, Academic, Academic Plus), Exam Preparation (IELTS, TOEFL, YDS, YÖKDİL), Business English, and Private Lessons programs are offered. The most suitable program for you is determined through a free placement exam."
+          "q": "Which programs are offered at the Kütahya English Course?",
+          "a": "At our Kütahya branch we offer General English (Prep, Advanced, Advanced Plus), Exam Preparation (IELTS, TOEFL, YDS, YÖKDİL), Business English, and Private Lessons. The most suitable program for you is determined through a free placement test."
         },
         {
-          "q": "Are the instructors Native Speakers?",
-          "a": "Our teaching staff consists of expert Turkish instructors with pedagogical formation in their field and Native English-speaking teachers. You improve your pronunciation and fluency by practicing with foreign instructors, especially in speaking classes."
+          "q": "How is your curriculum different from other courses?",
+          "a": "The curriculum we use at our Kütahya campus focuses on speaking practice and real-life scenarios rather than traditional rote-memorization methods. Course content is regularly updated with current topics and modern vocabulary."
         },
         {
-          "q": "How are Kutahya English Course prices determined?",
-          "a": "Pricing at our Kutahya branch varies depending on the selected program type and duration of education. Customized prices and payment options are offered to you after a free placement exam and consultation meeting."
-        }
-      ]
-    },
-    "publications": {
-      "title": "Up-to-Date Resources with Our Publishing Series Difference",
-      "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
-      "features": [
-        "London-Based Publications",
-        "Current and Trending Topics",
-        "Modern Vocabulary Structures"
-      ],
-      "books": [
-        {
-          "name": "The Academic English B1-B2",
-          "type": "General and Intermediate English"
+          "q": "Are the instructors native speakers?",
+          "a": "Our teaching staff consists of expert Turkish instructors with pedagogical training and native English-speaking teachers. You improve your pronunciation and fluency by practicing with native instructors, especially in speaking classes."
         },
         {
-          "name": "Exam Strategies (IELTS, TOEFL)",
-          "type": "Exam Techniques and Strategy"
+          "q": "How are Kütahya English Course prices determined?",
+          "a": "Pricing at our Kütahya branch varies depending on the program type and duration you choose. You'll receive a personalized price and payment options after a free placement test and consultation."
         },
         {
-          "name": "Interactive Speaking",
-          "type": "Speaking and Active Communication"
-        },
-        {
-          "name": "Modern Vocabulary",
-          "type": "Modern Vocabulary Repository"
+          "q": "Can I visit the campus and take a trial lesson before enrolling?",
+          "a": "Of course — visit our Kütahya campus for a free level-placement test and get to know the classroom environment and our teaching staff up close. This lets you evaluate the program that's right for you before you commit."
         }
       ]
     },
@@ -15159,7 +13647,7 @@
       "title": "History",
       "paragraphs": [
         "Academic International Language Course, which has shaped foreign language education for nearly half a century by creating a sustainable language education system that replaces standardized curricula and brings a new Industry 4.0 perspective to language learning, continues to lead the field in English and other foreign languages.",
-        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge of The Academic Publishing, founded in London in 2010, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
+        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
         "Since its founding, Academic International has redefined quality standards in foreign language education; with its strong team of academics from Turkey's leading universities and expert native-speaking instructors, it offers students world-class language education.",
         "Today, Academic International operates in more than 12 cities across Turkey, serving thousands of students in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities; it also supports students' international education opportunities, especially in America.",
         "As the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education, Academic International continues to be the benchmark of the industry with a 97% student satisfaction rate."
@@ -15204,123 +13692,6 @@
         {
           "q": "What does the ISO 9001:2015 certificate mean?",
           "a": "ISO 9001:2015 is an internationally recognized Quality Management System standard. Academic International is the first institution in Turkey to receive this certificate in the field of foreign language education."
-        }
-      ]
-    }
-  },
-  "yayinlarimizPage": {
-    "meta": {
-      "title": "Our Publications",
-      "description": "Language education books and exam preparation materials by The Academic Publishing, founded in London in 2017, designed exclusively for adult learners."
-    },
-    "hero": {
-      "tag": "THE ACADEMIC PUBLISHING",
-      "title": "Our Publications",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Information Now!",
-      "whatsappBtn": "WhatsApp Info",
-      "formRibbon": "Information Form",
-      "formTitle": "FREE TRIAL LESSON!",
-      "formSubtitle": "English Education with Speaking Guarantee!",
-      "namePlaceholder": "Enter Your Full Name.",
-      "phonePlaceholder": "Enter Your Phone Number.",
-      "branchPlaceholder": "Select Branch.",
-      "submitBtn": "GET INFORMATION NOW!",
-      "formDisclaimer": "By filling out this form, I accept the Legal Notice / Terms of Use."
-    },
-    "intro": {
-      "title": "Our Publications",
-      "paragraphs": [
-        "Academic International is the first language school to add a new dimension to Turkey's Foreign Language National Education System by creating educational content exclusively designed for adults. Our institution has provided language education to thousands of university students, academics, journalists, bureaucrats, senior executives, and public and private sector employees in line with their fields of expertise and individual goals.",
-        "With the aim of adding a new dimension to academic language education and providing added value, Academic Foreign Language Course established The Academic Publishing in 2017, headquartered in London. Our publications, prepared through the collective work of our language commission consisting of academic instructors from Turkey's leading universities and native-speaking teachers, will greatly contribute to your fresh perspective on language learning and help you reach your desired level in a shorter time.",
-        "Our resources, prepared with an understanding that continuously tracks changing exam strategies and usage shifts in the target language, and is constantly renewed and updated, will make a significant difference in both your language learning and exam preparation processes — enabling you to learn more effectively in less time.",
-        "Language learning resources adapted to Turkish learners' competencies in foreign languages have been prepared separately for every level — focusing not only on grammar but also on developing speaking, writing, listening, and reading skills in parallel.",
-        "The Academic Foreign Language Commission, leveraging years of academic and business exam training experience, has completed publication work targeting internationally recognized exams including YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency.",
-        "In parallel with rapidly evolving exam strategies, we take great pride in standing by you with resources that are free of unnecessary information and goal-oriented — helping you reach your career and academic objectives quickly with Academic International."
-      ]
-    },
-    "publications": {
-      "title": "Publications Designed Exclusively for Adults",
-      "subtitle": "Free for Enrolled Students",
-      "features": [
-        "Rich Interior Design",
-        "Adult-Oriented Content",
-        "Innovative Approach"
-      ],
-      "books": [
-        {
-          "name": "PREP GRAMMAR",
-          "type": "Grammar Tips & Rules, Exercises"
-        },
-        {
-          "name": "PREP READING",
-          "type": "Vocabulary, Word Formation, Listening"
-        },
-        {
-          "name": "PREP WORKBOOK",
-          "type": "Reading, Grammar, Exercises"
-        },
-        {
-          "name": "ACADEMIC GRAMMAR",
-          "type": "Advanced Grammar Rules, Academic Writing"
-        },
-        {
-          "name": "ACADEMIC READING",
-          "type": "Reading Comprehension, Critical Thinking"
-        },
-        {
-          "name": "ACADEMIC WORKBOOK",
-          "type": "Integrated Skills, Exam Practice"
-        },
-        {
-          "name": "YDS / YÖKDİL PREP",
-          "type": "Exam Strategies, Sample Questions"
-        },
-        {
-          "name": "IELTS / TOEFL PREP",
-          "type": "Band Score Strategies, Full Mock Tests"
-        }
-      ]
-    },
-    "whyUs": {
-      "title": "Why The Academic Publishing?",
-      "subtitle": "The unique advantages our publishing house within Academic International offers to our students",
-      "advantages": [
-        {
-          "title": "London-Based Publisher",
-          "desc": "The Academic Publishing, established in 2017, produces publications at international standards with its headquarters in London.",
-          "icon": "Globe"
-        },
-        {
-          "title": "Academic Staff",
-          "desc": "Materials are prepared by a commission of academic instructors from Turkey's leading universities and native speaker teachers.",
-          "icon": "GraduationCap"
-        },
-        {
-          "title": "Level-Specific Content",
-          "desc": "Materials designed separately for every language level from A1 to C2, balancing speaking, writing, reading, and listening skills.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Exam-Focused Content",
-          "desc": "Goal-oriented resources free of unnecessary information for YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency exams.",
-          "icon": "Award"
-        }
-      ]
-    },
-    "faq": {
-      "items": [
-        {
-          "q": "Are your publications available only for course students?",
-          "a": "Our publications are primarily provided free of charge to Academic International students. Please contact us for information about purchasing channels outside the course."
-        },
-        {
-          "q": "Which language levels are the books designed for?",
-          "a": "Separate materials are available for all language levels from beginner (A1) to advanced (C1-C2). The appropriate set is determined based on your placement test results."
-        },
-        {
-          "q": "Are The Academic Publishing books sufficient for exam preparation?",
-          "a": "Our publications, offering comprehensive content for YDS, YÖKDİL, IELTS, TOEFL, TOEIC, and Proficiency exams, are regularly updated in parallel with current exam strategies."
         }
       ]
     }
@@ -15633,7 +14004,7 @@
         },
         {
           "q": "What Teaching System Do You Use in English Courses?",
-          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using original resources from The Academic Publishing, current and relevant topics are addressed to maximise your language proficiency."
+          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using our own original resources, current and relevant topics are addressed to maximise your language proficiency."
         }
       ]
     },
@@ -15978,35 +14349,8 @@
         },
         {
           "title": "Proprietary Study Materials",
-          "desc": "Up-to-date, exam-specific materials from our in-house publisher, The Academic Publishing.",
+          "desc": "Up-to-date, exam-specific materials from our own in-house publisher.",
           "icon": "MessageCircle"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Study Materials We Use for Exam Preparation",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Up-to-date Exam-Specific Strategies",
-        "Full Coverage of All Question Types",
-        "Proprietary Course Materials"
-      ],
-      "books": [
-        {
-          "name": "IELTS & TOEFL Strategy Guide",
-          "type": "International Exam Strategies"
-        },
-        {
-          "name": "YDS / YÖKDİL Preparation",
-          "type": "National Exam Programme"
-        },
-        {
-          "name": "GMAT / GRE Verbal Reasoning",
-          "type": "Analytical Reasoning"
-        },
-        {
-          "name": "Academic Mock Exams",
-          "type": "Real-Format Practice Set"
         }
       ]
     },
@@ -16112,7 +14456,7 @@
         {
           "id": "material",
           "title": "Up-to-Date Materials",
-          "desc": "Language-specific original resources from our publishing house, The Academic Publishing."
+          "desc": "Language-specific original resources from our own publishing house."
         }
       ],
       "description": "Experience fast and lasting learning in your target language with Akademik International's expert teaching staff and proven methodology.",
@@ -16275,35 +14619,8 @@
         },
         {
           "title": "Custom Materials",
-          "desc": "Up-to-date materials language-specifically prepared by our publishing house, The Academic Publishing.",
+          "desc": "Up-to-date materials language-specifically prepared by our own publishing house.",
           "icon": "Laptop"
-        }
-      ]
-    },
-    "publications": {
-      "title": "Resources Used in Language Training",
-      "subtitle": "Our Publishing Series Difference",
-      "features": [
-        "Language-Specific Up-to-Date Content",
-        "Cultural Context and Real-Life Dialogues",
-        "Original Institution-Owned Materials"
-      ],
-      "books": [
-        {
-          "name": "German Starter Set",
-          "type": "A1-A2 Basic German"
-        },
-        {
-          "name": "French Communication Programme",
-          "type": "B1-B2 Practical French"
-        },
-        {
-          "name": "Asian Languages Guide",
-          "type": "Japanese / Korean / Chinese"
-        },
-        {
-          "name": "Culture & Language Books",
-          "type": "Cultural Content for Every Language"
         }
       ]
     },

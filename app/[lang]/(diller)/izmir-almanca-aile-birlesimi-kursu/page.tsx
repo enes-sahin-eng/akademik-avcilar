@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -162,7 +161,6 @@ export default async function IzmirAileBirlesimiKursuPage({
       <CourseHeroSlider courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <WhyUsSection courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="izmirAileBirlesimiLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="izmirAileBirlesimiLandingPage" lang={lang} />

@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -141,7 +140,6 @@ export default async function TurkceDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="turkceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="turkceLandingPage" lang={lang} />
       <WhyUsSection courseKey="turkceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="turkceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="turkceLandingPage" lang={lang} />

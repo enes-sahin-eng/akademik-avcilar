@@ -7,7 +7,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
@@ -95,7 +94,6 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="genelIngilizceLandingPage" lang={lang} />
       <CourseInfoSection courseKey="genelIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="genelIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="genelIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="genelIngilizceLandingPage" lang={lang} />

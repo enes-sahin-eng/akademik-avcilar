@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -167,7 +166,6 @@ export default async function TestDafHazirlikKursuPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="testdafLandingPage" lang={lang} />
       <CourseInfoSection courseKey="testdafLandingPage" lang={lang} />
       <WhyUsSection courseKey="testdafLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="testdafLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="testdafLandingPage" lang={lang} />

@@ -15,7 +15,6 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 
@@ -168,7 +167,6 @@ export default async function EtepSinaviNedirPage({ params }: PageProps) {
       <CourseInfoSection courseKey="etepLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="etepLandingPage" lang={lang} />
       <WhyUsSection courseKey="etepLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="etepLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="etepLandingPage" lang={lang} />

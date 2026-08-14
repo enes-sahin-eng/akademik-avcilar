@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -114,10 +113,10 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
             "@type": "Course",
             name: "Kadıköy Almanca Kursu",
             description:
-              "Yetişkinlere özel olarak hazırlanmış müfredatı, The Academic Publishing kaynakları ve native speaker eğitmenleriyle Kadıköy'de amaca yönelik Almanca eğitim programı.",
+              "Yetişkinlere özel olarak hazırlanmış müfredatı ve native speaker eğitmenleriyle Kadıköy'de amaca yönelik Almanca eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilarakademik.com.tr",
             },
             hasCourseInstance: {
@@ -125,7 +124,7 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kadıköy",
+                name: "Avcılar İngilizce Dil Kursu Kadıköy",
                 address: "Kadıköy, İstanbul",
               },
             },
@@ -158,7 +157,6 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
 
       <CourseHeroSlider courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <CourseInfoSection courseKey="kadikoyAlmancaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey="kadikoyAlmancaLandingPage" lang={lang} />
       <EducationModels courseKey="kadikoyAlmancaLandingPage" lang={lang} />

@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -160,7 +159,6 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
       <CourseHeroSlider courseKey="aileBirlesimiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="aileBirlesimiLandingPage" lang={lang} />
       <WhyUsSection courseKey="aileBirlesimiLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="aileBirlesimiLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="aileBirlesimiLandingPage" lang={lang} />

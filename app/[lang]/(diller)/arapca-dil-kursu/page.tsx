@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -142,7 +141,6 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
       <CourseInfoSection courseKey="arapcaLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="arapcaLandingPage" lang={lang} />
       <WhyUsSection courseKey="arapcaLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="arapcaLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="arapcaLandingPage" lang={lang} />

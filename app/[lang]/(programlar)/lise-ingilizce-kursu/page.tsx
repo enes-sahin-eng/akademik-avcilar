@@ -3,7 +3,6 @@ import { getDictionary, locales, type Locale } from "../../../dictionaries/getDi
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -151,7 +150,6 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
       <CourseInfoSection courseKey="liseIngilizceLandingPage" lang={lang} />
       <GradeLevelTabs courseKey="liseIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="liseIngilizceLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="liseIngilizceLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="liseIngilizceLandingPage" lang={lang} />

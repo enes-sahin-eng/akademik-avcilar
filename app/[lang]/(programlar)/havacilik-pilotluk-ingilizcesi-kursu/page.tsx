@@ -7,7 +7,6 @@ import {
 import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CourseInfoSection } from "../../../components/course/CourseInfoSection";
-import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { EducationModels } from "../../../components/course/EducationModels";
 import { CourseFAQ } from "../../../components/course/CourseFAQ";
@@ -163,7 +162,6 @@ export default async function HavacilikIngilizcesiKursuPage({
       <CourseHeroSlider courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
       <CourseInfoSection courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
       <WhyUsSection courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
-      <PublicationsShowcase courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <PlacementTestBanner lang={lang} />
       <EducationModels courseKey="havacilikIngilizcesiLandingPage" lang={lang} />
