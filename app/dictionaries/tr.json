@@ -73,16 +73,16 @@
         "items": [
           "Prep (Hazırlık)",
           "Prep Plus (Hazırlık Plus)",
-          "Akademik Express"
+          "İleri Seviye Express"
         ]
       },
       {
-        "title": "AKADEMİK İNGİLİZCE KURSU",
+        "title": "İLERİ SEVİYE İNGİLİZCE KURSU",
         "subtitle": "İleri Düzey İngilizce İsteyenler İçin",
         "items": [
-          "Akademik",
-          "Akademik Plus (Hazırlık Plus)",
-          "Akademik Express"
+          "İleri Seviye",
+          "İleri Seviye Plus (Hazırlık Plus)",
+          "İleri Seviye Express"
         ]
       }
     ],

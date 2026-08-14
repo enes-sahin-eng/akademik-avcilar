@@ -399,8 +399,8 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
             <Link href={`/${currentLocale}`} className={styles.logo}>
               <Image
                 src="/brand/logo2.png"
-                alt="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
-                title="AKADEMİK INTERNATIONAL LANGUAGE SCHOOL"
+                alt="AVCILAR İNGİLİZCE DİL KURSU"
+                title="AVCILAR İNGİLİZCE DİL KURSU"
                 width={200}
                 height={40}
                 className={styles.mainLogo}

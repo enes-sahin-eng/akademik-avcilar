@@ -60,16 +60,16 @@
         "items": [
           "التحضيري (Prep)",
           "التحضيري بلس (Prep Plus)",
-          "أكاديميك إكسبريس (Academic Express)"
+          "متقدم إكسبريس (Advanced Express)"
         ]
       },
       {
-        "title": "دورة اللغة الإنجليزية الأكاديمية",
+        "title": "دورة اللغة الإنجليزية المتقدمة",
         "subtitle": "للمتعلمين المتقدمين",
         "items": [
-          "أكاديمي (Academic)",
-          "أكاديمي بلس (Academic Plus)",
-          "أكاديميك إكسبريس (Academic Express)"
+          "متقدم (Advanced)",
+          "متقدم بلس (Advanced Plus)",
+          "متقدم إكسبريس (Advanced Express)"
         ]
       }
     ],
