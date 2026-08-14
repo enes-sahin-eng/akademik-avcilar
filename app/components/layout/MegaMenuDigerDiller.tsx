@@ -79,7 +79,7 @@ export const MegaMenuDigerDiller: React.FC<{ data: any }> = ({ data }) => {
         <div className={styles.newsCard}>
           <div className={styles.newsDateBadge}>{megaMenu.news.date}</div>
           <Image
-            src="/sliders/slider2.webp"
+            src="/sliders/gemini2.webp"
             alt={`${megaMenu.news.title} - Akademik International Diğer Diller Kursları`}
             title={megaMenu.news.title}
             className={styles.newsImage}

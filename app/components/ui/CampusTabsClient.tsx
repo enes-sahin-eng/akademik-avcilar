@@ -100,7 +100,7 @@ export const CampusTabsClient = ({
             >
               <div className={styles.imageContainer}>
                 <Image
-                  src={campus.image || "/brand/logo.png"}
+                  src={campus.image || "/brand/logo2.png"}
                   alt={`${campus.name} Şubesi - Akademik International Dil Kursu`}
                   title={`${campus.name} Yabancı Dil Eğitim Merkezi`}
                   fill

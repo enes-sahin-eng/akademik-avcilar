@@ -75,7 +75,7 @@ export default async function SubelerPage({ params }: PageProps) {
       name: `Akademik International - ${c.label || c.name}`,
       telephone: c.phone,
       url: `https://www.avcilarakademik.com.tr/${lang}${c.href}`,
-      image: `https://www.avcilarakademik.com.tr${c.image || "/brand/logo.png"}`,
+      image: `https://www.avcilarakademik.com.tr${c.image || "/brand/logo2.png"}`,
       address: {
         "@type": "PostalAddress",
         addressCountry: "TR",
@@ -210,7 +210,7 @@ function CampusCard({
     <div className={styles.card}>
       <div className={styles.cardImageWrap}>
         <Image
-          src={campus.image || "/brand/logo.png"}
+          src={campus.image || "/brand/logo2.png"}
           alt={`${campus.label || campus.name} Şubesi - Akademik International Dil Kursu`}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"

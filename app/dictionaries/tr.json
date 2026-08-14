@@ -852,39 +852,27 @@
     "slides": [
       {
         "id": 1,
-        "image": "/sliders/slider1.webp",
-        "alt": "Avcılar Yabancı Dil Kursu - Akademik International Eğitimleri",
-        "title": "Avcılar Tüm Dillerde Yabancı Dil Kursu"
+        "image": "/sliders/gemini1.webp",
+        "alt": "Akademik International Yabancı Dil Okulları Avcılar Şubesi",
+        "title": "Akademik International İle Dil Eğitimi"
       },
       {
         "id": 2,
-        "image": "/sliders/slider2.webp",
-        "alt": "Avcılar İngilizce, Almanca, İspanyolca Dil Okulu - Çocuklar ve Yetişkinler İçin",
-        "title": "Avcılar'da Her Yaş İçin Eğlenceli Yabancı Dil Dersleri"
+        "image": "/sliders/gemini2.webp",
+        "alt": "Uzman Eğitmenlerle İngilizce, Almanca ve Tüm Dünya Dilleri Kursu",
+        "title": "Avcılar'da Uzman Eğitmenlerle Dil Okulu"
       },
       {
         "id": 3,
-        "image": "/sliders/slider3.webp",
-        "alt": "Avcılar IELTS, TOEFL, Goethe Hazırlık Kursları - Akademik International",
-        "title": "Garantili Uluslararası Sınavlara Hazırlık ve Dil Eğitimi"
+        "image": "/sliders/gemini3.webp",
+        "alt": "IELTS, TOEFL ve YDS Hazırlık Kurslarında Türkiye'nin En İyi Eğitim Merkezi",
+        "title": "Uluslararası Sınavlara Garantili Hazırlık"
       },
       {
         "id": 4,
-        "image": "/sliders/slider4.webp",
-        "alt": "Avcılar'da Dünya Dilleri Kursu - Yurt Dışı Eğitim ve Kariyer Fırsatları",
-        "title": "Avcılar'da Fransızca, Rusça, Arapça ve Daha Fazlası"
-      },
-      {
-        "id": 5,
-        "image": "/sliders/slider5.webp",
-        "alt": "Avcılar'ın En İyi Yabancı Dil Okulu - Akademik International Modern Kampüsü",
-        "title": "Tüm Dillerde Kaliteli Eğitimle Avcılar'da Yabancı Dil Öğrenin"
-      },
-      {
-        "id": 6,
-        "image": "/sliders/slider6.webp",
-        "alt": "Türkiye'nin En İyi Yabancı Dil Kursu Eğitim Merkezi - Avcılar Akademik International",
-        "title": "Uzman Eğitmenlerle Uluslararası Standartlarda Dil Eğitimi"
+        "image": "/sliders/gemini4.webp",
+        "alt": "Çocuklar ve Yetişkinler İçin Modern Sınıflarda Eğlenceli Yabancı Dil Eğitimi",
+        "title": "Her Yaş İçin Modern Dil Eğitimi"
       }
     ]
   },

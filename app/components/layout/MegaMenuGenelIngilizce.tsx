@@ -186,7 +186,7 @@ export const MegaMenuGenelIngilizce: React.FC<{ data: any }> = ({ data }) => {
         <div className={styles.promoTitle}>{megaMenu.promo.title}</div>
         <div className={styles.promoImageWrapper}>
           <Image
-            src="/sliders/slider1.webp"
+            src="/sliders/gemini1.webp"
             alt="The Academic Publishing - Akademik International İngilizce Kurs Kitapları ve Yeni Sezon Yayınları"
             title="Akademik International Yayınları - Yeni Sezon Kitapları"
             className={styles.promoImage}
