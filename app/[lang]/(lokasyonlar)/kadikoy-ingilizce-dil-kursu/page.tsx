@@ -8,7 +8,6 @@ import { Navbar } from "../../../components/layout/Navbar";
 import { CourseHeroSlider } from "../../../components/course/CourseHeroSlider";
 import { CampusLocation } from "../../../components/campus/CampusLocation";
 import { CampusTabs } from "../../../components/ui/CampusTabs";
-import { UpcomingProgramsTable } from "../../../components/home/UpcomingProgramsTable";
 import { PublicationsShowcase } from "../../../components/course/PublicationsShowcase";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
@@ -173,10 +172,6 @@ export default async function KadikoyIngilizceDilKursuPage({
       <CourseFAQ courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="kadikoyIngilizceLandingPage" lang={lang} />
 
-      <UpcomingProgramsTable
-        lang={lang}
-        dictKey="kadikoyIngilizceLandingPage"
-      />
       <PublicationsShowcase
         courseKey="kadikoyIngilizceLandingPage"
         lang={lang}

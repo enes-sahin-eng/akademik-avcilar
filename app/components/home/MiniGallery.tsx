@@ -12,50 +12,50 @@ const images = [
     src: "/course_photos/kursumuzdan-kareler-1.webp",
     width: 500,
     height: 666,
-    alt: "Akademik International Avcılar giriş kapısı - Dünya Dillerini Öğretiyoruz",
-    title: "Akademik International Avcılar Şubesi Giriş",
+    alt: "Avcılar İngilizce Dil Kursu Avcılar giriş kapısı - Dünya Dillerini Öğretiyoruz",
+    title: "Avcılar İngilizce Dil Kursu Avcılar Şubesi Giriş",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-2.webp",
     width: 1000,
     height: 750,
     alt: "Oxford Üniversitesi temalı İngilizce dil sınıfı",
-    title: "Akademik International Avcılar - İngilizce Dil Sınıfı",
+    title: "Avcılar İngilizce Dil Kursu - İngilizce Dil Sınıfı",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-3.webp",
     width: 1000,
     height: 750,
-    alt: "Akademik International Language Schools 1984 resepsiyon alanı",
-    title: "Akademik International - Kurumsal Marka Duvarı",
+    alt: "Avcılar İngilizce Dil Kursu 1984 resepsiyon alanı",
+    title: "Avcılar İngilizce Dil Kursu - Kurumsal Marka Duvarı",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-4.webp",
     width: 1000,
     height: 750,
     alt: "Kırmızı koltuklu konferans ve seminer salonu",
-    title: "Akademik International Avcılar - Konferans Salonu",
+    title: "Avcılar İngilizce Dil Kursu - Konferans Salonu",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-5.webp",
     width: 750,
     height: 1000,
     alt: "Şehir manzaralı İngilizce dil sınıfı",
-    title: "Akademik International Avcılar - Manzaralı Sınıf",
+    title: "Avcılar İngilizce Dil Kursu - Manzaralı Sınıf",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-6.webp",
     width: 750,
     height: 1000,
-    alt: "The Academic Publishing yayın koleksiyonu sergi duvarı",
-    title: "Akademik International - The Academic Publishing Kitap Sergisi",
+    alt: "Yayın koleksiyonu sergi duvarı",
+    title: "Avcılar İngilizce Dil Kursu - Yayın Koleksiyonu Sergisi",
   },
   {
     src: "/course_photos/kursumuzdan-kareler-7.webp",
     width: 1000,
     height: 562,
-    alt: "Akademik International Language Schools 1984 ana lobi girişi",
-    title: "Akademik International Avcılar - Ana Lobi",
+    alt: "Avcılar İngilizce Dil Kursu 1984 ana lobi girişi",
+    title: "Avcılar İngilizce Dil Kursu Avcılar - Ana Lobi",
   },
 ];
 
@@ -68,8 +68,6 @@ export const MiniGallery = async ({ lang = "tr" }: Props) => {
   const t = (dict as any)?.miniGallery || {
     title: "Kursumuzdan Kareler",
     subtitle: "Kampüsümüzden ve etkinliklerimizden öne çıkan anlar",
-    imgAlt: "Avcılar Akademik International Etkinlik ve Kampüs Görseli",
-    imgTitle: "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
   };
 
   const galleryItems: GalleryItem[] = images.map((img) => ({

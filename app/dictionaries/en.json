@@ -74,16 +74,16 @@
         "items": [
           "Prep",
           "Prep Plus",
-          "Academic Express"
+          "Advanced Express"
         ]
       },
       {
-        "title": "ACADEMIC ENGLISH COURSE",
+        "title": "ADVANCED ENGLISH COURSE",
         "subtitle": "For Advanced Learners",
         "items": [
-          "Academic",
-          "Academic Plus",
-          "Academic Express"
+          "Advanced",
+          "Advanced Plus",
+          "Advanced Express"
         ]
       }
     ],
@@ -569,7 +569,7 @@
       ],
       "button": "CAMPUS APPLICATION",
       "viewBranchText": "View Branch",
-      "desc": "With our Akademik International Foreign Language Course branches located in Istanbul, Ankara, Bursa, and Kocaeli, we bring language education at international standards to your doorstep."
+      "desc": "With our Avcılar English Language Course branches located in Istanbul, Ankara, Bursa, and Kocaeli, we bring language education at international standards to your doorstep."
     },
     "corporate": {
       "title1": "COMMERCIAL TITLE:",
@@ -751,7 +751,7 @@
           "quotaFilled": 0
         },
         {
-          "code": "ACADEMIC EXPRESS 2026 WINTER SESSION (B2)",
+          "code": "ADVANCED EXPRESS 2026 WINTER SESSION (B2)",
           "link": "/academic-express-ingilizce-kursu",
           "start": "2026-09-25",
           "end": "2026-12-20",
@@ -760,7 +760,7 @@
           "quotaFilled": 5
         },
         {
-          "code": "AKADEMIK KIDS SCHOOL SESSION (CHILDREN GROUP)",
+          "code": "ADVANCED KIDS SCHOOL SESSION (CHILDREN GROUP)",
           "link": "/ilkogretim-ingilizce-kursu",
           "start": "2026-10-10",
           "end": "2027-02-15",
@@ -820,15 +820,34 @@
       "tum": "ALL PROGRAMS",
       "nitelikli": "QUALIFIED LANGUAGE COURSES",
       "sinav": "ACADEMIC EXAM COURSES"
-    }
+    },
+    "cards": [
+      { "id": 1, "category": "nitelikli", "title": "Prep Basic\nEnglish Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 2, "category": "nitelikli", "title": "Prep Plus English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 3, "category": "nitelikli", "title": "Advanced\nEnglish Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "Advanced Plus\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 5, "category": "nitelikli", "title": "General English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 6, "category": "nitelikli", "title": "Private English Lessons", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Corporate /\nCorporate English\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 8, "category": "sinav", "title": "YDS Preparation Course", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 9, "category": "sinav", "title": "YKS-Language (YDT)\nPreparation Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Preparation\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 11, "category": "sinav", "title": "IELTS Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 12, "category": "sinav", "title": "Prep Waiver\nCourse -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 14, "category": "sinav", "title": "German Goethe\nExam Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
+      { "id": 15, "category": "sinav", "title": "SAT Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 17, "category": "sinav", "title": "TELC Course", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+    ]
   },
   "heroSlider": {
     "slides": [
       {
         "id": 1,
         "image": "/sliders/gemini1.webp",
-        "alt": "Akademik International Language Schools Avcilar Branch",
-        "title": "Language Education with Akademik International"
+        "alt": "Avcılar English Language Course Avcilar Branch",
+        "title": "Language Education with Avcılar English Language Course"
       },
       {
         "id": 2,
@@ -914,13 +933,13 @@
         "id": 1,
         "text": "Before meeting this course, I went to a different course, I realized how much time I wasted. There was nothing I said I wish from beginning to end. Thanks to our teacher Öznur for her explanatory expression and patience in the points we did not understand.",
         "author": "Miray BURSALI",
-        "role": "Academician / Academic 2"
+        "role": "Academician / Advanced 2"
       },
       {
         "id": 2,
         "text": "I think the quality of the institution is much better than what was mentioned. Teachers spent a certain period abroad and classes are taught without rote learning, they are also very friendly. Thank you to everyone.",
         "author": "Sevil TOPUZ",
-        "role": "Designer / Academic 2"
+        "role": "Designer / Advanced 2"
       },
       {
         "id": 3,
@@ -3237,7 +3256,7 @@
       ]
     },
     "publications": {
-      "title": "Akademik International Corporate Publications",
+      "title": "Avcılar English Language Course Corporate Publications",
       "subtitle": "Free for Corporate Students!",
       "features": [
         "Corporate Specific Content",
@@ -3959,7 +3978,7 @@
     },
     "publications": {
       "title": "Resources We Use for IELTS",
-      "subtitle": "The Academic Publishing Difference",
+      "subtitle": "Our Publishing Series Difference",
       "features": [
         "Up-to-Date Exam Strategies",
         "Four Core Skills (4 Skills)",
@@ -4207,7 +4226,7 @@
     },
     "publications": {
       "title": "Resources We Use for YKS-Dil YDT",
-      "subtitle": "The Academic Foreign Language Courses Difference",
+      "subtitle": "The Avcılar English Language Course Difference",
       "features": [
         "Up-to-Date Exam Strategies",
         "Lecture Explanations and Question Bank",
@@ -4455,7 +4474,7 @@
     },
     "publications": {
       "title": "Resources We Use for ITEP",
-      "subtitle": "The Academic Foreign Language Courses Difference",
+      "subtitle": "The Avcılar English Language Course Difference",
       "features": [
         "Up-to-Date Exam Strategies",
         "Content Focused on Five Core Skills",
@@ -4704,7 +4723,7 @@
     },
     "publications": {
       "title": "Resources We Use for GRE",
-      "subtitle": "The Academic Foreign Language Courses Difference",
+      "subtitle": "The Avcılar English Language Course Difference",
       "features": [
         "Up-to-Date Exam Strategies",
         "Content Focused on Quantitative, Verbal, and Analytical Skills",
@@ -6813,7 +6832,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -9363,7 +9382,7 @@
     },
     "publications": {
       "title": "Resources We Use for German",
-      "subtitle": "Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "Compliant with European Language Portfolio",
         "Current and Thematic Content",
@@ -10094,7 +10113,7 @@
     },
     "publications": {
       "title": "Special Resources We Use for Chinese",
-      "subtitle": "With the Assurance of The Academic Publishing",
+      "subtitle": "With the Assurance of Our Publishing Series",
       "features": [
         "Compliant with HSK Exam Format",
         "Hanzi (Character) Workbooks",
@@ -10334,7 +10353,7 @@
     },
     "publications": {
       "title": "Resources We Use in Japanese Education",
-      "subtitle": "The Quality of The Academic Publishing",
+      "subtitle": "The Quality of Our Publishing Series",
       "features": [
         "Kana and Kanji Workbooks",
         "Reflexive Speaking Materials",
@@ -10585,7 +10604,7 @@
     },
     "publications": {
       "title": "Resources We Use in Korean Education",
-      "subtitle": "With the Difference of The Academic Publishing",
+      "subtitle": "With the Difference of Our Publishing Series",
       "features": [
         "Basic and Advanced Grammar Books",
         "Korean Culture Reading Texts",
@@ -11294,7 +11313,7 @@
     },
     "publications": {
       "title": "Our Educational Materials",
-      "subtitle": "The Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "Compliant with CEFR Standards",
         "Visual and Video Content",
@@ -11545,7 +11564,7 @@
     },
     "publications": {
       "title": "Resources We Use for Latin",
-      "subtitle": "With Contributions from The Academic Publishing",
+      "subtitle": "With Contributions from Our Publishing Series",
       "features": [
         "Legal and Medical Terminology",
         "Literary Text Analyses",
@@ -11796,7 +11815,7 @@
     },
     "publications": {
       "title": "Dutch Educational Materials",
-      "subtitle": "Powered by The Academic Publishing",
+      "subtitle": "Powered by Our Publishing Series",
       "features": [
         "Exam-Oriented Question Types",
         "Cultural Reading Texts",
@@ -12049,7 +12068,7 @@
     },
     "publications": {
       "title": "Resources We Use for Spanish",
-      "subtitle": "Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "European Language Portfolio Compliant",
         "Current and Thematic Content",
@@ -12309,7 +12328,7 @@
     },
     "publications": {
       "title": "Resources We Use for Russian",
-      "subtitle": "Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "European Language Portfolio Compliant",
         "Current and Thematic Content",
@@ -12573,7 +12592,7 @@
     },
     "publications": {
       "title": "Resources for Portuguese",
-      "subtitle": "Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "CEFR Compliant",
         "Brazilian and Portuguese Dialects",
@@ -12841,7 +12860,7 @@
     },
     "publications": {
       "title": "Resources We Use for Arabic",
-      "subtitle": "Academic Publishing Quality",
+      "subtitle": "Our Publishing Series Quality",
       "features": [
         "CEFR Compliant",
         "Audiovisual Materials",
@@ -12978,123 +12997,6 @@
           "text": "5 Minutes Walking Distance from Bull Statue"
         }
       ]
-    },
-    "upcomingProgramsTable": {
-      "title": "Upcoming Programs at Our Kadıköy English Course Campus",
-      "headers": {
-        "groupCode": "Grup Kodu",
-        "startDate": "Başlama Tarihi",
-        "endDate": "Bitiş Tarihi",
-        "quota": "Kontenjan",
-        "detail": "Detay"
-      },
-      "programs": [
-        {
-          "id": "1",
-          "code": "PREP AUGUST GROUP 2025 - WEEKDAY EVENING",
-          "start": "2025-12-16",
-          "end": "2026-02-16",
-          "status": "full",
-          "quotaTotal": 12,
-          "quotaFilled": 12,
-          "type": "English Course"
-        },
-        {
-          "id": "2",
-          "code": "PREP 2025 WINTER TERM (A1-A2)",
-          "start": "2025-12-22",
-          "end": "2026-02-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8,
-          "type": "English Course"
-        },
-        {
-          "id": "3",
-          "code": "PREP PLUS 2025 WINTER TERM (B1)",
-          "start": "2025-12-08",
-          "end": "2026-02-23",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8,
-          "type": "English Course"
-        },
-        {
-          "id": "4",
-          "code": "PREP 2025 WINTER TERM (A1-A2) - WEEKEND",
-          "start": "2025-12-27",
-          "end": "2026-02-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8,
-          "type": "English Course"
-        },
-        {
-          "id": "5",
-          "code": "PREP PLUS 2025 WINTER TERM (B1) - WEEKEND",
-          "start": "2025-12-20",
-          "end": "2026-02-21",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8,
-          "type": "English Course"
-        },
-        {
-          "id": "6",
-          "code": "ACADEMIC EXPRESS 2025 WINTER TERM (B2)",
-          "start": "2025-12-13",
-          "end": "2026-02-15",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8,
-          "type": "English Course"
-        }
-      ],
-      "actions": {
-        "viewDetail": "Detaylı İncele"
-      },
-      "startDateLabel": "START DATE",
-      "generalProgram": "General Program",
-      "detailBtn": "View Details",
-      "statusFull": "NO SPOTS LEFT",
-      "spotsLeft": "{spots} SPOTS LEFT",
-      "urgentSpots": "LAST {spots} SPOTS",
-      "quotaFilledText": "{filled} / {total} filled",
-      "remainingDays": "{days} Days",
-      "startsToday": "Starts Today",
-      "started": "Started",
-      "modal": {
-        "weekdays": "Weekdays",
-        "statusFullText": "Quota is full",
-        "statusClosingText": "Registrations are closing soon",
-        "statusOpenText": "Registrations are ongoing",
-        "description": "This program offers an intensive curriculum to help students reach their target English level in a short time.",
-        "daysLabel": "Days",
-        "hoursLabel": "Hours",
-        "durationLabel": "Duration",
-        "classSizeLabel": "Class",
-        "daysValue": "Mon - Wed - Fri",
-        "hoursValue": "19:00 - 21:30",
-        "durationValue": "3 Months",
-        "classSizeValue": "Max 12 People",
-        "features": [
-          "Native Speaker Instructors",
-          "Free Material Support",
-          "Speaking Club Participation"
-        ],
-        "reserveBtn": "Reserve Now",
-        "pageBtn": "Go to Program Page"
-      },
-      "tableHeaders": {
-        "program": "Program",
-        "type": "Education Type",
-        "startDate": "Start Date",
-        "endDate": "End Date",
-        "days": "Days",
-        "hours": "Hours",
-        "quota": "Quota Status",
-        "action": "Register"
-      }
     },
     "seoContent": [
       {
@@ -13357,107 +13259,6 @@
         }
       ]
     },
-    "upcomingProgramsTable": {
-      "title": "Upcoming Programs at Bursa English Course Campus",
-      "headers": {
-        "groupCode": "Group Code",
-        "startDate": "Start Date",
-        "endDate": "End Date",
-        "quota": "Quota",
-        "detail": "Detail"
-      },
-      "programs": [
-        {
-          "id": "1",
-          "code": "WEEKDAY EVENING PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "2",
-          "code": "WEEKDAY EVENING PLUS",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "3",
-          "code": "WEEKDAY EVENING ACADEMIC EXPRESS",
-          "start": "2025-07-28",
-          "end": "2025-10-05",
-          "status": "full",
-          "quotaTotal": 12,
-          "quotaFilled": 12
-        },
-        {
-          "id": "4",
-          "code": "WEEKEND MORNING PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "5",
-          "code": "WEEKEND NOON PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "6",
-          "code": "WEEKDAY EVENING ACADEMIC",
-          "start": "2025-08-04",
-          "end": "2025-11-02",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        }
-      ],
-      "actions": {
-        "viewDetail": "View Details"
-      },
-      "startDateLabel": "START DATE",
-      "generalProgram": "General Program",
-      "detailBtn": "View Details",
-      "statusFull": "NO SPOTS LEFT",
-      "spotsLeft": "{spots} SPOTS LEFT",
-      "urgentSpots": "LAST {spots} SPOTS",
-      "quotaFilledText": "{filled} / {total} filled",
-      "remainingDays": "{days} Days",
-      "startsToday": "Starts Today",
-      "started": "Started",
-      "modal": {
-        "weekdays": "Weekdays",
-        "statusFullText": "Quota full",
-        "statusClosingText": "Registration closing soon",
-        "statusOpenText": "Registration open",
-        "description": "This program offers an intensive curriculum to help students reach their target English level in a short time.",
-        "daysLabel": "Days",
-        "hoursLabel": "Hours",
-        "durationLabel": "Duration",
-        "classSizeLabel": "Class",
-        "daysValue": "Mon - Wed - Fri",
-        "hoursValue": "19:00 - 21:30",
-        "durationValue": "3 Months",
-        "classSizeValue": "Max 12 Students",
-        "features": [
-          "Native Speaker Instructors",
-          "Free Material Support",
-          "Speaking Club Participation"
-        ],
-        "reserveBtn": "Reserve Now",
-        "pageBtn": "Go to Program Page"
-      }
-    },
     "seoContent": [
       {
         "title": "Bursa English Course",
@@ -13495,7 +13296,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-date Resources with The Academic Publishing Difference",
+      "title": "Up-to-date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -13667,7 +13468,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-date Resources with The Academic Publishing Difference",
+      "title": "Up-to-date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -13821,7 +13622,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-date Resources with The Academic Publishing Difference",
+      "title": "Up-to-date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -13959,7 +13760,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14109,7 +13910,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14263,7 +14064,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14393,7 +14194,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14555,7 +14356,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14705,7 +14506,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14851,7 +14652,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -14997,7 +14798,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -15139,7 +14940,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -15264,7 +15065,7 @@
       ]
     },
     "publications": {
-      "title": "Up-to-Date Resources with The Academic Publishing Difference",
+      "title": "Up-to-Date Resources with Our Publishing Series Difference",
       "subtitle": "The Material Used in Education Directly Affects Your Learning Speed",
       "features": [
         "London-Based Publications",
@@ -15862,7 +15663,7 @@
         "leftTitle": "English Courses",
         "leftDesc": "From A1 to C2, the most solid path to fluency with programs tailored to every level and goal.",
         "rightTitle": "Speaking-Guaranteed English Training",
-        "rightDesc": "From Prep to Academic Plus, IELTS prep to Proficiency Bypass — result-driven programs designed for every English need. Boutique classes of 7-10 students with Native Speaker instructors.",
+        "rightDesc": "From Prep to Advanced Plus, IELTS prep to Proficiency Bypass — result-driven programs designed for every English need. Boutique classes of 7-10 students with Native Speaker instructors.",
         "features": [
           {
             "text": "Speaking Club",
@@ -15972,9 +15773,7 @@
   },
   "miniGallery": {
     "title": "Moments from Our Course",
-    "subtitle": "Highlights from our campus and events",
-    "imgAlt": "Avcilar Akademik International Event and Campus Visual",
-    "imgTitle": "Avcilar Foreign Language Course Education Center and Social Activities"
+    "subtitle": "Highlights from our campus and events"
   },
   "akademikSinavlarLandingPage": {
     "meta": {
@@ -16186,7 +15985,7 @@
     },
     "publications": {
       "title": "Study Materials We Use for Exam Preparation",
-      "subtitle": "The Academic Publishing Difference",
+      "subtitle": "Our Publishing Series Difference",
       "features": [
         "Up-to-date Exam-Specific Strategies",
         "Full Coverage of All Question Types",
@@ -16483,7 +16282,7 @@
     },
     "publications": {
       "title": "Resources Used in Language Training",
-      "subtitle": "The Academic Publishing Difference",
+      "subtitle": "Our Publishing Series Difference",
       "features": [
         "Language-Specific Up-to-Date Content",
         "Cultural Context and Real-Life Dialogues",
@@ -16612,8 +16411,8 @@
       "content": "Akademik International Language Schools operates 12+ modern education campuses in Istanbul, Ankara, Izmir, Bursa, Kocaeli and Tekirdag. Find English, German, French, Spanish and more language courses at Istanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Görükle, İnegöl, Yıldırım, Ankara, İzmir, Kocaeli İzmit and Tekirdag Çorlu. IELTS, TOEFL, and YDS preparation available at all branches."
     }
   },
-  "homeSeoH1": "Avcılar English Language Course - Akademik International Language Schools",
-  "homeSeoIntro": "Akademik International Language Schools is one of Turkey's leading foreign language education centers, offering English, German, French, Arabic, Spanish, Russian, Japanese, Korean and many more language courses across 12 campuses in Istanbul Avcilar, Kadikoy, Cekmekoy, Bursa, Ankara, Izmir, Kocaeli and Tekirdag. Programs include preparation for IELTS, TOEFL, YDS and YOKDIL exams, as well as general English, academic English, business English, children's language courses and corporate language training.",
+  "homeSeoH1": "Avcılar English Language Course",
+  "homeSeoIntro": "Avcılar English Language Course is one of Turkey's leading foreign language education centers, offering English, German, French, Arabic, Spanish, Russian, Japanese, Korean and many more language courses across 12 campuses in Istanbul Avcilar, Kadikoy, Cekmekoy, Bursa, Ankara, Izmir, Kocaeli and Tekirdag. Programs include preparation for IELTS, TOEFL, YDS and YOKDIL exams, as well as general English, academic English, business English, children's language courses and corporate language training.",
   "languageInterestPopup": {
     "title": "Which language would you like to learn?",
     "subtitle": "Discover the program tailored for you",

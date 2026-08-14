@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 
   const descMap: Record<Locale, string> = {
-    tr: "Akademik International Dil Okulları güncel haftalık aktivite programları, konuşma kulüpleri ve özel etkinliklerimiz.",
-    en: "Current weekly activity programs, speaking clubs, and special events at Akademik International Language Schools.",
-    ar: "برامج الأنشطة الأسبوعية الحالية وأندية المحادثة والفعاليات الخاصة في مدارس أكاديميك الدولية للغات."
+    tr: "Avcılar İngilizce Dil Kursu güncel haftalık aktivite programları, konuşma kulüpleri ve özel etkinliklerimiz.",
+    en: "Current weekly activity programs, speaking clubs, and special events at Avcılar English Language Course.",
+    ar: "برامج الأنشطة الأسبوعية الحالية وأندية المحادثة والفعاليات الخاصة في دورة أفجيلار لتعليم اللغة الإنجليزية."
   };
 
   return {
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://akademik-avcilar.vercel.app/${lang}/haftalik-program`,
       title: titleMap[lang] || titleMap.tr,
       description: descMap[lang] || descMap.tr,
-      siteName: 'Akademik International',
+      siteName: 'Avcılar İngilizce Dil Kursu',
     },
     twitter: {
       card: 'summary_large_image',

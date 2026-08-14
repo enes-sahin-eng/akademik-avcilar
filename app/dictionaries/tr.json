@@ -73,16 +73,16 @@
         "items": [
           "Prep (Hazırlık)",
           "Prep Plus (Hazırlık Plus)",
-          "Akademik Express"
+          "İleri Seviye Express"
         ]
       },
       {
-        "title": "AKADEMİK İNGİLİZCE KURSU",
+        "title": "İLERİ SEVİYE İNGİLİZCE KURSU",
         "subtitle": "İleri Düzey İngilizce İsteyenler İçin",
         "items": [
-          "Akademik",
-          "Akademik Plus (Hazırlık Plus)",
-          "Akademik Express"
+          "İleri Seviye",
+          "İleri Seviye Plus (Hazırlık Plus)",
+          "İleri Seviye Express"
         ]
       }
     ],
@@ -568,7 +568,7 @@
       ],
       "button": "KAMPÜS BAŞVURUSU",
       "viewBranchText": "Şubeyi İncele",
-      "desc": "İstanbul, Ankara, Bursa ve Kocaeli'de bulunan Akademik International Yabancı Dil Kursu şubelerimizle, uluslararası standartlarda dil eğitimini kapınıza getiriyoruz."
+      "desc": "İstanbul, Ankara, Bursa ve Kocaeli'de bulunan Avcılar İngilizce Dil Kursu şubelerimizle, uluslararası standartlarda dil eğitimini kapınıza getiriyoruz."
     },
     "corporate": {
       "title1": "TİCARET ÜNVANI:",
@@ -770,7 +770,7 @@
           "quotaFilled": 0
         },
         {
-          "code": "ACADEMİC EXPRESS 2026 KIŞ DÖNEMİ (B2)",
+          "code": "İLERİ SEVİYE EXPRESS 2026 KIŞ DÖNEMİ (B2)",
           "link": "/academic-express-ingilizce-kursu",
           "start": "2026-09-25",
           "end": "2026-12-20",
@@ -779,7 +779,7 @@
           "quotaFilled": 5
         },
         {
-          "code": "AKADEMİK KİDS OKUL DÖNEMİ (ÇOCUK GRUBU)",
+          "code": "İLERİ SEVİYE KİDS OKUL DÖNEMİ (ÇOCUK GRUBU)",
           "link": "/ilkogretim-ingilizce-kursu",
           "start": "2026-10-10",
           "end": "2027-02-15",
@@ -846,15 +846,34 @@
       "tum": "TÜM PROGRAMLAR",
       "nitelikli": "NİTELİKLİ DİL KURSLARI",
       "sinav": "AKADEMİK SINAV KURSLARI"
-    }
+    },
+    "cards": [
+      { "id": 1, "category": "nitelikli", "title": "Prep Temel\nİngilizce Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 2, "category": "nitelikli", "title": "Prep Plus İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 3, "category": "nitelikli", "title": "İleri Seviye\nİngilizce Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "İleri Seviye Plus\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 5, "category": "nitelikli", "title": "Genel İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 6, "category": "nitelikli", "title": "İngilizce Özel Ders", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 8, "category": "sinav", "title": "YDS Hazırlık Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 9, "category": "sinav", "title": "YKS-DİL (YDT)\nHazırlık Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Hazırlık\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 11, "category": "sinav", "title": "IELTS Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 12, "category": "sinav", "title": "Hazırlık Atlama\nKursu -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 14, "category": "sinav", "title": "Almanca Goethe\nSınavı Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
+      { "id": 15, "category": "sinav", "title": "SAT Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 17, "category": "sinav", "title": "TELC Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+    ]
   },
   "heroSlider": {
     "slides": [
       {
         "id": 1,
         "image": "/sliders/gemini1.webp",
-        "alt": "Akademik International Yabancı Dil Okulları Avcılar Şubesi",
-        "title": "Akademik International İle Dil Eğitimi"
+        "alt": "Avcılar İngilizce Dil Kursu Avcılar Şubesi",
+        "title": "Avcılar İngilizce Dil Kursu İle Dil Eğitimi"
       },
       {
         "id": 2,
@@ -940,13 +959,13 @@
         "id": 1,
         "text": "Bu kursla tanışmadan öne farklı bir kursa gitmiştim, ne kadar boşa zaman geçirdiğimi anladım. Baştan sona kadar keşke dediğim hiçbir şey olmadı. Öznur hocanın açıklayıcı anlatımı ve anlamadığımız noktalardaki sabrı için teşekkürler.",
         "author": "Miray BURSALI",
-        "role": "Akademisyen / Akademik 2"
+        "role": "Akademisyen / İleri Seviye 2"
       },
       {
         "id": 2,
         "text": "Kurumun gayet kalitesi bahsedildiğinden çok daha iyi olduğunu düşünüyorum. Öğretmenler belli bir dönemin yurt dışında geçirmiş ve ezberci öğrenim dışında ders işleniyor ayrıca çok cana yakınlar.herkese teşekkür ediyorum",
         "author": "Sevil TOPUZ",
-        "role": "Tasarımcı / Akademik 2"
+        "role": "Tasarımcı / İleri Seviye 2"
       },
       {
         "id": 3,
@@ -3251,7 +3270,7 @@
       ]
     },
     "publications": {
-      "title": "Akademik International Kurum Yayınlarımız",
+      "title": "Avcılar İngilizce Dil Kursu Kurum Yayınlarımız",
       "subtitle": "Kurum Öğrencilerine Ücretsiz!",
       "features": [
         "Kurumlara Özel İçerik",
@@ -3973,7 +3992,7 @@
     },
     "publications": {
       "title": "IELTS İçin Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Farkı",
+      "subtitle": "Yayın Serimiz Farkı",
       "features": [
         "Güncel Sınav Stratejileri",
         "Dört Temel Beceri (4 Skills)",
@@ -4221,7 +4240,7 @@
     },
     "publications": {
       "title": "YKS-Dil YDT İçin Kullandığımız Kaynaklar",
-      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
       "features": [
         "Güncel Sınav Stratejileri",
         "Konu Anlatımı ve Soru Bankası",
@@ -4469,7 +4488,7 @@
     },
     "publications": {
       "title": "ITEP İçin Kullandığımız Kaynaklar",
-      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
       "features": [
         "Güncel Sınav Stratejileri",
         "Beş Temel Beceri Odaklı İçerik",
@@ -4718,7 +4737,7 @@
     },
     "publications": {
       "title": "GRE İçin Kullandığımız Kaynaklar",
-      "subtitle": "Akademik Yabancı Dil Kursları Farkı",
+      "subtitle": "Avcılar İngilizce Dil Kursu Farkı",
       "features": [
         "Güncel Sınav Stratejileri",
         "Sayısal, Sözel ve Analitik Beceri Odaklı İçerik",
@@ -6857,7 +6876,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -9446,7 +9465,7 @@
     },
     "publications": {
       "title": "Almanca İçin Kullandığımız Kaynaklar",
-      "subtitle": "Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Avrupa Dil Portföyüne Uygun",
         "Güncel ve Tematik İçerikler",
@@ -10177,7 +10196,7 @@
     },
     "publications": {
       "title": "Çince İçin Kullandığımız Özel Kaynaklar",
-      "subtitle": "The Academic Publishing Güvencesiyle",
+      "subtitle": "Yayın Serimiz Güvencesiyle",
       "features": [
         "HSK Sınav Formatına Uygun",
         "Hanzi (Karakter) Çalışma Kitapları",
@@ -10417,7 +10436,7 @@
     },
     "publications": {
       "title": "Japonca Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Kana ve Kanji Çalışma Kitapları",
         "Refleksif Konuşma Materyalleri",
@@ -10668,7 +10687,7 @@
     },
     "publications": {
       "title": "Korece Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Farkıyla",
+      "subtitle": "Yayın Serimiz Farkıyla",
       "features": [
         "Temel ve İleri Gramer Kitapları",
         "Kore Kültürü Okuma Metinleri",
@@ -11377,7 +11396,7 @@
     },
     "publications": {
       "title": "Eğitim Materyallerimiz",
-      "subtitle": "The Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "CEFR Standartlarına Uyumlu",
         "Görsel ve Video İçerikli",
@@ -11628,7 +11647,7 @@
     },
     "publications": {
       "title": "Latince İçin Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Katkısıyla",
+      "subtitle": "Yayın Serimiz Katkısıyla",
       "features": [
         "Hukuk ve Tıp Terminolojisi",
         "Edebi Metin Çözümlemeleri",
@@ -11879,7 +11898,7 @@
     },
     "publications": {
       "title": "Flemenkçe (Hollandaca) Eğitim Materyalleri",
-      "subtitle": "The Academic Publishing Farkıyla",
+      "subtitle": "Yayın Serimiz Farkıyla",
       "features": [
         "Sınav Odaklı Soru Tipleri",
         "Kültürel Okuma Metinleri",
@@ -12132,7 +12151,7 @@
     },
     "publications": {
       "title": "İspanyolca İçin Kullandığımız Kaynaklar",
-      "subtitle": "Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Avrupa Dil Portföyüne Uygun",
         "Güncel ve Tematik İçerikler",
@@ -12394,7 +12413,7 @@
     },
     "publications": {
       "title": "Rusça İçin Kullandığımız Kaynaklar",
-      "subtitle": "Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Avrupa Dil Portföyüne Uygun",
         "Güncel ve Tematik İçerikler",
@@ -12658,7 +12677,7 @@
     },
     "publications": {
       "title": "Portekizce İçin Kullandığımız Kaynaklar",
-      "subtitle": "Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Avrupa Dil Portföyüne (CEFR) Uygun",
         "Brezilya ve Portekiz Lehçeleri",
@@ -12929,7 +12948,7 @@
     },
     "publications": {
       "title": "Arapça İçin Kullandığımız Kaynaklar",
-      "subtitle": "Academic Publishing Kalitesi",
+      "subtitle": "Yayın Serimiz Kalitesi",
       "features": [
         "Avrupa Dil Portföyüne (CEFR) Uygun",
         "Görsel ve İşitsel Malzemeler",
@@ -13066,107 +13085,6 @@
           "text": "Boğa Heykelinden 5 Dakika Yürüme Mesafesi"
         }
       ]
-    },
-    "upcomingProgramsTable": {
-      "title": "Kadıköy İngilizce Dil Kursu Kampüsümüzde Açılacak Programlar",
-      "headers": {
-        "groupCode": "Grup Kodu",
-        "startDate": "Başlama Tarihi",
-        "endDate": "Bitiş Tarihi",
-        "quota": "Kontenjan",
-        "detail": "Detay"
-      },
-      "programs": [
-        {
-          "id": "1",
-          "code": "PREP AĞUSTOS GRUBU 2025 - HAFTA İÇİ AKŞAM",
-          "start": "2025-12-16",
-          "end": "2026-02-16",
-          "status": "full",
-          "quotaTotal": 12,
-          "quotaFilled": 12
-        },
-        {
-          "id": "2",
-          "code": "PREP 2025 KIŞ DÖNEMİ (A1-A2)",
-          "start": "2025-12-22",
-          "end": "2026-02-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "3",
-          "code": "PREP PLUS 2025 KIŞ DÖNEMİ (B1)",
-          "start": "2025-12-08",
-          "end": "2026-02-23",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "4",
-          "code": "PREP 2025 KIŞ DÖNEMİ (A1-A2) - HAFTA SONU",
-          "start": "2025-12-27",
-          "end": "2026-02-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "5",
-          "code": "PREP PLUS 2025 KIŞ DÖNEMİ (B1) - HAFTA SONU",
-          "start": "2025-12-20",
-          "end": "2026-02-21",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "6",
-          "code": "ACADEMIC EXPRESS 2025 KIŞ DÖNEMİ (B2)",
-          "start": "2025-12-13",
-          "end": "2026-02-15",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        }
-      ],
-      "actions": {
-        "viewDetail": "Detaylı İncele"
-      },
-      "startDateLabel": "BAŞLANGIÇ TARİHİ",
-      "generalProgram": "Genel Program",
-      "detailBtn": "Detaylı İncele",
-      "statusFull": "KONTENJAN DOLDU",
-      "spotsLeft": "{spots} KİŞİLİK KONTENJAN",
-      "urgentSpots": "SON {spots} KİŞİ",
-      "quotaFilledText": "{filled} / {total} dolu",
-      "remainingDays": "{days} Gün",
-      "startsToday": "Bugün Başlıyor",
-      "started": "Başladı",
-      "modal": {
-        "weekdays": "Hafta İçi",
-        "statusFullText": "Kontenjan doldu",
-        "statusClosingText": "Kayıtlar kapanmak üzere",
-        "statusOpenText": "Kayıtlar devam ediyor",
-        "description": "Bu program, öğrencileri kısa sürede hedefledikleri İngilizce seviyesine ulaştırmak için yoğun bir müfredat sunar.",
-        "daysLabel": "Günler",
-        "hoursLabel": "Saatler",
-        "durationLabel": "Süre",
-        "classSizeLabel": "Sınıf",
-        "daysValue": "Pzt - Çar - Cum",
-        "hoursValue": "19:00 - 21:30",
-        "durationValue": "3 Ay",
-        "classSizeValue": "Max 12 Kişi",
-        "features": [
-          "Native Speaker Eğitmenler",
-          "Ücretsiz Materyal Desteği",
-          "Konuşma Kulübü Katılımı"
-        ],
-        "reserveBtn": "Hemen Yer Ayırt",
-        "pageBtn": "Program Sayfasına Git"
-      }
     },
     "seoContent": [
       {
@@ -13323,7 +13241,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -13441,107 +13359,6 @@
         }
       ]
     },
-    "upcomingProgramsTable": {
-      "title": "Bursa İngilizce Kursu Kampüsümüzde Açılacak Programlar",
-      "headers": {
-        "groupCode": "Grup Kodu",
-        "startDate": "Başlama Tarihi",
-        "endDate": "Bitiş Tarihi",
-        "quota": "Kontenjan",
-        "detail": "Detay"
-      },
-      "programs": [
-        {
-          "id": "1",
-          "code": "HAFTA İÇİ AKŞAM PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "2",
-          "code": "HAFTA İÇİ AKŞAM PLUS",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "3",
-          "code": "HAFTA İÇİ AKŞAM ACADEMIC EXPRESS",
-          "start": "2025-07-28",
-          "end": "2025-10-05",
-          "status": "full",
-          "quotaTotal": 12,
-          "quotaFilled": 12
-        },
-        {
-          "id": "4",
-          "code": "HAFTA SONU SABAH PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "5",
-          "code": "HAFTA SONU ÖĞLE PREP",
-          "start": "2025-07-28",
-          "end": "2025-09-28",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        },
-        {
-          "id": "6",
-          "code": "HAFTA İÇİ AKŞAM ACADEMIC",
-          "start": "2025-08-04",
-          "end": "2025-11-02",
-          "status": "available",
-          "quotaTotal": 12,
-          "quotaFilled": 8
-        }
-      ],
-      "actions": {
-        "viewDetail": "Detaylı İncele"
-      },
-      "startDateLabel": "BAŞLANGIÇ TARİHİ",
-      "generalProgram": "Genel Program",
-      "detailBtn": "Detaylı İncele",
-      "statusFull": "KONTENJAN DOLDU",
-      "spotsLeft": "{spots} KİŞİLİK KONTENJAN",
-      "urgentSpots": "SON {spots} KİŞİ",
-      "quotaFilledText": "{filled} / {total} dolu",
-      "remainingDays": "{days} Gün",
-      "startsToday": "Bugün Başlıyor",
-      "started": "Başladı",
-      "modal": {
-        "weekdays": "Hafta İçi",
-        "statusFullText": "Kontenjan doldu",
-        "statusClosingText": "Kayıtlar kapanmak üzere",
-        "statusOpenText": "Kayıtlar devam ediyor",
-        "description": "Bu program, öğrencileri kısa sürede hedefledikleri İngilizce seviyesine ulaştırmak için yoğun bir müfredat sunar.",
-        "daysLabel": "Günler",
-        "hoursLabel": "Saatler",
-        "durationLabel": "Süre",
-        "classSizeLabel": "Sınıf",
-        "daysValue": "Pzt - Çar - Cum",
-        "hoursValue": "19:00 - 21:30",
-        "durationValue": "3 Ay",
-        "classSizeValue": "Max 12 Kişi",
-        "features": [
-          "Native Speaker Eğitmenler",
-          "Ücretsiz Materyal Desteği",
-          "Konuşma Kulübü Katılımı"
-        ],
-        "reserveBtn": "Hemen Yer Ayırt",
-        "pageBtn": "Program Sayfasına Git"
-      }
-    },
     "seoContent": [
       {
         "title": "Bursa İngilizce Kursu",
@@ -13579,7 +13396,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -13751,7 +13568,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -13905,7 +13722,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14043,7 +13860,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14193,7 +14010,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14347,7 +14164,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14477,7 +14294,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14639,7 +14456,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14789,7 +14606,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -14935,7 +14752,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -15081,7 +14898,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Yayıncılık Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -15223,7 +15040,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -15348,7 +15165,7 @@
       ]
     },
     "publications": {
-      "title": "The Academic Publishing Farkı ile Güncel Kaynaklar",
+      "title": "Yayın Serimizin Farkı ile Güncel Kaynaklar",
       "subtitle": "Eğitimde Kullanılan Materyal Öğrenme Hızınızı Doğrudan Etkiler",
       "features": [
         "Londra Merkezli Yayınlar",
@@ -15944,7 +15761,7 @@
         "leftTitle": "İngilizce Kursları",
         "leftDesc": "A1'den C2'ye, her seviye ve hedefe uygun İngilizce programlarıyla akıcılığa giden en sağlam yol.",
         "rightTitle": "Konuşma Garantili İngilizce Eğitimi",
-        "rightDesc": "Prep'ten Academic Plus'a, IELTS hazırlığından Hazırlık Atlama'ya; her İngilizce ihtiyacınız için kurgulanan sonuç odaklı programlar. 7-10 kişilik butik sınıflarda, Native Speaker eğitmenleriyle.",
+        "rightDesc": "Prep'ten İleri Seviye Plus'a, IELTS hazırlığından Hazırlık Atlama'ya; her İngilizce ihtiyacınız için kurgulanan sonuç odaklı programlar. 7-10 kişilik butik sınıflarda, Native Speaker eğitmenleriyle.",
         "features": [
           {
             "text": "Speaking Club (Konuşma Kulübü)",
@@ -16054,9 +15871,7 @@
   },
   "miniGallery": {
     "title": "Kursumuzdan Kareler",
-    "subtitle": "Kampüsümüzden ve etkinliklerimizden öne çıkan anlar",
-    "imgAlt": "Avcılar Akademik International Etkinlik ve Kampüs Görseli",
-    "imgTitle": "Avcılar Yabancı Dil Kursu Eğitim Merkezi ve Sosyal Aktiviteler"
+    "subtitle": "Kampüsümüzden ve etkinliklerimizden öne çıkan anlar"
   },
   "digerDillerLandingPage": {
     "meta": {
@@ -16274,7 +16089,7 @@
     },
     "publications": {
       "title": "Dil Eğitiminde Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Farkı",
+      "subtitle": "Yayın Serimiz Farkı",
       "features": [
         "Dile Özgü Güncel İçerikler",
         "Kültürel Bağlam ve Gerçek Hayat Diyalogları",
@@ -16565,7 +16380,7 @@
     },
     "publications": {
       "title": "Sınav Hazırlığında Kullandığımız Kaynaklar",
-      "subtitle": "The Academic Publishing Farkı",
+      "subtitle": "Yayın Serimiz Farkı",
       "features": [
         "Sınava Özgü Güncel Stratejiler",
         "Tüm Soru Tipleri Kapsamı",
@@ -16694,8 +16509,8 @@
       "content": "Akademik International Yabancı Dil Okulları olarak İstanbul, Ankara, İzmir, Bursa, Kocaeli ve Tekirdağ dahil 6 büyükşehirde 12'den fazla modern eğitim kampüsümüzde hizmet veriyoruz. İstanbul Avcılar ingilizce kursu, Kadıköy ingilizce kursu, Çekmeköy dil kursu, Bursa Nilüfer ingilizce kursu, Bursa Görükle dil kursu, Bursa İnegöl ingilizce kursu, Bursa Yıldırım dil kursu, Ankara ingilizce kursu, İzmir ingilizce kursu, Kocaeli İzmit dil kursu ve Tekirdağ Çorlu ingilizce kursu için doğru adrestesiniz. Tüm şubelerimizde IELTS, TOEFL, YDS hazırlık kursları, genel ingilizce, almanca, fransızca ve daha pek çok dilde eğitim verilmektedir."
     }
   },
-  "homeSeoH1": "Avcılar İngilizce Kursu - Akademik International Yabancı Dil Okulu",
-  "homeSeoIntro": "Akademik International Yabancı Dil Okulları; İstanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Bursa Görükle, Bursa İnegöl, Bursa Yıldırım, Ankara, İzmir, Kocaeli İzmit ve Tekirdağ Çorlu dahil 12 kampüste İngilizce, Almanca, Fransızca, Arapça, İspanyolca, Rusça, Japonca, Korece ve daha pek çok dilde yüz yüze ve online kurs sunan Türkiye'nin önde gelen yabancı dil eğitim merkezlerinden biridir. IELTS, TOEFL, YDS ve YÖKDİL sınavlarına hazırlık programlarının yanı sıra genel İngilizce, akademik İngilizce, iş İngilizcesi, çocuk ve ilköğretim dil kursları ile kurumsal dil eğitimleri verilmektedir.",
+  "homeSeoH1": "Avcılar İngilizce Dil Kursu",
+  "homeSeoIntro": "Avcılar İngilizce Dil Kursu; İstanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Bursa Görükle, Bursa İnegöl, Bursa Yıldırım, Ankara, İzmir, Kocaeli İzmit ve Tekirdağ Çorlu dahil 12 kampüste İngilizce, Almanca, Fransızca, Arapça, İspanyolca, Rusça, Japonca, Korece ve daha pek çok dilde yüz yüze ve online kurs sunan Türkiye'nin önde gelen yabancı dil eğitim merkezlerinden biridir. IELTS, TOEFL, YDS ve YÖKDİL sınavlarına hazırlık programlarının yanı sıra genel İngilizce, akademik İngilizce, iş İngilizcesi, çocuk ve ilköğretim dil kursları ile kurumsal dil eğitimleri verilmektedir.",
   "languageInterestPopup": {
     "title": "Hangi dili öğrenmek istiyorsunuz?",
     "subtitle": "Size özel programı hemen keşfedin",

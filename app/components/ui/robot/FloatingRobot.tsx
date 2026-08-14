@@ -245,7 +245,12 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
     return () => document.removeEventListener("mousedown", handleOutsideClick);
   }, [open]);
 
-  const renderRobotCanvas = (scale = 1.4, isMobilePanel = false, noFall = false) => (
+  const renderRobotCanvas = (
+    scale = 1.4,
+    isMobilePanel = false,
+    noFall = false,
+    onRobotClick?: () => void,
+  ) => (
     <Canvas
       shadows={!isMobilePanel}
       camera={{ position: [0, 0.2, 6], fov: 40 }}
@@ -316,6 +321,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               lovedRef={lovedRef}
               noFall={noFall}
               noBodyMove={isMobilePanel}
+              onRobotClick={onRobotClick}
             >
               {!open && !isMobilePanel && (
                 <Html position={[0, 0.65, 0]} zIndexRange={[100, 0]}>
@@ -364,15 +370,13 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
       ) : (
         <div
           className={styles.robotTrigger}
-          onClick={() => setOpen(true)}
           style={{
             position: "absolute",
             inset: 0,
-            cursor: open ? "default" : "pointer",
             zIndex: 1,
           }}
         >
-          {renderRobotCanvas(1.5, false, true)}
+          {renderRobotCanvas(1.5, false, true, open ? undefined : () => setOpen(true))}
         </div>
       )}
 
