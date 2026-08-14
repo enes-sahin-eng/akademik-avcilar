@@ -14,6 +14,8 @@ export interface GalleryItem {
   photo: {
     url: string;
     text: string;
+    /** img title niteliği icin; verilmezse text kullanilir. */
+    title?: string;
     pos?: string;
     by?: string;
     /** Modaldaki next/image icin gercek boyutlar. Verilmezse 3:2 varsayilir. */
@@ -85,8 +87,16 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
           const relativeAngle = (itemAngle + totalRotation + 360) % 360;
           const normalizedAngle = Math.abs(relativeAngle > 180 ? 360 - relativeAngle : relativeAngle);
           const opacity = Math.max(0.3, 1 - (normalizedAngle / 180));
-          
+
           itemNode.style.opacity = opacity.toString();
+          // 3D-donmus kartlarin gorunmez kenarlari ekranda birbirinin
+          // uzerine binebiliyor; native preserve-3d hit-testing'e guvenmek
+          // yerine on plandaki karta acikca yuksek z-index veriyoruz ve
+          // arka plandaki (goruntude olmayan) kartlarin tiklamayi
+          // calmamasi icin pointer-events kapatiyoruz. Boylece tiklanan
+          // gorsel her zaman gorunen/on plandaki kartla eslesir.
+          itemNode.style.zIndex = Math.round(1000 - normalizedAngle).toString();
+          itemNode.style.pointerEvents = normalizedAngle > 90 ? 'none' : 'auto';
         }
       });
     };
@@ -168,7 +178,14 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
     const handlePointerUp = (e: React.PointerEvent) => {
       if (!isDraggingRef.current) return;
       isDraggingRef.current = false;
-      isInteractingRef.current = false;
+      
+      // Tıklama olayının (click) doğru elemana isabet etmesi için
+      // döndürmeyi (autoRotate) başlatmayı kısa bir süre geciktiriyoruz.
+      // Aksi takdirde mobilde touchend ile click arasında geçen sürede
+      // galeri döner ve yanlış resim açılır.
+      setTimeout(() => {
+        isInteractingRef.current = false;
+      }, 300);
       
       const target = e.target as HTMLElement;
       if (target.releasePointerCapture) {
@@ -239,6 +256,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                     <Image
                       src={item.photo.url}
                       alt={item.photo.text}
+                      title={item.photo.title || item.photo.text}
                       fill
                       className={styles.image}
                       style={{ objectFit: 'cover', objectPosition: item.photo.pos || 'center' }}
@@ -283,6 +301,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   <Image
                     src={selectedItem.photo.url}
                     alt={selectedItem.photo.text}
+                    title={selectedItem.photo.title || selectedItem.photo.text}
                     width={selectedItem.photo.width ?? 1200}
                     height={selectedItem.photo.height ?? 800}
                     sizes="75vw"
