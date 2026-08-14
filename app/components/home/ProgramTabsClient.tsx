@@ -108,14 +108,14 @@ export const ProgramTabsClient = ({ t }: { t: ProgramTabsTranslations }) => {
     {
       id: 3,
       category: "nitelikli",
-      title: "Academic\nİngilizce Kursu",
+      title: "İleri Seviye\nİngilizce Kursu",
       img: "/sliders/gemini3.webp",
       flags: ["🇬🇧"],
     },
     {
       id: 4,
       category: "nitelikli",
-      title: "Academic Plus\nKursu",
+      title: "İleri Seviye Plus\nKursu",
       img: "/sliders/gemini1.webp",
       flags: ["🇬🇧"],
     },
