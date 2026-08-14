@@ -103,7 +103,7 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
                       <Image
                         src={award.image}
                         alt={dict.awardsAlt || `Avcılar Yabancı Dil Okulu Başarı Ödülü ${award.id}`}
-                        title="Avcılar Akademik International Başarı ve Kalite Ödülleri"
+                        title="Avcılar İngilizce Dil Kursu Başarı ve Kalite Ödülleri"
                         width={200}
                         height={200}
                         className={styles.awardImg}
