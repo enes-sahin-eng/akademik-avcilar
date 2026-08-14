@@ -301,6 +301,7 @@ export function RobotPrototype({
   lovedRef,
   noFall = false,
   noBodyMove = false,
+  onRobotClick,
   children,
 }: {
   neckParams?: Record<string, number>;
@@ -314,6 +315,7 @@ export function RobotPrototype({
   lovedRef?: React.MutableRefObject<boolean>;
   noFall?: boolean;
   noBodyMove?: boolean;
+  onRobotClick?: () => void;
   children?: React.ReactNode;
 }) {
   const { viewport, mouse } = useThree();
@@ -531,6 +533,7 @@ export function RobotPrototype({
       onPointerDown={handlePointerDown}
       onPointerOver={() => (document.body.style.cursor = "pointer")}
       onPointerOut={() => (document.body.style.cursor = "auto")}
+      onClick={onRobotClick}
     >
       <mesh castShadow receiveShadow>
         <sphereGeometry args={[0.43, 64, 64, 0, Math.PI * 2, Math.PI * 0.15, Math.PI * 0.85]} />
