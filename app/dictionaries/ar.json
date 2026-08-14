@@ -814,7 +814,26 @@
       "tum": "جميع البرامج",
       "nitelikli": "دورات اللغات المؤهلة",
       "sinav": "دورات الامتحانات الأكاديمية"
-    }
+    },
+    "cards": [
+      { "id": 1, "category": "nitelikli", "title": "برنامج التحضيري\nالأساسي للإنجليزية", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 2, "category": "nitelikli", "title": "برنامج التحضيري بلس\nللإنجليزية", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 3, "category": "nitelikli", "title": "دورة اللغة الإنجليزية\nالمتقدمة", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "دورة المتقدم بلس", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 5, "category": "nitelikli", "title": "دورة اللغة الإنجليزية\nالعامة", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 6, "category": "nitelikli", "title": "دروس إنجليزية خاصة", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "دورة إنجليزية\nللشركات / مؤسسية", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 8, "category": "sinav", "title": "دورة التحضير لامتحان YDS", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 9, "category": "sinav", "title": "دورة التحضير لامتحان\nYKS-DİL (YDT)", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "دورة التحضير\nلامتحان TOEFL", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 11, "category": "sinav", "title": "دورة التحضير\nلامتحان IELTS", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 12, "category": "sinav", "title": "دورة تجاوز\nالتحضيري -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 14, "category": "sinav", "title": "دورة التحضير\nلامتحان جوته الألماني", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
+      { "id": 15, "category": "sinav", "title": "دورة SAT", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "دورة PTE", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 17, "category": "sinav", "title": "دورة TELC", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+    ]
   },
   "heroSlider": {
     "slides": [

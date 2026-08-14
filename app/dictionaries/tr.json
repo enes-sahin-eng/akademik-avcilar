@@ -846,7 +846,26 @@
       "tum": "TÜM PROGRAMLAR",
       "nitelikli": "NİTELİKLİ DİL KURSLARI",
       "sinav": "AKADEMİK SINAV KURSLARI"
-    }
+    },
+    "cards": [
+      { "id": 1, "category": "nitelikli", "title": "Prep Temel\nİngilizce Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 2, "category": "nitelikli", "title": "Prep Plus İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 3, "category": "nitelikli", "title": "İleri Seviye\nİngilizce Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "İleri Seviye Plus\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 5, "category": "nitelikli", "title": "Genel İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 6, "category": "nitelikli", "title": "İngilizce Özel Ders", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 8, "category": "sinav", "title": "YDS Hazırlık Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 9, "category": "sinav", "title": "YKS-DİL (YDT)\nHazırlık Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Hazırlık\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 11, "category": "sinav", "title": "IELTS Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 12, "category": "sinav", "title": "Hazırlık Atlama\nKursu -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 14, "category": "sinav", "title": "Almanca Goethe\nSınavı Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
+      { "id": 15, "category": "sinav", "title": "SAT Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 17, "category": "sinav", "title": "TELC Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+    ]
   },
   "heroSlider": {
     "slides": [

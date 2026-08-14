@@ -820,7 +820,26 @@
       "tum": "ALL PROGRAMS",
       "nitelikli": "QUALIFIED LANGUAGE COURSES",
       "sinav": "ACADEMIC EXAM COURSES"
-    }
+    },
+    "cards": [
+      { "id": 1, "category": "nitelikli", "title": "Prep Basic\nEnglish Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 2, "category": "nitelikli", "title": "Prep Plus English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 3, "category": "nitelikli", "title": "Advanced\nEnglish Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "Advanced Plus\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 5, "category": "nitelikli", "title": "General English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 6, "category": "nitelikli", "title": "Private English Lessons", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Corporate /\nCorporate English\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 8, "category": "sinav", "title": "YDS Preparation Course", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 9, "category": "sinav", "title": "YKS-Language (YDT)\nPreparation Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Preparation\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 11, "category": "sinav", "title": "IELTS Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
+      { "id": 12, "category": "sinav", "title": "Prep Waiver\nCourse -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 14, "category": "sinav", "title": "German Goethe\nExam Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
+      { "id": 15, "category": "sinav", "title": "SAT Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 17, "category": "sinav", "title": "TELC Course", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+    ]
   },
   "heroSlider": {
     "slides": [
