@@ -41,7 +41,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Bursa İngilizce Dil Kursu | Bursa İngilizce Kursu FSM",
     description:
-      "Bursa İngilizce dil kursu olarak bilinen Akademik Yabancı Dil Kursu, özgün kaynakları ve ayrıcalıklı eğitim müfredatı ile hedef dil seviyesine ulaştıran en iyi seçenektir.",
+      "Bursa İngilizce dil kursu olarak bilinen Avcılar İngilizce Dil Kursu, özgün kaynakları ve ayrıcalıklı eğitim müfredatı ile hedef dil seviyesine ulaştıran en iyi seçenektir.",
   };
 
   return {
@@ -117,7 +117,7 @@ export default async function BursaIngilizceDilKursuFsmPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function BursaIngilizceDilKursuFsmPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Bursa FSM",
+                name: "Avcılar İngilizce Dil Kursu Bursa FSM",
                 address:
                   "İhsaniye Mahallesi Can Sokak No:2 Kat:6 16130 Dünya İş Merkezi FSM Nilüfer / BURSA",
               },

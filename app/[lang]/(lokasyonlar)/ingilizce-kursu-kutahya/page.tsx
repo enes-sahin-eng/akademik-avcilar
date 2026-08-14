@@ -40,7 +40,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Kütahya İngilizce Kursu",
     description:
-      "Kütahya İngilizce Kursu olarak Akademik International, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır.",
+      "Kütahya İngilizce Kursu olarak Avcılar İngilizce Dil Kursu, özgün kaynakları ve uzman eğitmen kadrosuyla Kütahya'nın en kaliteli İngilizce dil eğitimini sunmaktadır.",
   };
 
   return {
@@ -114,7 +114,7 @@ export default async function KutahyaIngilizceKursuPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -122,7 +122,7 @@ export default async function KutahyaIngilizceKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kütahya",
+                name: "Avcılar İngilizce Dil Kursu Kütahya",
                 address: "Kütahya",
               },
             },

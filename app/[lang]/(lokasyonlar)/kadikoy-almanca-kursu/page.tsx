@@ -117,7 +117,7 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
               "Yetişkinlere özel olarak hazırlanmış müfredatı, The Academic Publishing kaynakları ve native speaker eğitmenleriyle Kadıköy'de amaca yönelik Almanca eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilarakademik.com.tr",
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kadıköy",
+                name: "Avcılar İngilizce Dil Kursu Kadıköy",
                 address: "Kadıköy, İstanbul",
               },
             },

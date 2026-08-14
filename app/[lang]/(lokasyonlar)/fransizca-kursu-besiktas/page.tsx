@@ -38,7 +38,7 @@ export async function generateMetadata({
         ? "French Course in Besiktas"
         : lang === "ar"
           ? "دورة اللغة الفرنسية في بشكتاش"
-          : "Beşiktaş Fransızca Kursu | Akademik Yabancı Dil Okulları",
+          : "Beşiktaş Fransızca Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn French in Besiktas with native instructors and a 4-skills focused curriculum backed by over a quarter-century of experience."
@@ -119,7 +119,7 @@ export default async function BesiktasFransizcaKursuPage({
               "Beşiktaş şubemizde sertifikalı native eğitmenler eşliğinde konuşma, yazma, okuma ve dinleme olmak üzere 4 temel dil becerisine dayalı Fransızca eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilarakademik.com.tr",
             },
             hasCourseInstance: {
@@ -127,7 +127,7 @@ export default async function BesiktasFransizcaKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Beşiktaş",
+                name: "Avcılar İngilizce Dil Kursu Beşiktaş",
                 address: "Beşiktaş, İstanbul",
               },
             },

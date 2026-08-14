@@ -41,7 +41,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Avcılar İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır.",
+      "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar İngilizce Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır.",
   };
 
   return {
@@ -117,7 +117,7 @@ export default async function AvcilarIngilizceDilKursuPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function AvcilarIngilizceDilKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

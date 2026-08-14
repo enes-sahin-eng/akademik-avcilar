@@ -39,9 +39,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Çorlu İngilizce Kursu | Akademik Yabancı Dil Kursu",
+    title: "Çorlu İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Çorlu İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Çorlu İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -115,7 +115,7 @@ export default async function CorluIngilizceKursuPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -123,7 +123,7 @@ export default async function CorluIngilizceKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Çorlu",
+                name: "Avcılar İngilizce Dil Kursu Çorlu",
                 address:
                   "Muhittin Mah, Fikir Aralığı Sk. NO:5 A, 59850 Çorlu/Tekirdağ",
               },

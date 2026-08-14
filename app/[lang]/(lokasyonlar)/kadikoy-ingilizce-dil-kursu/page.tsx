@@ -42,7 +42,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.kadikoyIngilizceLandingPage?.meta || {
     title: "Kadıköy İngilizce Kursu | Kadıköy İngilizce Dil Kursu",
     description:
-      "Kadıköy İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Kadıköy İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -125,7 +125,7 @@ export default async function KadikoyIngilizceDilKursuPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -133,7 +133,7 @@ export default async function KadikoyIngilizceDilKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kadıköy",
+                name: "Avcılar İngilizce Dil Kursu Kadıköy",
                 address:
                   "Rıhtım Cd. Recaizade Sk. No:2 Kat:3 34716 Kadıköy / İSTANBUL",
               },

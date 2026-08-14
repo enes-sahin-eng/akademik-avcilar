@@ -39,9 +39,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Çekmeköy İngilizce Kursu | Akademik Yabancı Dil Kursu",
+    title: "Çekmeköy İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Çekmeköy İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Çekmeköy İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -117,7 +117,7 @@ export default async function CekmekoyIngilizceKursuPage({
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function CekmekoyIngilizceKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Çekmeköy",
+                name: "Avcılar İngilizce Dil Kursu Çekmeköy",
                 address:
                   "Mehmet Akif, Refah Sk. NO2/6, 34782 Çekmeköy/İstanbul",
               },

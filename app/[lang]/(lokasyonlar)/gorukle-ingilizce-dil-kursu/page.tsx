@@ -39,9 +39,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Görükle İngilizce Kursu | Akademik Yabancı Dil Kursu",
+    title: "Görükle İngilizce Kursu | Avcılar İngilizce Dil Kursu",
     description:
-      "Görükle İngilizce Kursu olarak bilinen Akademik Yabancı Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Görükle İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
   };
 
   return {
@@ -115,7 +115,7 @@ export default async function GorukleIngilizceKursuPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             hasCourseInstance: {
@@ -123,7 +123,7 @@ export default async function GorukleIngilizceKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Görükle",
+                name: "Avcılar İngilizce Dil Kursu Görükle",
                 address:
                   "Görükle, Kardelen Cad. No:12 Kat:1-2 Bikado Plaza, Nilüfer/Bursa",
               },

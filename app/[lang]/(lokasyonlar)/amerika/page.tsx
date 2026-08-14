@@ -40,7 +40,7 @@ export async function generateMetadata({
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Amerika Kampüsü | Amerika'da Eğitim",
     description:
-      "Amerika'da eğitim almak için Akademik International fırsatlarını keşfedin. New York'taki özel uluslararası lisemiz ve akademik hazırlık programlarımızla hayalinizi gerçekleştirin.",
+      "Amerika'da eğitim almak için Avcılar İngilizce Dil Kursu fırsatlarını keşfedin. New York'taki özel uluslararası lisemiz ve akademik hazırlık programlarımızla hayalinizi gerçekleştirin.",
   };
 
   return {
@@ -114,7 +114,7 @@ export default async function AmerikaPage({ params }: PageProps) {
             description: meta.description,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
             areaServed: "United States",
