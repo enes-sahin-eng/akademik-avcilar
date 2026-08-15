@@ -76,9 +76,11 @@ export const HomeArticle = async ({ lang }: Props) => {
             }
             if (item.type === "p") {
               return (
-                <p key={index} className={styles.paragraph}>
-                  {highlightText(item.text)}
-                </p>
+                <p 
+                  key={index} 
+                  className={styles.paragraph}
+                  dangerouslySetInnerHTML={{ __html: item.text }}
+                />
               );
             }
             return null;
