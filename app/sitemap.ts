@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/iletisim",
     "/subelerimiz",
+    "/haftalik-program",
     "/diger-diller",
     // Genel İngilizce
     "/ingilizce-kursu",

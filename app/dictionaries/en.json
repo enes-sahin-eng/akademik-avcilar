@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Top Quality Language Courses",
-    "description": "Guaranteed speaking language education with native and qualified teachers backed by 34 years of experience."
+    "description": "Guaranteed speaking language education with native and qualified teachers."
   },
   "mobileBottomNav": {
     "placement": "Placement",
@@ -1056,50 +1056,50 @@
       "badge": "A1 BEGINNER / STARTER LEVEL"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages we offer to help complete beginners build the right foundation",
+ "advantages": [
+  {
+   "title": "A Safe Start From Zero",
+   "desc": "A step-by-step programme for students with no prior English knowledge or a very basic level, designed to build confidence from day one.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Simple, clear materials designed specifically for beginner level.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Small-group speaking practice gets you forming sentences from your very first weeks.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Reinforce what you learn in class by practising on the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "I Don't Know Any English — Is This Course Right for Me?",
+   "a": "Yes, our Prep programme is designed exactly for students starting from zero, offering a gradual progression from the alphabet to simple sentence building."
+  },
+  {
+   "q": "What Will I Learn at A1 Level?",
+   "a": "In line with the Common European Framework of Reference for Languages (CEFR), you'll learn everyday expressions, simple questions and answers, and basic sentence structures."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, instead of memorising grammar rules, our curriculum develops reading, writing, listening, and speaking simultaneously."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around everyday adult topics and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1179,50 +1179,50 @@
       "badge": "A2 PRE-INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages that help you consolidate the basics and move toward fluency",
+ "advantages": [
+  {
+   "title": "A Bridge From Basics to Fluency",
+   "desc": "A programme that reinforces what you learned at A1 level and helps you build more complex sentences.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials designed for A2 level that expand your vocabulary.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Everyday-life scenarios build your confidence through speaking practice.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Keep practising outside class through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why Prep Plus After Prep?",
+   "a": "Prep Plus reinforces the foundation you built at A1 level and takes you to A2, helping you form more fluent sentences."
+  },
+  {
+   "q": "What Will I Learn at A2 Level?",
+   "a": "In line with CEFR standards, you'll gain past-tense narration, everyday routines, and a wider vocabulary."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a balanced curriculum that develops reading, writing, listening, and speaking together."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current topics and regularly refreshed based on student feedback."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1302,50 +1302,50 @@
       "badge": "B1 INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for intermediate learners who want to gain speed",
+ "advantages": [
+  {
+   "title": "Accelerated Progress",
+   "desc": "An intensive programme that takes B1-level students' reading and speaking skills to the next stage in a short time.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Intermediate-level materials built around current, relevant topics.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Discussion- and presentation-focused speaking practice builds your fluency.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise listening and speaking outside class through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic Express For?",
+   "a": "It's an intensive programme for B1 (intermediate) students who want to quickly consolidate their knowledge and move up a level."
+  },
+  {
+   "q": "What Will I Learn at B1 Level?",
+   "a": "In line with CEFR standards, you'll gain more complex sentence structures, everyday fluency, and basic discussion skills."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a balanced curriculum covering reading, writing, listening, and speaking."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current, relevant topics designed to keep intermediate students engaged."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1395,7 +1395,7 @@
   "academicPage": {
     "about": {
       "title": "Academic Education to Take Your Career to the Top",
-      "desc": "\n<p>We have trained many top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors who have received basic English education but need <strong>higher-level English knowledge</strong>. Our institution offers a quality education that will take you to the next level in your academic career.</p>\n<p>With over 35 years of experience and our senior teachers, we conduct comprehensive <strong>sentence analyses covering technical, legal, medical, commercial, and academic terminology</strong> in our academic classes with our institution-specific publications and our Translation 1 book.</p>\n<p>Our Academic Reading 1 book also provides the detailed uses of <strong>phrasal verbs, phrases, idioms, and collocations</strong>, and <strong>Listening lessons</strong> are held with reading passages covering terminological and current topics.</p>\n<p>In the <strong>Academic Semester</strong>, our students reach a state where they can <strong>express themselves at a high level</strong> with a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs.</p>\n<p>Just as there are differences between the Turkish we speak daily and the Turkish used in business life and the academic community, the same is true for English. <strong>Avcılar English Language Course</strong> Educational Institutions, the first institution to provide <strong>academic English education in Turkey</strong>, is a language academy where you can learn high-level English.</p>\n",
+      "desc": "\n<p>We have trained many top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors who have received basic English education but need <strong>higher-level English knowledge</strong>. Our institution offers a quality education that will take you to the next level in your academic career.</p>\n<p>With years of experience and our senior teachers, we conduct comprehensive <strong>sentence analyses covering technical, legal, medical, commercial, and academic terminology</strong> in our academic classes with our institution-specific publications and our Translation 1 book.</p>\n<p>Our Academic Reading 1 book also provides the detailed uses of <strong>phrasal verbs, phrases, idioms, and collocations</strong>, and <strong>Listening lessons</strong> are held with reading passages covering terminological and current topics.</p>\n<p>In the <strong>Academic Semester</strong>, our students reach a state where they can <strong>express themselves at a high level</strong> with a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs.</p>\n<p>Just as there are differences between the Turkish we speak daily and the Turkish used in business life and the academic community, the same is true for English. <strong>Avcılar English Language Course</strong> Educational Institutions, the first institution to provide <strong>academic English education in Turkey</strong>, is a language academy where you can learn high-level English.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1425,50 +1425,50 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for those aiming for advanced academic and professional English",
+ "advantages": [
+  {
+   "title": "Advanced Terminology",
+   "desc": "Sentence analysis covering technical, legal, medical, and commercial terminology develops your academic and professional English.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "B2-C1 level materials covering phrasal verbs, idioms, and collocations in detail.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Advanced discussion and presentation practice helps you express yourself at a high level.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise academic listening and speaking through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is the Academic Programme For?",
+   "a": "It's designed for students who have completed basic English and need advanced academic or professional English."
+  },
+  {
+   "q": "What Will I Learn at B2-C1 Level?",
+   "a": "In line with CEFR standards, you'll gain the ability to understand complex texts, write academic papers, and build an advanced vocabulary."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a curriculum that develops reading, writing, listening, and speaking together through academic content."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current academic and professional topics and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1548,50 +1548,50 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for those aiming for flawless English and simultaneous interpretation skills",
+ "advantages": [
+  {
+   "title": "Advanced-Level Mastery",
+   "desc": "An intensive programme that helps you use English with near-native fluency at C1-C2 level.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Specially prepared materials covering simultaneous interpretation practice and advanced text analysis.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Advanced discussion and presentation practice geared toward professional settings takes your fluency to its peak.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise advanced listening and interpretation through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic Plus For?",
+   "a": "It's designed for students who have completed C1 level and are aiming for near-native fluency and simultaneous interpretation skills."
+  },
+  {
+   "q": "What Will I Learn at C1-C2 Level?",
+   "a": "In line with CEFR standards, you'll gain the ability to interpret complex academic and professional texts on the spot, with near-flawless language use."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a curriculum that develops reading, writing, listening, and speaking together through advanced-level content."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current international topics and professional scenarios."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1671,50 +1671,50 @@
       ]
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course General English Programmes?",
+ "subtitle": "Advantages we offer across all levels, from A1 to C2",
+ "advantages": [
+  {
+   "title": "A Programme for Every Level",
+   "desc": "We offer a graduated curriculum suited to every student, from complete beginner to advanced.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials developed by native-speaking writers, tailored to each level.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Level-appropriate speaking clubs turn what you learn into real conversations.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Join lessons whenever and wherever you like through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which Level Should I Start From?",
+   "a": "Our free placement test measures your current English level and places you in the most suitable programme."
+  },
+  {
+   "q": "Level-Appropriate Language Programmes",
+   "a": "We teach every level from A1 to C2 in line with CEFR standards."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we go beyond grammar to develop reading, writing, listening, and speaking simultaneously."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current topics designed to keep adult students engaged."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1794,81 +1794,81 @@
   },
   "akademikIngilizceLandingPage": {
     "about": {
-      "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar",
-          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading",
-          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing",
-          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
-          "icon": "Mic"
-        }
-      ],
-      "badge": "A1 BEGINNER / STARTER LEVEL"
-    },
+ "title": "Academic English Course: Gain International-Standard Proficiency",
+ "desc": "\n  <p><strong>Academic English Course</strong> is an advanced-level programme aligned with <strong>Common European Framework of Reference (CEFR)</strong> standards, designed specifically for students preparing for study abroad, an academic career, or international exams (YDS, YÖKDİL, TOEFL, IELTS).</p>\n  <p>Students who apply to our programme are placed in the class best suited to their level based on a free <strong>placement test</strong>. Our Academic English teaching model develops academic <strong>reading and writing</strong>, advanced <strong>grammar</strong>, and exam-focused <strong>speaking and listening</strong> skills simultaneously.</p>\n  <p>Supported by academic articles, terminology-focused resources, and our own original publications, this programme helps you express yourself confidently in academic settings and international exams.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "desc": "Advanced <strong>sentence structures</strong> and patterns frequently used in academic texts are analysed. <strong>B2-C1 level terminology</strong>, complex tense structures, and <strong>grammar rules</strong> are covered in detail to build a solid foundation for academic writing.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "desc": "Through academic articles and <strong>exam-format reading passages</strong>, academic <strong>vocabulary</strong>, terminology, and <strong>text analysis</strong> exercises increase both the speed and depth of your reading comprehension.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing",
+   "desc": "Academic writing rules are put into practice through <strong>English writing exercises</strong>, developing your essay summarising, <strong>critical reading</strong>, and academic sentence-building skills to an international standard.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Interactive <strong>Speaking</strong> and <strong>Listening</strong> practice suited to academic presentation and discussion formats helps you build the confidence to communicate in academic settings.",
+   "icon": "Mic"
+  }
+ ],
+ "badge": "B2-C1 ACADEMIC LEVEL"
+},
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course Academic English?",
+ "subtitle": "Advantages for those aiming for study abroad and an academic career",
+ "advantages": [
+  {
+   "title": "Exam- and Career-Focused Curriculum",
+   "desc": "Targeted content for academic exams like YDS, YÖKDİL, and TOEFL, and for study-abroad processes.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials specially prepared around academic terminology and exam formats.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Speaking practice focused on academic register develops your fluency.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise academic listening and reading through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic English For?",
+   "a": "It's designed for students aiming to study abroad, take academic exams, or pursue an academic career."
+  },
+  {
+   "q": "Level-Appropriate Language Programmes",
+   "a": "In line with CEFR standards, we offer a curriculum tailored to your target academic exam."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a model that develops academic reading, writing, listening, and speaking together."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current academic articles and exam formats and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -2063,31 +2063,31 @@
       "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     },
     "faq": {
-      "title": "Frequently Asked Questions About English Courses",
-      "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
-      "items": [
-        {
-          "q": "How to choose a good English course?",
-          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
-        },
-        {
-          "q": "What teaching methods are applied in English courses?",
-          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Avcılar English Language Course English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
-        },
-        {
-          "q": "What education and experience do teachers in English courses generally have?",
-          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
-        },
-        {
-          "q": "What certificates can I get from an English course?",
-          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
-        },
-        {
-          "q": "How can I enroll in English courses?",
-          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
-        }
-      ]
-    },
+ "title": "Frequently Asked Questions About English Courses",
+ "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
+ "items": [
+  {
+   "q": "How do I choose the right English course for my primary-school-age child?",
+   "a": "When choosing a course for your child, look for an age-specific curriculum, instructors experienced in child pedagogy, play- and activity-based teaching methods, and reasonable class sizes. Taking a trial lesson to see how your child settles in is also helpful."
+  },
+  {
+   "q": "How is English taught to primary school students?",
+   "a": "Instead of traditional grammar-heavy instruction, we use songs, games, drama, and visual materials to create a fun, interactive learning method for primary-school-age children. This approach helps children develop a positive attitude toward the language and turns learning into a natural process."
+  },
+  {
+   "q": "What kind of experience do the primary-level instructors have?",
+   "a": "Our primary-level instructors are experienced in child development and pedagogy, skilled at communicating effectively with children, and able to make lessons enjoyable. They regularly follow up-to-date teaching techniques designed for children."
+  },
+  {
+   "q": "What level will my child reach by the end of the course?",
+   "a": "Depending on your child's age and starting level, they'll progress in line with CEFR standards, gaining basic vocabulary, simple sentence-building, and everyday conversation skills that give them a strong start at the next stage of education."
+  },
+  {
+   "q": "How do I enrol my child in the course?",
+   "a": "You can start by contacting us for a free level assessment. After the assessment, your child is placed in the class best suited to their age and level; enrolment is completed within minutes with identification and contact details."
+  }
+ ]
+},
     "info": {
       "title": "Primary School English Courses - English for Kids",
       "description": [
@@ -2370,126 +2370,126 @@
   },
   "liseIngilizceLandingPage": {
     "about": {
-      "badge": "MIDDLE SCHOOL / LGS PREPARATION",
-      "title": "Become a Global Citizen with High School English Course",
-      "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Avcılar English Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Avcılar English Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Avcılar English Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar",
-          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading",
-          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing",
-          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
-          "icon": "Mic"
-        }
-      ]
-    },
+ "badge": "HIGH SCHOOL / YKS-DİL PREP",
+ "title": "Become a Global Citizen with High School English Course",
+ "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Avcılar English Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Avcılar English Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Avcılar English Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "desc": "Advanced <strong>sentence structures</strong> aligned with the high school curriculum and patterns frequently seen in YKS-DİL are analysed. <strong>B1-B2 level vocabulary</strong>, complex tense structures, and <strong>grammar rules</strong> are covered in detail to build a solid exam-ready foundation.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "desc": "Through reading passages on current topics, academic <strong>vocabulary</strong>, phrasal verbs, and <strong>text analysis</strong> exercises increase your reading comprehension speed and YKS-DİL performance.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing",
+   "desc": "Grammar and vocabulary rules are put into practice through <strong>English writing exercises</strong>, developing your essay writing, <strong>reading comprehension</strong>, and sentence-building skills at high school level.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Interactive <strong>Speaking</strong> and <strong>Listening</strong> practice suited to your level builds your confidence in spoken English, giving you a fluent start to university life.",
+   "icon": "Mic"
+  }
+ ]
+},
     "whyUs": {
-      "title": "Why Choose Avcılar High School English Course?",
-      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
-      "cardTitle": "Level-Appropriate Education",
-      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
-      "btnNext": "Next Privilege →",
-      "faqs": [
-        {
-          "q": "What Does the High School Course Content Include?",
-          "a": "It offers comprehensive language education focusing on enriching vocabulary, advanced grammar, supporting school subjects, preparation for university exams, and speaking practice."
-        },
-        {
-          "q": "What Are the Benefits of This Course?",
-          "a": "It provides high grades in school exams, academic reading comprehension, a solid foundation for international exams like TOEFL/IELTS, and the self-confidence to speak English fluently."
-        }
-      ],
-      "advantages": [
-        {
-          "icon": "Globe",
-          "title": "Education at International Standards",
-          "desc": "English education completed at Avcılar English Language Course is fully compliant with EU standards and the US education system."
-        },
-        {
-          "icon": "MessageCircle",
-          "title": "Intensive Practice Opportunities",
-          "desc": "Beyond the hours determined for each level, we strengthen the language skills of our high school students by offering 20 to 64 hours of additional practice opportunities."
-        },
-        {
-          "icon": "Users",
-          "title": "Age-Specific Classes",
-          "desc": "We classify our high school and college students according to their age groups and enable them to learn English by living it with an education system specific to them."
-        },
-        {
-          "icon": "Target",
-          "title": "Global Communication at an Early Age",
-          "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with our assurance."
-        }
-      ]
-    },
+ "title": "Why Choose Avcılar High School English Course?",
+ "subtitle": "Achieve Success in YKS-DİL and at School with Our Learning Guarantee!",
+ "cardTitle": "Level-Appropriate Education",
+ "cardDesc": "We offer an age-specific curriculum planned according to high school students' current English level (9th, 10th, 11th, and 12th grade).",
+ "btnNext": "Next Privilege →",
+ "faqs": [
+  {
+   "q": "What Does the High School Course Content Include?",
+   "a": "It offers comprehensive language education focusing on enriching vocabulary, advanced grammar, supporting school subjects, preparation for university exams, and speaking practice."
+  },
+  {
+   "q": "What Are the Benefits of This Course?",
+   "a": "It provides high grades in school exams, academic reading comprehension, a solid foundation for international exams like TOEFL/IELTS, and the self-confidence to speak English fluently."
+  }
+ ],
+ "advantages": [
+  {
+   "icon": "Globe",
+   "title": "Education at International Standards",
+   "desc": "English education completed at Avcılar English Language Course is fully compliant with EU standards and the US education system."
+  },
+  {
+   "icon": "MessageCircle",
+   "title": "Intensive Practice Opportunities",
+   "desc": "Beyond the hours determined for each level, we strengthen the language skills of our high school students by offering 20 to 64 hours of additional practice opportunities."
+  },
+  {
+   "icon": "Users",
+   "title": "Age-Specific Classes",
+   "desc": "We classify our high school and college students according to their age groups and enable them to learn English by living it with an education system specific to them."
+  },
+  {
+   "icon": "Target",
+   "title": "Global Communication at an Early Age",
+   "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with our assurance."
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Best Education Model for You",
-      "faceToFace": {
-        "badge": "POPULAR",
-        "title": "Face-to-Face Education",
-        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
-        "features": [
-          "Maximum Lesson Hours",
-          "Speaking Guaranteed Program",
-          "Special Exam Prep",
-          "Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Live and interactive middle school English education from the comfort of your home.",
-        "features": [
-          "Learn English Freely Anywhere",
-          "Speaking Guaranteed Program",
-          "Expert Native and Local Staff",
-          "Online Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      }
-    },
+ "title": "Choose the Best Education Model for You",
+ "faceToFace": {
+  "badge": "POPULAR",
+  "title": "Face-to-Face Education",
+  "desc": "Choose one of our 12 branches across Turkey for interactive lessons with our expert instructors specialised in the high school age group.",
+  "features": [
+   "Maximum Lesson Hours",
+   "Speaking Guaranteed Program",
+   "Special Exam Prep",
+   "Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Live, interactive high school English education with expert instructors, from the comfort of your home.",
+  "features": [
+   "Learn English Freely Anywhere",
+   "Speaking Guaranteed Program",
+   "Expert Native and Local Staff",
+   "Online Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ }
+},
     "hero": {
-      "tag": "HIGH SCHOOL ENGLISH COURSES",
-      "title": "Shape Your Future with High School English Course",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Pre-Info Now!",
-      "whatsappBtn": "Whatsapp Support",
-      "formRibbon": "Pre-Info Form",
-      "formTitle": "FREE ENGLISH!",
-      "formSubtitle": "Speaking Focused English Education!",
-      "namePlaceholder": "Enter Name and Surname",
-      "phonePlaceholder": "Enter GSM Number",
-      "branchPlaceholder": "Select Branch",
-      "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: HIGH SCHOOL",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
-      "formNamePlaceholder": "Enter Name and Surname",
-      "formPhonePlaceholder": "Enter GSM Number",
-      "formBranchPlaceholder": "Select Branch",
-      "formSubmit": "GET INFO NOW!",
-      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
-    },
+ "tag": "HIGH SCHOOL ENGLISH COURSES",
+ "title": "Shape Your Future with High School English Course",
+ "customerServiceBtn": "Contact Customer Service Now!",
+ "infoBtn": "Get Pre-Info Now!",
+ "whatsappBtn": "Whatsapp Support",
+ "formRibbon": "Pre-Info Form",
+ "formTitle": "FREE ENGLISH!",
+ "formSubtitle": "Speaking Focused English Education!",
+ "namePlaceholder": "Enter Name and Surname",
+ "phonePlaceholder": "Enter GSM Number",
+ "branchPlaceholder": "Select Branch",
+ "submitBtn": "GET INFO NOW!",
+ "badge": "CATEGORY: HIGH SCHOOL",
+ "description": "High school is a critical period when students need to both maintain their academic success and build a solid foundation for university entrance exams. As Avcılar English Language Course, we offer a speaking-focused, exam-supported, and interactive English education model for high school students.",
+ "formNamePlaceholder": "Enter Name and Surname",
+ "formPhonePlaceholder": "Enter GSM Number",
+ "formBranchPlaceholder": "Select Branch",
+ "formSubmit": "GET INFO NOW!",
+ "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
+},
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
@@ -2508,127 +2508,127 @@
       ]
     },
     "gradeTabs": {
-      "title": "Specialized Education Program for Middle School Levels",
-      "grades": [
-        {
-          "tabTitle": "5th Grade",
-          "title": "5th Grade English Course Program and Content",
-          "desc": "Our 5th grade English course program is designed to help students transition from beginner to intermediate level. At this level:",
-          "bullets": [
-            "Visual activities for basic vocabulary development",
-            "Dialogue exercises featuring simple daily conversations",
-            "Fun learning environment with English songs and games",
-            "Content supporting school lessons aligned with the curriculum",
-            "Small group activities for speaking practice"
-          ],
-          "summary": "Our 5th grade middle school students permanently learn vocabulary and sentence structures using theatrical techniques. Students who start speaking English with confidence develop a positive attitude towards language learning."
-        },
-        {
-          "tabTitle": "6th Grade",
-          "title": "Developing Communication Skills with 6th Grade English Course",
-          "desc": "Our 6th grade English course program offers a comprehensive educational model that supports students' active language use and aims for the ability to communicate in English in real-life situations. At this level, students learn more complex language structures by developing their ability to communicate in English in daily life. Activities included in our program:",
-          "bullets": [
-            "Themed speaking activities on daily life topics",
-            "Reinforcement of grammar structures with practical applications",
-            "Pronunciation exercises and fluent speaking practice",
-            "Special activities to develop reading comprehension skills",
-            "Development of simple composition and writing skills"
-          ],
-          "summary": "At this level, our students gain increasing confidence in expressing themselves in English. In-class projects and group work enable them to actively use the knowledge they have learned."
-        },
-        {
-          "tabTitle": "7th Grade",
-          "title": "7th Grade English Course and Contribution to Academic Success",
-          "desc": "The 7th grade English course addresses daily speaking proficiency and the language skills necessary for exam success with an integrated approach:",
-          "bullets": [
-            "Comprehensive teaching of more complex grammar structures",
-            "Extended vocabulary exercises",
-            "Preparation for school exams and subject reinforcement",
-            "Analysis and interpretation of authentic texts",
-            "Creative writing projects and presentation skills"
-          ],
-          "summary": "Our 7th grade program ensures that students feel comfortable in their daily use of English while increasing their success at school. At this level, our students experience the real-life use of English with authentic content such as short films and interviews."
-        },
-        {
-          "tabTitle": "8th Grade / LGS",
-          "title": "8th Grade English Course and LGS Preparation Support",
-          "desc": "Our 8th grade English course program supports the LGS exam preparation process while also focusing on the development of practical language skills:",
-          "bullets": [
-            "Question solving techniques and strategies in LGS format",
-            "Comprehensive grammar reviews and reinforcement studies",
-            "Time management in reading comprehension questions",
-            "Motivation techniques to reduce test anxiety",
-            "Advanced speaking and discussion skills"
-          ],
-          "summary": "Our 8th grade students acquire both the academic English necessary for exam success and practical communication skills. In this way, our students are one step ahead with their English proficiency when starting high school education."
-        }
-      ]
-    },
+ "title": "Our Education Programme Tailored to High School Grades",
+ "grades": [
+  {
+   "tabTitle": "9th Grade",
+   "title": "9th Grade English Course: A Strong Start to High School",
+   "desc": "Our 9th grade English course strengthens grammar and vocabulary as students transition from middle school to high school, preparing them for the high school curriculum. At this level:",
+   "bullets": [
+    "Reviewing and reinforcing middle school achievements",
+    "Teaching grammar structures aligned with the high school curriculum",
+    "Expanding academic vocabulary",
+    "Developing comprehension through reading passages",
+    "Building confidence through speaking practice"
+   ],
+   "summary": "Our 9th grade students build a solid foundation in high school English, preparing them for the more complex topics they'll encounter in later years."
+  },
+  {
+   "tabTitle": "10th Grade",
+   "title": "10th Grade English Course: Deepening Grammar Mastery",
+   "desc": "Our 10th grade English course aims to strengthen students' command of grammar while developing fluent speaking skills. The activities in our programme include:",
+   "bullets": [
+    "Teaching advanced tense patterns and sentence structures",
+    "Reading comprehension activities built on current topics",
+    "Discussion and opinion-sharing speaking activities",
+    "Developing essay-writing techniques",
+    "Authentic content to strengthen listening skills"
+   ],
+   "summary": "Our 10th grade students deepen their grammar knowledge while learning to express themselves more comfortably on everyday and academic topics."
+  },
+  {
+   "tabTitle": "11th Grade",
+   "title": "11th Grade English Course: An Introduction to Exam Preparation",
+   "desc": "Our 11th grade English course develops everyday language use while building the foundational skills needed for exams like YKS-DİL, TOEFL, and IELTS:",
+   "bullets": [
+    "Reading and listening exercises introducing exam formats",
+    "Introducing academic writing techniques",
+    "Extended vocabulary and idiom study",
+    "An introduction to time management and question-solving strategies",
+    "Advanced discussion and presentation skills"
+   ],
+   "summary": "Our 11th grade programme offers a transition period that supports both school success and future exam goals."
+  },
+  {
+   "tabTitle": "12th Grade / YKS-DİL",
+   "title": "12th Grade English Course and YKS-DİL Exam Preparation",
+   "desc": "Our 12th grade English course provides intensive preparation for the YKS-DİL (YDT) exam while building the language proficiency needed for university life:",
+   "bullets": [
+    "Question-solving techniques and strategies in YKS-DİL format",
+    "Comprehensive grammar reviews and mock exams",
+    "Time management for reading comprehension questions",
+    "Motivation techniques that reduce exam anxiety",
+    "Advanced academic vocabulary and translation practice"
+   ],
+   "summary": "Our 12th grade students become ready for both the YKS-DİL exam and the academic English they'll encounter at university."
+  }
+ ]
+},
     "seoContent": [
-      {
-        "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
-        "bullets": [
-          "At least 20 minutes of English speaking practice in each lesson",
-          "Natural learning process similar to native language education",
-          "Culture of learning by making mistakes without fear",
-          "Dialogues from daily life and real communication scenarios",
-          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
-        ],
-        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
-      },
-      {
-        "title": "Middle School English Course Prices and Education Options",
-        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
-        "bullets": [
-          "Regular weekday programs (2-3 days a week)",
-          "Intensive weekend programs",
-          "One-on-one private lesson opportunities",
-          "Online middle school English course option",
-          "Accelerated summer programs"
-        ],
-        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
-      },
-      {
-        "title": "Things to Consider When Choosing the Best Middle School English Course",
-        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
-        "bullets": [
-          "Qualifications and experience of the teachers",
-          "Class sizes and personalized attention opportunities",
-          "Education methodology and materials used",
-          "Measurement-evaluation system and regular feedback",
-          "Success of graduated students and parent satisfaction",
-          "Physical environment and technological infrastructure",
-          "Ease of transportation and security"
-        ],
-        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
-      },
-      {
-        "title": "Advantages of Online Middle School English Course",
-        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
-        "bullets": [
-          "Saving time and travel",
-          "High-quality education in the comfort of home",
-          "Content enriched with interactive digital materials",
-          "Opportunity to watch again with recorded lessons",
-          "Interactive learning with various digital tools",
-          "Hybrid education option (online + face-to-face)"
-        ],
-        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
-      },
-      {
-        "title": "English Summer Course: Language Development During School Holidays",
-        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
-        "bullets": [
-          "Intensive and fun education program",
-          "English camps and activities in nature",
-          "Thematic weekly programs (music, sports, technology, art)",
-          "Cultural exchange with foreign instructors",
-          "Project-based learning and group work"
-        ],
-        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
-      }
-    ]
+ {
+  "title": "Speaking-Focused High School English Course: No-Memorisation Language Education",
+  "desc": "What sets Avcılar English Language Course apart from other high school English courses is our innovative teaching approach that prioritises communication skills. Unlike traditional rote-learning methods:",
+  "bullets": [
+   "At least 20 minutes of English speaking practice in every lesson",
+   "A natural learning process similar to first-language acquisition",
+   "A learning culture that embraces making mistakes fearlessly",
+   "Everyday dialogues and real communication scenarios",
+   "Holistic progress across all 4 language skills while preparing for YKS-DİL"
+  ],
+  "summary": "With our communication-based teaching system, our high school students turn English from an exam-focused subject into a real communication tool that helps them both at school and in the university entrance exam."
+ },
+ {
+  "title": "High School English Course Prices and Education Options",
+  "desc": "High school English course prices generally range between ₺8,500 and ₺42,000. This range varies depending on the programme type chosen (general English or YKS-DİL prep), lesson intensity, and course duration. Our prices are shaped by the high standards of our education and our students' exam success rates. We offer a range of options tailored to each student's individual learning style:",
+  "bullets": [
+   "Regular weekday programmes (2-3 days a week)",
+   "Intensive weekend programmes",
+   "One-on-one private lessons",
+   "Online high school English course option",
+   "Intensive YKS-DİL-specific prep programmes"
+  ],
+  "summary": "Contact our English course centres in Istanbul (Avcılar, Beylikdüzü, etc.), Bursa, Izmir, Eskişehir, and Kocaeli for current pricing and payment options. Don't miss advantages like early enrolment and sibling discounts."
+ },
+ {
+  "title": "What to Look for When Choosing the Best High School English Course",
+  "desc": "We recommend paying attention to the following criteria when choosing the best high school English course for your child:",
+  "bullets": [
+   "Instructor qualifications and experience",
+   "Class sizes and opportunities for individual attention",
+   "Curriculum and materials suited to YKS-DİL prep",
+   "Assessment systems and regular mock exams",
+   "Graduates' university placement success",
+   "Physical environment and technological infrastructure",
+   "Ease of access and safety"
+  ],
+  "summary": "As Avcılar English Language Course, we meet the highest standards across all these criteria. Our students' school and exam success is our greatest reference."
+ },
+ {
+  "title": "Advantages of the Online High School English Course",
+  "desc": "Increasingly popular thanks to advances in education technology, our online high school English course offers many advantages:",
+  "bullets": [
+   "Saves time and travel",
+   "High-quality education in the comfort of home",
+   "Content enriched with interactive digital materials",
+   "Recorded lessons available for replay",
+   "Interactive learning through various digital tools",
+   "Hybrid education option (online + face-to-face)"
+  ],
+  "summary": "We apply our interactive, exam-focused teaching model to online lessons too, achieving high efficiency in remote education."
+ },
+ {
+  "title": "English Summer Course: YKS-DİL Prep During School Break",
+  "desc": "Our English summer course programmes, designed specifically for high school students, are an ideal opportunity for those who want to spend their school break productively:",
+  "bullets": [
+   "Intensive, YKS-DİL-focused education programme",
+   "Mock exams and question-solving camps",
+   "Themed weekly programmes (academic writing, speaking club)",
+   "Cultural exchange with native instructors",
+   "Project-based learning and group work"
+  ],
+  "summary": "Our summer courses blend productive study with enjoyable activities, helping our students both enjoy their break and start the new academic year — and YKS-DİL prep — with stronger language skills."
+ }
+]
   },
   "ozelDersLandingPage": {
     "about": {
@@ -2666,100 +2666,100 @@
       ]
     },
     "whyUs": {
-      "title": "Why Private English Lessons?",
-      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
-      "cardTitle": "Level-Appropriate Education",
-      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
-      "btnNext": "Next Privilege →",
-      "faqs": [
-        {
-          "q": "Why Private English Lessons?",
-          "a": "In private English lessons, the education is completely shaped according to the student's needs and goals. The teacher evaluates the student's current language level and creates a learning plan accordingly. This allows focusing on areas such as grammar, vocabulary, reading, writing, listening and speaking skills."
-        },
-        {
-          "q": "Who is Suitable for Private English Lessons?",
-          "a": "It is suitable for students who want to get support in school subjects or prepare for academic exams, professionals who want to improve their English language skills in business life, travelers, and anyone who sees language learning as a hobby."
-        },
-        {
-          "q": "How are the Lessons Conducted?",
-          "a": "Private English lessons are shaped according to the student's level and goals. A comprehensive learning experience is offered by focusing on grammar, vocabulary, reading, writing, listening, and speaking skills."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The institution that created a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification for the first time in Turkey.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Clubs where our students develop their speaking skills with activities and events suitable for their age group.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Private English Lessons?",
+ "subtitle": "Individual Education Tailored to You, with a Learning Guarantee!",
+ "cardTitle": "Level-Appropriate Education",
+ "cardDesc": "We offer a fully personalised, one-on-one lesson plan based on the student's current level and goals.",
+ "btnNext": "Next Privilege →",
+ "faqs": [
+  {
+   "q": "Why Private English Lessons?",
+   "a": "In private English lessons, the education is completely shaped according to the student's needs and goals. The teacher evaluates the student's current language level and creates a learning plan accordingly. This allows focusing on areas such as grammar, vocabulary, reading, writing, listening and speaking skills."
+  },
+  {
+   "q": "Who is Suitable for Private English Lessons?",
+   "a": "It is suitable for students who want to get support in school subjects or prepare for academic exams, professionals who want to improve their English language skills in business life, travelers, and anyone who sees language learning as a hobby."
+  },
+  {
+   "q": "How are the Lessons Conducted?",
+   "a": "Private English lessons are shaped according to the student's level and goals. A comprehensive learning experience is offered by focusing on grammar, vocabulary, reading, writing, listening, and speaking skills."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "A Fully Personalised Programme",
+   "desc": "Lessons are planned entirely around the student's level, goals, and pace.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Lesson Hours",
+   "desc": "Take lessons whenever suits your busy work or school schedule.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "One-on-One Speaking Practice",
+   "desc": "Intensive one-on-one speaking practice with your teacher helps you progress quickly.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Join lessons whenever and wherever you like through Turkey's most interactive, comprehensive online language platform, Letslingo.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Best Education Model for You",
-      "faceToFace": {
-        "badge": "POPULAR",
-        "title": "Face-to-Face Education",
-        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
-        "features": [
-          "Maximum Lesson Hours",
-          "Speaking Guaranteed Program",
-          "Special Exam Prep",
-          "Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Live and interactive middle school English education from the comfort of your home.",
-        "features": [
-          "Learn English Freely Anywhere",
-          "Speaking Guaranteed Program",
-          "Expert Native and Local Staff",
-          "Online Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      }
-    },
+ "title": "Choose the Best Education Model for You",
+ "faceToFace": {
+  "badge": "POPULAR",
+  "title": "Face-to-Face Education",
+  "desc": "Choose one of our 12 branches across Turkey and take one-on-one lessons tailored specifically to you with our expert instructors.",
+  "features": [
+   "Maximum Lesson Hours",
+   "Speaking Guaranteed Program",
+   "Special Exam Prep",
+   "Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Live, one-on-one online private lessons with expert instructors, from the comfort of your home.",
+  "features": [
+   "Learn English Freely Anywhere",
+   "Speaking Guaranteed Program",
+   "Expert Native and Local Staff",
+   "Online Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ }
+},
     "hero": {
-      "tag": "PRIVATE ENGLISH LESSONS",
-      "title": "Private English Lessons",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Pre-Info Now!",
-      "whatsappBtn": "Whatsapp Support",
-      "formRibbon": "Pre-Info Form",
-      "formTitle": "FREE ENGLISH!",
-      "formSubtitle": "Tailor-made One-on-One English Training!",
-      "namePlaceholder": "Enter Name and Surname",
-      "phonePlaceholder": "Enter GSM Number",
-      "branchPlaceholder": "Select Branch",
-      "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: PRIVATE LESSON",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
-      "formNamePlaceholder": "Enter Name and Surname",
-      "formPhonePlaceholder": "Enter GSM Number",
-      "formBranchPlaceholder": "Select Branch",
-      "formSubmit": "GET INFO NOW!",
-      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use.",
-      "subtitle": "One-on-one English training tailored to your needs."
-    },
+ "tag": "PRIVATE ENGLISH LESSONS",
+ "title": "Private English Lessons",
+ "customerServiceBtn": "Contact Customer Service Now!",
+ "infoBtn": "Get Pre-Info Now!",
+ "whatsappBtn": "Whatsapp Support",
+ "formRibbon": "Pre-Info Form",
+ "formTitle": "FREE ENGLISH!",
+ "formSubtitle": "Tailor-made One-on-One English Training!",
+ "namePlaceholder": "Enter Name and Surname",
+ "phonePlaceholder": "Enter GSM Number",
+ "branchPlaceholder": "Select Branch",
+ "submitBtn": "GET INFO NOW!",
+ "badge": "CATEGORY: PRIVATE LESSON",
+ "description": "Every student learns at a different pace and has different goals. As Avcılar English Language Course, our one-on-one private lessons offer a fully personalised, flexible, and goal-oriented English learning experience.",
+ "formNamePlaceholder": "Enter Name and Surname",
+ "formPhonePlaceholder": "Enter GSM Number",
+ "formBranchPlaceholder": "Select Branch",
+ "formSubmit": "GET INFO NOW!",
+ "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use.",
+ "subtitle": "One-on-one English training tailored to your needs."
+},
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
@@ -2831,70 +2831,70 @@
       ]
     },
     "seoContent": [
-      {
-        "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
-        "bullets": [
-          "At least 20 minutes of English speaking practice in each lesson",
-          "Natural learning process similar to native language education",
-          "Culture of learning by making mistakes without fear",
-          "Dialogues from daily life and real communication scenarios",
-          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
-        ],
-        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
-      },
-      {
-        "title": "Middle School English Course Prices and Education Options",
-        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
-        "bullets": [
-          "Regular weekday programs (2-3 days a week)",
-          "Intensive weekend programs",
-          "One-on-one private lesson opportunities",
-          "Online middle school English course option",
-          "Accelerated summer programs"
-        ],
-        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
-      },
-      {
-        "title": "Things to Consider When Choosing the Best Middle School English Course",
-        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
-        "bullets": [
-          "Qualifications and experience of the teachers",
-          "Class sizes and personalized attention opportunities",
-          "Education methodology and materials used",
-          "Measurement-evaluation system and regular feedback",
-          "Success of graduated students and parent satisfaction",
-          "Physical environment and technological infrastructure",
-          "Ease of transportation and security"
-        ],
-        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
-      },
-      {
-        "title": "Advantages of Online Middle School English Course",
-        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
-        "bullets": [
-          "Saving time and travel",
-          "High-quality education in the comfort of home",
-          "Content enriched with interactive digital materials",
-          "Opportunity to watch again with recorded lessons",
-          "Interactive learning with various digital tools",
-          "Hybrid education option (online + face-to-face)"
-        ],
-        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
-      },
-      {
-        "title": "English Summer Course: Language Development During School Holidays",
-        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
-        "bullets": [
-          "Intensive and fun education program",
-          "English camps and activities in nature",
-          "Thematic weekly programs (music, sports, technology, art)",
-          "Cultural exchange with foreign instructors",
-          "Project-based learning and group work"
-        ],
-        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
-      }
-    ],
+ {
+  "title": "Speaking-Focused Private Lessons: No-Memorisation Language Education",
+  "desc": "What sets us apart from other private lesson options is our innovative teaching approach that prioritises communication skills. Unlike traditional rote-learning methods:",
+  "bullets": [
+   "Intensive one-on-one English speaking practice in every lesson",
+   "A natural learning process similar to first-language acquisition",
+   "A learning culture that embraces making mistakes fearlessly",
+   "Dialogues and scenarios tailored to your everyday life",
+   "Holistic progress across all 4 language skills"
+  ],
+  "summary": "With our communication-based teaching system, our private lesson students turn English from an exam-focused subject into a real communication tool geared toward their own goals."
+ },
+ {
+  "title": "Private English Lesson Prices and Education Options",
+  "desc": "Private English lesson prices generally vary based on an hourly rate, and depend on lesson frequency, your level, and your goal. Our prices are shaped by the high standards of our education and our students' success rates. We offer a range of options tailored to each student's individual learning style:",
+  "bullets": [
+   "Regular weekly one-on-one lessons",
+   "Intensive fast-progress packages",
+   "One-on-one lessons specifically for business English",
+   "Online private lesson option",
+   "Intensive programmes specifically for exam prep"
+  ],
+  "summary": "Contact our branches in Istanbul (Avcılar, Beylikdüzü, etc.), Bursa, Izmir, Eskişehir, and Kocaeli for current pricing and payment options."
+ },
+ {
+  "title": "What to Look for When Choosing the Best Private English Tutor",
+  "desc": "We recommend paying attention to the following criteria when choosing the best private tutor for you:",
+  "bullets": [
+   "The tutor's qualifications and experience",
+   "Ability to design a programme specific to your goal",
+   "Teaching methodology and materials used",
+   "Assessment systems and regular feedback",
+   "Previous students' success and satisfaction",
+   "Flexibility and adapting to your schedule",
+   "Online or face-to-face lesson options"
+  ],
+  "summary": "As Avcılar English Language Course, we meet the highest standards across all these criteria. Our students' success is our greatest reference."
+ },
+ {
+  "title": "Advantages of Online Private English Lessons",
+  "desc": "Increasingly popular thanks to advances in education technology, our online private lesson option offers many advantages:",
+  "bullets": [
+   "Saves time and travel",
+   "High-quality education in the comfort of home",
+   "Content enriched with interactive digital materials",
+   "Recorded lessons available for replay",
+   "Interactive learning through various digital tools",
+   "Hybrid education option (online + face-to-face)"
+  ],
+  "summary": "We apply our one-on-one, interactive teaching model to online lessons too, achieving high efficiency in remote education."
+ },
+ {
+  "title": "Intensive Private English Lesson Packages: Fast Progress",
+  "desc": "Our intensive lesson packages, designed specifically for those who want to make noticeable progress in a short time, are an ideal opportunity to reach your goals on a limited timeline:",
+  "bullets": [
+   "An intensive, goal-focused lesson programme",
+   "Rapid prep before travel, a job interview, or an exam",
+   "Weekly progress tracking and personal feedback",
+   "Intensive one-on-one practice with an expert instructor",
+   "Flexible lesson frequency based on your needs"
+  ],
+  "summary": "Our intensive packages blend goal-focused study with a flexible schedule, helping you make maximum progress in limited time."
+ }
+],
     "meta": {
       "title": "Private English Lessons"
     }
@@ -3807,7 +3807,7 @@
       ],
       "description": "Reach the university and foreign language department of your dreams without losing time, with Turkey's established and experienced YKS-Dil YDT Preparation Course.",
       "features": [
-        "Over 15 years of exam preparation experience as an established institution in Turkey.",
+        "Exam preparation experience as an established institution in Turkey.",
         "Placement in the most suitable group through a free level assessment exam.",
         "Exam-specific, up-to-date lecture sets, question banks, and leaf tests.",
         "Schedule planning across 2 separate options: weekdays and weekends."
@@ -3959,7 +3959,7 @@
     "seoContent": [
       {
         "title": "Don't Lose Time with the Best YKS-Dil YDT Preparation Course",
-        "desc": "YKS-DİL YDT is a bridging exam that leads candidates who want to choose foreign language departments in universities to their targets. Serving as an established institution in Turkey for over 15 years, Avcılar English Language Course continues to bring you directly to success in a single attempt, guided by expert instructors and original publications.",
+        "desc": "YKS-DİL YDT is a bridging exam that leads candidates who want to choose foreign language departments in universities to their targets. Serving as an established institution in Turkey, Avcılar English Language Course continues to bring you directly to success in a single attempt, guided by expert instructors and original publications.",
         "bullets": [
           "Placement in the most suitable group through a free level placement exam",
           "Proprietary, up-to-date lecture sets, question banks, and leaf tests",
@@ -4709,7 +4709,7 @@
       "badge": "CATEGORY: ACADEMIC EXAM COURSES",
       "description": "Prepare at a macro level specifically for Social, Science, and Health Sciences with our professional teachers who scored full marks on the YÖKDİL exam.",
       "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
-      "subtitle": "Reach Your Goal with Over 37 Years of Experience!"
+      "subtitle": "Reach Your Goal with Our Years of Experience!"
     },
     "about": {
       "badge": "ACADEMIC EXPERTISE",
@@ -4737,7 +4737,7 @@
           "desc": "Rapidly increasing your net scores with time management and practical question-solving strategies under the guidance of our expert instructors."
         }
       ],
-      "description": "As Avcılar English Language Course, we prepare you in the most equipped manner for the YÖKDİL marathon with over 37 years of educational experience.",
+      "description": "As Avcılar English Language Course, we prepare you in the most equipped manner for the YÖKDİL marathon with years of educational experience.",
       "features": [
         "Classes specialized specifically for the candidate's field of expertise (Science, Social, Health).",
         "Expert and experienced teaching staff who have achieved full scores on the YÖKDİL exam.",
@@ -4747,7 +4747,7 @@
     },
     "whyUs": {
       "title": "Why Avcılar English Language Course YÖKDİL Course?",
-      "subtitle": "37 Years of Experience and High Success Rate",
+      "subtitle": "Years of Experience and High Success Rate",
       "cardTitle": "Instructors with Full Scores",
       "cardDesc": "We work with a professional team that takes YÖKDİL in every exam period, analyzes current question types, and achieves full scores.",
       "btnNext": "Our Other Advantages →",
@@ -4768,7 +4768,7 @@
       "advantages": [
         {
           "title": "Deep-Rooted Experience",
-          "desc": "An educational vision that immediately adapts to changing exam systems with over 37 years of educational experience.",
+          "desc": "An educational vision that immediately adapts to changing exam systems, backed by years of educational experience.",
           "icon": "Award"
         },
         {
@@ -4891,8 +4891,8 @@
     },
     "seoContent": [
       {
-        "title": "37 Years of Experience for YÖKDİL Success",
-        "desc": "Success in the YÖKDİL exam, which is of great importance for associate professorship, doctorate, master's programs, and research assistant selection procedures, comes not only with general English knowledge, but with mastery over exam mathematics. With over 37 years of educational experience and our expert staff following changing exam systems closely, we prepare you completely for this critical marathon.",
+        "title": "Years of Experience Behind YÖKDİL Success",
+        "desc": "Success in the YÖKDİL exam, which is of great importance for associate professorship, doctorate, master's programs, and research assistant selection procedures, comes not only with general English knowledge, but with mastery over exam mathematics. With years of educational experience and our expert staff following changing exam systems closely, we prepare you completely for this critical marathon.",
         "bullets": [
           "Professional instructors who personally take the exam and achieve full scores",
           "Subject explanations specialized for Social, Science, and Health Sciences fields",
@@ -6123,49 +6123,49 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for the Kadıköy German Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you solve textbook exercises, it gets you speaking. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should be considered when looking for a German course recommendation in Istanbul?",
-          "a": "Look for native speaker instructors, targeted training (exams, business, communication), up-to-date materials, high success rates, and institution-specific flexible program options."
-        },
-        {
-          "q": "Are classroom trainings active enough?",
-          "a": "Yes, our educational approach at our Kadıköy branch aims for active class participation and practical language usage rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program for you and offer a goal-oriented education guarantee."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff who are native German speakers with certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "The opportunity to start your education without losing time waiting for quotas to fill or a new term to begin.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "After-hours evening programs or weekend morning/afternoon groups for working individuals.",
-          "icon": "Monitor",
-          "href": "/korece-dil-kursu"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "The chance to closely get to know German culture through extracurricular activities, not just the language.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for the Kadıköy German Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Kadıköy German branch, our goal isn't rote memorisation — it's getting you speaking German in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing a German course in Kadıköy?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Kadıköy German branch meets all of these."
+  },
+  {
+   "q": "Are classroom trainings active enough?",
+   "a": "Yes, our educational approach at our Kadıköy branch aims for active class participation and practical language usage rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Yes, our teaching approach at our Kadıköy branch focuses on active participation and practical language use rather than passive listening."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native German speakers, at our Kadıköy branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your German education at our Kadıköy branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor",
+   "href": "/korece-dil-kursu"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience German culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -6541,7 +6541,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: FRENCH LANGUAGE EDUCATION",
-      "description": "Learn French, popular both as a native and second language, at our Beşiktaş branch with our experience of over a quarter-century, certified native instructors, and an education model based on 4 core skills.",
+      "description": "Learn French, popular both as a native and second language, at our Beşiktaş branch with our experienced, certified native instructors and an education model based on 4 core skills.",
       "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
       "subtitle": "One-on-One Private Lessons and Group Lesson Options!"
     },
@@ -6571,7 +6571,7 @@
           "desc": "Fully comprehending daily dialogues and academic French auditorily."
         }
       ],
-      "description": "Academic Foreign Language Schools does not leave you alone in your language learning journey, having evolved from the past to the present with over a quarter-century of experience.",
+      "description": "Avcılar English Language Course does not leave you alone in your language learning journey, having evolved from the past to the present with years of experience.",
       "features": [
         "Certified native teachers and expert teaching staff with pedagogical formation.",
         "Education in 4 core language skills: speaking, writing, reading, and listening.",
@@ -6582,8 +6582,8 @@
     "whyUs": {
       "title": "Why Choose Us for the Beşiktaş French Course?",
       "subtitle": "Number One on Recommendation Lists",
-      "cardTitle": "A Quarter-Century of Experience",
-      "cardDesc": "Ranking number one on the Beşiktaş French Course recommendation list, Academic Foreign Language Schools has been the center of qualified language education for over 25 years.",
+      "cardTitle": "Our Experienced Teaching Staff",
+      "cardDesc": "Ranking number one on the Beşiktaş French Course recommendation list, Avcılar English Language Course is a center of qualified language education.",
       "btnNext": "Our Other Advantages →",
       "faqs": [
         {
@@ -6659,7 +6659,7 @@
         },
         {
           "q": "Why are you ranked first in course recommendations?",
-          "a": "Thanks to our experience of over a quarter-century, our 4-skill-focused education model that does not separate language and culture, and our certified native instructors, we rank first on Beşiktaş French course recommendation lists."
+          "a": "Thanks to our experienced staff, our 4-skill-focused education model that does not separate language and culture, and our certified native instructors, we rank first on Beşiktaş French course recommendation lists."
         },
         {
           "q": "I want to take one-on-one private lessons, how is the program arranged?",
@@ -8515,72 +8515,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "The Best German Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn German naturally and effectively in small, 4-6 person classes away from crowds, receiving private-lesson quality education.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is the language requirement for family reunification applicable to everyone?",
-          "a": "While there is a minimum age limit of 18, it is mandatory in principle. However, there are certain integration requirement exceptions and exemptions for individuals with university degrees (bachelor's, etc.), refugee status, or spouses of EU citizens."
-        },
-        {
-          "q": "How many students are in your classes?",
-          "a": "In order to maximize education quality at our branches, we implement a VIP class concept of 4-6 people with private tutoring quality."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Placement",
-          "desc": "Your level is measured before starting education, and you are placed in the program most suitable for you.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Up-to-date and qualified foreign language resources aligned with our well-established institution's educational model.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Turkish Grammar Advantage",
-          "desc": "Rapidly instilling German grammar logic by leveraging students' mastery of Turkish grammar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "Formal classroom lessons, one-on-one private lessons, or online education options according to your needs.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "The Best German Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn German naturally and effectively in small, 4-6 person classes away from crowds, receiving private-lesson quality education.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is the language requirement for family reunification applicable to everyone?",
+   "a": "While there is a minimum age limit of 18, it is mandatory in principle. However, there are certain integration requirement exceptions and exemptions for individuals with university degrees (bachelor's, etc.), refugee status, or spouses of EU citizens."
+  },
+  {
+   "q": "How many students are in your classes?",
+   "a": "In our German classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Placement",
+   "desc": "Your level is measured before starting your German course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified German resources aligned with the Goethe and TestDaF exam formats.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Turkish Grammar Advantage",
+   "desc": "Rapidly instilling German grammar logic by leveraging students' mastery of Turkish grammar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online German course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Education Model Most Suitable for You",
-      "faceToFace": {
-        "title": "Formal (Face-to-Face) Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes of 4-6 people at our Istanbul (Kadikoy, Besiktas), Izmir, Ankara, Bursa, and Eskisehir campuses.",
-        "features": [
-          "VIP Class (4-6 People)",
-          "Instant Error Correction and Practice",
-          "Peer Interaction (Dialogue)",
-          "One-on-One Attention with Expert Instructor"
-        ],
-        "btnWhatsapp": "WhatsApp Information Line",
-        "btnForm": "Pre-Information Form"
-      },
-      "online": {
-        "title": "Online (Distance) Education",
-        "desc": "Complete your language education in your own comfort zone, without losing time, via our interactive digital platforms.",
-        "features": [
-          "Live and Interactive Lessons",
-          "Online One-on-One (Private Lesson) Opportunity",
-          "Instant Access to Digital Publications",
-          "Freedom of Time and Location"
-        ],
-        "btnWhatsapp": "WhatsApp Information Line",
-        "btnForm": "Pre-Information Form"
-      }
-    },
+ "title": "Choose the Education Model Most Suitable for You",
+ "faceToFace": {
+  "title": "Formal (Face-to-Face) Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes of 4-6 people at our Istanbul (Kadikoy, Besiktas), Izmir, Ankara, Bursa, and Eskisehir campuses.",
+  "features": [
+   "VIP Class (4-6 People)",
+   "Instant Error Correction and Practice",
+   "Peer Interaction (Dialogue)",
+   "One-on-One Attention with Expert Instructor"
+  ],
+  "btnWhatsapp": "WhatsApp Information Line",
+  "btnForm": "Pre-Information Form"
+ },
+ "online": {
+  "title": "Online (Distance) Education",
+  "desc": "Complete your German education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live and Interactive Lessons",
+   "Online One-on-One (Private Lesson) Opportunity",
+   "Instant Access to Digital Publications",
+   "Freedom of Time and Location"
+  ],
+  "btnWhatsapp": "WhatsApp Information Line",
+  "btnForm": "Pre-Information Form"
+ }
+},
     "faq": {
       "title": "Frequently Asked Questions About German Education and Processes",
       "items": [
@@ -10226,7 +10226,7 @@
       },
       {
         "title": "Most Recommended Turkish Course Experience",
-        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Avcılar English Language Course has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
+        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with years of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Avcılar English Language Course has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
       }
     ],
     "whyUs": {
@@ -10904,72 +10904,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course Language Schools?",
-      "subtitle": "Best Spanish Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn Spanish naturally in small 4-6 person VIP classes with personal attention.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is Spanish difficult to learn?",
-          "a": "No, Spanish belongs to the Romance language family and has a very regular grammar structure. It is one of the easiest languages to learn."
-        },
-        {
-          "q": "How many students per class?",
-          "a": "We apply VIP class concepts with 4-6 students for maximum education quality."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Assessment",
-          "desc": "Your level is measured before starting and you are placed in the most suitable program.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Up-to-date and quality foreign language resources.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Easy Grammar",
-          "desc": "Romance language family enables Turkish students to grasp Spanish grammar quickly.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "In-class, private, or online education options.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course Language Schools?",
+ "subtitle": "Best Spanish Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn Spanish naturally in small 4-6 person VIP classes with personal attention.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is Spanish difficult to learn?",
+   "a": "No, Spanish belongs to the Romance language family and has a very regular grammar structure. It is one of the easiest languages to learn."
+  },
+  {
+   "q": "How many students per class?",
+   "a": "In our Spanish classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Assessment",
+   "desc": "Your level is measured before starting your Spanish course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified Spanish resources aligned with the DELE exam format.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Easy Grammar",
+   "desc": "Romance language family enables Turkish students to grasp Spanish grammar quickly.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online Spanish course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Education Model That Suits You",
-      "faceToFace": {
-        "title": "In-Person Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes of 4-6 students at our campuses.",
-        "features": [
-          "VIP Class (4-6 Students)",
-          "Instant Error Correction",
-          "Peer Interaction (Dialogue)",
-          "Expert Instructor Attention"
-        ],
-        "btnWhatsapp": "WhatsApp Info Line",
-        "btnForm": "Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Complete your education in the comfort of your own space with our interactive digital platforms.",
-        "features": [
-          "Live Interactive Classes",
-          "Online Private Lessons",
-          "Instant Digital Resource Access",
-          "Time and Location Freedom"
-        ],
-        "btnWhatsapp": "WhatsApp Info Line",
-        "btnForm": "Info Form"
-      }
-    },
+ "title": "Choose the Education Model That Suits You",
+ "faceToFace": {
+  "title": "In-Person Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes of 4-6 students at our campuses.",
+  "features": [
+   "VIP Class (4-6 Students)",
+   "Instant Error Correction",
+   "Peer Interaction (Dialogue)",
+   "Expert Instructor Attention"
+  ],
+  "btnWhatsapp": "WhatsApp Info Line",
+  "btnForm": "Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Complete your Spanish education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live Interactive Classes",
+   "Online Private Lessons",
+   "Instant Digital Resource Access",
+   "Time and Location Freedom"
+  ],
+  "btnWhatsapp": "WhatsApp Info Line",
+  "btnForm": "Info Form"
+ }
+},
     "faq": {
       "title": "Frequently Asked Questions About Spanish Education",
       "items": [
@@ -11137,72 +11137,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Best Russian Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn Russian naturally in small 4-6 person VIP classes.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is Russian difficult to learn?",
-          "a": "The Cyrillic alphabet may look different at first, but with systematic teaching it becomes readable within a few weeks."
-        },
-        {
-          "q": "How many students per class?",
-          "a": "We apply VIP class concepts with 4-6 students."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Assessment",
-          "desc": "Your level is measured before starting.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Quality language resources.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Cyrillic Made Easy",
-          "desc": "Systematic Cyrillic alphabet teaching.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "In-class, private, or online options.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Best Russian Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn Russian naturally in small 4-6 person VIP classes.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is Russian difficult to learn?",
+   "a": "The Cyrillic alphabet may look different at first, but with systematic teaching it becomes readable within a few weeks."
+  },
+  {
+   "q": "How many students per class?",
+   "a": "In our Russian classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Assessment",
+   "desc": "Your level is measured before starting your Russian course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified Russian resources aligned with the TORFL exam format.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Cyrillic Made Easy",
+   "desc": "Systematic Cyrillic alphabet teaching.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online Russian course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose Your Education Model",
-      "faceToFace": {
-        "title": "In-Person Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes at our campuses.",
-        "features": [
-          "VIP Class (4-6)",
-          "Instant Correction",
-          "Peer Interaction",
-          "Expert Instructor"
-        ],
-        "btnWhatsapp": "WhatsApp Info",
-        "btnForm": "Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Complete your education comfortably with our digital platforms.",
-        "features": [
-          "Live Interactive Classes",
-          "Online Private Lessons",
-          "Digital Resource Access",
-          "Time Freedom"
-        ],
-        "btnWhatsapp": "WhatsApp Info",
-        "btnForm": "Info Form"
-      }
-    },
+ "title": "Choose Your Education Model",
+ "faceToFace": {
+  "title": "In-Person Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes at our campuses.",
+  "features": [
+   "VIP Class (4-6)",
+   "Instant Correction",
+   "Peer Interaction",
+   "Expert Instructor"
+  ],
+  "btnWhatsapp": "WhatsApp Info",
+  "btnForm": "Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Complete your Russian education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live Interactive Classes",
+   "Online Private Lessons",
+   "Digital Resource Access",
+   "Time Freedom"
+  ],
+  "btnWhatsapp": "WhatsApp Info",
+  "btnForm": "Info Form"
+ }
+},
     "faq": {
       "title": "FAQ About Russian Education",
       "items": [
@@ -11909,49 +11909,49 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kadıköy English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost among reviews on the internet; a good course doesn't just make you solve exercises on the book, it makes you speak. This is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should be considered when looking for an English course recommendation in Istanbul?",
-          "a": "Native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates, and flexible program options specific to the institution should be sought."
-        },
-        {
-          "q": "Are classroom trainings active enough?",
-          "a": "Yes, our educational approach in our Kadıköy branch aims for active participation in the lesson and practical use of the language rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program for you and offer an educational guarantee suitable for the purpose."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert instructor staff with a certified teaching degree, whose native language is English.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Registration",
-          "desc": "The opportunity to start your education without wasting time without waiting for the quota to fill up or the beginning of the semester.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Off-duty evening programs or weekend morning/afternoon groups for employees.",
-          "icon": "Monitor",
-          "href": "#"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "The chance to get to know British culture closely not only through language but also through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Kadıköy English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kadıköy branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should you look for when seeking English course advice in Istanbul?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Kadıköy branch meets all of these."
+  },
+  {
+   "q": "Are classroom trainings active enough?",
+   "a": "Yes, our educational approach in our Kadıköy branch aims for active participation in the lesson and practical use of the language rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Kadıköy branch, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our Kadıköy branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Registration",
+   "desc": "Start your education at our Kadıköy branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor",
+   "href": "#"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "KADIKÖY ENGLISH COURSE",
       "title": "Target-Oriented English Education with Native Speakers in Kadıköy",
@@ -12037,48 +12037,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Bursa English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Bursa?",
-          "a": "Look for native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at the Bursa FSM branch targets active participation and practical language use rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Bursa English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Bursa FSM branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Bursa?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Bursa FSM branch meets all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at the Bursa FSM branch targets active participation and practical language use rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Bursa FSM branch, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our IELTS Test Venue-approved Bursa branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Bursa FSM branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Bursa",
@@ -12182,48 +12182,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Avcılar English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Avcılar?",
-          "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at the Avcılar branch targets active participation and practical language use."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Avcılar English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Avcılar headquarters, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when seeking English course advice in Avcılar?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our headquarters meets all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at the Avcılar branch targets active participation and practical language use."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Avcılar headquarters, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our headquarters.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Avcılar headquarters without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "AVCILAR ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Avcılar",
@@ -12309,48 +12309,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Istanbul English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Istanbul?",
-          "a": "Look for native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at Istanbul branches targets active participation and practical language use rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Istanbul English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "Across our branches in Istanbul, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should you look for when seeking English course advice in Istanbul?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Istanbul branches meet all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at Istanbul branches targets active participation and practical language use rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Istanbul branches, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, across our branches throughout Istanbul.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education without waiting for quotas to fill or term starts, at the Istanbul branch nearest you.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "ISTANBUL ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Istanbul",
@@ -12428,48 +12428,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Çekmeköy English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course doesn't just make you do exercises from a book, it encourages you to speak. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Çekmeköy?",
-          "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible program options."
-        },
-        {
-          "q": "Are the class sessions active enough?",
-          "a": "Yes, our teaching approach applied in our Çekmeköy branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Does it suit my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and offer a goal-oriented education guarantee."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native English Instructors",
-          "desc": "Expert staff of native English speakers with certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Registration",
-          "desc": "Start your education without waiting for the quota to fill or the term to start.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "After-work evening programs or weekend morning/afternoon groups for working professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "An opportunity to experience British culture through extracurricular activities, not just the language.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Çekmeköy English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Çekmeköy branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Çekmeköy?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our Çekmeköy branch meets all of these."
+  },
+  {
+   "q": "Are the class sessions active enough?",
+   "a": "Yes, our teaching approach applied in our Çekmeköy branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Does it suit my career goals?",
+   "a": "Absolutely. At our Çekmeköy branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native English Instructors",
+   "desc": "Native English-speaking instructors at our Çekmeköy branch help you gain correct pronunciation and fluency.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Registration",
+   "desc": "Start your education at our Çekmeköy branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work or weekend morning/afternoon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language — a chance to get to know English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "ÇEKMEKÖY ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Çekmeköy",
@@ -12529,7 +12529,7 @@
       },
       {
         "title": "Bursa Görükle English Course Prices",
-        "desc": "At Academic Foreign Language Schools Bursa Görükle English Course, our activities targeting various skills such as grammar, reading, writing, and vocabulary—which you can participate in without limits and free of charge 6 days a week outside of main classes—are separated by level and session, offering students learning opportunities with diverse and engaging approaches. Meet Academic Foreign Language Schools Bursa Görükle branch English courses today to advance faster in your education and career through our reliable and modern educational system, sense of responsibility, pioneering and innovative approach, student-oriented programs, club activities, and technology-equipped classrooms."
+        "desc": "At Avcılar English Language Course Bursa Görükle English Course, our activities targeting various skills such as grammar, reading, writing, and vocabulary—which you can participate in without limits and free of charge 6 days a week outside of main classes—are separated by level and session, offering students learning opportunities with diverse and engaging approaches. Meet Avcılar English Language Course Bursa Görükle branch English courses today to advance faster in your education and career through our reliable and modern educational system, sense of responsibility, pioneering and innovative approach, student-oriented programs, club activities, and technology-equipped classrooms."
       }
     ],
     "faq": {
@@ -12559,48 +12559,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Görükle English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Görükle?",
-          "a": "Pay attention to native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Görükle branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native English Instructors",
-          "desc": "Expert staff of native English speakers holding certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend morning/afternoon groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "An opportunity to experience British culture through extracurricular activities beyond just language instruction.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Görükle English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Görükle branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Görükle?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our Görükle branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Görükle branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Görükle branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native English Instructors",
+   "desc": "Native English-speaking instructors at our Görükle branch, near Uludağ University, help you gain correct pronunciation.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Görükle branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Flexible evening and weekend groups suited to university students' class schedules.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language — a chance to get to know English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA GÖRÜKLE ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native English Instructors in Görükle",
@@ -12652,7 +12652,7 @@
     "seoContent": [
       {
         "title": "Ankara English Course",
-        "desc": "Avcılar English Language Course, which developed Turkey's first age-group-specific education model and allows you to learn English with a team of expert domestic and foreign instructors, is the most qualified and established language school among Ankara English Courses. The growing demand for English today is creating many career opportunities. Especially the new steps taken in the digital world have brought together many national and international fields and introduced global citizenship. Together with the Ankara English Course, you too can adapt to the dynamics of the new world by learning a new language, strengthen your communication network worldwide, and discover new career opportunities. The Ankara English Course, which is also a British Council Consulate Partner and an IELTS Authorized Exam Center, is also a language school with London-based publishing resources. You can trust our nearly half-century of experience and learn English in a short time. The Ankara English Course, which provides hundreds of students each year with a new language and career, continues its quality education with high-score guaranteed training in speaking and academic exams. Ankara English Course also provides publishing services by obtaining resources from countries that are the source of English exams in Turkey such as IELTS, TOEFL, YDS, Level Skipping, and TOEIC."
+        "desc": "Avcılar English Language Course, which developed Turkey's first age-group-specific education model and allows you to learn English with a team of expert domestic and foreign instructors, is the most qualified and established language school among Ankara English Courses. The growing demand for English today is creating many career opportunities. Especially the new steps taken in the digital world have brought together many national and international fields and introduced global citizenship. Together with the Ankara English Course, you too can adapt to the dynamics of the new world by learning a new language, strengthen your communication network worldwide, and discover new career opportunities. The Ankara English Course, which is also a British Council Consulate Partner and an IELTS Authorized Exam Center, is also a language school with its own original educational resources. You can trust our years of experience and learn English in a short time. The Ankara English Course, which provides hundreds of students each year with a new language and career, continues its quality education with high-score guaranteed training in speaking and academic exams. Ankara English Course also supports its lessons with up-to-date, original resources for English exams found in Turkey such as IELTS, TOEFL, YDS, Level Skipping, and TOEIC."
       },
       {
         "title": "Ankara English Course Recommendation",
@@ -12698,48 +12698,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Ankara English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course doesn't just make you do exercises from books, it encourages you to speak. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Ankara?",
-          "a": "Look for native English-speaking instructors, goal-oriented training (exam, business, communication), up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Ankara branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Authorized Exam Center",
-          "desc": "British Council Consulate Partner and IELTS Authorized Exam Center for official certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend morning/afternoon groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "17 World Languages",
-          "desc": "Education in 17 different world languages in addition to English.",
-          "icon": "Users"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Ankara English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Ankara branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Ankara?",
+   "a": "Look for an authorised IELTS exam centre, experienced instructors, and programme flexibility — our Ankara branch meets all three."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Ankara branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Ankara branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Authorized Exam Center",
+   "desc": "As an IELTS exam centre, you progress from preparation to the exam under one roof.",
+   "icon": "Award"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Ankara branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Flexible evening and weekend hours suited to Ankara's university students and civil servants.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "17 World Languages",
+   "desc": "With 17 different languages on offer, you can also learn a language beyond English.",
+   "icon": "Users"
+  }
+ ]
+},
     "hero": {
       "tag": "ANKARA ENGLISH COURSE",
       "title": "Goal-Oriented English Education at IELTS Authorized Exam Center in Ankara",
@@ -12817,48 +12817,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Izmir English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Izmir?",
-          "a": "Pay attention to native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Izmir branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Authorized Test Center",
-          "desc": "Official certification opportunity as a British Council Embassy Partner and IELTS Authorized Test Center.",
-          "icon": "Award"
-        },
-        {
-          "title": "VIP Classrooms",
-          "desc": "Personal attention just like taking private one-on-one lessons with low class capacities.",
-          "icon": "Users"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Izmir English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our İzmir branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in İzmir?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our İzmir branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Izmir branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İzmir branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Authorized Test Center",
+   "desc": "As an IELTS exam centre, you progress from preparation to the exam under one roof.",
+   "icon": "Award"
+  },
+  {
+   "title": "VIP Classrooms",
+   "desc": "A 4-6 person VIP class concept designed for students and professionals in the Aegean region.",
+   "icon": "Users"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work or weekend morning/afternoon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İzmir branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "hero": {
       "tag": "IZMIR ENGLISH COURSE",
       "title": "Goal-Oriented English Education in Izmir Alsancak with IELTS Authorized Center",
@@ -12960,48 +12960,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kocaeli Izmit English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Kocaeli Izmit?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Izmit branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned are recognized in the United States and hold international validity.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Kocaeli Izmit English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kocaeli/İzmit branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Kocaeli/İzmit?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our İzmit branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Izmit branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İzmit branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Kocaeli branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Flexible evening and weekend hours suited to professionals working in Kocaeli's industrial zone.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İzmit branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "KOCAELI IZMIT ENGLISH COURSE",
       "title": "Effective English Education in Kocaeli Izmit with Expert Staff and Flexible Programs",
@@ -13091,48 +13091,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Corlu English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Corlu?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Corlu branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Effective and fast learning with experienced instructors specialized in their fields.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Corlu English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Çorlu branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Çorlu?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our Çorlu branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Corlu branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Çorlu branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Çorlu branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle in the Tekirdağ region.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Çorlu branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Çorlu branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "CORLU ENGLISH COURSE",
       "title": "Effective English Education in Tekirdag Corlu with Expert Staff and Flexible Programs",
@@ -13226,48 +13226,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Inegol English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Inegol?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Inegol branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Inegol English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our İnegöl branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in İnegöl?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our İnegöl branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Inegol branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İnegöl branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our İnegöl branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our İnegöl branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İnegöl branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "INEGOL ENGLISH COURSE",
       "title": "Effective English Education in Bursa Inegol with Expert Staff and Flexible Programs",
@@ -13361,48 +13361,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Yildirim Erikli English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Yildirim Erikli?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Yildirim Erikli branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Yildirim Erikli English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Yıldırım/Erikli branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Yıldırım/Erikli?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Yildirim Erikli branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Yıldırım/Erikli branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Easy to reach on Ankara Yolu, or choose a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Yıldırım/Erikli branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "YILDIRIM ERIKLİ ENGLISH COURSE",
       "title": "Effective English Education in Bursa Yildirim Erikli with Expert Staff and Flexible Programs",
@@ -13590,48 +13590,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kutahya English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what Academic International does.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Kutahya?",
-          "a": "Pay attention to native speaker instructors, goal-oriented training (exams, business, communication), up-to-date materials, high success rates, and flexible program options specific to the institution."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Kutahya branch aims for active participation and practical language use instead of passive listening. Thanks to small class structures, every student receives individual attention."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    }
+ "title": "Why Choose Us for Kutahya English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kütahya branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Kütahya?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our Kütahya branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Kutahya branch aims for active participation and practical language use instead of passive listening. Thanks to small class structures, every student receives individual attention."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Kütahya branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Kütahya branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle in Kütahya.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Kütahya branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Kütahya branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+}
   },
   "tarihcePage": {
     "meta": {
