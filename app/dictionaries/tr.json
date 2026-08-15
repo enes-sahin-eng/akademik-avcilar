@@ -861,12 +861,6 @@
   "heroSlider": {
     "slides": [
       {
-        "id": 1,
-        "image": "/sliders/gemini1.webp",
-        "alt": "Avcılar İngilizce Dil Kursu Avcılar Şubesi",
-        "title": "Avcılar İngilizce Dil Kursu İle Dil Eğitimi"
-      },
-      {
         "id": 2,
         "image": "/sliders/gemini2.webp",
         "alt": "Uzman Eğitmenlerle İngilizce, Almanca ve Tüm Dünya Dilleri Kursu",
