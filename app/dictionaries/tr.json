@@ -12343,8 +12343,9 @@
   },
   "avcilarIngilizceLandingPage": {
     "meta": {
-      "title": "Avcılar İngilizce Kursu",
-      "description": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır."
+      "title": "Avcılar İngilizce Kursu - Başarı Garantili Dil Eğitimi",
+      "description": "Avcılar'da İngilizce öğrenin! TOEFL, IELTS ve YKS-DİL sınav hazırlığından konuşma kurslarına kadar tüm programlar. Deneme dersi ile başlayın, hedeflerinize ulaşın.",
+      "keywords": "Avcılar İngilizce Kursu, Avcılar En İyi İngilizce Kursu, Avcılar İngilizce Kursu Fiyatları, Avcılar İngilizce Kursu Tavsiye, Ücretsiz Avcılar İngilizce Kursu, En İyi İngilizce Dil Kursu Avcılar"
     },
     "location": {
       "title": "Adresimiz",
@@ -12373,7 +12374,7 @@
     "seoContent": [
       {
         "title": "Avcılar İngilizce Kursu",
-        "desc": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar Akademik International Yabancı Dil Kursu, her yaşa özel programlarla <a href=\"/tr/akademik-ingilizce-kursu\" class=\"textLink\">sınavlarda başarı</a> fırsatı sunmaktadır. Bu prestijli yabancı dil kursu, yüksek başarı puanına odaklanan etkili öğretim yöntemleriyle öğrencilerin dil becerilerini geliştirirken, Avcılar İngilizce Kursları arasında kaliteli İngilizce eğitimi arayanlar için en iyi seçenek olarak öne çıkmaktadır."
+        "desc": "Avcılar İngilizce Kursu, TOEFL İBT, IELTS Academic, IELTS General, YKS-DİL, YDT, Hazırlık Atlama (Proficiency), Mesleki İngilizce, Akademik İngilizce (EAP), Çocuklar Programı ve Speaking Club gibi geniş bir yelpazede garantili başarı sunar. Binlerce öğrenci, Avcılar İngilizce Kursları'nda aldıkları eğitim sayesinde hedeflenen puanlara ulaşmıştır. A1 seviyesinden C2 seviyesine kadar tüm seviyelerde eğitim veren, çocuklardan profesyonellere, üniversite adaylarından yurt dışı öğrencilerine kadar geniş bir kitleye hitap eden Avcılar'ın En İyi İngilizce Kursu, öğrencilerin akademik ve profesyonel hedeflerine ulaşmasını sağlar."
       },
       {
         "title": "Avcılar İngilizce Kursu: Neden İngilizce Öğrenmelisiniz?",
@@ -12406,16 +12407,16 @@
       "btnNext": "Diğer Avantajlarımız →",
       "faqs": [
         {
-          "q": "Avcılar'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan genel merkezimiz bu kriterlerin tümünü karşılar."
+          "q": "Avcılar İngilizce Kursu'na başlamadan önce İngilizce bilmem gerekir mi?",
+          "a": "Hayır. Avcılar İngilizce Kursu A1 (sıfırdan başlayan) seviyesinden başlamaktadır. Eğer hiç İngilizce bilmiyorsanız, özel A1 başlangıç sınıflarına katılabilirsiniz."
         },
         {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, Avcılar şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+          "q": "TOEFL sınavına Avcılar İngilizce Kursu'nda kaç haftada hazırlanabilirim?",
+          "a": "TOEFL hazırlığı 8-12 haftada tamamlanmaktadır. B2 seviyesinde olan öğrenciler 8 hafta, B1 seviyesinde olan öğrenciler 12 hafta almalıdırlar."
         },
         {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Avcılar genel merkezimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+          "q": "Avcılar İngilizce Kursu'na devamsızlık konusunda sıkı mı?",
+          "a": "Evet. %80 devam etmek zorunludur. Aksi halde öğrenci seviyesini tamamlayamayabilir ve sertifika alamayabilir."
         }
       ],
       "advantages": [
@@ -12443,7 +12444,7 @@
     },
     "hero": {
       "tag": "AVCILAR İNGİLİZCE KURSU",
-      "title": "Avcılar'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
+      "title": "Avcılar İngilizce Kursu - Başarı Garantili Dil Eğitimi",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
       "whatsappBtn": "Whatsapp Bilgi",
@@ -12458,6 +12459,409 @@
       "description": "Kendine ait özgün kaynakları ve öğrencisini hedeflediği seviyeye ulaştıran ayrıcalıklı eğitim müfredatı ile en iyi seçenek.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "Kariyerinizi ve Geleceğinizi Şekillendirin!"
+    },
+    "gradeTabs": {
+      "title": "Avcılar İngilizce Kursları: Eğitim Programları",
+      "grades": [
+        {
+          "tabTitle": "Genel İngilizce",
+          "title": "Genel İngilizce Kursu Programı (A1-C2)",
+          "desc": "Avcılar'da genel İngilizce Kursu, günlük yaşamda kullanılan dili öğretir. Konuşma, dinleme, okuma ve yazma becerilerine eşit oranda yer verir. Her seviye 6-8 hafta sürer, haftada 3-4 gün, her gün 1.5-2 saat ders yapılır.",
+          "bullets": [
+            "İngilizce A1 Başlangıç Seviye: Sıfırdan başlayanlar için",
+            "İngilizce A2 Temel Seviye: Basit cümleler ve günlük konuşmalar",
+            "İngilizce B1 Orta Seviye: Tartışmalar ve karmaşık metinler",
+            "İngilizce B2 Orta-İleri Seviye: Profesyonel yazışmalar ve akademik metinler",
+            "İngilizce C1 İleri Seviye: Ayrıntılı anlatımlar ve özel konular",
+            "İngilizce C2 Yüksek İleri Seviye: Danışman düzeyinde dil becerisi"
+          ]
+        },
+        {
+          "tabTitle": "TOEFL İBT",
+          "title": "TOEFL İBT Hazırlık Kursu (Okuma, Yazma, Dinleme, Konuşma)",
+          "desc": "Avcılar İngilizce Kursu TOEFL programı, Amerika'da master, doktora veya işletme okulu (MBA) için sınav hazırlığı sunur. 12 haftalık yoğun program, sınav formatına tam uyumlu.",
+          "bullets": [
+            "Okuma Bölümü: 3 akademik metin, 45 soru, 60 dakika",
+            "Dinleme Bölümü: Ders kayıtları ve konuşmalar, 34-51 soru, 41-57 dakika",
+            "Yazı Bölümü: Akademik yazı ve özet yazma, 150 dakika",
+            "Konuşma Bölümü: Bireysel görüş, okuma+dinleme kombinasyonu, 20 dakika",
+            "Hedef Puan: 80-100+ (yüksek üniversiteler için)",
+            "Ders Saati: Haftada 12 saat (3 gün x 4 saat)"
+          ]
+        },
+        {
+          "tabTitle": "IELTS Hazırlık",
+          "title": "IELTS Hazırlık Kursu (Academic ve General)",
+          "desc": "Avcılar'ın En İyi İngilizce Kursu, IELTS sınavında 6.5-8.0 puan garantisi sunar. İngiltere, Avustralya, Kanada ve Yeni Zelanda'da yaşamak, çalışmak ve okumak isteyenler için.",
+          "bullets": [
+            "Okuma Modülü: 1200 kelimeli 3 metin, 40 soru, 60 dakika",
+            "Yazı Modülü: 150 kelime grafik yazma + 250 kelime essay, 60 dakika",
+            "Dinleme Modülü: 4 bölüm, 40 soru, 30 dakika",
+            "Konuşma Modülü: Birebir mulakatla 11-14 dakika",
+            "Hedef Puan: 6.5-7.5 (üniversite giriş için)",
+            "Süre: 10 hafta, haftada 12 saat"
+          ]
+        },
+        {
+          "tabTitle": "YDT/YKS-DİL",
+          "title": "YDT/YKS-DİL Hazırlık Kursu",
+          "desc": "Avcılar YDT/YKS-DİL Hazırlık Kursu programı, devlet dairelerine atanma, üniversite giriş ve sertifikasyon sınavları için hazırlar. Türkçe kaynaklı zorlukları göz önünde tutar.",
+          "bullets": [
+            "Yapı: 80 çoktan seçmeli soru, 120 dakika",
+            "Konular: Gramer, kelime, anlama, çevre konuşması",
+            "Başarı Oranı: %95 öğrenci 70+ puan",
+            "Ders Saati: Haftada 9 saat, 8 hafta"
+          ]
+        },
+        {
+          "tabTitle": "Hazırlık Atlama",
+          "title": "Hazırlık Atlama (Proficiency) Kursu - Üniversite İngilizce Yeterlilik Sınavı",
+          "desc": "Avcılar İngilizce Kursu Hazırlık Atlama (Proficiency) programı, üniversitelerin hazırlık sınıfından muaf olmak isteyen öğrencilere yönelik tasarlanmıştır. 78+ devlet üniversitesinin kendi proficiency sınavlarına hazırlık veren, yoğun 6-8 haftalık program, İstanbul Üniversitesi, Boğaziçi Üniversitesi, ODTÜ, Galatasaray Üniversitesi ve diğer önemli üniversitelerin sınav formatına uyumludur. Hazırlık Atlama (Proficiency) Sınavı Yapısı:\nYazılı Bölüm: Gramer, kelime bilgisi, reading comprehension (120 dakika)\nLisan Bölüm: Sunumlar, konuşma yeteneği (15-20 dakika)\nHedef Başarı: Minimum 60-70 puan (üniversiteye göre değişir)\nDers Saati: Haftada 12-15 saat, 6-8 hafta\nBaşarı Oranı: %92 öğrenci ilk denemede geçiş sağlar\nProgram İçeriği:",
+          "bullets": [
+            "Üniversite sınavlarında çıkan gramer konuları",
+            "Akademik kelime dağarcığı (2500+ sözcük)",
+            "Çabuk okuma ve anlama stratejileri",
+            "Akademik yazı ve sunum teknikleri",
+            "Üniversiteye özel sınav soruları üzerinde alıştırma",
+            "Her üniversitenin kendi sınav formatına göre hazırlık"
+          ]
+        }
+      ],
+      "desc": "Avcılar İngilizce Kursu Fiyatları ve programları, öğrencilerin hedeflerine göre tasarlanmıştır. Hangi programa ihtiyacınız var, hemen öğrenin:"
+    },
+    "exclusivePrograms": {
+      "title": "Özel ve Mesleki Programlar",
+      "mesleki": {
+        "title": "Mesleki İngilizce Kursu Programı (Business English, English for Specific Purposes)",
+        "desc": "Avcılar Mesleki İngilizce Kursu, iş hayatında İngilizceyi etkili kullanmak isteyen profesyoneller için tasarlanmıştır. Özel sektör, turizm, sağlık, mühendislik ve yönetim alanlarında çalışanlar için özel eğitim verilir.",
+        "branchesTitle": "Mesleki İngilizce Alt Branşları:",
+        "branches": [
+          "İş İngilizcesi (Business English): Ticari yazışmalar, sunumlar, müzakereler, meeting yönetimi",
+          "Turizmde İngilizce: Otel, rehberlik, resepsiyon, müşteri hizmetleri",
+          "Sağlık İngilizcesi: Tıbbi terimler, hasta-doktor iletişimi, rapor yazma",
+          "Teknik İngilizce: Bilgisayar, yazılım, mühendislik jargonu",
+          "Finans İngilizcesi: Muhasebe, banka, yatırım terimleri"
+        ],
+        "contentTitle": "Program İçeriği:",
+        "content": [
+          "Profesyonel yazı ve e-mail yazma",
+          "Toplantı ve sunum teknikleri",
+          "Müşteri iletişimi ve satış dili",
+          "Sektöre özgü kelime dağarcığı",
+          "Özgeçmiş ve mülakat İngilizcesi"
+        ],
+        "footer": "Süre: 10 hafta (haftada 8-10 saat) | Hedef: B1-B2 seviyesi"
+      },
+      "eap": {
+        "title": "EAP (English for Academic Purposes) - Akademik İngilizce Programı",
+        "desc": "Avcılar'da İngilizce Kursu EAP programı, üniversitede başarılı olmak için gereken akademik beceriler öğretir. Yurt dışında lisans, master veya doktora yapacak öğrenciler için.",
+        "contentTitle": "EAP Program İçeriği:",
+        "content": [
+          "Akademik essay yazma (Introduction, Body, Conclusion yapısı)",
+          "Araştırma metodolojisi ve akademik kaynakça",
+          "Alıntı yapma (In-text citations, paraphrasing)",
+          "Akademik sunumlar ve ders notları alma",
+          "Akademik kelime dağarcığı (3000+ akademik sözcük)",
+          "Üniversite sınav stratejileri",
+          "Kitap özetleme ve kritik okuma"
+        ],
+        "prepTitle": "Programa Hazırlık Konuları:",
+        "prepTopics": [
+          "Sosyal bilimler, mühendislik, fen bilimleri, hukuk alanlarında metinler",
+          "Seminer yazıları ve proje raporları",
+          "Tartışma ve akademik argüman oluşturma"
+        ],
+        "footer": "Süre: 10 hafta (haftada 10-12 saat) | Seviye: B2-C1"
+      },
+      "kids": {
+        "title": "Çocuklar için İngilizce Kursu Programları",
+        "desc": "Avcılar çocuklar için İngilizce Kursu, yaş ve seviyeye göre özel olarak tasarlanmıştır. Eğlenceli öğrenme yöntemi ve oyun temelli aktivitelerle çocuklar hızlı gelişim gösterir. Avcılar'da İngilizce Kursu'nda çocuklar için yapılandırılmış müfredat, Cambridge International Examinations standartlarına uyumludur.",
+        "ageGroupsTitle": "Çocuk Programı Yaş Grupları:",
+        "ageGroups": [
+          {
+            "name": "Pre-School",
+            "age": "(3-4 yaş)",
+            "content": "Temel kelimeler (renkler, hayvanlar, vücut parçaları), şarkılar, dans, oyunlar",
+            "hours": "Haftada 2 saat (2x 1 saat)",
+            "price": "4.200 TL / 8 hafta"
+          },
+          {
+            "name": "Kindergarten",
+            "age": "(5-6 yaş) - A1 Başlangıç",
+            "content": "Alfabe, sayılar 1-20, basit cümleler, renkler, aile bireyleri",
+            "hours": "Haftada 3 saat (3x 1 saat)",
+            "price": ""
+          },
+          {
+            "name": "Elementary",
+            "age": "(7-10 yaş) - A1-B1",
+            "content": "Günlük yaşam, arkadaşlık, okul, spor, seyahat, hobiler",
+            "hours": "Haftada 4 saat (2 gün x 2 saat)",
+            "price": ""
+          }
+        ],
+        "featuresTitle": "Çocuk Programlarına Özel Özellikler:",
+        "features": [
+          "Ebeveyn Raporu: Her ay ailesi çocuğun ilerlemesinden bilgilendirilir",
+          "İnteraktif Oyunlar: Kahoot, Duolingo Kids, Quizizz gibi uygulamalar",
+          "Ödül Sistemi: Her seviye tamamlayan çocuk sertifika ve hediye alır",
+          "Güvenli Ortam: Sınıf büyüklüğü max 8-10 çocuk",
+          "Eğlenceli Aktiviteler: Drama, şarkı söyleme, resim, oyunlar"
+        ]
+      },
+      "speaking": {
+        "title": "Konuşma Kulübü / Speaking Club (Ek Program)",
+        "desc": "Avcılar Speaking Club İngilizce Kursu, dershanede öğrenilen dili gerçek ortamda pratik etmek için tasarlanmıştır. Konuşma kaygısını azaltmak, doğal konuşma akıcılığını geliştirmek ve arkadaş ortamında öğrenmeyi hedefler.",
+        "formatsTitle": "Speaking Club Formatları:",
+        "formats": [
+          {
+            "name": "Haftalık Konuşma Toplantıları",
+            "duration": "(1.5 saat)",
+            "details": [
+              "Gün/Saat: Pazartesi ve Çarşamba 19:00-20:30 (Açık katılım)",
+              "Konuşma Temaları: Her hafta farklı konu (seyahat, teknoloji, yemek, kariyer, sinema, spor vb.)",
+              "Fiyat: Ücretsiz (Avcılar İngilizce Kursu öğrencileri)"
+            ]
+          },
+          {
+            "name": "Yoğun Speaking Weekend",
+            "duration": "(4 saat)",
+            "details": [
+              "Gün: Cumartesi 10:00-14:00",
+              "İçerik: Derinlemesine tartışmalar, tartışmacı oyunları, sosyal roller oynama",
+              "Seviye: B1 ve üzeri"
+            ]
+          },
+          {
+            "name": "Konuşma Diyeti",
+            "duration": "(3 haftalık yoğun)",
+            "details": [
+              "İçerik: Günde 1 saat konuşma pratiği, haftada 3 gün",
+              "Hedef: Konuşma özgüvenini %100 artırma",
+              "Fiyat: 1.800 TL",
+              "Garantisi: Speaking skorunu minimum 1 band artırma"
+            ]
+          },
+          {
+            "name": "Filmle İngilizce",
+            "duration": "(Film Club)",
+            "details": [
+              "Gün/Saat: Pazar 14:00-16:00 (2 saat film + tartışma)",
+              "Seçilen Filmler: Modern Family, The Crown, Stranger Things, Forrest Gump",
+              "Avcılar öğrencileri: Ücretsiz"
+            ]
+          },
+          {
+            "name": "Native Speaker Söyleşi",
+            "duration": "(Guest Speaker)",
+            "details": [
+              "Sıklık: Ayda 1 kez (Cuma 18:00)",
+              "Konular: Farklı ülkeler, kültürler, meslek alanları",
+              "Fiyat: Avcılar ingilizce kursu öğrencilerine ücretsiz"
+            ]
+          }
+        ],
+        "advantagesTitle": "Speaking Club Avantajları:",
+        "advantages": [
+          "Doğal Ortamda Pratik: Sınıf dışında konuşma deneyimi",
+          "Akran Öğrenmesi: Aynı seviyedeki öğrencilerle etkileşim",
+          "Telaffuz Düzeltmesi: Native speaker denetçisi",
+          "Sosyal Ağ: Aynı hedefleri paylaşan insanlarla arkadaşlık",
+          "İlerleme Takibi: Konuşma kayıtları ve değerlendirme raporları"
+        ]
+      }
+    },
+    "courseHighlightTabs": {
+      "tabs": [
+        {
+          "label": "Eğitmen Kadrosu",
+          "color": "navy",
+          "leftTitle": "Uzman Eğitmen Kadrosu",
+          "leftDesc": "Avcılar Akademik İnternasyonal Yabancı Dil Kursu şubesinde, en az 7 yıl deneyimli ve CELTA/TESOL sertifikalarına sahip uzman eğitmenler görev yapar. Eğitim kadromuz, öğrencilerin akademik ve profesyonel hedeflerine ulaşması için özel olarak seçilmiştir.",
+          "rightTitle": "Öğretim Yöntemimiz",
+          "rightDesc": "Avcılar İngilizce Kursu'nda uygulanan öğretim metodu, modern dil öğrenme teorilerine dayanmaktadır.",
+          "features": [
+            {
+              "text": "Deneyim ve Sertifikasyon: En az 7 yıl deneyimli, CELTA ve TESOL sertifikalı (ayrıca TKT sertifikalı) uzman eğitmenler.",
+              "icon": "star"
+            },
+            {
+              "text": "Sınav Başarısı: Eğitmenlerimiz TOEFL, IELTS, YDT, Proficiency sınavlarında 90+ puan başarısı sağlamıştır.",
+              "icon": "school"
+            },
+            {
+              "text": "Konuşma Pratiği: Her derste minimum 40 dakika sınıf tartışması.",
+              "icon": "mic"
+            },
+            {
+              "text": "Ödev ve Takip: Online platform üzerinden günlük kelime, gramer, dinleme ödevleri.",
+              "icon": "book"
+            },
+            {
+              "text": "Video Dinleme: Görsel ve işitsel materyallerle zenginleştirilmiş dinleme atölyeleri.",
+              "icon": "headphones"
+            },
+            {
+              "text": "Birebir Geri Bildirim: Her öğrenciye özel gelişim raporları ve eksik tamamlama seansları.",
+              "icon": "user"
+            }
+          ],
+          "ctaHref": "/iletisim",
+          "ctaText": "Eğitmenlerimizle Tanışın"
+        },
+        {
+          "label": "Başarı Sayıları",
+          "color": "red",
+          "leftTitle": "Sınav Başarı İstatistikleri",
+          "leftDesc": "Binlerce öğrencinin hayallerine ulaşmasına rehberlik ettik. Akademik sınavlarda elde ettiğimiz olağanüstü başarı oranlarıyla gurur duyuyoruz.",
+          "rightTitle": "Öğrenci Başarıları",
+          "rightDesc": "Mezunlarımız bugün dünyanın en prestijli kurumlarında yer alıyor.",
+          "features": [
+            {
+              "text": "TOEFL & IELTS: %87 öğrenci TOEFL'da 80+, %91 öğrenci IELTS'te 6.5+ almıştır. TOEFL 100+ alan öğrenci oranı %45, IELTS Speaking 7.5+ %68'dir.",
+              "icon": "chart"
+            },
+            {
+              "text": "Proficiency: %92 öğrenci ilk sınavda hazırlık atlama (Proficiency) başarısı göstermiştir.",
+              "icon": "school"
+            },
+            {
+              "text": "YDT / YKS-DİL: %95 öğrenci 70+ puan alarak hedef üniversitelere yerleşmiştir.",
+              "icon": "graduation"
+            },
+            {
+              "text": "Yurt Dışı Kabul: Mezunlarımız Harvard, MIT, Cambridge, Oxford gibi dünya çapında üniversitelere kabul edilmiştir.",
+              "icon": "globe"
+            },
+            {
+              "text": "Kurumsal İstihdam: Google, Microsoft, Amazon, Shell, Deloitte gibi uluslararası kurumlarda istihdam.",
+              "icon": "users"
+            }
+          ],
+          "ctaHref": "/referanslar",
+          "ctaText": "Tüm Başarılarımızı Görün"
+        },
+        {
+          "label": "Garantiler",
+          "color": "green",
+          "leftTitle": "%100 Öğrenme Garantili Sistem",
+          "leftDesc": "Sınav programlarında (TOEFL, IELTS vb.) hedef puanı elde edemeyen öğrenciler, hedefe ulaşıncaya kadar ücretsiz ders alır. Genel İngilizce kurslarında ise garantili seviye ilerleme sistemi uygulanmaktadır; kur sonu sınavında başarısız olan öğrenciye bir sonraki seviye kursu indirimli veya ücretsiz sunulur.",
+          "rightTitle": "Garantinin Geçerlilik Şartları",
+          "rightDesc": "Öğrenme garantimizden faydalanmak için aşağıdaki koşulların yerine getirilmesi gerekir:",
+          "features": [
+            {
+              "text": "Tüm derslere düzenli katılım (minimum %80 devam)",
+              "icon": "clock"
+            },
+            {
+              "text": "Verilen ödevleri eksiksiz yapma",
+              "icon": "book"
+            },
+            {
+              "text": "Sınav hazırlığında tavsiye edilen çalışma saatlerini tamamlama",
+              "icon": "clock"
+            },
+            {
+              "text": "Birebir danışmanlık oturumlarına katılım",
+              "icon": "users"
+            }
+          ],
+          "ctaHref": "/iletisim",
+          "ctaText": "Garanti Şartlarını Öğrenin"
+        }
+      ]
+    },
+    "institutionStatsTabs": {
+      "tabs": [
+        {
+          "id": "egitmen-kadrosu",
+          "label": "Avcılar İngilizce Kursu Eğitmen Kadrosu ve Öğretim Yöntemi",
+          "color": "navy",
+          "sections": [
+            {
+              "title": "Avcılar İngilizce Kursu Eğitmen Kadrosu ve Öğretim Yöntemi",
+              "content": "Akademik İnternasyonal Yabancı Dil Kursu'nun Avcılar şubesinde görev yapan eğitmenleri, minimum 7+ yıl deneyim ve uluslararası sertifikasyona (CELTA, TESOL, TKT) sahiptir. Her eğitmen, ilgili sınavları (TOEFL, IELTS, YDT, Proficiency) başarısını kendi yaşantısında deneyimlemiş ve bu başarıları belgeleyen öğrencilerine aktarmıştır."
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Eğitmen Özellikleri",
+              "content": "Avcılar İngilizce Kursu öğretmenleri:",
+              "list": [
+                "CELTA, TESOL veya TKT sertifikasına sahip",
+                "En az 7+ yıl uluslararası dil öğretim deneyimi",
+                "TOEFL, IELTS, YDT, Proficiency sınavlarında 90+ puan başarısı",
+                "Yabancı ülkelerde dil eğitim deneyimi",
+                "Aktif olarak seminer ve eğitim programlarına katılım"
+              ]
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Öğretim Yöntemi",
+              "content": "Avcılar İngilizce Kursu'nda uygulanan öğretim metodu, modern dil öğrenme teorilerine dayanmaktadır:",
+              "list": [
+                "**Konuşma Pratiği:** Her derste minimum 40 dakika sınıf tartışması",
+                "**Gerçek Sınav Soruları:** Resmi sınav kaynaklarından alınan örnek sorular",
+                "**Video Dinleme:** Akademik sunumlar ve native speaker konuşmaları",
+                "**Birebir Geri Bildirim:** Haftada 1 kez yazma ve konuşma değerlendirmesi",
+                "**Ödev ve Takip:** Online platform üzerinden günlük kelime, gramer, dinleme ödevleri"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "basari-istatistikleri",
+          "label": "Avcılar İngilizce Kursu Başarı Sayıları ve Öğrenci Başarıları",
+          "color": "red",
+          "sections": [
+            {
+              "title": "Avcılar İngilizce Kursu Başarı Sayıları ve Öğrenci Başarıları",
+              "content": "Avcılar İngilizce Kursu olarak bilinen Akademik İnternasyonal Yabancı Dil Kursu, yıllar boyunca binlerce öğrencisini başarıya ulaştırmıştır. Avcılar bölgesinde sunulan İngilizce eğitim programlarının başarı oranları, uluslararası standartları aşmaktadır."
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Sınav Başarı İstatistikleri",
+              "list": [
+                "**TOEFL İBT Sınavı Başarısı:** Avcılar'daki kurslara katılan öğrencilerin %87'si ilk denemede 80+ puan elde etmiştir. Yüksek puanlar (100+) elde eden öğrenci oranı ise %45'tir. Bu başarı, Avcılar İngilizce Kursu'nun akademik yazı ve akademik dinleme bölümlerinde verdiği özel eğitimin sonucudur.",
+                "**IELTS Academic Sınavı Başarısı:** Avcılar İngilizce Kursu öğrencilerinin %91'i 6.5+ puan başarısını yakalamıştır. IELTS Speaking bölümünde 7.5+ puan alan öğrenci oranı %68'dir. Akademik İnternasyonal Yabancı Dil Kursu standartlarında verilen konuşma pratiği, bu yüksek oranı sağlamaktadır.",
+                "**YDT/YKS-DİL Sınavı Başarısı:** Avcılar bölgesindeki kurs öğrencilerinin %95'i 70+ puan almıştır. Devlet kuruluşlarına atanmak isteyen öğrenciler, Avcılar İngilizce Kursu'ndan alınan eğitim sayesinde hedeflerine ulaşmıştır.",
+                "**Proficiency (Hazırlık Atlama) Sınavı Başarısı:** Avcılar İngilizce Kursu öğrencilerinin %92'si ilk sınavda muafiyet almıştır. İstanbul Üniversitesi, Boğaziçi Üniversitesi, ODTÜ, Galatasaray Üniversitesi gibi prestijli üniversitelerin proficiency sınavlarında başarı oranı %90'ı aşmıştır.",
+                "**Genel İngilizce Kurslarında İlerleme:** Avcılar İngilizce Kursu'nda her öğrenci ortalama 8-10 hafta içinde bir seviye yükselmektedir. A1 seviyesinden C1 seviyesine kadar tüm seviyelerde garantili ilerlemeler kaydedilmektedir."
+              ]
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Mezunlarının Başarı Öyküleri",
+              "content": "Avcılar'da İngilizce Kursu öğrencileri:\nAkademik İnternasyonal Yabancı Dil Kursu olarak Avcılar'da sunduğumuz eğitim, yalnızca sınav başarısını değil, ömür boyu dil becerisi kazandırmayı hedeflemiştir.",
+              "list": [
+                "**Yurt Dışı Üniversitelere Kabul:** Harvard, MIT, Cambridge, Oxford gibi dünya çapında üniversitelere başarıyla kabul alınmıştır.",
+                "**Uluslararası Şirketlerde İstihdam:** Google, Microsoft, Amazon, Shell, Deloitte gibi Fortune 500 şirketlerinde çalışmaktadırlar.",
+                "**Özel Sektörde İlerleme:** Pazarlama, İnsan Kaynakları, Muhasebe, Mühendislik gibi alanlarda liderlik pozisyonlarına yükselmişlerdir."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "garantiler",
+          "label": "Avcılar İngilizce Kursu Garantileri",
+          "color": "green",
+          "sections": [
+            {
+              "title": "%100 Öğrenme Garantili Sistem",
+              "content": "Avcılar İngilizce Kursu, öğrencilerinin hedeflerine ulaşması için %100 öğrenme garantisi sunmaktadır. . TOEFL, IELTS, YDT ve Proficiency sınavlarında hedef puanı elde edemeyen öğrenciler, hedef puanı yakalanıncaya kadar ücretsiz ders almaya devam eder. Genel İngilizce kurslarında ise garantili seviye ilerleme sistemi uygulanmaktadır; belirlenmiş sürette seviyesini tamamlayan her öğrenci bir üst seviyeye geçmeyi garantilenir. Aksi halde bir sonraki seviye kursu indirimli veya ücretsiz sunulur."
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Öğrenme Garantisinin Şartları",
+              "content": "Bu koşulları yerine getiren öğrenciler, Avcılar İngilizce Kursu'nda Akademik İnternasyonal Yabancı Dil Kursu standartlarında garantili başarıyı elde ederler. Tüm garantiler yazılı sözleşme ile teminatlandırılmakta, öğrenci hakları kanuni koruma altına alınmaktadır.",
+              "list": [
+                "Tüm derslere düzenli katılım (minimum %80 devam)",
+                "Verilen ödevleri eksiksiz yapma",
+                "Sınav hazırlığında tavsiye edilen çalışma saatlerini tamamlama",
+                "Birebir danışmanlık oturumlarına katılım"
+              ]
+            }
+          ]
+        }
+      ],
+      "header": {
+        "title": "Kurum Kalitesi ve Başarı İstatistikleri",
+        "subtitle": "Akademik İnternasyonal Yabancı Dil Kursu standartlarında elde edilen başarılar ve garantiler."
+      }
     }
   },
   "istanbulIngilizceLandingPage": {

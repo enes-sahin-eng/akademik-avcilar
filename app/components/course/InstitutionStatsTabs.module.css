@@ -1,0 +1,197 @@
+.section {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+  background: var(--bg-background);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Başlık ve Açıklama */
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 800;
+  letter-spacing: var(--tracking-tight);
+  color: var(--text-primary);
+  margin: 0 0 16px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Radio Input'lar gizli */
+.tabInput {
+  display: none;
+}
+
+/* Üst Navigasyon */
+.tabNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.tabLabel {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface-alt);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  user-select: none;
+}
+
+.tabLabel:hover {
+  background: var(--bg-surface-hover);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+/* Aktif Sekme Stilleri (CSS-only) */
+.tabInput:nth-of-type(1):checked ~ .tabNav .label0,
+.tabInput:nth-of-type(2):checked ~ .tabNav .label1,
+.tabInput:nth-of-type(3):checked ~ .tabNav .label2 {
+  background: var(--text-primary);
+  color: #ffffff;
+  border-color: var(--text-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Panel Konteyner */
+.panels {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.panel {
+  display: none;
+  flex-direction: column;
+  padding: 40px 32px;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@media (min-width: 1024px) {
+  .panel {
+    flex-direction: row;
+    padding: 60px 48px;
+    gap: 64px;
+  }
+}
+
+/* CSS-only Panel Görünürlüğü */
+.tabInput:nth-of-type(1):checked ~ .panels .panel0,
+.tabInput:nth-of-type(2):checked ~ .panels .panel1,
+.tabInput:nth-of-type(3):checked ~ .panels .panel2 {
+  display: flex;
+}
+
+/* Panel İçeriği - Sol Sütun */
+.panelLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Panel İçeriği - Sağ Sütun */
+.panelRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+@media (min-width: 1024px) {
+  .panelRight {
+    margin-top: 0;
+  }
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 16px 0;
+  letter-spacing: var(--tracking-tight);
+}
+
+.sectionContent {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Zengin Liste Formatı */
+.richList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  position: relative;
+  padding-left: 28px;
+  font-size: 15px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.listItem::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: var(--tint-orange);
+  font-size: 14px;
+}
+
+.listItem strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

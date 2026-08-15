@@ -8,10 +8,21 @@
   text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  padding-bottom: 0.1em;
   background: linear-gradient(135deg, var(--text-primary), var(--accent-red));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.mainDesc {
+  text-align: center;
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
 }
 
 .tabsContainer {
@@ -105,6 +116,7 @@
   line-height: 1.7;
   color: var(--text-secondary);
   margin-bottom: 2rem;
+  white-space: pre-line;
 }
 
 .bulletList {

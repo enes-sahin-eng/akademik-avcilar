@@ -6,17 +6,22 @@ import styles from "./SeoContentBlock.module.css";
 interface SeoContentBlockProps {
   courseKey: string;
   lang: Locale;
+  startIndex?: number;
+  endIndex?: number;
 }
 
-export async function SeoContentBlock({ courseKey, lang }: SeoContentBlockProps) {
+export async function SeoContentBlock({ courseKey, lang, startIndex = 0, endIndex }: SeoContentBlockProps) {
   const dictionary = await getDictionary(lang);
   const seoData = (dictionary as any)?.[courseKey]?.seoContent;
 
   if (!seoData || seoData.length === 0) return null;
 
+  const slicedData = seoData.slice(startIndex, endIndex);
+  if (slicedData.length === 0) return null;
+
   return (
     <section className={styles.container}>
-      {seoData.map((block: any, index: number) => {
+      {slicedData.map((block: any, index: number) => {
         const HeadingTag = block.level || "h2";
         return (
           <div key={index} className={styles.block}>

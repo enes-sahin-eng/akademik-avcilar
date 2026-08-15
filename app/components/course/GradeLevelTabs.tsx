@@ -19,6 +19,7 @@ export async function GradeLevelTabs({ courseKey, lang }: GradeLevelTabsProps) {
   return (
     <section className={styles.container}>
       <h2 className={styles.title}>{tabsData.title}</h2>
+      {tabsData.desc && <p className={styles.mainDesc}>{tabsData.desc}</p>}
       <GradeLevelTabsClient grades={tabsData.grades} />
     </section>
   );

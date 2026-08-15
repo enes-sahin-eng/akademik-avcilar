@@ -16,6 +16,9 @@ import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
+import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
+import { ExclusiveProgramsSection } from "../../../components/course/ExclusiveProgramsSection";
+import { InstitutionStatsTabs } from "../../../components/course/InstitutionStatsTabs";
 import { MiniGallery } from "@/app/components/home/MiniGallery";
 
 const COURSE_KEY = "avcilarIngilizceLandingPage";
@@ -46,6 +49,7 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
+    keywords: meta.keywords,
     alternates: {
       canonical: `/${lang}/${PAGE_SLUG}`,
     },
@@ -155,13 +159,17 @@ export default async function AvcilarIngilizceDilKursuPage({
 
       <CourseHeroSlider courseKey={COURSE_KEY} lang={lang} />
       <CampusLocation courseKey={COURSE_KEY} lang={lang} />
+      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} endIndex={1} />
+      <GradeLevelTabs courseKey={COURSE_KEY} lang={lang} />
+      <ExclusiveProgramsSection courseKey={COURSE_KEY} lang={lang} />
+      <InstitutionStatsTabs courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
       <PlacementTestBanner lang={lang} />
       <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <CourseFAQ courseKey={COURSE_KEY} lang={lang} />
-      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} />
+      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} startIndex={1} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
