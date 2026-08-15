@@ -2565,70 +2565,70 @@
  ]
 },
     "seoContent": [
-      {
-        "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
-        "bullets": [
-          "At least 20 minutes of English speaking practice in each lesson",
-          "Natural learning process similar to native language education",
-          "Culture of learning by making mistakes without fear",
-          "Dialogues from daily life and real communication scenarios",
-          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
-        ],
-        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
-      },
-      {
-        "title": "Middle School English Course Prices and Education Options",
-        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
-        "bullets": [
-          "Regular weekday programs (2-3 days a week)",
-          "Intensive weekend programs",
-          "One-on-one private lesson opportunities",
-          "Online middle school English course option",
-          "Accelerated summer programs"
-        ],
-        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
-      },
-      {
-        "title": "Things to Consider When Choosing the Best Middle School English Course",
-        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
-        "bullets": [
-          "Qualifications and experience of the teachers",
-          "Class sizes and personalized attention opportunities",
-          "Education methodology and materials used",
-          "Measurement-evaluation system and regular feedback",
-          "Success of graduated students and parent satisfaction",
-          "Physical environment and technological infrastructure",
-          "Ease of transportation and security"
-        ],
-        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
-      },
-      {
-        "title": "Advantages of Online Middle School English Course",
-        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
-        "bullets": [
-          "Saving time and travel",
-          "High-quality education in the comfort of home",
-          "Content enriched with interactive digital materials",
-          "Opportunity to watch again with recorded lessons",
-          "Interactive learning with various digital tools",
-          "Hybrid education option (online + face-to-face)"
-        ],
-        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
-      },
-      {
-        "title": "English Summer Course: Language Development During School Holidays",
-        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
-        "bullets": [
-          "Intensive and fun education program",
-          "English camps and activities in nature",
-          "Thematic weekly programs (music, sports, technology, art)",
-          "Cultural exchange with foreign instructors",
-          "Project-based learning and group work"
-        ],
-        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
-      }
-    ]
+ {
+  "title": "Speaking-Focused High School English Course: No-Memorisation Language Education",
+  "desc": "What sets Avcılar English Language Course apart from other high school English courses is our innovative teaching approach that prioritises communication skills. Unlike traditional rote-learning methods:",
+  "bullets": [
+   "At least 20 minutes of English speaking practice in every lesson",
+   "A natural learning process similar to first-language acquisition",
+   "A learning culture that embraces making mistakes fearlessly",
+   "Everyday dialogues and real communication scenarios",
+   "Holistic progress across all 4 language skills while preparing for YKS-DİL"
+  ],
+  "summary": "With our communication-based teaching system, our high school students turn English from an exam-focused subject into a real communication tool that helps them both at school and in the university entrance exam."
+ },
+ {
+  "title": "High School English Course Prices and Education Options",
+  "desc": "High school English course prices generally range between ₺8,500 and ₺42,000. This range varies depending on the programme type chosen (general English or YKS-DİL prep), lesson intensity, and course duration. Our prices are shaped by the high standards of our education and our students' exam success rates. We offer a range of options tailored to each student's individual learning style:",
+  "bullets": [
+   "Regular weekday programmes (2-3 days a week)",
+   "Intensive weekend programmes",
+   "One-on-one private lessons",
+   "Online high school English course option",
+   "Intensive YKS-DİL-specific prep programmes"
+  ],
+  "summary": "Contact our English course centres in Istanbul (Avcılar, Beylikdüzü, etc.), Bursa, Izmir, Eskişehir, and Kocaeli for current pricing and payment options. Don't miss advantages like early enrolment and sibling discounts."
+ },
+ {
+  "title": "What to Look for When Choosing the Best High School English Course",
+  "desc": "We recommend paying attention to the following criteria when choosing the best high school English course for your child:",
+  "bullets": [
+   "Instructor qualifications and experience",
+   "Class sizes and opportunities for individual attention",
+   "Curriculum and materials suited to YKS-DİL prep",
+   "Assessment systems and regular mock exams",
+   "Graduates' university placement success",
+   "Physical environment and technological infrastructure",
+   "Ease of access and safety"
+  ],
+  "summary": "As Avcılar English Language Course, we meet the highest standards across all these criteria. Our students' school and exam success is our greatest reference."
+ },
+ {
+  "title": "Advantages of the Online High School English Course",
+  "desc": "Increasingly popular thanks to advances in education technology, our online high school English course offers many advantages:",
+  "bullets": [
+   "Saves time and travel",
+   "High-quality education in the comfort of home",
+   "Content enriched with interactive digital materials",
+   "Recorded lessons available for replay",
+   "Interactive learning through various digital tools",
+   "Hybrid education option (online + face-to-face)"
+  ],
+  "summary": "We apply our interactive, exam-focused teaching model to online lessons too, achieving high efficiency in remote education."
+ },
+ {
+  "title": "English Summer Course: YKS-DİL Prep During School Break",
+  "desc": "Our English summer course programmes, designed specifically for high school students, are an ideal opportunity for those who want to spend their school break productively:",
+  "bullets": [
+   "Intensive, YKS-DİL-focused education programme",
+   "Mock exams and question-solving camps",
+   "Themed weekly programmes (academic writing, speaking club)",
+   "Cultural exchange with native instructors",
+   "Project-based learning and group work"
+  ],
+  "summary": "Our summer courses blend productive study with enjoyable activities, helping our students both enjoy their break and start the new academic year — and YKS-DİL prep — with stronger language skills."
+ }
+]
   },
   "ozelDersLandingPage": {
     "about": {
@@ -2831,70 +2831,70 @@
       ]
     },
     "seoContent": [
-      {
-        "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
-        "bullets": [
-          "At least 20 minutes of English speaking practice in each lesson",
-          "Natural learning process similar to native language education",
-          "Culture of learning by making mistakes without fear",
-          "Dialogues from daily life and real communication scenarios",
-          "Holistic and simultaneous progress of four language skills (listening, speaking, reading, writing)"
-        ],
-        "summary": "With our communication-based education system, our students transform English from being an exam-focused lesson into a real communication tool they can actively use in their daily lives."
-      },
-      {
-        "title": "Middle School English Course Prices and Education Options",
-        "desc": "Middle school English course prices generally vary between 7500 ₺ and 38000 ₺. This price range differs depending on the preferred program type, lesson hour density, and education duration. Our course prices are shaped on the basis of our high education standards and our students' success rates. We offer various options suitable for the needs of each student by developing various education models that will adapt to their individual learning style and schedule:",
-        "bullets": [
-          "Regular weekday programs (2-3 days a week)",
-          "Intensive weekend programs",
-          "One-on-one private lesson opportunities",
-          "Online middle school English course option",
-          "Accelerated summer programs"
-        ],
-        "summary": "You can contact our English Course Centers in Istanbul (Avcılar, Beylikdüzü etc.), Bursa, Izmir, Eskisehir, and Kocaeli to get up-to-date information about our course fees and payment options. Don't miss the opportunity to benefit from advantages such as early registration and sibling discounts."
-      },
-      {
-        "title": "Things to Consider When Choosing the Best Middle School English Course",
-        "desc": "We recommend that you pay attention to the following criteria when choosing the best middle school English course for your child:",
-        "bullets": [
-          "Qualifications and experience of the teachers",
-          "Class sizes and personalized attention opportunities",
-          "Education methodology and materials used",
-          "Measurement-evaluation system and regular feedback",
-          "Success of graduated students and parent satisfaction",
-          "Physical environment and technological infrastructure",
-          "Ease of transportation and security"
-        ],
-        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
-      },
-      {
-        "title": "Advantages of Online Middle School English Course",
-        "desc": "Our online middle school English course option, which is increasingly preferred with the development of educational technologies, offers many advantages:",
-        "bullets": [
-          "Saving time and travel",
-          "High-quality education in the comfort of home",
-          "Content enriched with interactive digital materials",
-          "Opportunity to watch again with recorded lessons",
-          "Interactive learning with various digital tools",
-          "Hybrid education option (online + face-to-face)"
-        ],
-        "summary": "By applying our theatrical and interactive education model in our online classes as well, we succeed in achieving high efficiency in distance education."
-      },
-      {
-        "title": "English Summer Course: Language Development During School Holidays",
-        "desc": "Our English summer course programs, which we have specially designed for middle school students, are an ideal opportunity for those who want to spend their school holidays efficiently:",
-        "bullets": [
-          "Intensive and fun education program",
-          "English camps and activities in nature",
-          "Thematic weekly programs (music, sports, technology, art)",
-          "Cultural exchange with foreign instructors",
-          "Project-based learning and group work"
-        ],
-        "summary": "Our summer courses combine language learning with fun activities, ensuring that our students both enjoy their holidays and start the new academic year with strengthened language skills."
-      }
-    ],
+ {
+  "title": "Speaking-Focused Private Lessons: No-Memorisation Language Education",
+  "desc": "What sets us apart from other private lesson options is our innovative teaching approach that prioritises communication skills. Unlike traditional rote-learning methods:",
+  "bullets": [
+   "Intensive one-on-one English speaking practice in every lesson",
+   "A natural learning process similar to first-language acquisition",
+   "A learning culture that embraces making mistakes fearlessly",
+   "Dialogues and scenarios tailored to your everyday life",
+   "Holistic progress across all 4 language skills"
+  ],
+  "summary": "With our communication-based teaching system, our private lesson students turn English from an exam-focused subject into a real communication tool geared toward their own goals."
+ },
+ {
+  "title": "Private English Lesson Prices and Education Options",
+  "desc": "Private English lesson prices generally vary based on an hourly rate, and depend on lesson frequency, your level, and your goal. Our prices are shaped by the high standards of our education and our students' success rates. We offer a range of options tailored to each student's individual learning style:",
+  "bullets": [
+   "Regular weekly one-on-one lessons",
+   "Intensive fast-progress packages",
+   "One-on-one lessons specifically for business English",
+   "Online private lesson option",
+   "Intensive programmes specifically for exam prep"
+  ],
+  "summary": "Contact our branches in Istanbul (Avcılar, Beylikdüzü, etc.), Bursa, Izmir, Eskişehir, and Kocaeli for current pricing and payment options."
+ },
+ {
+  "title": "What to Look for When Choosing the Best Private English Tutor",
+  "desc": "We recommend paying attention to the following criteria when choosing the best private tutor for you:",
+  "bullets": [
+   "The tutor's qualifications and experience",
+   "Ability to design a programme specific to your goal",
+   "Teaching methodology and materials used",
+   "Assessment systems and regular feedback",
+   "Previous students' success and satisfaction",
+   "Flexibility and adapting to your schedule",
+   "Online or face-to-face lesson options"
+  ],
+  "summary": "As Avcılar English Language Course, we meet the highest standards across all these criteria. Our students' success is our greatest reference."
+ },
+ {
+  "title": "Advantages of Online Private English Lessons",
+  "desc": "Increasingly popular thanks to advances in education technology, our online private lesson option offers many advantages:",
+  "bullets": [
+   "Saves time and travel",
+   "High-quality education in the comfort of home",
+   "Content enriched with interactive digital materials",
+   "Recorded lessons available for replay",
+   "Interactive learning through various digital tools",
+   "Hybrid education option (online + face-to-face)"
+  ],
+  "summary": "We apply our one-on-one, interactive teaching model to online lessons too, achieving high efficiency in remote education."
+ },
+ {
+  "title": "Intensive Private English Lesson Packages: Fast Progress",
+  "desc": "Our intensive lesson packages, designed specifically for those who want to make noticeable progress in a short time, are an ideal opportunity to reach your goals on a limited timeline:",
+  "bullets": [
+   "An intensive, goal-focused lesson programme",
+   "Rapid prep before travel, a job interview, or an exam",
+   "Weekly progress tracking and personal feedback",
+   "Intensive one-on-one practice with an expert instructor",
+   "Flexible lesson frequency based on your needs"
+  ],
+  "summary": "Our intensive packages blend goal-focused study with a flexible schedule, helping you make maximum progress in limited time."
+ }
+],
     "meta": {
       "title": "Private English Lessons"
     }

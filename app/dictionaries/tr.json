@@ -2563,70 +2563,70 @@
  ]
 },
     "seoContent": [
-      {
-        "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
-        "desc": "Avcılar İngilizce Dil Kursu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
-        "bullets": [
-          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
-          "Ana dil eğitimine benzer doğal öğrenme süreci",
-          "Hataları korkusuzca yaparak öğrenme kültürü",
-          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
-          "Dört dil yetkinliklerinin (dinleme, konuşma, okuma, yazma) bütünsel ve eşzamanlı ilerlemesi"
-        ],
-        "summary": "İletişim temelli eğitim sistemimizle öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, günlük hayatlarında aktif kullanabilecekleri gerçek bir iletişim aracına dönüştürürler."
-      },
-      {
-        "title": "Ortaokul İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
-        "desc": "Ortaokul İngilizce kursu fiyatları genel olarak 7500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi, ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
-        "bullets": [
-          "Hafta içi düzenli programlar (haftada 2-3 gün)",
-          "Hafta sonu yoğunlaştırılmış programlar",
-          "Birebir özel ders imkanı",
-          "Online ortaokul İngilizce kursu seçeneği",
-          "Yaz dönemi hızlandırılmış programlar"
-        ],
-        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
-      },
-      {
-        "title": "En İyi Ortaokul İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
-        "desc": "Çocuğunuz için en iyi ortaokul İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
-        "bullets": [
-          "Öğretmenlerin nitelikleri ve tecrübesi",
-          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
-          "Eğitim metodolojisi ve kullanılan materyaller",
-          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
-          "Mezun öğrencilerin başarıları ve veli memnuniyeti",
-          "Fiziksel ortam ve teknolojik altyapı",
-          "Ulaşım kolaylığı ve güvenlik"
-        ],
-        "summary": "Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
-      },
-      {
-        "title": "Online Ortaokul İngilizce Kursu Avantajları",
-        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online ortaokul İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
-        "bullets": [
-          "Zamandan ve yoldan tasarruf",
-          "Ev konforunda yüksek kaliteli eğitim",
-          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
-          "Kayıt altına alınan derslerle tekrar izleme imkanı",
-          "Çeşitli dijital araçlarla etkileşimli öğrenme",
-          "Hibrit eğitim seçeneği (online + yüz yüze)"
-        ],
-        "summary": "Online derslerimizde de tiyatral ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
-      },
-      {
-        "title": "İngilizce Yaz Kursu: Okul Tatilinde Dil Gelişimi",
-        "desc": "Ortaokul öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
-        "bullets": [
-          "Yoğunlaştırılmış ve eğlenceli eğitim programı",
-          "Doğada İngilizce kampları ve aktiviteler",
-          "Tematik haftalık programlar (müzik, spor, teknoloji, sanat)",
-          "Yabancı eğitmenlerle kültür alışverişi",
-          "Proje tabanlı öğrenme ve grup çalışmaları"
-        ],
-        "summary": "Yaz kurslarımız, eğlenceli aktivitelerle İngilizce öğrenmeyi harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla dil becerileri güçlenmiş olarak başlamalarını sağlar."
-      }
-    ]
+ {
+  "title": "Konuşma Odaklı Lise İngilizce Kursu: Ezbersiz Dil Eğitimi",
+  "desc": "Avcılar İngilizce Dil Kursu'nu diğer lise İngilizce kurslarından ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+  "bullets": [
+   "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
+   "Ana dil eğitimine benzer doğal öğrenme süreci",
+   "Hataları korkusuzca yaparak öğrenme kültürü",
+   "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
+   "YKS-DİL'e hazırlarken dört dil becerisinin bütünsel ilerlemesi"
+  ],
+  "summary": "İletişim temelli eğitim sistemimizle lise öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, hem okul başarısında hem üniversite sınavında işlerine yarayacak gerçek bir iletişim aracına dönüştürürler."
+ },
+ {
+  "title": "Lise İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
+  "desc": "Lise İngilizce kursu fiyatları genel olarak 8500 ₺ ile 42000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi (genel İngilizce veya YKS-DİL hazırlık), ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin sınav başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
+  "bullets": [
+   "Hafta içi düzenli programlar (haftada 2-3 gün)",
+   "Hafta sonu yoğunlaştırılmış programlar",
+   "Birebir özel ders imkanı",
+   "Online lise İngilizce kursu seçeneği",
+   "YKS-DİL'e özel yoğun hazırlık programları"
+  ],
+  "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
+ },
+ {
+  "title": "En İyi Lise İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
+  "desc": "Çocuğunuz için en iyi lise İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
+  "bullets": [
+   "Öğretmenlerin nitelikleri ve tecrübesi",
+   "Sınıf mevcutları ve kişiye özel ilgi imkanı",
+   "YKS-DİL hazırlığına uygun müfredat ve materyaller",
+   "Ölçme-değerlendirme sistemi ve düzenli deneme sınavları",
+   "Mezun öğrencilerin üniversite yerleşim başarıları",
+   "Fiziksel ortam ve teknolojik altyapı",
+   "Ulaşım kolaylığı ve güvenlik"
+  ],
+  "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin okul ve sınav başarısı, bizim en büyük referansımızdır."
+ },
+ {
+  "title": "Online Lise İngilizce Kursu Avantajları",
+  "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online lise İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
+  "bullets": [
+   "Zamandan ve yoldan tasarruf",
+   "Ev konforunda yüksek kaliteli eğitim",
+   "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+   "Kayıt altına alınan derslerle tekrar izleme imkanı",
+   "Çeşitli dijital araçlarla etkileşimli öğrenme",
+   "Hibrit eğitim seçeneği (online + yüz yüze)"
+  ],
+  "summary": "Online derslerimizde de interaktif ve sınav odaklı eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+ },
+ {
+  "title": "İngilizce Yaz Kursu: Okul Tatilinde YKS-DİL'e Hazırlık",
+  "desc": "Lise öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
+  "bullets": [
+   "Yoğunlaştırılmış YKS-DİL odaklı eğitim programı",
+   "Deneme sınavları ve soru çözüm kampları",
+   "Tematik haftalık programlar (akademik yazım, konuşma kulübü)",
+   "Native eğitmenlerle kültür alışverişi",
+   "Proje tabanlı öğrenme ve grup çalışmaları"
+  ],
+  "summary": "Yaz kurslarımız, verimli çalışmayı eğlenceli aktivitelerle harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla ve YKS-DİL'e güçlenmiş olarak başlamalarını sağlar."
+ }
+]
   },
   "ozelDersLandingPage": {
     "about": {
@@ -2825,70 +2825,70 @@
       ]
     },
     "seoContent": [
-      {
-        "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
-        "desc": "Avcılar İngilizce Dil Kursu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
-        "bullets": [
-          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
-          "Ana dil eğitimine benzer doğal öğrenme süreci",
-          "Hataları korkusuzca yaparak öğrenme kültürü",
-          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
-          "Dört dil yetkinliklerinin (dinleme, konuşma, okuma, yazma) bütünsel ve eşzamanlı ilerlemesi"
-        ],
-        "summary": "İletişim temelli eğitim sistemimizle öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, günlük hayatlarında aktif kullanabilecekleri gerçek bir iletişim aracına dönüştürürler."
-      },
-      {
-        "title": "Ortaokul İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
-        "desc": "Ortaokul İngilizce kursu fiyatları genel olarak 7500 ₺ ile 38000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi, ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
-        "bullets": [
-          "Hafta içi düzenli programlar (haftada 2-3 gün)",
-          "Hafta sonu yoğunlaştırılmış programlar",
-          "Birebir özel ders imkanı",
-          "Online ortaokul İngilizce kursu seçeneği",
-          "Yaz dönemi hızlandırılmış programlar"
-        ],
-        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
-      },
-      {
-        "title": "En İyi Ortaokul İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
-        "desc": "Çocuğunuz için en iyi ortaokul İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
-        "bullets": [
-          "Öğretmenlerin nitelikleri ve tecrübesi",
-          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
-          "Eğitim metodolojisi ve kullanılan materyaller",
-          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
-          "Mezun öğrencilerin başarıları ve veli memnuniyeti",
-          "Fiziksel ortam ve teknolojik altyapı",
-          "Ulaşım kolaylığı ve güvenlik"
-        ],
-        "summary": "Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
-      },
-      {
-        "title": "Online Ortaokul İngilizce Kursu Avantajları",
-        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online ortaokul İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
-        "bullets": [
-          "Zamandan ve yoldan tasarruf",
-          "Ev konforunda yüksek kaliteli eğitim",
-          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
-          "Kayıt altına alınan derslerle tekrar izleme imkanı",
-          "Çeşitli dijital araçlarla etkileşimli öğrenme",
-          "Hibrit eğitim seçeneği (online + yüz yüze)"
-        ],
-        "summary": "Online derslerimizde de tiyatral ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
-      },
-      {
-        "title": "İngilizce Yaz Kursu: Okul Tatilinde Dil Gelişimi",
-        "desc": "Ortaokul öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
-        "bullets": [
-          "Yoğunlaştırılmış ve eğlenceli eğitim programı",
-          "Doğada İngilizce kampları ve aktiviteler",
-          "Tematik haftalık programlar (müzik, spor, teknoloji, sanat)",
-          "Yabancı eğitmenlerle kültür alışverişi",
-          "Proje tabanlı öğrenme ve grup çalışmaları"
-        ],
-        "summary": "Yaz kurslarımız, eğlenceli aktivitelerle İngilizce öğrenmeyi harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla dil becerileri güçlenmiş olarak başlamalarını sağlar."
-      }
-    ],
+ {
+  "title": "Konuşma Odaklı Özel Ders: Ezbersiz Dil Eğitimi",
+  "desc": "Bizi diğer özel ders seçeneklerinden ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+  "bullets": [
+   "Her derste yoğun birebir İngilizce konuşma pratiği",
+   "Ana dil eğitimine benzer doğal öğrenme süreci",
+   "Hataları korkusuzca yaparak öğrenme kültürü",
+   "Sizin gündelik hayatınıza özel diyalog ve senaryolar",
+   "Dört dil yetkinliğinin (dinleme, konuşma, okuma, yazma) bütünsel ilerlemesi"
+  ],
+  "summary": "İletişim temelli eğitim sistemimizle özel ders öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, kendi hedeflerine yönelik gerçek bir iletişim aracına dönüştürürler."
+ },
+ {
+  "title": "İngilizce Özel Ders Fiyatları ve Eğitim Seçenekleri",
+  "desc": "İngilizce özel ders fiyatları genel olarak saat başına belirlenen ücretlere göre değişkenlik gösterir ve ders sıklığı, seviyeniz ile hedefinize göre farklılık gösterir. Fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun seçenekler sunuyoruz:",
+  "bullets": [
+   "Haftalık düzenli birebir dersler",
+   "Yoğunlaştırılmış hızlı ilerleme paketleri",
+   "İş İngilizcesine özel birebir ders imkanı",
+   "Online özel ders seçeneği",
+   "Sınav hazırlığına özel yoğun programlar"
+  ],
+  "summary": "Ders ücretleri ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli şubelerimizle iletişime geçebilirsiniz."
+ },
+ {
+  "title": "En İyi İngilizce Özel Ders Öğretmeni Seçiminde Dikkat Edilmesi Gerekenler",
+  "desc": "Sizin için en iyi özel ders öğretmenini seçerken şu kriterlere dikkat etmenizi öneririz:",
+  "bullets": [
+   "Öğretmenin nitelikleri ve tecrübesi",
+   "Sizin hedefinize özel program hazırlama becerisi",
+   "Eğitim metodolojisi ve kullanılan materyaller",
+   "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
+   "Önceki öğrencilerin başarıları ve memnuniyeti",
+   "Esneklik ve programınıza uyum sağlama",
+   "Online veya yüz yüze ders imkanı"
+  ],
+  "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+ },
+ {
+  "title": "Online İngilizce Özel Ders Avantajları",
+  "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online özel ders seçeneğimiz, birçok avantaj sunmaktadır:",
+  "bullets": [
+   "Zamandan ve yoldan tasarruf",
+   "Ev konforunda yüksek kaliteli eğitim",
+   "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+   "Kayıt altına alınan derslerle tekrar izleme imkanı",
+   "Çeşitli dijital araçlarla etkileşimli öğrenme",
+   "Hibrit eğitim seçeneği (online + yüz yüze)"
+  ],
+  "summary": "Online derslerimizde de birebir ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+ },
+ {
+  "title": "Yoğun İngilizce Özel Ders Paketleri: Hızlı İlerleme",
+  "desc": "Kısa sürede belirgin bir ilerleme kaydetmek isteyenler için özel olarak tasarladığımız yoğun ders paketlerimiz, sınırlı zamanda hedeflerinize ulaşmanız için ideal bir fırsattır:",
+  "bullets": [
+   "Yoğunlaştırılmış ve hedef odaklı ders programı",
+   "Seyahat, iş görüşmesi veya sınav öncesi hızlı hazırlık",
+   "Haftalık ilerleme takibi ve kişisel geri bildirim",
+   "Uzman eğitmenle birebir yoğun pratik",
+   "İhtiyacınıza göre esnek ders tekrar sıklığı"
+  ],
+  "summary": "Yoğun paketlerimiz, hedefe odaklı çalışmayı esnek bir programla harmanlayarak, kısıtlı zamanınızda maksimum ilerleme kaydetmenizi sağlar."
+ }
+],
     "meta": {
       "title": "İngilizce Özel Ders"
     }
