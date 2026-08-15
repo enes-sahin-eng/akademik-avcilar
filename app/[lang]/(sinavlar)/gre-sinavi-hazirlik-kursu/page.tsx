@@ -124,7 +124,7 @@ export default async function GreHazirlikKursuPage({ params }: PageProps) {
               "Amerika ve dünyanın önde gelen üniversitelerinde yüksek lisans ve doktora eğitimi almak isteyen adaylar için özel stratejilerle hazırlanan yoğun GRE (Graduate Record Examinations) eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -132,7 +132,7 @@ export default async function GreHazirlikKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

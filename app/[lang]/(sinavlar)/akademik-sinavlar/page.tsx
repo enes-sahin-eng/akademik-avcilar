@@ -39,7 +39,7 @@ export async function generateMetadata({
       lang === "en"
         ? "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE"
         : lang === "ar"
-          ? "دورات التحضير للاختبارات الأكاديمية | IELTS وTOEFL وYDS وGMAT | أكاديميك إنترناشيونال"
+          ? "دورات التحضير للاختبارات الأكاديمية | IELTS وTOEFL وYDS وGMAT"
           : "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE",
     description:
       lang === "en"
@@ -135,7 +135,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
             description: courseDesc,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: [

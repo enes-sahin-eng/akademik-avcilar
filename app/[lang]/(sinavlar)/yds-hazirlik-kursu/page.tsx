@@ -125,7 +125,7 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
               "Akademik kariyer ve dil tazminatı hedefleri için özel stratejilerle hazırlanan yoğun YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -133,7 +133,7 @@ export default async function YdsHazirlikKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

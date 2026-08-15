@@ -117,7 +117,7 @@ export default async function SatKursuPage({ params }: PageProps) {
             description: "Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak için SAT sınavına uzman kadromuzla hazırlanın.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function SatKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address: "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },
             },

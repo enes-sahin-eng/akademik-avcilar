@@ -124,7 +124,7 @@ export default async function IeltsHazirlikKursuPage({ params }: PageProps) {
               "Yurt dışı eğitim, göçmenlik ve kariyer hedefleri için uluslararası geçerliliğe sahip yoğun IELTS (International English Language Testing System) eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -132,7 +132,7 @@ export default async function IeltsHazirlikKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

@@ -117,7 +117,7 @@ export default async function TefKursuPage({ params }: PageProps) {
             description: "Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -125,7 +125,7 @@ export default async function TefKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address: "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },
             },

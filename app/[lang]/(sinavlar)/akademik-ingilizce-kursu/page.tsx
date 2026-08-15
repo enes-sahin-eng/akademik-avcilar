@@ -60,7 +60,7 @@ export default async function akademikingilizcekursuPage({ params }: PageProps) 
             "description": "Yurt dışı eğitim ve uluslararası akademik kariyeriniz için Academic İngilizce eğitimleriyle hedeflerinize ulaşın.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
+              "name": "Avcılar İngilizce Dil Kursu",
               "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
