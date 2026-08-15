@@ -106,7 +106,7 @@ export const HeroSliderClient = ({
                   scale: 0.98,
                 }),
               }}
-              initial="enter"
+              initial={direction === 0 ? false : "enter"}
               animate="center"
               exit="exit"
               transition={{
