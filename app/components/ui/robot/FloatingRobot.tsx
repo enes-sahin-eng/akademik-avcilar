@@ -39,7 +39,7 @@ const T: Record<string, any> = {
     msgIntro: "Merhaba, şu eğitimle ilgileniyorum:",
     tooltip: "Sana nasıl yardımcı olabilirim?",
     title: "Eğitim Danışmanı",
-    status: "Akademik International",
+    status: "Avcılar İngilizce Dil Kursu",
     online: "Çevrimiçi",
     ariaFab: "Asistanı Aç",
     examQ: "Hangi sınava hazırlanıyorsun?",
@@ -66,7 +66,7 @@ const T: Record<string, any> = {
     msgIntro: "Hello, I am interested in:",
     tooltip: "How can I help you?",
     title: "Education Advisor",
-    status: "Akademik International",
+    status: "Avcılar English Course",
     online: "Online",
     ariaFab: "Open Assistant",
     examQ: "Which exam are you preparing for?",
@@ -100,7 +100,7 @@ const T: Record<string, any> = {
     msgIntro: "مرحبًا، أرغب في الحصول على معلومات حول الدورة:",
     tooltip: "كيف يمكنني مساعدتك؟",
     title: "المستشار التعليمي",
-    status: "أكاديميك إنترناشيونال",
+    status: "دورة أفجلار للغة الإنجليزية",
     online: "متصل",
     ariaFab: "افتح المساعد",
     examQ: "لأي امتحان تستعد؟",
@@ -394,7 +394,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               <div className={styles.avatarWrap}>
                 <Image
                   src="/brand/advisor-avatar.webp"
-                  alt="Akademik International"
+                  alt={t.status}
                   width={96}
                   height={96}
                   loading="eager"
