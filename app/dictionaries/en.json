@@ -2401,95 +2401,95 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Avcılar High School English Course?",
-      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
-      "cardTitle": "Level-Appropriate Education",
-      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
-      "btnNext": "Next Privilege →",
-      "faqs": [
-        {
-          "q": "What Does the High School Course Content Include?",
-          "a": "It offers comprehensive language education focusing on enriching vocabulary, advanced grammar, supporting school subjects, preparation for university exams, and speaking practice."
-        },
-        {
-          "q": "What Are the Benefits of This Course?",
-          "a": "It provides high grades in school exams, academic reading comprehension, a solid foundation for international exams like TOEFL/IELTS, and the self-confidence to speak English fluently."
-        }
-      ],
-      "advantages": [
-        {
-          "icon": "Globe",
-          "title": "Education at International Standards",
-          "desc": "English education completed at Avcılar English Language Course is fully compliant with EU standards and the US education system."
-        },
-        {
-          "icon": "MessageCircle",
-          "title": "Intensive Practice Opportunities",
-          "desc": "Beyond the hours determined for each level, we strengthen the language skills of our high school students by offering 20 to 64 hours of additional practice opportunities."
-        },
-        {
-          "icon": "Users",
-          "title": "Age-Specific Classes",
-          "desc": "We classify our high school and college students according to their age groups and enable them to learn English by living it with an education system specific to them."
-        },
-        {
-          "icon": "Target",
-          "title": "Global Communication at an Early Age",
-          "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with our assurance."
-        }
-      ]
-    },
+ "title": "Why Choose Avcılar High School English Course?",
+ "subtitle": "Achieve Success in YKS-DİL and at School with Our Learning Guarantee!",
+ "cardTitle": "Level-Appropriate Education",
+ "cardDesc": "We offer an age-specific curriculum planned according to high school students' current English level (9th, 10th, 11th, and 12th grade).",
+ "btnNext": "Next Privilege →",
+ "faqs": [
+  {
+   "q": "What Does the High School Course Content Include?",
+   "a": "It offers comprehensive language education focusing on enriching vocabulary, advanced grammar, supporting school subjects, preparation for university exams, and speaking practice."
+  },
+  {
+   "q": "What Are the Benefits of This Course?",
+   "a": "It provides high grades in school exams, academic reading comprehension, a solid foundation for international exams like TOEFL/IELTS, and the self-confidence to speak English fluently."
+  }
+ ],
+ "advantages": [
+  {
+   "icon": "Globe",
+   "title": "Education at International Standards",
+   "desc": "English education completed at Avcılar English Language Course is fully compliant with EU standards and the US education system."
+  },
+  {
+   "icon": "MessageCircle",
+   "title": "Intensive Practice Opportunities",
+   "desc": "Beyond the hours determined for each level, we strengthen the language skills of our high school students by offering 20 to 64 hours of additional practice opportunities."
+  },
+  {
+   "icon": "Users",
+   "title": "Age-Specific Classes",
+   "desc": "We classify our high school and college students according to their age groups and enable them to learn English by living it with an education system specific to them."
+  },
+  {
+   "icon": "Target",
+   "title": "Global Communication at an Early Age",
+   "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with our assurance."
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Best Education Model for You",
-      "faceToFace": {
-        "badge": "POPULAR",
-        "title": "Face-to-Face Education",
-        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
-        "features": [
-          "Maximum Lesson Hours",
-          "Speaking Guaranteed Program",
-          "Special Exam Prep",
-          "Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Live and interactive middle school English education from the comfort of your home.",
-        "features": [
-          "Learn English Freely Anywhere",
-          "Speaking Guaranteed Program",
-          "Expert Native and Local Staff",
-          "Online Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      }
-    },
+ "title": "Choose the Best Education Model for You",
+ "faceToFace": {
+  "badge": "POPULAR",
+  "title": "Face-to-Face Education",
+  "desc": "Choose one of our 12 branches across Turkey for interactive lessons with our expert instructors specialised in the high school age group.",
+  "features": [
+   "Maximum Lesson Hours",
+   "Speaking Guaranteed Program",
+   "Special Exam Prep",
+   "Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Live, interactive high school English education with expert instructors, from the comfort of your home.",
+  "features": [
+   "Learn English Freely Anywhere",
+   "Speaking Guaranteed Program",
+   "Expert Native and Local Staff",
+   "Online Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ }
+},
     "hero": {
-      "tag": "HIGH SCHOOL ENGLISH COURSES",
-      "title": "Shape Your Future with High School English Course",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Pre-Info Now!",
-      "whatsappBtn": "Whatsapp Support",
-      "formRibbon": "Pre-Info Form",
-      "formTitle": "FREE ENGLISH!",
-      "formSubtitle": "Speaking Focused English Education!",
-      "namePlaceholder": "Enter Name and Surname",
-      "phonePlaceholder": "Enter GSM Number",
-      "branchPlaceholder": "Select Branch",
-      "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: HIGH SCHOOL",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
-      "formNamePlaceholder": "Enter Name and Surname",
-      "formPhonePlaceholder": "Enter GSM Number",
-      "formBranchPlaceholder": "Select Branch",
-      "formSubmit": "GET INFO NOW!",
-      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
-    },
+ "tag": "HIGH SCHOOL ENGLISH COURSES",
+ "title": "Shape Your Future with High School English Course",
+ "customerServiceBtn": "Contact Customer Service Now!",
+ "infoBtn": "Get Pre-Info Now!",
+ "whatsappBtn": "Whatsapp Support",
+ "formRibbon": "Pre-Info Form",
+ "formTitle": "FREE ENGLISH!",
+ "formSubtitle": "Speaking Focused English Education!",
+ "namePlaceholder": "Enter Name and Surname",
+ "phonePlaceholder": "Enter GSM Number",
+ "branchPlaceholder": "Select Branch",
+ "submitBtn": "GET INFO NOW!",
+ "badge": "CATEGORY: HIGH SCHOOL",
+ "description": "High school is a critical period when students need to both maintain their academic success and build a solid foundation for university entrance exams. As Avcılar English Language Course, we offer a speaking-focused, exam-supported, and interactive English education model for high school students.",
+ "formNamePlaceholder": "Enter Name and Surname",
+ "formPhonePlaceholder": "Enter GSM Number",
+ "formBranchPlaceholder": "Select Branch",
+ "formSubmit": "GET INFO NOW!",
+ "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
+},
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
@@ -2508,62 +2508,62 @@
       ]
     },
     "gradeTabs": {
-      "title": "Specialized Education Program for Middle School Levels",
-      "grades": [
-        {
-          "tabTitle": "5th Grade",
-          "title": "5th Grade English Course Program and Content",
-          "desc": "Our 5th grade English course program is designed to help students transition from beginner to intermediate level. At this level:",
-          "bullets": [
-            "Visual activities for basic vocabulary development",
-            "Dialogue exercises featuring simple daily conversations",
-            "Fun learning environment with English songs and games",
-            "Content supporting school lessons aligned with the curriculum",
-            "Small group activities for speaking practice"
-          ],
-          "summary": "Our 5th grade middle school students permanently learn vocabulary and sentence structures using theatrical techniques. Students who start speaking English with confidence develop a positive attitude towards language learning."
-        },
-        {
-          "tabTitle": "6th Grade",
-          "title": "Developing Communication Skills with 6th Grade English Course",
-          "desc": "Our 6th grade English course program offers a comprehensive educational model that supports students' active language use and aims for the ability to communicate in English in real-life situations. At this level, students learn more complex language structures by developing their ability to communicate in English in daily life. Activities included in our program:",
-          "bullets": [
-            "Themed speaking activities on daily life topics",
-            "Reinforcement of grammar structures with practical applications",
-            "Pronunciation exercises and fluent speaking practice",
-            "Special activities to develop reading comprehension skills",
-            "Development of simple composition and writing skills"
-          ],
-          "summary": "At this level, our students gain increasing confidence in expressing themselves in English. In-class projects and group work enable them to actively use the knowledge they have learned."
-        },
-        {
-          "tabTitle": "7th Grade",
-          "title": "7th Grade English Course and Contribution to Academic Success",
-          "desc": "The 7th grade English course addresses daily speaking proficiency and the language skills necessary for exam success with an integrated approach:",
-          "bullets": [
-            "Comprehensive teaching of more complex grammar structures",
-            "Extended vocabulary exercises",
-            "Preparation for school exams and subject reinforcement",
-            "Analysis and interpretation of authentic texts",
-            "Creative writing projects and presentation skills"
-          ],
-          "summary": "Our 7th grade program ensures that students feel comfortable in their daily use of English while increasing their success at school. At this level, our students experience the real-life use of English with authentic content such as short films and interviews."
-        },
-        {
-          "tabTitle": "8th Grade / LGS",
-          "title": "8th Grade English Course and LGS Preparation Support",
-          "desc": "Our 8th grade English course program supports the LGS exam preparation process while also focusing on the development of practical language skills:",
-          "bullets": [
-            "Question solving techniques and strategies in LGS format",
-            "Comprehensive grammar reviews and reinforcement studies",
-            "Time management in reading comprehension questions",
-            "Motivation techniques to reduce test anxiety",
-            "Advanced speaking and discussion skills"
-          ],
-          "summary": "Our 8th grade students acquire both the academic English necessary for exam success and practical communication skills. In this way, our students are one step ahead with their English proficiency when starting high school education."
-        }
-      ]
-    },
+ "title": "Our Education Programme Tailored to High School Grades",
+ "grades": [
+  {
+   "tabTitle": "9th Grade",
+   "title": "9th Grade English Course: A Strong Start to High School",
+   "desc": "Our 9th grade English course strengthens grammar and vocabulary as students transition from middle school to high school, preparing them for the high school curriculum. At this level:",
+   "bullets": [
+    "Reviewing and reinforcing middle school achievements",
+    "Teaching grammar structures aligned with the high school curriculum",
+    "Expanding academic vocabulary",
+    "Developing comprehension through reading passages",
+    "Building confidence through speaking practice"
+   ],
+   "summary": "Our 9th grade students build a solid foundation in high school English, preparing them for the more complex topics they'll encounter in later years."
+  },
+  {
+   "tabTitle": "10th Grade",
+   "title": "10th Grade English Course: Deepening Grammar Mastery",
+   "desc": "Our 10th grade English course aims to strengthen students' command of grammar while developing fluent speaking skills. The activities in our programme include:",
+   "bullets": [
+    "Teaching advanced tense patterns and sentence structures",
+    "Reading comprehension activities built on current topics",
+    "Discussion and opinion-sharing speaking activities",
+    "Developing essay-writing techniques",
+    "Authentic content to strengthen listening skills"
+   ],
+   "summary": "Our 10th grade students deepen their grammar knowledge while learning to express themselves more comfortably on everyday and academic topics."
+  },
+  {
+   "tabTitle": "11th Grade",
+   "title": "11th Grade English Course: An Introduction to Exam Preparation",
+   "desc": "Our 11th grade English course develops everyday language use while building the foundational skills needed for exams like YKS-DİL, TOEFL, and IELTS:",
+   "bullets": [
+    "Reading and listening exercises introducing exam formats",
+    "Introducing academic writing techniques",
+    "Extended vocabulary and idiom study",
+    "An introduction to time management and question-solving strategies",
+    "Advanced discussion and presentation skills"
+   ],
+   "summary": "Our 11th grade programme offers a transition period that supports both school success and future exam goals."
+  },
+  {
+   "tabTitle": "12th Grade / YKS-DİL",
+   "title": "12th Grade English Course and YKS-DİL Exam Preparation",
+   "desc": "Our 12th grade English course provides intensive preparation for the YKS-DİL (YDT) exam while building the language proficiency needed for university life:",
+   "bullets": [
+    "Question-solving techniques and strategies in YKS-DİL format",
+    "Comprehensive grammar reviews and mock exams",
+    "Time management for reading comprehension questions",
+    "Motivation techniques that reduce exam anxiety",
+    "Advanced academic vocabulary and translation practice"
+   ],
+   "summary": "Our 12th grade students become ready for both the YKS-DİL exam and the academic English they'll encounter at university."
+  }
+ ]
+},
     "seoContent": [
       {
         "title": "Speaking-Focused English Course: Rote-Free Language Education",
@@ -2666,100 +2666,100 @@
       ]
     },
     "whyUs": {
-      "title": "Why Private English Lessons?",
-      "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
-      "cardTitle": "Level-Appropriate Education",
-      "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
-      "btnNext": "Next Privilege →",
-      "faqs": [
-        {
-          "q": "Why Private English Lessons?",
-          "a": "In private English lessons, the education is completely shaped according to the student's needs and goals. The teacher evaluates the student's current language level and creates a learning plan accordingly. This allows focusing on areas such as grammar, vocabulary, reading, writing, listening and speaking skills."
-        },
-        {
-          "q": "Who is Suitable for Private English Lessons?",
-          "a": "It is suitable for students who want to get support in school subjects or prepare for academic exams, professionals who want to improve their English language skills in business life, travelers, and anyone who sees language learning as a hobby."
-        },
-        {
-          "q": "How are the Lessons Conducted?",
-          "a": "Private English lessons are shaped according to the student's level and goals. A comprehensive learning experience is offered by focusing on grammar, vocabulary, reading, writing, listening, and speaking skills."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The institution that created a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification for the first time in Turkey.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original English educational publications prepared by Native writers specifically for our middle school students.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Clubs where our students develop their speaking skills with activities and events suitable for their age group.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Join lessons anytime, anywhere with Turkey's most interactive and comprehensive online language platform, Letslingo.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Private English Lessons?",
+ "subtitle": "Individual Education Tailored to You, with a Learning Guarantee!",
+ "cardTitle": "Level-Appropriate Education",
+ "cardDesc": "We offer a fully personalised, one-on-one lesson plan based on the student's current level and goals.",
+ "btnNext": "Next Privilege →",
+ "faqs": [
+  {
+   "q": "Why Private English Lessons?",
+   "a": "In private English lessons, the education is completely shaped according to the student's needs and goals. The teacher evaluates the student's current language level and creates a learning plan accordingly. This allows focusing on areas such as grammar, vocabulary, reading, writing, listening and speaking skills."
+  },
+  {
+   "q": "Who is Suitable for Private English Lessons?",
+   "a": "It is suitable for students who want to get support in school subjects or prepare for academic exams, professionals who want to improve their English language skills in business life, travelers, and anyone who sees language learning as a hobby."
+  },
+  {
+   "q": "How are the Lessons Conducted?",
+   "a": "Private English lessons are shaped according to the student's level and goals. A comprehensive learning experience is offered by focusing on grammar, vocabulary, reading, writing, listening, and speaking skills."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "A Fully Personalised Programme",
+   "desc": "Lessons are planned entirely around the student's level, goals, and pace.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Lesson Hours",
+   "desc": "Take lessons whenever suits your busy work or school schedule.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "One-on-One Speaking Practice",
+   "desc": "Intensive one-on-one speaking practice with your teacher helps you progress quickly.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Join lessons whenever and wherever you like through Turkey's most interactive, comprehensive online language platform, Letslingo.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Best Education Model for You",
-      "faceToFace": {
-        "badge": "POPULAR",
-        "title": "Face-to-Face Education",
-        "desc": "Interactive lessons with our expert instructors specifically for middle school age group at one of our 12 branches.",
-        "features": [
-          "Maximum Lesson Hours",
-          "Speaking Guaranteed Program",
-          "Special Exam Prep",
-          "Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Live and interactive middle school English education from the comfort of your home.",
-        "features": [
-          "Learn English Freely Anywhere",
-          "Speaking Guaranteed Program",
-          "Expert Native and Local Staff",
-          "Online Speaking Classes",
-          "1-on-1 Support Lessons"
-        ],
-        "btnWhatsapp": "WhatsApp Support",
-        "btnForm": "Pre-Info Form"
-      }
-    },
+ "title": "Choose the Best Education Model for You",
+ "faceToFace": {
+  "badge": "POPULAR",
+  "title": "Face-to-Face Education",
+  "desc": "Choose one of our 12 branches across Turkey and take one-on-one lessons tailored specifically to you with our expert instructors.",
+  "features": [
+   "Maximum Lesson Hours",
+   "Speaking Guaranteed Program",
+   "Special Exam Prep",
+   "Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Live, one-on-one online private lessons with expert instructors, from the comfort of your home.",
+  "features": [
+   "Learn English Freely Anywhere",
+   "Speaking Guaranteed Program",
+   "Expert Native and Local Staff",
+   "Online Speaking Classes",
+   "1-on-1 Support Lessons"
+  ],
+  "btnWhatsapp": "WhatsApp Support",
+  "btnForm": "Pre-Info Form"
+ }
+},
     "hero": {
-      "tag": "PRIVATE ENGLISH LESSONS",
-      "title": "Private English Lessons",
-      "customerServiceBtn": "Contact Customer Service Now!",
-      "infoBtn": "Get Pre-Info Now!",
-      "whatsappBtn": "Whatsapp Support",
-      "formRibbon": "Pre-Info Form",
-      "formTitle": "FREE ENGLISH!",
-      "formSubtitle": "Tailor-made One-on-One English Training!",
-      "namePlaceholder": "Enter Name and Surname",
-      "phonePlaceholder": "Enter GSM Number",
-      "branchPlaceholder": "Select Branch",
-      "submitBtn": "GET INFO NOW!",
-      "badge": "CATEGORY: PRIVATE LESSON",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
-      "formNamePlaceholder": "Enter Name and Surname",
-      "formPhonePlaceholder": "Enter GSM Number",
-      "formBranchPlaceholder": "Select Branch",
-      "formSubmit": "GET INFO NOW!",
-      "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use.",
-      "subtitle": "One-on-one English training tailored to your needs."
-    },
+ "tag": "PRIVATE ENGLISH LESSONS",
+ "title": "Private English Lessons",
+ "customerServiceBtn": "Contact Customer Service Now!",
+ "infoBtn": "Get Pre-Info Now!",
+ "whatsappBtn": "Whatsapp Support",
+ "formRibbon": "Pre-Info Form",
+ "formTitle": "FREE ENGLISH!",
+ "formSubtitle": "Tailor-made One-on-One English Training!",
+ "namePlaceholder": "Enter Name and Surname",
+ "phonePlaceholder": "Enter GSM Number",
+ "branchPlaceholder": "Select Branch",
+ "submitBtn": "GET INFO NOW!",
+ "badge": "CATEGORY: PRIVATE LESSON",
+ "description": "Every student learns at a different pace and has different goals. As Avcılar English Language Course, our one-on-one private lessons offer a fully personalised, flexible, and goal-oriented English learning experience.",
+ "formNamePlaceholder": "Enter Name and Surname",
+ "formPhonePlaceholder": "Enter GSM Number",
+ "formBranchPlaceholder": "Select Branch",
+ "formSubmit": "GET INFO NOW!",
+ "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use.",
+ "subtitle": "One-on-one English training tailored to your needs."
+},
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [

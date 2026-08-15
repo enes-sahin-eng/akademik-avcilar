@@ -2403,91 +2403,91 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Avcılar Lise İngilizce Kursu?",
-      "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
-      "cardTitle": "Seviyeye Uygun Eğitim",
-      "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
-      "btnNext": "Sonraki Ayrıcalık →",
-      "faqs": [
-        {
-          "q": "Lise Kurs İçeriği Neleri Kapsar?",
-          "a": "Kelime dağarcığını zenginleştirme, ileri seviye gramer, okul derslerine destek, üniversite sınavlarına (YKS-DİL/YDT vb.) hazırlık ve konuşma pratiğini merkeze alan kapsamlı bir dil eğitimi sunar."
-        },
-        {
-          "q": "Bu Kursun Öğrencilere Faydaları Nelerdir?",
-          "a": "Okul sınavlarında yüksek not alma, akademik makale okuma-anlama, YDT ve TOEFL/IELTS gibi uluslararası standartlardaki sınavlara sağlam bir altyapı oluşturma ve akıcı İngilizce konuşma özgüveni kazandırır."
-        }
-      ],
-      "advantages": [
-        {
-          "icon": "Globe",
-          "title": "Uluslararası Standartlarda Eğitim",
-          "desc": "Avcılar İngilizce Dil Kursu'nda tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
-        },
-        {
-          "icon": "MessageCircle",
-          "title": "Yoğun Pratik İmkânları",
-          "desc": "Her bir seviye için belirlenen saatlerin ötesinde, 20 ile 64 saat arası ek pratik imkânları sunarak lise öğrencilerimizin dil becerilerini güçlendiriyoruz."
-        },
-        {
-          "icon": "Users",
-          "title": "Yaş Grubuna Özel Sınıflar",
-          "desc": "Lise ve kolej öğrencilerimizi kendi yaş gruplarına uygun olarak sınıflandırıyor, onlara özgü eğitim sistemi ile İngilizceyi yaşayarak öğrenmelerini sağlıyoruz."
-        },
-        {
-          "icon": "Target",
-          "title": "Erken Yaşta Küresel İletişim",
-          "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini bizim güvencemizle tamamlayın."
-        }
-      ]
-    },
+ "title": "Neden Avcılar Lise İngilizce Kursu?",
+ "subtitle": "Öğrenme Garantili Eğitim ile YKS-DİL'de ve Okulda Başarıyı Yakalayın!",
+ "cardTitle": "Seviyeye Uygun Eğitim",
+ "cardDesc": "Lise öğrencilerinin mevcut İngilizce seviyesine göre (9, 10, 11 ve 12. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
+ "btnNext": "Sonraki Ayrıcalık →",
+ "faqs": [
+  {
+   "q": "Lise Kurs İçeriği Neleri Kapsar?",
+   "a": "Kelime dağarcığını zenginleştirme, ileri seviye gramer, okul derslerine destek, üniversite sınavlarına (YKS-DİL/YDT vb.) hazırlık ve konuşma pratiğini merkeze alan kapsamlı bir dil eğitimi sunar."
+  },
+  {
+   "q": "Bu Kursun Öğrencilere Faydaları Nelerdir?",
+   "a": "Okul sınavlarında yüksek not alma, akademik makale okuma-anlama, YDT ve TOEFL/IELTS gibi uluslararası standartlardaki sınavlara sağlam bir altyapı oluşturma ve akıcı İngilizce konuşma özgüveni kazandırır."
+  }
+ ],
+ "advantages": [
+  {
+   "icon": "Globe",
+   "title": "Uluslararası Standartlarda Eğitim",
+   "desc": "Avcılar İngilizce Dil Kursu'nda tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
+  },
+  {
+   "icon": "MessageCircle",
+   "title": "Yoğun Pratik İmkânları",
+   "desc": "Her bir seviye için belirlenen saatlerin ötesinde, 20 ile 64 saat arası ek pratik imkânları sunarak lise öğrencilerimizin dil becerilerini güçlendiriyoruz."
+  },
+  {
+   "icon": "Users",
+   "title": "Yaş Grubuna Özel Sınıflar",
+   "desc": "Lise ve kolej öğrencilerimizi kendi yaş gruplarına uygun olarak sınıflandırıyor, onlara özgü eğitim sistemi ile İngilizceyi yaşayarak öğrenmelerini sağlıyoruz."
+  },
+  {
+   "icon": "Target",
+   "title": "Erken Yaşta Küresel İletişim",
+   "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini bizim güvencemizle tamamlayın."
+  }
+ ]
+},
     "models": {
-      "title": "Size En Uygun Eğitim Modelini Seçin",
-      "faceToFace": {
-        "badge": "POPÜLER",
-        "title": "Örgün (Yüz Yüze) Eğitim",
-        "desc": "Türkiye'deki 12 şubemizden birini seçerek, ortaokul yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
-        "features": [
-          "En Yüksek Ders Saati",
-          "Konuşma Garantili Program",
-          "LGS'ye Özel Hazırlık",
-          "Konuşma Sınıfları",
-          "1-1 Destek Ders İmkanı"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      },
-      "online": {
-        "title": "Online (Uzaktan) Eğitim",
-        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif ortaokul İngilizce eğitimi.",
-        "features": [
-          "Dilediğin Yerde Özgürce İngilizce Öğren",
-          "Konuşma Garantili Program",
-          "Uzman Yabancı ve Yerli Kadro",
-          "Online Konuşma Sınıfları",
-          "1-1 Destek Ders İmkanı"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      }
-    },
+ "title": "Size En Uygun Eğitim Modelini Seçin",
+ "faceToFace": {
+  "badge": "POPÜLER",
+  "title": "Örgün (Yüz Yüze) Eğitim",
+  "desc": "Türkiye'deki 12 şubemizden birini seçerek, lise yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
+  "features": [
+   "En Yüksek Ders Saati",
+   "Konuşma Garantili Program",
+   "LGS'ye Özel Hazırlık",
+   "Konuşma Sınıfları",
+   "1-1 Destek Ders İmkanı"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ },
+ "online": {
+  "title": "Online (Uzaktan) Eğitim",
+  "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif lise İngilizce eğitimi.",
+  "features": [
+   "Dilediğin Yerde Özgürce İngilizce Öğren",
+   "Konuşma Garantili Program",
+   "Uzman Yabancı ve Yerli Kadro",
+   "Online Konuşma Sınıfları",
+   "1-1 Destek Ders İmkanı"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ }
+},
     "hero": {
-      "tag": "LİSE İNGİLİZCE KURSLARI",
-      "title": "Lise İngilizce Kursu ile Geleceğinize Yön Verin",
-      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
-      "infoBtn": "Hemen Ön Bilgi Alın!",
-      "whatsappBtn": "Whatsapp Bilgi",
-      "formRibbon": "Ön Bilgi Formu",
-      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
-      "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
-      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
-      "phonePlaceholder": "GSM Numaranızı Giriniz.",
-      "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!",
-      "badge": "KATEGORİ: LİSE",
-      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
-      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
-    },
+ "tag": "LİSE İNGİLİZCE KURSLARI",
+ "title": "Lise İngilizce Kursu ile Geleceğinize Yön Verin",
+ "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+ "infoBtn": "Hemen Ön Bilgi Alın!",
+ "whatsappBtn": "Whatsapp Bilgi",
+ "formRibbon": "Ön Bilgi Formu",
+ "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+ "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
+ "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+ "phonePlaceholder": "GSM Numaranızı Giriniz.",
+ "branchPlaceholder": "Şube Seçiniz.",
+ "submitBtn": "HEMEN ÖN BİLGİ AL!",
+ "badge": "KATEGORİ: LİSE",
+ "description": "Lise dönemi, öğrencilerin hem okul başarısını sürdürmesi hem de üniversite sınavlarına sağlam bir temel oluşturması gereken kritik bir dönemdir. Avcılar İngilizce Dil Kursu olarak, lise öğrencilerine yönelik konuşma odaklı, sınav destekli ve interaktif bir İngilizce eğitim modeli sunuyoruz.",
+ "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+},
     "faq": {
       "title": "Sıkça Sorulan Sorular",
       "items": [
@@ -2506,62 +2506,62 @@
       ]
     },
     "gradeTabs": {
-      "title": "Ortaokul Kademelerine Özel Eğitim Programımız",
-      "grades": [
-        {
-          "tabTitle": "5. Sınıf",
-          "title": "5. Sınıf İngilizce Kursu Programı ve İçeriği",
-          "desc": "5. sınıf İngilizce kursu programımız, öğrencilerin dile başlangıç seviyesinden orta seviyeye geçiş yapabilmeleri için tasarlanmıştır. Bu seviyede:",
-          "bullets": [
-            "Temel kelime bilgisi gelişimi için görselli aktiviteler",
-            "Basit günlük konuşmaları içeren diyalog çalışmaları",
-            "İngilizce şarkı ve oyunlarla eğlenceli öğrenme ortamı",
-            "MEB müfredatıyla uyumlu okul derslerini destekleyici içerik",
-            "Konuşma pratiği için küçük grup etkinlikleri"
-          ],
-          "summary": "Ortaokul 5. sınıf öğrencilerimiz, tiyatral tekniklerle kelime ve cümle yapılarını kalıcı şekilde öğrenir. Özgüvenle İngilizce konuşmaya başlayan öğrencilerimiz, dil öğrenimine karşı olumlu tutum geliştirir."
-        },
-        {
-          "tabTitle": "6. Sınıf",
-          "title": "6. Sınıf İngilizce Kursu ile İletişim Becerilerini Geliştirme",
-          "desc": "Ortaokul 6. sınıf İngilizce kursu programımız, öğrencilerin aktif dil kullanımını destekleyen, gerçek hayat durumlarında İngilizce iletişim kurabilme becerisini hedefleyen kapsamlı bir eğitim modeli sunar. Bu seviyede öğrenciler, günlük hayatta İngilizce iletişim kurabilme yeteneklerini geliştirerek daha karmaşık dil yapılarını öğrenirler. Programımızda yer alan etkinlikler:",
-          "bullets": [
-            "Günlük hayat konularında temalı konuşma etkinlikleri",
-            "Dil bilgisi yapılarının pratik uygulamalarla pekiştirilmesi",
-            "Telaffuz çalışmaları ve akıcı konuşma egzersizleri",
-            "Okuma anlama becerilerini geliştiren özel etkinlikler",
-            "Basit kompozisyon ve yazma becerilerinin geliştirilmesi"
-          ],
-          "summary": "Bu seviyede öğrencilerimiz, kendilerini İngilizce ifade etme konusunda artan bir özgüven kazanır. Sınıf içi projeler ve grup çalışmaları, öğrendikleri bilgileri aktif olarak kullanmalarını sağlar."
-        },
-        {
-          "tabTitle": "7. Sınıf",
-          "title": "7. Sınıf İngilizce Kursu ve Akademik Başarıya Katkısı",
-          "desc": "Ortaokul 7. sınıf İngilizce kursu, gündelik konuşma yetkinliği ile sınav başarısı için gerekli dil becerilerini bütünleşik bir yaklaşımla ele alır:",
-          "bullets": [
-            "Daha karmaşık dil bilgisi yapılarının kapsamlı öğretimi",
-            "Genişletilmiş kelime hazinesi çalışmaları",
-            "Okul sınavlarına hazırlık ve konu pekiştirme",
-            "Özgün metinlerin analizi ve anlamlandırılması",
-            "Yaratıcı yazma projeleri ve sunum becerileri"
-          ],
-          "summary": "Ortaokul 7. sınıf programımız, öğrencilerin okuldaki başarısını artırırken, günlük İngilizce kullanımında da kendilerini rahat hissetmelerini sağlar. Bu seviyede öğrencilerimiz, kısa filmler, röportajlar gibi otantik içeriklerle İngilizce'nin gerçek hayattaki kullanımını deneyimler."
-        },
-        {
-          "tabTitle": "8. Sınıf / LGS",
-          "title": "8. Sınıf İngilizce Kursu ve LGS Hazırlık Desteği",
-          "desc": "Ortaokul 8. sınıf İngilizce kursu programımız, LGS sınavına hazırlık sürecini desteklerken, pratik dil becerilerinin de gelişimini gözetir:",
-          "bullets": [
-            "LGS formatında soru çözüm teknikleri ve stratejileri",
-            "Kapsamlı dil bilgisi tekrarları ve pekiştirme çalışmaları",
-            "Okuma anlama sorularında zaman yönetimi",
-            "Sınav kaygısını azaltan motivasyon teknikleri",
-            "İleri seviye konuşma ve tartışma becerileri"
-          ],
-          "summary": "8. sınıf öğrencilerimiz, hem sınav başarısı için gerekli akademik İngilizce'yi hem de pratik iletişim becerilerini edinir. Bu sayede öğrencilerimiz, lise eğitimine başlarken İngilizce yetkinlikleriyle bir adım önde olurlar."
-        }
-      ]
-    },
+ "title": "Lise Kademelerine Özel Eğitim Programımız",
+ "grades": [
+  {
+   "tabTitle": "9. Sınıf",
+   "title": "9. Sınıf İngilizce Kursu ile Liseye Güçlü Başlangıç",
+   "desc": "9. sınıf İngilizce kursu programımız, ortaokuldan liseye geçiş sürecinde dil bilgisi ve kelime dağarcığını sağlamlaştırarak öğrencileri lise müfredatına hazırlar. Bu seviyede:",
+   "bullets": [
+    "Ortaokul kazanımlarının gözden geçirilip pekiştirilmesi",
+    "Lise müfredatına uygun dil bilgisi yapılarının öğretimi",
+    "Akademik kelime dağarcığının genişletilmesi",
+    "Okuma parçalarıyla anlama becerisinin geliştirilmesi",
+    "Konuşma pratiğiyle özgüvenin artırılması"
+   ],
+   "summary": "9. sınıf öğrencilerimiz, lise İngilizcesinin temellerini sağlam bir şekilde atarak, ilerleyen yıllarda karşılaşacakları daha karmaşık konulara hazır hale gelir."
+  },
+  {
+   "tabTitle": "10. Sınıf",
+   "title": "10. Sınıf İngilizce Kursu ile Dil Bilgisinde Derinleşme",
+   "desc": "10. sınıf İngilizce kursu programımız, öğrencilerin dil bilgisi hakimiyetini artırırken akıcı konuşma becerisini geliştirmeyi hedefler. Programımızda yer alan çalışmalar:",
+   "bullets": [
+    "İleri düzey zaman kalıplarının ve cümle yapılarının öğretimi",
+    "Güncel konularla desteklenen okuma-anlama çalışmaları",
+    "Tartışma ve fikir belirtme odaklı konuşma etkinlikleri",
+    "Kompozisyon yazma tekniklerinin geliştirilmesi",
+    "Dinleme becerisini güçlendiren otantik içerikler"
+   ],
+   "summary": "10. sınıf öğrencilerimiz, dil bilgisi konularında derinleşirken, günlük ve akademik konularda kendilerini daha rahat ifade etmeyi öğrenir."
+  },
+  {
+   "tabTitle": "11. Sınıf",
+   "title": "11. Sınıf İngilizce Kursu ve Sınav Hazırlığına Giriş",
+   "desc": "11. sınıf İngilizce kursu, günlük dil kullanımını geliştirirken YKS-DİL, TOEFL ve IELTS gibi sınavlara temel oluşturacak becerileri kazandırır:",
+   "bullets": [
+    "Sınav formatlarına giriş niteliğinde okuma ve dinleme çalışmaları",
+    "Akademik yazım tekniklerinin tanıtılması",
+    "Genişletilmiş kelime hazinesi ve deyim çalışmaları",
+    "Zaman yönetimi ve soru çözüm stratejilerine giriş",
+    "İleri düzey tartışma ve sunum becerileri"
+   ],
+   "summary": "11. sınıf programımız, öğrencilerin hem okul başarısını hem de gelecekteki sınav hedeflerini destekleyecek bir geçiş dönemi sunar."
+  },
+  {
+   "tabTitle": "12. Sınıf / YKS-DİL",
+   "title": "12. Sınıf İngilizce Kursu ve YKS-DİL Hazırlık Desteği",
+   "desc": "12. sınıf İngilizce kursu programımız, YKS-DİL (YDT) sınavına yoğun hazırlık sağlarken, üniversite hayatına hazır bir dil yetkinliği kazandırır:",
+   "bullets": [
+    "YKS-DİL formatında soru çözüm teknikleri ve stratejileri",
+    "Kapsamlı dil bilgisi tekrarları ve deneme sınavları",
+    "Okuma anlama sorularında zaman yönetimi",
+    "Sınav kaygısını azaltan motivasyon teknikleri",
+    "İleri seviye akademik kelime ve çeviri çalışmaları"
+   ],
+   "summary": "12. sınıf öğrencilerimiz, hem YKS-DİL sınavına hem de üniversitede karşılaşacakları akademik İngilizceye hazır hale gelir."
+  }
+ ]
+},
     "seoContent": [
       {
         "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
@@ -2664,96 +2664,96 @@
       ]
     },
     "whyUs": {
-      "title": "Neden İngilizce Özel Ders?",
-      "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
-      "cardTitle": "Seviyeye Uygun Eğitim",
-      "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
-      "btnNext": "Sonraki Ayrıcalık →",
-      "faqs": [
-        {
-          "q": "Neden İngilizce Özel Ders?",
-          "a": "İngilizce özel derslerde, eğitim tamamen öğrencinin ihtiyaçlarına ve hedeflerine göre şekillendirilir. Öğretmen, öğrencinin mevcut dil seviyesini değerlendirir ve buna göre bir öğrenme planı oluşturur. Bu, dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri gibi alanlarda odaklanmayı sağlar."
-        },
-        {
-          "q": "İngilizce Özel Ders İçin Kimler Uygundur?",
-          "a": "Okul derslerinde destek almak isteyen ya da akademik sınavlara hazırlanan öğrenciler, iş hayatında İngilizce dil becerilerini geliştirmek isteyen profesyoneller, yurtdışına seyahat etmeyi planlayanlar ve dil öğrenmeyi hobi olarak gören herkes için uygundur."
-        },
-        {
-          "q": "Dersler Nasıl İşlenir?",
-          "a": "İngilizce özel dersler, öğrencinin seviyesine ve hedeflerine göre şekillendirilir. Dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri üzerinde durularak kapsamlı bir öğrenme deneyimi sunulur."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Ortaokul öğrencilerimize özel, Native yazarlarca hazırlanan özgün İngilizce eğitim yayınları.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Öğrencilerimizin yaş grubuna uygun aktiviteler ve etkinliklerle konuşma becerilerini geliştirdikleri kulüpler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Neden İngilizce Özel Ders?",
+ "subtitle": "Size Özel Planlanan, Öğrenme Garantili Bireysel Eğitim!",
+ "cardTitle": "Seviyeye Uygun Eğitim",
+ "cardDesc": "Öğrencinin mevcut seviyesine ve hedeflerine göre tamamen kişiselleştirilmiş, birebir ders programı sunuyoruz.",
+ "btnNext": "Sonraki Ayrıcalık →",
+ "faqs": [
+  {
+   "q": "Neden İngilizce Özel Ders?",
+   "a": "İngilizce özel derslerde, eğitim tamamen öğrencinin ihtiyaçlarına ve hedeflerine göre şekillendirilir. Öğretmen, öğrencinin mevcut dil seviyesini değerlendirir ve buna göre bir öğrenme planı oluşturur. Bu, dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri gibi alanlarda odaklanmayı sağlar."
+  },
+  {
+   "q": "İngilizce Özel Ders İçin Kimler Uygundur?",
+   "a": "Okul derslerinde destek almak isteyen ya da akademik sınavlara hazırlanan öğrenciler, iş hayatında İngilizce dil becerilerini geliştirmek isteyen profesyoneller, yurtdışına seyahat etmeyi planlayanlar ve dil öğrenmeyi hobi olarak gören herkes için uygundur."
+  },
+  {
+   "q": "Dersler Nasıl İşlenir?",
+   "a": "İngilizce özel dersler, öğrencinin seviyesine ve hedeflerine göre şekillendirilir. Dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri üzerinde durularak kapsamlı bir öğrenme deneyimi sunulur."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Kişiye Özel Program",
+   "desc": "Dersler tamamen öğrencinin seviyesine, hedefine ve temposuna göre planlanır.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Ders Saatleri",
+   "desc": "Yoğun iş veya okul programınıza uygun, dilediğiniz saatte ders alma imkânı.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Birebir Konuşma Pratiği",
+   "desc": "Öğretmeninizle birebir yapılan yoğun konuşma pratiğiyle hızla ilerleme kaydedersiniz.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Size En Uygun Eğitim Modelini Seçin",
-      "faceToFace": {
-        "badge": "POPÜLER",
-        "title": "Örgün (Yüz Yüze) Eğitim",
-        "desc": "Türkiye'deki 12 şubemizden birini seçerek, ortaokul yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
-        "features": [
-          "En Yüksek Ders Saati",
-          "Konuşma Garantili Program",
-          "LGS'ye Özel Hazırlık",
-          "Konuşma Sınıfları",
-          "1-1 Destek Ders İmkanı"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      },
-      "online": {
-        "title": "Online (Uzaktan) Eğitim",
-        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif ortaokul İngilizce eğitimi.",
-        "features": [
-          "Dilediğin Yerde Özgürce İngilizce Öğren",
-          "Konuşma Garantili Program",
-          "Uzman Yabancı ve Yerli Kadro",
-          "Online Konuşma Sınıfları",
-          "1-1 Destek Ders İmkanı"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      }
-    },
+ "title": "Size En Uygun Eğitim Modelini Seçin",
+ "faceToFace": {
+  "badge": "POPÜLER",
+  "title": "Örgün (Yüz Yüze) Eğitim",
+  "desc": "Türkiye'deki 12 şubemizden birini seçerek, size özel birebir derslerle uzman eğitmenlerimizden ders alın.",
+  "features": [
+   "En Yüksek Ders Saati",
+   "Konuşma Garantili Program",
+   "LGS'ye Özel Hazırlık",
+   "Konuşma Sınıfları",
+   "1-1 Destek Ders İmkanı"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ },
+ "online": {
+  "title": "Online (Uzaktan) Eğitim",
+  "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve birebir online özel ders imkânı.",
+  "features": [
+   "Dilediğin Yerde Özgürce İngilizce Öğren",
+   "Konuşma Garantili Program",
+   "Uzman Yabancı ve Yerli Kadro",
+   "Online Konuşma Sınıfları",
+   "1-1 Destek Ders İmkanı"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ }
+},
     "hero": {
-      "tag": "İNGİLİZCE ÖZEL DERS",
-      "title": "İngilizce Özel Ders",
-      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
-      "infoBtn": "Hemen Ön Bilgi Alın!",
-      "whatsappBtn": "Whatsapp Bilgi",
-      "formRibbon": "Ön Bilgi Formu",
-      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
-      "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
-      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
-      "phonePlaceholder": "GSM Numaranızı Giriniz.",
-      "branchPlaceholder": "Şube Seçiniz.",
-      "submitBtn": "HEMEN ÖN BİLGİ AL!",
-      "badge": "KATEGORİ: ÖZEL DERS",
-      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
-      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
-      "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
-    },
+ "tag": "İNGİLİZCE ÖZEL DERS",
+ "title": "İngilizce Özel Ders",
+ "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+ "infoBtn": "Hemen Ön Bilgi Alın!",
+ "whatsappBtn": "Whatsapp Bilgi",
+ "formRibbon": "Ön Bilgi Formu",
+ "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+ "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
+ "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+ "phonePlaceholder": "GSM Numaranızı Giriniz.",
+ "branchPlaceholder": "Şube Seçiniz.",
+ "submitBtn": "HEMEN ÖN BİLGİ AL!",
+ "badge": "KATEGORİ: ÖZEL DERS",
+ "description": "Her öğrencinin öğrenme hızı ve hedefi farklıdır. Avcılar İngilizce Dil Kursu olarak, birebir özel derslerle tamamen size özel, esnek ve hedefe yönelik bir İngilizce eğitim deneyimi sunuyoruz.",
+ "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+ "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
+},
     "faq": {
       "title": "Sıkça Sorulan Sorular",
       "items": [
