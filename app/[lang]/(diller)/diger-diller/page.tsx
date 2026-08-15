@@ -39,7 +39,7 @@ export async function generateMetadata({
       lang === "en"
         ? "Other Language Courses | German, French, Spanish & More"
         : lang === "ar"
-          ? "دورات اللغات الأخرى | الألمانية والفرنسية والإسبانية والمزيد | أكاديميك إنترناشيونال"
+          ? "دورات اللغات الأخرى | الألمانية والفرنسية والإسبانية والمزيد | دورة أفجيلار لتعليم اللغة الإنجليزية"
           : "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası",
     description:
       lang === "en"
@@ -106,7 +106,7 @@ export default async function DigerDillerPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
@@ -117,7 +117,7 @@ export default async function DigerDillerPage({ params }: PageProps) {
                     : lang === "ar"
                       ? "لغات أخرى"
                       : "Diğer Diller",
-                item: `https://www.avcilarakademik.com.tr/${lang}/${PAGE_SLUG}`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/${PAGE_SLUG}`,
               },
             ],
           }),
@@ -135,8 +135,8 @@ export default async function DigerDillerPage({ params }: PageProps) {
             description: courseDesc,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: [
               { "@type": "CourseInstance", name: "Almanca / German", courseMode: "Blended" },

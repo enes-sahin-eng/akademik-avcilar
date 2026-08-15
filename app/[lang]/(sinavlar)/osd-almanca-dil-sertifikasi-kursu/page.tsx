@@ -91,19 +91,19 @@ export default async function OsdHazirlikKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "ÖSD Almanca Sınavı Hazırlık",
-                item: `https://www.avcilarakademik.com.tr/${lang}/osd-almanca-dil-sertifikasi-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/osd-almanca-dil-sertifikasi-kursu`,
               },
             ],
           }),
@@ -122,15 +122,15 @@ export default async function OsdHazirlikKursuPage({ params }: PageProps) {
               "Üniversite kayıtları, aile birleşimi, oturma izni ve çalışma müsaadesi gibi alanlarda tüm dünyada geçerli olan iletişim odaklı ÖSD sınavına hazırlık programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

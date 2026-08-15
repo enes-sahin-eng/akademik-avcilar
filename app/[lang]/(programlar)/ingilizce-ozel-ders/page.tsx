@@ -85,8 +85,8 @@ export default async function OzelDersPage({ params }: PageProps) {
               "İhtiyacınıza özel, birebir ve amaca yönelik İngilizce özel ders. Dil becerilerinizi hızla güçlendirin.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.akademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
           }),
         }}

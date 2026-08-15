@@ -22,12 +22,12 @@
     "btnText": "Sınava Başla →",
     "footerText": "Ücretsiz · Kayıt gerektirmez",
     "avatarAlt": "Avcılar Yabancı Dil Kursu Seviye Tespit Sınavı Eğitim Danışmanı",
-    "avatarTitle": "Avcılar Akademik International Ücretsiz Seviye Belirleme Sınavı"
+    "avatarTitle": "Avcılar İngilizce Dil Kursu Ücretsiz Seviye Belirleme Sınavı"
   },
   "robot": {
     "tooltip": "Sana nasıl yardımcı olabilirim?",
     "title": "Eğitim Danışmanı",
-    "status": "Akademik International",
+    "status": "Avcılar İngilizce Dil Kursu",
     "online": "Çevrimiçi",
     "inputPlaceholder": "Bir şeyler yazın...",
     "send": "Gönder",
@@ -577,7 +577,7 @@
     "programsTitle": "Eğitim Programlarımız",
     "languagesTitle": "Diğer Diller",
     "newsletterTitle": "Bizden Haberiniz Olsun",
-    "newsletterDesc": "E-Posta Listemize Katılarak Akademik International'dan Gelecek Güncel Haberleri, İndirim Fırsatlarını Ve Kampanyalarını Kaçırma",
+    "newsletterDesc": "E-Posta Listemize Katılarak Avcılar İngilizce Dil Kursu'ndan Gelecek Güncel Haberleri, İndirim Fırsatlarını Ve Kampanyalarını Kaçırma",
     "emailPlaceholder": "E-Posta Adresiniz",
     "sendBtn": "Gönder",
     "sendingBtn": "Gönderiliyor...",
@@ -587,7 +587,7 @@
     "checkbox1": "Özel bildirim, güncelleme ve haberler hakkında tarafıma e-posta ve SMS ile iletişime geçilmesini istiyorum.",
     "checkbox2": "Web Gizlilik ve Kişisel Verileri Koruma Kanunu İlkeleri metnini okudum, onaylıyorum",
     "socialTitle": "Bizi Takip Edin",
-    "socialDesc": "Akademik International Deneyimleri Ve Aktiviteleri Feedinize Düşsün!",
+    "socialDesc": "Avcılar İngilizce Dil Kursu Deneyimleri Ve Aktiviteleri Feedinize Düşsün!",
     "customerServiceTitle": "Müşteri Hizmetleri",
     "callNowBtn": "Hemen Ara!",
     "abroadCallText": "Yurtdışından mı arıyorsunuz?",
@@ -597,9 +597,9 @@
       "Kişisel Veriler Politikası",
       "Şartlar ve Koşullar"
     ],
-    "copyright": "© 1992 - 2026 Akademik International Yabancı Dil Kursu Tüm Haklar Saklıdır.",
+    "copyright": "© 2026 Avcılar İngilizce Dil Kursu Tüm Hakları Saklıdır.",
     "partnersTitle": "Bizi Güçlü Kılan Partnerlerimiz",
-    "groupTitle": "Akademik International Group",
+    "groupTitle": "Avcılar İngilizce Dil Kursu Group",
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
@@ -839,33 +839,27 @@
       "sinav": "AKADEMİK SINAV KURSLARI"
     },
     "cards": [
-      { "id": 1, "category": "nitelikli", "title": "Prep Temel\nİngilizce Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 1, "category": "nitelikli", "title": "Prep Temel\nİngilizce Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 2, "category": "nitelikli", "title": "Prep Plus İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 3, "category": "nitelikli", "title": "İleri Seviye\nİngilizce Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 4, "category": "nitelikli", "title": "İleri Seviye Plus\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "İleri Seviye Plus\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 5, "category": "nitelikli", "title": "Genel İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 6, "category": "nitelikli", "title": "İngilizce Özel Ders", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 7, "category": "nitelikli", "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 8, "category": "sinav", "title": "YDS Hazırlık Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 9, "category": "sinav", "title": "YKS-DİL (YDT)\nHazırlık Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 10, "category": "sinav", "title": "TOEFL Hazırlık\nKursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 11, "category": "sinav", "title": "IELTS Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 12, "category": "sinav", "title": "Hazırlık Atlama\nKursu -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 14, "category": "sinav", "title": "Almanca Goethe\nSınavı Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
       { "id": 15, "category": "sinav", "title": "SAT Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 16, "category": "sinav", "title": "PTE Kursu", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 17, "category": "sinav", "title": "TELC Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
     ]
   },
   "heroSlider": {
     "slides": [
-      {
-        "id": 1,
-        "image": "/sliders/gemini1.webp",
-        "alt": "Avcılar İngilizce Dil Kursu Avcılar Şubesi",
-        "title": "Avcılar İngilizce Dil Kursu İle Dil Eğitimi"
-      },
       {
         "id": 2,
         "image": "/sliders/gemini2.webp",
@@ -1068,8 +1062,8 @@
       "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1191,8 +1185,8 @@
       "badge": "A2 PRE-INTERMEDIATE / ÖN ORTA SEVİYE"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1314,8 +1308,8 @@
       "badge": "B1 INTERMEDIATE / ORTA SEVİYE"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1407,7 +1401,7 @@
   "academicPage": {
     "about": {
       "title": "Kariyerinizi Zirveye Taşıyacak Akademik Eğitim",
-      "desc": "\n<p>Temel İngilizce eğitimini almış fakat daha <strong>üst seviyede İngilizce bilgisine</strong> ihtiyaç duyan pek çok üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler yetiştirmiştir. Kurumumuz akademik kariyerinizde sizi bir üst seviyeye taşıyacak olan kaliteli bir eğitim sunmaktadır.</p>\n<p>35 yılı aşkın tecrübemiz ve kıdemli öğretmenlerimizle akademik derslerimizde kapsamlı, kurumumuza özgü yayınlarımız ve Translation 1 kitabımız ile <strong>teknik, hukuki, tıbbi, ticari ve akademik terminolojiyi içeren cümle analizleri</strong> yapılır.</p>\n<p>Akademik Reading 1 kitabımız da <strong>phrasal verb, phrase, idiom ve collocation</strong> kullanımlarını detaylı olarak vermekte olup terminolojik ve güncel konuları kapsayan okuma parçaları ile <strong>Listening dersleri</strong> yapılır.</p>\n<p><strong>Academic Sömestresinde</strong> öğrencilerimiz word formation, idioms, collocations, phrasal verbs temelinde kapsamlı bir kelime dağarcığı ile kendilerini <strong>üst seviyede ifade</strong> edebilecek duruma erişirler.</p>\n<p>Nasıl günlük konuştuğumuz Türkçe ile iş hayatında ve akademik camiada kullanılan Türkçe arasında farklılıklar varsa aynı durum İngilizce için de geçerlidir. <strong>Türkiye'nin ilk akademik İngilizce eğitimi</strong> veren kuruluşu olan <strong>Akademik Yabancı Dil Kursu</strong> Eğitim Kurumları üst düzey İngilizce öğrenebileceğiniz bir dil akademisidir.</p>\n",
+      "desc": "\n<p>Temel İngilizce eğitimini almış fakat daha <strong>üst seviyede İngilizce bilgisine</strong> ihtiyaç duyan pek çok üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler yetiştirmiştir. Kurumumuz akademik kariyerinizde sizi bir üst seviyeye taşıyacak olan kaliteli bir eğitim sunmaktadır.</p>\n<p>35 yılı aşkın tecrübemiz ve kıdemli öğretmenlerimizle akademik derslerimizde kapsamlı, kurumumuza özgü yayınlarımız ve Translation 1 kitabımız ile <strong>teknik, hukuki, tıbbi, ticari ve akademik terminolojiyi içeren cümle analizleri</strong> yapılır.</p>\n<p>Akademik Reading 1 kitabımız da <strong>phrasal verb, phrase, idiom ve collocation</strong> kullanımlarını detaylı olarak vermekte olup terminolojik ve güncel konuları kapsayan okuma parçaları ile <strong>Listening dersleri</strong> yapılır.</p>\n<p><strong>Academic Sömestresinde</strong> öğrencilerimiz word formation, idioms, collocations, phrasal verbs temelinde kapsamlı bir kelime dağarcığı ile kendilerini <strong>üst seviyede ifade</strong> edebilecek duruma erişirler.</p>\n<p>Nasıl günlük konuştuğumuz Türkçe ile iş hayatında ve akademik camiada kullanılan Türkçe arasında farklılıklar varsa aynı durum İngilizce için de geçerlidir. <strong>Türkiye'nin ilk akademik İngilizce eğitimi</strong> veren kuruluşu olan <strong>Avcılar İngilizce Dil Kursu</strong> Eğitim Kurumları üst düzey İngilizce öğrenebileceğiniz bir dil akademisidir.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1437,8 +1431,8 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1530,7 +1524,7 @@
   "academicPlusPage": {
     "about": {
       "title": "Simultane Çeviri ve Yüksek İngilizce Hakimiyeti: Academic Plus",
-      "desc": "\n<p><strong>Academic Plus</strong> sömestresinde öğrencilerimiz ileri düzey <strong>konuşma, okuma, dinleme ve yazma</strong> etkinlikleriyle öğrenim becerilerini üst seviyeye çıkarırlar. Düzgün bir aksanla yapılan konuşmaları anlar ve kendisini çok iyi ifade eder.</p>\n<p>Bugüne kadar pek çok <strong>üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler</strong> yetiştirmiş olan Akademik Yabancı Dil Kursu Akademik İngilizce 1 derslerinde cümle analizi becerisini geliştiren ve üst düzey cümleleri anlayabilecek düzeye gelen öğrencilerine <strong>Academic Plus</strong> derslerinde ticari, teknik, sosyal bilimler, tıbbi, hukuki ve ileri düzey metinler üzerinden <strong>akademik phrase</strong> örneklerini göstererek <strong>simultane paragraf çevirisi</strong> sunup, reading(okuma) parçaları, listening(dinleme) ve speaking(konuşma) becerinizi üst noktalara taşır.</p>\n<p>Akademik phrase'lerin yanı sıra öğrencilerimiz aldığı derslerde pek çok <strong>collocation, idiom ve phrasal verb</strong> öğrenerek üst düzey metinlerin <strong>introduction, summary ve conclusion</strong> gibi temel bölümlerini kolaylıkla anlar, nitelikli yabancı dil bilgileri ile ayrıcalıklı olduklarını hissederler.</p>\n",
+      "desc": "\n<p><strong>Academic Plus</strong> sömestresinde öğrencilerimiz ileri düzey <strong>konuşma, okuma, dinleme ve yazma</strong> etkinlikleriyle öğrenim becerilerini üst seviyeye çıkarırlar. Düzgün bir aksanla yapılan konuşmaları anlar ve kendisini çok iyi ifade eder.</p>\n<p>Bugüne kadar pek çok <strong>üst düzey yönetici, mühendis, iş adamı, akademisyen, öğretim görevlisi, doktor, avukat, üniversite öğrencileri ve önemli sektörlerden öğrenciler</strong> yetiştirmiş olan Avcılar İngilizce Dil Kursu Akademik İngilizce 1 derslerinde cümle analizi becerisini geliştiren ve üst düzey cümleleri anlayabilecek düzeye gelen öğrencilerine <strong>Academic Plus</strong> derslerinde ticari, teknik, sosyal bilimler, tıbbi, hukuki ve ileri düzey metinler üzerinden <strong>akademik phrase</strong> örneklerini göstererek <strong>simultane paragraf çevirisi</strong> sunup, reading(okuma) parçaları, listening(dinleme) ve speaking(konuşma) becerinizi üst noktalara taşır.</p>\n<p>Akademik phrase'lerin yanı sıra öğrencilerimiz aldığı derslerde pek çok <strong>collocation, idiom ve phrasal verb</strong> öğrenerek üst düzey metinlerin <strong>introduction, summary ve conclusion</strong> gibi temel bölümlerini kolaylıkla anlar, nitelikli yabancı dil bilgileri ile ayrıcalıklı olduklarını hissederler.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1560,8 +1554,8 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1654,7 +1648,7 @@
     "about": {
       "badge": "TÜM SEVİYELER / A1'DEN C1'E",
       "title": "Genel İngilizce Kursları ile Hedeflerinize Ulaşın",
-      "desc": "<p><strong>Akademik International Genel İngilizce Kursları</strong>, A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye yönelik, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu kapsamlı dil programlarıdır.</p><p>Kurumumuza başvuran her öğrencimize ücretsiz <strong>seviye tespit sınavı</strong> uygulanır ve kendi İngilizce seviyenize en uygun sınıfa yerleştirilerek eğitiminize başlarsınız. Genel İngilizce programlarımızda ezber değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerini eş zamanlı geliştiren bütünleşik bir yöntem uygulanır.</p><p>Yetişkinlere özel hazırlanan güncel içerikler ve özgün yayınlarımızla desteklenen programlarımız sayesinde günlük iletişimden iş hayatına, seyahatten akademik çalışmalara kadar her alanda özgüvenle İngilizce kullanabilirsiniz.</p>",
+      "desc": "<p><strong>Avcılar İngilizce Dil Kursu Genel İngilizce Kursları</strong>, A1 başlangıç seviyesinden C1 ileri seviyeye kadar her düzeyde öğrenciye yönelik, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu kapsamlı dil programlarıdır.</p><p>Kurumumuza başvuran her öğrencimize ücretsiz <strong>seviye tespit sınavı</strong> uygulanır ve kendi İngilizce seviyenize en uygun sınıfa yerleştirilerek eğitiminize başlarsınız. Genel İngilizce programlarımızda ezber değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerini eş zamanlı geliştiren bütünleşik bir yöntem uygulanır.</p><p>Yetişkinlere özel hazırlanan güncel içerikler ve özgün yayınlarımızla desteklenen programlarımız sayesinde günlük iletişimden iş hayatına, seyahatten akademik çalışmalara kadar her alanda özgüvenle İngilizce kullanabilirsiniz.</p>",
       "skills": [
         {
           "id": "grammar",
@@ -1683,8 +1677,8 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1783,7 +1777,7 @@
         },
         {
           "q": "Hangi İngilizce seviyeleri için program bulunmaktadır?",
-          "a": "Akademik International'da A1 (Beginner/Başlangıç), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate/Upper-Intermediate) ve C1 (Advanced) olmak üzere tüm CEFR seviyeleri için ayrı programlar mevcuttur. Her seviye, bir üst seviyeye geçişi hedefleyerek sistematik biçimde tasarlanmıştır."
+          "a": "Avcılar İngilizce Dil Kursu'nda A1 (Beginner/Başlangıç), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate/Upper-Intermediate) ve C1 (Advanced) olmak üzere tüm CEFR seviyeleri için ayrı programlar mevcuttur. Her seviye, bir üst seviyeye geçişi hedefleyerek sistematik biçimde tasarlanmıştır."
         },
         {
           "q": "İngilizce seviyemi nasıl öğrenebilirim?",
@@ -1795,7 +1789,7 @@
         },
         {
           "q": "Genel İngilizce kursu tamamlandığında hangi sertifika verilir?",
-          "a": "Program sonunda Akademik International katılım sertifikası verilmektedir. Bunun yanı sıra IELTS, TOEFL, Cambridge gibi uluslararası sınav hazırlık programlarına geçiş yapabilir; belirli bir puan elde ederek dünya genelinde geçerli dil sertifikalarına sahip olabilirsiniz."
+          "a": "Program sonunda Avcılar İngilizce Dil Kursu katılım sertifikası verilmektedir. Bunun yanı sıra IELTS, TOEFL, Cambridge gibi uluslararası sınav hazırlık programlarına geçiş yapabilir; belirli bir puan elde ederek dünya genelinde geçerli dil sertifikalarına sahip olabilirsiniz."
         }
       ]
     },
@@ -1837,8 +1831,8 @@
       "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
-      "subtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "advantages": [
         {
           "title": "%97 Öğrenci Memnuniyeti",
@@ -1937,7 +1931,7 @@
         },
         {
           "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
-          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Avcılar İngilizce Dil Kursu İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
         },
         {
           "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
@@ -1958,7 +1952,7 @@
     "about": {
       "badge": "İLKÖĞRETİM / ÇOCUK İNGİLİZCESİ",
       "title": "İlköğretim İngilizce Kursları - Çocuk İngilizce Kursu",
-      "desc": "\n    <p>İlkokul Çocuk İngilizce kursu öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktayız. <strong>Tiyatral ve interaktif eğitim modeli</strong> ile çocuk alanında uzman eğitmenlerimiz ile ilkokul İngilizce eğitimini ezbere dayalı değil <strong>konuşma, okuma ve yazma odaklı</strong> bir eğitim modeliyle öğretiyoruz. Okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin hem okuldaki derslerinde başarılı olması hedeflenmekte hem de İngilizceyi seven ve <strong>özgüveni yüksek öğrenciler</strong> yetiştirmeyi hedeflemekteyiz.</p>\n    <p>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. İlköğretim İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p><strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Akademik Yabancı Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n    <p><strong>Okuma, dinleme, yazma becerilerinizi</strong> de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Tiyatral ve interaktif eğitim modeli ile alanında uzman eğitmenlerimiz ile <strong>ilkokul İngilizce eğitimini</strong> ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p>Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Akademik Yabancı Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Akademik Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n  ",
+      "desc": "\n    <p>İlkokul Çocuk İngilizce kursu öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktayız. <strong>Tiyatral ve interaktif eğitim modeli</strong> ile çocuk alanında uzman eğitmenlerimiz ile ilkokul İngilizce eğitimini ezbere dayalı değil <strong>konuşma, okuma ve yazma odaklı</strong> bir eğitim modeliyle öğretiyoruz. Okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin hem okuldaki derslerinde başarılı olması hedeflenmekte hem de İngilizceyi seven ve <strong>özgüveni yüksek öğrenciler</strong> yetiştirmeyi hedeflemekteyiz.</p>\n    <p>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. İlköğretim İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p><strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Avcılar İngilizce Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n    <p><strong>Okuma, dinleme, yazma becerilerinizi</strong> de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Tiyatral ve interaktif eğitim modeli ile alanında uzman eğitmenlerimiz ile <strong>ilkokul İngilizce eğitimini</strong> ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n    <p>Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Avcılar İngilizce Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Avcılar İngilizce Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -2084,7 +2078,7 @@
         },
         {
           "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
-          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Akademik International İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
+          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Avcılar İngilizce Dil Kursu İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
         },
         {
           "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
@@ -2105,9 +2099,9 @@
       "description": [
         "İlkokul Çocuk İngilizce kursu öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktayız. <strong>Tiyatral ve interaktif eğitim modeli</strong> ile çocuk alanında uzman eğitmenlerimiz ile ilkokul İngilizce eğitimini ezbere dayalı değil <strong>konuşma, okuma ve yazma odaklı</strong> bir eğitim modeliyle öğretiyoruz. Okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin hem okuldaki derslerinde başarılı olması hedeflenmekte hem de İngilizceyi seven ve <strong>özgüveni yüksek öğrenciler</strong> yetiştirmeyi hedeflemekteyiz.",
         "Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. İlköğretim İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.",
-        "<strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Akademik Yabancı Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.",
+        "<strong>Eğitim sistemi ve kendine özgü metotlarıyla</strong> fark yaratan <strong>yabancı dil okulu</strong> Avcılar İngilizce Dil Kursu İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu</strong>, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.",
         "<strong>Okuma, dinleme, yazma becerilerinizi</strong> de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Tiyatral ve interaktif eğitim modeli ile alanında uzman eğitmenlerimiz ile <strong>ilkokul İngilizce eğitimini</strong> ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.",
-        "Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Akademik Yabancı Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Akademik Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır."
+        "Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce kursu Avcılar İngilizce Dil Kursu <strong>tercihiniz için doğru adres</strong>. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın Avcılar İngilizce kursu Avcılar İngilizce Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır."
       ]
     }
   },
@@ -2126,7 +2120,7 @@
     "about": {
       "badge": "ORTAOKUL / LGS HAZIRLIK",
       "title": "Ortaokul İngilizce Kursu ile 5, 6, 7 ve 8. Sınıflar İçin Özel Eğitim",
-      "desc": "\n    <p>Ortaokul İngilizce kursu, 5, 6, 7 ve 8. sınıf öğrencilerinin dil becerilerini geliştirmek için özel olarak tasarlanmış eğitim programıdır. Ortaokul yaş aralığı (10-14 yaş), beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.</p>\n    <p>Günümüzde iyi bir İngilizce eğitimi almak, çocukların hem akademik hayatlarında hem de gelecekteki kariyerlerinde büyük avantaj sağlar. Ortaokul döneminde kazanılan dil becerileri, öğrencilerin ilerleyen eğitim hayatlarında sağlam bir temel oluşturur.</p>\n  ",
+      "desc": "\n    <p>Ortaokul İngilizce kursu, 5, 6, 7 ve 8. sınıf öğrencilerinin dil becerilerini geliştirmek için özel olarak tasarlanmış eğitim programıdır. Ortaokul yaş aralığı (10-14 yaş), beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.</p>\n    <p>Günümüzde iyi bir İngilizce eğitimi almak, çocukların hem akademik hayatlarında hem de gelecekteki kariyerlerinde büyük avantaj sağlar. Ortaokul döneminde kazanılan dil becerileri, öğrencilerin ilerleyen eğitim hayatlarında sağlam bir temel oluşturur.</p>\n  ",
       "skills": [
         {
           "id": "5th",
@@ -2151,7 +2145,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik Ortaokul İngilizce Kursu?",
+      "title": "Neden Avcılar Ortaokul İngilizce Kursu?",
       "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
       "cardTitle": "Seviyeye Uygun Eğitim",
       "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
@@ -2233,7 +2227,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
       "badge": "KATEGORİ: ORTAOKUL",
-      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
@@ -2313,7 +2307,7 @@
     "seoContent": [
       {
         "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
-        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "desc": "Avcılar İngilizce Dil Kursu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
         "bullets": [
           "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
           "Ana dil eğitimine benzer doğal öğrenme süreci",
@@ -2347,7 +2341,7 @@
           "Fiziksel ortam ve teknolojik altyapı",
           "Ulaşım kolaylığı ve güvenlik"
         ],
-        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+        "summary": "Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
       },
       {
         "title": "Online Ortaokul İngilizce Kursu Avantajları",
@@ -2380,7 +2374,7 @@
     "about": {
       "badge": "ORTAOKUL / LGS HAZIRLIK",
       "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
-      "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Akademik International Yabancı Dil Kursları, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Akademik International Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Akademik International Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
+      "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Avcılar İngilizce Dil Kursu, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -2409,7 +2403,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik Lise İngilizce Kursu?",
+      "title": "Neden Avcılar Lise İngilizce Kursu?",
       "subtitle": "Öğrenme Garantili Eğitim ile LGS'de ve Okulda Başarıyı Yakalayın!",
       "cardTitle": "Seviyeye Uygun Eğitim",
       "cardDesc": "Ortaokul öğrencilerinin mevcut İngilizce seviyesine göre (5, 6, 7 ve 8. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
@@ -2428,7 +2422,7 @@
         {
           "icon": "Globe",
           "title": "Uluslararası Standartlarda Eğitim",
-          "desc": "Akademik International'da tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
+          "desc": "Avcılar İngilizce Dil Kursu'nda tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
         },
         {
           "icon": "MessageCircle",
@@ -2443,7 +2437,7 @@
         {
           "icon": "Target",
           "title": "Erken Yaşta Küresel İletişim",
-          "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini Akademik güvencesiyle tamamlayın."
+          "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini bizim güvencemizle tamamlayın."
         }
       ]
     },
@@ -2491,7 +2485,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
       "badge": "KATEGORİ: LİSE",
-      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
@@ -2571,7 +2565,7 @@
     "seoContent": [
       {
         "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
-        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "desc": "Avcılar İngilizce Dil Kursu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
         "bullets": [
           "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
           "Ana dil eğitimine benzer doğal öğrenme süreci",
@@ -2605,7 +2599,7 @@
           "Fiziksel ortam ve teknolojik altyapı",
           "Ulaşım kolaylığı ve güvenlik"
         ],
-        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+        "summary": "Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
       },
       {
         "title": "Online Ortaokul İngilizce Kursu Avantajları",
@@ -2638,7 +2632,7 @@
     "about": {
       "badge": "BİREBİR EĞİTİM",
       "title": "Birebir Özel Ders",
-      "desc": "<b>Akademik Kariyere Sahip Eğitmenlerimiz</b> Tarafından Aktüel Konular İçerikli <b>Nitelikli İngilizce</b> Öğretimini Esas Alan (Konuşma, Okuma, Dinleme ve Yazma) Becerileri üzerinde yoğunlaşılan eğitim programımız ile <b>İngilizcenizi üst seviyelere çıkartın.</b><br/><br/>Akademik International Yabancı Dil Okulları olarak her durumda çözüm üreterek öğrencilerimize ihtiyaçlarına yönelik bir eğitim sunmaktayız. <b>İngilizce özel derslere</b> ayırdığımız hizmetler zaman planlamanız ve istediğiniz eğitimin içeriğine yöneliktir. Çalışma saatleriniz, okul günleriniz ve öğrenme şekilleri bakımından yabancı dil öğrenim süreci birçok kişi için farklılıklar gösterebilir, farklılıklara uyum sağlayarak eğitim verilmelidir. İster kişisel tercih, ister mecburi durumlar için size özel ihtiyacınıza yönelik çözümler üretiriz.<br/><br/>Birebir özel derslerimiz öğrencimizin seviyesine göre yabancı ya da Türk öğretmenlerimizle devam eder. Eğitimcilerimiz arasından hedefinize uygun uzmanlık alanı edinmiş olanlar ile birlikte size özel bir eğitim planı hazırlar ve yine öğretmenimizin uzmanlık alanından faydalanmanızı sağlarız. Özel derslerimizde öğrencimize istediği yabancı dilde okuma, yazma, anlama, çeviri ve konuşma becerisi gibi dilde hakimiyet unsuru alanlarda sizi üst seviyeye çıkaracak eğitim verilir. En kısa sürede ancak sağlam temellerle yabancı dil hakimiyeti sağlanır. Aynı zamanda özel ders eğitiminiz boyunca gerçekleşen speaking derslerine de ücretsiz katılabilirsiniz.<br/><br/>Yeni bir bakış açısıyla İngilizce öğrenmeye başlarsınız. Akademik International bünyesinde çalışan alanında uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte öğrenci ihtiyacına yönelik eğitim vermektedir.",
+      "desc": "<b>Akademik Kariyere Sahip Eğitmenlerimiz</b> Tarafından Aktüel Konular İçerikli <b>Nitelikli İngilizce</b> Öğretimini Esas Alan (Konuşma, Okuma, Dinleme ve Yazma) Becerileri üzerinde yoğunlaşılan eğitim programımız ile <b>İngilizcenizi üst seviyelere çıkartın.</b><br/><br/>Avcılar İngilizce Dil Kursu olarak her durumda çözüm üreterek öğrencilerimize ihtiyaçlarına yönelik bir eğitim sunmaktayız. <b>İngilizce özel derslere</b> ayırdığımız hizmetler zaman planlamanız ve istediğiniz eğitimin içeriğine yöneliktir. Çalışma saatleriniz, okul günleriniz ve öğrenme şekilleri bakımından yabancı dil öğrenim süreci birçok kişi için farklılıklar gösterebilir, farklılıklara uyum sağlayarak eğitim verilmelidir. İster kişisel tercih, ister mecburi durumlar için size özel ihtiyacınıza yönelik çözümler üretiriz.<br/><br/>Birebir özel derslerimiz öğrencimizin seviyesine göre yabancı ya da Türk öğretmenlerimizle devam eder. Eğitimcilerimiz arasından hedefinize uygun uzmanlık alanı edinmiş olanlar ile birlikte size özel bir eğitim planı hazırlar ve yine öğretmenimizin uzmanlık alanından faydalanmanızı sağlarız. Özel derslerimizde öğrencimize istediği yabancı dilde okuma, yazma, anlama, çeviri ve konuşma becerisi gibi dilde hakimiyet unsuru alanlarda sizi üst seviyeye çıkaracak eğitim verilir. En kısa sürede ancak sağlam temellerle yabancı dil hakimiyeti sağlanır. Aynı zamanda özel ders eğitiminiz boyunca gerçekleşen speaking derslerine de ücretsiz katılabilirsiniz.<br/><br/>Yeni bir bakış açısıyla İngilizce öğrenmeye başlarsınız. Avcılar İngilizce Dil Kursu bünyesinde çalışan alanında uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine uygun yayınları ile birlikte öğrenci ihtiyacına yönelik eğitim vermektedir.",
       "skills": [
         {
           "id": "grammar",
@@ -2663,8 +2657,8 @@
       ],
       "description": "İngilizce akademik sınavlara hazırlık konusunda birebir özel ders almak, öğrencilere büyük avantaj sağlar. Bu dersler, sınav stratejileri, okuma ve yazma becerileri, kelime dağarcığı geliştirme gibi konularda öğrencilere rehberlik eder. Özel dersin birebir formatı, öğrencilerin ihtiyaçlarına özel olarak odaklanmalarına olanak tanır ve başarılı sonuçlar elde etmelerine yardımcı olur. Deneyimli öğretmenlerimiz tarafından verilen birebir dersler, öğrencilerin ihtiyaçlarına özel olarak tasarlanmış müfredatla ilerler. Bu sayede, öğrenciler hedeflerine en kısa sürede ulaşabilirler.",
       "features": [
-        "Akademik International ile zaman ve bütçenizi koruyarak hedeflerinize ulaşın.",
-        "İngilizce konuşturan güncel içerikli dil eğitim programı Akademik International farkıyla sizinle.",
+        "Avcılar İngilizce Dil Kursu ile zaman ve bütçenizi koruyarak hedeflerinize ulaşın.",
+        "İngilizce konuşturan güncel içerikli dil eğitim programı Avcılar İngilizce Dil Kursu farkıyla sizinle.",
         "Yerli ve yabancı uzman eğitim kadromuz ile İngilizce konuşmanız artık çok daha kolay.",
         "Birebir konuşma ve destek dersleri ile sınırlarınızı zorlayarak akıcı İngilizce konuşabileceksiniz."
       ]
@@ -2756,7 +2750,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN ÖN BİLGİ AL!",
       "badge": "KATEGORİ: ÖZEL DERS",
-      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Akademik International Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
+      "description": "Ortaokul yaş aralığı, beyin gelişiminin dil öğrenmeye en elverişli olduğu ve bilişsel esnekliğin zirve yaptığı bir dönemdir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak, ortaokul öğrencilerine yönelik özelleştirilmiş, konuşma odaklı ve interaktif İngilizce eğitim modeli sunuyoruz.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
     },
@@ -2833,7 +2827,7 @@
     "seoContent": [
       {
         "title": "Konuşma Odaklı İngilizce Kursu: Ezbersiz Dil Eğitimi",
-        "desc": "Akademik International Yabancı Dil Okulu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "desc": "Avcılar İngilizce Dil Kursu'nu diğer kurslardan ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi İngilizce öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
         "bullets": [
           "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
           "Ana dil eğitimine benzer doğal öğrenme süreci",
@@ -2867,7 +2861,7 @@
           "Fiziksel ortam ve teknolojik altyapı",
           "Ulaşım kolaylığı ve güvenlik"
         ],
-        "summary": "Akademik International Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+        "summary": "Avcılar İngilizce Dil Kursu Yabancı Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
       },
       {
         "title": "Online Ortaokul İngilizce Kursu Avantajları",
@@ -3561,7 +3555,7 @@
     "about": {
       "badge": "4 TEMEL BECERİ",
       "title": "Etkili IELTS Hazırlık Süreci Nedir?",
-      "desc": "IELTS (International English Language Testing System), İngilizce konuşulan ülkelerde eğitim almak veya çalışmak isteyen adayların yeteneklerini ölçen en güvenilir küresel sınavlardan biridir. Akademik International olarak, yetişkinlere özgü dil eğitim sistemimizle hedeflerinize ulaşmanızı sağlıyoruz.<br/><br/><b>Dört Beceriye Eşit Odak:</b> IELTS sınavı okuma, yazma, konuşma ve dinleme olmak üzere 4 temel becerinin yetkinliğini ölçer. Kursumuz, 7-10 kişilik butik sınıflarda bu dört beceriyi paralel olarak geliştirmenize odaklanır.<br/><br/><b>Kişiye Özel Planlama:</b> Akademik ve Genel IELTS hedeflerinize, mevcut seviyenize ve ayırabileceğiniz zamana göre birebir veya grup eğitimi şeklinde kişiselleştirilmiş programlar sunuyoruz.",
+      "desc": "IELTS (International English Language Testing System), İngilizce konuşulan ülkelerde eğitim almak veya çalışmak isteyen adayların yeteneklerini ölçen en güvenilir küresel sınavlardan biridir. Avcılar İngilizce Dil Kursu olarak, yetişkinlere özgü dil eğitim sistemimizle hedeflerinize ulaşmanızı sağlıyoruz.<br/><br/><b>Dört Beceriye Eşit Odak:</b> IELTS sınavı okuma, yazma, konuşma ve dinleme olmak üzere 4 temel becerinin yetkinliğini ölçer. Kursumuz, 7-10 kişilik butik sınıflarda bu dört beceriyi paralel olarak geliştirmenize odaklanır.<br/><br/><b>Kişiye Özel Planlama:</b> Akademik ve Genel IELTS hedeflerinize, mevcut seviyenize ve ayırabileceğiniz zamana göre birebir veya grup eğitimi şeklinde kişiselleştirilmiş programlar sunuyoruz.",
       "skills": [
         {
           "id": "listening",
@@ -3593,7 +3587,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International IELTS Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu IELTS Kursu?",
       "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
       "cardTitle": "Yüksek Başarı Oranlı Şubeler",
       "cardDesc": "Bursa, İstanbul, İzmir, Ankara, Tekirdağ ve Eskişehir şubelerimizde binlerce öğrenciyi hedeflediği skora ulaştıran, en çok tavsiye edilen kurs tecrübesi.",
@@ -3782,7 +3776,7 @@
     "about": {
       "badge": "YDT HAZIRLIK",
       "title": "Etkili YKS-Dil YDT Hazırlık Süreci Nedir?",
-      "desc": "YKS-DİL YDT (Yabancı Dil Testi), üniversitelerin yabancı dil bölümlerini tercih edebilmek amacıyla girilen ve ÖSYM tarafından düzenlenen ulusal bir sınavdır. Liseden mezuniyet durumunda olanlar veya liseden mezun olmuş tüm öğrenciler bu sınava girme hakkına sahiptir.<br/><br/><b>Sınav Formatı:</b> YKS Dil sınavı 120 dakika süren ve 80 sorudan oluşan bir sınavdır. Akademik Yabancı Dil Kursları olarak, alanında uzman eğitmenler, sınava özgü sorular içeren yayınlar ve İngilizce Uzem online platformu ile kapsamlı bir eğitim modeli sunuyoruz.<br/><br/><b>Kişiye Özel Planlama:</b> Öncelikle tüm öğrencilerimize ücretsiz seviye tespit sınavı uygulanır, sonuçlar özenle değerlendirilerek adaylar seviyelerine en uygun gruba yerleştirilir.",
+      "desc": "YKS-DİL YDT (Yabancı Dil Testi), üniversitelerin yabancı dil bölümlerini tercih edebilmek amacıyla girilen ve ÖSYM tarafından düzenlenen ulusal bir sınavdır. Liseden mezuniyet durumunda olanlar veya liseden mezun olmuş tüm öğrenciler bu sınava girme hakkına sahiptir.<br/><br/><b>Sınav Formatı:</b> YKS Dil sınavı 120 dakika süren ve 80 sorudan oluşan bir sınavdır. Avcılar İngilizce Dil Kursu olarak, alanında uzman eğitmenler, sınava özgü sorular içeren yayınlar ve İngilizce Uzem online platformu ile kapsamlı bir eğitim modeli sunuyoruz.<br/><br/><b>Kişiye Özel Planlama:</b> Öncelikle tüm öğrencilerimize ücretsiz seviye tespit sınavı uygulanır, sonuçlar özenle değerlendirilerek adaylar seviyelerine en uygun gruba yerleştirilir.",
       "skills": [
         {
           "id": "grammar",
@@ -3814,7 +3808,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları YKS-Dil YDT Hazırlık Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu YKS-Dil YDT Hazırlık Kursu?",
       "subtitle": "Zaman Kaybetmeden Hedeflediğiniz Puanı Elde Edin",
       "cardTitle": "Yüksek Başarı Oranlı Şubeler",
       "cardDesc": "İstanbul Beşiktaş, İstanbul Kadıköy, Bursa, İzmir, Ankara ve Eskişehir şubelerimizde binlerce öğrenciyi hedeflediği puana ulaştıran, Türkiye derecesi çıkartan kurs tecrübesi.",
@@ -3959,7 +3953,7 @@
     "seoContent": [
       {
         "title": "En İyi YKS-Dil YDT Hazırlık Kursu ile Zaman Kaybetmeyin",
-        "desc": "YKS-DİL YDT, üniversitelerin yabancı dil bölümlerini tercih etmek isteyen adayları hedeflerine ulaştıran köprü niteliğinde bir sınavdır. Kuruluşundan günümüze 15 yılı aşkın süredir Türkiye'de köklü bir kurum olarak hizmet veren Akademik Yabancı Dil Kursları, alanında uzman eğitmenler eşliğinde ve özgün yayınları sayesinde sizi tek seferde doğrudan başarıya ulaştırmaya devam ediyor.",
+        "desc": "YKS-DİL YDT, üniversitelerin yabancı dil bölümlerini tercih etmek isteyen adayları hedeflerine ulaştıran köprü niteliğinde bir sınavdır. Kuruluşundan günümüze 15 yılı aşkın süredir Türkiye'de köklü bir kurum olarak hizmet veren Avcılar İngilizce Dil Kursu, alanında uzman eğitmenler eşliğinde ve özgün yayınları sayesinde sizi tek seferde doğrudan başarıya ulaştırmaya devam ediyor.",
         "bullets": [
           "Ücretsiz seviye tespit sınavı ile size en uygun gruba yerleştirme",
           "Kuruma özgü, güncel konu anlatımlı setler, soru bankası ve yaprak testler",
@@ -3996,7 +3990,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
-      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Akademik International Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Avcılar İngilizce Dil Kursu Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
     },
@@ -4035,7 +4029,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International ITEP Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu ITEP Kursu?",
       "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
       "cardTitle": "Yüksek Başarı Oranlı Şubeler",
       "cardDesc": "Kampüslerimizde uzman öğretmen kadrosu ve özgün eğitim müfredatıyla binlerce öğrenciyi hedeflediği ITEP skoruna ulaştıran, Türkiye'nin en iyi kurs tecrübesi.",
@@ -4180,7 +4174,7 @@
     "seoContent": [
       {
         "title": "En İyi ITEP Hazırlık Kursu ile Zaman Kaybetmeyin",
-        "desc": "İTEP, yabancı dil olarak İngilizce öğrenen bireylerin dil yeterliliğini ölçmek üzere tasarlanmış, uluslararası geçerliliği bulunan internet tabanlı bir sınav hizmetidir. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Akademik International Yabancı Dil Kursu, nitelikli dil eğitimi için burada.",
+        "desc": "İTEP, yabancı dil olarak İngilizce öğrenen bireylerin dil yeterliliğini ölçmek üzere tasarlanmış, uluslararası geçerliliği bulunan internet tabanlı bir sınav hizmetidir. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi ITEP kursu Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, nitelikli dil eğitimi için burada.",
         "bullets": [
           "İTEP Academic, Business, Slate, Hospitality, Core ve Plus türlerine özel içerikler",
           "Çıkmış sorular üzerinden sınav stratejileri tekniğiyle yönlendirmeli skor artırma",
@@ -4217,7 +4211,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: SINAV HAZIRLIK KURSLARI",
-      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Akademik International Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Avcılar İngilizce Dil Kursu Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "Yüksek Başarı Oranı ve Kapsamlı Yayın Desteği!"
     },
@@ -4256,7 +4250,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International GRE Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu GRE Kursu?",
       "subtitle": "Zaman Kaybetmeden İstediğiniz Skoru Elde Edin",
       "cardTitle": "Yüksek Başarı Oranlı Şubeler",
       "cardDesc": "Kampüslerimizde uzman öğretmen kadrosu ve özgün eğitim müfredatıyla binlerce öğrenciyi hedeflediği GRE skoruna ulaştıran, Türkiye'nin en iyi kurs tecrübesi.",
@@ -4402,7 +4396,7 @@
     "seoContent": [
       {
         "title": "En İyi GRE Hazırlık Kursu ile Zaman Kaybetmeyin",
-        "desc": "Yurt dışında yüksek lisans ve doktora programlarına katılmayı amaçlayan adayların girdiği Graduate Record Examination (GRE), bilhassa ABD üniversiteleri tarafından talep edilen dünya çapında bir sınavdır. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Akademik International Yabancı Dil Kursu, nitelikli sınav eğitimi için burada.",
+        "desc": "Yurt dışında yüksek lisans ve doktora programlarına katılmayı amaçlayan adayların girdiği Graduate Record Examination (GRE), bilhassa ABD üniversiteleri tarafından talep edilen dünya çapında bir sınavdır. Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GRE kursu Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, nitelikli sınav eğitimi için burada.",
         "bullets": [
           "Adayların sayısal, sözel, analitik düşünme ve yazılı ifade yeteneklerini değerlendiren test yapısına uygun içerikler",
           "Sınavda istenen matematik, mantık, problem çözme ve kavrama yetkinliklerini zaman baskısı altında geliştirme çalışmaları",
@@ -4469,7 +4463,7 @@
           "desc": "Verilen senaryolara uygun olarak akıcı ve anlaşılır bir şekilde sözlü ifade yeteneği."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursu, tecrübeli eğitim kadrosu, size özel sınav programı ve soru çözüm teknikleri ile Almanca dil yeterlilik başarınızı belgelemenizi sağlar.",
+      "description": "Avcılar İngilizce Dil Kursu, tecrübeli eğitim kadrosu, size özel sınav programı ve soru çözüm teknikleri ile Almanca dil yeterlilik başarınızı belgelemenizi sağlar.",
       "features": [
         "Hagen TestDaF-Enstitüsü standartlarına uygun çalışma prensibi.",
         "Dört temel beceri (Okuma, Yazma, Dinleme, Konuşma) üzerinden eğitim.",
@@ -4478,7 +4472,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International TestDaF Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu TestDaF Kursu?",
       "subtitle": "Almanya Hayalinizi Tecrübeye Emanet Edin",
       "cardTitle": "Tecrübeli Eğitim Kadrosu",
       "cardDesc": "Sınav formatına tam hakim ve soru çözüm tekniklerinde uzman eğitmenlerle hedefinize doğrudan ulaşın.",
@@ -4620,7 +4614,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International Proficiency Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu Proficiency Kursu?",
       "subtitle": "Üniversitenize Özel Hazırlık Deneyimi",
       "cardTitle": "Geniş Sınav Arşivi",
       "cardDesc": "Farklı üniversitelerin geçmiş yıllarda sorduğu Proficiency sorularından oluşan eşsiz bir arşive ve çalışma sistemine sahibiz.",
@@ -4737,7 +4731,7 @@
           "desc": "Uzman eğitmenlerimiz eşliğinde, zaman yönetimi ve pratik soru çözüm stratejileriyle netlerinizi hızla artırma."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursu olarak 37 yılı aşkın eğitim tecrübemizle YÖKDİL maratonunda sizleri en donanımlı şekilde hazır hale getiriyoruz.",
+      "description": "Avcılar İngilizce Dil Kursu olarak 37 yılı aşkın eğitim tecrübemizle YÖKDİL maratonunda sizleri en donanımlı şekilde hazır hale getiriyoruz.",
       "features": [
         "Adayın uzmanlık alanına (Fen, Sosyal, Sağlık) özel olarak ayrılmış sınıflar.",
         "YÖKDİL sınavından tam skor almış uzman ve deneyimli eğitmen kadrosu.",
@@ -4746,7 +4740,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International YÖKDİL Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu YÖKDİL Kursu?",
       "subtitle": "37 Yıllık Tecrübe ve Yüksek Başarı Oranı",
       "cardTitle": "Tam Skor Almış Eğitmenler",
       "cardDesc": "Her sınav döneminde YÖKDİL'e giren, güncel soru tiplerini analiz eden ve tam skor elde eden profesyonel bir kadro ile çalışıyoruz.",
@@ -4910,7 +4904,7 @@
           "Dil bilgisi, kelime ve soru çözüm uygulamalarının entegre işlendiği güncel setler",
           "Hedefe (Yüksek Lisans, Doktora, Dil Tazminatı vb.) yönelik stratejik rehberlik"
         ],
-        "summary": "Hangi eğitim modelini seçerseniz seçin, Akademik Yabancı Dil Kursu farkıyla ayrıcalıklı olduğunuzu hissedeceksiniz."
+        "summary": "Hangi eğitim modelini seçerseniz seçin, Avcılar İngilizce Dil Kursu farkıyla ayrıcalıklı olduğunuzu hissedeceksiniz."
       }
     ]
   },
@@ -4968,7 +4962,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International TOEFL Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu TOEFL Kursu?",
       "subtitle": "Zamanınızı ve Skorunuzu Güvence Altına Alın",
       "cardTitle": "Derece Skora Sahip Eğitmenler",
       "cardDesc": "Sınavı bizzat deneyimlemiş, yüksek skor elde etmiş ve TOEFL algoritmasına tam hakim profesyonel bir kadroyla çalışıyoruz.",
@@ -5052,7 +5046,7 @@
         },
         {
           "q": "Sınav hazırlık programları ne zaman başlıyor?",
-          "a": "Akademik Yabancı Dil Kurslarında sınav hazırlık programlarımızın hangi kampüsümüzde, hangi tarihlerde başlayacağı güncel olarak duyurulmaktadır. İhtiyacınıza göre özel ders formatında hemen de başlayabilirsiniz."
+          "a": "Avcılar İngilizce Dil Kursunda sınav hazırlık programlarımızın hangi kampüsümüzde, hangi tarihlerde başlayacağı güncel olarak duyurulmaktadır. İhtiyacınıza göre özel ders formatında hemen de başlayabilirsiniz."
         }
       ]
     },
@@ -5112,7 +5106,7 @@
     "seoContent": [
       {
         "title": "TOEFL Sınavına Derece Skora Sahip Uzmanlarla Hazırlanın",
-        "desc": "Uluslararası geçerliliği olan, 170 ülkede 4500 sınav merkezinde uygulanan TOEFL sınavı; yurt dışında eğitim, burs başvuruları ve akademik kariyer için en önemli adımlardan biridir. Akademik Yabancı Dil Kursu olarak, bu zorlu elektronik sınava, bizzat yüksek skor elde etmiş, sınavın algoritmasını ve hilelerini bilen eğitmen kadromuzla hazırlık imkanı sunuyoruz.",
+        "desc": "Uluslararası geçerliliği olan, 170 ülkede 4500 sınav merkezinde uygulanan TOEFL sınavı; yurt dışında eğitim, burs başvuruları ve akademik kariyer için en önemli adımlardan biridir. Avcılar İngilizce Dil Kursu olarak, bu zorlu elektronik sınava, bizzat yüksek skor elde etmiş, sınavın algoritmasını ve hilelerini bilen eğitmen kadromuzla hazırlık imkanı sunuyoruz.",
         "bullets": [
           "Okuma, dinleme, konuşma ve yazma becerilerini eşit oranda geliştiren müfredat",
           "Sınav kaygısını düşüren ve net artıran stratejik taktikler",
@@ -5130,7 +5124,7 @@
           "Speaking ve Writing bölümlerinde eğitmenlerden birebir analiz ve geri bildirim",
           "Kapsamlı doküman ve güncel yayın desteği"
         ],
-        "summary": "İster grup eğitiminde ister özel derste, Akademik Yabancı Dil Kursu farkıyla hedefinize emin adımlarla ilerleyin."
+        "summary": "İster grup eğitiminde ister özel derste, Avcılar İngilizce Dil Kursu farkıyla hedefinize emin adımlarla ilerleyin."
       }
     ]
   },
@@ -5188,7 +5182,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International TOEIC Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu TOEIC Kursu?",
       "subtitle": "Global İletişim Standartlarına Hakim Olun",
       "cardTitle": "990 Tam Skorlu Eğitmenler",
       "cardDesc": "TOEIC sınavından 990 tam puan almış, sınavın algoritmasına ve kurumsal iş İngilizcesine tamamen hakim bir eğitim kadrosuyla çalışın.",
@@ -5332,7 +5326,7 @@
     "seoContent": [
       {
         "title": "Kurumsal Kariyerinizin Kapılarını TOEIC ile Aralayın",
-        "desc": "TOEIC (Test Of English for International Communication), TOFAŞ, RENAULT gibi küresel piyasada öne çıkan dev markaların işe alım ve terfi süreçlerinde tercih ettiği en prestijli iş İngilizcesi sınavıdır. Akademik Yabancı Dil Kursları olarak, genel İngilizce eğitimlerinden sıyrılarak tamamen iş dünyasına ve TOEIC sınav müfredatına odaklanan özel programlar sunuyoruz.",
+        "desc": "TOEIC (Test Of English for International Communication), TOFAŞ, RENAULT gibi küresel piyasada öne çıkan dev markaların işe alım ve terfi süreçlerinde tercih ettiği en prestijli iş İngilizcesi sınavıdır. Avcılar İngilizce Dil Kursu olarak, genel İngilizce eğitimlerinden sıyrılarak tamamen iş dünyasına ve TOEIC sınav müfredatına odaklanan özel programlar sunuyoruz.",
         "bullets": [
           "Sınavdan tam 990 puan almış, strateji uzmanı eğitmen kadrosu",
           "Reading ve Listening odaklı iletişim ağırlıklı yoğun müfredat",
@@ -5369,7 +5363,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: YURT DIŞI SINAV HAZIRLIK",
-      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GMAT hazırlık kursu Akademik Yabancı Dil Kursu, nitelikli dil eğitimi için burada.",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi GMAT hazırlık kursu Avcılar İngilizce Dil Kursu, nitelikli dil eğitimi için burada.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "Yüksek Skor Elde Etmiş Hocalarla Stratejik Hazırlık!"
     },
@@ -5408,7 +5402,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International GMAT Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu GMAT Kursu?",
       "subtitle": "Türkiye'nin En Nitelikli GMAT Hazırlığı",
       "cardTitle": "Yüksek Skorlu Uzmanlar",
       "cardDesc": "GMAT sınavına bizzat girmiş, sistemin algoritmasını çözmüş ve yüksek skor elde etmiş hocalardan oluşan ayrıcalıklı bir kadro.",
@@ -5552,7 +5546,7 @@
     "seoContent": [
       {
         "title": "MBA Hayalleriniz İçin Türkiye'nin En İyi GMAT Kursu",
-        "desc": "Amerika başta olmak üzere tüm dünyada MBA (İşletme Yüksek Lisansı) ve doktora programlarının kapısını aralayan GMAT (Graduate Management Admission Test), 8.000'in üzerinde okulda geçerliliğe sahiptir. Özgün eğitim müfredatımız ve yüksek skor elde etmiş uzman öğretmen kadromuzla, Akademik Yabancı Dil Kursu olarak nitelikli dil ve sınav eğitimi için buradayız.",
+        "desc": "Amerika başta olmak üzere tüm dünyada MBA (İşletme Yüksek Lisansı) ve doktora programlarının kapısını aralayan GMAT (Graduate Management Admission Test), 8.000'in üzerinde okulda geçerliliğe sahiptir. Özgün eğitim müfredatımız ve yüksek skor elde etmiş uzman öğretmen kadromuzla, Avcılar İngilizce Dil Kursu olarak nitelikli dil ve sınav eğitimi için buradayız.",
         "bullets": [
           "GMAT soru mantığını ve algoritmasını yakından tanıyan eğitim kadrosu",
           "Analitik Yazı, Sözel, Sayısal ve Mantık Yürütme bölümlerine özel müfredat",
@@ -5619,7 +5613,7 @@
           "desc": "Okuma, dinleme, yazma ve konuşma modüllerini verilen süre içinde başarıyla tamamlama teknikleri."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursu ile GOETHE sınav hazırlık programına katılarak Almanca dil yeterlilik başarınızı resmi olarak belgeleyin.",
+      "description": "Avcılar İngilizce Dil Kursu ile GOETHE sınav hazırlık programına katılarak Almanca dil yeterlilik başarınızı resmi olarak belgeleyin.",
       "features": [
         "Alanında en az 5 yıl tecrübeli ve sınav sistemine hakim uzman eğitmen kadrosu.",
         "Aile birleşimi, akademik eğitim veya mesleki denklik hedeflerine özel sınıf planlaması.",
@@ -5628,7 +5622,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International Goethe Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu Goethe Kursu?",
       "subtitle": "Almanca Hedeflerinizi Uzmanlara Emanet Edin",
       "cardTitle": "Tecrübeli Eğitim Kadrosu",
       "cardDesc": "Sadece dil öğreten değil, Goethe sınavının değerlendirme kriterlerini yakından tanıyan en az 5 yıl deneyimli hocalarla çalışın.",
@@ -5761,7 +5755,7 @@
           "desc": "Aile birleşiminden (A1) akademik kariyere (C2) kadar her seviyeye özel müfredat içeriği."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursu ÖSD sınavı hazırlık programı ile yetkinlik alanınızı ölçecek size özel eğitim programıyla tanışın.",
+      "description": "Avcılar İngilizce Dil Kursu ÖSD sınavı hazırlık programı ile yetkinlik alanınızı ölçecek size özel eğitim programıyla tanışın.",
       "features": [
         "Alanında en az 5 yıl tecrübeli uzman öğretmen kadrosu.",
         "Değişen soru yapılarına hakim, güncel sınav deneyimine sahip eğitmenler.",
@@ -5770,7 +5764,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International ÖSD Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu ÖSD Kursu?",
       "subtitle": "Zaman Kaybetmeden Resmi Belgenize Kavuşun",
       "cardTitle": "Deneyimli Eğitmen Kadrosu",
       "cardDesc": "Sınavın iletişim odaklı yapısını çok iyi bilen, en az 5 yıl tecrübeli hocalar eşliğinde pratik ağırlıklı bir hazırlık dönemi geçirin.",
@@ -5866,7 +5860,7 @@
     },
     "hero": {
       "title": "E-TEP Sınavına",
-      "highlight": "Akademik International ile Hazırlanın",
+      "highlight": "Avcılar İngilizce Dil Kursu ile Hazırlanın",
       "subtitle": "ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP'te hedeflediğiniz puana uzman eğitmen kadromuzla ulaşın.",
       "buttonText": "Eğitimleri İncele",
       "tag": "E-TEP HAZIRLIK KURSU",
@@ -6067,7 +6061,7 @@
         },
         {
           "q": "E-TEP sınavı için hangi kaynaklar önerilir?",
-          "a": "ÖSYM'nin yayınladığı örnek sorular temel alınmalıdır. Akademik International Yabancı Dil Kursu'nun özel E-TEP hazırlık setleri ve online platformları da sınava yönelik hedefli çalışma imkanı sunmaktadır. Ayrıca TOEFL iBT, IELTS Academic ve PTE Academic hazırlık kitapları ile TRT World, BBC Academic, The Economist gibi kaynaklar önerilir."
+          "a": "ÖSYM'nin yayınladığı örnek sorular temel alınmalıdır. Avcılar İngilizce Dil Kursu'nun özel E-TEP hazırlık setleri ve online platformları da sınava yönelik hedefli çalışma imkanı sunmaktadır. Ayrıca TOEFL iBT, IELTS Academic ve PTE Academic hazırlık kitapları ile TRT World, BBC Academic, The Economist gibi kaynaklar önerilir."
         }
       ]
     },
@@ -6292,7 +6286,7 @@
     "about": {
       "badge": "VİZE ONAYI İÇİN ŞART",
       "title": "Almanca Aile Birleşimi Kursu Nedir?",
-      "desc": "Oturma izni yasası sebebiyle, Almanya'daki eşinin yanına yerleşmek isteyen yabancılara henüz vize talebinde bulunurken kendi ülkesinde basit düzeyde Almanca bilgisine sahip olduğunu kanıtlama zorunluluğu getirilmektedir.<br/><br/><b>Genel Almanca Değildir!</b> Akademik Batı Dilleri Almanca Aile Birleşimi kursumuz; genel Almanca kursu değildir. Eğitim programımız tamamen Goethe Enstitüsü Aile Birleşimi (Start Deutsch A1) sınavına uygun planlanmış olup, Almanca eğitimi Basic düzeyde cümle yapılarıyla öğretilir.",
+      "desc": "Oturma izni yasası sebebiyle, Almanya'daki eşinin yanına yerleşmek isteyen yabancılara henüz vize talebinde bulunurken kendi ülkesinde basit düzeyde Almanca bilgisine sahip olduğunu kanıtlama zorunluluğu getirilmektedir.<br/><br/><b>Genel Almanca Değildir!</b> Avcılar İngilizce Dil Kursu Almanca Aile Birleşimi kursumuz; genel Almanca kursu değildir. Eğitim programımız tamamen Goethe Enstitüsü Aile Birleşimi (Start Deutsch A1) sınavına uygun planlanmış olup, Almanca eğitimi Basic düzeyde cümle yapılarıyla öğretilir.",
       "skills": [
         {
           "id": "horen",
@@ -6895,7 +6889,7 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: ÖZEL AMAÇLI EĞİTİMLER",
-      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi Havacılık / Pilotluk İngilizce hazırlık kursu Akademik Yabancı Dil Kursu nitelikli dil eğitimi için burada.",
+      "description": "Özgün eğitim müfredatı ve alanında uzman öğretmen kadrosuyla Türkiye'nin en iyi Havacılık / Pilotluk İngilizce hazırlık kursu Avcılar İngilizce Dil Kursu nitelikli dil eğitimi için burada.",
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
       "subtitle": "Kabin Memurluğu Mülakatları ve Havacılık Terminolojisi!"
     },
@@ -6925,7 +6919,7 @@
           "desc": "Kurul mülakatlarında zaman yönetimi, stres yönetimi ve dili etkin kullanma taktikleri."
         }
       ],
-      "description": "Kabin memurluğu alımlarında yapılan online İngilizce sınavı ve kurul mülakatlarına Akademik Yabancı Dil Kursu farkıyla hazırlanın.",
+      "description": "Kabin memurluğu alımlarında yapılan online İngilizce sınavı ve kurul mülakatlarına Avcılar İngilizce Dil Kursu farkıyla hazırlanın.",
       "features": [
         "Türkiye'nin en iyi Havacılık/Pilotluk İngilizcesi eğitim müfredatı.",
         "Online İngilizce (Örn: DynEd, CBT) sınavlarına yönelik özel soru çözüm teknikleri.",
@@ -7749,7 +7743,7 @@
       },
       {
         "title": "En İyi TORFL Kursu Tavsiye",
-        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Bireyin ihtiyacına yönelik oluşturulan eğitim programlarımız, özgün kaynaklarımız ve uzman eğitmenlerimiz ile sizlere en nitelikli TORFL hazırlık hizmetini sunmaktayız. İstanbul, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
+        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Avcılar İngilizce Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Bireyin ihtiyacına yönelik oluşturulan eğitim programlarımız, özgün kaynaklarımız ve uzman eğitmenlerimiz ile sizlere en nitelikli TORFL hazırlık hizmetini sunmaktayız. İstanbul, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
       }
     ]
   },
@@ -7944,7 +7938,7 @@
     "seoContent": [
       {
         "title": "En İyi CILS Kursu Tavsiye",
-        "desc": "Dünya dillerinde her yıl binlerce öğrencisine yeni bir dil kazandıran Akademik Yabancı Dil Kursları, Türkiye'de ilk kez yetişkin bireylere özgü geliştirdiği eğitim modelleri ile sizlere yeni bir dil ve kariyer kazandırıyor. Ücretsiz olarak sunduğumuz seviye tespit sınavından sonra tamamen size özgü eğitim programlarına dahil olabilir ve gelemediğiniz dersleri Türkiye'de ilk defa dil okulumuz tarafından oluşturulan Canlı Stüdyo ortamında online bir şekilde telafi edebilirsiniz."
+        "desc": "Dünya dillerinde her yıl binlerce öğrencisine yeni bir dil kazandıran Avcılar İngilizce Dil Kursu, Türkiye'de ilk kez yetişkin bireylere özgü geliştirdiği eğitim modelleri ile sizlere yeni bir dil ve kariyer kazandırıyor. Ücretsiz olarak sunduğumuz seviye tespit sınavından sonra tamamen size özgü eğitim programlarına dahil olabilir ve gelemediğiniz dersleri Türkiye'de ilk defa dil okulumuz tarafından oluşturulan Canlı Stüdyo ortamında online bir şekilde telafi edebilirsiniz."
       },
       {
         "title": "CILS Kursu Fiyatları",
@@ -8086,11 +8080,11 @@
     "seoContent": [
       {
         "title": "En İyi TEF Kursu Tavsiye",
-        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Akademik Yabancı Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Ücretsiz olarak sunduğumuz seviye tespit sınavımız, ihtiyacınıza yönelik eğitim programlarımız, alanında uzman eğitmen kadromuz ve Canlı Stüdyo seçeneğimiz ile sizlere en nitelikli TEF Kursu hizmetini sunmaktayız. İstanbul, Beşiktaş, Kadıköy, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
+        "desc": "Türkiye'de ilk kez yetişkin bireylere yönelik özgün eğitim modelleri geliştiren Avcılar İngilizce Dil Kursu, en iyi dil okulu tavsiye araştırmalarında adından sıkça söz ettirmektedir. Ücretsiz olarak sunduğumuz seviye tespit sınavımız, ihtiyacınıza yönelik eğitim programlarımız, alanında uzman eğitmen kadromuz ve Canlı Stüdyo seçeneğimiz ile sizlere en nitelikli TEF Kursu hizmetini sunmaktayız. İstanbul, Beşiktaş, Kadıköy, Bursa, İzmir, Eskişehir ve Ankara kampüslerimizden bize ulaşabilirsiniz."
       },
       {
         "title": "TEF Kursu Fiyatları",
-        "desc": "TEF Kursu Fiyatları bire bir, online ve grup derslerine göre farklılıklar içermektedir. Akademik Yabancı Dil Kursları olarak sizlere bütçe dostu bir TEF Kursu eğitimi sunmak adına her dönem çeşitli kampanyalar eşliğinde uygun ödeme koşulları sunmaktayız. Eğitimlerimiz ve fiyatlarımız hakkında daha fazla bilgi sahibi olmak isterseniz iletişim numaramızdan bize 7/24 ulaşabilirsiniz."
+        "desc": "TEF Kursu Fiyatları bire bir, online ve grup derslerine göre farklılıklar içermektedir. Avcılar İngilizce Dil Kursu olarak sizlere bütçe dostu bir TEF Kursu eğitimi sunmak adına her dönem çeşitli kampanyalar eşliğinde uygun ödeme koşulları sunmaktayız. Eğitimlerimiz ve fiyatlarımız hakkında daha fazla bilgi sahibi olmak isterseniz iletişim numaramızdan bize 7/24 ulaşabilirsiniz."
       }
     ]
   },
@@ -8248,7 +8242,7 @@
     },
     "seoContent": [
       {
-        "title": "En Nitelikli TELC Kursu: Akademik International",
+        "title": "En Nitelikli TELC Kursu: Avcılar İngilizce Dil Kursu",
         "desc": "Sınava hazırlanmadan önce bu uygulamanın yapısına, sınav bölümlerine ve konularına hakim olmak oldukça önemlidir. Bu analiz bireye zaman kazandırmakla birlikte üstünde durması gereken konuları açık etmeye yarar. Başarıya ulaşabilmek için Bursa Nilüfer TELC Kursu, İstanbul, İzmir, Eskişehir, Ankara kampüsleri ile sizlere en nitelikli eğitimleri sunmaktayız."
       },
       {
@@ -8266,7 +8260,7 @@
       "tag": "FRANSIZCA DİL KURSU",
       "title": "Dünyanın Evrensel Dili Fransızcayı Keşfedin",
       "highlight": "Fransızca Eğitimi",
-      "subtitle": "Profesyonel eğitim müfredatı ve alanında uzman öğretmen ekibiyle Türkiye'nin en iyi Fransızca kursu Akademik Yabancı Dil Kursları nitelikli dil eğitimi için burada.",
+      "subtitle": "Profesyonel eğitim müfredatı ve alanında uzman öğretmen ekibiyle Türkiye'nin en iyi Fransızca kursu Avcılar İngilizce Dil Kursu nitelikli dil eğitimi için burada.",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -8378,11 +8372,11 @@
     "seoContent": [
       {
         "title": "Fransızca Dil Eğitiminde Doğru Strateji",
-        "desc": "Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Akademik Yabancı Dil Kursu tercihiniz için doğru adres. Şimdiye kadar verim alınmamış, harcanan büyük zaman dilimleri gözünüzü korkutmasın. İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde uyguladığımız doğru metotlar ve oluşturduğumuz özgün stratejiyle, Fransızcayı ezberlemeden, uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır."
+        "desc": "Hayatınızın her döneminde bir adım ileride olmak istiyorsanız Avcılar İngilizce Dil Kursu tercihiniz için doğru adres. Şimdiye kadar verim alınmamış, harcanan büyük zaman dilimleri gözünüzü korkutmasın. İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde uyguladığımız doğru metotlar ve oluşturduğumuz özgün stratejiyle, Fransızcayı ezberlemeden, uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır."
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik International Fransızca Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu Fransızca Kursu?",
       "subtitle": "Türkiye'nin En İyi Fransızca Eğitimi",
       "cardTitle": "Geniş Kampüs Ağı",
       "cardDesc": "İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerinde aynı yüksek standartlarda Fransızca dil eğitimi alma ayrıcalığını yaşayın.",
@@ -8461,7 +8455,7 @@
         },
         {
           "q": "Hangi şehirlerde şubeleriniz bulunuyor?",
-          "a": "Akademik Yabancı Dil Kursları olarak İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde nitelikli Fransızca dil eğitimi hizmeti sunmaktayız."
+          "a": "Avcılar İngilizce Dil Kursu olarak İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde nitelikli Fransızca dil eğitimi hizmeti sunmaktayız."
         }
       ]
     }
@@ -8584,7 +8578,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Almanca Eğitimi",
       "cardTitle": "VIP Sınıf Konforu",
       "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Almancayı doğal akışında ve etkili şekilde öğrenin.",
@@ -8663,7 +8657,7 @@
         },
         {
           "q": "Kurslarınızda hangi şubeleriniz hizmet veriyor?",
-          "a": "Akademik Yabancı Dil Kursları olarak İstanbul (Beşiktaş, Kadıköy), İzmir, Bursa, Ankara ve Eskişehir'de bulunan modern kampüslerimizle hizmet vermekteyiz."
+          "a": "Avcılar İngilizce Dil Kursu olarak İstanbul (Beşiktaş, Kadıköy), İzmir, Bursa, Ankara ve Eskişehir'de bulunan modern kampüslerimizle hizmet vermekteyiz."
         }
       ]
     }
@@ -8677,7 +8671,7 @@
       "tag": "İTALYANCA DİL KURSU",
       "title": "Sanat, Moda ve Müzik Dili İtalyancayı Keşfedin",
       "highlight": "İtalyanca Eğitimi",
-      "subtitle": "Fonetiği, aksanı ve müzikalitesiyle dünyanın en estetik dillerinden biri olan İtalyancaya hemen başlamak için en doğru adres Akademik Yabancı Dil Kursları.",
+      "subtitle": "Fonetiği, aksanı ve müzikalitesiyle dünyanın en estetik dillerinden biri olan İtalyancaya hemen başlamak için en doğru adres Avcılar İngilizce Dil Kursu.",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -8804,7 +8798,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kültürle Harmanlanmış Nitelikli Dil Eğitimi",
       "cardTitle": "Alanında Uzman Kadro",
       "cardDesc": "İtalyancanın estetik fonetiğini ve gramer yapısını en doğru şekilde aktaran, alanında uzman eğitmenlerden ders alma ayrıcalığını yaşayın.",
@@ -8915,7 +8909,7 @@
     "about": {
       "badge": "YENİ NESİL ÖĞRENME",
       "title": "Farsça Öğreniminde Etkili ve İletişimsel Yaklaşım",
-      "desc": "Adını tarihi Şiraz şehrinin bulunduğu Fars eyaletinden alan bu köklü dil, günümüzde İran'ın temel yazı ve konuşma dilidir. Akademik Yabancı Dil Kursları olarak temel amacımız, dil öğrenme sürecini zorluklardan arındırıp keyifli bir serüvene dönüştürmektir. Bu sebeple sistemimiz tamamen iletişimsel pratiklere dayanır.\n\nEğitmenlerimiz, ilgili kültüre tam anlamıyla hakim ve anadili Farsça olan tecrübeli uzmanlardan oluşmaktadır. Teknoloji destekli sınıflarımızda, dört temel beceride (okuma, yazma, konuşma, dinleme) yetkinlik kazanmanız hedeflenmektedir.",
+      "desc": "Adını tarihi Şiraz şehrinin bulunduğu Fars eyaletinden alan bu köklü dil, günümüzde İran'ın temel yazı ve konuşma dilidir. Avcılar İngilizce Dil Kursu olarak temel amacımız, dil öğrenme sürecini zorluklardan arındırıp keyifli bir serüvene dönüştürmektir. Bu sebeple sistemimiz tamamen iletişimsel pratiklere dayanır.\n\nEğitmenlerimiz, ilgili kültüre tam anlamıyla hakim ve anadili Farsça olan tecrübeli uzmanlardan oluşmaktadır. Teknoloji destekli sınıflarımızda, dört temel beceride (okuma, yazma, konuşma, dinleme) yetkinlik kazanmanız hedeflenmektedir.",
       "skills": [
         {
           "id": "fa-speak",
@@ -9144,7 +9138,7 @@
           "desc": "Dünya çapında tanınan HSK (Hanyu Shuiping Kaoshi) standartlarında, akademik ve profesyonel yeterlilik."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursları olarak, öğrencinin ihtiyacına, tercihine ve bütçesine uygun bir şekilde Çince eğitim programları uygulamaktayız.",
+      "description": "Avcılar İngilizce Dil Kursu olarak, öğrencinin ihtiyacına, tercihine ve bütçesine uygun bir şekilde Çince eğitim programları uygulamaktayız.",
       "features": [
         "Ana dili Çince olan (Native Speaker) uzman ve tecrübeli eğitmen kadrosu.",
         "Öğrenci merkezli ve modern öğrenme metotlarıyla tasarlanmış müfredat.",
@@ -9226,7 +9220,7 @@
     "seoContent": [
       {
         "title": "Çince Kursu Fiyatları ve Bütçe Dostu Seçenekler",
-        "desc": "Çince kurslarının fiyatları; kursun tipi, seviyesi, süresi, eğitim koşulları ve öğretmenin deneyimi gibi birçok faktöre bağlıdır. Örneğin, online eğitim, yüz yüze kampüs eğitimi veya VIP özel ders programları farklı bütçe planlamaları gerektirebilir. Genel olarak online bir Çince kursunun saatlik ücreti ortalama 25-50 dolar arasında değişebilmektedir, yüz yüze eğitimlerde ise bu oran farklılık gösterir. Akademik Yabancı Dil Kursları, her dönem sunduğu çeşitli kampanyalar ve erken kayıt avantajlarıyla bütçe dostu, en uygun ödeme koşullarını sizlere sunmaktadır."
+        "desc": "Çince kurslarının fiyatları; kursun tipi, seviyesi, süresi, eğitim koşulları ve öğretmenin deneyimi gibi birçok faktöre bağlıdır. Örneğin, online eğitim, yüz yüze kampüs eğitimi veya VIP özel ders programları farklı bütçe planlamaları gerektirebilir. Genel olarak online bir Çince kursunun saatlik ücreti ortalama 25-50 dolar arasında değişebilmektedir, yüz yüze eğitimlerde ise bu oran farklılık gösterir. Avcılar İngilizce Dil Kursu, her dönem sunduğu çeşitli kampanyalar ve erken kayıt avantajlarıyla bütçe dostu, en uygun ödeme koşullarını sizlere sunmaktadır."
       },
       {
         "title": "Türkiye'nin En İyi Çince Kursu Tavsiyesi",
@@ -9327,7 +9321,7 @@
       "tag": "JAPONCA DİL EĞİTİMİ",
       "title": "Doğunun En Güzide Dili Japoncayı Keşfedin",
       "highlight": "Japonca Eğitimi",
-      "subtitle": "Akademik Yabancı Dil Kursları'nın Türkiye'de ilk kez geliştirdiği özgün eğitim modelleriyle hayallerinizi süsleyen Japoncayı kapsamlı bir şekilde öğrenin.",
+      "subtitle": "Avcılar İngilizce Dil Kursu'nın Türkiye'de ilk kez geliştirdiği özgün eğitim modelleriyle hayallerinizi süsleyen Japoncayı kapsamlı bir şekilde öğrenin.",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -9345,7 +9339,7 @@
     "about": {
       "badge": "REFLEKSİF ÖĞRENME MODELİ",
       "title": "Aktif Metot ile Türkçe Düşünmeden Konuşun",
-      "desc": "Japonca Kursu, Akademik Yabancı Dil Kurslarında klasik yöntemlerden farklı olup daha fazla soru-cevap tekniğine dayanan ve öğrencileri dilin kullanımına yönlendiren aktif metot tekniğidir. Bu şekilde öğrencilerimiz, yoğun gramer ağırlıklı programlar yerine edindikleri becerileri kullanıma dökerler.\n\nAmacımız, öğrencilerin Türkçe düşünmeden refleksif ve hızlı olarak dili konuşmaları, mailleşme ve yazışma edinimlerini çok hızlı bir hale getirmeleridir. Japonca dil kursunda, öğrencilere yeterli rol verme zamanını sağlayabilmek adına eğitimler 5-7 kişilik kontenjan sınıflarımızda verilmektedir.",
+      "desc": "Japonca Kursu, Avcılar İngilizce Dil Kursunda klasik yöntemlerden farklı olup daha fazla soru-cevap tekniğine dayanan ve öğrencileri dilin kullanımına yönlendiren aktif metot tekniğidir. Bu şekilde öğrencilerimiz, yoğun gramer ağırlıklı programlar yerine edindikleri becerileri kullanıma dökerler.\n\nAmacımız, öğrencilerin Türkçe düşünmeden refleksif ve hızlı olarak dili konuşmaları, mailleşme ve yazışma edinimlerini çok hızlı bir hale getirmeleridir. Japonca dil kursunda, öğrencilere yeterli rol verme zamanını sağlayabilmek adına eğitimler 5-7 kişilik kontenjan sınıflarımızda verilmektedir.",
       "skills": [
         {
           "id": "jp-speak",
@@ -9447,7 +9441,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Türkiye'nin En Çok Tavsiye Edilen Japonca Kursu",
       "cardTitle": "VIP Sınıflarda Özel İlgi",
       "cardDesc": "5-7 kişilik VIP kontenjan sınıflarımızda, her öğrenciye dil pratiklerinde yeterli rol verme ve konuşma zamanı sağlıyoruz.",
@@ -9518,7 +9512,7 @@
       "items": [
         {
           "q": "Kursunuz sadece belirli yaş gruplarına mı hitap ediyor?",
-          "a": "Hayır, Akademik Yabancı Dil Kursları olarak Türkiye'de ilk kez geliştirdiğimiz özgün eğitim modellerimizle her yaştan bireye yönelik profesyonel Japonca eğitimi sunmaktayız."
+          "a": "Hayır, Avcılar İngilizce Dil Kursu olarak Türkiye'de ilk kez geliştirdiğimiz özgün eğitim modellerimizle her yaştan bireye yönelik profesyonel Japonca eğitimi sunmaktayız."
         },
         {
           "q": "Devamsızlık yaparsam ders telafisi mümkün mü?",
@@ -9558,7 +9552,7 @@
     "about": {
       "badge": "URAL-ALTAY DİL AİLESİ",
       "title": "Türkler İçin En Kolay Öğrenilen Uzak Doğu Dili",
-      "desc": "Türkçe ile aynı dil kökenini (Ural-Altay ailesi) paylaşan Korece; sondan eklemeli yapısı, özne-nesne-yüklem dizilimi, ünlü uyumu ve cinsiyetsiz gramer özellikleriyle Türk öğrenciler için öğrenmesi son derece kolay bir dildir.\n\nBatı dillerinin klasik yapısından sıkılanlar için harika bir alternatif olan Korece, kurumumuza ait özel materyaller ve deneme sınavlarıyla çok daha eğlenceli ve hızlı bir şekilde kavranmaktadır. Akademik Yabancı Dil Kursları olarak, kendi kaynaklarımız ve nitelikli öğrenme metotlarımızla öğrenci merkezli bir eğitim sunuyoruz.",
+      "desc": "Türkçe ile aynı dil kökenini (Ural-Altay ailesi) paylaşan Korece; sondan eklemeli yapısı, özne-nesne-yüklem dizilimi, ünlü uyumu ve cinsiyetsiz gramer özellikleriyle Türk öğrenciler için öğrenmesi son derece kolay bir dildir.\n\nBatı dillerinin klasik yapısından sıkılanlar için harika bir alternatif olan Korece, kurumumuza ait özel materyaller ve deneme sınavlarıyla çok daha eğlenceli ve hızlı bir şekilde kavranmaktadır. Avcılar İngilizce Dil Kursu olarak, kendi kaynaklarımız ve nitelikli öğrenme metotlarımızla öğrenci merkezli bir eğitim sunuyoruz.",
       "skills": [
         {
           "id": "kr-alphabet",
@@ -9671,7 +9665,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kapsamlı Materyaller, Modern Eğitim Yaklaşımı",
       "cardTitle": "Geniş Kampüs Ağı",
       "cardDesc": "Bursa, İstanbul, Ankara, İzmir, Tekirdağ ve Eskişehir kampüslerimizde Türkiye'nin en nitelikli Korece eğitimine kolayca ulaşın.",
@@ -9805,7 +9799,7 @@
           "desc": "Kendi kültürel köklerimizle ve atalarımızın mirasıyla aracısız bir şekilde güçlü bir bağ kurma."
         }
       ],
-      "description": "Akademik Yabancı Dil Kursları olarak, uzman tarihçi ve akademisyen eğitmenlerimiz eşliğinde tarihi bir yolculuğa çıkmanızı sağlıyoruz.",
+      "description": "Avcılar İngilizce Dil Kursu olarak, uzman tarihçi ve akademisyen eğitmenlerimiz eşliğinde tarihi bir yolculuğa çıkmanızı sağlıyoruz.",
       "features": [
         "Her bir dönemi 72 saat süren, haftada 2 gün 3'er saatlik sistemli ve yoğun müfredat.",
         "Osmanlı alfabesi (Arap harfleri) tabanlı, modern Türkçe dil bilgisiyle harmanlanmış pratik yaklaşım.",
@@ -9858,7 +9852,7 @@
       },
       {
         "title": "Osmanlıca Zor Bir Dil midir?",
-        "desc": "Toplumda Osmanlıcanın öğrenilmesi zor, tamamen yabancı bir dil olduğu yönünde yaygın bir yanılgı vardır. Aksine, Osmanlıca aslında döneminin Türkçesidir. Sadece kelime dağarcığında Arapça ve Farsça sözcüklerin yoğunluğu bulunmakta ve alfabe olarak Arap harfleri kullanılmaktadır. Konuşma dili ve dilin ana iskeleti yine Türkçedir. Akademik Yabancı Dil Kursları'nda sunduğumuz modern ve öğrenci odaklı yaklaşımla, başlangıçta farklı gelen alfabe aşaması hızlıca geçilir. Doğru metotlarla pratik yapıldığında, öğrenmenin ne kadar keyifli ve nispeten kolay olduğu kısa sürede görülecektir."
+        "desc": "Toplumda Osmanlıcanın öğrenilmesi zor, tamamen yabancı bir dil olduğu yönünde yaygın bir yanılgı vardır. Aksine, Osmanlıca aslında döneminin Türkçesidir. Sadece kelime dağarcığında Arapça ve Farsça sözcüklerin yoğunluğu bulunmakta ve alfabe olarak Arap harfleri kullanılmaktadır. Konuşma dili ve dilin ana iskeleti yine Türkçedir. Avcılar İngilizce Dil Kursu'nda sunduğumuz modern ve öğrenci odaklı yaklaşımla, başlangıçta farklı gelen alfabe aşaması hızlıca geçilir. Doğru metotlarla pratik yapıldığında, öğrenmenin ne kadar keyifli ve nispeten kolay olduğu kısa sürede görülecektir."
       }
     ],
     "whyUs": {
@@ -10067,7 +10061,7 @@
     "seoContent": [
       {
         "title": "Yabancılar İçin Türkiye'de Türkçe Öğrenmenin Önemi",
-        "desc": "Günümüzde Türkiye; stratejik konumu, büyüyen ekonomisi ve zengin kültürel yapısıyla pek çok yabancı yatırımcı, öğrenci ve göçmen için bir cazibe merkezidir. 1.5 milyonu aşkın yabancı uyruklu nüfusun bulunduğu ülkemizde, Türkçe bilmek sadece günlük hayatı kolaylaştırmakla kalmaz; aynı zamanda Türk insanının sıcakkanlı ve misafirperver kültürüne doğrudan entegre olmayı sağlar. Akademik Yabancı Dil Kursları olarak, öğrencilerin Türkiye'de eğitim görme, iş kurma veya kariyer yapma hedeflerini destekleyecek nitelikte, iletişim odaklı bir eğitim müfredatı sunuyoruz."
+        "desc": "Günümüzde Türkiye; stratejik konumu, büyüyen ekonomisi ve zengin kültürel yapısıyla pek çok yabancı yatırımcı, öğrenci ve göçmen için bir cazibe merkezidir. 1.5 milyonu aşkın yabancı uyruklu nüfusun bulunduğu ülkemizde, Türkçe bilmek sadece günlük hayatı kolaylaştırmakla kalmaz; aynı zamanda Türk insanının sıcakkanlı ve misafirperver kültürüne doğrudan entegre olmayı sağlar. Avcılar İngilizce Dil Kursu olarak, öğrencilerin Türkiye'de eğitim görme, iş kurma veya kariyer yapma hedeflerini destekleyecek nitelikte, iletişim odaklı bir eğitim müfredatı sunuyoruz."
       },
       {
         "title": "Nitelikli Eğitmen Kadrosu ve Modern Sınıflar",
@@ -10075,7 +10069,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Uzman Kadro ile Kültürlerarası Etkileşim",
       "cardTitle": "Görsel ve İşitsel Donanım",
       "cardDesc": "8-15 kişilik modern sınıflarımızda, sadece kitaptan değil, duyarak ve görerek pratik yapma imkanı.",
@@ -10295,7 +10289,7 @@
       },
       {
         "title": "En Çok Tavsiye Edilen Türkçe Kursu Deneyimi",
-        "desc": "Sosyal platformlarda ve öğrenci referanslarında adından sıkça söz ettiren kurumumuz, yarım asırlık tecrübesiyle dil eğitiminde öncü konumdadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan Akademik Yabancı Dil Kursları, Türkiye'de bir ilke imza atarak yetişkin bireylere özgü eğitim modellerini hayata geçirmiştir. İstanbul, Ankara, İzmir, Bursa ve Eskişehir kampüslerimizde, tamamen öğrenci merkezli bir yaklaşımla eğitim veriyoruz. Canlı Stüdyo imkanlarımız ve özgün yayınlarımızla, kariyer basamaklarında sizi en ileri noktalara taşımayı hedefliyoruz."
+        "desc": "Sosyal platformlarda ve öğrenci referanslarında adından sıkça söz ettiren kurumumuz, yarım asırlık tecrübesiyle dil eğitiminde öncü konumdadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan Avcılar İngilizce Dil Kursu, Türkiye'de bir ilke imza atarak yetişkin bireylere özgü eğitim modellerini hayata geçirmiştir. İstanbul, Ankara, İzmir, Bursa ve Eskişehir kampüslerimizde, tamamen öğrenci merkezli bir yaklaşımla eğitim veriyoruz. Canlı Stüdyo imkanlarımız ve özgün yayınlarımızla, kariyer basamaklarında sizi en ileri noktalara taşımayı hedefliyoruz."
       }
     ],
     "whyUs": {
@@ -10374,7 +10368,7 @@
         },
         {
           "q": "Eğitim programınız çocuklara da uygun mu?",
-          "a": "Akademik Yabancı Dil Kursları olarak Türkiye'de ilk kez 'yetişkin bireylere yönelik' özgün eğitim modelleri oluşturduk. Programımız özellikle yetişkinlerin öğrenme algısına ve ihtiyaçlarına göre dizayn edilmiştir."
+          "a": "Avcılar İngilizce Dil Kursu olarak Türkiye'de ilk kez 'yetişkin bireylere yönelik' özgün eğitim modelleri oluşturduk. Programımız özellikle yetişkinlerin öğrenme algısına ve ihtiyaçlarına göre dizayn edilmiştir."
         },
         {
           "q": "Ders saatleri çalışanlar için uygun mu?",
@@ -10392,7 +10386,7 @@
       "tag": "LATİNCE DİL EĞİTİMİ",
       "title": "Modern Bilimin ve Avrupa'nın Temel Dilini Keşfedin",
       "highlight": "Latince Kursu",
-      "subtitle": "Günümüz Avrupasını inşa etmiş ve modern bilime ışık tutan Latinceyi Akademik International Yabancı Dil Kursları farkıyla etkili bir şekilde öğrenin.",
+      "subtitle": "Günümüz Avrupasını inşa etmiş ve modern bilime ışık tutan Latinceyi Avcılar İngilizce Dil Kursu Yabancı Dil Kursları farkıyla etkili bir şekilde öğrenin.",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -10410,7 +10404,7 @@
     "about": {
       "badge": "BİLİMİN VE TARİHİN DİLİ",
       "title": "Latince Eğitiminin Amacı ve Hedef Kitlesi",
-      "desc": "Latincenin kökeni, İtalya Yarımadası'nın Latium bölgesinde MÖ 1. yüzyılda konuşulan İtalik bir dil olan Latiumca'ya dayanır. Etrüskler ve Yunanların etkisiyle şekillenip Roma İmparatorluğu'nun resmi dili olmuş, Orta Çağ boyunca bilimsel, akademik ve dini metinlerin yazımında kullanılmıştır. Bugün modern Avrupa dillerinin kökenini oluşturan bu dil, akademik çalışmalarda kilit bir rol oynar.\n\nAkademik International olarak Latince dil kursumuzda, öğrencinin Latince okuma, yazma, dinleme, anlama ve konuşma alanlarında yetkin hale gelmesi hedeflenmektedir. Ortalama bir performansla kursu tamamlayan öğrenci; alfabeyi, imlayı, temel gramatik yapıyı ve ciddi bir sözcük kadrosunu öğrenmiş olur. Ayrıca Roma tarihi, kültürü ve sosyal yapısı hakkında da geniş bir birikime ulaşır.",
+      "desc": "Latincenin kökeni, İtalya Yarımadası'nın Latium bölgesinde MÖ 1. yüzyılda konuşulan İtalik bir dil olan Latiumca'ya dayanır. Etrüskler ve Yunanların etkisiyle şekillenip Roma İmparatorluğu'nun resmi dili olmuş, Orta Çağ boyunca bilimsel, akademik ve dini metinlerin yazımında kullanılmıştır. Bugün modern Avrupa dillerinin kökenini oluşturan bu dil, akademik çalışmalarda kilit bir rol oynar.\n\nAvcılar İngilizce Dil Kursu olarak Latince dil kursumuzda, öğrencinin Latince okuma, yazma, dinleme, anlama ve konuşma alanlarında yetkin hale gelmesi hedeflenmektedir. Ortalama bir performansla kursu tamamlayan öğrenci; alfabeyi, imlayı, temel gramatik yapıyı ve ciddi bir sözcük kadrosunu öğrenmiş olur. Ayrıca Roma tarihi, kültürü ve sosyal yapısı hakkında da geniş bir birikime ulaşır.",
       "skills": [
         {
           "id": "la-law",
@@ -10515,15 +10509,15 @@
     "seoContent": [
       {
         "title": "Latince Kursu Fiyatları ve Bütçe Dostu Seçenekler",
-        "desc": "Latince kursu fiyatları; kursun eğitim metoduna, süresine ve seviyesine göre değişkenlik gösterebilmektedir. Grup dersleri, birebir özel dersler veya Canlı Stüdyo formatındaki online eğitimler farklı ücretlendirmelere tabi olabilir. Genel olarak temel düzey kurları daha erişilebilirken, ileri seviye (terminoloji odaklı) uzmanlık kurları daha farklı fiyatlandırılabilir. Akademik International Yabancı Dil Kursları, her dönem sunduğu çeşitli kampanyalarla sizlere en uygun ödeme koşullarını oluşturarak bütçe dostu bir dil eğitimi imkanı sunmaktadır. Fiyatlarımız hakkında detaylı bilgi almak için 7/24 bizimle iletişime geçebilirsiniz."
+        "desc": "Latince kursu fiyatları; kursun eğitim metoduna, süresine ve seviyesine göre değişkenlik gösterebilmektedir. Grup dersleri, birebir özel dersler veya Canlı Stüdyo formatındaki online eğitimler farklı ücretlendirmelere tabi olabilir. Genel olarak temel düzey kurları daha erişilebilirken, ileri seviye (terminoloji odaklı) uzmanlık kurları daha farklı fiyatlandırılabilir. Avcılar İngilizce Dil Kursu Yabancı Dil Kursları, her dönem sunduğu çeşitli kampanyalarla sizlere en uygun ödeme koşullarını oluşturarak bütçe dostu bir dil eğitimi imkanı sunmaktadır. Fiyatlarımız hakkında detaylı bilgi almak için 7/24 bizimle iletişime geçebilirsiniz."
       },
       {
         "title": "Türkiye'nin En İyi Latince Kursu Tavsiyesi",
-        "desc": "Latince gibi akademik ağırlığı yüksek bir dili öğrenmek istiyorsanız, en iyi Latince kursu tavsiye araştırmalarında ilk sırada yer alan Akademik International doğru adrestir. İstanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, İzmir ve Tekirdağ kampüslerimizde; yerli ve yabancı akademisyenlerden oluşan eğitmen kadromuzla Avrupa standartlarında eğitim veriyoruz. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan kurumumuz, özgün kaynaklarıyla Latince eğitimine bilimsel bir boyut kazandırmaktadır. Siz de modern bilimin temellerine inmek ve kariyerinizde fark yaratmak için eğitimlerimize geç kalmadan dahil olun."
+        "desc": "Latince gibi akademik ağırlığı yüksek bir dili öğrenmek istiyorsanız, en iyi Latince kursu tavsiye araştırmalarında ilk sırada yer alan Avcılar İngilizce Dil Kursu doğru adrestir. İstanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, İzmir ve Tekirdağ kampüslerimizde; yerli ve yabancı akademisyenlerden oluşan eğitmen kadromuzla Avrupa standartlarında eğitim veriyoruz. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olan kurumumuz, özgün kaynaklarıyla Latince eğitimine bilimsel bir boyut kazandırmaktadır. Siz de modern bilimin temellerine inmek ve kariyerinizde fark yaratmak için eğitimlerimize geç kalmadan dahil olun."
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik International?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Akademik Disiplin ve Nitelikli Kadro",
       "cardTitle": "Geniş Kampüs Ağı",
       "cardDesc": "İstanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, İzmir ve Tekirdağ kampüslerimizde yüz yüze Latince eğitimi ayrıcalığı.",
@@ -10634,7 +10628,7 @@
     "about": {
       "badge": "KARİYER VE YAŞAM DİLİ",
       "title": "Neden Flemenkçe (Hollandaca) Öğrenmelisiniz?",
-      "desc": "Flemenkçe (Hollandaca veya Nederlands), Hollanda, Belçika ve Fransa'nın bazı bölgelerinde konuşulan Batı Cermen dillerinden biridir. Dünya çapında yaklaşık 35 milyon insan tarafından konuşulmakta olup, İngilizce ve Almanca ile yakın akrabadır. Bu sebeple İngilizce veya Almanca altyapısı olan bireyler için öğrenmesi oldukça kolaydır.\n\nGünümüzde yükseköğrenim, kariyer veya yaşam planlarını Hollanda ve Belçika üzerine kuran bireylerin öncelikli ihtiyacı Flemenkçe bilmektir. Akademik Yabancı Dil Kursları olarak, yetişkin bireylere özgü eğitim modellerimiz, VIP sınıflarımız ve akademisyen kökenli eğitmenlerimizle sizlere dört temel beceride (okuma, yazma, dinleme, konuşma) harika bir Flemenkçe deneyimi sunuyoruz.",
+      "desc": "Flemenkçe (Hollandaca veya Nederlands), Hollanda, Belçika ve Fransa'nın bazı bölgelerinde konuşulan Batı Cermen dillerinden biridir. Dünya çapında yaklaşık 35 milyon insan tarafından konuşulmakta olup, İngilizce ve Almanca ile yakın akrabadır. Bu sebeple İngilizce veya Almanca altyapısı olan bireyler için öğrenmesi oldukça kolaydır.\n\nGünümüzde yükseköğrenim, kariyer veya yaşam planlarını Hollanda ve Belçika üzerine kuran bireylerin öncelikli ihtiyacı Flemenkçe bilmektir. Avcılar İngilizce Dil Kursu olarak, yetişkin bireylere özgü eğitim modellerimiz, VIP sınıflarımız ve akademisyen kökenli eğitmenlerimizle sizlere dört temel beceride (okuma, yazma, dinleme, konuşma) harika bir Flemenkçe deneyimi sunuyoruz.",
       "skills": [
         {
           "id": "nl-mvv",
@@ -10743,7 +10737,7 @@
       },
       {
         "title": "Flemenkçe Kursu Fiyatları ve En İyi Kurs Tavsiyesi",
-        "desc": "Flemenkçe kursu fiyatları; kursun eğitim saatlerine, konumuna, özel veya grup dersi olmasına göre değişkenlik gösterebilmektedir. Akademik Yabancı Dil Kursları, her dönem sunduğu erken kayıt avantajları ve bütçe dostu kampanyalarıyla nitelikli eğitimi herkes için ulaşılabilir kılmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; özgün kaynaklarımız, akademisyen kökenli eğitmenler ve teknoloji entegreli sınıflarımızla Türkiye'nin 'En İyi Flemenkçe Kursu Tavsiye' listelerinde her zaman zirvede yer almaktayız."
+        "desc": "Flemenkçe kursu fiyatları; kursun eğitim saatlerine, konumuna, özel veya grup dersi olmasına göre değişkenlik gösterebilmektedir. Avcılar İngilizce Dil Kursu, her dönem sunduğu erken kayıt avantajları ve bütçe dostu kampanyalarıyla nitelikli eğitimi herkes için ulaşılabilir kılmaktadır. British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi güvencesiyle; özgün kaynaklarımız, akademisyen kökenli eğitmenler ve teknoloji entegreli sınıflarımızla Türkiye'nin 'En İyi Flemenkçe Kursu Tavsiye' listelerinde her zaman zirvede yer almaktayız."
       }
     ],
     "whyUs": {
@@ -10840,7 +10834,7 @@
       "tag": "İSPANYOLCA DİL EĞİTİMİ",
       "title": "Türkiye'nin En İyi İspanyolca Dil Kursu",
       "highlight": "İspanyolca Dil Eğitimi",
-      "subtitle": "Kendine özgü eğitim müfredatı ve alanında uzman öğretmenleriyle Akademik Yabancı Dil Kursları nitelikli İspanyolca dil eğitimi için burada.",
+      "subtitle": "Kendine özgü eğitim müfredatı ve alanında uzman öğretmenleriyle Avcılar İngilizce Dil Kursu nitelikli İspanyolca dil eğitimi için burada.",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -10973,7 +10967,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi İspanyolca Eğitimi",
       "cardTitle": "VIP Sınıf Konforu",
       "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak İspanyolcayı doğal akışında ve etkili şekilde öğrenin.",
@@ -11208,7 +11202,7 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Rusça Eğitimi",
       "cardTitle": "VIP Sınıf Konforu",
       "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Rusçayı doğal akışında ve etkili şekilde öğrenin.",
@@ -11301,7 +11295,7 @@
       "tag": "PORTEKİZCE DİL EĞİTİMİ",
       "title": "Dünyanın En Yaygın 5. Dili: Portekizce",
       "highlight": "Portekizce Dil Kursu",
-      "subtitle": "Portekizce Dil Kursu seçeneğinde her platformda adından sıkça söz ettiren Akademik International Yabancı Dil Okulları, Türkiye'de ilk defa yetişkin bireylere yönelik geliştirdiği eğitim modelleriyle fark yaratmaya devam ediyor!",
+      "subtitle": "Portekizce Dil Kursu seçeneğinde her platformda adından sıkça söz ettiren Avcılar İngilizce Dil Kursu, Türkiye'de ilk defa yetişkin bireylere yönelik geliştirdiği eğitim modelleriyle fark yaratmaya devam ediyor!",
       "buttonText": "Eğitimleri İncele",
       "customerServiceBtn": "Hemen Eğitim Danışmanımızla Görüşün!",
       "infoBtn": "Hemen Bilgi Alın!",
@@ -11318,8 +11312,8 @@
     },
     "about": {
       "badge": "DÜNYADA 260 MİLYON KONUŞAN",
-      "title": "Akademik International Portekizce Kursu",
-      "desc": "Akademik International Dil Okullarında Portekizce Kursu ile, Brezilyalı ve Portekizli geniş eğitmen kadromuzla farklı bölgelerin aksanlarını ve kültürlerini keşfetme fırsatını öğrencilerimize sunuyoruz. Dil eğitimi için merkezimizi seçen öğrencilerimiz, Portekizce kursu için gerekli olan kaynak ve materyallerden yararlanma imkânına da sahiptir.\\n\\nPortekizce kursu ders programımız, Avrupa dilleri ortak çerçeve programına göre hazırlanarak Brezilya Portekizcesi ve Portekiz Portekizcesi olarak iki ayrı gruba ayrılmıştır. Akademik International Yabancı Dil Kursları kendi kaynaklarından da yararlanarak eğitimde fark yaratma amacına hizmet etmektedir.",
+      "title": "Avcılar İngilizce Dil Kursu Portekizce Kursu",
+      "desc": "Avcılar İngilizce Dil Kursu Dil Okullarında Portekizce Kursu ile, Brezilyalı ve Portekizli geniş eğitmen kadromuzla farklı bölgelerin aksanlarını ve kültürlerini keşfetme fırsatını öğrencilerimize sunuyoruz. Dil eğitimi için merkezimizi seçen öğrencilerimiz, Portekizce kursu için gerekli olan kaynak ve materyallerden yararlanma imkânına da sahiptir.\\n\\nPortekizce kursu ders programımız, Avrupa dilleri ortak çerçeve programına göre hazırlanarak Brezilya Portekizcesi ve Portekiz Portekizcesi olarak iki ayrı gruba ayrılmıştır. Avcılar İngilizce Dil Kursu Yabancı Dil Kursları kendi kaynaklarından da yararlanarak eğitimde fark yaratma amacına hizmet etmektedir.",
       "skills": [
         {
           "id": "pt-culture",
@@ -11441,11 +11435,11 @@
       },
       {
         "title": "En İyi Portekizce Kursu Tavsiye",
-        "desc": "En İyi Portekizce Kursu Tavsiye araştırmalarında Türkiye'nin en köklü dil okulu olan Akademik International Yabancı Dil Okulları dünya dillerinde kaliteli hizmet vermeye devam ediyor. VIP sınıfları, teknoloji entegreli ders modelleri, özgün yayınlarımız ve akademisyen kökenli eğitmen kadrosuyla British Council Konsolosluk Partneri olarak yeni bir kariyer kazandırıyor."
+        "desc": "En İyi Portekizce Kursu Tavsiye araştırmalarında Türkiye'nin en köklü dil okulu olan Avcılar İngilizce Dil Kursu dünya dillerinde kaliteli hizmet vermeye devam ediyor. VIP sınıfları, teknoloji entegreli ders modelleri, özgün yayınlarımız ve akademisyen kökenli eğitmen kadrosuyla British Council Konsolosluk Partneri olarak yeni bir kariyer kazandırıyor."
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Portekizce Eğitimi",
       "cardTitle": "VIP Sınıf Konforu",
       "cardDesc": "VIP sınıfları, teknoloji entegreli ders modelleriyle Portekizce'yi etkin bir şekilde öğrenin.",
@@ -11551,11 +11545,11 @@
       "branchPlaceholder": "Şube Seçiniz.",
       "submitBtn": "HEMEN BİLGİ AL!",
       "badge": "KATEGORİ: YABANCI DİL KURSLARI",
-      "description": "Arapça, Hami-Sami Dilleri Ailesi'nin Sami koluna mensup bir dildir ve Akademik International Yabancı Dil Kurslarında birebir ve özel gruplar şeklinde verilmektedir."
+      "description": "Arapça, Hami-Sami Dilleri Ailesi'nin Sami koluna mensup bir dildir ve Avcılar İngilizce Dil Kursu Yabancı Dil Kurslarında birebir ve özel gruplar şeklinde verilmektedir."
     },
     "about": {
       "badge": "İSLAM DÜNYASININ VE ORTADOĞU'NUN DİLİ",
-      "title": "Akademik International Arapça Kursu",
+      "title": "Avcılar İngilizce Dil Kursu Arapça Kursu",
       "desc": "Arapça eğitimi dilbilgisi, okuma, yazma, konuşma, sözcük dağarcığı ve dinlemeden oluşmaktadır. Programlar her sınıfın düzeyine göre uyarlanır. Görsel ve işitsel malzemelerin kullanımı ile dilin kalıcı olması sağlanmaktadır. Dersler anadili Arapça olan eğitim fakültesi mezunu yabancı öğretmenler tarafından verilmektedir.\\n\\nÖğrencilere düzenlenen deneme sınavları, çeşitli kaynaklar, testler sayesinde Arapça dilinin öğrenilmesi hem daha zevkli hem de daha kolay olmakta, öğrencilerimiz başarılı bir şekilde hızla dili öğrenmektedirler.",
       "skills": [
         {
@@ -11579,7 +11573,7 @@
           "desc": "Yüksek lisans ve doktora programları için YDS Arapça sınavına yönelik yüksek skor garantili eğitimler."
         }
       ],
-      "description": "Akademik Yabancı Dil Okulları Arapça Kurslarında eğitmenlerimiz Arap kültürünü ve Arapçayı en iyi şekilde kullanan tecrübeli kişilerden oluşur.",
+      "description": "Avcılar İngilizce Dil Kursu Arapça Kurslarında eğitmenlerimiz Arap kültürünü ve Arapçayı en iyi şekilde kullanan tecrübeli kişilerden oluşur.",
       "features": [
         "Ana dili Arapça olan eğitim fakültesi mezunu yabancı öğretmenler.",
         "Dilbilgisi, okuma, yazma, konuşma ve dinleme odaklı çok yönlü eğitim.",
@@ -11685,11 +11679,11 @@
       },
       {
         "title": "En İyi Arapça Kursu Tavsiye",
-        "desc": "Türkiye'de her yıl binlerce öğrenciye yeni bir dil kazandıran Akademik International Yabancı Dil Okulları VIP Sınıflarda, düşük sınıf mevcutları ve alanında uzman eğitmen kadrosuyla sizlere en nitelikli Arapça eğitimini sunmaktadır. Özgün yayınevi kaynaklarımız ve Türkiye'de ilk defa Canlı Stüdyo ortamını kurarak sizlere Online seçenekler de sunan dil okulumuz En İyi Arapça Kursu Tavsiye araştırmalarında ilk sıradadır."
+        "desc": "Türkiye'de her yıl binlerce öğrenciye yeni bir dil kazandıran Avcılar İngilizce Dil Kursu VIP Sınıflarda, düşük sınıf mevcutları ve alanında uzman eğitmen kadrosuyla sizlere en nitelikli Arapça eğitimini sunmaktadır. Özgün yayınevi kaynaklarımız ve Türkiye'de ilk defa Canlı Stüdyo ortamını kurarak sizlere Online seçenekler de sunan dil okulumuz En İyi Arapça Kursu Tavsiye araştırmalarında ilk sıradadır."
       }
     ],
     "whyUs": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Arapça Eğitimi",
       "cardTitle": "Ana Dili Arapça Olan Eğitmenler",
       "cardDesc": "Eğitim fakültesi mezunu, tecrübeli ve ana dili Arapça olan eğitmenlerimizle dili kaynağından öğrenin.",
@@ -11701,7 +11695,7 @@
         },
         {
           "q": "YDS Arapça hazırlık veriyor musunuz?",
-          "a": "Evet, Akademik Yabancı Dil Kurslarının Arapça YDS Kursu ile dilbilgisi, kelime bilgisi ve okuma anlama konularında yüksek skor garantili eğitimler alabilirsiniz."
+          "a": "Evet, Avcılar İngilizce Dil Kursunın Arapça YDS Kursu ile dilbilgisi, kelime bilgisi ve okuma anlama konularında yüksek skor garantili eğitimler alabilirsiniz."
         }
       ],
       "advantages": [
@@ -13722,10 +13716,10 @@
   "tarihcePage": {
     "meta": {
       "title": "Tarihçe",
-      "description": "Akademik Yabancı Dil Kursu'nun kuruluş hikayesi, vizyonu ve bugüne kadar yabancı dil eğitimine katkıları hakkında bilgi edinin."
+      "description": "Avcılar İngilizce Dil Kursu'nun kuruluş vizyonu, eğitim yaklaşımı ve bugüne kadarki gelişimi hakkında bilgi edinin."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Tarihçemiz",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
       "infoBtn": "Hemen Ön Bilgi Alın!",
@@ -13742,35 +13736,35 @@
     "intro": {
       "title": "Tarihçe",
       "paragraphs": [
-        "Sıradanlaşan yabancı dil eğitim müfredatının yerine, sürdürülebilir yabancı dil eğitim sistemini oluşturarak endüstri 4.0 ile dil eğitimine farklı bakış açısı kazandıran Akademik Yabancı Dil Kursu, yarım asra yakın süredir İngilizce başta olmak üzere yabancı dil eğitimine yön vermektedir.",
-        "Türkiye'de ilk kez yetişkinler ve alt yaş grupları için ayrı eğitim müfredatını oluşturan Akademik Dil Okulu, yaş gruplarına ve aktüel birikimlerine uygun hazırlanan özgün kaynakları ile bugüne kadar birçok kamu ve özel sektör çalışanına, ilköğretim öğrencilerinden başlayarak tüm yaş grupları için ayrı düzenlenmiş eğitim programları ile yabancı dil eğitimi hizmeti vermektedir.",
-        "Akademik International, kuruluşundan bu yana yabancı dil eğitiminde kalite standartlarını yeniden tanımlamış; Türkiye'nin önde gelen üniversitelerinden gelen akademisyenler ve ana dili İngilizce olan uzman eğitmenlerden oluşan güçlü kadrosuyla öğrencilerine dünya standartlarında dil eğitimi sunmaktadır.",
-        "Bugün Türkiye'nin 12'den fazla şehrinde faaliyet gösteren Akademik International, İstanbul, Ankara, Bursa, İzmir, Kocaeli ve daha pek çok ilde binlerce öğrenciye hizmet vermeye devam etmekte; aynı zamanda Amerika başta olmak üzere yurt dışı eğitim imkanlarıyla da öğrencilerinin yanında yer almaktadır.",
-        "ISO 9001:2015 Kalite Yönetim Sistemi belgesiyle Türkiye'de yabancı dil eğitiminde bu sertifikayı alan ilk kurum olma unvanını taşıyan Akademik International, %97 öğrenci memnuniyeti oranıyla sektörün referans noktası olmayı sürdürmektedir."
+        "Avcılar İngilizce Dil Kursu, yabancı dil eğitiminde ezber temelli, sınav odaklı yaklaşımların öğrencileri gerçek hayatta konuşma becerisinden uzaklaştırdığı gözleminden yola çıkarak kuruldu. Amacımız, öğrencinin sınıfta öğrendiğini günlük hayata, iş görüşmesine, seyahate taşıyabildiği; kâğıt üzerinde değil pratikte işleyen bir dil eğitimi sunmaktı.",
+        "Kuruluşumuzdan itibaren yetişkin ve çocuk öğrencilerin ihtiyaçlarının birbirinden çok farklı olduğunu benimsedik; bu nedenle her yaş grubu için ayrı müfredat, ayrı materyal ve ayrı öğretim yöntemi geliştirdik. İlkokul çağındaki bir öğrenciyle kariyerinde İngilizce'ye ihtiyaç duyan bir yetişkini aynı sınıfa, aynı kitaba mahkûm etmedik.",
+        "Eğitim kadromuzu oluştururken sadece dil bilgisine değil, öğretme becerisine de önem verdik; alanında deneyimli eğitmenler ve ana dili İngilizce olan öğretmenlerle çalışarak öğrencilerimize hem doğru hem de akıcı bir dil öğretmeyi hedefledik.",
+        "Bugün Avcılar merkezimizin yanı sıra farklı şehirlerdeki şubelerimizle binlerce öğrenciye ulaşıyor; A1'den C1'e uzanan seviyelerde, genel İngilizce'den sınav hazırlığına kadar geniş bir program yelpazesi sunuyoruz.",
+        "Kalite anlayışımızı bir belgeyle değil, sınıfta ölçülen sonuçla tanımlıyoruz: düzenli seviye takibi, eğitmen geri bildirimi ve öğrenci memnuniyeti anketleriyle müfredatımızı sürekli güncelliyoruz."
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kuruluşumuzdan bu yana öğrencilerimize sunduğumuz eğitim avantajları",
       "advantages": [
         {
-          "title": "Yarım Asra Yakın Deneyim",
-          "desc": "Yabancı dil eğitimindeki köklü tecrübemiz ve sürekli yenilenen müfredatımızla sektörde öncü konumumuzu koruyoruz.",
+          "title": "Konuşma Odaklı Metodoloji",
+          "desc": "Dil bilgisini ezberletmek yerine, öğrendiğiniz her yapıyı konuşarak pekiştirdiğiniz bir müfredat uyguluyoruz.",
           "icon": "Award"
         },
         {
-          "title": "ISO 9001:2015 Sertifikası",
-          "desc": "Türkiye'de yabancı dil eğitiminde ISO 9001:2015 Kalite Yönetim Sistemi belgesini alan ilk kurum olma ayrıcalığına sahibiz.",
+          "title": "Yaşa Özel Müfredat",
+          "desc": "Çocuk, genç ve yetişkin öğrenciler için ayrı ayrı hazırlanmış içerik ve öğretim yöntemleriyle ders veriyoruz.",
           "icon": "BadgeCheck"
         },
         {
-          "title": "12+ Şehir, 1 Vizyon",
-          "desc": "Türkiye'nin dört bir yanına yayılan şubelerimiz ve yurt dışı bağlantılarımızla öğrencilerimizin yanındayız.",
+          "title": "Çok Şubeli Yapı",
+          "desc": "Avcılar merkezimizin yanı sıra Türkiye'nin farklı şehirlerindeki şubelerimizle öğrencilerimizin yanındayız.",
           "icon": "Globe"
         },
         {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Her yıl binlerce öğrencimizden aldığımız geri bildirimler, eğitim kalitemizin en güçlü kanıtıdır.",
+          "title": "Sonuç Odaklı Takip",
+          "desc": "Düzenli seviye ölçümleri ve eğitmen geri bildirimleriyle öğrencilerimizin gelişimini yakından izliyoruz.",
           "icon": "Star"
         }
       ]
@@ -13778,16 +13772,16 @@
     "faq": {
       "items": [
         {
-          "q": "Akademik International ne zaman kuruldu?",
-          "a": "Akademik International, yarım asra yakın bir süre önce kurulmuş olup o günden bu yana yabancı dil eğitiminde kalite standartlarını sürekli yükselterek gelişimini sürdürmektedir."
+          "q": "Avcılar İngilizce Dil Kursu ne zaman kuruldu?",
+          "a": "Kursumuz, konuşma odaklı ve yaşa özel bir dil eğitimi modeli sunmak amacıyla kuruldu; o günden bu yana müfredatımızı ve öğretim yöntemlerimizi sürekli geliştiriyoruz."
         },
         {
           "q": "Kaç şehirde hizmet veriyorsunuz?",
-          "a": "Türkiye'nin İstanbul, Ankara, Bursa, İzmir, Kocaeli ve daha pek çok şehrinde 12'den fazla şubemizle hizmet vermekteyiz. Aynı zamanda Amerika kampüsümüz aracılığıyla yurt dışı eğitim imkanı da sunuyoruz."
+          "a": "Avcılar merkezimizin yanı sıra Türkiye'nin farklı şehirlerinde şubelerimiz bulunuyor; güncel şube listesine iletişim sayfamızdan ulaşabilirsiniz."
         },
         {
-          "q": "ISO 9001:2015 belgesi ne anlama geliyor?",
-          "a": "ISO 9001:2015, uluslararası alanda tanınan bir Kalite Yönetim Sistemi standardıdır. Akademik International, bu belgeyi yabancı dil eğitimi alanında Türkiye'de ilk kez alan kurumdur."
+          "q": "Eğitim kalitenizi nasıl takip ediyorsunuz?",
+          "a": "Düzenli seviye belirleme sınavları, eğitmen geri bildirimleri ve öğrenci memnuniyeti anketleriyle müfredatımızı sürekli gözden geçiriyor ve güncelliyoruz."
         }
       ]
     }
@@ -13795,10 +13789,10 @@
   "kariyerFirsatlariPage": {
     "meta": {
       "title": "Kariyer Fırsatları",
-      "description": "Akademik International bünyesinde kariyer yapmak ister misiniz? Eğitim danışmanı, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve Rusça öğretmeni pozisyonları için başvurun."
+      "description": "Avcılar İngilizce Dil Kursu bünyesinde kariyer yapmak ister misiniz? Eğitim danışmanı, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve Rusça öğretmeni pozisyonları için başvurun."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kariyer Fırsatları",
       "subtitle": "Türkiye'nin en köklü yabancı dil okulunda kariyerinizi inşa edin",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13815,7 +13809,7 @@
     },
     "showcase": {
       "sectionTitle": "Açık Pozisyonlar",
-      "sectionSubtitle": "Akademik International ailesine katılmak ister misiniz? Aşağıdaki pozisyonlar için başvurularınızı bekliyoruz.",
+      "sectionSubtitle": "Avcılar İngilizce Dil Kursu ailesine katılmak ister misiniz? Aşağıdaki pozisyonlar için başvurularınızı bekliyoruz.",
       "openPositionsLabel": "Açık Pozisyon",
       "cityLabel": "Şehir",
       "applyBtn": "BAŞVUR",
@@ -13889,7 +13883,7 @@
       "description": "Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD ve Tek Gıda İş Sendikası ile imzaladığımız kurumsal indirim anlaşmalarını keşfedin."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kurumsal Anlaşmalar",
       "subtitle": "Türkiye'nin köklü şirketleri ve sivil toplum kuruluşları ile imzaladığımız kurumsal indirim anlaşmaları",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13939,7 +13933,7 @@
       "faqs": [
         {
           "q": "Kurumsal anlaşmadan nasıl yararlanabilirim?",
-          "a": "Çalıştığınız kurumun Akademik International ile anlaşmalı olması durumunda, kurumunuzun İK departmanından temin edeceğiniz belge ile herhangi bir şubemize başvurabilirsiniz."
+          "a": "Çalıştığınız kurumun Avcılar İngilizce Dil Kursu ile anlaşmalı olması durumunda, kurumunuzun İK departmanından temin edeceğiniz belge ile herhangi bir şubemize başvurabilirsiniz."
         },
         {
           "q": "Anlaşma kapsamındaki indirim oranı nedir?",
@@ -13955,10 +13949,10 @@
   "referanslarPage": {
     "meta": {
       "title": "Kurumsal Referanslarımız",
-      "description": "Turkish Airlines, Turkcell, TRT, İş Bankası, Acıbadem ve daha birçok önde gelen kurumun tercih ettiği Akademik International yabancı dil kursları."
+      "description": "Turkish Airlines, Turkcell, TRT, İş Bankası, Acıbadem ve daha birçok önde gelen kurumun tercih ettiği Avcılar İngilizce Dil Kursu."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kurumsal Referanslarımız",
       "subtitle": "Türkiye'nin köklü kurum ve markalarının güvendiği yabancı dil eğitim merkezi",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13975,7 +13969,7 @@
     },
     "showcase": {
       "title": "Bize Güvenen Kurumlar",
-      "subtitle": "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Akademik International'ı tercih ediyor.",
+      "subtitle": "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Avcılar İngilizce Dil Kursu'nu tercih ediyor.",
       "statsLabel": "Kurumsal Referans",
       "yearLabel": "Yıllık Deneyim",
       "sectorLabel": "Farklı Sektör"
@@ -14024,12 +14018,12 @@
   },
   "nedenAkademikPage": {
     "meta": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
-      "description": "Akademik International'ı tercih etmenizin nedenleri: uzman kadro, ISO sertifikalı kalite, özgün yayınlar, online ders imkânı ve %97 öğrenci memnuniyeti."
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "description": "Avcılar İngilizce Dil Kursu'nu tercih etmenizin nedenleri: konuşma odaklı müfredat, deneyimli eğitmenler, online ders imkânı ve yaşa özel programlar."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Eğitim modelimiz, uzman kadromuz ve size sunduğumuz ayrıcalıklar",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
       "infoBtn": "Hemen Ön Bilgi Alın!",
@@ -14046,61 +14040,61 @@
     "intro": {
       "title": "Neden Biz?",
       "paragraphs": [
-        "Yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile yetişkinler ve çocuk grupları için endüstri 4.0 eğitim müfredatı ile her yaş grubu ve aktüel birikime uygun yabancı dil müfredatı oluşturan Akademik Dil Okulu Türkiye de ilk kez yetişkinlere özgü yabancı dil eğitim sistemini oluşturmuştur."
+        "Yılların dil eğitimi deneyimiyle, yetişkinler ve çocuklar için birbirinden ayrı müfredatlar tasarlayan Avcılar İngilizce Dil Kursu, her yaş grubunun ve mevcut seviyenin ihtiyaçlarına özel bir öğretim sistemi sunar."
       ]
     },
     "nedenBiz": {
       "leftTitle": "Sunduğumuz Avantajlar",
-      "leftSubtitle": "Akademik International Yabancı Dil Okulları Öğrencilerine Sunmuş Olduğu Kapsamlı Ve Nitelikli Eğitim Avantajları",
+      "leftSubtitle": "Avcılar İngilizce Dil Kursu'nun öğrencilerine sunduğu kapsamlı ve nitelikli eğitim avantajları",
       "features": [
         {
           "icon": "GraduationCap",
           "title": "Uzman Kadro",
-          "description": "Akademik International Yabancı Dil Okulları, alanında uzman, yıllardır deneyimlemiş yabancı dil eğitim tecrübesi ile nitelikli yabancı dil eğitimi sunmaktadır."
+          "description": "Avcılar İngilizce Dil Kursu, alanında deneyimli eğitmenleriyle nitelikli yabancı dil eğitimi sunar."
         },
         {
           "icon": "Monitor",
           "title": "Online Ders",
-          "description": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğin zaman dilediğin yerde görüntülü ve sesli derslere katılım sağlayabilirsin."
+          "description": "Letslingo online dil platformu ile dilediğiniz zaman, dilediğiniz yerden görüntülü ve sesli derslere katılım sağlayabilirsiniz."
         },
         {
           "icon": "MessageCircle",
           "title": "Konuşma Kulüpleri",
-          "description": "İngilizce Speaking derslerimiz, günlük ve üst düzey İngilizce seviyelerine uygun olarak hazırlanmıştır. Native hocalarımızla gerçekleştirilen derslerimizde farklı konuşma becerilerini geliştirmenize yardımcı olacak çeşitli aktiviteler ve alıştırmalar yapılmaktadır."
+          "description": "Speaking derslerimiz günlük ve üst düzey seviyelere uygun hazırlanmıştır; native eğitmenlerimizle gerçekleştirilen derslerde konuşma becerinizi geliştirecek çeşitli aktiviteler uygulanır."
         },
         {
           "icon": "Award",
-          "title": "Student Satisfaction",
-          "description": "Türkiye'de ilk kez ISO 9001:2015 Quality Management Systems ve 10002:2018 Customer Satisfaction belgelerini almaya hak kazanarak sürdürülebilir yabancı dil eğitimi sistemini oluşturan, %97 öğrenci memnuniyeti sağlayan yabancı dil okulu."
+          "title": "Öğrenci Memnuniyeti",
+          "description": "Düzenli geri bildirim ve seviye takibiyle sürdürülebilir bir dil eğitimi deneyimi sunan bir dil okuluyuz."
         },
         {
           "icon": "BookOpen",
-          "title": "Özgün Yayınlar",
-          "description": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING, Türk dil yapısına uygun olarak hazırlanmış özgün kaynaklar geliştirmiştir. Bu kaynaklar, Native yazarlar ve Türk dilbilimcileri tarafından ortaklaşa hazırlanmaktadır."
+          "title": "Güncel Kaynaklar",
+          "description": "Derslerimizde, güncel konuları ve gerçek hayat senaryolarını temel alan, sürekli güncellenen ders materyalleri kullanıyoruz."
         }
       ],
-      "rightTitle": "Neden Akademik International?",
-      "rightSubtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "rightTitle": "Neden Avcılar İngilizce Dil Kursu?",
+      "rightSubtitle": "Avcılar İngilizce Dil Kursu'nu seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "accordion": [
         {
           "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz, yıllardır deneyimlediği yabancı dil eğitim tecrübesi, kuruma özgü yetişkin, lise ve çocuk grupları için ayrı ayrı oluşturulan yayınlar, alanında uzman öğretmenleri ile speaking, reading, listening ve writing olmak üzere dört temel dil becerilerini geliştirmeye odaklanarak İngilizce başta olmak üzere Almanca, Fransızca, İspanyolca ve 14 farklı dilde yabancı dil eğitimi vermektedir."
+          "a": "Yetişkin öğrenciler için özel hazırlanmış müfredatı, kuruma özgü yetişkin, lise ve çocuk grupları için ayrı ayrı oluşturulan kaynakları ve alanında uzman öğretmenleriyle fark yaratan dil okulumuz; speaking, reading, listening ve writing olmak üzere dört temel dil becerisini geliştirmeye odaklanarak İngilizce başta olmak üzere farklı dillerde eğitim vermektedir."
         },
         {
           "q": "Seviyeye Uygun Yabancı Dil Programları",
-          "a": "Ücretsiz olarak gerçekleştirilen seviye belirleme sınavı sonucunda sizin için en uygun eğitim planlaması gerçekleştirilerek, temel seviyeden üst düzeye kadar dil bilimci hocalarımız tarafından hazırlanan yabancı dil eğitim müfredatı ile hedeflediğiniz dil seviyesine ulaşacaksınız."
+          "a": "Ücretsiz olarak gerçekleştirilen seviye belirleme sınavı sonucunda sizin için en uygun eğitim planlaması yapılır; temel seviyeden üst düzeye kadar hazırlanan müfredatla hedeflediğiniz dil seviyesine ulaşırsınız."
         },
         {
           "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Akademik Yabancı Dil Okulu olarak geçmişten günümüze dil eğitiminde grammer merkezli anlatımın yabancı dil eğitiminin en büyük eksiği olduğunu düşünmekteyiz. Bu sorunu ortadan kaldırmak adına müfredatımıza reading, listening, writing ve speaking becerilerini de ekleyerek homojen bir yabancı dil öğrenimi sağlamaktayız. Derslerimizde dil bilgisi kurallarına ek olarak, okuduğunu anlama, kelime, yazma, dinlediğini anlama ve konuşma gibi çeşitli uygulamalarla İngilizce başta olmak üzere 14 farklı dilde dili bir bütün olarak öğrenme fırsatı yakalayabilirsiniz."
+          "a": "Dil eğitiminde grammer merkezli anlatımın en büyük eksiklerden biri olduğunu düşünüyoruz. Bu nedenle müfredatımıza reading, listening, writing ve speaking becerilerini de ekleyerek homojen bir dil öğrenimi sağlıyoruz."
         },
         {
           "q": "Aktüel Konular - Zengin İçerik",
-          "a": "Dil öğrenimini dil bilgisi öğrenimi ile eş değer görmeyen yabancı dil okulumuzda dilde varan olan phrase, collocation, phrasal verb gibi kelime yapıları ve anlam bilim olarak adlandırılan semantics üzerine yoğunlaşan eğitimimizle dil becerinizi en üst seviyeye çıkartarak dilin kültürünü de okuma, yazma, konuşma ve dinleme becerilerinizde sentezleyebilirsiniz. Dört becerinin birbirini destekleyici birbirine entregre olmuş eğitim içeriğimiz ile okuduğunu anlama, kelime, dil bilgisi gibi yazılı beceriler hem de dinleme ve konuşma gibi daha aktif şekilde kullanılan becerileri en üst seviyeye çıkarabilirsiniz."
+          "a": "Dil öğrenimini yalnızca dil bilgisiyle sınırlamayan okulumuzda, phrase, collocation ve phrasal verb gibi kelime yapılarına ve anlam bilimine odaklanan içeriklerle dil becerinizi üst seviyeye taşıyoruz."
         },
         {
-          "q": "İngilizce Kursu Eğitiminde Nasıl Bir Eğitim Sistemi Uyguluyorsunuz?",
-          "a": "Türkiye'de ilk kez yetişkin bireyler için yabancı dil müfredatı oluşturan kurumumuz demode olmuş yabancı dil eğitim müfredatlarının aksine her yaş gubu için özel eğitim müfredatı hazırlamaktadır. Kendi yayınevimize ait özgün kaynaklardan güncel, aktüel konular ele alınarak dil yetkinliğinizi en üst seviyeye çıkartılır."
+          "q": "İngilizce Kursu Eğitiminde Nasıl Bir Sistem Uyguluyorsunuz?",
+          "a": "Demode yöntemlerin aksine her yaş grubu için özel müfredat hazırlıyoruz. Güncel kaynaklardan aktüel konular ele alınarak dil yetkinliğiniz üst seviyeye taşınır."
         }
       ]
     },
@@ -14108,8 +14102,8 @@
       "title": "Sık Sorulan Sorular",
       "items": [
         {
-          "q": "Akademik International'ı diğer dil okullarından ayıran en önemli özellik nedir?",
-          "a": "Türkiye'de ilk kez yetişkinlere özgü yabancı dil eğitim sistemi oluşturan kurumumuz, ISO 9001:2015 ve 10002:2018 sertifikaları ile kaliteli eğitimi belgelenmiş şekilde sunmaktadır."
+          "q": "Avcılar İngilizce Dil Kursu'nu diğer dil kurslarından ayıran en önemli özellik nedir?",
+          "a": "Yaşa özel müfredatımız, konuşma odaklı ders yapımız ve düzenli seviye takibimizle kaliteli bir dil eğitimi sunuyoruz."
         },
         {
           "q": "Hangi seviyelerde ders veriyorsunuz?",
@@ -14268,7 +14262,7 @@
     "about": {
       "badge": "4 TEMEL YAKLAŞIM",
       "title": "Yabancı Dil Öğreniminde Doğru Yöntem",
-      "desc": "Her dil, kendi kültürüne açılan bir kapıdır. Akademik International olarak Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve daha pek çok dilde uzman eğitmenlerimizle öğrencilerimizi gerçek iletişim becerisine taşıyoruz.<br/><br/><b>Dile Özel Müfredat:</b> Her dilin kendine özgü yapısı, telaffuzu ve kültürel bağlamı vardır. Eğitmenlerimiz, hedef dilinize özel hazırlanmış müfredat ve materyallerle en kısa sürede konuşabilmenizi sağlar.<br/><br/><b>İletişim Odaklı Eğitim:</b> Dil öğrenimi sadece gramer değildir; gerçek hayatta kullanmaktır. Konuşma pratiği, dinleme egzersizleri ve kültürel içeriklerle dili yaşayarak öğrenin.",
+      "desc": "Her dil, kendi kültürüne açılan bir kapıdır. Avcılar İngilizce Dil Kursu olarak Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve daha pek çok dilde uzman eğitmenlerimizle öğrencilerimizi gerçek iletişim becerisine taşıyoruz.<br/><br/><b>Dile Özel Müfredat:</b> Her dilin kendine özgü yapısı, telaffuzu ve kültürel bağlamı vardır. Eğitmenlerimiz, hedef dilinize özel hazırlanmış müfredat ve materyallerle en kısa sürede konuşabilmenizi sağlar.<br/><br/><b>İletişim Odaklı Eğitim:</b> Dil öğrenimi sadece gramer değildir; gerçek hayatta kullanmaktır. Konuşma pratiği, dinleme egzersizleri ve kültürel içeriklerle dili yaşayarak öğrenin.",
       "skills": [
         {
           "id": "konusma",
@@ -14291,7 +14285,7 @@
           "desc": "Kendi yayınevimizin dile özel hazırlanmış özgün kaynakları."
         }
       ],
-      "description": "Hedeflediğiniz dilde Akademik International'ın uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile hızlı ve kalıcı öğrenme deneyimi yaşayın.",
+      "description": "Hedeflediğiniz dilde Avcılar İngilizce Dil Kursu'nun uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile hızlı ve kalıcı öğrenme deneyimi yaşayın.",
       "features": [
         "Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Japonca, Korece ve daha fazlası.",
         "7-10 kişilik butik sınıflarda ya da birebir formatta eğitim imkanı.",
@@ -14414,7 +14408,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International Yabancı Dil Kursu?",
+      "title": "Neden Avcılar İngilizce Dil Kursu Yabancı Dil Kursu?",
       "subtitle": "Hızlı ve Kalıcı Dil Öğreniminin Adresi",
       "cardTitle": "15+ Dilde Uzman Eğitim",
       "cardDesc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde binlerce öğrenciye Almanca, Fransızca, İspanyolca ve daha pek çok dilde eğitim veren, en çok tavsiye edilen yabancı dil kursu deneyimi.",
@@ -14499,7 +14493,7 @@
         },
         {
           "q": "Dil kurslarında sertifika veriliyor mu?",
-          "a": "Kursumuzu tamamlayan öğrencilere Akademik International katılım sertifikası verilmektedir. Ayrıca Goethe (Almanca), DELF/DALF (Fransızca), DELE (İspanyolca) gibi uluslararası sınav hazırlığı da yapılmaktadır."
+          "a": "Kursumuzu tamamlayan öğrencilere Avcılar İngilizce Dil Kursu katılım sertifikası verilmektedir. Ayrıca Goethe (Almanca), DELF/DALF (Fransızca), DELE (İspanyolca) gibi uluslararası sınav hazırlığı da yapılmaktadır."
         },
         {
           "q": "Hangi seviyeden hangi dil kursunu almalıyım?",
@@ -14538,7 +14532,7 @@
     "about": {
       "badge": "4 TEMEL YAKLAŞIM",
       "title": "Akademik Sınav Hazırlığında Doğru Yöntem",
-      "desc": "Akademik sınavlar; yurt dışı eğitim, kariyer gelişimi, kamu atamaları ve uluslararası alanda kendinizi kanıtlamak için kapınızı açan köprülerdir. Akademik International olarak IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge ve daha fazlasında kanıtlanmış yöntemlerimizle öğrencilerimizi başarıya taşıyoruz.<br/><br/><b>Sınava Özel Strateji:</b> Her sınavın kendine özgü yapısı, soru tipleri ve değerlendirme kriterleri vardır. Eğitmenlerimiz, hedef sınavınıza özel hazırlanmış stratejiler ve materyallerle en kısa sürede hedefinize ulaşmanızı sağlar.<br/><br/><b>Deneme Sınavı Odaklı Hazırlık:</b> Gerçek sınav koşullarında yapılan düzenli denemeler; hem eksiklerinizi ortaya çıkarır hem de sınav stresi yönetiminde güven inşa eder.",
+      "desc": "Akademik sınavlar; yurt dışı eğitim, kariyer gelişimi, kamu atamaları ve uluslararası alanda kendinizi kanıtlamak için kapınızı açan köprülerdir. Avcılar İngilizce Dil Kursu olarak IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge ve daha fazlasında kanıtlanmış yöntemlerimizle öğrencilerimizi başarıya taşıyoruz.<br/><br/><b>Sınava Özel Strateji:</b> Her sınavın kendine özgü yapısı, soru tipleri ve değerlendirme kriterleri vardır. Eğitmenlerimiz, hedef sınavınıza özel hazırlanmış stratejiler ve materyallerle en kısa sürede hedefinize ulaşmanızı sağlar.<br/><br/><b>Deneme Sınavı Odaklı Hazırlık:</b> Gerçek sınav koşullarında yapılan düzenli denemeler; hem eksiklerinizi ortaya çıkarır hem de sınav stresi yönetiminde güven inşa eder.",
       "skills": [
         {
           "id": "strateji",
@@ -14561,7 +14555,7 @@
           "desc": "Mevcut seviyenizden hareketle belirlenen kişisel hedef puanına yönelik planlı ilerleme."
         }
       ],
-      "description": "Uluslararası veya ulusal akademik hedefinize Akademik International'ın uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile ulaşın.",
+      "description": "Uluslararası veya ulusal akademik hedefinize Avcılar İngilizce Dil Kursu'nun uzman eğitmen kadrosu ve kanıtlanmış metodolojisi ile ulaşın.",
       "features": [
         "IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, CAE, PTE ve daha fazlası.",
         "7-10 kişilik butik sınıflarda ya da birebir formatta eğitim imkanı.",
@@ -14678,7 +14672,7 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International Sınav Hazırlık?",
+      "title": "Neden Avcılar İngilizce Dil Kursu Sınav Hazırlık?",
       "subtitle": "Zaman Kaybetmeden Hedefinize Ulaşın",
       "cardTitle": "Kanıtlanmış Başarı Oranı",
       "cardDesc": "Bursa, İstanbul, İzmir, Ankara ve diğer şubelerimizde binlerce öğrenciyi hedeflediği sınav skoruna taşıyan, en çok tavsiye edilen sınav hazırlık kursu deneyimi.",
@@ -14767,7 +14761,7 @@
         },
         {
           "q": "Sınav hazırlık kursuna başlamadan önce seviyemi nasıl belirlerim?",
-          "a": "Akademik International'da ücretsiz seviye belirleme sınavı ile mevcut İngilizce düzeyiniz tespit edilir. Bu değerlendirme sonucunda hedef sınavınıza en uygun programa yönlendirilirsiniz."
+          "a": "Avcılar İngilizce Dil Kursu'nda ücretsiz seviye belirleme sınavı ile mevcut İngilizce düzeyiniz tespit edilir. Bu değerlendirme sonucunda hedef sınavınıza en uygun programa yönlendirilirsiniz."
         },
         {
           "q": "GMAT ve GRE arasındaki fark nedir?",

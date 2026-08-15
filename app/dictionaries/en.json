@@ -22,13 +22,13 @@
     "btnText": "Start Test →",
     "footerText": "Free · No registration required",
     "avatarAlt": "Avcilar Foreign Language Course Placement Test Education Advisor",
-    "avatarTitle": "Avcilar Akademik International Free Placement Test",
+    "avatarTitle": "Avcılar English Language Course Free Placement Test",
     "formTitle": "FREE ENGLISH!"
   },
   "robot": {
     "tooltip": "How can I help you?",
     "title": "Education Advisor",
-    "status": "Akademik International",
+    "status": "Avcılar English Language Course",
     "online": "Online",
     "inputPlaceholder": "Type something...",
     "send": "Send",
@@ -578,7 +578,7 @@
     "programsTitle": "Our Education Programs",
     "languagesTitle": "Other Languages",
     "newsletterTitle": "Stay Informed",
-    "newsletterDesc": "Join our email list to not miss the latest news, discount opportunities, and campaigns from Akademik International",
+    "newsletterDesc": "Join our email list to not miss the latest news, discount opportunities, and campaigns from Avcılar English Language Course",
     "emailPlaceholder": "Your Email Address",
     "sendBtn": "Send",
     "sendingBtn": "Sending...",
@@ -588,7 +588,7 @@
     "checkbox1": "I would like to be contacted via email and SMS about special notifications, updates, and news.",
     "checkbox2": "I have read and approve the Web Privacy and Personal Data Protection Law Principles text",
     "socialTitle": "Follow Us",
-    "socialDesc": "Let Akademik International Experiences and Activities fall into your feed!",
+    "socialDesc": "Let Avcılar English Language Course Experiences and Activities fall into your feed!",
     "customerServiceTitle": "Customer Service",
     "callNowBtn": "Call Now!",
     "abroadCallText": "Calling from abroad?",
@@ -598,9 +598,9 @@
       "Personal Data Policy",
       "Terms and Conditions"
     ],
-    "copyright": "© 1992 - 2026 Akademik International Foreign Language Course All Rights Reserved.",
+    "copyright": "© 2026 Avcılar English Language Course All Rights Reserved.",
     "partnersTitle": "Partners That Make Us Strong",
-    "groupTitle": "Akademik International Group",
+    "groupTitle": "Avcılar English Language Course Group",
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
@@ -833,33 +833,27 @@
       "sinav": "ACADEMIC EXAM COURSES"
     },
     "cards": [
-      { "id": 1, "category": "nitelikli", "title": "Prep Basic\nEnglish Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 1, "category": "nitelikli", "title": "Prep Basic\nEnglish Course", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 2, "category": "nitelikli", "title": "Prep Plus English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 3, "category": "nitelikli", "title": "Advanced\nEnglish Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 4, "category": "nitelikli", "title": "Advanced Plus\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 4, "category": "nitelikli", "title": "Advanced Plus\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 5, "category": "nitelikli", "title": "General English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 6, "category": "nitelikli", "title": "Private English Lessons", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 7, "category": "nitelikli", "title": "Corporate /\nCorporate English\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 7, "category": "nitelikli", "title": "Corporate /\nCorporate English\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 8, "category": "sinav", "title": "YDS Preparation Course", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 9, "category": "sinav", "title": "YKS-Language (YDT)\nPreparation Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 10, "category": "sinav", "title": "TOEFL Preparation\nCourse", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 10, "category": "sinav", "title": "TOEFL Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 11, "category": "sinav", "title": "IELTS Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 12, "category": "sinav", "title": "Prep Waiver\nCourse -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 14, "category": "sinav", "title": "German Goethe\nExam Preparation\nCourse", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
       { "id": 15, "category": "sinav", "title": "SAT Course", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 16, "category": "sinav", "title": "PTE Course", "img": "/sliders/gemini1.webp", "flags": ["🇬🇧"] },
+      { "id": 16, "category": "sinav", "title": "PTE Course", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
       { "id": 17, "category": "sinav", "title": "TELC Course", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
     ]
   },
   "heroSlider": {
     "slides": [
-      {
-        "id": 1,
-        "image": "/sliders/gemini1.webp",
-        "alt": "Avcılar English Language Course Avcilar Branch",
-        "title": "Language Education with Avcılar English Language Course"
-      },
       {
         "id": 2,
         "image": "/sliders/gemini2.webp",
@@ -1062,8 +1056,8 @@
       "badge": "A1 BEGINNER / STARTER LEVEL"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1185,8 +1179,8 @@
       "badge": "A2 PRE-INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1308,8 +1302,8 @@
       "badge": "B1 INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1401,7 +1395,7 @@
   "academicPage": {
     "about": {
       "title": "Academic Education to Take Your Career to the Top",
-      "desc": "\n<p>We have trained many top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors who have received basic English education but need <strong>higher-level English knowledge</strong>. Our institution offers a quality education that will take you to the next level in your academic career.</p>\n<p>With over 35 years of experience and our senior teachers, we conduct comprehensive <strong>sentence analyses covering technical, legal, medical, commercial, and academic terminology</strong> in our academic classes with our institution-specific publications and our Translation 1 book.</p>\n<p>Our Academic Reading 1 book also provides the detailed uses of <strong>phrasal verbs, phrases, idioms, and collocations</strong>, and <strong>Listening lessons</strong> are held with reading passages covering terminological and current topics.</p>\n<p>In the <strong>Academic Semester</strong>, our students reach a state where they can <strong>express themselves at a high level</strong> with a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs.</p>\n<p>Just as there are differences between the Turkish we speak daily and the Turkish used in business life and the academic community, the same is true for English. <strong>Akademik Yabancı Dil Kursu</strong> Educational Institutions, the first institution to provide <strong>academic English education in Turkey</strong>, is a language academy where you can learn high-level English.</p>\n",
+      "desc": "\n<p>We have trained many top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors who have received basic English education but need <strong>higher-level English knowledge</strong>. Our institution offers a quality education that will take you to the next level in your academic career.</p>\n<p>With over 35 years of experience and our senior teachers, we conduct comprehensive <strong>sentence analyses covering technical, legal, medical, commercial, and academic terminology</strong> in our academic classes with our institution-specific publications and our Translation 1 book.</p>\n<p>Our Academic Reading 1 book also provides the detailed uses of <strong>phrasal verbs, phrases, idioms, and collocations</strong>, and <strong>Listening lessons</strong> are held with reading passages covering terminological and current topics.</p>\n<p>In the <strong>Academic Semester</strong>, our students reach a state where they can <strong>express themselves at a high level</strong> with a comprehensive vocabulary based on word formation, idioms, collocations, and phrasal verbs.</p>\n<p>Just as there are differences between the Turkish we speak daily and the Turkish used in business life and the academic community, the same is true for English. <strong>Avcılar English Language Course</strong> Educational Institutions, the first institution to provide <strong>academic English education in Turkey</strong>, is a language academy where you can learn high-level English.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1431,8 +1425,8 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1524,7 +1518,7 @@
   "academicPlusPage": {
     "about": {
       "title": "Simultaneous Translation and High English Proficiency: Academic Plus",
-      "desc": "\n<p>In the <strong>Academic Plus</strong> semester, our students take their learning skills to the next level with advanced <strong>speaking, reading, listening, and writing</strong> activities. They can understand conversations held with a proper accent and express themselves very well.</p>\n<p>Having trained many <strong>top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors</strong> to date, Akademik Yabancı Dil Kursu presents <strong>simultaneous paragraph translation</strong> by showing examples of <strong>academic phrases</strong> over commercial, technical, social sciences, medical, legal, and advanced texts in <strong>Academic Plus</strong> lessons to its students who have developed their sentence analysis skills and reached the level of understanding high-level sentences in Academic English 1 lessons, thus taking your reading, listening, and speaking skills to the highest points.</p>\n<p>In addition to academic phrases, our students learn many <strong>collocations, idioms, and phrasal verbs</strong> in the lessons they take, easily understand basic sections such as <strong>introduction, summary, and conclusion</strong> of high-level texts, and feel privileged with their qualified foreign language knowledge.</p>\n",
+      "desc": "\n<p>In the <strong>Academic Plus</strong> semester, our students take their learning skills to the next level with advanced <strong>speaking, reading, listening, and writing</strong> activities. They can understand conversations held with a proper accent and express themselves very well.</p>\n<p>Having trained many <strong>top executives, engineers, businessmen, academics, lecturers, doctors, lawyers, university students, and students from important sectors</strong> to date, Avcılar English Language Course presents <strong>simultaneous paragraph translation</strong> by showing examples of <strong>academic phrases</strong> over commercial, technical, social sciences, medical, legal, and advanced texts in <strong>Academic Plus</strong> lessons to its students who have developed their sentence analysis skills and reached the level of understanding high-level sentences in Academic English 1 lessons, thus taking your reading, listening, and speaking skills to the highest points.</p>\n<p>In addition to academic phrases, our students learn many <strong>collocations, idioms, and phrasal verbs</strong> in the lessons they take, easily understand basic sections such as <strong>introduction, summary, and conclusion</strong> of high-level texts, and feel privileged with their qualified foreign language knowledge.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -1554,8 +1548,8 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1648,7 +1642,7 @@
     "about": {
       "badge": "ALL LEVELS / A1 TO C1",
       "title": "Achieve Your Goals with General English Courses",
-      "desc": "<p><strong>Akademik International General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and our own original resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
+      "desc": "<p><strong>Avcılar English Language Course General English Courses</strong> are comprehensive language programmes aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>, designed for learners of all levels from A1 beginner to C1 advanced.</p><p>Every student is given a free <strong>placement test</strong> upon enrolment and is placed in the class that best matches their current level. Our General English programmes do not rely on rote learning; instead they apply an integrated method that develops <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills simultaneously.</p><p>Supported by adult-specific contemporary materials and our own original resources, our programmes enable you to use English with confidence in everyday communication, professional life, travel, and academic settings.</p>",
       "skills": [
         {
           "id": "grammar",
@@ -1677,8 +1671,8 @@
       ]
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1777,7 +1771,7 @@
         },
         {
           "q": "Which English levels are available?",
-          "a": "Akademik International offers dedicated programmes for A1 (Beginner), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate / Upper-Intermediate), and C1 (Advanced), all aligned with CEFR standards. Each level is designed to progress systematically toward the next."
+          "a": "Avcılar English Language Course offers dedicated programmes for A1 (Beginner), A2 (Elementary), B1 (Pre-Intermediate), B2 (Intermediate / Upper-Intermediate), and C1 (Advanced), all aligned with CEFR standards. Each level is designed to progress systematically toward the next."
         },
         {
           "q": "How do I find out my English level?",
@@ -1789,7 +1783,7 @@
         },
         {
           "q": "What certificate will I receive after completing the course?",
-          "a": "You will receive an Akademik International participation certificate upon completion. You may also progress to internationally recognised exam preparation programmes such as IELTS, TOEFL, or Cambridge, enabling you to obtain globally accepted language certificates."
+          "a": "You will receive an Avcılar English Language Course participation certificate upon completion. You may also progress to internationally recognised exam preparation programmes such as IELTS, TOEFL, or Cambridge, enabling you to obtain globally accepted language certificates."
         }
       ]
     },
@@ -1831,8 +1825,8 @@
       "badge": "A1 BEGINNER / STARTER LEVEL"
     },
     "whyUs": {
-      "title": "Why Akademik International?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Akademik International Courses",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
       "advantages": [
         {
           "title": "97% Student Satisfaction",
@@ -1931,7 +1925,7 @@
         },
         {
           "q": "What teaching methods are applied in English courses?",
-          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Avcılar English Language Course English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
         },
         {
           "q": "What education and experience do teachers in English courses generally have?",
@@ -1952,7 +1946,7 @@
     "about": {
       "badge": "PRIMARY SCHOOL / KIDS ENGLISH",
       "title": "Primary School English Courses - English for Kids",
-      "desc": "\n    <p>We plan the teaching of primary school English courses considering the age and English levels of the children. With a <strong>theatrical and interactive education model</strong> and expert trainers in the child domain, we teach primary school English with a <strong>speaking, reading, and writing focused</strong> education model rather than rote learning. Thanks to our customized curriculum that also supports school subjects, we aim for our students to be successful in their school courses while raising <strong>highly self-confident students</strong> who love English.</p>\n    <p>While preparing our children for the future, our children elevate their English learning to higher levels with our practice-oriented (speaking-based) expert trainers, utilizing our rich curriculum and publications that go far beyond the classical education model. We teach primary school English with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Making a difference with its <strong>education system and unique methods</strong>, Akademik Yabancı Dil Kursu (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Akademik Yabancı Dil Kursu to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.</p>\n    <p>In our course where we also observe <strong>your reading, listening, and writing skills</strong>, our aim is to reinforce the use of English in every field and turn it into a reflex. With a theatrical and interactive education model and our expert trainers in the field, we teach <strong>primary school English education</strong> with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Akademik Yabancı Dil Kursu is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Akademik Yabancı Dil Kursu will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy.</p>\n  ",
+      "desc": "\n    <p>We plan the teaching of primary school English courses considering the age and English levels of the children. With a <strong>theatrical and interactive education model</strong> and expert trainers in the child domain, we teach primary school English with a <strong>speaking, reading, and writing focused</strong> education model rather than rote learning. Thanks to our customized curriculum that also supports school subjects, we aim for our students to be successful in their school courses while raising <strong>highly self-confident students</strong> who love English.</p>\n    <p>While preparing our children for the future, our children elevate their English learning to higher levels with our practice-oriented (speaking-based) expert trainers, utilizing our rich curriculum and publications that go far beyond the classical education model. We teach primary school English with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Making a difference with its <strong>education system and unique methods</strong>, Avcılar English Language Course (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Avcılar English Language Course to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.</p>\n    <p>In our course where we also observe <strong>your reading, listening, and writing skills</strong>, our aim is to reinforce the use of English in every field and turn it into a reflex. With a theatrical and interactive education model and our expert trainers in the field, we teach <strong>primary school English education</strong> with a speaking, reading, and writing focused education model rather than rote learning.</p>\n    <p>Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Avcılar English Language Course is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Avcılar English Language Course will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy.</p>\n  ",
       "skills": [
         {
           "id": "grammar",
@@ -2078,7 +2072,7 @@
         },
         {
           "q": "What teaching methods are applied in English courses?",
-          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Akademik International English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
+          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Avcılar English Language Course English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
         },
         {
           "q": "What education and experience do teachers in English courses generally have?",
@@ -2099,9 +2093,9 @@
       "description": [
         "We plan the teaching of primary school English courses considering the age and English levels of the children. With a <strong>theatrical and interactive education model</strong> and expert trainers in the child domain, we teach primary school English with a <strong>speaking, reading, and writing focused</strong> education model rather than rote learning. Thanks to our customized curriculum that also supports school subjects, we aim for our students to be successful in their school courses while raising <strong>highly self-confident students</strong> who love English.",
         "While preparing our children for the future, our children elevate their English learning to higher levels with our practice-oriented (speaking-based) expert trainers, utilizing our rich curriculum and publications that go far beyond the classical education model. We teach primary school English with a speaking, reading, and writing focused education model rather than rote learning.",
-        "Making a difference with its <strong>education system and unique methods</strong>, Akademik Yabancı Dil Kursu (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Akademik Yabancı Dil Kursu to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.",
+        "Making a difference with its <strong>education system and unique methods</strong>, Avcılar English Language Course (Foreign Language Course) is the right address for your English education. With its <strong>expert teaching staff</strong> working within Avcılar English Language Course to eliminate the inefficiency and the waste of time and effort created by ordinary and customary teaching strategies, an interactive education model is applied along with unique publications suited to its original education system.",
         "In our course where we also observe <strong>your reading, listening, and writing skills</strong>, our aim is to reinforce the use of English in every field and turn it into a reflex. With a theatrical and interactive education model and our expert trainers in the field, we teach <strong>primary school English education</strong> with a speaking, reading, and writing focused education model rather than rote learning.",
-        "Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Akademik Yabancı Dil Kursu is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Akademik Yabancı Dil Kursu will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy."
+        "Our primary goal is for you to be able to show your possible cultural and current accumulation in your mother tongue in English as well. If you want to be one step ahead in every period of your life, Avcilar English course Avcılar English Language Course is the <strong>right address for your choice</strong>. Do not be intimidated by the large amounts of time spent unproductively so far; Avcilar English course Avcılar English Language Course will ensure you reach your desired goal within the appropriate time with the right methods and its original strategy."
       ]
     }
   },
@@ -2120,7 +2114,7 @@
     "about": {
       "badge": "MIDDLE SCHOOL / LGS PREPARATION",
       "title": "Special Education for 5th, 6th, 7th and 8th Grades with Middle School English Course",
-      "desc": "\n    <p>The Middle School English course is an educational program specially designed to improve the language skills of 5th, 6th, 7th and 8th grade students. The middle school age range (10-14 years) is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-oriented and interactive English education model for middle school students.</p>\n    <p>Nowadays, getting a good English education provides a great advantage for children both in their academic lives and future careers. Language skills acquired during middle school form a solid foundation for students in their future educational lives.</p>\n  ",
+      "desc": "\n    <p>The Middle School English course is an educational program specially designed to improve the language skills of 5th, 6th, 7th and 8th grade students. The middle school age range (10-14 years) is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-oriented and interactive English education model for middle school students.</p>\n    <p>Nowadays, getting a good English education provides a great advantage for children both in their academic lives and future careers. Language skills acquired during middle school form a solid foundation for students in their future educational lives.</p>\n  ",
       "skills": [
         {
           "id": "5th",
@@ -2145,7 +2139,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Akademik Middle School English Course?",
+      "title": "Why Choose Avcılar Middle School English Course?",
       "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
       "cardTitle": "Level-Appropriate Education",
       "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
@@ -2227,7 +2221,7 @@
       "branchPlaceholder": "Select Branch",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: MIDDLE SCHOOL",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
       "formNamePlaceholder": "Enter Name and Surname",
       "formPhonePlaceholder": "Enter GSM Number",
       "formBranchPlaceholder": "Select Branch",
@@ -2311,7 +2305,7 @@
     "seoContent": [
       {
         "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
         "bullets": [
           "At least 20 minutes of English speaking practice in each lesson",
           "Natural learning process similar to native language education",
@@ -2345,7 +2339,7 @@
           "Physical environment and technological infrastructure",
           "Ease of transportation and security"
         ],
-        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
       },
       {
         "title": "Advantages of Online Middle School English Course",
@@ -2378,7 +2372,7 @@
     "about": {
       "badge": "MIDDLE SCHOOL / LGS PREPARATION",
       "title": "Become a Global Citizen with High School English Course",
-      "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Akademik International Foreign Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Akademik International Foreign Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Akademik International Foreign Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
+      "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Avcılar English Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Avcılar English Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Avcılar English Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
       "skills": [
         {
           "id": "grammar",
@@ -2407,7 +2401,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Akademik High School English Course?",
+      "title": "Why Choose Avcılar High School English Course?",
       "subtitle": "Achieve Success at School and Exams with Learning Guarantee!",
       "cardTitle": "Level-Appropriate Education",
       "cardDesc": "We offer a curriculum specifically designed for middle school students according to their current English level (5th, 6th, 7th and 8th grades).",
@@ -2426,7 +2420,7 @@
         {
           "icon": "Globe",
           "title": "Education at International Standards",
-          "desc": "English education completed at Akademik International is fully compliant with EU standards and the US education system."
+          "desc": "English education completed at Avcılar English Language Course is fully compliant with EU standards and the US education system."
         },
         {
           "icon": "MessageCircle",
@@ -2441,7 +2435,7 @@
         {
           "icon": "Target",
           "title": "Global Communication at an Early Age",
-          "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with Akademik assurance."
+          "desc": "If you want your children to be individuals who can communicate with the world and follow international opportunities, complete their education with our assurance."
         }
       ]
     },
@@ -2489,7 +2483,7 @@
       "branchPlaceholder": "Select Branch",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: HIGH SCHOOL",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
       "formNamePlaceholder": "Enter Name and Surname",
       "formPhonePlaceholder": "Enter GSM Number",
       "formBranchPlaceholder": "Select Branch",
@@ -2573,7 +2567,7 @@
     "seoContent": [
       {
         "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
         "bullets": [
           "At least 20 minutes of English speaking practice in each lesson",
           "Natural learning process similar to native language education",
@@ -2607,7 +2601,7 @@
           "Physical environment and technological infrastructure",
           "Ease of transportation and security"
         ],
-        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
       },
       {
         "title": "Advantages of Online Middle School English Course",
@@ -2640,7 +2634,7 @@
     "about": {
       "badge": "ONE ON ONE",
       "title": "One-on-One Private Lessons",
-      "desc": "<b>Take your English to the highest level</b> with our training program focusing on (Speaking, Reading, Listening, and Writing) skills based on <b>Qualified English</b> Teaching with Current Topics by our <b>Academic Career Instructors.</b><br/><br/>As Akademik International Language Schools, we provide a solution in every situation and offer our students an education tailored to their needs. The services we allocate to <b>private English lessons</b> are tailored to your time planning and the content of the education you desire. The foreign language learning process can differ for many people in terms of working hours, school days, and learning styles; education must be provided by adapting to these differences. We produce solutions tailored to your specific needs, whether for personal preference or mandatory situations.<br/><br/>Our one-on-one private lessons continue with our foreign or Turkish teachers depending on the level of our student. We prepare a special education plan for you together with those among our educators who have acquired an area of expertise suitable for your goal and ensure that you benefit from our teacher's expertise. In our private lessons, our students are given an education that will take them to the top level in language mastery elements such as reading, writing, understanding, translation, and speaking skills in the foreign language they desire. Foreign language mastery is achieved in the shortest time but with solid foundations. You can also attend speaking classes free of charge during your private lesson education.<br/><br/>You will start learning English with a new perspective. The expert teaching staff working within Akademik International provides education tailored to student needs, along with publications suitable for the unique education system they have prepared.",
+      "desc": "<b>Take your English to the highest level</b> with our training program focusing on (Speaking, Reading, Listening, and Writing) skills based on <b>Qualified English</b> Teaching with Current Topics by our <b>Academic Career Instructors.</b><br/><br/>As Avcılar English Language Course Language Schools, we provide a solution in every situation and offer our students an education tailored to their needs. The services we allocate to <b>private English lessons</b> are tailored to your time planning and the content of the education you desire. The foreign language learning process can differ for many people in terms of working hours, school days, and learning styles; education must be provided by adapting to these differences. We produce solutions tailored to your specific needs, whether for personal preference or mandatory situations.<br/><br/>Our one-on-one private lessons continue with our foreign or Turkish teachers depending on the level of our student. We prepare a special education plan for you together with those among our educators who have acquired an area of expertise suitable for your goal and ensure that you benefit from our teacher's expertise. In our private lessons, our students are given an education that will take them to the top level in language mastery elements such as reading, writing, understanding, translation, and speaking skills in the foreign language they desire. Foreign language mastery is achieved in the shortest time but with solid foundations. You can also attend speaking classes free of charge during your private lesson education.<br/><br/>You will start learning English with a new perspective. The expert teaching staff working within Avcılar English Language Course provides education tailored to student needs, along with publications suitable for the unique education system they have prepared.",
       "skills": [
         {
           "id": "grammar",
@@ -2665,8 +2659,8 @@
       ],
       "description": "Taking one-on-one private lessons for English academic exams provides a great advantage to students. These lessons guide students in areas such as exam strategies, reading and writing skills, and vocabulary development. The one-on-one format allows students to focus specifically on their needs and helps them achieve successful results. Private lessons given by our experienced teachers progress with a curriculum specially designed for the needs of the students.",
       "features": [
-        "Reach your goals while saving time and budget with Akademik International.",
-        "Up-to-date language training program that makes you speak English, with the difference of Akademik International.",
+        "Reach your goals while saving time and budget with Avcılar English Language Course.",
+        "Up-to-date language training program that makes you speak English, with the difference of Avcılar English Language Course.",
         "Speaking English is now much easier with our local and foreign expert teaching staff.",
         "You will be able to speak English fluently by pushing your limits with one-on-one speaking and support lessons."
       ]
@@ -2758,7 +2752,7 @@
       "branchPlaceholder": "Select Branch",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: PRIVATE LESSON",
-      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Akademik International Foreign Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
+      "description": "The middle school age range is a period when brain development is most suitable for language learning and cognitive flexibility peaks. As Avcılar English Language Course, we offer a customized, speaking-focused and interactive English education model for middle school students.",
       "formNamePlaceholder": "Enter Name and Surname",
       "formPhonePlaceholder": "Enter GSM Number",
       "formBranchPlaceholder": "Select Branch",
@@ -2839,7 +2833,7 @@
     "seoContent": [
       {
         "title": "Speaking-Focused English Course: Rote-Free Language Education",
-        "desc": "The most fundamental feature that distinguishes Akademik International Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
+        "desc": "The most fundamental feature that distinguishes Avcılar English Language Course Foreign Language School from other courses is our innovative English teaching approach that prioritizes communication skills. Contrary to classic rote-learning methods:",
         "bullets": [
           "At least 20 minutes of English speaking practice in each lesson",
           "Natural learning process similar to native language education",
@@ -2873,7 +2867,7 @@
           "Physical environment and technological infrastructure",
           "Ease of transportation and security"
         ],
-        "summary": "As Akademik International Foreign Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
+        "summary": "As Avcılar English Language Course, we provide the highest standards in all these criteria. The success of our students is our biggest reference."
       },
       {
         "title": "Advantages of Online Middle School English Course",
@@ -3567,7 +3561,7 @@
     "about": {
       "badge": "4 CORE SKILLS",
       "title": "What is an Effective IELTS Preparation Process?",
-      "desc": "IELTS (International English Language Testing System) is one of the most trusted global exams measuring the abilities of candidates who wish to study or work in English-speaking countries. As Akademik International, we help you reach your goals through our adult-tailored language training system.<br/><br/><b>Equal Focus on Four Skills:</b> The IELTS exam measures proficiency in 4 core skills: reading, writing, speaking, and listening. Our course focuses on developing these four skills in parallel within boutique classes of 7-10 students.<br/><br/><b>Personalized Planning:</b> We offer customized programs—either standard group or 1-on-1 training—tailored to your Academic or General IELTS goals, current level, and available schedule.",
+      "desc": "IELTS (International English Language Testing System) is one of the most trusted global exams measuring the abilities of candidates who wish to study or work in English-speaking countries. As Avcılar English Language Course, we help you reach your goals through our adult-tailored language training system.<br/><br/><b>Equal Focus on Four Skills:</b> The IELTS exam measures proficiency in 4 core skills: reading, writing, speaking, and listening. Our course focuses on developing these four skills in parallel within boutique classes of 7-10 students.<br/><br/><b>Personalized Planning:</b> We offer customized programs—either standard group or 1-on-1 training—tailored to your Academic or General IELTS goals, current level, and available schedule.",
       "skills": [
         {
           "id": "listening",
@@ -3599,7 +3593,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Akademik International IELTS Course?",
+      "title": "Why Avcılar English Language Course IELTS Course?",
       "subtitle": "Achieve Your Desired Score Without Wasting Time",
       "cardTitle": "High Success Rate Branches",
       "cardDesc": "The most recommended course experience, bringing thousands of students to their target scores across our branches in Bursa, Istanbul, Izmir, Ankara, Tekirdag, and Eskisehir.",
@@ -3788,7 +3782,7 @@
     "about": {
       "badge": "YDT PREPARATION",
       "title": "What is an Effective YKS-Dil YDT Preparation Process?",
-      "desc": "YKS-DİL YDT (Foreign Language Test) is a national exam administered by ÖSYM for students wishing to apply to university foreign language departments. High school seniors and all high school graduates are eligible to take this exam.Exam Format: The YKS Dil exam lasts 120 minutes and consists of 80 questions. As Academic Foreign Language Courses, we offer a comprehensive education model featuring expert instructors, exam-specific publications, and our İngilizce Uzem online platform.Personalized Planning: First, a free placement exam is administered to all our students. Results are carefully evaluated to place candidates into the group most suitable for their level.",
+      "desc": "YKS-DİL YDT (Foreign Language Test) is a national exam administered by ÖSYM for students wishing to apply to university foreign language departments. High school seniors and all high school graduates are eligible to take this exam.Exam Format: The YKS Dil exam lasts 120 minutes and consists of 80 questions. As Avcılar English Language Course, we offer a comprehensive education model featuring expert instructors, exam-specific publications, and our İngilizce Uzem online platform.Personalized Planning: First, a free placement exam is administered to all our students. Results are carefully evaluated to place candidates into the group most suitable for their level.",
       "skills": [
         {
           "id": "grammar",
@@ -3820,7 +3814,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses YKS-Dil YDT Preparation Course?",
+      "title": "Why Avcılar English Language Course YKS-Dil YDT Preparation Course?",
       "subtitle": "Achieve Your Target Score Without Wasting Time",
       "cardTitle": "High Success Rate Branches",
       "cardDesc": "Our experience has led thousands of students to their target scores and top rankings across Turkey in our branches: Istanbul Beşiktaş, Istanbul Kadıköy, Bursa, Izmir, Ankara, and Eskişehir.",
@@ -3965,7 +3959,7 @@
     "seoContent": [
       {
         "title": "Don't Lose Time with the Best YKS-Dil YDT Preparation Course",
-        "desc": "YKS-DİL YDT is a bridging exam that leads candidates who want to choose foreign language departments in universities to their targets. Serving as an established institution in Turkey for over 15 years, Academic Foreign Language Courses continues to bring you directly to success in a single attempt, guided by expert instructors and original publications.",
+        "desc": "YKS-DİL YDT is a bridging exam that leads candidates who want to choose foreign language departments in universities to their targets. Serving as an established institution in Turkey for over 15 years, Avcılar English Language Course continues to bring you directly to success in a single attempt, guided by expert instructors and original publications.",
         "bullets": [
           "Placement in the most suitable group through a free level placement exam",
           "Proprietary, up-to-date lecture sets, question banks, and leaf tests",
@@ -4002,7 +3996,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: EXAM PREPARATION COURSES",
-      "description": "Turkey's best ITEP course, Akademik International Foreign Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
+      "description": "Turkey's best ITEP course, Avcılar English Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
       "formDisclaimer": "By filling out the information form, I agree to the Legal Notice/Terms of Use.",
       "subtitle": "High Success Rate and Comprehensive Publication Support!"
     },
@@ -4041,7 +4035,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International ITEP Course?",
+      "title": "Why Avcılar English Language Course ITEP Course?",
       "subtitle": "Achieve Your Target Score Without Wasting Time",
       "cardTitle": "High Success Rate Branches",
       "cardDesc": "Turkey's best course experience, enabling thousands of students to achieve their target ITEP scores through expert teaching staff and an original curriculum at our campuses.",
@@ -4186,7 +4180,7 @@
     "seoContent": [
       {
         "title": "Don't Lose Time with the Best ITEP Preparation Course",
-        "desc": "iTEP is an internationally recognized internet-based exam service designed to measure the language proficiency of individuals learning English as a foreign language. Turkey's best ITEP course, Akademik International Foreign Language Course, is here for qualified language training with its original curriculum and expert teaching staff.",
+        "desc": "iTEP is an internationally recognized internet-based exam service designed to measure the language proficiency of individuals learning English as a foreign language. Turkey's best ITEP course, Avcılar English Language Course, is here for qualified language training with its original curriculum and expert teaching staff.",
         "bullets": [
           "Tailored content for iTEP Academic, Business, Slate, Hospitality, Core, and Plus types",
           "Guided score increase through exam strategy techniques based on past questions",
@@ -4223,7 +4217,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: EXAM PREPARATION COURSES",
-      "description": "Turkey's best GRE course, Akademik International Foreign Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
+      "description": "Turkey's best GRE course, Avcılar English Language Course, is here for qualified language education with its original curriculum and expert teaching staff.",
       "formDisclaimer": "By filling out the information form, I agree to the Legal Notice/Terms of Use.",
       "subtitle": "High Success Rate and Comprehensive Publication Support!"
     },
@@ -4262,7 +4256,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International GRE Course?",
+      "title": "Why Avcılar English Language Course GRE Course?",
       "subtitle": "Achieve Your Target Score Without Wasting Time",
       "cardTitle": "High Success Rate Branches",
       "cardDesc": "Turkey's best course experience, helping thousands of students reach their target GRE score through our expert teaching staff and original curriculum at our campuses.",
@@ -4408,7 +4402,7 @@
     "seoContent": [
       {
         "title": "Don't Lose Time with the Best GRE Preparation Course",
-        "desc": "Taken by candidates aiming to attend master's and doctoral programs abroad, the Graduate Record Examination (GRE) is a worldwide exam requested especially by US universities. Turkey's best GRE course, Akademik International Foreign Language Course, is here for qualified exam training with its original curriculum and expert teaching staff.",
+        "desc": "Taken by candidates aiming to attend master's and doctoral programs abroad, the Graduate Record Examination (GRE) is a worldwide exam requested especially by US universities. Turkey's best GRE course, Avcılar English Language Course, is here for qualified exam training with its original curriculum and expert teaching staff.",
         "bullets": [
           "Content tailored to the test structure evaluating candidates' quantitative, verbal, analytical thinking, and written expression abilities",
           "Studies to develop math, logic, problem-solving, and comprehension skills under time pressure as required in the exam",
@@ -4475,7 +4469,7 @@
           "desc": "The ability to express oneself orally in a fluent and clear manner according to given scenarios."
         }
       ],
-      "description": "Academic Foreign Language Course enables you to certify your German language proficiency success with its experienced teaching staff, personalized exam program, and question-solving techniques.",
+      "description": "Avcılar English Language Course enables you to certify your German language proficiency success with its experienced teaching staff, personalized exam program, and question-solving techniques.",
       "features": [
         "Working principles compliant with the Hagen TestDaF Institute standards.",
         "Training across four core skills (Reading, Writing, Listening, Speaking).",
@@ -4484,7 +4478,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International TestDaF Course?",
+      "title": "Why Avcılar English Language Course TestDaF Course?",
       "subtitle": "Entrust Your Germany Dream to Experience",
       "cardTitle": "Experienced Teaching Staff",
       "cardDesc": "Reach your goal directly with instructors who fully master the exam format and are experts in question-solving techniques.",
@@ -4626,7 +4620,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International Proficiency Course?",
+      "title": "Why Avcılar English Language Course Proficiency Course?",
       "subtitle": "Prep Experience Specific to Your University",
       "cardTitle": "Extensive Exam Archive",
       "cardDesc": "We have a unique archive and study system consisting of Proficiency questions asked by different universities in past years.",
@@ -4743,7 +4737,7 @@
           "desc": "Rapidly increasing your net scores with time management and practical question-solving strategies under the guidance of our expert instructors."
         }
       ],
-      "description": "As Academic Foreign Language Course, we prepare you in the most equipped manner for the YÖKDİL marathon with over 37 years of educational experience.",
+      "description": "As Avcılar English Language Course, we prepare you in the most equipped manner for the YÖKDİL marathon with over 37 years of educational experience.",
       "features": [
         "Classes specialized specifically for the candidate's field of expertise (Science, Social, Health).",
         "Expert and experienced teaching staff who have achieved full scores on the YÖKDİL exam.",
@@ -4752,7 +4746,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International YÖKDİL Course?",
+      "title": "Why Avcılar English Language Course YÖKDİL Course?",
       "subtitle": "37 Years of Experience and High Success Rate",
       "cardTitle": "Instructors with Full Scores",
       "cardDesc": "We work with a professional team that takes YÖKDİL in every exam period, analyzes current question types, and achieves full scores.",
@@ -4916,7 +4910,7 @@
           "Up-to-date sets where grammar, vocabulary, and question-solving applications are integrated",
           "Strategic guidance targeted toward goals (Master's, Doctorate, Language Allowance, etc.)"
         ],
-        "summary": "Whichever educational model you choose, you will feel privileged with the difference of Academic Foreign Language Course."
+        "summary": "Whichever educational model you choose, you will feel privileged with the difference of Avcılar English Language Course."
       }
     ]
   },
@@ -4974,7 +4968,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International TOEFL Course?",
+      "title": "Why Avcılar English Language Course TOEFL Course?",
       "subtitle": "Secure Your Time and Score",
       "cardTitle": "Instructors with Top Scores",
       "cardDesc": "We work with a professional staff that has personally experienced the exam, achieved high scores, and fully mastered the TOEFL algorithm.",
@@ -5058,7 +5052,7 @@
         },
         {
           "q": "When do exam preparation programs start?",
-          "a": "The starting dates and campus locations for our exam preparation programs at Academic Foreign Language Courses are announced regularly. You can also start immediately in a private lesson format depending on your needs."
+          "a": "The starting dates and campus locations for our exam preparation programs at Avcılar English Language Course are announced regularly. You can also start immediately in a private lesson format depending on your needs."
         }
       ]
     },
@@ -5118,7 +5112,7 @@
     "seoContent": [
       {
         "title": "Prepare for the TOEFL Exam with Experts Holding Top Scores",
-        "desc": "The internationally recognized TOEFL exam, administered in 4,500 test centers across 170 countries, is one of the most important steps for studying abroad, scholarship applications, and academic careers. As Academic Foreign Language Course, we offer preparation for this challenging electronic exam with our teaching staff who have personally achieved high scores and know the exam's algorithm and nuances.",
+        "desc": "The internationally recognized TOEFL exam, administered in 4,500 test centers across 170 countries, is one of the most important steps for studying abroad, scholarship applications, and academic careers. As Avcılar English Language Course, we offer preparation for this challenging electronic exam with our teaching staff who have personally achieved high scores and know the exam's algorithm and nuances.",
         "bullets": [
           "Curriculum developing Reading, Listening, Speaking, and Writing skills equally",
           "Strategic tactics that reduce exam anxiety and boost net scores",
@@ -5136,7 +5130,7 @@
           "One-on-one analysis and feedback from instructors in Speaking and Writing sections",
           "Comprehensive document and up-to-date publication support"
         ],
-        "summary": "Whether in group training or private lessons, move confidently toward your goal with the difference of Academic Foreign Language Course."
+        "summary": "Whether in group training or private lessons, move confidently toward your goal with the difference of Avcılar English Language Course."
       }
     ]
   },
@@ -5194,7 +5188,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International TOEIC Course?",
+      "title": "Why Avcılar English Language Course TOEIC Course?",
       "subtitle": "Master Global Communication Standards",
       "cardTitle": "Instructors with a Full 990 Score",
       "cardDesc": "Work with a teaching staff that has achieved a full score of 990 on the TOEIC exam, fully mastering the exam algorithm and corporate business English.",
@@ -5338,7 +5332,7 @@
     "seoContent": [
       {
         "title": "Open the Doors to Your Corporate Career with TOEIC",
-        "desc": "TOEIC (Test Of English for International Communication) is the most prestigious Business English exam preferred by giant brands like TOFAŞ and RENAULT for recruitment and promotion processes in the global market. As Academic Foreign Language Courses, we move away from general English training and offer specialized programs focusing entirely on the business world and the TOEIC exam curriculum.",
+        "desc": "TOEIC (Test Of English for International Communication) is the most prestigious Business English exam preferred by giant brands like TOFAŞ and RENAULT for recruitment and promotion processes in the global market. As Avcılar English Language Course, we move away from general English training and offer specialized programs focusing entirely on the business world and the TOEIC exam curriculum.",
         "bullets": [
           "Teaching staff composed of strategy experts with a full 990 score on the exam",
           "Intense, communication-heavy curriculum focused on Reading and Listening",
@@ -5375,7 +5369,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: INTERNATIONAL EXAM PREPARATION",
-      "description": "Turkey's best GMAT preparation course, Academic Foreign Language Course, is here for qualified language education with its unique curriculum and expert teaching staff.",
+      "description": "Turkey's best GMAT preparation course, Avcılar English Language Course, is here for qualified language education with its unique curriculum and expert teaching staff.",
       "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
       "subtitle": "Strategic Preparation with Instructors Who Have Achieved High Scores!"
     },
@@ -5414,7 +5408,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International GMAT Course?",
+      "title": "Why Avcılar English Language Course GMAT Course?",
       "subtitle": "Turkey's Most Qualified GMAT Preparation",
       "cardTitle": "High-Scoring Experts",
       "cardDesc": "An exclusive team of instructors who have personally taken the GMAT exam, cracked the system's algorithm, and achieved high scores.",
@@ -5558,7 +5552,7 @@
     "seoContent": [
       {
         "title": "Turkey's Best GMAT Course for Your MBA Dreams",
-        "desc": "GMAT (Graduate Management Admission Test), which opens doors to MBA (Master of Business Administration) and PhD programs worldwide, especially in the US, is accepted by over 8,000 schools. With our original curriculum and expert teacher staff who have achieved high scores, we, as Academic Foreign Language Course, are here for qualified language and exam training.",
+        "desc": "GMAT (Graduate Management Admission Test), which opens doors to MBA (Master of Business Administration) and PhD programs worldwide, especially in the US, is accepted by over 8,000 schools. With our original curriculum and expert teacher staff who have achieved high scores, we, as Avcılar English Language Course, are here for qualified language and exam training.",
         "bullets": [
           "Teaching staff familiar with GMAT question logic and algorithms",
           "Specialized curriculum for Analytical Writing, Verbal, Quantitative, and Integrated Reasoning sections",
@@ -5625,7 +5619,7 @@
           "desc": "Techniques to successfully complete reading, listening, writing, and speaking modules within the allotted time."
         }
       ],
-      "description": "Officially certify your German language proficiency success by joining the GOETHE exam preparation program with Academic Foreign Language Course.",
+      "description": "Officially certify your German language proficiency success by joining the GOETHE exam preparation program with Avcılar English Language Course.",
       "features": [
         "Expert teaching staff with at least 5 years of experience in the field who have mastered the exam system.",
         "Customized class planning tailored to targets like family reunification, academic education, or professional recognition.",
@@ -5634,7 +5628,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International Goethe Course?",
+      "title": "Why Avcılar English Language Course Goethe Course?",
       "subtitle": "Entrust Your German Goals to Experts",
       "cardTitle": "Experienced Teaching Staff",
       "cardDesc": "Work with instructors who have at least 5 years of experience—teachers who don't just teach the language, but thoroughly know the Goethe exam evaluation criteria.",
@@ -5767,7 +5761,7 @@
           "desc": "Customized curriculum content for every level, from family reunification (A1) to an academic career (C2)."
         }
       ],
-      "description": "Meet the personalized training program that will measure your competence with the Academic Foreign Language Course ÖSD exam preparation program.",
+      "description": "Meet the personalized training program that will measure your competence with the Avcılar English Language Course ÖSD exam preparation program.",
       "features": [
         "Expert teaching staff with at least 5 years of experience in the field.",
         "Instructors with up-to-date exam experience who have mastered changing question formats.",
@@ -5776,7 +5770,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Academic International ÖSD Course?",
+      "title": "Why Avcılar English Language Course ÖSD Course?",
       "subtitle": "Get Your Official Document Without Losing Time",
       "cardTitle": "Experienced Teaching Staff",
       "cardDesc": "Undergo a practice-heavy preparation period accompanied by instructors with at least 5 years of experience who know the communication-oriented structure of the exam very well.",
@@ -5873,7 +5867,7 @@
     "hero": {
       "tag": "E-TEP PREPARATION COURSE",
       "title": "Prepare for the E-TEP Exam with",
-      "highlight": "Akademik International",
+      "highlight": "Avcılar English Language Course",
       "subtitle": "Achieve your target score in ÖSYM's new generation four-skill English proficiency test E-TEP with our expert instructors.",
       "buttonText": "View Courses",
       "customerServiceBtn": "Talk to Our Education Consultant Now!",
@@ -6070,7 +6064,7 @@
         },
         {
           "q": "Which resources are recommended for the E-TEP exam?",
-          "a": "Sample questions published by ÖSYM should be the main source. Akademik International Language School's special E-TEP preparation sets and online platforms also offer targeted study opportunities. Additionally, TOEFL iBT, IELTS Academic, and PTE Academic preparation books and resources like TRT World and BBC Academic are recommended."
+          "a": "Sample questions published by ÖSYM should be the main source. Avcılar English Language Course Language School's special E-TEP preparation sets and online platforms also offer targeted study opportunities. Additionally, TOEFL iBT, IELTS Academic, and PTE Academic preparation books and resources like TRT World and BBC Academic are recommended."
         }
       ]
     }
@@ -6268,7 +6262,7 @@
     "about": {
       "badge": "REQUIRED FOR VISA APPROVAL",
       "title": "What is the German Family Reunification Course?",
-      "desc": "Due to residence permit laws, foreigners wishing to join their spouse in Germany are required to prove basic knowledge of German in their home country when applying for a visa.<br/><br/><b>It is Not General German!</b> Our Academic Western Languages German Family Reunification course is not a general German course. Our training program is planned entirely in accordance with the Goethe Institute Family Reunification (Start Deutsch A1) exam, and German is taught using basic sentence structures.",
+      "desc": "Due to residence permit laws, foreigners wishing to join their spouse in Germany are required to prove basic knowledge of German in their home country when applying for a visa.<br/><br/><b>It is Not General German!</b> Our Avcılar English Language Course German Family Reunification course is not a general German course. Our training program is planned entirely in accordance with the Goethe Institute Family Reunification (Start Deutsch A1) exam, and German is taught using basic sentence structures.",
       "skills": [
         {
           "id": "horen",
@@ -6871,7 +6865,7 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFORMATION NOW!",
       "badge": "CATEGORY: ENGLISH FOR SPECIFIC PURPOSES",
-      "description": "With its unique curriculum and expert teaching staff, Academic Foreign Language Course, Turkey's best Aviation / Pilot English preparation course, is here for qualified language education.",
+      "description": "With its unique curriculum and expert teaching staff, Avcılar English Language Course, Turkey's best Aviation / Pilot English preparation course, is here for qualified language education.",
       "formDisclaimer": "By filling out the information form, I accept the Legal Notice / Terms of Use.",
       "subtitle": "Cabin Crew Interviews and Aviation Terminology!"
     },
@@ -6901,7 +6895,7 @@
           "desc": "Time management, stress management, and effective language use tactics in board interviews."
         }
       ],
-      "description": "Prepare for online English exams and board interviews for cabin crew recruitment with the distinction of Academic Foreign Language Course.",
+      "description": "Prepare for online English exams and board interviews for cabin crew recruitment with the distinction of Avcılar English Language Course.",
       "features": [
         "Turkey's best Aviation/Pilot English training curriculum.",
         "Special question-solving techniques for online English exams (e.g., DynEd, CBT).",
@@ -7709,7 +7703,7 @@
       },
       {
         "title": "Best TORFL Course Recommendation",
-        "desc": "Akademik Foreign Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and our own original resources."
+        "desc": "Avcılar English Language Course, which developed original education models for adults for the first time in Turkey, offers the highest quality TORFL preparation service with expert trainers and our own original resources."
       }
     ]
   },
@@ -7891,7 +7885,7 @@
     "seoContent": [
       {
         "title": "Best CILS Course Recommendation",
-        "desc": "Akademik Foreign Language Courses brings you a new language and career with its education models developed specifically for adults for the first time in Turkey."
+        "desc": "Avcılar English Language Course brings you a new language and career with its education models developed specifically for adults for the first time in Turkey."
       },
       {
         "title": "CILS Course Prices",
@@ -8023,7 +8017,7 @@
     "seoContent": [
       {
         "title": "Best TEF Course Recommendation",
-        "desc": "Akademik Foreign Language Courses, which developed original education models for adults for the first time in Turkey, offers the most qualified TEF Course service."
+        "desc": "Avcılar English Language Course, which developed original education models for adults for the first time in Turkey, offers the most qualified TEF Course service."
       },
       {
         "title": "TEF Course Prices",
@@ -8203,7 +8197,7 @@
       "tag": "FRENCH LANGUAGE COURSE",
       "title": "Discover French, the World's Universal Language",
       "highlight": "French Education",
-      "subtitle": "Academic Foreign Language Courses, Turkey's best French course with its professional educational curriculum and expert teaching staff, is here for qualified language education.",
+      "subtitle": "Avcılar English Language Course, Turkey's best French course with its professional educational curriculum and expert teaching staff, is here for qualified language education.",
       "buttonText": "Explore Courses",
       "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
       "infoBtn": "Get Information Now!",
@@ -8315,11 +8309,11 @@
     "seoContent": [
       {
         "title": "The Right Strategy in French Language Education",
-        "desc": "If you want to be one step ahead in every period of your life, Academic Foreign Language Course is the right address for your choice. Do not let inefficient past experiences and huge blocks of time wasted intimidate you. With the correct methods and unique strategy we apply at our Istanbul, Izmir, Ankara, Bursa, and Eskisehir campuses, we will ensure you reach your target within an appropriate timeframe without memorization."
+        "desc": "If you want to be one step ahead in every period of your life, Avcılar English Language Course is the right address for your choice. Do not let inefficient past experiences and huge blocks of time wasted intimidate you. With the correct methods and unique strategy we apply at our Istanbul, Izmir, Ankara, Bursa, and Eskisehir campuses, we will ensure you reach your target within an appropriate timeframe without memorization."
       }
     ],
     "whyUs": {
-      "title": "Why Academic International French Course?",
+      "title": "Why Avcılar English Language Course French Course?",
       "subtitle": "Turkey's Best French Education",
       "cardTitle": "Wide Campus Network",
       "cardDesc": "Experience the privilege of receiving French language education at the same high standards across our Istanbul, Izmir, Ankara, Bursa, and Eskisehir campuses.",
@@ -8398,7 +8392,7 @@
         },
         {
           "q": "In which cities do you have branches?",
-          "a": "As Academic Foreign Language Courses, we provide qualified French language education at our campuses in Istanbul, Izmir, Ankara, Bursa, and Eskisehir."
+          "a": "As Avcılar English Language Course, we provide qualified French language education at our campuses in Istanbul, Izmir, Ankara, Bursa, and Eskisehir."
         }
       ]
     }
@@ -8521,7 +8515,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "The Best German Education with Permanent Learning Techniques",
       "cardTitle": "VIP Class Comfort",
       "cardDesc": "Learn German naturally and effectively in small, 4-6 person classes away from crowds, receiving private-lesson quality education.",
@@ -8600,7 +8594,7 @@
         },
         {
           "q": "Which branches offer services in your courses?",
-          "a": "As Academic Foreign Language Courses, we serve with modern campuses located in Istanbul (Besiktas, Kadikoy), Izmir, Bursa, Ankara, and Eskisehir."
+          "a": "As Avcılar English Language Course, we serve with modern campuses located in Istanbul (Besiktas, Kadikoy), Izmir, Bursa, Ankara, and Eskisehir."
         }
       ]
     }
@@ -8614,7 +8608,7 @@
       "tag": "ITALIAN LANGUAGE COURSE",
       "title": "Discover Italian, the Language of Art, Fashion, and Music",
       "highlight": "Italian Education",
-      "subtitle": "Academic Foreign Language Courses is the right place to start learning Italian—one of the world's most aesthetic languages with its phonetics, accent, and musicality.",
+      "subtitle": "Avcılar English Language Course is the right place to start learning Italian—one of the world's most aesthetic languages with its phonetics, accent, and musicality.",
       "buttonText": "Explore Courses",
       "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
       "infoBtn": "Get Information Now!",
@@ -8741,7 +8735,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "High-Quality Language Education Blended with Culture",
       "cardTitle": "Expert Staff in the Field",
       "cardDesc": "Experience the privilege of taking lessons from instructors who specialize in accurately conveying the aesthetic phonetics and grammar structure of Italian.",
@@ -8852,7 +8846,7 @@
     "about": {
       "badge": "NEW GENERATION LEARNING",
       "title": "Effective and Communicative Approach in Persian Learning",
-      "desc": "Named after the historic Fars province where the ancient city of Shiraz is located, this deeply rooted language is currently the main written and spoken language of Iran. As Academic Foreign Language Courses, our primary goal is to strip the language learning process of difficulties and turn it into an enjoyable adventure. For this reason, our system relies entirely on communicative practice.\n\nOur instructors consist of experienced experts who are native Persian speakers with a complete mastery of the relevant culture. In our technology-supported classrooms, we aim to help you gain competence in all four core skills (reading, writing, speaking, listening).",
+      "desc": "Named after the historic Fars province where the ancient city of Shiraz is located, this deeply rooted language is currently the main written and spoken language of Iran. As Avcılar English Language Course, our primary goal is to strip the language learning process of difficulties and turn it into an enjoyable adventure. For this reason, our system relies entirely on communicative practice.\n\nOur instructors consist of experienced experts who are native Persian speakers with a complete mastery of the relevant culture. In our technology-supported classrooms, we aim to help you gain competence in all four core skills (reading, writing, speaking, listening).",
       "skills": [
         {
           "id": "fa-speak",
@@ -9081,7 +9075,7 @@
           "desc": "Academic and professional competence at globally recognized HSK (Hanyu Shuiping Kaoshi) standards."
         }
       ],
-      "description": "As Academic Foreign Language Courses, we implement Chinese education programs tailored to the student's needs, preferences, and budget.",
+      "description": "As Avcılar English Language Course, we implement Chinese education programs tailored to the student's needs, preferences, and budget.",
       "features": [
         "Expert and experienced teaching staff who are native Chinese speakers.",
         "Curriculum designed with student-centered and modern learning methods.",
@@ -9163,7 +9157,7 @@
     "seoContent": [
       {
         "title": "Chinese Course Prices and Budget-Friendly Options",
-        "desc": "The prices of Chinese courses depend on many factors such as the course type, level, duration, educational conditions, and the instructor's experience. For example, online education, face-to-face campus education, or VIP private lesson programs may require different budget plans. In general, the hourly fee for an online Chinese course can range between $25 and $50 on average, while this rate varies for face-to-face education. Academic Foreign Language Courses offers you budget-friendly, optimal payment conditions with various campaigns and early registration advantages offered every semester."
+        "desc": "The prices of Chinese courses depend on many factors such as the course type, level, duration, educational conditions, and the instructor's experience. For example, online education, face-to-face campus education, or VIP private lesson programs may require different budget plans. In general, the hourly fee for an online Chinese course can range between $25 and $50 on average, while this rate varies for face-to-face education. Avcılar English Language Course offers you budget-friendly, optimal payment conditions with various campaigns and early registration advantages offered every semester."
       },
       {
         "title": "Turkey's Best Chinese Course Recommendation",
@@ -9264,7 +9258,7 @@
       "tag": "JAPANESE LANGUAGE EDUCATION",
       "title": "Discover Japanese, the Most Exquisite Language of the East",
       "highlight": "Japanese Education",
-      "subtitle": "Learn Japanese, the language of your dreams, comprehensively with original educational models developed for the first time in Turkey by Academic Foreign Language Courses.",
+      "subtitle": "Learn Japanese, the language of your dreams, comprehensively with original educational models developed for the first time in Turkey by Avcılar English Language Course.",
       "buttonText": "Explore Courses",
       "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
       "infoBtn": "Get Information Now!",
@@ -9282,7 +9276,7 @@
     "about": {
       "badge": "REFLEXIVE LEARNING MODEL",
       "title": "Speak Without Thinking in Turkish Using the Active Method",
-      "desc": "The Japanese Course at Academic Foreign Language Courses differs from traditional methods, using an active method technique based more on question-answer techniques that guides students to use the language. In this way, our students put the skills they acquire into practice rather than heavy grammar-focused programs.\n\nOur goal is for students to speak the language reflexively and quickly without thinking in Turkish, making emailing and correspondence acquisition extremely fast. In order to provide students with sufficient role-playing time, classes are provided in our 5-7 person capacity VIP classrooms.",
+      "desc": "The Japanese Course at Avcılar English Language Course differs from traditional methods, using an active method technique based more on question-answer techniques that guides students to use the language. In this way, our students put the skills they acquire into practice rather than heavy grammar-focused programs.\n\nOur goal is for students to speak the language reflexively and quickly without thinking in Turkish, making emailing and correspondence acquisition extremely fast. In order to provide students with sufficient role-playing time, classes are provided in our 5-7 person capacity VIP classrooms.",
       "skills": [
         {
           "id": "jp-speak",
@@ -9384,7 +9378,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Turkey's Most Recommended Japanese Course",
       "cardTitle": "Personal Attention in VIP Classes",
       "cardDesc": "In our 5-7 person VIP classrooms, we provide each student with sufficient role-playing and speaking time in language practice.",
@@ -9455,7 +9449,7 @@
       "items": [
         {
           "q": "Does your course only cater to specific age groups?",
-          "a": "No, as Academic Foreign Language Courses, we offer professional Japanese education for individuals of all ages with our unique educational models developed for the first time in Turkey."
+          "a": "No, as Avcılar English Language Course, we offer professional Japanese education for individuals of all ages with our unique educational models developed for the first time in Turkey."
         },
         {
           "q": "Is makeup class possible if I am absent?",
@@ -9495,7 +9489,7 @@
     "about": {
       "badge": "URAL-ALTAIC LANGUAGE FAMILY",
       "title": "The Easiest Far Eastern Language to Learn for Turks",
-      "desc": "Sharing the same language origin (Ural-Altaic family) as Turkish, Korean is an extremely easy language to learn for Turkish students due to its agglutinative structure, Subject-Object-Verb word order, vowel harmony, and genderless grammar features.\n\nAn excellent alternative for those who are tired of the traditional structure of Western languages, Korean is comprehended much faster and more enjoyably through special materials and practice exams belonging to our institution. As Academic Foreign Language Courses, we offer a student-centered education with our own resources and qualified learning methods.",
+      "desc": "Sharing the same language origin (Ural-Altaic family) as Turkish, Korean is an extremely easy language to learn for Turkish students due to its agglutinative structure, Subject-Object-Verb word order, vowel harmony, and genderless grammar features.\n\nAn excellent alternative for those who are tired of the traditional structure of Western languages, Korean is comprehended much faster and more enjoyably through special materials and practice exams belonging to our institution. As Avcılar English Language Course, we offer a student-centered education with our own resources and qualified learning methods.",
       "skills": [
         {
           "id": "kr-alphabet",
@@ -9608,7 +9602,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Comprehensive Materials, Modern Educational Approach",
       "cardTitle": "Wide Campus Network",
       "cardDesc": "Easily access Turkey's highest quality Korean education at our Bursa, Istanbul, Ankara, Izmir, Tekirdag, and Eskisehir campuses.",
@@ -9742,7 +9736,7 @@
           "desc": "Establishing a strong and direct connection with our cultural roots and ancestral heritage."
         }
       ],
-      "description": "As Academic Foreign Language Courses, we enable you to embark on a historical journey accompanied by our expert historians and academician instructors.",
+      "description": "As Avcılar English Language Course, we enable you to embark on a historical journey accompanied by our expert historians and academician instructors.",
       "features": [
         "A systematic and intensive curriculum lasting 72 hours per period, held 2 days a week for 3 hours.",
         "A practical approach based on the Ottoman alphabet (Arabic script), blended with modern Turkish grammar.",
@@ -9795,7 +9789,7 @@
       },
       {
         "title": "Is Ottoman Turkish a Difficult Language?",
-        "desc": "There is a common misconception in society that Ottoman Turkish is a difficult and completely foreign language to learn. On the contrary, Ottoman Turkish is actually the Turkish of its period. It simply features a higher density of Arabic and Persian words in its vocabulary and uses Arabic script as its alphabet. The spoken language and core skeleton of the language remain Turkish. With the modern and student-centered approach we offer at Academic Foreign Language Courses, the alphabet stage, which initially seems unfamiliar, is quickly overcome. When practiced with the right methods, you will see in a short time how enjoyable and relatively easy learning it is."
+        "desc": "There is a common misconception in society that Ottoman Turkish is a difficult and completely foreign language to learn. On the contrary, Ottoman Turkish is actually the Turkish of its period. It simply features a higher density of Arabic and Persian words in its vocabulary and uses Arabic script as its alphabet. The spoken language and core skeleton of the language remain Turkish. With the modern and student-centered approach we offer at Avcılar English Language Course, the alphabet stage, which initially seems unfamiliar, is quickly overcome. When practiced with the right methods, you will see in a short time how enjoyable and relatively easy learning it is."
       }
     ],
     "whyUs": {
@@ -10004,7 +9998,7 @@
     "seoContent": [
       {
         "title": "The Importance of Learning Turkish in Turkey for Foreigners",
-        "desc": "Today, Turkey is an attraction center for many foreign investors, students, and immigrants with its strategic location, growing economy, and rich cultural structure. In our country, where there is a foreign population of over 1.5 million, knowing Turkish not only eases daily life but also allows direct integration into the warm and hospitable culture of the Turkish people. As Academic Foreign Language Courses, we offer a communication-oriented educational curriculum capable of supporting students' goals of studying, starting a business, or pursuing a career in Turkey."
+        "desc": "Today, Turkey is an attraction center for many foreign investors, students, and immigrants with its strategic location, growing economy, and rich cultural structure. In our country, where there is a foreign population of over 1.5 million, knowing Turkish not only eases daily life but also allows direct integration into the warm and hospitable culture of the Turkish people. As Avcılar English Language Course, we offer a communication-oriented educational curriculum capable of supporting students' goals of studying, starting a business, or pursuing a career in Turkey."
       },
       {
         "title": "Qualified Educator Staff and Modern Classrooms",
@@ -10012,7 +10006,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Academic Foreign Language Courses?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Intercultural Interaction with Expert Staff",
       "cardTitle": "Visual and Auditory Equipment",
       "cardDesc": "In our modern classrooms for 8-15 students, the opportunity to practice not just from books, but by hearing and seeing.",
@@ -10232,7 +10226,7 @@
       },
       {
         "title": "Most Recommended Turkish Course Experience",
-        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Academic Foreign Language Courses has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
+        "desc": "Frequently mentioned on social platforms and student testimonials, our institution is a pioneer in language education with half a century of experience. As a British Council Consular Partner and Authorized IELTS Examination Center, Avcılar English Language Course has launched unique education models for adults, breaking new ground in Turkey. In our campuses in Istanbul, Ankara, Izmir, Bursa, and Eskişehir, we provide training with a completely student-centered approach. With our Live Studio facilities and our own original publications, we aim to take you to the highest points on the career ladder."
       }
     ],
     "whyUs": {
@@ -10311,7 +10305,7 @@
         },
         {
           "q": "Is your education program suitable for children as well?",
-          "a": "As Academic Foreign Language Courses, we created original education models 'specifically for adults' for the first time in Turkey. Our program is designed according to the learning perception and needs of adults in particular."
+          "a": "As Avcılar English Language Course, we created original education models 'specifically for adults' for the first time in Turkey. Our program is designed according to the learning perception and needs of adults in particular."
         },
         {
           "q": "Are class hours suitable for working individuals?",
@@ -10329,7 +10323,7 @@
       "tag": "LATIN LANGUAGE EDUCATION",
       "title": "Discover the Foundational Language of Modern Science and Europe",
       "highlight": "Latin Course",
-      "subtitle": "Learn Latin, which built modern Europe and sheds light on modern science, effectively through the distinction of Academic International Foreign Language Courses.",
+      "subtitle": "Learn Latin, which built modern Europe and sheds light on modern science, effectively through the distinction of Avcılar English Language Course Courses.",
       "buttonText": "Explore Courses",
       "customerServiceBtn": "Speak with Our Educational Consultant Right Away!",
       "infoBtn": "Get Information Now!",
@@ -10347,7 +10341,7 @@
     "about": {
       "badge": "THE LANGUAGE OF SCIENCE AND HISTORY",
       "title": "Purpose and Target Audience of Latin Education",
-      "desc": "The origin of Latin traces back to Latium, an Italic language spoken in the Latium region of the Italian Peninsula in the 1st century BC. Shaped by the influence of Etruscans and Greeks, it became the official language of the Roman Empire and was used throughout the Middle Ages to write scientific, academic, and religious texts. Forming the origin of modern European languages today, this language plays a key role in academic studies.\n\nAs Academic International, our Latin language course aims to render students competent in reading, writing, listening, understanding, and speaking Latin. A student completing the course with average performance learns the alphabet, spelling, basic grammatical structure, and a substantial vocabulary. Furthermore, they gain extensive knowledge about Roman history, culture, and social structure.",
+      "desc": "The origin of Latin traces back to Latium, an Italic language spoken in the Latium region of the Italian Peninsula in the 1st century BC. Shaped by the influence of Etruscans and Greeks, it became the official language of the Roman Empire and was used throughout the Middle Ages to write scientific, academic, and religious texts. Forming the origin of modern European languages today, this language plays a key role in academic studies.\n\nAs Avcılar English Language Course, our Latin language course aims to render students competent in reading, writing, listening, understanding, and speaking Latin. A student completing the course with average performance learns the alphabet, spelling, basic grammatical structure, and a substantial vocabulary. Furthermore, they gain extensive knowledge about Roman history, culture, and social structure.",
       "skills": [
         {
           "id": "la-law",
@@ -10452,15 +10446,15 @@
     "seoContent": [
       {
         "title": "Latin Course Prices and Budget-Friendly Options",
-        "desc": "Latin course prices can vary depending on the education method, duration, and level of the course. Group classes, one-on-one private lessons, or online education in Live Studio format may be subject to different pricing. Generally, beginner-level modules are more accessible, while advanced (terminology-oriented) expertise modules may be priced differently. Academic International Foreign Language Courses provides budget-friendly language training by creating optimal payment terms through various seasonal campaigns. You can contact us 24/7 for detailed information about our prices."
+        "desc": "Latin course prices can vary depending on the education method, duration, and level of the course. Group classes, one-on-one private lessons, or online education in Live Studio format may be subject to different pricing. Generally, beginner-level modules are more accessible, while advanced (terminology-oriented) expertise modules may be priced differently. Avcılar English Language Course Courses provides budget-friendly language training by creating optimal payment terms through various seasonal campaigns. You can contact us 24/7 for detailed information about our prices."
       },
       {
         "title": "Turkey's Best Recommended Latin Course",
-        "desc": "If you want to learn a language with high academic weight like Latin, Academic International—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with our own original resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
+        "desc": "If you want to learn a language with high academic weight like Latin, Avcılar English Language Course—ranking first in recommendations for the best Latin course—is the right address. At our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ, we provide education at European standards with an instructor staff of native and foreign academicians. Being a British Council Consular Partner and Authorized IELTS Examination Center, our institution brings a scientific dimension to Latin education with our own original resources. Enroll in our training without delay to get to the foundations of modern science and make a difference in your career."
       }
     ],
     "whyUs": {
-      "title": "Why Academic International?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Academic Discipline and Qualified Staff",
       "cardTitle": "Extensive Campus Network",
       "cardDesc": "The privilege of face-to-face Latin education at our campuses in Istanbul (Beşiktaş, Kadıköy), Bursa, Eskişehir, Izmir, and Tekirdağ.",
@@ -10571,7 +10565,7 @@
     "about": {
       "badge": "LANGUAGE OF CAREER AND LIFE",
       "title": "Why Should You Learn Dutch?",
-      "desc": "Dutch (Nederlands) is a West Germanic language spoken in the Netherlands, Belgium, and parts of France. Spoken by approximately 35 million people worldwide, it is closely related to English and German. For this reason, it is quite easy to learn for individuals with a background in English or German.\n\nToday, knowing Dutch is a primary requirement for individuals building higher education, career, or life plans in the Netherlands and Belgium. As Academic Foreign Language Courses, we offer a great Dutch learning experience across the four core skills (reading, writing, listening, speaking) through adult-specific education models, VIP classes, and academic instructors.",
+      "desc": "Dutch (Nederlands) is a West Germanic language spoken in the Netherlands, Belgium, and parts of France. Spoken by approximately 35 million people worldwide, it is closely related to English and German. For this reason, it is quite easy to learn for individuals with a background in English or German.\n\nToday, knowing Dutch is a primary requirement for individuals building higher education, career, or life plans in the Netherlands and Belgium. As Avcılar English Language Course, we offer a great Dutch learning experience across the four core skills (reading, writing, listening, speaking) through adult-specific education models, VIP classes, and academic instructors.",
       "skills": [
         {
           "id": "nl-mvv",
@@ -10680,7 +10674,7 @@
       },
       {
         "title": "Dutch Course Prices and Best Course Recommendations",
-        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Academic Foreign Language Courses makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with our own original resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
+        "desc": "Dutch course prices can vary depending on course hours, location, and whether it is private or group instruction. Avcılar English Language Course makes qualified education accessible to everyone with early registration advantages and budget-friendly campaigns offered each term. Backed by the assurance of being a British Council Embassy Partner and IELTS Authorized Exam Center, with our own original resources, academic instructors, and technology-integrated classrooms, we are consistently at the top of 'Best Dutch Course Recommendation' lists in Turkey."
       }
     ],
     "whyUs": {
@@ -10777,7 +10771,7 @@
       "tag": "SPANISH LANGUAGE EDUCATION",
       "title": "Turkey's Best Spanish Language Course",
       "highlight": "Spanish Language Education",
-      "subtitle": "Quality Spanish language education with its own unique curriculum and expert teachers at Akademik International.",
+      "subtitle": "Quality Spanish language education with its own unique curriculum and expert teachers at Avcılar English Language Course.",
       "buttonText": "View Courses",
       "customerServiceBtn": "Talk to Our Education Consultant Now!",
       "infoBtn": "Get Information Now!",
@@ -10910,7 +10904,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Akademik International Language Schools?",
+      "title": "Why Avcılar English Language Course Language Schools?",
       "subtitle": "Best Spanish Education with Permanent Learning Techniques",
       "cardTitle": "VIP Class Comfort",
       "cardDesc": "Learn Spanish naturally in small 4-6 person VIP classes with personal attention.",
@@ -11143,7 +11137,7 @@
       }
     ],
     "whyUs": {
-      "title": "Why Akademik International?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Best Russian Education with Permanent Learning Techniques",
       "cardTitle": "VIP Class Comfort",
       "cardDesc": "Learn Russian naturally in small 4-6 person VIP classes.",
@@ -11236,7 +11230,7 @@
       "tag": "PORTUGUESE LANGUAGE EDUCATION",
       "title": "The World's 5th Most Spoken Language",
       "highlight": "Portuguese Course",
-      "subtitle": "Akademik International Foreign Language Schools continues to make a difference with education models developed for adults for the first time in Turkey!",
+      "subtitle": "Avcılar English Language Course continues to make a difference with education models developed for adults for the first time in Turkey!",
       "buttonText": "View Courses",
       "customerServiceBtn": "Talk to Our Education Consultant Now!",
       "infoBtn": "Get Information Now!",
@@ -11253,7 +11247,7 @@
     },
     "about": {
       "badge": "260 MILLION SPEAKERS",
-      "title": "Akademik International Portuguese Course",
+      "title": "Avcılar English Language Course Portuguese Course",
       "desc": "With our extensive staff of Brazilian and Portuguese instructors, we offer our students the opportunity to explore the accents and cultures of different regions.\\n\\nOur course curriculum is prepared according to the Common European Framework of Reference for Languages and divided into Brazilian Portuguese and European Portuguese.",
       "skills": [
         {
@@ -11376,11 +11370,11 @@
       },
       {
         "title": "Best Portuguese Course Recommendation",
-        "desc": "Akademik International Foreign Language Schools continue to provide quality service with VIP classes, technology-integrated models, and our own original resources."
+        "desc": "Avcılar English Language Course continue to provide quality service with VIP classes, technology-integrated models, and our own original resources."
       }
     ],
     "whyUs": {
-      "title": "Why Akademik International?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Best Portuguese Education",
       "cardTitle": "VIP Class Comfort",
       "cardDesc": "Learn Portuguese effectively in VIP classes with technology-integrated models.",
@@ -11486,11 +11480,11 @@
       "branchPlaceholder": "Select Branch.",
       "submitBtn": "GET INFO NOW!",
       "badge": "CATEGORY: FOREIGN LANGUAGE COURSES",
-      "description": "Arabic is taught in one-on-one and private groups at Akademik International Foreign Language Courses."
+      "description": "Arabic is taught in one-on-one and private groups at Avcılar English Language Courses."
     },
     "about": {
       "badge": "LANGUAGE OF THE ISLAMIC WORLD",
-      "title": "Akademik International Arabic Course",
+      "title": "Avcılar English Language Course Arabic Course",
       "desc": "Arabic education consists of grammar, reading, writing, speaking, vocabulary, and listening. Programs are adapted to each class level. Classes are taught by native Arabic-speaking foreign teachers who are education faculty graduates.",
       "skills": [
         {
@@ -11617,11 +11611,11 @@
       },
       {
         "title": "Best Arabic Course Recommendation",
-        "desc": "Akademik International provides the most qualified Arabic education with VIP classes and expert instructors. We offer Online options via Live Studio environments."
+        "desc": "Avcılar English Language Course provides the most qualified Arabic education with VIP classes and expert instructors. We offer Online options via Live Studio environments."
       }
     ],
     "whyUs": {
-      "title": "Why Akademik International?",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Best Arabic Education",
       "cardTitle": "Native Arabic Instructors",
       "cardDesc": "Learn the language from the source with our experienced native-speaking instructors.",
@@ -13642,10 +13636,10 @@
   "tarihcePage": {
     "meta": {
       "title": "History",
-      "description": "Learn about the founding story, vision, and contributions of Academic International Language Course to language education."
+      "description": "Learn about the founding vision, teaching approach, and growth of Avcılar English Language Course."
     },
     "hero": {
-      "tag": "ACADEMIC INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Our History",
       "customerServiceBtn": "Contact Customer Service Now!",
       "infoBtn": "Get Information Now!",
@@ -13662,35 +13656,35 @@
     "intro": {
       "title": "History",
       "paragraphs": [
-        "Academic International Language Course, which has shaped foreign language education for nearly half a century by creating a sustainable language education system that replaces standardized curricula and brings a new Industry 4.0 perspective to language learning, continues to lead the field in English and other foreign languages.",
-        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
-        "Since its founding, Academic International has redefined quality standards in foreign language education; with its strong team of academics from Turkey's leading universities and expert native-speaking instructors, it offers students world-class language education.",
-        "Today, Academic International operates in more than 12 cities across Turkey, serving thousands of students in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities; it also supports students' international education opportunities, especially in America.",
-        "As the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education, Academic International continues to be the benchmark of the industry with a 97% student satisfaction rate."
+        "Avcılar English Language Course was founded on a simple observation: rote-learning, exam-focused methods leave students unable to actually speak in real situations. Our goal was to build a language programme where what happens in the classroom carries over into daily conversations, job interviews, and travel — not just onto paper.",
+        "From day one, we recognised that adult and child learners have very different needs, so we built separate curricula, materials, and teaching methods for each age group. We never put a primary-school student and a working adult who needs English for their career in the same classroom with the same textbook.",
+        "When building our teaching staff, we looked beyond language knowledge to teaching ability itself, working with experienced instructors and native English speakers to help students learn language that is both accurate and fluent.",
+        "Today, alongside our Avcılar headquarters, our branches across different cities reach thousands of students, offering a wide range of programmes from general English to exam preparation, across levels from A1 to C1.",
+        "We define quality not by a certificate but by results measured in the classroom — regularly updating our curriculum through level tracking, instructor feedback, and student satisfaction surveys."
       ]
     },
     "whyUs": {
-      "title": "Why Academic International?",
-      "subtitle": "The educational advantages we have been offering to our students since our founding",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "The educational advantages we have offered our students since our founding",
       "advantages": [
         {
-          "title": "Nearly Half a Century of Experience",
-          "desc": "With our deep-rooted experience in foreign language education and continuously renewed curriculum, we maintain our leading position in the sector.",
+          "title": "Speaking-Focused Method",
+          "desc": "Instead of memorising grammar rules, our curriculum has you reinforce every structure you learn by actually speaking it.",
           "icon": "Award"
         },
         {
-          "title": "ISO 9001:2015 Certificate",
-          "desc": "We have the privilege of being the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education.",
+          "title": "Age-Specific Curriculum",
+          "desc": "We teach children, teens, and adults with separate content and methods tailored to each group.",
           "icon": "BadgeCheck"
         },
         {
-          "title": "12+ Cities, 1 Vision",
-          "desc": "With our branches spread across Turkey and our international connections, we are always by our students' side.",
+          "title": "Multi-Branch Network",
+          "desc": "Alongside our Avcılar headquarters, we support students through branches across Turkey.",
           "icon": "Globe"
         },
         {
-          "title": "97% Student Satisfaction",
-          "desc": "The feedback we receive from thousands of students every year is the strongest proof of our educational quality.",
+          "title": "Results-Driven Tracking",
+          "desc": "We closely monitor student progress through regular level assessments and instructor feedback.",
           "icon": "Star"
         }
       ]
@@ -13698,16 +13692,16 @@
     "faq": {
       "items": [
         {
-          "q": "When was Academic International founded?",
-          "a": "Academic International was founded nearly half a century ago and has since continued to raise quality standards in foreign language education."
+          "q": "When was Avcılar English Language Course founded?",
+          "a": "Our school was founded to offer a speaking-focused, age-specific language education model, and we've continued refining our curriculum and methods ever since."
         },
         {
           "q": "How many cities do you serve?",
-          "a": "We serve in more than 12 branches in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities in Turkey. We also offer study abroad opportunities through our America campus."
+          "a": "Alongside our Avcılar headquarters, we have branches in several cities across Turkey — see our contact page for the current branch list."
         },
         {
-          "q": "What does the ISO 9001:2015 certificate mean?",
-          "a": "ISO 9001:2015 is an internationally recognized Quality Management System standard. Academic International is the first institution in Turkey to receive this certificate in the field of foreign language education."
+          "q": "How do you monitor teaching quality?",
+          "a": "We continuously review and update our curriculum through regular placement tests, instructor feedback, and student satisfaction surveys."
         }
       ]
     }
@@ -13715,10 +13709,10 @@
   "kariyerFirsatlariPage": {
     "meta": {
       "title": "Career Opportunities",
-      "description": "Would you like to build a career at Akademik International? Apply for Education Consultant, English, German, French, Spanish, Italian and Russian Teacher positions."
+      "description": "Would you like to build a career at Avcılar English Language Course? Apply for Education Consultant, English, German, French, Spanish, Italian and Russian Teacher positions."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Career Opportunities",
       "subtitle": "Build your career at Turkey's most established foreign language school",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13735,7 +13729,7 @@
     },
     "showcase": {
       "sectionTitle": "Open Positions",
-      "sectionSubtitle": "Would you like to join the Akademik International family? We are accepting applications for the positions below.",
+      "sectionSubtitle": "Would you like to join the Avcılar English Language Course family? We are accepting applications for the positions below.",
       "openPositionsLabel": "Open Positions",
       "cityLabel": "Cities",
       "applyBtn": "APPLY",
@@ -13809,7 +13803,7 @@
       "description": "Discover the corporate discount agreements signed with Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD, and Tek Gıda İş Sendikası."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Corporate Agreements",
       "subtitle": "Corporate discount agreements signed with Turkey's leading companies and civil society organisations",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13859,7 +13853,7 @@
       "faqs": [
         {
           "q": "How can I benefit from the corporate agreement?",
-          "a": "If your institution has an agreement with Akademik International, you can apply to any of our branches with a document obtained from your HR department."
+          "a": "If your institution has an agreement with Avcılar English Language Course, you can apply to any of our branches with a document obtained from your HR department."
         },
         {
           "q": "What is the discount rate under the agreement?",
@@ -13875,10 +13869,10 @@
   "referanslarPage": {
     "meta": {
       "title": "Our Corporate References",
-      "description": "Leading institutions such as Turkish Airlines, Turkcell, TRT, İş Bankası, and Acıbadem choose Akademik International for professional language training."
+      "description": "Leading institutions such as Turkish Airlines, Turkcell, TRT, İş Bankası, and Acıbadem choose Avcılar English Language Course for professional language training."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Our Corporate References",
       "subtitle": "The trusted foreign language training centre for Turkey's most prestigious institutions and brands",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13895,7 +13889,7 @@
     },
     "showcase": {
       "title": "Institutions That Trust Us",
-      "subtitle": "Leading public institutions, private companies and educational organisations across Turkey choose Akademik International.",
+      "subtitle": "Leading public institutions, private companies and educational organisations across Turkey choose Avcılar English Language Course.",
       "statsLabel": "Corporate References",
       "yearLabel": "Years of Experience",
       "sectorLabel": "Different Sectors"
@@ -13944,12 +13938,12 @@
   },
   "nedenAkademikPage": {
     "meta": {
-      "title": "Why Akademik Language Courses?",
-      "description": "Discover why Akademik International stands out: expert staff, ISO-certified quality, original publications, online lessons and 97% student satisfaction."
+      "title": "Why Avcılar English Language Course?",
+      "description": "Reasons to choose Avcılar English Language Course: speaking-focused curriculum, experienced instructors, online lessons and age-specific programmes."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
-      "title": "Why Akademik Language Courses?",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Our teaching model, expert staff and the privileges we offer you",
       "customerServiceBtn": "Contact Customer Services Now!",
       "infoBtn": "Get Pre-Information Now!",
@@ -13966,61 +13960,61 @@
     "intro": {
       "title": "Why Us?",
       "paragraphs": [
-        "With years of foreign language teaching experience, Akademik Language School has created Industry 4.0-aligned curricula for adults and children — and was the first in Turkey to develop a foreign language education system specifically designed for adult learners."
+        "With years of language teaching experience, Avcılar English Language Course has designed separate curricula for adults and children, offering a teaching system tailored to every age group and current level."
       ]
     },
     "nedenBiz": {
       "leftTitle": "Our Advantages",
-      "leftSubtitle": "The Comprehensive and Quality Educational Advantages Akademik International Foreign Language Schools Offer Their Students",
+      "leftSubtitle": "The comprehensive and quality educational advantages Avcılar English Language Course offers its students",
       "features": [
         {
           "icon": "GraduationCap",
           "title": "Expert Staff",
-          "description": "Akademik International Foreign Language Schools deliver quality language education through an expert team with years of experience in the field."
+          "description": "Avcılar English Language Course delivers quality language education through experienced instructors in the field."
         },
         {
           "icon": "Monitor",
           "title": "Online Lessons",
-          "description": "With Letslingo, Turkey's most interactive and comprehensive online language platform, you can join video and audio lessons whenever and wherever you like."
+          "description": "With the Letslingo online language platform, you can join video and audio lessons whenever and wherever you like."
         },
         {
           "icon": "MessageCircle",
           "title": "Speaking Clubs",
-          "description": "Our English Speaking lessons are tailored to everyday and advanced levels. Sessions with native instructors include a variety of activities and exercises to develop your speaking skills."
+          "description": "Our Speaking lessons are tailored to everyday and advanced levels; sessions with native instructors include activities designed to build your speaking skills."
         },
         {
           "icon": "Award",
           "title": "Student Satisfaction",
-          "description": "The first language school in Turkey to earn ISO 9001:2015 and 10002:2018 certifications, delivering a sustainable language education system with 97% student satisfaction."
+          "description": "We're a language school built around regular feedback and level tracking for a sustainable learning experience."
         },
         {
           "icon": "BookOpen",
-          "title": "Original Publications",
-          "description": "Our London-based publisher THE ACADEMIC PUBLISHING has developed original resources adapted to Turkish linguistic structures, co-authored by native writers and Turkish linguists."
+          "title": "Current Resources",
+          "description": "Our lessons use continuously updated materials based on current topics and real-life scenarios."
         }
       ],
-      "rightTitle": "Why Akademik International?",
-      "rightSubtitle": "The educational advantages we offer to our valued students who choose Akademik International courses",
+      "rightTitle": "Why Avcılar English Language Course?",
+      "rightSubtitle": "The educational advantages we offer our valued students who choose Avcılar English Language Course",
       "accordion": [
         {
           "q": "Quality Language Education",
-          "a": "Our language school — which has pioneered a unique curriculum for adult learners in Turkey — delivers foreign language education in 14 languages including English, German, French, and Spanish, with a focus on developing the four core skills: speaking, reading, listening, and writing."
+          "a": "Our language school stands out with curricula tailored for adult, teen, and child learners, and expert instructors focused on developing the four core skills — speaking, reading, listening, and writing — across English and other languages."
         },
         {
           "q": "Level-Appropriate Language Programmes",
-          "a": "Following a free placement test, the most suitable study plan is drawn up for you. With curricula prepared by our language specialists, you will reach your target language level from beginner through to advanced."
+          "a": "Following a free placement test, the most suitable study plan is drawn up for you, taking you from beginner to advanced through a carefully structured curriculum."
         },
         {
           "q": "Mastering All 4 Language Skills",
-          "a": "We believe grammar-centred instruction is the biggest gap in language education. To address this, we integrate reading, listening, writing, and speaking into our curriculum, giving students the opportunity to learn languages holistically across 14 languages including English."
+          "a": "We believe grammar-centred instruction alone falls short. That's why we integrate reading, listening, writing, and speaking into our curriculum for well-rounded language learning."
         },
         {
           "q": "Current Topics – Rich Content",
-          "a": "Focusing on vocabulary structures such as phrases, collocations, and phrasal verbs as well as semantics, our training helps you synthesise language skills in reading, writing, speaking, and listening — enabling you to reach the highest level of linguistic competence."
+          "a": "We go beyond grammar, focusing on vocabulary structures like phrases, collocations, and phrasal verbs, as well as semantics, to take your language skills to the next level."
         },
         {
           "q": "What Teaching System Do You Use in English Courses?",
-          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using our own original resources, current and relevant topics are addressed to maximise your language proficiency."
+          "a": "Unlike outdated methods, we create tailored curricula for every age group, using current resources and topics to maximise your language proficiency."
         }
       ]
     },
@@ -14028,8 +14022,8 @@
       "title": "Frequently Asked Questions",
       "items": [
         {
-          "q": "What sets Akademik International apart from other language schools?",
-          "a": "We were the first in Turkey to create a foreign language education system specifically for adults, and we deliver quality education backed by ISO 9001:2015 and 10002:2018 certifications."
+          "q": "What sets Avcılar English Language Course apart from other language schools?",
+          "a": "Our age-specific curriculum, speaking-focused lessons, and regular level tracking help us deliver quality language education."
         },
         {
           "q": "Which levels do you teach?",
@@ -14188,7 +14182,7 @@
     "about": {
       "badge": "4 CORE APPROACHES",
       "title": "The Right Method for Academic Exam Preparation",
-      "desc": "Academic exams are the bridges that open doors to overseas education, career advancement, public appointments and international recognition. At Akademik International we guide students to success in IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge and many more with our proven methodology.<br/><br/><b>Exam-Specific Strategy:</b> Every exam has its own unique structure, question types and assessment criteria. Our instructors ensure you reach your goal in the shortest time with strategies and materials tailored specifically to your target exam.<br/><br/><b>Mock-Exam-Centred Preparation:</b> Regular mock exams held under real exam conditions reveal your weak areas and build confidence in managing exam anxiety.",
+      "desc": "Academic exams are the bridges that open doors to overseas education, career advancement, public appointments and international recognition. At Avcılar English Language Course we guide students to success in IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, Cambridge and many more with our proven methodology.<br/><br/><b>Exam-Specific Strategy:</b> Every exam has its own unique structure, question types and assessment criteria. Our instructors ensure you reach your goal in the shortest time with strategies and materials tailored specifically to your target exam.<br/><br/><b>Mock-Exam-Centred Preparation:</b> Regular mock exams held under real exam conditions reveal your weak areas and build confidence in managing exam anxiety.",
       "skills": [
         {
           "id": "strategy",
@@ -14211,7 +14205,7 @@
           "desc": "Planned progress towards a personal target score determined from your current level."
         }
       ],
-      "description": "Reach your international or national academic goal with Akademik International's expert instructors and proven exam-preparation methodology.",
+      "description": "Reach your international or national academic goal with Avcılar English Language Course's expert instructors and proven exam-preparation methodology.",
       "features": [
         "IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE, SAT, CAE, PTE and more.",
         "Boutique classes of 7-10 students or one-to-one format.",
@@ -14328,7 +14322,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Akademik International for Exam Prep?",
+      "title": "Why Avcılar English Language Course for Exam Prep?",
       "subtitle": "Reach Your Goal Without Wasting Time",
       "cardTitle": "Proven Success Rate",
       "cardDesc": "Experience of the most recommended exam prep course — having guided thousands of students to their target scores across our branches in Bursa, Istanbul, Izmir, Ankara and beyond.",
@@ -14417,7 +14411,7 @@
         },
         {
           "q": "How do I determine my level before starting an exam prep course?",
-          "a": "Akademik International offers a free placement test to determine your current English level. Based on the results, you will be directed to the most suitable programme for your target exam."
+          "a": "Avcılar English Language Course offers a free placement test to determine your current English level. Based on the results, you will be directed to the most suitable programme for your target exam."
         },
         {
           "q": "What is the difference between GMAT and GRE?",
@@ -14452,7 +14446,7 @@
     "about": {
       "badge": "4 CORE APPROACHES",
       "title": "The Right Method for Language Learning",
-      "desc": "Every language is a door to its own culture. At Akademik International, our expert instructors guide students to real communicative competence in German, French, Spanish, Italian, Russian, Japanese, Korean and many more languages.<br/><br/><b>Language-Specific Curriculum:</b> Each language has its own unique structure, pronunciation, and cultural context. Our instructors ensure you can speak your target language quickly with specially designed curricula and materials.<br/><br/><b>Communication-Focused Learning:</b> Language learning is not just grammar — it is about using the language in real life. Learn by living the language through speaking practice, listening exercises, and cultural content.",
+      "desc": "Every language is a door to its own culture. At Avcılar English Language Course, our expert instructors guide students to real communicative competence in German, French, Spanish, Italian, Russian, Japanese, Korean and many more languages.<br/><br/><b>Language-Specific Curriculum:</b> Each language has its own unique structure, pronunciation, and cultural context. Our instructors ensure you can speak your target language quickly with specially designed curricula and materials.<br/><br/><b>Communication-Focused Learning:</b> Language learning is not just grammar — it is about using the language in real life. Learn by living the language through speaking practice, listening exercises, and cultural content.",
       "skills": [
         {
           "id": "speaking",
@@ -14475,7 +14469,7 @@
           "desc": "Language-specific original resources from our own publishing house."
         }
       ],
-      "description": "Experience fast and lasting learning in your target language with Akademik International's expert teaching staff and proven methodology.",
+      "description": "Experience fast and lasting learning in your target language with Avcılar English Language Course's expert teaching staff and proven methodology.",
       "features": [
         "German, French, Spanish, Italian, Russian, Japanese, Korean and more.",
         "Boutique classes of 7-10 students or one-to-one format.",
@@ -14598,7 +14592,7 @@
       ]
     },
     "whyUs": {
-      "title": "Why Akademik International Language Courses?",
+      "title": "Why Avcılar English Language Course Language Courses?",
       "subtitle": "The Address for Fast and Lasting Language Learning",
       "cardTitle": "Expert Education in 15+ Languages",
       "cardDesc": "Thousands of students trained in German, French, Spanish and many more languages across our branches in Istanbul, Bursa, Izmir, Ankara and beyond — the most recommended foreign language school experience.",
@@ -14683,7 +14677,7 @@
         },
         {
           "q": "Do language courses provide certificates?",
-          "a": "Students who complete our course receive an Akademik International participation certificate. In addition, preparation for international exams such as Goethe (German), DELF/DALF (French) and DELE (Spanish) is also provided."
+          "a": "Students who complete our course receive an Avcılar English Language Course participation certificate. In addition, preparation for international exams such as Goethe (German), DELF/DALF (French) and DELE (Spanish) is also provided."
         },
         {
           "q": "Which level language course should I take?",

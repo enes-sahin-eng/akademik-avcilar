@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Persian Language Course"
         : lang === "ar"
           ? "دورة اللغة الفارسية"
-          : "Farsça Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Farsça Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Persian, the language of the East, effectively with our native speaker instructors and VIP classes."
@@ -89,19 +89,19 @@ export default async function FarscaDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kurslar`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Farsça Dil Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/farsca-dil-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/farsca-dil-kursu`,
               },
             ],
           }),
@@ -120,15 +120,15 @@ export default async function FarscaDilKursuPage({ params }: PageProps) {
               "Anadili Farsça olan eğitmenlerle, İran Milli Eğitim Bakanlığı ve CEFR standartlarına uygun, iletişimsel temellere dayanan Farsça ve Farsça YDS hazırlık eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (Bursa, İstanbul, İzmir, Eskişehir, Tekirdağ, Ankara)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (Bursa, İstanbul, İzmir, Eskişehir, Tekirdağ, Ankara)",
                 address: "Türkiye",
               },
             },

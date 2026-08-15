@@ -91,19 +91,19 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Goethe Sınavı Hazırlık Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/almanca-goethe-sinavi-hazirlik-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/almanca-goethe-sinavi-hazirlik-kursu`,
               },
             ],
           }),
@@ -122,15 +122,15 @@ export default async function GoetheHazirlikKursuPage({ params }: PageProps) {
               "Almanca dil yeterliliğini belgelemek, aile birleşimi ve iş başvuruları için Avrupa Ortak Dil Kriterleri'ne (A1-C2) uygun olarak hazırlanan Goethe sınavı eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

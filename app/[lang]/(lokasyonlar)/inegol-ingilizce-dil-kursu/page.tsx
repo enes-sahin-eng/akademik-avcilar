@@ -69,7 +69,7 @@ export default async function InegolIngilizceKursuPage({ params }: PageProps) {
   const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
-  const siteUrl = "https://avcilarakademik.com.tr";
+  const siteUrl = "https://avcilaringilizcekursu.com.tr";
   const pageData = (dict as any)?.[COURSE_KEY];
   const meta = pageData?.meta || {};
   const homeName =

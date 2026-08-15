@@ -91,13 +91,13 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Almanca Aile Birleşimi Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/almanca-aile-birlesimi-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/almanca-aile-birlesimi-kursu`,
               },
             ],
           }),
@@ -116,15 +116,15 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
               "Almanya Konsolosluğu'nun oturma izni ve vize taleplerinde zorunlu kıldığı Goethe Start Deutsch A1 sınavına yönelik, dört temel beceriyi (Dinleme, Okuma, Yazma, Konuşma) kapsayan özel hazırlık programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

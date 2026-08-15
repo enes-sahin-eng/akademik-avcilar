@@ -58,8 +58,8 @@ export default async function HazirlikPage({ params }: PageProps) {
             "description": "Sıfırdan İngilizce öğrenmek isteyenler için konuşma odaklı Hazırlık (Prep) eğitim programı.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
         }}

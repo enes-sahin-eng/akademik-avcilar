@@ -93,19 +93,19 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "TOEFL Hazırlık Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/toefl-hazirlik-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/toefl-hazirlik-kursu`,
               },
             ],
           }),
@@ -124,15 +124,15 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
               "Yurt dışında eğitim almak isteyen öğrenciler, burs/sertifika adayları ve vize başvurusu yapanlar için 4 temel beceriyi (Okuma, Dinleme, Konuşma, Yazma) geliştirmeye yönelik yoğun TOEFL hazırlık programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

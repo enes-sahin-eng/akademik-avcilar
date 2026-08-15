@@ -94,13 +94,13 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.akademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Ortaokul İngilizce Kursu",
-                item: `https://www.akademik.com.tr/${lang}/ortaokul-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/ortaokul-ingilizce-kursu`,
               },
             ],
           }),
@@ -119,15 +119,15 @@ export default async function OrtaokulIngilizcePage({ params }: PageProps) {
               "Ortaokul (5, 6, 7 ve 8. sınıf) öğrencilerine özel, LGS hazırlık altyapısı sunan ve okul başarısını destekleyen, konuşma odaklı İngilizce kursu.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.akademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://avcilarakademik.com.tr";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://avcilaringilizcekursu.com.tr";
 
   const languages = ["tr", "en", "ar"];
 

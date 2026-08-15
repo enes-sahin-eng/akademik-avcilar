@@ -58,8 +58,8 @@ export default async function AcademicPage({ params }: PageProps) {
             "description": "Üst düzey akademik ve mesleki İngilizce becerilerinizi geliştirebileceğiniz B2-C1 Akademik İngilizce programı.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
         }}

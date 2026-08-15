@@ -39,7 +39,7 @@ export async function generateMetadata({
       lang === "en"
         ? "Academic Exam Prep Courses | IELTS, TOEFL, YDS, GMAT, GRE"
         : lang === "ar"
-          ? "دورات التحضير للاختبارات الأكاديمية | IELTS وTOEFL وYDS وGMAT | أكاديميك إنترناشيونال"
+          ? "دورات التحضير للاختبارات الأكاديمية | IELTS وTOEFL وYDS وGMAT"
           : "Akademik Sınav Hazırlık Kursları | IELTS, TOEFL, YDS, YÖKDİL, GMAT, GRE",
     description:
       lang === "en"
@@ -106,7 +106,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
@@ -117,7 +117,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
                     : lang === "ar"
                       ? "الاختبارات الأكاديمية"
                       : "Akademik Sınavlar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/${PAGE_SLUG}`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/${PAGE_SLUG}`,
               },
             ],
           }),
@@ -135,8 +135,8 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
             description: courseDesc,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: [
               { "@type": "CourseInstance", name: "IELTS Hazırlık", courseMode: "Blended" },

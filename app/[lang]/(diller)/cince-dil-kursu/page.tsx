@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Chinese Language Course"
         : lang === "ar"
           ? "دورة اللغة الصينية"
-          : "Çince Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Çince Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Master the Chinese language with our native instructors. Comprehensive HSK 1-6 preparation and VIP classes for your career goals."
@@ -89,19 +89,19 @@ export default async function CinceDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kurslar`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Çince Dil Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/cince-dil-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/cince-dil-kursu`,
               },
             ],
           }),
@@ -120,15 +120,15 @@ export default async function CinceDilKursuPage({ params }: PageProps) {
               "Anadili Çince olan uzman eğitmenler eşliğinde, uluslararası HSK (Hanyu Shuiping Kaoshi) standartlarına uygun, 1. seviyeden 6. seviyeye kadar kapsamlı Çince dil eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, Bursa, Eskişehir, İzmir, Ankara, Kocaeli)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, Bursa, Eskişehir, İzmir, Ankara, Kocaeli)",
                 address: "Türkiye",
               },
             },

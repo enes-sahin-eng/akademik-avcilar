@@ -58,8 +58,8 @@ export default async function AcademicPlusPage({ params }: PageProps) {
             "description": "C1-C2 Proficiency seviyesinde kusursuz İngilizce, simultane çeviri ve akademik yazarlık yetkinliği kazanın.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
         }}

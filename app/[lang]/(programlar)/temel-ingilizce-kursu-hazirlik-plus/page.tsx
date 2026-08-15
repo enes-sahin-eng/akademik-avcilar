@@ -58,8 +58,8 @@ export default async function PrepPlusPage({ params }: PageProps) {
             "description": "Temel gramer bilgisini pratiğe dökmek ve akıcı İngilizce konuşmak isteyenler için Prep Plus (A2) kursu.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
         }}

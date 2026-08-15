@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "French Language Course"
         : lang === "ar"
           ? "دورة اللغة الفرنسية"
-          : "Fransızca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Fransızca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn French, the universal language of 250 million people, with Turkey's best French course from A1 to B2 levels."
@@ -89,19 +89,19 @@ export default async function FransizcaDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kurslar`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Fransızca Dil Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/fransizca-dil-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/fransizca-dil-kursu`,
               },
             ],
           }),
@@ -120,15 +120,15 @@ export default async function FransizcaDilKursuPage({ params }: PageProps) {
               "Profesyonel eğitim müfredatı ve alanında uzman öğretmen ekibiyle, A1'den B2'ye kadar Avrupa Dilleri Ortak Çerçeve Programına uygun Fransızca eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri",
                 address: "Türkiye",
               },
             },

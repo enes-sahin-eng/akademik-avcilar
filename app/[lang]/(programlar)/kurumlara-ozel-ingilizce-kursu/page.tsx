@@ -91,8 +91,8 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
               "Şirketlere, yöneticilere ve çalışanlara özel, İK entegreli sektörel İngilizce eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.akademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
           }),
         }}

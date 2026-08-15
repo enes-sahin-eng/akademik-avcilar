@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Korean Language Course"
         : lang === "ar"
           ? "دورة اللغة الكورية"
-          : "Korece Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Korece Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Korean easily with our expert instructors from A1 to C2 levels. VIP classes and comprehensive preparation for your academic and career goals."
@@ -89,19 +89,19 @@ export default async function KoreceDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kurslar`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Korece Dil Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/korece-dil-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/korece-dil-kursu`,
               },
             ],
           }),
@@ -120,15 +120,15 @@ export default async function KoreceDilKursuPage({ params }: PageProps) {
               "Türkçeyle aynı dil ailesinden gelen Koreceyi, A1'den C2'ye kadar akademisyen kökenli yerli ve yabancı eğitmenlerle öğrenme fırsatı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              name: "Avcılar İngilizce Dil Kursu",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (Bursa, İstanbul, Ankara, İzmir, Tekirdağ, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (Bursa, İstanbul, Ankara, İzmir, Tekirdağ, Eskişehir)",
                 address: "Türkiye",
               },
             },

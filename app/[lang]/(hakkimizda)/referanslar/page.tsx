@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Kurumsal Referanslarımız",
-    description: "Turkish Airlines, Turkcell, TRT, İş Bankası ve daha birçok kurumun tercih ettiği Akademik International yabancı dil kursları.",
+    description: "Turkish Airlines, Turkcell, TRT, İş Bankası ve daha birçok kurumun tercih ettiği Avcılar İngilizce Dil Kursu.",
   };
 
   return {
@@ -50,7 +50,7 @@ export default async function ReferanslarPage({ params }: PageProps) {
   const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
-  const siteUrl = "https://avcilarakademik.com.tr";
+  const siteUrl = "https://avcilaringilizcekursu.com.tr";
   const pageData = (dict as any)?.[COURSE_KEY];
   const homeName = lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa";
   const pageName = lang === "en" ? "References" : lang === "ar" ? "المراجع" : "Referanslar";
@@ -78,7 +78,7 @@ export default async function ReferanslarPage({ params }: PageProps) {
       <ReferanslarShowcase
         lang={lang}
         title={pageData?.showcase?.title || "Bize Güvenen Kurumlar"}
-        subtitle={pageData?.showcase?.subtitle || "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Akademik International'ı tercih ediyor."}
+        subtitle={pageData?.showcase?.subtitle || "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Avcılar İngilizce Dil Kursu'nu tercih ediyor."}
         statsLabel={pageData?.showcase?.statsLabel || "Kurumsal Referans"}
         yearLabel={pageData?.showcase?.yearLabel || "Yıllık Deneyim"}
         sectorLabel={pageData?.showcase?.sectorLabel || "Farklı Sektör"}

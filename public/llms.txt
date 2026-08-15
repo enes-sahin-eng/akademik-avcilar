@@ -1,6 +1,6 @@
-# Akademik International Yabancı Dil Okulları
+# Avcılar İngilizce Dil Kursu
 
-> Akademik International, Türkiye genelinde 12 şubesi bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik dil eğitimleri ve uluslararası sınav hazırlık programları sunar.
+> Avcılar İngilizce Dil Kursu, Türkiye genelinde şubeleri bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik dil eğitimleri ve uluslararası sınav hazırlık programları sunar.
 
 Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve indekslemesi için hazırlanmıştır.
 
@@ -10,102 +10,101 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - **Çok Dilli Yapı (i18n):** Site Türkçe (varsayılan), İngilizce ve Arapça dillerini destekler. Dil yapısı dinamik olarak `/{dil-kodu}/{sayfa-slug}` formatında çalışır (örn: `/en/ingilizce-kursu`). Aşağıdaki bağlantılar varsayılan Türkçe (TR) rotaları gösterir; botlar harici bir parametre girmediği sürece varsayılan olarak Türkçe içeriği tarayacaktır.
 
 ## Genel İngilizce Kursları
-- [Anasayfa](https://avcilarakademik.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri ve formlar.
-- [İletişim](https://avcilarakademik.com.tr/iletisim): Avcılar merkez konumu ve 12 şubenin iletişim listesi.
-- [Genel İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu): Genel İngilizce programlarının listelendiği ana kategori.
-- [Akademik İngilizce Kursu](https://avcilarakademik.com.tr/akademik-ingilizce-kursu): Sınav hazırlığı ve akademik program kategorisi.
-- [Prep - Temel İngilizce Kursu](https://avcilarakademik.com.tr/temel-ingilizce-kursu-hazirlik): Sıfırdan başlayanlar (A1) için konuşma odaklı hazırlık programı.
-- [Prep Plus - Temel İngilizce Kursu Plus](https://avcilarakademik.com.tr/temel-ingilizce-kursu-hazirlik-plus): Alt-Orta seviye (A2) genel İngilizce programı.
-- [Academic Express İngilizce Kursu](https://avcilarakademik.com.tr/academic-express-ingilizce-kursu): Orta seviye (B1) akademik İngilizce programı.
-- [Academic İngilizce Kursu](https://avcilarakademik.com.tr/academic-ingilizce-kursu): İleri seviye (B2-C1) akademik yetkinlik programı.
-- [Academic Plus İngilizce Kursu](https://avcilarakademik.com.tr/academic-plus-ingilizce-kursu): Yetkinlik seviyesi (C1-C2) kusursuz İngilizce ve simultane çeviri programı.
-- [İlköğretim İngilizce Kursu](https://avcilarakademik.com.tr/ilkogretim-ingilizce-kursu): İlkokul öğrencileri için tasarlanmış eğlenceli ve konuşma odaklı İngilizce kursu.
-- [Ortaokul İngilizce Kursu](https://avcilarakademik.com.tr/ortaokul-ingilizce-kursu): Ortaokul öğrencileri için LGS hazırlık altyapısı sunan İngilizce kursu.
-- [Lise İngilizce Kursu](https://avcilarakademik.com.tr/lise-ingilizce-kursu): Lise öğrencileri için YKS-DİL, TOEFL ve IELTS destekli İngilizce kursu.
-- [İngilizce Özel Ders](https://avcilarakademik.com.tr/ingilizce-ozel-ders): Yabancı eğitmenlerle birebir, ihtiyaca özel İngilizce eğitim programı.
-- [Kurumsal İngilizce Kursu](https://avcilarakademik.com.tr/kurumlara-ozel-ingilizce-kursu): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
-- [İş İngilizcesi Kursu (Business English)](https://avcilarakademik.com.tr/is-ingilizcesi): İş görüşmelerinden sunumlara, e-posta yazışmalarından toplantılara kadar her alanda profesyonel iletişim becerileri kazandıran iş ingilizcesi eğitimi.
-- [Havacılık ve Pilotluk İngilizcesi Kursu](https://avcilarakademik.com.tr/havacilik-pilotluk-ingilizcesi-kursu): Pilot, kabin memuru ve havacılık sektörü çalışanları için ICAO Level 4-6 standartlarında havacılık terminolojisi, mülakat ve 4 becerili hazırlık programı.
+- [Anasayfa](https://avcilaringilizcekursu.com.tr/): Kurumun tanıtımı, şube vitrini, program özetleri ve formlar.
+- [İletişim](https://avcilaringilizcekursu.com.tr/iletisim): Avcılar merkez konumu ve 12 şubenin iletişim listesi.
+- [Genel İngilizce Kursu](https://avcilaringilizcekursu.com.tr/ingilizce-kursu): Genel İngilizce programlarının listelendiği ana kategori.
+- [Akademik İngilizce Kursu](https://avcilaringilizcekursu.com.tr/akademik-ingilizce-kursu): Sınav hazırlığı ve akademik program kategorisi.
+- [Prep - Temel İngilizce Kursu](https://avcilaringilizcekursu.com.tr/temel-ingilizce-kursu-hazirlik): Sıfırdan başlayanlar (A1) için konuşma odaklı hazırlık programı.
+- [Prep Plus - Temel İngilizce Kursu Plus](https://avcilaringilizcekursu.com.tr/temel-ingilizce-kursu-hazirlik-plus): Alt-Orta seviye (A2) genel İngilizce programı.
+- [Academic Express İngilizce Kursu](https://avcilaringilizcekursu.com.tr/academic-express-ingilizce-kursu): Orta seviye (B1) akademik İngilizce programı.
+- [Academic İngilizce Kursu](https://avcilaringilizcekursu.com.tr/academic-ingilizce-kursu): İleri seviye (B2-C1) akademik yetkinlik programı.
+- [Academic Plus İngilizce Kursu](https://avcilaringilizcekursu.com.tr/academic-plus-ingilizce-kursu): Yetkinlik seviyesi (C1-C2) kusursuz İngilizce ve simultane çeviri programı.
+- [İlköğretim İngilizce Kursu](https://avcilaringilizcekursu.com.tr/ilkogretim-ingilizce-kursu): İlkokul öğrencileri için tasarlanmış eğlenceli ve konuşma odaklı İngilizce kursu.
+- [Ortaokul İngilizce Kursu](https://avcilaringilizcekursu.com.tr/ortaokul-ingilizce-kursu): Ortaokul öğrencileri için LGS hazırlık altyapısı sunan İngilizce kursu.
+- [Lise İngilizce Kursu](https://avcilaringilizcekursu.com.tr/lise-ingilizce-kursu): Lise öğrencileri için YKS-DİL, TOEFL ve IELTS destekli İngilizce kursu.
+- [İngilizce Özel Ders](https://avcilaringilizcekursu.com.tr/ingilizce-ozel-ders): Yabancı eğitmenlerle birebir, ihtiyaca özel İngilizce eğitim programı.
+- [Kurumsal İngilizce Kursu](https://avcilaringilizcekursu.com.tr/kurumlara-ozel-ingilizce-kursu): Şirketlere özel, İK departmanlarıyla entegre çalışan sektörel İngilizce eğitim çözümleri.
+- [İş İngilizcesi Kursu (Business English)](https://avcilaringilizcekursu.com.tr/is-ingilizcesi): İş görüşmelerinden sunumlara, e-posta yazışmalarından toplantılara kadar her alanda profesyonel iletişim becerileri kazandıran iş ingilizcesi eğitimi.
+- [Havacılık ve Pilotluk İngilizcesi Kursu](https://avcilaringilizcekursu.com.tr/havacilik-pilotluk-ingilizcesi-kursu): Pilot, kabin memuru ve havacılık sektörü çalışanları için ICAO Level 4-6 standartlarında havacılık terminolojisi, mülakat ve 4 becerili hazırlık programı.
 
 ## Akademik Sınav Hazırlık Kursları (İngilizce)
-- [YDS Hazırlık Kursu](https://avcilarakademik.com.tr/yds-hazirlik-kursu): Akademik kariyer ve dil tazminatı hedefleri için YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) hazırlık programı.
-- [YÖKDİL Hazırlık Kursu](https://avcilarakademik.com.tr/yokdil-hazirlik-kursu): Sosyal, Fen ve Sağlık Bilimleri alanlarına özel YÖKDİL hazırlık programı; yüksek lisans, doktora ve doçentlik hedeflerine yönelik.
-- [YKS-DİL (YDT) Hazırlık Kursu](https://avcilarakademik.com.tr/yks-dil-ydt-hazirlik-kursu): Üniversitelerin dil bölümlerini hedefleyen öğrenciler için ÖSYM müfredatına tam uyumlu YKS-DİL eğitim programı.
-- [IELTS Hazırlık Kursu](https://avcilarakademik.com.tr/ielts-hazirlik-kursu): Yurt dışı eğitim, göçmenlik ve kariyer hedefleri için uluslararası geçerliliğe sahip IELTS hazırlık programı.
-- [TOEFL Hazırlık Kursu](https://avcilarakademik.com.tr/toefl-hazirlik-kursu): Yurt dışında eğitim almak, burs başvurusu ve vize için 4 temel beceriyi geliştirmeye yönelik TOEFL hazırlık programı.
-- [TOEIC Hazırlık Kursu](https://avcilarakademik.com.tr/toeic-hazirlik-kursu): Kurumsal firmaların işe alım süreçleri ve iş dünyası için TOEIC (Test of English for International Communication) hazırlık programı.
-- [GRE Hazırlık Kursu](https://avcilarakademik.com.tr/gre-sinavi-hazirlik-kursu): Amerika ve dünya üniversitelerinde yüksek lisans/doktora için analitik odaklı GRE (Graduate Record Examinations) hazırlık programı.
-- [GMAT Hazırlık Kursu](https://avcilarakademik.com.tr/gmat-hazirlik-kursu): MBA ve işletme doktora programları için analitik ve mantıksal akıl yürütme odaklı GMAT hazırlık programı.
-- [iTEP Hazırlık Kursu](https://avcilarakademik.com.tr/itep-hazirlik-kursu): Yurt dışında eğitim veya çalışmak isteyenler için iTEP sınav formatına tam uyumlu hazırlık programı.
-- [Üniversite Hazırlık Atlama (Proficiency)](https://avcilarakademik.com.tr/ingilizce-hazirlik-atlama): 78 üniversitenin müfredatını takip eden yoğun Proficiency hazırlık programı; hazırlık sınıfını atla, kariyerine 1 yıl erken başla.
-- [E-TEP Sınavı Nedir?](https://avcilarakademik.com.tr/e-tep-sinavi-nedir): ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP hakkında detaylı bilgi ve hazırlık kursu.
-- [SAT Hazırlık Kursu](https://avcilarakademik.com.tr/sat-kursu): Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak isteyen adaylar için SAT hazırlık kursu.
-- [PTE Hazırlık Kursu](https://avcilarakademik.com.tr/pte-kursu): Pearson Test of English (PTE) sınavına uzman eğitmen kadromuzla hazırlanarak hedeflediğiniz skora kısa sürede ulaşın.
-- [CAE Hazırlık Kursu](https://avcilarakademik.com.tr/cae-kursu): Cambridge English Advanced (CAE) sınavına uzman eğitmen kadromuzla hazırlanın, İngilizce yetkinliğinizi uluslararası arenada belgeleyin.
+- [YDS Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/yds-hazirlik-kursu): Akademik kariyer ve dil tazminatı hedefleri için YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) hazırlık programı.
+- [YÖKDİL Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/yokdil-hazirlik-kursu): Sosyal, Fen ve Sağlık Bilimleri alanlarına özel YÖKDİL hazırlık programı; yüksek lisans, doktora ve doçentlik hedeflerine yönelik.
+- [YKS-DİL (YDT) Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/yks-dil-ydt-hazirlik-kursu): Üniversitelerin dil bölümlerini hedefleyen öğrenciler için ÖSYM müfredatına tam uyumlu YKS-DİL eğitim programı.
+- [IELTS Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/ielts-hazirlik-kursu): Yurt dışı eğitim, göçmenlik ve kariyer hedefleri için uluslararası geçerliliğe sahip IELTS hazırlık programı.
+- [TOEFL Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/toefl-hazirlik-kursu): Yurt dışında eğitim almak, burs başvurusu ve vize için 4 temel beceriyi geliştirmeye yönelik TOEFL hazırlık programı.
+- [TOEIC Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/toeic-hazirlik-kursu): Kurumsal firmaların işe alım süreçleri ve iş dünyası için TOEIC (Test of English for International Communication) hazırlık programı.
+- [GRE Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/gre-sinavi-hazirlik-kursu): Amerika ve dünya üniversitelerinde yüksek lisans/doktora için analitik odaklı GRE (Graduate Record Examinations) hazırlık programı.
+- [GMAT Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/gmat-hazirlik-kursu): MBA ve işletme doktora programları için analitik ve mantıksal akıl yürütme odaklı GMAT hazırlık programı.
+- [iTEP Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/itep-hazirlik-kursu): Yurt dışında eğitim veya çalışmak isteyenler için iTEP sınav formatına tam uyumlu hazırlık programı.
+- [Üniversite Hazırlık Atlama (Proficiency)](https://avcilaringilizcekursu.com.tr/ingilizce-hazirlik-atlama): 78 üniversitenin müfredatını takip eden yoğun Proficiency hazırlık programı; hazırlık sınıfını atla, kariyerine 1 yıl erken başla.
+- [E-TEP Sınavı Nedir?](https://avcilaringilizcekursu.com.tr/e-tep-sinavi-nedir): ÖSYM'nin yeni nesil dört becerili İngilizce yeterlilik testi E-TEP hakkında detaylı bilgi ve hazırlık kursu.
+- [SAT Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/sat-kursu): Amerika ve dünya genelindeki prestijli üniversitelerde eğitim almak isteyen adaylar için SAT hazırlık kursu.
+- [PTE Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/pte-kursu): Pearson Test of English (PTE) sınavına uzman eğitmen kadromuzla hazırlanarak hedeflediğiniz skora kısa sürede ulaşın.
+- [CAE Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/cae-kursu): Cambridge English Advanced (CAE) sınavına uzman eğitmen kadromuzla hazırlanın, İngilizce yetkinliğinizi uluslararası arenada belgeleyin.
 
 ## Almanca Sınav Hazırlık Kursları
-- [TestDaF Almanca Kursu](https://avcilarakademik.com.tr/testdaf-almanca-kursu): Almanya'daki üniversitelerde eğitim için uluslararası düzeyde Almanca dil yeterliliğini kanıtlamak isteyen adaylar için TestDaF hazırlık programı.
-- [Goethe Sınavı Hazırlık Kursu](https://avcilarakademik.com.tr/almanca-goethe-sinavi-hazirlik-kursu): Goethe-Institut sertifikası alarak Almanya'da eğitim veya çalışma hayatına adım atmak isteyenler için hazırlık kursu.
-- [ÖSD Almanca Dil Sertifikası Kursu](https://avcilarakademik.com.tr/osd-almanca-dil-sertifikasi-kursu): Avusturya ve Almanya başta olmak üzere Almanca konuşulan ülkelerde geçerli ÖSD sertifikası hazırlık programı.
+- [TestDaF Almanca Kursu](https://avcilaringilizcekursu.com.tr/testdaf-almanca-kursu): Almanya'daki üniversitelerde eğitim için uluslararası düzeyde Almanca dil yeterliliğini kanıtlamak isteyen adaylar için TestDaF hazırlık programı.
+- [Goethe Sınavı Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/almanca-goethe-sinavi-hazirlik-kursu): Goethe-Institut sertifikası alarak Almanya'da eğitim veya çalışma hayatına adım atmak isteyenler için hazırlık kursu.
+- [ÖSD Almanca Dil Sertifikası Kursu](https://avcilaringilizcekursu.com.tr/osd-almanca-dil-sertifikasi-kursu): Avusturya ve Almanya başta olmak üzere Almanca konuşulan ülkelerde geçerli ÖSD sertifikası hazırlık programı.
 
 ## Diğer Sınav Hazırlık Kursları
-- [TORFL Hazırlık Kursu (Rusça)](https://avcilarakademik.com.tr/torfl-kursu): Rusya Eğitim Bakanlığı onaylı, CEFR uyumlu Test of Russian as a Foreign Language (TORFL) sınavına uzman eğitmenlerle hazırlanın.
-- [CILS Hazırlık Kursu (İtalyanca)](https://avcilarakademik.com.tr/cils-kursu): İtalya'da eğitim ve vatandaşlık için gerekli CILS sınavına uzman eğitmen kadromuzla hazırlanın.
-- [TEF Hazırlık Kursu (Fransızca)](https://avcilarakademik.com.tr/tef-kursu): Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın.
-- [TELC Hazırlık Kursu](https://avcilarakademik.com.tr/telc-kursu): Avrupa genelinde süresiz geçerli TELC dil sertifikası sınavlarına (Almanca ve diğer diller) hazırlık kursumuzla hedeflerinize ulaşın.
+- [TORFL Hazırlık Kursu (Rusça)](https://avcilaringilizcekursu.com.tr/torfl-kursu): Rusya Eğitim Bakanlığı onaylı, CEFR uyumlu Test of Russian as a Foreign Language (TORFL) sınavına uzman eğitmenlerle hazırlanın.
+- [CILS Hazırlık Kursu (İtalyanca)](https://avcilaringilizcekursu.com.tr/cils-kursu): İtalya'da eğitim ve vatandaşlık için gerekli CILS sınavına uzman eğitmen kadromuzla hazırlanın.
+- [TEF Hazırlık Kursu (Fransızca)](https://avcilaringilizcekursu.com.tr/tef-kursu): Fransa ve Kanada'da eğitim, oturum ve vatandaşlık için geçerli TEF sınavına uzman eğitmen kadromuzla hazırlanın.
+- [TELC Hazırlık Kursu](https://avcilaringilizcekursu.com.tr/telc-kursu): Avrupa genelinde süresiz geçerli TELC dil sertifikası sınavlarına (Almanca ve diğer diller) hazırlık kursumuzla hedeflerinize ulaşın.
 
 ## Amaca Yönelik Almanca Programları
-- [Almanca Aile Birleşimi Kursu](https://avcilarakademik.com.tr/almanca-aile-birlesimi-kursu): Almanya'ya aile birleşimi vizesi başvurusu yapacak adaylar için A1 seviyesinde konuşma ve dinleme odaklı, resmi vize sınavına yönelik hazırlık programı.
-- [İzmir Almanca Aile Birleşimi Kursu](https://avcilarakademik.com.tr/izmir-almanca-aile-birlesimi-kursu): İzmir ve çevresinden Almanya aile birleşimi vizesine başvuracak adaylar için Ege bölgesine özel A1 seviyesi konuşma odaklı hazırlık programı.
+- [Almanca Aile Birleşimi Kursu](https://avcilaringilizcekursu.com.tr/almanca-aile-birlesimi-kursu): Almanya'ya aile birleşimi vizesi başvurusu yapacak adaylar için A1 seviyesinde konuşma ve dinleme odaklı, resmi vize sınavına yönelik hazırlık programı.
+- [İzmir Almanca Aile Birleşimi Kursu](https://avcilaringilizcekursu.com.tr/izmir-almanca-aile-birlesimi-kursu): İzmir ve çevresinden Almanya aile birleşimi vizesine başvuracak adaylar için Ege bölgesine özel A1 seviyesi konuşma odaklı hazırlık programı.
 
 ## Lokasyon Bazlı Dil Kursları
-- [Kadıköy Almanca Kursu](https://avcilarakademik.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy Şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlı ve esnek programlarla Almanca eğitim.
-- [Kadıköy İngilizce Dil Kursu](https://avcilarakademik.com.tr/kadikoy-ingilizce-dil-kursu): İstanbul Kadıköy'de Native Speaker eğitmenler, speaking odaklı sınıflar ve Akademik Publishing kaynaklarıyla nitelikli İngilizce kursu.
-- [Beşiktaş Fransızca Kursu](https://avcilarakademik.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş Şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlı ve konuşma odaklı Fransızca eğitim.
+- [Kadıköy Almanca Kursu](https://avcilaringilizcekursu.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy Şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlı ve esnek programlarla Almanca eğitim.
+- [Kadıköy İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/kadikoy-ingilizce-dil-kursu): İstanbul Kadıköy'de Native Speaker eğitmenler, speaking odaklı sınıflar ve özgün eğitim kaynaklarıyla nitelikli İngilizce kursu.
+- [Beşiktaş Fransızca Kursu](https://avcilaringilizcekursu.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş Şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlı ve konuşma odaklı Fransızca eğitim.
 
 ## Şube Lokasyon Sayfaları (İngilizce)
-- [Avcılar İngilizce Dil Kursu](https://avcilarakademik.com.tr/avcilar-ingilizce-dil-kursu): Akademik International'ın genel merkez şubesi Avcılar'da yetişkin, öğrenci ve kurumsal gruplara özel İngilizce dil kursu.
-- [İstanbul İngilizce Kursu](https://avcilarakademik.com.tr/istanbul-ingilizce-kursu): İstanbul genelinde merkezi lokasyon ve esnek ders saatleriyle nitelikli İngilizce eğitimi.
-- [Bursa FSM İngilizce Dil Kursu](https://avcilarakademik.com.tr/bursa-ingilizce-dil-kursu-fsm): Bursa FSM şubesinde IELTS Test Venue onaylı, native speaker eğitmenlerle İngilizce kursu.
-- [İstanbul Çekmeköy İngilizce Dil Kursu](https://avcilarakademik.com.tr/cekmekoy-ingilizce-dil-kursu): İstanbul Çekmeköy şubesinde yetişkin ve öğrencilere yönelik nitelikli İngilizce eğitimi.
-- [Bursa Görükle İngilizce Dil Kursu](https://avcilarakademik.com.tr/gorukle-ingilizce-dil-kursu): Bursa Görükle şubesinde Uludağ Üniversitesi çevresinde akademik odaklı İngilizce kursu.
-- [Ankara İngilizce Dil Kursu](https://avcilarakademik.com.tr/ankara-ingilizce-dil-kursu): Ankara şubesinde IELTS Test Venue onaylı, akademik ve genel İngilizce programları.
-- [İzmir İngilizce Dil Kursu](https://avcilarakademik.com.tr/izmir-ingilizce-dil-kursu): İzmir şubesinde IELTS Test Venue onaylı, Ege bölgesine özel İngilizce eğitim programları.
-- [Kocaeli İzmit İngilizce Dil Kursu](https://avcilarakademik.com.tr/kocaeli-izmit-ingilizce-dil-kursu): Kocaeli İzmit şubesinde yetişkin ve kurumsal gruplara yönelik İngilizce dil kursu.
-- [Tekirdağ Çorlu İngilizce Dil Kursu](https://avcilarakademik.com.tr/corlu-ingilizce-dil-kursu): Tekirdağ Çorlu şubesinde esnek programlarla nitelikli İngilizce eğitimi.
-- [Bursa İnegöl İngilizce Dil Kursu](https://avcilarakademik.com.tr/inegol-ingilizce-dil-kursu): Bursa İnegöl şubesinde yetişkin ve öğrencilere özel İngilizce dil kursu.
-- [Bursa Yıldırım Erikli İngilizce Dil Kursu](https://avcilarakademik.com.tr/yildirim-erikli-ingilizce-dil-kursu): Bursa Yıldırım Erikli şubesinde Ankara Yolu üzerinde kolay ulaşımlı İngilizce eğitim merkezi.
-- [Amerika Kampüsü | Amerika'da Eğitim](https://avcilarakademik.com.tr/amerika): New York'taki özel uluslararası lise ve akademik hazırlık programlarıyla Amerika'da eğitim fırsatları; öğrenci vizesi danışmanlığı ve burs desteği.
-- [Kütahya İngilizce Kursu](https://avcilarakademik.com.tr/ingilizce-kursu-kutahya): Kütahya şubesinde özgün müfredat, Native Speaker eğitmenler ve konuşma odaklı sistem ile kaliteli İngilizce eğitimi.
+- [Avcılar İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/avcilar-ingilizce-dil-kursu): Genel merkez şubesi Avcılar'da yetişkin, öğrenci ve kurumsal gruplara özel İngilizce dil kursu.
+- [İstanbul İngilizce Kursu](https://avcilaringilizcekursu.com.tr/istanbul-ingilizce-kursu): İstanbul genelinde merkezi lokasyon ve esnek ders saatleriyle nitelikli İngilizce eğitimi.
+- [Bursa FSM İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/bursa-ingilizce-dil-kursu-fsm): Bursa FSM şubesinde IELTS Test Venue onaylı, native speaker eğitmenlerle İngilizce kursu.
+- [İstanbul Çekmeköy İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/cekmekoy-ingilizce-dil-kursu): İstanbul Çekmeköy şubesinde yetişkin ve öğrencilere yönelik nitelikli İngilizce eğitimi.
+- [Bursa Görükle İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/gorukle-ingilizce-dil-kursu): Bursa Görükle şubesinde Uludağ Üniversitesi çevresinde akademik odaklı İngilizce kursu.
+- [Ankara İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/ankara-ingilizce-dil-kursu): Ankara şubesinde IELTS Test Venue onaylı, akademik ve genel İngilizce programları.
+- [İzmir İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/izmir-ingilizce-dil-kursu): İzmir şubesinde IELTS Test Venue onaylı, Ege bölgesine özel İngilizce eğitim programları.
+- [Kocaeli İzmit İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/kocaeli-izmit-ingilizce-dil-kursu): Kocaeli İzmit şubesinde yetişkin ve kurumsal gruplara yönelik İngilizce dil kursu.
+- [Tekirdağ Çorlu İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/corlu-ingilizce-dil-kursu): Tekirdağ Çorlu şubesinde esnek programlarla nitelikli İngilizce eğitimi.
+- [Bursa İnegöl İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/inegol-ingilizce-dil-kursu): Bursa İnegöl şubesinde yetişkin ve öğrencilere özel İngilizce dil kursu.
+- [Bursa Yıldırım Erikli İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/yildirim-erikli-ingilizce-dil-kursu): Bursa Yıldırım Erikli şubesinde Ankara Yolu üzerinde kolay ulaşımlı İngilizce eğitim merkezi.
+- [Amerika Kampüsü | Amerika'da Eğitim](https://avcilaringilizcekursu.com.tr/amerika): New York'taki özel uluslararası lise ve akademik hazırlık programlarıyla Amerika'da eğitim fırsatları; öğrenci vizesi danışmanlığı ve burs desteği.
+- [Kütahya İngilizce Kursu](https://avcilaringilizcekursu.com.tr/ingilizce-kursu-kutahya): Kütahya şubesinde özgün müfredat, Native Speaker eğitmenler ve konuşma odaklı sistem ile kaliteli İngilizce eğitimi.
 
 ## Hakkımızda
-- [Yayınlarımız](https://avcilarakademik.com.tr/yayinlarimiz): Akademik International'ın özgün eğitim kitapları ve yayın serisi; kendi bünyesinde geliştirilen müfredat materyalleri.
-- [Tarihçemiz](https://avcilarakademik.com.tr/tarihce): Akademik International'ın kuruluşundan bugüne uzanan 12+ yıllık büyüme hikayesi, vizyonu ve kurumsal gelişimi.
-- [Neden Akademik Yabancı Dil Kursları?](https://avcilarakademik.com.tr/neden-akademik-yabanci-dil-kurslari): Akademik International'ı tercih etmeniz için 5 temel neden; native speaker eğitmenler, özgün müfredat, sınav garantisi ve daha fazlası.
-- [Referanslar](https://avcilarakademik.com.tr/referanslar): Kamu kurumları, özel sektör şirketleri, eğitim kurumları ve sağlık kuruluşları dahil 17+ kurumsal referans ve iş ortağı.
-- [Kurumsal Anlaşmalar](https://avcilarakademik.com.tr/kurumsal-anlasmalar): Akademik International'ın Türkiye İş Bankası, BAU, BTSO, Yeşilova Holding, TÜMSİAD ve Tek Gıda-İş Sendikası ile imzaladığı kurumsal indirim anlaşmaları.
-- [Kariyer Fırsatları](https://avcilarakademik.com.tr/kariyer-firsatlari): Akademik International bünyesinde açık pozisyonlar; yabancı dil eğitmeni, online eğitmen, akademik danışman ve idari kadro ilanları.
+- [Tarihçemiz](https://avcilaringilizcekursu.com.tr/tarihce): Avcılar İngilizce Dil Kursu'nun kuruluş vizyonu, eğitim yaklaşımı ve bugüne kadarki gelişimi.
+- [Neden Avcılar İngilizce Dil Kursu?](https://avcilaringilizcekursu.com.tr/neden-akademik-yabanci-dil-kurslari): Avcılar İngilizce Dil Kursu'nu tercih etmeniz için temel nedenler; native speaker eğitmenler, konuşma odaklı müfredat ve daha fazlası.
+- [Referanslar](https://avcilaringilizcekursu.com.tr/referanslar): Kamu kurumları, özel sektör şirketleri, eğitim kurumları ve sağlık kuruluşları dahil kurumsal referanslar ve iş ortakları.
+- [Kurumsal Anlaşmalar](https://avcilaringilizcekursu.com.tr/kurumsal-anlasmalar): Türkiye İş Bankası, BAU, BTSO, Yeşilova Holding, TÜMSİAD ve Tek Gıda-İş Sendikası ile imzalanan kurumsal indirim anlaşmaları.
+- [Kariyer Fırsatları](https://avcilaringilizcekursu.com.tr/kariyer-firsatlari): Avcılar İngilizce Dil Kursu bünyesinde açık pozisyonlar; yabancı dil eğitmeni, online eğitmen, akademik danışman ve idari kadro ilanları.
 
 ## Diğer Hizmetler
-- [Tercüme Hizmetleri](https://avcilarakademik.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
+- [Tercüme Hizmetleri](https://avcilaringilizcekursu.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
 
 ## Diğer Dil Kursları
-- [İspanyolca Dil Kursu](https://avcilarakademik.com.tr/ispanyolca-dil-kursu): Başlangıçtan ileri seviyeye İspanyolca eğitimi; DELE sınav hazırlığı ve konuşma pratiği ile İspanyolca öğrenin.
-- [Fransızca Dil Kursu](https://avcilarakademik.com.tr/fransizca-dil-kursu): DELF/DALF sınav hazırlığı dahil, A1'den C2'ye Fransızca eğitim programları.
-- [Almanca Dil Kursu](https://avcilarakademik.com.tr/almanca-dil-kursu): Goethe, TestDaF ve ÖSD sınavlarına yönelik kapsamlı Almanca eğitim programları.
-- [Rusça Dil Kursu](https://avcilarakademik.com.tr/rusca-dil-kursu): Başlangıçtan ileri seviyeye Rusça eğitimi; TORFL sınav hazırlığı ve iş Rusçası programları.
-- [İtalyanca Dil Kursu](https://avcilarakademik.com.tr/italyanca-dil-kursu): CILS ve CELI sınav hazırlığı dahil, kapsamlı İtalyanca eğitim programları.
-- [Farsça Dil Kursu](https://avcilarakademik.com.tr/farsca-dil-kursu): Başlangıçtan ileri seviyeye Farsça (Farsi) eğitimi; edebiyat, iş ve akademik amaçlı programlar.
-- [Çince Dil Kursu](https://avcilarakademik.com.tr/cince-dil-kursu): Mandarin Çincesi eğitimi; HSK sınav hazırlığı ve iş Çincesi programları.
-- [Japonca Dil Kursu](https://avcilarakademik.com.tr/japonca-dil-kursu): JLPT sınav hazırlığı dahil, başlangıçtan ileri seviyeye Japonca eğitim programları.
-- [Korece Dil Kursu](https://avcilarakademik.com.tr/korece-dil-kursu): TOPIK sınav hazırlığı dahil, kapsamlı Korece eğitim programları.
-- [Osmanlıca Dil Kursu](https://avcilarakademik.com.tr/osmanlica-dil-kursu): Osmanlı Türkçesi okuma, yazma ve metin çözümleme eğitimi; arşiv ve tarih araştırmacılarına yönelik program.
-- [Yabancılara Türkçe Kursu](https://avcilarakademik.com.tr/yabancilara-turkce): Yabancı uyruklu öğrenciler için A1'den C2'ye Türkçe eğitimi; TYS ve Türkçe Yeterlilik sınavlarına hazırlık.
-- [Türkçe Dil Kursu](https://avcilarakademik.com.tr/turkce-dil-kursu): Ana dili Türkçe olmayan bireyler için kapsamlı Türkçe dil eğitimi programları.
-- [Latince Dil Kursu](https://avcilarakademik.com.tr/latince-dil-kursu): Akademik ve tarihsel amaçlı Latince eğitimi; tıp, hukuk ve felsefe terminolojisi programları.
-- [Portekizce Dil Kursu](https://avcilarakademik.com.tr/portekizce-dil-kursu): Brezilya ve Avrupa Portekizcesi eğitimi; CELPE-Bras sınav hazırlığı dahil programlar.
-- [Arapça Dil Kursu](https://avcilarakademik.com.tr/arapca-dil-kursu): Modern Standart Arapça ve lehçe eğitimi; akademik, iş ve günlük iletişim amaçlı programlar.
-- [Felemenkçe Dil Kursu](https://avcilarakademik.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
+- [İspanyolca Dil Kursu](https://avcilaringilizcekursu.com.tr/ispanyolca-dil-kursu): Başlangıçtan ileri seviyeye İspanyolca eğitimi; DELE sınav hazırlığı ve konuşma pratiği ile İspanyolca öğrenin.
+- [Fransızca Dil Kursu](https://avcilaringilizcekursu.com.tr/fransizca-dil-kursu): DELF/DALF sınav hazırlığı dahil, A1'den C2'ye Fransızca eğitim programları.
+- [Almanca Dil Kursu](https://avcilaringilizcekursu.com.tr/almanca-dil-kursu): Goethe, TestDaF ve ÖSD sınavlarına yönelik kapsamlı Almanca eğitim programları.
+- [Rusça Dil Kursu](https://avcilaringilizcekursu.com.tr/rusca-dil-kursu): Başlangıçtan ileri seviyeye Rusça eğitimi; TORFL sınav hazırlığı ve iş Rusçası programları.
+- [İtalyanca Dil Kursu](https://avcilaringilizcekursu.com.tr/italyanca-dil-kursu): CILS ve CELI sınav hazırlığı dahil, kapsamlı İtalyanca eğitim programları.
+- [Farsça Dil Kursu](https://avcilaringilizcekursu.com.tr/farsca-dil-kursu): Başlangıçtan ileri seviyeye Farsça (Farsi) eğitimi; edebiyat, iş ve akademik amaçlı programlar.
+- [Çince Dil Kursu](https://avcilaringilizcekursu.com.tr/cince-dil-kursu): Mandarin Çincesi eğitimi; HSK sınav hazırlığı ve iş Çincesi programları.
+- [Japonca Dil Kursu](https://avcilaringilizcekursu.com.tr/japonca-dil-kursu): JLPT sınav hazırlığı dahil, başlangıçtan ileri seviyeye Japonca eğitim programları.
+- [Korece Dil Kursu](https://avcilaringilizcekursu.com.tr/korece-dil-kursu): TOPIK sınav hazırlığı dahil, kapsamlı Korece eğitim programları.
+- [Osmanlıca Dil Kursu](https://avcilaringilizcekursu.com.tr/osmanlica-dil-kursu): Osmanlı Türkçesi okuma, yazma ve metin çözümleme eğitimi; arşiv ve tarih araştırmacılarına yönelik program.
+- [Yabancılara Türkçe Kursu](https://avcilaringilizcekursu.com.tr/yabancilara-turkce): Yabancı uyruklu öğrenciler için A1'den C2'ye Türkçe eğitimi; TYS ve Türkçe Yeterlilik sınavlarına hazırlık.
+- [Türkçe Dil Kursu](https://avcilaringilizcekursu.com.tr/turkce-dil-kursu): Ana dili Türkçe olmayan bireyler için kapsamlı Türkçe dil eğitimi programları.
+- [Latince Dil Kursu](https://avcilaringilizcekursu.com.tr/latince-dil-kursu): Akademik ve tarihsel amaçlı Latince eğitimi; tıp, hukuk ve felsefe terminolojisi programları.
+- [Portekizce Dil Kursu](https://avcilaringilizcekursu.com.tr/portekizce-dil-kursu): Brezilya ve Avrupa Portekizcesi eğitimi; CELPE-Bras sınav hazırlığı dahil programlar.
+- [Arapça Dil Kursu](https://avcilaringilizcekursu.com.tr/arapca-dil-kursu): Modern Standart Arapça ve lehçe eğitimi; akademik, iş ve günlük iletişim amaçlı programlar.
+- [Felemenkçe Dil Kursu](https://avcilaringilizcekursu.com.tr/flemenkce-dil-kursu): Hollanda ve Belçika'da eğitim veya çalışma hedefleyen bireyler için Felemenkçe (Hollandaca) eğitim programları.
 
 ---
 *Son Güncelleme: 10 Ağustos 2026*

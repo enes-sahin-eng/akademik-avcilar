@@ -76,8 +76,8 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
                 : "A1'den C1'e tüm seviyelerde genel İngilizce kursları. CEFR uyumlu, ücretsiz seviye tespit sınavı, konuşma garantili.",
             "provider": {
               "@type": "EducationalOrganization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             },
             "hasCourseInstance": [
               { "@type": "CourseInstance", "name": "A1 Beginner", "courseMode": "Blended" },

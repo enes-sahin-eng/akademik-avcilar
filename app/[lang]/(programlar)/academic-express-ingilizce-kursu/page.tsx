@@ -58,8 +58,8 @@ export default async function AcademicExpressPage({ params }: PageProps) {
             "description": "B1 Intermediate seviyesinde, okuma ve konuşma becerilerinizi hızla geliştirecek Academic Express İngilizce kursu.",
             "provider": {
               "@type": "Organization",
-              "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "name": "Avcılar İngilizce Dil Kursu",
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             }
           })
         }}
