@@ -577,3 +577,20 @@ button { cursor: pointer; }
   white-space: nowrap;
   border-width: 0;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   SEO CONTEXTUAL LINKS
+   ═══════════════════════════════════════════════════════════════════ */
+.textLink {
+  color: var(--accent-orange);
+  text-decoration: underline;
+  text-decoration-color: var(--tint-orange);
+  text-underline-offset: 4px;
+  font-weight: 600;
+  transition: color var(--dur-fast), text-decoration-color var(--dur-fast);
+}
+
+.textLink:hover {
+  color: var(--hover-red);
+  text-decoration-color: var(--hover-red);
+}

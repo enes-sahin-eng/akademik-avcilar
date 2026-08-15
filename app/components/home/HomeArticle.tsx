@@ -44,9 +44,10 @@ export const HomeArticle = async ({ lang }: Props) => {
   return (
     <article className={styles.articleContainer}>
       {/* p1 — her zaman görünür, CSS animasyonu */}
-      <p className={`${styles.paragraph} ${anim.fadeUp1}`}>
-        {content.p1}
-      </p>
+      <p 
+        className={`${styles.paragraph} ${anim.fadeUp1}`}
+        dangerouslySetInnerHTML={{ __html: content.p1 }}
+      />
 
       {/* h2 — her zaman görünür */}
       <h2 className={`${styles.heading} ${anim.fadeUp2}`}>
@@ -54,9 +55,10 @@ export const HomeArticle = async ({ lang }: Props) => {
       </h2>
 
       {/* p2 — her zaman görünür */}
-      <p className={`${styles.paragraph} ${anim.fadeUp3}`}>
-        {content.p2}
-      </p>
+      <p 
+        className={`${styles.paragraph} ${anim.fadeUp3}`}
+        dangerouslySetInnerHTML={{ __html: content.p2 }}
+      />
 
       {/* Genişleyen içerik — tıklanınca açılır (SEO açısından da HTML'de mevcut) */}
       <ExpandableArticle
