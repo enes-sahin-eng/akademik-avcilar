@@ -2069,31 +2069,31 @@
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
-      "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
-      "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
-      "items": [
-        {
-          "q": "İyi bir İngilizce kursu nasıl seçilir?",
-          "a": "İyi bir İngilizce kursu seçerken akreditasyon durumuna, öğretmenlerin tecrübeleri ve anlatım tarzlarına, program içeriğine, gerçek öğrenci yorumlarına ve kursun fiyatına dikkat etmek önemlidir. Tüm bu faktörleri göz önünde bulundurarak ve geniş bir araştırma yaparak kendinize en uygun İngilizce kursunu seçebilirsiniz."
-        },
-        {
-          "q": "İngilizce kurslarında uygulanan öğretim metodları nelerdir?",
-          "a": "İngilizce kurslarında genellikle geleneksel sınıf eğitimi ve konuşma pratikleri yöntemleri kullanılarak, öğrencilere klasik kur sistemi öğretim deneyimi sunulur. Avcılar İngilizce Dil Kursu İngilizce kurslarında ise klasik kur sisteminden uzak, çocuklara ve yetişkinlere özgü öğretim sistemi uygulanmaktadır. Bu özel öğretim sistemi, öğrencilerin dil becerilerini geliştirmelerine ve özgüvenle iletişim kurmalarına destek olur. Bu yöntem, dil öğrenme deneyimini daha etkili ve keyifli hale getirerek öğrencilerin motivasyonunu yüksek tutmayı amaçlar."
-        },
-        {
-          "q": "İngilizce kurslarındaki öğretmenler genellikle hangi eğitim ve deneyime sahiptir?",
-          "a": "İngilizce kurslarındaki öğretmenler genellikle yüksek lisans veya doktora derecesine sahip, dil öğretimi konusunda uzmanlaşmış ve geniş deneyime sahip eğitimcilerdir. Genel olarak İngilizce kursundaki öğretmenler uluslararası sertifikasyon programlarına katılarak kendilerini sürekli olarak geliştirmekte ve güncel dil öğretim yöntemlerini takip etmektedirler. Bu sayede öğrencilere daha etkili, özgün ve motive edici bir öğrenme deneyimi sunabilmektedirler."
-        },
-        {
-          "q": "İngilizce kursunda hangi sertifikaları alabilirim?",
-          "a": "İngilizce kursları genellikle farklı dil seviyelerine yönelik sertifika programları sunar. Örneğin, TOEFL (Test of English as a Foreign Language), IELTS (International English Language Testing System), Cambridge English sertifikaları gibi uluslararası geçerliliği olan dil sınavlarına hazırlık programlarına katılarak bu sınavlardan belirli bir puan alabilir ve ilgili sertifikayı elde edebilirsiniz. Ayrıca, kursun sunduğu içeriğe bağlı olarak özel amaçlı İngilizce sertifikaları da alabilirsiniz, örneğin iş İngilizcesi, akademik İngilizce veya konuşma becerileri gibi alanlarda sertifikasyonlar elde edebilirsiniz. Bu sertifikalar, dil yeteneklerinizi belgeleyerek kariyerinizde veya eğitim hayatınızda faydalı olabilir."
-        },
-        {
-          "q": "İngilizce kurslarına nasıl kayıt olabilirim?",
-          "a": "İngilizce kurslarına kayıt olmak oldukça kolaydır ve genellikle çevrimiçi başvuru yaparak veya kurs merkezine giderek kayıt işlemlerini tamamlayabilirsiniz. İlk adım olarak, tercih ettiğiniz İngilizce kursu hakkında bilgi almak ve kayıt şartlarını öğrenmek için kursun resmi web sitesini ziyaret edebilir veya yetkililerle iletişime geçebilirsiniz. Kayıt için genellikle kimlik belgesi, önceki eğitim düzeyine dair belgeler ve varsa dil yeterlilik sertifikaları gibi belgelerin verilmesi sizin öğrenim sürecindeki program oluşumunuzun sağlanması açısından daha etkili olur. Kayıt sürecinde ödeme planı ve kurs programı gibi detaylar da belirlenir ve kayıt işlemi tamamlandıktan sonra kursa katılımınız için gerekli bilgiler tarafınıza iletilir."
-        }
-      ]
-    },
+ "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+ "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
+ "items": [
+  {
+   "q": "İlkokul çağındaki çocuğum için doğru İngilizce kursu nasıl seçilir?",
+   "a": "Çocuğunuz için kurs seçerken yaş grubuna özel müfredat sunup sunmadığına, eğitmenlerin çocuk pedagojisi konusunda deneyimine, oyun ve aktivite temelli öğretim yöntemlerine ve sınıf mevcutlarına dikkat etmelisiniz. Deneme dersi alarak çocuğunuzun kursla nasıl bir uyum sağladığını gözlemlemeniz de faydalı olur."
+  },
+  {
+   "q": "İlkokul öğrencilerine İngilizce nasıl öğretiliyor?",
+   "a": "İlkokul çağındaki öğrenciler için klasik gramer ağırlıklı anlatım yerine; şarkı, oyun, drama ve görsel materyallerle desteklenen, eğlenceli ve etkileşimli bir öğretim yöntemi uyguluyoruz. Bu yaklaşım, çocukların dile karşı olumlu bir tutum geliştirmesini ve öğrenmeyi doğal bir sürece dönüştürmesini sağlar."
+  },
+  {
+   "q": "İlkokul kademesindeki eğitmenler ne tür bir deneyime sahip?",
+   "a": "İlkokul sınıflarımızdaki eğitmenlerimiz, çocuk gelişimi ve pedagoji konusunda deneyimli, çocuklarla etkili iletişim kurabilen ve dersi eğlenceli hale getirebilen uzmanlardan oluşur. Düzenli olarak çocuklara yönelik güncel öğretim tekniklerini takip ederler."
+  },
+  {
+   "q": "Çocuğum kurs sonunda hangi seviyeye ulaşır?",
+   "a": "Çocuğunuz, yaşına ve başlangıç seviyesine göre CEFR standartlarına uygun bir ilerleme kaydeder; temel kelime dağarcığı, basit cümle kurma ve günlük konuşma becerilerini kazanarak bir sonraki eğitim kademesine güçlü bir başlangıç yapar."
+  },
+  {
+   "q": "Çocuğumu kursa nasıl kaydettirebilirim?",
+   "a": "Öncelikle ücretsiz seviye belirleme değerlendirmesi için bizimle iletişime geçebilirsiniz. Değerlendirme sonrasında çocuğunuzun yaşına ve seviyesine en uygun sınıfa yerleştirilir; kayıt işlemleri kimlik ve iletişim bilgileri ile birkaç dakika içinde tamamlanır."
+  }
+ ]
+},
     "info": {
       "title": "İlköğretim İngilizce Kursları - Çocuk İngilizce Kursu",
       "description": [
@@ -8578,72 +8578,72 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Almanca Eğitimi",
-      "cardTitle": "VIP Sınıf Konforu",
-      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Almancayı doğal akışında ve etkili şekilde öğrenin.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Aile birleşimi için dil şartı herkes için geçerli mi?",
-          "a": "Asgari 18 yaş sınırı bulunmakla birlikte prensip olarak zorunludur. Ancak üniversite (lisans vb.) diplomasi olanlar, Mülteci statüsüne sahip kişiler veya AB vatandaşlarının eşleri için bazı uyum gereksinimi istisnaları ve muafiyetler söz konusudur."
-        },
-        {
-          "q": "Sınıflarınız kaç kişilik?",
-          "a": "Şubelerimizde eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Ücretsiz Seviye Tespiti",
-          "desc": "Eğitime başlamadan önce seviyeniz ölçülür ve size en uygun eğitim programına yerleştirilirsiniz.",
-          "icon": "Users"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Türkçe Gramer Avantajı",
-          "desc": "Öğrencilerin Türkçe dil bilgisi hakimiyetinden faydalanılarak Almanca gramer mantığının hızlı kavratılması.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Modeller",
-          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online eğitim seçenekleri.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu?",
+ "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Almanca Eğitimi",
+ "cardTitle": "VIP Sınıf Konforu",
+ "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Almancayı doğal akışında ve etkili şekilde öğrenin.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Aile birleşimi için dil şartı herkes için geçerli mi?",
+   "a": "Asgari 18 yaş sınırı bulunmakla birlikte prensip olarak zorunludur. Ancak üniversite (lisans vb.) diplomasi olanlar, Mülteci statüsüne sahip kişiler veya AB vatandaşlarının eşleri için bazı uyum gereksinimi istisnaları ve muafiyetler söz konusudur."
+  },
+  {
+   "q": "Sınıflarınız kaç kişilik?",
+   "a": "Almanca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Ücretsiz Seviye Tespiti",
+   "desc": "Almanca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+   "icon": "Users"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Goethe ve TestDaF sınav formatlarına uygun, güncel ve nitelikli Almanca kaynakları.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Türkçe Gramer Avantajı",
+   "desc": "Öğrencilerin Türkçe dil bilgisi hakimiyetinden faydalanılarak Almanca gramer mantığının hızlı kavratılması.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Modeller",
+   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Almanca eğitimi seçenekleri.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Size En Uygun Eğitim Modelini Seçin",
-      "faceToFace": {
-        "title": "Örgün (Yüz Yüze) Eğitim",
-        "badge": "KAMPÜSLERİMİZDE",
-        "desc": "İstanbul (Kadıköy, Beşiktaş), İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
-        "features": [
-          "VIP Sınıf (4-6 Kişilik)",
-          "Anında Hata Düzeltme ve Pratik",
-          "Akran Etkileşimi (Diyalog)",
-          "Uzman Eğitmenle Birebir İlgi"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      },
-      "online": {
-        "title": "Online (Uzaktan) Eğitim",
-        "desc": "Dil eğitimini kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-        "features": [
-          "Canlı ve İnteraktif Dersler",
-          "Online Birebir (Özel Ders) İmkanı",
-          "Dijital Yayınlara Anında Erişim",
-          "Zaman ve Mekan Özgürlüğü"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      }
-    },
+ "title": "Size En Uygun Eğitim Modelini Seçin",
+ "faceToFace": {
+  "title": "Örgün (Yüz Yüze) Eğitim",
+  "badge": "KAMPÜSLERİMİZDE",
+  "desc": "İstanbul (Kadıköy, Beşiktaş), İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
+  "features": [
+   "VIP Sınıf (4-6 Kişilik)",
+   "Anında Hata Düzeltme ve Pratik",
+   "Akran Etkileşimi (Diyalog)",
+   "Uzman Eğitmenle Birebir İlgi"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ },
+ "online": {
+  "title": "Online (Uzaktan) Eğitim",
+  "desc": "Almanca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+  "features": [
+   "Canlı ve İnteraktif Dersler",
+   "Online Birebir (Özel Ders) İmkanı",
+   "Dijital Yayınlara Anında Erişim",
+   "Zaman ve Mekan Özgürlüğü"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ }
+},
     "faq": {
       "title": "Almanca Eğitimi ve Süreçler Hakkında Sıkça Sorulanlar",
       "items": [
@@ -10967,72 +10967,72 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi İspanyolca Eğitimi",
-      "cardTitle": "VIP Sınıf Konforu",
-      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak İspanyolcayı doğal akışında ve etkili şekilde öğrenin.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İspanyolca öğrenmek zor mu?",
-          "a": "Hayır, İspanyolca Avrupa Roman dili ailesinden gelen, gramer yapısı oldukça düzenli ve telaffuzu kolay bir dildir. Yabancı dil öğrenmeye yeni başlayanlar için harika ve önemli bir tercihtir."
-        },
-        {
-          "q": "Sınıflarınız kaç kişilik?",
-          "a": "Şubelerimizde eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Ücretsiz Seviye Tespiti",
-          "desc": "Eğitime başlamadan önce seviyeniz ölçülür ve size en uygun eğitim programına yerleştirilirsiniz.",
-          "icon": "Users"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Kolay Gramer Yapısı",
-          "desc": "Roman dili ailesi sayesinde Türk öğrencilerin İspanyolca gramerini hızla kavramasını sağlıyoruz.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Modeller",
-          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online eğitim seçenekleri.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu?",
+ "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi İspanyolca Eğitimi",
+ "cardTitle": "VIP Sınıf Konforu",
+ "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak İspanyolcayı doğal akışında ve etkili şekilde öğrenin.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "İspanyolca öğrenmek zor mu?",
+   "a": "Hayır, İspanyolca Avrupa Roman dili ailesinden gelen, gramer yapısı oldukça düzenli ve telaffuzu kolay bir dildir. Yabancı dil öğrenmeye yeni başlayanlar için harika ve önemli bir tercihtir."
+  },
+  {
+   "q": "Sınıflarınız kaç kişilik?",
+   "a": "İspanyolca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Ücretsiz Seviye Tespiti",
+   "desc": "İspanyolca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+   "icon": "Users"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "DELE sınav formatına uygun, güncel ve nitelikli İspanyolca kaynakları.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Kolay Gramer Yapısı",
+   "desc": "Roman dili ailesi sayesinde Türk öğrencilerin İspanyolca gramerini hızla kavramasını sağlıyoruz.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Modeller",
+   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online İspanyolca eğitimi seçenekleri.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Size En Uygun Eğitim Modelini Seçin",
-      "faceToFace": {
-        "title": "Örgün (Yüz Yüze) Eğitim",
-        "badge": "KAMPÜSLERİMİZDE",
-        "desc": "İstanbul, İzmir, Ankara, Bursa, Eskişehir ve Tekirdağ kampüslerimizde 4-6 kişilik VIP sınıflar.",
-        "features": [
-          "VIP Sınıf (4-6 Kişilik)",
-          "Anında Hata Düzeltme ve Pratik",
-          "Akran Etkileşimi (Diyalog)",
-          "Uzman Eğitmenle Birebir İlgi"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      },
-      "online": {
-        "title": "Online (Uzaktan) Eğitim",
-        "desc": "Dil eğitimini kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-        "features": [
-          "Canlı ve İnteraktif Dersler",
-          "Online Birebir (Özel Ders) İmkanı",
-          "Dijital Yayınlara Anında Erişim",
-          "Zaman ve Mekan Özgürlüğü"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      }
-    },
+ "title": "Size En Uygun Eğitim Modelini Seçin",
+ "faceToFace": {
+  "title": "Örgün (Yüz Yüze) Eğitim",
+  "badge": "KAMPÜSLERİMİZDE",
+  "desc": "İstanbul, İzmir, Ankara, Bursa, Eskişehir ve Tekirdağ kampüslerimizde 4-6 kişilik VIP sınıflar.",
+  "features": [
+   "VIP Sınıf (4-6 Kişilik)",
+   "Anında Hata Düzeltme ve Pratik",
+   "Akran Etkileşimi (Diyalog)",
+   "Uzman Eğitmenle Birebir İlgi"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ },
+ "online": {
+  "title": "Online (Uzaktan) Eğitim",
+  "desc": "İspanyolca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+  "features": [
+   "Canlı ve İnteraktif Dersler",
+   "Online Birebir (Özel Ders) İmkanı",
+   "Dijital Yayınlara Anında Erişim",
+   "Zaman ve Mekan Özgürlüğü"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ }
+},
     "faq": {
       "title": "İspanyolca Eğitimi Hakkında Sıkça Sorulanlar",
       "items": [
@@ -11202,72 +11202,72 @@
       }
     ],
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Rusça Eğitimi",
-      "cardTitle": "VIP Sınıf Konforu",
-      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Rusçayı doğal akışında ve etkili şekilde öğrenin.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Rusça öğrenmek zor mu?",
-          "a": "Kiril alfabesi başta farklı görünse de sistematik bir şekilde öğretildiğinde birkaç hafta içinde rahat okunabilir hale gelir. Rusça gramer yapısı düzenlidir ve Türkçe ile bazı yapısal benzerlikler taşır."
-        },
-        {
-          "q": "Sınıflarınız kaç kişilik?",
-          "a": "Şubelerimizde eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Ücretsiz Seviye Tespiti",
-          "desc": "Eğitime başlamadan önce seviyeniz ölçülür ve size en uygun eğitim programına yerleştirilirsiniz.",
-          "icon": "Users"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Köklü kurumumuzun eğitim modeline uygun, güncel ve nitelikli yabancı dil kaynakları.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Kiril Alfabesi Kolaylığı",
-          "desc": "Kiril alfabesini sistematik olarak öğreterek kısa sürede okuryazarlık kazandırıyoruz.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Modeller",
-          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online eğitim seçenekleri.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu?",
+ "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Rusça Eğitimi",
+ "cardTitle": "VIP Sınıf Konforu",
+ "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Rusçayı doğal akışında ve etkili şekilde öğrenin.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Rusça öğrenmek zor mu?",
+   "a": "Kiril alfabesi başta farklı görünse de sistematik bir şekilde öğretildiğinde birkaç hafta içinde rahat okunabilir hale gelir. Rusça gramer yapısı düzenlidir ve Türkçe ile bazı yapısal benzerlikler taşır."
+  },
+  {
+   "q": "Sınıflarınız kaç kişilik?",
+   "a": "Rusça sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Ücretsiz Seviye Tespiti",
+   "desc": "Rusça eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+   "icon": "Users"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "TORFL sınav formatına uygun, güncel ve nitelikli Rusça kaynakları.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Kiril Alfabesi Kolaylığı",
+   "desc": "Kiril alfabesini sistematik olarak öğreterek kısa sürede okuryazarlık kazandırıyoruz.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Modeller",
+   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Rusça eğitimi seçenekleri.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Size En Uygun Eğitim Modelini Seçin",
-      "faceToFace": {
-        "title": "Örgün (Yüz Yüze) Eğitim",
-        "badge": "KAMPÜSLERİMİZDE",
-        "desc": "İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
-        "features": [
-          "VIP Sınıf (4-6 Kişilik)",
-          "Anında Hata Düzeltme ve Pratik",
-          "Akran Etkileşimi (Diyalog)",
-          "Uzman Eğitmenle Birebir İlgi"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      },
-      "online": {
-        "title": "Online (Uzaktan) Eğitim",
-        "desc": "Dil eğitimini kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-        "features": [
-          "Canlı ve İnteraktif Dersler",
-          "Online Birebir (Özel Ders) İmkanı",
-          "Dijital Yayınlara Anında Erişim",
-          "Zaman ve Mekan Özgürlüğü"
-        ],
-        "btnWhatsapp": "WhatsApp Bilgi Hattı",
-        "btnForm": "Ön Bilgi Formu"
-      }
-    },
+ "title": "Size En Uygun Eğitim Modelini Seçin",
+ "faceToFace": {
+  "title": "Örgün (Yüz Yüze) Eğitim",
+  "badge": "KAMPÜSLERİMİZDE",
+  "desc": "İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
+  "features": [
+   "VIP Sınıf (4-6 Kişilik)",
+   "Anında Hata Düzeltme ve Pratik",
+   "Akran Etkileşimi (Diyalog)",
+   "Uzman Eğitmenle Birebir İlgi"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ },
+ "online": {
+  "title": "Online (Uzaktan) Eğitim",
+  "desc": "Rusça eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+  "features": [
+   "Canlı ve İnteraktif Dersler",
+   "Online Birebir (Özel Ders) İmkanı",
+   "Dijital Yayınlara Anında Erişim",
+   "Zaman ve Mekan Özgürlüğü"
+  ],
+  "btnWhatsapp": "WhatsApp Bilgi Hattı",
+  "btnForm": "Ön Bilgi Formu"
+ }
+},
     "faq": {
       "title": "Rusça Eğitimi Hakkında Sıkça Sorulanlar",
       "items": [

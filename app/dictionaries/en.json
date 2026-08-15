@@ -2063,31 +2063,31 @@
       "formDisclaimer": "By filling out the form, I accept the Legal Warning/Terms of Use."
     },
     "faq": {
-      "title": "Frequently Asked Questions About English Courses",
-      "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
-      "items": [
-        {
-          "q": "How to choose a good English course?",
-          "a": "When choosing a good English course, it is important to pay attention to accreditation status, teachers' experiences and teaching styles, program content, real student reviews, and the price of the course. By considering all these factors and doing extensive research, you can choose the most suitable English course for yourself."
-        },
-        {
-          "q": "What teaching methods are applied in English courses?",
-          "a": "English courses generally offer students a traditional level-based teaching experience using traditional classroom education and speaking practice methods. At Avcılar English Language Course English courses, however, a unique teaching system designed specifically for children and adults is applied, far from the classic level system. This special teaching system supports students in improving their language skills and communicating confidently. This method aims to keep students' motivation high by making the language learning experience more effective and enjoyable."
-        },
-        {
-          "q": "What education and experience do teachers in English courses generally have?",
-          "a": "Teachers in English courses are generally educators who have master's or doctoral degrees, specialize in language teaching, and have extensive experience. In general, teachers in our English courses continuously improve themselves by participating in international certification programs and following current language teaching methods. In this way, they can offer students a more effective, original, and motivating learning experience."
-        },
-        {
-          "q": "What certificates can I get from an English course?",
-          "a": "English courses generally offer certificate programs for different language levels. For example, by participating in preparation programs for internationally recognized language exams such as TOEFL, IELTS, and Cambridge English certificates, you can get a specific score from these exams and obtain the relevant certificate. Depending on the content offered by the course, you can also get English certificates for special purposes, such as business English, academic English, or speaking skills. These certificates can be beneficial in your career or educational life by documenting your language skills."
-        },
-        {
-          "q": "How can I enroll in English courses?",
-          "a": "Enrolling in English courses is quite easy, and you can generally complete the registration process by applying online or going to the course center. As a first step, you can visit the official website of the course or contact the authorities to get information about the English course you prefer and learn the registration requirements. Providing documents such as ID, documents regarding previous education level, and language proficiency certificates (if any) during registration is more effective for creating your program during the learning process. Details such as the payment plan and course schedule are also determined during the registration process, and the necessary information for your participation in the course is sent to you after the registration is complete."
-        }
-      ]
-    },
+ "title": "Frequently Asked Questions About English Courses",
+ "desc": "We shed light on your language learning process by answering the most frequently asked questions about English courses.",
+ "items": [
+  {
+   "q": "How do I choose the right English course for my primary-school-age child?",
+   "a": "When choosing a course for your child, look for an age-specific curriculum, instructors experienced in child pedagogy, play- and activity-based teaching methods, and reasonable class sizes. Taking a trial lesson to see how your child settles in is also helpful."
+  },
+  {
+   "q": "How is English taught to primary school students?",
+   "a": "Instead of traditional grammar-heavy instruction, we use songs, games, drama, and visual materials to create a fun, interactive learning method for primary-school-age children. This approach helps children develop a positive attitude toward the language and turns learning into a natural process."
+  },
+  {
+   "q": "What kind of experience do the primary-level instructors have?",
+   "a": "Our primary-level instructors are experienced in child development and pedagogy, skilled at communicating effectively with children, and able to make lessons enjoyable. They regularly follow up-to-date teaching techniques designed for children."
+  },
+  {
+   "q": "What level will my child reach by the end of the course?",
+   "a": "Depending on your child's age and starting level, they'll progress in line with CEFR standards, gaining basic vocabulary, simple sentence-building, and everyday conversation skills that give them a strong start at the next stage of education."
+  },
+  {
+   "q": "How do I enrol my child in the course?",
+   "a": "You can start by contacting us for a free level assessment. After the assessment, your child is placed in the class best suited to their age and level; enrolment is completed within minutes with identification and contact details."
+  }
+ ]
+},
     "info": {
       "title": "Primary School English Courses - English for Kids",
       "description": [
@@ -8515,72 +8515,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "The Best German Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn German naturally and effectively in small, 4-6 person classes away from crowds, receiving private-lesson quality education.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is the language requirement for family reunification applicable to everyone?",
-          "a": "While there is a minimum age limit of 18, it is mandatory in principle. However, there are certain integration requirement exceptions and exemptions for individuals with university degrees (bachelor's, etc.), refugee status, or spouses of EU citizens."
-        },
-        {
-          "q": "How many students are in your classes?",
-          "a": "In order to maximize education quality at our branches, we implement a VIP class concept of 4-6 people with private tutoring quality."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Placement",
-          "desc": "Your level is measured before starting education, and you are placed in the program most suitable for you.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Up-to-date and qualified foreign language resources aligned with our well-established institution's educational model.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Turkish Grammar Advantage",
-          "desc": "Rapidly instilling German grammar logic by leveraging students' mastery of Turkish grammar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "Formal classroom lessons, one-on-one private lessons, or online education options according to your needs.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "The Best German Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn German naturally and effectively in small, 4-6 person classes away from crowds, receiving private-lesson quality education.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is the language requirement for family reunification applicable to everyone?",
+   "a": "While there is a minimum age limit of 18, it is mandatory in principle. However, there are certain integration requirement exceptions and exemptions for individuals with university degrees (bachelor's, etc.), refugee status, or spouses of EU citizens."
+  },
+  {
+   "q": "How many students are in your classes?",
+   "a": "In our German classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Placement",
+   "desc": "Your level is measured before starting your German course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified German resources aligned with the Goethe and TestDaF exam formats.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Turkish Grammar Advantage",
+   "desc": "Rapidly instilling German grammar logic by leveraging students' mastery of Turkish grammar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online German course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Education Model Most Suitable for You",
-      "faceToFace": {
-        "title": "Formal (Face-to-Face) Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes of 4-6 people at our Istanbul (Kadikoy, Besiktas), Izmir, Ankara, Bursa, and Eskisehir campuses.",
-        "features": [
-          "VIP Class (4-6 People)",
-          "Instant Error Correction and Practice",
-          "Peer Interaction (Dialogue)",
-          "One-on-One Attention with Expert Instructor"
-        ],
-        "btnWhatsapp": "WhatsApp Information Line",
-        "btnForm": "Pre-Information Form"
-      },
-      "online": {
-        "title": "Online (Distance) Education",
-        "desc": "Complete your language education in your own comfort zone, without losing time, via our interactive digital platforms.",
-        "features": [
-          "Live and Interactive Lessons",
-          "Online One-on-One (Private Lesson) Opportunity",
-          "Instant Access to Digital Publications",
-          "Freedom of Time and Location"
-        ],
-        "btnWhatsapp": "WhatsApp Information Line",
-        "btnForm": "Pre-Information Form"
-      }
-    },
+ "title": "Choose the Education Model Most Suitable for You",
+ "faceToFace": {
+  "title": "Formal (Face-to-Face) Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes of 4-6 people at our Istanbul (Kadikoy, Besiktas), Izmir, Ankara, Bursa, and Eskisehir campuses.",
+  "features": [
+   "VIP Class (4-6 People)",
+   "Instant Error Correction and Practice",
+   "Peer Interaction (Dialogue)",
+   "One-on-One Attention with Expert Instructor"
+  ],
+  "btnWhatsapp": "WhatsApp Information Line",
+  "btnForm": "Pre-Information Form"
+ },
+ "online": {
+  "title": "Online (Distance) Education",
+  "desc": "Complete your German education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live and Interactive Lessons",
+   "Online One-on-One (Private Lesson) Opportunity",
+   "Instant Access to Digital Publications",
+   "Freedom of Time and Location"
+  ],
+  "btnWhatsapp": "WhatsApp Information Line",
+  "btnForm": "Pre-Information Form"
+ }
+},
     "faq": {
       "title": "Frequently Asked Questions About German Education and Processes",
       "items": [
@@ -10904,72 +10904,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course Language Schools?",
-      "subtitle": "Best Spanish Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn Spanish naturally in small 4-6 person VIP classes with personal attention.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is Spanish difficult to learn?",
-          "a": "No, Spanish belongs to the Romance language family and has a very regular grammar structure. It is one of the easiest languages to learn."
-        },
-        {
-          "q": "How many students per class?",
-          "a": "We apply VIP class concepts with 4-6 students for maximum education quality."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Assessment",
-          "desc": "Your level is measured before starting and you are placed in the most suitable program.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Up-to-date and quality foreign language resources.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Easy Grammar",
-          "desc": "Romance language family enables Turkish students to grasp Spanish grammar quickly.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "In-class, private, or online education options.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course Language Schools?",
+ "subtitle": "Best Spanish Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn Spanish naturally in small 4-6 person VIP classes with personal attention.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is Spanish difficult to learn?",
+   "a": "No, Spanish belongs to the Romance language family and has a very regular grammar structure. It is one of the easiest languages to learn."
+  },
+  {
+   "q": "How many students per class?",
+   "a": "In our Spanish classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Assessment",
+   "desc": "Your level is measured before starting your Spanish course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified Spanish resources aligned with the DELE exam format.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Easy Grammar",
+   "desc": "Romance language family enables Turkish students to grasp Spanish grammar quickly.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online Spanish course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose the Education Model That Suits You",
-      "faceToFace": {
-        "title": "In-Person Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes of 4-6 students at our campuses.",
-        "features": [
-          "VIP Class (4-6 Students)",
-          "Instant Error Correction",
-          "Peer Interaction (Dialogue)",
-          "Expert Instructor Attention"
-        ],
-        "btnWhatsapp": "WhatsApp Info Line",
-        "btnForm": "Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Complete your education in the comfort of your own space with our interactive digital platforms.",
-        "features": [
-          "Live Interactive Classes",
-          "Online Private Lessons",
-          "Instant Digital Resource Access",
-          "Time and Location Freedom"
-        ],
-        "btnWhatsapp": "WhatsApp Info Line",
-        "btnForm": "Info Form"
-      }
-    },
+ "title": "Choose the Education Model That Suits You",
+ "faceToFace": {
+  "title": "In-Person Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes of 4-6 students at our campuses.",
+  "features": [
+   "VIP Class (4-6 Students)",
+   "Instant Error Correction",
+   "Peer Interaction (Dialogue)",
+   "Expert Instructor Attention"
+  ],
+  "btnWhatsapp": "WhatsApp Info Line",
+  "btnForm": "Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Complete your Spanish education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live Interactive Classes",
+   "Online Private Lessons",
+   "Instant Digital Resource Access",
+   "Time and Location Freedom"
+  ],
+  "btnWhatsapp": "WhatsApp Info Line",
+  "btnForm": "Info Form"
+ }
+},
     "faq": {
       "title": "Frequently Asked Questions About Spanish Education",
       "items": [
@@ -11137,72 +11137,72 @@
       }
     ],
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Best Russian Education with Permanent Learning Techniques",
-      "cardTitle": "VIP Class Comfort",
-      "cardDesc": "Learn Russian naturally in small 4-6 person VIP classes.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "Is Russian difficult to learn?",
-          "a": "The Cyrillic alphabet may look different at first, but with systematic teaching it becomes readable within a few weeks."
-        },
-        {
-          "q": "How many students per class?",
-          "a": "We apply VIP class concepts with 4-6 students."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Free Level Assessment",
-          "desc": "Your level is measured before starting.",
-          "icon": "Users"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Quality language resources.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Cyrillic Made Easy",
-          "desc": "Systematic Cyrillic alphabet teaching.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Models",
-          "desc": "In-class, private, or online options.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Best Russian Education with Permanent Learning Techniques",
+ "cardTitle": "VIP Class Comfort",
+ "cardDesc": "Learn Russian naturally in small 4-6 person VIP classes.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "Is Russian difficult to learn?",
+   "a": "The Cyrillic alphabet may look different at first, but with systematic teaching it becomes readable within a few weeks."
+  },
+  {
+   "q": "How many students per class?",
+   "a": "In our Russian classes, we implement a VIP class concept of 4-6 people with private tutoring quality to maximise education quality."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Free Level Assessment",
+   "desc": "Your level is measured before starting your Russian course, and you are placed in the class most suitable for you.",
+   "icon": "Users"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Up-to-date, qualified Russian resources aligned with the TORFL exam format.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Cyrillic Made Easy",
+   "desc": "Systematic Cyrillic alphabet teaching.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Models",
+   "desc": "Formal classroom lessons, one-on-one private lessons, or online Russian course options according to your needs.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "models": {
-      "title": "Choose Your Education Model",
-      "faceToFace": {
-        "title": "In-Person Education",
-        "badge": "AT OUR CAMPUSES",
-        "desc": "VIP classes at our campuses.",
-        "features": [
-          "VIP Class (4-6)",
-          "Instant Correction",
-          "Peer Interaction",
-          "Expert Instructor"
-        ],
-        "btnWhatsapp": "WhatsApp Info",
-        "btnForm": "Info Form"
-      },
-      "online": {
-        "title": "Online Education",
-        "desc": "Complete your education comfortably with our digital platforms.",
-        "features": [
-          "Live Interactive Classes",
-          "Online Private Lessons",
-          "Digital Resource Access",
-          "Time Freedom"
-        ],
-        "btnWhatsapp": "WhatsApp Info",
-        "btnForm": "Info Form"
-      }
-    },
+ "title": "Choose Your Education Model",
+ "faceToFace": {
+  "title": "In-Person Education",
+  "badge": "AT OUR CAMPUSES",
+  "desc": "VIP classes at our campuses.",
+  "features": [
+   "VIP Class (4-6)",
+   "Instant Correction",
+   "Peer Interaction",
+   "Expert Instructor"
+  ],
+  "btnWhatsapp": "WhatsApp Info",
+  "btnForm": "Info Form"
+ },
+ "online": {
+  "title": "Online Education",
+  "desc": "Complete your Russian education in your own comfort zone, without losing time, via our interactive digital platforms.",
+  "features": [
+   "Live Interactive Classes",
+   "Online Private Lessons",
+   "Digital Resource Access",
+   "Time Freedom"
+  ],
+  "btnWhatsapp": "WhatsApp Info",
+  "btnForm": "Info Form"
+ }
+},
     "faq": {
       "title": "FAQ About Russian Education",
       "items": [
