@@ -129,7 +129,7 @@ export const LanguageInterestPopup = ({ lang, dict }: Props) => {
 
   useEffect(() => {
     if (sessionStorage.getItem("langPopupSeen")) return;
-    const timer = setTimeout(() => setVisible(true), 2500);
+    const timer = setTimeout(() => setVisible(true), 8000);
     return () => clearTimeout(timer);
   }, []);
 
