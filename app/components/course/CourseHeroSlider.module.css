@@ -137,13 +137,14 @@
 
 .whatsappBtn {
   background-color: #25d366;
-  color: #fff;
+  color: #0f3d23;
   border: 1px solid #25d366;
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
 }
 
 .whatsappBtn:hover {
   background-color: #1ebe5d;
+  color: #0f3d23;
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(37, 211, 102, 0.4);
 }

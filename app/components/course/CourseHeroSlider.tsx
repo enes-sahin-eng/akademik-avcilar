@@ -107,7 +107,7 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
           </div>
 
           <div className={styles.inputGroup}>
-            <select className={styles.input} defaultValue="" required>
+            <select className={styles.input} defaultValue="" required aria-label={heroData.branchPlaceholder || "Şube Seçiniz"}>
               <option value="" disabled hidden>{heroData.branchPlaceholder}</option>
               {campuses.map((campus: any, index: number) => (
                 <option key={index} value={campus.name}>
