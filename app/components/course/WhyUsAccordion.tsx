@@ -40,7 +40,7 @@ export const WhyUsAccordion = ({ faqs, styles }: Props) => {
 
             {/* İçerik DOM'da hep var, sadece CSS ile gizleniyor (SEO uyumlu) */}
             <div className={isOpen ? styles.contentOpen : styles.contentClosed}>
-              <div className={styles.accordionContent}>{faq.a}</div>
+              <div className={styles.accordionContent} dangerouslySetInnerHTML={{ __html: faq.a }} />
             </div>
           </div>
         );

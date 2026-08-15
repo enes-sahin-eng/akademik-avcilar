@@ -49,7 +49,7 @@ export const Accordion = ({ items, type = "faq", styles }: AccordionProps) => {
 
             {/* SEO Uyumlu CSS ile Gizlenen/Açılan İçerik */}
             <div className={isOpen ? styles.contentOpen : styles.contentClosed}>
-              <div className={styles.accordionBody}>{item.a}</div>
+              <div className={styles.accordionBody} dangerouslySetInnerHTML={{ __html: item.a }} />
             </div>
           </div>
         );

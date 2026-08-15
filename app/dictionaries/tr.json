@@ -839,23 +839,160 @@
       "sinav": "AKADEMİK SINAV KURSLARI"
     },
     "cards": [
-      { "id": 1, "category": "nitelikli", "title": "Prep Temel\nİngilizce Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 2, "category": "nitelikli", "title": "Prep Plus İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 3, "category": "nitelikli", "title": "İleri Seviye\nİngilizce Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 4, "category": "nitelikli", "title": "İleri Seviye Plus\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 5, "category": "nitelikli", "title": "Genel İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 6, "category": "nitelikli", "title": "İngilizce Özel Ders", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 7, "category": "nitelikli", "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 8, "category": "sinav", "title": "YDS Hazırlık Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 9, "category": "sinav", "title": "YKS-DİL (YDT)\nHazırlık Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 10, "category": "sinav", "title": "TOEFL Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 11, "category": "sinav", "title": "IELTS Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 12, "category": "sinav", "title": "Hazırlık Atlama\nKursu -\nProficiency", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 13, "category": "sinav", "title": "GMAT", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 14, "category": "sinav", "title": "Almanca Goethe\nSınavı Hazırlık\nKursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪"] },
-      { "id": 15, "category": "sinav", "title": "SAT Kursu", "img": "/sliders/gemini3.webp", "flags": ["🇬🇧"] },
-      { "id": 16, "category": "sinav", "title": "PTE Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇬🇧"] },
-      { "id": 17, "category": "sinav", "title": "TELC Kursu", "img": "/sliders/gemini2.webp", "flags": ["🇩🇪", "🇬🇧"] }
+      {
+        "id": 1,
+        "category": "nitelikli",
+        "title": "Prep Temel\nİngilizce Kursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "nitelikli",
+        "title": "Prep Plus İngilizce\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "nitelikli",
+        "title": "İleri Seviye\nİngilizce Kursu",
+        "img": "/sliders/gemini3.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "nitelikli",
+        "title": "İleri Seviye Plus\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 5,
+        "category": "nitelikli",
+        "title": "Genel İngilizce\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 6,
+        "category": "nitelikli",
+        "title": "İngilizce Özel Ders",
+        "img": "/sliders/gemini3.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 7,
+        "category": "nitelikli",
+        "title": "Kurumlara Özel /\nKurumsal İngilizce\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 8,
+        "category": "sinav",
+        "title": "YDS Hazırlık Kursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 9,
+        "category": "sinav",
+        "title": "YKS-DİL (YDT)\nHazırlık Kursu",
+        "img": "/sliders/gemini3.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 10,
+        "category": "sinav",
+        "title": "TOEFL Hazırlık\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 11,
+        "category": "sinav",
+        "title": "IELTS Hazırlık\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 12,
+        "category": "sinav",
+        "title": "Hazırlık Atlama\nKursu -\nProficiency",
+        "img": "/sliders/gemini3.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 13,
+        "category": "sinav",
+        "title": "GMAT",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 14,
+        "category": "sinav",
+        "title": "Almanca Goethe\nSınavı Hazırlık\nKursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇩🇪"
+        ]
+      },
+      {
+        "id": 15,
+        "category": "sinav",
+        "title": "SAT Kursu",
+        "img": "/sliders/gemini3.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 16,
+        "category": "sinav",
+        "title": "PTE Kursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇬🇧"
+        ]
+      },
+      {
+        "id": 17,
+        "category": "sinav",
+        "title": "TELC Kursu",
+        "img": "/sliders/gemini2.webp",
+        "flags": [
+          "🇩🇪",
+          "🇬🇧"
+        ]
+      }
     ]
   },
   "heroSlider": {
@@ -1062,50 +1199,50 @@
       "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Prep?",
- "subtitle": "Sıfırdan başlayanlar için doğru temeli kuran eğitim avantajlarımız",
- "advantages": [
-  {
-   "title": "Sıfırdan Güvenli Başlangıç",
-   "desc": "Hiç İngilizce bilmeyen ya da çok temel düzeyde olan öğrenciler için kaygısız, adım adım ilerleyen bir başlangıç programı.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Başlangıç seviyesine özel hazırlanmış, sade ve anlaşılır ders materyalleri.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Küçük gruplarla yapılan konuşma pratikleriyle daha ilk haftalardan itibaren cümle kurmaya başlarsınız.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Sınıfta öğrendiklerinizi Letslingo platformunda tekrar ederek öğrenmenizi pekiştirirsiniz.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Hiç İngilizce Bilmiyorum, Bu Kurs Bana Uygun mu?",
-   "a": "Evet, Prep programımız tam olarak sıfır seviyeden başlayan öğrenciler için tasarlanmıştır; alfabeden basit cümle kurmaya kademeli bir ilerleme sunar."
-  },
-  {
-   "q": "A1 Seviyesinde Neler Öğreneceğim?",
-   "a": "Avrupa Ortak Dil Referans Çerçevesi'ne (CEFR) uygun olarak günlük hayatta kullanılan temel kalıpları, basit soru-cevapları ve kısa cümle yapılarını öğrenirsiniz."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, dil bilgisi ezberi yerine okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir müfredat uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz, yetişkinlerin günlük hayatından konuları temel alarak hazırlanır ve düzenli olarak güncellenir."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Prep?",
+      "subtitle": "Sıfırdan başlayanlar için doğru temeli kuran eğitim avantajlarımız",
+      "advantages": [
+        {
+          "title": "Sıfırdan Güvenli Başlangıç",
+          "desc": "Hiç İngilizce bilmeyen ya da çok temel düzeyde olan öğrenciler için kaygısız, adım adım ilerleyen bir başlangıç programı.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Başlangıç seviyesine özel hazırlanmış, sade ve anlaşılır ders materyalleri.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Küçük gruplarla yapılan konuşma pratikleriyle daha ilk haftalardan itibaren cümle kurmaya başlarsınız.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Sınıfta öğrendiklerinizi Letslingo platformunda tekrar ederek öğrenmenizi pekiştirirsiniz.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hiç İngilizce Bilmiyorum, Bu Kurs Bana Uygun mu?",
+          "a": "Evet, Prep programımız tam olarak sıfır seviyeden başlayan öğrenciler için tasarlanmıştır; alfabeden basit cümle kurmaya kademeli bir ilerleme sunar."
+        },
+        {
+          "q": "A1 Seviyesinde Neler Öğreneceğim?",
+          "a": "Avrupa Ortak Dil Referans Çerçevesi'ne (CEFR) uygun olarak günlük hayatta kullanılan temel kalıpları, basit soru-cevapları ve kısa cümle yapılarını öğrenirsiniz."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, dil bilgisi ezberi yerine okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir müfredat uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz, yetişkinlerin günlük hayatından konuları temel alarak hazırlanır ve düzenli olarak güncellenir."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1185,50 +1322,50 @@
       "badge": "A2 PRE-INTERMEDIATE / ÖN ORTA SEVİYE"
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Prep Plus?",
- "subtitle": "Temel bilgilerinizi pekiştirip akıcılığa geçiş yapmanızı sağlayan avantajlarımız",
- "advantages": [
-  {
-   "title": "Temelden Akıcılığa Köprü",
-   "desc": "A1 seviyesinde öğrenilen yapıları pekiştirerek daha karmaşık cümle kurma becerisine geçiş sağlayan bir program.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "A2 seviyesine özel, kelime dağarcığını genişleten ders materyalleri.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Günlük hayattan senaryolarla desteklenen konuşma pratikleriyle özgüveninizi artırırsınız.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu üzerinden ek pratik yaparak sınıf dışında da öğrenmeye devam edersiniz.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Prep'ten Sonra Neden Prep Plus?",
-   "a": "Prep Plus, A1 seviyesinde edindiğiniz temelleri pekiştirip A2 seviyesine taşıyarak daha akıcı cümleler kurmanızı sağlar."
-  },
-  {
-   "q": "A2 Seviyesinde Neler Öğreneceğim?",
-   "a": "CEFR standartlarına uygun olarak geçmiş zaman anlatımı, günlük rutinler ve daha geniş bir kelime dağarcığı kazanırsınız."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini birlikte geliştiren dengeli bir müfredat uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz güncel konuları temel alarak hazırlanır ve öğrenci geri bildirimlerine göre düzenli olarak yenilenir."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Prep Plus?",
+      "subtitle": "Temel bilgilerinizi pekiştirip akıcılığa geçiş yapmanızı sağlayan avantajlarımız",
+      "advantages": [
+        {
+          "title": "Temelden Akıcılığa Köprü",
+          "desc": "A1 seviyesinde öğrenilen yapıları pekiştirerek daha karmaşık cümle kurma becerisine geçiş sağlayan bir program.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "A2 seviyesine özel, kelime dağarcığını genişleten ders materyalleri.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Günlük hayattan senaryolarla desteklenen konuşma pratikleriyle özgüveninizi artırırsınız.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu üzerinden ek pratik yaparak sınıf dışında da öğrenmeye devam edersiniz.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Prep'ten Sonra Neden Prep Plus?",
+          "a": "Prep Plus, A1 seviyesinde edindiğiniz temelleri pekiştirip A2 seviyesine taşıyarak daha akıcı cümleler kurmanızı sağlar."
+        },
+        {
+          "q": "A2 Seviyesinde Neler Öğreneceğim?",
+          "a": "CEFR standartlarına uygun olarak geçmiş zaman anlatımı, günlük rutinler ve daha geniş bir kelime dağarcığı kazanırsınız."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini birlikte geliştiren dengeli bir müfredat uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz güncel konuları temel alarak hazırlanır ve öğrenci geri bildirimlerine göre düzenli olarak yenilenir."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1308,50 +1445,50 @@
       "badge": "B1 INTERMEDIATE / ORTA SEVİYE"
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Academic Express?",
- "subtitle": "Orta seviyede hız kazanmak isteyenler için sunduğumuz eğitim avantajları",
- "advantages": [
-  {
-   "title": "Hızlandırılmış İlerleme",
-   "desc": "B1 seviyesindeki öğrencilerin okuma ve konuşma becerilerini kısa sürede üst seviyeye taşıyan yoğunlaştırılmış bir program.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Orta seviyeye özel, güncel konu başlıklarıyla desteklenmiş ders materyalleri.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Tartışma ve sunum odaklı konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu ile sınıf dışında da dinleme ve konuşma pratiği yapma imkanı.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Academic Express Kime Uygun?",
-   "a": "B1 (orta) seviyesindeki öğrenciler için, mevcut bilgilerini hızla pekiştirip bir üst seviyeye geçmeyi hedefleyen yoğun bir programdır."
-  },
-  {
-   "q": "B1 Seviyesinde Neler Öğreneceğim?",
-   "a": "CEFR standartlarına uygun olarak daha karmaşık cümle yapıları, günlük konuşmalarda akıcılık ve temel tartışma becerileri kazanırsınız."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini dengeli şekilde geliştiren bir müfredat uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz güncel ve aktüel konular üzerinden hazırlanır, orta seviye öğrencilerin ilgisini canlı tutacak şekilde tasarlanır."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Academic Express?",
+      "subtitle": "Orta seviyede hız kazanmak isteyenler için sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "Hızlandırılmış İlerleme",
+          "desc": "B1 seviyesindeki öğrencilerin okuma ve konuşma becerilerini kısa sürede üst seviyeye taşıyan yoğunlaştırılmış bir program.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Orta seviyeye özel, güncel konu başlıklarıyla desteklenmiş ders materyalleri.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Tartışma ve sunum odaklı konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu ile sınıf dışında da dinleme ve konuşma pratiği yapma imkanı.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Academic Express Kime Uygun?",
+          "a": "B1 (orta) seviyesindeki öğrenciler için, mevcut bilgilerini hızla pekiştirip bir üst seviyeye geçmeyi hedefleyen yoğun bir programdır."
+        },
+        {
+          "q": "B1 Seviyesinde Neler Öğreneceğim?",
+          "a": "CEFR standartlarına uygun olarak daha karmaşık cümle yapıları, günlük konuşmalarda akıcılık ve temel tartışma becerileri kazanırsınız."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini dengeli şekilde geliştiren bir müfredat uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz güncel ve aktüel konular üzerinden hazırlanır, orta seviye öğrencilerin ilgisini canlı tutacak şekilde tasarlanır."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1431,50 +1568,50 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Academic?",
- "subtitle": "Üst düzey akademik ve mesleki İngilizce hedefleyenler için sunduğumuz avantajlar",
- "advantages": [
-  {
-   "title": "Üst Seviye Terminoloji",
-   "desc": "Teknik, hukuki, tıbbi ve ticari terminolojiyi içeren cümle analizleriyle akademik ve mesleki İngilizcenizi geliştirirsiniz.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "B2-C1 seviyesine özel, phrasal verb, idiom ve collocation kullanımlarını detaylı işleyen materyaller.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "İleri düzey tartışma ve sunum pratikleriyle kendinizi üst seviyede ifade etmeyi öğrenirsiniz.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu üzerinden akademik dinleme ve konuşma pratiği yapma imkanı.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Academic Programı Kime Uygun?",
-   "a": "Temel İngilizce eğitimini tamamlamış ve üst seviyede akademik/mesleki İngilizceye ihtiyaç duyan öğrenciler için tasarlanmıştır."
-  },
-  {
-   "q": "B2-C1 Seviyesinde Neler Öğreneceğim?",
-   "a": "CEFR standartlarına uygun olarak karmaşık metinleri anlama, akademik yazılar hazırlama ve ileri düzey kelime dağarcığı kazanırsınız."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini akademik içerikler üzerinden bir arada geliştiren bir müfredat uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz güncel akademik ve mesleki konular temel alınarak hazırlanır ve düzenli olarak güncellenir."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Academic?",
+      "subtitle": "Üst düzey akademik ve mesleki İngilizce hedefleyenler için sunduğumuz avantajlar",
+      "advantages": [
+        {
+          "title": "Üst Seviye Terminoloji",
+          "desc": "Teknik, hukuki, tıbbi ve ticari terminolojiyi içeren cümle analizleriyle akademik ve mesleki İngilizcenizi geliştirirsiniz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "B2-C1 seviyesine özel, phrasal verb, idiom ve collocation kullanımlarını detaylı işleyen materyaller.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "İleri düzey tartışma ve sunum pratikleriyle kendinizi üst seviyede ifade etmeyi öğrenirsiniz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu üzerinden akademik dinleme ve konuşma pratiği yapma imkanı.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Academic Programı Kime Uygun?",
+          "a": "Temel İngilizce eğitimini tamamlamış ve üst seviyede akademik/mesleki İngilizceye ihtiyaç duyan öğrenciler için tasarlanmıştır."
+        },
+        {
+          "q": "B2-C1 Seviyesinde Neler Öğreneceğim?",
+          "a": "CEFR standartlarına uygun olarak karmaşık metinleri anlama, akademik yazılar hazırlama ve ileri düzey kelime dağarcığı kazanırsınız."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini akademik içerikler üzerinden bir arada geliştiren bir müfredat uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz güncel akademik ve mesleki konular temel alınarak hazırlanır ve düzenli olarak güncellenir."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1554,50 +1691,50 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Academic Plus?",
- "subtitle": "Kusursuz İngilizce ve simultane çeviri yetkinliği hedefleyenler için sunduğumuz avantajlar",
- "advantages": [
-  {
-   "title": "İleri Düzey Yetkinlik",
-   "desc": "C1-C2 seviyesinde, ana dile yakın bir akıcılıkla İngilizce kullanmanızı sağlayan yoğun bir program.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Simultane çeviri pratiği ve ileri düzey metin analizi içeren özel hazırlanmış materyaller.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Profesyonel ortamlara yönelik ileri düzey tartışma ve sunum pratikleriyle akıcılığınızı zirveye taşırsınız.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu üzerinden ileri düzey dinleme ve çeviri pratiği yapma imkanı.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Academic Plus Kime Uygun?",
-   "a": "C1 seviyesini tamamlamış, ana dile yakın bir akıcılık ve simultane çeviri yetkinliği hedefleyen öğrenciler için tasarlanmıştır."
-  },
-  {
-   "q": "C1-C2 Seviyesinde Neler Öğreneceğim?",
-   "a": "CEFR standartlarına uygun olarak karmaşık akademik ve profesyonel metinleri anında yorumlama, kusursuza yakın bir dil kullanımı kazanırsınız."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini ileri düzey içeriklerle bir arada geliştiren bir müfredat uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz güncel uluslararası konular ve profesyonel senaryolar temel alınarak hazırlanır."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Academic Plus?",
+      "subtitle": "Kusursuz İngilizce ve simultane çeviri yetkinliği hedefleyenler için sunduğumuz avantajlar",
+      "advantages": [
+        {
+          "title": "İleri Düzey Yetkinlik",
+          "desc": "C1-C2 seviyesinde, ana dile yakın bir akıcılıkla İngilizce kullanmanızı sağlayan yoğun bir program.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Simultane çeviri pratiği ve ileri düzey metin analizi içeren özel hazırlanmış materyaller.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Profesyonel ortamlara yönelik ileri düzey tartışma ve sunum pratikleriyle akıcılığınızı zirveye taşırsınız.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu üzerinden ileri düzey dinleme ve çeviri pratiği yapma imkanı.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Academic Plus Kime Uygun?",
+          "a": "C1 seviyesini tamamlamış, ana dile yakın bir akıcılık ve simultane çeviri yetkinliği hedefleyen öğrenciler için tasarlanmıştır."
+        },
+        {
+          "q": "C1-C2 Seviyesinde Neler Öğreneceğim?",
+          "a": "CEFR standartlarına uygun olarak karmaşık akademik ve profesyonel metinleri anında yorumlama, kusursuza yakın bir dil kullanımı kazanırsınız."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini ileri düzey içeriklerle bir arada geliştiren bir müfredat uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz güncel uluslararası konular ve profesyonel senaryolar temel alınarak hazırlanır."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1677,50 +1814,50 @@
       ]
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Genel İngilizce Programları?",
- "subtitle": "A1'den C2'ye tüm seviyelerde sunduğumuz eğitim avantajları",
- "advantages": [
-  {
-   "title": "Her Seviyeye Uygun Program",
-   "desc": "Sıfırdan ileri düzeye kadar her öğrenciye uygun, kademeli bir müfredat yapısı sunuyoruz.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Her seviyeye özel hazırlanmış, Native yazarlarca geliştirilen ders materyalleri.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Seviyenize uygun konuşma kulüpleriyle öğrendiklerinizi gerçek diyaloglara dönüştürürsünüz.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu ile dilediğiniz zaman dilediğiniz yerden derslere katılım sağlayabilirsiniz.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Hangi Seviyeden Başlamalıyım?",
-   "a": "Ücretsiz seviye belirleme sınavımızla mevcut İngilizce seviyeniz ölçülür ve size en uygun programa yerleştirilirsiniz."
-  },
-  {
-   "q": "Seviyenize Uygun Yabancı Dil Programları",
-   "a": "CEFR standartlarına uygun olarak A1'den C2'ye kadar her seviyede eğitim veriyoruz."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, sadece dil bilgisine değil; okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir modeli benimsiyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Eğitim materyallerimiz güncel ve aktüel konular kullanılarak, yetişkin öğrencilerin ilgisini canlı tutacak şekilde hazırlanır."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Genel İngilizce Programları?",
+      "subtitle": "A1'den C2'ye tüm seviyelerde sunduğumuz eğitim avantajları",
+      "advantages": [
+        {
+          "title": "Her Seviyeye Uygun Program",
+          "desc": "Sıfırdan ileri düzeye kadar her öğrenciye uygun, kademeli bir müfredat yapısı sunuyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Her seviyeye özel hazırlanmış, Native yazarlarca geliştirilen ders materyalleri.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Seviyenize uygun konuşma kulüpleriyle öğrendiklerinizi gerçek diyaloglara dönüştürürsünüz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu ile dilediğiniz zaman dilediğiniz yerden derslere katılım sağlayabilirsiniz.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hangi Seviyeden Başlamalıyım?",
+          "a": "Ücretsiz seviye belirleme sınavımızla mevcut İngilizce seviyeniz ölçülür ve size en uygun programa yerleştirilirsiniz."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "CEFR standartlarına uygun olarak A1'den C2'ye kadar her seviyede eğitim veriyoruz."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, sadece dil bilgisine değil; okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir modeli benimsiyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Eğitim materyallerimiz güncel ve aktüel konular kullanılarak, yetişkin öğrencilerin ilgisini canlı tutacak şekilde hazırlanır."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1800,81 +1937,81 @@
   },
   "akademikIngilizceLandingPage": {
     "about": {
- "title": "Akademik İngilizce Kursu ile Uluslararası Standartlarda Yetkinlik Kazanın",
- "desc": "\n  <p><strong>Akademik İngilizce Kursu</strong>, yurt dışı eğitim, akademik kariyer veya uluslararası sınavlara (YDS, YÖKDİL, TOEFL, IELTS) hazırlanan öğrenciler için özel olarak tasarlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına uygun ileri seviye bir programdır.</p>\n  <p>Programımıza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. Akademik İngilizce eğitim modelimizde; akademik <strong>okuma-yazma</strong>, ileri düzey <strong>dil bilgisi</strong> ve sınav odaklı <strong>konuşma-dinleme</strong> becerileri eş zamanlı olarak geliştirilir.</p>\n  <p>Akademik makaleler, terminoloji odaklı kaynaklar ve özgün yayınlarımızla desteklenen bu program sayesinde, akademik ortamlarda ve uluslararası sınavlarda kendinizi güvenle ifade edebileceksiniz.</p>\n",
- "skills": [
-  {
-   "id": "grammar",
-   "title": "Grammar (Dil Bilgisi)",
-   "desc": "İleri düzey <strong>cümle yapıları</strong> ve akademik metinlerde sıkça kullanılan kalıplar analiz edilir. <strong>B2-C1 seviye terminoloji</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek akademik yazım için sağlam bir altyapı oluşturulur.",
-   "icon": "BookOpen"
-  },
-  {
-   "id": "reading",
-   "title": "Reading (Okuma)",
-   "desc": "Akademik makaleler ve <strong>sınav formatındaki okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, terminoloji ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve derinliği artırılır.",
-   "icon": "BookA"
-  },
-  {
-   "id": "writing",
-   "title": "Writing (Yazma)",
-   "desc": "Akademik yazım kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, makale özeti, <strong>eleştirel okuma</strong> ve akademik cümle kurma becerileriniz uluslararası standartlarda geliştirilir.",
-   "icon": "PenTool"
-  },
-  {
-   "id": "speaking",
-   "title": "Speaking & Listening",
-   "desc": "Akademik sunum ve tartışma formatına uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde akademik ortamlarda özgüvenle iletişim kurmanın temellerini atarsınız.",
-   "icon": "Mic"
-  }
- ],
- "badge": "B2-C1 AKADEMİK SEVİYE"
-},
+      "title": "Akademik İngilizce Kursu ile Uluslararası Standartlarda Yetkinlik Kazanın",
+      "desc": "\n  <p><strong>Akademik İngilizce Kursu</strong>, yurt dışı eğitim, akademik kariyer veya uluslararası sınavlara (YDS, YÖKDİL, TOEFL, IELTS) hazırlanan öğrenciler için özel olarak tasarlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına uygun ileri seviye bir programdır.</p>\n  <p>Programımıza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. Akademik İngilizce eğitim modelimizde; akademik <strong>okuma-yazma</strong>, ileri düzey <strong>dil bilgisi</strong> ve sınav odaklı <strong>konuşma-dinleme</strong> becerileri eş zamanlı olarak geliştirilir.</p>\n  <p>Akademik makaleler, terminoloji odaklı kaynaklar ve özgün yayınlarımızla desteklenen bu program sayesinde, akademik ortamlarda ve uluslararası sınavlarda kendinizi güvenle ifade edebileceksiniz.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "İleri düzey <strong>cümle yapıları</strong> ve akademik metinlerde sıkça kullanılan kalıplar analiz edilir. <strong>B2-C1 seviye terminoloji</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek akademik yazım için sağlam bir altyapı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Akademik makaleler ve <strong>sınav formatındaki okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, terminoloji ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve derinliği artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Akademik yazım kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, makale özeti, <strong>eleştirel okuma</strong> ve akademik cümle kurma becerileriniz uluslararası standartlarda geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Akademik sunum ve tartışma formatına uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde akademik ortamlarda özgüvenle iletişim kurmanın temellerini atarsınız.",
+          "icon": "Mic"
+        }
+      ],
+      "badge": "B2-C1 AKADEMİK SEVİYE"
+    },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu Akademik İngilizce?",
- "subtitle": "Yurt dışı eğitim ve akademik kariyer hedefleyenler için sunduğumuz avantajlar",
- "advantages": [
-  {
-   "title": "Sınav ve Kariyer Odaklı Müfredat",
-   "desc": "YDS, YÖKDİL, TOEFL gibi akademik sınavlara ve yurt dışı eğitim süreçlerine yönelik hedefe özel içerik.",
-   "icon": "Award"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Akademik terminoloji ve sınav formatlarına özel hazırlanmış ders materyalleri.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Konuşma Kulüpleri",
-   "desc": "Akademik ortamlarda kullanılan ifadelere odaklanan konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Letslingo platformu üzerinden akademik dinleme ve okuma pratiği yapma imkanı.",
-   "icon": "Laptop"
-  }
- ],
- "faqs": [
-  {
-   "q": "Akademik İngilizce Kime Uygun?",
-   "a": "Yurt dışında eğitim almayı, akademik sınavlara girmeyi veya akademik kariyer yapmayı hedefleyen öğrenciler için tasarlanmıştır."
-  },
-  {
-   "q": "Seviyenize Uygun Yabancı Dil Programları",
-   "a": "CEFR standartlarına uygun olarak, hedeflediğiniz akademik sınava göre özelleştirilmiş bir müfredat sunuyoruz."
-  },
-  {
-   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
-   "a": "Evet, akademik okuma, yazma, dinleme ve konuşma becerilerini bir arada geliştiren bir model uyguluyoruz."
-  },
-  {
-   "q": "Ders İçerikleri Ne Kadar Güncel?",
-   "a": "Materyallerimiz güncel akademik makaleler ve sınav formatları temel alınarak hazırlanır ve düzenli güncellenir."
-  }
- ],
- "btnNext": "Sonraki Ayrıcalık →"
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu Akademik İngilizce?",
+      "subtitle": "Yurt dışı eğitim ve akademik kariyer hedefleyenler için sunduğumuz avantajlar",
+      "advantages": [
+        {
+          "title": "Sınav ve Kariyer Odaklı Müfredat",
+          "desc": "YDS, YÖKDİL, TOEFL gibi akademik sınavlara ve yurt dışı eğitim süreçlerine yönelik hedefe özel içerik.",
+          "icon": "Award"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Akademik terminoloji ve sınav formatlarına özel hazırlanmış ders materyalleri.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Konuşma Kulüpleri",
+          "desc": "Akademik ortamlarda kullanılan ifadelere odaklanan konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Letslingo platformu üzerinden akademik dinleme ve okuma pratiği yapma imkanı.",
+          "icon": "Laptop"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Akademik İngilizce Kime Uygun?",
+          "a": "Yurt dışında eğitim almayı, akademik sınavlara girmeyi veya akademik kariyer yapmayı hedefleyen öğrenciler için tasarlanmıştır."
+        },
+        {
+          "q": "Seviyenize Uygun Yabancı Dil Programları",
+          "a": "CEFR standartlarına uygun olarak, hedeflediğiniz akademik sınava göre özelleştirilmiş bir müfredat sunuyoruz."
+        },
+        {
+          "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+          "a": "Evet, akademik okuma, yazma, dinleme ve konuşma becerilerini bir arada geliştiren bir model uyguluyoruz."
+        },
+        {
+          "q": "Ders İçerikleri Ne Kadar Güncel?",
+          "a": "Materyallerimiz güncel akademik makaleler ve sınav formatları temel alınarak hazırlanır ve düzenli güncellenir."
+        }
+      ],
+      "btnNext": "Sonraki Ayrıcalık →"
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -2069,31 +2206,31 @@
       "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
     },
     "faq": {
- "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
- "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
- "items": [
-  {
-   "q": "İlkokul çağındaki çocuğum için doğru İngilizce kursu nasıl seçilir?",
-   "a": "Çocuğunuz için kurs seçerken yaş grubuna özel müfredat sunup sunmadığına, eğitmenlerin çocuk pedagojisi konusunda deneyimine, oyun ve aktivite temelli öğretim yöntemlerine ve sınıf mevcutlarına dikkat etmelisiniz. Deneme dersi alarak çocuğunuzun kursla nasıl bir uyum sağladığını gözlemlemeniz de faydalı olur."
-  },
-  {
-   "q": "İlkokul öğrencilerine İngilizce nasıl öğretiliyor?",
-   "a": "İlkokul çağındaki öğrenciler için klasik gramer ağırlıklı anlatım yerine; şarkı, oyun, drama ve görsel materyallerle desteklenen, eğlenceli ve etkileşimli bir öğretim yöntemi uyguluyoruz. Bu yaklaşım, çocukların dile karşı olumlu bir tutum geliştirmesini ve öğrenmeyi doğal bir sürece dönüştürmesini sağlar."
-  },
-  {
-   "q": "İlkokul kademesindeki eğitmenler ne tür bir deneyime sahip?",
-   "a": "İlkokul sınıflarımızdaki eğitmenlerimiz, çocuk gelişimi ve pedagoji konusunda deneyimli, çocuklarla etkili iletişim kurabilen ve dersi eğlenceli hale getirebilen uzmanlardan oluşur. Düzenli olarak çocuklara yönelik güncel öğretim tekniklerini takip ederler."
-  },
-  {
-   "q": "Çocuğum kurs sonunda hangi seviyeye ulaşır?",
-   "a": "Çocuğunuz, yaşına ve başlangıç seviyesine göre CEFR standartlarına uygun bir ilerleme kaydeder; temel kelime dağarcığı, basit cümle kurma ve günlük konuşma becerilerini kazanarak bir sonraki eğitim kademesine güçlü bir başlangıç yapar."
-  },
-  {
-   "q": "Çocuğumu kursa nasıl kaydettirebilirim?",
-   "a": "Öncelikle ücretsiz seviye belirleme değerlendirmesi için bizimle iletişime geçebilirsiniz. Değerlendirme sonrasında çocuğunuzun yaşına ve seviyesine en uygun sınıfa yerleştirilir; kayıt işlemleri kimlik ve iletişim bilgileri ile birkaç dakika içinde tamamlanır."
-  }
- ]
-},
+      "title": "İngilizce Kursu Hakkında En Çok Sorulan Sorular",
+      "desc": "İngilizce kursları için en sık sorulan soruları yanıtlayarak dil öğrenme sürecinizi aydınlatıyoruz.",
+      "items": [
+        {
+          "q": "İlkokul çağındaki çocuğum için doğru İngilizce kursu nasıl seçilir?",
+          "a": "Çocuğunuz için kurs seçerken yaş grubuna özel müfredat sunup sunmadığına, eğitmenlerin çocuk pedagojisi konusunda deneyimine, oyun ve aktivite temelli öğretim yöntemlerine ve sınıf mevcutlarına dikkat etmelisiniz. Deneme dersi alarak çocuğunuzun kursla nasıl bir uyum sağladığını gözlemlemeniz de faydalı olur."
+        },
+        {
+          "q": "İlkokul öğrencilerine İngilizce nasıl öğretiliyor?",
+          "a": "İlkokul çağındaki öğrenciler için klasik gramer ağırlıklı anlatım yerine; şarkı, oyun, drama ve görsel materyallerle desteklenen, eğlenceli ve etkileşimli bir öğretim yöntemi uyguluyoruz. Bu yaklaşım, çocukların dile karşı olumlu bir tutum geliştirmesini ve öğrenmeyi doğal bir sürece dönüştürmesini sağlar."
+        },
+        {
+          "q": "İlkokul kademesindeki eğitmenler ne tür bir deneyime sahip?",
+          "a": "İlkokul sınıflarımızdaki eğitmenlerimiz, çocuk gelişimi ve pedagoji konusunda deneyimli, çocuklarla etkili iletişim kurabilen ve dersi eğlenceli hale getirebilen uzmanlardan oluşur. Düzenli olarak çocuklara yönelik güncel öğretim tekniklerini takip ederler."
+        },
+        {
+          "q": "Çocuğum kurs sonunda hangi seviyeye ulaşır?",
+          "a": "Çocuğunuz, yaşına ve başlangıç seviyesine göre CEFR standartlarına uygun bir ilerleme kaydeder; temel kelime dağarcığı, basit cümle kurma ve günlük konuşma becerilerini kazanarak bir sonraki eğitim kademesine güçlü bir başlangıç yapar."
+        },
+        {
+          "q": "Çocuğumu kursa nasıl kaydettirebilirim?",
+          "a": "Öncelikle ücretsiz seviye belirleme değerlendirmesi için bizimle iletişime geçebilirsiniz. Değerlendirme sonrasında çocuğunuzun yaşına ve seviyesine en uygun sınıfa yerleştirilir; kayıt işlemleri kimlik ve iletişim bilgileri ile birkaç dakika içinde tamamlanır."
+        }
+      ]
+    },
     "info": {
       "title": "İlköğretim İngilizce Kursları - Çocuk İngilizce Kursu",
       "description": [
@@ -2372,122 +2509,122 @@
   },
   "liseIngilizceLandingPage": {
     "about": {
- "badge": "LİSE / YKS-DİL HAZIRLIK",
- "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
- "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Avcılar İngilizce Dil Kursu, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
- "skills": [
-  {
-   "id": "grammar",
-   "title": "Grammar (Dil Bilgisi)",
-   "desc": "Lise müfredatına uygun <strong>ileri düzey cümle yapıları</strong> ve YKS-DİL'de sıkça çıkan kalıplar analiz edilir. <strong>B1-B2 seviye kelime türleri</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sınava dönük sağlam bir gramer altyapısı oluşturulur.",
-   "icon": "BookOpen"
-  },
-  {
-   "id": "reading",
-   "title": "Reading (Okuma)",
-   "desc": "Güncel konulardan seçilen <strong>okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, phrasal verb ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve YKS-DİL performansı artırılır.",
-   "icon": "BookA"
-  },
-  {
-   "id": "writing",
-   "title": "Writing (Yazma)",
-   "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, kompozisyon yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz lise düzeyinde geliştirilir.",
-   "icon": "PenTool"
-  },
-  {
-   "id": "speaking",
-   "title": "Speaking & Listening",
-   "desc": "Seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, üniversite hayatına akıcı bir İngilizce ile başlarsınız.",
-   "icon": "Mic"
-  }
- ]
-},
+      "badge": "LİSE / YKS-DİL HAZIRLIK",
+      "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
+      "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Avcılar İngilizce Dil Kursu, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
+      "skills": [
+        {
+          "id": "grammar",
+          "title": "Grammar (Dil Bilgisi)",
+          "desc": "Lise müfredatına uygun <strong>ileri düzey cümle yapıları</strong> ve YKS-DİL'de sıkça çıkan kalıplar analiz edilir. <strong>B1-B2 seviye kelime türleri</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sınava dönük sağlam bir gramer altyapısı oluşturulur.",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "reading",
+          "title": "Reading (Okuma)",
+          "desc": "Güncel konulardan seçilen <strong>okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, phrasal verb ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve YKS-DİL performansı artırılır.",
+          "icon": "BookA"
+        },
+        {
+          "id": "writing",
+          "title": "Writing (Yazma)",
+          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, kompozisyon yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz lise düzeyinde geliştirilir.",
+          "icon": "PenTool"
+        },
+        {
+          "id": "speaking",
+          "title": "Speaking & Listening",
+          "desc": "Seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, üniversite hayatına akıcı bir İngilizce ile başlarsınız.",
+          "icon": "Mic"
+        }
+      ]
+    },
     "whyUs": {
- "title": "Neden Avcılar Lise İngilizce Kursu?",
- "subtitle": "Öğrenme Garantili Eğitim ile YKS-DİL'de ve Okulda Başarıyı Yakalayın!",
- "cardTitle": "Seviyeye Uygun Eğitim",
- "cardDesc": "Lise öğrencilerinin mevcut İngilizce seviyesine göre (9, 10, 11 ve 12. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
- "btnNext": "Sonraki Ayrıcalık →",
- "faqs": [
-  {
-   "q": "Lise Kurs İçeriği Neleri Kapsar?",
-   "a": "Kelime dağarcığını zenginleştirme, ileri seviye gramer, okul derslerine destek, üniversite sınavlarına (YKS-DİL/YDT vb.) hazırlık ve konuşma pratiğini merkeze alan kapsamlı bir dil eğitimi sunar."
-  },
-  {
-   "q": "Bu Kursun Öğrencilere Faydaları Nelerdir?",
-   "a": "Okul sınavlarında yüksek not alma, akademik makale okuma-anlama, YDT ve TOEFL/IELTS gibi uluslararası standartlardaki sınavlara sağlam bir altyapı oluşturma ve akıcı İngilizce konuşma özgüveni kazandırır."
-  }
- ],
- "advantages": [
-  {
-   "icon": "Globe",
-   "title": "Uluslararası Standartlarda Eğitim",
-   "desc": "Avcılar İngilizce Dil Kursu'nda tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
-  },
-  {
-   "icon": "MessageCircle",
-   "title": "Yoğun Pratik İmkânları",
-   "desc": "Her bir seviye için belirlenen saatlerin ötesinde, 20 ile 64 saat arası ek pratik imkânları sunarak lise öğrencilerimizin dil becerilerini güçlendiriyoruz."
-  },
-  {
-   "icon": "Users",
-   "title": "Yaş Grubuna Özel Sınıflar",
-   "desc": "Lise ve kolej öğrencilerimizi kendi yaş gruplarına uygun olarak sınıflandırıyor, onlara özgü eğitim sistemi ile İngilizceyi yaşayarak öğrenmelerini sağlıyoruz."
-  },
-  {
-   "icon": "Target",
-   "title": "Erken Yaşta Küresel İletişim",
-   "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini bizim güvencemizle tamamlayın."
-  }
- ]
-},
+      "title": "Neden Avcılar Lise İngilizce Kursu?",
+      "subtitle": "Öğrenme Garantili Eğitim ile YKS-DİL'de ve Okulda Başarıyı Yakalayın!",
+      "cardTitle": "Seviyeye Uygun Eğitim",
+      "cardDesc": "Lise öğrencilerinin mevcut İngilizce seviyesine göre (9, 10, 11 ve 12. sınıf) planlanmış, yaş gruplarına özel müfredat sunuyoruz.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Lise Kurs İçeriği Neleri Kapsar?",
+          "a": "Kelime dağarcığını zenginleştirme, ileri seviye gramer, okul derslerine destek, üniversite sınavlarına (YKS-DİL/YDT vb.) hazırlık ve konuşma pratiğini merkeze alan kapsamlı bir dil eğitimi sunar."
+        },
+        {
+          "q": "Bu Kursun Öğrencilere Faydaları Nelerdir?",
+          "a": "Okul sınavlarında yüksek not alma, akademik makale okuma-anlama, YDT ve TOEFL/IELTS gibi uluslararası standartlardaki sınavlara sağlam bir altyapı oluşturma ve akıcı İngilizce konuşma özgüveni kazandırır."
+        }
+      ],
+      "advantages": [
+        {
+          "icon": "Globe",
+          "title": "Uluslararası Standartlarda Eğitim",
+          "desc": "Avcılar İngilizce Dil Kursu'nda tamamlanan İngilizce eğitimi, AB standartlarına ve ABD eğitim sistemine tam uyum sağlar."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Yoğun Pratik İmkânları",
+          "desc": "Her bir seviye için belirlenen saatlerin ötesinde, 20 ile 64 saat arası ek pratik imkânları sunarak lise öğrencilerimizin dil becerilerini güçlendiriyoruz."
+        },
+        {
+          "icon": "Users",
+          "title": "Yaş Grubuna Özel Sınıflar",
+          "desc": "Lise ve kolej öğrencilerimizi kendi yaş gruplarına uygun olarak sınıflandırıyor, onlara özgü eğitim sistemi ile İngilizceyi yaşayarak öğrenmelerini sağlıyoruz."
+        },
+        {
+          "icon": "Target",
+          "title": "Erken Yaşta Küresel İletişim",
+          "desc": "Çocuklarınızın dünya ile iletişim kurabilen bireyler olmasını ve uluslararası fırsatları takip edebilmesini istiyorsanız, eğitimlerini bizim güvencemizle tamamlayın."
+        }
+      ]
+    },
     "models": {
- "title": "Size En Uygun Eğitim Modelini Seçin",
- "faceToFace": {
-  "badge": "POPÜLER",
-  "title": "Örgün (Yüz Yüze) Eğitim",
-  "desc": "Türkiye'deki 12 şubemizden birini seçerek, lise yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
-  "features": [
-   "En Yüksek Ders Saati",
-   "Konuşma Garantili Program",
-   "LGS'ye Özel Hazırlık",
-   "Konuşma Sınıfları",
-   "1-1 Destek Ders İmkanı"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- },
- "online": {
-  "title": "Online (Uzaktan) Eğitim",
-  "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif lise İngilizce eğitimi.",
-  "features": [
-   "Dilediğin Yerde Özgürce İngilizce Öğren",
-   "Konuşma Garantili Program",
-   "Uzman Yabancı ve Yerli Kadro",
-   "Online Konuşma Sınıfları",
-   "1-1 Destek Ders İmkanı"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- }
-},
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "badge": "POPÜLER",
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, lise yaş grubuna özel uzman eğitmenlerimizle interaktif dersler.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "LGS'ye Özel Hazırlık",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve interaktif lise İngilizce eğitimi.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "Uzman Yabancı ve Yerli Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
     "hero": {
- "tag": "LİSE İNGİLİZCE KURSLARI",
- "title": "Lise İngilizce Kursu ile Geleceğinize Yön Verin",
- "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
- "infoBtn": "Hemen Ön Bilgi Alın!",
- "whatsappBtn": "Whatsapp Bilgi",
- "formRibbon": "Ön Bilgi Formu",
- "formTitle": "ÜCRETSİZ İNGİLİZCE!",
- "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
- "namePlaceholder": "İsim Ve Soyisim Giriniz.",
- "phonePlaceholder": "GSM Numaranızı Giriniz.",
- "branchPlaceholder": "Şube Seçiniz.",
- "submitBtn": "HEMEN ÖN BİLGİ AL!",
- "badge": "KATEGORİ: LİSE",
- "description": "Lise dönemi, öğrencilerin hem okul başarısını sürdürmesi hem de üniversite sınavlarına sağlam bir temel oluşturması gereken kritik bir dönemdir. Avcılar İngilizce Dil Kursu olarak, lise öğrencilerine yönelik konuşma odaklı, sınav destekli ve interaktif bir İngilizce eğitim modeli sunuyoruz.",
- "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
-},
+      "tag": "LİSE İNGİLİZCE KURSLARI",
+      "title": "Lise İngilizce Kursu ile Geleceğinize Yön Verin",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "LGS Hazırlık ve Konuşma Odaklı İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: LİSE",
+      "description": "Lise dönemi, öğrencilerin hem okul başarısını sürdürmesi hem de üniversite sınavlarına sağlam bir temel oluşturması gereken kritik bir dönemdir. Avcılar İngilizce Dil Kursu olarak, lise öğrencilerine yönelik konuşma odaklı, sınav destekli ve interaktif bir İngilizce eğitim modeli sunuyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."
+    },
     "faq": {
       "title": "Sıkça Sorulan Sorular",
       "items": [
@@ -2506,127 +2643,127 @@
       ]
     },
     "gradeTabs": {
- "title": "Lise Kademelerine Özel Eğitim Programımız",
- "grades": [
-  {
-   "tabTitle": "9. Sınıf",
-   "title": "9. Sınıf İngilizce Kursu ile Liseye Güçlü Başlangıç",
-   "desc": "9. sınıf İngilizce kursu programımız, ortaokuldan liseye geçiş sürecinde dil bilgisi ve kelime dağarcığını sağlamlaştırarak öğrencileri lise müfredatına hazırlar. Bu seviyede:",
-   "bullets": [
-    "Ortaokul kazanımlarının gözden geçirilip pekiştirilmesi",
-    "Lise müfredatına uygun dil bilgisi yapılarının öğretimi",
-    "Akademik kelime dağarcığının genişletilmesi",
-    "Okuma parçalarıyla anlama becerisinin geliştirilmesi",
-    "Konuşma pratiğiyle özgüvenin artırılması"
-   ],
-   "summary": "9. sınıf öğrencilerimiz, lise İngilizcesinin temellerini sağlam bir şekilde atarak, ilerleyen yıllarda karşılaşacakları daha karmaşık konulara hazır hale gelir."
-  },
-  {
-   "tabTitle": "10. Sınıf",
-   "title": "10. Sınıf İngilizce Kursu ile Dil Bilgisinde Derinleşme",
-   "desc": "10. sınıf İngilizce kursu programımız, öğrencilerin dil bilgisi hakimiyetini artırırken akıcı konuşma becerisini geliştirmeyi hedefler. Programımızda yer alan çalışmalar:",
-   "bullets": [
-    "İleri düzey zaman kalıplarının ve cümle yapılarının öğretimi",
-    "Güncel konularla desteklenen okuma-anlama çalışmaları",
-    "Tartışma ve fikir belirtme odaklı konuşma etkinlikleri",
-    "Kompozisyon yazma tekniklerinin geliştirilmesi",
-    "Dinleme becerisini güçlendiren otantik içerikler"
-   ],
-   "summary": "10. sınıf öğrencilerimiz, dil bilgisi konularında derinleşirken, günlük ve akademik konularda kendilerini daha rahat ifade etmeyi öğrenir."
-  },
-  {
-   "tabTitle": "11. Sınıf",
-   "title": "11. Sınıf İngilizce Kursu ve Sınav Hazırlığına Giriş",
-   "desc": "11. sınıf İngilizce kursu, günlük dil kullanımını geliştirirken YKS-DİL, TOEFL ve IELTS gibi sınavlara temel oluşturacak becerileri kazandırır:",
-   "bullets": [
-    "Sınav formatlarına giriş niteliğinde okuma ve dinleme çalışmaları",
-    "Akademik yazım tekniklerinin tanıtılması",
-    "Genişletilmiş kelime hazinesi ve deyim çalışmaları",
-    "Zaman yönetimi ve soru çözüm stratejilerine giriş",
-    "İleri düzey tartışma ve sunum becerileri"
-   ],
-   "summary": "11. sınıf programımız, öğrencilerin hem okul başarısını hem de gelecekteki sınav hedeflerini destekleyecek bir geçiş dönemi sunar."
-  },
-  {
-   "tabTitle": "12. Sınıf / YKS-DİL",
-   "title": "12. Sınıf İngilizce Kursu ve YKS-DİL Hazırlık Desteği",
-   "desc": "12. sınıf İngilizce kursu programımız, YKS-DİL (YDT) sınavına yoğun hazırlık sağlarken, üniversite hayatına hazır bir dil yetkinliği kazandırır:",
-   "bullets": [
-    "YKS-DİL formatında soru çözüm teknikleri ve stratejileri",
-    "Kapsamlı dil bilgisi tekrarları ve deneme sınavları",
-    "Okuma anlama sorularında zaman yönetimi",
-    "Sınav kaygısını azaltan motivasyon teknikleri",
-    "İleri seviye akademik kelime ve çeviri çalışmaları"
-   ],
-   "summary": "12. sınıf öğrencilerimiz, hem YKS-DİL sınavına hem de üniversitede karşılaşacakları akademik İngilizceye hazır hale gelir."
-  }
- ]
-},
+      "title": "Lise Kademelerine Özel Eğitim Programımız",
+      "grades": [
+        {
+          "tabTitle": "9. Sınıf",
+          "title": "9. Sınıf İngilizce Kursu ile Liseye Güçlü Başlangıç",
+          "desc": "9. sınıf İngilizce kursu programımız, ortaokuldan liseye geçiş sürecinde dil bilgisi ve kelime dağarcığını sağlamlaştırarak öğrencileri lise müfredatına hazırlar. Bu seviyede:",
+          "bullets": [
+            "Ortaokul kazanımlarının gözden geçirilip pekiştirilmesi",
+            "Lise müfredatına uygun dil bilgisi yapılarının öğretimi",
+            "Akademik kelime dağarcığının genişletilmesi",
+            "Okuma parçalarıyla anlama becerisinin geliştirilmesi",
+            "Konuşma pratiğiyle özgüvenin artırılması"
+          ],
+          "summary": "9. sınıf öğrencilerimiz, lise İngilizcesinin temellerini sağlam bir şekilde atarak, ilerleyen yıllarda karşılaşacakları daha karmaşık konulara hazır hale gelir."
+        },
+        {
+          "tabTitle": "10. Sınıf",
+          "title": "10. Sınıf İngilizce Kursu ile Dil Bilgisinde Derinleşme",
+          "desc": "10. sınıf İngilizce kursu programımız, öğrencilerin dil bilgisi hakimiyetini artırırken akıcı konuşma becerisini geliştirmeyi hedefler. Programımızda yer alan çalışmalar:",
+          "bullets": [
+            "İleri düzey zaman kalıplarının ve cümle yapılarının öğretimi",
+            "Güncel konularla desteklenen okuma-anlama çalışmaları",
+            "Tartışma ve fikir belirtme odaklı konuşma etkinlikleri",
+            "Kompozisyon yazma tekniklerinin geliştirilmesi",
+            "Dinleme becerisini güçlendiren otantik içerikler"
+          ],
+          "summary": "10. sınıf öğrencilerimiz, dil bilgisi konularında derinleşirken, günlük ve akademik konularda kendilerini daha rahat ifade etmeyi öğrenir."
+        },
+        {
+          "tabTitle": "11. Sınıf",
+          "title": "11. Sınıf İngilizce Kursu ve Sınav Hazırlığına Giriş",
+          "desc": "11. sınıf İngilizce kursu, günlük dil kullanımını geliştirirken YKS-DİL, TOEFL ve IELTS gibi sınavlara temel oluşturacak becerileri kazandırır:",
+          "bullets": [
+            "Sınav formatlarına giriş niteliğinde okuma ve dinleme çalışmaları",
+            "Akademik yazım tekniklerinin tanıtılması",
+            "Genişletilmiş kelime hazinesi ve deyim çalışmaları",
+            "Zaman yönetimi ve soru çözüm stratejilerine giriş",
+            "İleri düzey tartışma ve sunum becerileri"
+          ],
+          "summary": "11. sınıf programımız, öğrencilerin hem okul başarısını hem de gelecekteki sınav hedeflerini destekleyecek bir geçiş dönemi sunar."
+        },
+        {
+          "tabTitle": "12. Sınıf / YKS-DİL",
+          "title": "12. Sınıf İngilizce Kursu ve YKS-DİL Hazırlık Desteği",
+          "desc": "12. sınıf İngilizce kursu programımız, YKS-DİL (YDT) sınavına yoğun hazırlık sağlarken, üniversite hayatına hazır bir dil yetkinliği kazandırır:",
+          "bullets": [
+            "YKS-DİL formatında soru çözüm teknikleri ve stratejileri",
+            "Kapsamlı dil bilgisi tekrarları ve deneme sınavları",
+            "Okuma anlama sorularında zaman yönetimi",
+            "Sınav kaygısını azaltan motivasyon teknikleri",
+            "İleri seviye akademik kelime ve çeviri çalışmaları"
+          ],
+          "summary": "12. sınıf öğrencilerimiz, hem YKS-DİL sınavına hem de üniversitede karşılaşacakları akademik İngilizceye hazır hale gelir."
+        }
+      ]
+    },
     "seoContent": [
- {
-  "title": "Konuşma Odaklı Lise İngilizce Kursu: Ezbersiz Dil Eğitimi",
-  "desc": "Avcılar İngilizce Dil Kursu'nu diğer lise İngilizce kurslarından ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
-  "bullets": [
-   "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
-   "Ana dil eğitimine benzer doğal öğrenme süreci",
-   "Hataları korkusuzca yaparak öğrenme kültürü",
-   "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
-   "YKS-DİL'e hazırlarken dört dil becerisinin bütünsel ilerlemesi"
-  ],
-  "summary": "İletişim temelli eğitim sistemimizle lise öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, hem okul başarısında hem üniversite sınavında işlerine yarayacak gerçek bir iletişim aracına dönüştürürler."
- },
- {
-  "title": "Lise İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
-  "desc": "Lise İngilizce kursu fiyatları genel olarak 8500 ₺ ile 42000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi (genel İngilizce veya YKS-DİL hazırlık), ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin sınav başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
-  "bullets": [
-   "Hafta içi düzenli programlar (haftada 2-3 gün)",
-   "Hafta sonu yoğunlaştırılmış programlar",
-   "Birebir özel ders imkanı",
-   "Online lise İngilizce kursu seçeneği",
-   "YKS-DİL'e özel yoğun hazırlık programları"
-  ],
-  "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
- },
- {
-  "title": "En İyi Lise İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
-  "desc": "Çocuğunuz için en iyi lise İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
-  "bullets": [
-   "Öğretmenlerin nitelikleri ve tecrübesi",
-   "Sınıf mevcutları ve kişiye özel ilgi imkanı",
-   "YKS-DİL hazırlığına uygun müfredat ve materyaller",
-   "Ölçme-değerlendirme sistemi ve düzenli deneme sınavları",
-   "Mezun öğrencilerin üniversite yerleşim başarıları",
-   "Fiziksel ortam ve teknolojik altyapı",
-   "Ulaşım kolaylığı ve güvenlik"
-  ],
-  "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin okul ve sınav başarısı, bizim en büyük referansımızdır."
- },
- {
-  "title": "Online Lise İngilizce Kursu Avantajları",
-  "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online lise İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
-  "bullets": [
-   "Zamandan ve yoldan tasarruf",
-   "Ev konforunda yüksek kaliteli eğitim",
-   "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
-   "Kayıt altına alınan derslerle tekrar izleme imkanı",
-   "Çeşitli dijital araçlarla etkileşimli öğrenme",
-   "Hibrit eğitim seçeneği (online + yüz yüze)"
-  ],
-  "summary": "Online derslerimizde de interaktif ve sınav odaklı eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
- },
- {
-  "title": "İngilizce Yaz Kursu: Okul Tatilinde YKS-DİL'e Hazırlık",
-  "desc": "Lise öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
-  "bullets": [
-   "Yoğunlaştırılmış YKS-DİL odaklı eğitim programı",
-   "Deneme sınavları ve soru çözüm kampları",
-   "Tematik haftalık programlar (akademik yazım, konuşma kulübü)",
-   "Native eğitmenlerle kültür alışverişi",
-   "Proje tabanlı öğrenme ve grup çalışmaları"
-  ],
-  "summary": "Yaz kurslarımız, verimli çalışmayı eğlenceli aktivitelerle harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla ve YKS-DİL'e güçlenmiş olarak başlamalarını sağlar."
- }
-]
+      {
+        "title": "Konuşma Odaklı Lise İngilizce Kursu: Ezbersiz Dil Eğitimi",
+        "desc": "Avcılar İngilizce Dil Kursu'nu diğer lise İngilizce kurslarından ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "bullets": [
+          "Her ders içinde en az 20 dakika İngilizce konuşma pratiği",
+          "Ana dil eğitimine benzer doğal öğrenme süreci",
+          "Hataları korkusuzca yaparak öğrenme kültürü",
+          "Günlük hayattan diyaloglar ve gerçek iletişim senaryoları",
+          "YKS-DİL'e hazırlarken dört dil becerisinin bütünsel ilerlemesi"
+        ],
+        "summary": "İletişim temelli eğitim sistemimizle lise öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, hem okul başarısında hem üniversite sınavında işlerine yarayacak gerçek bir iletişim aracına dönüştürürler."
+      },
+      {
+        "title": "Lise İngilizce Kurs Fiyatları ve Eğitim Seçenekleri",
+        "desc": "Lise İngilizce kursu fiyatları genel olarak 8500 ₺ ile 42000 ₺ arasında değişkenlik göstermektedir. Bu fiyat aralığı, tercih edilen program tipi (genel İngilizce veya YKS-DİL hazırlık), ders saati yoğunluğu ve eğitim süresine göre farklılık gösterir. Kurs fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin sınav başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına ve programına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun çeşitli seçenekler sunuyoruz:",
+        "bullets": [
+          "Hafta içi düzenli programlar (haftada 2-3 gün)",
+          "Hafta sonu yoğunlaştırılmış programlar",
+          "Birebir özel ders imkanı",
+          "Online lise İngilizce kursu seçeneği",
+          "YKS-DİL'e özel yoğun hazırlık programları"
+        ],
+        "summary": "Kurs ücretlerimiz ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli İngilizce Kurs Merkezlerimizle iletişime geçebilirsiniz. Erken kayıt ve kardeş indirimleri gibi avantajlardan yararlanma fırsatını kaçırmayın."
+      },
+      {
+        "title": "En İyi Lise İngilizce Kursu Seçiminde Dikkat Edilmesi Gerekenler",
+        "desc": "Çocuğunuz için en iyi lise İngilizce kursunu seçerken şu kriterlere dikkat etmenizi öneririz:",
+        "bullets": [
+          "Öğretmenlerin nitelikleri ve tecrübesi",
+          "Sınıf mevcutları ve kişiye özel ilgi imkanı",
+          "YKS-DİL hazırlığına uygun müfredat ve materyaller",
+          "Ölçme-değerlendirme sistemi ve düzenli deneme sınavları",
+          "Mezun öğrencilerin üniversite yerleşim başarıları",
+          "Fiziksel ortam ve teknolojik altyapı",
+          "Ulaşım kolaylığı ve güvenlik"
+        ],
+        "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin okul ve sınav başarısı, bizim en büyük referansımızdır."
+      },
+      {
+        "title": "Online Lise İngilizce Kursu Avantajları",
+        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online lise İngilizce kursu seçeneğimiz, birçok avantaj sunmaktadır:",
+        "bullets": [
+          "Zamandan ve yoldan tasarruf",
+          "Ev konforunda yüksek kaliteli eğitim",
+          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+          "Kayıt altına alınan derslerle tekrar izleme imkanı",
+          "Çeşitli dijital araçlarla etkileşimli öğrenme",
+          "Hibrit eğitim seçeneği (online + yüz yüze)"
+        ],
+        "summary": "Online derslerimizde de interaktif ve sınav odaklı eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+      },
+      {
+        "title": "İngilizce Yaz Kursu: Okul Tatilinde YKS-DİL'e Hazırlık",
+        "desc": "Lise öğrencileri için özel olarak tasarladığımız İngilizce yaz kursu programlarımız, okul tatilini verimli geçirmek isteyenler için ideal bir fırsattır:",
+        "bullets": [
+          "Yoğunlaştırılmış YKS-DİL odaklı eğitim programı",
+          "Deneme sınavları ve soru çözüm kampları",
+          "Tematik haftalık programlar (akademik yazım, konuşma kulübü)",
+          "Native eğitmenlerle kültür alışverişi",
+          "Proje tabanlı öğrenme ve grup çalışmaları"
+        ],
+        "summary": "Yaz kurslarımız, verimli çalışmayı eğlenceli aktivitelerle harmanlayarak, öğrencilerimizin hem tatil yapmalarını hem de yeni akademik yıla ve YKS-DİL'e güçlenmiş olarak başlamalarını sağlar."
+      }
+    ]
   },
   "ozelDersLandingPage": {
     "about": {
@@ -2664,96 +2801,96 @@
       ]
     },
     "whyUs": {
- "title": "Neden İngilizce Özel Ders?",
- "subtitle": "Size Özel Planlanan, Öğrenme Garantili Bireysel Eğitim!",
- "cardTitle": "Seviyeye Uygun Eğitim",
- "cardDesc": "Öğrencinin mevcut seviyesine ve hedeflerine göre tamamen kişiselleştirilmiş, birebir ders programı sunuyoruz.",
- "btnNext": "Sonraki Ayrıcalık →",
- "faqs": [
-  {
-   "q": "Neden İngilizce Özel Ders?",
-   "a": "İngilizce özel derslerde, eğitim tamamen öğrencinin ihtiyaçlarına ve hedeflerine göre şekillendirilir. Öğretmen, öğrencinin mevcut dil seviyesini değerlendirir ve buna göre bir öğrenme planı oluşturur. Bu, dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri gibi alanlarda odaklanmayı sağlar."
-  },
-  {
-   "q": "İngilizce Özel Ders İçin Kimler Uygundur?",
-   "a": "Okul derslerinde destek almak isteyen ya da akademik sınavlara hazırlanan öğrenciler, iş hayatında İngilizce dil becerilerini geliştirmek isteyen profesyoneller, yurtdışına seyahat etmeyi planlayanlar ve dil öğrenmeyi hobi olarak gören herkes için uygundur."
-  },
-  {
-   "q": "Dersler Nasıl İşlenir?",
-   "a": "İngilizce özel dersler, öğrencinin seviyesine ve hedeflerine göre şekillendirilir. Dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri üzerinde durularak kapsamlı bir öğrenme deneyimi sunulur."
-  }
- ],
- "advantages": [
-  {
-   "title": "Kişiye Özel Program",
-   "desc": "Dersler tamamen öğrencinin seviyesine, hedefine ve temposuna göre planlanır.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Ders Saatleri",
-   "desc": "Yoğun iş veya okul programınıza uygun, dilediğiniz saatte ders alma imkânı.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Birebir Konuşma Pratiği",
-   "desc": "Öğretmeninizle birebir yapılan yoğun konuşma pratiğiyle hızla ilerleme kaydedersiniz.",
-   "icon": "MessageCircle"
-  },
-  {
-   "title": "Online Ders (Letslingo)",
-   "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-   "icon": "Laptop"
-  }
- ]
-},
+      "title": "Neden İngilizce Özel Ders?",
+      "subtitle": "Size Özel Planlanan, Öğrenme Garantili Bireysel Eğitim!",
+      "cardTitle": "Seviyeye Uygun Eğitim",
+      "cardDesc": "Öğrencinin mevcut seviyesine ve hedeflerine göre tamamen kişiselleştirilmiş, birebir ders programı sunuyoruz.",
+      "btnNext": "Sonraki Ayrıcalık →",
+      "faqs": [
+        {
+          "q": "Neden İngilizce Özel Ders?",
+          "a": "İngilizce özel derslerde, eğitim tamamen öğrencinin ihtiyaçlarına ve hedeflerine göre şekillendirilir. Öğretmen, öğrencinin mevcut dil seviyesini değerlendirir ve buna göre bir öğrenme planı oluşturur. Bu, dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri gibi alanlarda odaklanmayı sağlar."
+        },
+        {
+          "q": "İngilizce Özel Ders İçin Kimler Uygundur?",
+          "a": "Okul derslerinde destek almak isteyen ya da akademik sınavlara hazırlanan öğrenciler, iş hayatında İngilizce dil becerilerini geliştirmek isteyen profesyoneller, yurtdışına seyahat etmeyi planlayanlar ve dil öğrenmeyi hobi olarak gören herkes için uygundur."
+        },
+        {
+          "q": "Dersler Nasıl İşlenir?",
+          "a": "İngilizce özel dersler, öğrencinin seviyesine ve hedeflerine göre şekillendirilir. Dil bilgisi, kelime dağarcığı, okuma, yazma, dinleme ve konuşma becerileri üzerinde durularak kapsamlı bir öğrenme deneyimi sunulur."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Kişiye Özel Program",
+          "desc": "Dersler tamamen öğrencinin seviyesine, hedefine ve temposuna göre planlanır.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Ders Saatleri",
+          "desc": "Yoğun iş veya okul programınıza uygun, dilediğiniz saatte ders alma imkânı.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Birebir Konuşma Pratiği",
+          "desc": "Öğretmeninizle birebir yapılan yoğun konuşma pratiğiyle hızla ilerleme kaydedersiniz.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Online Ders (Letslingo)",
+          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
+          "icon": "Laptop"
+        }
+      ]
+    },
     "models": {
- "title": "Size En Uygun Eğitim Modelini Seçin",
- "faceToFace": {
-  "badge": "POPÜLER",
-  "title": "Örgün (Yüz Yüze) Eğitim",
-  "desc": "Türkiye'deki 12 şubemizden birini seçerek, size özel birebir derslerle uzman eğitmenlerimizden ders alın.",
-  "features": [
-   "En Yüksek Ders Saati",
-   "Konuşma Garantili Program",
-   "LGS'ye Özel Hazırlık",
-   "Konuşma Sınıfları",
-   "1-1 Destek Ders İmkanı"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- },
- "online": {
-  "title": "Online (Uzaktan) Eğitim",
-  "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve birebir online özel ders imkânı.",
-  "features": [
-   "Dilediğin Yerde Özgürce İngilizce Öğren",
-   "Konuşma Garantili Program",
-   "Uzman Yabancı ve Yerli Kadro",
-   "Online Konuşma Sınıfları",
-   "1-1 Destek Ders İmkanı"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- }
-},
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "badge": "POPÜLER",
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "desc": "Türkiye'deki 12 şubemizden birini seçerek, size özel birebir derslerle uzman eğitmenlerimizden ders alın.",
+        "features": [
+          "En Yüksek Ders Saati",
+          "Konuşma Garantili Program",
+          "LGS'ye Özel Hazırlık",
+          "Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Evinizin konforunda, uzman eğitmenlerimizle canlı ve birebir online özel ders imkânı.",
+        "features": [
+          "Dilediğin Yerde Özgürce İngilizce Öğren",
+          "Konuşma Garantili Program",
+          "Uzman Yabancı ve Yerli Kadro",
+          "Online Konuşma Sınıfları",
+          "1-1 Destek Ders İmkanı"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
     "hero": {
- "tag": "İNGİLİZCE ÖZEL DERS",
- "title": "İngilizce Özel Ders",
- "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
- "infoBtn": "Hemen Ön Bilgi Alın!",
- "whatsappBtn": "Whatsapp Bilgi",
- "formRibbon": "Ön Bilgi Formu",
- "formTitle": "ÜCRETSİZ İNGİLİZCE!",
- "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
- "namePlaceholder": "İsim Ve Soyisim Giriniz.",
- "phonePlaceholder": "GSM Numaranızı Giriniz.",
- "branchPlaceholder": "Şube Seçiniz.",
- "submitBtn": "HEMEN ÖN BİLGİ AL!",
- "badge": "KATEGORİ: ÖZEL DERS",
- "description": "Her öğrencinin öğrenme hızı ve hedefi farklıdır. Avcılar İngilizce Dil Kursu olarak, birebir özel derslerle tamamen size özel, esnek ve hedefe yönelik bir İngilizce eğitim deneyimi sunuyoruz.",
- "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
- "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
-},
+      "tag": "İNGİLİZCE ÖZEL DERS",
+      "title": "İngilizce Özel Ders",
+      "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
+      "infoBtn": "Hemen Ön Bilgi Alın!",
+      "whatsappBtn": "Whatsapp Bilgi",
+      "formRibbon": "Ön Bilgi Formu",
+      "formTitle": "ÜCRETSİZ İNGİLİZCE!",
+      "formSubtitle": "İhtiyacınıza Özel Birebir İngilizce Eğitimi!",
+      "namePlaceholder": "İsim Ve Soyisim Giriniz.",
+      "phonePlaceholder": "GSM Numaranızı Giriniz.",
+      "branchPlaceholder": "Şube Seçiniz.",
+      "submitBtn": "HEMEN ÖN BİLGİ AL!",
+      "badge": "KATEGORİ: ÖZEL DERS",
+      "description": "Her öğrencinin öğrenme hızı ve hedefi farklıdır. Avcılar İngilizce Dil Kursu olarak, birebir özel derslerle tamamen size özel, esnek ve hedefe yönelik bir İngilizce eğitim deneyimi sunuyoruz.",
+      "formDisclaimer": "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum.",
+      "subtitle": "İhtiyacınıza uygun, birebir özel İngilizce eğitimleri."
+    },
     "faq": {
       "title": "Sıkça Sorulan Sorular",
       "items": [
@@ -2825,70 +2962,70 @@
       ]
     },
     "seoContent": [
- {
-  "title": "Konuşma Odaklı Özel Ders: Ezbersiz Dil Eğitimi",
-  "desc": "Bizi diğer özel ders seçeneklerinden ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
-  "bullets": [
-   "Her derste yoğun birebir İngilizce konuşma pratiği",
-   "Ana dil eğitimine benzer doğal öğrenme süreci",
-   "Hataları korkusuzca yaparak öğrenme kültürü",
-   "Sizin gündelik hayatınıza özel diyalog ve senaryolar",
-   "Dört dil yetkinliğinin (dinleme, konuşma, okuma, yazma) bütünsel ilerlemesi"
-  ],
-  "summary": "İletişim temelli eğitim sistemimizle özel ders öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, kendi hedeflerine yönelik gerçek bir iletişim aracına dönüştürürler."
- },
- {
-  "title": "İngilizce Özel Ders Fiyatları ve Eğitim Seçenekleri",
-  "desc": "İngilizce özel ders fiyatları genel olarak saat başına belirlenen ücretlere göre değişkenlik gösterir ve ders sıklığı, seviyeniz ile hedefinize göre farklılık gösterir. Fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun seçenekler sunuyoruz:",
-  "bullets": [
-   "Haftalık düzenli birebir dersler",
-   "Yoğunlaştırılmış hızlı ilerleme paketleri",
-   "İş İngilizcesine özel birebir ders imkanı",
-   "Online özel ders seçeneği",
-   "Sınav hazırlığına özel yoğun programlar"
-  ],
-  "summary": "Ders ücretleri ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli şubelerimizle iletişime geçebilirsiniz."
- },
- {
-  "title": "En İyi İngilizce Özel Ders Öğretmeni Seçiminde Dikkat Edilmesi Gerekenler",
-  "desc": "Sizin için en iyi özel ders öğretmenini seçerken şu kriterlere dikkat etmenizi öneririz:",
-  "bullets": [
-   "Öğretmenin nitelikleri ve tecrübesi",
-   "Sizin hedefinize özel program hazırlama becerisi",
-   "Eğitim metodolojisi ve kullanılan materyaller",
-   "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
-   "Önceki öğrencilerin başarıları ve memnuniyeti",
-   "Esneklik ve programınıza uyum sağlama",
-   "Online veya yüz yüze ders imkanı"
-  ],
-  "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
- },
- {
-  "title": "Online İngilizce Özel Ders Avantajları",
-  "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online özel ders seçeneğimiz, birçok avantaj sunmaktadır:",
-  "bullets": [
-   "Zamandan ve yoldan tasarruf",
-   "Ev konforunda yüksek kaliteli eğitim",
-   "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
-   "Kayıt altına alınan derslerle tekrar izleme imkanı",
-   "Çeşitli dijital araçlarla etkileşimli öğrenme",
-   "Hibrit eğitim seçeneği (online + yüz yüze)"
-  ],
-  "summary": "Online derslerimizde de birebir ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
- },
- {
-  "title": "Yoğun İngilizce Özel Ders Paketleri: Hızlı İlerleme",
-  "desc": "Kısa sürede belirgin bir ilerleme kaydetmek isteyenler için özel olarak tasarladığımız yoğun ders paketlerimiz, sınırlı zamanda hedeflerinize ulaşmanız için ideal bir fırsattır:",
-  "bullets": [
-   "Yoğunlaştırılmış ve hedef odaklı ders programı",
-   "Seyahat, iş görüşmesi veya sınav öncesi hızlı hazırlık",
-   "Haftalık ilerleme takibi ve kişisel geri bildirim",
-   "Uzman eğitmenle birebir yoğun pratik",
-   "İhtiyacınıza göre esnek ders tekrar sıklığı"
-  ],
-  "summary": "Yoğun paketlerimiz, hedefe odaklı çalışmayı esnek bir programla harmanlayarak, kısıtlı zamanınızda maksimum ilerleme kaydetmenizi sağlar."
- }
-],
+      {
+        "title": "Konuşma Odaklı Özel Ders: Ezbersiz Dil Eğitimi",
+        "desc": "Bizi diğer özel ders seçeneklerinden ayıran en temel özellik, iletişim becerilerine öncelik veren yenilikçi öğretim yaklaşımımızdır. Klasik ezber yöntemlerinin aksine:",
+        "bullets": [
+          "Her derste yoğun birebir İngilizce konuşma pratiği",
+          "Ana dil eğitimine benzer doğal öğrenme süreci",
+          "Hataları korkusuzca yaparak öğrenme kültürü",
+          "Sizin gündelik hayatınıza özel diyalog ve senaryolar",
+          "Dört dil yetkinliğinin (dinleme, konuşma, okuma, yazma) bütünsel ilerlemesi"
+        ],
+        "summary": "İletişim temelli eğitim sistemimizle özel ders öğrencilerimiz, İngilizce'yi sınav odaklı bir ders olmaktan çıkarıp, kendi hedeflerine yönelik gerçek bir iletişim aracına dönüştürürler."
+      },
+      {
+        "title": "İngilizce Özel Ders Fiyatları ve Eğitim Seçenekleri",
+        "desc": "İngilizce özel ders fiyatları genel olarak saat başına belirlenen ücretlere göre değişkenlik gösterir ve ders sıklığı, seviyeniz ile hedefinize göre farklılık gösterir. Fiyatlarımız, eğitim standartlarımızın yüksekliği ve öğrencilerimizin başarı oranları temelinde şekillendirilmiştir. Her öğrencinin bireysel öğrenme tarzına uyum sağlayacak çeşitli eğitim modelleri geliştirerek ihtiyaçlarına uygun seçenekler sunuyoruz:",
+        "bullets": [
+          "Haftalık düzenli birebir dersler",
+          "Yoğunlaştırılmış hızlı ilerleme paketleri",
+          "İş İngilizcesine özel birebir ders imkanı",
+          "Online özel ders seçeneği",
+          "Sınav hazırlığına özel yoğun programlar"
+        ],
+        "summary": "Ders ücretleri ve ödeme seçenekleri hakkında güncel bilgi almak için İstanbul (Avcılar, Beylikdüzü vb.), Bursa, İzmir, Eskişehir, Kocaeli şubelerimizle iletişime geçebilirsiniz."
+      },
+      {
+        "title": "En İyi İngilizce Özel Ders Öğretmeni Seçiminde Dikkat Edilmesi Gerekenler",
+        "desc": "Sizin için en iyi özel ders öğretmenini seçerken şu kriterlere dikkat etmenizi öneririz:",
+        "bullets": [
+          "Öğretmenin nitelikleri ve tecrübesi",
+          "Sizin hedefinize özel program hazırlama becerisi",
+          "Eğitim metodolojisi ve kullanılan materyaller",
+          "Ölçme-değerlendirme sistemi ve düzenli geri bildirim",
+          "Önceki öğrencilerin başarıları ve memnuniyeti",
+          "Esneklik ve programınıza uyum sağlama",
+          "Online veya yüz yüze ders imkanı"
+        ],
+        "summary": "Avcılar İngilizce Dil Kursu olarak tüm bu kriterlerde en yüksek standartları sağlıyoruz. Öğrencilerimizin başarısı, bizim en büyük referansımızdır."
+      },
+      {
+        "title": "Online İngilizce Özel Ders Avantajları",
+        "desc": "Eğitim teknolojilerinin gelişimiyle her geçen gün daha çok tercih edilen online özel ders seçeneğimiz, birçok avantaj sunmaktadır:",
+        "bullets": [
+          "Zamandan ve yoldan tasarruf",
+          "Ev konforunda yüksek kaliteli eğitim",
+          "İnteraktif dijital materyallerle zenginleştirilmiş içerik",
+          "Kayıt altına alınan derslerle tekrar izleme imkanı",
+          "Çeşitli dijital araçlarla etkileşimli öğrenme",
+          "Hibrit eğitim seçeneği (online + yüz yüze)"
+        ],
+        "summary": "Online derslerimizde de birebir ve interaktif eğitim modelimizi uygulayarak, uzaktan eğitimde de yüksek verim elde etmeyi başarıyoruz."
+      },
+      {
+        "title": "Yoğun İngilizce Özel Ders Paketleri: Hızlı İlerleme",
+        "desc": "Kısa sürede belirgin bir ilerleme kaydetmek isteyenler için özel olarak tasarladığımız yoğun ders paketlerimiz, sınırlı zamanda hedeflerinize ulaşmanız için ideal bir fırsattır:",
+        "bullets": [
+          "Yoğunlaştırılmış ve hedef odaklı ders programı",
+          "Seyahat, iş görüşmesi veya sınav öncesi hızlı hazırlık",
+          "Haftalık ilerleme takibi ve kişisel geri bildirim",
+          "Uzman eğitmenle birebir yoğun pratik",
+          "İhtiyacınıza göre esnek ders tekrar sıklığı"
+        ],
+        "summary": "Yoğun paketlerimiz, hedefe odaklı çalışmayı esnek bir programla harmanlayarak, kısıtlı zamanınızda maksimum ilerleme kaydetmenizi sağlar."
+      }
+    ],
     "meta": {
       "title": "İngilizce Özel Ders"
     }
@@ -6147,49 +6284,49 @@
       ]
     },
     "whyUs": {
- "title": "Neden Kadıköy Almanca Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "Kadıköy Almanca şubemizde amacımız ezber değil; sizi gerçek hayatta Almanca konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Kadıköy'de Almanca kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy Almanca şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Sınıf eğitimleri yeterince aktif mi?",
-   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  }
- ],
- "advantages": [
-  {
-   "title": "Native Eğitmenler",
-   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili Almanca olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde Almanca eğitiminize vakit kaybetmeden başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-   "icon": "Monitor",
-   "href": "/korece-dil-kursu"
-  },
-  {
-   "title": "Kültür Deneyimi",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle Alman kültürünü de yakından tanıma şansı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Neden Kadıköy Almanca Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "Kadıköy Almanca şubemizde amacımız ezber değil; sizi gerçek hayatta Almanca konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Kadıköy'de Almanca kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy Almanca şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili Almanca olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde Almanca eğitiminize vakit kaybetmeden başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor",
+          "href": "/korece-dil-kursu"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle Alman kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -8578,72 +8715,72 @@
       }
     ],
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu?",
- "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Almanca Eğitimi",
- "cardTitle": "VIP Sınıf Konforu",
- "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Almancayı doğal akışında ve etkili şekilde öğrenin.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Aile birleşimi için dil şartı herkes için geçerli mi?",
-   "a": "Asgari 18 yaş sınırı bulunmakla birlikte prensip olarak zorunludur. Ancak üniversite (lisans vb.) diplomasi olanlar, Mülteci statüsüne sahip kişiler veya AB vatandaşlarının eşleri için bazı uyum gereksinimi istisnaları ve muafiyetler söz konusudur."
-  },
-  {
-   "q": "Sınıflarınız kaç kişilik?",
-   "a": "Almanca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-  }
- ],
- "advantages": [
-  {
-   "title": "Ücretsiz Seviye Tespiti",
-   "desc": "Almanca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
-   "icon": "Users"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "Goethe ve TestDaF sınav formatlarına uygun, güncel ve nitelikli Almanca kaynakları.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Türkçe Gramer Avantajı",
-   "desc": "Öğrencilerin Türkçe dil bilgisi hakimiyetinden faydalanılarak Almanca gramer mantığının hızlı kavratılması.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Modeller",
-   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Almanca eğitimi seçenekleri.",
-   "icon": "Laptop"
-  }
- ]
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Almanca Eğitimi",
+      "cardTitle": "VIP Sınıf Konforu",
+      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Almancayı doğal akışında ve etkili şekilde öğrenin.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Aile birleşimi için dil şartı herkes için geçerli mi?",
+          "a": "Asgari 18 yaş sınırı bulunmakla birlikte prensip olarak zorunludur. Ancak üniversite (lisans vb.) diplomasi olanlar, Mülteci statüsüne sahip kişiler veya AB vatandaşlarının eşleri için bazı uyum gereksinimi istisnaları ve muafiyetler söz konusudur."
+        },
+        {
+          "q": "Sınıflarınız kaç kişilik?",
+          "a": "Almanca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Ücretsiz Seviye Tespiti",
+          "desc": "Almanca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+          "icon": "Users"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "Goethe ve TestDaF sınav formatlarına uygun, güncel ve nitelikli Almanca kaynakları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Türkçe Gramer Avantajı",
+          "desc": "Öğrencilerin Türkçe dil bilgisi hakimiyetinden faydalanılarak Almanca gramer mantığının hızlı kavratılması.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Modeller",
+          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Almanca eğitimi seçenekleri.",
+          "icon": "Laptop"
+        }
+      ]
+    },
     "models": {
- "title": "Size En Uygun Eğitim Modelini Seçin",
- "faceToFace": {
-  "title": "Örgün (Yüz Yüze) Eğitim",
-  "badge": "KAMPÜSLERİMİZDE",
-  "desc": "İstanbul (Kadıköy, Beşiktaş), İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
-  "features": [
-   "VIP Sınıf (4-6 Kişilik)",
-   "Anında Hata Düzeltme ve Pratik",
-   "Akran Etkileşimi (Diyalog)",
-   "Uzman Eğitmenle Birebir İlgi"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- },
- "online": {
-  "title": "Online (Uzaktan) Eğitim",
-  "desc": "Almanca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-  "features": [
-   "Canlı ve İnteraktif Dersler",
-   "Online Birebir (Özel Ders) İmkanı",
-   "Dijital Yayınlara Anında Erişim",
-   "Zaman ve Mekan Özgürlüğü"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- }
-},
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "KAMPÜSLERİMİZDE",
+        "desc": "İstanbul (Kadıköy, Beşiktaş), İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
+        "features": [
+          "VIP Sınıf (4-6 Kişilik)",
+          "Anında Hata Düzeltme ve Pratik",
+          "Akran Etkileşimi (Diyalog)",
+          "Uzman Eğitmenle Birebir İlgi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Almanca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+        "features": [
+          "Canlı ve İnteraktif Dersler",
+          "Online Birebir (Özel Ders) İmkanı",
+          "Dijital Yayınlara Anında Erişim",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
     "faq": {
       "title": "Almanca Eğitimi ve Süreçler Hakkında Sıkça Sorulanlar",
       "items": [
@@ -10967,72 +11104,72 @@
       }
     ],
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu?",
- "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi İspanyolca Eğitimi",
- "cardTitle": "VIP Sınıf Konforu",
- "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak İspanyolcayı doğal akışında ve etkili şekilde öğrenin.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "İspanyolca öğrenmek zor mu?",
-   "a": "Hayır, İspanyolca Avrupa Roman dili ailesinden gelen, gramer yapısı oldukça düzenli ve telaffuzu kolay bir dildir. Yabancı dil öğrenmeye yeni başlayanlar için harika ve önemli bir tercihtir."
-  },
-  {
-   "q": "Sınıflarınız kaç kişilik?",
-   "a": "İspanyolca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-  }
- ],
- "advantages": [
-  {
-   "title": "Ücretsiz Seviye Tespiti",
-   "desc": "İspanyolca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
-   "icon": "Users"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "DELE sınav formatına uygun, güncel ve nitelikli İspanyolca kaynakları.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Kolay Gramer Yapısı",
-   "desc": "Roman dili ailesi sayesinde Türk öğrencilerin İspanyolca gramerini hızla kavramasını sağlıyoruz.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Modeller",
-   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online İspanyolca eğitimi seçenekleri.",
-   "icon": "Laptop"
-  }
- ]
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi İspanyolca Eğitimi",
+      "cardTitle": "VIP Sınıf Konforu",
+      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak İspanyolcayı doğal akışında ve etkili şekilde öğrenin.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İspanyolca öğrenmek zor mu?",
+          "a": "Hayır, İspanyolca Avrupa Roman dili ailesinden gelen, gramer yapısı oldukça düzenli ve telaffuzu kolay bir dildir. Yabancı dil öğrenmeye yeni başlayanlar için harika ve önemli bir tercihtir."
+        },
+        {
+          "q": "Sınıflarınız kaç kişilik?",
+          "a": "İspanyolca sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Ücretsiz Seviye Tespiti",
+          "desc": "İspanyolca eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+          "icon": "Users"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "DELE sınav formatına uygun, güncel ve nitelikli İspanyolca kaynakları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Kolay Gramer Yapısı",
+          "desc": "Roman dili ailesi sayesinde Türk öğrencilerin İspanyolca gramerini hızla kavramasını sağlıyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Modeller",
+          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online İspanyolca eğitimi seçenekleri.",
+          "icon": "Laptop"
+        }
+      ]
+    },
     "models": {
- "title": "Size En Uygun Eğitim Modelini Seçin",
- "faceToFace": {
-  "title": "Örgün (Yüz Yüze) Eğitim",
-  "badge": "KAMPÜSLERİMİZDE",
-  "desc": "İstanbul, İzmir, Ankara, Bursa, Eskişehir ve Tekirdağ kampüslerimizde 4-6 kişilik VIP sınıflar.",
-  "features": [
-   "VIP Sınıf (4-6 Kişilik)",
-   "Anında Hata Düzeltme ve Pratik",
-   "Akran Etkileşimi (Diyalog)",
-   "Uzman Eğitmenle Birebir İlgi"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- },
- "online": {
-  "title": "Online (Uzaktan) Eğitim",
-  "desc": "İspanyolca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-  "features": [
-   "Canlı ve İnteraktif Dersler",
-   "Online Birebir (Özel Ders) İmkanı",
-   "Dijital Yayınlara Anında Erişim",
-   "Zaman ve Mekan Özgürlüğü"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- }
-},
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "KAMPÜSLERİMİZDE",
+        "desc": "İstanbul, İzmir, Ankara, Bursa, Eskişehir ve Tekirdağ kampüslerimizde 4-6 kişilik VIP sınıflar.",
+        "features": [
+          "VIP Sınıf (4-6 Kişilik)",
+          "Anında Hata Düzeltme ve Pratik",
+          "Akran Etkileşimi (Diyalog)",
+          "Uzman Eğitmenle Birebir İlgi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "İspanyolca eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+        "features": [
+          "Canlı ve İnteraktif Dersler",
+          "Online Birebir (Özel Ders) İmkanı",
+          "Dijital Yayınlara Anında Erişim",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
     "faq": {
       "title": "İspanyolca Eğitimi Hakkında Sıkça Sorulanlar",
       "items": [
@@ -11202,72 +11339,72 @@
       }
     ],
     "whyUs": {
- "title": "Neden Avcılar İngilizce Dil Kursu?",
- "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Rusça Eğitimi",
- "cardTitle": "VIP Sınıf Konforu",
- "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Rusçayı doğal akışında ve etkili şekilde öğrenin.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Rusça öğrenmek zor mu?",
-   "a": "Kiril alfabesi başta farklı görünse de sistematik bir şekilde öğretildiğinde birkaç hafta içinde rahat okunabilir hale gelir. Rusça gramer yapısı düzenlidir ve Türkçe ile bazı yapısal benzerlikler taşır."
-  },
-  {
-   "q": "Sınıflarınız kaç kişilik?",
-   "a": "Rusça sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
-  }
- ],
- "advantages": [
-  {
-   "title": "Ücretsiz Seviye Tespiti",
-   "desc": "Rusça eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
-   "icon": "Users"
-  },
-  {
-   "title": "Özgün Eğitim Kaynakları",
-   "desc": "TORFL sınav formatına uygun, güncel ve nitelikli Rusça kaynakları.",
-   "icon": "BookOpen"
-  },
-  {
-   "title": "Kiril Alfabesi Kolaylığı",
-   "desc": "Kiril alfabesini sistematik olarak öğreterek kısa sürede okuryazarlık kazandırıyoruz.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Modeller",
-   "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Rusça eğitimi seçenekleri.",
-   "icon": "Laptop"
-  }
- ]
-},
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "subtitle": "Kalıcı Öğrenme Teknikleriyle En İyi Rusça Eğitimi",
+      "cardTitle": "VIP Sınıf Konforu",
+      "cardDesc": "Kalabalıktan uzak, 4-6 kişilik sınıflarda özel ders niteliğinde eğitim alarak Rusçayı doğal akışında ve etkili şekilde öğrenin.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Rusça öğrenmek zor mu?",
+          "a": "Kiril alfabesi başta farklı görünse de sistematik bir şekilde öğretildiğinde birkaç hafta içinde rahat okunabilir hale gelir. Rusça gramer yapısı düzenlidir ve Türkçe ile bazı yapısal benzerlikler taşır."
+        },
+        {
+          "q": "Sınıflarınız kaç kişilik?",
+          "a": "Rusça sınıflarımızda eğitim kalitesini maksimize etmek adına 4-6 kişilik, özel ders niteliği taşıyan VIP sınıf konseptleri uygulanmaktadır."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Ücretsiz Seviye Tespiti",
+          "desc": "Rusça eğitiminize başlamadan önce seviyeniz ölçülür ve size en uygun sınıfa yerleştirilirsiniz.",
+          "icon": "Users"
+        },
+        {
+          "title": "Özgün Eğitim Kaynakları",
+          "desc": "TORFL sınav formatına uygun, güncel ve nitelikli Rusça kaynakları.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Kiril Alfabesi Kolaylığı",
+          "desc": "Kiril alfabesini sistematik olarak öğreterek kısa sürede okuryazarlık kazandırıyoruz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Modeller",
+          "desc": "İhtiyacınıza göre örgün sınıf dersleri, birebir özel ders veya online Rusça eğitimi seçenekleri.",
+          "icon": "Laptop"
+        }
+      ]
+    },
     "models": {
- "title": "Size En Uygun Eğitim Modelini Seçin",
- "faceToFace": {
-  "title": "Örgün (Yüz Yüze) Eğitim",
-  "badge": "KAMPÜSLERİMİZDE",
-  "desc": "İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
-  "features": [
-   "VIP Sınıf (4-6 Kişilik)",
-   "Anında Hata Düzeltme ve Pratik",
-   "Akran Etkileşimi (Diyalog)",
-   "Uzman Eğitmenle Birebir İlgi"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- },
- "online": {
-  "title": "Online (Uzaktan) Eğitim",
-  "desc": "Rusça eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
-  "features": [
-   "Canlı ve İnteraktif Dersler",
-   "Online Birebir (Özel Ders) İmkanı",
-   "Dijital Yayınlara Anında Erişim",
-   "Zaman ve Mekan Özgürlüğü"
-  ],
-  "btnWhatsapp": "WhatsApp Bilgi Hattı",
-  "btnForm": "Ön Bilgi Formu"
- }
-},
+      "title": "Size En Uygun Eğitim Modelini Seçin",
+      "faceToFace": {
+        "title": "Örgün (Yüz Yüze) Eğitim",
+        "badge": "KAMPÜSLERİMİZDE",
+        "desc": "İstanbul, İzmir, Ankara, Bursa ve Eskişehir kampüslerimizde 4-6 kişilik VIP sınıflar.",
+        "features": [
+          "VIP Sınıf (4-6 Kişilik)",
+          "Anında Hata Düzeltme ve Pratik",
+          "Akran Etkileşimi (Diyalog)",
+          "Uzman Eğitmenle Birebir İlgi"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      },
+      "online": {
+        "title": "Online (Uzaktan) Eğitim",
+        "desc": "Rusça eğitiminizi kendi konfor alanınızda, interaktif dijital platformlarımız üzerinden zaman kaybetmeden tamamlayın.",
+        "features": [
+          "Canlı ve İnteraktif Dersler",
+          "Online Birebir (Özel Ders) İmkanı",
+          "Dijital Yayınlara Anında Erişim",
+          "Zaman ve Mekan Özgürlüğü"
+        ],
+        "btnWhatsapp": "WhatsApp Bilgi Hattı",
+        "btnForm": "Ön Bilgi Formu"
+      }
+    },
     "faq": {
       "title": "Rusça Eğitimi Hakkında Sıkça Sorulanlar",
       "items": [
@@ -11874,13 +12011,13 @@
         "title": "Kadıköy En İyi İngilizce Kursu",
         "desc": "<b>Kadıköy En İyi İngilizce Kursu</b>, Anadolu Yakası'nın en merkezi noktalarından biri olan Rıhtım Caddesin de tüm toplu ulaşım araçlarına yürüme mesafesinde hizmet vermektedir. Kadıköy'ün En İyi İngilizce Kursu olarak tavsiye ve öneri sıralamalarında zirvede olan Akademik Dil Kursu stratejik konumu ve kapsamlı müfredatı ile öğrencilerine tam donanımlı bir dil eğitimi sağlamaktadır.<br/>Modern dersliklerimiz ve maksimum 10-12 kişilik sınıflarımızda:",
         "bullets": [
-          "İngilizce Kursu Grup Dersleri, TOEFL, IELTS, YDS gibi uluslararası ve akademik sınav hazırlık programları",
-          "4-14 yaş arası çocuklar için özel İngilizce eğitimi (Kids & Junior)",
-          "Üniversite hazırlık öğrencileri için Proficiency ve akademik İngilizce",
-          "Çalışan profesyoneller için İş İngilizcesi (Business English)",
+          "İngilizce Kursu Grup Dersleri, <a href=\"/tr/toefl-hazirlik-kursu\" class=\"textLink\">TOEFL</a>, <a href=\"/tr/ielts-hazirlik-kursu\" class=\"textLink\">IELTS</a>, <a href=\"/tr/yds-hazirlik-kursu\" class=\"textLink\">YDS</a> gibi uluslararası ve akademik sınav hazırlık programları",
+          "<a href=\"/tr/ilkogretim-ingilizce-kursu\" class=\"textLink\">4-14 yaş arası çocuklar için özel İngilizce eğitimi</a> (Kids & Junior)",
+          "Üniversite hazırlık öğrencileri için Proficiency ve <a href=\"/tr/akademik-ingilizce-kursu\" class=\"textLink\">akademik İngilizce</a>",
+          "<a href=\"/tr/is-ingilizcesi\" class=\"textLink\">Çalışan profesyoneller için İş İngilizcesi</a> (Business English)",
           "Speaking Club (Konuşma Kulübü) aktiviteleri",
           "Online telafi ve destek dersleri",
-          "Birebir özel ders imkanı"
+          "<a href=\"/tr/ingilizce-ozel-ders\" class=\"textLink\">Birebir özel ders</a> imkanı"
         ],
         "bulletStyle": "triangle",
         "summary": "sunulmaktadır.<br/>Özellikle çocuk gruplarımızda yaşayarak öğrenme metodolojisi kullanılırken, sınav hazırlık gruplarımızda deneyimli kadromuzla sınav stratejilerine yönelik, sonuç odaklı bir eğitim süreci yürütülmektedir. Kadıköy Rıhtım İngilizce kursu olarak bölgemizdeki öğrencilerimize esnek ders saatleri ve ücretsiz seviye tespit sınavı ile her yaş grubuna hitap eden programlar sunmaktayız.<br/>Boğa Heykeli, Moda sahili, Bahariye ve Söğütlüçeşme çevresinde yaşayan öğrencilerimiz için sabah, öğle ve akşam grupları oluşturarak, size en uygun zaman diliminde eğitim alma imkanı sağlıyoruz. Ayrıca bölgedeki kurumsal şirketlerle yaptığımız işbirlikleri sayesinde, sektörel İngilizce konusunda da uzmanlaşmış durumdayız."
@@ -11989,49 +12126,49 @@
       ]
     },
     "whyUs": {
- "title": "Neden Kadıköy İngilizce Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "Kadıköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Sınıf eğitimleri yeterince aktif mi?",
-   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Kadıköy şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-  }
- ],
- "advantages": [
-  {
-   "title": "Native Eğitmenler",
-   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde eğitiminize vakit kaybetmeden başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-   "icon": "Monitor",
-   "href": "#"
-  },
-  {
-   "title": "Kültür Deneyimi",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Neden Kadıköy İngilizce Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "Kadıköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Kadıköy şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde eğitiminize vakit kaybetmeden başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor",
+          "href": "#"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "KADIKÖY İNGİLİZCE KURSU",
       "title": "Kadıköy'de Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12117,48 +12254,48 @@
       ]
     },
     "whyUs": {
- "title": "Neden Bursa İngilizce Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "Bursa FSM şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Bursa'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Bursa FSM şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Sınıf eğitimleri yeterince aktif mi?",
-   "a": "Evet, Bursa FSM şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Bursa FSM şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-  }
- ],
- "advantages": [
-  {
-   "title": "Native Eğitmenler",
-   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla IELTS Test Venue onaylı Bursa şubemizde eğitim alın.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Bursa FSM şubemizde eğitiminize vakit kaybetmeden başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Kültür Deneyimi",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Neden Bursa İngilizce Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "Bursa FSM şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Bursa'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Bursa FSM şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, Bursa FSM şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Bursa FSM şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla IELTS Test Venue onaylı Bursa şubemizde eğitim alın.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden Bursa FSM şubemizde eğitiminize vakit kaybetmeden başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "BURSA İNGİLİZCE KURSU",
       "title": "Bursa'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12236,11 +12373,11 @@
     "seoContent": [
       {
         "title": "Avcılar İngilizce Kursu",
-        "desc": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar Akademik International Yabancı Dil Kursu, her yaşa özel programlarla sınavlarda başarı fırsatı sunmaktadır. Bu prestijli yabancı dil kursu, yüksek başarı puanına odaklanan etkili öğretim yöntemleriyle öğrencilerin dil becerilerini geliştirirken, Avcılar İngilizce Kursları arasında kaliteli İngilizce eğitimi arayanlar için en iyi seçenek olarak öne çıkmaktadır."
+        "desc": "Avcılar İngilizce Kursu tavsiyeleri arasında ilk sırada yer alan Avcılar Akademik International Yabancı Dil Kursu, her yaşa özel programlarla <a href=\"/tr/akademik-ingilizce-kursu\" class=\"textLink\">sınavlarda başarı</a> fırsatı sunmaktadır. Bu prestijli yabancı dil kursu, yüksek başarı puanına odaklanan etkili öğretim yöntemleriyle öğrencilerin dil becerilerini geliştirirken, Avcılar İngilizce Kursları arasında kaliteli İngilizce eğitimi arayanlar için en iyi seçenek olarak öne çıkmaktadır."
       },
       {
         "title": "Avcılar İngilizce Kursu: Neden İngilizce Öğrenmelisiniz?",
-        "desc": "Avcılar'da İngilizce Kursu arayışına giren bireyler ve ebeveynler, günümüz dünyasında ingilizce bilmenin adeta bir zorunluluk haline geldiği bilincindeler. Hem kişisel hem de profesyonel yaşamda İngilizce bilmenin avantajlarını saymakla bitiremeyiz. Eğer siz de İngilizce öğrenmek istiyorsanız, Avcılar İngilizce Kursları arasında kaliteli bir eğitim alabileceğiniz Avcılar İngilizce Dil Kursu tam da aradığınız yer olabilir. Peki, İngilizce öğrenmenizin nedeni ne olabilir? İşte bu konuda sizi düşündürüp motive edecek bazı önemli noktalar."
+        "desc": "Avcılar'da İngilizce Kursu arayışına giren bireyler ve ebeveynler, günümüz dünyasında ingilizce bilmenin adeta bir zorunluluk haline geldiği bilincindeler. Hem kişisel hem de profesyonel yaşamda İngilizce bilmenin avantajlarını saymakla bitiremeyiz. Eğer siz de <a href=\"/tr/ingilizce-kursu\" class=\"textLink\">İngilizce öğrenmek istiyorsanız</a>, Avcılar İngilizce Kursları arasında kaliteli bir eğitim alabileceğiniz Avcılar İngilizce Dil Kursu tam da aradığınız yer olabilir. Peki, İngilizce öğrenmenizin nedeni ne olabilir? İşte bu konuda sizi düşündürüp motive edecek bazı önemli noktalar."
       }
     ],
     "faq": {
@@ -12262,48 +12399,48 @@
       ]
     },
     "whyUs": {
- "title": "Neden Avcılar İngilizce Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "Genel merkezimiz Avcılar'da amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Avcılar'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan genel merkezimiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Sınıf eğitimleri yeterince aktif mi?",
-   "a": "Evet, Avcılar şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Avcılar genel merkezimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-  }
- ],
- "advantages": [
-  {
-   "title": "Native Eğitmenler",
-   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla genel merkezimizde eğitim alın.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Avcılar genel merkezimizde eğitiminize vakit kaybetmeden başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Kültür Deneyimi",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Neden Avcılar İngilizce Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "Genel merkezimiz Avcılar'da amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Avcılar'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan genel merkezimiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, Avcılar şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Avcılar genel merkezimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla genel merkezimizde eğitim alın.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden Avcılar genel merkezimizde eğitiminize vakit kaybetmeden başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "AVCILAR İNGİLİZCE KURSU",
       "title": "Avcılar'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12389,48 +12526,48 @@
       ]
     },
     "whyUs": {
- "title": "Neden İstanbul İngilizce Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "İstanbul genelindeki şubelerimizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan İstanbul şubelerimiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Sınıf eğitimleri yeterince aktif mi?",
-   "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. İstanbul şubelerimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-  }
- ],
- "advantages": [
-  {
-   "title": "Native Eğitmenler",
-   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla İstanbul'un dört bir yanındaki şubelerimizde eğitim alın.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını veya dönem başını beklemeden size en yakın İstanbul şubemizde eğitiminize vakit kaybetmeden başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Kültür Deneyimi",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Neden İstanbul İngilizce Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "İstanbul genelindeki şubelerimizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
+          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan İstanbul şubelerimiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Sınıf eğitimleri yeterince aktif mi?",
+          "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. İstanbul şubelerimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Native Eğitmenler",
+          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla İstanbul'un dört bir yanındaki şubelerimizde eğitim alın.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını veya dönem başını beklemeden size en yakın İstanbul şubemizde eğitiminize vakit kaybetmeden başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültür Deneyimi",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "İSTANBUL İNGİLİZCE KURSU",
       "title": "İstanbul'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12508,48 +12645,48 @@
       ]
     },
     "whyUs": {
- "title": "Çekmeköy İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Çekmeköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Çekmeköy'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Çekmeköy şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Çekmeköy şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Anadili İngilizce Eğitmenler",
-   "desc": "Çekmeköy şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz ve akıcılık kazanırsınız.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çekmeköy şubemizde eğitime başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Kültürel Deneyim",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Çekmeköy İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Çekmeköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Çekmeköy'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Çekmeköy şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Çekmeköy şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Anadili İngilizce Eğitmenler",
+          "desc": "Çekmeköy şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz ve akıcılık kazanırsınız.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çekmeköy şubemizde eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültürel Deneyim",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "ÇEKMEKÖY İNGİLİZCE KURSU",
       "title": "Çekmeköy'de Anadili İngilizce Eğitmenlerle Hedefe Yönelik İngilizce Eğitimi",
@@ -12639,48 +12776,48 @@
       ]
     },
     "whyUs": {
- "title": "Görükle İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Görükle şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Görükle'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Görükle şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Görükle şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Anadili İngilizce Eğitmenler",
-   "desc": "Uludağ Üniversitesi çevresindeki Görükle şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz kazanırsınız.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Görükle şubemizde eğitime başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Üniversite öğrencilerinin ders programına uygun esnek akşam ve hafta sonu grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Kültürel Deneyim",
-   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
-   "icon": "Award"
-  }
- ]
-},
+      "title": "Görükle İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Görükle şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Görükle'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Görükle şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Görükle şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Anadili İngilizce Eğitmenler",
+          "desc": "Uludağ Üniversitesi çevresindeki Görükle şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz kazanırsınız.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Görükle şubemizde eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Üniversite öğrencilerinin ders programına uygun esnek akşam ve hafta sonu grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Kültürel Deneyim",
+          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
+          "icon": "Award"
+        }
+      ]
+    },
     "hero": {
       "tag": "BURSA GÖRÜKLE İNGİLİZCE KURSU",
       "title": "Görükle'de Anadili İngilizce Eğitmenlerle Hedefe Yönelik İngilizce Eğitimi",
@@ -12778,48 +12915,48 @@
       ]
     },
     "whyUs": {
- "title": "Ankara İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Ankara şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Ankara'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "IELTS yetkili sınav merkezi olup olmadığına, eğitmenlerin deneyimine ve program esnekliğine dikkat edin; Ankara şubemiz bu üç kriteri de karşılıyor."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Ankara şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "IELTS Yetkili Sınav Merkezi",
-   "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
-   "icon": "Award"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Ankara şubemizde eğitime başlayın.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Ankara'daki üniversite ve kamu çalışanlarına uygun esnek akşam ve hafta sonu saatleri.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "17 Dünya Dili",
-   "desc": "17 farklı dilde eğitim seçeneğiyle İngilizce dışında ihtiyacınız olan dili de öğrenebilirsiniz.",
-   "icon": "Users"
-  }
- ]
-},
+      "title": "Ankara İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Ankara şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Ankara'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "IELTS yetkili sınav merkezi olup olmadığına, eğitmenlerin deneyimine ve program esnekliğine dikkat edin; Ankara şubemiz bu üç kriteri de karşılıyor."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Ankara şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "IELTS Yetkili Sınav Merkezi",
+          "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
+          "icon": "Award"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Ankara şubemizde eğitime başlayın.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Ankara'daki üniversite ve kamu çalışanlarına uygun esnek akşam ve hafta sonu saatleri.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "17 Dünya Dili",
+          "desc": "17 farklı dilde eğitim seçeneğiyle İngilizce dışında ihtiyacınız olan dili de öğrenebilirsiniz.",
+          "icon": "Users"
+        }
+      ]
+    },
     "hero": {
       "tag": "ANKARA İNGİLİZCE KURSU",
       "title": "Ankara'da IELTS Yetkili Sınav Merkezi ile Hedefe Yönelik İngilizce Eğitimi",
@@ -12897,48 +13034,48 @@
       ]
     },
     "whyUs": {
- "title": "İzmir İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "İzmir şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "İzmir'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; İzmir şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. İzmir şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "IELTS Yetkili Sınav Merkezi",
-   "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
-   "icon": "Award"
-  },
-  {
-   "title": "VIP Sınıflar",
-   "desc": "Ege bölgesindeki öğrenci ve profesyonellere özel, 4-6 kişilik VIP sınıf konsepti.",
-   "icon": "Users"
-  },
-  {
-   "title": "Esnek Saatler",
-   "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
-   "icon": "Monitor"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmir şubemizde eğitime başlayın.",
-   "icon": "Laptop"
-  }
- ]
-},
+      "title": "İzmir İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "İzmir şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İzmir'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; İzmir şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. İzmir şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "IELTS Yetkili Sınav Merkezi",
+          "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
+          "icon": "Award"
+        },
+        {
+          "title": "VIP Sınıflar",
+          "desc": "Ege bölgesindeki öğrenci ve profesyonellere özel, 4-6 kişilik VIP sınıf konsepti.",
+          "icon": "Users"
+        },
+        {
+          "title": "Esnek Saatler",
+          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmir şubemizde eğitime başlayın.",
+          "icon": "Laptop"
+        }
+      ]
+    },
     "hero": {
       "tag": "İZMİR İNGİLİZCE KURSU",
       "title": "İzmir Alsancak'ta IELTS Yetkili Merkezi ile Hedefe Yönelik İngilizce Eğitimi",
@@ -13040,48 +13177,48 @@
       ]
     },
     "whyUs": {
- "title": "Kocaeli İzmit İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Kocaeli/İzmit şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Kocaeli/İzmit'te İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İzmit şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. İzmit şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Uluslararası Sertifika",
-   "desc": "Kocaeli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Eğitim Modeli",
-   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Uzman Kadro",
-   "desc": "Kocaeli'deki sanayi bölgesinde çalışan profesyonellere uygun esnek akşam ve hafta sonu saatleri.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmit şubemizde eğitime başlayın.",
-   "icon": "Monitor"
-  }
- ]
-},
+      "title": "Kocaeli İzmit İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Kocaeli/İzmit şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Kocaeli/İzmit'te İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İzmit şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. İzmit şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Kocaeli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Kocaeli'deki sanayi bölgesinde çalışan profesyonellere uygun esnek akşam ve hafta sonu saatleri.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmit şubemizde eğitime başlayın.",
+          "icon": "Monitor"
+        }
+      ]
+    },
     "hero": {
       "tag": "KOCAELİ İZMİT İNGİLİZCE KURSU",
       "title": "Kocaeli İzmit'te Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13171,48 +13308,48 @@
       ]
     },
     "whyUs": {
- "title": "Çorlu İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Çorlu şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Çorlu'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Çorlu şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Çorlu şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Uluslararası Sertifika",
-   "desc": "Çorlu şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Eğitim Modeli",
-   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Tekirdağ bölgesindeki yaşam tarzınıza uygun eğitim.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Uzman Kadro",
-   "desc": "Çorlu şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çorlu şubemizde eğitime başlayın.",
-   "icon": "Monitor"
-  }
- ]
-},
+      "title": "Çorlu İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Çorlu şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Çorlu'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Çorlu şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Çorlu şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Çorlu şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Tekirdağ bölgesindeki yaşam tarzınıza uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Çorlu şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çorlu şubemizde eğitime başlayın.",
+          "icon": "Monitor"
+        }
+      ]
+    },
     "hero": {
       "tag": "ÇORLU İNGİLİZCE KURSU",
       "title": "Tekirdağ Çorlu'da Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13306,48 +13443,48 @@
       ]
     },
     "whyUs": {
- "title": "İnegöl İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "İnegöl şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "İnegöl'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İnegöl şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. İnegöl şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Uluslararası Sertifika",
-   "desc": "İnegöl şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Eğitim Modeli",
-   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Uzman Kadro",
-   "desc": "İnegöl şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İnegöl şubemizde eğitime başlayın.",
-   "icon": "Monitor"
-  }
- ]
-},
+      "title": "İnegöl İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "İnegöl şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "İnegöl'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İnegöl şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. İnegöl şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "İnegöl şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "İnegöl şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İnegöl şubemizde eğitime başlayın.",
+          "icon": "Monitor"
+        }
+      ]
+    },
     "hero": {
       "tag": "İNEGÖL İNGİLİZCE KURSU",
       "title": "Bursa İnegöl'de Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13441,48 +13578,48 @@
       ]
     },
     "whyUs": {
- "title": "Yıldırım Erikli İngilizce Kursu İçin Neden Biz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşma Odaklı Sistem",
- "cardDesc": "Yıldırım/Erikli şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Yıldırım/Erikli'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Uluslararası Sertifika",
-   "desc": "Yıldırım/Erikli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Eğitim Modeli",
-   "desc": "Ankara Yolu üzerindeki kolay ulaşımlı şubemizde ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Uzman Kadro",
-   "desc": "Yıldırım/Erikli şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden şubemizde eğitime başlayın.",
-   "icon": "Monitor"
-  }
- ]
-},
+      "title": "Yıldırım Erikli İngilizce Kursu İçin Neden Biz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşma Odaklı Sistem",
+      "cardDesc": "Yıldırım/Erikli şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Yıldırım/Erikli'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Yıldırım/Erikli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "Ankara Yolu üzerindeki kolay ulaşımlı şubemizde ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Yıldırım/Erikli şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden şubemizde eğitime başlayın.",
+          "icon": "Monitor"
+        }
+      ]
+    },
     "hero": {
       "tag": "YILDIRIM ERİKLİ İNGİLİZCE KURSU",
       "title": "Bursa Yıldırım Erikli'de Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13670,48 +13807,48 @@
       ]
     },
     "whyUs": {
- "title": "Neden Kütahya İngilizce Kursu İçin Bizi Seçmelisiniz?",
- "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
- "cardTitle": "Konuşturma Odaklı Sistem",
- "cardDesc": "Kütahya şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
- "btnNext": "Diğer Avantajlarımız →",
- "faqs": [
-  {
-   "q": "Kütahya'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
-   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Kütahya şubemiz bu kriterlerin tümünü karşılar."
-  },
-  {
-   "q": "Ders seansları yeterince aktif mi?",
-   "a": "Evet, Kütahya şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler. Küçük sınıf yapısı sayesinde her öğrenci bireysel ilgi görür."
-  },
-  {
-   "q": "Kariyer hedeflerime uygun mu?",
-   "a": "Kesinlikle. Kütahya şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-  }
- ],
- "advantages": [
-  {
-   "title": "Uluslararası Sertifika",
-   "desc": "Kütahya şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
-   "icon": "Award"
-  },
-  {
-   "title": "Esnek Eğitim Modeli",
-   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Kütahya'daki yaşam tarzınıza uygun eğitim.",
-   "icon": "Laptop"
-  },
-  {
-   "title": "Uzman Kadro",
-   "desc": "Kütahya şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
-   "icon": "Users"
-  },
-  {
-   "title": "Dinamik Kayıt",
-   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Kütahya şubemizde eğitime başlayın.",
-   "icon": "Monitor"
-  }
- ]
-}
+      "title": "Neden Kütahya İngilizce Kursu İçin Bizi Seçmelisiniz?",
+      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+      "cardTitle": "Konuşturma Odaklı Sistem",
+      "cardDesc": "Kütahya şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+      "btnNext": "Diğer Avantajlarımız →",
+      "faqs": [
+        {
+          "q": "Kütahya'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Kütahya şubemiz bu kriterlerin tümünü karşılar."
+        },
+        {
+          "q": "Ders seansları yeterince aktif mi?",
+          "a": "Evet, Kütahya şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler. Küçük sınıf yapısı sayesinde her öğrenci bireysel ilgi görür."
+        },
+        {
+          "q": "Kariyer hedeflerime uygun mu?",
+          "a": "Kesinlikle. Kütahya şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Uluslararası Sertifika",
+          "desc": "Kütahya şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+          "icon": "Award"
+        },
+        {
+          "title": "Esnek Eğitim Modeli",
+          "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Kütahya'daki yaşam tarzınıza uygun eğitim.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "Uzman Kadro",
+          "desc": "Kütahya şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+          "icon": "Users"
+        },
+        {
+          "title": "Dinamik Kayıt",
+          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Kütahya şubemizde eğitime başlayın.",
+          "icon": "Monitor"
+        }
+      ]
+    }
   },
   "tarihcePage": {
     "meta": {
