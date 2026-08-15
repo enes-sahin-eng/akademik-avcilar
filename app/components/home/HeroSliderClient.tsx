@@ -126,6 +126,7 @@ export const HeroSliderClient = ({
                 fetchPriority="high"
                 sizes="(max-width: 768px) 100vw, 100vw"
                 className={styles.slideImage}
+                unoptimized
               />
 
             </motion.div>
