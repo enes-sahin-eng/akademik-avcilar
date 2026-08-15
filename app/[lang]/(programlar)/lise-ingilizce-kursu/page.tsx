@@ -109,7 +109,7 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
             "description": "Lise öğrencileri için uluslararası standartlarda, okul müfredatına tam uyumlu; YKS-DİL (YDT), TOEFL ve IELTS gibi akademik sınavlara hazırlık destekli konuşma odaklı İngilizce kursu.",
             "provider": {
               "@type": "EducationalOrganization",
-              "name": "Akademik International Yabancı Dil Okulları",
+              "name": "Avcılar İngilizce Dil Kursu",
               "sameAs": "https://www.avcilaringilizcekursu.com.tr"
             },
             "hasCourseInstance": {
@@ -117,7 +117,7 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
               "courseMode": "Blended",
               "location": {
                 "@type": "Place",
-                "name": "Akademik International Avcılar",
+                "name": "Avcılar İngilizce Dil Kursu",
                 "address": "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
               }
             }

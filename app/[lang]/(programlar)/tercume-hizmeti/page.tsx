@@ -91,7 +91,7 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
               "Bireysel ve kurumsal ihtiyaçlar için profesyonel, yeminli ve noter onaylı tercüme hizmetleri.",
             provider: {
               "@type": "Organization",
-              name: "Akademik International",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
           }),

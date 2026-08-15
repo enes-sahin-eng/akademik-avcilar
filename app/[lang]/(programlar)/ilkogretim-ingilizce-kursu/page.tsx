@@ -121,7 +121,7 @@ export default async function IlkogretimIngilizceKursuPage({
               "İlkokul öğrencileri için özel olarak hazırlanmış, eğlenceli ve konuşma odaklı İngilizce eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -129,7 +129,7 @@ export default async function IlkogretimIngilizceKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar (Genel Merkez)",
+                name: "Avcılar İngilizce Dil Kursu (Genel Merkez)",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

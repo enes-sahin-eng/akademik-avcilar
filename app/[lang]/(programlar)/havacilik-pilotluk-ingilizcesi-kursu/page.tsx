@@ -119,7 +119,7 @@ export default async function HavacilikIngilizcesiKursuPage({
               "Havacılık sektöründe kariyer hedefleyenler için, kabin memurluğu mülakatları, havacılık terminolojisi ve 4 temel beceriyi (Reading, Writing, Listening, Speaking) kapsayan uzman eğitim programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -127,7 +127,7 @@ export default async function HavacilikIngilizcesiKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },
