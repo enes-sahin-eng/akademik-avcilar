@@ -22,13 +22,13 @@
     "btnText": "Start Test →",
     "footerText": "Free · No registration required",
     "avatarAlt": "Avcilar Foreign Language Course Placement Test Education Advisor",
-    "avatarTitle": "Avcilar Akademik International Free Placement Test",
+    "avatarTitle": "Avcılar English Language Course Free Placement Test",
     "formTitle": "FREE ENGLISH!"
   },
   "robot": {
     "tooltip": "How can I help you?",
     "title": "Education Advisor",
-    "status": "Akademik International",
+    "status": "Avcılar English Language Course",
     "online": "Online",
     "inputPlaceholder": "Type something...",
     "send": "Send",
@@ -578,7 +578,7 @@
     "programsTitle": "Our Education Programs",
     "languagesTitle": "Other Languages",
     "newsletterTitle": "Stay Informed",
-    "newsletterDesc": "Join our email list to not miss the latest news, discount opportunities, and campaigns from Akademik International",
+    "newsletterDesc": "Join our email list to not miss the latest news, discount opportunities, and campaigns from Avcılar English Language Course",
     "emailPlaceholder": "Your Email Address",
     "sendBtn": "Send",
     "sendingBtn": "Sending...",
@@ -588,7 +588,7 @@
     "checkbox1": "I would like to be contacted via email and SMS about special notifications, updates, and news.",
     "checkbox2": "I have read and approve the Web Privacy and Personal Data Protection Law Principles text",
     "socialTitle": "Follow Us",
-    "socialDesc": "Let Akademik International Experiences and Activities fall into your feed!",
+    "socialDesc": "Let Avcılar English Language Course Experiences and Activities fall into your feed!",
     "customerServiceTitle": "Customer Service",
     "callNowBtn": "Call Now!",
     "abroadCallText": "Calling from abroad?",
@@ -598,9 +598,9 @@
       "Personal Data Policy",
       "Terms and Conditions"
     ],
-    "copyright": "© 1992 - 2026 Akademik International Foreign Language Course All Rights Reserved.",
+    "copyright": "© 2026 Avcılar English Language Course All Rights Reserved.",
     "partnersTitle": "Partners That Make Us Strong",
-    "groupTitle": "Akademik International Group",
+    "groupTitle": "Avcılar English Language Course Group",
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
@@ -13642,10 +13642,10 @@
   "tarihcePage": {
     "meta": {
       "title": "History",
-      "description": "Learn about the founding story, vision, and contributions of Academic International Language Course to language education."
+      "description": "Learn about the founding vision, teaching approach, and growth of Avcılar English Language Course."
     },
     "hero": {
-      "tag": "ACADEMIC INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Our History",
       "customerServiceBtn": "Contact Customer Service Now!",
       "infoBtn": "Get Information Now!",
@@ -13662,35 +13662,35 @@
     "intro": {
       "title": "History",
       "paragraphs": [
-        "Academic International Language Course, which has shaped foreign language education for nearly half a century by creating a sustainable language education system that replaces standardized curricula and brings a new Industry 4.0 perspective to language learning, continues to lead the field in English and other foreign languages.",
-        "Academic Language School, the first in Turkey to create separate curricula for adults and younger age groups, has been providing foreign language education services with its original resources developed in line with the age groups and current knowledge, to many public and private sector employees, from primary school students to all age groups with individually organized educational programs.",
-        "Since its founding, Academic International has redefined quality standards in foreign language education; with its strong team of academics from Turkey's leading universities and expert native-speaking instructors, it offers students world-class language education.",
-        "Today, Academic International operates in more than 12 cities across Turkey, serving thousands of students in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities; it also supports students' international education opportunities, especially in America.",
-        "As the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education, Academic International continues to be the benchmark of the industry with a 97% student satisfaction rate."
+        "Avcılar English Language Course was founded on a simple observation: rote-learning, exam-focused methods leave students unable to actually speak in real situations. Our goal was to build a language programme where what happens in the classroom carries over into daily conversations, job interviews, and travel — not just onto paper.",
+        "From day one, we recognised that adult and child learners have very different needs, so we built separate curricula, materials, and teaching methods for each age group. We never put a primary-school student and a working adult who needs English for their career in the same classroom with the same textbook.",
+        "When building our teaching staff, we looked beyond language knowledge to teaching ability itself, working with experienced instructors and native English speakers to help students learn language that is both accurate and fluent.",
+        "Today, alongside our Avcılar headquarters, our branches across different cities reach thousands of students, offering a wide range of programmes from general English to exam preparation, across levels from A1 to C1.",
+        "We define quality not by a certificate but by results measured in the classroom — regularly updating our curriculum through level tracking, instructor feedback, and student satisfaction surveys."
       ]
     },
     "whyUs": {
-      "title": "Why Academic International?",
-      "subtitle": "The educational advantages we have been offering to our students since our founding",
+      "title": "Why Avcılar English Language Course?",
+      "subtitle": "The educational advantages we have offered our students since our founding",
       "advantages": [
         {
-          "title": "Nearly Half a Century of Experience",
-          "desc": "With our deep-rooted experience in foreign language education and continuously renewed curriculum, we maintain our leading position in the sector.",
+          "title": "Speaking-Focused Method",
+          "desc": "Instead of memorising grammar rules, our curriculum has you reinforce every structure you learn by actually speaking it.",
           "icon": "Award"
         },
         {
-          "title": "ISO 9001:2015 Certificate",
-          "desc": "We have the privilege of being the first institution in Turkey to receive the ISO 9001:2015 Quality Management System certificate in foreign language education.",
+          "title": "Age-Specific Curriculum",
+          "desc": "We teach children, teens, and adults with separate content and methods tailored to each group.",
           "icon": "BadgeCheck"
         },
         {
-          "title": "12+ Cities, 1 Vision",
-          "desc": "With our branches spread across Turkey and our international connections, we are always by our students' side.",
+          "title": "Multi-Branch Network",
+          "desc": "Alongside our Avcılar headquarters, we support students through branches across Turkey.",
           "icon": "Globe"
         },
         {
-          "title": "97% Student Satisfaction",
-          "desc": "The feedback we receive from thousands of students every year is the strongest proof of our educational quality.",
+          "title": "Results-Driven Tracking",
+          "desc": "We closely monitor student progress through regular level assessments and instructor feedback.",
           "icon": "Star"
         }
       ]
@@ -13698,16 +13698,16 @@
     "faq": {
       "items": [
         {
-          "q": "When was Academic International founded?",
-          "a": "Academic International was founded nearly half a century ago and has since continued to raise quality standards in foreign language education."
+          "q": "When was Avcılar English Language Course founded?",
+          "a": "Our school was founded to offer a speaking-focused, age-specific language education model, and we've continued refining our curriculum and methods ever since."
         },
         {
           "q": "How many cities do you serve?",
-          "a": "We serve in more than 12 branches in Istanbul, Ankara, Bursa, Izmir, Kocaeli and many other cities in Turkey. We also offer study abroad opportunities through our America campus."
+          "a": "Alongside our Avcılar headquarters, we have branches in several cities across Turkey — see our contact page for the current branch list."
         },
         {
-          "q": "What does the ISO 9001:2015 certificate mean?",
-          "a": "ISO 9001:2015 is an internationally recognized Quality Management System standard. Academic International is the first institution in Turkey to receive this certificate in the field of foreign language education."
+          "q": "How do you monitor teaching quality?",
+          "a": "We continuously review and update our curriculum through regular placement tests, instructor feedback, and student satisfaction surveys."
         }
       ]
     }
@@ -13715,10 +13715,10 @@
   "kariyerFirsatlariPage": {
     "meta": {
       "title": "Career Opportunities",
-      "description": "Would you like to build a career at Akademik International? Apply for Education Consultant, English, German, French, Spanish, Italian and Russian Teacher positions."
+      "description": "Would you like to build a career at Avcılar English Language Course? Apply for Education Consultant, English, German, French, Spanish, Italian and Russian Teacher positions."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Career Opportunities",
       "subtitle": "Build your career at Turkey's most established foreign language school",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13735,7 +13735,7 @@
     },
     "showcase": {
       "sectionTitle": "Open Positions",
-      "sectionSubtitle": "Would you like to join the Akademik International family? We are accepting applications for the positions below.",
+      "sectionSubtitle": "Would you like to join the Avcılar English Language Course family? We are accepting applications for the positions below.",
       "openPositionsLabel": "Open Positions",
       "cityLabel": "Cities",
       "applyBtn": "APPLY",
@@ -13809,7 +13809,7 @@
       "description": "Discover the corporate discount agreements signed with Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD, and Tek Gıda İş Sendikası."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Corporate Agreements",
       "subtitle": "Corporate discount agreements signed with Turkey's leading companies and civil society organisations",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13859,7 +13859,7 @@
       "faqs": [
         {
           "q": "How can I benefit from the corporate agreement?",
-          "a": "If your institution has an agreement with Akademik International, you can apply to any of our branches with a document obtained from your HR department."
+          "a": "If your institution has an agreement with Avcılar English Language Course, you can apply to any of our branches with a document obtained from your HR department."
         },
         {
           "q": "What is the discount rate under the agreement?",
@@ -13875,10 +13875,10 @@
   "referanslarPage": {
     "meta": {
       "title": "Our Corporate References",
-      "description": "Leading institutions such as Turkish Airlines, Turkcell, TRT, İş Bankası, and Acıbadem choose Akademik International for professional language training."
+      "description": "Leading institutions such as Turkish Airlines, Turkcell, TRT, İş Bankası, and Acıbadem choose Avcılar English Language Course for professional language training."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
       "title": "Our Corporate References",
       "subtitle": "The trusted foreign language training centre for Turkey's most prestigious institutions and brands",
       "customerServiceBtn": "Contact Customer Services Now!",
@@ -13895,7 +13895,7 @@
     },
     "showcase": {
       "title": "Institutions That Trust Us",
-      "subtitle": "Leading public institutions, private companies and educational organisations across Turkey choose Akademik International.",
+      "subtitle": "Leading public institutions, private companies and educational organisations across Turkey choose Avcılar English Language Course.",
       "statsLabel": "Corporate References",
       "yearLabel": "Years of Experience",
       "sectorLabel": "Different Sectors"
@@ -13944,12 +13944,12 @@
   },
   "nedenAkademikPage": {
     "meta": {
-      "title": "Why Akademik Language Courses?",
-      "description": "Discover why Akademik International stands out: expert staff, ISO-certified quality, original publications, online lessons and 97% student satisfaction."
+      "title": "Why Avcılar English Language Course?",
+      "description": "Reasons to choose Avcılar English Language Course: speaking-focused curriculum, experienced instructors, online lessons and age-specific programmes."
     },
     "hero": {
-      "tag": "AKADEMIK INTERNATIONAL",
-      "title": "Why Akademik Language Courses?",
+      "tag": "AVCILAR ENGLISH LANGUAGE COURSE",
+      "title": "Why Avcılar English Language Course?",
       "subtitle": "Our teaching model, expert staff and the privileges we offer you",
       "customerServiceBtn": "Contact Customer Services Now!",
       "infoBtn": "Get Pre-Information Now!",
@@ -13966,61 +13966,61 @@
     "intro": {
       "title": "Why Us?",
       "paragraphs": [
-        "With years of foreign language teaching experience, Akademik Language School has created Industry 4.0-aligned curricula for adults and children — and was the first in Turkey to develop a foreign language education system specifically designed for adult learners."
+        "With years of language teaching experience, Avcılar English Language Course has designed separate curricula for adults and children, offering a teaching system tailored to every age group and current level."
       ]
     },
     "nedenBiz": {
       "leftTitle": "Our Advantages",
-      "leftSubtitle": "The Comprehensive and Quality Educational Advantages Akademik International Foreign Language Schools Offer Their Students",
+      "leftSubtitle": "The comprehensive and quality educational advantages Avcılar English Language Course offers its students",
       "features": [
         {
           "icon": "GraduationCap",
           "title": "Expert Staff",
-          "description": "Akademik International Foreign Language Schools deliver quality language education through an expert team with years of experience in the field."
+          "description": "Avcılar English Language Course delivers quality language education through experienced instructors in the field."
         },
         {
           "icon": "Monitor",
           "title": "Online Lessons",
-          "description": "With Letslingo, Turkey's most interactive and comprehensive online language platform, you can join video and audio lessons whenever and wherever you like."
+          "description": "With the Letslingo online language platform, you can join video and audio lessons whenever and wherever you like."
         },
         {
           "icon": "MessageCircle",
           "title": "Speaking Clubs",
-          "description": "Our English Speaking lessons are tailored to everyday and advanced levels. Sessions with native instructors include a variety of activities and exercises to develop your speaking skills."
+          "description": "Our Speaking lessons are tailored to everyday and advanced levels; sessions with native instructors include activities designed to build your speaking skills."
         },
         {
           "icon": "Award",
           "title": "Student Satisfaction",
-          "description": "The first language school in Turkey to earn ISO 9001:2015 and 10002:2018 certifications, delivering a sustainable language education system with 97% student satisfaction."
+          "description": "We're a language school built around regular feedback and level tracking for a sustainable learning experience."
         },
         {
           "icon": "BookOpen",
-          "title": "Original Publications",
-          "description": "Our London-based publisher THE ACADEMIC PUBLISHING has developed original resources adapted to Turkish linguistic structures, co-authored by native writers and Turkish linguists."
+          "title": "Current Resources",
+          "description": "Our lessons use continuously updated materials based on current topics and real-life scenarios."
         }
       ],
-      "rightTitle": "Why Akademik International?",
-      "rightSubtitle": "The educational advantages we offer to our valued students who choose Akademik International courses",
+      "rightTitle": "Why Avcılar English Language Course?",
+      "rightSubtitle": "The educational advantages we offer our valued students who choose Avcılar English Language Course",
       "accordion": [
         {
           "q": "Quality Language Education",
-          "a": "Our language school — which has pioneered a unique curriculum for adult learners in Turkey — delivers foreign language education in 14 languages including English, German, French, and Spanish, with a focus on developing the four core skills: speaking, reading, listening, and writing."
+          "a": "Our language school stands out with curricula tailored for adult, teen, and child learners, and expert instructors focused on developing the four core skills — speaking, reading, listening, and writing — across English and other languages."
         },
         {
           "q": "Level-Appropriate Language Programmes",
-          "a": "Following a free placement test, the most suitable study plan is drawn up for you. With curricula prepared by our language specialists, you will reach your target language level from beginner through to advanced."
+          "a": "Following a free placement test, the most suitable study plan is drawn up for you, taking you from beginner to advanced through a carefully structured curriculum."
         },
         {
           "q": "Mastering All 4 Language Skills",
-          "a": "We believe grammar-centred instruction is the biggest gap in language education. To address this, we integrate reading, listening, writing, and speaking into our curriculum, giving students the opportunity to learn languages holistically across 14 languages including English."
+          "a": "We believe grammar-centred instruction alone falls short. That's why we integrate reading, listening, writing, and speaking into our curriculum for well-rounded language learning."
         },
         {
           "q": "Current Topics – Rich Content",
-          "a": "Focusing on vocabulary structures such as phrases, collocations, and phrasal verbs as well as semantics, our training helps you synthesise language skills in reading, writing, speaking, and listening — enabling you to reach the highest level of linguistic competence."
+          "a": "We go beyond grammar, focusing on vocabulary structures like phrases, collocations, and phrasal verbs, as well as semantics, to take your language skills to the next level."
         },
         {
           "q": "What Teaching System Do You Use in English Courses?",
-          "a": "Our institution, which was the first to develop a foreign language curriculum for adults in Turkey, creates customised curricula for every age group. Using our own original resources, current and relevant topics are addressed to maximise your language proficiency."
+          "a": "Unlike outdated methods, we create tailored curricula for every age group, using current resources and topics to maximise your language proficiency."
         }
       ]
     },
@@ -14028,8 +14028,8 @@
       "title": "Frequently Asked Questions",
       "items": [
         {
-          "q": "What sets Akademik International apart from other language schools?",
-          "a": "We were the first in Turkey to create a foreign language education system specifically for adults, and we deliver quality education backed by ISO 9001:2015 and 10002:2018 certifications."
+          "q": "What sets Avcılar English Language Course apart from other language schools?",
+          "a": "Our age-specific curriculum, speaking-focused lessons, and regular level tracking help us deliver quality language education."
         },
         {
           "q": "Which levels do you teach?",

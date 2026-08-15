@@ -34,9 +34,9 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
-    title: "Neden Akademik Yabancı Dil Kursları?",
+    title: "Neden Avcılar İngilizce Dil Kursu?",
     description:
-      "Neden Akademik Yabancı Dil Kurslarını tercih etmelisiniz? Eğitim modelimiz, uzman kadromuz ve size sunduğumuz ayrıcalıklar.",
+      "Neden Avcılar İngilizce Dil Kursu'nu tercih etmelisiniz? Eğitim modelimiz, uzman kadromuz ve size sunduğumuz ayrıcalıklar.",
   };
 
   return {
@@ -70,10 +70,10 @@ export default async function NedenAkademikPage({ params }: PageProps) {
     lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa";
   const pageName =
     lang === "en"
-      ? "Why Akademik?"
+      ? "Why Us?"
       : lang === "ar"
-        ? "لماذا الأكاديمية؟"
-        : "Neden Akademik?";
+        ? "لماذا نحن؟"
+        : "Neden Biz?";
   const faqItems = pageData?.faq?.items || [];
 
   return (

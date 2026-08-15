@@ -28,9 +28,9 @@ const programs = [
   { name: "Beşiktaş Fransızca Kursu", href: "/fransizca-kursu-besiktas" },
   { name: "Prep Temel İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik" },
   { name: "Prep Plus İngilizce Kursu", href: "/temel-ingilizce-kursu-hazirlik-plus" },
-  { name: "Academic Express Kursu", href: "/academic-express-ingilizce-kursu" },
-  { name: "Academic İngilizce Kursu", href: "/academic-ingilizce-kursu" },
-  { name: "Academic Plus Kursu", href: "/academic-plus-ingilizce-kursu" },
+  { name: "İleri Seviye Express Kursu", href: "/academic-express-ingilizce-kursu" },
+  { name: "İleri Seviye İngilizce Kursu", href: "/academic-ingilizce-kursu" },
+  { name: "İleri Seviye Plus Kursu", href: "/academic-plus-ingilizce-kursu" },
   { name: "İngilizce Özel Ders", href: "/ingilizce-ozel-ders" },
   { name: "Genel İngilizce Kursu", href: "/ingilizce-kursu" },
   { name: "Kurumlara Özel / Kurumsal İngilizce Kursu", href: "/kurumlara-ozel-ingilizce-kursu" },
@@ -222,10 +222,10 @@ export const Footer = async ({ lang }: Props) => {
           </div>
           
           <div className={styles.groupSection}>
-            <Image src="/brand/group-companies.svg" alt="Akademik International Group Companies" title="Akademik International Group Companies" height={60} width={650} className={styles.groupTitleImg} />
+            <Image src="/brand/group-companies.svg" alt="Avcılar İngilizce Dil Kursu Group Companies" title="Avcılar İngilizce Dil Kursu Group Companies" height={60} width={650} className={styles.groupTitleImg} />
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/logo2.png" alt="Akademik International Language School" title="Akademik International Language School" height={45} width={180} className={styles.logoImgSmall} />
+                <Image src="/brand/logo2.png" alt="Avcılar İngilizce Dil Kursu" title="Avcılar İngilizce Dil Kursu" height={45} width={180} className={styles.logoImgSmall} />
               </div>
               <div className={styles.logoItem}>
                 <Image src="/brand/akademikAbroad.webp" alt="AKADEMİK ABROAD" title="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImgSmall} />

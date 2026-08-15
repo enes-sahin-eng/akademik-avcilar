@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const meta = (dict as any)?.[COURSE_KEY]?.meta || {
     title: "Kariyer Fırsatları",
-    description: "Akademik International bünyesinde kariyer yapmak ister misiniz? Açık pozisyonları inceleyin ve hemen başvurun.",
+    description: "Avcılar İngilizce Dil Kursu bünyesinde kariyer yapmak ister misiniz? Açık pozisyonları inceleyin ve hemen başvurun.",
   };
 
   return {
@@ -78,7 +78,7 @@ export default async function KariyerFirsatlariPage({ params }: PageProps) {
       <KariyerFirsatlariShowcase
         lang={lang}
         sectionTitle={showcase.sectionTitle || "Kariyer Fırsatları"}
-        sectionSubtitle={showcase.sectionSubtitle || "Akademik International ailesine katılmak ister misiniz?"}
+        sectionSubtitle={showcase.sectionSubtitle || "Avcılar İngilizce Dil Kursu ailesine katılmak ister misiniz?"}
         openPositionsLabel={showcase.openPositionsLabel || "Açık Pozisyon"}
         cityLabel={showcase.cityLabel || "Şehir"}
         applyBtn={showcase.applyBtn || "BAŞVUR"}

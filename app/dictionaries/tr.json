@@ -22,12 +22,12 @@
     "btnText": "Sınava Başla →",
     "footerText": "Ücretsiz · Kayıt gerektirmez",
     "avatarAlt": "Avcılar Yabancı Dil Kursu Seviye Tespit Sınavı Eğitim Danışmanı",
-    "avatarTitle": "Avcılar Akademik International Ücretsiz Seviye Belirleme Sınavı"
+    "avatarTitle": "Avcılar İngilizce Dil Kursu Ücretsiz Seviye Belirleme Sınavı"
   },
   "robot": {
     "tooltip": "Sana nasıl yardımcı olabilirim?",
     "title": "Eğitim Danışmanı",
-    "status": "Akademik International",
+    "status": "Avcılar İngilizce Dil Kursu",
     "online": "Çevrimiçi",
     "inputPlaceholder": "Bir şeyler yazın...",
     "send": "Gönder",
@@ -577,7 +577,7 @@
     "programsTitle": "Eğitim Programlarımız",
     "languagesTitle": "Diğer Diller",
     "newsletterTitle": "Bizden Haberiniz Olsun",
-    "newsletterDesc": "E-Posta Listemize Katılarak Akademik International'dan Gelecek Güncel Haberleri, İndirim Fırsatlarını Ve Kampanyalarını Kaçırma",
+    "newsletterDesc": "E-Posta Listemize Katılarak Avcılar İngilizce Dil Kursu'ndan Gelecek Güncel Haberleri, İndirim Fırsatlarını Ve Kampanyalarını Kaçırma",
     "emailPlaceholder": "E-Posta Adresiniz",
     "sendBtn": "Gönder",
     "sendingBtn": "Gönderiliyor...",
@@ -587,7 +587,7 @@
     "checkbox1": "Özel bildirim, güncelleme ve haberler hakkında tarafıma e-posta ve SMS ile iletişime geçilmesini istiyorum.",
     "checkbox2": "Web Gizlilik ve Kişisel Verileri Koruma Kanunu İlkeleri metnini okudum, onaylıyorum",
     "socialTitle": "Bizi Takip Edin",
-    "socialDesc": "Akademik International Deneyimleri Ve Aktiviteleri Feedinize Düşsün!",
+    "socialDesc": "Avcılar İngilizce Dil Kursu Deneyimleri Ve Aktiviteleri Feedinize Düşsün!",
     "customerServiceTitle": "Müşteri Hizmetleri",
     "callNowBtn": "Hemen Ara!",
     "abroadCallText": "Yurtdışından mı arıyorsunuz?",
@@ -597,9 +597,9 @@
       "Kişisel Veriler Politikası",
       "Şartlar ve Koşullar"
     ],
-    "copyright": "© 1992 - 2026 Akademik International Yabancı Dil Kursu Tüm Haklar Saklıdır.",
+    "copyright": "© 2026 Avcılar İngilizce Dil Kursu Tüm Hakları Saklıdır.",
     "partnersTitle": "Bizi Güçlü Kılan Partnerlerimiz",
-    "groupTitle": "Akademik International Group",
+    "groupTitle": "Avcılar İngilizce Dil Kursu Group",
     "designBy": "Design & Development By"
   },
   "homeContentSection": {
@@ -13722,10 +13722,10 @@
   "tarihcePage": {
     "meta": {
       "title": "Tarihçe",
-      "description": "Akademik Yabancı Dil Kursu'nun kuruluş hikayesi, vizyonu ve bugüne kadar yabancı dil eğitimine katkıları hakkında bilgi edinin."
+      "description": "Avcılar İngilizce Dil Kursu'nun kuruluş vizyonu, eğitim yaklaşımı ve bugüne kadarki gelişimi hakkında bilgi edinin."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Tarihçemiz",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
       "infoBtn": "Hemen Ön Bilgi Alın!",
@@ -13742,35 +13742,35 @@
     "intro": {
       "title": "Tarihçe",
       "paragraphs": [
-        "Sıradanlaşan yabancı dil eğitim müfredatının yerine, sürdürülebilir yabancı dil eğitim sistemini oluşturarak endüstri 4.0 ile dil eğitimine farklı bakış açısı kazandıran Akademik Yabancı Dil Kursu, yarım asra yakın süredir İngilizce başta olmak üzere yabancı dil eğitimine yön vermektedir.",
-        "Türkiye'de ilk kez yetişkinler ve alt yaş grupları için ayrı eğitim müfredatını oluşturan Akademik Dil Okulu, yaş gruplarına ve aktüel birikimlerine uygun hazırlanan özgün kaynakları ile bugüne kadar birçok kamu ve özel sektör çalışanına, ilköğretim öğrencilerinden başlayarak tüm yaş grupları için ayrı düzenlenmiş eğitim programları ile yabancı dil eğitimi hizmeti vermektedir.",
-        "Akademik International, kuruluşundan bu yana yabancı dil eğitiminde kalite standartlarını yeniden tanımlamış; Türkiye'nin önde gelen üniversitelerinden gelen akademisyenler ve ana dili İngilizce olan uzman eğitmenlerden oluşan güçlü kadrosuyla öğrencilerine dünya standartlarında dil eğitimi sunmaktadır.",
-        "Bugün Türkiye'nin 12'den fazla şehrinde faaliyet gösteren Akademik International, İstanbul, Ankara, Bursa, İzmir, Kocaeli ve daha pek çok ilde binlerce öğrenciye hizmet vermeye devam etmekte; aynı zamanda Amerika başta olmak üzere yurt dışı eğitim imkanlarıyla da öğrencilerinin yanında yer almaktadır.",
-        "ISO 9001:2015 Kalite Yönetim Sistemi belgesiyle Türkiye'de yabancı dil eğitiminde bu sertifikayı alan ilk kurum olma unvanını taşıyan Akademik International, %97 öğrenci memnuniyeti oranıyla sektörün referans noktası olmayı sürdürmektedir."
+        "Avcılar İngilizce Dil Kursu, yabancı dil eğitiminde ezber temelli, sınav odaklı yaklaşımların öğrencileri gerçek hayatta konuşma becerisinden uzaklaştırdığı gözleminden yola çıkarak kuruldu. Amacımız, öğrencinin sınıfta öğrendiğini günlük hayata, iş görüşmesine, seyahate taşıyabildiği; kâğıt üzerinde değil pratikte işleyen bir dil eğitimi sunmaktı.",
+        "Kuruluşumuzdan itibaren yetişkin ve çocuk öğrencilerin ihtiyaçlarının birbirinden çok farklı olduğunu benimsedik; bu nedenle her yaş grubu için ayrı müfredat, ayrı materyal ve ayrı öğretim yöntemi geliştirdik. İlkokul çağındaki bir öğrenciyle kariyerinde İngilizce'ye ihtiyaç duyan bir yetişkini aynı sınıfa, aynı kitaba mahkûm etmedik.",
+        "Eğitim kadromuzu oluştururken sadece dil bilgisine değil, öğretme becerisine de önem verdik; alanında deneyimli eğitmenler ve ana dili İngilizce olan öğretmenlerle çalışarak öğrencilerimize hem doğru hem de akıcı bir dil öğretmeyi hedefledik.",
+        "Bugün Avcılar merkezimizin yanı sıra farklı şehirlerdeki şubelerimizle binlerce öğrenciye ulaşıyor; A1'den C1'e uzanan seviyelerde, genel İngilizce'den sınav hazırlığına kadar geniş bir program yelpazesi sunuyoruz.",
+        "Kalite anlayışımızı bir belgeyle değil, sınıfta ölçülen sonuçla tanımlıyoruz: düzenli seviye takibi, eğitmen geri bildirimi ve öğrenci memnuniyeti anketleriyle müfredatımızı sürekli güncelliyoruz."
       ]
     },
     "whyUs": {
-      "title": "Neden Akademik International?",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Kuruluşumuzdan bu yana öğrencilerimize sunduğumuz eğitim avantajları",
       "advantages": [
         {
-          "title": "Yarım Asra Yakın Deneyim",
-          "desc": "Yabancı dil eğitimindeki köklü tecrübemiz ve sürekli yenilenen müfredatımızla sektörde öncü konumumuzu koruyoruz.",
+          "title": "Konuşma Odaklı Metodoloji",
+          "desc": "Dil bilgisini ezberletmek yerine, öğrendiğiniz her yapıyı konuşarak pekiştirdiğiniz bir müfredat uyguluyoruz.",
           "icon": "Award"
         },
         {
-          "title": "ISO 9001:2015 Sertifikası",
-          "desc": "Türkiye'de yabancı dil eğitiminde ISO 9001:2015 Kalite Yönetim Sistemi belgesini alan ilk kurum olma ayrıcalığına sahibiz.",
+          "title": "Yaşa Özel Müfredat",
+          "desc": "Çocuk, genç ve yetişkin öğrenciler için ayrı ayrı hazırlanmış içerik ve öğretim yöntemleriyle ders veriyoruz.",
           "icon": "BadgeCheck"
         },
         {
-          "title": "12+ Şehir, 1 Vizyon",
-          "desc": "Türkiye'nin dört bir yanına yayılan şubelerimiz ve yurt dışı bağlantılarımızla öğrencilerimizin yanındayız.",
+          "title": "Çok Şubeli Yapı",
+          "desc": "Avcılar merkezimizin yanı sıra Türkiye'nin farklı şehirlerindeki şubelerimizle öğrencilerimizin yanındayız.",
           "icon": "Globe"
         },
         {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Her yıl binlerce öğrencimizden aldığımız geri bildirimler, eğitim kalitemizin en güçlü kanıtıdır.",
+          "title": "Sonuç Odaklı Takip",
+          "desc": "Düzenli seviye ölçümleri ve eğitmen geri bildirimleriyle öğrencilerimizin gelişimini yakından izliyoruz.",
           "icon": "Star"
         }
       ]
@@ -13778,16 +13778,16 @@
     "faq": {
       "items": [
         {
-          "q": "Akademik International ne zaman kuruldu?",
-          "a": "Akademik International, yarım asra yakın bir süre önce kurulmuş olup o günden bu yana yabancı dil eğitiminde kalite standartlarını sürekli yükselterek gelişimini sürdürmektedir."
+          "q": "Avcılar İngilizce Dil Kursu ne zaman kuruldu?",
+          "a": "Kursumuz, konuşma odaklı ve yaşa özel bir dil eğitimi modeli sunmak amacıyla kuruldu; o günden bu yana müfredatımızı ve öğretim yöntemlerimizi sürekli geliştiriyoruz."
         },
         {
           "q": "Kaç şehirde hizmet veriyorsunuz?",
-          "a": "Türkiye'nin İstanbul, Ankara, Bursa, İzmir, Kocaeli ve daha pek çok şehrinde 12'den fazla şubemizle hizmet vermekteyiz. Aynı zamanda Amerika kampüsümüz aracılığıyla yurt dışı eğitim imkanı da sunuyoruz."
+          "a": "Avcılar merkezimizin yanı sıra Türkiye'nin farklı şehirlerinde şubelerimiz bulunuyor; güncel şube listesine iletişim sayfamızdan ulaşabilirsiniz."
         },
         {
-          "q": "ISO 9001:2015 belgesi ne anlama geliyor?",
-          "a": "ISO 9001:2015, uluslararası alanda tanınan bir Kalite Yönetim Sistemi standardıdır. Akademik International, bu belgeyi yabancı dil eğitimi alanında Türkiye'de ilk kez alan kurumdur."
+          "q": "Eğitim kalitenizi nasıl takip ediyorsunuz?",
+          "a": "Düzenli seviye belirleme sınavları, eğitmen geri bildirimleri ve öğrenci memnuniyeti anketleriyle müfredatımızı sürekli gözden geçiriyor ve güncelliyoruz."
         }
       ]
     }
@@ -13795,10 +13795,10 @@
   "kariyerFirsatlariPage": {
     "meta": {
       "title": "Kariyer Fırsatları",
-      "description": "Akademik International bünyesinde kariyer yapmak ister misiniz? Eğitim danışmanı, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve Rusça öğretmeni pozisyonları için başvurun."
+      "description": "Avcılar İngilizce Dil Kursu bünyesinde kariyer yapmak ister misiniz? Eğitim danışmanı, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve Rusça öğretmeni pozisyonları için başvurun."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kariyer Fırsatları",
       "subtitle": "Türkiye'nin en köklü yabancı dil okulunda kariyerinizi inşa edin",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13815,7 +13815,7 @@
     },
     "showcase": {
       "sectionTitle": "Açık Pozisyonlar",
-      "sectionSubtitle": "Akademik International ailesine katılmak ister misiniz? Aşağıdaki pozisyonlar için başvurularınızı bekliyoruz.",
+      "sectionSubtitle": "Avcılar İngilizce Dil Kursu ailesine katılmak ister misiniz? Aşağıdaki pozisyonlar için başvurularınızı bekliyoruz.",
       "openPositionsLabel": "Açık Pozisyon",
       "cityLabel": "Şehir",
       "applyBtn": "BAŞVUR",
@@ -13889,7 +13889,7 @@
       "description": "Yeşilova Holding, BTSO, İş Bankası, TÜMSİAD ve Tek Gıda İş Sendikası ile imzaladığımız kurumsal indirim anlaşmalarını keşfedin."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kurumsal Anlaşmalar",
       "subtitle": "Türkiye'nin köklü şirketleri ve sivil toplum kuruluşları ile imzaladığımız kurumsal indirim anlaşmaları",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13939,7 +13939,7 @@
       "faqs": [
         {
           "q": "Kurumsal anlaşmadan nasıl yararlanabilirim?",
-          "a": "Çalıştığınız kurumun Akademik International ile anlaşmalı olması durumunda, kurumunuzun İK departmanından temin edeceğiniz belge ile herhangi bir şubemize başvurabilirsiniz."
+          "a": "Çalıştığınız kurumun Avcılar İngilizce Dil Kursu ile anlaşmalı olması durumunda, kurumunuzun İK departmanından temin edeceğiniz belge ile herhangi bir şubemize başvurabilirsiniz."
         },
         {
           "q": "Anlaşma kapsamındaki indirim oranı nedir?",
@@ -13955,10 +13955,10 @@
   "referanslarPage": {
     "meta": {
       "title": "Kurumsal Referanslarımız",
-      "description": "Turkish Airlines, Turkcell, TRT, İş Bankası, Acıbadem ve daha birçok önde gelen kurumun tercih ettiği Akademik International yabancı dil kursları."
+      "description": "Turkish Airlines, Turkcell, TRT, İş Bankası, Acıbadem ve daha birçok önde gelen kurumun tercih ettiği Avcılar İngilizce Dil Kursu."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
       "title": "Kurumsal Referanslarımız",
       "subtitle": "Türkiye'nin köklü kurum ve markalarının güvendiği yabancı dil eğitim merkezi",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
@@ -13975,7 +13975,7 @@
     },
     "showcase": {
       "title": "Bize Güvenen Kurumlar",
-      "subtitle": "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Akademik International'ı tercih ediyor.",
+      "subtitle": "Türkiye'nin önde gelen kamu kuruluşları, özel şirketler ve eğitim kurumları Avcılar İngilizce Dil Kursu'nu tercih ediyor.",
       "statsLabel": "Kurumsal Referans",
       "yearLabel": "Yıllık Deneyim",
       "sectorLabel": "Farklı Sektör"
@@ -14024,12 +14024,12 @@
   },
   "nedenAkademikPage": {
     "meta": {
-      "title": "Neden Akademik Yabancı Dil Kursları?",
-      "description": "Akademik International'ı tercih etmenizin nedenleri: uzman kadro, ISO sertifikalı kalite, özgün yayınlar, online ders imkânı ve %97 öğrenci memnuniyeti."
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
+      "description": "Avcılar İngilizce Dil Kursu'nu tercih etmenizin nedenleri: konuşma odaklı müfredat, deneyimli eğitmenler, online ders imkânı ve yaşa özel programlar."
     },
     "hero": {
-      "tag": "AKADEMİK INTERNATIONAL",
-      "title": "Neden Akademik Yabancı Dil Kursları?",
+      "tag": "AVCILAR İNGİLİZCE DİL KURSU",
+      "title": "Neden Avcılar İngilizce Dil Kursu?",
       "subtitle": "Eğitim modelimiz, uzman kadromuz ve size sunduğumuz ayrıcalıklar",
       "customerServiceBtn": "Hemen Müşteri Hizmetleri İle İletişime Geçin!",
       "infoBtn": "Hemen Ön Bilgi Alın!",
@@ -14046,61 +14046,61 @@
     "intro": {
       "title": "Neden Biz?",
       "paragraphs": [
-        "Yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile yetişkinler ve çocuk grupları için endüstri 4.0 eğitim müfredatı ile her yaş grubu ve aktüel birikime uygun yabancı dil müfredatı oluşturan Akademik Dil Okulu Türkiye de ilk kez yetişkinlere özgü yabancı dil eğitim sistemini oluşturmuştur."
+        "Yılların dil eğitimi deneyimiyle, yetişkinler ve çocuklar için birbirinden ayrı müfredatlar tasarlayan Avcılar İngilizce Dil Kursu, her yaş grubunun ve mevcut seviyenin ihtiyaçlarına özel bir öğretim sistemi sunar."
       ]
     },
     "nedenBiz": {
       "leftTitle": "Sunduğumuz Avantajlar",
-      "leftSubtitle": "Akademik International Yabancı Dil Okulları Öğrencilerine Sunmuş Olduğu Kapsamlı Ve Nitelikli Eğitim Avantajları",
+      "leftSubtitle": "Avcılar İngilizce Dil Kursu'nun öğrencilerine sunduğu kapsamlı ve nitelikli eğitim avantajları",
       "features": [
         {
           "icon": "GraduationCap",
           "title": "Uzman Kadro",
-          "description": "Akademik International Yabancı Dil Okulları, alanında uzman, yıllardır deneyimlemiş yabancı dil eğitim tecrübesi ile nitelikli yabancı dil eğitimi sunmaktadır."
+          "description": "Avcılar İngilizce Dil Kursu, alanında deneyimli eğitmenleriyle nitelikli yabancı dil eğitimi sunar."
         },
         {
           "icon": "Monitor",
           "title": "Online Ders",
-          "description": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğin zaman dilediğin yerde görüntülü ve sesli derslere katılım sağlayabilirsin."
+          "description": "Letslingo online dil platformu ile dilediğiniz zaman, dilediğiniz yerden görüntülü ve sesli derslere katılım sağlayabilirsiniz."
         },
         {
           "icon": "MessageCircle",
           "title": "Konuşma Kulüpleri",
-          "description": "İngilizce Speaking derslerimiz, günlük ve üst düzey İngilizce seviyelerine uygun olarak hazırlanmıştır. Native hocalarımızla gerçekleştirilen derslerimizde farklı konuşma becerilerini geliştirmenize yardımcı olacak çeşitli aktiviteler ve alıştırmalar yapılmaktadır."
+          "description": "Speaking derslerimiz günlük ve üst düzey seviyelere uygun hazırlanmıştır; native eğitmenlerimizle gerçekleştirilen derslerde konuşma becerinizi geliştirecek çeşitli aktiviteler uygulanır."
         },
         {
           "icon": "Award",
-          "title": "Student Satisfaction",
-          "description": "Türkiye'de ilk kez ISO 9001:2015 Quality Management Systems ve 10002:2018 Customer Satisfaction belgelerini almaya hak kazanarak sürdürülebilir yabancı dil eğitimi sistemini oluşturan, %97 öğrenci memnuniyeti sağlayan yabancı dil okulu."
+          "title": "Öğrenci Memnuniyeti",
+          "description": "Düzenli geri bildirim ve seviye takibiyle sürdürülebilir bir dil eğitimi deneyimi sunan bir dil okuluyuz."
         },
         {
           "icon": "BookOpen",
-          "title": "Özgün Yayınlar",
-          "description": "Londra merkezli kurum öğrencilerimize özel yayınevimiz THE ACADEMIC PUBLISHING, Türk dil yapısına uygun olarak hazırlanmış özgün kaynaklar geliştirmiştir. Bu kaynaklar, Native yazarlar ve Türk dilbilimcileri tarafından ortaklaşa hazırlanmaktadır."
+          "title": "Güncel Kaynaklar",
+          "description": "Derslerimizde, güncel konuları ve gerçek hayat senaryolarını temel alan, sürekli güncellenen ders materyalleri kullanıyoruz."
         }
       ],
-      "rightTitle": "Neden Akademik International?",
-      "rightSubtitle": "Akademik International Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
+      "rightTitle": "Neden Avcılar İngilizce Dil Kursu?",
+      "rightSubtitle": "Avcılar İngilizce Dil Kursu'nu seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
       "accordion": [
         {
           "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz, yıllardır deneyimlediği yabancı dil eğitim tecrübesi, kuruma özgü yetişkin, lise ve çocuk grupları için ayrı ayrı oluşturulan yayınlar, alanında uzman öğretmenleri ile speaking, reading, listening ve writing olmak üzere dört temel dil becerilerini geliştirmeye odaklanarak İngilizce başta olmak üzere Almanca, Fransızca, İspanyolca ve 14 farklı dilde yabancı dil eğitimi vermektedir."
+          "a": "Yetişkin öğrenciler için özel hazırlanmış müfredatı, kuruma özgü yetişkin, lise ve çocuk grupları için ayrı ayrı oluşturulan kaynakları ve alanında uzman öğretmenleriyle fark yaratan dil okulumuz; speaking, reading, listening ve writing olmak üzere dört temel dil becerisini geliştirmeye odaklanarak İngilizce başta olmak üzere farklı dillerde eğitim vermektedir."
         },
         {
           "q": "Seviyeye Uygun Yabancı Dil Programları",
-          "a": "Ücretsiz olarak gerçekleştirilen seviye belirleme sınavı sonucunda sizin için en uygun eğitim planlaması gerçekleştirilerek, temel seviyeden üst düzeye kadar dil bilimci hocalarımız tarafından hazırlanan yabancı dil eğitim müfredatı ile hedeflediğiniz dil seviyesine ulaşacaksınız."
+          "a": "Ücretsiz olarak gerçekleştirilen seviye belirleme sınavı sonucunda sizin için en uygun eğitim planlaması yapılır; temel seviyeden üst düzeye kadar hazırlanan müfredatla hedeflediğiniz dil seviyesine ulaşırsınız."
         },
         {
           "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Akademik Yabancı Dil Okulu olarak geçmişten günümüze dil eğitiminde grammer merkezli anlatımın yabancı dil eğitiminin en büyük eksiği olduğunu düşünmekteyiz. Bu sorunu ortadan kaldırmak adına müfredatımıza reading, listening, writing ve speaking becerilerini de ekleyerek homojen bir yabancı dil öğrenimi sağlamaktayız. Derslerimizde dil bilgisi kurallarına ek olarak, okuduğunu anlama, kelime, yazma, dinlediğini anlama ve konuşma gibi çeşitli uygulamalarla İngilizce başta olmak üzere 14 farklı dilde dili bir bütün olarak öğrenme fırsatı yakalayabilirsiniz."
+          "a": "Dil eğitiminde grammer merkezli anlatımın en büyük eksiklerden biri olduğunu düşünüyoruz. Bu nedenle müfredatımıza reading, listening, writing ve speaking becerilerini de ekleyerek homojen bir dil öğrenimi sağlıyoruz."
         },
         {
           "q": "Aktüel Konular - Zengin İçerik",
-          "a": "Dil öğrenimini dil bilgisi öğrenimi ile eş değer görmeyen yabancı dil okulumuzda dilde varan olan phrase, collocation, phrasal verb gibi kelime yapıları ve anlam bilim olarak adlandırılan semantics üzerine yoğunlaşan eğitimimizle dil becerinizi en üst seviyeye çıkartarak dilin kültürünü de okuma, yazma, konuşma ve dinleme becerilerinizde sentezleyebilirsiniz. Dört becerinin birbirini destekleyici birbirine entregre olmuş eğitim içeriğimiz ile okuduğunu anlama, kelime, dil bilgisi gibi yazılı beceriler hem de dinleme ve konuşma gibi daha aktif şekilde kullanılan becerileri en üst seviyeye çıkarabilirsiniz."
+          "a": "Dil öğrenimini yalnızca dil bilgisiyle sınırlamayan okulumuzda, phrase, collocation ve phrasal verb gibi kelime yapılarına ve anlam bilimine odaklanan içeriklerle dil becerinizi üst seviyeye taşıyoruz."
         },
         {
-          "q": "İngilizce Kursu Eğitiminde Nasıl Bir Eğitim Sistemi Uyguluyorsunuz?",
-          "a": "Türkiye'de ilk kez yetişkin bireyler için yabancı dil müfredatı oluşturan kurumumuz demode olmuş yabancı dil eğitim müfredatlarının aksine her yaş gubu için özel eğitim müfredatı hazırlamaktadır. Kendi yayınevimize ait özgün kaynaklardan güncel, aktüel konular ele alınarak dil yetkinliğinizi en üst seviyeye çıkartılır."
+          "q": "İngilizce Kursu Eğitiminde Nasıl Bir Sistem Uyguluyorsunuz?",
+          "a": "Demode yöntemlerin aksine her yaş grubu için özel müfredat hazırlıyoruz. Güncel kaynaklardan aktüel konular ele alınarak dil yetkinliğiniz üst seviyeye taşınır."
         }
       ]
     },
@@ -14108,8 +14108,8 @@
       "title": "Sık Sorulan Sorular",
       "items": [
         {
-          "q": "Akademik International'ı diğer dil okullarından ayıran en önemli özellik nedir?",
-          "a": "Türkiye'de ilk kez yetişkinlere özgü yabancı dil eğitim sistemi oluşturan kurumumuz, ISO 9001:2015 ve 10002:2018 sertifikaları ile kaliteli eğitimi belgelenmiş şekilde sunmaktadır."
+          "q": "Avcılar İngilizce Dil Kursu'nu diğer dil kurslarından ayıran en önemli özellik nedir?",
+          "a": "Yaşa özel müfredatımız, konuşma odaklı ders yapımız ve düzenli seviye takibimizle kaliteli bir dil eğitimi sunuyoruz."
         },
         {
           "q": "Hangi seviyelerde ders veriyorsunuz?",
