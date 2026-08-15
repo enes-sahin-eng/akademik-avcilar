@@ -92,7 +92,7 @@ export default async function KurumsalIngilizcePage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.akademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
           }),
         }}

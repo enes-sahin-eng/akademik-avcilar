@@ -92,7 +92,7 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
             provider: {
               "@type": "Organization",
               name: "Akademik International",
-              sameAs: "https://www.akademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
           }),
         }}

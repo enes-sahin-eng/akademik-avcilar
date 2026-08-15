@@ -85,13 +85,13 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Anasayfa",
-                "item": "https://www.akademik.com.tr"
+                "item": "https://www.avcilaringilizcekursu.com.tr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Lise İngilizce Kursu",
-                "item": `https://www.akademik.com.tr/${lang}/lise-ingilizce-kursu`
+                "item": `https://www.avcilaringilizcekursu.com.tr/${lang}/lise-ingilizce-kursu`
               }
             ]
           })
@@ -110,7 +110,7 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
             "provider": {
               "@type": "EducationalOrganization",
               "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://www.akademik.com.tr"
+              "sameAs": "https://www.avcilaringilizcekursu.com.tr"
             },
             "hasCourseInstance": {
               "@type": "CourseInstance",

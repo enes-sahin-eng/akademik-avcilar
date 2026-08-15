@@ -1,6 +1,6 @@
-# Akademik International Yabancı Dil Okulları
+# Avcılar İngilizce Dil Kursu
 
-> Akademik International, Türkiye genelinde 12 şubesi bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik dil eğitimleri ve uluslararası sınav hazırlık programları sunar.
+> Avcılar İngilizce Dil Kursu, Türkiye genelinde şubeleri bulunan, genel merkezi İstanbul Avcılar'da olan bir yabancı dil eğitim kurumudur. Yetişkinlere, çocuklara (Kids & Teens), akademik kariyer sahiplerine ve kurumlara yönelik dil eğitimleri ve uluslararası sınav hazırlık programları sunar.
 
 Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve indekslemesi için hazırlanmıştır.
 
@@ -60,11 +60,11 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 
 ## Lokasyon Bazlı Dil Kursları
 - [Kadıköy Almanca Kursu](https://avcilaringilizcekursu.com.tr/kadikoy-almanca-kursu): İstanbul Kadıköy Şubesinde yetişkinlere özel müfredat, Goethe/Telc/TestDaF sınav hazırlı ve esnek programlarla Almanca eğitim.
-- [Kadıköy İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/kadikoy-ingilizce-dil-kursu): İstanbul Kadıköy'de Native Speaker eğitmenler, speaking odaklı sınıflar ve Akademik Publishing kaynaklarıyla nitelikli İngilizce kursu.
+- [Kadıköy İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/kadikoy-ingilizce-dil-kursu): İstanbul Kadıköy'de Native Speaker eğitmenler, speaking odaklı sınıflar ve özgün eğitim kaynaklarıyla nitelikli İngilizce kursu.
 - [Beşiktaş Fransızca Kursu](https://avcilaringilizcekursu.com.tr/fransizca-kursu-besiktas): İstanbul Beşiktaş Şubesinde native speaker eğitmenlerle DELF/DALF sınav hazırlı ve konuşma odaklı Fransızca eğitim.
 
 ## Şube Lokasyon Sayfaları (İngilizce)
-- [Avcılar İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/avcilar-ingilizce-dil-kursu): Akademik International'ın genel merkez şubesi Avcılar'da yetişkin, öğrenci ve kurumsal gruplara özel İngilizce dil kursu.
+- [Avcılar İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/avcilar-ingilizce-dil-kursu): Genel merkez şubesi Avcılar'da yetişkin, öğrenci ve kurumsal gruplara özel İngilizce dil kursu.
 - [İstanbul İngilizce Kursu](https://avcilaringilizcekursu.com.tr/istanbul-ingilizce-kursu): İstanbul genelinde merkezi lokasyon ve esnek ders saatleriyle nitelikli İngilizce eğitimi.
 - [Bursa FSM İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/bursa-ingilizce-dil-kursu-fsm): Bursa FSM şubesinde IELTS Test Venue onaylı, native speaker eğitmenlerle İngilizce kursu.
 - [İstanbul Çekmeköy İngilizce Dil Kursu](https://avcilaringilizcekursu.com.tr/cekmekoy-ingilizce-dil-kursu): İstanbul Çekmeköy şubesinde yetişkin ve öğrencilere yönelik nitelikli İngilizce eğitimi.
@@ -79,12 +79,11 @@ Bu dosya, dil ve cevap motorlarının (LLM Crawler) siteyi doğru anlaması ve i
 - [Kütahya İngilizce Kursu](https://avcilaringilizcekursu.com.tr/ingilizce-kursu-kutahya): Kütahya şubesinde özgün müfredat, Native Speaker eğitmenler ve konuşma odaklı sistem ile kaliteli İngilizce eğitimi.
 
 ## Hakkımızda
-- [Yayınlarımız](https://avcilaringilizcekursu.com.tr/yayinlarimiz): Akademik International'ın özgün eğitim kitapları ve yayın serisi; kendi bünyesinde geliştirilen müfredat materyalleri.
-- [Tarihçemiz](https://avcilaringilizcekursu.com.tr/tarihce): Akademik International'ın kuruluşundan bugüne uzanan 12+ yıllık büyüme hikayesi, vizyonu ve kurumsal gelişimi.
-- [Neden Akademik Yabancı Dil Kursları?](https://avcilaringilizcekursu.com.tr/neden-akademik-yabanci-dil-kurslari): Akademik International'ı tercih etmeniz için 5 temel neden; native speaker eğitmenler, özgün müfredat, sınav garantisi ve daha fazlası.
-- [Referanslar](https://avcilaringilizcekursu.com.tr/referanslar): Kamu kurumları, özel sektör şirketleri, eğitim kurumları ve sağlık kuruluşları dahil 17+ kurumsal referans ve iş ortağı.
-- [Kurumsal Anlaşmalar](https://avcilaringilizcekursu.com.tr/kurumsal-anlasmalar): Akademik International'ın Türkiye İş Bankası, BAU, BTSO, Yeşilova Holding, TÜMSİAD ve Tek Gıda-İş Sendikası ile imzaladığı kurumsal indirim anlaşmaları.
-- [Kariyer Fırsatları](https://avcilaringilizcekursu.com.tr/kariyer-firsatlari): Akademik International bünyesinde açık pozisyonlar; yabancı dil eğitmeni, online eğitmen, akademik danışman ve idari kadro ilanları.
+- [Tarihçemiz](https://avcilaringilizcekursu.com.tr/tarihce): Avcılar İngilizce Dil Kursu'nun kuruluş vizyonu, eğitim yaklaşımı ve bugüne kadarki gelişimi.
+- [Neden Avcılar İngilizce Dil Kursu?](https://avcilaringilizcekursu.com.tr/neden-akademik-yabanci-dil-kurslari): Avcılar İngilizce Dil Kursu'nu tercih etmeniz için temel nedenler; native speaker eğitmenler, konuşma odaklı müfredat ve daha fazlası.
+- [Referanslar](https://avcilaringilizcekursu.com.tr/referanslar): Kamu kurumları, özel sektör şirketleri, eğitim kurumları ve sağlık kuruluşları dahil kurumsal referanslar ve iş ortakları.
+- [Kurumsal Anlaşmalar](https://avcilaringilizcekursu.com.tr/kurumsal-anlasmalar): Türkiye İş Bankası, BAU, BTSO, Yeşilova Holding, TÜMSİAD ve Tek Gıda-İş Sendikası ile imzalanan kurumsal indirim anlaşmaları.
+- [Kariyer Fırsatları](https://avcilaringilizcekursu.com.tr/kariyer-firsatlari): Avcılar İngilizce Dil Kursu bünyesinde açık pozisyonlar; yabancı dil eğitmeni, online eğitmen, akademik danışman ve idari kadro ilanları.
 
 ## Diğer Hizmetler
 - [Tercüme Hizmetleri](https://avcilaringilizcekursu.com.tr/tercume-hizmeti): Kurumsal ve bireysel belgeler için proof-reading garantili yeminli tercüme hizmeti.
