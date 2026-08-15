@@ -8,7 +8,7 @@ import { getDictionary, locales, type Locale } from "../../../dictionaries/getDi
 
 interface PageProps {
   params: Promise<{
-    lang: any;
+    lang: string;
   }>;
 }
 

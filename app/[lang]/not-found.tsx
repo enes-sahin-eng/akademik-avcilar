@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { cookies, headers } from "next/headers";
+import { cookies } from "next/headers";
 import { Navbar } from "../components/layout/Navbar";
 import styles from "./NotFound.module.css";
 import { MoveRight } from "lucide-react";

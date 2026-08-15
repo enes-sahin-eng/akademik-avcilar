@@ -51,24 +51,24 @@ interface ExamItem {
 const FEATURED: LangItem[] = [
   { key: "ingilizce", label: "İngilizce", flagImg: "/flags/ingilizce.svg", path: "ingilizce-kursu" },
   { key: "almanca",   label: "Almanca",   flagImg: "/flags/almanca.webp",  path: "almanca-dil-kursu" },
-  { key: "arapca",    label: "Arapça",    flagImg: "/flags/arapça.svg",    path: "arapca-dil-kursu" },
+  { key: "arapca",    label: "Arapça",    flagImg: "/flags/arapca.svg",    path: "arapca-dil-kursu" },
 ];
 
 const ALL_LANGUAGES: LangItem[] = [
   { key: "fransizca",          label: "Fransızca",     flagImg: "/flags/fransa.webp",     path: "fransizca-dil-kursu" },
   { key: "ispanyolca",         label: "İspanyolca",    flagImg: "/flags/ispanya.webp",    path: "ispanyolca-dil-kursu" },
-  { key: "rusca",              label: "Rusça",          flagImg: "/flags/rusça.webp",      path: "rusca-dil-kursu" },
+  { key: "rusca",              label: "Rusça",          flagImg: "/flags/rusca.webp",      path: "rusca-dil-kursu" },
   { key: "japonca",            label: "Japonca",        flagImg: "/flags/japan.webp",      path: "japonca-dil-kursu" },
   { key: "korece",             label: "Korece",         flagImg: "/flags/kore.webp",       path: "korece-dil-kursu" },
   { key: "italyanca",          label: "İtalyanca",      flagImg: "/flags/italyanca.webp",  path: "italyanca-dil-kursu" },
-  { key: "cince",              label: "Çince",          flagImg: "/flags/çince.webp",      path: "cince-dil-kursu" },
+  { key: "cince",              label: "Çince",          flagImg: "/flags/cince.webp",      path: "cince-dil-kursu" },
   { key: "portekizce",         label: "Portekizce",     flagImg: "/flags/portekiz.webp",   path: "portekizce-dil-kursu" },
-  { key: "flemenkce",          label: "Flemenkçe",      flagImg: "/flags/flemenkçe.webp",  path: "flemenkce-dil-kursu" },
-  { key: "farsca",             label: "Farsça",         flagImg: "/flags/farsça.webp",     path: "farsca-dil-kursu" },
+  { key: "flemenkce",          label: "Flemenkçe",      flagImg: "/flags/flemenkce.webp",  path: "flemenkce-dil-kursu" },
+  { key: "farsca",             label: "Farsça",         flagImg: "/flags/farsca.webp",     path: "farsca-dil-kursu" },
   { key: "latince",            label: "Latince",        flagImg: "/flags/latince.webp",    path: "latince-dil-kursu" },
-  { key: "osmanlica",          label: "Osmanlıca",      flagImg: "/flags/osmanlıca.webp",  path: "osmanlica-dil-kursu" },
-  { key: "turkce",             label: "Türkçe",         flagImg: "/flags/türkçe.webp",     path: "turkce-dil-kursu" },
-  { key: "yabancilara-turkce", label: "Yab. Türkçe",   flagImg: "/flags/türkçe.webp",     path: "yabancilara-turkce" },
+  { key: "osmanlica",          label: "Osmanlıca",      flagImg: "/flags/osmanlica.webp",  path: "osmanlica-dil-kursu" },
+  { key: "turkce",             label: "Türkçe",         flagImg: "/flags/turkce.webp",     path: "turkce-dil-kursu" },
+  { key: "yabancilara-turkce", label: "Yab. Türkçe",   flagImg: "/flags/turkce.webp",     path: "yabancilara-turkce" },
   { key: "diger",              label: "Diğer Diller",   flagEmoji: "🌍",                   path: "diger-diller" },
 ];
 

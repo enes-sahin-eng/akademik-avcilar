@@ -67,19 +67,19 @@ const languages = [
   { img: "/flags/ispanya.webp", name: "İspanyolca Kursu", href: "/ispanyolca-dil-kursu" },
   { img: "/flags/fransa.webp", name: "Fransızca Kursu", href: "/fransizca-dil-kursu" },
   { img: "/flags/almanca.webp", name: "Almanca Dil Kursu", href: "/almanca-dil-kursu" },
-  { img: "/flags/rusça.webp", name: "Rusça Dil Kursu", href: "/rusca-dil-kursu" },
+  { img: "/flags/rusca.webp", name: "Rusça Dil Kursu", href: "/rusca-dil-kursu" },
   { img: "/flags/italyanca.webp", name: "İtalyanca Kursu", href: "/italyanca-dil-kursu" },
-  { img: "/flags/farsça.webp", name: "Farsça Kursu", href: "/farsca-dil-kursu" },
-  { img: "/flags/çince.webp", name: "Çince Kursu", href: "/cince-dil-kursu" },
+  { img: "/flags/farsca.webp", name: "Farsça Kursu", href: "/farsca-dil-kursu" },
+  { img: "/flags/cince.webp", name: "Çince Kursu", href: "/cince-dil-kursu" },
   { img: "/flags/japan.webp", name: "Japonca Kursu", href: "/japonca-dil-kursu" },
   { img: "/flags/kore.webp", name: "Korece Kursu", href: "/korece-dil-kursu" },
-  { img: "/flags/osmanlıca.webp", name: "Osmanlıca Kursu", href: "/osmanlica-dil-kursu" },
-  { img: "/flags/türkçe.webp", name: "Yabancılara Türkçe", href: "/yabancilara-turkce" },
-  { img: "/flags/türkçe.webp", name: "Türkçe Kursu", href: "/turkce-dil-kursu" },
+  { img: "/flags/osmanlica.webp", name: "Osmanlıca Kursu", href: "/osmanlica-dil-kursu" },
+  { img: "/flags/turkce.webp", name: "Yabancılara Türkçe", href: "/yabancilara-turkce" },
+  { img: "/flags/turkce.webp", name: "Türkçe Kursu", href: "/turkce-dil-kursu" },
   { img: "/flags/latince.webp", name: "Latince Kursu", href: "/latince-dil-kursu" },
   { img: "/flags/portekiz.webp", name: "Portekizce Kursu", href: "/portekizce-dil-kursu" },
-  { img: "/flags/arapça.webp", name: "Arapça Dil Kursu", href: "/arapca-dil-kursu" },
-  { img: "/flags/flemenkçe.webp", name: "Felemenkçe Dil Kursu", href: "/flemenkce-dil-kursu" }
+  { img: "/flags/arapca.webp", name: "Arapça Dil Kursu", href: "/arapca-dil-kursu" },
+  { img: "/flags/flemenkce.webp", name: "Felemenkçe Dil Kursu", href: "/flemenkce-dil-kursu" }
 ];
 
 interface Props {

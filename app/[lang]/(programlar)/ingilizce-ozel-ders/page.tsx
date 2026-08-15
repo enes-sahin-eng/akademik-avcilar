@@ -18,7 +18,7 @@ import { StudentReviewsAndAwards } from "../../../components/home/StudentReviews
 
 interface PageProps {
   params: Promise<{
-    lang: any;
+    lang: string;
   }>;
 }
 

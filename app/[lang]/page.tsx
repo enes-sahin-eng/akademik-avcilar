@@ -15,7 +15,7 @@ import { getDictionary } from "../dictionaries/getDictionary";
 
 interface PageProps {
   params: Promise<{
-    lang: any;
+    lang: string;
   }>;
 }
 
