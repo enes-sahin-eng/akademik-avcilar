@@ -1800,36 +1800,36 @@
   },
   "akademikIngilizceLandingPage": {
     "about": {
-      "title": "PREP Temel İngilizce Kursu ile Sağlam Bir Temel Atın",
-      "desc": "\n  <p><strong>Avcılar Temel İngilizce Kursu (PREP)</strong>, İngilizce öğrenmeye sıfırdan başlayanlar veya alt yapısı yeterli olmayan öğrenciler için özel olarak hazırlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına tam uyumlu bir <strong>A1 (Beginner) başlangıç eğitimidir.</strong></p>\n  <p>Kurumumuza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. PREP eğitim modelimizde, sadece ezbere dayalı bir sistem değil; <strong>Gramer (Dil Bilgisi)</strong>, <strong>Konuşma (Speaking)</strong>, <strong>Dinleme (Listening)</strong> ve <strong>Okuma-Yazma (Reading-Writing)</strong> becerilerinin eş zamanlı olarak geliştirildiği entegre bir yaklaşım sunulmaktadır.</p>\n  <p>Yetişkinlere özgü güncel içerikler ve özgün yayınlarımızla desteklenen bu program sayesinde, günlük hayatta kendinizi rahatça ifade edebilecek, temel İngilizce iletişim becerilerini kalıcı olarak öğreneceksiniz.</p>\n",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar (Dil Bilgisi)",
-          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading (Okuma)",
-          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing (Yazma)",
-          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
-          "icon": "Mic"
-        }
-      ],
-      "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
-    },
+ "title": "Akademik İngilizce Kursu ile Uluslararası Standartlarda Yetkinlik Kazanın",
+ "desc": "\n  <p><strong>Akademik İngilizce Kursu</strong>, yurt dışı eğitim, akademik kariyer veya uluslararası sınavlara (YDS, YÖKDİL, TOEFL, IELTS) hazırlanan öğrenciler için özel olarak tasarlanmış, <strong>Avrupa Ortak Dil Referans Çerçevesi (CEFR)</strong> standartlarına uygun ileri seviye bir programdır.</p>\n  <p>Programımıza başvuran öğrencilerimiz, ücretsiz uygulanan <strong>seviye tespit sınavı</strong> sonucuna göre kendi seviyelerine en uygun sınıflara yerleştirilir. Akademik İngilizce eğitim modelimizde; akademik <strong>okuma-yazma</strong>, ileri düzey <strong>dil bilgisi</strong> ve sınav odaklı <strong>konuşma-dinleme</strong> becerileri eş zamanlı olarak geliştirilir.</p>\n  <p>Akademik makaleler, terminoloji odaklı kaynaklar ve özgün yayınlarımızla desteklenen bu program sayesinde, akademik ortamlarda ve uluslararası sınavlarda kendinizi güvenle ifade edebileceksiniz.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar (Dil Bilgisi)",
+   "desc": "İleri düzey <strong>cümle yapıları</strong> ve akademik metinlerde sıkça kullanılan kalıplar analiz edilir. <strong>B2-C1 seviye terminoloji</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek akademik yazım için sağlam bir altyapı oluşturulur.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading (Okuma)",
+   "desc": "Akademik makaleler ve <strong>sınav formatındaki okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, terminoloji ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve derinliği artırılır.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing (Yazma)",
+   "desc": "Akademik yazım kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, makale özeti, <strong>eleştirel okuma</strong> ve akademik cümle kurma becerileriniz uluslararası standartlarda geliştirilir.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Akademik sunum ve tartışma formatına uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde akademik ortamlarda özgüvenle iletişim kurmanın temellerini atarsınız.",
+   "icon": "Mic"
+  }
+ ],
+ "badge": "B2-C1 AKADEMİK SEVİYE"
+},
     "whyUs": {
  "title": "Neden Avcılar İngilizce Dil Kursu Akademik İngilizce?",
  "subtitle": "Yurt dışı eğitim ve akademik kariyer hedefleyenler için sunduğumuz avantajlar",
@@ -2372,36 +2372,36 @@
   },
   "liseIngilizceLandingPage": {
     "about": {
-      "badge": "ORTAOKUL / LGS HAZIRLIK",
-      "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
-      "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Avcılar İngilizce Dil Kursu, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar (Dil Bilgisi)",
-          "desc": "Temel <strong>İngilizce cümle yapısı</strong> ve Türkçe ile arasındaki farklar analiz edilir. <strong>A1 seviye kelime türleri</strong>, başlangıç seviyesi tenseler (zamanlar) ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sağlam bir gramer altyapısı oluşturulur.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading (Okuma)",
-          "desc": "Özenle seçilmiş temel seviye <strong>okuma parçaları</strong> eşliğinde; <strong>İngilizce kelime ezberleme (vocabulary)</strong>, phrasal verb ve <strong>word formation (kelime türetme)</strong> çalışmaları yapılarak okuduğunu anlama hızı artırılır.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing (Yazma)",
-          "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, temel düzeyde e-posta yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz akademik standartlarda geliştirilir.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Kendi seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, günlük hayatta akıcı iletişim kurmanın temellerini atarsınız.",
-          "icon": "Mic"
-        }
-      ]
-    },
+ "badge": "LİSE / YKS-DİL HAZIRLIK",
+ "title": "Lise İngilizce Kursu ile Dünya Vatandaşı Olun",
+ "desc": "\n  <p>Lisans eğitiminden önce lise çağındaki öğrencilerimiz okuldaki derslerinde başarılı olmak ve Dünya'yı daha iyi anlamak ve anlatabilmek için kapsamlı dil eğitimini <strong>4 beceri ile konuşma, yazma, okuma ve dinleme odaklı</strong> bir eğitim modeline ihtiyaç duyarlar. <strong>Alanında uzman öğretmen kadrosuyla</strong> İngilizceyi severek öğrenme merkezli aktiviteler aracılığıyla öğrencilerin İngilizceyi sevmelerini ve derslerine odaklanmasını, öğrencilerin yoğun ders temposu içinde İngilizce öğrenme sürecinin devamlılığını sağlamayı amaçlamaktayız.</p>\n  <p><strong>Lise İngilizce kursu</strong> öğretimini çocukların yaş ve İngilizce seviyelerini göz önüne alarak planlamaktadır hem İngilizceyi seven ve özgüveni yüksek öğrenciler yetiştirmeyi hem de okul derslerine de yardımcı olarak müfredatlandırılmış programlarımız sayesinde öğrencilerimizin okuldaki derslerinde başarılı olması hedeflenmektedir. <strong>Çocuklarımızı geleceğe hazırlarken klasik eğitim modelinden</strong> çok daha öte zengin içeriğe sahip müfredat ve yayınlarımız ile çocuklarımız pratik odaklı (konuşmaya dayalı) uzman eğitmenler ile İngilizce öğrenimlerini üst seviyelere çıkarır. Lise İngilizce eğitimini ezbere dayalı değil konuşma, okuma ve yazma odaklı bir eğitim modeliyle öğretiyoruz.</p>\n  <p>Türkiye'nin en iyi ve en kaliteli yabancı dil okulu Avcılar İngilizce Dil Kursu, fark yaratan özgün eğitim sistemi ve özel metodlarıyla İngilizce eğitiminizde doğru adres. Sıradan ve alışılmış öğretim stratejilerinin verimliliğinin azlığını, oluşturduğu vakit ve emek kaybını ortadan kaldırmak isteyen Avcılar İngilizce Dil Kursu Yabancı Dil Kursu bünyesinde çalışan alanında <strong>uzman öğretmen kadrosu, hazırladığı özgün eğitim sistemine</strong> uygun yayınları ile birlikte interaktif bir eğitim modelini uygulamaktadır.</p>\n  <p><strong>Okuma, dinleme, yazma</strong> becerilerinizi de gözettiğimiz kursumuzda amacımız her alanda İngilizce kullanımını pekiştirmek bir refleks haline getirmektir. Ana dilinizde mümkün olan kültürel ve aktüel birikiminizi gösterme şansını İngilizce ile de gösterebilmeniz bizim için ilk hedeftir. Hayatınızda her zaman bir adım ileride olmak istiyorsanız tercihiniz için doğru adres. Şimdiye kadar verim alınmamış harcanan büyük zaman dilimleri gözünüzü korkutmasın. Bursa, İzmir, Kadıköy, Avcılar, Beşiktaş, Çorlu, Eskişehir ve İzmit'te hizmet veren Avcılar İngilizce Dil Kursu Yabancı Dil Kursu, doğru metotlar ve oluşturduğu özgün stratejisiyle uygun zaman içerisinde istenilen hedefe ulaşmanızı sağlayacaktır.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar (Dil Bilgisi)",
+   "desc": "Lise müfredatına uygun <strong>ileri düzey cümle yapıları</strong> ve YKS-DİL'de sıkça çıkan kalıplar analiz edilir. <strong>B1-B2 seviye kelime türleri</strong>, karmaşık zaman yapıları ve <strong>dil bilgisi kuralları</strong> detaylıca işlenerek sınava dönük sağlam bir gramer altyapısı oluşturulur.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading (Okuma)",
+   "desc": "Güncel konulardan seçilen <strong>okuma parçaları</strong> eşliğinde; akademik <strong>kelime dağarcığı</strong>, phrasal verb ve <strong>metin analizi</strong> çalışmaları yapılarak okuduğunu anlama hızı ve YKS-DİL performansı artırılır.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing (Yazma)",
+   "desc": "Öğrenilen gramer ve kelime kurallarının pratiğe döküldüğü <strong>İngilizce yazma çalışmaları</strong> ile, kompozisyon yazma, <strong>okuduğunu anlama</strong> ve cümle kurma becerileriniz lise düzeyinde geliştirilir.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Seviyenize uygun interaktif <strong>Speaking (Konuşma)</strong> ve <strong>Listening (Dinleme)</strong> pratikleri sayesinde İngilizce konuşma özgüveni kazanır, üniversite hayatına akıcı bir İngilizce ile başlarsınız.",
+   "icon": "Mic"
+  }
+ ]
+},
     "whyUs": {
  "title": "Neden Avcılar Lise İngilizce Kursu?",
  "subtitle": "Öğrenme Garantili Eğitim ile YKS-DİL'de ve Okulda Başarıyı Yakalayın!",

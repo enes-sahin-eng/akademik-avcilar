@@ -1794,36 +1794,36 @@
   },
   "akademikIngilizceLandingPage": {
     "about": {
-      "title": "Build a Solid Foundation with PREP Basic English Course",
-      "desc": "\n  <p><strong>Avcılar Basic English Course (PREP)</strong> is an <strong>A1 (Beginner) starter course</strong> perfectly aligned with <strong>Common European Framework of Reference for Languages (CEFR)</strong> standards, specially designed for those starting English from scratch or lacking a sufficient foundation.</p>\n  <p>Our students are placed in the most suitable classes based on the results of a free <strong>placement test</strong>. Our PREP education model is not just a rote-learning system; it offers an integrated approach where <strong>Grammar</strong>, <strong>Speaking</strong>, <strong>Listening</strong>, and <strong>Reading-Writing</strong> skills are developed simultaneously.</p>\n  <p>Supported by adult-specific up-to-date content and our own original materials, this program ensures you can express yourself comfortably in daily life and permanently acquire basic English communication skills.</p>\n  ",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar",
-          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading",
-          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing",
-          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
-          "icon": "Mic"
-        }
-      ],
-      "badge": "A1 BEGINNER / STARTER LEVEL"
-    },
+ "title": "Academic English Course: Gain International-Standard Proficiency",
+ "desc": "\n  <p><strong>Academic English Course</strong> is an advanced-level programme aligned with <strong>Common European Framework of Reference (CEFR)</strong> standards, designed specifically for students preparing for study abroad, an academic career, or international exams (YDS, YÖKDİL, TOEFL, IELTS).</p>\n  <p>Students who apply to our programme are placed in the class best suited to their level based on a free <strong>placement test</strong>. Our Academic English teaching model develops academic <strong>reading and writing</strong>, advanced <strong>grammar</strong>, and exam-focused <strong>speaking and listening</strong> skills simultaneously.</p>\n  <p>Supported by academic articles, terminology-focused resources, and our own original publications, this programme helps you express yourself confidently in academic settings and international exams.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "desc": "Advanced <strong>sentence structures</strong> and patterns frequently used in academic texts are analysed. <strong>B2-C1 level terminology</strong>, complex tense structures, and <strong>grammar rules</strong> are covered in detail to build a solid foundation for academic writing.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "desc": "Through academic articles and <strong>exam-format reading passages</strong>, academic <strong>vocabulary</strong>, terminology, and <strong>text analysis</strong> exercises increase both the speed and depth of your reading comprehension.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing",
+   "desc": "Academic writing rules are put into practice through <strong>English writing exercises</strong>, developing your essay summarising, <strong>critical reading</strong>, and academic sentence-building skills to an international standard.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Interactive <strong>Speaking</strong> and <strong>Listening</strong> practice suited to academic presentation and discussion formats helps you build the confidence to communicate in academic settings.",
+   "icon": "Mic"
+  }
+ ],
+ "badge": "B2-C1 ACADEMIC LEVEL"
+},
     "whyUs": {
  "title": "Why Avcılar English Language Course Academic English?",
  "subtitle": "Advantages for those aiming for study abroad and an academic career",
@@ -2370,36 +2370,36 @@
   },
   "liseIngilizceLandingPage": {
     "about": {
-      "badge": "MIDDLE SCHOOL / LGS PREPARATION",
-      "title": "Become a Global Citizen with High School English Course",
-      "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Avcılar English Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Avcılar English Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Avcılar English Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
-      "skills": [
-        {
-          "id": "grammar",
-          "title": "Grammar",
-          "desc": "Basic <strong>English sentence structure</strong> and differences with Turkish are analyzed. <strong>A1 level vocabulary</strong>, beginner tenses, and <strong>grammar rules</strong> are covered in detail to build a solid grammatical foundation.",
-          "icon": "BookOpen"
-        },
-        {
-          "id": "reading",
-          "title": "Reading",
-          "desc": "Accompanied by carefully selected basic level <strong>reading passages</strong>; reading comprehension speed is increased through <strong>English vocabulary building</strong>, phrasal verbs, and <strong>word formation</strong> exercises.",
-          "icon": "BookA"
-        },
-        {
-          "id": "writing",
-          "title": "Writing",
-          "desc": "With <strong>English writing exercises</strong> where learned grammar and vocabulary rules are put into practice, your basic email writing, <strong>reading comprehension</strong>, and sentence construction skills are developed to academic standards.",
-          "icon": "PenTool"
-        },
-        {
-          "id": "speaking",
-          "title": "Speaking & Listening",
-          "desc": "Through interactive <strong>Speaking</strong> and <strong>Listening</strong> practices suited to your level, you gain self-confidence in speaking English and lay the foundations for fluent communication in daily life.",
-          "icon": "Mic"
-        }
-      ]
-    },
+ "badge": "HIGH SCHOOL / YKS-DİL PREP",
+ "title": "Become a Global Citizen with High School English Course",
+ "desc": "\n  <p>Before undergraduate education, our high school-aged students need a comprehensive language education model that is <strong>focused on 4 skills: speaking, writing, reading and listening</strong> in order to be successful in their school lessons and to understand and explain the world better. With our <strong>expert teaching staff</strong>, we aim to ensure that students love English and focus on their lessons through activities centered on learning English by loving it, and to ensure the continuity of the English learning process in the intense lesson tempo of the students.</p>\n  <p><strong>High School English course</strong> plans its teaching by considering children's age and English levels. It is aimed both to raise students who love English and have high self-confidence and to help our students be successful in their school lessons thanks to our structured programs. While <strong>preparing our children for the future, much beyond the classical education model</strong>, our children take their English learning to the highest levels with expert instructors with practical focus (conversation-based) with our curriculum and publications that have rich content. We teach high school English education with an education model focused on speaking, reading and writing, not based on memorization.</p>\n  <p>Turkey's best and highest quality foreign language school Avcılar English Language Courses is the right address for your English education with its original education system and special methods that make a difference. Working within Avcılar English Language Course, which wants to eliminate the inefficiency of ordinary and customary teaching strategies and the loss of time and effort it creates, the <strong>expert teaching staff implements an interactive education model with publications suitable for the original education system it has prepared</strong>.</p>\n  <p>In our course where we also observe your <strong>reading, listening, writing</strong> skills, our aim is to reinforce the use of English in every field and make it a reflex. Being able to show your cultural and current knowledge in your mother tongue with English is our first goal. If you always want to be one step ahead in your life, the right address for your choice. Do not be intimidated by the large time periods spent so far from which no efficiency has been taken. Avcılar English Language Course, which serves in Bursa, Izmir, Kadikoy, Avcilar, Besiktas, Corlu, Eskisehir and Izmit, will enable you to reach your desired goal in the appropriate time with the right methods and original strategy it has created.</p>\n",
+ "skills": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "desc": "Advanced <strong>sentence structures</strong> aligned with the high school curriculum and patterns frequently seen in YKS-DİL are analysed. <strong>B1-B2 level vocabulary</strong>, complex tense structures, and <strong>grammar rules</strong> are covered in detail to build a solid exam-ready foundation.",
+   "icon": "BookOpen"
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "desc": "Through reading passages on current topics, academic <strong>vocabulary</strong>, phrasal verbs, and <strong>text analysis</strong> exercises increase your reading comprehension speed and YKS-DİL performance.",
+   "icon": "BookA"
+  },
+  {
+   "id": "writing",
+   "title": "Writing",
+   "desc": "Grammar and vocabulary rules are put into practice through <strong>English writing exercises</strong>, developing your essay writing, <strong>reading comprehension</strong>, and sentence-building skills at high school level.",
+   "icon": "PenTool"
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking & Listening",
+   "desc": "Interactive <strong>Speaking</strong> and <strong>Listening</strong> practice suited to your level builds your confidence in spoken English, giving you a fluent start to university life.",
+   "icon": "Mic"
+  }
+ ]
+},
     "whyUs": {
  "title": "Why Choose Avcılar High School English Course?",
  "subtitle": "Achieve Success in YKS-DİL and at School with Our Learning Guarantee!",
