@@ -217,6 +217,10 @@
   color: #000000;
 }
 
+:global([data-theme="dark"]) .twitter {
+  color: #ffffff;
+}
+
 .youtube {
   color: #FF0000;
 }
