@@ -77,7 +77,7 @@ export default async function ingilizcekursuPage({ params }: PageProps) {
             "provider": {
               "@type": "EducationalOrganization",
               "name": "Akademik International Yabancı Dil Okulları",
-              "sameAs": "https://avcilarakademik.com.tr"
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             },
             "hasCourseInstance": [
               { "@type": "CourseInstance", "name": "A1 Beginner", "courseMode": "Blended" },

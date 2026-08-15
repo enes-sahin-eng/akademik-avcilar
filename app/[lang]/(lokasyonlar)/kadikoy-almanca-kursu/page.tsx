@@ -91,13 +91,13 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Kadıköy Almanca Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kadikoy-almanca-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kadikoy-almanca-kursu`,
               },
             ],
           }),
@@ -117,7 +117,7 @@ export default async function KadikoyAlmancaKursuPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

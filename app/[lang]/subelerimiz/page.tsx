@@ -71,11 +71,11 @@ export default async function SubelerPage({ params }: PageProps) {
     .map((c) => ({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": `https://www.avcilarakademik.com.tr/${lang}${c.href}`,
+      "@id": `https://www.avcilaringilizcekursu.com.tr/${lang}${c.href}`,
       name: `Akademik International - ${c.label || c.name}`,
       telephone: c.phone,
-      url: `https://www.avcilarakademik.com.tr/${lang}${c.href}`,
-      image: `https://www.avcilarakademik.com.tr${c.image || "/brand/logo2.png"}`,
+      url: `https://www.avcilaringilizcekursu.com.tr/${lang}${c.href}`,
+      image: `https://www.avcilaringilizcekursu.com.tr${c.image || "/brand/logo2.png"}`,
       address: {
         "@type": "PostalAddress",
         addressCountry: "TR",

@@ -93,19 +93,19 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "TOEFL Hazırlık Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/toefl-hazirlik-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/toefl-hazirlik-kursu`,
               },
             ],
           }),
@@ -125,7 +125,7 @@ export default async function ToeflHazirlikKursuPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

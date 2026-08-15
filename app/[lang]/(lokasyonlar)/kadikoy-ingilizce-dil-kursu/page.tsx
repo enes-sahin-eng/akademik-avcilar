@@ -75,7 +75,7 @@ export default async function KadikoyIngilizceDilKursuPage({
   const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
-  const siteUrl = "https://avcilarakademik.com.tr";
+  const siteUrl = "https://avcilaringilizcekursu.com.tr";
   const pageData = (dict as any)?.kadikoyIngilizceLandingPage;
   const meta = pageData?.meta || {};
   const homeName =

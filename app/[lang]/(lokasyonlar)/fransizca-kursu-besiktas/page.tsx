@@ -93,13 +93,13 @@ export default async function BesiktasFransizcaKursuPage({
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Beşiktaş Fransızca Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/fransizca-kursu-besiktas`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/fransizca-kursu-besiktas`,
               },
             ],
           }),
@@ -119,7 +119,7 @@ export default async function BesiktasFransizcaKursuPage({
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

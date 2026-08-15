@@ -89,19 +89,19 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilarakademik.com.tr/${lang}/kurslar`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Yabancılara Türkçe Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/yabancilara-turkce`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/yabancilara-turkce`,
               },
             ],
           }),
@@ -121,7 +121,7 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Akademik Yabancı Dil Kursları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

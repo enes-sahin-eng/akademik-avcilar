@@ -92,19 +92,19 @@ export default async function ProficiencyHazirlikKursuPage({
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilarakademik.com.tr",
+                item: "https://www.avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilarakademik.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Hazırlık Atlama Kursu",
-                item: `https://www.avcilarakademik.com.tr/${lang}/ingilizce-hazirlik-atlama`,
+                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/ingilizce-hazirlik-atlama`,
               },
             ],
           }),
@@ -124,7 +124,7 @@ export default async function ProficiencyHazirlikKursuPage({
             provider: {
               "@type": "EducationalOrganization",
               name: "Akademik International Yabancı Dil Okulları",
-              sameAs: "https://www.avcilarakademik.com.tr",
+              sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

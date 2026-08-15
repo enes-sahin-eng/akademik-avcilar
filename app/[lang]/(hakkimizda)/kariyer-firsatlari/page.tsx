@@ -49,7 +49,7 @@ export default async function KariyerFirsatlariPage({ params }: PageProps) {
   const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
-  const siteUrl = "https://avcilarakademik.com.tr";
+  const siteUrl = "https://avcilaringilizcekursu.com.tr";
   const pageData = (dict as any)?.[COURSE_KEY];
   const showcase = pageData?.showcase || {};
   const homeName = lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa";
