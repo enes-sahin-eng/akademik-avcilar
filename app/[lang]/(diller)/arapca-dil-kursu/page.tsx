@@ -41,7 +41,7 @@ export async function generateMetadata({
         ? "Arabic Language Course"
         : lang === "ar"
           ? "دورة اللغة العربية"
-          : "Arapça Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Arapça Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Arabic with native-speaking instructors. A1-C2 levels, YDS preparation, and comprehensive education for the Middle East."
@@ -121,7 +121,7 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
               "Ana dili Arapça olan eğitmenlerimizle Arapça öğrenin. A1-C2 seviyeleri, YDS Arapça hazırlık ve Ortadoğu ülkeleri için kapsamlı dil eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -129,7 +129,7 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir, Tekirdağ)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir, Tekirdağ)",
                 address: "Türkiye",
               },
             },

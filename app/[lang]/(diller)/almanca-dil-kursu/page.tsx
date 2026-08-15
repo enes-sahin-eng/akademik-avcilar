@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "German Language Course"
         : lang === "ar"
           ? "دورة اللغة الألمانية"
-          : "Almanca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Almanca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Achieve your goals with Turkey's best German course. Expert instructors, A1-B2 level training, and specific preparation for Family Reunification."
@@ -120,7 +120,7 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
               "Avrupa Dil Portföyü standartlarında, A1'den B2'ye kadar 4 temel beceri odaklı, uzman eğitmenlerle sunulan kapsamlı Almanca dil eğitimi ve Aile Birleşimi kursu.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
                 address: "Türkiye",
               },
             },

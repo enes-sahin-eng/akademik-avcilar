@@ -119,7 +119,7 @@ export default async function IzmirAileBirlesimiKursuPage({
               "Almanya aile birleşimi vizesi için gerekli olan A1 seviyesi Almanca sınavına yönelik, İzmir'de sunulan genel bilgilendirme ve hazırlık programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -127,7 +127,7 @@ export default async function IzmirAileBirlesimiKursuPage({
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International İzmir",
+                name: "Avcılar İngilizce Dil Kursu İzmir Şubesi",
                 address: "İzmir, Türkiye",
               },
             },

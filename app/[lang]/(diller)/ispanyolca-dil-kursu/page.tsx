@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Spanish Language Course"
         : lang === "ar"
           ? "دورة اللغة الإسبانية"
-          : "İspanyolca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "İspanyolca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Reach your goals with Turkey's best Spanish language course. A1-C2 level training, expert instructors, and four-skill-focused education."
@@ -120,7 +120,7 @@ export default async function IspanyolcaDilKursuPage({ params }: PageProps) {
               "Dünyada en yaygın 3. dil olan İspanyolcayı, A1-C2 seviye eğitimleriyle dört beceri odaklı uzman eğitmen kadrosuyla öğrenin.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function IspanyolcaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir, Tekirdağ)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir, Tekirdağ)",
                 address: "Türkiye",
               },
             },

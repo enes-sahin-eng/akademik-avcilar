@@ -41,7 +41,7 @@ export async function generateMetadata({
         ? "Russian Language Course"
         : lang === "ar"
           ? "دورة اللغة الروسية"
-          : "Rusça Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Rusça Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Master Russian, spoken by over 300 million people. A1-B2 level training, expert instructors, and affordable prices."
@@ -121,7 +121,7 @@ export default async function RuscaDilKursuPage({ params }: PageProps) {
               "Rusça dil kursu ile 300 milyondan fazla kişinin konuştuğu bu Slav diline hakim olun. A1-B2 seviye eğitimleri, uzman eğitmenler ve uygun fiyatlar.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -129,7 +129,7 @@ export default async function RuscaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
                 address: "Türkiye",
               },
             },

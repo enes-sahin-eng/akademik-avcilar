@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Turkish for Foreigners"
         : lang === "ar"
           ? "دورة اللغة التركية للأجانب"
-          : "Yabancılara Türkçe Kursu | Akademik Yabancı Dil Kursları",
+          : "Yabancılara Türkçe Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Turkish quickly and effectively in our modern classrooms equipped with visual and audio materials. 8-15 student groups available."
@@ -120,7 +120,7 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
               "Uzman eğitmen kadrosu eşliğinde, görsel ve işitsel materyallerle desteklenmiş 8-15 kişilik sınıflarda günlük ve iş hayatına yönelik Türkçe dil eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function YabancilaraTurkcePage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri",
                 address: "Türkiye",
               },
             },

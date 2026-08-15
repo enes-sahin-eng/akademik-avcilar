@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Latin Language Course"
         : lang === "ar"
           ? "دورة اللغة اللاتينية"
-          : "Latince Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Latince Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Latin, the foundation of modern science and European languages. Expert academic instruction from A1 to C2 levels."
@@ -120,7 +120,7 @@ export default async function LatinceDilKursuPage({ params }: PageProps) {
               "Hukuk, Tıp ve Edebiyat terminolojisinin temeli olan Latinceyi; A1'den C2'ye kadar uzman akademisyen kadrosuyla öğrenin.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function LatinceDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, Bursa, Eskişehir, İzmir, Tekirdağ)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, Bursa, Eskişehir, İzmir, Tekirdağ)",
                 address: "Türkiye",
               },
             },

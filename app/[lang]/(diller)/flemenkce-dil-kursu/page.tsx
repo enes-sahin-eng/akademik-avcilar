@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Dutch (Flemish) Language Course"
         : lang === "ar"
           ? "دورة اللغة الهولندية (الفلمنكية)"
-          : "Flemenkçe (Hollandaca) Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Flemenkçe (Hollandaca) Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Prepare for the Netherlands Family Reunification and Integration exams with our comprehensive Dutch courses from A1 to C2 levels."
@@ -120,7 +120,7 @@ export default async function FlemenkceDilKursuPage({ params }: PageProps) {
               "Hollanda ve Belçika'da eğitim veya yaşam planlayanlar için Aile Birleşimi ve Uyum Sınavı odaklı, A1'den C2'ye kadar kapsamlı Flemenkçe (Hollandaca) dil eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function FlemenkceDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (Ankara, Bursa, İzmir, Eskişehir, İstanbul)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (Ankara, Bursa, İzmir, Eskişehir, İstanbul)",
                 address: "Türkiye",
               },
             },

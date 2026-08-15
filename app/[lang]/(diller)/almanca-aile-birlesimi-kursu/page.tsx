@@ -116,7 +116,7 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
               "Almanya Konsolosluğu'nun oturma izni ve vize taleplerinde zorunlu kıldığı Goethe Start Deutsch A1 sınavına yönelik, dört temel beceriyi (Dinleme, Okuma, Yazma, Konuşma) kapsayan özel hazırlık programı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -124,7 +124,7 @@ export default async function AileBirlesimiKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Avcılar",
+                name: "Avcılar İngilizce Dil Kursu",
                 address:
                   "Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul",
               },

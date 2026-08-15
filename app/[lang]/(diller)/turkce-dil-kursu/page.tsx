@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Turkish Language Course"
         : lang === "ar"
           ? "دورة اللغة التركية"
-          : "Türkçe Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Türkçe Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Turkish effectively from A1 to C2 levels with our expert academic staff. Enrich your language world and gain career opportunities."
@@ -120,7 +120,7 @@ export default async function TurkceDilKursuPage({ params }: PageProps) {
               "Yetişkinlere yönelik özgün eğitim modelleriyle, A1-C2 seviyelerinde iletişimsel temellere dayanan, akademisyen kökenli eğitmenlerle sunulan Türkçe kursu.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function TurkceDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, Ankara, İzmir, Bursa, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, Ankara, İzmir, Bursa, Eskişehir)",
                 address: "Türkiye",
               },
             },

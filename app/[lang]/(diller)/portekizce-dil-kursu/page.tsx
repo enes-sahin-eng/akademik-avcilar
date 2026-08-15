@@ -41,7 +41,7 @@ export async function generateMetadata({
         ? "Portuguese Language Course"
         : lang === "ar"
           ? "دورة اللغة البرتغالية"
-          : "Portekizce Dil Kursu | Akademik Yabancı Dil Okulları",
+          : "Portekizce Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Portuguese, the 5th most spoken language in the world, with our wide range of Brazilian and Portuguese instructors."
@@ -121,7 +121,7 @@ export default async function PortekizceDilKursuPage({ params }: PageProps) {
               "Portekizce dil kursu ile dünyada en yaygın 5. dil olan Portekizce'yi öğrenin. Brezilyalı ve Portekizli geniş eğitmen kadromuzla A1-C2 seviye eğitimleri.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -129,7 +129,7 @@ export default async function PortekizceDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, İzmir, Ankara, Bursa, Eskişehir)",
                 address: "Türkiye",
               },
             },

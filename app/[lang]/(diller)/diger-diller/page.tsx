@@ -39,7 +39,7 @@ export async function generateMetadata({
       lang === "en"
         ? "Other Language Courses | German, French, Spanish & More"
         : lang === "ar"
-          ? "دورات اللغات الأخرى | الألمانية والفرنسية والإسبانية والمزيد | أكاديميك إنترناشيونال"
+          ? "دورات اللغات الأخرى | الألمانية والفرنسية والإسبانية والمزيد | دورة أفجيلار لتعليم اللغة الإنجليزية"
           : "Diğer Dil Kursları | Almanca, Fransızca, İspanyolca ve Daha Fazlası",
     description:
       lang === "en"
@@ -135,7 +135,7 @@ export default async function DigerDillerPage({ params }: PageProps) {
             description: courseDesc,
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik International Yabancı Dil Okulları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: [

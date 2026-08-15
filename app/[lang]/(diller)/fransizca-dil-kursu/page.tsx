@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "French Language Course"
         : lang === "ar"
           ? "دورة اللغة الفرنسية"
-          : "Fransızca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Fransızca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn French, the universal language of 250 million people, with Turkey's best French course from A1 to B2 levels."
@@ -120,7 +120,7 @@ export default async function FransizcaDilKursuPage({ params }: PageProps) {
               "Profesyonel eğitim müfredatı ve alanında uzman öğretmen ekibiyle, A1'den B2'ye kadar Avrupa Dilleri Ortak Çerçeve Programına uygun Fransızca eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function FransizcaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri",
                 address: "Türkiye",
               },
             },

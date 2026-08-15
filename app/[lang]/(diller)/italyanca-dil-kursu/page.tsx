@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Italian Language Course"
         : lang === "ar"
           ? "دورة اللغة الإيطالية"
-          : "İtalyanca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "İtalyanca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Italian, the language of art, fashion, and cuisine, from A1 to C2 levels with Turkey's best language course."
@@ -120,7 +120,7 @@ export default async function ItalyancaDilKursuPage({ params }: PageProps) {
               "Fonetiği, aksanı ve müzikalitesiyle dünyanın en estetik dillerinden biri olan İtalyancayı A1'den C2'ye uzanan profesyonel bir müfredatla öğrenin.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function ItalyancaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri",
                 address: "Türkiye",
               },
             },

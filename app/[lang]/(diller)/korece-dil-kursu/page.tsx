@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Korean Language Course"
         : lang === "ar"
           ? "دورة اللغة الكورية"
-          : "Korece Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Korece Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Korean easily with our expert instructors from A1 to C2 levels. VIP classes and comprehensive preparation for your academic and career goals."
@@ -120,7 +120,7 @@ export default async function KoreceDilKursuPage({ params }: PageProps) {
               "Türkçeyle aynı dil ailesinden gelen Koreceyi, A1'den C2'ye kadar akademisyen kökenli yerli ve yabancı eğitmenlerle öğrenme fırsatı.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function KoreceDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (Bursa, İstanbul, Ankara, İzmir, Tekirdağ, Eskişehir)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (Bursa, İstanbul, Ankara, İzmir, Tekirdağ, Eskişehir)",
                 address: "Türkiye",
               },
             },

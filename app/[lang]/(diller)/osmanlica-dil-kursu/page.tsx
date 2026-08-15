@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Ottoman Turkish Language Course"
         : lang === "ar"
           ? "دورة اللغة العثمانية"
-          : "Osmanlıca Kursu | Akademik Yabancı Dil Kursları",
+          : "Osmanlıca Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Discover the depths of history with our Ottoman Turkish course. Learn to read and write historical texts with our expert instructors."
@@ -120,7 +120,7 @@ export default async function OsmanlicaDilKursuPage({ params }: PageProps) {
               "Başlangıç, Detaylı ve İleri seviyelerde verilen; Osmanlı alfabesini, okuma, yazma ve tarihi belgeleri inceleme becerilerini kazandıran kadim dil eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function OsmanlicaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri",
                 address: "Türkiye",
               },
             },

@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "Japanese Language Course"
         : lang === "ar"
           ? "دورة اللغة اليابانية"
-          : "Japonca Dil Kursu | Akademik Yabancı Dil Kursları",
+          : "Japonca Dil Kursu | Avcılar İngilizce Dil Kursu",
     description:
       lang === "en"
         ? "Learn Japanese with our unique reflexive speaking methods in VIP classes of 5-7 students. Master Hiragana, Katakana, and Kanji."
@@ -120,7 +120,7 @@ export default async function JaponcaDilKursuPage({ params }: PageProps) {
               "Klasik gramer yöntemlerinden uzak, aktif konuşma odaklı, 5-7 kişilik VIP sınıflarda Temel'den Uzman seviyeye kadar kapsamlı Japonca eğitimi.",
             provider: {
               "@type": "EducationalOrganization",
-              name: "Akademik Yabancı Dil Kursları",
+              name: "Avcılar İngilizce Dil Kursu",
               sameAs: "https://www.avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
@@ -128,7 +128,7 @@ export default async function JaponcaDilKursuPage({ params }: PageProps) {
               courseMode: "Blended",
               location: {
                 "@type": "Place",
-                name: "Akademik International Kampüsleri (İstanbul, Bursa, İzmir, Eskişehir, Ankara)",
+                name: "Avcılar İngilizce Dil Kursu Kampüsleri (İstanbul, Bursa, İzmir, Eskişehir, Ankara)",
                 address: "Türkiye",
               },
             },
