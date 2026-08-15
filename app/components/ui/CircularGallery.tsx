@@ -261,7 +261,8 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                       className={styles.image}
                       style={{ objectFit: 'cover', objectPosition: item.photo.pos || 'center' }}
                       draggable={false}
-                      sizes="(max-width: 480px) 195px, (max-width: 768px) 240px, 300px"
+                      quality={90}
+                      sizes="(max-width: 480px) 400px, (max-width: 768px) 500px, 600px"
                     />
                     {item.badge && (
                       <span className={styles.badge}>{item.badge}</span>
