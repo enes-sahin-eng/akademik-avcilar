@@ -19,7 +19,7 @@ import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 
 interface PageProps {
   params: Promise<{
-    lang: string;
+    lang: any;
   }>;
 }
 
