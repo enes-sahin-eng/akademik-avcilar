@@ -13,7 +13,7 @@ const highlightKeywords = [
   "Avcılar İngilizce Kursları",
   "Avcılar İngilizce Kursu",
   "Avcılar'ın En Çok Tavsiye Edilen İngilizce Kursu",
-  "Akademik International Yabancı Dil Kursu",
+  "Avcılar İngilizce Dil Kursu",
   "Genel İngilizce",
   "YKS-DİL (YDT) Hazırlık Kursu",
   "TOEFL",
