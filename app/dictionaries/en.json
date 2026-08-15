@@ -1056,50 +1056,50 @@
       "badge": "A1 BEGINNER / STARTER LEVEL"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages we offer to help complete beginners build the right foundation",
+ "advantages": [
+  {
+   "title": "A Safe Start From Zero",
+   "desc": "A step-by-step programme for students with no prior English knowledge or a very basic level, designed to build confidence from day one.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Simple, clear materials designed specifically for beginner level.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Small-group speaking practice gets you forming sentences from your very first weeks.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Reinforce what you learn in class by practising on the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "I Don't Know Any English — Is This Course Right for Me?",
+   "a": "Yes, our Prep programme is designed exactly for students starting from zero, offering a gradual progression from the alphabet to simple sentence building."
+  },
+  {
+   "q": "What Will I Learn at A1 Level?",
+   "a": "In line with the Common European Framework of Reference for Languages (CEFR), you'll learn everyday expressions, simple questions and answers, and basic sentence structures."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, instead of memorising grammar rules, our curriculum develops reading, writing, listening, and speaking simultaneously."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around everyday adult topics and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1179,50 +1179,50 @@
       "badge": "A2 PRE-INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages that help you consolidate the basics and move toward fluency",
+ "advantages": [
+  {
+   "title": "A Bridge From Basics to Fluency",
+   "desc": "A programme that reinforces what you learned at A1 level and helps you build more complex sentences.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials designed for A2 level that expand your vocabulary.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Everyday-life scenarios build your confidence through speaking practice.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Keep practising outside class through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why Prep Plus After Prep?",
+   "a": "Prep Plus reinforces the foundation you built at A1 level and takes you to A2, helping you form more fluent sentences."
+  },
+  {
+   "q": "What Will I Learn at A2 Level?",
+   "a": "In line with CEFR standards, you'll gain past-tense narration, everyday routines, and a wider vocabulary."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a balanced curriculum that develops reading, writing, listening, and speaking together."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current topics and regularly refreshed based on student feedback."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1302,50 +1302,50 @@
       "badge": "B1 INTERMEDIATE"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for intermediate learners who want to gain speed",
+ "advantages": [
+  {
+   "title": "Accelerated Progress",
+   "desc": "An intensive programme that takes B1-level students' reading and speaking skills to the next stage in a short time.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Intermediate-level materials built around current, relevant topics.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Discussion- and presentation-focused speaking practice builds your fluency.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise listening and speaking outside class through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic Express For?",
+   "a": "It's an intensive programme for B1 (intermediate) students who want to quickly consolidate their knowledge and move up a level."
+  },
+  {
+   "q": "What Will I Learn at B1 Level?",
+   "a": "In line with CEFR standards, you'll gain more complex sentence structures, everyday fluency, and basic discussion skills."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a balanced curriculum covering reading, writing, listening, and speaking."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current, relevant topics designed to keep intermediate students engaged."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1425,50 +1425,50 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for those aiming for advanced academic and professional English",
+ "advantages": [
+  {
+   "title": "Advanced Terminology",
+   "desc": "Sentence analysis covering technical, legal, medical, and commercial terminology develops your academic and professional English.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "B2-C1 level materials covering phrasal verbs, idioms, and collocations in detail.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Advanced discussion and presentation practice helps you express yourself at a high level.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise academic listening and speaking through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is the Academic Programme For?",
+   "a": "It's designed for students who have completed basic English and need advanced academic or professional English."
+  },
+  {
+   "q": "What Will I Learn at B2-C1 Level?",
+   "a": "In line with CEFR standards, you'll gain the ability to understand complex texts, write academic papers, and build an advanced vocabulary."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a curriculum that develops reading, writing, listening, and speaking together through academic content."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current academic and professional topics and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1548,50 +1548,50 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course?",
+ "subtitle": "Advantages for those aiming for flawless English and simultaneous interpretation skills",
+ "advantages": [
+  {
+   "title": "Advanced-Level Mastery",
+   "desc": "An intensive programme that helps you use English with near-native fluency at C1-C2 level.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Specially prepared materials covering simultaneous interpretation practice and advanced text analysis.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Advanced discussion and presentation practice geared toward professional settings takes your fluency to its peak.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise advanced listening and interpretation through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic Plus For?",
+   "a": "It's designed for students who have completed C1 level and are aiming for near-native fluency and simultaneous interpretation skills."
+  },
+  {
+   "q": "What Will I Learn at C1-C2 Level?",
+   "a": "In line with CEFR standards, you'll gain the ability to interpret complex academic and professional texts on the spot, with near-flawless language use."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a curriculum that develops reading, writing, listening, and speaking together through advanced-level content."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current international topics and professional scenarios."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1671,50 +1671,50 @@
       ]
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course General English Programmes?",
+ "subtitle": "Advantages we offer across all levels, from A1 to C2",
+ "advantages": [
+  {
+   "title": "A Programme for Every Level",
+   "desc": "We offer a graduated curriculum suited to every student, from complete beginner to advanced.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials developed by native-speaking writers, tailored to each level.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Level-appropriate speaking clubs turn what you learn into real conversations.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Join lessons whenever and wherever you like through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which Level Should I Start From?",
+   "a": "Our free placement test measures your current English level and places you in the most suitable programme."
+  },
+  {
+   "q": "Level-Appropriate Language Programmes",
+   "a": "We teach every level from A1 to C2 in line with CEFR standards."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we go beyond grammar to develop reading, writing, listening, and speaking simultaneously."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current topics designed to keep adult students engaged."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {
@@ -1825,50 +1825,50 @@
       "badge": "A1 BEGINNER / STARTER LEVEL"
     },
     "whyUs": {
-      "title": "Why Avcılar English Language Course?",
-      "subtitle": "Educational advantages we offer to our valuable students who choose Avcılar English Language Course Courses",
-      "advantages": [
-        {
-          "title": "97% Student Satisfaction",
-          "desc": "The first institution in Turkey to establish a sustainable foreign language education system by qualifying for ISO 9001:2015 Quality Management Systems certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Original Learning Resources",
-          "desc": "Original publications prepared by native authors through our own publishing house.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Speaking Clubs",
-          "desc": "Various activities and events aimed at improving speaking skills in classes conducted with our native teachers.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Lessons (Letslingo)",
-          "desc": "Participate in classes anytime, anywhere with Letslingo, Turkey's most interactive and comprehensive online language platform.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qualified Language Education",
-          "a": "Our foreign language school, which stands out with its specially prepared curriculum for adult students for the first time in Turkey; provides language education focusing on speaking, reading, listening and writing with years of foreign language education experience."
-        },
-        {
-          "q": "Language Programs Suitable for Your Level",
-          "a": "Education from A1 (Beginner) level to academic level according to the standards determined by the Common European Framework of Reference for Languages (CEFR)."
-        },
-        {
-          "q": "4 Language Skills Mastery",
-          "a": "A mastery model that develops Reading, Writing, Listening and Speaking skills simultaneously, not just based on grammar."
-        },
-        {
-          "q": "Current Topics and Rich Content",
-          "a": "Our educational materials are designed in a format that will attract the attention of adult students using current topics."
-        }
-      ],
-      "btnNext": "Next Privilege →"
-    },
+ "title": "Why Avcılar English Language Course Academic English?",
+ "subtitle": "Advantages for those aiming for study abroad and an academic career",
+ "advantages": [
+  {
+   "title": "Exam- and Career-Focused Curriculum",
+   "desc": "Targeted content for academic exams like YDS, YÖKDİL, and TOEFL, and for study-abroad processes.",
+   "icon": "Award"
+  },
+  {
+   "title": "Original Learning Resources",
+   "desc": "Materials specially prepared around academic terminology and exam formats.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Speaking Clubs",
+   "desc": "Speaking practice focused on academic register develops your fluency.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Lessons (Letslingo)",
+   "desc": "Practise academic listening and reading through the Letslingo platform.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who Is Academic English For?",
+   "a": "It's designed for students aiming to study abroad, take academic exams, or pursue an academic career."
+  },
+  {
+   "q": "Level-Appropriate Language Programmes",
+   "a": "In line with CEFR standards, we offer a curriculum tailored to your target academic exam."
+  },
+  {
+   "q": "Do All 4 Language Skills Develop Together?",
+   "a": "Yes, we run a model that develops academic reading, writing, listening, and speaking together."
+  },
+  {
+   "q": "How Current Is the Course Content?",
+   "a": "Our materials are built around current academic articles and exam formats and updated regularly."
+  }
+ ],
+ "btnNext": "Next Privilege →"
+},
     "models": {
       "title": "Choose the Education Model that Suits You Best",
       "faceToFace": {

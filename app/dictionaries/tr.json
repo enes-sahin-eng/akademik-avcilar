@@ -1062,50 +1062,50 @@
       "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Prep?",
+ "subtitle": "Sıfırdan başlayanlar için doğru temeli kuran eğitim avantajlarımız",
+ "advantages": [
+  {
+   "title": "Sıfırdan Güvenli Başlangıç",
+   "desc": "Hiç İngilizce bilmeyen ya da çok temel düzeyde olan öğrenciler için kaygısız, adım adım ilerleyen bir başlangıç programı.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Başlangıç seviyesine özel hazırlanmış, sade ve anlaşılır ders materyalleri.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Küçük gruplarla yapılan konuşma pratikleriyle daha ilk haftalardan itibaren cümle kurmaya başlarsınız.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Sınıfta öğrendiklerinizi Letslingo platformunda tekrar ederek öğrenmenizi pekiştirirsiniz.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Hiç İngilizce Bilmiyorum, Bu Kurs Bana Uygun mu?",
+   "a": "Evet, Prep programımız tam olarak sıfır seviyeden başlayan öğrenciler için tasarlanmıştır; alfabeden basit cümle kurmaya kademeli bir ilerleme sunar."
+  },
+  {
+   "q": "A1 Seviyesinde Neler Öğreneceğim?",
+   "a": "Avrupa Ortak Dil Referans Çerçevesi'ne (CEFR) uygun olarak günlük hayatta kullanılan temel kalıpları, basit soru-cevapları ve kısa cümle yapılarını öğrenirsiniz."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, dil bilgisi ezberi yerine okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir müfredat uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz, yetişkinlerin günlük hayatından konuları temel alarak hazırlanır ve düzenli olarak güncellenir."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1185,50 +1185,50 @@
       "badge": "A2 PRE-INTERMEDIATE / ÖN ORTA SEVİYE"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Prep Plus?",
+ "subtitle": "Temel bilgilerinizi pekiştirip akıcılığa geçiş yapmanızı sağlayan avantajlarımız",
+ "advantages": [
+  {
+   "title": "Temelden Akıcılığa Köprü",
+   "desc": "A1 seviyesinde öğrenilen yapıları pekiştirerek daha karmaşık cümle kurma becerisine geçiş sağlayan bir program.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "A2 seviyesine özel, kelime dağarcığını genişleten ders materyalleri.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Günlük hayattan senaryolarla desteklenen konuşma pratikleriyle özgüveninizi artırırsınız.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu üzerinden ek pratik yaparak sınıf dışında da öğrenmeye devam edersiniz.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Prep'ten Sonra Neden Prep Plus?",
+   "a": "Prep Plus, A1 seviyesinde edindiğiniz temelleri pekiştirip A2 seviyesine taşıyarak daha akıcı cümleler kurmanızı sağlar."
+  },
+  {
+   "q": "A2 Seviyesinde Neler Öğreneceğim?",
+   "a": "CEFR standartlarına uygun olarak geçmiş zaman anlatımı, günlük rutinler ve daha geniş bir kelime dağarcığı kazanırsınız."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini birlikte geliştiren dengeli bir müfredat uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz güncel konuları temel alarak hazırlanır ve öğrenci geri bildirimlerine göre düzenli olarak yenilenir."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1308,50 +1308,50 @@
       "badge": "B1 INTERMEDIATE / ORTA SEVİYE"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Academic Express?",
+ "subtitle": "Orta seviyede hız kazanmak isteyenler için sunduğumuz eğitim avantajları",
+ "advantages": [
+  {
+   "title": "Hızlandırılmış İlerleme",
+   "desc": "B1 seviyesindeki öğrencilerin okuma ve konuşma becerilerini kısa sürede üst seviyeye taşıyan yoğunlaştırılmış bir program.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Orta seviyeye özel, güncel konu başlıklarıyla desteklenmiş ders materyalleri.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Tartışma ve sunum odaklı konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu ile sınıf dışında da dinleme ve konuşma pratiği yapma imkanı.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Academic Express Kime Uygun?",
+   "a": "B1 (orta) seviyesindeki öğrenciler için, mevcut bilgilerini hızla pekiştirip bir üst seviyeye geçmeyi hedefleyen yoğun bir programdır."
+  },
+  {
+   "q": "B1 Seviyesinde Neler Öğreneceğim?",
+   "a": "CEFR standartlarına uygun olarak daha karmaşık cümle yapıları, günlük konuşmalarda akıcılık ve temel tartışma becerileri kazanırsınız."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini dengeli şekilde geliştiren bir müfredat uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz güncel ve aktüel konular üzerinden hazırlanır, orta seviye öğrencilerin ilgisini canlı tutacak şekilde tasarlanır."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1431,50 +1431,50 @@
       "badge": "B2/C1 UPPER-INTERMEDIATE & ADVANCED"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Academic?",
+ "subtitle": "Üst düzey akademik ve mesleki İngilizce hedefleyenler için sunduğumuz avantajlar",
+ "advantages": [
+  {
+   "title": "Üst Seviye Terminoloji",
+   "desc": "Teknik, hukuki, tıbbi ve ticari terminolojiyi içeren cümle analizleriyle akademik ve mesleki İngilizcenizi geliştirirsiniz.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "B2-C1 seviyesine özel, phrasal verb, idiom ve collocation kullanımlarını detaylı işleyen materyaller.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "İleri düzey tartışma ve sunum pratikleriyle kendinizi üst seviyede ifade etmeyi öğrenirsiniz.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu üzerinden akademik dinleme ve konuşma pratiği yapma imkanı.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Academic Programı Kime Uygun?",
+   "a": "Temel İngilizce eğitimini tamamlamış ve üst seviyede akademik/mesleki İngilizceye ihtiyaç duyan öğrenciler için tasarlanmıştır."
+  },
+  {
+   "q": "B2-C1 Seviyesinde Neler Öğreneceğim?",
+   "a": "CEFR standartlarına uygun olarak karmaşık metinleri anlama, akademik yazılar hazırlama ve ileri düzey kelime dağarcığı kazanırsınız."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini akademik içerikler üzerinden bir arada geliştiren bir müfredat uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz güncel akademik ve mesleki konular temel alınarak hazırlanır ve düzenli olarak güncellenir."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1554,50 +1554,50 @@
       "badge": "C1/C2 ADVANCED & PROFICIENCY"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Academic Plus?",
+ "subtitle": "Kusursuz İngilizce ve simultane çeviri yetkinliği hedefleyenler için sunduğumuz avantajlar",
+ "advantages": [
+  {
+   "title": "İleri Düzey Yetkinlik",
+   "desc": "C1-C2 seviyesinde, ana dile yakın bir akıcılıkla İngilizce kullanmanızı sağlayan yoğun bir program.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Simultane çeviri pratiği ve ileri düzey metin analizi içeren özel hazırlanmış materyaller.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Profesyonel ortamlara yönelik ileri düzey tartışma ve sunum pratikleriyle akıcılığınızı zirveye taşırsınız.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu üzerinden ileri düzey dinleme ve çeviri pratiği yapma imkanı.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Academic Plus Kime Uygun?",
+   "a": "C1 seviyesini tamamlamış, ana dile yakın bir akıcılık ve simultane çeviri yetkinliği hedefleyen öğrenciler için tasarlanmıştır."
+  },
+  {
+   "q": "C1-C2 Seviyesinde Neler Öğreneceğim?",
+   "a": "CEFR standartlarına uygun olarak karmaşık akademik ve profesyonel metinleri anında yorumlama, kusursuza yakın bir dil kullanımı kazanırsınız."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, okuma, yazma, dinleme ve konuşma becerilerini ileri düzey içeriklerle bir arada geliştiren bir müfredat uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz güncel uluslararası konular ve profesyonel senaryolar temel alınarak hazırlanır."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1677,50 +1677,50 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Genel İngilizce Programları?",
+ "subtitle": "A1'den C2'ye tüm seviyelerde sunduğumuz eğitim avantajları",
+ "advantages": [
+  {
+   "title": "Her Seviyeye Uygun Program",
+   "desc": "Sıfırdan ileri düzeye kadar her öğrenciye uygun, kademeli bir müfredat yapısı sunuyoruz.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Her seviyeye özel hazırlanmış, Native yazarlarca geliştirilen ders materyalleri.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Seviyenize uygun konuşma kulüpleriyle öğrendiklerinizi gerçek diyaloglara dönüştürürsünüz.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu ile dilediğiniz zaman dilediğiniz yerden derslere katılım sağlayabilirsiniz.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Hangi Seviyeden Başlamalıyım?",
+   "a": "Ücretsiz seviye belirleme sınavımızla mevcut İngilizce seviyeniz ölçülür ve size en uygun programa yerleştirilirsiniz."
+  },
+  {
+   "q": "Seviyenize Uygun Yabancı Dil Programları",
+   "a": "CEFR standartlarına uygun olarak A1'den C2'ye kadar her seviyede eğitim veriyoruz."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, sadece dil bilgisine değil; okuma, yazma, dinleme ve konuşma becerilerini eş zamanlı geliştiren bir modeli benimsiyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Eğitim materyallerimiz güncel ve aktüel konular kullanılarak, yetişkin öğrencilerin ilgisini canlı tutacak şekilde hazırlanır."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -1831,50 +1831,50 @@
       "badge": "A1 BEGINNER / BAŞLANGIÇ SEVİYESİ"
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Dil Kursu?",
-      "subtitle": "Avcılar İngilizce Dil Kursu Kurslarını seçen siz değerli öğrencilerimiz için sunduğumuz eğitim avantajları",
-      "advantages": [
-        {
-          "title": "%97 Öğrenci Memnuniyeti",
-          "desc": "Türkiye'de ilk kez ISO 9001:2015 Kalite Yönetim Sistemleri belgelerine hak kazanarak, sürdürülebilir yabancı dil eğitim sistemini oluşturan kurum.",
-          "icon": "Award"
-        },
-        {
-          "title": "Özgün Eğitim Kaynakları",
-          "desc": "Öğrencilerimize özel, Native yazarlarca hazırlanan özgün yayınlarımız.",
-          "icon": "BookOpen"
-        },
-        {
-          "title": "Konuşma Kulüpleri",
-          "desc": "Native hocalarımızla gerçekleştirilen derslerimizde, konuşma becerilerini geliştirmeye yönelik çeşitli aktiviteler ve etkinlikler.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Online Ders (Letslingo)",
-          "desc": "Türkiye'nin en interaktif, en kapsamlı online dil platformu Letslingo ile dilediğiniz zaman dilediğiniz yerde derslere katılım.",
-          "icon": "Laptop"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Nitelikli Dil Eğitimi",
-          "a": "Türkiye'de ilk kez yetişkin öğrenciler için özel hazırladığı eğitim müfredatı ile fark yaratan yabancı dil okulumuz; yıllardır deneyimlediği yabancı dil eğitim tecrübesi ile speaking, reading, listening ve writing odaklı dil eğitimi vermektedir."
-        },
-        {
-          "q": "Seviyenize Uygun Yabancı Dil Programları",
-          "a": "Avrupa Ortak Dil Referans Çerçevesi (CEFR) tarafından belirlenen standartlara göre A1 (Beginner) seviyesinden akademik seviyeye kadar eğitim."
-        },
-        {
-          "q": "4 Dil Becerisi Tam Öğrenme",
-          "a": "Sadece dil bilgisine dayalı değil; Okuma, Yazma, Dinleme ve Konuşma becerilerini eşzamanlı geliştiren tam öğrenme modeli."
-        },
-        {
-          "q": "Aktüel Konular ve Zengin İçerik",
-          "a": "Eğitim materyallerimiz, güncel ve aktüel konular kullanılarak yetişkin öğrencilerin ilgisini çekecek formatta tasarlanmıştır."
-        }
-      ],
-      "btnNext": "Sonraki Ayrıcalık →"
-    },
+ "title": "Neden Avcılar İngilizce Dil Kursu Akademik İngilizce?",
+ "subtitle": "Yurt dışı eğitim ve akademik kariyer hedefleyenler için sunduğumuz avantajlar",
+ "advantages": [
+  {
+   "title": "Sınav ve Kariyer Odaklı Müfredat",
+   "desc": "YDS, YÖKDİL, TOEFL gibi akademik sınavlara ve yurt dışı eğitim süreçlerine yönelik hedefe özel içerik.",
+   "icon": "Award"
+  },
+  {
+   "title": "Özgün Eğitim Kaynakları",
+   "desc": "Akademik terminoloji ve sınav formatlarına özel hazırlanmış ders materyalleri.",
+   "icon": "BookOpen"
+  },
+  {
+   "title": "Konuşma Kulüpleri",
+   "desc": "Akademik ortamlarda kullanılan ifadelere odaklanan konuşma pratikleriyle akıcılığınızı geliştirirsiniz.",
+   "icon": "MessageCircle"
+  },
+  {
+   "title": "Online Ders (Letslingo)",
+   "desc": "Letslingo platformu üzerinden akademik dinleme ve okuma pratiği yapma imkanı.",
+   "icon": "Laptop"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Akademik İngilizce Kime Uygun?",
+   "a": "Yurt dışında eğitim almayı, akademik sınavlara girmeyi veya akademik kariyer yapmayı hedefleyen öğrenciler için tasarlanmıştır."
+  },
+  {
+   "q": "Seviyenize Uygun Yabancı Dil Programları",
+   "a": "CEFR standartlarına uygun olarak, hedeflediğiniz akademik sınava göre özelleştirilmiş bir müfredat sunuyoruz."
+  },
+  {
+   "q": "4 Dil Becerisi Aynı Anda Gelişir mi?",
+   "a": "Evet, akademik okuma, yazma, dinleme ve konuşma becerilerini bir arada geliştiren bir model uyguluyoruz."
+  },
+  {
+   "q": "Ders İçerikleri Ne Kadar Güncel?",
+   "a": "Materyallerimiz güncel akademik makaleler ve sınav formatları temel alınarak hazırlanır ve düzenli güncellenir."
+  }
+ ],
+ "btnNext": "Sonraki Ayrıcalık →"
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
