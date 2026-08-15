@@ -6147,49 +6147,49 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Kadıköy Almanca Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İstanbul'da Almanca kursu tavsiyesi ararken nelere dikkat edilmeli?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
-        },
-        {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Eğitmenler",
-          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili Almanca olan uzman eğitmen kadrosu.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-          "icon": "Monitor",
-          "href": "/korece-dil-kursu"
-        },
-        {
-          "title": "Kültür Deneyimi",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle Alman kültürünü de yakından tanıma şansı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Neden Kadıköy Almanca Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "Kadıköy Almanca şubemizde amacımız ezber değil; sizi gerçek hayatta Almanca konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Kadıköy'de Almanca kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy Almanca şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Sınıf eğitimleri yeterince aktif mi?",
+   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Eğitmenler",
+   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili Almanca olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde Almanca eğitiminize vakit kaybetmeden başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+   "icon": "Monitor",
+   "href": "/korece-dil-kursu"
+  },
+  {
+   "title": "Kültür Deneyimi",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle Alman kültürünü de yakından tanıma şansı.",
+   "icon": "Award"
+  }
+ ]
+},
     "models": {
       "title": "Size En Uygun Eğitim Modelini Seçin",
       "faceToFace": {
@@ -11989,49 +11989,49 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Kadıköy İngilizce Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
-        },
-        {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Eğitmenler",
-          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-          "icon": "Monitor",
-          "href": "#"
-        },
-        {
-          "title": "Kültür Deneyimi",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Neden Kadıköy İngilizce Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "Kadıköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
+   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Kadıköy şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Sınıf eğitimleri yeterince aktif mi?",
+   "a": "Evet, Kadıköy şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Kadıköy şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Eğitmenler",
+   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla Kadıköy şubemizde eğitim alın.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Kadıköy şubemizde eğitiminize vakit kaybetmeden başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+   "icon": "Monitor",
+   "href": "#"
+  },
+  {
+   "title": "Kültür Deneyimi",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "KADIKÖY İNGİLİZCE KURSU",
       "title": "Kadıköy'de Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12117,48 +12117,48 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Bursa İngilizce Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Bursa'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
-        },
-        {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, Bursa FSM şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Eğitmenler",
-          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Kültür Deneyimi",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Neden Bursa İngilizce Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "Bursa FSM şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Bursa'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan Bursa FSM şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Sınıf eğitimleri yeterince aktif mi?",
+   "a": "Evet, Bursa FSM şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Bursa FSM şubemizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Eğitmenler",
+   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla IELTS Test Venue onaylı Bursa şubemizde eğitim alın.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Bursa FSM şubemizde eğitiminize vakit kaybetmeden başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Kültür Deneyimi",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA İNGİLİZCE KURSU",
       "title": "Bursa'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12262,48 +12262,48 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Avcılar İngilizce Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Avcılar'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
-        },
-        {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, Avcılar şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Eğitmenler",
-          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Kültür Deneyimi",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Neden Avcılar İngilizce Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "Genel merkezimiz Avcılar'da amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Avcılar'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan genel merkezimiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Sınıf eğitimleri yeterince aktif mi?",
+   "a": "Evet, Avcılar şubemizdeki eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Avcılar genel merkezimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Eğitmenler",
+   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla genel merkezimizde eğitim alın.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını veya dönem başını beklemeden Avcılar genel merkezimizde eğitiminize vakit kaybetmeden başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Kültür Deneyimi",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "AVCILAR İNGİLİZCE KURSU",
       "title": "Avcılar'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12389,48 +12389,48 @@
       ]
     },
     "whyUs": {
-      "title": "Neden İstanbul İngilizce Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlar arasında kaybolmayın; iyi bir kurs size sadece kitap üzerindeki alıştırmaları çözdürmez, sizi konuşturur. Biz tam olarak bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
-          "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçenekleri aranmalıdır."
-        },
-        {
-          "q": "Sınıf eğitimleri yeterince aktif mi?",
-          "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Eğitmenler",
-          "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadrosu.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını veya dönem başını beklemeden eğitiminize vakit kaybetmeden başlama fırsatı.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Kültür Deneyimi",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Neden İstanbul İngilizce Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimleyin, Zaman Kaybetmeyin",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "İstanbul genelindeki şubelerimizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "İstanbul'da İngilizce kursu tavsiyesi ararken nelere dikkat edilmeli?",
+   "a": "Native speaker eğitmenler, hedefli eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçenekleri sunan İstanbul şubelerimiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Sınıf eğitimleri yeterince aktif mi?",
+   "a": "Evet, İstanbul şubelerimizde eğitim anlayışımız pasif dinlemeden çok derse aktif katılımı ve dili pratik olarak kullanmayı hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. İstanbul şubelerimizde bireysel hedeflerinizi anladıktan sonra size en uygun programı tasarlar ve amaca uygun bir eğitim garantisi sunarız."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Eğitmenler",
+   "desc": "Sertifikalı öğretmenlik derecesine sahip, anadili İngilizce olan uzman eğitmen kadromuzla İstanbul'un dört bir yanındaki şubelerimizde eğitim alın.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını veya dönem başını beklemeden size en yakın İstanbul şubemizde eğitiminize vakit kaybetmeden başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai dışı akşam programları veya hafta sonu sabah/öğlen grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Kültür Deneyimi",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma şansı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "İSTANBUL İNGİLİZCE KURSU",
       "title": "İstanbul'da Hedefinize Yönelik, Native Speakerlarla İngilizce Eğitimi",
@@ -12508,48 +12508,48 @@
       ]
     },
     "whyUs": {
-      "title": "Çekmeköy İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Çekmeköy'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Anadili İngilizce Eğitmenler",
-          "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Kültürel Deneyim",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Çekmeköy İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Çekmeköy şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Çekmeköy'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Çekmeköy şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Çekmeköy şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Çekmeköy şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Anadili İngilizce Eğitmenler",
+   "desc": "Çekmeköy şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz ve akıcılık kazanırsınız.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çekmeköy şubemizde eğitime başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Kültürel Deneyim",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "ÇEKMEKÖY İNGİLİZCE KURSU",
       "title": "Çekmeköy'de Anadili İngilizce Eğitmenlerle Hedefe Yönelik İngilizce Eğitimi",
@@ -12639,48 +12639,48 @@
       ]
     },
     "whyUs": {
-      "title": "Görükle İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Görükle'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Anadili İngilizce Eğitmenler",
-          "desc": "Sertifikalı öğretim derecelerine sahip, anadili İngilizce olan uzman kadro.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Kültürel Deneyim",
-          "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü deneyimleme fırsatı.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Görükle İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Görükle şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Görükle'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; Görükle şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Görükle şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Görükle şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Anadili İngilizce Eğitmenler",
+   "desc": "Uludağ Üniversitesi çevresindeki Görükle şubemizde ana dili İngilizce olan eğitmenlerle doğru telaffuz kazanırsınız.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Görükle şubemizde eğitime başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Üniversite öğrencilerinin ders programına uygun esnek akşam ve hafta sonu grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Kültürel Deneyim",
+   "desc": "Sadece dil değil, ders dışı aktivitelerle İngiliz kültürünü de yakından tanıma fırsatı.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA GÖRÜKLE İNGİLİZCE KURSU",
       "title": "Görükle'de Anadili İngilizce Eğitmenlerle Hedefe Yönelik İngilizce Eğitimi",
@@ -12778,48 +12778,48 @@
       ]
     },
     "whyUs": {
-      "title": "Ankara İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Ankara'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Yetkili Sınav Merkezi",
-          "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.",
-          "icon": "Award"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "17 Dünya Dili",
-          "desc": "İngilizce'nin yanı sıra 17 farklı dünya dilinde eğitim imkanı.",
-          "icon": "Users"
-        }
-      ]
-    },
+ "title": "Ankara İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Ankara şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Ankara'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "IELTS yetkili sınav merkezi olup olmadığına, eğitmenlerin deneyimine ve program esnekliğine dikkat edin; Ankara şubemiz bu üç kriteri de karşılıyor."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Ankara şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Ankara şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Yetkili Sınav Merkezi",
+   "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
+   "icon": "Award"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Ankara şubemizde eğitime başlayın.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Ankara'daki üniversite ve kamu çalışanlarına uygun esnek akşam ve hafta sonu saatleri.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "17 Dünya Dili",
+   "desc": "17 farklı dilde eğitim seçeneğiyle İngilizce dışında ihtiyacınız olan dili de öğrenebilirsiniz.",
+   "icon": "Users"
+  }
+ ]
+},
     "hero": {
       "tag": "ANKARA İNGİLİZCE KURSU",
       "title": "Ankara'da IELTS Yetkili Sınav Merkezi ile Hedefe Yönelik İngilizce Eğitimi",
@@ -12897,48 +12897,48 @@
       ]
     },
     "whyUs": {
-      "title": "İzmir İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İzmir'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Yetkili Sınav Merkezi",
-          "desc": "British Council Konsolosluk Partneri ve IELTS Yetkili Sınav Merkezi olarak resmi sertifikasyon imkanı.",
-          "icon": "Award"
-        },
-        {
-          "title": "VIP Sınıflar",
-          "desc": "Düşük sınıf mevcutları ile bire bir ders alıyormuş gibi kişisel ilgi.",
-          "icon": "Users"
-        },
-        {
-          "title": "Esnek Saatler",
-          "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu grupları.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "İzmir İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "İzmir şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "İzmir'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Anadili İngilizce olan eğitmenler, hedefe yönelik eğitim, güncel materyaller, yüksek başarı oranları ve esnek program seçeneklerine dikkat edin; İzmir şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, İzmir şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. İzmir şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Yetkili Sınav Merkezi",
+   "desc": "IELTS sınav merkezi olmamız sayesinde hazırlıktan sınava kadar tek çatı altında ilerlersiniz.",
+   "icon": "Award"
+  },
+  {
+   "title": "VIP Sınıflar",
+   "desc": "Ege bölgesindeki öğrenci ve profesyonellere özel, 4-6 kişilik VIP sınıf konsepti.",
+   "icon": "Users"
+  },
+  {
+   "title": "Esnek Saatler",
+   "desc": "Çalışanlar için mesai sonrası akşam programları veya hafta sonu sabah/öğle grupları.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmir şubemizde eğitime başlayın.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "hero": {
       "tag": "İZMİR İNGİLİZCE KURSU",
       "title": "İzmir Alsancak'ta IELTS Yetkili Merkezi ile Hedefe Yönelik İngilizce Eğitimi",
@@ -13040,48 +13040,48 @@
       ]
     },
     "whyUs": {
-      "title": "Kocaeli İzmit İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Kocaeli İzmit'te İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Uluslararası Sertifika",
-          "desc": "Elde edilen sertifikalar Amerika Birleşik Devletleri'nde tanınmakta olup uluslararası düzeyde geçerlidir.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Eğitim Modeli",
-          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Uzman Kadro",
-          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Kocaeli İzmit İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Kocaeli/İzmit şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Kocaeli/İzmit'te İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İzmit şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, İzmit şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. İzmit şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Uluslararası Sertifika",
+   "desc": "Kocaeli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Eğitim Modeli",
+   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Uzman Kadro",
+   "desc": "Kocaeli'deki sanayi bölgesinde çalışan profesyonellere uygun esnek akşam ve hafta sonu saatleri.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İzmit şubemizde eğitime başlayın.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "KOCAELİ İZMİT İNGİLİZCE KURSU",
       "title": "Kocaeli İzmit'te Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13171,48 +13171,48 @@
       ]
     },
     "whyUs": {
-      "title": "Çorlu İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Çorlu'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Uluslararası Sertifika",
-          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Eğitim Modeli",
-          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Uzman Kadro",
-          "desc": "Alanında uzmanlaşmış, deneyimli eğitmenlerle etkili ve hızlı öğrenme.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Çorlu İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Çorlu şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Çorlu'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Çorlu şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Çorlu şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Çorlu şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Uluslararası Sertifika",
+   "desc": "Çorlu şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Eğitim Modeli",
+   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Tekirdağ bölgesindeki yaşam tarzınıza uygun eğitim.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Uzman Kadro",
+   "desc": "Çorlu şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Çorlu şubemizde eğitime başlayın.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "ÇORLU İNGİLİZCE KURSU",
       "title": "Tekirdağ Çorlu'da Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13306,48 +13306,48 @@
       ]
     },
     "whyUs": {
-      "title": "İnegöl İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "İnegöl'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Uluslararası Sertifika",
-          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Eğitim Modeli",
-          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Uzman Kadro",
-          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "İnegöl İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "İnegöl şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "İnegöl'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; İnegöl şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, İnegöl şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. İnegöl şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Uluslararası Sertifika",
+   "desc": "İnegöl şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Eğitim Modeli",
+   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Uzman Kadro",
+   "desc": "İnegöl şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden İnegöl şubemizde eğitime başlayın.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "İNEGÖL İNGİLİZCE KURSU",
       "title": "Bursa İnegöl'de Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13441,48 +13441,48 @@
       ]
     },
     "whyUs": {
-      "title": "Yıldırım Erikli İngilizce Kursu İçin Neden Biz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Biz tam da bunu yapıyoruz.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Yıldırım Erikli'de İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Uluslararası Sertifika",
-          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Eğitim Modeli",
-          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Uzman Kadro",
-          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Yıldırım Erikli İngilizce Kursu İçin Neden Biz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşma Odaklı Sistem",
+ "cardDesc": "Yıldırım/Erikli şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Yıldırım/Erikli'de İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Yıldırım Erikli şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Uluslararası Sertifika",
+   "desc": "Yıldırım/Erikli şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Eğitim Modeli",
+   "desc": "Ankara Yolu üzerindeki kolay ulaşımlı şubemizde ya da online canlı kurs seçeneğiyle yaşam tarzınıza uygun eğitim.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Uzman Kadro",
+   "desc": "Yıldırım/Erikli şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden şubemizde eğitime başlayın.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "YILDIRIM ERİKLİ İNGİLİZCE KURSU",
       "title": "Bursa Yıldırım Erikli'de Uzman Kadro ve Esnek Programlarla Etkili İngilizce Eğitimi",
@@ -13670,48 +13670,48 @@
       ]
     },
     "whyUs": {
-      "title": "Neden Kütahya İngilizce Kursu İçin Bizi Seçmelisiniz?",
-      "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
-      "cardTitle": "Konuşturma Odaklı Sistem",
-      "cardDesc": "İnternetteki yorumlarda kaybolma; iyi bir kurs seni kitaptan alıştırma yapmaya değil, konuşmaya teşvik eder. Akademik International tam da bunu yapıyor.",
-      "btnNext": "Diğer Avantajlarımız →",
-      "faqs": [
-        {
-          "q": "Kütahya'da İngilizce kurs tavsiyesi ararken nelere dikkat etmelisiniz?",
-          "a": "Native speaker eğitmenler, hedefe yönelik eğitim (sınav, iş, iletişim), güncel materyaller, yüksek başarı oranları ve kuruma özel esnek program seçeneklerine dikkat edin."
-        },
-        {
-          "q": "Ders seansları yeterince aktif mi?",
-          "a": "Evet, Kütahya şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler. Küçük sınıf yapısı sayesinde her öğrenci bireysel ilgi görür."
-        },
-        {
-          "q": "Kariyer hedeflerime uygun mu?",
-          "a": "Kesinlikle. Bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Uluslararası Sertifika",
-          "desc": "Elde edilen sertifikalar uluslararası geçerliliğe sahip olup küresel kariyer hedeflerinize katkı sağlar.",
-          "icon": "Award"
-        },
-        {
-          "title": "Esnek Eğitim Modeli",
-          "desc": "İstediğin şubede ya da online canlı kurs seçeneğiyle yaşam tarzına uygun eğitim.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Uzman Kadro",
-          "desc": "Akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dinamik Kayıt",
-          "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden eğitime başlayın.",
-          "icon": "Monitor"
-        }
-      ]
-    }
+ "title": "Neden Kütahya İngilizce Kursu İçin Bizi Seçmelisiniz?",
+ "subtitle": "Kaliteyi Deneyimle, Zamanını Boşa Harcama",
+ "cardTitle": "Konuşturma Odaklı Sistem",
+ "cardDesc": "Kütahya şubemizde amacımız ezber değil; sizi gerçek hayatta İngilizce konuşabilir hale getirmek.",
+ "btnNext": "Diğer Avantajlarımız →",
+ "faqs": [
+  {
+   "q": "Kütahya'da İngilizce kursu seçerken nelere dikkat etmeliyim?",
+   "a": "Uzman eğitmenler, hedefe yönelik eğitim, güncel materyaller, uluslararası geçerli sertifikalar ve esnek program seçeneklerine dikkat edin; Kütahya şubemiz bu kriterlerin tümünü karşılar."
+  },
+  {
+   "q": "Ders seansları yeterince aktif mi?",
+   "a": "Evet, Kütahya şubemizde uygulanan öğretim yaklaşımımız pasif dinleme yerine aktif katılımı ve pratik dil kullanımını hedefler. Küçük sınıf yapısı sayesinde her öğrenci bireysel ilgi görür."
+  },
+  {
+   "q": "Kariyer hedeflerime uygun mu?",
+   "a": "Kesinlikle. Kütahya şubemizde bireysel hedeflerinizi anladıktan sonra en uygun programı tasarlıyor ve amaca yönelik eğitim garantisi sunuyoruz."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Uluslararası Sertifika",
+   "desc": "Kütahya şubemizde elde ettiğiniz sertifikalar uluslararası geçerliliğe sahip olup kariyer hedeflerinize katkı sağlar.",
+   "icon": "Award"
+  },
+  {
+   "title": "Esnek Eğitim Modeli",
+   "desc": "İstediğiniz şubede ya da online canlı kurs seçeneğiyle Kütahya'daki yaşam tarzınıza uygun eğitim.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Uzman Kadro",
+   "desc": "Kütahya şubemizde akademisyen kökenli, yıllardır dil eğitimi alanında deneyimli eğitmenler görev alır.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dinamik Kayıt",
+   "desc": "Kontenjan dolmasını ya da dönem başlangıcını beklemeden Kütahya şubemizde eğitime başlayın.",
+   "icon": "Monitor"
+  }
+ ]
+}
   },
   "tarihcePage": {
     "meta": {

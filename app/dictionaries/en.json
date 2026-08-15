@@ -6123,49 +6123,49 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for the Kadıköy German Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you solve textbook exercises, it gets you speaking. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should be considered when looking for a German course recommendation in Istanbul?",
-          "a": "Look for native speaker instructors, targeted training (exams, business, communication), up-to-date materials, high success rates, and institution-specific flexible program options."
-        },
-        {
-          "q": "Are classroom trainings active enough?",
-          "a": "Yes, our educational approach at our Kadıköy branch aims for active class participation and practical language usage rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program for you and offer a goal-oriented education guarantee."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff who are native German speakers with certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "The opportunity to start your education without losing time waiting for quotas to fill or a new term to begin.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "After-hours evening programs or weekend morning/afternoon groups for working individuals.",
-          "icon": "Monitor",
-          "href": "/korece-dil-kursu"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "The chance to closely get to know German culture through extracurricular activities, not just the language.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for the Kadıköy German Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Kadıköy German branch, our goal isn't rote memorisation — it's getting you speaking German in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing a German course in Kadıköy?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Kadıköy German branch meets all of these."
+  },
+  {
+   "q": "Are classroom trainings active enough?",
+   "a": "Yes, our educational approach at our Kadıköy branch aims for active class participation and practical language usage rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Yes, our teaching approach at our Kadıköy branch focuses on active participation and practical language use rather than passive listening."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native German speakers, at our Kadıköy branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your German education at our Kadıköy branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor",
+   "href": "/korece-dil-kursu"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience German culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "models": {
       "title": "Choose the Education Model Most Suitable for You",
       "faceToFace": {
@@ -11909,49 +11909,49 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kadıköy English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost among reviews on the internet; a good course doesn't just make you solve exercises on the book, it makes you speak. This is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should be considered when looking for an English course recommendation in Istanbul?",
-          "a": "Native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates, and flexible program options specific to the institution should be sought."
-        },
-        {
-          "q": "Are classroom trainings active enough?",
-          "a": "Yes, our educational approach in our Kadıköy branch aims for active participation in the lesson and practical use of the language rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program for you and offer an educational guarantee suitable for the purpose."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert instructor staff with a certified teaching degree, whose native language is English.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Registration",
-          "desc": "The opportunity to start your education without wasting time without waiting for the quota to fill up or the beginning of the semester.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Off-duty evening programs or weekend morning/afternoon groups for employees.",
-          "icon": "Monitor",
-          "href": "#"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "The chance to get to know British culture closely not only through language but also through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Kadıköy English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kadıköy branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should you look for when seeking English course advice in Istanbul?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Kadıköy branch meets all of these."
+  },
+  {
+   "q": "Are classroom trainings active enough?",
+   "a": "Yes, our educational approach in our Kadıköy branch aims for active participation in the lesson and practical use of the language rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Kadıköy branch, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our Kadıköy branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Registration",
+   "desc": "Start your education at our Kadıköy branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor",
+   "href": "#"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "KADIKÖY ENGLISH COURSE",
       "title": "Target-Oriented English Education with Native Speakers in Kadıköy",
@@ -12037,48 +12037,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Bursa English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Bursa?",
-          "a": "Look for native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at the Bursa FSM branch targets active participation and practical language use rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Bursa English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Bursa FSM branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Bursa?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Bursa FSM branch meets all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at the Bursa FSM branch targets active participation and practical language use rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Bursa FSM branch, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our IELTS Test Venue-approved Bursa branch.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Bursa FSM branch without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Bursa",
@@ -12182,48 +12182,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Avcılar English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Avcılar?",
-          "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at the Avcılar branch targets active participation and practical language use."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Avcılar English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "At our Avcılar headquarters, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when seeking English course advice in Avcılar?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our headquarters meets all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at the Avcılar branch targets active participation and practical language use."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Avcılar headquarters, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, at our headquarters.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Avcılar headquarters without waiting for quotas to fill or term starts.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "AVCILAR ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Avcılar",
@@ -12309,48 +12309,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Istanbul English Course?",
-      "subtitle": "Experience Quality, Don't Waste Time",
-      "cardTitle": "Speaking-Focused System",
-      "cardDesc": "Don't get lost in online reviews; a good course doesn't just make you do exercises from books, it makes you speak. That's exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Istanbul?",
-          "a": "Look for native speaker instructors, targeted education (exam, business, communication), up-to-date materials, high success rates and flexible program options."
-        },
-        {
-          "q": "Are class sessions active enough?",
-          "a": "Yes, our teaching approach at Istanbul branches targets active participation and practical language use rather than passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and guarantee purpose-driven education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native Instructors",
-          "desc": "Expert teaching staff with certified teaching degrees who are native English speakers.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for quotas to fill or term starts.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work hours or weekend morning/noon groups for professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Istanbul English Course?",
+ "subtitle": "Experience Quality, Don't Waste Time",
+ "cardTitle": "Speaking-Focused System",
+ "cardDesc": "Across our branches in Istanbul, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should you look for when seeking English course advice in Istanbul?",
+   "a": "Look for native speaker instructors, targeted education, up-to-date materials, high success rates and flexible programme options — our Istanbul branches meet all of these."
+  },
+  {
+   "q": "Are class sessions active enough?",
+   "a": "Yes, our teaching approach at Istanbul branches targets active participation and practical language use rather than passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Istanbul branches, after understanding your individual goals, we design the most suitable programme and guarantee purpose-driven education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native Instructors",
+   "desc": "Expert teaching staff with certified teaching degrees who are native English speakers, across our branches throughout Istanbul.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education without waiting for quotas to fill or term starts, at the Istanbul branch nearest you.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work hours or weekend morning/noon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language, but the chance to experience English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "ISTANBUL ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Istanbul",
@@ -12428,48 +12428,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Çekmeköy English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course doesn't just make you do exercises from a book, it encourages you to speak. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Çekmeköy?",
-          "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible program options."
-        },
-        {
-          "q": "Are the class sessions active enough?",
-          "a": "Yes, our teaching approach applied in our Çekmeköy branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Does it suit my career goals?",
-          "a": "Absolutely. After understanding your individual goals, we design the most suitable program and offer a goal-oriented education guarantee."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native English Instructors",
-          "desc": "Expert staff of native English speakers with certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Registration",
-          "desc": "Start your education without waiting for the quota to fill or the term to start.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "After-work evening programs or weekend morning/afternoon groups for working professionals.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "An opportunity to experience British culture through extracurricular activities, not just the language.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Çekmeköy English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Çekmeköy branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Çekmeköy?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our Çekmeköy branch meets all of these."
+  },
+  {
+   "q": "Are the class sessions active enough?",
+   "a": "Yes, our teaching approach applied in our Çekmeköy branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Does it suit my career goals?",
+   "a": "Absolutely. At our Çekmeköy branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native English Instructors",
+   "desc": "Native English-speaking instructors at our Çekmeköy branch help you gain correct pronunciation and fluency.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Registration",
+   "desc": "Start your education at our Çekmeköy branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work or weekend morning/afternoon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language — a chance to get to know English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "ÇEKMEKÖY ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native Speakers in Çekmeköy",
@@ -12559,48 +12559,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Görükle English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Görükle?",
-          "a": "Pay attention to native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Görükle branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "Native English Instructors",
-          "desc": "Expert staff of native English speakers holding certified teaching degrees.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend morning/afternoon groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "An opportunity to experience British culture through extracurricular activities beyond just language instruction.",
-          "icon": "Award"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Görükle English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Görükle branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Görükle?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our Görükle branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Görükle branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Görükle branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "Native English Instructors",
+   "desc": "Native English-speaking instructors at our Görükle branch, near Uludağ University, help you gain correct pronunciation.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Görükle branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Flexible evening and weekend groups suited to university students' class schedules.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Cultural Experience",
+   "desc": "Not just language — a chance to get to know English culture through extracurricular activities.",
+   "icon": "Award"
+  }
+ ]
+},
     "hero": {
       "tag": "BURSA GÖRÜKLE ENGLISH COURSE",
       "title": "Goal-Oriented English Education with Native English Instructors in Görükle",
@@ -12698,48 +12698,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Ankara English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course doesn't just make you do exercises from books, it encourages you to speak. That is exactly what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you look for when seeking English course advice in Ankara?",
-          "a": "Look for native English-speaking instructors, goal-oriented training (exam, business, communication), up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Ankara branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Authorized Exam Center",
-          "desc": "British Council Consulate Partner and IELTS Authorized Exam Center for official certification.",
-          "icon": "Award"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your education without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend morning/afternoon groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "17 World Languages",
-          "desc": "Education in 17 different world languages in addition to English.",
-          "icon": "Users"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Ankara English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Ankara branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Ankara?",
+   "a": "Look for an authorised IELTS exam centre, experienced instructors, and programme flexibility — our Ankara branch meets all three."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Ankara branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Ankara branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Authorized Exam Center",
+   "desc": "As an IELTS exam centre, you progress from preparation to the exam under one roof.",
+   "icon": "Award"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Ankara branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Flexible evening and weekend hours suited to Ankara's university students and civil servants.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "17 World Languages",
+   "desc": "With 17 different languages on offer, you can also learn a language beyond English.",
+   "icon": "Users"
+  }
+ ]
+},
     "hero": {
       "tag": "ANKARA ENGLISH COURSE",
       "title": "Goal-Oriented English Education at IELTS Authorized Exam Center in Ankara",
@@ -12817,48 +12817,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Izmir English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Izmir?",
-          "a": "Pay attention to native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Izmir branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "IELTS Authorized Test Center",
-          "desc": "Official certification opportunity as a British Council Embassy Partner and IELTS Authorized Test Center.",
-          "icon": "Award"
-        },
-        {
-          "title": "VIP Classrooms",
-          "desc": "Personal attention just like taking private one-on-one lessons with low class capacities.",
-          "icon": "Users"
-        },
-        {
-          "title": "Flexible Hours",
-          "desc": "Evening programs after work for professionals or weekend groups.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Laptop"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Izmir English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our İzmir branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in İzmir?",
+   "a": "Look for native English-speaking instructors, goal-oriented training, up-to-date materials, high success rates, and flexible scheduling — our İzmir branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Izmir branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İzmir branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "IELTS Authorized Test Center",
+   "desc": "As an IELTS exam centre, you progress from preparation to the exam under one roof.",
+   "icon": "Award"
+  },
+  {
+   "title": "VIP Classrooms",
+   "desc": "A 4-6 person VIP class concept designed for students and professionals in the Aegean region.",
+   "icon": "Users"
+  },
+  {
+   "title": "Flexible Hours",
+   "desc": "Evening programmes after work or weekend morning/afternoon groups for professionals.",
+   "icon": "Monitor"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İzmir branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Laptop"
+  }
+ ]
+},
     "hero": {
       "tag": "IZMIR ENGLISH COURSE",
       "title": "Goal-Oriented English Education in Izmir Alsancak with IELTS Authorized Center",
@@ -12960,48 +12960,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kocaeli Izmit English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Kocaeli Izmit?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Izmit branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned are recognized in the United States and hold international validity.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Kocaeli Izmit English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kocaeli/İzmit branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Kocaeli/İzmit?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our İzmit branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Izmit branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İzmit branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Kocaeli branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Flexible evening and weekend hours suited to professionals working in Kocaeli's industrial zone.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İzmit branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "KOCAELI IZMIT ENGLISH COURSE",
       "title": "Effective English Education in Kocaeli Izmit with Expert Staff and Flexible Programs",
@@ -13091,48 +13091,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Corlu English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Corlu?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Corlu branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Effective and fast learning with experienced instructors specialized in their fields.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Corlu English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Çorlu branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Çorlu?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our Çorlu branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Corlu branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Çorlu branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Çorlu branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle in the Tekirdağ region.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Çorlu branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Çorlu branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "CORLU ENGLISH COURSE",
       "title": "Effective English Education in Tekirdag Corlu with Expert Staff and Flexible Programs",
@@ -13226,48 +13226,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Inegol English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Inegol?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Inegol branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Inegol English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our İnegöl branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in İnegöl?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our İnegöl branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Inegol branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our İnegöl branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our İnegöl branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our İnegöl branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our İnegöl branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "INEGOL ENGLISH COURSE",
       "title": "Effective English Education in Bursa Inegol with Expert Staff and Flexible Programs",
@@ -13361,48 +13361,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Yildirim Erikli English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what we do.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Yildirim Erikli?",
-          "a": "Pay attention to expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible scheduling options."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Yildirim Erikli branch aims for active participation and practical language use instead of passive listening."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    },
+ "title": "Why Choose Us for Yildirim Erikli English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Yıldırım/Erikli branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Yıldırım/Erikli?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Yildirim Erikli branch aims for active participation and practical language use instead of passive listening."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Yıldırım/Erikli branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Easy to reach on Ankara Yolu, or choose a live online course to fit your lifestyle.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Yıldırım/Erikli branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+},
     "hero": {
       "tag": "YILDIRIM ERIKLİ ENGLISH COURSE",
       "title": "Effective English Education in Bursa Yildirim Erikli with Expert Staff and Flexible Programs",
@@ -13590,48 +13590,48 @@
       ]
     },
     "whyUs": {
-      "title": "Why Choose Us for Kutahya English Course?",
-      "subtitle": "Experience Quality, Don't Waste Your Time",
-      "cardTitle": "Speaking-Oriented System",
-      "cardDesc": "Don't get lost in internet reviews; a good course shouldn't force you into textbook drills, but encourage you to speak. That is precisely what Academic International does.",
-      "btnNext": "Our Other Advantages →",
-      "faqs": [
-        {
-          "q": "What should you pay attention to when looking for an English course recommendation in Kutahya?",
-          "a": "Pay attention to native speaker instructors, goal-oriented training (exams, business, communication), up-to-date materials, high success rates, and flexible program options specific to the institution."
-        },
-        {
-          "q": "Are lesson sessions sufficiently active?",
-          "a": "Yes, our teaching approach applied at our Kutahya branch aims for active participation and practical language use instead of passive listening. Thanks to small class structures, every student receives individual attention."
-        },
-        {
-          "q": "Is it suitable for my career goals?",
-          "a": "Absolutely. Once we understand your individual goals, we design the most appropriate program and guarantee target-oriented education."
-        }
-      ],
-      "advantages": [
-        {
-          "title": "International Certificate",
-          "desc": "Certificates earned have international validity and contribute to your global career goals.",
-          "icon": "Award"
-        },
-        {
-          "title": "Flexible Training Model",
-          "desc": "Education suited to your lifestyle at any branch you choose or via live online course options.",
-          "icon": "Laptop"
-        },
-        {
-          "title": "Expert Staff",
-          "desc": "Instructors with academic backgrounds and years of experience in language education.",
-          "icon": "Users"
-        },
-        {
-          "title": "Dynamic Enrollment",
-          "desc": "Start your training immediately without waiting for class quotas to fill or term start dates.",
-          "icon": "Monitor"
-        }
-      ]
-    }
+ "title": "Why Choose Us for Kutahya English Course?",
+ "subtitle": "Experience Quality, Don't Waste Your Time",
+ "cardTitle": "Speaking-Oriented System",
+ "cardDesc": "At our Kütahya branch, our goal isn't rote memorisation — it's getting you speaking English in real life.",
+ "btnNext": "Our Other Advantages →",
+ "faqs": [
+  {
+   "q": "What should I look for when choosing an English course in Kütahya?",
+   "a": "Look for expert instructors, goal-oriented training, up-to-date materials, internationally valid certificates, and flexible programme options — our Kütahya branch meets all of these."
+  },
+  {
+   "q": "Are lesson sessions sufficiently active?",
+   "a": "Yes, our teaching approach applied at our Kutahya branch aims for active participation and practical language use instead of passive listening. Thanks to small class structures, every student receives individual attention."
+  },
+  {
+   "q": "Is it suitable for my career goals?",
+   "a": "Absolutely. At our Kütahya branch, once we understand your individual goals, we design the most suitable programme and guarantee target-oriented education."
+  }
+ ],
+ "advantages": [
+  {
+   "title": "International Certificate",
+   "desc": "Certificates earned at our Kütahya branch carry international validity and support your career goals.",
+   "icon": "Award"
+  },
+  {
+   "title": "Flexible Training Model",
+   "desc": "Choose your preferred branch or a live online course to fit your lifestyle in Kütahya.",
+   "icon": "Laptop"
+  },
+  {
+   "title": "Expert Staff",
+   "desc": "Our Kütahya branch instructors have an academic background and years of experience in language education.",
+   "icon": "Users"
+  },
+  {
+   "title": "Dynamic Enrollment",
+   "desc": "Start your education at our Kütahya branch without waiting for class quotas to fill or term start dates.",
+   "icon": "Monitor"
+  }
+ ]
+}
   },
   "tarihcePage": {
     "meta": {
