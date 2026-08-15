@@ -724,7 +724,7 @@
   border: none;
   background: transparent;
   /* Navbar zemini koyu lacivert oldugu icin ikonlar beyaz */
-  color: #ffffff;
+  color: #ffffff !important;
   border-radius: 12px;
   cursor: pointer;
   text-decoration: none;

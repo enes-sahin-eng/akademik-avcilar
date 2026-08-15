@@ -18,6 +18,10 @@
   margin-bottom: 0.5rem;
 }
 
+:global([data-theme="dark"]) .galleryTitle {
+  color: var(--text-primary);
+}
+
 .gallerySubtitle {
   font-size: 1.1rem;
   color: var(--text-secondary);
