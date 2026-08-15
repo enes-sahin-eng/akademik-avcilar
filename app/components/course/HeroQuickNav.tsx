@@ -9,17 +9,17 @@ interface Props {
 
 const cardStyles = [
   {
-    image: "/quicknav/quicknav-1.webp",
+    image: null,
     themeColor: "#1e3a8a",
     gradient: "linear-gradient(to right, #0f172a, #1e3a8a)",
   },
   {
-    image: "/quicknav/quicknav-2.webp",
+    image: null,
     themeColor: "#701a75",
     gradient: "linear-gradient(to right, #4a044e, #701a75)",
   },
   {
-    image: "/quicknav/quicknav-3.webp",
+    image: null,
     themeColor: "#0f766e",
     gradient: "linear-gradient(to right, #042f2e, #0f766e)",
   },
