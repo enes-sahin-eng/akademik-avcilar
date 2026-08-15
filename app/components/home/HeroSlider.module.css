@@ -38,6 +38,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 15% center;
 }
 
 
@@ -103,10 +104,19 @@
   border-radius: 10px;
 }
 
+@media (max-width: 1024px) {
+  .slideImage {
+    object-position: left center;
+  }
+}
+
 @media (max-width: 768px) {
   .sliderContainer {
     min-height: 280px;
     max-height: 420px;
+  }
+  .slideImage {
+    object-position: left center;
   }
   .arrowBtn {
     width: 36px;
