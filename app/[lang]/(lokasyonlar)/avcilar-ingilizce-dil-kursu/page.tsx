@@ -165,10 +165,10 @@ export default async function AvcilarIngilizceDilKursuPage({
       <ExclusiveProgramsSection courseKey={COURSE_KEY} lang={lang} />
       <InstitutionStatsTabs courseKey={COURSE_KEY} lang={lang} />
       <CoursePricing courseKey={COURSE_KEY} lang={lang} />
+      <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
       <PlacementTestBanner lang={lang} />
-      <WhyUsSection courseKey={COURSE_KEY} lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
       <CourseFAQ courseKey={COURSE_KEY} lang={lang} />
       <SeoContentBlock courseKey={COURSE_KEY} lang={lang} startIndex={1} />
