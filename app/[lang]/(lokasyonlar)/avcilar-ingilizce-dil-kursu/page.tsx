@@ -12,7 +12,6 @@ import { CampusTabs } from "../../../components/ui/CampusTabs";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
-import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
@@ -170,8 +169,6 @@ export default async function AvcilarIngilizceDilKursuPage({
       <CampusTabs lang={lang} />
       <PlacementTestBanner lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
-      <CourseFAQ courseKey={COURSE_KEY} lang={lang} />
-      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} startIndex={1} />
       <InstagramFeed lang={lang} />
       <WhatsAppButton phoneNumber="905323609256" lang={lang} />
     </main>
