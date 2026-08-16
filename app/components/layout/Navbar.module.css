@@ -245,17 +245,22 @@
   z-index: 1;
 }
 
+/* Hamburger menü 1024px altında devrede; nav bu genişlikten itibaren
+   normal akışa alınmalı, yoksa açılan mobil menü sayfa içeriğini aşağı
+   itmek yerine üzerine biniyor (tablette farklı/bozuk açılış). */
+@media (max-width: 1024px) {
+  .nav {
+    position: relative;
+    top: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .topBar {
     display: none;
   }
   .ctaBtn {
     display: none;
-  }
-  /* topBar gizlenince header 0px yüksekliğe düşer; nav'ı flow'a al */
-  .nav {
-    position: relative;
-    top: 0;
   }
 }
 

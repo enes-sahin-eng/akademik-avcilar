@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Award, BookOpen, MessageCircle, Laptop, Globe, ArrowRight } from "lucide-react";
 import styles from "./AnimatedAdvantageStack.module.css";
 
@@ -44,6 +44,14 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
   const animating = useRef(false);
   const lastDragPos = useRef({ x: 0, y: 0 });
   const stackRef = useRef<HTMLDivElement>(null);
+  const dragElRef = useRef<HTMLDivElement | null>(null);
+  const rafRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
+    };
+  }, []);
 
   // Kayma miktarı CSS custom property'lerden okunuyor (.stack --card-offset-*),
   // mobilde medya sorgusuyla otomatik küçülüyor.
@@ -79,22 +87,44 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (animating.current) return;
     e.currentTarget.setPointerCapture(e.pointerId);
+    dragElRef.current = e.currentTarget;
     dragging.current = true;
+    lastDragPos.current = { x: 0, y: 0 };
     setIsDragging(true);
     startPos.current = { x: e.clientX, y: e.clientY };
     setDragPos({ x: 0, y: 0 });
   };
 
+  // pointermove tarayıcıda 60Hz'in çok üzerinde ateşlenebiliyor; her
+  // event'te React state güncellemesi (=tüm bileşen re-render'ı) mobilde
+  // FPS düşüşünün asıl kaynağıydı. Artık sürükleme sırasında state hiç
+  // güncellenmiyor — pozisyon doğrudan DOM'a, kare başına en fazla bir kez
+  // (rAF ile) yazılıyor. React sadece sürükleme başlayıp bitince render olur.
   const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     if (!dragging.current) return;
     const pos = { x: e.clientX - startPos.current.x, y: e.clientY - startPos.current.y };
     lastDragPos.current = pos;
-    setDragPos(pos);
+
+    if (rafRef.current == null) {
+      rafRef.current = requestAnimationFrame(() => {
+        rafRef.current = null;
+        const el = dragElRef.current;
+        if (el && dragging.current) {
+          const { x, y } = lastDragPos.current;
+          el.style.transform = `translate(${x}px, ${y}px) rotate(${x * 0.05}deg) scale(1.03) translateZ(0)`;
+        }
+      });
+    }
   };
 
   const handlePointerUp = () => {
     if (!dragging.current) return;
     dragging.current = false;
+    if (rafRef.current != null) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
+    dragElRef.current = null;
     setIsDragging(false);
     const { x, y } = lastDragPos.current;
     const dist = Math.sqrt(x ** 2 + y ** 2);

@@ -449,109 +449,109 @@
       "address": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu, Merkez, Namık Kemal Cd. Umut İş Merkezi No:23 Kat:5, 34310 Avcılar/İstanbul"
     },
     "campuses": {
-      "title": "فروع دورات اللغة الإنجليزية الأقرب إليك",
-      "items": [
-        {
-          "name": "أفجيلار",
-          "label": "Avcılar",
-          "phone": "0212 650 90 90",
-          "image": "/campuses/sube-avcilar.jpg",
-          "href": "/avcilar-ingilizce-dil-kursu",
-          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
-        },
-        {
-          "name": "كاديكوي",
-          "label": "Kadıköy",
-          "phone": "0216 330 19 09",
-          "image": "/campuses/sube-kadikoy.webp",
-          "href": "/kadikoy-ingilizce-dil-kursu",
-          "mapQuery": "Kadıköy İngilizce Kursu | Akademik Yabancı Dil Kursları Kadıköy Dil Okulu"
-        },
-        {
-          "name": "بورصة",
-          "label": "Bursa / Nilüfer",
-          "phone": "0224 480 00 15",
-          "image": "/campuses/sube-bursa.webp",
-          "href": "/bursa-ingilizce-dil-kursu-fsm",
-          "mapQuery": "40.212043, 28.9792457"
-        },
-        {
-          "name": "اسطنبول",
-          "label": "İstanbul",
-          "phone": "0216 330 19 09",
-          "image": "/campuses/sube-ingilizcedil.webp",
-          "href": "/istanbul-ingilizce-kursu",
-          "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
-        },
-        {
-          "name": "اسطنبول",
-          "label": "Çekmeköy",
-          "phone": "0501 369 56 40",
-          "image": "/campuses/sube-cekmekoy.webp",
-          "href": "/cekmekoy-ingilizce-dil-kursu",
-          "mapQuery": "Çekmeköy Final Özel Öğretim Kursu"
-        },
-        {
-          "name": "بورصة",
-          "label": "Görükle",
-          "phone": "0224 480 00 14",
-          "image": "/campuses/sube-gorukle.webp",
-          "href": "/gorukle-ingilizce-dil-kursu",
-          "mapQuery": "Bursa En İyi İngilizce Kursu-Akademik Yabancı Dil Kursları Görükle Şubesi"
-        },
-        {
-          "name": "أنقرة",
-          "label": "Ankara",
-          "phone": "0312 433 99 99",
-          "image": "/campuses/sube-ankara.webp",
-          "href": "/ankara-ingilizce-dil-kursu",
-          "mapQuery": "Ankara İngilizce Kursu | ITEP | YDS | TOEFL - AKADEMİK YABANCI DİL KURSLARI"
-        },
-        {
-          "name": "إزمير",
-          "label": "İzmir",
-          "phone": "0850 305 05 16",
-          "image": "/campuses/sube-izmir.webp",
-          "href": "/izmir-ingilizce-dil-kursu",
-          "mapQuery": "Akademik Yabancı Dil Kursları -İzmir İngilizce Kursu-İzmir Almanca Kursu"
-        },
-        {
-          "name": "كوجالي",
-          "label": "İzmit / Kocaeli",
-          "phone": "0545 116 4141",
-          "image": "/campuses/sube-kocaeli.webp",
-          "href": "/kocaeli-izmit-ingilizce-dil-kursu",
-          "mapQuery": "Akademik International Yabancı Dil Kursu Kocaeli Kampüsü"
-        },
-        {
-          "name": "تيكيرداغ",
-          "label": "Çorlu / Tekirdağ",
-          "phone": "0541 236 01 59",
-          "image": "/campuses/sube-tekirdag.webp",
-          "href": "/corlu-ingilizce-dil-kursu",
-          "mapQuery": "41.1553343, 27.8100916"
-        },
-        {
-          "name": "بورصة",
-          "label": "İnegöl",
-          "phone": "0224 777 07 74",
-          "image": "/campuses/sube-inegol.webp",
-          "href": "/inegol-ingilizce-dil-kursu",
-          "mapQuery": "İnegöl İngilizce Kursu-Akademik International Dil Okulları"
-        },
-        {
-          "name": "بورصة",
-          "label": "Yıldırım / Erikli",
-          "phone": "0 224 342 01 23",
-          "image": "/campuses/sube-yildirim.webp",
-          "href": "/yildirim-erikli-ingilizce-dil-kursu",
-          "mapQuery": "40.1914299, 29.138847"
-        }
-      ],
-      "button": "تطبيق الحرم الجامعي",
-      "viewBranchText": "عرض الفرع",
-      "desc": "من خلال فروع دورة أفجيلار لتعليم اللغة الإنجليزية في إسطنبول وأنقرة وبورصة وكوجالي، نقدم لك تعليم لغات بمعايير دولية."
-    },
+ "title": "فروع دورات اللغة الإنجليزية الأقرب إليك",
+ "items": [
+  {
+   "name": "أفجيلار",
+   "label": "Avcılar",
+   "phone": "0212 650 90 90",
+   "image": "/campuses/sube-avcilar.jpg",
+   "href": "/avcilar-ingilizce-dil-kursu",
+   "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
+  },
+  {
+   "name": "كاديكوي",
+   "label": "Kadıköy",
+   "phone": "0216 330 19 09",
+   "image": "/campuses/sube-kadikoy.webp",
+   "href": "/kadikoy-ingilizce-dil-kursu",
+   "mapQuery": "Kadıköy İngilizce Kursu | Akademik Yabancı Dil Kursları Kadıköy Dil Okulu"
+  },
+  {
+   "name": "اسطنبول",
+   "label": "Çekmeköy",
+   "phone": "0501 369 56 40",
+   "image": "/campuses/sube-cekmekoy.webp",
+   "href": "/cekmekoy-ingilizce-dil-kursu",
+   "mapQuery": "Çekmeköy Final Özel Öğretim Kursu"
+  },
+  {
+   "name": "اسطنبول",
+   "label": "İstanbul",
+   "phone": "0216 330 19 09",
+   "image": "/campuses/sube-ingilizcedil.webp",
+   "href": "/istanbul-ingilizce-kursu",
+   "mapQuery": "Avcılar Akademik Yabancı Dil Kursları - Avcılar İngilizce Kursu"
+  },
+  {
+   "name": "أنقرة",
+   "label": "Ankara",
+   "phone": "0312 433 99 99",
+   "image": "/campuses/sube-ankara.webp",
+   "href": "/ankara-ingilizce-dil-kursu",
+   "mapQuery": "Ankara İngilizce Kursu | ITEP | YDS | TOEFL - AKADEMİK YABANCI DİL KURSLARI"
+  },
+  {
+   "name": "بورصة",
+   "label": "Bursa / Nilüfer",
+   "phone": "0224 480 00 15",
+   "image": "/campuses/sube-bursa.webp",
+   "href": "/bursa-ingilizce-dil-kursu-fsm",
+   "mapQuery": "40.212043, 28.9792457"
+  },
+  {
+   "name": "إزمير",
+   "label": "İzmir",
+   "phone": "0850 305 05 16",
+   "image": "/campuses/sube-izmir.webp",
+   "href": "/izmir-ingilizce-dil-kursu",
+   "mapQuery": "Akademik Yabancı Dil Kursları -İzmir İngilizce Kursu-İzmir Almanca Kursu"
+  },
+  {
+   "name": "بورصة",
+   "label": "Görükle",
+   "phone": "0224 480 00 14",
+   "image": "/campuses/sube-gorukle.webp",
+   "href": "/gorukle-ingilizce-dil-kursu",
+   "mapQuery": "Bursa En İyi İngilizce Kursu-Akademik Yabancı Dil Kursları Görükle Şubesi"
+  },
+  {
+   "name": "كوجالي",
+   "label": "İzmit / Kocaeli",
+   "phone": "0545 116 4141",
+   "image": "/campuses/sube-kocaeli.webp",
+   "href": "/kocaeli-izmit-ingilizce-dil-kursu",
+   "mapQuery": "Akademik International Yabancı Dil Kursu Kocaeli Kampüsü"
+  },
+  {
+   "name": "بورصة",
+   "label": "İnegöl",
+   "phone": "0224 777 07 74",
+   "image": "/campuses/sube-inegol.webp",
+   "href": "/inegol-ingilizce-dil-kursu",
+   "mapQuery": "İnegöl İngilizce Kursu-Akademik International Dil Okulları"
+  },
+  {
+   "name": "تيكيرداغ",
+   "label": "Çorlu / Tekirdağ",
+   "phone": "0541 236 01 59",
+   "image": "/campuses/sube-tekirdag.webp",
+   "href": "/corlu-ingilizce-dil-kursu",
+   "mapQuery": "41.1553343, 27.8100916"
+  },
+  {
+   "name": "بورصة",
+   "label": "Yıldırım / Erikli",
+   "phone": "0 224 342 01 23",
+   "image": "/campuses/sube-yildirim.webp",
+   "href": "/yildirim-erikli-ingilizce-dil-kursu",
+   "mapQuery": "40.1914299, 29.138847"
+  }
+ ],
+ "button": "تطبيق الحرم الجامعي",
+ "viewBranchText": "عرض الفرع",
+ "desc": "من خلال فروع دورة أفجيلار لتعليم اللغة الإنجليزية في إسطنبول وأنقرة وبورصة وكوجالي، نقدم لك تعليم لغات بمعايير دولية."
+},
     "corporate": {
       "title1": "العنوان التجاري:",
       "value1": "ACADEMIC YABANCI DİL KURSLARI SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
@@ -585,7 +585,7 @@
       "البنود والشروط"
     ],
     "copyright": "© 2026 دورة أفجيلار لتعليم اللغة الإنجليزية جميع الحقوق محفوظة.",
-    "partnersTitle": "الشركاء الذين يجعلوننا أقوياء",
+    "partnersTitle": "شركاؤنا العالميون للشهادات",
     "groupTitle": "مجموعة دورة أفجيلار لتعليم اللغة الإنجليزية",
     "designBy": "تصميم وتطوير بواسطة"
   },

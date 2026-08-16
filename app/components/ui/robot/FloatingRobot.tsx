@@ -134,15 +134,15 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
   const selectLang = (l: string) => {
     setLanguage(l);
     triggerLove();
-    // ikisi de seçildiyse kampüse geç
-    if (exam !== "") setTimeout(() => setStep(1), 350);
+    // Tek seçim yeterli, direkt kampüse geç
+    setTimeout(() => setStep(1), 350);
   };
 
   const selectExam = (e: string) => {
     setExam(e);
     triggerLove();
-    // ikisi de seçildiyse kampüse geç
-    if (language !== "") setTimeout(() => setStep(1), 350);
+    // Tek seçim yeterli, direkt kampüse geç
+    setTimeout(() => setStep(1), 350);
   };
 
   const selectCampus = (c: string) => {
@@ -157,6 +157,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
       setLanguage("");
       setExam("");
     } else if (step === 1) {
+      setLanguage("");
       setExam("");
       setStep(0);
     } else if (step === 2) {
@@ -476,8 +477,8 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
               {/* Step 1: kampüs (geçmiş: dil + sınav) */}
               {step >= 1 && (
                 <>
-                  <div className={styles.userMsg}>{language}</div>
-                  <div className={styles.userMsg}>{exam}</div>
+                  {language !== "" && <div className={styles.userMsg}>{language}</div>}
+                  {exam !== "" && <div className={styles.userMsg}>{exam}</div>}
                   {step === 1 && (
                     <div>
                       <div className={styles.bot}>{t.campusQ}</div>

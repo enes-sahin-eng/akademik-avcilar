@@ -221,30 +221,6 @@ export const Footer = async ({ lang }: Props) => {
             </div>
           </div>
           
-          <div className={styles.groupSection}>
-            <Image src="/brand/group-companies.svg" alt="Avcılar İngilizce Dil Kursu Group Companies" title="Avcılar İngilizce Dil Kursu Group Companies" height={60} width={650} className={styles.groupTitleImg} />
-            <div className={styles.logosRow}>
-              <div className={styles.logoItem}>
-                <Image src="/brand/logo2.png" alt="Avcılar İngilizce Dil Kursu" title="Avcılar İngilizce Dil Kursu" height={45} width={180} className={styles.logoImgSmall} />
-              </div>
-              <div className={styles.logoItem}>
-                <Image src="/brand/akademikAbroad.webp" alt="AKADEMİK ABROAD" title="AKADEMİK ABROAD" height={45} width={150} className={styles.logoImgSmall} />
-              </div>
-              <div className={styles.logoItem}>
-                <Image src="/brand/akademikPublishing.webp" alt="The Academic Publishing" title="The Academic Publishing" height={45} width={120} className={styles.logoImgSmall} />
-              </div>
-              <div className={styles.logoItem}>
-                <Image src="/brand/akademikKoleji.svg" alt="AKADEMİK Koleji International School" title="AKADEMİK Koleji International School" height={45} width={160} className={styles.logoImgSmall} />
-              </div>
-              <div className={styles.logoItem}>
-                <Image src="/brand/akademikKids.svg" alt="AKADEMİK Kids" title="AKADEMİK Kids" height={45} width={160} className={styles.logoImgSmall} />
-              </div>
-              <div className={styles.logoItem}>
-                <Image src="/brand/akademikAdult.webp" alt="AKADEMİK adult" title="AKADEMİK adult" height={45} width={150} className={styles.logoImgSmall} />
-              </div>
-            </div>
-          </div>
-          
           <div className={styles.devCredit}>
             <div className={styles.creditContainer}>
               {footerData.designBy} <strong>ideaZone</strong>

@@ -99,7 +99,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 1418) {
+      if (window.innerWidth > 1024) {
         setMobileMenuOpen(false);
         setMobileActiveDropdown(null);
       }
