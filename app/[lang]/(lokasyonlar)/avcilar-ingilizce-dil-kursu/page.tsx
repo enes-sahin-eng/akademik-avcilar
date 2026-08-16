@@ -19,6 +19,7 @@ import PlacementTestBanner from "../../../components/course/PlacementTestBanner"
 import { GradeLevelTabs } from "../../../components/course/GradeLevelTabs";
 import { ExclusiveProgramsSection } from "../../../components/course/ExclusiveProgramsSection";
 import { InstitutionStatsTabs } from "../../../components/course/InstitutionStatsTabs";
+import { CoursePricing } from "../../../components/course/CoursePricing";
 import { MiniGallery } from "@/app/components/home/MiniGallery";
 
 const COURSE_KEY = "avcilarIngilizceLandingPage";
@@ -163,6 +164,7 @@ export default async function AvcilarIngilizceDilKursuPage({
       <GradeLevelTabs courseKey={COURSE_KEY} lang={lang} />
       <ExclusiveProgramsSection courseKey={COURSE_KEY} lang={lang} />
       <InstitutionStatsTabs courseKey={COURSE_KEY} lang={lang} />
+      <CoursePricing courseKey={COURSE_KEY} lang={lang} />
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
       <PlacementTestBanner lang={lang} />

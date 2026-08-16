@@ -12862,6 +12862,50 @@
         "title": "Kurum Kalitesi ve Başarı İstatistikleri",
         "subtitle": "Akademik İnternasyonal Yabancı Dil Kursu standartlarında elde edilen başarılar ve garantiler."
       }
+    },
+    "coursePricing": {
+      "title": "Avcılar İngilizce Kursu Fiyatları 2026",
+      "description": "Avcılar İngilizce Kursu 2026 yılı güncel fiyatları 18.000 ₺ ile 72.000 ₺ arasında değişkenlik göstermektedir. Fiyat farklılıkları; kurs süresi, program türü (grup dersleri, birebir özel ders, online eğitim), eğitmenlerin sertifikasyon düzeyi, sınıf kapasitesi ve ek hizmetlere (yazma-konuşma değerlendirmesi, sınav hazırlığı danışmanlığı) bağlı olarak belirlenmektedir. Avcılar bölgesindeki İngilizce kursları; başlangıç seviyesi, orta seviye ve ileri seviye programları için farklı fiyat seçenekleri sunmaktadır. TOEFL, IELTS, YDT, Proficiency gibi uluslararası sınavlara hazırlık programları daha yüksek fiyat aralığında yer almaktadır. Avcılar İngilizce Kursu'nda uzun vadeli paket kurslara kayıt yapan öğrencilerin indirim avantajı bulunmaktadır. Kurs seçiminde fiyat kadar eğitmen tecrübesi, ders materyalinin kalitesi, başarı oranları ve öğrenci memnuniyeti de önemli kriterler arasında yer almaktadır.",
+      "cards": [
+        {
+          "tier": "Genel İngilizce",
+          "price": "18.000 ₺",
+          "priceDetail": "'den başlayan fiyatlarla",
+          "features": [
+            "Başlangıç, Orta ve İleri Seviye",
+            "Grup Dersleri veya Online Eğitim",
+            "Eğitmen Tecrübesi & Başarı Oranı"
+          ],
+          "isPopular": false,
+          "btnText": "Bilgi Alın"
+        },
+        {
+          "tier": "Sınav Hazırlık Paketleri",
+          "price": "İndirim",
+          "priceDetail": "Avantajları",
+          "features": [
+            "TOEFL, IELTS, YDT, Proficiency",
+            "Yazma-Konuşma Değerlendirmesi",
+            "Sınav Hazırlığı Danışmanlığı",
+            "Uzun Vadeli Kayıt Avantajı"
+          ],
+          "isPopular": true,
+          "popularBadge": "En Çok Tercih Edilen",
+          "btnText": "Fiyat Teklifi İsteyin"
+        },
+        {
+          "tier": "Özel Ders / Premium",
+          "price": "72.000 ₺",
+          "priceDetail": "'ye varan özel programlar",
+          "features": [
+            "Birebir Özel Ders Seçeneği",
+            "Özel Sınıf Kapasitesi",
+            "Uluslararası Sertifikalı Eğitmenler"
+          ],
+          "isPopular": false,
+          "btnText": "Detayları Görün"
+        }
+      ]
     }
   },
   "istanbulIngilizceLandingPage": {
