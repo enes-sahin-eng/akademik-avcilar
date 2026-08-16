@@ -12727,6 +12727,59 @@
           ]
         },
         {
+          "id": "garantiler",
+          "label": "Avcılar English Course Guarantees",
+          "color": "green",
+          "sections": [
+            {
+              "title": "100% Guaranteed Learning System",
+              "content": "Avcılar English Course offers a 100% learning guarantee for its students to reach their goals. Students who cannot achieve the target score in TOEFL, IELTS, YDT and Proficiency exams continue to take free classes until the target score is reached. In general English courses, a guaranteed level progress system is applied; every student who completes their level in the specified time is guaranteed to move to the next level. Otherwise, the next level course is offered at a discount or completely free of charge."
+            },
+            {
+              "title": "Conditions of Avcılar English Course Learning Guarantee",
+              "content": "Students who meet these conditions achieve guaranteed success in the standards of Academic International Foreign Language Course at Avcılar English Course. All guarantees are secured by a written contract, and student rights are placed under legal protection.",
+              "list": [
+                "Regular attendance to all classes (minimum 80% attendance)",
+                "Completing assigned homework completely",
+                "Completing the recommended study hours during exam preparation",
+                "Participation in one-on-one consulting sessions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ders-saatleri",
+          "label": "Lesson Hours and Schedule",
+          "color": "navy",
+          "sections": [
+            {
+              "title": "Avcılar English Course Lesson Hours and Schedule",
+              "content": "Avcılar English Course offers flexible lesson hours adapting to intensive life paces. Morning classes start from 08:00 and afternoon classes continue until 17:00, while evening classes are held between 18:30-21:30. Special Sunday classes are available on weekends; intensive programs are offered on Saturdays and Sundays between 09:00-13:00. The English Course schedule in Avcılar aligns with public school holidays, and intensive summer courses (June-August) and winter courses (December-February) are planned separately. Online classes are offered with 24/7 flexibility; students can join live lessons at their preferred time."
+            }
+          ]
+        },
+        {
+          "id": "kayit-sureci",
+          "label": "Registration Process",
+          "color": "red",
+          "sections": [
+            {
+              "title": "Registering for Avcılar Akademik International Language Course is Very Easy!",
+              "content": "Registering for the Avcılar English Course is quite simple and fast. As a first step, the student takes a free placement test either by visiting the course center in Avcılar or online. In this test; listening, reading, grammar, and speaking skills are measured. Following the test, Avcılar Akademik International Language Course consultants recommend a suitable program based on the student's level and goal. After the registration file is completed, payment is made, and the student gains the right to attend their first lesson. Early registration campaigns are regularly organized at the Avcılar English Course; a 10-20% discount is applied at New Year, summer, and the beginning of the academic year. Thanks to the online registration system, it is possible to register for the English Course in Avcılar from home. After completing the quick registration process at Avcılar Akademik International Language Course, students can start their lessons within the same week."
+            },
+            {
+              "title": "Registration Steps:",
+              "list": [
+                "Free placement test (online or face-to-face)",
+                "Consultant interview and program selection",
+                "Payment and signing the contract",
+                "Determining the first lesson date",
+                "Delivery of course materials"
+              ]
+            }
+          ]
+        },
+        {
           "id": "basari-istatistikleri",
           "label": "Avcılar English Course Success Rates and Student Achievements",
           "color": "red",
@@ -12752,27 +12805,6 @@
                 "**Acceptance to Universities Abroad:** Successfully accepted to world-class universities such as Harvard, MIT, Cambridge, Oxford.",
                 "**Employment in International Companies:** Working in Fortune 500 companies such as Google, Microsoft, Amazon, Shell, Deloitte.",
                 "**Progress in the Private Sector:** Promoted to leadership positions in areas such as Marketing, Human Resources, Accounting, Engineering."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "garantiler",
-          "label": "Avcılar English Course Guarantees",
-          "color": "green",
-          "sections": [
-            {
-              "title": "100% Guaranteed Learning System",
-              "content": "Avcılar English Course offers a 100% learning guarantee for its students to reach their goals. Students who cannot achieve the target score in TOEFL, IELTS, YDT and Proficiency exams continue to take free classes until the target score is reached. In general English courses, a guaranteed level progress system is applied; every student who completes their level in the specified time is guaranteed to move to the next level. Otherwise, the next level course is offered at a discount or completely free of charge."
-            },
-            {
-              "title": "Conditions of Avcılar English Course Learning Guarantee",
-              "content": "Students who meet these conditions achieve guaranteed success in the standards of Academic International Foreign Language Course at Avcılar English Course. All guarantees are secured by a written contract, and student rights are placed under legal protection.",
-              "list": [
-                "Regular attendance to all classes (minimum 80% attendance)",
-                "Completing assigned homework completely",
-                "Completing the recommended study hours during exam preparation",
-                "Participation in one-on-one consulting sessions"
               ]
             }
           ]

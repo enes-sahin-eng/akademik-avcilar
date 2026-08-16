@@ -12807,6 +12807,59 @@
           ]
         },
         {
+          "id": "garantiler",
+          "label": "Avcılar İngilizce Kursu Garantileri",
+          "color": "green",
+          "sections": [
+            {
+              "title": "%100 Öğrenme Garantili Sistem",
+              "content": "Avcılar İngilizce Kursu, öğrencilerinin hedeflerine ulaşması için %100 öğrenme garantisi sunmaktadır. . TOEFL, IELTS, YDT ve Proficiency sınavlarında hedef puanı elde edemeyen öğrenciler, hedef puanı yakalanıncaya kadar ücretsiz ders almaya devam eder. Genel İngilizce kurslarında ise garantili seviye ilerleme sistemi uygulanmaktadır; belirlenmiş sürette seviyesini tamamlayan her öğrenci bir üst seviyeye geçmeyi garantilenir. Aksi halde bir sonraki seviye kursu indirimli veya ücretsiz sunulur."
+            },
+            {
+              "title": "Avcılar İngilizce Kursu Öğrenme Garantisinin Şartları",
+              "content": "Bu koşulları yerine getiren öğrenciler, Avcılar İngilizce Kursu'nda Akademik İnternasyonal Yabancı Dil Kursu standartlarında garantili başarıyı elde ederler. Tüm garantiler yazılı sözleşme ile teminatlandırılmakta, öğrenci hakları kanuni koruma altına alınmaktadır.",
+              "list": [
+                "Tüm derslere düzenli katılım (minimum %80 devam)",
+                "Verilen ödevleri eksiksiz yapma",
+                "Sınav hazırlığında tavsiye edilen çalışma saatlerini tamamlama",
+                "Birebir danışmanlık oturumlarına katılım"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ders-saatleri",
+          "label": "Ders Saatleri ve Takvimi",
+          "color": "navy",
+          "sections": [
+            {
+              "title": "Avcılar İngilizce Kursu Ders Saatleri ve Takvimi",
+              "content": "Avcılar İngilizce Kursu, yoğun yaşam temposu ile uyum sağlayan esnek ders saatleri sunmaktadır. Sabah sınıfları saat 08:00'den başlayıp öğleden sonrası sınıfları saat 17:00'ye kadar, akşam sınıfları ise 18:30-21:30 arasında yapılmaktadır. Hafta sonu pazar günü özel sınıflar da mevcuttur; cumartesi ve pazar günleri 09:00-13:00 arasında yoğun program seçeneği bulunmaktadır. Avcılar'da İngilizce Kursu takvimi, devlet okulları tatillerine uyum göstermekte, yazlık yoğun kurslar (Haziran-Ağustos) ve kış kursları (Aralık-Şubat) ayrı ayrı planlanmaktadır. Online sınıflar ise 24/7 esneklikle sunulur; öğrenci istediği saatte canlı derslerine katılabilir."
+            }
+          ]
+        },
+        {
+          "id": "kayit-sureci",
+          "label": "Kayıt Süreci",
+          "color": "red",
+          "sections": [
+            {
+              "title": "Avcılar Akademik International Dil Kursu'na Kaydolmak Çok Kolay!",
+              "content": "Avcılar İngilizce Kursu'na kayıt yaptırmak oldukça basit ve hızlıdır. İlk adım olarak, öğrenci Avcılar'daki kurs merkezine gelerek veya çevrimiçi olarak ücretsiz seviye tespit sınavı (Placement Test) yapmaktadır. Bu sınavda; dinleme, okuma, gramer ve konuşma becerisi ölçülmektedir. Testin ardından Avcılar Akademik International Dil Kursu danışmanları, öğrencinin seviyesi, hedefi ve uygun program önerir. Kayıt dosyası tamamlandıktan sonra ödeme yapılmakta, öğrenci ilk dersine katılma hakkı elde etmektedir. Avcılar İngilizce Kursu'nda erken kayıt kampanyaları düzenli olarak yapılmakta; yılbaşı, yaz ve eğitim-öğretim yılı başında %10-20 indirim uygulanmaktadır. Çevrimiçi kayıt sistemi sayesinde Avcılar'da İngilizce Kursu'na evden kayıt mümkündür. Avcılar Akademik International Dil Kursu'nda hızlı kayıt süreci tamamlandıktan sonra, öğrenci aynı hafta içinde derslerine başlayabilir."
+            },
+            {
+              "title": "Kayıt Adımları:",
+              "list": [
+                "Ücretsiz seviye tespit sınavı (online veya yüz yüze)",
+                "Danışman görüşmesi ve program seçimi",
+                "Ödeme ve sözleşme imzalama",
+                "İlk ders tarihinin belirlenmesi",
+                "Ders materyallerinin teslimi"
+              ]
+            }
+          ]
+        },
+        {
           "id": "basari-istatistikleri",
           "label": "Avcılar İngilizce Kursu Başarı Sayıları ve Öğrenci Başarıları",
           "color": "red",
@@ -12832,27 +12885,6 @@
                 "**Yurt Dışı Üniversitelere Kabul:** Harvard, MIT, Cambridge, Oxford gibi dünya çapında üniversitelere başarıyla kabul alınmıştır.",
                 "**Uluslararası Şirketlerde İstihdam:** Google, Microsoft, Amazon, Shell, Deloitte gibi Fortune 500 şirketlerinde çalışmaktadırlar.",
                 "**Özel Sektörde İlerleme:** Pazarlama, İnsan Kaynakları, Muhasebe, Mühendislik gibi alanlarda liderlik pozisyonlarına yükselmişlerdir."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "garantiler",
-          "label": "Avcılar İngilizce Kursu Garantileri",
-          "color": "green",
-          "sections": [
-            {
-              "title": "%100 Öğrenme Garantili Sistem",
-              "content": "Avcılar İngilizce Kursu, öğrencilerinin hedeflerine ulaşması için %100 öğrenme garantisi sunmaktadır. . TOEFL, IELTS, YDT ve Proficiency sınavlarında hedef puanı elde edemeyen öğrenciler, hedef puanı yakalanıncaya kadar ücretsiz ders almaya devam eder. Genel İngilizce kurslarında ise garantili seviye ilerleme sistemi uygulanmaktadır; belirlenmiş sürette seviyesini tamamlayan her öğrenci bir üst seviyeye geçmeyi garantilenir. Aksi halde bir sonraki seviye kursu indirimli veya ücretsiz sunulur."
-            },
-            {
-              "title": "Avcılar İngilizce Kursu Öğrenme Garantisinin Şartları",
-              "content": "Bu koşulları yerine getiren öğrenciler, Avcılar İngilizce Kursu'nda Akademik İnternasyonal Yabancı Dil Kursu standartlarında garantili başarıyı elde ederler. Tüm garantiler yazılı sözleşme ile teminatlandırılmakta, öğrenci hakları kanuni koruma altına alınmaktadır.",
-              "list": [
-                "Tüm derslere düzenli katılım (minimum %80 devam)",
-                "Verilen ödevleri eksiksiz yapma",
-                "Sınav hazırlığında tavsiye edilen çalışma saatlerini tamamlama",
-                "Birebir danışmanlık oturumlarına katılım"
               ]
             }
           ]
