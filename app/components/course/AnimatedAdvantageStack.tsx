@@ -136,7 +136,7 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
 
             if (isFlying) {
               cardStyle = {
-                transform: `translate(${back.x}px, ${back.y}px) rotate(${back.rotate}deg) scale(0.85)`,
+                transform: `translate(${back.x}px, ${back.y}px) rotate(${back.rotate}deg) scale(0.85) translateZ(0)`,
                 transition: 'transform 0.4s cubic-bezier(0.4, 0, 0.6, 1), opacity 0.4s ease',
                 opacity: 0.3,
                 zIndex: 0,
@@ -144,13 +144,13 @@ export const AnimatedAdvantageStack = ({ advantages, btnNext }: Props) => {
               };
             } else if (isTop && isDragging) {
               cardStyle = {
-                transform: `translate(${dragPos.x}px, ${dragPos.y}px) rotate(${dragPos.x * 0.05}deg) scale(1.03)`,
+                transform: `translate(${dragPos.x}px, ${dragPos.y}px) rotate(${dragPos.x * 0.05}deg) scale(1.03) translateZ(0)`,
                 transition: 'none',
                 zIndex: 100,
                 cursor: 'grabbing',
               };
             } else if (index === 0) {
-              cardStyle = { zIndex: 5, transform: 'translate(0,0) rotate(0deg)', opacity: 1 };
+              cardStyle = { zIndex: 5, transform: 'translate(0,0) rotate(0deg) translateZ(0)', opacity: 1 };
             } else {
               const opacity = Math.max(0.55, 1 - index * 0.15);
               cardStyle = {
