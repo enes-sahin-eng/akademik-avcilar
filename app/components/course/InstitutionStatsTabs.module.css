@@ -72,7 +72,10 @@
 /* Aktif Sekme Stilleri (CSS-only) */
 .tabInput:nth-of-type(1):checked ~ .tabNav .label0,
 .tabInput:nth-of-type(2):checked ~ .tabNav .label1,
-.tabInput:nth-of-type(3):checked ~ .tabNav .label2 {
+.tabInput:nth-of-type(3):checked ~ .tabNav .label2,
+.tabInput:nth-of-type(4):checked ~ .tabNav .label3,
+.tabInput:nth-of-type(5):checked ~ .tabNav .label4,
+.tabInput:nth-of-type(6):checked ~ .tabNav .label5 {
   background: var(--text-primary);
   color: #ffffff;
   border-color: var(--text-primary);
@@ -110,7 +113,10 @@
 /* CSS-only Panel Görünürlüğü */
 .tabInput:nth-of-type(1):checked ~ .panels .panel0,
 .tabInput:nth-of-type(2):checked ~ .panels .panel1,
-.tabInput:nth-of-type(3):checked ~ .panels .panel2 {
+.tabInput:nth-of-type(3):checked ~ .panels .panel2,
+.tabInput:nth-of-type(4):checked ~ .panels .panel3,
+.tabInput:nth-of-type(5):checked ~ .panels .panel4,
+.tabInput:nth-of-type(6):checked ~ .panels .panel5 {
   display: flex;
 }
 
