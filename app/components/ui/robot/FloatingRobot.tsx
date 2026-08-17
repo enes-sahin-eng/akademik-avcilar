@@ -376,7 +376,6 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
             position: "absolute",
             inset: 0,
             zIndex: 1,
-            pointerEvents: open ? "none" : "auto",
           }}
         >
           {renderRobotCanvas(1.5, false, true, open ? undefined : () => setOpen(true))}
