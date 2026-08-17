@@ -9,7 +9,7 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
   // Statik dosyaları (favicon, resimler, fontlar, vs.) middleware'den geç — locale mantığını atla
-  const isStaticFile = /\.(?:ico|png|jpg|jpeg|gif|webp|svg|css|js|woff2?|ttf|eot|map|txt|xml|json)$/i.test(pathname);
+  const isStaticFile = /\.(?:ico|png|jpg|jpeg|gif|webp|svg|css|js|woff2?|ttf|eot|map|txt|xml|json|webmanifest)$/i.test(pathname);
   if (isStaticFile) return NextResponse.next();
 
   const pathnameHasLocale = locales.some(
@@ -51,9 +51,9 @@ export const config = {
      * Şu path'leri hariç tut:
      * - api (API route'ları)
      * - _next/static, _next/image (Next.js dahili dosyaları)
-     * - favicon.ico, robots.txt, sitemap.xml, manifest.json (SEO için kritik, redirect edilmemeli)
+     * - favicon.ico, robots.txt, sitemap.xml, manifest.webmanifest (SEO için kritik, redirect edilmemeli)
      * - Uzantılı tüm statik dosyalar (.png, .jpg, .svg, .css, .js vs)
      */
-    "/((?!api|_next/static|_next/image|_next/webpack-hmr|favicon.ico|robots.txt|sitemap.xml|manifest.json|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot|map)$).*)",
+    "/((?!api|_next/static|_next/image|_next/webpack-hmr|favicon.ico|robots.txt|sitemap.xml|manifest.webmanifest|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot|map)$).*)",
   ],
 };
