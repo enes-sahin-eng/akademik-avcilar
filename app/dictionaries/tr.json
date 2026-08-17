@@ -298,13 +298,7 @@
         "icon": "Coffee",
         "href": "/turkce-dil-kursu"
       }
-    ],
-    "news": {
-      "verticalText": "E N  S O N  H A B E R",
-      "date": "Haziran 23, 2023",
-      "title": "BAU X BOUN TRAIN'23",
-      "button": "HABERİ OKU →"
-    }
+    ]
   },
   "megaMenuSubeler": {
     "activeCampusesTitle": "Aktif Kampüsler",

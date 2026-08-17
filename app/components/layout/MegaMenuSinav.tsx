@@ -1,5 +1,4 @@
 "use client";
-import Image from 'next/image';
 
 import React from "react";
 import Link from "next/link";
@@ -62,17 +61,6 @@ export const MegaMenuSinav: React.FC<{ data: any }> = ({ data }) => {
             {megaMenu.col3.map(renderSection)}
           </div>
         </div>
-      </div>
-
-      <div className={styles.megaMenuRightImage}>
-        <Image
-          src="/campuses/sube-avcilar.jpg"
-          alt="Akademik International Avcılar Merkez Şubesi - IELTS, TOEFL, YDS ve YÖKDİL akademik sınav hazırlık sınıfları"
-          title="Akademik Sınav Kursları - Avcılar Merkez Şubesi"
-          fill
-          sizes="(max-width: 900px) 100vw, 320px"
-          className={styles.rightFullImage}
-        />
       </div>
     </motion.div>
   );

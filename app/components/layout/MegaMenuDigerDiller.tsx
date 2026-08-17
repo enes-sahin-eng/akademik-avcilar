@@ -1,11 +1,10 @@
 "use client";
-import Image from 'next/image';
 
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Castle, Building, Landmark, Building2, Snowflake, Moon, Globe2, Monitor, MountainSnow, Ship, Wind, Library, Sun, Coffee, ArrowRight, LucideIcon } from "lucide-react";
+import { Castle, Building, Landmark, Building2, Snowflake, Moon, Globe2, Monitor, MountainSnow, Ship, Wind, Library, Sun, Coffee, LucideIcon } from "lucide-react";
 import styles from "./MegaMenu.module.css";
 
 const iconMap: Record<string, LucideIcon> = {
@@ -68,29 +67,6 @@ export const MegaMenuDigerDiller: React.FC<{ data: any }> = ({ data }) => {
           </div>
           <div className={`${styles.col} ${styles.colDense}`}>
             {megaMenu.col3.map(renderSection)}
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.dillerRight}>
-        <div className={styles.verticalText}>
-          {megaMenu.news.verticalText}
-        </div>
-        <div className={styles.newsCard}>
-          <div className={styles.newsDateBadge}>{megaMenu.news.date}</div>
-          <Image
-            src="/sliders/gemini2.webp"
-            alt={`${megaMenu.news.title} - Akademik International Diğer Diller Kursları`}
-            title={megaMenu.news.title}
-            className={styles.newsImage}
-            width={300}
-            height={350}
-          />
-          <div className={styles.newsOverlay}>
-            <div className={styles.newsTitle}>{megaMenu.news.title}</div>
-            <span className={styles.newsLink}>
-              {megaMenu.news.button} <ArrowRight size={14} />
-            </span>
           </div>
         </div>
       </div>

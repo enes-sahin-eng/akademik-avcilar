@@ -285,13 +285,7 @@
         "icon": "Coffee",
         "href": "/turkce-dil-kursu"
       }
-    ],
-    "news": {
-      "verticalText": "أ ح د ث  ا ل أ خ ب ا ر",
-      "date": "23 يونيو 2023",
-      "title": "BAU X BOUN TRAIN'23",
-      "button": "اقرأ الخبر ←"
-    }
+    ]
   },
   "megaMenuSubeler": {
     "activeCampusesTitle": "الحرم الجامعي النشط",
