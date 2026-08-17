@@ -4,6 +4,7 @@ import { useRef, useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import { Canvas } from "@react-three/fiber";
 import { Environment, ContactShadows, Html } from "@react-three/drei";
+import { PCFShadowMap } from "three";
 import { RobotPrototype } from "./RobotHero";
 import styles from "./FloatingRobot.module.css";
 
@@ -253,7 +254,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
     onRobotClick?: () => void,
   ) => (
     <Canvas
-      shadows={!isMobilePanel}
+      shadows={isMobilePanel ? false : { type: PCFShadowMap }}
       camera={{ position: [0, 0.2, 6], fov: 40 }}
       dpr={isMobilePanel ? [1, 2] : [1, 1.5]}
       performance={{ min: 0.5 }}

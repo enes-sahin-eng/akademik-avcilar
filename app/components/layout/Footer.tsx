@@ -210,13 +210,16 @@ export const Footer = async ({ lang }: Props) => {
             <div className={styles.sectionHeading}>{footerData.partnersTitle}</div>
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/british.webp" alt="British Council & IELTS" title="British Council & IELTS" height={60} width={250} className={styles.logoImg} />
+                <Image src="/brand/ielts-new.webp" alt="IELTS" title="IELTS" height={100} width={100} className={styles.logoImgLarge} />
+              </div>
+              <div className={`${styles.logoItem} ${styles.logoItemPad}`}>
+                <Image src="/brand/ielts-official.webp" alt="IELTS Official Test Centre" title="IELTS Official Test Centre" height={68} width={138} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/pearson.webp" alt="Pearson PTE" title="Pearson PTE" height={60} width={180} className={styles.logoImg} />
+                <Image src="/brand/pearson-sharp.webp" alt="Pearson PTE" title="Pearson PTE" height={68} width={315} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/language.webp" alt="LanguageCert" title="LanguageCert" height={60} width={220} className={styles.logoImg} />
+                <Image src="/brand/language-sharp.webp" alt="LanguageCert" title="LanguageCert" height={68} width={384} className={styles.logoImg} />
               </div>
             </div>
           </div>
