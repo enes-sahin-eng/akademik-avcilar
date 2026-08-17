@@ -131,7 +131,8 @@
   gap: 8px;
 }
 
-.linkItem a {
+.linkItem a,
+.linkItem span {
   color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
@@ -424,7 +425,8 @@
   gap: 24px;
 }
 
-.bottomLinks a {
+.bottomLinks a,
+.bottomLinks span {
   color: var(--text-secondary);
   text-decoration: none;
   font-size: 12px;

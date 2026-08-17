@@ -88,9 +88,9 @@ export const MegaMenuDigerDiller: React.FC<{ data: any }> = ({ data }) => {
           />
           <div className={styles.newsOverlay}>
             <div className={styles.newsTitle}>{megaMenu.news.title}</div>
-            <a href="#" className={styles.newsLink}>
+            <span className={styles.newsLink}>
               {megaMenu.news.button} <ArrowRight size={14} />
-            </a>
+            </span>
           </div>
         </div>
       </div>

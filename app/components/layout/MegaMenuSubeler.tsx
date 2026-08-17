@@ -39,7 +39,7 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
                   {item.href ? (
                     <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
                   ) : (
-                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                    <span className={styles.subelerLink}>{item.name}</span>
                   )}
                   {item.badge && <span className={styles.subelerBadge}>{item.badge}</span>}
                 </li>
@@ -51,7 +51,7 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
                   {item.href ? (
                     <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
                   ) : (
-                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                    <span className={styles.subelerLink}>{item.name}</span>
                   )}
                   {item.badge && <span className={styles.subelerBadge}>{item.badge}</span>}
                 </li>
@@ -73,7 +73,7 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
                   {item.href ? (
                     <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
                   ) : (
-                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                    <span className={styles.subelerLink}>{item.name}</span>
                   )}
                 </li>
               ))}
@@ -86,7 +86,7 @@ export const MegaMenuSubeler: React.FC<{ data: any }> = ({ data }) => {
                   ) : item.href ? (
                     <Link href={`/${lang}${item.href}`} className={styles.subelerLink}>{item.name}</Link>
                   ) : (
-                    <a href="#" className={styles.subelerLink}>{item.name}</a>
+                    <span className={styles.subelerLink}>{item.name}</span>
                   )}
                 </li>
               ))}

@@ -44,12 +44,12 @@ export const MegaMenuHakkimizda: React.FC<{ data: any }> = ({ data }) => {
                   <span>{item.title}</span>
                 </Link>
               ) : (
-                <a href="#" className={styles.hakkimizdaItem}>
+                <span className={styles.hakkimizdaItem}>
                   <div className={styles.hakkimizdaIconWrapper}>
                     <Icon size={22} strokeWidth={1.5} />
                   </div>
                   <span>{item.title}</span>
-                </a>
+                </span>
               )}
             </li>
           );

@@ -119,7 +119,7 @@ export const Footer = async ({ lang }: Props) => {
                 {programs.slice(0, Math.ceil(programs.length / 2)).map((p, i) => (
                   <li key={i} className={styles.linkItem}>
                     {p.href === "#" ? (
-                      <a href="#">{p.name}</a>
+                      <span>{p.name}</span>
                     ) : (
                       <Link href={`/${lang}${p.href}`}>{p.name}</Link>
                     )}
@@ -130,7 +130,7 @@ export const Footer = async ({ lang }: Props) => {
                 {programs.slice(Math.ceil(programs.length / 2)).map((p, i) => (
                   <li key={i} className={styles.linkItem}>
                     {p.href === "#" ? (
-                      <a href="#">{p.name}</a>
+                      <span>{p.name}</span>
                     ) : (
                       <Link href={`/${lang}${p.href}`}>{p.name}</Link>
                     )}
@@ -200,7 +200,7 @@ export const Footer = async ({ lang }: Props) => {
         <div className={styles.bottomSection}>
           <div className={styles.bottomLinks}>
             {footerData.bottomLinks.map((link: string, i: number) => (
-              <a href="#" key={i}>{link}</a>
+              <span key={i}>{link}</span>
             ))}
           </div>
           
