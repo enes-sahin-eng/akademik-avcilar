@@ -142,7 +142,7 @@
   color: var(--accent-orange);
 }
 
-.redBadge {
+.linkItem .redBadge {
   background-color: #b0121f;
   color: #fff;
   font-size: 9px;
