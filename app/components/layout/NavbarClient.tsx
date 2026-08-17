@@ -396,7 +396,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
 
 
             {/* LOGO */}
-            <Link href={`/${currentLocale}`} className={styles.logo}>
+            <Link href={`/${currentLocale}`} className={styles.logo} aria-label="Anasayfa">
               <Image
                 src="/brand/logo2.png"
                 alt="AVCILAR İNGİLİZCE DİL KURSU"
