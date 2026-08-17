@@ -78,7 +78,7 @@ export async function generateMetadata({
       shortcut: "/icon.png",
       apple: "/apple-icon.png",
     },
-    manifest: `${siteUrl}/manifest.webmanifest`,
+    manifest: "/manifest.webmanifest",
 
     alternates: {
       canonical: `${siteUrl}/${lang}`,
