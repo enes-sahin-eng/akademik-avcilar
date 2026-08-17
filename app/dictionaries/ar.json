@@ -301,11 +301,6 @@
         "href": "/kadikoy-ingilizce-dil-kursu"
       },
       {
-        "name": "دورة بورصة للغة الإنجليزية",
-        "badge": "مكان اختبار IELTS",
-        "href": "/bursa-ingilizce-dil-kursu-fsm"
-      },
-      {
         "name": "دورة أفجيلار للغة الإنجليزية",
         "href": "/avcilar-ingilizce-dil-kursu"
       },
@@ -318,19 +313,24 @@
         "href": "/cekmekoy-ingilizce-dil-kursu"
       },
       {
+        "name": "دورة بورصة للغة الإنجليزية",
+        "badge": "مركز اختبار IELTS الرسمي",
+        "href": "/bursa-ingilizce-dil-kursu-fsm"
+      },
+      {
         "name": "بورصة جوروكلي",
         "href": "/gorukle-ingilizce-dil-kursu"
       },
       {
         "name": "أنقرة",
-        "badge": "مكان اختبار IELTS",
+        "badge": "مركز اختبار IELTS الرسمي",
         "href": "/ankara-ingilizce-dil-kursu"
       }
     ],
     "activeCampusesCol2": [
       {
         "name": "دورة إزمير للغة الإنجليزية",
-        "badge": "مكان اختبار IELTS",
+        "badge": "مركز اختبار IELTS الرسمي",
         "href": "/izmir-ingilizce-dil-kursu"
       },
       {

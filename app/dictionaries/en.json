@@ -315,11 +315,6 @@
         "href": "/kadikoy-ingilizce-dil-kursu"
       },
       {
-        "name": "Bursa English Course",
-        "badge": "IELTS Test Venue",
-        "href": "/bursa-ingilizce-dil-kursu-fsm"
-      },
-      {
         "name": "Avcılar English Language Course",
         "href": "/avcilar-ingilizce-dil-kursu"
       },
@@ -332,19 +327,24 @@
         "href": "/cekmekoy-ingilizce-dil-kursu"
       },
       {
+        "name": "Bursa English Course",
+        "badge": "Official IELTS Test Center",
+        "href": "/bursa-ingilizce-dil-kursu-fsm"
+      },
+      {
         "name": "Bursa Görükle",
         "href": "/gorukle-ingilizce-dil-kursu"
       },
       {
         "name": "Ankara",
-        "badge": "IELTS Test Venue",
+        "badge": "Official IELTS Test Center",
         "href": "/ankara-ingilizce-dil-kursu"
       }
     ],
     "activeCampusesCol2": [
       {
         "name": "Izmir English Language Course",
-        "badge": "IELTS Test Venue",
+        "badge": "Official IELTS Test Center",
         "href": "/izmir-ingilizce-dil-kursu"
       },
       {
