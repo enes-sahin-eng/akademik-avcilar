@@ -582,7 +582,7 @@ button { cursor: pointer; }
    SEO CONTEXTUAL LINKS
    ═══════════════════════════════════════════════════════════════════ */
 .textLink {
-  color: var(--accent-orange);
+  color: var(--accent-orange-text);
   text-decoration: underline;
   text-decoration-color: var(--tint-orange);
   text-underline-offset: 4px;
