@@ -90,19 +90,19 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Arapça Dil Kursu",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/arapca-dil-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/arapca-dil-kursu`,
               },
             ],
           }),
@@ -122,7 +122,7 @@ export default async function ArapcaDilKursuPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

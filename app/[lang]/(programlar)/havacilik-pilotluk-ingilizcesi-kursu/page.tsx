@@ -94,13 +94,13 @@ export default async function HavacilikIngilizcesiKursuPage({
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Havacılık ve Pilotluk İngilizcesi",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/havacilik-pilotluk-ingilizcesi-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/havacilik-pilotluk-ingilizcesi-kursu`,
               },
             ],
           }),
@@ -120,7 +120,7 @@ export default async function HavacilikIngilizcesiKursuPage({
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

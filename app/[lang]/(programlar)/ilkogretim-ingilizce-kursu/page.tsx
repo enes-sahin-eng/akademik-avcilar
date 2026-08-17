@@ -96,13 +96,13 @@ export default async function IlkogretimIngilizceKursuPage({
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "İlköğretim İngilizce Kursu",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/ilkogretim-ingilizce-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/ilkogretim-ingilizce-kursu`,
               },
             ],
           }),
@@ -122,7 +122,7 @@ export default async function IlkogretimIngilizceKursuPage({
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

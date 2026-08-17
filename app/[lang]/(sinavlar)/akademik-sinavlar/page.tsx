@@ -106,7 +106,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: lang === "en" ? "Home" : lang === "ar" ? "الرئيسية" : "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
@@ -117,7 +117,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
                     : lang === "ar"
                       ? "الاختبارات الأكاديمية"
                       : "Akademik Sınavlar",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/${PAGE_SLUG}`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/${PAGE_SLUG}`,
               },
             ],
           }),
@@ -136,7 +136,7 @@ export default async function AkademikSinavlarPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: [
               { "@type": "CourseInstance", name: "IELTS Hazırlık", courseMode: "Blended" },

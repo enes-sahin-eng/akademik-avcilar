@@ -89,19 +89,19 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Tüm Kurslar",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/kurslar`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/kurslar`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Almanca Dil Kursu",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/almanca-dil-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/almanca-dil-kursu`,
               },
             ],
           }),
@@ -121,7 +121,7 @@ export default async function AlmancaDilKursuPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

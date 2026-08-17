@@ -92,7 +92,7 @@ export default async function TercumeHizmetiPage({ params }: PageProps) {
             provider: {
               "@type": "Organization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
           }),
         }}

@@ -85,13 +85,13 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Anasayfa",
-                "item": "https://www.avcilaringilizcekursu.com.tr"
+                "item": "https://avcilaringilizcekursu.com.tr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Lise İngilizce Kursu",
-                "item": `https://www.avcilaringilizcekursu.com.tr/${lang}/lise-ingilizce-kursu`
+                "item": `https://avcilaringilizcekursu.com.tr/${lang}/lise-ingilizce-kursu`
               }
             ]
           })
@@ -110,7 +110,7 @@ export default async function LiseIngilizcePage({ params }: PageProps) {
             "provider": {
               "@type": "EducationalOrganization",
               "name": "Avcılar İngilizce Dil Kursu",
-              "sameAs": "https://www.avcilaringilizcekursu.com.tr"
+              "sameAs": "https://avcilaringilizcekursu.com.tr"
             },
             "hasCourseInstance": {
               "@type": "CourseInstance",

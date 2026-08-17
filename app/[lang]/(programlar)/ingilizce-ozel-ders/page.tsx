@@ -86,7 +86,7 @@ export default async function OzelDersPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
           }),
         }}

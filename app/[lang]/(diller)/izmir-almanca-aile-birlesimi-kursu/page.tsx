@@ -94,13 +94,13 @@ export default async function IzmirAileBirlesimiKursuPage({
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "İzmir Almanca Aile Birleşimi Kursu",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/izmir-almanca-aile-birlesimi-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/izmir-almanca-aile-birlesimi-kursu`,
               },
             ],
           }),
@@ -120,7 +120,7 @@ export default async function IzmirAileBirlesimiKursuPage({
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

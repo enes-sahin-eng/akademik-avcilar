@@ -93,19 +93,19 @@ export default async function YdtHazirlikKursuPage({ params }: PageProps) {
                 "@type": "ListItem",
                 position: 1,
                 name: "Anasayfa",
-                item: "https://www.avcilaringilizcekursu.com.tr",
+                item: "https://avcilaringilizcekursu.com.tr",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Akademik Sınav Kursları",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/akademik-ingilizce-kursu`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "YKS-DİL (YDT) Hazırlık Kursu",
-                item: `https://www.avcilaringilizcekursu.com.tr/${lang}/yks-dil-ydt-hazirlik-kursu`,
+                item: `https://avcilaringilizcekursu.com.tr/${lang}/yks-dil-ydt-hazirlik-kursu`,
               },
             ],
           }),
@@ -125,7 +125,7 @@ export default async function YdtHazirlikKursuPage({ params }: PageProps) {
             provider: {
               "@type": "EducationalOrganization",
               name: "Avcılar İngilizce Dil Kursu",
-              sameAs: "https://www.avcilaringilizcekursu.com.tr",
+              sameAs: "https://avcilaringilizcekursu.com.tr",
             },
             hasCourseInstance: {
               "@type": "CourseInstance",

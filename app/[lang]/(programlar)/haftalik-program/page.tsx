@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     openGraph: {
       type: 'website',
-      url: `https://www.avcilaringilizcekursu.com.tr/${lang}/haftalik-program`,
+      url: `https://avcilaringilizcekursu.com.tr/${lang}/haftalik-program`,
       title: titleMap[lang] || titleMap.tr,
       description: descMap[lang] || descMap.tr,
       siteName: 'Avcılar İngilizce Dil Kursu',
