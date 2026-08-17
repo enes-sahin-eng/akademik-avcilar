@@ -791,7 +791,7 @@ export function RobotHero({
             color={entorno.luzRellenoColor}
           />
 
-          <Environment preset="studio" blur={0.5} />
+          <Environment files="/hdri/studio_small_03_1k.hdr" blur={0.5} />
 
           <ResponsiveGroup scale={scale}>
             <ContactShadows

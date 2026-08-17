@@ -282,7 +282,7 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
           intensity={0.2}
           color="#dbdbdb"
         />
-        <Environment preset="studio" blur={0.5} resolution={isMobilePanel ? 32 : 256} />
+        <Environment files="/hdri/studio_small_03_1k.hdr" blur={0.5} resolution={isMobilePanel ? 32 : 256} />
         <group scale={isMobilePanel ? 1.5 : scale}>
           <group position={[0, isMobilePanel ? -0.2 : -0.45, 0]}>
             {!isMobilePanel && (

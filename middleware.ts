@@ -9,7 +9,7 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
   // Statik dosyaları (favicon, resimler, fontlar, vs.) middleware'den geç — locale mantığını atla
-  const isStaticFile = /\.(?:ico|png|jpg|jpeg|gif|webp|svg|css|js|woff2?|ttf|eot|map|txt|xml|json|webmanifest)$/i.test(pathname);
+  const isStaticFile = /\.(?:ico|png|jpg|jpeg|gif|webp|svg|css|js|woff2?|ttf|eot|map|txt|xml|json|webmanifest|hdr)$/i.test(pathname);
   if (isStaticFile) return NextResponse.next();
 
   const pathnameHasLocale = locales.some(
@@ -54,6 +54,6 @@ export const config = {
      * - favicon.ico, robots.txt, sitemap.xml, manifest.webmanifest (SEO için kritik, redirect edilmemeli)
      * - Uzantılı tüm statik dosyalar (.png, .jpg, .svg, .css, .js vs)
      */
-    "/((?!api|_next/static|_next/image|_next/webpack-hmr|favicon.ico|robots.txt|sitemap.xml|manifest.webmanifest|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot|map)$).*)",
+    "/((?!api|_next/static|_next/image|_next/webpack-hmr|favicon.ico|robots.txt|sitemap.xml|manifest.webmanifest|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?|ttf|eot|map|hdr)$).*)",
   ],
 };
