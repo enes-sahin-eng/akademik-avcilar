@@ -14333,7 +14333,7 @@
             "icon": "users"
           }
         ],
-        "ctaHref": "/almanca-kursu",
+        "ctaHref": "/almanca-dil-kursu",
         "ctaText": "اعرض دورات الألمانية"
       },
       {
@@ -14361,7 +14361,7 @@
             "icon": "star"
           }
         ],
-        "ctaHref": "/fransizca-kursu",
+        "ctaHref": "/fransizca-dil-kursu",
         "ctaText": "اعرض دورات الفرنسية"
       },
       {
@@ -14389,7 +14389,7 @@
             "icon": "book"
           }
         ],
-        "ctaHref": "/ispanyolca-kursu",
+        "ctaHref": "/ispanyolca-dil-kursu",
         "ctaText": "اعرض دورات الإسبانية"
       }
     ]

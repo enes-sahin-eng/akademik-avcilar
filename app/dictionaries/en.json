@@ -14708,7 +14708,7 @@
             "icon": "users"
           }
         ],
-        "ctaHref": "/almanca-kursu",
+        "ctaHref": "/almanca-dil-kursu",
         "ctaText": "See German Courses"
       },
       {
@@ -14736,7 +14736,7 @@
             "icon": "star"
           }
         ],
-        "ctaHref": "/fransizca-kursu",
+        "ctaHref": "/fransizca-dil-kursu",
         "ctaText": "See French Courses"
       },
       {
@@ -14764,7 +14764,7 @@
             "icon": "book"
           }
         ],
-        "ctaHref": "/ispanyolca-kursu",
+        "ctaHref": "/ispanyolca-dil-kursu",
         "ctaText": "See Spanish Courses"
       }
     ]

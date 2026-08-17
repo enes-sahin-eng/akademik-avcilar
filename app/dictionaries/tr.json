@@ -14788,7 +14788,7 @@
             "icon": "users"
           }
         ],
-        "ctaHref": "/almanca-kursu",
+        "ctaHref": "/almanca-dil-kursu",
         "ctaText": "Almanca Kurslarını Gör"
       },
       {
@@ -14816,7 +14816,7 @@
             "icon": "star"
           }
         ],
-        "ctaHref": "/fransizca-kursu",
+        "ctaHref": "/fransizca-dil-kursu",
         "ctaText": "Fransızca Kurslarını Gör"
       },
       {
@@ -14844,7 +14844,7 @@
             "icon": "book"
           }
         ],
-        "ctaHref": "/ispanyolca-kursu",
+        "ctaHref": "/ispanyolca-dil-kursu",
         "ctaText": "İspanyolca Kurslarını Gör"
       }
     ]
