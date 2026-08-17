@@ -213,7 +213,7 @@ export const Footer = async ({ lang }: Props) => {
                 <Image src="/brand/british-ielts.webp" alt="British IELTS" title="British IELTS" height={68} width={304} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/pearson-cert.webp" alt="Pearson" title="Pearson" height={68} width={215} className={styles.logoImg} />
+                <Image src="/brand/pearson-cert.webp" alt="Pearson" title="Pearson" height={68} width={164} className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
                 <Image src="/brand/language-cert.webp" alt="LanguageCert" title="LanguageCert" height={68} width={332} className={styles.logoImg} />
@@ -224,7 +224,7 @@ export const Footer = async ({ lang }: Props) => {
           <div className={styles.devCredit}>
             <div className={styles.creditContainer}>
               {footerData.designBy} <strong>ideaZone</strong>
-              <Image src="/brand/designer-logo.jpg" alt="ideaZone Logo" title="ideaZone Logo" width={40} height={18} className={styles.designerLogo} />
+              <Image src="/brand/designer-logo.webp" alt="ideaZone Logo" title="ideaZone Logo" width={45} height={45} className={styles.designerLogo} />
             </div>
           </div>
         </div>
