@@ -39,6 +39,7 @@ export const CertificateLightbox = ({ certificates, zoomLabel }: Props) => {
               title="Uluslararası Dil Sertifikaları"
               width={300}
               height={200}
+              sizes="(max-width: 768px) 50vw, 300px"
               className={styles.certificateImg}
             />
             <span className={styles.certificateZoomHint}>

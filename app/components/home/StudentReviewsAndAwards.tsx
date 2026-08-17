@@ -106,6 +106,7 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
                         title="Avcılar İngilizce Dil Kursu Başarı ve Kalite Ödülleri"
                         width={200}
                         height={200}
+                        sizes="(max-width: 768px) 150px, 200px"
                         className={styles.awardImg}
                       />
                     </div>
