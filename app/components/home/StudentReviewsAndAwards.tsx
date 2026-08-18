@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./StudentReviewsAndAwards.module.css";
-import { Star, Quote, Award } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 import Image from "next/image";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { VideoLightbox } from "./VideoLightbox";
@@ -85,7 +85,35 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
         {/* AWARDS & CERTIFICATES SECTION */}
         <div className={styles.awardsSection}>
           <div className={styles.awardsHeader}>
-            <Award className={styles.awardsKicker} size={22} strokeWidth={1.5} aria-hidden="true" />
+            <svg
+              className={styles.awardsKicker}
+              viewBox="0 0 44 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <defs>
+                <linearGradient id="awardsMedalRibbon" x1="0" y1="0" x2="44" y2="26" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stopColor="#ff9a5c" />
+                  <stop offset="1" stopColor="#e11b22" />
+                </linearGradient>
+                <radialGradient id="awardsMedalGold" cx="35%" cy="30%" r="75%">
+                  <stop offset="0" stopColor="#fff3d6" />
+                  <stop offset="0.35" stopColor="#ffd766" />
+                  <stop offset="0.7" stopColor="#e8a52c" />
+                  <stop offset="1" stopColor="#a86a12" />
+                </radialGradient>
+              </defs>
+              <path d="M10 2 L20 24 L12 28 L2 6 Z" fill="url(#awardsMedalRibbon)" />
+              <path d="M34 2 L24 24 L32 28 L42 6 Z" fill="url(#awardsMedalRibbon)" />
+              <circle cx="22" cy="38" r="20" fill="url(#awardsMedalGold)" stroke="#8a5a10" strokeWidth="1.5" />
+              <circle cx="22" cy="38" r="15.5" fill="none" stroke="#fff3d6" strokeOpacity="0.6" strokeWidth="1" />
+              <path
+                d="M22 28 l3.2 6.6 7.2.9-5.3 5 1.4 7.2L22 44.4l-6.5 3.3 1.4-7.2-5.3-5 7.2-.9z"
+                fill="#8a5a10"
+                fillOpacity="0.85"
+              />
+            </svg>
             <h2 className={styles.awardsTitle}>
               {awardsTitleBefore}{" "}
               <strong>{awardsTitleHighlight}</strong>{" "}

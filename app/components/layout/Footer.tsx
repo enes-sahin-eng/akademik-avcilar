@@ -7,18 +7,18 @@ import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { NewsletterForm } from "./NewsletterForm";
 
 const campuses = [
-  { name: "Kadıköy İngilizce Dil Kursu", badge: false, href: "/kadikoy-ingilizce-dil-kursu" },
-  { name: "Bursa İngilizce Kursu", badge: true, href: "/bursa-ingilizce-dil-kursu-fsm" },
-  { name: "Avcılar İngilizce Dil Kursu", badge: false, href: "/avcilar-ingilizce-dil-kursu" },
-  { name: "İstanbul İngilizce Dil Kursu", badge: false, href: "/istanbul-ingilizce-kursu" },
-  { name: "İstanbul Çekmeköy", badge: false, href: "/cekmekoy-ingilizce-dil-kursu" },
-  { name: "Bursa Görükle", badge: false, href: "/gorukle-ingilizce-dil-kursu" },
-  { name: "Ankara", badge: true, href: "/ankara-ingilizce-dil-kursu" },
-  { name: "İzmir İngilizce Dil Kursu", badge: true, href: "/izmir-ingilizce-dil-kursu" },
-  { name: "Kocaeli İzmit", badge: false, href: "/kocaeli-izmit-ingilizce-dil-kursu" },
-  { name: "Tekirdağ Çorlu", badge: false, href: "/corlu-ingilizce-dil-kursu" },
-  { name: "Bursa İnegöl", badge: false, href: "/inegol-ingilizce-dil-kursu" },
-  { name: "Bursa Yıldırım", badge: false, href: "/yildirim-erikli-ingilizce-dil-kursu" },
+  { name: "Kadıköy İngilizce Dil Kursu", badge: null, href: "/kadikoy-ingilizce-dil-kursu" },
+  { name: "Avcılar İngilizce Dil Kursu", badge: null, href: "/avcilar-ingilizce-dil-kursu" },
+  { name: "İstanbul İngilizce Dil Kursu", badge: null, href: "/istanbul-ingilizce-kursu" },
+  { name: "İstanbul Çekmeköy", badge: null, href: "/cekmekoy-ingilizce-dil-kursu" },
+  { name: "Bursa İngilizce Kursu", badge: "Resmi IELTS Sınav Merkezi", href: "/bursa-ingilizce-dil-kursu-fsm" },
+  { name: "Bursa Görükle", badge: null, href: "/gorukle-ingilizce-dil-kursu" },
+  { name: "Ankara", badge: "Resmi IELTS Sınav Merkezi", href: "/ankara-ingilizce-dil-kursu" },
+  { name: "İzmir İngilizce Dil Kursu", badge: "Resmi IELTS Sınav Merkezi", href: "/izmir-ingilizce-dil-kursu" },
+  { name: "Kocaeli İzmit", badge: null, href: "/kocaeli-izmit-ingilizce-dil-kursu" },
+  { name: "Tekirdağ Çorlu", badge: null, href: "/corlu-ingilizce-dil-kursu" },
+  { name: "Bursa İnegöl", badge: null, href: "/inegol-ingilizce-dil-kursu" },
+  { name: "Bursa Yıldırım", badge: null, href: "/yildirim-erikli-ingilizce-dil-kursu" },
 ];
 
 const programs = [
@@ -106,7 +106,7 @@ export const Footer = async ({ lang }: Props) => {
               {campuses.map((c, i) => (
                 <li key={i} className={styles.linkItem}>
                   <Link href={`/${lang}${c.href}`}>{c.name}</Link>
-                  {c.badge && <span className={styles.redBadge}>IELTS Test Venue</span>}
+                  {c.badge && <span className={styles.redBadge}>{c.badge}</span>}
                 </li>
               ))}
             </ul>
@@ -145,7 +145,7 @@ export const Footer = async ({ lang }: Props) => {
             <ul className={styles.linkList}>
               {languages.map((l, i) => (
                 <li key={i} className={styles.linkItem}>
-                  <Image src={l.img} alt={l.name} title={l.name} width={20} height={20} className={styles.flagImg} />
+                  <Image src={l.img} alt={l.name} title={l.name} width={20} height={20} unoptimized className={styles.flagImg} />
                   <Link href={`/${lang}${l.href}`}>{l.name}</Link>
                 </li>
               ))}
@@ -210,21 +210,21 @@ export const Footer = async ({ lang }: Props) => {
             <div className={styles.sectionHeading}>{footerData.partnersTitle}</div>
             <div className={styles.logosRow}>
               <div className={styles.logoItem}>
-                <Image src="/brand/british-ielts.webp" alt="British IELTS" title="British IELTS" height={68} width={304} className={styles.logoImg} />
+                <Image src="/brand/british-ielts.webp" alt="British IELTS" title="British IELTS" height={68} width={304} unoptimized className={styles.logoImg} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/pearson-cert.webp" alt="Pearson" title="Pearson" height={108} width={260} className={styles.logoImgPearson} />
+                <Image src="/brand/pearson-cert.webp" alt="Pearson" title="Pearson" height={108} width={260} unoptimized className={styles.logoImgPearson} />
               </div>
               <div className={styles.logoItem}>
-                <Image src="/brand/language-cert.webp" alt="LanguageCert" title="LanguageCert" height={68} width={332} className={styles.logoImg} />
+                <Image src="/brand/language-cert.webp" alt="LanguageCert" title="LanguageCert" height={68} width={332} unoptimized className={styles.logoImg} />
               </div>
             </div>
           </div>
-          
+
           <div className={styles.devCredit}>
             <div className={styles.creditContainer}>
-              {footerData.designBy} <strong>ideaZone</strong>
-              <Image src="/brand/designer-logo.webp" alt="ideaZone Logo" title="ideaZone Logo" width={120} height={120} className={styles.designerLogo} />
+              {footerData.designBy}
+              <Image src="/brand/designer-logo-full.png" alt="ideaZone Digital" title="ideaZone Digital" width={428} height={112} unoptimized className={styles.designerLogo} />
             </div>
           </div>
         </div>

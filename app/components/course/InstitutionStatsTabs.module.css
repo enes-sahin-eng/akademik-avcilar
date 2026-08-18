@@ -76,9 +76,9 @@
 .tabInput:nth-of-type(4):checked ~ .tabNav .label3,
 .tabInput:nth-of-type(5):checked ~ .tabNav .label4,
 .tabInput:nth-of-type(6):checked ~ .tabNav .label5 {
-  background: var(--text-primary);
-  color: #ffffff;
-  border-color: var(--text-primary);
+  background: var(--bg-inverse);
+  color: var(--text-inverse);
+  border-color: var(--bg-inverse);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
 }

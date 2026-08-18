@@ -123,6 +123,12 @@ export default async function AvcilarIngilizceDilKursuPage({
               name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.8",
+              reviewCount: "60",
+              bestRating: "5",
+            },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",

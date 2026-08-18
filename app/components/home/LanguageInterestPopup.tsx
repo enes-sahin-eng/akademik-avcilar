@@ -101,6 +101,8 @@ function FlagImage({ item, size }: { item: LangItem; size: number }) {
         title={`${item.label} Kursu - Akademik International`}
         width={size}
         height={size}
+        loading="eager"
+        unoptimized
         className={styles.flagImg}
       />
     );
