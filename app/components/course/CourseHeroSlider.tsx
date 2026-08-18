@@ -4,6 +4,7 @@ import styles from "./CourseHeroSlider.module.css";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { Reveal } from "../motion/Reveal";
 import { HeroQuickNav } from "./HeroQuickNav";
+import { CourseHeroSliderForm } from "./CourseHeroSliderForm";
 
 const WhatsappIcon = ({ size = 18, className }: { size?: number; className?: string }) => (
   <svg
@@ -97,33 +98,7 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
           <p className={styles.formSubtitle}>{heroData.formSubtitle}</p>
         </div>
 
-        <form className={styles.form}>
-          <div className={styles.inputGroup}>
-            <input type="text" placeholder={heroData.namePlaceholder} className={styles.input} required />
-          </div>
-
-          <div className={styles.inputGroup}>
-            <input type="tel" placeholder={heroData.phonePlaceholder} className={styles.input} required />
-          </div>
-
-          <div className={styles.inputGroup}>
-            <select className={styles.input} defaultValue="" required aria-label={heroData.branchPlaceholder || "Şube Seçiniz"}>
-              <option value="" disabled hidden>{heroData.branchPlaceholder}</option>
-              {campuses.map((campus: any, index: number) => (
-                <option key={index} value={campus.name}>
-                  {campus.name}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <button type="button" className={styles.submitBtn}>
-            {heroData.submitBtn}
-          </button>
-          <div className={styles.formFooter}>
-            {heroData.formDisclaimer || "Bilgi formunu doldurarak, Yasal Uyarı/Kullanım Şartlarını kabul ediyorum."}
-          </div>
-        </form>
+        <CourseHeroSliderForm heroData={heroData} campuses={campuses} />
       </div>
       </section>
       

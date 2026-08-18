@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, User, Phone, MapPin, ChevronDown, ArrowRight, Sparkles, ShieldCheck, Clock, Gift } from "lucide-react";
 import styles from "./HeroSlider.module.css";
+import { buildLeadMailto } from "../../../src/utils/mailto";
 
 import Image from "next/image";
 
@@ -29,9 +30,22 @@ export const HeroSliderClient = ({
   const [isPaused, setIsPaused] = useState(false);
 
   // New state for custom dropdown
-  const [branch, setBranch] = useState("");
+  const [branch, setBranch] = useState("Avcılar");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    window.location.href = buildLeadMailto({
+      name,
+      phone,
+      branch,
+      source: "Ana Sayfa Hero Formu",
+    });
+  };
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -173,7 +187,7 @@ export const HeroSliderClient = ({
             <p className={styles.glassSubtitle}>{form?.subtitle || "Eğitim İçin Hemen Ön Bilgi Alın!"}</p>
           </div>
           
-          <form className={styles.glassForm}>
+          <form className={styles.glassForm} onSubmit={handleSubmit}>
             {/* Name Input */}
             <div className={styles.inputWrapper}>
               <User className={styles.glassIcon} size={15} strokeWidth={2} />
@@ -182,6 +196,8 @@ export const HeroSliderClient = ({
                 id="floating_name"
                 className={styles.glassInput}
                 placeholder=" "
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 required
               />
               <label htmlFor="floating_name" className={styles.glassLabel}>
@@ -197,7 +213,12 @@ export const HeroSliderClient = ({
                 id="floating_phone"
                 className={styles.glassInput}
                 placeholder=" "
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
                 required
+                minLength={10}
+                pattern="[\d\s\+\-\(\)]{10,}"
+                title="Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)"
               />
               <label htmlFor="floating_phone" className={styles.glassLabel}>
                 {form?.phonePlaceholder || "GSM Numaranızı Giriniz."}

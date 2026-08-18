@@ -1,9 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { MapPin, User, Phone as PhoneIcon, Send } from "lucide-react";
 import styles from "./Contact.module.css";
+import { buildLeadMailto } from "../../../src/utils/mailto";
 
 
 export const ContactFormSectionClient: React.FC<{
@@ -11,9 +12,19 @@ export const ContactFormSectionClient: React.FC<{
   mapData: any;
   campuses: any[];
 }> = ({ formData, mapData, campuses }) => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [branch, setBranch] = useState("Avcılar");
 
-
-
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    window.location.href = buildLeadMailto({
+      name,
+      phone,
+      branch,
+      source: "İletişim Sayfası Formu",
+    });
+  };
 
   if (!formData || !mapData) return null;
 
@@ -31,27 +42,41 @@ export const ContactFormSectionClient: React.FC<{
           <h2 className={styles.sectionTitle}>{formData.title}</h2>
           <p className={styles.sectionDesc}>{formData.desc}</p>
           
-          <form className={styles.contactForm}>
+          <form className={styles.contactForm} onSubmit={handleSubmit}>
             <div className={styles.formBox}>
               <div className={styles.boxTitle}>
                 <span className={styles.boxIcon}>📝</span> {formData.formTitle || "Ön Bilgi Formu"}
               </div>
               <p className={styles.boxDesc}>{formData.formDesc || "Nitelikli dil eğitimlerimiz hakkında detaylı bilgi için hemen formu doldurunuz."}</p>
-              
+
               <div className={styles.inputGroup}>
                 <User size={18} className={styles.inputIcon} />
-                <input type="text" placeholder={formData.namePlaceholder || "İsim ve soyisim giriniz..."} className={styles.formInput} />
+                <input
+                  type="text"
+                  placeholder={formData.namePlaceholder || "İsim ve soyisim giriniz..."}
+                  className={styles.formInput}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
               </div>
               <div className={styles.inputGroup}>
                 <PhoneIcon size={18} className={styles.inputIcon} />
-                <input type="tel" placeholder={formData.phonePlaceholder || "Telefon Numarası"} className={styles.formInput} />
+                <input
+                  type="tel"
+                  placeholder={formData.phonePlaceholder || "Telefon Numarası"}
+                  className={styles.formInput}
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
+                  minLength={10}
+                  pattern="[\d\s\+\-\(\)]{10,}"
+                  title="Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)"
+                />
               </div>
               <div className={styles.inputGroup}>
                 <MapPin size={18} className={styles.inputIcon} />
-                <select className={styles.formInput} defaultValue="">
-                  <option value="" disabled hidden>
-                    {formData.branchPlaceholder || "Şube Seçiniz..."}
-                  </option>
+                <select className={styles.formInput} value={branch} onChange={(e) => setBranch(e.target.value)}>
                   {campuses?.map((campus: any, index: number) => (
                     <option key={index} value={campus.name}>
                       {campus.name}
@@ -59,7 +84,7 @@ export const ContactFormSectionClient: React.FC<{
                   ))}
                 </select>
               </div>
-              <button type="button" className={styles.submitBtn}>
+              <button type="submit" className={styles.submitBtn}>
                 <Send size={16} /> {formData.submitBtn || "Gönder"}
               </button>
             </div>

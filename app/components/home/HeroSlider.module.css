@@ -275,7 +275,7 @@
 .glassForm {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
   margin-top: 22px;
 }
 
@@ -354,14 +354,14 @@
 .glassInput:focus ~ .glassLabel,
 .glassInput:not(:placeholder-shown) ~ .glassLabel,
 .glassLabel.hasValue {
-  top: -8px;
+  top: -20px;
   left: 12px;
   font-size: 10.5px;
   font-weight: 700;
   color: var(--lead-amber);
   letter-spacing: 0.10em;
   text-transform: uppercase;
-  background: var(--lead-navy-1);
+  background: transparent;
 }
 
 /* ── CUSTOM DROPDOWN ────────────────────────────────────── */
