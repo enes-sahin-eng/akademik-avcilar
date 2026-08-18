@@ -100,11 +100,20 @@ export async function generateMetadata({
         .filter((l) => l !== lang)
         .map((l) => ogLocaleMap[l]),
       type: "website",
+      images: [
+        {
+          url: `${siteUrl}/sliders/gemini2.webp`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [`${siteUrl}/sliders/gemini2.webp`],
     },
     robots: {
       index: true,

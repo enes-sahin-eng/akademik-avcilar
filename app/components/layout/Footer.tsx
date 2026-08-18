@@ -184,7 +184,7 @@ export const Footer = async ({ lang }: Props) => {
             <div className={styles.customerService}>
               <div className={styles.phoneGroup}>
                 <HeadphonesIcon size={32} />
-                <span>0850 305 05 16</span>
+                <span>0212 650 90 90</span>
               </div>
               <button className={styles.callNowBtn}>{footerData.callNowBtn}</button>
               

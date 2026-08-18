@@ -34,6 +34,7 @@ export const ContactCampuses = async ({ lang }: Props) => {
                     title={campus.name}
                     fill
                     quality={100}
+                    sizes="(max-width: 768px) 100vw, 320px"
                     style={{ objectFit: "cover" }}
                     className={styles.campusImage}
                     unoptimized={campus.image?.startsWith("http")}
@@ -49,6 +50,7 @@ export const ContactCampuses = async ({ lang }: Props) => {
                   title={campus.name}
                   fill
                   quality={100}
+                  sizes="(max-width: 768px) 100vw, 320px"
                   style={{ objectFit: "cover" }}
                   className={styles.campusImage}
                   unoptimized={campus.image?.startsWith("http")}

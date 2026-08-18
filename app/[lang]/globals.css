@@ -182,7 +182,7 @@
   --accent-navy-deep: #0b2239;
   --accent-navy-soft: #2a6199;
 
-  --accent-red:  #f0353c;
+  --accent-red:  #dc3038; /* Beyaz metinle 4.5:1+ kontrast (WCAG AA) */
   --hover-red:   #ff5057;
 
   --accent-orange:       #ff7a33;

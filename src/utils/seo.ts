@@ -18,7 +18,7 @@ export const getOrganizationSchema = (siteUrl: string) => {
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+908503050516",
+      "telephone": "+902126509090",
       "contactType": "customer service",
       "areaServed": "TR",
       "availableLanguage": ["Turkish", "English", "Arabic"]

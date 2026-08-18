@@ -207,7 +207,10 @@ export default function FloatingRobot({ lang = "tr" }: { lang?: string }) {
   }, []);
 
   useEffect(() => {
-    if (bodyRef.current) {
+    if (!bodyRef.current) return;
+    if (step === 0) {
+      bodyRef.current.scrollTop = 0;
+    } else {
       bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
     }
   }, [step, open, language]);

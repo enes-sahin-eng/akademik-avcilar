@@ -68,7 +68,7 @@ export const CourseHeroSlider = async ({ courseKey, lang }: Props) => {
             <h1 className={styles.title}>{heroData.title}</h1>
 
             <div className={styles.actionButtons}>
-              <a href="tel:08503050516" className={styles.primaryBtn}>
+              <a href="tel:02126509090" className={styles.primaryBtn}>
                 <Phone size={18} className={styles.btnIcon} />
                 <span className={styles.btnText}>{heroData.customerServiceBtn}</span>
               </a>
