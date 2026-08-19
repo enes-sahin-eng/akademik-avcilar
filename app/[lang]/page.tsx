@@ -20,14 +20,19 @@ interface PageProps {
   }>;
 }
 
+const HOME_TITLES: Record<string, string> = {
+  tr: "Avcılar İngilizce Dil Kursu - Avcıların En İyi İngilizce Kursu",
+  en: "Avcılar English Language Course - The Best English Course in Avcılar",
+  ar: "دورة أفجيلار لتعليم اللغة الإنجليزية - أفضل دورة إنجليزية في أفجيلار",
+};
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang } = await params;
-  if (lang !== "tr") return {};
+  const title = HOME_TITLES[lang];
+  if (!title) return {};
 
   return {
-    title: {
-      absolute: "Avcılar İngilizce Dil Kursu - Avcıların En İyi İngilizce Kursu",
-    },
+    title: { absolute: title },
   };
 }
 
