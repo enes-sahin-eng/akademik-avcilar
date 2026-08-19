@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { X, User, Phone, MapPin, Send, Sparkles } from "lucide-react";
 import styles from "./Contact.module.css";
+import { FormSuccessModal } from "../ui/FormSuccessModal";
 
 interface Props {
   buttonLabel: string;
@@ -17,6 +18,10 @@ interface Props {
 
 export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Props) => {
   const [open, setOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [branch, setBranch] = useState(campuses[0]?.name || "Avcılar");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   useEffect(() => {
     if (open) {
@@ -26,6 +31,25 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
     }
     return () => { document.body.style.overflow = ""; };
   }, [open]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, branch, source: "İletişim Sayfası - Kampüs Başvurusu" }),
+      });
+      if (!res.ok) throw new Error("Gönderim başarısız");
+      setStatus("sent");
+      setName("");
+      setPhone("");
+      setOpen(false);
+    } catch {
+      setStatus("error");
+    }
+  };
 
   return (
     <>
@@ -40,7 +64,7 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close */}
-            <button className={styles.modalClose} onClick={() => setOpen(false)} aria-label="Kapat">
+            <button type="button" className={styles.modalClose} onClick={() => setOpen(false)} aria-label="Kapat">
               <X size={20} />
             </button>
 
@@ -57,13 +81,15 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
             </div>
 
             {/* Form */}
-            <form className={styles.modalForm}>
+            <form className={styles.modalForm} onSubmit={handleSubmit}>
               <div className={styles.inputGroup}>
                 <User size={17} className={styles.inputIcon} />
                 <input
                   type="text"
                   placeholder={formData?.namePlaceholder || "İsim ve Soyisim"}
                   className={styles.formInput}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   required
                 />
               </div>
@@ -74,16 +100,18 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
                   type="tel"
                   placeholder={formData?.phonePlaceholder || "Telefon Numarası"}
                   className={styles.formInput}
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   required
+                  minLength={10}
+                  pattern="[\d\s\+\-\(\)]{10,}"
+                  title="Lütfen geçerli bir telefon numarası giriniz (Örn: 0532 123 45 67)"
                 />
               </div>
 
               <div className={styles.inputGroup}>
                 <MapPin size={17} className={styles.inputIcon} />
-                <select className={styles.formInput} defaultValue="">
-                  <option value="" disabled hidden>
-                    {formData?.branchPlaceholder || "Şube Seçiniz"}
-                  </option>
+                <select className={styles.formInput} value={branch} onChange={(e) => setBranch(e.target.value)}>
                   {campuses.map((campus, i) => (
                     <option key={i} value={campus.name}>
                       {campus.label || campus.name}
@@ -92,10 +120,15 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
                 </select>
               </div>
 
-              <button type="button" className={styles.modalSubmitBtn}>
+              <button type="submit" className={styles.modalSubmitBtn} disabled={status === "sending"}>
                 <Send size={16} />
-                {formData?.submitBtn || "Başvuru Gönder"}
+                {status === "sending" ? "Gönderiliyor..." : formData?.submitBtn || "Başvuru Gönder"}
               </button>
+              {status === "error" && (
+                <p style={{ color: "#ff8a8a", fontSize: 12, fontWeight: 600, textAlign: "center", marginTop: 8 }}>
+                  Bir şeyler ters gitti, lütfen tekrar deneyin.
+                </p>
+              )}
             </form>
 
             <p className={styles.modalDisclaimer}>
@@ -104,6 +137,12 @@ export const ContactCampusApplyClient = ({ buttonLabel, campuses, formData }: Pr
           </div>
         </div>
       )}
+
+      <FormSuccessModal
+        open={status === "sent"}
+        onClose={() => setStatus("idle")}
+        desc="Kampüs başvurunuz bize ulaştı, en kısa sürede sizi arayacağız."
+      />
     </>
   );
 };

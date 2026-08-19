@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, User, Phone, MapPin, ChevronDown, ArrowRight, Sparkles, ShieldCheck, Clock, Gift } from "lucide-react";
 import styles from "./HeroSlider.module.css";
-import { buildLeadMailto } from "../../../src/utils/mailto";
+import { FormSuccessModal } from "../ui/FormSuccessModal";
 
 import Image from "next/image";
 
@@ -36,15 +36,24 @@ export const HeroSliderClient = ({
 
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = buildLeadMailto({
-      name,
-      phone,
-      branch,
-      source: "Ana Sayfa Hero Formu",
-    });
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, branch, source: "Ana Sayfa Hero Formu" }),
+      });
+      if (!res.ok) throw new Error("Gönderim başarısız");
+      setStatus("sent");
+      setName("");
+      setPhone("");
+    } catch {
+      setStatus("error");
+    }
   };
 
   // Close dropdown on outside click
@@ -258,11 +267,20 @@ export const HeroSliderClient = ({
               </div>
             </div>
 
-            <button type="submit" className={styles.glassSubmitBtn}>
-              {form?.submitBtn || "HEMEN ÖN BİLGİ AL!"}
+            <button type="submit" className={styles.glassSubmitBtn} disabled={status === "sending"}>
+              {status === "sending" ? "Gönderiliyor..." : form?.submitBtn || "HEMEN ÖN BİLGİ AL!"}
               <ArrowRight className={styles.btnArrow} size={20} />
             </button>
+            {status === "error" && (
+              <p className={styles.formError}>Bir şeyler ters gitti, lütfen tekrar deneyin.</p>
+            )}
           </form>
+
+          <FormSuccessModal
+            open={status === "sent"}
+            onClose={() => setStatus("idle")}
+            desc="Bilgileriniz bize ulaştı, en kısa sürede sizi arayacağız."
+          />
 
           <div className={styles.glassTrustRow}>
             <div className={styles.glassTrustItem}>

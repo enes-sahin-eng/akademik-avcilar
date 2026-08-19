@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Navbar } from "../components/layout/Navbar";
 import { HeroSlider } from "../components/home/HeroSlider";
 import { HeroQuickNav } from "../components/course/HeroQuickNav";
@@ -17,6 +18,17 @@ interface PageProps {
   params: Promise<{
     lang: any;
   }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { lang } = await params;
+  if (lang !== "tr") return {};
+
+  return {
+    title: {
+      absolute: "Avcılar İngilizce Dil Kursu - Avcıların En İyi İngilizce Kursu",
+    },
+  };
 }
 
 export default async function Home({ params }: PageProps) {

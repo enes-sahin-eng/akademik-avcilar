@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { MapPin, User, Phone as PhoneIcon, Send } from "lucide-react";
 import styles from "./Contact.module.css";
-import { buildLeadMailto } from "../../../src/utils/mailto";
+import { FormSuccessModal } from "../ui/FormSuccessModal";
 
 
 export const ContactFormSectionClient: React.FC<{
@@ -15,15 +15,24 @@ export const ContactFormSectionClient: React.FC<{
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [branch, setBranch] = useState("Avcılar");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = buildLeadMailto({
-      name,
-      phone,
-      branch,
-      source: "İletişim Sayfası Formu",
-    });
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, branch, source: "İletişim Sayfası Formu" }),
+      });
+      if (!res.ok) throw new Error("Gönderim başarısız");
+      setStatus("sent");
+      setName("");
+      setPhone("");
+    } catch {
+      setStatus("error");
+    }
   };
 
   if (!formData || !mapData) return null;
@@ -84,12 +93,24 @@ export const ContactFormSectionClient: React.FC<{
                   ))}
                 </select>
               </div>
-              <button type="submit" className={styles.submitBtn}>
-                <Send size={16} /> {formData.submitBtn || "Gönder"}
+              <button type="submit" className={styles.submitBtn} disabled={status === "sending"}>
+                <Send size={16} />
+                {status === "sending" ? "Gönderiliyor..." : formData.submitBtn || "Gönder"}
               </button>
+              {status === "error" && (
+                <p style={{ color: "#ff8a8a", fontSize: 12, fontWeight: 600, textAlign: "center", marginTop: 8 }}>
+                  Bir şeyler ters gitti, lütfen tekrar deneyin.
+                </p>
+              )}
             </div>
           </form>
         </motion.div>
+
+        <FormSuccessModal
+          open={status === "sent"}
+          onClose={() => setStatus("idle")}
+          desc="Bilgileriniz bize ulaştı, en kısa sürede sizi arayacağız."
+        />
 
         {/* MAP */}
         <motion.div 

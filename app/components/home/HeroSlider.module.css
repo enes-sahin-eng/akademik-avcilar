@@ -503,6 +503,19 @@
   overflow: hidden;
 }
 
+.glassSubmitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.formError {
+  margin: 8px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff8a8a;
+  text-align: center;
+}
+
 /* Parlama efekti — hover'da sağa doğru geçer */
 .glassSubmitBtn::before {
   content: "";
