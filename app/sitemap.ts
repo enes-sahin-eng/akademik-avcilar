@@ -101,23 +101,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tercume-hizmeti",
   ];
 
+  const defaultLang = "tr";
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
   routes.forEach((route) => {
-    languages.forEach((lang) => {
-      // Çok dilli SEO (hreflang) bağlantıları
-      const alternates = {
-        languages: Object.fromEntries(
+    // Çok dilli SEO (hreflang) bağlantıları — dil başına aynı, tek sefer üretiliyor
+    const alternates = {
+      languages: {
+        ...Object.fromEntries(
           languages.map((altLang) => [
             altLang,
             `${baseUrl}/${altLang}${route}`,
           ]),
         ),
-      };
+        "x-default": `${baseUrl}/${defaultLang}${route}`,
+      },
+    };
 
+    languages.forEach((lang) => {
       sitemapEntries.push({
         url: `${baseUrl}/${lang}${route}`,
-        lastModified: new Date(),
         changeFrequency: route === "" ? "daily" : "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates,
