@@ -43,8 +43,15 @@ export const HomeArticle = async ({ lang }: Props) => {
 
   return (
     <article className={styles.articleContainer}>
+      {/* h1 — sayfanın tek gerçek, görünür başlığı */}
+      {content.h1 && (
+        <h1 className={`${styles.heading} ${anim.fadeUp1}`}>
+          {content.h1}
+        </h1>
+      )}
+
       {/* p1 — her zaman görünür, CSS animasyonu */}
-      <p 
+      <p
         className={`${styles.paragraph} ${anim.fadeUp1}`}
         dangerouslySetInnerHTML={{ __html: content.p1 }}
       />
@@ -76,11 +83,24 @@ export const HomeArticle = async ({ lang }: Props) => {
             }
             if (item.type === "p") {
               return (
-                <p 
-                  key={index} 
+                <p
+                  key={index}
                   className={styles.paragraph}
                   dangerouslySetInnerHTML={{ __html: item.text }}
                 />
+              );
+            }
+            if (item.type === "ul" && Array.isArray(item.items)) {
+              return (
+                <ul key={index} className={styles.bulletList}>
+                  {item.items.map((bullet: string, idx: number) => (
+                    <li
+                      key={idx}
+                      className={styles.bulletItem}
+                      dangerouslySetInnerHTML={{ __html: bullet }}
+                    />
+                  ))}
+                </ul>
               );
             }
             return null;

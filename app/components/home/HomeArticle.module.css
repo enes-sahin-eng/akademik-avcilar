@@ -88,3 +88,31 @@
   color: var(--accent-blue, var(--accent-blue));
   font-weight: 700;
 }
+
+.bulletList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bulletItem {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.bulletItem::before {
+  content: "✦";
+  color: var(--tint-orange, var(--accent-orange));
+  flex-shrink: 0;
+}
+
+.bulletItem strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}

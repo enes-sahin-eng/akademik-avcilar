@@ -598,7 +598,8 @@
   },
   "homeContentSection": {
     "article": {
-      "p1": "Avcılar'da İngilizce öğrenmek isteyenler için doğru adres arayışı genellikle aynı soruyla başlar: hangi kurs gerçekten sonuç getirir? <a href=\"/tr/avcilar-ingilizce-dil-kursu\" class=\"textLink\">Avcılar İngilizce Kursu</a> bünyesinde uyguladığımız konuşma ağırlıklı müfredat, öğrencileri ezbere değil pratiğe yönlendirir. A1'den C1'e kadar her seviyeye uygun sınıflarımızda, hem <a href=\"/tr/ilkogretim-ingilizce-kursu\" class=\"textLink\">çocuklar</a> hem <a href=\"/tr/ingilizce-kursu\" class=\"textLink\">yetişkinler</a> kendi hızlarında ilerleyerek somut ve ölçülebilir bir dil gelişimi elde eder.",
+      "h1": "Avcılar İngilizce Kursu - Konuşma Odaklı Dil Eğitimi",
+      "p1": "Avcılar'da İngilizce öğrenmek isteyenler için doğru adres arayışı genellikle aynı soruyla başlar: hangi kurs gerçekten sonuç getirir? <a href=\"/tr/avcilar-ingilizce-dil-kursu\" class=\"textLink\">Avcılar İngilizce Kursu</a> bünyesinde uyguladığımız konuşma ağırlıklı müfredat, öğrencileri ezbere değil pratiğe yönlendirir. Metrobüs durağına 5 dakika, İstanbul Üniversitesi Avcılar Yerleşkesi karşısındaki kampüsümüzde; A1'den C2'ye kadar her seviyeye uygun 10-12 kişilik butik sınıflarımızda, hem çocuklar hem yetişkinler kendi hızlarında ilerleyerek somut ve ölçülebilir bir dil gelişimi elde eder. Avcılar İngilizce kursu arayanların yanı sıra Beylikdüzü, Küçükçekmece, Esenyurt, Firuzköy ve Bahçeşehir'den de öğrencilerimizi ağırlıyoruz.",
       "h2": "Avcılar'da İngilizce Öğrenmenin Hayatınıza Kattığı Değer",
       "p2": "Avcılar'da İngilizce kursu araştıran pek çok kişi, aslında tek bir dil öğrenmekten çok daha fazlasını hedefliyor: yeni bir kariyer kapısı, <a href=\"/tr/akademik-ingilizce-kursu\" class=\"textLink\">sınavlarda yüksek bir puan</a> ya da sadece günlük hayatta kendini daha rahat ifade edebilme özgürlüğü. Bu hedeflerden hangisine sahip olursanız olun, doğru bir eğitim planı ve düzenli pratikle mesafe almak mümkün. Peki İngilizce öğrenmenin size somut olarak neler kazandıracağını birlikte inceleyelim:",
       "promoImgAlt": "1 Gram Altın Hediye - Yeni Yıla Altın Gibi Başla!",
@@ -658,8 +659,30 @@
           "text": "Bunun yanında, hedefinizle kursun sunduğu programın örtüşmesi de en az bunlar kadar önemlidir. <a href=\"/tr/ielts-hazirlik-kursu\" class=\"textLink\">IELTS</a> ya da <a href=\"/tr/toefl-hazirlik-kursu\" class=\"textLink\">TOEFL</a> gibi bir sınava mı hazırlanıyorsunuz, yoksa günlük konuşma becerinizi mi geliştirmek istiyorsunuz? Yoksa <a href=\"/tr/yks-dil-ydt-hazirlik-kursu\" class=\"textLink\">YKS-DİL (YDT)</a> gibi akademik bir sınav mı hedefliyorsunuz? Hedefiniz netleştikçe size en uygun programı bulmanız da kolaylaşır."
         },
         {
+          "type": "h3",
+          "text": "Avcılar mı, Kadıköy mü? Şube Seçiminde Ne Değişir?"
+        },
+        {
+          "type": "p",
+          "text": "İstanbul'un Avrupa yakasındaysanız <a href=\"/tr/avcilar-ingilizce-dil-kursu\" class=\"textLink\">Avcılar İngilizce Kursu</a> şubemiz, Anadolu yakasındaysanız <a href=\"/tr/kadikoy-ingilizce-dil-kursu\" class=\"textLink\">Kadıköy İngilizce Kursu</a> şubemiz sizin için en pratik seçenek olacaktır. Her iki kampüsümüzde de aynı müfredat, aynı seviye sistemi ve aynı sertifikalı eğitmen standardı uygulanır; fark yalnızca konumdadır. IELTS, TOEFL gibi uluslararası sınavlara hazırlanıyorsanız <a href=\"/tr/akademik-sinavlar\" class=\"textLink\">Akademik Sınavlar</a> sayfamızda tüm hazırlık programlarımızı ve deneme sınavı takvimimizi inceleyebilirsiniz."
+        },
+        {
           "type": "p",
           "text": "<a href=\"/tr/avcilar-ingilizce-dil-kursu\" class=\"textLink\">Avcılar İngilizce Dil Kursu</a> olarak, her öğrencinin farklı bir hedefle geldiğinin bilincindeyiz; bu yüzden programlarımızı kişiye özel şekillendiriyor, konuşma pratiğine ağırlık veren interaktif yöntemlerle öğrenme sürecini hızlandırıyoruz. Dil öğrenimi bir maraton gibidir; doğru rehberlikle bu yolculuğu keyifli ve sonuç odaklı bir deneyime dönüştürebilirsiniz. Ücretsiz seviye tespit sınavımızla tanışmak ve size özel programı keşfetmek için bugün bize ulaşabilirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "Avcılar İngilizce Kursu — Neden Bizi Tercih Ediyorlar?"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>12 kampüs, tek standart:</strong> Türkiye genelinde Avcılar, Kadıköy, Çekmeköy, Ankara, İzmir, Bursa, Kocaeli ve Tekirdağ'da hizmet veren 12 kampüsümüzle 75.000+ mezun verdik.",
+            "<strong>CELTA/TESOL sertifikalı eğitmenler:</strong> Uluslararası sertifikalı yerli ve native speaker öğretmen kadrosu.",
+            "<strong>10-12 kişilik butik sınıflar:</strong> Herkesin konuşma sırası gelir, kimse arka sırada kaybolmaz.",
+            "<strong>Ücretsiz seviye tespit sınavı:</strong> Yanlış kurdan başlamayın; kısa bir sınavla doğru sınıfa yerleşin.",
+            "<strong>Resmi IELTS sınav merkezleri:</strong> Avcılar, Kadıköy, Bursa, Ankara ve İzmir kampüslerimiz resmi IELTS sınav merkezidir."
+          ]
         }
       ]
     },
@@ -15511,8 +15534,6 @@
       "content": "Akademik International Yabancı Dil Okulları olarak İstanbul, Ankara, İzmir, Bursa, Kocaeli ve Tekirdağ dahil 6 büyükşehirde 12'den fazla modern eğitim kampüsümüzde hizmet veriyoruz. İstanbul Avcılar ingilizce kursu, Kadıköy ingilizce kursu, Çekmeköy dil kursu, Bursa Nilüfer ingilizce kursu, Bursa Görükle dil kursu, Bursa İnegöl ingilizce kursu, Bursa Yıldırım dil kursu, Ankara ingilizce kursu, İzmir ingilizce kursu, Kocaeli İzmit dil kursu ve Tekirdağ Çorlu ingilizce kursu için doğru adrestesiniz. Tüm şubelerimizde IELTS, TOEFL, YDS hazırlık kursları, genel ingilizce, almanca, fransızca ve daha pek çok dilde eğitim verilmektedir."
     }
   },
-  "homeSeoH1": "Avcılar İngilizce Dil Kursu",
-  "homeSeoIntro": "Avcılar İngilizce Kursu arayanlar için Avcılar Merkez'de, metrobüs durağına yürüme mesafesinde hizmet veren kurumsal bir dil eğitim merkeziyiz. Avcılar İngilizce dil kursu programlarımız A1 başlangıç seviyesinden C2 ileri seviyeye kadar tüm kademeleri kapsar; genel İngilizce, konuşma (speaking) kulüpleri, iş İngilizcesi, akademik İngilizce ile IELTS, TOEFL, YDS ve YÖKDİL sınav hazırlık kurslarımız yüz yüze ve online olarak sunulur. Çocuk ve ilköğretim öğrencilerine yönelik yaş gruplarına özel İngilizce kurslarımız, küçük mevcutlu sınıflarda ve yerli–yabancı eğitmen kadromuzla yürütülür. Avcılar İngilizce kursu fiyatları, kayıt dönemleri ve ücretsiz seviye tespit sınavı için bizimle iletişime geçebilirsiniz. Avcılar şubemizde ayrıca Almanca, Fransızca, Arapça, İspanyolca, Rusça, Japonca ve Korece kursları da verilmektedir. İstanbul Avcılar, Kadıköy, Çekmeköy, Bursa Nilüfer, Görükle, İnegöl, Yıldırım, Ankara, İzmir, Kocaeli İzmit ve Tekirdağ Çorlu olmak üzere 12 kampüsümüzle Türkiye'nin önde gelen yabancı dil eğitim kurumlarındanız.",
   "languageInterestPopup": {
     "title": "Hangi dili öğrenmek istiyorsunuz?",
     "subtitle": "Size özel programı hemen keşfedin",
