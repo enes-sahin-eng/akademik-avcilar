@@ -11,7 +11,6 @@ import { CampusTabs } from "../../../components/ui/CampusTabs";
 import { WhyUsSection } from "../../../components/course/WhyUsSection";
 import { StudentReviewsAndAwards } from "../../../components/home/StudentReviewsAndAwards";
 import { SeoContentBlock } from "../../../components/course/SeoContentBlock";
-import { CourseFAQ } from "../../../components/course/CourseFAQ";
 import { WhatsAppButton } from "../../../components/ui/WhatsAppButton";
 import InstagramFeed from "../../../components/social/InstagramFeed";
 import PlacementTestBanner from "../../../components/course/PlacementTestBanner";
@@ -39,14 +38,15 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   const meta = (dict as any)?.kadikoyIngilizceLandingPage?.meta || {
-    title: "Kadıköy İngilizce Kursu | Kadıköy İngilizce Dil Kursu",
+    title: "Kadıköy İngilizce Kursu - Konuşma Garantili Dil Eğitim",
     description:
-      "Kadıköy İngilizce Kursu olarak bilinen Avcılar İngilizce Dil Kursu, kendine ait özgün kaynakları ve eğitim müfredatı ile en iyi seçenektir.",
+      "Kadıköy İngilizce Kursu'nda konuşma odaklı eğitim, tüm seviyeler, native speaker öğretmenler. Esnek saatler, uygun fiyatlar. Şimdi kaydol ve ücretsiz seviye testini al!",
   };
 
   return {
     title: meta.title,
     description: meta.description,
+    keywords: meta.keywords,
     alternates: {
       canonical: `/${lang}/kadikoy-ingilizce-dil-kursu`,
     },
@@ -166,13 +166,12 @@ export default async function KadikoyIngilizceDilKursuPage({
       <CourseHeroSlider courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <CampusLocation courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <MiniGallery lang={lang} />
-      <CampusTabs lang={lang} />
       <SeoContentBlock courseKey="kadikoyIngilizceLandingPage" lang={lang} />
-      <CourseFAQ courseKey="kadikoyIngilizceLandingPage" lang={lang} />
       <WhyUsSection courseKey="kadikoyIngilizceLandingPage" lang={lang} />
 
       <PlacementTestBanner lang={lang} />
       <StudentReviewsAndAwards lang={lang} />
+      <CampusTabs lang={lang} />
 
       {/* Uzun SEO Metinleri */}
 

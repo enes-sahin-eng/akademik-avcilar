@@ -50,6 +50,11 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
   const pathname = usePathname();
   const router = useRouter();
 
+  const [marqueeMounted, setMarqueeMounted] = useState(false);
+  useEffect(() => {
+    setMarqueeMounted(true);
+  }, []);
+
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -192,6 +197,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
           </div>
 
           <div className={styles.topBarCenter}>
+            {marqueeMounted && (
             <div className={styles.marquee}>
               <div className={styles.marqueeContent}>
                 {(navDict?.marqueeItems || []).map((item: any, idx: number) => {
@@ -275,6 +281,7 @@ export const NavbarClient = ({ navDict, megaMenus }: NavbarClientProps) => {
                 })}
               </div>
             </div>
+            )}
           </div>
 
           <div className={styles.topBarRight}>
