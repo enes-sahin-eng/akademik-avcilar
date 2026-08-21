@@ -4,6 +4,7 @@
   width: 100%;
   font-family: var(--font-geist-sans), sans-serif;
   color: #fff;
+  direction: ltr;
 }
 
 .mediaWrapper {

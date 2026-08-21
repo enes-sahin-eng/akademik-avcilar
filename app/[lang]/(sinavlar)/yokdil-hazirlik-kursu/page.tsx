@@ -40,7 +40,7 @@ export async function generateMetadata({
         ? "YÖKDİL Preparation Course"
         : lang === "ar"
           ? "دورة التحضير لامتحان YÖKDİL"
-          : "YÖKDİL Hazırlık Kursu | Fen, Sosyal ve Sağlık Bilimleri",
+          : "YÖKDİL Hazırlık Kursu | Fen-Sosyal-Sağlık",
     description:
       lang === "en"
         ? "Prepare for the YÖKDİL exam with expert instructors specialized in Health, Science, and Social Sciences fields."
