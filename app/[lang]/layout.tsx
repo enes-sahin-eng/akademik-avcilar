@@ -14,7 +14,7 @@ import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { MobileBottomNav } from "../components/layout/MobileBottomNav";
 import FloatingRobotMount from "../components/ui/robot/FloatingRobotMount";
-import { getOrganizationSchema } from "../../src/utils/seo";
+import { getOrganizationSchema, getWebSiteSchema } from "../../src/utils/seo";
 
 /** Gövde metni — yüksek okunabilirlik */
 const inter = Inter({
@@ -94,7 +94,12 @@ export async function generateMetadata({
       title,
       description,
       url: `${siteUrl}/${lang}`,
-      siteName: title,
+      siteName:
+        lang === "en"
+          ? "Avcılar English Language Courses"
+          : lang === "ar"
+            ? "دورات أفجيلار لتعليم اللغة الإنجليزية"
+            : "Avcılar İngilizce Dil Kursları",
       locale: ogLocaleMap[lang] || ogLocaleMap[defaultLocale],
       alternateLocale: locales
         .filter((l) => l !== lang)
@@ -161,6 +166,13 @@ export default async function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(getOrganizationSchema(siteUrl)),
+          }}
+        />
+        <script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getWebSiteSchema(siteUrl, lang)),
           }}
         />
       </head>

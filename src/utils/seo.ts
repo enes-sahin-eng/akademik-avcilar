@@ -33,3 +33,24 @@ export const getOrganizationSchema = (siteUrl: string) => {
     }
   };
 };
+
+export const getWebSiteSchema = (siteUrl: string, lang: string) => {
+  const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
+  const siteName =
+    lang === "en"
+      ? "Avcılar English Language Courses"
+      : lang === "ar"
+        ? "دورات أفجيلار لتعليم اللغة الإنجليزية"
+        : "Avcılar İngilizce Dil Kursları";
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${baseUrl}/${lang}/#website`,
+    "url": `${baseUrl}/${lang}`,
+    "name": siteName,
+    "publisher": {
+      "@id": `${baseUrl}/#organization`
+    }
+  };
+};
