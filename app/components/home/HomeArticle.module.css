@@ -13,22 +13,66 @@
   color: var(--text-secondary);
 }
 
-.heading {
-  font-size: 24px;
-  font-weight: 800;
-  margin: 10px 0 0 0;
+/* H1 — sayfanın tek gerçek başlığı, en güçlü görsel ağırlık */
+.mainHeading {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.18;
+  letter-spacing: -0.5px;
+  margin: 10px 0 22px 0;
+  padding-bottom: 16px;
   color: var(--text-primary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+.mainHeading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-orange));
+}
+
+/* H2 — bölüm başlığı, sol vurgu çizgisiyle ayırt edilir */
+.sectionHeading {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 12px 0 0 0;
+  padding-left: 16px;
+  color: var(--text-primary);
+  border-left: 4px solid var(--accent-blue);
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
+/* H3 — alt başlık, ikonlu vurgu noktasıyla */
 .subHeading {
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
   margin: 20px 0 0 0;
   color: var(--text-primary);
   word-wrap: break-word;
   overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subHeading::before {
+  content: "";
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--accent-orange);
+  transform: rotate(45deg);
 }
 
 .toggleContainer {
@@ -115,4 +159,20 @@
 .bulletItem strong {
   color: var(--text-primary);
   font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .mainHeading {
+    font-size: 26px;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+  }
+
+  .sectionHeading {
+    font-size: 21px;
+  }
+
+  .subHeading {
+    font-size: 17px;
+  }
 }

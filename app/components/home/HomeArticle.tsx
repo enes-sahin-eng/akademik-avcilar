@@ -45,7 +45,7 @@ export const HomeArticle = async ({ lang }: Props) => {
     <article className={styles.articleContainer}>
       {/* h1 — sayfanın tek gerçek, görünür başlığı */}
       {content.h1 && (
-        <h1 className={`${styles.heading} ${anim.fadeUp1}`}>
+        <h1 className={`${styles.mainHeading} ${anim.fadeUp1}`}>
           {content.h1}
         </h1>
       )}
@@ -57,7 +57,7 @@ export const HomeArticle = async ({ lang }: Props) => {
       />
 
       {/* h2 — her zaman görünür */}
-      <h2 className={`${styles.heading} ${anim.fadeUp2}`}>
+      <h2 className={`${styles.sectionHeading} ${anim.fadeUp2}`}>
         {content.h2}
       </h2>
 
