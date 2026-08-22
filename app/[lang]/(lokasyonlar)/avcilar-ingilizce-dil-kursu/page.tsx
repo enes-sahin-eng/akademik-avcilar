@@ -123,12 +123,6 @@ export default async function AvcilarIngilizceDilKursuPage({
               name: "Avcılar İngilizce Dil Kursu",
               sameAs: siteUrl,
             },
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.8",
-              reviewCount: "60",
-              bestRating: "5",
-            },
             hasCourseInstance: {
               "@type": "CourseInstance",
               courseMode: "Blended",
@@ -165,7 +159,7 @@ export default async function AvcilarIngilizceDilKursuPage({
 
       <CourseHeroSlider courseKey={COURSE_KEY} lang={lang} />
       <CampusLocation courseKey={COURSE_KEY} lang={lang} />
-      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} endIndex={1} />
+      <SeoContentBlock courseKey={COURSE_KEY} lang={lang} />
       <GradeLevelTabs courseKey={COURSE_KEY} lang={lang} />
       <ExclusiveProgramsSection courseKey={COURSE_KEY} lang={lang} />
       <InstitutionStatsTabs courseKey={COURSE_KEY} lang={lang} />

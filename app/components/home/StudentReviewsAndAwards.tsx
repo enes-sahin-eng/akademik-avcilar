@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./StudentReviewsAndAwards.module.css";
-import { Star, Quote } from "lucide-react";
 import Image from "next/image";
 import { getDictionary, type Locale } from "../../dictionaries/getDictionary";
 import { VideoLightbox } from "./VideoLightbox";
 import { CertificateLightbox } from "./CertificateLightbox";
+import { ReviewsMarquee } from "./ReviewsMarquee";
 
 interface Props {
   lang: Locale;
@@ -55,32 +55,11 @@ export const StudentReviewsAndAwards = async ({ lang }: Props) => {
         </div>
 
         {/* REVIEWS CAROUSEL (MARQUEE) */}
-        <div className={styles.marqueeContainer}>
-          <div className={styles.marqueeTrack}>
-            {[0, 1].map((groupIndex) => (
-              <div key={`review-group-${groupIndex}`} className={styles.reviewsGroup}>
-                {dict.reviews.map((review: any, index: number) => (
-                  <div key={`review-${review.id}-${index}`} className={styles.reviewCard}>
-                    <Quote className={styles.quoteIcon} />
-                    <div className={styles.stars}>
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star key={star} size={18} fill="currentColor" />
-                      ))}
-                    </div>
-                    <p className={styles.reviewText}>&quot;{review.text}&quot;</p>
-                    <div className={styles.authorInfo}>
-                      <div className={styles.avatar}>{review.author.charAt(0)}</div>
-                      <div className={styles.authorDetails}>
-                        <span className={styles.authorName}>{review.author}</span>
-                        <span className={styles.authorRole}>{review.role}</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
+        <ReviewsMarquee
+          reviews={dict.reviews}
+          readMoreText={dict.reviewReadMore}
+          closeText={dict.reviewModalClose}
+        />
 
         {/* AWARDS & CERTIFICATES SECTION */}
         <div className={styles.awardsSection}>

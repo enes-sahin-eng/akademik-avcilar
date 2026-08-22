@@ -1090,33 +1090,143 @@
   "studentReviewsAndAwards": {
     "reviewsTitle": "Öğrencilerimizin Görüşleri",
     "reviewsSubtitle": "Yıllardır deneyimlenen yabancı dil eğitim tecrübesiyle 75.200+ öğrencimizin %97 öğrenci memnuniyeti oranı ile yabancı dil eğitimi hikayesinde yer edinmenin gurur ve mutluluğunu yaşıyoruz...",
+    "reviewReadMore": "Devamını Oku",
+    "reviewModalClose": "Kapat",
     "videosTitle": "Öğrencilerimiz Ne Dedi ?",
     "watchNow": "WATCH NOW!",
     "awardsTitle": "The Best Language School Of Europe",
     "reviews": [
       {
         "id": 1,
-        "text": "Bu kursla tanışmadan öne farklı bir kursa gitmiştim, ne kadar boşa zaman geçirdiğimi anladım. Baştan sona kadar keşke dediğim hiçbir şey olmadı. Öznur hocanın açıklayıcı anlatımı ve anlamadığımız noktalardaki sabrı için teşekkürler.",
-        "author": "Miray BURSALI",
-        "role": "Akademisyen / İleri Seviye 2"
+        "text": "Uzun süre Avcılar'da İngilizce kursu araştırdım, tercihim Akademik International yabancı dil kursu olmuştu. İyi ki de seçmişim. Hocalar çok ilgili, kullanılan kaynaklar yaş gruplarına özel, dersler akıcı ve anlaşılır.",
+        "author": "Şükrü Y.",
+        "role": ""
       },
       {
         "id": 2,
-        "text": "Kurumun gayet kalitesi bahsedildiğinden çok daha iyi olduğunu düşünüyorum. Öğretmenler belli bir dönemin yurt dışında geçirmiş ve ezberci öğrenim dışında ders işleniyor ayrıca çok cana yakınlar.herkese teşekkür ediyorum",
-        "author": "Sevil TOPUZ",
-        "role": "Tasarımcı / İleri Seviye 2"
+        "text": "Özellikle ana dili İngilizce olan hocamız Sarah sayesinde konuşma pratiğim ve özgüvenim ciddi anlamda gelişti. Dersler oldukça verimli geçiyor. Kurumdaki ilgi, düzen ve eğitim kalitesi gerçekten çok iyi. Avcılar'da kaliteli bir İngilizce eğitimi almak isteyen herkese gönül rahatlığıyla tavsiye ederim.",
+        "author": "Derya G.",
+        "role": ""
       },
       {
         "id": 3,
-        "text": "Hümeyra hoca çok sevecan, enerjik ve sabırlıydı onun derslerinde hiç yabancılık çekmedim. Öznur hocanın dersi ise akıcı, anlaşıldı. İngilizcemi ilerletmem de çok faydası olduğunu düşünüyorum.",
-        "author": "Rabia KOZ",
-        "role": "Psikolog / Hazırlık Plus"
+        "text": "Yakın zamanda bu dil kursundan İngilizce eğitim konusunda hizmet aldım ve hem hocalar hem de kursun yönetimi inanılmaz ilgili ve yardımcı oldular. Gayet iyi, Avrupa düzeyinde bir eğitim sunuldu. Teşekkür ediyorum.",
+        "author": "Serhat T.",
+        "role": ""
       },
       {
         "id": 4,
-        "text": "Bugüne kadar birçok kursa gittim ancak bana en çok fayda gördüğüm bu kurs oldu. Çok kısa bir sürede kendime olan inancım arttı, ingilizce noktasında. Utku hoca sayesinde uzun süredir ihtiyacım olan YDS puanını aldım. Teşekkürler.",
-        "author": "Tolga ARAS",
-        "role": "Yüksek Lisans Öğrencisi"
+        "text": "Avcılarda YDT/IELTS sınav süreçlerim için bana katkı sağlayabilecek bir dil kursu arıyordum. Evime ve toplu taşımaya yakın olması, online yüz yüze grup ve birebir ders seçenekleri sınav sürecinde sundukları programlar benim için fazlasıyla yeterliydi. Kurumun ferah ve temiz ortamı ile hocalarımızın ilgisi de beni çok mutlu etti. Üniversitemi kazandıktan sonra başka diller için de burada devam etmeyi düşünüyorum.",
+        "author": "Esma Nur B.",
+        "role": ""
+      },
+      {
+        "id": 5,
+        "text": "Birçok farklı dil kursunu araştırdıktan sonra bu kurumu tercih etmem, şimdi geriye dönüp baktığımda ne kadar doğru bir karar verdiğimi gösteriyor. İlk andan itibaren karşılaştığım ilgi, samimiyet ve profesyonellik beni gerçekten etkiledi. Eğitim sistemi oldukça planlı ve öğrencinin seviyesine göre esnek. Sınıfların kalabalık olmaması, eğitmenlerin her öğrenciyle birebir ilgilenebilmesine olanak tanıyor. Yabancı dil öğrenmek isteyen herkese gönül rahatlığıyla tavsiye ederim.",
+        "author": "Beyza Ç.",
+        "role": ""
+      },
+      {
+        "id": 6,
+        "text": "Dil öğrenme serüvenimde doğru yerde olduğumu hissettiren bir kurs deneyimi yaşıyorum. Eğitim aldığım bu dil kursu, hem öğretim kalitesi hem de samimi ortamıyla beklentilerimin çok üzerinde; özellikle hocamız Beyza Ç. alanında gerçekten uzman ve işini büyük bir özveriyle yapan biri. Dil öğrenmek isteyen herkese gönül rahatlığıyla tavsiye ederim!",
+        "author": "gyalin4",
+        "role": ""
+      },
+      {
+        "id": 7,
+        "text": "Avcılar'da bir çok dil kursu araştırdım, tavsiyeyle geldim ve çok memnunum. Özellikle Mary ve Robert hocama çok teşekkür ederim. Ezber yapıp geçmiyor, dilin mantığını kolaylığını anlatarak öğretiyorlar.",
+        "author": "Gamze T.",
+        "role": ""
+      },
+      {
+        "id": 8,
+        "text": "Çok başarılı, girdiği her işi başarıyla, sebatla yükselten bir kurucuya sahip. Neslihan hanımla tanıştığınız andan itibaren doğru bir yerde olduğunuzu zaten anlayacaksınız. Kurumun dil eğitim vizyonu da bir araya gelince çok başarılı bir kurum ortaya çıkmış. Sonuna kadar tavsiye.",
+        "author": "Kübra Dicle A.",
+        "role": ""
+      },
+      {
+        "id": 9,
+        "text": "Avcılarda İngilizce kursu arama sürecimde en memnun kaldığım kurum burası oldu. Yurt dışında üniversite okumak istediğimden kursun İngilizce özel dersinden yararlandım. Hocaların samimiyeti, ilgi ve alakası çok güzeldi, istediğim seviyeye ulaşabildim, herkese tavsiye ederim.",
+        "author": "Hasancan T.",
+        "role": ""
+      },
+      {
+        "id": 10,
+        "text": "Gerçekten Avcıların en iyi İngilizce kursu. Öğretmenler donanımlı ve size her konuda destek veriyorlar. Başlangıç seviyesinde başladığım İngilizce serüvenime ileri düzey IELTS eğitimiyle devam ediyorum. Kesinlikle tavsiyemdir.",
+        "author": "Tuba Y.",
+        "role": ""
+      },
+      {
+        "id": 11,
+        "text": "Beyza Hoca gerçekten mükemmel bir öğretmen. Dersleri hem çok keyifli hem de çok öğretici geçiyor. Konuları sade ve anlaşılır bir şekilde anlatıyor, aklıma takılan her soruyu sabırla yanıtlıyor. Onun sayesinde İngilizceye olan ilgim arttı. Böyle bir hocayla ders yapmak gerçekten büyük bir şans, iyi ki yollarımız kesişmiş.",
+        "author": "Emine G.",
+        "role": ""
+      },
+      {
+        "id": 12,
+        "text": "Araştırmalarım ve referansım sonucunda Akademik yabancı dil kurslarını keşfettim. Hocaların ilgi alakası, enerjileri müthiş. Kızıma çok kısa sürede İngilizce seviyesini üst seviyeye kadar getirdiler. Çok memnunuz, Avcılar'ın en iyi İngilizce kursu, kesinlikle tavsiye ederim.",
+        "author": "Hatun B.",
+        "role": ""
+      },
+      {
+        "id": 13,
+        "text": "Standartlaşmış kurslar yerine, gözlemlediğim kadarıyla uyguladığı öğretme teknikleri, zengin kaynaklı materyalleri ve birebir kadar başarılı uzman kadrosuyla Avcılar'a geliyor olmanızdan büyük mutluluk duydum. İyi ki geldiniz, vizyonunuzla bölgemizde fark yaratacak, başarılarınıza tanıklık edeceğiz. Hayırlı olsun.",
+        "author": "Ayhan Ş.",
+        "role": ""
+      },
+      {
+        "id": 14,
+        "text": "Avcılar'daki İngilizce kurslarını çok araştırmıştım. Kendi yayınlarının olması ve yaklaşımlarından dolayı tercih ettim. IELTS dersleri alıyorum, çok memnun kaldım.",
+        "author": "İrem Ç.",
+        "role": ""
+      },
+      {
+        "id": 15,
+        "text": "Beşiktaş Akademik Dil kursunda Almanca eğitimi aldım, çok memnun kaldım. Evime çok yakın olan Avcılar İngilizce dil kursu açılmış. Bundan sonraki eğitimlerime Avcılar şubesinde devam edeceğim.",
+        "author": "Alaaddin A.",
+        "role": ""
+      },
+      {
+        "id": 16,
+        "text": "Avcılar İngilizce kursları arasında tartışmasız number one. Daha önce IELTS eğitimi için Beşiktaş şubesinde eğitim almıştım. Doğduğum yerde açılması, speaking becerimi geliştirmem için fırsat olacak.",
+        "author": "Eylül Ö.",
+        "role": ""
+      },
+      {
+        "id": 17,
+        "text": "İş hayatımda kullanmak için İngilizce ve Almanca eğitimi aldım. O yüzden hocalarının yabancı olması benim için çok önemliydi. Sadece teori değil, pratik konuşma ve dinleme açısından da çok geliştirici oldu. Kendi dersleriniz dışındaki speaking sınıflarına da katılabiliyorsunuz. Dil öğrenmek isteyen, geliştirmek isteyenlere kesinlikle tavsiye ediyorum!",
+        "author": "Enes A.",
+        "role": ""
+      },
+      {
+        "id": 18,
+        "text": "Başlangıç seviyesindeki İngilizcemi geliştirmek için başladım, şu anda geldiğim seviye beni bile şaşırtıyor. Bu civardaki en iyi İngilizce kursu diyebilirim, akademik anlamda da bana çok faydalı oldu. Gerek iş hayatımda gerekse gündelik hayatta yabancı dil anlamında özgüvenimin gelmesini sağladı. Teşekkürler.",
+        "author": "Selvi G.",
+        "role": ""
+      },
+      {
+        "id": 19,
+        "text": "Beşiktaş şubeye gitmiştim, daha önce mesafeden dolayı ara vermek zorunda kalmıştım; buraya gelmesine aşırı sevindim, Avcılar'ın buna ihtiyacı vardı. Ekip, hocalar hepsi mutlu çalışıyor, buna güvenip başlamıştım. Asla başka yerlere geçici paralar harcamaya gerek yok, burası en iyisi. Kaydımı bu kadar yakına gelmiş olmaları inanılmaz.",
+        "author": "Şensu N.",
+        "role": ""
+      },
+      {
+        "id": 20,
+        "text": "Avcılar İngilizce kursları arasında en detaylı ve kapsamlı bilgileri burada edindim, sırf ön görüşmede bile ilgi alaka en üst seviyedeydi, teşekkür ederim.",
+        "author": "Asil K.",
+        "role": ""
+      },
+      {
+        "id": 21,
+        "text": "Hocaların tecrübeleri ve müfredatları sayesinde İngilizcemi kafam karışmadan rahatlıkla B1 seviyesine çıkardım. Kardeşim de şu an Almanca eğitimlerine başladı ve o da çok memnun. Her şey için teşekkür ederiz.",
+        "author": "Elif Y.",
+        "role": ""
+      },
+      {
+        "id": 22,
+        "text": "Avcılar İngilizce kursu tartışmasız en iyisi, kızım burada eğitim aldı. Eğitim kadrosu son derece donanımlı öğretmenlerden oluşuyor, yönetim kadrosu son derece ilgili, ihtiyacımıza yönelik eğitim planlaması yapılarak son derece hızlı ilerledi. Kızım herkese gönül rahatlığıyla tavsiye ediyorum, kesinlikle.",
+        "author": "Nazlı N.",
+        "role": ""
       }
     ],
     "videos": [
@@ -12474,10 +12584,6 @@
       {
         "title": "Avcılar İngilizce Kursu",
         "desc": "Avcılar İngilizce Kursu, TOEFL İBT, IELTS Academic, IELTS General, YKS-DİL, YDT, Hazırlık Atlama (Proficiency), Mesleki İngilizce, Akademik İngilizce (EAP), Çocuklar Programı ve Speaking Club gibi geniş bir yelpazede garantili başarı sunar. Binlerce öğrenci, Avcılar İngilizce Kursları'nda aldıkları eğitim sayesinde hedeflenen puanlara ulaşmıştır. A1 seviyesinden C2 seviyesine kadar tüm seviyelerde eğitim veren, çocuklardan profesyonellere, üniversite adaylarından yurt dışı öğrencilerine kadar geniş bir kitleye hitap eden Avcılar'ın En İyi İngilizce Kursu, öğrencilerin akademik ve profesyonel hedeflerine ulaşmasını sağlar."
-      },
-      {
-        "title": "Avcılar İngilizce Kursu: Neden İngilizce Öğrenmelisiniz?",
-        "desc": "Avcılar'da İngilizce Kursu arayışına giren bireyler ve ebeveynler, günümüz dünyasında ingilizce bilmenin adeta bir zorunluluk haline geldiği bilincindeler. Hem kişisel hem de profesyonel yaşamda İngilizce bilmenin avantajlarını saymakla bitiremeyiz. Eğer siz de <a href=\"/tr/ingilizce-kursu\" class=\"textLink\">İngilizce öğrenmek istiyorsanız</a>, Avcılar İngilizce Kursları arasında kaliteli bir eğitim alabileceğiniz Avcılar İngilizce Dil Kursu tam da aradığınız yer olabilir. Peki, İngilizce öğrenmenizin nedeni ne olabilir? İşte bu konuda sizi düşündürüp motive edecek bazı önemli noktalar."
       }
     ],
     "faq": {

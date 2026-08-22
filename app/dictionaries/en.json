@@ -1084,33 +1084,143 @@
   "studentReviewsAndAwards": {
     "reviewsTitle": "Our Students' Opinions",
     "reviewsSubtitle": "With years of foreign language education experience, we are proud and happy to be part of the foreign language education story of our 75,200+ students with a 97% student satisfaction rate...",
+    "reviewReadMore": "Read More",
+    "reviewModalClose": "Close",
     "videosTitle": "What Did Our Students Say?",
     "watchNow": "WATCH NOW!",
     "awardsTitle": "The Best Language School Of Europe",
     "reviews": [
       {
         "id": 1,
-        "text": "Before meeting this course, I went to a different course, I realized how much time I wasted. There was nothing I said I wish from beginning to end. Thanks to our teacher Öznur for her explanatory expression and patience in the points we did not understand.",
-        "author": "Miray BURSALI",
-        "role": "Academician / Advanced 2"
+        "text": "I spent a long time researching English courses in Avcılar, and I chose Akademik International Language School. I'm glad I did. The teachers are very attentive, the materials used are tailored to age groups, and the lessons are fluent and easy to understand.",
+        "author": "Şükrü Y.",
+        "role": ""
       },
       {
         "id": 2,
-        "text": "I think the quality of the institution is much better than what was mentioned. Teachers spent a certain period abroad and classes are taught without rote learning, they are also very friendly. Thank you to everyone.",
-        "author": "Sevil TOPUZ",
-        "role": "Designer / Advanced 2"
+        "text": "Thanks especially to our native English-speaking teacher Sarah, my speaking practice and confidence improved significantly. The lessons are very productive. The attention, structure and quality of education at the institution are genuinely excellent. I wholeheartedly recommend it to anyone in Avcılar looking for quality English education.",
+        "author": "Derya G.",
+        "role": ""
       },
       {
         "id": 3,
-        "text": "Teacher Hümeyra was very affectionate, energetic and patient, I didn't feel like a stranger in her classes. Teacher Öznur's class was fluent and clear. I think it was very useful for me to improve my English.",
-        "author": "Rabia KOZ",
-        "role": "Psychologist / Prep Plus"
+        "text": "I recently received English education from this language school, and both the teachers and the school's management were incredibly attentive and helpful. Really good, a European-level education was provided. Thank you.",
+        "author": "Serhat T.",
+        "role": ""
       },
       {
         "id": 4,
-        "text": "I have been to many courses so far, but this was the course I benefited the most from. My self-belief increased in a very short time, regarding English. Thanks to teacher Utku, I got the YDS score I needed for a long time. Thank you.",
-        "author": "Tolga ARAS",
-        "role": "Master's Student"
+        "text": "I was looking for a language school in Avcılar that could support me through my YDT/IELTS exam process. Being close to my home and public transport, and the online/in-person group and one-on-one lesson options they offered during exam prep, were more than enough for me. The clean, spacious environment and the attentiveness of our teachers also made me very happy. After getting into university, I'm thinking of continuing here for other languages too.",
+        "author": "Esma Nur B.",
+        "role": ""
+      },
+      {
+        "id": 5,
+        "text": "After researching many different language schools, choosing this institution — looking back now — shows me how right a decision it was. The attention, sincerity and professionalism I encountered from the very first moment truly impressed me. The education system is well-planned and flexible according to the student's level, suitable both for beginners and those wanting advanced practice. Not just grammar, but speaking practice, listening comprehension and cultural awareness are skillfully integrated into the lesson content. Classes not being crowded allows teachers to engage with each student one-on-one. Materials used are current and interactive, genuinely making learning enjoyable. As someone who previously struggled with motivation in language learning, I saw through this institution how accessible and sustainable this learning process actually is. I'm quite pleased with where I've reached now. I wholeheartedly recommend it to anyone wanting to learn a foreign language.",
+        "author": "Beyza Ç.",
+        "role": ""
+      },
+      {
+        "id": 6,
+        "text": "I feel like I'm in the right place in my language-learning journey. This language school, where I'm taking lessons, exceeded my expectations both in teaching quality and its warm atmosphere — especially our teacher Beyza Ç., who is a true expert in her field and puts great dedication into her work. Her lessons are not only educational but also fun and motivating, explaining topics simply and clearly so students of every level can easily adapt. She patiently answers every question we ask and engages with each student one-on-one. The overall structure of the course is very successful too — materials are current and practical, and the classroom environment is extremely conducive to learning. Student follow-up and support systems are also quite effective; I can clearly see my own progress in a short time. I wholeheartedly recommend it to anyone who wants to learn a language!",
+        "author": "gyalin4",
+        "role": ""
+      },
+      {
+        "id": 7,
+        "text": "I researched many language schools in Avcılar, came here on a recommendation, and I'm very pleased. Special thanks to our teachers Mary and Robert. They don't just make you memorize — they teach the logic and ease of the language.",
+        "author": "Gamze T.",
+        "role": ""
+      },
+      {
+        "id": 8,
+        "text": "A very successful person who has raised everything she's taken on to success with perseverance — she has a founder like that. From the moment you meet Ms. Neslihan, you'll already sense you're in the right place. Combined with the institution's vision for language education, a truly successful institution has emerged. Highly recommended.",
+        "author": "Kübra Dicle A.",
+        "role": ""
+      },
+      {
+        "id": 9,
+        "text": "This was the institution I was most satisfied with during my search for an English course in Avcılar. Since I wanted to study abroad at university, I benefited from the school's private English lessons. The teachers' sincerity, attention and interest were wonderful, and I was able to reach the level I wanted. I recommend it to everyone.",
+        "author": "Hasancan T.",
+        "role": ""
+      },
+      {
+        "id": 10,
+        "text": "Genuinely the best English course in Avcılar. The teachers are well-equipped and support you in every way. I started my English journey at beginner level and I'm now continuing with advanced-level IELTS training. Definitely recommended.",
+        "author": "Tuba Y.",
+        "role": ""
+      },
+      {
+        "id": 11,
+        "text": "Teacher Beyza is genuinely an excellent teacher. Her lessons are both very enjoyable and very educational. She explains topics simply and clearly, patiently answering every question that comes to mind. Thanks to her, my interest in English grew. It's a real privilege to study with a teacher like her — I'm glad our paths crossed.",
+        "author": "Emine G.",
+        "role": ""
+      },
+      {
+        "id": 12,
+        "text": "As a result of my research and references, I discovered Akademik foreign language courses. The teachers' attentiveness and energy are amazing. They brought my daughter's English level up to an advanced level in a very short time. We're very pleased — the best English course in Avcılar, I definitely recommend it.",
+        "author": "Hatun B.",
+        "role": ""
+      },
+      {
+        "id": 13,
+        "text": "Instead of standardized courses, from what I've observed, I was very happy that you're coming to Avcılar with the teaching techniques you apply, your rich resource materials, and a team of experts just as successful one-on-one. I heard people were waiting to enroll even before Avcılar English Course opened, and I wasn't surprised at all. Welcome — with your vision you'll make a real difference in our area, and we'll be witnesses to your success. Congratulations.",
+        "author": "Ayhan Ş.",
+        "role": ""
+      },
+      {
+        "id": 14,
+        "text": "I had researched English courses in Avcılar extensively. I chose this one because of their own publications and their approach. I'm taking IELTS lessons and I'm very pleased.",
+        "author": "İrem Ç.",
+        "role": ""
+      },
+      {
+        "id": 15,
+        "text": "I took German lessons at the Beşiktaş Akademik Dil branch and was very pleased. An Avcılar English course, very close to my home, has opened. I'll continue my future education at the Avcılar branch.",
+        "author": "Alaaddin A.",
+        "role": ""
+      },
+      {
+        "id": 16,
+        "text": "Without a doubt number one among English courses in Avcılar. I had previously trained for IELTS at the Beşiktaş branch. Having it open in my hometown will be an opportunity to improve my speaking skills.",
+        "author": "Eylül Ö.",
+        "role": ""
+      },
+      {
+        "id": 17,
+        "text": "I took English and German lessons to use in my professional life. That's why it was very important to me that the teachers were native speakers. It wasn't just theory — it was very developing in terms of practical speaking and listening too. You can also join speaking classes outside your own lessons. I definitely recommend it to anyone who wants to learn or improve a language!",
+        "author": "Enes A.",
+        "role": ""
+      },
+      {
+        "id": 18,
+        "text": "I started to improve my English from a beginner level, and the level I've now reached even surprises me :) I'd say this is the best English course around, it was also very useful academically for me. It gave me confidence in a foreign language, both in my professional and everyday life. Thank you.",
+        "author": "Selvi G.",
+        "role": ""
+      },
+      {
+        "id": 19,
+        "text": "I used to go to the Beşiktaş branch, and had to take a break before because of the distance. I was extremely happy this one opened — Avcılar needed this. The whole team and teachers work happily. I trusted this and got started; there's no need to ever spend money elsewhere temporarily, this is simply the best. It's unbelievable that I enrolled this close to home.",
+        "author": "Şensu N.",
+        "role": ""
+      },
+      {
+        "id": 20,
+        "text": "I got the most detailed and comprehensive information among English courses in Avcılar right here — the attention and interest were top-notch even just during the pre-consultation. Thank you.",
+        "author": "Asil K.",
+        "role": ""
+      },
+      {
+        "id": 21,
+        "text": "Thanks to the teachers' experience and curriculum, I comfortably reached B1 level in English without confusion. My sibling has also started German lessons now and is very pleased too. Thank you for everything.",
+        "author": "Elif Y.",
+        "role": ""
+      },
+      {
+        "id": 22,
+        "text": "Avcılar English course is without a doubt the best — my daughter studied here. The teaching staff is extremely well-equipped, the management team is extremely attentive, and with education planning tailored to our needs, she progressed extremely fast. I wholeheartedly recommend it to everyone, definitely.",
+        "author": "Nazlı N.",
+        "role": ""
       }
     ],
     "videos": [
@@ -12406,10 +12516,6 @@
       {
         "title": "Avcılar English Course",
         "desc": "Avcılar English Course offers guaranteed success in a wide range of programs such as TOEFL iBT, IELTS Academic, IELTS General, YKS-DİL, YDT, Proficiency, Business English, English for Academic Purposes (EAP), Kids Program, and Speaking Club. Thousands of students have achieved their target scores thanks to the education they received at Avcılar English Courses. Providing education at all levels from A1 to C2, Avcılar's Best English Course appeals to a wide audience from children to professionals, and university candidates to students studying abroad, enabling students to achieve their academic and professional goals."
-      },
-      {
-        "title": "Avcılar English Course: Why Should You Learn English?",
-        "desc": "Individuals and parents searching for English courses in Avcılar are aware that knowing English has become almost a necessity in today's world. The advantages of knowing English in both personal and professional life are countless. If you <a href=\"/en/ingilizce-kursu\" class=\"textLink\">want to learn English</a>, Akademik International Language Course among Avcılar English Courses could be exactly what you're looking for."
       }
     ],
     "faq": {

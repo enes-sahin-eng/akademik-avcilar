@@ -5,7 +5,11 @@ import { HeroQuickNav } from "../components/course/HeroQuickNav";
 import { MiniGallery } from "../components/home/MiniGallery";
 import { CampusTabs } from "../components/ui/CampusTabs";
 import { CampusLocation } from "../components/campus/CampusLocation";
-import { HomeContentSection } from "../components/home/HomeContentSection";
+import { HomeArticle } from "../components/home/HomeArticle";
+import { FAQSection } from "../components/home/FAQSection";
+import { ProgramTabsSection } from "../components/home/ProgramTabsSection";
+import { UpcomingProgramsTable } from "../components/home/UpcomingProgramsTable";
+import homeContentStyles from "../components/home/HomeContentSection.module.css";
 import { StudentReviewsAndAwards } from "../components/home/StudentReviewsAndAwards";
 import { WhatsAppButton } from "../components/ui/WhatsAppButton";
 import PlacementTestBanner from "../components/course/PlacementTestBanner";
@@ -26,7 +30,9 @@ const HOME_TITLES: Record<string, string> = {
   ar: "دورة أفجيلار لتعليم اللغة الإنجليزية - أفضل دورة إنجليزية في أفجيلار",
 };
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { lang } = await params;
   const title = HOME_TITLES[lang];
   if (!title) return {};
@@ -40,6 +46,7 @@ export default async function Home({ params }: PageProps) {
   const { lang } = await params;
   const dictionary = await getDictionary(lang);
   const popupDict = (dictionary as any).languageInterestPopup;
+  const programsTitle = (dictionary as any)?.homeContentSection?.programsTitle;
 
   return (
     <div>
@@ -47,9 +54,34 @@ export default async function Home({ params }: PageProps) {
       <HeroSlider lang={lang} />
       <HeroQuickNav lang={lang} />
       <CampusLocation courseKey="homePage" lang={lang} />
+
+      {/* ANA İÇERİK — H1 + tanıtım metni */}
+      <section className={homeContentStyles.sectionContainer}>
+        <div className={homeContentStyles.contentWrapper}>
+          <HomeArticle lang={lang} />
+        </div>
+      </section>
+
+      {/* YORUMLAR + ÖDÜLLER — tek parça, ana içeriğin hemen altında */}
       <StudentReviewsAndAwards lang={lang} />
-      <HomeContentSection lang={lang} />
+
+      {/* TABLOLAR */}
+      <section className={homeContentStyles.sectionContainer}>
+        <ProgramTabsSection lang={lang} />
+      </section>
+      <section className={homeContentStyles.fullWidthBeige}>
+        <div className={homeContentStyles.innerContainer}>
+          {programsTitle && (
+            <h2 className={homeContentStyles.programsTitle}>{programsTitle}</h2>
+          )}
+          <UpcomingProgramsTable lang={lang} />
+        </div>
+      </section>
       <CourseHighlightTabs lang={lang} />
+
+      {/* SSS */}
+      <FAQSection lang={lang} />
+
       <MiniGallery lang={lang} />
       <CampusTabs lang={lang} />
       <InstagramFeed lang={lang} />

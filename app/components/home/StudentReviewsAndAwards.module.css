@@ -79,7 +79,9 @@
   /* stretch: tum kartlar en uzun kartin boyuna esitlenir, boylece
      yorum uzunlugu degisse de kart yuksekligi ayni kalir */
   align-items: stretch;
-  animation: scrollReviews 40s linear infinite;
+  /* 22 yorum kartı olduğu için (eskiden 4'tü) süre uzatıldı — aksi halde aynı
+     40s'de çok daha uzun bir şerit geçtiği için akış aşırı hızlı görünüyordu. */
+  animation: scrollReviews 130s linear infinite;
 }
 
 .marqueeTrack:hover .reviewsGroup {
@@ -150,6 +152,73 @@
   color: var(--text-primary);
   flex-grow: 1;
   font-style: italic;
+  /* Kart boyu sabit kalsın diye görünümde 5 satırla sınırlıyoruz — tam metin
+     her zaman DOM'da mevcut, sadece görsel olarak kısaltılıyor (arama
+     motorları ve "View Source" tam yorumu görür). */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.reviewReadMoreBtn {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: -8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-blue);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.reviewReadMoreBtn:hover {
+  opacity: 0.8;
+}
+
+/* YORUM MODAL'I */
+.reviewModalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.reviewModalContent {
+  position: relative;
+  max-width: min(90vw, 560px);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--bg-surface, #fbfbfd);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+:global([data-theme="dark"]) .reviewModalContent {
+  background: #14192b;
+}
+
+.reviewModalText {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  font-style: italic;
+  white-space: pre-wrap;
 }
 
 :global([data-theme="dark"]) .reviewText {
