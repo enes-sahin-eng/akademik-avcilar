@@ -31,7 +31,8 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://avcilaringilizcekursu.com.tr";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://avcilaringilizcekursu.com.tr";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -61,10 +62,10 @@ export async function generateMetadata({
 
   const titleSuffix =
     lang === "en"
-      ? "Avcılar English Language Course"
+      ? "Avcılar English Course"
       : lang === "ar"
-        ? "دورة أفجيلار لتعليم اللغة الإنجليزية"
-        : "Avcılar İngilizce Dil Kursu";
+        ? "دورة اللغة الإنجليزية في أفجيلار"
+        : "Avcılar İngilizce Kursu";
 
   return {
     metadataBase: new URL(siteUrl),
@@ -158,7 +159,12 @@ export default async function RootLayout({
   const dataTheme = cookieTheme === "dark" ? "dark" : "light";
 
   return (
-    <html lang={lang} dir={direction} suppressHydrationWarning data-theme={dataTheme}>
+    <html
+      lang={lang}
+      dir={direction}
+      suppressHydrationWarning
+      data-theme={dataTheme}
+    >
       <head>
         {/* JSON-LD */}
         <script
@@ -176,9 +182,7 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <body
-        className={`${inter.variable} ${poppins.variable}`}
-      >
+      <body className={`${inter.variable} ${poppins.variable}`}>
         <ThemeProvider>
           {children}
           <Footer lang={lang} />
