@@ -57,19 +57,16 @@ export const getOrganizationSchema = (siteUrl: string) => {
 
 export const getWebSiteSchema = (siteUrl: string, lang: string) => {
   const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
-  const siteName =
-    lang === "en"
-      ? "Avcılar English Language Courses"
-      : lang === "ar"
-        ? "دورات أفجيلار لتعليم اللغة الإنجليزية"
-        : "Avcılar İngilizce Dil Kursları";
-
+  
+  // Google Site Names özelliği sadece domain seviyesinde (root) çalışır.
+  // Bu yüzden "url" parametresi alt klasör (/tr) değil, direkt ana domain olmalıdır.
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": `${baseUrl}/${lang}/#website`,
-    "url": `${baseUrl}/${lang}`,
-    "name": siteName,
+    "@id": `${baseUrl}/#website`,
+    "url": `${baseUrl}/`,
+    "name": "Avcılar İngilizce Kursları",
+    "alternateName": ["Avcılar İngilizce Kursu", "Avcılar İngilizce Dil Kursları", "Avcılar Akademik"],
     "publisher": {
       "@id": `${baseUrl}/#organization`
     }

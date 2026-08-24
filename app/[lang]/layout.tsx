@@ -97,10 +97,10 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}`,
       siteName:
         lang === "en"
-          ? "Avcılar English Language Courses"
+          ? "Avcılar English Courses"
           : lang === "ar"
-            ? "دورات أفجيلار لتعليم اللغة الإنجليزية"
-            : "Avcılar İngilizce Dil Kursları",
+            ? "دورات أفجيلار الإنجليزية"
+            : "Avcılar İngilizce Kursları",
       locale: ogLocaleMap[lang] || ogLocaleMap[defaultLocale],
       alternateLocale: locales
         .filter((l) => l !== lang)
