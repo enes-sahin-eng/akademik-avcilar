@@ -17,6 +17,10 @@ import InstagramFeed from "../components/social/InstagramFeed";
 import CourseHighlightTabs from "../components/home/CourseHighlightTabs";
 import DeferredModals from "../components/home/DeferredModals";
 import { getDictionary } from "../dictionaries/getDictionary";
+import { getWebSiteSchema } from "../../src/utils/seo";
+
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://avcilaringilizcekursu.com.tr";
 
 interface PageProps {
   params: Promise<{
@@ -50,6 +54,15 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <div>
+      {/* Google "Site Name" özelliği WebSite şemasını YALNIZCA ana sayfada arıyor,
+          bu yüzden layout'ta (her sayfada) değil burada render ediliyor. */}
+      <script
+        id="website-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getWebSiteSchema(siteUrl)),
+        }}
+      />
       <Navbar lang={lang} />
       <HeroSlider lang={lang} />
       <HeroQuickNav lang={lang} />

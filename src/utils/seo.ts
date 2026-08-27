@@ -1,3 +1,18 @@
+/**
+ * Sitenin tek merkezi marka adı.
+ *
+ * Google'ın "Site Name" özelliği sinyalleri şu öncelikle okuyor:
+ *   1) WebSite JSON-LD `name`  2) og:site_name  3) <title>/başlıklar
+ * Bu üçü birbirinden farklı olursa Google hiçbirini seçmiyor. Bu yüzden
+ * titleSuffix, og:site_name ve WebSite.name aynı kaynaktan besleniyor.
+ */
+export const getSiteName = (lang: string) =>
+  lang === "en"
+    ? "Avcılar English Courses"
+    : lang === "ar"
+      ? "دورات أفجيلار لتعليم الإنجليزية"
+      : "Avcılar İngilizce Kursları";
+
 export const getOrganizationSchema = (siteUrl: string) => {
   const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
 
@@ -55,18 +70,27 @@ export const getOrganizationSchema = (siteUrl: string) => {
   };
 };
 
-export const getWebSiteSchema = (siteUrl: string, lang: string) => {
+export const getWebSiteSchema = (siteUrl: string) => {
   const baseUrl = siteUrl.endsWith('/') ? siteUrl.slice(0, -1) : siteUrl;
-  
-  // Google Site Names özelliği sadece domain seviyesinde (root) çalışır.
-  // Bu yüzden "url" parametresi alt klasör (/tr) değil, direkt ana domain olmalıdır.
+
+  // Google Site Names özelliği yalnızca domain kökü seviyesinde çalışıyor;
+  // bu yüzden @id/url dil alt yoluna (/tr, /en, /ar) değil köke bağlanıyor,
+  // name de tüm dillerde sabit tek isim (dil bazlı marka adı için ayrıca
+  // og:site_name kullanılıyor, bkz. layout.tsx).
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${baseUrl}/#website`,
     "url": `${baseUrl}/`,
-    "name": "Avcılar İngilizce Kursları",
-    "alternateName": ["Avcılar İngilizce Kursu", "Avcılar İngilizce Dil Kursları", "Avcılar Akademik"],
+    "name": getSiteName("tr"),
+    // Tercih sırasına göre: Google birincil ismi seçmezse bu listeden değerlendirir.
+    "alternateName": [
+      "Avcılar İngilizce Kursu",
+      "Avcılar İngilizce Dil Kursları",
+      "Avcılar English Courses",
+      "دورات أفجيلار لتعليم الإنجليزية",
+      "Avcılar Akademik"
+    ],
     "publisher": {
       "@id": `${baseUrl}/#organization`
     }

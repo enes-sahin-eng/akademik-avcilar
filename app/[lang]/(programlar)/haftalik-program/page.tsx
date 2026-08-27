@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { ProgramTabsSection } from '../../../components/home/ProgramTabsSection';
 import { type Locale } from '../../../dictionaries/getDictionary';
+import { getSiteName } from '../../../../src/utils/seo';
 
 interface PageProps {
   params: Promise<{
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://avcilaringilizcekursu.com.tr/${lang}/haftalik-program`,
       title: titleMap[lang] || titleMap.tr,
       description: descMap[lang] || descMap.tr,
-      siteName: 'Avcılar İngilizce Dil Kursu',
+      siteName: getSiteName(lang),
     },
     twitter: {
       card: 'summary_large_image',

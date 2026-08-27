@@ -14,7 +14,7 @@ import { ThemeProvider } from "../../src/context/ThemeContext";
 import { Footer } from "../components/layout/Footer";
 import { MobileBottomNav } from "../components/layout/MobileBottomNav";
 import FloatingRobotMount from "../components/ui/robot/FloatingRobotMount";
-import { getOrganizationSchema, getWebSiteSchema } from "../../src/utils/seo";
+import { getOrganizationSchema, getSiteName } from "../../src/utils/seo";
 
 /** Gövde metni — yüksek okunabilirlik */
 const inter = Inter({
@@ -60,12 +60,7 @@ export async function generateMetadata({
   const description: string =
     dict?.meta?.description ?? "Avcılar Frontend sitesi";
 
-  const titleSuffix =
-    lang === "en"
-      ? "Avcılar English Course"
-      : lang === "ar"
-        ? "دورة اللغة الإنجليزية في أفجيلار"
-        : "Avcılar İngilizce Kursu";
+  const titleSuffix = getSiteName(lang);
 
   return {
     metadataBase: new URL(siteUrl),
@@ -95,12 +90,9 @@ export async function generateMetadata({
       title,
       description,
       url: `${siteUrl}/${lang}`,
-      siteName:
-        lang === "en"
-          ? "Avcılar English Courses"
-          : lang === "ar"
-            ? "دورات أفجيلار الإنجليزية"
-            : "Avcılar İngilizce Kursları",
+      // og:site_name, Google'ın site adı sinyal sıralamasında 2. sırada.
+      // WebSite.name ve titleSuffix ile birebir aynı olmalı, yoksa sinyaller çakışır.
+      siteName: titleSuffix,
       locale: ogLocaleMap[lang] || ogLocaleMap[defaultLocale],
       alternateLocale: locales
         .filter((l) => l !== lang)
@@ -174,13 +166,8 @@ export default async function RootLayout({
             __html: JSON.stringify(getOrganizationSchema(siteUrl)),
           }}
         />
-        <script
-          id="website-schema"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getWebSiteSchema(siteUrl, lang)),
-          }}
-        />
+        {/* WebSite şeması bilinçli olarak burada DEĞİL: Google Site Name özelliği
+            onu yalnızca ana sayfada okuyor. Bkz. app/[lang]/page.tsx */}
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
         <ThemeProvider>
